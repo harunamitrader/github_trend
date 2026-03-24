@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="browser-use/browser-use を読み、AI エージェントにブラウザ操作面を与える基盤として何が強いかを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>browser-useは、AIにブラウザを触らせる基盤としてかなり実用寄りだった</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Trend Journal</p>
+      </div>
+
+      <h1 class="article-title">browser-useは、AIにブラウザを触らせる基盤としてかなり実用寄りだった</h1>
+      <p class="article-lead">
+        2026-03-24 時点の GitHub Trending 上位にいた
+        <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noreferrer">browser-use/browser-use</a>
+        は、AI エージェントに Web 操作面を渡すための OSS だ。README を見ると、デモ用途ではなく、
+        実際に動かすための quickstart や CLI、cloud との切り分けまで揃っている。
+      </p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">公開日</span>
+          <strong>2026-03-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>browser-use/browser-use</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ソース</span>
+          <strong>GitHub Trending / repo page</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          browser-use は “Make websites accessible for AI agents” を掲げる Python ライブラリだ。
+          つまりブラウザ自動化を AI エージェントの作業面に変えるための基盤で、用途はかなり広い。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          README ではフォーム入力、買い物、PC パーツ探索などのデモが並んでいて、
+          実際の Web タスクをエージェントに処理させるための土台として使われている。
+          custom tools、CLI、テンプレート生成、認証例まで用意されているのも強い。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          open source と cloud の役割分担を README 上で明確に分けているのが印象的だった。
+          self-host や custom tools が必要なら OSS、本番寄りの stealth や scale が欲しいなら cloud という整理で、
+          単なるサンプル repo よりずっと運用イメージがある。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Human Quickstart では Python 3.11 以上を前提に `uv init && uv add browser-use && uv sync` で導入し、
+          必要なら API キーを `.env` に入れた上で最初の agent を実行する流れになっている。
+          さらに `uvx browser-use init --template default` でテンプレートも作れる。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          AI エージェントに実際の Web を触らせたい人に向いている。特に、スクリーンショットや DOM ではなく、
+          「継続するブラウザ状態」を使って高速に反復したい人には扱いやすい。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          本番で大量に回すなら、認証、CAPTCHA、メモリ消費、対象サービスの規約を避けて通れない。
+          README でも production では cloud API を勧めていて、ローカルだけで全部済むとは言っていない。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          browser-use は、AI エージェントにブラウザ操作を渡すためのかなり実用寄りな基盤だった。
+          いまの Trending で基盤系 repo が強い流れの中でも、もっともわかりやすい代表格のひとつだと思う。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noreferrer">browser-use/browser-use</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

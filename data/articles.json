@@ -1,19 +1,64 @@
 {
   "site": {
     "title": "GitHub Trend Journal",
-    "description": "毎朝、GitHub Trending の未記事 repo を1本だけ記事化して公開するシンプルな Pages サイト",
+    "description": "GitHub Trending の未記事 repo を毎日追加して公開するシンプルな Pages サイト。",
     "trendingUrl": "https://github.com/trending",
     "repoUrl": "https://github.com/harunamitrader/github_trend"
   },
   "articles": [
     {
+      "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
+      "title": "MoneyPrinterV2は、収益化自動化をそのままOSS化したプロジェクトだった",
+      "summary": "GitHub Trending 上位の MoneyPrinterV2 を読み、収益化に近い作業をまとめて自動化する repo として何ができて、どこに注意すべきかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "FujiwaraChoki/MoneyPrinterV2",
+      "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "articleUrl": "./articles/2026-03-24-fujiwarachoki-moneyprinterv2.html"
+    },
+    {
       "slug": "2026-03-24-bytedance-deer-flow",
       "title": "deer-flowは、AIアプリではなく実行基盤として伸びている",
-      "summary": "GitHub Trending で伸びていた bytedance/deer-flow を読み、サンドボックス、メモリ、スキル、サブエージェントまで含んだ“運用基盤”として何が強いのかを短く整理する。",
+      "summary": "GitHub Trending で目立っていた bytedance/deer-flow を読み、sandbox、memory、skill、subagent まで含んだ「汎用基盤」として何が強いのかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "bytedance/deer-flow",
       "repoUrl": "https://github.com/bytedance/deer-flow",
       "articleUrl": "./articles/2026-03-24-bytedance-deer-flow.html"
+    },
+    {
+      "slug": "2026-03-24-crosstalk-solutions-project-nomad",
+      "title": "project-nomadは、オフライン運用を前提にした全部入り環境だった",
+      "summary": "GitHub Trending 上位の project-nomad を読み、AI だけでなく知識ライブラリや地図、教育まで抱えた offline survival computer として何が入っているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "Crosstalk-Solutions/project-nomad",
+      "repoUrl": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "articleUrl": "./articles/2026-03-24-crosstalk-solutions-project-nomad.html"
+    },
+    {
+      "slug": "2026-03-24-vxcontrol-pentagi",
+      "title": "pentagiは、自律型ペンテスト基盤をかなり本気で作っている",
+      "summary": "GitHub Trending 上位の pentagi を読み、自律型 penetration testing system としてどこまで基盤寄りに作り込まれているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "vxcontrol/pentagi",
+      "repoUrl": "https://github.com/vxcontrol/pentagi",
+      "articleUrl": "./articles/2026-03-24-vxcontrol-pentagi.html"
+    },
+    {
+      "slug": "2026-03-24-browser-use-browser-use",
+      "title": "browser-useは、AIにブラウザを触らせる基盤としてかなり実用寄りだった",
+      "summary": "GitHub Trending 上位の browser-use を読み、AI エージェントに Web 操作面を与える OSS として何が強いのかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "browser-use/browser-use",
+      "repoUrl": "https://github.com/browser-use/browser-use",
+      "articleUrl": "./articles/2026-03-24-browser-use-browser-use.html"
+    },
+    {
+      "slug": "2026-03-24-tauricresearch-tradingagents",
+      "title": "TradingAgentsは、投資判断を役割分担で回すマルチエージェント枠組みだった",
+      "summary": "GitHub Trending 上位の TradingAgents を読み、金融判断を複数の専門エージェントに分業させる framework としてどう設計されているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "TauricResearch/TradingAgents",
+      "repoUrl": "https://github.com/TauricResearch/TradingAgents",
+      "articleUrl": "./articles/2026-03-24-tauricresearch-tradingagents.html"
     }
   ]
 }
