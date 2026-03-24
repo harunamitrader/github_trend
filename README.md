@@ -1,17 +1,22 @@
-# GitHub Trending Zenn-style Page
+# GitHub Trend Journal
 
-`C:\Users\sgmxk\Desktop\AI\codex\project\github-trending-zenn-pages` は、2026-03-24 時点の GitHub Trending を題材にした静的ページです。
+`C:\Users\sgmxk\Desktop\AI\codex\project\github-trending-zenn-pages` は、GitHub Trending の未記事 repo を毎朝 1 本ずつ記事化して載せるための極シンプルな GitHub Pages 用サイトです。
 
-## ファイル
+## 構成
 
-- `index.html`: ページ本体
-- `styles.css`: Zenn 風の見た目
-- `app.js`: ランキングデータと描画処理
-- `favicon.svg`: アイコン
+- `index.html`: 最新記事と記事一覧だけを出すトップページ
+- `styles.css`: 共通スタイル
+- `app.js`: `data/articles.json` を読んで一覧を描画
+- `data/articles.json`: 公開済み記事の一覧
+- `articles/*.html`: 各記事ページ
+- `.github/workflows/deploy-pages.yml`: push 時の Pages デプロイ
+
+## 運用
+
+自動 API 投稿ではなく、Codex に毎朝「今日の記事作って」と頼んで更新する前提です。  
+daily 手順は `C:\Users\sgmxk\.codex\skills\github-trend-daily-writer` の skill に寄せます。
 
 ## ローカル確認
-
-PowerShell 例:
 
 ```powershell
 cd C:\Users\sgmxk\Desktop\AI\codex\project\github-trending-zenn-pages
@@ -19,15 +24,3 @@ python -m http.server 4173
 ```
 
 その後、`http://localhost:4173` を開く。
-
-## GitHub Pages で公開する方法
-
-1. このディレクトリの内容を公開用 GitHub リポジトリへ push する
-2. GitHub の Settings > Pages を開く
-3. Branch を `main`、Folder を `/ (root)` または `docs` に設定する
-4. 保存後、公開 URL に反映される
-
-## 注意
-
-- ランキング内容は 2026-03-24 のスナップショット
-- 後日同じ URL を見ても順位や掲載リポジトリは変わる

@@ -1,0 +1,19 @@
+{
+  "site": {
+    "title": "GitHub Trend Journal",
+    "description": "毎朝、GitHub Trending の未記事 repo を1本だけ記事化して公開するシンプルな Pages サイト",
+    "trendingUrl": "https://github.com/trending",
+    "repoUrl": "https://github.com/harunamitrader/github_trend"
+  },
+  "articles": [
+    {
+      "slug": "2026-03-24-bytedance-deer-flow",
+      "title": "deer-flowは、AIアプリではなく実行基盤として伸びている",
+      "summary": "GitHub Trending で伸びていた bytedance/deer-flow を読み、サンドボックス、メモリ、スキル、サブエージェントまで含んだ“運用基盤”として何が強いのかを短く整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "bytedance/deer-flow",
+      "repoUrl": "https://github.com/bytedance/deer-flow",
+      "articleUrl": "./articles/2026-03-24-bytedance-deer-flow.html"
+    }
+  ]
+}

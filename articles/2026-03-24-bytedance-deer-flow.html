@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="bytedance/deer-flow を読み、AI エージェントの実行基盤としてどこが強いかを短く整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>deer-flowは、AIアプリではなく実行基盤として伸びている</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Trend Journal</p>
+      </div>
+
+      <h1 class="article-title">deer-flowは、AIアプリではなく実行基盤として伸びている</h1>
+      <p class="article-lead">
+        2026-03-24 時点の GitHub Trending で上位にいた
+        <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">bytedance/deer-flow</a>
+        を読むと、いま人気なのは単発の AI アプリではなく、AI エージェントをどう動かし続けるかという基盤側だとわかる。
+      </p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">公開日</span>
+          <strong>2026-03-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>bytedance/deer-flow</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ソース</span>
+          <strong>GitHub Trending / repo page</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          deer-flow は、調査、実装、生成を横断する “SuperAgent harness” を掲げる OSS だ。説明文の時点で、
+          サンドボックス、メモリ、ツール、スキル、サブエージェント、メッセージゲートウェイまで含む構成が前に出ている。
+        </p>
+        <p>
+          つまり主役は「モデルに何を言わせるか」ではなく、「複数の部品をどう束ねてタスクを完走させるか」にある。
+        </p>
+
+        <h2>なぜ今伸びているのか</h2>
+        <p>
+          ここ最近の GitHub Trending では、AI 系でもチャット UI そのものより、実行基盤や運用ノウハウが伸びやすい。
+          deer-flow はその流れをかなりわかりやすく体現している。
+        </p>
+        <p>
+          特に強いのは、単体機能の寄せ集めではなく、長めのタスクを処理する前提で部品が並んでいる点だ。短いデモより、
+          継続実行や役割分担に関心が移っていることが見える。
+        </p>
+
+        <h2>触る前に見る点</h2>
+        <p>
+          こうした基盤系 OSS は、派手に見えるぶんだけ導入時の設計が重要になる。少なくとも次は先に見たほうがいい。
+        </p>
+        <ul>
+          <li>どこまでを自動化し、どこから人間が止めるか</li>
+          <li>ツール権限とサンドボックス境界をどう切るか</li>
+          <li>メモリや中間生成物をどこに残すか</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          deer-flow が伸びているのは、「AI アプリを作る」より「AI エージェントを運用する」ほうへ関心が移っているからだと見ている。
+          GitHub Trending の上位でこのタイプが強い日は、その日の空気感がかなり読みやすい。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">bytedance/deer-flow</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
