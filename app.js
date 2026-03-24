@@ -15,10 +15,13 @@ async function load() {
   const todayArticles = latestDate
     ? articles.filter((article) => article.publishedAt === latestDate)
     : [];
+  const archiveArticles = latestDate
+    ? articles.filter((article) => article.publishedAt !== latestDate)
+    : [];
 
   renderStats(articles, latestDate);
   renderToday(todayArticles, latestDate);
-  renderArchive(articles);
+  renderArchive(archiveArticles);
 }
 
 function renderStats(articles, latestDate) {
@@ -69,6 +72,16 @@ function renderToday(articles, latestDate) {
 }
 
 function renderArchive(articles) {
+  if (articles.length === 0) {
+    archiveRoot.innerHTML = `
+      <div class="archive-item">
+        <h3>まだ過去記事はありません。</h3>
+        <p>次回以降の更新から、この欄に当日分以外の記事が並びます。</p>
+      </div>
+    `;
+    return;
+  }
+
   archiveRoot.innerHTML = articles
     .map((article) => {
       return `
