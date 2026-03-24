@@ -172,6 +172,16 @@ p {
   border-radius: var(--radius-md);
 }
 
+.card-link-box {
+  display: block;
+  color: inherit;
+  cursor: pointer;
+}
+
+.card-link-box:hover {
+  text-decoration: none;
+}
+
 .latest-box h3,
 .archive-item h3 {
   color: var(--heading);

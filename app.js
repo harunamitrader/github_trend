@@ -58,15 +58,15 @@ function renderToday(articles, latestDate) {
     .map((article) => {
       const deckText = article.dek ?? article.summary;
       return `
-        <article class="latest-box">
-          <h3><a href="${article.articleUrl}">${article.title}</a></h3>
+        <a class="latest-box card-link-box" href="${article.articleUrl}">
+          <h3>${article.title}</h3>
           <div class="article-meta">
             <span>${latestDate}</span>
             <span>${article.repoName}</span>
           </div>
           <p>${deckText}</p>
-          <a class="link-button" href="${article.articleUrl}">記事を読む</a>
-        </article>
+          <span class="link-button">記事を読む</span>
+        </a>
       `;
     })
     .join("");
@@ -87,14 +87,14 @@ function renderArchive(articles) {
     .map((article) => {
       const deckText = article.dek ?? article.summary;
       return `
-        <article class="archive-item">
-          <h3><a href="${article.articleUrl}">${article.title}</a></h3>
+        <a class="archive-item card-link-box" href="${article.articleUrl}">
+          <h3>${article.title}</h3>
           <div class="archive-meta">
             <span>${article.publishedAt}</span>
             <span>${article.repoName}</span>
           </div>
           <p>${deckText}</p>
-        </article>
+        </a>
       `;
     })
     .join("");
