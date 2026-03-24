@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="vxcontrol/pentagi を読み、自律型ペネトレーションテスト基盤としてどこが特徴的かを整理した記事。"
+      content="vxcontrol/pentagi を読み、自律型ペンテスト基盤として何が作り込まれているのかを整理した記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>pentagiは、自律型ペンテスト基盤をかなり本気で作っている</title>
+    <title>vxcontrol/pentagi</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,75 +25,68 @@
         <p class="eyebrow">GitHub Trend Journal</p>
       </div>
 
-      <h1 class="article-title">pentagiは、自律型ペンテスト基盤をかなり本気で作っている</h1>
-      <p class="article-lead">
-        2026-03-24 時点の GitHub Trending にいた
-        <a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noreferrer">vxcontrol/pentagi</a>
-        は、複雑な penetration testing を自律的に進める AI Agents system を掲げるプロジェクトだ。
-        README を見ると、単なるエージェント実験ではなく、かなり重い基盤志向の設計になっている。
-      </p>
+      <h1 class="article-title">vxcontrol/pentagi</h1>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">公開日</span>
+          <span class="meta-label">記事作成日</span>
           <strong>2026-03-24</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">対象 repo</span>
-          <strong>vxcontrol/pentagi</strong>
+          <span class="meta-label">作成時順位</span>
+          <strong>4位</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">ソース</span>
-          <strong>GitHub Trending / repo page</strong>
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noreferrer">
+              vxcontrol/pentagi
+            </a>
+          </strong>
         </div>
       </div>
 
       <div class="article-body">
         <h2>これは何か</h2>
         <p>
-          PentAGI は、AI を使って penetration testing の工程を自律的に進めるためのシステムだ。
-          README の Overview では、情報セキュリティの実務者や研究者向けの柔軟な automated security testing tool と説明されている。
+          pentagi は、自律型の penetration testing system を名乗るプロジェクトです。
+          AI エージェントにペンテスト作業を担わせるという見せ方ですが、実態はかなり基盤寄りで、周辺設計まで含めて作り込まれています。
         </p>
 
         <h2>何ができるか</h2>
-        <p>Features を見ると、かなり多機能だ。特に目立つのは次のあたり。</p>
-        <ul>
-          <li>Docker ベースの隔離実行</li>
-          <li>自律的に手順を決める AI agent</li>
-          <li>20 以上のペンテストツール同梱</li>
-          <li>長期メモリと knowledge graph</li>
-          <li>専門エージェントへの委譲</li>
-          <li>REST / GraphQL API</li>
-        </ul>
+        <p>
+          公開情報では、20 以上のセキュリティツール連携、長期記憶、knowledge graph、複数の専門 sub-agent、
+          REST / GraphQL API などが案内されています。単発のチャット支援ではなく、継続実行型の作業システムです。
+        </p>
 
         <h2>目立つポイント</h2>
         <p>
-          いちばん強いのは、「AI に試させる」だけで終わらず、隔離実行、監視、レポート、API、永続化まで入れていることだ。
-          セキュリティ用途なので当然だが、基盤の重さを隠していないところがむしろ本気度に見える。
+          目立つのは、危険な領域を扱う前提で Docker ベースの隔離や構造化された制御面を用意しているところです。
+          セキュリティ分野では特に、派手な自動化より運用境界のほうが重要なので、その方向は妥当です。
         </p>
 
         <h2>セットアップや使い方の流れ</h2>
         <p>
-          Quick Start では Docker / Docker Compose 前提で、対話型 installer による導入が推奨されている。
-          Linux だけでなく Windows や macOS 向けの配布もあり、Docker 権限や `docker` グループ付与に関する注意も README でかなり丁寧に書かれている。
+          README ではインストーラと Docker を使った導入が案内されていて、依存ツール群もまとめて起動する想定です。
+          つまり試すだけでも、通常の AI アプリより少し重めの環境準備が必要になります。
         </p>
 
         <h2>どんな人向けか</h2>
         <p>
-          これは一般的な AI ツールというより、ペンテスト業務やセキュリティ研究をする人向けだ。
-          Web 自動化や agent orchestration に興味があるだけの人には重すぎるが、攻撃面の検証を体系化したい人には刺さる。
+          自律エージェントをセキュリティ運用や研究に接続したい人には興味深いです。
+          一方で、一般的な開発者が軽い勉強目的で触るには責任範囲が大きい repo です。
         </p>
 
         <h2>注意点</h2>
         <p>
-          当然ながら authorized な環境でしか使うべきではないし、Docker 権限の扱いも重い。
-          自律型であること自体が価値だが、同時に権限・ログ・実行範囲の管理を甘くできないタイプの repo でもある。
+          この分野は誤用リスクが高く、権限境界、対象環境、法的整理を曖昧にしたまま触るのは危険です。
+          自動化の精度より先に、どこで止めるかを考える必要があります。
         </p>
 
         <h2>まとめ</h2>
         <p>
-          pentagi は、AI エージェントをセキュリティ実務に寄せたときの基盤設計をかなり正面から作っている。
-          Trending 上位にいるのも、エージェントの応用先がますます具体化している流れの一部だと見ていい。
+          pentagi は、AI でペンテストを派手に見せる repo ではなく、自律実行システムとしてかなり本気で基盤を組んでいる印象でした。
+          話題性だけでなく、設計の重さが見えるタイプです。
         </p>
 
         <h2>参照リンク</h2>

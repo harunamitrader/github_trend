@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="TauricResearch/TradingAgents を読み、金融判断を分業する multi-agent framework として何が面白いかを整理した記事。"
+      content="TauricResearch/TradingAgents を読み、投資判断を役割分担で回すマルチエージェント枠組みを整理した記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>TradingAgentsは、投資判断を役割分担で回すマルチエージェント枠組みだった</title>
+    <title>TauricResearch/TradingAgents</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,70 +25,68 @@
         <p class="eyebrow">GitHub Trend Journal</p>
       </div>
 
-      <h1 class="article-title">TradingAgentsは、投資判断を役割分担で回すマルチエージェント枠組みだった</h1>
-      <p class="article-lead">
-        2026-03-24 時点の GitHub Trending にいた
-        <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">TauricResearch/TradingAgents</a>
-        は、実際の投資組織の役割分担を模した multi-agent trading framework だ。金融は AI の出口としてわかりやすいが、
-        この repo はその構造化の仕方がかなり明快だった。
-      </p>
+      <h1 class="article-title">TauricResearch/TradingAgents</h1>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">公開日</span>
+          <span class="meta-label">記事作成日</span>
           <strong>2026-03-24</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">対象 repo</span>
-          <strong>TauricResearch/TradingAgents</strong>
+          <span class="meta-label">作成時順位</span>
+          <strong>6位</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">ソース</span>
-          <strong>GitHub Trending / repo page</strong>
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">
+              TauricResearch/TradingAgents
+            </a>
+          </strong>
         </div>
       </div>
 
       <div class="article-body">
         <h2>これは何か</h2>
         <p>
-          TradingAgents は、fundamental analyst、sentiment expert、technical analyst、trader、risk manager など、
-          現実の投資チームの役割を LLM agent に割り当てて判断を組み立てるフレームワークだ。
+          TradingAgents は、金融判断を複数の専門エージェントに分業させるマルチエージェント framework です。
+          ひとつのモデルに全部やらせるのではなく、役割を分けた上で最終判断を組み立てる設計になっています。
         </p>
 
         <h2>何ができるか</h2>
         <p>
-          README では、複数の専門エージェントが市場状況を評価し、議論し、最終的に取引判断へつなぐ流れが説明されている。
-          CLI でも Python API でも触れられ、LangGraph ベースで柔軟に組み替えられるように設計されている。
+          README では、ファンダメンタル、センチメント、テクニカル、リスク管理、トレーダー役のような構成が紹介されています。
+          つまり、投資判断を会議体のように分解して扱うのが基本思想です。
         </p>
 
         <h2>目立つポイント</h2>
         <p>
-          良いのは、マルチエージェントを見せるための玩具ではなく、「投資判断を役割分担に分解する」という筋が通っていることだ。
-          さらに複数 LLM provider を選べるので、研究用の比較対象としても使いやすい。
+          面白いのは、マルチエージェントという言葉を抽象論ではなく、金融判断フローにかなり素直に落としている点です。
+          役割の分離がそのまま説明可能性にもつながるので、題材との相性が良いです。
         </p>
 
         <h2>セットアップや使い方の流れ</h2>
         <p>
-          README の Installation では repo を clone し、Python 3.13 の仮想環境を作って `pip install .` する流れだ。
-          その後は `tradingagents` コマンドで CLI を開くか、`TradingAgentsGraph()` を Python から呼ぶ形になる。
+          README では Python 3.13 前提で clone 後に `pip install .` を行い、CLI か Python API から使う流れです。
+          研究用途として触る入口はそこまで重くありません。
         </p>
 
         <h2>どんな人向けか</h2>
         <p>
-          金融データを使ったマルチエージェント研究や、LLM の意思決定構造を比較したい人に向いている。
-          「AI にトレードさせたい」人全般より、まず研究・検証寄りの人向けだと感じる。
+          マルチエージェント構成を金融ドメインで試したい人にはかなりわかりやすい教材です。
+          逆に、実売買でそのまま使う前提で見ると、考えるべきことが一気に増えます。
         </p>
 
         <h2>注意点</h2>
         <p>
-          README でも research purposes であり、financial advice ではないと明記されている。
-          実売買に近づけるほど、データ品質、バックテスト、非決定性、モデル選定の問題が一気に重くなる。
+          README 側でも研究用途であり投資助言ではないことが明示されています。
+          マルチエージェント化しても、市場データ品質、遅延、過学習、責任範囲の問題は消えません。
         </p>
 
         <h2>まとめ</h2>
         <p>
-          TradingAgents は、金融判断をエージェント分業で整理した、かなりわかりやすいマルチエージェント実験場だ。
-          Trending で強いのも、AI と成果物の距離が短いテーマだからだろう。
+          TradingAgents は、投資判断を役割分担で回す構造をそのまま framework 化した repo でした。
+          マルチエージェントの具体例として見やすく、Trending に入るのも自然です。
         </p>
 
         <h2>参照リンク</h2>
@@ -96,7 +94,9 @@
           <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
         </div>
         <div class="source-item">
-          <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">TauricResearch/TradingAgents</a>
+          <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">
+            TauricResearch/TradingAgents
+          </a>
         </div>
       </div>
     </article>

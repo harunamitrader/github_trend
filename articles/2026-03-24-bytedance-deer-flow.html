@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="bytedance/deer-flow を読み、AI エージェントの実行基盤としてどこが強いかを短く整理した記事。"
+      content="bytedance/deer-flow を読み、AI エージェント実行基盤として何が強いのかを整理した記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>deer-flowは、AIアプリではなく実行基盤として伸びている</title>
+    <title>bytedance/deer-flow</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,62 +25,68 @@
         <p class="eyebrow">GitHub Trend Journal</p>
       </div>
 
-      <h1 class="article-title">deer-flowは、AIアプリではなく実行基盤として伸びている</h1>
-      <p class="article-lead">
-        2026-03-24 時点の GitHub Trending で上位にいた
-        <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">bytedance/deer-flow</a>
-        を読むと、いま人気なのは単発の AI アプリではなく、AI エージェントをどう動かし続けるかという基盤側だとわかる。
-      </p>
+      <h1 class="article-title">bytedance/deer-flow</h1>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">公開日</span>
+          <span class="meta-label">記事作成日</span>
           <strong>2026-03-24</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">対象 repo</span>
-          <strong>bytedance/deer-flow</strong>
+          <span class="meta-label">作成時順位</span>
+          <strong>2位</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">ソース</span>
-          <strong>GitHub Trending / repo page</strong>
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">
+              bytedance/deer-flow
+            </a>
+          </strong>
         </div>
       </div>
 
       <div class="article-body">
         <h2>これは何か</h2>
         <p>
-          deer-flow は、調査、実装、生成を横断する “SuperAgent harness” を掲げる OSS だ。説明文の時点で、
-          サンドボックス、メモリ、ツール、スキル、サブエージェント、メッセージゲートウェイまで含む構成が前に出ている。
-        </p>
-        <p>
-          つまり主役は「モデルに何を言わせるか」ではなく、「複数の部品をどう束ねてタスクを完走させるか」にある。
+          deer-flow は、単体アプリというより AI エージェントを動かすための実行基盤として設計された OSS です。
+          sandbox、memory、tool、skill、subagent のような要素が前に出ていて、機能より基盤の層に重心があります。
         </p>
 
-        <h2>なぜ今伸びているのか</h2>
+        <h2>何ができるか</h2>
         <p>
-          ここ最近の GitHub Trending では、AI 系でもチャット UI そのものより、実行基盤や運用ノウハウが伸びやすい。
-          deer-flow はその流れをかなりわかりやすく体現している。
-        </p>
-        <p>
-          特に強いのは、単体機能の寄せ集めではなく、長めのタスクを処理する前提で部品が並んでいる点だ。短いデモより、
-          継続実行や役割分担に関心が移っていることが見える。
+          README と公開情報を見る限り、複数ステップの推論、外部ツール呼び出し、状態保持、権限制御まで含めて
+          エージェントを継続実行するための土台をまとめて持っています。チャット UI そのものより、裏側の運転席を作る repo です。
         </p>
 
-        <h2>触る前に見る点</h2>
+        <h2>目立つポイント</h2>
         <p>
-          こうした基盤系 OSS は、派手に見えるぶんだけ導入時の設計が重要になる。少なくとも次は先に見たほうがいい。
+          目立つのは、単なるワークフロー自動化ではなく、エージェント運用に必要な周辺部品をかなり広く抱えている点です。
+          ここがあると、利用側は個別機能ではなく実行環境全体を組み立てやすくなります。
         </p>
-        <ul>
-          <li>どこまでを自動化し、どこから人間が止めるか</li>
-          <li>ツール権限とサンドボックス境界をどう切るか</li>
-          <li>メモリや中間生成物をどこに残すか</li>
-        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          実際に使う場合は、モデル設定、ツール設定、実行権限、状態保存先の整理が重要になります。
+          つまり導入で効くのは UI の分かりやすさより、運用ルールと環境設計のほうです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          既存 LLM を使って複数ステップのタスク実行基盤を組みたい人にはかなり向いています。
+          逆に、すぐ完成品アプリを使いたい人には少し基盤寄りすぎます。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          基盤系 repo は、見た目以上に権限設計と失敗時の挙動が大事です。便利に見えても、
+          運用側が監視や安全策を持たないと一気に扱いづらくなります。
+        </p>
 
         <h2>まとめ</h2>
         <p>
-          deer-flow が伸びているのは、「AI アプリを作る」より「AI エージェントを運用する」ほうへ関心が移っているからだと見ている。
-          GitHub Trending の上位でこのタイプが強い日は、その日の空気感がかなり読みやすい。
+          deer-flow は、AI 機能を見せる repo ではなく、AI エージェントを長く安全に走らせるための土台として伸びている印象でした。
+          Trending 上位にいるのも、今の関心がアプリより運用基盤に寄っていることをよく示しています。
         </p>
 
         <h2>参照リンク</h2>
