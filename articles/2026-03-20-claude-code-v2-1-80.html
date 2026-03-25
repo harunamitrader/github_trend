@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.80 (2026-03-20) のリリース情報をまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.80 Released</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.80: クォータの可視化とプラグイン管理の柔軟性</h1>
+      <p class="article-dek">`rate_limits` フィールドのステータスラインへの導入と、新しいプラグインソース `source: 'settings'` のサポート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.80</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な新機能</h2>
+        <p>
+          Claude Code v2.1.80 では、ユーザーが自身の使用状況をより正確に把握し、環境をカスタマイズするための機能が強化されました。
+        </p>
+
+        <h3>`rate_limits` 表示機能</h3>
+        <p>
+          ステータスラインのスクリプトにおいて、Claude.ai のレート制限使用状況（5時間及び7日間のウィンドウ）の表示を可能にする `rate_limits` フィールドが追加されました。
+          これにより、消費されたパーセンテージやリセット時刻を即座に確認できます。
+        </p>
+
+        <h3>プラグイン管理の改善</h3>
+        <p>
+          マーケットプレイス経由ではなく、`settings.json` 内にインラインでプラグインエントリを記述できる `source: 'settings'` が導入されました。
+          独自のプラグインをより手軽に、かつ集中的に管理できるようになります。
+        </p>
+
+        <h3>モデル Effort フロントマターの対応</h3>
+        <p>
+          スキルやスラッシュコマンド（/commands）の呼び出し時に、モデルの「思考の深さ（Effort）」レベルを個別に上書き指定できるフロントマターがサポートされました。
+          複雑な問題に対してのみ、リソースを集中させることが可能です。
+        </p>
+
+        <h2>改善と修正</h2>
+        <ul>
+          <li><strong>リサーチプレビュー</strong>: MCP サーバーからセッションへのメッセージプッシュを可能にする `--channels` オプションを試験導入。</li>
+          <li><strong>利便性の向上</strong>: CLI ツールの使用状況をプラグインのヒントに活用できるよう改善。</li>
+          <li><strong>安定性向上</strong>: セッションの再開、ストリーミング、音声モード、リモート操作などに関連する複数のバグを修正。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          v2.1.80 は、ヘビーユーザーにとって特に恩恵の大きいアップデートです。
+          レート制限の可視化と柔軟なプラグイン管理により、開発フローがより透明で拡張的なものになります。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropic-ai/claude-code/releases/tag/v2.1.80" target="_blank" rel="noreferrer">GitHub: anthropic-ai/claude-code (v2.1.80)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

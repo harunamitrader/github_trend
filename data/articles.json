@@ -7,6 +7,36 @@
   },
   "articles": [
     {
+      "slug": "2026-03-21-claude-code-v2-1-81",
+      "title": "Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上",
+      "dek": "`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。",
+      "summary": "Claude Code v2.1.81 のリリース情報を読み、--bare フラグによる CI/CD 最適化や Permission Relay によるモバイル承認機能の詳細を整理する。",
+      "publishedAt": "2026-03-21",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/2026-03-21-claude-code-v2-1-81.html"
+    },
+    {
+      "slug": "2026-03-20-claude-code-v2-1-80",
+      "title": "Claude Code v2.1.80: クォータの可視化とプラグイン管理の柔軟性",
+      "dek": "`rate_limits` フィールドのステータスラインへの導入と、新しいプラグインソース `source: 'settings'` のサポート。",
+      "summary": "Claude Code v2.1.80 のリリース情報を読み、rate_limits フィールドによる使用状況の可視化やプラグイン管理の改善ポイントを整理する。",
+      "publishedAt": "2026-03-20",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/2026-03-20-claude-code-v2-1-80.html"
+    },
+    {
+      "slug": "2026-03-18-claude-code-v2-1-79",
+      "title": "Claude Code v2.1.79: Console 認証対応と信頼性の強化",
+      "dek": "Anthropic Console 経由のログイン対応と、長時間セッションにおけるハングアップの解消。",
+      "summary": "Claude Code v2.1.79 のリリース情報を読み、Anthropic Console 認証 (--console) の導入と API タイムアウト改善による信頼性向上を整理する。",
+      "publishedAt": "2026-03-18",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/2026-03-18-claude-code-v2-1-79.html"
+    },
+    {
       "slug": "2026-03-24-antigravity-v1-20-6",
       "title": "Antigravity v1.20.6: ターミナル体験の刷新",
       "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",

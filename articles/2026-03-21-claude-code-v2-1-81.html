@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.81 (2026-03-21) のリリース情報をまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.81 Released</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上</h1>
+      <p class="article-dek">`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.81</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な新機能</h2>
+        <p>
+          Claude Code v2.1.81 では、CI/CD や自動化スクリプトでの利用を想定した重要な機能が追加されました。
+        </p>
+
+        <h3>`--bare` フラグの導入</h3>
+        <p>
+          スクリプトから `-p` (print) モードで Claude Code を呼び出す際、UI フックや LSP (Language Server Protocol)、プラグインの同期、及びスキルディレクトリの走査をスキップできるようになりました。
+          これにより、オーバーヘッドを最小限に抑えた高速な実行が可能になります。
+        </p>
+
+        <h3>モバイル承認（Permission Relay）</h3>
+        <p>
+          許可機能を宣言したチャンネルサーバーを介して、PC 上でのツール実行承認プロンプトをスマートフォンに転送できるようになりました。
+          外出先からでもエージェントの作業を見守り、承認を与えることが可能です。
+        </p>
+
+        <h2>改善と修正</h2>
+        <ul>
+          <li><strong>マルチセッションの安定化</strong>: 複数の Claude Code セッションを同時に実行している際、一方の OAuth トークンが更新されても他方での再認証が不要に。</li>
+          <li><strong>音声モードの修正</strong>: ネットワークエラー時に誤ったメッセージが表示される問題を解決。</li>
+          <li><strong>MCPツール出力</strong>: モデルからのツール出力の視認性とバッシュモードの発見性を向上。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          今回のアップデートは、Claude Code を単なる対話ツールから、より堅牢な自動化基盤へと進化させる内容です。
+          特に `--bare` モードは、大規模なソースコード解析を自動化したい開発者にとって非常に強力な武器となるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropic-ai/claude-code/releases/tag/v2.1.81" target="_blank" rel="noreferrer">GitHub: anthropic-ai/claude-code (v2.1.81)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

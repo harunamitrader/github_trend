@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.79 (2026-03-18) のリリース情報をまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.79 Released</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.79: Console 認証対応と信頼性の強化</h1>
+      <p class="article-dek">Anthropic Console 経由のログイン対応と、長時間セッションにおけるハングアップの解消。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.79</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な新機能</h2>
+        <p>
+          Claude Code v2.1.79 では、法人利用や API 利用者にとって待望の認証機能が追加されました。
+        </p>
+
+        <h3> Anthropic Console 認証への対応</h3>
+        <p>
+          `claude auth login --console` フラグが追加され、Anthropic Console (API クレジット決済) 経由での認証が可能になりました。
+          これにより、Claude.ai の個人プランとは異なる API アカウントでの利用が容易になります。
+        </p>
+
+        <h3> 実行時間の可視化</h3>
+        <p>
+          `/config` メニューに「ターンの所要時間を表示（Show turn duration）」の切り替えトグルが追加されました。
+          各応答にどれくらいの時間がかかったかを計測し、効率化の指標とすることができます。
+        </p>
+
+        <h2>改善と信頼性の向上</h2>
+        <ul>
+          <li><strong>API タイムアウトの改善</strong>: 非ストリーミング応答時に、1リクエストにつき 2 分間のタイムアウトを設定。長時間応答を待ってセッションが固まる問題を防止します。</li>
+          <li><strong>`-p` モードの修正</strong>: 標準入力を指定せずにサブプロセスとして起動した際にハングアップする問題を修正。CI 環境等での動作が安定しました。</li>
+          <li><strong>メモリ使用量の最適化</strong>: 起動時のメモリ消費量を約 18MB 削減。より軽量に動作するようになりました。</li>
+          <li><strong>プラグインの拡張</strong>: `CLAUDE_CODE_PLUGIN_SEED_DIR` において、セミコロン区切りで複数のシードディレクトリを指定可能に。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          v2.1.79 は、地味ながらも堅実な改善が詰め込まれたアップデートです。
+          Console 認証の導入により、ビジネスシーンでの Claude Code 活用がさらに加速することでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropic-ai/claude-code/releases/tag/v2.1.79" target="_blank" rel="noreferrer">GitHub: anthropic-ai/claude-code (v2.1.79)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
