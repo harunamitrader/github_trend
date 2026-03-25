@@ -8,10 +8,6 @@ repos = [
     ("claude-code", "anthropic-ai/claude-code"),
     ("openclaw", "benny-macho/openclaw"),
     ("grok-cli", "x-ai/grok-cli"),
-    ("antigravity", "google/antigravity"),
-    ("724-office", "wangziqi06/724-office"),
-    ("mobile-use", "minitap-ai/mobile-use"),
-    ("deer-flow", "bytedance/deer-flow"),
 ]
 
 results = {}

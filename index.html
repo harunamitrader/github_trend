@@ -17,7 +17,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="alternate" type="application/rss+xml" title="harunami AI base RSS Feed" href="./feed.xml" />
     <style>
       .top-grid {
         display: grid;
@@ -126,125 +125,50 @@
         </p>
       </header>
 
-      <section class="trending-ticker" style="margin-bottom: 24px;">
-        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 20px; border-radius: 999px; background: #fff; border: 1.5px solid var(--line); box-shadow: var(--shadow-sm);">
-          <span style="background: #0969da; color: #fff; font-size: 0.7rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Trending Today</span>
-          <div class="ticker-content" style="display: flex; gap: 24px; font-size: 0.88rem; overflow-x: auto; white-space: nowrap; flex: 1; padding-bottom: 2px;">
-            <a href="https://github.com/Crosstalk-Solutions/project-nomad" target="_blank" style="color: inherit; text-decoration: none;">
-              <strong>1. project-nomad</strong> <span style="color: var(--text-muted); font-size: 0.8rem;">(Survival PC with AI)</span> <span style="color: #d97706;">★1,717</span>
-            </a>
-            <a href="https://github.com/ruvnet/RuView" target="_blank" style="color: inherit; text-decoration: none;">
-              <strong>2. RuView</strong> <span style="color: var(--text-muted); font-size: 0.8rem;">(WiFi Pose Estimation)</span> <span style="color: #d97706;">★1,083</span>
-            </a>
-            <a href="https://github.com/FujiwaraChoki/MoneyPrinterV2" target="_blank" style="color: inherit; text-decoration: none;">
-              <strong>3. MoneyPrinterV2</strong> <span style="color: var(--text-muted); font-size: 0.8rem;">(Automated Earning)</span> <span style="color: #d97706;">★1,065</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
       <main class="layout">
-        <section class="card" style="margin-top: 32px;">
-          <div class="section-head" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;">
-            <div>
-              <p class="eyebrow">Recent Updates</p>
-              <h2>最新の更新</h2>
-            </div>
-            <div class="controls" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-              <div class="search-box" style="position: relative; flex: 1; min-width: 200px;">
-                <input type="text" id="article-search" placeholder="記事を検索..." style="width: 100%; padding: 8px 12px 8px 32px; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface-strong); font-size: 0.88rem; font-family: inherit; color: var(--text);">
-                <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: 0.5;">🔍</span>
-              </div>
-              <div class="filter-bar" style="display: flex; gap: 8px;">
-                <button class="filter-btn active" data-category="all">All</button>
-                <button class="filter-btn" data-category="ai-tool-log">Tool</button>
-                <button class="filter-btn" data-category="github-trending">GitHub</button>
-              </div>
-            </div>
+        <section class="card">
+          <div class="section-head">
+            <p class="eyebrow">Navigation</p>
+            <h2>コンテンツ一覧</h2>
           </div>
 
-          <div id="latest-updates-list" class="archive-list" style="margin-top: 20px;">
-            <!-- JavaScriptでレンダリング -->
-            <div class="loading-placeholder" style="padding: 40px; text-align: center; color: var(--text-muted);">
-              読み込み中...
-            </div>
+          <div class="top-grid">
+            <a href="./github-trend.html" class="nav-card card-github">
+              <div class="nav-card-title">GitHub Watcher</div>
+              <p class="nav-card-desc">
+                GitHub Trendingの注目リポジトリを毎朝チェック・解説
+              </p>
+              <span class="nav-card-arrow">記事を読む →</span>
+            </a>
+
+            <a href="./ai-tools-monitor.html" class="nav-card card-aitools">
+              <div class="nav-card-title">AI Tool Log</div>
+              <p class="nav-card-desc">
+                主要AIコーディングツールのリリース情報を監視
+              </p>
+              <span class="nav-card-arrow">更新情報を見る →</span>
+            </a>
+
+            <a href="./my-tools.html" class="nav-card card-mytools">
+              <div class="nav-card-title">My Project</div>
+              <p class="nav-card-desc">
+                自作AIツール・自動化スクリプトの紹介
+              </p>
+              <span class="nav-card-arrow">ツールを見る →</span>
+            </a>
+
+            <a href="./links.html" class="nav-card card-links">
+              <div class="nav-card-title">AI Bookmark</div>
+              <p class="nav-card-desc">
+                各媒体から気になったAI関連リンクを収集・整理
+              </p>
+              <span class="nav-card-arrow">リンクを見る →</span>
+            </a>
           </div>
         </section>
       </main>
 
       <footer class="footer"><p>harunami AI base</p></footer>
     </div>
-
-    <script>
-      (async function() {
-        const listRoot = document.getElementById('latest-updates-list');
-        const buttons = document.querySelectorAll('.filter-btn');
-        const searchInput = document.getElementById('article-search');
-        
-        const response = await fetch('./data/articles.json', { cache: 'no-store' });
-        const data = await response.json();
-        const allArticles = [...data.articles].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
-
-        let currentCategory = 'all';
-        let currentSearch = '';
-
-        function render() {
-          let filtered = allArticles;
-          
-          if (currentCategory !== 'all') {
-            filtered = filtered.filter(a => a.category === currentCategory);
-          }
-          
-          if (currentSearch) {
-            const lowSearch = currentSearch.toLowerCase();
-            filtered = filtered.filter(a => 
-              a.title.toLowerCase().includes(lowSearch) || 
-              (a.dek && a.dek.toLowerCase().includes(lowSearch)) || 
-              (a.summary && a.summary.toLowerCase().includes(lowSearch)) ||
-              a.repoName.toLowerCase().includes(lowSearch)
-            );
-          }
-
-          // 最新15件まで表示（検索時は件数制限を少し緩める）
-          const displayItems = filtered.slice(0, 15);
-          
-          if (displayItems.length === 0) {
-            listRoot.innerHTML = '<div style="padding: 40px; text-align: center; color: var(--text-muted);">該当する記事がありません。</div>';
-            return;
-          }
-
-          listRoot.innerHTML = displayItems.map(a => `
-            <a class="archive-item card-link-box" href="${a.articleUrl}">
-              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
-                <h3 style="margin: 0; font-size: 1.05rem;">${a.title}</h3>
-                <span class="category-tag ${a.category}" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">${a.category === 'ai-tool-log' ? 'Tool' : 'GitHub'}</span>
-              </div>
-              <div class="archive-meta" style="margin-bottom: 8px;">
-                <span>${a.publishedAt}</span>
-                <span>${a.repoName}</span>
-              </div>
-              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-muted); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${a.dek || a.summary}</p>
-            </a>
-          `).join('');
-        }
-
-        buttons.forEach(btn => {
-          btn.addEventListener('click', () => {
-            buttons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentCategory = btn.dataset.category;
-            render();
-          });
-        });
-
-        searchInput.addEventListener('input', (e) => {
-          currentSearch = e.target.value;
-          render();
-        });
-
-        // 初期表示
-        render();
-      })();
-    </script>
   </body>
 </html>
