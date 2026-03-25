@@ -442,14 +442,22 @@ p {
 }
 
 /* Tool Specific Accents */
-.card-claudecode { --accent: #d97706; }
+.card-claudecode  { --accent: #d97706; }
 .card-antigravity { --accent: #7c3aed; }
-.card-cursor { --accent: #2563eb; }
-.card-windsurf { --accent: #0891b2; }
-.card-cline { --accent: #db2777; }
-.card-geminicli { --accent: #4f46e5; }
-.card-copilot { --accent: #000000; }
-.card-codex { --accent: #059669; }
+.card-cursor      { --accent: #2563eb; }
+.card-windsurf    { --accent: #0891b2; }
+.card-cline       { --accent: #db2777; }
+.card-geminicli   { --accent: #4f46e5; }
+.card-copilot     { --accent: #000000; }
+.card-codex       { --accent: #059669; }
+.card-openclaw    { --accent: #e11d48; }
+.card-chatgpt     { --accent: #10a37f; }
+.card-gemini      { --accent: #1a73e8; }
+.card-claude      { --accent: #c96442; }
+.card-grok        { --accent: #1d1d1d; }
+.card-grokcli     { --accent: #4b5563; }
+.card-genspark    { --accent: #f59e0b; }
+.card-perplexity  { --accent: #20b2aa; }
 
 @media (max-width: 720px) {
   .shell {
