@@ -576,7 +576,28 @@ p {
   text-decoration: none;
 }
 .top-nav .nav-item.active {
-  color: #0284c7;
+  color: var(--theme-color, #0284c7);
   font-weight: 700;
-  border-bottom-color: #0284c7;
+  border-bottom-color: var(--theme-color, #0284c7);
+}
+
+/* Page Theme Colors */
+.theme-home   { --theme-color: #4f46e5; --hero-bg: #eef2ff; }
+.theme-github { --theme-color: #0969da; --hero-bg: #dbeafe; }
+.theme-aitools { --theme-color: #7c3aed; --hero-bg: #ede9fe; }
+.theme-project { --theme-color: #059669; --hero-bg: #d1fae5; }
+.theme-bookmark { --theme-color: #d97706; --hero-bg: #fef3c7; }
+
+[class^="theme-"] .hero {
+  background: var(--hero-bg);
+  border-color: transparent;
+}
+
+[class^="theme-"] .hero .eyebrow,
+[class^="theme-"] .hero .hero-link {
+  color: var(--theme-color);
+}
+
+[class^="theme-"] .top-nav .nav-item:hover {
+  color: var(--theme-color);
 }
