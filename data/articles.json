@@ -7,6 +7,36 @@
   },
   "articles": [
     {
+      "slug": "2026-03-24-antigravity-v1-20-6",
+      "title": "Antigravity v1.20.6: ターミナル体験の刷新",
+      "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",
+      "summary": "Antigravity v1.20.6 のリリース情報を読み、ターミナル統合の改善やアーティファクトのダウンロードサポートの詳細を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/2026-03-24-antigravity-v1-20-6.html"
+    },
+    {
+      "slug": "2026-03-09-antigravity-v1-20-5",
+      "title": "Antigravity v1.20.5: パフォーマンスと安定性の向上",
+      "dek": "大規模プロジェクトにおけるメモリ使用量の最適化。",
+      "summary": "Antigravity v1.20.5 のリリース情報を読み、大規模プロジェクトにおけるメモリ管理の強化とUIの改善ポイントを整理する。",
+      "publishedAt": "2026-03-09",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/2026-03-09-antigravity-v1-20-5.html"
+    },
+    {
+      "slug": "2026-03-05-antigravity-v1-20-3",
+      "title": "Antigravity v1.20.3: ルールによるエージェント制御の進化",
+      "dek": "AGENTS.md を用いたプロジェクト固有ルールの自動適用。",
+      "summary": "Antigravity v1.20.3 のリリース情報を読み、AGENTS.md によるプロジェクト・ルールの公式サポートとエージェント制御の進化を整理する。",
+      "publishedAt": "2026-03-05",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/2026-03-05-antigravity-v1-20-3.html"
+    },
+    {
       "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
       "title": "MoneyPrinterV2",
       "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",

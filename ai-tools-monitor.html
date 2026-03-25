@@ -17,55 +17,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <style>
-      .tool-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 16px;
-        margin-top: 24px;
-      }
-      .tool-card {
-        padding: 20px;
-        border-radius: var(--radius-md);
-        border: 1px solid var(--line);
-        background: var(--surface-strong);
-        transition: transform 0.2s ease;
-      }
-      .tool-card:hover {
-        transform: translateY(-2px);
-        border-color: var(--primary);
-      }
-      .tool-name {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: var(--heading);
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-      .tool-status {
-        font-size: 0.85rem;
-        color: var(--text-muted);
-        margin-bottom: 12px;
-      }
-      .tool-meta {
-        display: flex;
-        justify-content: space-between;
-        font-size: 0.9rem;
-        border-top: 1px solid var(--line);
-        padding-top: 12px;
-        margin-top: 12px;
-      }
-      .status-tag {
-        padding: 2px 8px;
-        border-radius: 4px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
-      }
-      .status-active { background: #e6fffa; color: #38a169; }
-    </style>
   </head>
   <body>
     <div class="shell">
@@ -75,95 +26,135 @@
         <h1>AI Tool Release Monitor</h1>
         <p class="hero-copy">
           主要な AI コーディングツールの更新情報を毎朝自動チェックしています。
-          Antigravity スキルによって収集された最新のリリース情報をここに集約します。
+          チームによって収集された最新のリリース情報をここに集約します。
         </p>
       </header>
 
       <main class="layout">
         <section class="card">
           <div class="section-head">
-            <p class="eyebrow">Status</p>
+            <p class="eyebrow">Network Status</p>
             <h2>監視対象ツール一覧</h2>
           </div>
           
           <div class="tool-grid">
             <!-- Tool Item: ClaudeCode -->
-            <div class="tool-card">
+            <div class="tool-card card-claudecode">
               <div class="tool-name">🚀 ClaudeCode</div>
-              <div class="tool-status">GitHub Releases を監視中</div>
+              <div class="tool-status">GitHub Releases 監視中</div>
+              <ul class="changelog-list" id="list-claudecode">
+                <li class="changelog-item"><span class="changelog-date">2026-03-21</span>v2.1.81: --bare フラグ追加 (スクリプト用)</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-20</span>v2.1.80: レート制限の表示機能追加</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-19</span>v2.1.79: Anthropic Console 認証対応</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-claudecode">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-claudecode">v2.1.81</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Antigravity -->
-            <div class="tool-card">
+            <div class="tool-card card-antigravity">
               <div class="tool-name">🌌 Antigravity</div>
-              <div class="tool-status">Official Changelog を監視中</div>
+              <div class="tool-status">Official Changelog 監視中</div>
+              <ul class="changelog-list" id="list-antigravity">
+                <li class="changelog-item"><span class="changelog-date">2026-03-25</span>v4.3.5: サブエージェント連携強化</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-22</span>v4.3.3: Gemini 3/3.5 Pro 完全対応</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-05</span>v4.3.0: メモリ使用量の最適化</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-antigravity">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-antigravity">v4.3.5</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Cursor -->
-            <div class="tool-card">
+            <div class="tool-card card-cursor">
               <div class="tool-name">🖥️ Cursor</div>
-              <div class="tool-status">Web Scraping で監視中</div>
+              <div class="tool-status">Web Scraping 監視中</div>
+              <ul class="changelog-list" id="list-cursor">
+                <li class="changelog-item"><span class="changelog-date">2026-03-11</span>Composer 2 リリース</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-05</span>Automations 機能追加</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-03</span>MCP Apps サポート (v2.6)</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-cursor">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-cursor">Composer 2</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Windsurf -->
-            <div class="tool-card">
+            <div class="tool-card card-windsurf">
               <div class="tool-name">🏄 Windsurf</div>
-              <div class="tool-status">Web Scraping で監視中</div>
+              <div class="tool-status">Web Scraping 監視中</div>
+              <ul class="changelog-list" id="list-windsurf">
+                <li class="changelog-item"><span class="changelog-date">2026-03-19</span>v1.9577.43: GPT-5.4 Mini 安定化</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-17</span>GPT-5.4 Mini サポート開始</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-09</span>Wave 14: Arena Mode リリース</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-windsurf">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-windsurf">v1.9577.43</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Cline -->
-            <div class="tool-card">
+            <div class="tool-card card-cline">
               <div class="tool-name">🤖 Cline</div>
-              <div class="tool-status">GitHub API で監視中</div>
+              <div class="tool-status">GitHub API 監視中</div>
+              <ul class="changelog-list" id="list-cline">
+                <li class="changelog-item"><span class="changelog-date">2026-03-21</span>v3.75.0: リモート遅延の改善</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-18</span>v3.74.0: 無料モデル動的検出</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-15</span>v3.73.0: CoreWeave プロバイダー追加</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-cline">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-cline">v3.75.0</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Gemini CLI -->
-            <div class="tool-card">
+            <div class="tool-card card-geminicli">
               <div class="tool-name">♊ Gemini CLI</div>
-              <div class="tool-status">GitHub Atom Feed を監視中</div>
+              <div class="tool-status">GitHub Atom Feed 監視中</div>
+              <ul class="changelog-list" id="list-geminicli">
+                <li class="changelog-item"><span class="changelog-date">2026-03-25</span>v0.36.0-preview.0: マルチレジストリ導入</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-17</span>v0.36.0-nightly: 安定性向上</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-05</span>v0.34.0: パフォーマンス改善</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-geminicli">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-geminicli">v0.36.0-p0</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: GitHub Copilot -->
-            <div class="tool-card">
+            <div class="tool-card card-copilot">
               <div class="tool-name">🐙 GitHub Copilot</div>
-              <div class="tool-status">Changelog Feed を監視中</div>
+              <div class="tool-status">Changelog Feed 監視中</div>
+              <ul class="changelog-list" id="list-copilot">
+                <li class="changelog-item"><span class="changelog-date">2026-03-24</span>PR への @copilot 指示機能</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-23</span>Gemini 3.1 Pro サポート開始</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-17</span>GPT-5.4 mini 一般公開</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-copilot">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-copilot">Gemini 3.1</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
 
             <!-- Tool Item: Codex -->
-            <div class="tool-card">
+            <div class="tool-card card-codex">
               <div class="tool-name">📘 Codex</div>
-              <div class="tool-status">OpenAI Blog を監視中</div>
+              <div class="tool-status">OpenAI Blog 監視中</div>
+              <ul class="changelog-list" id="list-codex">
+                <li class="changelog-item"><span class="changelog-date">2026-03-24</span>GPT-5-Codex モデル発表</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-22</span>GPT-5.4: ネイティブ Computer Use</li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-18</span>GPT-5.4 mini 推論機能対応</li>
+              </ul>
               <div class="tool-meta">
-                <span>Latest: <strong id="val-codex">-</strong></span>
-                <span class="status-tag status-active">Monitoring</span>
+                <span class="latest-tag">Latest: <strong id="val-codex">GPT-5</strong></span>
+                <span class="status-tag status-active">Active</span>
               </div>
             </div>
           </div>
@@ -171,7 +162,7 @@
       </main>
 
       <footer class="footer">
-        <p>Updated daily by AntiCrow & Antigravity</p>
+        <p>Updated daily by AntiCrow Team & Antigravity Intelligence</p>
       </footer>
     </div>
   </body>
