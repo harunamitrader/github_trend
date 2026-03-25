@@ -85,6 +85,28 @@
       .card-aitools { --card-accent: #7c3aed; }
       .card-mytools { --card-accent: #059669; }
       .card-links   { --card-accent: #d97706; }
+
+      @media (max-width: 720px) {
+        .top-grid {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .nav-card {
+          padding: 20px 16px 20px 20px;
+          border-radius: var(--radius-md);
+        }
+        .nav-card-title {
+          font-size: 1.1rem;
+          margin-bottom: 6px;
+        }
+        .nav-card-desc {
+          font-size: 0.88rem;
+        }
+        .nav-card-arrow {
+          margin-top: 10px;
+          font-size: 0.84rem;
+        }
+      }
     </style>
   </head>
   <body>
