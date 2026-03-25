@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-03-26-cline-v3-75-1",
+      "title": "Cline v3.75.1: パフォーマンスのさらなる最適化",
+      "dek": "インデックス作成アルゴリズムの改善により、大規模プロジェクトでの操作性が向上。",
+      "summary": "Cline v3.75.1 のリリースを検証し、ファイルスキャンの高速化とメモリ使用量の最適化による実行効率向上の詳細を整理する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/2026-03-26-cline-v3-75-1.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-03-25-gemini-cli-v0-36-0",
       "title": "Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化",
       "dek": "スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。",
