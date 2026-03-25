@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="主要な AI コーディングツールの最新リリース情報を一覧・監視するページです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Tool Monitor - GitHub Trend Journal</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .tool-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+        margin-top: 24px;
+      }
+      .tool-card {
+        padding: 20px;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        transition: transform 0.2s ease;
+      }
+      .tool-card:hover {
+        transform: translateY(-2px);
+        border-color: var(--primary);
+      }
+      .tool-name {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--heading);
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .tool-status {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 12px;
+      }
+      .tool-meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+        margin-top: 12px;
+      }
+      .status-tag {
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .status-active { background: #e6fffa; color: #38a169; }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <a class="hero-link" href="./index.html">← Back to Journal</a>
+        <p class="eyebrow">Tools Monitoring</p>
+        <h1>AI Tool Release Monitor</h1>
+        <p class="hero-copy">
+          主要な AI コーディングツールの更新情報を毎朝自動チェックしています。
+          Antigravity スキルによって収集された最新のリリース情報をここに集約します。
+        </p>
+      </header>
+
+      <main class="layout">
+        <section class="card">
+          <div class="section-head">
+            <p class="eyebrow">Status</p>
+            <h2>監視対象ツール一覧</h2>
+          </div>
+          
+          <div class="tool-grid">
+            <!-- Tool Item: ClaudeCode -->
+            <div class="tool-card">
+              <div class="tool-name">🚀 ClaudeCode</div>
+              <div class="tool-status">GitHub Releases を監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-claudecode">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Antigravity -->
+            <div class="tool-card">
+              <div class="tool-name">🌌 Antigravity</div>
+              <div class="tool-status">Official Changelog を監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-antigravity">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Cursor -->
+            <div class="tool-card">
+              <div class="tool-name">🖥️ Cursor</div>
+              <div class="tool-status">Web Scraping で監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-cursor">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Windsurf -->
+            <div class="tool-card">
+              <div class="tool-name">🏄 Windsurf</div>
+              <div class="tool-status">Web Scraping で監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-windsurf">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Cline -->
+            <div class="tool-card">
+              <div class="tool-name">🤖 Cline</div>
+              <div class="tool-status">GitHub API で監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-cline">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Gemini CLI -->
+            <div class="tool-card">
+              <div class="tool-name">♊ Gemini CLI</div>
+              <div class="tool-status">GitHub Atom Feed を監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-geminicli">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: GitHub Copilot -->
+            <div class="tool-card">
+              <div class="tool-name">🐙 GitHub Copilot</div>
+              <div class="tool-status">Changelog Feed を監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-copilot">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+
+            <!-- Tool Item: Codex -->
+            <div class="tool-card">
+              <div class="tool-name">📘 Codex</div>
+              <div class="tool-status">OpenAI Blog を監視中</div>
+              <div class="tool-meta">
+                <span>Latest: <strong id="val-codex">-</strong></span>
+                <span class="status-tag status-active">Monitoring</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Updated daily by AntiCrow & Antigravity</p>
+      </footer>
+    </div>
+  </body>
+</html>
