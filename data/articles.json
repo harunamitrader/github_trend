@@ -16,6 +16,237 @@
       "repoName": "system",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
       "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-26-cline-v3-75-1",
+      "title": "Cline v3.75.1: パフォーマンスのさらなる最適化",
+      "dek": "インデックス作成アルゴリズムの改善により、大規模プロジェクトでの操作性が向上。",
+      "summary": "Cline v3.75.1 のリリースを検証し、ファイルスキャンの高速化とメモリ使用量の最適化による実行効率向上の詳細を整理する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-03-26-cline-v3-75-1.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-25-gemini-cli-v0-36-0",
+      "title": "Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化",
+      "dek": "スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。",
+      "summary": "Gemini CLI v0.36.0 (preview) のリリース情報を読み、マルチレジストリ・アーキテクチャによるサブエージェントのツールフィルタリング機能の詳細を整理する。",
+      "publishedAt": "2026-03-25",
+      "repoName": "google/gemini-cli",
+      "repoUrl": "https://github.com/google/gemini-cli",
+      "articleUrl": "./articles/tools/2026-03-25-gemini-cli-v0-36-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-21-cline-v3-75-0",
+      "title": "Cline v3.75.0: リモートワークスペースの操作感が劇的に向上",
+      "dek": "ネットワーク遅延の影響を最小限に抑え、遠隔地からの「AI 自律開発」をより快適に。",
+      "summary": "Cline v3.75.0 のリリース情報を読み、リモート環境でのファイル操作やターミナル通信の最適化による操作性向上の詳細を整理する。",
+      "publishedAt": "2026-03-21",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-03-21-cline-v3-75-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-18-openai-codex-gpt-5",
+      "title": "OpenAI Codex: GPT-5.4 世代のミニモデルがコーディングの勢力図を変える",
+      "dek": "爆速の「GPT-5.4 mini」が登場。GitHub Copilot の長期サポートモデルとしても採用へ。",
+      "summary": "OpenAI Codex (GPT-5 世代) のリリース情報を読み、超高速な GPT-5.4 mini モデルの特性や、GitHub Copilot への正式採用の背景を整理する。",
+      "publishedAt": "2026-03-18",
+      "repoName": "openai/codex",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-03-18-openai-codex-gpt-5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-01-github-copilot-pr-agent",
+      "title": "GitHub Copilot: PR エージェントの起動が 50% 高速化",
+      "dek": "`@copilot` への指示から PR 生成までの待機時間が大幅短縮。対話的なコード修正も可能に。 ",
+      "summary": "GitHub Copilot PR エージェントの 2026 年 3 月アップデート内容を読み、起動速度の向上や対話的な PR 修正対応、エージェント・パネル導入の詳細を整理する。",
+      "publishedAt": "2026-03-01",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog",
+      "articleUrl": "./articles/tools/2026-03-01-github-copilot-pr-agent.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-19-cursor-composer-2",
+      "title": "Cursor Composer 2: 独自モデルによるコーディングの極致",
+      "dek": "Moonshot Kimi K2.5 をベースにした第3世代モデルが、開発のスピードと質を塗り替える。",
+      "summary": "Cursor Composer 2 のリリース情報を読み、Kimi K2.5 をベースとした独自チューニングによる驚異的なベンチマークと、新料金体系の詳細を整理する。",
+      "publishedAt": "2026-03-19",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/",
+      "articleUrl": "./articles/tools/2026-03-19-cursor-composer-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-05-cursor-automations",
+      "title": "Cursor Automations: 24時間働き続ける AI エージェントの誕生",
+      "dek": "外部イベントに反応し、クラウドサンドボックスで自律的にタスクを完遂する。",
+      "summary": "Cursor Automations の機能を読み、GitHub や Slack 等の外部連携と、クラウド上での自律的なエージェント実行基盤の詳細を整理する。",
+      "publishedAt": "2026-03-05",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/",
+      "articleUrl": "./articles/tools/2026-03-05-cursor-automations.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-01-windsurf-flow",
+      "title": "Windsurf Flow: 多段階エージェントによる自動化の深化",
+      "dek": "Cascade が Adspirer ツールと統合し、分析からレポート生成までを完全に自動化へ。",
+      "summary": "Windsurf Flow (2026-03) の自律実行機能を読み、外部ツールとの API 統合による「フロー」を止めない全自動タスク完遂の詳細を整理する。",
+      "publishedAt": "2026-03-01",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://codeium.com/windsurf",
+      "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-01-20-windsurf-wave-14",
+      "title": "Windsurf Wave 14: Arena Mode & Plan Mode による意思決定の革新",
+      "dek": "複数モデルの同時比較と、より深化したタスクプランニングを実現。 ",
+      "summary": "Windsurf Wave 14 のリリース情報を読み、Arena Mode (モデル比較) や Plan Mode (設計図提示) による AI 開発フローの高度化を整理する。",
+      "publishedAt": "2026-01-20",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://codeium.com/windsurf",
+      "articleUrl": "./articles/tools/2026-01-20-windsurf-wave-14.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-21-claude-code-v2-1-81",
+      "title": "Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上",
+      "dek": "`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。",
+      "summary": "Claude Code v2.1.81 のリリース情報を読み、--bare フラグによる CI/CD 最適化や Permission Relay によるモバイル承認機能の詳細を整理する。",
+      "publishedAt": "2026-03-21",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-03-21-claude-code-v2-1-81.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-20-claude-code-v2-1-80",
+      "title": "Claude Code v2.1.80: クォータの可視化とプラグイン管理の柔軟性",
+      "dek": "`rate_limits` フィールドのステータスラインへの導入と、新しいプラグインソース `source: 'settings'` のサポート。",
+      "summary": "Claude Code v2.1.80 のリリース情報を読み、rate_limits フィールドによる使用状況の可視化やプラグイン管理の改善ポイントを整理する。",
+      "publishedAt": "2026-03-20",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-03-20-claude-code-v2-1-80.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-18-claude-code-v2-1-79",
+      "title": "Claude Code v2.1.79: Console 認証対応と信頼性の強化",
+      "dek": "Anthropic Console 経由のログイン対応と、長時間セッションにおけるハングアップの解消。",
+      "summary": "Claude Code v2.1.79 のリリース情報を読み、Anthropic Console 認証 (--console) の導入と API タイムアウト改善による信頼性向上を整理する。",
+      "publishedAt": "2026-03-18",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-03-18-claude-code-v2-1-79.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-24-antigravity-v1-20-6",
+      "title": "Antigravity v1.20.6: ターミナル体験の刷新",
+      "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",
+      "summary": "Antigravity v1.20.6 のリリース情報を読み、ターミナル統合の改善やアーティファクトのダウンロードサポートの詳細を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/tools/2026-03-24-antigravity-v1-20-6.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-09-antigravity-v1-20-5",
+      "title": "Antigravity v1.20.5: パフォーマンスと安定性の向上",
+      "dek": "大規模プロジェクトにおけるメモリ使用量の最適化。",
+      "summary": "Antigravity v1.20.5 のリリース情報を読み、大規模プロジェクトにおけるメモリ管理の強化とUIの改善ポイントを整理する。",
+      "publishedAt": "2026-03-09",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/tools/2026-03-09-antigravity-v1-20-5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-05-antigravity-v1-20-3",
+      "title": "Antigravity v1.20.3: ルールによるエージェント制御の進化",
+      "dek": "AGENTS.md を用いたプロジェクト固有ルールの自動適用。",
+      "summary": "Antigravity v1.20.3 のリリース情報を読み、AGENTS.md によるプロジェクト・ルールの公式サポートとエージェント制御の進化を整理する。",
+      "publishedAt": "2026-03-05",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/tools/2026-03-05-antigravity-v1-20-3.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
+      "title": "MoneyPrinterV2",
+      "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
+      "summary": "GitHub Trending 上位の MoneyPrinterV2 を読み、収益化に近い作業をまとめて自動化する repo として何ができて、どこに注意すべきかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "FujiwaraChoki/MoneyPrinterV2",
+      "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-bytedance-deer-flow",
+      "title": "deer-flow",
+      "dek": "AI エージェントを長く動かすための実行基盤に寄った OSS。",
+      "summary": "GitHub Trending で目立っていた bytedance/deer-flow を読み、sandbox、memory、skill、subagent まで含んだ「汎用基盤」として何が強いのかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "bytedance/deer-flow",
+      "repoUrl": "https://github.com/bytedance/deer-flow",
+      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-crosstalk-solutions-project-nomad",
+      "title": "project-nomad",
+      "dek": "オフライン環境に AI、地図、知識参照をまとめて載せる全部入り環境。",
+      "summary": "GitHub Trending 上位の project-nomad を読み、AI だけでなく知識ライブラリや地図、教育まで抱えた offline survival computer として何が入っているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "Crosstalk-Solutions/project-nomad",
+      "repoUrl": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "articleUrl": "./articles/github/2026-03-24-crosstalk-solutions-project-nomad.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-vxcontrol-pentagi",
+      "title": "pentagi",
+      "dek": "自律型ペンテストを支えるための重めの実行基盤。",
+      "summary": "GitHub Trending 上位の pentagi を読み、自律型 penetration testing system としてどこまで基盤寄りに作り込まれているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "vxcontrol/pentagi",
+      "repoUrl": "https://github.com/vxcontrol/pentagi",
+      "articleUrl": "./articles/github/2026-03-24-vxcontrol-pentagi.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-browser-use-browser-use",
+      "title": "browser-use",
+      "dek": "AI にブラウザ操作を与えるための実用寄り OSS。",
+      "summary": "GitHub Trending 上位の browser-use を読み、AI エージェントに Web 操作面を与える OSS として何が強いのかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "browser-use/browser-use",
+      "repoUrl": "https://github.com/browser-use/browser-use",
+      "articleUrl": "./articles/github/2026-03-24-browser-use-browser-use.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-tauricresearch-tradingagents",
+      "title": "TradingAgents",
+      "dek": "投資判断を複数エージェントの役割分担で回す framework。",
+      "summary": "GitHub Trending 上位の TradingAgents を読み、金融判断を複数の専門エージェントに分業させる framework としてどう設計されているかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "TauricResearch/TradingAgents",
+      "repoUrl": "https://github.com/TauricResearch/TradingAgents",
+      "articleUrl": "./articles/github/2026-03-24-tauricresearch-tradingagents.html"
     }
   ]
 }
