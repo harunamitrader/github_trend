@@ -548,49 +548,47 @@ p {
 .top-nav {
   position: sticky;
   top: 0;
-  background: #e0f2fe;
+  background: #f8fafc;
   display: flex;
   justify-content: stretch;
+  align-items: center;
   gap: 0;
   z-index: 100;
-  border-bottom: 1px solid #bae6fd;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 6px 8px;
 }
 .top-nav .nav-item {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 4px;
+  padding: 7px 4px;
   text-decoration: none;
   font-family: 'Manrope', sans-serif;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
-  border-bottom: 2px solid transparent;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 .top-nav .nav-item:hover {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(0, 0, 0, 0.05);
   text-decoration: none;
 }
 .top-nav .nav-item.active {
   font-weight: 700;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  border-color: currentColor;
 }
 
 /* 各タブ固有の色 */
-.top-nav .nav-item[href="./index.html"]         { color: #1e293b; }
-.top-nav .nav-item[href="./github-trend.html"]  { color: #0969da; }
+.top-nav .nav-item[href="./index.html"]            { color: #1e293b; }
+.top-nav .nav-item[href="./github-trend.html"]     { color: #0969da; }
 .top-nav .nav-item[href="./ai-tools-monitor.html"] { color: #7c3aed; }
-.top-nav .nav-item[href="./my-tools.html"]      { color: #059669; }
-.top-nav .nav-item[href="./links.html"]         { color: #d97706; }
-
-.top-nav .nav-item[href="./index.html"].active         { border-bottom-color: #1e293b; }
-.top-nav .nav-item[href="./github-trend.html"].active  { border-bottom-color: #0969da; }
-.top-nav .nav-item[href="./ai-tools-monitor.html"].active { border-bottom-color: #7c3aed; }
-.top-nav .nav-item[href="./my-tools.html"].active      { border-bottom-color: #059669; }
-.top-nav .nav-item[href="./links.html"].active         { border-bottom-color: #d97706; }
+.top-nav .nav-item[href="./my-tools.html"]         { color: #059669; }
+.top-nav .nav-item[href="./links.html"]            { color: #d97706; }
 
 /* Page Theme Colors */
 .theme-home   { --theme-color: #1e293b; --hero-bg: #f1f5f9; }
