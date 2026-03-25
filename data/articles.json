@@ -15,7 +15,7 @@
       "publishedAt": "2026-03-26",
       "repoName": "system",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/2026-03-26-daily-monitor-report.html"
+      "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html"
     },
     {
       "category": "ai-tool-log",
@@ -26,7 +26,7 @@
       "publishedAt": "2026-03-26",
       "repoName": "cline/cline",
       "repoUrl": "https://github.com/cline/cline",
-      "articleUrl": "./articles/2026-03-26-cline-v3-75-1.html"
+      "articleUrl": "./articles/tools/2026-03-26-cline-v3-75-1.html"
     },
     {
       "category": "ai-tool-log",
@@ -37,7 +37,7 @@
       "publishedAt": "2026-03-25",
       "repoName": "google/gemini-cli",
       "repoUrl": "https://github.com/google/gemini-cli",
-      "articleUrl": "./articles/2026-03-25-gemini-cli-v0-36-0.html"
+      "articleUrl": "./articles/tools/2026-03-25-gemini-cli-v0-36-0.html"
     },
     {
       "category": "ai-tool-log",
@@ -48,7 +48,7 @@
       "publishedAt": "2026-03-21",
       "repoName": "cline/cline",
       "repoUrl": "https://github.com/cline/cline",
-      "articleUrl": "./articles/2026-03-21-cline-v3-75-0.html"
+      "articleUrl": "./articles/tools/2026-03-21-cline-v3-75-0.html"
     },
     {
       "category": "ai-tool-log",
@@ -59,7 +59,7 @@
       "publishedAt": "2026-03-18",
       "repoName": "openai/codex",
       "repoUrl": "https://openai.com/blog",
-      "articleUrl": "./articles/2026-03-18-openai-codex-gpt-5.html"
+      "articleUrl": "./articles/tools/2026-03-18-openai-codex-gpt-5.html"
     },
     {
       "category": "ai-tool-log",
@@ -70,7 +70,7 @@
       "publishedAt": "2026-03-01",
       "repoName": "github/copilot",
       "repoUrl": "https://github.blog",
-      "articleUrl": "./articles/2026-03-01-github-copilot-pr-agent.html"
+      "articleUrl": "./articles/tools/2026-03-01-github-copilot-pr-agent.html"
     },
     {
       "category": "ai-tool-log",
@@ -81,7 +81,7 @@
       "publishedAt": "2026-03-19",
       "repoName": "getcursor/cursor",
       "repoUrl": "https://cursor.com/",
-      "articleUrl": "./articles/2026-03-19-cursor-composer-2.html"
+      "articleUrl": "./articles/tools/2026-03-19-cursor-composer-2.html"
     },
     {
       "category": "ai-tool-log",
@@ -92,7 +92,7 @@
       "publishedAt": "2026-03-05",
       "repoName": "getcursor/cursor",
       "repoUrl": "https://cursor.com/",
-      "articleUrl": "./articles/2026-03-05-cursor-automations.html"
+      "articleUrl": "./articles/tools/2026-03-05-cursor-automations.html"
     },
     {
       "category": "ai-tool-log",
@@ -103,7 +103,7 @@
       "publishedAt": "2026-03-01",
       "repoName": "codeium/windsurf",
       "repoUrl": "https://codeium.com/windsurf",
-      "articleUrl": "./articles/2026-03-01-windsurf-flow.html"
+      "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html"
     },
     {
       "category": "ai-tool-log",
@@ -114,7 +114,7 @@
       "publishedAt": "2026-01-20",
       "repoName": "codeium/windsurf",
       "repoUrl": "https://codeium.com/windsurf",
-      "articleUrl": "./articles/2026-01-20-windsurf-wave-14.html"
+      "articleUrl": "./articles/tools/2026-01-20-windsurf-wave-14.html"
     },
     {
       "category": "ai-tool-log",
@@ -125,7 +125,7 @@
       "publishedAt": "2026-03-21",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/2026-03-21-claude-code-v2-1-81.html"
+      "articleUrl": "./articles/tools/2026-03-21-claude-code-v2-1-81.html"
     },
     {
       "category": "ai-tool-log",
@@ -136,7 +136,7 @@
       "publishedAt": "2026-03-20",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/2026-03-20-claude-code-v2-1-80.html"
+      "articleUrl": "./articles/tools/2026-03-20-claude-code-v2-1-80.html"
     },
     {
       "category": "ai-tool-log",
@@ -147,7 +147,7 @@
       "publishedAt": "2026-03-18",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/2026-03-18-claude-code-v2-1-79.html"
+      "articleUrl": "./articles/tools/2026-03-18-claude-code-v2-1-79.html"
     },
     {
       "category": "ai-tool-log",
@@ -158,7 +158,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "google/antigravity",
       "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/2026-03-24-antigravity-v1-20-6.html"
+      "articleUrl": "./articles/tools/2026-03-24-antigravity-v1-20-6.html"
     },
     {
       "category": "ai-tool-log",
@@ -169,7 +169,7 @@
       "publishedAt": "2026-03-09",
       "repoName": "google/antigravity",
       "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/2026-03-09-antigravity-v1-20-5.html"
+      "articleUrl": "./articles/tools/2026-03-09-antigravity-v1-20-5.html"
     },
     {
       "category": "ai-tool-log",
@@ -180,7 +180,7 @@
       "publishedAt": "2026-03-05",
       "repoName": "google/antigravity",
       "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/2026-03-05-antigravity-v1-20-3.html"
+      "articleUrl": "./articles/tools/2026-03-05-antigravity-v1-20-3.html"
     },
     {
       "category": "github-trending",
@@ -191,7 +191,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "FujiwaraChoki/MoneyPrinterV2",
       "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
-      "articleUrl": "./articles/2026-03-24-fujiwarachoki-moneyprinterv2.html"
+      "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html"
     },
     {
       "category": "github-trending",
@@ -202,7 +202,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "bytedance/deer-flow",
       "repoUrl": "https://github.com/bytedance/deer-flow",
-      "articleUrl": "./articles/2026-03-24-bytedance-deer-flow.html"
+      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html"
     },
     {
       "category": "github-trending",
@@ -213,7 +213,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "Crosstalk-Solutions/project-nomad",
       "repoUrl": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "articleUrl": "./articles/2026-03-24-crosstalk-solutions-project-nomad.html"
+      "articleUrl": "./articles/github/2026-03-24-crosstalk-solutions-project-nomad.html"
     },
     {
       "category": "github-trending",
@@ -224,7 +224,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "vxcontrol/pentagi",
       "repoUrl": "https://github.com/vxcontrol/pentagi",
-      "articleUrl": "./articles/2026-03-24-vxcontrol-pentagi.html"
+      "articleUrl": "./articles/github/2026-03-24-vxcontrol-pentagi.html"
     },
     {
       "category": "github-trending",
@@ -235,7 +235,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "browser-use/browser-use",
       "repoUrl": "https://github.com/browser-use/browser-use",
-      "articleUrl": "./articles/2026-03-24-browser-use-browser-use.html"
+      "articleUrl": "./articles/github/2026-03-24-browser-use-browser-use.html"
     },
     {
       "category": "github-trending",
@@ -246,7 +246,7 @@
       "publishedAt": "2026-03-24",
       "repoName": "TauricResearch/TradingAgents",
       "repoUrl": "https://github.com/TauricResearch/TradingAgents",
-      "articleUrl": "./articles/2026-03-24-tauricresearch-tradingagents.html"
+      "articleUrl": "./articles/github/2026-03-24-tauricresearch-tradingagents.html"
     }
   ]
 }
