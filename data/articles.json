@@ -7,6 +7,46 @@
   },
   "articles": [
     {
+      "slug": "2026-03-25-gemini-cli-v0-36-0",
+      "title": "Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化",
+      "dek": "スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。",
+      "summary": "Gemini CLI v0.36.0 (preview) のリリース情報を読み、マルチレジストリ・アーキテクチャによるサブエージェントのツールフィルタリング機能の詳細を整理する。",
+      "publishedAt": "2026-03-25",
+      "repoName": "google/gemini-cli",
+      "repoUrl": "https://github.com/google/gemini-cli",
+      "articleUrl": "./articles/2026-03-25-gemini-cli-v0-36-0.html"
+    },
+    {
+      "slug": "2026-03-21-cline-v3-75-0",
+      "title": "Cline v3.75.0: リモートワークスペースの操作感が劇的に向上",
+      "dek": "ネットワーク遅延の影響を最小限に抑え、遠隔地からの「AI 自律開発」をより快適に。",
+      "summary": "Cline v3.75.0 のリリース情報を読み、リモート環境でのファイル操作やターミナル通信の最適化による操作性向上の詳細を整理する。",
+      "publishedAt": "2026-03-21",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/2026-03-21-cline-v3-75-0.html"
+    },
+    {
+      "slug": "2026-03-18-openai-codex-gpt-5",
+      "title": "OpenAI Codex: GPT-5.4 世代のミニモデルがコーディングの勢力図を変える",
+      "dek": "爆速の「GPT-5.4 mini」が登場。GitHub Copilot の長期サポートモデルとしても採用へ。",
+      "summary": "OpenAI Codex (GPT-5 世代) のリリース情報を読み、超高速な GPT-5.4 mini モデルの特性や、GitHub Copilot への正式採用の背景を整理する。",
+      "publishedAt": "2026-03-18",
+      "repoName": "openai/codex",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/2026-03-18-openai-codex-gpt-5.html"
+    },
+    {
+      "slug": "2026-03-01-github-copilot-pr-agent",
+      "title": "GitHub Copilot: PR エージェントの起動が 50% 高速化",
+      "dek": "`@copilot` への指示から PR 生成までの待機時間が大幅短縮。対話的なコード修正も可能に。 ",
+      "summary": "GitHub Copilot PR エージェントの 2026 年 3 月アップデート内容を読み、起動速度の向上や対話的な PR 修正対応、エージェント・パネル導入の詳細を整理する。",
+      "publishedAt": "2026-03-01",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog",
+      "articleUrl": "./articles/2026-03-01-github-copilot-pr-agent.html"
+    },
+    {
       "slug": "2026-03-19-cursor-composer-2",
       "title": "Cursor Composer 2: 独自モデルによるコーディングの極致",
       "dek": "Moonshot Kimi K2.5 をベースにした第3世代モデルが、開発のスピードと質を塗り替える。",
