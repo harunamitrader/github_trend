@@ -217,14 +217,14 @@ p {
 .rank-label {
   display: inline-flex;
   align-items: center;
-  padding: 2px 8px;
-  background: rgba(9, 105, 218, 0.1);
-  color: #0969da;
-  border: 1px solid rgba(9, 105, 218, 0.2);
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+  font-weight: 500;
   line-height: 1;
+}
+
+.rank-label::before {
+  content: "Rank ";
 }
 
 .latest-box p,

@@ -137,7 +137,7 @@
 
         function renderArticle(article) {
           const deck = article.dek ?? article.summary;
-          const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">Rank ${article.rank}</span>` : "";
+          const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">${article.rank}</span>` : "";
           return `
             <a class="archive-item card-link-box" href="${article.articleUrl}">
               <h3>${article.title}</h3>
