@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-03-26-cccbot",
+      "title": "CCCBot: Claude Code Channels 上での自律エージェントの可能性",
+      "dek": "スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。",
+      "summary": "lucianlamp/CCCBot を紹介。Claude Code Channels 上で動作し、心拍数監視や自律的なタスク実行を実現する次世代型 AI エージェントの設計を整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "lucianlamp/CCCBot",
+      "repoUrl": "https://github.com/lucianlamp/CCCBot",
+      "articleUrl": "./articles/github/2026-03-26-cccbot.html",
+      "rank": 999
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-26-mvanhorn-last30days-skill",
       "title": "last30days-skill",
