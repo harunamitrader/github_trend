@@ -355,5 +355,18 @@
         <p>© 2026 harunami AI base - All rights reserved.</p>
       </footer>
     </div>
+  <script>
+    (function () {
+      const index = document.getElementById('tool-index');
+      if (!index) return;
+      const items = Array.from(index.querySelectorAll('.tool-index-item'));
+      items.sort((a, b) => {
+        const da = a.dataset.latest || '';
+        const db = b.dataset.latest || '';
+        return db.localeCompare(da);
+      });
+      items.forEach(el => index.appendChild(el));
+    })();
+  </script>
   </body>
 </html>
