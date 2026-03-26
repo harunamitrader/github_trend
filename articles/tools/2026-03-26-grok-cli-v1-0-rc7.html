@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Grok CLI v1.0.0-rc7 および rc6 の更新内容をまとめ、デーモンによる定時実行や Shuru サンドボックス、Telegram 連携強化の詳細を整理した記事。"
+      content="Grok CLI v1.0.0-rc7 (2026-03-26) のリリース情報をまとめた記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>Grok CLI v1.0.0-rc7</title>
+    <title>Grok CLI v1.0.0-rc7 Released</title>
     <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,7 @@
     <article class="article-shell">
       <div class="article-topline">
         <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
-        <p class="eyebrow">AI Tool Log</p>
+        <p class="eyebrow">Release Notes</p>
       </div>
 
       <h1 class="article-title">Grok CLI v1.0.0-rc7: デーモン実行と強力なサンドボックス機能</h1>
@@ -30,44 +30,41 @@
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">記事作成日</span>
+          <span class="meta-label">リリース日</span>
           <strong>2026-03-26</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">作成時順位</span>
-          <strong>999位</strong>
+          <span class="meta-label">バージョン</span>
+          <strong>v1.0.0-rc7</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">対象 repo</span>
-          <strong>
-            <a href="https://github.com/superagent-ai/grok-cli" target="_blank" rel="noreferrer">
-              superagent-ai/grok-cli
-            </a>
-          </strong>
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
         </div>
       </div>
 
       <div class="article-body">
-        <h2>これは何か</h2>
-        <p>xAI の Grok モデルをターミナルから自律的に操作するための CLI ツール「Grok CLI」の最新リリース候補（RC）版です。正式リリースに向け、バックグラウンドでの自動実行機能や安全な環境でのコード実行機能が追加されました。</p>
+        <h2>主な変更点</h2>
+        <h3>デーモンによる定時実行（Scheduled Runs）</h3>
+        <p>エージェントをバックグラウンドでデーモンとして稼働させる、ヘッドレス実行機能が追加されました。特定の時刻や周期で自動的にタスクを実行し、情報を収集・通知することが可能になっています。</p>
 
-        <h2>何ができるか</h2>
-        <p><strong>Scheduled headless runs</strong> 機能が導入され、デーモンとエージェントツールを組み合わせることで、定期的なタスクをバックグラウンドで自動実行できるようになりました。また、<strong>Shuru sandbox mode</strong> により、秘密情報やネットワークリソース、ポートなどを制限した安全な環境下でエージェントにシェルコマンドを実行させることが可能です。</p>
+        <h3>Shuru Sandbox Mode の導入</h3>
+        <p>よりセキュアなコード実行環境を提供するサンドボックスモードが導入されました。ネットワークアクセス、ポート、ファイル権限などを細かく制限しつつ、AI にシェルコマンドを実行させることができます。</p>
 
-        <h2>目立つポイント</h2>
-        <p>直近の RC6 では、Telegram との連携が劇的に進化しました。<code>telegram_send_file</code> ツールの追加や、<code>whisper.cpp</code> を用いた音声メッセージのローカル文字起こし、さらには Vision サブエージェントによる画像解析の自動化までサポートされています。これにより、チャットアプリをエージェントの操作ハブとして活用しやすくなりました。</p>
+        <h3>Telegram ブリッジの進化</h3>
+        <p>RC6 以降、Telegram 連携が劇的に強化されています。</p>
+        <ul>
+          <li><code>telegram_send_file</code> ツールの追加。</li>
+          <li><code>whisper.cpp</code> を用いたボイスメッセージのローカル文字起こし。</li>
+          <li>Vision サブエージェントによる、OCR を含む高度な画像解析の自動化。</li>
+          <li>外部ブリッジ設定による、外出先からのエージェント制御。</li>
+        </ul>
 
-        <h2>セットアップや使い方の流れ</h2>
-        <p><code>npm install -g grok-cli</code> で更新できます。サンドボックスの設定やデーモン実行を利用するには、新しく追加された設定オプション（ネットワーク制限やリソース割り当て）を環境に合わせて調整する必要があります。Telegram のブリッジ機能も <code>telegram-bridge</code> コマンドで簡単に起動可能です。</p>
-
-        <h2>どんな人向けか</h2>
-        <p>定期的なデータ収集や監視を自動化したい開発者、あるいは Telegram を通じて外出先から安全に AI エージェントにコマンドを実行させたいユーザーに適しています。</p>
-
-        <h2>注意点</h2>
-        <p>デーモン実行やサンドボックス機能はまだ RC 段階であるため、本番環境での運用前に十分な検証が必要です。また、音声文字起こしには <code>ffmpeg</code> などの依存関係が必要となる場合があります。</p>
+        <h3>全体的なバグ修正とリファインド</h3>
+        <p>CLI 出力のカラーリング改善、エージェント生成タスクの安定性向上、そして内部ロギング機能の拡充が含まれています。</p>
 
         <h2>まとめ</h2>
-        <p>Grok CLI は、単なる対話ツールから「バックグラウンドで自律的に働くエージェント基盤」へと着実に進化しています。特に Telegram との統合による「手のひらでのエージェント運用」は、多くのユーザーにとって非常に魅力的な体験となるでしょう。</p>
+        <p>Grok CLI v1.0.0-rc7 は、エージェントを「手動で動かす」段階から「バックグラウンドで自動監視・自動処理させる」段階へと進化させたリリースです。特に Telegram をハブとした、サーバーレスに近い自律運用の道筋が示されました。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">

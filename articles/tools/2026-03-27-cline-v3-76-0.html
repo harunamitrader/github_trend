@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Cline v3.76.0 のリリース情報を読み、Kanban 機能の統合とループ検出機能によるトークン浪費防止の仕組みを整理した記事。"
+      content="Cline v3.76.0 (2026-03-27) のリリース情報をまとめた記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>Cline v3.76.0</title>
+    <title>Cline v3.76.0 Released</title>
     <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,7 @@
     <article class="article-shell">
       <div class="article-topline">
         <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
-        <p class="eyebrow">AI Tool Log</p>
+        <p class="eyebrow">Release Notes</p>
       </div>
 
       <h1 class="article-title">Cline v3.76.0: 看板管理の統合とループ検出による安全性の向上</h1>
@@ -30,44 +30,36 @@
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">記事作成日</span>
+          <span class="meta-label">リリース日</span>
           <strong>2026-03-27</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">作成時順位</span>
-          <strong>999位</strong>
+          <span class="meta-label">バージョン</span>
+          <strong>v3.76.0</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">対象 repo</span>
-          <strong>
-            <a href="https://github.com/cline/cline" target="_blank" rel="noreferrer">
-              cline/cline
-            </a>
-          </strong>
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
         </div>
       </div>
 
       <div class="article-body">
-        <h2>これは何か</h2>
-        <p>VS Code 拡張機能として人気の自律型コーディング助手「Cline」の最新アップデートです。タスク管理を効率化する「Kanban（看板）」機能の本格統合と、エージェントの暴走を防ぐためのガードレール機能が追加されました。</p>
+        <h2>主な変更点</h2>
+        <h3>Cline Kanban の本格統合</h3>
+        <p>Webview 内に Cline Kanban ローンチモーダルが統合されました。CLI から起動する際も、デフォルトで Kanban が有効になるよう変更されています。タスク進捗を視覚的に管理したいという要望に強力に応える内容です。</p>
 
-        <h2>何ができるか</h2>
-        <p>新しく <strong>Cline Kanban</strong> ローンチモーダルが Webview 内に追加され、CLI 版でもデフォルトで Kanban が起動されるようになりました。これにより、進行中のタスクを視覚的に把握しやすくなります。また、技術的な面では「ツール実行ループ検出機能」が実装され、同じツール呼び出しを繰り返す無限ループを検知して停止させることが可能になりました。</p>
+        <h3>ツール実行・無限ループの自動検出と停止</h3>
+        <p>エージェントが同じツールの呼び出しを永久に繰り返すことを防ぐ、新しいガードレール機能が追加されました。これにより、意図しない高額なトークン消費のリスクを大幅に削減できます。</p>
 
-        <h2>目立つポイント</h2>
-        <p>ループ検出機能は、開発者が意図しないトークンの大量消費（＝コストの急増）を防ぐための極めて重要なアップデートです。また、チャット内の各種ヒント表示を無効化するトグルも追加され、よりクリーンな UI で作業に集中できるようになりました。</p>
-
-        <h2>セットアップや使い方の流れ</h2>
-        <p>VS Code の拡張機能マーケットプレイスから更新可能です。Kanban 機能を使用するには、新しく追加されたローンチモーダルからアクセスします。Windows 環境で <code>npx.cmd</code> 経由で Kanban が起動しない問題も修正されており、OS を問わず安定して動作します。</p>
-
-        <h2>どんな人向けか</h2>
-        <p>複数のタスクを並行して進める際に進捗を視覚的に管理したい開発者や、エージェントを自律的に長時間動かす際の予期せぬコスト変動を懸念しているユーザーに特にお勧めです。</p>
-
-        <h2>注意点</h2>
-        <p>Kanban への移行に伴い、CLI 版では従来のビューからの移行が必要になる場合があります。ループ検出が作動した際は、プロンプトやタスクの指示を微調整してループを解消する必要があります。</p>
+        <h3>UI の改善とバグ修正</h3>
+        <ul>
+          <li>チャット内の各種ヒント表示（ヒント・カード）をトグルで無効化できるオプションを追加。</li>
+          <li>Windows 環境において <code>npx.cmd</code> を介して Kanban を正しく起動できるよう修正。</li>
+          <li>Mac 上でのターミナル出力の視認性改善を含む、複数のデザイン調整を実施。</li>
+        </ul>
 
         <h2>まとめ</h2>
-        <p>v3.76.0 は、Cline を単なるコーディングツールから「タスク管理を含めた総合的な開発プラットフォーム」へと昇華させるアップデートです。安全性（ループ検出）と視認性（Kanban）の両面が強化され、より実務投入しやすいツールへと進化を遂げました。</p>
+        <p>Cline v3.76.0 は、「使い勝手（Kanban）」と「コスト・安全性（ループ検出）」の両面が大幅に進化したリリースです。特に、長時間エージェントを自律稼働させる際のループ監視は、実務での信頼性を一段引き上げる重要な機能となるでしょう。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
