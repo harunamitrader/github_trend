@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:59:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 01:06:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ruflo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruflo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruflo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-claude-code-v2-1-83.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[obsidian の 3月分アップデート詳細。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[Tool: Notebooklm] Cinematic Video 概要生成]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-cinematic-video.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-cinematic-video.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[notebooklm の 3月分アップデート詳細。]]></description>
     </item>
   </channel>
 </rss>
