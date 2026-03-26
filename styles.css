@@ -207,10 +207,24 @@ p {
 .archive-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.84rem;
   color: var(--text-muted);
-  font-size: 0.88rem;
+  margin-bottom: 10px;
+}
+
+.rank-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  background: rgba(9, 105, 218, 0.1);
+  color: #0969da;
+  border: 1px solid rgba(9, 105, 218, 0.2);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .latest-box p,

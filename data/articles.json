@@ -8,39 +8,6 @@
   "articles": [
     {
       "category": "github-trending",
-      "slug": "2026-03-26-hsliuping-tradingagents-cn",
-      "title": "TradingAgents-CN",
-      "dek": "複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。",
-      "summary": "hsliuping/TradingAgents-CN を読み、中国市場に最適化されたマルチエージェント LLM 金融トレーディングフレームワークの設計と利点を整理。 ",
-      "publishedAt": "2026-03-26",
-      "repoName": "hsliuping/TradingAgents-CN",
-      "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
-      "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-26-supermemoryai-supermemory",
-      "title": "supermemory",
-      "dek": "AI エージェントに長期・短期記憶を授ける、超高速・高スケーラビリティなメモリエンジン。",
-      "summary": "supermemoryai/supermemory を読み、AI エージェントに長期・短期記憶を授ける高性能なメモリエンジンの特徴と利活用を整理。",
-      "publishedAt": "2026-03-26",
-      "repoName": "supermemoryai/supermemory",
-      "repoUrl": "https://github.com/supermemoryai/supermemory",
-      "articleUrl": "./articles/github/2026-03-26-supermemoryai-supermemory.html"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-26-ruvnet-ruview",
-      "title": "RuView",
-      "dek": "WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。",
-      "summary": "ruvnet/RuView を読み、WiFi 信号を用いてカメラなしで壁越しの人物検知やバイタル測定を行う革新的な Rust プロジェクトを解説。",
-      "publishedAt": "2026-03-26",
-      "repoName": "ruvnet/RuView",
-      "repoUrl": "https://github.com/ruvnet/RuView",
-      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruview.html"
-    },
-    {
-      "category": "github-trending",
       "slug": "2026-03-26-mvanhorn-last30days-skill",
       "title": "last30days-skill",
       "dek": "Reddit や X 等の複数プラットフォームを横断調査し、直近 30 日間の動向を根拠付きでまとめる AI リサーチエージェント。",
@@ -48,7 +15,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "mvanhorn/last30days-skill",
       "repoUrl": "https://github.com/mvanhorn/last30days-skill",
-      "articleUrl": "./articles/github/2026-03-26-mvanhorn-last30days-skill.html"
+      "articleUrl": "./articles/github/2026-03-26-mvanhorn-last30days-skill.html",
+      "rank": 2
     },
     {
       "category": "github-trending",
@@ -59,7 +27,44 @@
       "publishedAt": "2026-03-26",
       "repoName": "ruvnet/ruflo",
       "repoUrl": "https://github.com/ruvnet/ruflo",
-      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruflo.html"
+      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruflo.html",
+      "rank": 3
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-ruvnet-ruview",
+      "title": "RuView",
+      "dek": "WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。",
+      "summary": "ruvnet/RuView を読み、WiFi 信号を用いてカメラなしで壁越しの人物検知やバイタル測定を行う革新的な Rust プロジェクトを解説。",
+      "publishedAt": "2026-03-26",
+      "repoName": "ruvnet/RuView",
+      "repoUrl": "https://github.com/ruvnet/RuView",
+      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruview.html",
+      "rank": 4
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-supermemoryai-supermemory",
+      "title": "supermemory",
+      "dek": "AI エージェントに長期・短期記憶を授ける、超高速・高スケーラビリティなメモリエンジン。",
+      "summary": "supermemoryai/supermemory を読み、AI エージェントに長期・短期記憶を授ける高性能なメモリエンジンの特徴と利活用を整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "supermemoryai/supermemory",
+      "repoUrl": "https://github.com/supermemoryai/supermemory",
+      "articleUrl": "./articles/github/2026-03-26-supermemoryai-supermemory.html",
+      "rank": 5
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-hsliuping-tradingagents-cn",
+      "title": "TradingAgents-CN",
+      "dek": "複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。",
+      "summary": "hsliuping/TradingAgents-CN を読み、中国市場に最適化されたマルチエージェント LLM 金融トレーディングフレームワークの設計と利点を整理。 ",
+      "publishedAt": "2026-03-26",
+      "repoName": "hsliuping/TradingAgents-CN",
+      "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
+      "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html",
+      "rank": 6
     },
     {
       "category": "ai-tool-log",
@@ -70,7 +75,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/tools/2026-03-26-claude-code-v2-1-83.html"
+      "articleUrl": "./articles/tools/2026-03-26-claude-code-v2-1-83.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -81,7 +87,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "getcursor/cursor",
       "repoUrl": "https://cursor.com/",
-      "articleUrl": "./articles/tools/2026-03-26-cursor-update-marsh-25.html"
+      "articleUrl": "./articles/tools/2026-03-26-cursor-update-marsh-25.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -92,7 +99,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "system",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html"
+      "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -103,7 +111,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "system",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html"
+      "articleUrl": "./articles/tools/2026-03-26-daily-monitor-report.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -114,7 +123,8 @@
       "publishedAt": "2026-03-26",
       "repoName": "cline/cline",
       "repoUrl": "https://github.com/cline/cline",
-      "articleUrl": "./articles/tools/2026-03-26-cline-v3-75-1.html"
+      "articleUrl": "./articles/tools/2026-03-26-cline-v3-75-1.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -125,7 +135,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-googledrive.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-googledrive.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -136,7 +147,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-models-api.html"
+      "articleUrl": "./articles/tools/2026-03-claude-models-api.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -147,7 +159,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-lyria-launch.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-lyria-launch.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -158,7 +171,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-googledrive.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-googledrive.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -169,7 +183,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-models-api.html"
+      "articleUrl": "./articles/tools/2026-03-claude-models-api.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -180,7 +195,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-lyria-launch.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-lyria-launch.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -191,7 +207,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "google/gemini",
       "repoUrl": "https://ai.google.dev/changelog",
-      "articleUrl": "./articles/tools/2026-03-gemini-lyria.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-lyria.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -202,139 +219,8 @@
       "publishedAt": "2026-03-25",
       "repoName": "google/gemini-cli",
       "repoUrl": "https://github.com/google/gemini-cli",
-      "articleUrl": "./articles/tools/2026-03-25-gemini-cli-v0-36-0.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-perplexity-computer-launch",
-      "title": "[PERPLEXITY] Perplexity Computer 発表",
-      "dek": "perplexity の 2026年3月 リリース実績。",
-      "summary": "perplexity Perplexity Computer 発表",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-perplexity-computer-launch.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-obsidian-v1127-release",
-      "title": "[OBSIDIAN] v1.12.7: CLI 統合",
-      "dek": "obsidian の 2026年3月 リリース実績。",
-      "summary": "obsidian v1.12.7: CLI 統合",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-obsidian-v1127-release.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-notebooklm-cinematic-video",
-      "title": "[NOTEBOOKLM] Cinematic Video 概要生成",
-      "dek": "notebooklm の 2026年3月 リリース実績。",
-      "summary": "notebooklm Cinematic Video 概要生成",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-cinematic-video.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-openclaw-teams-official",
-      "title": "[OPENCLAW] Teams 公式 SDK 移行",
-      "dek": "openclaw の 2026年3月 リリース実績。",
-      "summary": "openclaw Teams 公式 SDK 移行",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-teams-official.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-perplexity-computer-launch",
-      "title": "[Tool: Perplexity] Perplexity Computer 発表",
-      "dek": "perplexity の 3月分アップデート詳細。",
-      "summary": "Perplexity Computer 発表",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-perplexity-computer-launch.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-obsidian-v1127-release",
-      "title": "[Tool: Obsidian] v1.12.7: CLI 統合",
-      "dek": "obsidian の 3月分アップデート詳細。",
-      "summary": "v1.12.7: CLI 統合",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-obsidian-v1127-release.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-notebooklm-cinematic-video",
-      "title": "[Tool: Notebooklm] Cinematic Video 概要生成",
-      "dek": "notebooklm の 3月分アップデート詳細。",
-      "summary": "Cinematic Video 概要生成",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-cinematic-video.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-openclaw-teams-official",
-      "title": "[Tool: Openclaw] Teams 公式 SDK 移行",
-      "dek": "openclaw の 3月分アップデート詳細。",
-      "summary": "Teams 公式 SDK 移行",
-      "publishedAt": "2026-03-24",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-teams-official.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-perplexity-computer",
-      "title": "Perplexity Computer 発表: マルチモデル制御と iPhone 用 Comet",
-      "dek": "最適モデルを自動割当する Computer 機能と、モバイル用 AI 専用ブラウザを展開。",
-      "summary": "Perplexity AI の 2026 年 3 月アップデート内容をまとめ、マルチモデル・オーケストレーション基盤としての Computer 機能の詳細を整理する。",
-      "publishedAt": "2026-03-24",
-      "repoName": "perplexity/perplexity",
-      "repoUrl": "https://www.perplexity.ai/blog",
-      "articleUrl": "./articles/tools/2026-03-perplexity-computer.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-claude-marketplace",
-      "title": "Claude 3月更新: Claude Marketplace とインライン可視化の導入",
-      "dek": "エコシステム管理のマーケットプレイス、図解の自動生成、全ユーザーへのメモリ提供。",
-      "summary": "Claude (Anthropic) の 2026 年 3 月アップデート内容をまとめ、マーケットプレイスによるツール拡張と可視化機能の意義を整理する。",
-      "publishedAt": "2026-03-24",
-      "repoName": "anthropic/claude",
-      "repoUrl": "https://www.anthropic.com/claude",
-      "articleUrl": "./articles/tools/2026-03-claude-marketplace.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-03-24-antigravity-v1-20-6",
-      "title": "Antigravity v1.20.6: ターミナル体験の刷新",
-      "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",
-      "summary": "Antigravity v1.20.6 のリリース情報を読み、ターミナル統合の改善やアーティファクトのダウンロードサポートの詳細を整理する。",
-      "publishedAt": "2026-03-24",
-      "repoName": "google/antigravity",
-      "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/tools/2026-03-24-antigravity-v1-20-6.html"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
-      "title": "MoneyPrinterV2",
-      "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
-      "summary": "GitHub Trending 上位の MoneyPrinterV2 を読み、収益化に近い作業をまとめて自動化する repo として何ができて、どこに注意すべきかを整理する。",
-      "publishedAt": "2026-03-24",
-      "repoName": "FujiwaraChoki/MoneyPrinterV2",
-      "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
-      "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html"
+      "articleUrl": "./articles/tools/2026-03-25-gemini-cli-v0-36-0.html",
+      "rank": 999
     },
     {
       "category": "github-trending",
@@ -345,7 +231,20 @@
       "publishedAt": "2026-03-24",
       "repoName": "bytedance/deer-flow",
       "repoUrl": "https://github.com/bytedance/deer-flow",
-      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html"
+      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html",
+      "rank": 3
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
+      "title": "MoneyPrinterV2",
+      "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
+      "summary": "GitHub Trending 上位の MoneyPrinterV2 を読み、収益化に近い作業をまとめて自動化する repo として何ができて、どこに注意すべきかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "FujiwaraChoki/MoneyPrinterV2",
+      "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html",
+      "rank": 99
     },
     {
       "category": "github-trending",
@@ -356,7 +255,8 @@
       "publishedAt": "2026-03-24",
       "repoName": "Crosstalk-Solutions/project-nomad",
       "repoUrl": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "articleUrl": "./articles/github/2026-03-24-crosstalk-solutions-project-nomad.html"
+      "articleUrl": "./articles/github/2026-03-24-crosstalk-solutions-project-nomad.html",
+      "rank": 99
     },
     {
       "category": "github-trending",
@@ -367,7 +267,8 @@
       "publishedAt": "2026-03-24",
       "repoName": "vxcontrol/pentagi",
       "repoUrl": "https://github.com/vxcontrol/pentagi",
-      "articleUrl": "./articles/github/2026-03-24-vxcontrol-pentagi.html"
+      "articleUrl": "./articles/github/2026-03-24-vxcontrol-pentagi.html",
+      "rank": 99
     },
     {
       "category": "github-trending",
@@ -378,7 +279,8 @@
       "publishedAt": "2026-03-24",
       "repoName": "browser-use/browser-use",
       "repoUrl": "https://github.com/browser-use/browser-use",
-      "articleUrl": "./articles/github/2026-03-24-browser-use-browser-use.html"
+      "articleUrl": "./articles/github/2026-03-24-browser-use-browser-use.html",
+      "rank": 99
     },
     {
       "category": "github-trending",
@@ -389,7 +291,140 @@
       "publishedAt": "2026-03-24",
       "repoName": "TauricResearch/TradingAgents",
       "repoUrl": "https://github.com/TauricResearch/TradingAgents",
-      "articleUrl": "./articles/github/2026-03-24-tauricresearch-tradingagents.html"
+      "articleUrl": "./articles/github/2026-03-24-tauricresearch-tradingagents.html",
+      "rank": 99
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-perplexity-computer-launch",
+      "title": "[PERPLEXITY] Perplexity Computer 発表",
+      "dek": "perplexity の 2026年3月 リリース実績。",
+      "summary": "perplexity Perplexity Computer 発表",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-perplexity-computer-launch.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-obsidian-v1127-release",
+      "title": "[OBSIDIAN] v1.12.7: CLI 統合",
+      "dek": "obsidian の 2026年3月 リリース実績。",
+      "summary": "obsidian v1.12.7: CLI 統合",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-obsidian-v1127-release.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-notebooklm-cinematic-video",
+      "title": "[NOTEBOOKLM] Cinematic Video 概要生成",
+      "dek": "notebooklm の 2026年3月 リリース実績。",
+      "summary": "notebooklm Cinematic Video 概要生成",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-notebooklm-cinematic-video.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-openclaw-teams-official",
+      "title": "[OPENCLAW] Teams 公式 SDK 移行",
+      "dek": "openclaw の 2026年3月 リリース実績。",
+      "summary": "openclaw Teams 公式 SDK 移行",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-openclaw-teams-official.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-perplexity-computer-launch",
+      "title": "[Tool: Perplexity] Perplexity Computer 発表",
+      "dek": "perplexity の 3月分アップデート詳細。",
+      "summary": "Perplexity Computer 発表",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-perplexity-computer-launch.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-obsidian-v1127-release",
+      "title": "[Tool: Obsidian] v1.12.7: CLI 統合",
+      "dek": "obsidian の 3月分アップデート詳細。",
+      "summary": "v1.12.7: CLI 統合",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-obsidian-v1127-release.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-notebooklm-cinematic-video",
+      "title": "[Tool: Notebooklm] Cinematic Video 概要生成",
+      "dek": "notebooklm の 3月分アップデート詳細。",
+      "summary": "Cinematic Video 概要生成",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-notebooklm-cinematic-video.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-openclaw-teams-official",
+      "title": "[Tool: Openclaw] Teams 公式 SDK 移行",
+      "dek": "openclaw の 3月分アップデート詳細。",
+      "summary": "Teams 公式 SDK 移行",
+      "publishedAt": "2026-03-24",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
+      "articleUrl": "./articles/tools/2026-03-openclaw-teams-official.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-perplexity-computer",
+      "title": "Perplexity Computer 発表: マルチモデル制御と iPhone 用 Comet",
+      "dek": "最適モデルを自動割当する Computer 機能と、モバイル用 AI 専用ブラウザを展開。",
+      "summary": "Perplexity AI の 2026 年 3 月アップデート内容をまとめ、マルチモデル・オーケストレーション基盤としての Computer 機能の詳細を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "perplexity/perplexity",
+      "repoUrl": "https://www.perplexity.ai/blog",
+      "articleUrl": "./articles/tools/2026-03-perplexity-computer.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-claude-marketplace",
+      "title": "Claude 3月更新: Claude Marketplace とインライン可視化の導入",
+      "dek": "エコシステム管理のマーケットプレイス、図解の自動生成、全ユーザーへのメモリ提供。",
+      "summary": "Claude (Anthropic) の 2026 年 3 月アップデート内容をまとめ、マーケットプレイスによるツール拡張と可視化機能の意義を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://www.anthropic.com/claude",
+      "articleUrl": "./articles/tools/2026-03-claude-marketplace.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-24-antigravity-v1-20-6",
+      "title": "Antigravity v1.20.6: ターミナル体験の刷新",
+      "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",
+      "summary": "Antigravity v1.20.6 のリリース情報を読み、ターミナル統合の改善やアーティファクトのダウンロードサポートの詳細を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://github.com/google/antigravity",
+      "articleUrl": "./articles/tools/2026-03-24-antigravity-v1-20-6.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -400,7 +435,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-ai-studio-billing.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-ai-studio-billing.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -411,7 +447,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc5.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc5.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -422,7 +459,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc4.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc4.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -433,7 +471,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-ai-studio-billing.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-ai-studio-billing.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -444,7 +483,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc5.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc5.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -455,7 +495,8 @@
       "publishedAt": "2026-03-23",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc4.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc4.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -466,7 +507,8 @@
       "publishedAt": "2026-03-22",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc3.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc3.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -477,7 +519,8 @@
       "publishedAt": "2026-03-22",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc3.html"
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v10-rc3.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -488,7 +531,8 @@
       "publishedAt": "2026-03-21",
       "repoName": "cline/cline",
       "repoUrl": "https://github.com/cline/cline",
-      "articleUrl": "./articles/tools/2026-03-21-cline-v3-75-0.html"
+      "articleUrl": "./articles/tools/2026-03-21-cline-v3-75-0.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -499,7 +543,8 @@
       "publishedAt": "2026-03-21",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/tools/2026-03-21-claude-code-v2-1-81.html"
+      "articleUrl": "./articles/tools/2026-03-21-claude-code-v2-1-81.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -510,7 +555,8 @@
       "publishedAt": "2026-03-20",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-persistent-memory.html"
+      "articleUrl": "./articles/tools/2026-03-claude-persistent-memory.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -521,7 +567,8 @@
       "publishedAt": "2026-03-20",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-4-reasoning-phd.html"
+      "articleUrl": "./articles/tools/2026-03-grok-4-reasoning-phd.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -532,7 +579,8 @@
       "publishedAt": "2026-03-20",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-persistent-memory.html"
+      "articleUrl": "./articles/tools/2026-03-claude-persistent-memory.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -543,7 +591,8 @@
       "publishedAt": "2026-03-20",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-4-reasoning-phd.html"
+      "articleUrl": "./articles/tools/2026-03-grok-4-reasoning-phd.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -554,7 +603,8 @@
       "publishedAt": "2026-03-20",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/tools/2026-03-20-claude-code-v2-1-80.html"
+      "articleUrl": "./articles/tools/2026-03-20-claude-code-v2-1-80.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -565,7 +615,8 @@
       "publishedAt": "2026-03-19",
       "repoName": "getcursor/cursor",
       "repoUrl": "https://cursor.com/",
-      "articleUrl": "./articles/tools/2026-03-19-cursor-composer-2.html"
+      "articleUrl": "./articles/tools/2026-03-19-cursor-composer-2.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -576,7 +627,8 @@
       "publishedAt": "2026-03-18",
       "repoName": "openai/codex",
       "repoUrl": "https://openai.com/blog",
-      "articleUrl": "./articles/tools/2026-03-18-openai-codex-gpt-5.html"
+      "articleUrl": "./articles/tools/2026-03-18-openai-codex-gpt-5.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -587,7 +639,8 @@
       "publishedAt": "2026-03-18",
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropic-ai/claude-code",
-      "articleUrl": "./articles/tools/2026-03-18-claude-code-v2-1-79.html"
+      "articleUrl": "./articles/tools/2026-03-18-claude-code-v2-1-79.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -598,7 +651,8 @@
       "publishedAt": "2026-03-15",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-perplexity-iphone-comet.html"
+      "articleUrl": "./articles/tools/2026-03-perplexity-iphone-comet.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -609,7 +663,8 @@
       "publishedAt": "2026-03-15",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-epub-support.html"
+      "articleUrl": "./articles/tools/2026-03-notebooklm-epub-support.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -620,7 +675,8 @@
       "publishedAt": "2026-03-15",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-control-ui-tabs.html"
+      "articleUrl": "./articles/tools/2026-03-openclaw-control-ui-tabs.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -631,7 +687,8 @@
       "publishedAt": "2026-03-15",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-epub-support.html"
+      "articleUrl": "./articles/tools/2026-03-notebooklm-epub-support.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -642,7 +699,8 @@
       "publishedAt": "2026-03-15",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-control-ui-tabs.html"
+      "articleUrl": "./articles/tools/2026-03-openclaw-control-ui-tabs.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -653,7 +711,8 @@
       "publishedAt": "2026-03-11",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-gpt54-thinking.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-gpt54-thinking.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -664,7 +723,8 @@
       "publishedAt": "2026-03-11",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-gpt54-thinking.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-gpt54-thinking.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -675,7 +735,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-perplexity-deepresearch.html"
+      "articleUrl": "./articles/tools/2026-03-perplexity-deepresearch.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -686,7 +747,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-embedding-v2.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-embedding-v2.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -697,7 +759,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-obsidian-v1120-iphone-share.html"
+      "articleUrl": "./articles/tools/2026-03-obsidian-v1120-iphone-share.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -708,7 +771,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-infographics.html"
+      "articleUrl": "./articles/tools/2026-03-notebooklm-infographics.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -719,7 +783,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-perplexity-deepresearch.html"
+      "articleUrl": "./articles/tools/2026-03-perplexity-deepresearch.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -730,7 +795,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-embedding-v2.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-embedding-v2.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -741,7 +807,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-obsidian-v1120-iphone-share.html"
+      "articleUrl": "./articles/tools/2026-03-obsidian-v1120-iphone-share.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -752,7 +819,8 @@
       "publishedAt": "2026-03-10",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-notebooklm-infographics.html"
+      "articleUrl": "./articles/tools/2026-03-notebooklm-infographics.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -763,7 +831,8 @@
       "publishedAt": "2026-03-09",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-v31-pro-preview.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-v31-pro-preview.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -774,7 +843,8 @@
       "publishedAt": "2026-03-09",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-gemini-v31-pro-preview.html"
+      "articleUrl": "./articles/tools/2026-03-gemini-v31-pro-preview.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -785,7 +855,8 @@
       "publishedAt": "2026-03-09",
       "repoName": "google/antigravity",
       "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/tools/2026-03-09-antigravity-v1-20-5.html"
+      "articleUrl": "./articles/tools/2026-03-09-antigravity-v1-20-5.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -796,7 +867,8 @@
       "publishedAt": "2026-03-06",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-marketplace-open.html"
+      "articleUrl": "./articles/tools/2026-03-claude-marketplace-open.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -807,7 +879,8 @@
       "publishedAt": "2026-03-06",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-marketplace-open.html"
+      "articleUrl": "./articles/tools/2026-03-claude-marketplace-open.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -818,7 +891,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-shopping.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-shopping.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -829,7 +903,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-openai-compat-v1.html"
+      "articleUrl": "./articles/tools/2026-03-openclaw-openai-compat-v1.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -840,7 +915,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-shopping.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-shopping.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -851,7 +927,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-openclaw-openai-compat-v1.html"
+      "articleUrl": "./articles/tools/2026-03-openclaw-openai-compat-v1.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -862,7 +939,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "getcursor/cursor",
       "repoUrl": "https://cursor.com/",
-      "articleUrl": "./articles/tools/2026-03-05-cursor-automations.html"
+      "articleUrl": "./articles/tools/2026-03-05-cursor-automations.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -873,7 +951,8 @@
       "publishedAt": "2026-03-05",
       "repoName": "google/antigravity",
       "repoUrl": "https://github.com/google/antigravity",
-      "articleUrl": "./articles/tools/2026-03-05-antigravity-v1-20-3.html"
+      "articleUrl": "./articles/tools/2026-03-05-antigravity-v1-20-3.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -884,7 +963,8 @@
       "publishedAt": "2026-03-04",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-4-20-beta2.html"
+      "articleUrl": "./articles/tools/2026-03-grok-4-20-beta2.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -895,7 +975,8 @@
       "publishedAt": "2026-03-04",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-grok-4-20-beta2.html"
+      "articleUrl": "./articles/tools/2026-03-grok-4-20-beta2.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -906,7 +987,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-largepaste.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-largepaste.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -917,7 +999,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-visualizations.html"
+      "articleUrl": "./articles/tools/2026-03-claude-visualizations.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -928,7 +1011,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-chatgpt-largepaste.html"
+      "articleUrl": "./articles/tools/2026-03-chatgpt-largepaste.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -939,7 +1023,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "harunami_AI_base",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
-      "articleUrl": "./articles/tools/2026-03-claude-visualizations.html"
+      "articleUrl": "./articles/tools/2026-03-claude-visualizations.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -950,7 +1035,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "github/copilot",
       "repoUrl": "https://github.blog",
-      "articleUrl": "./articles/tools/2026-03-01-github-copilot-pr-agent.html"
+      "articleUrl": "./articles/tools/2026-03-01-github-copilot-pr-agent.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -961,7 +1047,8 @@
       "publishedAt": "2026-03-01",
       "repoName": "codeium/windsurf",
       "repoUrl": "https://codeium.com/windsurf",
-      "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html"
+      "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -972,7 +1059,8 @@
       "publishedAt": "2026-01-20",
       "repoName": "codeium/windsurf",
       "repoUrl": "https://codeium.com/windsurf",
-      "articleUrl": "./articles/tools/2026-01-20-windsurf-wave-14.html"
+      "articleUrl": "./articles/tools/2026-01-20-windsurf-wave-14.html",
+      "rank": 999
     }
   ]
 }
