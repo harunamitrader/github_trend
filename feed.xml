@@ -5,15 +5,47 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 08:52:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 20:23:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title><![CDATA[CCCBot: Claude Code Channels 上での自律エージェントの可能性]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-cccbot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-cccbot.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。]]></description>
+      <title><![CDATA[oh-my-claudecode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Yeachan-Heo-oh-my-claudecode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Yeachan-Heo-oh-my-claudecode.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code をマルチエージェント化し、複雑なタスクを並列実行・自動検証できる拡張基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dexter]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-virattt-dexter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-virattt-dexter.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自ら考え、計画し、反省しながら金融リサーチを完遂する自律型金融アナリストエージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[insanely-fast-whisper]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agentscope]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-agentscope-ai-agentscope.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-agentscope-ai-agentscope.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[直感的かつ堅牢なマルチエージェント・アプリケーションを迅速に構築・デプロイできる開発フレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[twenty]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-twentyhq-twenty.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-twentyhq-twenty.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Notion のような柔軟な操作感とコミュニティ主導の拡張性を備えた、Salesforce 代替を目指すオープンソース CRM。]]></description>
     </item>
     <item>
       <title><![CDATA[last30days-skill]]></title>
@@ -54,6 +86,14 @@
       <category>github-trending</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[CCCBot: Claude Code Channels 上での自律エージェントの可能性]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-cccbot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-cccbot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。]]></description>
     </item>
     <item>
       <title><![CDATA[Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化]]></title>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[chatgpt の 3月分アップデート詳細。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[Tool: Claude] Models API 発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-claude-models-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-claude-models-api.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[claude の 3月分アップデート詳細。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[Tool: Gemini] Lyria 3 音楽生成公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria-launch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria-launch.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[gemini の 3月分アップデート詳細。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google AI Studio 3月更新: Lyria 3 音楽生成と新課金プラン]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高品質な音楽生成モデルの公開と、開発者向けの従量課金プランを開始。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-cli-v0-36-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-cli-v0-36-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[deer-flow]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-bytedance-deer-flow.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-bytedance-deer-flow.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントを長く動かすための実行基盤に寄った OSS。]]></description>
     </item>
   </channel>
 </rss>
