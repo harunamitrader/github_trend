@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ruvnet/ruflo を読み、Claude Code を強力なマルチエージェント・システムへと拡張する Hive Mind アーキテクチャを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ruflo</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ruflo</h1>
+      <p class="article-dek">Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>3位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noreferrer">
+              ruvnet/ruflo
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>rufno は、Anthropic の Claude Code を単なる一人の「AI アシスタント」から、高度に調整された「マルチエージェント・チーム」へと進化させるためのオープンソース・オーケストレーション基盤です。以前は Claude Flow として知られていました。</p>
+
+        <h2>何ができるか</h2>
+        <p>60 種類を超える専門エージェント（コーダー、テスター、セキュリティ監査人、ドキュメント作成者など）を「Hive Mind」と呼ばれる集合知モデルで統合し、複雑なソフトウェア開発タスクを協調して実行できます。Claude Code 内で直接 MCP (Model Context Protocol) サーバーとして動作し、コマンド一つでスウォーム（群れ）を起動して並列・段階的なタスク処理が可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、Strategic/Tactical/Adaptive といった役割を持つ「Queen」エージェントが、他の Worker エージェントを指揮して合意（コンセンサス）を形成するガバナンス構造です。また、自己学習アルゴリズムを搭載しており、成功したワークフローのパターンを学習して時間とともに最適化される点もユニークです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 環境があれば <code>npx ruflo@latest init</code> で初期化できます。Claude Code と連携させるには <code>npx ruflo@latest mcp start</code> で MCP サーバーを起動し、Claude 側で特定のタスク（例：「認証機能を実装し、テストを書いてドキュメントを作成せよ」）を投げると、適切なエージェント群が自動的に選定・編成されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code を既に業務に取り入れており、単一のプロンプトでは対応しきれない大規模なリファクタリングや、包括的なセキュリティ監査、自動テストスイートの構築を AI に自律的に行わせたい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>60 種類以上のエージェントを動かす「スウォーム」構成の場合、API コストが急増する可能性があります。Ruflo はコスト効率の高いルーティング機能も備えていますが、並列実行数や複雑な合意形成アルゴリズムの使用には注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>Ruflo は、Claude Code をエンタープライズレベルの「自律型開発チーム」へ拡張する、現在最も注目されるエージェント・オーケストレーターの一つです。個別のツールとしてではなく、既存の Claude ワークフローを深める「基盤」として設計されている点が強力です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noreferrer">ruvnet/ruflo</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

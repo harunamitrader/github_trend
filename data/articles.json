@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "github-trending",
+      "slug": "2026-03-26-ruvnet-ruflo",
+      "title": "ruflo",
+      "dek": "Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。",
+      "summary": "ruvnet/ruflo を読み、Claude Code を強力なマルチエージェント・システムへと拡張する Hive Mind アーキテクチャを整理する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "ruvnet/ruflo",
+      "repoUrl": "https://github.com/ruvnet/ruflo",
+      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruflo.html"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-26-claude-code-v2-1-83",
       "title": "Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化",
