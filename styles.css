@@ -632,3 +632,102 @@ p {
   color: var(--theme-color);
 }
 
+
+/* =====================================================
+   Tool Card Accordion
+   ===================================================== */
+
+/* Single-column list layout for accordion */
+.tool-grid:has(details.tool-card) {
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+/* Reset card padding — summary handles it */
+details.tool-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* No lift-on-hover for accordion */
+details.tool-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--line);
+}
+
+details.tool-card[open] {
+  border-color: var(--accent, var(--primary));
+}
+
+/* Summary row */
+details.tool-card > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+details.tool-card > summary::-webkit-details-marker { display: none; }
+details.tool-card > summary::marker { display: none; content: ''; }
+
+/* Tool name inside summary — smaller, inline, no margin */
+details.tool-card > summary .tool-name {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  min-width: 110px;
+}
+
+/* Date + title pair */
+.tool-summary-latest {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.tool-summary-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.tool-summary-title {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Chevron */
+.tool-summary-chevron {
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  transition: transform 0.15s ease;
+  margin-left: 4px;
+}
+
+details[open].tool-card > summary .tool-summary-chevron {
+  transform: rotate(180deg);
+}
+
+/* Expanded body */
+.tool-details-body {
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--line);
+}
+
+.tool-details-body .tool-status {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
