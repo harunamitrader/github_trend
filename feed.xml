@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 20:32:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 20:56:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[oh-my-claudecode]]></title>
@@ -104,6 +104,22 @@
       <description><![CDATA[複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。]]></description>
     </item>
     <item>
+      <title><![CDATA[Gemini AI Studio: リアルタイム音声モデル「Flash Live」と音楽生成 Lyria 3 公開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-gemini-ai-studio-flash-live.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-gemini-ai-studio-flash-live.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[オーディオ間での超低遅延対話モデルと、プロ仕様の音楽生成モデルが Google AI Studio で利用可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Google Antigravity: Firebase 統合によるプロダクション級アプリの「Vibe Coding」実現]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-antigravity-firebase.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-antigravity-firebase.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[コーディングエージェントに Firebase のフルパワーを授け、認証・DB・インフラの自動構築が可能に。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Grok CLI v1.0.0-rc7: デーモン実行と強力なサンドボックス機能]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</guid>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日 08:34 の再スキャンにより、主要 2 ツールでの新着リリースを特定しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-03-26 定期監視レポート: 全ツールの安定稼働を確認]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-daily-monitor-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-daily-monitor-report.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日の定刻スキャンが完了。主要8ツールに新着なし、全システム正常。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.75.1: パフォーマンスのさらなる最適化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-cline-v3-75-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-cline-v3-75-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[インデックス作成アルゴリズムの改善により、大規模プロジェクトでの操作性が向上。]]></description>
     </item>
   </channel>
 </rss>
