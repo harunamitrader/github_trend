@@ -731,3 +731,15 @@ details[open].tool-card > summary .tool-summary-chevron {
   margin-top: 16px;
   margin-bottom: 0;
 }
+
+.tool-category-header {
+  grid-column: 1 / -1;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 8px 0 4px;
+  border-bottom: 1px solid var(--line);
+  margin-top: 8px;
+}
