@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Copilot の 2026年3月26日のアップデート情報を整理し、プルリクエストのマージコンフリクト解消支援や新ダッシュボードのプレビューについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitHub Copilot Update Mar.26</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">GitHub Copilot 3月26日アップデート: マージコンフリクト解法支援と新ダッシュボード</h1>
+      <p class="article-dek">プルリクエストのコンフリクト解消を Copilot がサポート開始。エージェントのアクティビティ追跡も強化。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>999位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.blog/changelog" target="_blank" rel="noreferrer">
+              github/copilot
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>GitHub Copilot および GitHub プラットフォーム全体にわたる 2026年3月26日の大型アップデートの要約です。プルリクエスト（PR）におけるコラボレーションの難所を AI が直接支援する機能などが盛り込まれています。</p>
+
+        <h2>何ができるか</h2>
+        <p>最大の新機能は、<strong>プルリクエスト上でのマージコンフリクト解消支援</strong> です。<code>@copilot</code> に対して直接、コンフリクトの解決を依頼できるようになりました。また、新しいプルリクエスト・ダッシュボードがパブリックプレビューとして公開され、自分に関連する PR をより整理された形で一括管理できるようになっています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>自律型エージェント（AI Coding Agents）との協調作業に向けた機能が非常に充実しています。GitHub Issues や Projects 上でエージェントのアクティビティが可視化されるようになったほか、GitHub Actions の実行概要からエージェントのワークフロー構成を確認できる機能、さらには Raycast を通じたエージェントログのライブ監視（3/20記事）まで、周辺エコシステムが急激に整いつつあります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>多くの機能は GitHub の Web UI 上で自動的に有効化されるか、プレビュー機能を有効にすることで利用可能になります。プルリクエストのコンフリクトが発生している際、コメント欄で <code>@copilot fix conflicts</code> のように呼び出し、提案された解決策を確認して反映させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>日々の開発ワークフローで煩雑なマージ作業に時間を取られているエンジニアや、多くのプロジェクトを並行管理しているマネージャーにおすすめです。特に、自律型エージェントを CI/CD や課題管理に組み込んでいる高度なチームには必須の更新となります。</p>
+
+        <h2>注意点</h2>
+        <p>コンフリクトの解消は AI による提案であるため、マージ後のテスト実行による動作検証は引き続き必要です。また、Gemini 3 Pro のサポート終了（Mar.26 Retired）など、利用可能なモデルの整理も行われているため、設定の再確認を推奨します。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートにより、GitHub は「単なるコード保管庫」から、人間と AI エージェントがシームレスに協力して開発を進める「インテリジェントな共同作業プラットフォーム」へとさらなる進化を遂げました。特に PR 管理とエージェントの可視化は、開発のスピード感と透明性を大きく変えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.blog/changelog" target="_blank" rel="noreferrer">GitHub Changelog</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests" target="_blank" rel="noreferrer">Conflict Resolution Feature Details</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

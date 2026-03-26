@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.84 のリリース情報を読み、待望の PowerShell ツール導入や環境変数による制御強化、UX 改善の詳細を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.84</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.84: PowerShell 対応と制御機能の拡充</h1>
+      <p class="article-dek">Windows ユーザー待望の PowerShell ツール (Preview) と、環境変数による詳細な挙動制御を導入。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>999位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">
+              anthropic-ai/claude-code
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic のターミナル用 AI 開発エージェント「Claude Code」のマイナーアップデートです。Windows 環境での操作性を劇的に向上させる新ツールの導入や、エンタープライズ利用を想定した管理機能、そして数多くの UX 改善が含まれています。</p>
+
+        <h2>何ができるか</h2>
+        <p>最大の新機能は、Windows 向けの <strong>PowerShell ツール</strong> です。現在はオプトインのプレビュー版として提供されており、Windows ユーザーは bash エミュレーションを介さずにネイティブなシェル操作を Claude に任せることが可能になります。また、<code>ANTHROPIC_DEFAULT_*_MODEL_SUPPORTS</code> などの環境変数が追加され、Vertex AI や Bedrock などのサードパーティ・プロバイダーを使用する際の思考能力（Thinking/Effort）の検出を明示的に制御できるようになりました。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「アイドル・リターン・プロンプト」の導入により、75分以上放置されたセッションに戻った際、Claude が <code>/clear</code> を推奨するようになりました。これにより、不必要なトークンの再キャッシュを防ぎ、コストを抑えることができます。また、ディープリンク（claude-cli://）が標準のターミナル以外でも正しく開くようになったほか、CJK 入力（日本語入力）時のカーソル追従などのアクセシビリティも改善されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>通常通り <code>npm install -g @anthropic-ai/claude-code</code> でアップデート可能です。PowerShell ツールを試すには、公式ドキュメントに従って設定を有効化する必要があります。環境変数の設定により、出力のカスタマイズやタイムアウトの閾値（<code>CLAUDE_STREAM_IDLE_TIMEOUT_MS</code>）の調整も可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>特に Windows 上で Claude Code を活用している開発者や、プロンプトキャッシュを効率化してコストを抑えたいパワーユーザー、さらにはサードパーティ API を介して Claude を運用しているチームに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>PowerShell ツールはまだプレビュー段階のため、複雑なスクリプトの実行には注意が必要です。また、MCP ツールの説明文が 2KB に制限されるようになったため、大規模な MCP サーバーを使用している場合は影響を受ける可能性があります。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.84 は、ツールの安定性と Windows 対応、そしてコスト管理という実用面にフォーカスした堅実なバグフィックス＆機能追加アップデートです。ネイティブな PowerShell サポートの開始は、Windows 開発者にとって大きな前進と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noreferrer">Claude Code v2.1.84 Releases</a>
+        </div>
+        <div class="source-item">
+          <a href="https://code.claude.com/docs/en/tools-reference#powershell-tool" target="_blank" rel="noreferrer">PowerShell Tool Documentation</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

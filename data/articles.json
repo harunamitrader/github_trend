@@ -67,6 +67,30 @@
       "rank": 8
     },
     {
+      "category": "ai-tool-log",
+      "slug": "2026-03-27-claude-code-v2-1-84",
+      "title": "Claude Code v2.1.84: PowerShell 対応と制御機能の拡充",
+      "dek": "Windows ユーザー待望の PowerShell ツール (Preview) と、環境変数による詳細な挙動制御を導入。",
+      "summary": "Claude Code v2.1.84 のリリース情報を読み、待望の PowerShell ツール導入や環境変数による制御強化、UX 改善の詳細を整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-03-27-claude-code-v2-1-84.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-27-cline-v3-76-0",
+      "title": "Cline v3.76.0: 看板管理の統合とループ検出による安全性の向上",
+      "dek": "人気の Kanban 機能を標準搭載し、トークンの浪費を防ぐ「ツール実行ループ検出」を導入。",
+      "summary": "Cline v3.76.0 のリリース情報を読み、Kanban 機能の統合とループ検出機能によるトークン浪費防止の仕組みを整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-03-27-cline-v3-76-0.html",
+      "rank": 999
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-26-mvanhorn-last30days-skill",
       "title": "last30days-skill",
@@ -125,6 +149,30 @@
       "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
       "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html",
       "rank": 12
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-26-grok-cli-v1-0-rc7",
+      "title": "Grok CLI v1.0.0-rc7: デーモン実行と強力なサンドボックス機能",
+      "dek": "定時実行の自動化や新しいサンドボックス、さらに Telegram 連携を大幅に強化。",
+      "summary": "Grok CLI v1.0.0-rc7 および rc6 の更新内容をまとめ、デーモンによる定時実行や Shuru サンドボックス、Telegram 連携強化の詳細を整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "superagent-ai/grok-cli",
+      "repoUrl": "https://github.com/superagent-ai/grok-cli/blob/main/CHANGELOG.md",
+      "articleUrl": "./articles/tools/2026-03-26-grok-cli-v1-0-rc7.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-26-github-copilot-update",
+      "title": "GitHub Copilot 3月26日アップデート: マージコンフリクト解法支援と新ダッシュボード",
+      "dek": "プルリクエストのコンフリクト解消を Copilot がサポート開始。エージェントのアクティビティ追跡も強化。",
+      "summary": "GitHub Copilot の 2026年3月26日のアップデート情報を整理し、プルリクエストのマージコンフリクト解消支援や新ダッシュボードのプレビューについて整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog",
+      "articleUrl": "./articles/tools/2026-03-26-github-copilot-update.html",
+      "rank": 999
     },
     {
       "category": "github-pickup",
