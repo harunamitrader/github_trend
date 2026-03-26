@@ -3,6 +3,12 @@
 > Antigravityスキル作成用リファレンス。サイトの現在の構成・監視対象・変更履歴をまとめる。
 
 ## ⚠️ ファイル編集時の注意（必読）
+## 6. デプロイメント (Deployment)
+- **環境**: GitHub Pages (`https://harunami-trader.github.io/harunami_AI_base/`)
+- **トリガー**: `origin main` への Git Push。
+- **デプロイ対象ブランチ**: `gh-pages` が存在する場合、そのブランチの更新により本番が反映される。
+- **反映の必須条件**: 修正コミット後は必ず `git push origin main`（および必要に応じて `git push origin main:gh-pages --force`）までを実行し、ビルドの成功を確認すること。
+- **キャッシュ回避**: `github-trend.html` 等の動的データ取得ページでは、`articles.json?t=${Date.now()}` クオリティによるキャッシュバイパスを行う。
 
 **全ファイルはUTF-8（BOMなし）で保存されています。**
 ファイルの読み書きは必ずUTF-8を明示的に指定すること。BOMを付けないこと。
