@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vaibhavs10/insanely-fast-whisper を読み、OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツールについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>insanely-fast-whisper</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">insanely-fast-whisper</h1>
+      <p class="article-dek">OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>6位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Vaibhavs10/insanely-fast-whisper" target="_blank" rel="noreferrer">
+              Vaibhavs10/insanely-fast-whisper
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenAI の音声認識モデル「Whisper」の推論速度を最大化することに特化したコマンドラインツールです。PyTorch や Flash Attention 2 などの高速化技術を駆使して、ローカル環境でも驚異的な速度で文字起こしを実行できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>数時間におよぶ長い音声ファイルや動画ファイルを、わずか数分で高精度なテキストに変換します。Whisper-large-v3, Distil-Whisper などの最新モデルを手軽に切り替えて、特定のデバイス（NVIDIA GPU や Mac の MPS）の性能をフルに活用することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>150分の音声を NVIDIA A100 グラフィックスボード環境で 98秒という極限の短時間で処理できることが示されています。また、インストールも <code>pipx</code> を使って非常にシンプルに行えるように設計されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pipx install insanely-fast-whisper</code> でツールをインストール。その後は <code>insanely-fast-whisper --file-name &lt;音声ファイル名&gt;</code> を実行するだけで、自動的に文字起こしが開始され、結果が保存されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>仕事で大量の会議音声やインタビュー、あるいはポッドキャストなどのメディア素材をテキスト化する必要がある開発者やクリエイター、リサーチャーにとって、時間の節約に大きくつながる必須ツールです。</p>
+
+        <h2>注意点</h2>
+        <p>最高のパフォーマンスを発揮するには NVIDIA の GPU 環境（CUDA）が必要ですが、Apple Silicon を搭載した Mac 環境でも動作可能です。ただし、ハードウェアの構成によっては特定の設定フラグの追加が必要な場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>名前の通り「正気とは思えないほど速い」文字起こし体験を提供してくれるツールです。ローカル環境で機密性の高いデータを扱う人にとっても、プライバシーを確保しながら効率を上げられる強力なソリューションとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Vaibhavs10/insanely-fast-whisper" target="_blank" rel="noreferrer">Vaibhavs10/insanely-fast-whisper</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

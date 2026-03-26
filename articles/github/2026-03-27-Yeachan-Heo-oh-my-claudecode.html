@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yeachan-Heo/oh-my-claudecode を読み、Claude Code をマルチエージェント化し、複雑なタスクを並列実行・自動検証できる拡張基盤について整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>oh-my-claudecode</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">oh-my-claudecode</h1>
+      <p class="article-dek">Claude Code をマルチエージェント化し、複雑なタスクを並列実行・自動検証できる拡張基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>2位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noreferrer">
+              Yeachan-Heo/oh-my-claudecode
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic の自律型 CLI ツール「Claude Code」の機能を大幅に拡張し、複数の AI エージェントを協調させて動かすためのオーケストレーションツールです。単体のエージェントでは困難だった長時間のタスクや、多角的な検証が必要な開発ワークフローを「チーム」として自動実行することを目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>「Team Mode」による並列タスク実行と自動検証が最大の特徴です。一つの指示から計画策定（Team-Plan）、実装（Team-Exec）、検証（Team-Verify）、修正（Team-Fix）という一連の開発サイクルを自動で回します。また、MCP（Model Context Protocol）の統合や、過去の開発パターンを「カスタムスキル」として自動学習し、次回以降に再利用する機能も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>32種類もの専門エージェント（アーキテクチャ、リサーチ、テスト等）を内蔵しており、タスクの難易度に応じて Opus や Haiku などのモデルを賢く使い分けます。これにより、推論の質を保ちつつトークンコストを 30-50% 削減できるとされています。また、HUD（ステータスライン）で現在のエージェントの動きがリアルタイムに可視化される点も強力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>コマンドラインで <code>omc</code> を実行してセットアップを開始します。<code>/team</code> コマンドでマルチエージェントモードを起動し、自然言語でタスクを依頼するだけで、チームが自律的に動き出します。特定のエージェントに直接質問を投げたり、学習したスキルを管理したりすることも可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code を単なる「便利なチャットインターフェース」としてだけでなく、数十分から数時間に及ぶ本格的な開発プロジェクトを自律的に進める「AI 開発チーム」として運用したいエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>現時点では <code>tmux</code> の環境が推奨されており、複数のエージェントがバックグラウンドで並行動作するため、API のレート制限管理には注意が必要です（ツール側で自動待機機能が備わっています）。</p>
+
+        <h2>まとめ</h2>
+        <p>oh-my-claudecode は、Claude Code を「最強の自律開発チーム」へと進化させる強力なアドオンです。モデルの使い分けによるコスト最適化と、スキル学習による自己進化という、次世代の AI エージェント開発に必要な要素が凝縮されています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noreferrer">Yeachan-Heo/oh-my-claudecode</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

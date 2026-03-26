@@ -7,16 +7,64 @@
   },
   "articles": [
     {
-      "category": "github-pickup",
-      "slug": "2026-03-26-cccbot",
-      "title": "CCCBot: Claude Code Channels 上での自律エージェントの可能性",
-      "dek": "スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。",
-      "summary": "lucianlamp/CCCBot を紹介。Claude Code Channels 上で動作し、心拍数監視や自律的なタスク実行を実現する次世代型 AI エージェントの設計を整理。",
-      "publishedAt": "2026-03-26",
-      "repoName": "lucianlamp/CCCBot",
-      "repoUrl": "https://github.com/lucianlamp/CCCBot",
-      "articleUrl": "./articles/github/2026-03-26-cccbot.html",
-      "rank": 999
+      "category": "github-trending",
+      "slug": "2026-03-27-Yeachan-Heo-oh-my-claudecode",
+      "title": "oh-my-claudecode",
+      "dek": "Claude Code をマルチエージェント化し、複雑なタスクを並列実行・自動検証できる拡張基盤。",
+      "summary": "Yeachan-Heo/oh-my-claudecode を読み、Claude Code をマルチエージェント化し、複雑なタスクを並列実行・自動検証できる拡張基盤について整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "Yeachan-Heo/oh-my-claudecode",
+      "repoUrl": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "articleUrl": "./articles/github/2026-03-27-Yeachan-Heo-oh-my-claudecode.html",
+      "rank": 2
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-27-virattt-dexter",
+      "title": "dexter",
+      "dek": "自ら考え、計画し、反省しながら金融リサーチを完遂する自律型金融アナリストエージェント。",
+      "summary": "virattt/dexter を読み、自ら考え、計画し、反省しながら金融リサーチを完遂する自律型金融アナリストエージェントについて整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "virattt/dexter",
+      "repoUrl": "https://github.com/virattt/dexter",
+      "articleUrl": "./articles/github/2026-03-27-virattt-dexter.html",
+      "rank": 3
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-27-Vaibhavs10-insanely-fast-whisper",
+      "title": "insanely-fast-whisper",
+      "dek": "OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツール。",
+      "summary": "Vaibhavs10/insanely-fast-whisper を読み、OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツールについて整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "Vaibhavs10/insanely-fast-whisper",
+      "repoUrl": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+      "articleUrl": "./articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html",
+      "rank": 6
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-27-agentscope-ai-agentscope",
+      "title": "agentscope",
+      "dek": "直感的かつ堅牢なマルチエージェント・アプリケーションを迅速に構築・デプロイできる開発フレームワーク。",
+      "summary": "agentscope-ai/agentscope を読み、直感的かつ堅牢なマルチエージェント・アプリケーションを迅速に構築・デプロイできる開発フレームワークについて整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "agentscope-ai/agentscope",
+      "repoUrl": "https://github.com/agentscope-ai/agentscope",
+      "articleUrl": "./articles/github/2026-03-27-agentscope-ai-agentscope.html",
+      "rank": 7
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-27-twentyhq-twenty",
+      "title": "twenty",
+      "dek": "Notion のような柔軟な操作感とコミュニティ主導の拡張性を備えた、Salesforce 代替を目指すオープンソース CRM。",
+      "summary": "twentyhq/twenty を読み、Notion のような柔軟な操作感とコミュニティ主導の拡張性を備えた、Salesforce 代替を目指すオープンソース CRMについて整理。",
+      "publishedAt": "2026-03-27",
+      "repoName": "twentyhq/twenty",
+      "repoUrl": "https://github.com/twentyhq/twenty",
+      "articleUrl": "./articles/github/2026-03-27-twentyhq-twenty.html",
+      "rank": 8
     },
     {
       "category": "github-trending",
@@ -77,6 +125,18 @@
       "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
       "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html",
       "rank": 12
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-26-cccbot",
+      "title": "CCCBot: Claude Code Channels 上での自律エージェントの可能性",
+      "dek": "スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。",
+      "summary": "lucianlamp/CCCBot を紹介。Claude Code Channels 上で動作し、心拍数監視や自律的なタスク実行を実現する次世代型 AI エージェントの設計を整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "lucianlamp/CCCBot",
+      "repoUrl": "https://github.com/lucianlamp/CCCBot",
+      "articleUrl": "./articles/github/2026-03-26-cccbot.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -236,18 +296,6 @@
     },
     {
       "category": "github-trending",
-      "slug": "2026-03-24-bytedance-deer-flow",
-      "title": "deer-flow",
-      "dek": "AI エージェントを長く動かすための実行基盤に寄った OSS。",
-      "summary": "GitHub Trending で目立っていた bytedance/deer-flow を読み、sandbox、memory、skill、subagent まで含んだ「汎用基盤」として何が強いのかを整理する。",
-      "publishedAt": "2026-03-24",
-      "repoName": "bytedance/deer-flow",
-      "repoUrl": "https://github.com/bytedance/deer-flow",
-      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html",
-      "rank": 2
-    },
-    {
-      "category": "github-trending",
       "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
       "title": "MoneyPrinterV2",
       "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
@@ -257,6 +305,18 @@
       "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html",
       "rank": 1
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-24-bytedance-deer-flow",
+      "title": "deer-flow",
+      "dek": "AI エージェントを長く動かすための実行基盤に寄った OSS。",
+      "summary": "GitHub Trending で目立っていた bytedance/deer-flow を読み、sandbox、memory、skill、subagent まで含んだ「汎用基盤」として何が強いのかを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "bytedance/deer-flow",
+      "repoUrl": "https://github.com/bytedance/deer-flow",
+      "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html",
+      "rank": 2
     },
     {
       "category": "github-trending",
