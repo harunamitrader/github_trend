@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-03-grok-cli-v1-rc",
+      "title": "Grok CLI v1.0.0-rc 登場: マルチエージェント対応と TUI 刷新",
+      "dek": "v1.0.0-rc5 公開。Grok-4.20 マルチエージェント API や TUI ローディングに対応。",
+      "summary": "xAI Grok をターミナルから制御する CLI ツールの 2026 年 3 月アップデート内容をまとめ、マルチエージェント対応の進展を整理する。",
+      "publishedAt": "2026-03-23",
+      "repoName": "superagent-ai/grok-cli",
+      "repoUrl": "https://github.com/superagent-ai/grok-cli",
+      "articleUrl": "./articles/tools/2026-03-grok-cli-v1-rc.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-03-chatgpt-gpt54",
       "title": "ChatGPT 3月アップデート: GPT-5.4 登場とプロダクト統合",
       "dek": "GPT-5.4 系列への移行、Google Drive 統合刷新、ライブラリ追加等を実施。",
