@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw v2026.3.28 (2026-03-28) のリリース情報をまとめた記事。xAI連携強化やQwenAuthの移行を解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.3.28 Released</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.3.28: xAI強化とプロバイダーの刷新</h1>
+      <p class="article-dek">xAIの検索機能ネイティブ対応や、Qwen・MiniMaxなどの提供プロバイダー周りの大幅な整理が行われました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.3.28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な新機能・変更点</h2>
+        
+        <h3>xAI (Grok) 連携の強化</h3>
+        <p>
+          バンドルされている xAI プロバイダーが Responses API へと完全移行し、Grokの強力な <code>x_search</code> 機能がネイティブで第一級ツールとしてサポートされました。今後はWeb検索設定から自動的に有効化されるようになり、設定のセットアップフローも簡略化されています。
+        </p>
+
+        <h3>MiniMax による画像生成サポート</h3>
+        <p>
+          MiniMax の <code>image-01</code> モデルを活用した画像生成に対応しました。このアップデートにより、テキストからの新規画像生成、画像編集、およびきめ細かなアスペクト比制御が OpenClaw から直接行えるようになります。
+        </p>
+
+        <h3>プラグイン/フックの拡張 (requireApproval)</h3>
+        <p>
+          開発者向け機能として、<code>before_tool_call</code> フックにおいて非同期の <code>requireApproval</code> が使用可能になりました。これにより特定のツール（破壊的操作など）が発火する直前に、UI上のオーバーレイや連携している外部クライアント（Discord, Telegram等）へユーザー承認を強制で求めるプラグインが作成可能になりました。
+        </p>
+
+        <h2>注意すべき破壊的変更 (Breaking Changes)</h2>
+        <ul>
+          <li><strong>Qwen プロバイダーの移行:</strong> 従来の <code>qwen-portal-auth</code> (portal.qwen.ai の OAuth 連携) は非推奨および廃止となりました。今後は <code>openclaw onboard --auth-choice modelstudio-api-key</code> を利用し、Model Studio の API 経由での認証が必須となります。</li>
+          <li><strong>レガシー設定移行の終了:</strong> 2ヶ月以上前の古い形式の設定ファイルに対する自動移行機能が削除されました。非常に古いバージョンから直接アップデートした場合、バリデーションエラーが発生する可能性があります。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          今回のアップデートはプロバイダー周辺の大胆な刷新（特にQwenとxAI）が中心となっており、Grokネイティブ検索の採用や画像生成の拡充など、各種AIモデルの最新APIへの追従が図られています。既存ユーザーはQwenの認証切り替えに注意が必要です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://getopenclaw.ai/changelog" target="_blank" rel="noreferrer">OpenClaw Changelog (Official)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

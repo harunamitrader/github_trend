@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-03-28-openclaw-v2026-3-28",
+      "title": "OpenClaw v2026.3.28: xAI強化とプロバイダー刷新",
+      "dek": "xAIの検索機能など各種ネイティブ対応や、Qwen等のAPI連携設定が刷新されました。",
+      "summary": "GitHubにてOpenClaw v2026.3.28がリリース。Grokのネイティブ検索、MiniMaxの画像生成、Qwen認証の廃止・刷新などを解説。",
+      "publishedAt": "2026-03-28",
+      "repoName": "getopenclaw.ai/changelog",
+      "repoUrl": "https://getopenclaw.ai/changelog",
+      "articleUrl": "./articles/tools/2026-03-28-openclaw-v2026-3-28.html",
+      "rank": 999
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-29-hacksider-deep-live-cam",
       "title": "Deep-Live-Cam",
