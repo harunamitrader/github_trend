@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.87 (2026-03-29) のリリース情報をまとめた記事。Cowork Dispatchの修正やセッションIDの追加などを紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.87 Released</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化</h1>
+      <p class="article-dek">Cowork機能のバグ修正に加え、APIリクエストへのセッションID追加やメモリ最適化を実施。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.87</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点 (v2.1.86 - 2.1.87)</h2>
+        
+        <h3>Cowork Dispatch の修正</h3>
+        <p>
+          v2.1.87 にて、Cowork Dispatch（別エージェント・別タスクへの連携派遣）においてメッセージが正しく配信されない不具合が修正されました。
+        </p>
+
+        <h3>APIリクエストへのセッションID追加</h3>
+        <p>
+          すべてのAPIリクエストで <code>x-claude-Code-Session-Id</code> ヘッダーが送信されるようになりました。これにより、プロキシ等が本文を解析することなくセッションごとのリクエスト集計を行えるようになります。
+        </p>
+
+        <h3>VCS 除外リストのアップデート</h3>
+        <p>
+          <code>.jj</code> (Jujutsu) や <code>.sl</code> (Sapling) といった次世代バージョン管理システムのメタデータディレクトリが除外リストに追加されました。Grep検索やファイル自動補完で不要なシステムファイルが除外され、パフォーマンスが向上します。
+        </p>
+
+        <h3>改善とバグ修正</h3>
+        <ul>
+          <li><strong>メモリとパフォーマンス:</strong> セッションの表示や長いログでのスクロールパフォーマンスの改善、TypeScript の実装へ移行による負荷軽減。</li>
+          <li><strong>セキュリティ・状態管理:</strong> 不要なディスク書き込みの削減、OAuth トークンのセキュリティ向上、マルチウィンドウの不具合修正。</li>
+          <li><strong>プロンプトキャッシング:</strong> ツール説明から動的コンテンツを削除し、Bedrock, Vertex, Foundry ユーザー向けにプロンプトキャッシュのヒット率を向上。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          v2.1.86からv2.1.87への一連のアップデートは、主にツールの安定性、各種バグ・エッジケースの解消、および大規模環境でのパフォーマンス向上に焦点を当てています。Cowork などの高度な連携機能も着実に洗練されています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noreferrer">Claude Code Releases (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

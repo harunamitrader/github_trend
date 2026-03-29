@@ -7,6 +7,54 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-03-29-claude-code-v2-1-87",
+      "title": "Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化",
+      "dek": "Cowork機能のバグ修正に加え、APIリクエストへのセッションID追加やメモリ最適化を実施。",
+      "summary": "Claude Code v2.1.86/v2.1.87 のリリースノートより、Cowork連携修正、VCSの除外リスト更新、パフォーマンス向上の変更内容をまとめる。",
+      "publishedAt": "2026-03-29",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code/releases",
+      "articleUrl": "./articles/tools/2026-03-29-claude-code-v2-1-87.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-28-antigravity-v1-21-7-firebase",
+      "title": "Antigravity v1.21.7: Firebase とのフルスタック統合",
+      "dek": "Google AI Studio で、プロンプトひとつでフルスタックアプリが完結する「Vibe Coding」が加速。",
+      "summary": "Antigravity v1.21.7 & v1.21.6 のリリース情報をまとめ、Firebase 統合による AI Studio のフルスタック Vibe Coding 革命の詳細を整理。",
+      "publishedAt": "2026-03-28",
+      "repoName": "google/antigravity",
+      "repoUrl": "https://antigravity.google/changelog",
+      "articleUrl": "./articles/tools/2026-03-28-antigravity-v1-21-7-firebase.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-28-claude-code-v2-1-85",
+      "title": "Claude Code v2.1.85: MCP 制御の強化とフック機能の拡張",
+      "dek": "MCP サーバー接続用の動的環境変数と、フックの条件付き実行に対応。",
+      "summary": "Claude Code v2.1.85 のリリース情報を読み、MCP サーバー制御の強化やフック機能の改善、UX 向上のポイントを整理。",
+      "publishedAt": "2026-03-28",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code/releases",
+      "articleUrl": "./articles/tools/2026-03-28-claude-code-v2-1-85.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-28-windsurf-next-1-9600-1002",
+      "title": "Windsurf Next: コスト可視化の強化とエンジンの刷新",
+      "dek": "クォータベースのプランにおいてコスト指標の可視化を強化。ベースエンジンも VSCode 1.110 へ。",
+      "summary": "Windsurf Next v1.9600.1002 のリリース情報を読み、コスト可視化の強化や VSCode コア刷新、大規模リポジトリ対応の詳細を整理。",
+      "publishedAt": "2026-03-28",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://codeium.com/windsurf/changelog",
+      "articleUrl": "./articles/tools/2026-03-26-windsurf-next-1-9600-1002.html",
+      "rank": 999
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-27-Yeachan-Heo-oh-my-claudecode",
       "title": "oh-my-claudecode",
