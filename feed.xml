@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 10:34:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 12:01:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
@@ -160,12 +160,12 @@
       <description><![CDATA[Claude Code上で直接動作する、AI主導のプログラミング環境と統合連携したビデオ制作・編集ツールキット。]]></description>
     </item>
     <item>
-      <title><![CDATA[OpenClaw v2026.3.28: xAI強化とプロバイダー刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-openclaw-v2026-3-28.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-openclaw-v2026-3-28.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[xAIの検索機能など各種ネイティブ対応や、Qwen等のAPI連携設定が刷新されました。]]></description>
+      <title><![CDATA[OpenBB]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-openbb.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-openbb.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[クオンツやアナリスト、そしてAIエージェントのためのオープンソース金融データ連携プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
