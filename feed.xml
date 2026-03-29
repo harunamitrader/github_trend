@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 06:35:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 06:36:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Deep-Live-Cam]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hacksider-deep-live-cam.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hacksider-deep-live-cam.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1枚の画像からリアルタイムでの顔交換やディープフェイク動画を生成するパワフルなツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[superpowers]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-obra-superpowers.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-obra-superpowers.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本当に機能する、エージェント向けスキル拡張フレームワークと新しいソフトウェア開発手法。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI-Scientist-v2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-sakanaai-ai-scientist-v2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-sakanaai-ai-scientist-v2.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エージェント的ツリー探索を用い、ワークショップレベルの科学的発見を自動化するシステム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[onyx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-onyx-dot-app-onyx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-onyx-dot-app-onyx.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あらゆるLLMに対応し、高度な検索と連携を備えたエンタープライズ向けのオープンソースAIプラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[chandra]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-datalab-to-chandra.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-datalab-to-chandra.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複雑な表やフォーム、手書き文書のレイアウトを保ったままテキスト化する高精度OCRモデル。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-29-claude-code-v2-1-87.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェントに長期・短期記憶を授ける、超高速・高スケーラビリティなメモリエンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradingAgents-CN]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-hsliuping-tradingagents-cn.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-hsliuping-tradingagents-cn.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini AI Studio: リアルタイム音声モデル「Flash Live」と音楽生成 Lyria 3 公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-gemini-ai-studio-flash-live.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-gemini-ai-studio-flash-live.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オーディオ間での超低遅延対話モデルと、プロ仕様の音楽生成モデルが Google AI Studio で利用可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google Antigravity: Firebase 統合によるプロダクション級アプリの「Vibe Coding」実現]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-antigravity-firebase.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-antigravity-firebase.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コーディングエージェントに Firebase のフルパワーを授け、認証・DB・インフラの自動構築が可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.0.0-rc7: デーモン実行と強力なサンドボックス機能]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[定時実行の自動化や新しいサンドボックス、さらに Telegram 連携を大幅に強化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot 3月26日アップデート: マージコンフリクト解法支援と新ダッシュボード]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-github-copilot-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-github-copilot-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プルリクエストのコンフリクト解消を Copilot がサポート開始。エージェントのアクティビティ追跡も強化。]]></description>
     </item>
   </channel>
 </rss>
