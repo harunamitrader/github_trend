@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 06:56:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 07:01:24 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
@@ -62,6 +62,14 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Cowork機能のバグ修正に加え、APIリクエストへのセッションID追加やメモリ最適化を実施。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-03-29 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[6件のトレンド記事を追加しました。]]></description>
     </item>
     <item>
       <title><![CDATA[Antigravity v1.21.7: Firebase とのフルスタック統合]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[RuView]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruview.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。]]></description>
     </item>
   </channel>
 </rss>
