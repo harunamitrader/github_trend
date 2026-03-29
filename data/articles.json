@@ -271,6 +271,18 @@
       "rank": "ピックアップ"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-03-29-google-research-timesfm",
+      "title": "timesfm",
+      "dek": "Google Researchが提供する、事前学習不要で高精度な「ゼロショット時系列予測」を実現する基礎モデル。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "google-research/timesfm",
+      "repoUrl": "https://github.com/google-research/timesfm",
+      "articleUrl": "./articles/github/2026-03-29-google-research-timesfm.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-28-openclaw-v2026-3-28",
       "title": "OpenClaw v2026.3.28: xAI強化とプロバイダー刷新",
