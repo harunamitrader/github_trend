@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 12:39:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 20:12:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-howto]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-luongnv89-claude-howto.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-luongnv89-claude-howto.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の機能をビジュアルで実例中心に網羅した、GitHub で爆発的人気の包括的ガイド。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[VibeVoice]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-microsoft-vibevoice.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-microsoft-vibevoice.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ASR（文字起こし）と TTS（音声合成）を統合した、Microsoft 発の最先端オープンソース音声 AI。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hermes-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-hermes-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-hermes-agent.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「自分と共に成長する」がコンセプト。記憶とスキルの蓄積を重視した次世代 AI エージェント・フレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-mem]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-thedotmack-claude-mem.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-thedotmack-claude-mem.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[learn-claude-code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-shareai-lab-learn-claude-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-shareai-lab-learn-claude-code.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントをゼロから自作するための、11 セッションにわたる強力なオープンソース教育ガイド。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-03-30 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[5件のトレンド記事を追加しました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hacksider-deep-live-cam.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[金融市場のアルゴリズムトレードに特化した、オープンソースのモジュール式強化学習フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[thesvg]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-thesvg.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-thesvg.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[5,600以上のブランドとロゴを揃えた、開発者向けの型安全で軽量なSVGアイコンコレクション。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-supabase-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-supabase-cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[マイグレーションやローカル環境の実行、エッジ関数のデプロイを管理する最新のSupabase公式CLI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ib_chart]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-willhjw-ib-chart.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-willhjw-ib-chart.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Interactive Brokers (IBKR) ユーザー向けのローカルチャートサーバーと、カスタマイズ可能な連携用マルチチャートWeb UI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenSpace]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hkuds-openspace.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hkuds-openspace.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェントをより賢く、低コストに、そして自己進化可能にするためのAIオプティマイゼーションプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-code-video-toolkit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-digitalsamba-claude-code-video.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-digitalsamba-claude-code-video.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code上で直接動作する、AI主導のプログラミング環境と統合連携したビデオ制作・編集ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenBB]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-openbb.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-openbb.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[クオンツやアナリスト、そしてAIエージェントのためのオープンソース金融データ連携プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
