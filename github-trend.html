@@ -110,12 +110,20 @@
       (async function () {
         const response = await fetch(`./data/articles.json?t=${Date.now()}`, { cache: "no-store" });
         const payload = await response.json();
-        const all = [...payload.articles].sort((a, b) => {
+        // JSON上は追記（後ろほど新しい）と想定。同じ日付なら後ろのもの（新しいもの）を上位にするためreverseしてから安定ソート
+        const rawArticles = [...payload.articles].reverse();
+        const all = rawArticles.sort((a, b) => {
           const dateA = a.publishedAt || "";
           const dateB = b.publishedAt || "";
           const dateDiff = dateB.localeCompare(dateA);
           if (dateDiff !== 0) return dateDiff;
-          return (a.rank || 999) - (b.rank || 999);
+          
+          const rankA = parseInt(a.rank);
+          const rankB = parseInt(b.rank);
+          if (!isNaN(rankA) && !isNaN(rankB)) {
+            return rankA - rankB;
+          }
+          return 0; // 日付が同じでrankが数字でない(ピックアップ等)場合は元のreverseされた順（=追加日時の新しい順）を維持する
         });
 
         const trending = all.filter(a => a.category && a.category.trim() === "github-trending");
