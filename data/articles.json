@@ -175,6 +175,18 @@
       "rank": "ピックアップ"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-03-29-torchtrade",
+      "title": "torchtrade",
+      "dek": "金融市場のアルゴリズムトレードに特化した、オープンソースのモジュール式強化学習フレームワーク。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "TorchTrade/torchtrade",
+      "repoUrl": "https://github.com/TorchTrade/torchtrade",
+      "articleUrl": "./articles/github/2026-03-29-torchtrade.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-28-antigravity-v1-21-7-firebase",
       "title": "Antigravity v1.21.7: Firebase とのフルスタック統合",

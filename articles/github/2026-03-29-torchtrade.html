@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TorchTrade/torchtrade を読み、アルゴリズムトレーディングに特化したモジュール式強化学習フレームワークについて整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>torchtrade</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">torchtrade</h1>
+      <p class="article-dek">金融市場のアルゴリズムトレードに特化した、オープンソースのモジュール式強化学習フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TorchTrade/torchtrade" target="_blank" rel="noreferrer">
+              TorchTrade/torchtrade
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>金融市場のアルゴリズムトレーディングにフォーカスして開発された、オープンソースかつモジュール式の強化学習（Reinforcement Learning）プログラミングフレームワークです。</p>
+
+        <h2>何ができるか</h2>
+        <p>過去の市場のヒストリカルデータやテクニカル指標を入力環境（Environment）として設定し、売買のタイミングやポジション管理を強化学習エージェントに自律的に学習させることで、独自の自動取引アルゴリズムを構築できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>PyTorchをベースとしつつ、全体のコンポーネントが高度にモジュール化されているのが特徴です。独自のデータセット、報酬関数（Reward）、ニューラルネットワークの構成などをパズルのように組み合わせて、柔軟かつ迅速な仮説検証（バックテスト）が行えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境に対してライブラリをインストールし、バックテスト用の価格データを用意します。その後、フレームワークが提供するベースラインのエージェントや環境ラッパーをインポートし、数行のコードを記述するだけで学習ループを回し始めることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>機械学習エンジニアリングのスキル（特に強化学習領域）を、クオンツ投資やシステムトレードの分野に直接応用したいデータサイエンティストや金融エンジニア向けの本格的なツールです。</p>
+
+        <h2>注意点</h2>
+        <p>強化学習モデルは過去の特定の相場環境に対して過学習（オーバーフィッティング）しやすいため、シミュレーション（バックテスト）で優れた成績を出しても、実際のライブ相場での利益を保証するものではないという金融工学の基本原則に留意する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>金融ドメインの複雑な課題と最新のAI技術を繋ぎ、個人でも高度なアルゴリズムトレードモデルを研究・実装できるようにする強力なフレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/TorchTrade/torchtrade" target="_blank" rel="noreferrer">TorchTrade/torchtrade</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
