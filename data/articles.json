@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-03-30-jatinkrmalik-llmfeeder",
+      "title": "LLMFeeder",
+      "dek": "ブラウザ上の情報を 1 クリックでクリーンな Markdown に。LLM への「コンテキスト提供」を劇的に効率化するブラウザ拡張機能。",
+      "summary": "ウェブページを LLM 用にクリーンな Markdown 形式に変換し、1クリックでコピー・保存するためのブラウザ拡張機能。",
+      "publishedAt": "2026-03-30",
+      "repoName": "jatinkrmalik/LLMFeeder",
+      "repoUrl": "https://github.com/jatinkrmalik/LLMFeeder",
+      "articleUrl": "./articles/github/2026-03-30-jatinkrmalik-llmfeeder.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-30-elder-plinius-v3sp3r",
+      "title": "V3SP3R",
+      "dek": "Flipper Zero に「AI の脳」を。自然言語で物理セキュリティデバイスを操作する、近未来の AI エージェント基盤。",
+      "summary": "Flipper Zero を AI の脳で操作可能にする「Vesper」プロジェクト。自然言語で物理セキュリティを制御する基盤を提供。",
+      "publishedAt": "2026-03-30",
+      "repoName": "elder-plinius/V3SP3R",
+      "repoUrl": "https://github.com/elder-plinius/V3SP3R",
+      "articleUrl": "./articles/github/2026-03-30-elder-plinius-v3sp3r.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-30-google-adk-go",
+      "title": "adk-go",
+      "dek": "Google が放つ、Go 言語での「コードファースト」な AI エージェント開発。高性能で型安全な自律エージェントの構築を支援するツールキット。",
+      "summary": "Google 公開の、Go 言語で AI エージェントを構築・デプロイ・評価するための包括的なコードファースト・ツールキット。",
+      "publishedAt": "2026-03-30",
+      "repoName": "google/adk-go",
+      "repoUrl": "https://github.com/google/adk-go",
+      "articleUrl": "./articles/github/2026-03-30-google-adk-go.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-30-luongnv89-claude-howto",
       "title": "claude-howto",

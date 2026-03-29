@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="google/adk-go を読み、Go 言語で AI エージェントを構築するための Google 公式のツールキットについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>adk-go</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">adk-go</h1>
+      <p class="article-dek">Google が放つ、Go 言語での「コードファースト」な AI エージェント開発。高性能で型安全な自律エージェントの構築を支援するツールキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google/adk-go" target="_blank" rel="noreferrer">
+              google/adk-go
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「adk-go（Agent Development Kit for Go）」は、Google が公開した、Go 言語での AI エージェント開発に特化したオープンソースのライブラリ群です。AI エージェントを「ただのチャット履歴の管理」としてではなく、「コードに基づいた堅牢なシステム」として構築・デプロイ、そして管理するための包括的なコンポーネントを提供します。Go の並行処理（goroutines）や強い型付けの利点を最大限に活かした設計がなされています。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数のエージェントが各々の役割を分担して複雑なタスクを分業して解決する「マルチエージェント・オーケストレーション」を容易に構築できます。また、MCP（Model Context Protocol）をネイティブにサポートしており、外部のデータベースやウェブサイト、社内 API 等を標準化された手法でエージェントに「道具」として提供することも可能です。さらに、エージェントが生成した出力の正当性を自動評価（Evaluation）したり、一連の推論過程をトレースして可視化（Instrumentation）したりする機能も内蔵されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Google 製ということもあり、Vertex AI や Gemini モデル、さらには Google Cloud へのデプロイ（Cloud Run 等）との親和性が極めて高く、エンタープライズ環境での利用に耐えうる「手堅さ」が魅力です。いわゆる「プロンプト依存」の緩い開発ではなく、Go の慣習（Idiomatic Go）に基づいた「コードファースト」なアプローチを提唱しており、大規模なプロジェクトでの保守性に優れています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go 言語（1.22 以上推奨）の環境下で、`go get google.golang.org/adk` を実行して導入します。その後、API キー等の設定を行い、`agent.New()` などのわかりやすい API を使用して、エージェント本体、エージェントが扱えるツールの定義、そしてエージェントに課す「ルール」を定義していきます。豊富なドキュメントとサンプルコードにより、Go エンジニアであればすぐに最初のエージェントを立ち上げることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI アプリケーションを「単なるプロトタイプ」に終わらせたくない、パフォーマンスと信頼性を重視する Go 言語開発者に最適です。また、Google Cloud のインフラ上で、Gemini モデルを活用した高度な自律型エージェントやマルチエージェントシステムを本番運用したいと考えている企業・チームにとって、このライブラリは標準的な選択肢となり得るでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>現時点では Google の Gemini モデルや周辺サービスへの最適化が中心となっており、特定の機能は最新の Google Cloud SDK 環境下での利用が前提となっている場合があります。また、AI エージェント特有の「推論コスト」や「非決定性」への対処については、Go 言語の標準的なエラーハンドリングに加えて、このツールキットが提供する評価・テスト機能を適切に運用する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「adk-go」は、AI エージェント開発という新たな潮流に対し、Go 言語という強力な武器で挑むための Google 公式の回答です。エージェントを「あやふやなプロンプトの塊」から「計算機システムの一部」へと昇華させるこのツールキットは、AI アプリケーションの品質を一つ上の段階へ引き上げてくれるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google/adk-go" target="_blank" rel="noreferrer">google/adk-go</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

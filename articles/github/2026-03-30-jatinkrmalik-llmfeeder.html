@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="jatinkrmalik/LLMFeeder を読み、ウェブページを LLM 用にクリーンな Markdown へ変換するツールについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LLMFeeder</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LLMFeeder</h1>
+      <p class="article-dek">ブラウザ上の情報を 1 クリックでクリーンな Markdown に。LLM への「コンテキスト提供」を劇的に効率化するブラウザ拡張機能。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jatinkrmalik/LLMFeeder" target="_blank" rel="noreferrer">
+              jatinkrmalik/LLMFeeder
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「LLMFeeder」は、ウェブサイトの閲覧中に見つけた有益な情報を、ChatGPT や Claude といった大規模言語モデル（LLM）が理解しやすい「クリーンな Markdown 形式」に瞬時に変換し、クリップボードやファイルとして抽出するためのブラウザ拡張機能です。不要な広告、ヘッダー、サイドバーを自動で除去し、主要なコンテンツのみを正確に抽出することに特化しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>アクティブなタブのコンテンツを 1 クリックで Markdown 化してコピーできるほか、複数の開いているタブを一括で処理して一つの Markdown ファイルに結合したり、ZIP ファイルとしてまとめてダウンロードしたりすることが可能です。また、コピー前に対象のテキストが何トークン（GPT-4 や Claude 基準）を消費するかを計算する「リアルタイム・トークンカウンター」を搭載しており、モデルの入力制限を意識しながら情報を収集できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Privacy First」な設計が最大の特徴で、すべての処理はブラウザ内（クライアントサイド）で完結しており、外部サーバーへのデータ送信は一切ありません。また、AI エージェントがプロジェクトを理解しやすくするための `AGENTS.md` ドキュメントを完備しており、開発者自身が LLM と協調してこのツールを改良している背景が見える、非常にモダンなプロジェクトです。画像。URL の保持やリンクの有無なども柔軟にカスタマイズできます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Chrome Web Store や Firefox Add-ons から拡張機能をインストールするだけで準備完了です。あとは情報を抽出したいウェブページを開き、拡張機能のアイコンをクリックするか、右クリックメニューから「Copy as Markdown」を選択するだけです。設定画面では、Markdown の出力形式やトークン上限のしきい値を自由に調整できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ニュース記事や技術ドキュメント、ブログ記事などを LLM に読み込ませて要約や分析を行わせたいすべてのユーザーに最適です。特に、大量のタブを開いてリサーチを行い、それらを一つの「コンテキスト」として AI に一括投入したいと考えているエンジニアやライター、研究者にとって、これほど便利なツールはありません。</p>
+
+        <h2>注意点</h2>
+        <p>コンテンツの抽出には Readability エンジンを使用しているため、極端に複雑な構造を持つ動的な SPA（Single Page Application）などでは、意図した通りに本文が抽出されない場合があります。その場合は、右クリックによる「選択範囲のみのコピー機能」を活用することで、確実に必要な情報だけを抽出することができます。</p>
+
+        <h2>まとめ</h2>
+        <p>「LLMFeeder」は、人間と AI の対話を「情報収集」という側面から強力にバックアップする、シンプルながらも計算し尽くされた傑作ツールです。情報の鮮度が重要なリサーチ作業において、この拡張機能は AI を活用するための「最高の餌（Feeder）」となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/jatinkrmalik/LLMFeeder" target="_blank" rel="noreferrer">jatinkrmalik/LLMFeeder</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
