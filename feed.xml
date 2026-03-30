@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 23:10:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 01:28:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ai-marketing-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-ericosiu-ai-marketing-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-ericosiu-ai-marketing-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code をマーケティングの相棒に。実証済みの成長ロジックを AI エージェントに即座に修得させる、実践的なスキルセット。]]></description>
+    </item>
     <item>
       <title><![CDATA[LLMFeeder]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-jatinkrmalik-llmfeeder.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CIで適用可能なAI駆動のコードレビューとルール検証を実現する強力なオープンソースツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[notebooklm-py]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-teng-lin-notebooklm-py.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-teng-lin-notebooklm-py.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google NotebookLMの機能をプログラムから自由に操作するための非公式なPython APIとエージェントスキル。]]></description>
     </item>
   </channel>
 </rss>
