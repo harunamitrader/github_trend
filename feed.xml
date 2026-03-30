@@ -5,8 +5,64 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 21:40:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 21:55:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.87: 「Auto Mode」導入による自律的な権限管理の実現]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-code-v2-1-87-automode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-code-v2-1-87-automode.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[安全なアクションを AI が自動判定し、開発者の承認頻度を大幅に削減。Computer Use も一般開放。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline Kanban: 複数の CLI エージェントを Git Worktree でオーケストレーション]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-cline-kanban-multi-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-cline-kanban-multi-agent.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[並列実行される AI エージェントを視覚的に管理し、大規模タスクの分業を強力にサポート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Antigravity v1.21.6: Linux サンドボックス対応と MCP 認証の強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-antigravity-v1-21-6-linux-sandbox.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-antigravity-v1-21-6-linux-sandbox.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[より安全なコード実行環境の提供と、外部ツール連携（MCP）の認証フローを最適化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: インタラクションデータの学習利用（4月24日より）に関する重要告知]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-github-copilot-training-policy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-github-copilot-training-policy.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Free/Pro ユーザーのコード断片等がモデル学習に活用される方針に。オプトアウト設定が可能。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw: セキュリティ懸念による逆風と偽トークン詐欺への警告]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-openclaw-security-backlash.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-openclaw-security-backlash.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律エージェントによるデータ漏洩リスクの指摘と、プロジェクトを騙るフィッシング詐欺が急増。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: GPT-5.4 公開と「Record Mode」による音声操作の進化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-chatgpt-gpt54-recordmode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-chatgpt-gpt54-recordmode.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[推論・コーディング能力が大幅に向上した新モデルと、シームレスな音声対話・アクション実行機能を導入。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude: 100万トークンのコンテキスト窓開放と「Agent Teams」発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-1m-context-agent-teams.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-1m-context-agent-teams.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Opus 4.6 / Sonnet 4.6 で膨大な文脈を無償開放。複数エージェントを並列動作させるチーム機能も導入。]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub Copilot: Slack からの Issue 作成・管理をサポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-github-copilot-slack-issues.html</link>
@@ -110,62 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code の機能をビジュアルで実例中心に網羅した、GitHub で爆発的人気の包括的ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[VibeVoice]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-microsoft-vibevoice.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-microsoft-vibevoice.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ASR（文字起こし）と TTS（音声合成）を統合した、Microsoft 発の最先端オープンソース音声 AI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-hermes-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-hermes-agent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「自分と共に成長する」がコンセプト。記憶とスキルの蓄積を重視した次世代 AI エージェント・フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-mem]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-thedotmack-claude-mem.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-thedotmack-claude-mem.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[learn-claude-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-shareai-lab-learn-claude-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-shareai-lab-learn-claude-code.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントをゼロから自作するための、11 セッションにわたる強力なオープンソース教育ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-03-30 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[5件のトレンド記事を追加しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Deep-Live-Cam]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hacksider-deep-live-cam.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-hacksider-deep-live-cam.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1枚の画像からリアルタイムでの顔交換やディープフェイク動画を生成するパワフルなツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[superpowers]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-obra-superpowers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-obra-superpowers.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本当に機能する、エージェント向けスキル拡張フレームワークと新しいソフトウェア開発手法。]]></description>
     </item>
   </channel>
 </rss>
