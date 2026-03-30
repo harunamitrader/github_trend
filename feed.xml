@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 03:39:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 03:43:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[StackChan]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-m5stack-stackchan.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-m5stack-stackchan.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。]]></description>
+    </item>
     <item>
       <title><![CDATA[Podcats]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-hoxigo-podcats.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[エンタープライズ規模に対応したデータ可視化およびデータ探索プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-29-claude-code-v2-1-87.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-29-claude-code-v2-1-87.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cowork機能のバグ修正に加え、APIリクエストへのセッションID追加やメモリ最適化を実施。]]></description>
     </item>
   </channel>
 </rss>
