@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 21:55:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 22:05:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-03-31 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[5件のトレンド記事を追加しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-code-best-practice: 開発を加速させる秘伝の設定と MCP 活用術]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-code-best-practice.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-code-best-practice.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[freeCodeCamp: AI 時代を見据えた新カリキュラムと巨大 OSS コミュニティの現在地]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-freecodecamp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-freecodecamp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[世界最大の教育プラットフォームが、数学・CS・AI 応用を強化。39万スターを超える圧倒的コードベース。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[sherlock: ユーザー名をキーに SNS アカウントを自動調査する OSINT の定番]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-sherlock.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-sherlock.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[数千のサイトを一括検索。Python 製の高速な CLI ツールとして、公開情報調査の現場で不動の地位。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[fastfetch: システム情報を「爆速」かつ「美しく」表示するモダンな Fetch ツール]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-fastfetch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-fastfetch.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[C 言語による圧倒的な速度と、GPU/CPU 等のリッチな情報表示。neofetch の後継として注目を集める。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dev-tunnels: ローカル環境をセキュアに全世界へ公開する Microsoft 製 SDK]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-dev-tunnels.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-dev-tunnels.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[クロスプラットフォームなトンネリングをコードで制御。デバッグや Web フックテストの自動化を強力に支援。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.87: 「Auto Mode」導入による自律的な権限管理の実現]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-code-v2-1-87-automode.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[React で PDF を、美しく、自分のものに。shadcn 形式でコンポーネントを導入する、新時代の PDF 構築ライブラリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pokemon-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-pokemon-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-pokemon-agent.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI を「ポケモンマスター」に。ゲームの内側を JSON で読み解き、自律的にプレイするための最強の AI エージェント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-marketing-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-ericosiu-ai-marketing-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-ericosiu-ai-marketing-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code をマーケティングの相棒に。実証済みの成長ロジックを AI エージェントに即座に修得させる、実践的なスキルセット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LLMFeeder]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-jatinkrmalik-llmfeeder.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-jatinkrmalik-llmfeeder.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ上の情報を 1 クリックでクリーンな Markdown に。LLM への「コンテキスト提供」を劇的に効率化するブラウザ拡張機能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[V3SP3R]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-elder-plinius-v3sp3r.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-elder-plinius-v3sp3r.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Flipper Zero に「AI の脳」を。自然言語で物理セキュリティデバイスを操作する、近未来の AI エージェント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[adk-go]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-google-adk-go.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-google-adk-go.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google が放つ、Go 言語での「コードファースト」な AI エージェント開発。高性能で型安全な自律エージェントの構築を支援するツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-howto]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-luongnv89-claude-howto.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-luongnv89-claude-howto.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の機能をビジュアルで実例中心に網羅した、GitHub で爆発的人気の包括的ガイド。]]></description>
     </item>
   </channel>
 </rss>
