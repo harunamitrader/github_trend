@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="m5stack/StackChan を読み、AI デスクトップロボット「スタックチャン」のオープンソースプロジェクトについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>StackChan</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">StackChan</h1>
+      <p class="article-dek">「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/m5stack/StackChan" target="_blank" rel="noreferrer">
+              m5stack/StackChan
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「StackChan（スタックチャン）」は、M5Stack とその熱狂的なユーザーコミュニティが共同で開発した、オープンソースの AI デスクトップロボットです。M5Stack CoreS3（ESP32-S3）を基盤としており、手のひらサイズの可愛らしいボディに、豊かな表情、自律的な動き、そして最新の AI による対話能力を備えています。</p>
+
+        <h2>何ができるか</h2>
+        <p>2 つのサーボモーターによる首振り動作（パン・チルト）と液晶画面の動的な表情により、生き生きとした感情表現が可能です。内蔵のカメラやマイク、測距センサ、さらには最新の AI エージェントを統合することで、ユーザーとの声による対話や、周囲の人間・デバイスへの反応、ビデオ通話まで、単なる置物を超えたインタラクティブな体験を提供します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ハードウェア・ソフトウェアの両面で極めて高い拡張性を持っています。M5Stack 公式による洗練された回路設計に加え、iOS アプリ「StackChan World」を通じたリモート操作やアバターモード、さらには Go 言語と SQLite で構築された強力なバックエンドサーバーなど、開発者が好みの機能を追加・カスタマイズできる広大なエコシステムが整っています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ハードウェアとしては M5Stack CoreS3 を中心としたロボットキットを組み立てます。ソフトウェア面では、ESP-IDF v5.5 以降を用いて CoreS3 用のファームウェアを書き込み、PC 等で Go 言語のサーバーを立ち上げて連携させます。さらに Xcode を使用して iOS アプリをビルドし、iPhone にインストールすることで、フル機能の「スタックチャン」が誕生します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>電子工作やロボット製作を楽しむメイカーはもちろん、LLM アプリケーションの物理的な UI としてロボットを活用したい開発者に最適です。オープンソースであるため、自分の手でロボットを組み上げ、AI の「脳」を自由にカスタマイズしたいという好奇心旺盛なクリエイターにとって、これ以上ない学びの場となります。</p>
+
+        <h2>注意点</h2>
+        <p>非常に高度なプロジェクトであるため、ハードウェアの組み立て技術だけでなく、ESP-IDF や Go、Swift 等の複数言語にまたがるソフトウェア開発の知識が必要です。また、技術スタックが常に進化しているため、環境構築時には各ディレクトリ（app, firmware, server）にある最新のドキュメントを読み解く粘り強さが求められます。</p>
+
+        <h2>まとめ</h2>
+        <p>「StackChan」は、ハードウェアと AI が交差する地点で生まれた、世界で最も愛らしい AI パートナーの一つです。このリポジトリは、単なる製品のソースコードではなく、人とロボットがどのように共生し、共に成長していくかという「コミュニティの夢」が形になった素晴らしい成果物といえるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/m5stack/StackChan" target="_blank" rel="noreferrer">m5stack/StackChan</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

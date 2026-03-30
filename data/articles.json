@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-m5stack-stackchan",
+      "title": "StackChan",
+      "dek": "「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。",
+      "summary": "M5Stack とコミュニティが共同開発した、オープンソースの AI デスクトップロボット「スタックチャン」の総合プロジェクト。",
+      "publishedAt": "2026-03-30",
+      "repoName": "m5stack/StackChan",
+      "repoUrl": "https://github.com/m5stack/StackChan",
+      "articleUrl": "./articles/github/2026-03-30-m5stack-stackchan.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-hoxigo-podcats",
       "title": "Podcats",
       "dek": "PDF を「聴く」体験へ。Gemini AI を活用し、2 人のスピーカーによる臨場感あふれるポッドキャストを自動生成するツール。",
