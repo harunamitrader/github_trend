@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-liquidos-ai-autoagents",
+      "title": "AutoAgents",
+      "dek": "Rust の速度と安全性を AI エージェントへ。プロダクショングレードのマルチエージェント・システムを構築するための強力なフレームワーク。",
+      "summary": "Rust で書かれた、高性能かつ型安全なマルチエージェント・システムの構築・デプロイを支援するフレームワーク。",
+      "publishedAt": "2026-03-30",
+      "repoName": "liquidos-ai/AutoAgents",
+      "repoUrl": "https://github.com/liquidos-ai/AutoAgents",
+      "articleUrl": "./articles/github/2026-03-30-liquidos-ai-autoagents.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-0xnyk-awesome-hermes-agent",
       "title": "awesome-hermes-agent",
       "dek": "自己改善する AI の可能性を広げる。Hermes Agent のための厳選されたスキル・ツール・リソースの集大成。",
