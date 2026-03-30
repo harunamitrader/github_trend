@@ -7,6 +7,78 @@
   },
   "articles": [
     {
+      "category": "github-update-report",
+      "slug": "2026-03-31-update-report",
+      "title": "2026-03-31 更新レポート",
+      "dek": "5件のトレンド記事を追加しました。",
+      "summary": "2026-03-31 の GitHub Watcher 更新内容まとめ。",
+      "publishedAt": "2026-03-31",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "../../github-trend.html",
+      "articleUrl": "./articles/github/2026-03-31-update-report.html",
+      "rank": 0
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-31-claude-code-best-practice",
+      "title": "claude-code-best-practice: 開発を加速させる秘伝の設定と MCP 活用術",
+      "dek": "Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。",
+      "summary": "Claude Code を自律型エージェントとして使いこなすための、config 設定、MCP 連携、プロンプト例を集めたリポジトリの解析。",
+      "publishedAt": "2026-03-31",
+      "repoName": "shanraisshan/claude-code-best-practice",
+      "repoUrl": "https://github.com/shanraisshan/claude-code-best-practice",
+      "articleUrl": "./articles/github/2026-03-31-claude-code-best-practice.html",
+      "rank": 4
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-31-freecodecamp",
+      "title": "freeCodeCamp: AI 時代を見据えた新カリキュラムと巨大 OSS コミュニティの現在地",
+      "dek": "世界最大の教育プラットフォームが、数学・CS・AI 応用を強化。39万スターを超える圧倒的コードベース。",
+      "summary": "AI 時代の基礎となる数学や CS のカリキュラム刷新を続ける freeCodeCamp の動向と、巨大な OSS 開発体制の現状を整理。",
+      "publishedAt": "2026-03-31",
+      "repoName": "freeCodeCamp/freeCodeCamp",
+      "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "articleUrl": "./articles/github/2026-03-31-freecodecamp.html",
+      "rank": 7
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-31-sherlock",
+      "title": "sherlock: ユーザー名をキーに SNS アカウントを自動調査する OSINT の定番",
+      "dek": "数千のサイトを一括検索。Python 製の高速な CLI ツールとして、公開情報調査の現場で不動の地位。",
+      "summary": "公開情報からユーザー名の存在を確認する OSINT ツール Sherlock の仕組みと、調査の自動化・高速化に向けた特徴を整理。",
+      "publishedAt": "2026-03-31",
+      "repoName": "sherlock-project/sherlock",
+      "repoUrl": "https://github.com/sherlock-project/sherlock",
+      "articleUrl": "./articles/github/2026-03-31-sherlock.html",
+      "rank": 8
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-31-fastfetch",
+      "title": "fastfetch: システム情報を「爆速」かつ「美しく」表示するモダンな Fetch ツール",
+      "dek": "C 言語による圧倒的な速度と、GPU/CPU 等のリッチな情報表示。neofetch の後継として注目を集める。",
+      "summary": "neofetch の開発終了に伴い、OS やハードウェア情報を表示する「システム情報ツール」として覇権を握りつつある Fastfetch の特徴を解説。",
+      "publishedAt": "2026-03-31",
+      "repoName": "fastfetch-cli/fastfetch",
+      "repoUrl": "https://github.com/fastfetch-cli/fastfetch",
+      "articleUrl": "./articles/github/2026-03-31-fastfetch.html",
+      "rank": 10
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-31-dev-tunnels",
+      "title": "dev-tunnels: ローカル環境をセキュアに全世界へ公開する Microsoft 製 SDK",
+      "dek": "クロスプラットフォームなトンネリングをコードで制御。デバッグや Web フックテストの自動化を強力に支援。",
+      "summary": "Microsoft が提供するトンネリング SDK を通じ、ローカルの開発サーバーを安全に外部公開し、Web フック連携やリモートデバッグを行う仕組みの解説。",
+      "publishedAt": "2026-03-31",
+      "repoName": "microsoft/dev-tunnels",
+      "repoUrl": "https://github.com/microsoft/dev-tunnels",
+      "articleUrl": "./articles/github/2026-03-31-dev-tunnels.html",
+      "rank": 12
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-31-claude-code-v2-1-87-automode",
       "title": "Claude Code v2.1.87: 「Auto Mode」導入による自律的な権限管理の実現",
