@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 03:43:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 10:29:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-hermes-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自己改善する AI の可能性を広げる。Hermes Agent のための厳選されたスキル・ツール・リソースの集大成。]]></description>
+    </item>
     <item>
       <title><![CDATA[StackChan]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-m5stack-stackchan.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複雑な表やフォーム、手書き文書のレイアウトを保ったままテキスト化する高精度OCRモデル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[superset]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-apache-superset.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-apache-superset.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エンタープライズ規模に対応したデータ可視化およびデータ探索プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
