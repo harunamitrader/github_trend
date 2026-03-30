@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 03:23:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 03:39:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Podcats]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-hoxigo-podcats.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-hoxigo-podcats.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF を「聴く」体験へ。Gemini AI を活用し、2 人のスピーカーによる臨場感あふれるポッドキャストを自動生成するツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pdfx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-akii09-pdfx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-akii09-pdfx.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[React で PDF を、美しく、自分のものに。shadcn 形式でコンポーネントを導入する、新時代の PDF 構築ライブラリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[pokemon-agent]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-nousresearch-pokemon-agent.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Cowork機能のバグ修正に加え、APIリクエストへのセッションID追加やメモリ最適化を実施。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-03-29 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[6件のトレンド記事を追加しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[autogen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-microsoft-autogen.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-microsoft-autogen.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[マルチエージェントによる高度な自律型AIワークフローを構築するためのフレームワーク。]]></description>
     </item>
   </channel>
 </rss>
