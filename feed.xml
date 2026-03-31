@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 10:28:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 12:24:26 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[clawflows: OpenClaw エージェントに「スーパーパワー」を授ける強力なワークフローシステム]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-nikilster-clawflows.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-nikilster-clawflows.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[111種類以上の自動化ワークフローを即座に。Markdown ベースの簡単な作成と、ブラウザダッシュボードによる直感的な管理を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cli-prompt-cron: AI CLI 向け cron デーモン + ブラウザダッシュボード]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-cli-prompt-cron.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-cli-prompt-cron.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI や Claude Code にスケジュール実行機能を。JSON ベースのジョブ管理とリアルタイム監視を実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[TradingAgents: LLM マルチエージェントによる次世代金融取引フレームワーク]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-trading-agents.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Free/Pro ユーザーのコード断片等がモデル学習に活用される方針に。オプトアウト設定が可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw: セキュリティ懸念による逆風と偽トークン詐欺への警告]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-openclaw-security-backlash.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-openclaw-security-backlash.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律エージェントによるデータ漏洩リスクの指摘と、プロジェクトを騙るフィッシング詐欺が急増。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: GPT-5.4 公開と「Record Mode」による音声操作の進化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-chatgpt-gpt54-recordmode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-chatgpt-gpt54-recordmode.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[推論・コーディング能力が大幅に向上した新モデルと、シームレスな音声対話・アクション実行機能を導入。]]></description>
     </item>
   </channel>
 </rss>
