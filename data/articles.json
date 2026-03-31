@@ -9,7 +9,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-nikilster-clawflows",
-      "title": "clawflows: OpenClaw エージェントに「スーパーパワー」を授ける強力なワークフローシステム",
+      "title": "clawflows",
       "dek": "111種類以上の自動化ワークフローを即座に。Markdown ベースの簡単な作成と、ブラウザダッシュボードによる直感的な管理を実現。",
       "summary": "AI エージェントプラットフォーム OpenClaw のためのワークフローシステム。日常のルーチンを自動化する多彩なプリセットと、誰でも簡単にワークフローを作成できる Markdown 形式を採用。",
       "publishedAt": "2026-03-31",
@@ -21,7 +21,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-trading-agents",
-      "title": "TradingAgents: LLM マルチエージェントによる次世代金融取引フレームワーク",
+      "title": "TradingAgents",
       "dek": "LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。",
       "summary": "LangGraph を活用したマルチエージェント分析システム TradingAgents の解析。SNS のセンチメントやマクロ経済を分析するエージェントたちの議論（Debate）を通じた意思決定プロセスを解説。",
       "publishedAt": "2026-03-31",
@@ -33,7 +33,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-hippo-memory",
-      "title": "hippo-memory: AI エージェントに「生物学的な海馬」の機能を授ける自律型メモリシステム",
+      "title": "hippo-memory",
       "dek": "実行時依存関係なし。脳の「睡眠・忘却・強化」を模倣し、Cursor や Claude Code を真の AI 同僚へ。",
       "summary": "Node.js 組み込み機能のみで動作し、エージェントが過去の経験やエラーから「学習」する仕組みを導入する hippo-memory の解析。生物学的なメモリ管理による精度向上と導入の容易さを解説。",
       "publishedAt": "2026-03-31",
@@ -45,7 +45,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-praison-ai",
-      "title": "PraisonAI: 多機能ローコード・マルチエージェント AI フレームワーク",
+      "title": "PraisonAI",
       "dek": "プランニング、リサーチ、デリバリーを統合。 YAML だけで AI 従業員チームを構築・運用。",
       "summary": "AI エージェントを単一のアシスタントから「自律的なチーム」へと昇華させる、通知・配信機能に特化した AI フレームワーク PraisonAI の解析記事。",
       "publishedAt": "2026-03-31",
@@ -57,7 +57,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-claude-token-counter",
-      "title": "claude-token-counter: Claude Code のトークン使用量とコストをリアルタイム監視",
+      "title": "claude-token-counter",
       "dek": "進行中のセッションの消費トークンと見積コストを秒単位で追跡。コスト意識の高い開発者向け Rust ツール。",
       "summary": "Claude Code のローカルログをリアルタイム解析し、最新モデルの価格表に基づいたトークン使用量と見積コストを可視化する CLI ツール claude-token-counter の解析記事。",
       "publishedAt": "2026-03-31",
@@ -69,7 +69,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-crucix",
-      "title": "Crucix: 27 の情報源を統合する自分専用のリアルタイム OSINT 司令センター",
+      "title": "Crucix",
       "dek": "経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。",
       "summary": "NASA の災害情報や各国の経済指標、航空・船舶追跡など、27 の OSINT フィードを統合管理できるリアルタイムダッシュボード Crucix の解析記事。",
       "publishedAt": "2026-03-31",
@@ -81,7 +81,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-ai-marketing-skills",
-      "title": "ai-marketing-skills: Claude Code を活用した AI マーケティング自動化ワークフロー集",
+      "title": "ai-marketing-skills",
       "dek": "統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。",
       "summary": "AI（特に Claude Code）をビジネスロジック実行エージェントへ進化させる、マーケティング自動化スキルライブラリ ai-marketing-skills の解析記事。",
       "publishedAt": "2026-03-31",
@@ -93,7 +93,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-studycraft",
-      "title": "StudyCraft: AI が教材から問題を自動生成するオープンソース学習支援ツール",
+      "title": "StudyCraft",
       "dek": "PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。",
       "summary": "間隔反復学習 (SRS) と AI 生成・ベクトル検索を融合させたオープンソース学習支援ツール StudyCraft の解析記事。",
       "publishedAt": "2026-03-31",
@@ -105,7 +105,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-31-options-portfolio-backtester",
-      "title": "options-portfolio-backtester: Rust 製コアによる高速なオプション投資バックテスター",
+      "title": "options-portfolio-backtester",
       "dek": "複雑なオプション戦略やテールリスクを、Rust バックエンドによる圧倒的な速度で検証。",
       "summary": "株式およびオプションのポートフォリオ戦略をヒストリカルデータで評価する、Rust 製高速バックテスター options_portfolio_backtester の解析記事。",
       "publishedAt": "2026-03-31",
@@ -129,7 +129,7 @@
     {
       "category": "github-trending",
       "slug": "2026-03-31-claude-code-best-practice",
-      "title": "claude-code-best-practice: 開発を加速させる秘伝の設定と MCP 活用術",
+      "title": "claude-code-best-practice",
       "dek": "Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。",
       "summary": "Claude Code を自律型エージェントとして使いこなすための、config 設定、MCP 連携、プロンプト例を集めたリポジトリの解析。",
       "publishedAt": "2026-03-31",
@@ -141,7 +141,7 @@
     {
       "category": "github-trending",
       "slug": "2026-03-31-freecodecamp",
-      "title": "freeCodeCamp: AI 時代を見据えた新カリキュラムと巨大 OSS コミュニティの現在地",
+      "title": "freeCodeCamp",
       "dek": "世界最大の教育プラットフォームが、数学・CS・AI 応用を強化。39万スターを超える圧倒的コードベース。",
       "summary": "AI 時代の基礎となる数学や CS のカリキュラム刷新を続ける freeCodeCamp の動向と、巨大な OSS 開発体制の現状を整理。",
       "publishedAt": "2026-03-31",
@@ -153,7 +153,7 @@
     {
       "category": "github-trending",
       "slug": "2026-03-31-sherlock",
-      "title": "sherlock: ユーザー名をキーに SNS アカウントを自動調査する OSINT の定番",
+      "title": "sherlock",
       "dek": "数千のサイトを一括検索。Python 製の高速な CLI ツールとして、公開情報調査の現場で不動の地位。",
       "summary": "公開情報からユーザー名の存在を確認する OSINT ツール Sherlock の仕組みと、調査の自動化・高速化に向けた特徴を整理。",
       "publishedAt": "2026-03-31",
@@ -165,7 +165,7 @@
     {
       "category": "github-trending",
       "slug": "2026-03-31-fastfetch",
-      "title": "fastfetch: システム情報を「爆速」かつ「美しく」表示するモダンな Fetch ツール",
+      "title": "fastfetch",
       "dek": "C 言語による圧倒的な速度と、GPU/CPU 等のリッチな情報表示。neofetch の後継として注目を集める。",
       "summary": "neofetch の開発終了に伴い、OS やハードウェア情報を表示する「システム情報ツール」として覇権を握りつつある Fastfetch の特徴を解説。",
       "publishedAt": "2026-03-31",
@@ -177,7 +177,7 @@
     {
       "category": "github-trending",
       "slug": "2026-03-31-dev-tunnels",
-      "title": "dev-tunnels: ローカル環境をセキュアに全世界へ公開する Microsoft 製 SDK",
+      "title": "dev-tunnels",
       "dek": "クロスプラットフォームなトンネリングをコードで制御。デバッグや Web フックテストの自動化を強力に支援。",
       "summary": "Microsoft が提供するトンネリング SDK を通じ、ローカルの開発サーバーを安全に外部公開し、Web フック連携やリモートデバッグを行う仕組みの解説。",
       "publishedAt": "2026-03-31",
@@ -1065,7 +1065,7 @@
     {
       "category": "github-pickup",
       "slug": "2026-03-26-cccbot",
-      "title": "CCCBot: Claude Code Channels 上での自律エージェントの可能性",
+      "title": "CCCBot",
       "dek": "スケジュールタスクと生存監視（Heartbeat）を備えた、自律的な AI 運用を目指すプロトタイプ。",
       "summary": "lucianlamp/CCCBot を紹介。Claude Code Channels 上で動作し、心拍数監視や自律的なタスク実行を実現する次世代型 AI エージェントの設計を整理。",
       "publishedAt": "2026-03-26",
