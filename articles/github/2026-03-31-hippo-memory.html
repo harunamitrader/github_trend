@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="hippo-memory (2026-03-31) の紹介記事。AI エージェントに「生物学的な海馬」の機能を与える自律型メモリシステムの詳細を解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hippo-memory</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hippo-memory: AI エージェントに「生物学的な海馬」の機能を与える自律型メモリシステム</h1>
+      <p class="article-dek">脳の「睡眠・忘却・強化」を模倣。Cursor や Claude Code が経験から学び、成長する真のパートナーへ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong><a href="https://github.com/kitfunso/hippo-memory" target="_blank" rel="noreferrer">kitfunso/hippo-memory</a></strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>hippo-memoryは、AIエージェント（Claude Code、Cursor、OpenClawなど）に「生物学的な海馬」の機能を付与するオープンソースのメモリシステムです。従来の単純なデータ保存とは異なり、情報の減衰（忘却）、検索による強化（定着）、そして「睡眠」を通じた記憶の統合といった脳の仕組みを模倣しています。エージェントが過去の経験やエラーから自律的に学習し、同じミスを繰り返さない「成長するパートナー」へと進化させることを目的として設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このシステムは、<code>hippo remember</code>による記憶の保存と<code>hippo recall</code>による関連情報の呼び出しを基本としつつ、高度な自律学習機能を備えています。<code>hippo learn --git</code>コマンドを使用すれば、コミット履歴から自動的に教訓や知見を抽出可能です。また、毎日午前6:15に行われる自動タスク（cron）によって記憶の整理が行われ、重要な情報は強化され、不要な情報は自然に「忘却」されることで、常に最適なコンテキストを維持します。さらに、<code>hippo share</code>を使えば異なるプロジェクト間での知見共有も可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、Node.js 22.5以上の組み込み機能のみで動作する「実行時依存関係ゼロ」の軽量設計です。外部データベースを必要とせず、SQLiteと人間が読めるMarkdown/YAML形式の両方で記憶を管理するため、Gitでの履歴管理も容易です。また、<code>hippo dashboard</code>による記憶状態の可視化や、ベンチマークにおけるエージェントのミス率（78%から14%へ）の劇的な改善など、実用性と透明性の両立が非常に高いレベルで実現されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は非常にシンプルで、<code>npm install -g hippo-memory</code>でインストールした後、プロジェクトディレクトリで<code>hippo init</code>を実行するだけです。これにより<code>CLAUDE.md</code>や<code>.cursorrules</code>が自動検出され、エージェントが自律的にメモリを参照できるようパッチが適用されます。セットアップ後は、エージェントが作業中に自動で記憶を読み書きするほか、手動での記録や、ブラウザでのダッシュボード確認などを通じて、記憶の定着具合をコントロールできます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude CodeやCursorなどのAIエージェントをヘビーに使いこなしており、エージェントに同じ説明を何度も繰り返す手間を省きたい開発者に最適です。また、複数のプロジェクトを並行して進めており、あるプロジェクトで得た知見を別のプロジェクトのAIにも即座に反映させたいマルチプロジェクト開発者にとっても、非常に強力な武器となります。システムプロンプトの肥大化に悩んでいるユーザーにも推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>Node.js 22.5以降の環境が必須となるため、古いランタイム環境では動作しません。また、「忘却」という生物学的な特性を模倣しているため、重要ではないと判断された情報は時間とともに消える可能性があります。絶対に忘れてほしくない重要な制約事項などは、<code>pin</code>機能を使用して保護する運用が必要です。高度なハイブリッド検索を利用するには別途<code>@xenova/transformers</code>のインストールが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>hippo-memoryは、AIエージェントの記憶を「詰め込み」から「自律的な学習プロセス」へと変える画期的なツールです。開発者の活動（コミットなど）から静かに教訓を積み重ねていくこの仕組みは、AIを単なるツールから真の「同僚」へと昇華させる可能性を秘めています。依存関係の少なさと高い統合性により、今後のエージェント開発における標準的なメモリ基盤となることが期待されます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/kitfunso/hippo-memory" target="_blank" rel="noreferrer">kitfunso/hippo-memory</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
