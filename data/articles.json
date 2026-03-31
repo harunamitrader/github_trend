@@ -200,6 +200,18 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-03-31-gemini-cli-v0-36-0",
+      "title": "Gemini CLI v0.36.0: Task Tracker プロトコルの統合と A2A 強化",
+      "dek": "進捗管理の精度向上、マルチレジストリ対応、VSCode 連携の強化など、開発エージェントとしての基盤が大幅に進化。",
+      "summary": "Gemini CLI v0.36.0 の安定版リリース情報をまとめ。Task Tracker プロトコルによる進捗把握の向上や、エージェント間連携（A2A）、マルチレジストリ対応、VSCode ワークスペースの自動コンテキスト化などの主要な変更点を網羅。",
+      "publishedAt": "2026-03-31",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-03-31-gemini-cli-v0-36-0.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-03-31-claude-code-v2-1-87-automode",
       "title": "Claude Code v2.1.87: 「Auto Mode」導入による自律的な権限管理の実現",
       "dek": "安全なアクションを AI が自動判定し、開発者の承認頻度を大幅に削減。Computer Use も一般開放。",
