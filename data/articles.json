@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-31-trading-agents",
+      "title": "TradingAgents: LLM マルチエージェントによる次世代金融取引フレームワーク",
+      "dek": "LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。",
+      "summary": "LangGraph を活用したマルチエージェント分析システム TradingAgents の解析。SNS のセンチメントやマクロ経済を分析するエージェントたちの議論（Debate）を通じた意思決定プロセスを解説。",
+      "publishedAt": "2026-03-31",
+      "repoName": "TauricResearch/TradingAgents",
+      "repoUrl": "https://github.com/TauricResearch/TradingAgents",
+      "articleUrl": "./articles/github/2026-03-31-trading-agents.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-31-hippo-memory",
       "title": "hippo-memory: AI エージェントに「生物学的な海馬」の機能を授ける自律型メモリシステム",
       "dek": "実行時依存関係なし。脳の「睡眠・忘却・強化」を模倣し、Cursor や Claude Code を真の AI 同僚へ。",
