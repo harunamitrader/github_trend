@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:17:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 03:22:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Crucix: 27 の情報源を統合する自分専用のリアルタイム OSINT 司令センター]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-crucix.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-crucix.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。]]></description>
+    </item>
     <item>
       <title><![CDATA[ai-marketing-skills: Claude Code を活用した AI マーケティング自動化ワークフロー集]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Rust の速度と安全性を AI エージェントへ。プロダクショングレードのマルチエージェント・システムを構築するための強力なフレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-hermes-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自己改善する AI の可能性を広げる。Hermes Agent のための厳選されたスキル・ツール・リソースの集大成。]]></description>
     </item>
   </channel>
 </rss>
