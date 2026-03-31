@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-31-ai-marketing-skills",
+      "title": "ai-marketing-skills: Claude Code を活用した AI マーケティング自動化ワークフロー集",
+      "dek": "統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。",
+      "summary": "AI（特に Claude Code）をビジネスロジック実行エージェントへ進化させる、マーケティング自動化スキルライブラリ ai-marketing-skills の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "ericosiu/ai-marketing-skills",
+      "repoUrl": "https://github.com/ericosiu/ai-marketing-skills",
+      "articleUrl": "./articles/github/2026-03-31-ai-marketing-skills.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-31-studycraft",
       "title": "StudyCraft: AI が教材から問題を自動生成するオープンソース学習支援ツール",
       "dek": "PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。",
