@@ -8,6 +8,18 @@
     "articles":  [
                      {
                          "category":  "github-pickup",
+                         "slug":  "2026-04-01-leoyeai-openclaw-auto-dream",
+                         "title":  "openclaw-auto-dream",
+                         "dek":  "OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。",
+                         "summary":  "LeoYeAI/openclaw-auto-dream は、OpenClaw 系エージェントのログを収集・統合・評価し、5 層メモリ、重要度スコア、忘却ルール、ヘルス指標、ダッシュボード生成までを自動化するメモリ保守拡張です。",
+                         "publishedAt":  "2026-04-01",
+                         "createdAt":  "2026-04-01T22:05:00+09:00",
+                         "repoName":  "LeoYeAI/openclaw-auto-dream",
+                         "repoUrl":  "https://github.com/LeoYeAI/openclaw-auto-dream",
+                         "articleUrl":  "./articles/github/2026-04-01-leoyeai-openclaw-auto-dream.html"
+                     },
+                     {
+                         "category":  "github-pickup",
                          "slug":  "2026-04-01-gitlawb-openclaude",
                          "title":  "openclaude",
                          "dek":  "Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。",

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LeoYeAI/openclaw-auto-dream を読み、OpenClaw エージェントの記憶整理を自動化する Auto-Dream の要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openclaw-auto-dream</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openclaw-auto-dream</h1>
+      <p class="article-dek">OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/LeoYeAI/openclaw-auto-dream" target="_blank" rel="noreferrer">
+              LeoYeAI/openclaw-auto-dream
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>openclaw-auto-dream</code> は、OpenClaw 系エージェントの記憶を「睡眠中の整理」に見立てて自動保守する拡張です。README では、日次ログを収集し、重要度で整理し、忘却ルールを適用しながら、ダッシュボードや通知まで返す Dream Cycle を中心機能として説明しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>処理は 3 段階です。Collect で過去 7 日の未整理ログを走査し、重要マーカーや決定事項を抽出します。Consolidate で内容を 5 層メモリに振り分け、重複をまとめ、ID と関連リンクを付けます。Evaluate では重要度スコア、忘却曲線、ヘルス指標、洞察メモを生成し、最終的に dream report と通知まで作ります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は 5 層メモリ設計です。作業中の圧縮記憶、エピソード、長期記憶、手順集、インデックスを分けて管理し、単なるログ蓄積で終わらせません。さらに 90 日以上参照されず重要度が低い項目は削除ではなく <code>memory/archive.md</code> に 1 行要約で退避し、知識グラフの接続性や鮮度まで数値で見られるのが実務的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は README 上では単純で、<code>clawhub install openclaw-auto-dream</code> かエージェント経由のセットアップから始めます。その後「Set up Auto-Dream」と指示すると、タイムゾーンに合わせた毎日 4 時の cron、<code>memory/index.json</code> の初期化、通知レベル確認、初回 dream cycle 実行まで自動で進む想定です。必要なら「Dream now」で手動実行し、「Show memory dashboard」で可視化できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>OpenClaw を長く使っていて、会話ログや日報が積み上がるほど記憶の質が落ちる人に向いています。特に、プロジェクトの経緯、判断理由、定型手順をあとから拾い直したい個人開発者や小規模チームとは相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README の前提は OpenClaw / MyClaw 系の運用フローに寄っているため、一般的な LLM ツールへそのまま差し込めるわけではありません。また、秘密情報を新たに検出して保護する仕組みではなく、「すでに存在する secrets を統合対象にするだけ」という Safety 方針なので、元ログ設計が雑だと記憶層にもそのまま持ち上がります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>openclaw-auto-dream</code> は、メモリを増やすツールというより、増え続ける記憶を腐らせないためのメンテナンス層です。ログ収集、意味的重複排除、緩やかな忘却、健康診断、ダッシュボードまでが一連でまとまっているので、OpenClaw の長期運用に欠けがちな「記憶の衛生管理」を埋める用途で見ると分かりやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/LeoYeAI/openclaw-auto-dream" target="_blank" rel="noreferrer">LeoYeAI/openclaw-auto-dream</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/LeoYeAI/openclaw-auto-dream" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Apr 2026 12:31:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 21:47:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openclaw-auto-dream]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-leoyeai-openclaw-auto-dream.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-leoyeai-openclaw-auto-dream.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[openclaude]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-gitlawb-openclaude.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-marketing-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。]]></description>
     </item>
   </channel>
 </rss>
