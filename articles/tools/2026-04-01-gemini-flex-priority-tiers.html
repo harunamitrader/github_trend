@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini API Release notes の 2026-04-01 更新で追加された Flex と Priority inference tiers の内容を日本語で整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini: Flex と Priority inference tiers を preview 公開</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Gemini: Flex と Priority inference tiers を preview 公開</h1>
+      <p class="article-dek">Google が Gemini API の推論ティアを拡張し、コスト重視の Flex と低遅延重視の Priority を preview で追加しました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">機能</span>
+          <strong>Flex / Priority tiers</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の公式 `Gemini API Release notes` では、2026-04-01 の更新として `Flex` と `Priority` の 2 つの inference tier が preview 公開されました。既存の標準的な呼び出しに加えて、用途ごとに価格と応答性を選びやすくする更新です。</p>
+        <p>`Flex` は待ち時間に厳しくないバッチ処理や非同期処理向けで、より安価な実行を狙う位置づけです。`Priority` は低遅延とキャパシティ確保を重視したティアとして案内されており、応答速度を優先したい本番用途と相性が良いです。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>同じ Gemini でも、処理の性質に応じてティアを切り替えられるようになったのが実務上のポイントです。たとえば要約生成や埋め込み前処理のように急がないジョブは `Flex`、チャット UI や即応型エージェントは `Priority` といった整理がしやすくなります。</p>
+        <p>これにより、単にモデルを選ぶだけでなく、運用コストと体感速度の設計を API 呼び出しレベルで分ける考え方がしやすくなりました。Gemini を複数ワークロードにまたがって使うチームほど恩恵が大きい更新です。</p>
+
+        <h2>注意点</h2>
+        <p>現時点では preview 扱いなので、価格、提供リージョン、SLA、対象モデルは今後変わる可能性があります。既存構成にすぐ全面適用するより、まずはジョブ特性の違う経路で小さく比較するのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>今回の Gemini 更新は新モデル追加ではなく、推論の運用設計を細かく分けられるようにした点が本質です。コスト最適化と低遅延の両立を考える現場では、押さえておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://ai.google.dev/gemini-api/docs/release-notes#april_1_2026" target="_blank" rel="noreferrer">Gemini API Release notes - April 1, 2026</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.89 の更新内容を日本語で整理した記事。権限制御まわりの拡張と Windows 安定性改善を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善</h1>
+      <p class="article-dek">defer 付き権限制御、MCP 接続待ちの短縮、Windows / PowerShell の不具合修正がまとまって入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">確認日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.89</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の公式 changelog 先頭に v2.1.89 が追加されました。今回の更新では、<code>PreToolUse</code> フックに <code>"defer"</code> を返せるようになり、ヘッドレス実行をツール呼び出し地点で一時停止し、<code>-p --resume</code> で再評価できるようになっています。</p>
+        <p>あわせて、<code>PermissionDenied</code> フックや <code>MCP_CONNECTION_NONBLOCKING=true</code> が入り、Auto mode の拒否後リトライや、MCP サーバー待ち時間の抑制が強化されました。権限制御を組み込んだ運用フローを組みやすくした更新と見てよさそうです。</p>
+
+        <h2>実務で効くポイント</h2>
+        <p>Windows まわりでは、Edit / Write ツールの CRLF 二重化、PowerShell 5.1 で <code>git push</code> の stderr 進捗を失敗扱いしていた問題、Shift+Enter の改行不具合などが修正されています。既存の Windows 利用者には体感差が出やすい内容です。</p>
+        <p>そのほか、巨大 JSON に起因するメモリリーク、<code>StructuredOutput</code> の schema cache 不具合、長時間セッションでの prompt cache miss、巨大セッションファイル編集時のクラッシュなども解消対象に含まれます。日常の継続運用に寄ったリリースです。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.89 は、権限フックの柔軟性と Windows 安定性を同時に底上げする更新です。特に PowerShell 環境や headless 実行を組んでいるチームでは優先度が高めです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code release notes / CHANGELOG</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

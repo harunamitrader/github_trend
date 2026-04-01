@@ -7,6 +7,19 @@
              },
     "articles":  [
                      {
+                         "category":  "ai-tool-log",
+                         "slug":  "2026-04-02-claude-code-v2-1-89-permissions-windows",
+                         "title":  "Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善",
+                         "dek":  "defer 付き権限制御、MCP 接続待ちの短縮、Windows / PowerShell の不具合修正がまとまって入った更新です。",
+                         "summary":  "Claude Code v2.1.89 の公式 changelog をもとに、PreToolUse の defer、PermissionDenied フック、MCP 接続改善、Windows / PowerShell の安定化を整理する。",
+                         "publishedAt":  "2026-04-02",
+                         "toolName":  "Claude Code",
+                         "repoName":  "anthropic-ai/claude-code",
+                         "repoUrl":  "https://docs.anthropic.com/en/release-notes/claude-code",
+                         "articleUrl":  "./articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html",
+                         "rank":  999
+                     },
+                     {
                          "category":  "github-pickup",
                          "slug":  "2026-04-02-ramjke-translumo",
                          "title":  "Translumo",
@@ -43,6 +56,19 @@
                          "repoUrl":  "https://github.com/jwasham/coding-interview-university",
                          "articleUrl":  "./articles/github/2026-04-02-jwasham-coding-interview-university.html",
                          "rank":  14
+                     },
+                     {
+                         "category":  "ai-tool-log",
+                         "slug":  "2026-04-01-gemini-flex-priority-tiers",
+                         "title":  "Gemini: Flex と Priority inference tiers を preview 公開",
+                         "dek":  "Google が Gemini API の推論ティアを拡張し、コスト重視の Flex と低遅延重視の Priority を preview で追加しました。",
+                         "summary":  "Gemini API Release notes の 2026-04-01 更新をもとに、Flex と Priority inference tiers の追加内容と、用途ごとの使い分けポイントを整理します。",
+                         "publishedAt":  "2026-04-01",
+                         "toolName":  "Gemini",
+                         "repoName":  "google/gemini-api",
+                         "repoUrl":  "https://ai.google.dev/gemini-api/docs/release-notes#april_1_2026",
+                         "articleUrl":  "./articles/tools/2026-04-01-gemini-flex-priority-tiers.html",
+                         "rank":  999
                      },
                      {
                          "category":  "ai-tool-log",
@@ -240,6 +266,19 @@
                          "repoName":  "google/notebooklm",
                          "repoUrl":  "https://blog.google/technology/ai/notebooklm-updates/",
                          "articleUrl":  "./articles/tools/2026-03-31-notebooklm-epub-pptx-support.html",
+                         "rank":  999
+                     },
+                     {
+                         "category":  "ai-tool-log",
+                         "slug":  "2026-04-01-gemini-cli-v0-36-0-preview-8",
+                         "title":  "Gemini CLI v0.36.0-preview.8: preview 系列の最新タグに更新",
+                         "dek":  "Google の公式 Releases で v0.36.0-preview.8 が公開され、preview.7 から最新版タグが進みました。",
+                         "summary":  "Gemini CLI の公式 GitHub Releases をもとに、v0.36.0-preview.8 への更新と、公開時点で確認できる release 情報の範囲を整理する。",
+                         "publishedAt":  "2026-04-01",
+                         "toolName":  "Gemini CLI",
+                         "repoName":  "google-gemini/gemini-cli",
+                         "repoUrl":  "https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.8",
+                         "articleUrl":  "./articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-8.html",
                          "rank":  999
                      },
                      {
@@ -471,6 +510,19 @@
                          "repoName":  "anthropic-ai/claude-code",
                          "repoUrl":  "https://www.npmjs.com/package/@anthropic-ai/claude-code",
                          "articleUrl":  "./articles/tools/2026-03-31-claude-code-v2-1-87-automode.html",
+                         "rank":  999
+                     },
+                     {
+                         "category":  "ai-tool-log",
+                         "slug":  "2026-04-01-cline-v3-77-0-lazy-teammate-mode",
+                         "title":  "Cline v3.77.0: Lazy Teammate Mode と chunked read_file を追加",
+                         "dek":  "実験的モード追加とファイル読み込み改善を中心に、Kanban 周辺の細かな修正も入った最新版です。",
+                         "summary":  "Cline v3.77.0 の公式リリースをもとに、Lazy Teammate Mode、read_file の chunked reading、headless モード修正を整理する。",
+                         "publishedAt":  "2026-04-01",
+                         "toolName":  "Cline",
+                         "repoName":  "cline/cline",
+                         "repoUrl":  "https://github.com/cline/cline/releases/tag/v3.77.0",
+                         "articleUrl":  "./articles/tools/2026-04-01-cline-v3-77-0-lazy-teammate-mode.html",
                          "rank":  999
                      },
                      {

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.77.0 の更新内容を日本語で整理した記事。Lazy Teammate Mode と read_file の改善を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.77.0: Lazy Teammate Mode と chunked read_file を追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.77.0: Lazy Teammate Mode と chunked read_file を追加</h1>
+      <p class="article-dek">実験的モード追加とファイル読み込み改善を中心に、Kanban 周辺の細かな修正も入った最新版です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.77.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>公式 GitHub Releases によると、v3.77.0 では実験機能として <strong>Lazy Teammate Mode</strong> が追加されました。名称どおり、分業や補助的なエージェント運用を意識したトグルで、既存の Kanban 系フローを補完する位置づけに見えます。</p>
+        <p>もう一つの追加点は、<code>read_file</code> ツールの chunked reading 対応です。大きいファイルを丸ごと読むのではなく、必要な断片へ寄せた読み出しがしやすくなり、コンテキスト消費や読み込みコストの圧縮に効きます。</p>
+
+        <h2>補助的な修正</h2>
+        <p>修正項目では、yolo / headless モードで <code>new_task</code> を system prompt から除外する変更と、Kanban デモ動画の整形が含まれます。さらに <code>Notification</code> フックの磨き込みも入っており、周辺挙動の安定化を進めたリリースです。</p>
+
+        <h2>まとめ</h2>
+        <p>v3.77.0 は大型機能よりも、分業補助の実験機能と読み込み効率化を積み増した更新です。最近の Kanban 路線を追っているユーザーには自然な次の一歩です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.77.0" target="_blank" rel="noreferrer">Cline v3.77.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

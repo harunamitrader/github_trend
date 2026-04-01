@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Apr 2026 20:30:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 07:30:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[defer 付き権限制御、MCP 接続待ちの短縮、Windows / PowerShell の不具合修正がまとまって入った更新です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Translumo]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-ramjke-translumo.html</link>
@@ -30,6 +38,14 @@
       <category>github-trending</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ソフトウェアエンジニア採用を目指す人向けに、CS基礎と面接対策を順番に学べる巨大な学習ロードマップ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini: Flex と Priority inference tiers を preview 公開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-flex-priority-tiers.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-flex-priority-tiers.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google が Gemini API の推論ティアを拡張し、コスト重視の Flex と低遅延重視の Priority を preview で追加しました。]]></description>
     </item>
     <item>
       <title><![CDATA[OpenClaw 2026.4.1: /tasks と SearXNG、cron --tools を追加]]></title>
@@ -144,28 +160,12 @@
       <description><![CDATA[xAI が最新の「Fast」モデルを公開。回答速度が大幅に向上し、API コストも削減。]]></description>
     </item>
     <item>
-      <title><![CDATA[Gemini CLI v0.36.0-preview.7: 最新モデル Gemini Flash 3.1 Lite に対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</guid>
+      <title><![CDATA[Gemini CLI v0.36.0-preview.8: preview 系列の最新タグに更新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-8.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-8.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[次世代高速モデル「Flash 3.1 Lite」への対応が開始。全ユーザがプレビューモデルを試用可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.88: Windows と長時間セッションの安定性を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-code-v2-1-88-stability.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-code-v2-1-88-stability.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PowerShell 周りの誤判定修正、Auto Mode 拒否後フックの追加、長時間実行時の安定化が中心。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: EPUB アップロード対応と PPTX 書き出し機能を導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-notebooklm-epub-pptx-support.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-notebooklm-epub-pptx-support.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[電子書籍ファイルへの質問が可能に。解析結果からプレゼン資料の直接生成も実現。]]></description>
+      <description><![CDATA[Google の公式 Releases で v0.36.0-preview.8 が公開され、preview.7 から最新版タグが進みました。]]></description>
     </item>
   </channel>
 </rss>
