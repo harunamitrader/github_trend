@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta
+      name="description"
+      content="AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルド。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>free-code</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />      
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">他の記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">free-code</h1>
+      <p class="article-dek">AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルド。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">公開日</span>
+          <strong>2026-04-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象リポジトリ</span>
+          <strong>
+            <a href="https://github.com/paoloanzn/free-code" target="_blank" rel="noreferrer">
+              paoloanzn/free-code
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>概要</h2>
+        <p><code>free-code</code>は、Anthropic社が開発したAIコーディングアシスタント<code>Claude Code</code>の非公式なフリービルドです。本来の製品に含まれる利用状況のトラッキング機能（テレメトリ）や、特定のプロンプトを制限するガードレール機能が意図的に取り除かれています。</p>
+
+        <h2>主な特徴</h2>
+        <p>このリポジトリは、オリジナルの<code>Claude Code</code>に対して、主に3つの大きな変更を加えています。</p>
+        <ul>
+          <li><strong>テレメトリの削除</strong>: 利用状況やクラッシュレポートなど、ユーザーの挙動に関するデータが開発元に送信されないように変更されています。</li>
+          <li><strong>セキュリティガードレールの解除</strong>: モデル自身の倫理観や安全性は維持しつつ、Anthropic社が追加で設定したプロンプトレベルでの応答制限を解除しています。</li>
+          <li><strong>実験的機能の全解放</strong>: <code>ULTRAPLAN</code>（高度なプランニング機能）や<code>VOICE_MODE</code>（音声入力）、IDE連携など、通常は無効化されている45以上の実験的な機能がすべて利用可能な状態でビルドされています。</li>
+        </ul>
+
+        <h2>背景</h2>
+        <p>このプロジェクトは、2026年3月31日にnpmパッケージのソースマップを通じて偶然にも公開されてしまった<code>Claude Code</code>のソースコードを元に作成されました。オリジナルのコードはAnthropic社の所有物ですが、このフォークは公開された情報に基づいて派生したものです。</p>
+        
+        <h2>技術スタック</h2>
+        <p><code>free-code</code>は、高速なJavaScriptランタイムであるBun上で動作します。言語はTypeScriptで書かれており、ターミナル上でのリッチなUIはReactとInkライブラリを用いて構築されています。</p>
+
+        <h2>ソースと参照</h2>
+        <div class="source-item">
+          <a href="https://github.com/paoloanzn/free-code" target="_blank" rel="noreferrer">paoloanzn/free-code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
