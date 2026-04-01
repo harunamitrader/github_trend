@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Apr 2026 05:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 15:07:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[free-code]]></title>
@@ -27,7 +27,7 @@
       <title><![CDATA[TaxHacker]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-vas3k-taxhacker.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-vas3k-taxhacker.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[領収書をLLMで解析し、自動でカテゴリ分けするセルフホスト可能なAI会計アプリ。]]></description>
     </item>
@@ -35,7 +35,7 @@
       <title><![CDATA[neovim]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-neovim-neovim.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-neovim-neovim.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[拡張性とユーザビリティに焦点を当てた、Vimから派生した次世代テキストエディタ。]]></description>
     </item>
@@ -43,7 +43,7 @@
       <title><![CDATA[Skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングアシスタント向けの、再利用可能なカスタム「スキル」プロンプト集。]]></description>
     </item>
@@ -51,7 +51,7 @@
       <title><![CDATA[PaddleOCR]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PDFや画像をAI用の構造化データに変換する、強力・軽量なOCRツールキット。]]></description>
     </item>
@@ -59,7 +59,7 @@
       <title><![CDATA[agent-lightning]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを最適化し、パフォーマンスを向上させるための「究極のトレーナー」ツール。]]></description>
     </item>

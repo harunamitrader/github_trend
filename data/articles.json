@@ -29,7 +29,7 @@
                          "articleUrl":  "./articles/github/2026-04-01-update-report.html"
                      },
                      {
-                         "category":  "github-pickup",
+                         "category":  "github-trending",
                          "slug":  "2026-04-01-vas3k-taxhacker",
                          "title":  "TaxHacker",
                          "dek":  "領収書をLLMで解析し、自動でカテゴリ分けするセルフホスト可能なAI会計アプリ。",
@@ -42,7 +42,7 @@
                          "rank":  12
                      },
                      {
-                         "category":  "github-pickup",
+                         "category":  "github-trending",
                          "slug":  "2026-04-01-neovim-neovim",
                          "title":  "neovim",
                          "dek":  "拡張性とユーザビリティに焦点を当てた、Vimから派生した次世代テキストエディタ。",
@@ -55,7 +55,7 @@
                          "rank":  11
                      },
                      {
-                         "category":  "github-pickup",
+                         "category":  "github-trending",
                          "slug":  "2026-04-01-dimillian-skills",
                          "title":  "Skills",
                          "dek":  "AIコーディングアシスタント向けの、再利用可能なカスタム「スキル」プロンプト集。",
@@ -68,7 +68,7 @@
                          "rank":  9
                      },
                      {
-                         "category":  "github-pickup",
+                         "category":  "github-trending",
                          "slug":  "2026-04-01-paddlepaddle-paddleocr",
                          "title":  "PaddleOCR",
                          "dek":  "PDFや画像をAI用の構造化データに変換する、強力・軽量なOCRツールキット。",
@@ -81,7 +81,7 @@
                          "rank":  8
                      },
                      {
-                         "category":  "github-pickup",
+                         "category":  "github-trending",
                          "slug":  "2026-04-01-microsoft-agent-lightning",
                          "title":  "agent-lightning",
                          "dek":  "AIエージェントを最適化し、パフォーマンスを向上させるための「究極のトレーナー」ツール。",

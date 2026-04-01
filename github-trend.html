@@ -85,6 +85,7 @@
               <p class="eyebrow">Hand Picked</p>
               <h2>ピックアップ記事</h2>
             </div>
+            <div class="stats" id="site-stats-pickup"></div>
             <div id="articles-pickup" class="archive-list"></div>
           </div>
 
@@ -93,6 +94,7 @@
               <p class="eyebrow">Task Log</p>
               <h2>更新作業レポート</h2>
             </div>
+            <div class="stats" id="site-stats-report"></div>
             <div id="articles-report" class="archive-list"></div>
           </div>
         </section>
@@ -153,6 +155,12 @@
           : trending.map(a => renderArticle(a)).join("");
 
         // Pickup
+        const pickupStatsEl = document.getElementById("site-stats-pickup");
+        if (pickupStatsEl) {
+          pickupStatsEl.innerHTML = `
+            <div class="stat-box"><span>記事数</span><strong>${pickup.length}</strong></div>
+          `;
+        }
         const pickupEl = document.getElementById("articles-pickup");
         pickupEl.innerHTML = pickup.length === 0
           ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだ記事がありません</h3><p>気になったリポジトリの解析記事がここに追加されます。</p></div>'
@@ -160,6 +168,12 @@
 
         // Report
         const reportEl = document.getElementById("articles-report");
+        const reportStatsEl = document.getElementById("site-stats-report");
+        if (reportStatsEl) {
+          reportStatsEl.innerHTML = `
+            <div class="stat-box"><span>レポート数</span><strong>${report.length}</strong></div>
+          `;
+        }
         if(reportEl) {
           reportEl.innerHTML = report.length === 0
             ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだレポートがありません</h3><p>更新作業のログがここに追加されます。</p></div>'
