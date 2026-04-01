@@ -3,9 +3,9 @@
   <channel>
     <title>harunami AI base</title>
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
-    <description>AI関連技術の調査・検証ログ、および気になったGitHubリポジトリのピックアップ記事を公開するサイト。</description>
+    <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Apr 2026 14:13:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 05:20:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[free-code]]></title>
@@ -13,15 +13,15 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paoloanzn-free-code.html</guid>
       <category>github-pickup</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルド。]]></description>
+      <description><![CDATA[AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルд。]]></description>
     </item>
     <item>
-      <title><![CDATA[2026-04-01 月例アップデート]]></title>
+      <title><![CDATA[2026-04-01 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-update-report.html</guid>
       <category>github-update-report</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[5件のリポジトリをピックアップ対象に追加しました。]]></description>
+      <description><![CDATA[5件のトレンド記事を追加しました。]]></description>
     </item>
     <item>
       <title><![CDATA[TaxHacker]]></title>
@@ -29,7 +29,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-vas3k-taxhacker.html</guid>
       <category>github-pickup</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[米国での確定申告シーズンに合わせ、税金に関する複雑な質問に答えるAIチャットボット。]]></description>
+      <description><![CDATA[領収書をLLMで解析し、自動でカテゴリ分けするセルフホスト可能なAI会計アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[neovim]]></title>
@@ -37,7 +37,135 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-neovim-neovim.html</guid>
       <category>github-pickup</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vimからフォークされた、より現代的で拡張性の高いテキストエディタ。]]></description>
+      <description><![CDATA[拡張性とユーザビリティに焦点を当てた、Vimから派生した次世代テキストエディタ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングアシスタント向けの、再利用可能なカスタム「スキル」プロンプト集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[PaddleOCR]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDFや画像をAI用の構造化データに変換する、強力・軽量なOCRツールキット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-lightning]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを最適化し、パフォーマンスを向上させるための「究極のトレーナー」ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini Impact Summit 2026: Gemini 3.1 Flash Live & Veo 3.1 Lite 公開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-impact-summit-2026.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-impact-summit-2026.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI Impact Summit 2026 にて、超低遅延対話モデルと高効率ビデオ生成モデルが発表。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok 4 Fast: 推論速度を極めた新モデルがリリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-grok-4-fast-released.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-grok-4-fast-released.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[xAI が最新の「Fast」モデルを公開。回答速度が大幅に向上し、API コストも削減。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.36.0-preview.7: 最新モデル Gemini Flash 3.1 Lite に対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[次世代高速モデル「Flash 3.1 Lite」への対応が開始。全ユーザがプレビューモデルを試用可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: EPUB アップロード対応と PPTX 書き出し機能を導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-notebooklm-epub-pptx-support.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-notebooklm-epub-pptx-support.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[電子書籍ファイルへの質問が可能に。解析結果からプレゼン資料の直接生成も実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[clawflows]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-nikilster-clawflows.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-nikilster-clawflows.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[111種類以上の自動化ワークフローを即座に。Markdown ベースの簡単な作成と、ブラウザダッシュボードによる直感的な管理を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TradingAgents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-trading-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-trading-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hippo-memory]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-hippo-memory.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-hippo-memory.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[実行時依存関係なし。脳の「睡眠・忘却・強化」を模倣し、Cursor や Claude Code を真の AI 同僚へ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[PraisonAI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-praison-ai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-praison-ai.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プランニング、リサーチ、デリバリーを統合。 YAML だけで AI 従業員チームを構築・運用。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-token-counter]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-token-counter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-token-counter.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[進行中のセッションの消費トークンと見積コストを秒単位で追跡。コスト意識の高い開発者向け Rust ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Crucix]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-crucix.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-crucix.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-marketing-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[StudyCraft]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[options-portfolio-backtester]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-options-portfolio-backtester.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-options-portfolio-backtester.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複雑なオプション戦略やテールリスクを、Rust バックエンドによる圧倒的な速度で検証。]]></description>
     </item>
   </channel>
 </rss>
