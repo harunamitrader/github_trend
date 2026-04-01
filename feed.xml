@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Apr 2026 11:42:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 21:28:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openclaude]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-gitlawb-openclaude.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-gitlawb-openclaude.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。]]></description>
+    </item>
     <item>
       <title><![CDATA[claw-code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-instructkr-claw-code.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[StudyCraft]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。]]></description>
     </item>
   </channel>
 </rss>

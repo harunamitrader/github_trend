@@ -8,6 +8,18 @@
     "articles":  [
                      {
                          "category":  "github-pickup",
+                         "slug":  "2026-04-01-gitlawb-openclaude",
+                         "title":  "openclaude",
+                         "dek":  "Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。",
+                         "summary":  "Gitlawb/openclaude は、Claude Code 系 CLI のツール体験を維持しながら、OpenAI 互換 API を通して複数の LLM に接続できる fork です。openaiShim による形式変換と診断コマンド群で、マルチモデル運用を試しやすくしています。",
+                         "publishedAt":  "2026-04-01",
+                         "createdAt":  "2026-04-01T21:18:00+09:00",
+                         "repoName":  "Gitlawb/openclaude",
+                         "repoUrl":  "https://github.com/Gitlawb/openclaude",
+                         "articleUrl":  "./articles/github/2026-04-01-gitlawb-openclaude.html"
+                     },
+                     {
+                         "category":  "github-pickup",
                          "slug":  "2026-04-01-instructkr-claw-code",
                          "title":  "claw-code",
                          "dek":  "Claude Code 系ハーネスの構造を Python で追い直しつつ、Rust 実装への移行も進めている研究色の強い再実装プロジェクト。",

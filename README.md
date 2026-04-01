@@ -1,25 +1,36 @@
-# GitHub Trend Journal
+# harunami AI base
 
-`C:\Users\sgmxk\Desktop\AI\codex\project\github-trending-zenn-pages` は、GitHub Trending の未記事 repo を毎朝 1 本ずつ記事化して載せるための極シンプルな GitHub Pages 用サイトです。
+`C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base` は、GitHub Watcher と AI Tool Log をまとめて運用する GitHub Pages 用サイトです。
 
 ## 構成
 
-- `index.html`: 最新記事と記事一覧だけを出すトップページ
+- `index.html`: 全体トップ
+- `github-trend.html`: GitHub Watcher 一覧
+- `ai-tools-monitor.html`: AI Tool Log 一覧
 - `styles.css`: 共通スタイル
 - `app.js`: `data/articles.json` を読んで一覧を描画
 - `data/articles.json`: 公開済み記事の一覧
-- `articles/*.html`: 各記事ページ
+- `articles\github\*.html`: GitHub Watcher 記事
+- `articles\tools\*.html`: AI Tool Log 記事
 - `.github/workflows/deploy-pages.yml`: push 時の Pages デプロイ
 
 ## 運用
 
-自動 API 投稿ではなく、Codex に毎朝「今日の記事作って」と頼んで更新する前提です。  
-daily 手順は `C:\Users\sgmxk\.codex\skills\github-trend-daily-writer` の skill に寄せます。
+自動 API 投稿ではなく、必要なときに AI へ依頼して更新する前提です。
+
+- スキル正本: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills`
+- GitHub daily: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills\github-trend-daily-writer\SKILL.md`
+- GitHub pickup: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills\github-pickup-writer\SKILL.md`
+- AI tools all: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills\ai-tools-monitor\SKILL.md`
+- AI tools coding: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills\ai-tools-coding-monitor\SKILL.md`
+- AI tools others: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\skills\ai-tools-others-monitor\SKILL.md`
+
+Codex では `C:\Users\sgmxk\.codex\skills` にある薄いラッパー経由でも使えるが、内容の正本は repo 側を優先する。
 
 ## ローカル確認
 
 ```powershell
-cd C:\Users\sgmxk\Desktop\AI\codex\project\github-trending-zenn-pages
+cd C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base
 python -m http.server 4173
 ```
 

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gitlawb/openclaude を読み、Claude Code 系 CLI を OpenAI 互換 API で多モデル化する shim の要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openclaude</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openclaude</h1>
+      <p class="article-dek">Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Gitlawb/openclaude" target="_blank" rel="noreferrer">
+              Gitlawb/openclaude
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>openclaude</code> は、Claude Code 系の CLI を Anthropic 固定ではなく、OpenAI 互換 API を話せる任意のモデルで動かすための fork です。README では GPT-4o、Gemini、DeepSeek、Llama、Mistral、Ollama など幅広い接続先を想定し、CLI コマンド名はそのまま <code>openclaude</code> として配布しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリの売りは、元のツール体験を大きく崩さずにプロバイダだけ差し替える点です。README 上では bash、ファイル read/write/edit、grep、glob、agents、tasks、MCP、画像入力、スラッシュコマンド、サブエージェント、永続メモリまで動くと整理されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>中心は <code>src/services/api/openaiShim.ts</code> で、Anthropic 形式のメッセージや tool_use / tool_result、ストリーミングイベントを OpenAI Chat Completions API 向けに変換します。README では追加差分を 6 ファイル・依存追加なしとしており、fork の狙いを「全面改造」ではなく「接続層の差し替え」に絞っているのが分かりやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最短は <code>npm install -g @gitlawb/openclaude</code> です。起動前に <code>CLAUDE_CODE_USE_OPENAI=1</code>、<code>OPENAI_API_KEY</code>、<code>OPENAI_MODEL</code> を設定し、必要なら <code>OPENAI_BASE_URL</code> で接続先を差し替えます。README には <code>bun run smoke</code>、<code>doctor:runtime</code>、<code>hardening:check</code> などの診断系コマンドもまとまっていて、導入後の事故を減らしやすい構成です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code 風の CLI ワークフローを、OpenAI 系やローカル LLM でも試したい人に向いています。特に、Ollama や LM Studio のようなローカル環境を含めて、同じ操作感で複数モデルを比較したい人には分かりやすい選択肢です。</p>
+
+        <h2>注意点</h2>
+        <p>README 自体が、出発点として 2026 年 3 月 31 日の source map 露出を明記しており、教育・研究用途の位置づけも強く打ち出しています。また、extended thinking や prompt caching のような Anthropic 固有機能はそのままでは再現されません。実運用前提なら、法的背景と「何が同じで何が違うか」を README の Disclaimer と Difference 節で確認した方がいいです。</p>
+
+        <h2>まとめ</h2>
+        <p><code>openclaude</code> は、Claude Code 系の操作感を維持したまま、モデル選択の自由度だけを大きく広げたい人向けの fork です。価値の中心は多機能さよりも「既存の CLI 体験を OpenAI 互換 API に移植する shim 設計」にあるので、マルチモデル化の実装例として読むと収穫があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Gitlawb/openclaude" target="_blank" rel="noreferrer">Gitlawb/openclaude</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Gitlawb/openclaude" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
