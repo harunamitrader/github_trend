@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ramjke/Translumo を読み、ゲーム画面を対象にしたリアルタイム OCR 翻訳ツールの要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Translumo</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Translumo</h1>
+      <p class="article-dek">ゲームやアプリの画面上テキストを OCR で拾い、リアルタイムに別言語へ重ね表示できる Windows 向け翻訳ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ramjke/Translumo" target="_blank" rel="noreferrer">
+              ramjke/Translumo
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Translumo</code> は、ゲームやデスクトップアプリの画面に表示された文字を OCR で認識し、翻訳結果をその場にオーバーレイ表示する Windows 向けツールです。README では JRPG やビジュアルノベルのように、画面内テキストを読みながら遊ぶ用途を主眼に置いています。</p>
+
+        <h2>何ができるか</h2>
+        <p>認識対象はフルスクリーン、ウィンドウ、選択領域に対応し、OCR は PaddleOCR と Windows OCR を切り替えられます。翻訳先も DeepL、Google、Gemini、ChatGPT、Ollama など複数のバックエンドを選べるため、精度重視・速度重視・ローカル運用など目的に応じて構成を変えやすいのが強みです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるスクリーン翻訳に留まらず、履歴表示、コンテキスト蓄積、ログ保存、TTS、ルビや字幕向けの表示調整までまとめて扱えます。README のスクリーンショットを見ると、縦長のゲーム文面や短い会話文を連続で処理する前提で設計されており、一般的な OCR デモより現場寄りです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本は Releases から Windows 向けビルドを入手し、必要に応じて翻訳 API キーやローカルモデル接続先を設定します。起動後は翻訳したい画面領域を指定し、OCR エンジンと翻訳プロバイダを選んで、オーバーレイ表示を有効化する流れです。ローカル運用を重視するなら Ollama、精度を優先するならクラウド翻訳 API を組み合わせる使い方が自然です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>海外ゲームや未翻訳アプリを読みながら使いたい個人ユーザーに向いています。特に、画面キャプチャベースの翻訳をワンボタンで済ませたい人や、機械翻訳を補助的に使ってストーリーを追いたい人には分かりやすい選択肢です。</p>
+
+        <h2>注意点</h2>
+        <p>性能は OCR 精度と表示フォント、画面解像度にかなり左右されます。また、利用する翻訳プロバイダによっては API キー、ネット接続、料金、レート制限が関わります。さらに、ゲームによってはオーバーレイや画面取得を嫌うケースがあるので、実運用前に対象タイトル側の挙動は確認した方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>Translumo</code> は、画面翻訳を「OCR の実験」ではなく「実際に読みながら使う補助ツール」として仕上げているのが良い点です。OCR と翻訳バックエンドの選択肢が広く、クラウド依存にもローカル志向にも振れるので、ゲーム翻訳用途の実用ツールとして見やすいリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ramjke/Translumo" target="_blank" rel="noreferrer">ramjke/Translumo</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/ramjke/Translumo" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

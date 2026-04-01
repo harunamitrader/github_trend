@@ -8,6 +8,18 @@
     "articles":  [
                      {
                          "category":  "github-pickup",
+                         "slug":  "2026-04-02-ramjke-translumo",
+                         "title":  "Translumo",
+                         "dek":  "ゲームやアプリの画面上テキストを OCR で拾い、リアルタイムに別言語へ重ね表示できる Windows 向け翻訳ツール。",
+                         "summary":  "ramjke/Translumo は、画面キャプチャ、OCR、翻訳 API、オーバーレイ表示を組み合わせて、ゲームやデスクトップアプリのテキストをその場で翻訳する Windows 向けツールです。PaddleOCR や Windows OCR、DeepL・Google・Gemini・ChatGPT・Ollama など複数の構成を選べます。",
+                         "publishedAt":  "2026-04-02",
+                         "createdAt":  "2026-04-02T00:20:00+09:00",
+                         "repoName":  "ramjke/Translumo",
+                         "repoUrl":  "https://github.com/ramjke/Translumo",
+                         "articleUrl":  "./articles/github/2026-04-02-ramjke-translumo.html"
+                     },
+                     {
+                         "category":  "github-pickup",
                          "slug":  "2026-04-01-leoyeai-openclaw-auto-dream",
                          "title":  "openclaw-auto-dream",
                          "dek":  "OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。",
