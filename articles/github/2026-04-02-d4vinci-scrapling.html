@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="D4Vinci/Scrapling を読み、適応型セレクタとステルス取得を備えた Python スクレイピング基盤の要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Scrapling</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Scrapling</h1>
+      <p class="article-dek">単発取得から大規模クロールまでを Python でまとめて扱える、適応型の Web スクレイピング基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/D4Vinci/Scrapling" target="_blank" rel="noreferrer">
+              D4Vinci/Scrapling
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Scrapling</code> は、HTTP 取得、ヘッドレスブラウザ取得、スパイダー実行、要素抽出を 1 つの Python ライブラリ群としてまとめた Web スクレイピング基盤です。README では「単発リクエストからフルスケールの crawl まで対応する adaptive framework」と位置づけられています。</p>
+
+        <h2>何ができるか</h2>
+        <p>通常の HTTP リクエストだけでなく、Playwright ベースの動的取得、ステルス取得、セッション管理、プロキシローテーション、CLI からの抽出まで扱えます。さらに Spider API があり、非同期の並列クロール、pause/resume、JSON/JSONL への出力まで一連で回せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特に分かりやすいのは、要素が見つからなくなった場合に類似性ベースで再配置を試みる adaptive な抽出です。加えて、Cloudflare Turnstile などの対策を意識した <code>StealthyFetcher</code>、AI 向けに抽出を前処理する MCP サーバー、対話的な scraping shell まで揃っており、単なる parser ライブラリより運用寄りです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本は Python 環境に導入し、まずは <code>Fetcher</code> や <code>FetcherSession</code> で静的ページを取得し、必要なら <code>DynamicFetcher</code> や <code>StealthyFetcher</code> に切り替える流れです。サイト全体を回す場合は Spider を定義して <code>start_urls</code> と <code>parse</code> を書き、長時間クロールでは <code>crawldir</code> を付けて再開可能にしておく使い方が自然です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>まず小さく抽出を試し、うまくいけばそのまま本格クロールへ伸ばしたい Python ユーザーに向いています。Requests と BeautifulSoup だけでは足りず、かといって最初から複数ライブラリを組み合わせたくない人には扱いやすい構成です。</p>
+
+        <h2>注意点</h2>
+        <p>高機能な分、動的取得やステルス取得ではブラウザ実行環境、対象サイト側の利用規約、プロキシや CAPTCHA 回避の扱いを分けて考える必要があります。また、README にはアンチボット回避や商用プロキシ連携の説明も含まれるため、実運用では法務面とアクセス負荷の管理を前提にした方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>Scrapling</code> は、抽出 API の使いやすさだけでなく、取得方法の切り替え、クロール継続、AI 連携まで一段深い運用面をまとめて持っているのが強みです。単発スクレイパーの延長で大規模化したい人にとって、移行コストを抑えやすいリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/D4Vinci/Scrapling" target="_blank" rel="noreferrer">D4Vinci/Scrapling</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/D4Vinci/Scrapling" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

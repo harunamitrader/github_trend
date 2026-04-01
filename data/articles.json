@@ -6,7 +6,19 @@
                  "repoUrl":  "https://github.com/harunamitrader/harunami_AI_base"
              },
     "articles":  [
-                     {
+                    {
+                        "category":  "github-pickup",
+                        "slug":  "2026-04-02-d4vinci-scrapling",
+                        "title":  "Scrapling",
+                        "dek":  "単発取得から大規模クロールまでを Python でまとめて扱える、適応型の Web スクレイピング基盤。",
+                        "summary":  "D4Vinci/Scrapling は、HTTP 取得、動的ブラウザ取得、ステルス取得、Spider API、適応型セレクタ、MCP 連携を 1 つの流れで扱える Python 向けスクレイピング基盤です。小さな抽出から継続クロールまで段階的に伸ばしやすい構成になっています。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T08:47:54+09:00",
+                        "repoName":  "D4Vinci/Scrapling",
+                        "repoUrl":  "https://github.com/D4Vinci/Scrapling",
+                        "articleUrl":  "./articles/github/2026-04-02-d4vinci-scrapling.html"
+                    },
+                    {
                          "category":  "ai-tool-log",
                          "slug":  "2026-04-02-claude-code-v2-1-89-permissions-windows",
                          "title":  "Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善",
