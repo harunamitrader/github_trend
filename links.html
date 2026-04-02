@@ -89,6 +89,32 @@
         color: var(--text-muted);
         font-size: 0.94rem;
       }
+
+      .bookmark-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .bookmark-card {
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        border-radius: var(--radius-md);
+        padding: 16px 18px;
+      }
+
+      .bookmark-title {
+        font-family: "Manrope", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--heading);
+      }
+
+      .bookmark-url {
+        display: inline-block;
+        margin-top: 8px;
+        color: var(--primary-strong);
+        word-break: break-all;
+      }
     </style>
   </head>
   <body class="theme-bookmark">
@@ -130,7 +156,16 @@
               <span class="link-category-icon">🐦</span>
               <span class="link-category-title">X(Twitter)</span>
             </div>
-            <div class="link-empty">リンクなし</div>
+            <div class="bookmark-list">
+              <div class="bookmark-card">
+                <div class="bookmark-title">Tom Doerr</div>
+                <a class="bookmark-url" href="https://x.com/tom_doerr" target="_blank" rel="noreferrer">https://x.com/tom_doerr</a>
+              </div>
+              <div class="bookmark-card">
+                <div class="bookmark-title">Dipanshu Ku</div>
+                <a class="bookmark-url" href="https://x.com/DipanshuKu55175" target="_blank" rel="noreferrer">https://x.com/DipanshuKu55175</a>
+              </div>
+            </div>
           </div>
 
           <div id="tab-github" class="link-section">
@@ -170,7 +205,12 @@
               <span class="link-category-icon">🌐</span>
               <span class="link-category-title">Web</span>
             </div>
-            <div class="link-empty">リンクなし</div>
+            <div class="bookmark-list">
+              <div class="bookmark-card">
+                <div class="bookmark-title">とほほのAI入門</div>
+                <a class="bookmark-url" href="https://www.tohoho-web.com/ai/index.html" target="_blank" rel="noreferrer">https://www.tohoho-web.com/ai/index.html</a>
+              </div>
+            </div>
           </div>
 
           <div id="tab-other" class="link-section">
