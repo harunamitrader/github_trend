@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 07:29:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 17:39:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-token-efficient]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-drona23-claude-token-efficient.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-drona23-claude-token-efficient.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の前置きや冗長説明を減らし、出力トークンを節約しやすくする 1 ファイル構成のルール集。]]></description>
+    </item>
     <item>
       <title><![CDATA[oh-my-gemini]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jjongguet-oh-my-gemini.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを最適化し、パフォーマンスを向上させるための「究極のトレーナー」ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini Impact Summit 2026: Gemini 3.1 Flash Live & Veo 3.1 Lite 公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-impact-summit-2026.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-impact-summit-2026.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI Impact Summit 2026 にて、超低遅延対話モデルと高効率ビデオ生成モデルが発表。]]></description>
     </item>
   </channel>
 </rss>

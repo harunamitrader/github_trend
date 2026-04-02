@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="drona23/claude-token-efficient を読み、Claude Code の無駄な出力を減らす 1 ファイル構成と使いどころを実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-token-efficient</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-token-efficient</h1>
+      <p class="article-dek">Claude Code の前置きや冗長説明を減らし、出力トークンを節約しやすくする 1 ファイル構成のルール集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/drona23/claude-token-efficient" target="_blank" rel="noreferrer">
+              drona23/claude-token-efficient
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>claude-token-efficient</code> は、プロジェクト直下に置く 1 枚の <code>CLAUDE.md</code> で Claude Code の応答を短く保ちやすくする設定リポジトリです。README では、無駄な前置き、言い換え、不要な提案、過剰設計を抑えて、出力中心のワークフローでトークン消費を減らすことを狙っています。</p>
+
+        <h2>何ができるか</h2>
+        <p>導入は単純で、配布されている <code>CLAUDE.md</code> をプロジェクトルートに置くだけです。これにより、まず読んでから書く、簡潔に返す、大きなファイルをむやみに書き換えない、完了前に検証する、といった振る舞いを Claude Code に強く促せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は「短くしろ」だけでなく、どの冗長さを削るかがかなり具体的な点です。README の比較では説明系タスクで 50% から 75% 程度の語数削減例を示し、外部ベンチマーク欄では複数のコーディング課題で総コスト 17.4% 減という結果も紹介しています。加えて root の <code>CLAUDE.md</code> 自体は短く保ち、毎ターンの入力オーバーヘッドを抑える設計になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本は README のとおり、対象プロジェクトのルートに <code>CLAUDE.md</code> を置いて Claude Code に読ませます。その後は普段どおり使えばよく、出力が長すぎるレビュー、説明、エージェント反復処理などで効果を見やすい構成です。必要に応じて利用者側の明示指示で詳細説明モードへ戻せる前提も置かれています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>多数の反復呼び出しを回す自動化、コード生成、レビュー運用で「答えの質より説明の長さ」にコストが乗っているチーム向けです。特に同じ形式の応答を何度も返させるワークフローでは、積み上がる余計な文言を減らす効果が出やすそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README でも明記されている通り、この手法は毎ターン <code>CLAUDE.md</code> を入力コンテキストに載せるため、単発の短い質問では逆に損になりえます。また、構造化出力の厳密保証や大きな設計逸脱の防止は prompt だけで完全には担えないので、必要なら schema やフックで補強する前提で見た方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>claude-token-efficient</code> は、Claude Code を別物に作り替えるというより、冗長さの癖を小さいルールで矯正して運用コストを下げるための実務向け設定です。長い説明が価値にならない場面では、かなり導入しやすい改善案です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/drona23/claude-token-efficient" target="_blank" rel="noreferrer">drona23/claude-token-efficient</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/drona23/claude-token-efficient" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

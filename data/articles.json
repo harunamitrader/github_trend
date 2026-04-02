@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-02-drona23-claude-token-efficient",
+                        "title":  "claude-token-efficient",
+                        "dek":  "Claude Code の前置きや冗長説明を減らし、出力トークンを節約しやすくする 1 ファイル構成のルール集。",
+                        "summary":  "drona23/claude-token-efficient は、プロジェクト直下の短い CLAUDE.md で Claude Code の冗長出力を抑え、レビューや自動化のような高出力量ワークフローでトークン効率を改善しやすくする設定リポジトリです。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T17:37:31+09:00",
+                        "repoName":  "drona23/claude-token-efficient",
+                        "repoUrl":  "https://github.com/drona23/claude-token-efficient",
+                        "articleUrl":  "./articles/github/2026-04-02-drona23-claude-token-efficient.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-02-jjongguet-oh-my-gemini",
                         "title":  "oh-my-gemini",
                         "dek":  "Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。",
