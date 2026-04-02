@@ -1,0 +1,8 @@
+# Local AI assistant / workspace-only files
+.anticrow/
+.claude/
+.codex_tmp/
+skills/
+AGENTS.md
+CLAUDE.md
+README.md

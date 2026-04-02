@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="openscreen を読み、無料でプロダクトデモ動画を作れるオープンソース録画アプリとして整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openscreen</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openscreen</h1>
+      <p class="article-dek">Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/siddharthvaddem/openscreen" target="_blank" rel="noreferrer">
+              siddharthvaddem/openscreen
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>openscreen</code> は、Screen Studio のようなプロダクトデモ動画を無料で作れる Electron ベースの録画アプリです。README では有料サブスクやウォーターマークなしで使える代替として位置づけられており、個人利用だけでなく商用利用も前提にしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>全画面または特定ウィンドウの録画、マイクとシステム音声の収録、自動ズームや手動ズーム、動画のトリミング、区間ごとの速度変更、背景差し替え、注釈追加、複数アスペクト比での書き出しまでを一通りカバーしています。単純なスクリーンレコーダーではなく、デモ動画編集まで一体で扱えるのが強みです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>無料であることだけでなく、README が「全部入りではなく、よく使う基本機能を押さえる」設計を明言している点が実務向きです。TypeScript / React / Electron / PixiJS 構成で開発されており、見た目の演出を伴う録画アプリとしては構成もわかりやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>使い始め方は単純で、GitHub Releases から OS 向けインストーラを取得して起動します。macOS では Gatekeeper 回避や画面録画権限の付与、Linux では AppImage 実行権限や PipeWire の有無など、プラットフォームごとの注意点が README に整理されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>プロダクト紹介、チュートリアル、社内デモを素早く作りたいが、まずは有料ツールに縛られたくない人に向いています。特に SaaS や開発ツールの紹介動画を頻繁に作る個人開発者や小規模チームと相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README でも beta であることが明記されており、Screen Studio の完全代替ではありません。高度な演出や成熟した安定性を最初から求めるなら不足もあり得るので、まずは短いデモ動画で試すのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>openscreen</code> は、「無料でも見栄えの良い録画をしたい」という需要に対して、必要十分な編集機能を実装した現実的なオープンソースです。2026-04-03 の GitHub Trending 1 位という伸び方も含め、今の勢いはかなり強いです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/siddharthvaddem/openscreen" target="_blank" rel="noreferrer">siddharthvaddem/openscreen</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

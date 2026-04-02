@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="oh-my-codex を読み、Codex CLI に継続運用向けのワークフロー層を足すツールとして整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>oh-my-codex</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">oh-my-codex</h1>
+      <p class="article-dek">Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noreferrer">
+              Yeachan-Heo/oh-my-codex
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>oh-my-codex</code> は、OpenAI Codex CLI 自体を置き換えるのではなく、その上に運用用のワークフロー層を載せるツールです。README では OMX として紹介されており、Codex を実行エンジンに据えたまま、日常作業の流れを揃えることを狙っています。</p>
+
+        <h2>何ができるか</h2>
+        <p>強めの初期起動、要求整理、計画承認、継続実行、並列実行といった流れを、<code>$deep-interview</code>、<code>$ralplan</code>、<code>$ralph</code>、<code>$team</code> などの定型コマンドで呼び出せます。加えて、プロジェクトのガイダンスや計画、ログ、状態を <code>.omx/</code> に蓄積できるため、単発セッションよりも継続開発に向いた構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README が「Codex を置き換えない」と明言しているのが重要です。役割キーワード、スキル再利用、チーム実行ランタイム、HUD や doctor コマンドまで揃っており、単なるプロンプト集ではなく運用基盤に近い設計になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本導線は明快で、<code>npm install -g @openai/codex oh-my-codex</code> の後に <code>omx setup</code>、続いて <code>omx --madmax --high</code> で起動します。その後に Codex 内で定型コマンドを順番に使う流れが推奨されており、tmux や psmux を使うチーム実行は後から追加する形です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Codex CLI 自体は気に入っているが、要求整理や計画確認、並列化の流れを毎回手作業で組んでいる人に向いています。個人でも使えますが、複数ワーカーを回す前提の運用チームほど恩恵が大きいです。</p>
+
+        <h2>注意点</h2>
+        <p>Codex を素のまま軽く使いたいだけなら過剰です。Node.js、Codex CLI 認証、必要に応じて tmux や psmux など前提条件が増えるので、まずは小さなプロジェクトで標準フローが自分に合うか確かめた方がよさそうです。</p>
+
+        <h2>まとめ</h2>
+        <p><code>oh-my-codex</code> は、Codex CLI の周辺に「強い開始」「計画承認」「継続実行」を足したい人向けの実務寄りレイヤーです。2026-04-03 の GitHub Trending 2 位という順位も、Codex 周辺エコシステムへの関心の高さを示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noreferrer">Yeachan-Heo/oh-my-codex</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

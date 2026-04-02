@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.90 の更新内容を日本語で整理した記事。/powerup の追加と PowerShell 権限制御の強化を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.90: /powerup と PowerShell 権限制御を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.90: /powerup と PowerShell 権限制御を強化</h1>
+      <p class="article-dek">対話型レッスン <code>/powerup</code> の追加に加え、PowerShell 権限チェックと長時間セッション性能の改善が入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.90</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の公式 GitHub Releases では、<code>v2.1.90</code> が 2026-04-01 23:41 UTC に公開されました。今回の目玉は <code>/powerup</code> で、Claude Code の機能をアニメーション付きの対話型レッスンで学べるようになっています。</p>
+        <p>運用面では、<code>CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE</code> が追加され、<code>git pull</code> に失敗しても既存 marketplace キャッシュを保持できるようになりました。オフラインや不安定なネットワーク環境での plugin 利用に効く変更です。</p>
+
+        <h2>実務で効くポイント</h2>
+        <p>PowerShell 周りでは、末尾の <code>&amp;</code> を使ったバックグラウンド化、<code>-ErrorAction Break</code> でのハング、アーカイブ展開時の TOCTOU など、権限チェックの抜け道になり得る箇所がまとめて補強されました。Windows 利用者には優先度が高い修正です。</p>
+        <p>そのほか、長い会話で transcript 書き込みが二乗的に遅くなる問題、巨大な SSE フレーム処理、<code>--resume</code> の一覧表示など、継続セッションの体感速度に関わる改善も入っています。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.90 は、学習導線を増やしつつ、PowerShell の安全性と長時間利用時の安定性を底上げするリリースです。特に Windows で本番運用しているなら追従価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.90" target="_blank" rel="noreferrer">Claude Code v2.1.90 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
