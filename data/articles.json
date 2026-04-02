@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-03-tradesdontlie-tradingview-mcp",
+                        "title":  "tradingview-mcp",
+                        "dek":  "Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。",
+                        "summary":  "tradesdontlie/tradingview-mcp は、TradingView Desktop を Chrome DevTools Protocol 経由でローカル接続し、チャート操作、Pine Script 開発、スクリーンショット取得などを Claude Code などの AI から扱える MCP ブリッジです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T03:59:59+09:00",
+                        "repoName":  "tradesdontlie/tradingview-mcp",
+                        "repoUrl":  "https://github.com/tradesdontlie/tradingview-mcp",
+                        "articleUrl":  "./articles/github/2026-04-03-tradesdontlie-tradingview-mcp.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-03-open-gitagent-clawless",
                         "title":  "clawless",
                         "dek":  "Claw 系 AI エージェントを、サーバーなしでブラウザ内だけで動かせる WebContainers ベースの実行基盤。",

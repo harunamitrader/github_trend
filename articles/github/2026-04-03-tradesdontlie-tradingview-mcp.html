@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tradesdontlie/tradingview-mcp を読み、TradingView Desktop を Claude Code などの AI から操作する MCP ブリッジを実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>tradingview-mcp</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">tradingview-mcp</h1>
+      <p class="article-dek">Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tradesdontlie/tradingview-mcp" target="_blank" rel="noreferrer">
+              tradesdontlie/tradingview-mcp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>tradingview-mcp</code> は、TradingView Desktop を Claude Code などの AI アシスタントへつなぐ MCP ブリッジです。README では Chrome DevTools Protocol 経由でローカルの TradingView アプリに接続し、AI-assisted chart analysis や Pine Script development を行うための tool と説明されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>シンボル変更、時間足変更、ズーム、インジケーター追加、描画、アラート管理、リプレイ練習、スクリーンショット取得、マルチペイン構成、Pine Script の注入とデバッグまで扱えます。さらに MCP ツール群と同じ機能が <code>tv</code> CLI でも使えるので、AI 連携だけでなくローカル自動化にも広げやすい構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は「外部 API へつなぐ」のでなく、あくまで自分のローカル TradingView Desktop を CDP で操作する点です。README でも、TradingView のサーバーへ接続せず、データを外部送信せず、課金制限を回避しないことを強く明記しています。つまりこれは取引 bot というより、トレーディング画面を AI に読み書きさせる interface layer です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本の流れは、リポジトリを clone して <code>npm install</code>、TradingView Desktop を <code>--remote-debugging-port=9222</code> 付きで起動し、Claude Code の MCP 設定へ <code>src/server.js</code> を追加する形です。その後に <code>tv_health_check</code> で接続確認し、必要な chart 操作や Pine Script 作業を AI へ任せます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>TradingView を日常的に使っていて、Pine Script の試作、チャート操作、検証補助を AI に手伝わせたい人に向いています。特にチャート画面を AI に「見せたい」けれど、クラウドへデータを渡したくない人にはかなり分かりやすい選択肢です。</p>
+
+        <h2>注意点</h2>
+        <p>README では、TradingView の有効なサブスクリプションと Desktop アプリが必要で、内部の undocumented Electron API に依存するため、TradingView 更新で壊れる可能性があると明記されています。また README 自身もこれは real trades を実行しないと書いているので、売買執行ではなく分析補助用として見るべきです。</p>
+
+        <h2>まとめ</h2>
+        <p><code>tradingview-mcp</code> は、TradingView Desktop を Claude Code などに接続して、ローカルチャートを AI で扱えるようにする実験色の強い実務ツールです。トレード執行ではなく、チャート分析と Pine Script 開発の補助レイヤーとして見ると価値が分かりやすいリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tradesdontlie/tradingview-mcp" target="_blank" rel="noreferrer">tradesdontlie/tradingview-mcp</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/tradesdontlie/tradingview-mcp" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

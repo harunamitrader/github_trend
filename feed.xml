@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 18:30:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 04:00:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[tradingview-mcp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-tradesdontlie-tradingview-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-tradesdontlie-tradingview-mcp.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawless]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-open-gitagent-clawless.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルд。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-01 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[5件のトレンド記事を追加しました。]]></description>
     </item>
   </channel>
 </rss>
