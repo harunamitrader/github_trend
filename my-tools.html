@@ -74,6 +74,32 @@
         color: var(--text-muted);
         font-size: 0.82rem;
       }
+
+      .profile-links {
+        display: grid;
+        gap: 12px;
+      }
+
+      .profile-link-card {
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        border-radius: var(--radius-md);
+        padding: 16px 18px;
+      }
+
+      .profile-link-label {
+        font-family: "Manrope", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--heading);
+      }
+
+      .profile-link-url {
+        display: inline-block;
+        margin-top: 8px;
+        color: var(--primary-strong);
+        word-break: break-all;
+      }
     </style>
   </head>
   <body class="theme-project">
@@ -136,6 +162,46 @@
                 <a class="project-link secondary" href="https://zenn.dev/harunamix/articles/antigravity-discord-bot-intro-20260324" target="_blank" rel="noreferrer">Zenn</a>
               </div>
             </article>
+
+            <article class="project-card">
+              <h3 class="project-title">antigravity_auto_press_run_gui</h3>
+              <p class="project-summary">
+                Antigravity の連続実行や補助操作を GUI から扱いやすくするための自作ランチャー兼サポートツールです。
+              </p>
+              <p class="project-meta">Antigravity / GUI / Windows / Automation</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/harunamitrader/antigravity_auto_press_run_gui" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <p class="eyebrow">My Pages</p>
+            <h2>外部ページ</h2>
+          </div>
+
+          <div class="profile-links">
+            <div class="profile-link-card">
+              <div class="profile-link-label">Zenn</div>
+              <a class="profile-link-url" href="https://zenn.dev/harunamix/" target="_blank" rel="noreferrer">https://zenn.dev/harunamix/</a>
+            </div>
+
+            <div class="profile-link-card">
+              <div class="profile-link-label">X</div>
+              <a class="profile-link-url" href="https://x.com/harunamix" target="_blank" rel="noreferrer">https://x.com/harunamix</a>
+            </div>
+
+            <div class="profile-link-card">
+              <div class="profile-link-label">GitHub</div>
+              <a class="profile-link-url" href="https://github.com/harunamitrader" target="_blank" rel="noreferrer">https://github.com/harunamitrader</a>
+            </div>
+
+            <div class="profile-link-card">
+              <div class="profile-link-label">note</div>
+              <a class="profile-link-url" href="https://note.com/famous_gnu597/followers" target="_blank" rel="noreferrer">https://note.com/famous_gnu597/followers</a>
+            </div>
           </div>
         </section>
       </main>
