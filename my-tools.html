@@ -18,35 +18,61 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      .coming-soon-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 60px 24px;
-        text-align: center;
-        color: var(--text-muted);
+      .project-list {
+        display: grid;
         gap: 16px;
       }
 
-      .coming-soon-icon {
-        font-size: 3rem;
-        line-height: 1;
+      .project-card {
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        border-radius: var(--radius-md);
+        padding: 20px;
       }
 
-      .coming-soon-label {
+      .project-title {
         font-family: "Manrope", sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 700;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+        color: var(--heading);
+      }
+
+      .project-summary {
+        margin-top: 10px;
+        font-size: 0.94rem;
+        line-height: 1.75;
         color: var(--text-muted);
       }
 
-      .coming-soon-note {
-        font-size: 0.94rem;
-        line-height: 1.75;
-        max-width: 420px;
+      .project-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 16px;
+      }
+
+      .project-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 38px;
+        padding: 0 14px;
+        border-radius: 999px;
+        background: var(--primary-soft);
+        color: var(--primary-strong);
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .project-link.secondary {
+        background: #f8fafc;
+        color: var(--text-muted);
+      }
+
+      .project-meta {
+        margin-top: 8px;
+        color: var(--text-muted);
+        font-size: 0.82rem;
       }
     </style>
   </head>
@@ -74,12 +100,42 @@
             <h2>ツール一覧</h2>
           </div>
 
-          <div class="coming-soon-box">
-            <div class="coming-soon-icon">🛠️</div>
-            <div class="coming-soon-label">Coming Soon</div>
-            <p class="coming-soon-note">
-              現在コンテンツを準備中です。自作ツールが完成次第、こちらに追加していきます。
-            </p>
+          <div class="project-list">
+            <article class="project-card">
+              <h3 class="project-title">codicodi</h3>
+              <p class="project-summary">
+                Codex CLI の 1 セッションをローカル UI と Discord の両方から共有して触るための Windows 向けローカルアプリです。
+              </p>
+              <p class="project-meta">Codex / Discord / Tauri / Windows</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/harunamitrader/codicodi" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="project-link secondary" href="https://zenn.dev/harunamix/articles/codicodi-intro-v2-20260329" target="_blank" rel="noreferrer">Zenn</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3 class="project-title">cli-prompt-cron</h3>
+              <p class="project-summary">
+                Gemini CLI、Claude Code、Codex などの AI CLI に定期実行機能とブラウザダッシュボードを追加する cron デーモンです。
+              </p>
+              <p class="project-meta">AI CLI / cron / Dashboard / Automation</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/harunamitrader/cli-prompt-cron" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="project-link secondary" href="https://zenn.dev/harunamix/articles/cli-prompt-cron-intro-20260401" target="_blank" rel="noreferrer">Zenn</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3 class="project-title">antigravity-discord-bot</h3>
+              <p class="project-summary">
+                Discord から Antigravity を遠隔操作し、承認、スクリーンショット、状態確認、複数ウィンドウ運用まで扱える自作 bot です。
+              </p>
+              <p class="project-meta">Antigravity / Discord / Remote Control / Automation</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/harunamitrader/antigravity-discord-bot" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="project-link secondary" href="https://zenn.dev/harunamix/articles/antigravity-discord-bot-intro-20260324" target="_blank" rel="noreferrer">Zenn</a>
+              </div>
+            </article>
           </div>
         </section>
       </main>
