@@ -7,6 +7,18 @@
              },
     "articles":  [
                     {
+                        "category":  "github-pickup",
+                        "slug":  "2026-04-03-webadderall-recordly",
+                        "title":  "Recordly",
+                        "dek":  "録画してすぐ編集に入り、そのまま見栄えのよいデモ動画まで作れるオープンソースアプリ。",
+                        "summary":  "webadderall/Recordly は、画面録画、ズーム演出、カーソル装飾、webcam overlay、注釈、速度変更、MP4 / GIF 書き出しまでを 1 つで扱えるデモ動画向けのオープンソース録画・編集アプリです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T10:20:00+09:00",
+                        "repoName":  "webadderall/Recordly",
+                        "repoUrl":  "https://github.com/webadderall/Recordly",
+                        "articleUrl":  "./articles/github/2026-04-03-webadderall-recordly.html"
+                    },
+                    {
                         "category":  "github-update-report",
                         "slug":  "2026-04-03-update-report",
                         "title":  "2026-04-03 更新レポート",

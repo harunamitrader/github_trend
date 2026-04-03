@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="webadderall/Recordly を読み、録画から編集まで 1 つで進められるオープンソース動画ツールとして実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Recordly</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Recordly</h1>
+      <p class="article-dek">録画してすぐ編集に入り、そのまま見栄えのよいデモ動画まで作れるオープンソースアプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/webadderall/Recordly" target="_blank" rel="noreferrer">
+              webadderall/Recordly
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Recordly</code> は、画面録画とデモ動画向けの編集を 1 つにまとめたデスクトップアプリです。README では walkthrough、tutorial、product video、social clip 向けの open-source screen recorder and editor と説明されており、録画後すぐに編集へ入れるのが前提になっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>画面やウィンドウの録画、マイクとシステム音声の収録、ズーム演出、カーソル装飾、背景やフレームの調整、注釈追加、webcam bubble、速度変更、トリミング、MP4 / GIF 書き出しまでをまとめて扱えます。単に録るだけでなく、プロダクトデモとして見せやすい形まで持っていけるのが強みです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README を見ると、auto-zoom suggestions、cursor smoothing、cursor motion blur、cursor loop mode など「デモ動画で見栄えが変わる細部」にかなり力が入っています。さらに <code>.recordly</code> の project file で編集状態を保存して再開できるので、録って終わりではなく繰り返し仕上げる運用もやりやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>使い始め方は、GitHub Releases から各 OS 向け build を入れるのが基本です。ソースから試す場合は <code>git clone</code> 後に <code>npm install</code>、<code>npm run dev</code> で起動できます。macOS は 12.3 以上、Windows は 19041 以上が推奨で、Linux は modern distro と PipeWire 前提の説明になっています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>SaaS や開発ツールの紹介動画を自分で作る人、あるいはチュートリアルを短時間で整えたい人に向いています。特に「録画ソフト」と「編集ソフト」を分けたくない個人開発者や小規模チームにはかなり相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README では Linux の cursor hiding 未対応、Windows の古い build では real cursor が残る可能性、system audio の OS 依存など制約も明記されています。クロスプラットフォーム対応は広いですが、録画まわりの完成度は OS ごとに差がある前提で見た方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>Recordly</code> は、録画から編集までを 1 本化して、デモ動画制作の手数を減らしたい人に向いた実用的なオープンソースです。見せ方のための細かな機能が最初からまとまっているので、プロダクト紹介用途では特に使いどころがはっきりしています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/webadderall/Recordly" target="_blank" rel="noreferrer">webadderall/Recordly</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/webadderall/Recordly" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
