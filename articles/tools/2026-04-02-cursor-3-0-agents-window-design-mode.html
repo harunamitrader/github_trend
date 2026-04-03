@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cursor 3.0 の更新内容を日本語で整理した記事。Agents Window と Design Mode を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor 3.0: Agents Window と Design Mode を導入</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cursor 3.0: Agents Window と Design Mode を導入</h1>
+      <p class="article-dek">複数エージェントを並列運用する新 UI と、ブラウザ上で UI 要素を直接指定できる Design Mode が追加されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>3.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cursor の公式 changelog では、2026-04-02 付で <code>Cursor 3.0</code> が公開されています。中心は <strong>Agents Window</strong> で、ローカル、worktree、クラウド、remote SSH をまたいで複数エージェントを並列実行できる新しい操作面です。</p>
+        <p>同じ画面内で <strong>Design Mode</strong> も使えるようになり、ブラウザ上の UI 要素を直接指定してエージェントへ渡せます。UI 修正時の「どこを直すか」を会話だけで説明する負荷を下げる更新です。</p>
+
+        <h2>実務で効くポイント</h2>
+        <p>Editor 側では <code>/worktree</code> と <code>/best-of-n</code> が新コマンドとして整理され、複数モデルの並列比較を isolated worktree 前提で回しやすくなりました。加えて MCP Apps の structured content 対応、Explorer subagent 起動のキャッシュ、shared chats への plan 同梱など、エージェント運用を前提にした細部が更新されています。</p>
+
+        <h2>まとめ</h2>
+        <p>Cursor 3.0 は単なる見た目変更ではなく、エージェント中心のワークスペースへ軸足を移す大きな区切りです。複数タスクの並列実行や UI 指示の明確化を重視するチームほど恩恵が大きい更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

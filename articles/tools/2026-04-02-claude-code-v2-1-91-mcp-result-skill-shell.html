@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.91 の更新内容を日本語で整理した記事。MCP の大容量結果処理と skill 内 shell 実行制御を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加</h1>
+      <p class="article-dek">MCP の大きい結果を保持する上限緩和と、skill / slash command 内 shell 実行の制御追加が入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.91</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の公式 GitHub Releases では、<code>v2.1.91</code> が 2026-04-02 23:45 UTC に公開されました。今回の更新では、MCP ツール結果に <code>_meta["anthropic/maxResultSizeChars"]</code> を指定できるようになり、最大 500K 文字までの大きな結果を保持できます。DB スキーマのような大きい返却を扱うケースに直結する変更です。</p>
+        <p>あわせて <code>disableSkillShellExecution</code> が追加され、skills、custom slash commands、plugin commands 内の inline shell 実行を無効化できるようになりました。運用ポリシーで shell 実行面を絞りたいチームには重要です。</p>
+
+        <h2>実務で効くポイント</h2>
+        <p>深いリンク <code>claude-cli://open?q=</code> で複数行プロンプトを扱えるようになり、外部ランチャーや内部導線からの起動も柔らかくなりました。さらに plugin の <code>bin/</code> 配下実行、<code>--resume</code> 時の transcript 切断修正、remote session の plan mode 追跡修正など、実運用寄りの改善がまとまっています。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.91 は派手な UI 変更よりも、MCP の大容量データ処理と skill 実行ガードを強くするリリースです。MCP と運用ポリシーを本格的に使う環境ほど差分が出やすい更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.91" target="_blank" rel="noreferrer">Claude Code v2.1.91 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

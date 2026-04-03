@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 20:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:01:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[WorldGen]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: Copilot cloud agent が署名付きコミットに対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot cloud agent が生成するコミットが GitHub 上で Verified 扱いになり、signed commits 必須の保護ルールにも適合するようになりました。]]></description>
     </item>
     <item>
       <title><![CDATA[TradingAgents-CN]]></title>
@@ -88,12 +96,12 @@
       <description><![CDATA[Claude Code や Codex、Cursor などにまとめて足せる、実務向けの開発スキル集。]]></description>
     </item>
     <item>
-      <title><![CDATA[openscreen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</guid>
+      <title><![CDATA[system_prompts_leaks]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
+      <description><![CDATA[ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。]]></description>
     </item>
     <item>
       <title><![CDATA[oh-my-codex]]></title>
@@ -104,12 +112,12 @@
       <description><![CDATA[Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。]]></description>
     </item>
     <item>
-      <title><![CDATA[system_prompts_leaks]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</guid>
+      <title><![CDATA[openscreen]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。]]></description>
+      <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[openagents]]></title>
@@ -144,28 +152,20 @@
       <description><![CDATA[Claw 系 AI エージェントを、サーバーなしでブラウザ内だけで動かせる WebContainers ベースの実行基盤。]]></description>
     </item>
     <item>
-      <title><![CDATA[Gemini: Gemma 4 の 26B / 31B モデルを AI Studio と API に追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-gemini-gemma-4-launch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-gemini-gemma-4-launch.html</guid>
+      <title><![CDATA[Cursor 3.0: Agents Window と Design Mode を導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-cursor-3-0-agents-window-design-mode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-cursor-3-0-agents-window-design-mode.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google が 2026-04-02 の Gemini API Release notes で、Gemma 4 系の新モデル `gemma-4-26b-a4b-it` と `gemma-4-31b-it` の提供開始を案内しました。]]></description>
+      <description><![CDATA[複数エージェントを並列運用する新 UI と、ブラウザ上で UI 要素を直接指定できる Design Mode が追加されました。]]></description>
     </item>
     <item>
-      <title><![CDATA[Claude Code v2.1.90: /powerup と PowerShell 権限制御を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-90-powerup-powershell.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-90-powerup-powershell.html</guid>
+      <title><![CDATA[Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[対話型レッスン /powerup の追加に加え、PowerShell 権限チェックと長時間セッション性能の改善が入った更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI nightly 20260402: 起動処理と subagent 設定反映を改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-gemini-cli-v0-36-0-nightly-20260402.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-gemini-cli-v0-36-0-nightly-20260402.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026-04-02 の nightly では、起動クリーンアップの並列化や subagent 設定の即時反映など、日常運用に近い改善が入りました。]]></description>
+      <description><![CDATA[MCP の大きい結果を保持する上限緩和と、skill / slash command 内 shell 実行の制御追加が入った更新です。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.37.0-preview.1 の更新内容を日本語で整理した記事。preview.0 向けのパッチ適用を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.37.0-preview.1: preview.0 向けパッチを反映</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.37.0-preview.1: preview.0 向けパッチを反映</h1>
+      <p class="article-dek">最新 preview タグとして v0.37.0-preview.1 が公開され、preview.0 系列へパッチが即時反映されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.37.0-preview.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の公式 GitHub Releases では、<code>v0.37.0-preview.1</code> が 2026-04-02 21:09 UTC に公開されました。今回の説明は短く、<code>v0.37.0-preview.0</code> 向けブランチへ特定コミットを cherry-pick して patch version を切り直したことが中心です。</p>
+        <p>つまり大型機能の追加ではなく、preview 系列をすぐ使いたい人向けの修正版タグです。nightly を追っているユーザーより、preview を基準に試すユーザーに向いた更新と言えます。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>前の nightly では subagent 設定反映や startup cleanup 並列化などが入っていましたが、今回の preview.1 は「新機能の積み増し」より「preview.0 の修正版提供」が主題です。preview 系列を固定参照している CI や検証環境では、こちらへ揃える意味があります。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.37.0-preview.1 は小さい更新ですが、最新 preview タグを追うなら無視しない方がよい修正版です。preview.0 を採用する前提なら、そのまま preview.1 に寄せるのが自然です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.1" target="_blank" rel="noreferrer">Gemini CLI v0.37.0-preview.1 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
