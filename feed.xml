@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:09:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:09:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[clawgod]]></title>
@@ -13,7 +13,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[公式 Claude Code に独自の「God Mode」を追加するランタイム・パッチ。]]></description>
+      <description><![CDATA[公式 Claude Code に追加コマンドや制限解除を差し込むランタイムパッチ。]]></description>
     </item>
     <item>
       <title><![CDATA[skills]]></title>

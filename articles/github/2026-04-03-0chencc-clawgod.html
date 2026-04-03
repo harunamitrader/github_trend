@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="0Chencc/clawgod を読み、公式 Claude Code に独自の「God Mode」を追加するランタイム・パッチの要点を整理した記事。"
+      content="0Chencc/clawgod を読み、公式 Claude Code に追加機能を差し込むランタイムパッチを実用寄りに整理した記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>clawgod</title>
@@ -26,7 +26,7 @@
       </div>
 
       <h1 class="article-title">clawgod</h1>
-      <p class="article-dek">公式 Claude Code に独自の「God Mode」を追加するランタイム・パッチ。</p>
+      <p class="article-dek">公式 Claude Code に追加コマンドや制限解除を差し込むランタイムパッチ。</p>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
@@ -49,44 +49,32 @@
 
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>0Chencc/clawgod は、Anthropic が提供する AI コーディング CLI <b>「Claude Code」に対して直接適用するランタイム・パッチ（God Mode 改変版）</b>です。サードパーティによるクローンや独立したクライアントではなく、インストール済みの公式 <code>claude</code> コマンドをフックし、独自の強力なサブコマンドや機能をシームレスに統合します。</p>
+        <p><code>clawgod</code> は、Anthropic 公式の Claude Code を置き換えるのではなく、その上にランタイムパッチを当てて機能拡張するツールです。README でも「サードパーティ製クライアントではない」と明記されており、既存の <code>claude</code> コマンドに対して追加機能を差し込む作りです。</p>
 
         <h2>何ができるか</h2>
-        <p>このパッチを適用することで、公式の Claude Code に以下の新しい「神（God）」級コマンドが加わります：</p>
-        <ul>
-          <li><b>/share</b>: 会話やコードの共有を迅速に行う機能。</li>
-          <li><b>/teleport</b>: プロジェクト内の異なる場所やコンテキストへの高速な移動操作。</li>
-          <li><b>/issue</b>: GitHub Issues の確認・管理を CLI 内から直接実行。</li>
-          <li><b>/bughunter</b>: バグの自動検出や修正提案に特化したワークフロー。</li>
-        </ul>
+        <p>README の説明では、hidden command 群の解放、feature flag 上書き、agent teams、Claude Code Remote を使う ultraplan / ultrareview、macOS での computer use などが挙がっています。加えて <code>/share</code>、<code>/teleport</code>、<code>/issue</code>、<code>/bughunter</code> のような追加コマンドや、ログ表示強化、メッセージフィルタ表示も含まれます。</p>
 
         <h2>目立つポイント</h2>
-        <p>最大の特徴は、<b>「公式がアップデートされてもパッチが機能し続ける」</b>設計にあります。独立したフォークプロジェクトとは異なり、インストーラーを実行するたびに、その時点の最新の Claude Code ソースに対して実行時にパッチを再適用する仕組みを採用しています。また、パッチ適用済みかどうかは、CLI 上のロゴの色（緑＝ patched / オレンジ＝ original）で視覚的に判別可能です。</p>
+        <p>目立つのは、Claude Code 本体を fork して保守する形ではなく、更新後も再適用しやすい patch 層として設計している点です。README では「Claude Code が更新されても patch が効き続ける」と説明されており、さらに patched 版は緑、original 版はオレンジのロゴで見分けられるようになっています。</p>
 
         <h2>セットアップや使い方の流れ</h2>
-        <p>公式の Claude Code がインストールされている環境で、以下のワンラインコマンドを実行するだけです：</p>
-        <ul>
-          <li><b>macOS / Linux</b>: <code>curl -fsSL https://github.com/0Chencc/clawgod/releases/latest/download/install.sh | bash</code></li>
-          <li><b>Windows (PowerShell)</b>: <code>irm https://github.com/0Chencc/clawgod/releases/latest/download/install.ps1 | iex</code></li>
-        </ul>
-        <p>パッチ適用後は、通常通り <code>claude</code> と打つだけで God Mode が有効になります（オリジナルの無改変版は <code>claude.orig</code> として保持されます）。</p>
+        <p>導入はかなり単純で、macOS / Linux は <code>install.sh</code>、Windows は PowerShell 用の <code>install.ps1</code> を 1 行で実行する形です。要件は Node.js 18 以上と Claude Code アカウントで、適用後は通常の <code>claude</code> が patch 済み版になり、元の実行系は <code>claude.orig</code> として残ります。</p>
 
         <h2>どんな人向けか</h2>
-        <ul>
-          <li>公式 Claude Code の強力なツール体験をそのままに、さらに便利なサブコマンドを求めるパワーユーザー。</li>
-          <li>AI エージェントを用いた「Vibe Coding」をさらに効率化したい開発者。</li>
-          <li>公式コマンドを「自分好みに拡張」したいハッカー気質なユーザー。</li>
-        </ul>
+        <p>公式 Claude Code の体験を残したまま、より深い制御や独自コマンドを足したい人に向いています。特に Claude Code Remote や multi-agent 系の流れを試したい人、あるいは標準の安全策や制約を研究目的で外したい人には刺さりやすいです。</p>
 
         <h2>注意点</h2>
-        <p>本プロジェクトは <b>Anthropic 非公式</b> のパッチです。コード改変を伴うため、利用にあたっては自己責任（Use at your own risk）が原則となります。また、ライセンスは GPL-3.0 で公開されています。</p>
+        <p>README にもある通り Anthropic 非公式で、制限解除や挙動変更を含む patch なので自己責任で使う前提です。特に destructive action 確認や安全制約を外す項目まで含まれるため、本番運用よりまず検証環境で試した方が安全です。</p>
 
         <h2>まとめ</h2>
-        <p>ClawGod は、Claude Code を「究極のコーディングツール」に仕立て上げるための、最もアグレッシブで実用的、かつスマートな拡張手段と言えるでしょう。公式の最新機能を追いつつ、独自の強力なフックを外せないユーザーにとって、必須のランタイム・カスタマイザーです。</p>
+        <p><code>clawgod</code> は、Claude Code を別物に置き換えるのではなく、公式本体へ patch を重ねて拡張したい人向けのリポジトリです。通常の plugin より踏み込みが深く、その分リスクもあるので、Claude Code を強くカスタマイズしたい上級者向けと見ておくのが妥当です。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
           <a href="https://github.com/0Chencc/clawgod" target="_blank" rel="noreferrer">0Chencc/clawgod</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/0Chencc/clawgod" target="_blank" rel="noreferrer">依頼元URL</a>
         </div>
       </div>
     </article>
