@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 10:26:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hermes-agent-self-evolution]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-nousresearch-hermes-agent-self-evolution.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-nousresearch-hermes-agent-self-evolution.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Hermes Agent の skill や prompt を、実行結果を見ながら自動改善する進化基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawgod]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Scrapling]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-d4vinci-scrapling.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-d4vinci-scrapling.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[単発取得から大規模クロールまでを Python でまとめて扱える、適応型の Web スクレイピング基盤。]]></description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-03-nousresearch-hermes-agent-self-evolution",
+                        "title":  "hermes-agent-self-evolution",
+                        "dek":  "Hermes Agent の skill や prompt を、実行結果を見ながら自動改善する進化基盤。",
+                        "summary":  "NousResearch/hermes-agent-self-evolution は、DSPy と GEPA を使って Hermes Agent の skill や prompt を API ベースで進化させ、テストや制約を通しながらより良い変種を選ぶ最適化基盤です。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T09:40:00+09:00",
+                        "repoName":  "NousResearch/hermes-agent-self-evolution",
+                        "repoUrl":  "https://github.com/NousResearch/hermes-agent-self-evolution",
+                        "articleUrl":  "./articles/github/2026-04-03-nousresearch-hermes-agent-self-evolution.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-03-0chencc-clawgod",
                         "title":  "clawgod",
                         "dek":  "公式 Claude Code に追加コマンドや制限解除を差し込むランタイムパッチ。",

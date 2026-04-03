@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NousResearch/hermes-agent-self-evolution を読み、Hermes Agent の skill や prompt を自動改善する進化ループを実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hermes-agent-self-evolution</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hermes-agent-self-evolution</h1>
+      <p class="article-dek">Hermes Agent の skill や prompt を、実行結果を見ながら自動改善する進化基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NousResearch/hermes-agent-self-evolution" target="_blank" rel="noreferrer">
+              NousResearch/hermes-agent-self-evolution
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>hermes-agent-self-evolution</code> は、Hermes Agent の skill、tool description、system prompt、将来的にはコード自体までを自動で改善していくための実験基盤です。README では DSPy と GEPA を使った evolutionary self-improvement と説明されており、学習用 GPU なしで API 呼び出しベースに最適化を回す設計です。</p>
+
+        <h2>何ができるか</h2>
+        <p>現状の中心は Phase 1 の skill file 最適化で、既存の <code>SKILL.md</code> を読み込み、評価データを作り、候補を複数生成し、実行結果から良い変種を選びます。評価データは synthetic 生成だけでなく、Claude Code や Copilot、Hermes の session history を使う流れも想定されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる AB テストではなく、execution trace を読んで「なぜ失敗したか」まで踏まえて改善案を出すのが特徴です。さらに guardrail として test 全通過、サイズ制限、キャッシュ互換、意味的な逸脱防止、人間レビュー必須が置かれており、進化させつつ暴走を抑える構成になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Quick Start は短く、リポジトリを clone して <code>pip install -e ".[dev]"</code> を実行し、環境変数 <code>HERMES_AGENT_REPO</code> に Hermes Agent 本体のパスを指定します。その上で <code>python -m evolution.skills.evolve_skill --skill github-code-review --iterations 10</code> のように実行し、skill 単位で進化を回す流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>エージェントの prompt や skill を人手で少しずつ調整する運用に限界を感じている人に向いています。特に「評価データはある」「どこが弱いかは何となく分かるが、改善の当たりを引くのが大変」というチームには相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README 上でも実装済みなのは skill 最適化が中心で、tool descriptions、system prompt、code evolution、continuous loop はまだ planned が多い段階です。また対象は Hermes Agent 前提なので、他の agent へそのまま流用するには評価設計や制約を組み替える必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>hermes-agent-self-evolution</code> は、AI エージェントの挙動改善を「勘で prompt を直す作業」から、評価と進化ループのある反復プロセスへ寄せようとするリポジトリです。skill 改善を継続運用したい人にとって、かなり参考になる設計です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NousResearch/hermes-agent-self-evolution" target="_blank" rel="noreferrer">NousResearch/hermes-agent-self-evolution</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/6H8exdt82F" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
