@@ -7,6 +7,16 @@
              },
     "articles":  [
                     {
+                        "category":  "github-update-report",
+                        "slug":  "2026-04-03-update-report",
+                        "title":  "2026-04-03 更新レポート",
+                        "dek":  "3件のトレンド記事を追加しました。",
+                        "summary":  "本日の GitHub Trending から 3 件の注目リポジトリをピックアップし、解析記事を公開しました。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T10:05:00+09:00",
+                        "articleUrl":  "./articles/github/2026-04-03-update-report.html"
+                    },
+                    {
                         "category":  "github-pickup",
                         "slug":  "2026-04-03-siddharthvaddem-openscreen-pickup",
                         "title":  "openscreen",

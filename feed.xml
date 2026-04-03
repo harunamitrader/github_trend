@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 01:36:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 10:44:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-03 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[3件のトレンド記事を追加しました。]]></description>
+    </item>
     <item>
       <title><![CDATA[openscreen]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code の承認待ちやクォータ待ちを Discord と tmux で遠隔処理しやすくする監視 CLI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-token-efficient]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-drona23-claude-token-efficient.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-drona23-claude-token-efficient.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の前置きや冗長説明を減らし、出力トークンを節約しやすくする 1 ファイル構成のルール集。]]></description>
     </item>
   </channel>
 </rss>
