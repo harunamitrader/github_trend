@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="poco-ai/poco-claw を読み、OpenClaw より扱いやすい Web UI と安全な実行基盤を持つ agent アプリとして実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>poco-claw</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">poco-claw</h1>
+      <p class="article-dek">OpenClaw より見やすい UI と安全な sandbox を前面に出した、Claude Code 系 agent アプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/poco-ai/poco-claw" target="_blank" rel="noreferrer">
+              poco-ai/poco-claw
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>poco-claw</code> は、OpenClaw の代替を狙った Web ベースの AI agent アプリです。README では「safer, more beautiful, and easier-to-use alternative to OpenClaw」とされており、Claude Code ベースの agent を土台にしつつ、より整った UI と安全な実行環境を前面に出しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>browser 内蔵の自律リサーチ、project management、conversation queueing、file uploads、GitHub repo integration、background execution、scheduled triggers まで一通り備えています。さらに DingTalk、Feishu、Telegram への IM 連携と push 通知もあり、ブラウザを閉じた後も agent を回し続ける使い方が想定されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>目立つのは sandboxed runtime を明示している点と、Artifacts view / Playback view のような UI 側の完成度です。HTML、PDF、Markdown、画像、動画などをその場でプレビューでき、コマンド I/O や browser session、Skills / MCP 呼び出しの再生もできるので、単なる chat UI よりかなり運用寄りです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Quick Start はかなり短く、<code>./scripts/quickstart.sh</code> を実行して設定生成とサービス起動を済ませ、その後 <code>http://localhost:3000</code> を開く流れです。README では one-click Docker deployment と書かれており、詳細は別の Deployment Guide に逃がしているので、まずローカルで立ち上げてから必要に応じて self-hosting を詰める形になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>OpenClaw 系の agent UI を試したいが、もっと見やすい管理画面や IM 連携、安全な実行分離を重視したい人に向いています。特に browser research、MCP、Skills、遠隔通知まで 1 つの画面に寄せたい人には相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README 上でも cloud subscription は coming soon で、現状は self-host 前提の色が強いです。また機能が多く、backend、executor、frontend、browser、IM 連携まで含む構成なので、最初から全部を使おうとせず、まずはローカルの quickstart で基本フローを掴む方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>poco-claw</code> は、Claude Code 系 agent を Web UI と sandbox で扱いやすく包み直した実用志向のプロジェクトです。OpenClaw 系の使い勝手に不満がある人ほど、一度触る価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/poco-ai/poco-claw" target="_blank" rel="noreferrer">poco-ai/poco-claw</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/poco-ai/poco-claw" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

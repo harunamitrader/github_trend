@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-03-poco-ai-poco-claw",
+                        "title":  "poco-claw",
+                        "dek":  "OpenClaw より見やすい UI と安全な sandbox を前面に出した、Claude Code 系 agent アプリ。",
+                        "summary":  "poco-ai/poco-claw は、Claude Code ベースの agent を土台に、sandboxed runtime、built-in browser、Artifacts / Playback view、IM 連携までまとめた OpenClaw 代替の Web アプリです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T10:30:00+09:00",
+                        "repoName":  "poco-ai/poco-claw",
+                        "repoUrl":  "https://github.com/poco-ai/poco-claw",
+                        "articleUrl":  "./articles/github/2026-04-03-poco-ai-poco-claw.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-03-webadderall-recordly",
                         "title":  "Recordly",
                         "dek":  "録画してすぐ編集に入り、そのまま見栄えのよいデモ動画まで作れるオープンソースアプリ。",

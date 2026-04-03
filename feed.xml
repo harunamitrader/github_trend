@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 01:50:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 12:04:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[poco-claw]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-poco-ai-poco-claw.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-poco-ai-poco-claw.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw より見やすい UI と安全な sandbox を前面に出した、Claude Code 系 agent アプリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Recordly]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-webadderall-recordly.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[yt-short-clipper]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jipraks-yt-short-clipper.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jipraks-yt-short-clipper.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[長い YouTube 動画から、Shorts や Reels 向けの縦型クリップを AI でまとめて作れる自動編集ツール。]]></description>
     </item>
   </channel>
 </rss>
