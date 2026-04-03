@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-03-hsliuping-tradingagents-cn-pickup",
+            "title": "TradingAgents-CN",
+            "dek": "中国市場向けデータと日本語ならぬ中国語運用に寄せた、マルチエージェント投資分析フレームワーク。",
+            "summary": "hsliuping/TradingAgents-CN は、中国語ローカライズ、A 股対応、多モデル接続、Docker 配備、レポート出力までを含む、中国市場向けマルチエージェント投資分析フレームワークです。",
+            "publishedAt": "2026-04-03",
+            "createdAt": "2026-04-03T10:45:00+09:00",
+            "repoName": "hsliuping/TradingAgents-CN",
+            "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
+            "articleUrl": "./articles/github/pickup/2026-04-03-hsliuping-tradingagents-cn-pickup.html",
+            "serial": 60
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-03-poco-ai-poco-claw",
             "title": "poco-claw",
             "dek": "OpenClaw より見やすい UI と安全な sandbox を前面に出した、Claude Code 系 agent アプリ。",

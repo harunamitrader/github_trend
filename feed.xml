@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 09:19:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 18:41:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TradingAgents-CN]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-hsliuping-tradingagents-cn-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-hsliuping-tradingagents-cn-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[中国市場向けデータと日本語ならぬ中国語運用に寄せた、マルチエージェント投資分析フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[poco-claw]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-poco-ai-poco-claw.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Yahoo Finance の株価データと Alpaca の紙上取引を使い、テクニカル分析で自動売買を試せるシンプルな stock bot。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[terminal-use]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-flipbit03-terminal-use.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-flipbit03-terminal-use.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。]]></description>
     </item>
   </channel>
 </rss>
