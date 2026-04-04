@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-04-ai4finance-foundation-finrobot-pickup",
+            "title": "finrobot",
+            "dek": "株式分析、リサーチレポート、リスク評価までを multi-agent で自動化する金融 AI プラットフォーム。",
+            "summary": "ai4finance-foundation/finrobot は、financial data 取得、forecast、valuation、peer comparison、risk assessment、HTML/PDF レポート生成までを multi-agent でつなぐ金融分析向け AI platform です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T00:40:00+09:00",
+            "repoName": "ai4finance-foundation/finrobot",
+            "repoUrl": "https://github.com/ai4finance-foundation/finrobot",
+            "articleUrl": "./articles/github/pickup/2026-04-04-ai4finance-foundation-finrobot-pickup.html",
+            "serial": 64
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-04-kevinrgu-autoagent-pickup",
             "title": "autoagent",
             "dek": "AI agent の prompt や tools を、人手ではなく meta-agent が自動で改善していく実験基盤。",

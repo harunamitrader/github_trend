@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Apr 2026 08:14:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 21:15:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[finrobot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ai4finance-foundation-finrobot-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ai4finance-foundation-finrobot-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[株式分析、リサーチレポート、リスク評価までを multi-agent で自動化する金融 AI プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[autoagent]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openagents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。]]></description>
     </item>
   </channel>
 </rss>
