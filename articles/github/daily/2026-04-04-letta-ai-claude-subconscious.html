@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="claude-subconscious を読み、Claude Code の裏で Letta Agent が記憶と補助を担う実験プラグインの仕組みを整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-subconscious</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-subconscious</h1>
+      <p class="article-serial">Daily #050</p>
+      <p class="article-dek">Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/letta-ai/claude-subconscious" target="_blank" rel="noreferrer">
+              letta-ai/claude-subconscious
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>claude-subconscious</code> は、Claude Code の下で Letta Agent を常駐させ、セッション transcript とコードベースを読みながら補助メッセージを返すデモアプリです。</p>
+        <p>README 冒頭でも本番利用向けではなく、実運用するなら <code>Letta Code</code> を使うよう明記されています。つまり製品というより、構成例として読む repo です。</p>
+        <h2>何ができるか</h2>
+        <p>Claude Code のセッション開始、プロンプト送信前、ツール実行前、応答停止時に hook を差し込み、背景側の Letta Agent が transcript を処理します。</p>
+        <p>その Agent は Read、Grep、Glob、Web 検索などを使い、コードや会話を見ながら記憶を更新し、次のプロンプト前に whisper 形式で助言を差し込めます。</p>
+        <h2>目立つポイント</h2>
+        <p>記憶を <code>CLAUDE.md</code> に書き戻さず、stdout 経由で注入する設計なので、既存の運用ファイルを汚さないのが面白いです。</p>
+        <p>複数セッションを 1 つの Letta Agent に束ねて記憶共有する説明や、SDK tools の read-only / full / off 切り替えまであり、背景エージェント設計の教材として密度があります。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は plugin marketplace 経由か source install で行い、最低限 <code>LETTA_API_KEY</code> を設定します。必要に応じて <code>LETTA_MODEL</code>、<code>LETTA_AGENT_ID</code>、<code>LETTA_SDK_TOOLS</code> を追加します。</p>
+        <p>動作の中心は Claude Code hook と Letta Code SDK の組み合わせで、Stop hook 側では transcript を非同期 worker へ渡し、Claude 側を待たせない作りです。</p>
+        <h2>どんな人向けか / 注意点</h2>
+        <p>Claude Code に長期記憶や背景エージェントを足したい人、Letta を使った coding assistant の実験をしたい人、hook 設計を学びたい人に向いています。</p>
+        <p>ただし transcript とコード読み取りを伴うので、権限設計とプライバシー管理は必須です。README 自体も production 用ではないと明示しています。</p>
+        <h2>まとめ</h2>
+        <p><code>claude-subconscious</code> は、Claude Code の外側にもう 1 層エージェントを置くと何ができるかを具体化した実験 repo です。2026-04-04 の Trending Rank 5 として見ても、背景メモリの設計例としてかなり示唆があります。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.zdoc.app/en/trending" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/letta-ai/claude-subconscious" target="_blank" rel="noreferrer">letta-ai/claude-subconscious</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

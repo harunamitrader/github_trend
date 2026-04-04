@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="litellm を読み、複数 LLM API を OpenAI 互換で束ねる AI Gateway / SDK として何が強いかを整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>litellm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">litellm</h1>
+      <p class="article-serial">Daily #048</p>
+      <p class="article-dek">100 以上の LLM API を OpenAI 互換で束ね、AI Gateway と SDK の両方で使える接続レイヤー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/BerriAI/litellm" target="_blank" rel="noreferrer">
+              BerriAI/litellm
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>litellm</code> は、OpenAI、Anthropic、Azure、Vertex AI、Bedrock など多数の API を、ほぼ同じ呼び出し形で扱える Python SDK と AI Gateway を提供するプロジェクトです。</p>
+        <p>README では Python ライブラリとしての利用だけでなく、中央集約型の Proxy Server として置き、複数チームや複数アプリの LLM 呼び出しをまとめる使い方が前面に出ています。</p>
+        <h2>何ができるか</h2>
+        <p>チャット補完だけでなく、<code>/responses</code>、埋め込み、画像、音声、バッチ、rerank、A2A Agent、MCP ツール接続まで 1 つのインターフェースに寄せられます。</p>
+        <p>AI Gateway 側では virtual keys、認可、ルーティング、fallback、負荷分散、コスト追跡、ガードレール、監視 UI まで扱えるので、アプリ側の接続コードを薄くできます。</p>
+        <h2>目立つポイント</h2>
+        <p>MCP Gateway や A2A Agent Gateway が README の早い位置にあり、単なる API ラッパーではなく、エージェント時代の接続面を担う設計になっています。</p>
+        <p>SDK と Proxy の両輪で使えるため、個人開発ならライブラリ導入、組織運用ならゲートウェイ集約、という切り分けがしやすいです。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最小構成なら <code>pip install litellm</code> で SDK を入れ、モデル名に <code>openai/...</code> や <code>anthropic/...</code> のような provider 接頭辞を付けて呼びます。</p>
+        <p>運用寄りに使う場合は <code>pip install 'litellm[proxy]'</code> で Proxy を立て、OpenAI SDK の <code>base_url</code> を LiteLLM 側へ向ける流れです。</p>
+        <h2>どんな人向けか / 注意点</h2>
+        <p>複数モデルを切り替えたい開発者、社内で LLM 呼び出しを標準化したい Platform / GenAI チーム、MCP や agent 接続を 1 つの面で管理したい人に向いています。</p>
+        <p>一方で設定面はかなり広く、Proxy 運用や認可設計まで踏み込むと構成は重くなります。まずは SDK か最小 Proxy から入る方が安全です。</p>
+        <h2>まとめ</h2>
+        <p><code>litellm</code> は、LLM を増やすたびにアプリ側を作り直す負担を減らし、接続と運用をまとめるための現実的な基盤です。2026-04-04 時点の Trending Rank 3 に入っているのも、単なるラッパー以上の需要があることを示しています。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.zdoc.app/en/trending" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/BerriAI/litellm" target="_blank" rel="noreferrer">BerriAI/litellm</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

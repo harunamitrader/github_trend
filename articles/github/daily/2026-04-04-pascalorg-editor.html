@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="editor を読み、React Three Fiber と WebGPU で 3D 建築編集を行う Pascal Editor の構成と使いどころを整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>editor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">editor</h1>
+      <p class="article-serial">Daily #049</p>
+      <p class="article-dek">WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/pascalorg/editor" target="_blank" rel="noreferrer">
+              pascalorg/editor
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>editor</code> は、React Three Fiber と WebGPU を使って 3D 建築プロジェクトを編集する Pascal Editor の monorepo です。</p>
+        <p>README では <code>core</code>、<code>viewer</code>、<code>apps/editor</code> を分け、シーン定義、3D 表示、実際の編集 UI を分離した構成が丁寧に説明されています。</p>
+        <h2>何ができるか</h2>
+        <p>Site / Building / Level / Wall / Zone / Item などのノードで建物を表現し、壁、床、天井、屋根、ゾーン、家具配置まで 3D シーンとして管理できます。</p>
+        <p>Zustand の各 store、scene registry、dirty node ベースの system 更新で、編集操作と 3D 再計算を分けているのが特徴です。</p>
+        <h2>目立つポイント</h2>
+        <p>単なるデモではなく、ノード階層、イベントバス、空間グリッド、Boolean geometry、undo/redo まで README に整理されており、拡張前提の設計が見えます。</p>
+        <p>Viewer を既定表示層、Editor をツール拡張層として扱うので、建築編集機能を部分利用したいケースにも流用しやすそうです。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>開発開始はリポジトリのルートで <code>bun install</code> 後に <code>bun dev</code> を実行する想定です。Turborepo の watch と Next.js の editor アプリがまとめて立ち上がります。</p>
+        <p>本番ビルドや package 公開は <code>turbo build</code> と npm workspace publish を使う流れで、アプリとライブラリを同時に育てる前提です。</p>
+        <h2>どんな人向けか / 注意点</h2>
+        <p>建築・空間設計系の SaaS、3D 編集 UI を持つ業務アプリ、Three.js で大きめの編集体験を作りたいチームに向いています。</p>
+        <p>一方で技術スタックはかなり厚く、WebGPU 前提や monorepo 前提の理解も要ります。単純な 3D ビューア用途にはオーバースペックです。</p>
+        <h2>まとめ</h2>
+        <p><code>editor</code> は、建築向け 3D 編集の状態管理と表示責務をきちんと分けた、実装参考価値の高い repo です。2026-04-04 の Trending Rank 4 として見ても、構成そのものを学ぶ価値があります。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.zdoc.app/en/trending" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/pascalorg/editor" target="_blank" rel="noreferrer">pascalorg/editor</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
