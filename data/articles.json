@@ -7,6 +7,26 @@
              },
     "articles":  [
                      {
+                         "category": "ai-tool-log",
+                         "slug": "2026-04-05-grok-cli-v1-1-4-stable",
+                         "title": "Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入",
+                         "dek": "正式版v1.1.4ではメディアファイルの自動オープンに対応。オートコンプリートの強化やヘッドレス実行用のバッチモードなど、開発効率を支える機能が拡充されました。",
+                         "summary": "Grok CLI v1.1.4がリリース。生成された画像や動画をシステムビューアーで自動的に開く機能や、バッチモード、@-mentionオートコンプリートなど操作性が大幅に向上。",
+                         "publishedAt": "2026-04-05",
+                         "toolName": "Grok CLI",
+                         "articleUrl": "./articles/tools/2026-04-05-grok-cli-v1-1-4-stable.html"
+                     },
+                     {
+                         "category": "ai-tool-log",
+                         "slug": "2026-04-04-codex-omx-v0-11-13",
+                         "title": "Oh My Codex (OmX) v0.11.13: Windows環境への最適化とワークフローの強化",
+                         "dek": "パッチリリースv0.11.13では、Node環境での信頼性が大幅に向上。Deep-InterviewからRalplanへ続く標準開発フローの安定性がさらに高まりました。",
+                         "summary": "Oh My Codex (OmX) v0.11.13がリリース。Windows環境での信頼性向上、チーム間通信の整合性強化、標準ワークフローの改善が含まれます。",
+                         "publishedAt": "2026-04-04",
+                         "toolName": "Codex (OmX)",
+                         "articleUrl": "./articles/tools/2026-04-04-codex-omx-v0-11-13.html"
+                     },
+                     {
                          "slug":  "2026-04-06-update-report",
                          "createdAt":  "2026-04-06T12:30:00+09:00",
                          "articleUrl":  "./articles/github/daily/2026-04-06-update-report.html",

@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Apr 2026 21:49:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 07:07:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-06 アップデートレポート]]></title>
@@ -54,6 +54,14 @@
       <category>github-trending</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google AI Edgeによる、オンデバイスAIの最新ユースケースを直接体験・評価できるギャラリーアプリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-05-grok-cli-v1-1-4-stable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-05-grok-cli-v1-1-4-stable.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[正式版v1.1.4ではメディアファイルの自動オープンに対応。オートコンプリートの強化やヘッドレス実行用のバッチモードなど、開発効率を支える機能が拡充されました。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-04-05 アップデートレポート]]></title>
@@ -112,6 +120,14 @@
       <description><![CDATA[AIエージェント向けに最適化された高速なNeovimファイル検索ツール]]></description>
     </item>
     <item>
+      <title><![CDATA[Oh My Codex (OmX) v0.11.13: Windows環境への最適化とワークフローの強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-omx-v0-11-13.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-omx-v0-11-13.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[パッチリリースv0.11.13では、Node環境での信頼性が大幅に向上。Deep-InterviewからRalplanへ続く標準開発フローの安定性がさらに高まりました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</guid>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI agent の prompt や tools を、人手ではなく meta-agent が自動で改善していく実験基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-04 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[3件のトレンド記事を追加しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-subconscious]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-letta-ai-claude-subconscious.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-letta-ai-claude-subconscious.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。]]></description>
     </item>
   </channel>
 </rss>
