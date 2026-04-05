@@ -7,6 +7,46 @@
     },
     "articles": [
         {
+        {
+            "category": "github-update-report",
+            "slug": "2026-04-05-update-report",
+            "title": "2026-04-05 更新レポート",
+            "dek": "2件のトレンド記事を追加しました。",
+            "summary": "本日の GitHub Trending から 2 件の未記事 repo を追加し、daily 記事と更新レポートを公開しました。",
+            "publishedAt": "2026-04-05",
+            "createdAt": "2026-04-05T05:02:00+09:00",
+            "articleUrl": "./articles/github/daily/2026-04-05-update-report.html",
+            "serial": 54
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-05-f-prompts-chat",
+            "title": "prompts.chat",
+            "dek": "公開 prompt 集で終わらず、self-host、CLI、MCP まで持つオープンソース prompt library 基盤。",
+            "summary": "f/prompts.chat は、巨大 prompt library を公開サイト、データセット、self-host app、CLI、MCP server として再利用できるオープンソース基盤です。",
+            "publishedAt": "2026-04-05",
+            "createdAt": "2026-04-05T05:01:00+09:00",
+            "repoName": "f/prompts.chat",
+            "repoUrl": "https://github.com/f/prompts.chat",
+            "articleUrl": "./articles/github/daily/2026-04-05-f-prompts-chat.html",
+            "rank": 6,
+            "serial": 53
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-05-dmtrkovalenko-fff-nvim",
+            "title": "fff.nvim",
+            "dek": "AI agent の file search と Neovim の fuzzy finder を、同じ Rust 基盤で高速化する検索ツール。",
+            "summary": "dmtrKovalenko/fff.nvim は、Neovim plugin と MCP tool の両方で使え、frecency や git 状態も活用して file search を高速化する Rust 製 toolkit です。",
+            "publishedAt": "2026-04-05",
+            "createdAt": "2026-04-05T05:00:00+09:00",
+            "repoName": "dmtrKovalenko/fff.nvim",
+            "repoUrl": "https://github.com/dmtrKovalenko/fff.nvim",
+            "articleUrl": "./articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html",
+            "rank": 5,
+            "serial": 52
+        },
+        {
             "category": "ai-tool-log",
             "slug": "2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes",
             "title": "Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化",
@@ -61,6 +101,7 @@
             "repoUrl": "https://windsurf.com/changelog",
             "articleUrl": "./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html",
             "rank": 999
+        }
         },
         {
             "category": "github-pickup",

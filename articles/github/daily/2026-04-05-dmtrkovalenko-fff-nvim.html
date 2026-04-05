@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="fff.nvim を読み、AI agent と Neovim の両方で高速な file search を担う Rust 製 toolkit として整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>fff.nvim</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">fff.nvim</h1>
+      <p class="article-serial">Daily #052</p>
+      <p class="article-dek">AI agent の file search と Neovim の fuzzy finder を、同じ Rust 基盤で高速化する検索ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/dmtrKovalenko/fff.nvim" target="_blank" rel="noreferrer">
+              dmtrKovalenko/fff.nvim
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>fff.nvim</code> は、Neovim 向け fuzzy finder plugin でありつつ、AI agent 向け MCP としても使える file search toolkit です。README では「速い検索」だけでなく、履歴や frecency を使って無駄な探索を減らす点が前面に出ています。</p>
+
+        <h2>何ができるか</h2>
+        <p>ファイル検索、grep、glob、multi-grep を 1 つの操作系にまとめ、typo に強い fuzzy match と git 状態、定義一致、ファイルサイズなどを加味した順位付けを返せます。AI agent 向けには MCP 経由で接続し、少ない往復で目的ファイルへ寄せる設計です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>workspace は <code>fff-core</code>、<code>fff-mcp</code>、<code>fff-nvim</code>、<code>fff-grep</code> などに分かれており、Neovim plugin だけで終わらず検索基盤を再利用できる構成です。Rust 実装に寄せたことで大規模 repo でも速度を出しやすく、MCP と editor plugin が同じ検索体験を共有できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>AI agent 側は install script で MCP を入れ、<code>Claude Code</code> や <code>Codex</code> に接続します。Neovim 側は <code>lazy.nvim</code> か <code>vim.pack</code> で導入し、初回に binary を取得または build してから <code>find_files</code> や <code>live_grep</code> を使う流れです。</p>
+
+        <h2>どんな人向けか / 注意点</h2>
+        <p>巨大 repo を頻繁に触る Neovim ユーザー、agent harness の file search を高速化したい人、grep と fuzzy finder を分断したくない人に向いています。一方で README でも beta 的な最適化余地や debug 表示を前提にしており、安定運用前にキー設定や検索モードの癖を確認した方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>fff.nvim</code> は、editor plugin と agent tool の間にある検索レイヤーを 1 つに寄せた実務寄りの project です。2026-04-05 時点で Trending Rank 5 に入っているのは、agent 時代に「速い file search」自体が独立した価値になっていることを示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://chatgh.com/" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/dmtrKovalenko/fff.nvim" target="_blank" rel="noreferrer">dmtrKovalenko/fff.nvim</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

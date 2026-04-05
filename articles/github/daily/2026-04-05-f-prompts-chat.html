@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="prompts.chat を読み、巨大 prompt library に加えて self-host や MCP まで備えた実用基盤として整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>prompts.chat</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">prompts.chat</h1>
+      <p class="article-serial">Daily #053</p>
+      <p class="article-dek">公開 prompt 集で終わらず、self-host、CLI、MCP まで持つオープンソース prompt library 基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">トレンド順位</span>
+          <strong>Rank 6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/f/prompts.chat" target="_blank" rel="noreferrer">
+              f/prompts.chat
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>prompts.chat</code> は、もともと Awesome ChatGPT Prompts として知られていた prompt collection を、公開サイト、データセット、self-host 可能な web app まで拡張した project です。README では「世界最大級の open-source prompt library」として位置づけられています。</p>
+
+        <h2>何ができるか</h2>
+        <p>prompt の閲覧だけでなく、CSV や markdown、Hugging Face dataset として再利用でき、投稿した prompt が GitHub 側へ同期される運用も用意されています。さらに CLI、Claude Code plugin、remote / local MCP server も提供しており、prompt 集をそのまま agent workflow に組み込めます。</p>
+
+        <h2>目立つポイント</h2>
+        <p><code>package.json</code> を見ると Next.js 16、Prisma、NextAuth、MDX、MCP SDK を使う構成で、単なる静的リストではなく application として作り込まれています。self-host setup、認証、branding、Docker、book PDF 生成まで含めており、「prompt を配るサイト」から一段進んだ運用基盤です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最低限なら公開サイトや <code>PROMPTS.md</code> をそのまま使えます。自前運用する場合は <code>npx prompts.chat new ...</code> か repo clone 後に <code>npm install</code> と <code>npm run setup</code> を進め、必要に応じて MCP や plugin を接続する流れです。</p>
+
+        <h2>どんな人向けか / 注意点</h2>
+        <p>社内 prompt library を育てたいチーム、公開 prompt を dataset や MCP として再利用したい人、AI 利用ルールを共有したい教育用途に向いています。一方で stars 数の大きさに比べると対象範囲が広く、prompt 品質は利用者側の選別が要るので、そのまま本番投入するより curated 運用の前提で見る方が妥当です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>prompts.chat</code> は、prompt engineering の知識集を asset 化し、そのまま product や team workflow に接続できるところが強みです。2026-04-05 の Trending Rank 6 は、prompt library 需要がまだ単発の参考資料ではなく運用基盤として伸びていることを示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://chatgh.com/" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/f/prompts.chat" target="_blank" rel="noreferrer">f/prompts.chat</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
