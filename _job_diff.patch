@@ -1,0 +1,306 @@
+From 8d9aa7892078720c629ec43bcc11e8690da65012 Mon Sep 17 00:00:00 2001
+From: harunamitrader <sgmxk045@yahoo.co.jp>
+Date: Sun, 5 Apr 2026 05:08:14 +0900
+Subject: [PATCH] Add GitHub daily trending articles for 2026-04-05
+
+---
+ .../2026-04-05-dmtrkovalenko-fff-nvim.html    | 83 +++++++++++++++++++
+ .../daily/2026-04-05-f-prompts-chat.html      | 83 +++++++++++++++++++
+ .../daily/2026-04-05-update-report.html       | 40 +++++++++
+ data/articles.json                            | 39 +++++++++
+ feed.xml                                      |  2 +-
+ 5 files changed, 246 insertions(+), 1 deletion(-)
+ create mode 100644 articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html
+ create mode 100644 articles/github/daily/2026-04-05-f-prompts-chat.html
+ create mode 100644 articles/github/daily/2026-04-05-update-report.html
+
+diff --git a/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html b/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html
+new file mode 100644
+index 0000000..96eb40a
+--- /dev/null
++++ b/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html
+@@ -0,0 +1,83 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="fff.nvim を読み、AI agent と Neovim の両方で高速な file search を担う Rust 製 toolkit として整理した記事。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>fff.nvim</title>
++    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">GitHub Watcher</p>
++      </div>
++
++      <h1 class="article-title">fff.nvim</h1>
++      <p class="article-serial">Daily #052</p>
++      <p class="article-dek">AI agent の file search と Neovim の fuzzy finder を、同じ Rust 基盤で高速化する検索ツール。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">記事作成日</span>
++          <strong>2026-04-05</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">トレンド順位</span>
++          <strong>Rank 5</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">対象 repo</span>
++          <strong>
++            <a href="https://github.com/dmtrKovalenko/fff.nvim" target="_blank" rel="noreferrer">
++              dmtrKovalenko/fff.nvim
++            </a>
++          </strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>これは何か</h2>
++        <p><code>fff.nvim</code> は、Neovim 向け fuzzy finder plugin でありつつ、AI agent 向け MCP としても使える file search toolkit です。README では「速い検索」だけでなく、履歴や frecency を使って無駄な探索を減らす点が前面に出ています。</p>
++
++        <h2>何ができるか</h2>
++        <p>ファイル検索、grep、glob、multi-grep を 1 つの操作系にまとめ、typo に強い fuzzy match と git 状態、定義一致、ファイルサイズなどを加味した順位付けを返せます。AI agent 向けには MCP 経由で接続し、少ない往復で目的ファイルへ寄せる設計です。</p>
++
++        <h2>目立つポイント</h2>
++        <p>workspace は <code>fff-core</code>、<code>fff-mcp</code>、<code>fff-nvim</code>、<code>fff-grep</code> などに分かれており、Neovim plugin だけで終わらず検索基盤を再利用できる構成です。Rust 実装に寄せたことで大規模 repo でも速度を出しやすく、MCP と editor plugin が同じ検索体験を共有できます。</p>
++
++        <h2>セットアップや使い方の流れ</h2>
++        <p>AI agent 側は install script で MCP を入れ、<code>Claude Code</code> や <code>Codex</code> に接続します。Neovim 側は <code>lazy.nvim</code> か <code>vim.pack</code> で導入し、初回に binary を取得または build してから <code>find_files</code> や <code>live_grep</code> を使う流れです。</p>
++
++        <h2>どんな人向けか / 注意点</h2>
++        <p>巨大 repo を頻繁に触る Neovim ユーザー、agent harness の file search を高速化したい人、grep と fuzzy finder を分断したくない人に向いています。一方で README でも beta 的な最適化余地や debug 表示を前提にしており、安定運用前にキー設定や検索モードの癖を確認した方が安全です。</p>
++
++        <h2>まとめ</h2>
++        <p><code>fff.nvim</code> は、editor plugin と agent tool の間にある検索レイヤーを 1 つに寄せた実務寄りの project です。2026-04-05 時点で Trending Rank 5 に入っているのは、agent 時代に「速い file search」自体が独立した価値になっていることを示しています。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://chatgh.com/" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
++        </div>
++        <div class="source-item">
++          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
++        </div>
++        <div class="source-item">
++          <a href="https://github.com/dmtrKovalenko/fff.nvim" target="_blank" rel="noreferrer">dmtrKovalenko/fff.nvim</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/articles/github/daily/2026-04-05-f-prompts-chat.html b/articles/github/daily/2026-04-05-f-prompts-chat.html
+new file mode 100644
+index 0000000..821518b
+--- /dev/null
++++ b/articles/github/daily/2026-04-05-f-prompts-chat.html
+@@ -0,0 +1,83 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="prompts.chat を読み、巨大 prompt library に加えて self-host や MCP まで備えた実用基盤として整理した記事。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>prompts.chat</title>
++    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">GitHub Watcher</p>
++      </div>
++
++      <h1 class="article-title">prompts.chat</h1>
++      <p class="article-serial">Daily #053</p>
++      <p class="article-dek">公開 prompt 集で終わらず、self-host、CLI、MCP まで持つオープンソース prompt library 基盤。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">記事作成日</span>
++          <strong>2026-04-05</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">トレンド順位</span>
++          <strong>Rank 6</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">対象 repo</span>
++          <strong>
++            <a href="https://github.com/f/prompts.chat" target="_blank" rel="noreferrer">
++              f/prompts.chat
++            </a>
++          </strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>これは何か</h2>
++        <p><code>prompts.chat</code> は、もともと Awesome ChatGPT Prompts として知られていた prompt collection を、公開サイト、データセット、self-host 可能な web app まで拡張した project です。README では「世界最大級の open-source prompt library」として位置づけられています。</p>
++
++        <h2>何ができるか</h2>
++        <p>prompt の閲覧だけでなく、CSV や markdown、Hugging Face dataset として再利用でき、投稿した prompt が GitHub 側へ同期される運用も用意されています。さらに CLI、Claude Code plugin、remote / local MCP server も提供しており、prompt 集をそのまま agent workflow に組み込めます。</p>
++
++        <h2>目立つポイント</h2>
++        <p><code>package.json</code> を見ると Next.js 16、Prisma、NextAuth、MDX、MCP SDK を使う構成で、単なる静的リストではなく application として作り込まれています。self-host setup、認証、branding、Docker、book PDF 生成まで含めており、「prompt を配るサイト」から一段進んだ運用基盤です。</p>
++
++        <h2>セットアップや使い方の流れ</h2>
++        <p>最低限なら公開サイトや <code>PROMPTS.md</code> をそのまま使えます。自前運用する場合は <code>npx prompts.chat new ...</code> か repo clone 後に <code>npm install</code> と <code>npm run setup</code> を進め、必要に応じて MCP や plugin を接続する流れです。</p>
++
++        <h2>どんな人向けか / 注意点</h2>
++        <p>社内 prompt library を育てたいチーム、公開 prompt を dataset や MCP として再利用したい人、AI 利用ルールを共有したい教育用途に向いています。一方で stars 数の大きさに比べると対象範囲が広く、prompt 品質は利用者側の選別が要るので、そのまま本番投入するより curated 運用の前提で見る方が妥当です。</p>
++
++        <h2>まとめ</h2>
++        <p><code>prompts.chat</code> は、prompt engineering の知識集を asset 化し、そのまま product や team workflow に接続できるところが強みです。2026-04-05 の Trending Rank 6 は、prompt library 需要がまだ単発の参考資料ではなく運用基盤として伸びていることを示しています。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://chatgh.com/" target="_blank" rel="noreferrer">Trending mirror (一覧参照補助)</a>
++        </div>
++        <div class="source-item">
++          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
++        </div>
++        <div class="source-item">
++          <a href="https://github.com/f/prompts.chat" target="_blank" rel="noreferrer">f/prompts.chat</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/articles/github/daily/2026-04-05-update-report.html b/articles/github/daily/2026-04-05-update-report.html
+new file mode 100644
+index 0000000..ae3ed2b
+--- /dev/null
++++ b/articles/github/daily/2026-04-05-update-report.html
+@@ -0,0 +1,40 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta name="description" content="GitHub Trending Daily 2026-04-05 更新レポート。" />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>2026-04-05 更新レポート</title>
++    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Update Report</p>
++      </div>
++
++      <h1 class="article-title">2026-04-05 更新レポート</h1>
++      <p class="article-serial">Daily #054</p>
++      <p class="article-dek">2件のトレンド記事を追加しました。</p>
++
++      <div class="article-body">
++        <h2>【更新件数】</h2><p>2件</p>
++        <h2>【追加したリポジトリ】</h2>
++        <ul>
++          <li>dmtrKovalenko/fff.nvim (Rank: 5)</li>
++          <li>f/prompts.chat (Rank: 6)</li>
++        </ul>
++        <h2>【ステータス】</h2><p>正常に追加完了</p>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/data/articles.json b/data/articles.json
+index a72d485..7fa2d4c 100644
+--- a/data/articles.json
++++ b/data/articles.json
+@@ -6,6 +6,45 @@
+         "repoUrl": "https://github.com/harunamitrader/harunami_AI_base"
+     },
+     "articles": [
++        {
++            "category": "github-update-report",
++            "slug": "2026-04-05-update-report",
++            "title": "2026-04-05 更新レポート",
++            "dek": "2件のトレンド記事を追加しました。",
++            "summary": "本日の GitHub Trending から 2 件の未記事 repo を追加し、daily 記事と更新レポートを公開しました。",
++            "publishedAt": "2026-04-05",
++            "createdAt": "2026-04-05T05:02:00+09:00",
++            "articleUrl": "./articles/github/daily/2026-04-05-update-report.html",
++            "serial": 54
++        },
++        {
++            "category": "github-trending",
++            "slug": "2026-04-05-f-prompts-chat",
++            "title": "prompts.chat",
++            "dek": "公開 prompt 集で終わらず、self-host、CLI、MCP まで持つオープンソース prompt library 基盤。",
++            "summary": "f/prompts.chat は、巨大 prompt library を公開サイト、データセット、self-host app、CLI、MCP server として再利用できるオープンソース基盤です。",
++            "publishedAt": "2026-04-05",
++            "createdAt": "2026-04-05T05:01:00+09:00",
++            "repoName": "f/prompts.chat",
++            "repoUrl": "https://github.com/f/prompts.chat",
++            "articleUrl": "./articles/github/daily/2026-04-05-f-prompts-chat.html",
++            "rank": 6,
++            "serial": 53
++        },
++        {
++            "category": "github-trending",
++            "slug": "2026-04-05-dmtrkovalenko-fff-nvim",
++            "title": "fff.nvim",
++            "dek": "AI agent の file search と Neovim の fuzzy finder を、同じ Rust 基盤で高速化する検索ツール。",
++            "summary": "dmtrKovalenko/fff.nvim は、Neovim plugin と MCP tool の両方で使え、frecency や git 状態も活用して file search を高速化する Rust 製 toolkit です。",
++            "publishedAt": "2026-04-05",
++            "createdAt": "2026-04-05T05:00:00+09:00",
++            "repoName": "dmtrKovalenko/fff.nvim",
++            "repoUrl": "https://github.com/dmtrKovalenko/fff.nvim",
++            "articleUrl": "./articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html",
++            "rank": 5,
++            "serial": 52
++        },
+         {
+             "category": "github-pickup",
+             "slug": "2026-04-05-affaan-m-everything-claude-code-pickup",
+diff --git a/feed.xml b/feed.xml
+index f70ab0a..331d9b7 100644
+--- a/feed.xml
++++ b/feed.xml
+@@ -5,7 +5,7 @@
+     <link>https://harunamitrader.github.io/harunami_AI_base</link>
+     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
+     <language>ja</language>
+-    <lastBuildDate>Sat, 04 Apr 2026 17:52:39 GMT</lastBuildDate>
++    <lastBuildDate>Sun, 05 Apr 2026 05:07:35 GMT</lastBuildDate>
+     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+     <item>
+       <title><![CDATA[everything-claude-code]]></title>
+-- 
+2.53.0.windows.1
+

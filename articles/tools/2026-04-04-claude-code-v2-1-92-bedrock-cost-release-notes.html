@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.92 の更新内容を日本語で整理した記事。Bedrock セットアップ導線、/cost の内訳表示、/release-notes 改良を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化</h1>
+      <p class="article-dek">Bedrock 初期設定の対話ウィザード追加と、/cost の内訳可視化、/release-notes の操作改善が入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.92</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の公式 GitHub Releases では、<code>v2.1.92</code> が 2026-04-04 00:42 UTC に公開されました。今回の追加点では、ログイン画面から Bedrock を選んだ際に対話式セットアップウィザードが起動し、AWS 認証、リージョン設定、資格情報確認、モデル固定まで順に進められます。</p>
+        <p>あわせて <code>/cost</code> にモデル別と cache hit の内訳が表示されるようになり、subscription 運用時のコスト確認が実用的になりました。<code>/release-notes</code> も対話式のバージョン picker へ変わっています。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>運用面では、<code>forceRemoteSettingsRefresh</code> により起動時に管理設定の最新取得を強制でき、取得失敗時は fail-closed で止められます。チーム管理を厳しくしたい環境向けの変更です。</p>
+        <p>加えて、tmux 環境の subagent 失敗、JSON 文字列化された tool 入力、Homebrew 更新案内、Linux sandbox の <code>apply-seccomp</code> など、長時間運用で効く修正がまとまっています。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.92 は新機能と運用改善のバランスがよい更新です。Bedrock 導入を簡単にしつつ、コスト可視化と管理設定の厳格運用まで押さえています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.92" target="_blank" rel="noreferrer">Claude Code v2.1.92 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

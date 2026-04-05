@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grok CLI grok-dev@1.1.4-rc5 の更新内容を日本語で整理した記事。install script の tmp_dir 修正を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正</h1>
+      <p class="article-dek">最新の RC では install script の <code>tmp_dir</code> 未定義エラーが修正され、導入時の失敗要因がひとつ潰されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.1.4-rc5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>superagent-ai の公式 GitHub Releases では、<code>grok-dev@1.1.4-rc5</code> が 2026-04-03 10:07 UTC に公開されています。変更点は 1 件で、install script にあった <code>tmp_dir</code> の未定義エラー修正です。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>RC 系列では 1.1.4-rc1 で verify command や binary release workflow、self-management CLI commands が入り、その後 rc2 から rc5 まで導入まわりの細かい整備が続いています。今回の修正は派手ではありませんが、セットアップ失敗を減らす意味で重要です。</p>
+
+        <h2>まとめ</h2>
+        <p>v1.1.4-rc5 は導入安定性のための小規模パッチです。Grok CLI の新しい配布導線を試しているなら、この RC に追従しておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noreferrer">Grok CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

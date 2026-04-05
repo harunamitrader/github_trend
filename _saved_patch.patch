@@ -1,0 +1,653 @@
+From 2f434888c6f9a9d26e1f37bde28b55ca0f1e3bc1 Mon Sep 17 00:00:00 2001
+From: harunamitrader <sgmxk045@yahoo.co.jp>
+Date: Sun, 5 Apr 2026 06:38:02 +0900
+Subject: [PATCH] =?UTF-8?q?fix:=20i=20prompt=20cron=20=E3=82=B8=E3=83=A7?=
+ =?UTF-8?q?=E3=83=96=E3=81=AE=E5=A4=B1=E6=95=97=E5=88=86=20(Windsurf,=20Be?=
+ =?UTF-8?q?drock,=20Claude=20Code)=20=E3=82=92=E4=BB=A3=E7=90=86=20Push?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ ai-tools-monitor.html                         |  39 +++---
+ ...3-19-windsurf-1-9577-43-quota-billing.html |  64 ++++++++++
+ ...pilot-org-runner-controls-cloud-agent.html |  64 ++++++++++
+ ...rok-cli-v1-1-4-rc5-install-script-fix.html |  63 ++++++++++
+ ...de-v2-1-92-bedrock-cost-release-notes.html |  65 ++++++++++
+ data/articles.json                            |  58 ++++++++-
+ feed.xml                                      | 118 +++++++++---------
+ 7 files changed, 391 insertions(+), 80 deletions(-)
+ create mode 100644 articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html
+ create mode 100644 articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html
+ create mode 100644 articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html
+ create mode 100644 articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html
+
+diff --git a/ai-tools-monitor.html b/ai-tools-monitor.html
+index 7650b30..96a1d13 100644
+--- a/ai-tools-monitor.html
++++ b/ai-tools-monitor.html
+@@ -40,24 +40,25 @@
+ 
+           <div class="tool-grid">
+             <!-- Tool Item: ClaudeCode -->
+-            <details id="tool-claudecode" data-category="coding" class="tool-card card-claudecode" data-latest="2026-04-02">
++            <details id="tool-claudecode" data-category="coding" class="tool-card card-claudecode" data-latest="2026-04-04">
+               <summary class="tool-card-summary">
+                 <span class="tool-name">Claude Code</span>
+                 <span class="tool-summary-latest">
+-                  <span class="tool-summary-date">2026-04-02</span>
+-                  <span class="tool-summary-title">v2.1.91: MCP 大容量結果と skill 実行制御を追加</span>
++                  <span class="tool-summary-date">2026-04-04</span>
++                  <span class="tool-summary-title">v2.1.92: Bedrock 導線と /cost 可視化を強化</span>
+                 </span>
+                 <span class="tool-summary-chevron">▾</span>
+               </summary>
+               <div class="tool-details-body">
+                 <ul class="changelog-list" id="list-claudecode">
++                <li class="changelog-item"><span class="changelog-date">2026-04-04</span><a href="./articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html">v2.1.92: Bedrock 導線と /cost 可視化を強化</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html">v2.1.91: MCP 大容量結果と skill 実行制御を追加</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-90-powerup-powershell.html">v2.1.90: /powerup と PowerShell 権限制御を強化</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html">v2.1.89: 権限制御と Windows 安定性をさらに改善</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-claude-code-v2-1-88-stability.html">v2.1.88: Windows と長時間セッションの安定性を強化</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-claude-code-v2-1-87-automode.html">v2.1.87: 「Auto Mode」自律実行機能の導入</a></li>
+               </ul>
+-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-claudecode">v2.1.91</strong></span>
++                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-claudecode">v2.1.92</strong></span>
+                 <span class="status-tag status-active">Active</span></div>
+                 <div class="tool-status"><a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Claude Code release notes / Releases 監視中</a></div>
+               </div>
+@@ -109,23 +110,23 @@
+             </details>
+ 
+             <!-- Tool Item: Windsurf -->
+-            <details id="tool-windsurf" data-category="coding" class="tool-card card-windsurf" data-latest="2026-04-03">
++            <details id="tool-windsurf" data-category="coding" class="tool-card card-windsurf" data-latest="2026-03-19">
+               <summary class="tool-card-summary">
+                 <span class="tool-name">Windsurf</span>
+                 <span class="tool-summary-latest">
+-                  <span class="tool-summary-date">2026-04-03</span>
+-                  <span class="tool-summary-title">v1.6.2: Remote-WSL 修正と軽微な UX 改善</span>
++                  <span class="tool-summary-date">2026-03-19</span>
++                  <span class="tool-summary-title">1.9577.43: Quota Billing と使用量表示を追加</span>
+                 </span>
+                 <span class="tool-summary-chevron">▾</span>
+               </summary>
+               <div class="tool-details-body">
+                 <ul class="changelog-list" id="list-windsurf">
+-                <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html">v1.6.2: Remote-WSL 修正と軽微な UX 改善</a></li>
++                <li class="changelog-item"><span class="changelog-date">2026-03-19</span><a href="./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html">1.9577.43: Quota Billing と使用量表示を追加</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-28</span><a href="./articles/tools/2026-03-26-windsurf-next-1-9600-1002.html">Next: v1.9600.1002: コスト可視化の強化 & エンジン刷新</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-01</span><a href="./articles/tools/2026-03-01-windsurf-flow.html">Windsurf Flow: 外部ツール自律統合の強化</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-01-20</span><a href="./articles/tools/2026-01-20-windsurf-wave-14.html">Wave 14: Arena Mode (モデル比較) 導入</a></li>
+               </ul>
+-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-windsurf">v1.6.2</strong></span>
++                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-windsurf">1.9577.43</strong></span>
+                 <span class="status-tag status-active">Active</span></div>
+                 <div class="tool-status"><a href="https://windsurf.com/changelog" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">windsurf.com/changelog 監視中</a></div>
+               </div>
+@@ -183,18 +184,19 @@
+                 <span class="tool-name">GitHub Copilot</span>
+                 <span class="tool-summary-latest">
+                   <span class="tool-summary-date">2026-04-03</span>
+-                  <span class="tool-summary-title">Copilot cloud agent が署名付きコミットに対応</span>
++                  <span class="tool-summary-title">Organization runner controls for cloud agent</span>
+                 </span>
+                 <span class="tool-summary-chevron">▾</span>
+               </summary>
+               <div class="tool-details-body">
+                 <ul class="changelog-list" id="list-github-copilot">
++                <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html">Organization runner controls for cloud agent</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html">Copilot cloud agent が署名付きコミットに対応</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-github-copilot-org-custom-instructions-ga.html">Organization custom instructions が一般提供開始</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-01</span><a href="./articles/tools/2026-04-01-github-copilot-gpt-5-4-mini-student.html">GPT-5.4 mini: Student の自動モデル選択に追加</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-github-copilot-training-policy.html">重要: インタラクションデータの学習利用に関する規約改定</a></li>
+               </ul>
+-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-github-copilot">Signed Commits</strong></span>
++                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-github-copilot">Runner Controls</strong></span>
+                 <span class="status-tag status-active">Active</span></div>
+                 <div class="tool-status"><a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Changelog 監視中</a></div>
+               </div>
+@@ -223,23 +225,24 @@
+             </details>
+ 
+             <!-- Tool Item: Grok CLI -->
+-            <details id="tool-grokcli" data-category="coding" class="tool-card card-grokcli" data-latest="2026-04-01">
++            <details id="tool-grokcli" data-category="coding" class="tool-card card-grokcli" data-latest="2026-04-03">
+               <summary class="tool-card-summary">
+                 <span class="tool-name">Grok CLI</span>
+                 <span class="tool-summary-latest">
+-                  <span class="tool-summary-date">2026-04-01</span>
+-                  <span class="tool-summary-title">v1.1.3: @ メンションのファイル補完を追加</span>
++                  <span class="tool-summary-date">2026-04-03</span>
++                  <span class="tool-summary-title">v1.1.4-rc5: install script の tmp_dir エラーを修正</span>
+                 </span>
+                 <span class="tool-summary-chevron">▾</span>
+               </summary>
+               <div class="tool-details-body">
+                 <ul class="changelog-list" id="list-grokcli">
++                <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html">v1.1.4-rc5: install script の tmp_dir エラーを修正</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-04-01</span><a href="./articles/tools/2026-04-01-grok-cli-v1-1-3-file-mention-autocomplete.html">v1.1.3: @ メンションのファイル補完を追加</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-26</span><a href="./articles/tools/2026-03-26-grok-cli-v1-0-rc7.html">v1.0.0-rc7: デーモン定時実行 & Shuru サンドボックス</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-23</span><a href="./articles/tools/2026-03-23-grok-cli-v10-rc5.html">v1.0.0-rc5: Grok-3 mini 対応</a></li>
+                 <li class="changelog-item"><span class="changelog-date">2026-03-23</span><a href="./articles/tools/2026-03-23-grok-cli-v10-rc4.html">v1.0.0-rc4: マルチエージェント対応</a></li>
+               </ul>
+-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-grokcli">v1.1.3</strong></span>
++                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-grokcli">v1.1.4-rc5</strong></span>
+                 <span class="status-tag status-active">Active</span></div>
+                 <div class="tool-status"><a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
+               </div>
+@@ -435,10 +438,10 @@
+             <p style="margin-bottom: 8px;"><strong>対象:</strong> 17ツールを Coding / Others の2カテゴリで巡回・検証</p>
+ 
+             <div id="report-coding" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(124, 58, 237, 0.04);">
+-              <p style="margin-bottom: 8px;"><strong>Coding 最終監視:</strong> <span id="report-coding-date">2026-04-04 04:02 JST</span></p>
++              <p style="margin-bottom: 8px;"><strong>Coding 最終監視:</strong> <span id="report-coding-date">2026-04-05 04:04 JST</span></p>
+               <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+-                <li id="report-coding-updates"><strong>Updates Found (4):</strong> Claude Code (v2.1.91), Cursor (3.0), Gemini CLI (v0.37.0-preview.1), GitHub Copilot (Signed Commits)</li>
+-                <li id="report-coding-no-updates"><strong>No New Updates (5):</strong> Antigravity, Windsurf, Cline, Codex, Grok CLI</li>
++                <li id="report-coding-updates"><strong>Updates Found (4):</strong> Claude Code (v2.1.92), GitHub Copilot (Runner Controls), Grok CLI (v1.1.4-rc5), Windsurf (1.9577.43)</li>
++                <li id="report-coding-no-updates"><strong>No New Updates (5):</strong> Antigravity, Cursor, Cline, Codex, Gemini CLI</li>
+               </ul>
+             </div>
+ 
+diff --git a/articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html b/articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html
+new file mode 100644
+index 0000000..c069702
+--- /dev/null
++++ b/articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html
+@@ -0,0 +1,64 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="Windsurf 1.9577.43 の更新内容を日本語で整理した記事。quota billing と IDE 上の使用量表示を中心に確認する。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>Windsurf 1.9577.43: Quota Billing と使用量表示を追加</title>
++    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Release Notes</p>
++      </div>
++
++      <h1 class="article-title">Windsurf 1.9577.43: Quota Billing と使用量表示を追加</h1>
++      <p class="article-dek">新しい quota billing への対応と、日次・週次の使用量を IDE 上で見られる可視化が入った更新です。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">リリース日</span>
++          <strong>2026-03-19</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">バージョン</span>
++          <strong>1.9577.43</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">ツール</span>
++          <strong>Windsurf</strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>主な変更点</h2>
++        <p>Windsurf の公式 changelog では、<code>1.9577.43</code> が 2026-03-19 に掲載されています。今回の中心は新しい quota billing system への対応で、日次と週次の quota usage を IDE 内へ直接表示できるようになりました。</p>
++        <p>同じ項目内で Mac x64 build の修正も入っており、料金確認と基本的な配布安定性の両方を触るアップデートです。</p>
++
++        <h2>影響や使いどころ</h2>
++        <p>Windsurf は credit や quota の消費が日常運用の判断に直結しやすいため、IDE でそのまま確認できる価値は大きいです。チーム運用でも個人運用でも、利用量を見ながらモデル選択やセッション量を調整しやすくなります。</p>
++
++        <h2>まとめ</h2>
++        <p>1.9577.43 は見た目以上に実務寄りの更新です。billing の見通しを IDE 内で持ちたいユーザーほど恩恵があります。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://windsurf.com/changelog" target="_blank" rel="noreferrer">Windsurf Changelog</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html b/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html
+new file mode 100644
+index 0000000..6fa11b2
+--- /dev/null
++++ b/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html
+@@ -0,0 +1,64 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="GitHub Copilot cloud agent の organization runner controls 追加を日本語で整理した記事。組織単位の実行基盤統制を中心に確認する。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>GitHub Copilot: Organization runner controls for cloud agent</title>
++    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Release Notes</p>
++      </div>
++
++      <h1 class="article-title">GitHub Copilot: Organization runner controls for cloud agent</h1>
++      <p class="article-dek">Copilot cloud agent の実行先 runner を、organization 単位で統制できるようになった更新です。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">リリース日</span>
++          <strong>2026-04-03</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">機能</span>
++          <strong>Organization runner controls</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">ツール</span>
++          <strong>GitHub Copilot</strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>主な変更点</h2>
++        <p>GitHub Changelog の Copilot ラベルでは、2026-04-03 の最新項目として <strong>Organization runner controls for Copilot cloud agent</strong> が掲載されています。リポジトリ単位ではなく organization 側で cloud agent の runner 利用方針を決めやすくする更新です。</p>
++
++        <h2>影響や使いどころ</h2>
++        <p>大きい組織では、どの runner を agent 実行に使わせるかを各リポジトリ任せにすると、ネットワーク、コスト、セキュリティの統制が崩れやすくなります。organization runner controls が入ることで、管理者側で標準構成を揃えやすくなります。</p>
++        <p>同日の signed commits 対応と組み合わせると、cloud agent を本番寄りのリポジトリへ展開する際の管理面が一段整いました。</p>
++
++        <h2>まとめ</h2>
++        <p>この更新は UI の派手さよりも、組織運用で効くガバナンス強化です。Copilot cloud agent を複数チームへ展開しているなら確認優先度は高めです。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noreferrer">GitHub Changelog: Copilot</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html b/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html
+new file mode 100644
+index 0000000..01b3eb9
+--- /dev/null
++++ b/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html
+@@ -0,0 +1,63 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="Grok CLI grok-dev@1.1.4-rc5 の更新内容を日本語で整理した記事。install script の tmp_dir 修正を中心に確認する。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正</title>
++    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Release Notes</p>
++      </div>
++
++      <h1 class="article-title">Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正</h1>
++      <p class="article-dek">最新の RC では install script の <code>tmp_dir</code> 未定義エラーが修正され、導入時の失敗要因がひとつ潰されました。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">リリース日</span>
++          <strong>2026-04-03</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">バージョン</span>
++          <strong>v1.1.4-rc5</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">ツール</span>
++          <strong>Grok CLI</strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>主な変更点</h2>
++        <p>superagent-ai の公式 GitHub Releases では、<code>grok-dev@1.1.4-rc5</code> が 2026-04-03 10:07 UTC に公開されています。変更点は 1 件で、install script にあった <code>tmp_dir</code> の未定義エラー修正です。</p>
++
++        <h2>影響や使いどころ</h2>
++        <p>RC 系列では 1.1.4-rc1 で verify command や binary release workflow、self-management CLI commands が入り、その後 rc2 から rc5 まで導入まわりの細かい整備が続いています。今回の修正は派手ではありませんが、セットアップ失敗を減らす意味で重要です。</p>
++
++        <h2>まとめ</h2>
++        <p>v1.1.4-rc5 は導入安定性のための小規模パッチです。Grok CLI の新しい配布導線を試しているなら、この RC に追従しておく価値があります。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noreferrer">Grok CLI Releases</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html b/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html
+new file mode 100644
+index 0000000..c127749
+--- /dev/null
++++ b/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html
+@@ -0,0 +1,65 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="Claude Code v2.1.92 の更新内容を日本語で整理した記事。Bedrock セットアップ導線、/cost の内訳表示、/release-notes 改良を中心に確認する。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化</title>
++    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Release Notes</p>
++      </div>
++
++      <h1 class="article-title">Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化</h1>
++      <p class="article-dek">Bedrock 初期設定の対話ウィザード追加と、/cost の内訳可視化、/release-notes の操作改善が入った更新です。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">リリース日</span>
++          <strong>2026-04-04</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">バージョン</span>
++          <strong>v2.1.92</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">ツール</span>
++          <strong>Claude Code</strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>主な変更点</h2>
++        <p>Anthropic の公式 GitHub Releases では、<code>v2.1.92</code> が 2026-04-04 00:42 UTC に公開されました。今回の追加点では、ログイン画面から Bedrock を選んだ際に対話式セットアップウィザードが起動し、AWS 認証、リージョン設定、資格情報確認、モデル固定まで順に進められます。</p>
++        <p>あわせて <code>/cost</code> にモデル別と cache hit の内訳が表示されるようになり、subscription 運用時のコスト確認が実用的になりました。<code>/release-notes</code> も対話式のバージョン picker へ変わっています。</p>
++
++        <h2>影響や使いどころ</h2>
++        <p>運用面では、<code>forceRemoteSettingsRefresh</code> により起動時に管理設定の最新取得を強制でき、取得失敗時は fail-closed で止められます。チーム管理を厳しくしたい環境向けの変更です。</p>
++        <p>加えて、tmux 環境の subagent 失敗、JSON 文字列化された tool 入力、Homebrew 更新案内、Linux sandbox の <code>apply-seccomp</code> など、長時間運用で効く修正がまとまっています。</p>
++
++        <h2>まとめ</h2>
++        <p>v2.1.92 は新機能と運用改善のバランスがよい更新です。Bedrock 導入を簡単にしつつ、コスト可視化と管理設定の厳格運用まで押さえています。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.92" target="_blank" rel="noreferrer">Claude Code v2.1.92 Release</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/data/articles.json b/data/articles.json
+index d18d80e..e561a53 100644
+--- a/data/articles.json
++++ b/data/articles.json
+@@ -6,6 +6,62 @@
+         "repoUrl": "https://github.com/harunamitrader/harunami_AI_base"
+     },
+     "articles": [
++        {
++            "category": "ai-tool-log",
++            "slug": "2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes",
++            "title": "Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化",
++            "dek": "Bedrock 初期設定の対話ウィザード追加と、/cost の内訳可視化、/release-notes の操作改善が入った更新です。",
++            "summary": "Claude Code v2.1.92 では Bedrock セットアップウィザード、/cost のモデル別・cache hit 内訳表示、/release-notes の対話 picker 化、運用系の不具合修正がまとまって入っています。",
++            "publishedAt": "2026-04-04",
++            "createdAt": "2026-04-05T04:04:31+09:00",
++            "toolName": "Claude Code",
++            "repoName": "anthropics/claude-code",
++            "repoUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
++            "articleUrl": "./articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html",
++            "rank": 999
++        },
++        {
++            "category": "ai-tool-log",
++            "slug": "2026-04-03-github-copilot-org-runner-controls-cloud-agent",
++            "title": "GitHub Copilot: Organization runner controls for cloud agent",
++            "dek": "Copilot cloud agent の実行先 runner を、organization 単位で統制できるようになった更新です。",
++            "summary": "GitHub Copilot の 2026-04-03 更新で、Copilot cloud agent の organization runner controls が追加されました。組織全体で agent 実行基盤の標準化と統制を進めやすくなる変更です。",
++            "publishedAt": "2026-04-03",
++            "createdAt": "2026-04-05T04:04:31+09:00",
++            "toolName": "GitHub Copilot",
++            "repoName": "github/copilot",
++            "repoUrl": "https://github.blog/changelog/label/copilot/",
++            "articleUrl": "./articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html",
++            "rank": 999
++        },
++        {
++            "category": "ai-tool-log",
++            "slug": "2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix",
++            "title": "Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正",
++            "dek": "最新の RC では install script の tmp_dir 未定義エラーが修正され、導入時の失敗要因がひとつ潰されました。",
++            "summary": "Grok CLI grok-dev@1.1.4-rc5 は install script の tmp_dir unbound variable 問題を修正する小規模パッチです。binary release 系列の導入安定化として見ておくとよい更新です。",
++            "publishedAt": "2026-04-03",
++            "createdAt": "2026-04-05T04:04:31+09:00",
++            "toolName": "Grok CLI",
++            "repoName": "superagent-ai/grok-cli",
++            "repoUrl": "https://github.com/superagent-ai/grok-cli/releases",
++            "articleUrl": "./articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html",
++            "rank": 999
++        },
++        {
++            "category": "ai-tool-log",
++            "slug": "2026-03-19-windsurf-1-9577-43-quota-billing",
++            "title": "Windsurf 1.9577.43: Quota Billing と使用量表示を追加",
++            "dek": "新しい quota billing への対応と、日次・週次の使用量を IDE 上で見られる可視化が入った更新です。",
++            "summary": "Windsurf 1.9577.43 は quota billing system への対応と IDE 内の daily / weekly quota usage 表示を追加しました。利用量を見ながら運用したいチームに効く更新です。",
++            "publishedAt": "2026-03-19",
++            "createdAt": "2026-04-05T04:04:31+09:00",
++            "toolName": "Windsurf",
++            "repoName": "windsurf/editor",
++            "repoUrl": "https://windsurf.com/changelog",
++            "articleUrl": "./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html",
++            "rank": 999
++        },
+         {
+             "category": "github-update-report",
+             "slug": "2026-04-04-update-report",
+@@ -2715,4 +2771,4 @@
+             "rank": 999
+         }
+     ]
+-}
+\ No newline at end of file
++}
+diff --git a/feed.xml b/feed.xml
+index 1c83284..9070ad6 100644
+--- a/feed.xml
++++ b/feed.xml
+@@ -5,12 +5,48 @@
+     <link>https://harunamitrader.github.io/harunami_AI_base</link>
+     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
+     <language>ja</language>
+-<<<<<<< HEAD
+-    <lastBuildDate>Fri, 03 Apr 2026 23:05:23 GMT</lastBuildDate>
+-=======
+-    <lastBuildDate>Sat, 04 Apr 2026 10:29:24 GMT</lastBuildDate>
+->>>>>>> 6cef998 (Publish GitHub daily updates for 2026-04-04)
++    <lastBuildDate>Sun, 05 Apr 2026 04:10:36 GMT</lastBuildDate>
+     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
++    <item>
++      <title><![CDATA[Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</guid>
++      <category>ai-tool-log</category>
++      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[Bedrock 初期設定の対話ウィザード追加と、/cost の内訳可視化、/release-notes の操作改善が入った更新です。]]></description>
++    </item>
++    <item>
++      <title><![CDATA[2026-04-04 更新レポート]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-update-report.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-update-report.html</guid>
++      <category>github-update-report</category>
++      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[3件のトレンド記事を追加しました。]]></description>
++    </item>
++    <item>
++      <title><![CDATA[claude-subconscious]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-letta-ai-claude-subconscious.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-letta-ai-claude-subconscious.html</guid>
++      <category>github-trending</category>
++      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。]]></description>
++    </item>
++    <item>
++      <title><![CDATA[editor]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-pascalorg-editor.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-pascalorg-editor.html</guid>
++      <category>github-trending</category>
++      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。]]></description>
++    </item>
++    <item>
++      <title><![CDATA[litellm]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-berriai-litellm.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-berriai-litellm.html</guid>
++      <category>github-trending</category>
++      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[100 以上の LLM API を OpenAI 互換で束ね、AI Gateway と SDK の両方で使える接続レイヤー。]]></description>
++    </item>
+     <item>
+       <title><![CDATA[WorldGen]]></title>
+       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html</link>
+@@ -27,6 +63,22 @@
+       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+       <description><![CDATA[RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。]]></description>
+     </item>
++    <item>
++      <title><![CDATA[GitHub Copilot: Organization runner controls for cloud agent]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html</guid>
++      <category>ai-tool-log</category>
++      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[Copilot cloud agent の実行先 runner を、organization 単位で統制できるようになった更新です。]]></description>
++    </item>
++    <item>
++      <title><![CDATA[Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正]]></title>
++      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html</link>
++      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html</guid>
++      <category>ai-tool-log</category>
++      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
++      <description><![CDATA[最新の RC では install script の tmp_dir 未定義エラーが修正され、導入時の失敗要因がひとつ潰されました。]]></description>
++    </item>
+     <item>
+       <title><![CDATA[GitHub Copilot: Copilot cloud agent が署名付きコミットに対応]]></title>
+       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html</link>
+@@ -115,61 +167,5 @@
+       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+       <description><![CDATA[Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。]]></description>
+     </item>
+-    <item>
+-      <title><![CDATA[openscreen]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</guid>
+-      <category>github-trending</category>
+-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[openagents]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</guid>
+-      <category>github-pickup</category>
+-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[Windsurf v1.6.2: Remote-WSL 修正と軽微な UX 改善]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html</guid>
+-      <category>ai-tool-log</category>
+-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[2026-04-03 の公式 changelog で、Remote-WSL 拡張の修正と小規模な UX 調整が反映されました。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[tradingview-mcp]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-tradesdontlie-tradingview-mcp.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-tradesdontlie-tradingview-mcp.html</guid>
+-      <category>github-pickup</category>
+-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[clawless]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-open-gitagent-clawless.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-open-gitagent-clawless.html</guid>
+-      <category>github-pickup</category>
+-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[Claw 系 AI エージェントを、サーバーなしでブラウザ内だけで動かせる WebContainers ベースの実行基盤。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[Cursor 3.0: Agents Window と Design Mode を導入]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-cursor-3-0-agents-window-design-mode.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-cursor-3-0-agents-window-design-mode.html</guid>
+-      <category>ai-tool-log</category>
+-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[複数エージェントを並列運用する新 UI と、ブラウザ上で UI 要素を直接指定できる Design Mode が追加されました。]]></description>
+-    </item>
+-    <item>
+-      <title><![CDATA[Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加]]></title>
+-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html</link>
+-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html</guid>
+-      <category>ai-tool-log</category>
+-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+-      <description><![CDATA[MCP の大きい結果を保持する上限緩和と、skill / slash command 内 shell 実行の制御追加が入った更新です。]]></description>
+-    </item>
+   </channel>
+ </rss>
+\ No newline at end of file
+-- 
+2.53.0.windows.1
+
