@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.77.0 の更新内容を日本語で整理した記事。Lazy Teammate Mode の実験的追加と read_file のチャンク読み込み対応が主な変更点です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.77.0 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.77.0: Lazy Teammate Mode とチャンク読み込みを追加</h1>
+      <p class="article-dek">エージェントの作業量を抑える実験モードと、大きなファイルを分割して読む read_file 改善が入ったリリースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.77.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>
+          <strong>Lazy Teammate Mode（実験的）</strong> が追加されました。
+          このモードを有効にすると、エージェントが積極的に先回りして作業を進めるのを抑制し、指示された範囲に絞って動作します。
+          過剰な自動実行を避けたい場面や、処理コストを抑えたいときに試せる選択肢です。
+        </p>
+        <p>
+          <strong>read_file ツールのチャンク読み込み対応</strong> も加わりました。
+          大きなファイルを一度に全部読み込む代わりに、指定した範囲だけを取得できるようになります。
+          巨大なコードベースで特定の関数だけ確認したい場面などで、無駄なトークン消費を減らせます。
+        </p>
+
+        <h2>バグ修正</h2>
+        <p>
+          yolo / headless モードで動かす場合に、<code>new_task</code> ツールがシステムプロンプトに含まれていた問題を修正しました。
+          Kanban デモ動画のフォーマット不具合も併せて修正されています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          v3.77.0 は機能の追加よりもコントロールの精度を高める方向の更新です。
+          Lazy Teammate Mode は実験的フラグとして提供されており、通常の使い勝手には影響しません。
+          チャンク読み込みは長いファイルを扱う頻度が高い場合に実感しやすい改善です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.77.0" target="_blank" rel="noreferrer">GitHub Releases — cline/cline v3.77.0</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
