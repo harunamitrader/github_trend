@@ -7,7 +7,6 @@
     },
     "articles": [
         {
-        {
             "category": "github-update-report",
             "slug": "2026-04-05-update-report",
             "title": "2026-04-05 更新レポート",
@@ -101,7 +100,6 @@
             "repoUrl": "https://windsurf.com/changelog",
             "articleUrl": "./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html",
             "rank": 999
-        }
         },
         {
             "category": "github-pickup",
