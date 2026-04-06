@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="google-ai-edge/LiteRT-LM を読み、要点を実用寄りに整理した記事。モバイルや IoT 向けに LLM を高速推論するための Google 公式フレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LiteRT-LM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LiteRT-LM</h1>
+      <p class="article-dek">エッジデバイスで LLM を。Google 公式の軽量推論フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google-ai-edge/LiteRT-LM" target="_blank" rel="noreferrer">
+              google-ai-edge/LiteRT-LM
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          LiteRT-LM は、旧 TensorFlow Lite を進化させた Google の「オンデバイス LLM 推論基盤」です。Android、iOS、Web、IoT デバイスなどの計算資源が限られた環境で、最新の LLM を低遅延かつ高効率に実行するための仕組みを提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>クロスプラットフォーム推論:</strong> モバイルアプリから組み込みボードまで、多様なターゲットに対応。</li>
+          <li><strong>最新モデル対応:</strong> Gemma 4 などの Google 製モデルを、デバイスの計算能力に合わせて最適化。</li>
+          <li><strong>ハードウェア加速:</strong> GPU、NPU を最大限に活用し、驚異的なレスポンス速度を実現。</li>
+          <li><strong>ツールチェーンの提供:</strong> モデル変換、量子化、テストまでの一連のワークフローを同梱。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          もっとも重要なのは「クラウド費用の削減」と「究極のプライバシー保護」です。すべての推論プロセスがユーザーのスマートフォン等の内部で完結するため、オフラインでも AI 機能が使え、データ漏洩のリスクもゼロに抑えることができます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>開発環境 (Android Studio 等) に LiteRT-LM の依存関係を追加。</li>
+          <li>学習済みモデル (Gemma 等) を <code>.tflite</code> 形式に変換・量子化。</li>
+          <li>専用の API を呼び出して、デバイス上での推論を実行。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>モバイルアプリ内で「本物の AI チャット」を実装したい開発者。</li>
+          <li>サーバー負荷を気にせず、大規模なユーザーに AI 機能を提供したいプロダクト責任者。</li>
+          <li>ネットワーク環境が不安定な現場で AI による支援を実現したい特定業界のエンジニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          旧 TFLite からの移行期にあるため、ドキュメントが混在している場合があります。また、実行にはターゲットデバイス側の一定以上の計算スペック (特にメモリ) が必要であり、非常に古い機種では動作が困難な可能性があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          LiteRT-LM は、AI を「巨大なサーバー」の中だけのものではなく、私たちの「手の中」へと確実に引き寄せる基盤です。オンデバイス AI が一般化するこれからのアプリ開発における、無視できない標準規格と言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-ai-edge/LiteRT-LM" target="_blank" rel="noreferrer">google-ai-edge/LiteRT-LM</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

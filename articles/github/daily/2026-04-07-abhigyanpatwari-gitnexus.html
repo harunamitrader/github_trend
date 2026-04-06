@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="abhigyanpatwari/GitNexus を読み、要点を実用寄りに整理した記事。サーバー不要でブラウザ完結する、AI内蔵のコード視覚化・探索エンジン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitNexus</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">GitNexus</h1>
+      <p class="article-dek">サーバー不要でブラウザ完結。AI 内蔵のコード視覚化・探索エンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noreferrer">
+              abhigyanpatwari/GitNexus
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          GitNexus は、ブラウザ単体で動作する「ゼロ・サーバー」のコード・インテリジェンス・ツールです。リポジトリや ZIP ファイルを読み込み、コードの依存関係や構造をインタラクティブなナレッジグラフとして視覚化します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>コードの視覚化:</strong> 複雑なプロジェクト構造をグラフ形式で把握。</li>
+          <li><strong>Graph RAG エージェント:</strong> グラフ解析と LLM を組み合わせた、文脈を汲み取るコード探索。</li>
+          <li><strong>MCP 対応:</strong> Model Context Protocol を介して外部エージェントの知識源として統合可能。</li>
+          <li><strong>完全ローカル実行:</strong> データを外部サーバーに送信せず、ブラウザ内の IndexedDB 等で処理。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          セットアップが非常に簡単で、GitHub の URL を入力するだけで解析が始まる手軽さが魅力です。特に、大規模な既存コードベースの全体像を「目で見て理解」し、かつ AI に質問して詳細を探れるハイブリッドな体験を提供します。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><a href="https://gitnexus.com" target="_blank">GitNexus ウェブサイト</a>にアクセス。</li>
+          <li>解析したい GitHub リポジトリの URL を入力、またはファイルをドロップ。</li>
+          <li>生成されたグラフを探索し、チャット画面からコードに関する質問を投げます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>初めて触る巨大なコードベースの構造を短時間で把握したい開発者。</li>
+          <li>コードの機密性を保ちつつ、AI による解析支援を受けたいプロジェクトチーム。</li>
+          <li>リサーチ中にコードの依存関係を視覚的に整理したいエンジニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          ブラウザのリソースを使用するため、極端に巨大なプロジェクト（数万ファイル規模など）ではメモリ制限やパフォーマンス低下に直面する可能性があります。また、初回インデックス作成には一定の時間がかかります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          GitNexus は、AI 時代の新しいコードリーディング・ツールです。「サーバー不要」という強力なプライバシー特性と、グラフ構造を活用した深い洞察を両立しており、開発者の「理解のコスト」を劇的に下げてくれます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noreferrer">abhigyanpatwari/GitNexus</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

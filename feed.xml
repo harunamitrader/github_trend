@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Apr 2026 20:05:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 05:09:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-07 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hermes-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nousresearch-hermes-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nousresearch-hermes-agent.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Nous Research の知性をエージェントに。汎用型学習エージェント基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[shannon]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-keygraphhq-shannon.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-keygraphhq-shannon.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI が自律的に脆弱性を診断。Web アプリ向けペンテストツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[immich]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-immich-app-immich.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-immich-app-immich.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自己ホストで所有権を取り戻す。 Google フォト代わりの写真管理システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[LiteRT-LM]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-google-ai-edge-litert-lm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-google-ai-edge-litert-lm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エッジデバイスで LLM を。Google 公式の軽量推論フレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitNexus]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サーバー不要でブラウザ完結。AI 内蔵のコード視覚化・探索エンジン。]]></description>
+    </item>
     <item>
       <title><![CDATA[fieldtheory-cli]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Apple Silicon搭載Macで視覚言語モデル（VLM）を高速に動かし、カスタマイズするためのフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tdesktop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-telegramdesktop-tdesktop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-telegramdesktop-tdesktop.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[セキュアで多機能なメッセージングアプリ「Telegram」の公式デスクトップ版クライアント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[goose]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-block-goose.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-block-goose.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ソフトウェア開発における単純作業やテスト、バグ修正を自動化する、CLIベースの自律型AIエージェント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-framework]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-microsoft-agent-framework.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-microsoft-agent-framework.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数のAIエージェントが協調してタスクを解決する「マルチエージェント」を実現する、Microsoft製の軽量フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[prompts.chat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-f-prompts-chat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-f-prompts-chat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI向けの高機能プロンプト・ライブラリ集（Awesome ChatGPT Prompts）]]></description>
-    </item>
-    <item>
-      <title><![CDATA[fff.nvim]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェント向けに最適化された高速なNeovimファイル検索ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Oh My Codex (OmX) v0.11.13: Windows環境への最適化とワークフローの強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-omx-v0-11-13.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-omx-v0-11-13.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[パッチリリースv0.11.13では、Node環境での信頼性が大幅に向上。Deep-InterviewからRalplanへ続く標準開発フローの安定性がさらに高まりました。]]></description>
     </item>
   </channel>
 </rss>
