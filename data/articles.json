@@ -3031,6 +3031,19 @@
                          "repoUrl":  "https://codeium.com/windsurf",
                          "articleUrl":  "./articles/tools/2026-01-20-windsurf-wave-14.html",
                          "rank":  999
+                     },
+                     {
+                         "category": "github-pickup",
+                         "slug": "2026-04-06-page-agent",
+                         "title": "page-agent",
+                         "dek": "Webページを自然言語で直接操作。JavaScriptだけで動くインページAIエージェント",
+                         "summary": "ブラウザ拡張や外部サーバー不要で、Webページ内でAIがGUIを操作。任意のLLMと連携し、SaaSコパイロットや自動フォーム入力など多様なユースケースに対応するJavaScriptライブラリ。",
+                         "publishedAt": "2026-04-06",
+                         "createdAt": "2026-04-06T10:29:00+09:00",
+                         "repoName": "alibaba/page-agent",
+                         "repoUrl": "https://github.com/alibaba/page-agent",
+                         "articleUrl": "./articles/github/pickup/2026-04-06-page-agent.html",
+                         "serial": 67
                      }
                  ]
 }

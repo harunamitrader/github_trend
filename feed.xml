@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:07:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 15:19:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-06 アップデートレポート]]></title>
@@ -54,6 +54,14 @@
       <category>github-trending</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google AI Edgeによる、オンデバイスAIの最新ユースケースを直接体験・評価できるギャラリーアプリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[page-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-06-page-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-06-page-agent.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Webページを自然言語で直接操作。JavaScriptだけで動くインページAIエージェント]]></description>
     </item>
     <item>
       <title><![CDATA[Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[株式分析、リサーチレポート、リスク評価までを multi-agent で自動化する金融 AI プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[autoagent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agent の prompt や tools を、人手ではなく meta-agent が自動で改善していく実験基盤。]]></description>
     </item>
   </channel>
 </rss>

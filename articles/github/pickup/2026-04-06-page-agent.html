@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Webページを自然言語で直接操作。JavaScriptだけで動くインページAIエージェント"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>page-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">page-agent</h1>
+      <p class="article-dek">Webページを自然言語で直接操作。JavaScriptだけで動くインページAIエージェント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/alibaba/page-agent" target="_blank" rel="noreferrer">
+              alibaba/page-agent
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Page Agent は、Webページ内で直接動作する JavaScript ベースの GUI エージェントです。自然言語を使用して、Web インターフェースを直感的に操作できます。</p>
+        <p>従来の自動化ツール（ブラウザ拡張機能、Python、ヘッドレスブラウザなど）とは異なり、ページ内の JavaScript だけで完結するのが最大の特徴です。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li>**簡単な統合**: ブラウザ拡張や外部サーバー不要で、インページ JavaScript のみで動作。</li>
+          <li>**テキストベースの DOM 操作**: スクリーンショットやマルチモーダル LLM を使わず、テキストベースで DOM を解析・操作。</li>
+          <li>**任意の LLM 連携**: OpenAI 互換 API など、任意の LLM をバックエンドとして利用可能。</li>
+          <li>**拡張性**: マルチページタスク用の Chrome 拡張機能や、外部からブラウザを制御するための MCP (Model Context Protocol) サーバーも提供。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>完全にインページで動作するため、デプロイや統合が非常に簡単です。数行のコードで既存のWebアプリケーションにAIアシスタント機能を追加でき、開発コストを大幅に削減できます。</p>
+        <p>また、テキストベースでの DOM 操作により、従来の画像認識に頼る方法よりも堅牢で安定した自動化を実現します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <h3>CDN を使用したクイックデモ</h3>
+        <p>HTML に以下のスクリプトを追加するだけで、すぐにデモ用の LLM を使用して試すことができます。</p>
+        <pre><code class="language-html">&lt;script src="https://cdn.jsdelivr.net/npm/page-agent@1.7.1/dist/iife/page-agent.demo.js" crossorigin="true">&lt;/script></code></pre>
+
+        <h3>npm によるインストールと利用</h3>
+        <p>プロジェクトに組み込む場合は、npm を使用します。</p>
+        <pre><code class="language-bash">npm install page-agent</code></pre>
+        <p>基本的な TypeScript コード例:</p>
+        <pre><code class="language-typescript">import { PageAgent } from 'page-agent'
+
+const agent = new PageAgent({
+    model: 'qwen3.5-plus', // 使用するモデル名
+    baseURL: 'https://dashscope.aliyuncs.com/compatible-mode/v1', // API エンドポイント
+    apiKey: 'YOUR_API_KEY', // API キー
+    language: 'ja-JP', // 言語設定
+})
+
+// 自然言語で操作を実行
+await agent.execute('ログインボタンをクリックして')</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>自社サービスにAIアシスタント機能を素早く導入したい SaaS 開発者。</li>
+          <li>複雑なWebフォーム入力を自動化したい業務担当者。</li>
+          <li>Webアプリケーションのアクセシビリティを向上させたい開発者。</li>
+          <li>ブラウザベースのマルチページ自動化ツールを構築したい開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>LLM の精度やレスポンス速度に依存するため、安定した性能を発揮するには適切なモデルの選定とチューニングが必要です。</p>
+        <p>また、DOM 構造の変更には影響を受ける可能性があるため、定期的なテストとメンテナンスが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Page Agent は、Webページの GUI 操作を自然言語で行うための強力な JavaScript ライブラリです。ブラウザ拡張機能や外部サーバーに依存せず、インページで完結する手軽さと、任意の LLM と連携できる柔軟性により、SaaS AI コパイロット、自動フォーム入力、アクセシビリティ向上など、幅広い分野での応用が期待されます。</p>
+        <p>Web オートメーションの新しい形を提案し、開発者がより効率的かつ革新的な Web アプリケーションを構築する手助けとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <ul>
+          <li><a href="https://github.com/alibaba/page-agent" target="_blank" rel="noreferrer">GitHub - alibaba/page-agent</a></li>
+        </ul>
+      </div>
+    </article>
+  </body>
+</html>
