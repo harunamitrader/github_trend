@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 17:15:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 04:03:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-v0-62-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-v0-62-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v0.4.5: Context Freezeとトークン軽量化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v0-4-5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v0-4-5.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[harness-engineering]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-deusyu-harness-engineering-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[サーバー不要でブラウザ完結。AI 内蔵のコード視覚化・探索エンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[fieldtheory-cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[X (Twitter) のブックマークをローカルに完全同期し、高速な全文検索を可能にする CLI ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity v2.1: Vibe Coding 強化とプロジェクト理解の深化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-antigravity-v2-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-antigravity-v2-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vibe Coding によるアプリ生成の高度化、Next.js サポート、Secrets Manager 内蔵によるセキュリティ強化。]]></description>
     </item>
   </channel>
 </rss>

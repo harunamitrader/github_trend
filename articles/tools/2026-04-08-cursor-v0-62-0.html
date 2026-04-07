@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cursor の更新内容を日本語で整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree</h1>
+      <p class="article-dek">人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.62.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cursor 0.62.0 では、Anthropicの最新モデル「Claude 3.5 Sonnet-v2」がネイティブに組み込まれました。これにより、自前のAPIキーを準備せずとも、Proユーザーは高速かつ制限なし（内部的なリミット緩和）で強力なコーディング支援を受けられます。また、複数のファイルにまたがる自動編集やリファクタリングをツリー構造で視覚的にプレビューし、ファイルごとに承認・拒否できる「Composer Tree」機能が追加されました。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>Composer Tree機能は、大規模なコードベースにおける破壊的変更を確認する際に非常に役立ちます。自動エージェントが複数のファイルを書き換えた際、これまではGitディフでしか確認できませんでしたが、ツリー上で「どのファイルになぜ変更が加わったのか」を直感的に把握して部分的にリジェクトすることが可能になりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Claudeの強力な推論能力へのアクセス向上と、安全にコードを書き換えるためのComposer Treeによって、自律型コーディング環境としての完成度がさらに一段高まりました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

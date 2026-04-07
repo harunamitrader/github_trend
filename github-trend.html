@@ -66,27 +66,17 @@
       <main class="layout">
         <section class="card">
           <div class="gh-tab-bar">
-            <button class="gh-tab-btn active" data-cat="github-trending">Trending</button>
-            <button class="gh-tab-btn" data-cat="github-pickup">ピックアップ</button>
+            <button class="gh-tab-btn active" data-cat="github-articles">記事一覧</button>
             <button class="gh-tab-btn" data-cat="github-update-report">更新レポート</button>
           </div>
 
-          <div id="tab-github-trending" class="gh-tab-content active">
+          <div id="tab-github-articles" class="gh-tab-content active">
             <div class="section-head">
-              <p class="eyebrow">Auto Analysis</p>
-              <h2>Trending 記事</h2>
+              <p class="eyebrow">GitHub Archive</p>
+              <h2>ツール・リポジトリ一覧</h2>
             </div>
-            <div class="stats" id="site-stats-trending"></div>
-            <div id="articles-trending" class="archive-list" style="margin-top: 16px;"></div>
-          </div>
-
-          <div id="tab-github-pickup" class="gh-tab-content">
-            <div class="section-head">
-              <p class="eyebrow">Hand Picked</p>
-              <h2>ピックアップ記事</h2>
-            </div>
-            <div class="stats" id="site-stats-pickup"></div>
-            <div id="articles-pickup" class="archive-list"></div>
+            <div class="stats" id="site-stats-articles"></div>
+            <div id="articles-container" style="margin-top: 16px;"></div>
           </div>
 
           <div id="tab-github-update-report" class="gh-tab-content">
@@ -155,37 +145,64 @@
           })
           .map(({ __index, ...article }) => article);
 
-        const trending = all.filter(a => a.category && a.category.trim() === "github-trending");
-        const pickup = all.filter(a => a.category && a.category.trim() === "github-pickup");
+        const articles = all.filter(a => a.category && (a.category.trim() === "github-trending" || a.category.trim() === "github-pickup"));
         const report = all.filter(a => a.category && a.category.trim() === "github-update-report");
 
-        // Trending
-        const statsEl = document.getElementById("site-stats-trending");
-        const latestDate = trending.length > 0 ? (trending[0].publishedAt || "-") : "-";
-        statsEl.innerHTML = `
-          <div class="stat-box"><span>記事数</span><strong>${trending.length}</strong></div>
-          <div class="stat-box"><span>最終投稿日</span><strong>${latestDate}</strong></div>
-          <div class="stat-box"><span>運用</span><strong>自動解析</strong></div>
-        `;
+        // Sort strictly by createdAt descending
+        articles.sort((a, b) => {
+          const dateA = Date.parse(a.createdAt || a.publishedAt || "");
+          const dateB = Date.parse(b.createdAt || b.publishedAt || "");
+          const hasA = !Number.isNaN(dateA);
+          const hasB = !Number.isNaN(dateB);
+          if (hasA && hasB) return dateB - dateA;
+          if (hasA !== hasB) return hasB ? 1 : -1;
+          return 0; // fallback
+        });
 
-        const trendingEl = document.getElementById("articles-trending");
-        trendingEl.innerHTML = trending.length === 0
-          ? '<div class="archive-item"><h3>まだ記事がありません。</h3></div>'
-          : trending.map(a => renderArticle(a)).join("");
-        attachStarHandlers(trendingEl);
-
-        // Pickup
-        const pickupStatsEl = document.getElementById("site-stats-pickup");
-        if (pickupStatsEl) {
-          pickupStatsEl.innerHTML = `
-            <div class="stat-box"><span>記事数</span><strong>${pickup.length}</strong></div>
-          `;
+        // Genre definitions for ordered rendering
+        const genres = [
+          "AIコーディング (CLI本体・拡張機能)",
+          "AIコーディング (プロンプト・開発補助ツール)",
+          "AIエージェント (自律基盤・特化アプリ)",
+          "金融・トレード分析",
+          "メディア作成・Web生成 (動画・画像・UI)",
+          "ナレッジ管理・RAG解析",
+          "スクレイピング・情報収集・セキュリティ",
+          "汎用アプリ・AI基盤・IoT",
+          "学習ガイド・開発アセット",
+          "その他・未分類（ユーティリティ等）"
+        ];
+        
+        // Group articles
+        const grouped = {};
+        for(const g of genres) { grouped[g] = []; }
+        for(const a of articles) {
+           const g = a.genre || "汎用アプリ・AI基盤・IoT"; // fallback
+           if (!grouped[g]) grouped[g] = [];
+           grouped[g].push(a);
         }
-        const pickupEl = document.getElementById("articles-pickup");
-        pickupEl.innerHTML = pickup.length === 0
-          ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだ記事がありません</h3><p>気になったリポジトリの解析記事がここに追加されます。</p></div>'
-          : pickup.map(a => renderArticle(a)).join("");
-        attachStarHandlers(pickupEl);
+
+        // Render articles grouping
+        const containerEl = document.getElementById("articles-container");
+        let html = "";
+        for(const g of genres) {
+           if(grouped[g] && grouped[g].length > 0) {
+              html += `<div class="genre-section" style="margin-bottom: 32px;">`;
+              html += `<h2 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 20px; padding: 12px 16px; background: var(--surface-strong, #f6f8fa); border-left: 4px solid #0969da; border-radius: 4px; color: var(--text-strong);">${g} <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-muted); margin-left: 8px;">(${grouped[g].length} 件)</span></h2>`;
+              html += `<div class="archive-list">`;
+              html += grouped[g].map(a => renderArticle(a)).join("");
+              html += `</div></div>`;
+           }
+        }
+        
+        const statsEl = document.getElementById("site-stats-articles");
+        const latestDate = articles.length > 0 ? (articles[0].publishedAt || "-") : "-";
+        statsEl.innerHTML = `
+          <div class="stat-box"><span>総記事数</span><strong>${articles.length}</strong></div>
+          <div class="stat-box"><span>最新追加</span><strong>${latestDate}</strong></div>
+        `;
+        containerEl.innerHTML = html === "" ? '<div class="archive-item"><h3>まだ記事がありません。</h3></div>' : html;
+        attachStarHandlers(containerEl);
 
         // Report
         const reportEl = document.getElementById("articles-report");
@@ -215,7 +232,15 @@
         function renderArticle(article) {
           const deck = article.dek ?? article.summary ?? "詳細情報はありません。";
           const published = article.publishedAt || "不明";
-          const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">${article.rank}</span>` : "";
+          
+          let originBadge = "";
+          if (article.originType === "trending") {
+             const rankStr = article.rank && article.rank < 99 ? ` (Rank ${article.rank})` : "";
+             originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">Trending${rankStr}</span>`;
+          } else if (article.originType === "pickup" || article.category === "github-pickup") {
+             originBadge = `<span class="rank-label" style="background:#f0fdf4;color:#15803d;border-color:#dcfce7;">Pickup</span>`;
+          }
+
           const serialTag = Number.isFinite(Number(article.serial))
             ? `<span class="serial-badge">#${String(article.serial).padStart(3, "0")}</span>`
             : "";
@@ -231,7 +256,7 @@
                   </div>
                   <div class="archive-meta">
                     <span>${published}</span>
-                    ${rankTag}
+                    ${originBadge}
                     ${repoTag}
                   </div>
                   <p>${deck}</p>

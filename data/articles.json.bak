@@ -17,9 +17,7 @@
             "repoName": "deusyu/harness-engineering",
             "repoUrl": "https://github.com/deusyu/harness-engineering",
             "articleUrl": "./articles/github/pickup/2026-04-07-deusyu-harness-engineering-pickup.html",
-            "serial": 87,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 87
         },
         {
             "category": "github-pickup",
@@ -32,9 +30,7 @@
             "repoName": "kepano/obsidian-skills",
             "repoUrl": "https://github.com/kepano/obsidian-skills",
             "articleUrl": "./articles/github/pickup/2026-04-07-kepano-obsidian-skills-pickup.html",
-            "serial": 86,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 86
         },
         {
             "category": "github-pickup",
@@ -47,9 +43,7 @@
             "repoName": "m8e/graphify",
             "repoUrl": "https://github.com/m8e/graphify",
             "articleUrl": "./articles/github/pickup/2026-04-07-m8e-graphify-pickup.html",
-            "serial": 85,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 85
         },
         {
             "category": "github-pickup",
@@ -62,9 +56,7 @@
             "repoName": "tradesdontlie/tradingview-mcp",
             "repoUrl": "https://github.com/tradesdontlie/tradingview-mcp",
             "articleUrl": "./articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html",
-            "serial": 84,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 84
         },
         {
             "category": "github-pickup",
@@ -77,9 +69,7 @@
             "repoName": "rv64m/autotrade",
             "repoUrl": "https://github.com/rv64m/autotrade",
             "articleUrl": "./articles/github/pickup/2026-04-07-rv64m-autotrade-pickup.html",
-            "serial": 83,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 83
         },
         {
             "category": "github-pickup",
@@ -92,9 +82,7 @@
             "repoName": "openai/codex-plugin-cc",
             "repoUrl": "https://github.com/openai/codex-plugin-cc",
             "articleUrl": "./articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html",
-            "serial": 82,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 82
         },
         {
             "category": "github-pickup",
@@ -107,9 +95,7 @@
             "repoName": "Cedriccmh/claude-code-skill-scrapling",
             "repoUrl": "https://github.com/Cedriccmh/claude-code-skill-scrapling",
             "articleUrl": "./articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html",
-            "serial": 81,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 81
         },
         {
             "category": "github-trending",
@@ -123,9 +109,7 @@
             "repoUrl": "https://github.com/TelegramMessenger/Telegram-iOS",
             "articleUrl": "./articles/github/daily/2026-04-07-telegrammessenger-telegram-ios.html",
             "rank": 9,
-            "serial": 79,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 79
         },
         {
             "category": "github-trending",
@@ -139,9 +123,7 @@
             "repoUrl": "https://github.com/kepano/obsidian-skills",
             "articleUrl": "./articles/github/daily/2026-04-07-kepano-obsidian-skills.html",
             "rank": 10,
-            "serial": 78,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 78
         },
         {
             "category": "github-trending",
@@ -155,9 +137,7 @@
             "repoUrl": "https://github.com/siteboon/claudecodeui",
             "articleUrl": "./articles/github/daily/2026-04-07-siteboon-claudecodeui.html",
             "rank": 15,
-            "serial": 77,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 77
         },
         {
             "category": "github-trending",
@@ -171,9 +151,7 @@
             "repoUrl": "https://github.com/NVIDIA/personaplex",
             "articleUrl": "./articles/github/daily/2026-04-07-nvidia-personaplex.html",
             "rank": 14,
-            "serial": 76,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 76
         },
         {
             "category": "github-trending",
@@ -187,9 +165,7 @@
             "repoUrl": "https://github.com/tobi/qmd",
             "articleUrl": "./articles/github/daily/2026-04-07-tobi-qmd.html",
             "rank": 8,
-            "serial": 75,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 75
         },
         {
             "category": "github-update-report",
@@ -214,9 +190,7 @@
             "repoUrl": "https://github.com/NousResearch/hermes-agent",
             "articleUrl": "./articles/github/daily/2026-04-07-nousresearch-hermes-agent.html",
             "rank": 7,
-            "serial": 73,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 73
         },
         {
             "category": "github-trending",
@@ -230,9 +204,7 @@
             "repoUrl": "https://github.com/KeygraphHQ/shannon",
             "articleUrl": "./articles/github/daily/2026-04-07-keygraphhq-shannon.html",
             "rank": 6,
-            "serial": 72,
-            "originType": "trending",
-            "genre": "スクレイピング・情報収集・セキュリティ"
+            "serial": 72
         },
         {
             "category": "github-trending",
@@ -246,9 +218,7 @@
             "repoUrl": "https://github.com/immich-app/immich",
             "articleUrl": "./articles/github/daily/2026-04-07-immich-app-immich.html",
             "rank": 5,
-            "serial": 71,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 71
         },
         {
             "category": "github-trending",
@@ -262,9 +232,7 @@
             "repoUrl": "https://github.com/google-ai-edge/LiteRT-LM",
             "articleUrl": "./articles/github/daily/2026-04-07-google-ai-edge-litert-lm.html",
             "rank": 4,
-            "serial": 70,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 70
         },
         {
             "category": "github-trending",
@@ -278,9 +246,7 @@
             "repoUrl": "https://github.com/abhigyanpatwari/GitNexus",
             "articleUrl": "./articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html",
             "rank": 1,
-            "serial": 69,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 69
         },
         {
             "category": "github-pickup",
@@ -293,9 +259,7 @@
             "repoName": "afar1/fieldtheory-cli",
             "repoUrl": "https://github.com/afar1/fieldtheory-cli",
             "articleUrl": "./articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html",
-            "serial": 68,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 68
         },
         {
             "category": "ai-tool-log",
@@ -394,9 +358,7 @@
             "repoUrl": "https://github.com/tinykit-studio/tinykit",
             "title": "tinykit",
             "serial": 71,
-            "summary": "プロンプトからWebアプリを自律的に構築・デプロイできるセルフホスト型プラットフォーム。SvelteとPocketBaseをベースにした軽量設計。",
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "summary": "プロンプトからWebアプリを自律的に構築・デプロイできるセルフホスト型プラットフォーム。SvelteとPocketBaseをベースにした軽量設計。"
         },
         {
             "slug": "2026-04-06-unclecode-crawl4ai",
@@ -410,9 +372,7 @@
             "repoUrl": "https://github.com/unclecode/crawl4ai",
             "title": "crawl4ai",
             "serial": 70,
-            "summary": "RAGやAIエージェント向けに最適化されたWebクローラー。ノイズを除去したMarkdown生成やLLMによる構造化データ抽出が可能。",
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "summary": "RAGやAIエージェント向けに最適化されたWebクローラー。ノイズを除去したMarkdown生成やLLMによる構造化データ抽出が可能。"
         },
         {
             "slug": "2026-04-06-badlogic-pi-mono",
@@ -426,9 +386,7 @@
             "repoUrl": "https://github.com/badlogic/pi-mono",
             "title": "pi-mono",
             "serial": 69,
-            "summary": "AIエージェント構築とLLMデプロイを支える統合ツールキット。統一APIやCUI/Web UIコンポーネント、インフラ管理ツールを同梱。",
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "summary": "AIエージェント構築とLLMデプロイを支える統合ツールキット。統一APIやCUI/Web UIコンポーネント、インフラ管理ツールを同梱。"
         },
         {
             "slug": "2026-04-06-ultraworkers-claw-code",
@@ -442,9 +400,7 @@
             "repoUrl": "https://github.com/ultraworkers/claw-code",
             "title": "claw-code",
             "serial": 68,
-            "summary": "Rustで再実装された超高速なAIエージェント・ハーネス。CLIでの自律的なコーディングタスク完結を目指し、GitHubで急速にスターを獲得。",
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "summary": "Rustで再実装された超高速なAIエージェント・ハーネス。CLIでの自律的なコーディングタスク完結を目指し、GitHubで急速にスターを獲得。"
         },
         {
             "slug": "2026-04-06-google-ai-edge-gallery",
@@ -458,9 +414,7 @@
             "repoUrl": "https://github.com/google-ai-edge/gallery",
             "title": "gallery",
             "serial": 67,
-            "summary": "オンデバイスAIの最新ユースケースを紹介するギャラリーアプリ。クラウドを介さずローカルで推論プロセスやマルチモーダル機能を試用可能。",
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "summary": "オンデバイスAIの最新ユースケースを紹介するギャラリーアプリ。クラウドを介さずローカルで推論プロセスやマルチモーダル機能を試用可能。"
         },
         {
             "category": "github-update-report",
@@ -485,9 +439,7 @@
             "repoUrl": "https://github.com/Blaizzy/MLX-VLM",
             "articleUrl": "./articles/github/daily/2026-04-05-blaizzy-mlx-vlm.html",
             "rank": 1,
-            "serial": 58,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 58
         },
         {
             "category": "github-trending",
@@ -501,9 +453,7 @@
             "repoUrl": "https://github.com/telegramdesktop/tdesktop",
             "articleUrl": "./articles/github/daily/2026-04-05-telegramdesktop-tdesktop.html",
             "rank": 5,
-            "serial": 57,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 57
         },
         {
             "category": "github-trending",
@@ -517,9 +467,7 @@
             "repoUrl": "https://github.com/block/goose",
             "articleUrl": "./articles/github/daily/2026-04-05-block-goose.html",
             "rank": 6,
-            "serial": 56,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 56
         },
         {
             "category": "github-trending",
@@ -533,9 +481,7 @@
             "repoUrl": "https://github.com/microsoft/agent-framework",
             "articleUrl": "./articles/github/daily/2026-04-05-microsoft-agent-framework.html",
             "rank": 7,
-            "serial": 55,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 55
         },
         {
             "category": "github-trending",
@@ -549,9 +495,7 @@
             "repoUrl": "https://github.com/f/prompts.chat",
             "articleUrl": "./articles/github/daily/2026-04-05-f-prompts-chat.html",
             "rank": 6,
-            "serial": 54,
-            "originType": "trending",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 54
         },
         {
             "category": "github-trending",
@@ -565,9 +509,7 @@
             "repoUrl": "https://github.com/dmtrKovalenko/fff.nvim",
             "articleUrl": "./articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html",
             "rank": 5,
-            "serial": 53,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 53
         },
         {
             "category": "ai-tool-log",
@@ -636,9 +578,7 @@
             "repoName": "hesreallyhim/awesome-claude-code",
             "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
             "articleUrl": "./articles/github/pickup/2026-04-04-hesreallyhim-awesome-claude-code-pickup.html",
-            "serial": 66,
-            "originType": "pickup",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 66
         },
         {
             "category": "github-pickup",
@@ -651,9 +591,7 @@
             "repoName": "mathewtaylor/devflow",
             "repoUrl": "https://github.com/mathewtaylor/devflow",
             "articleUrl": "./articles/github/pickup/2026-04-04-mathewtaylor-devflow-pickup.html",
-            "serial": 65,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 65
         },
         {
             "category": "github-pickup",
@@ -666,9 +604,7 @@
             "repoName": "ai4finance-foundation/finrobot",
             "repoUrl": "https://github.com/ai4finance-foundation/finrobot",
             "articleUrl": "./articles/github/pickup/2026-04-04-ai4finance-foundation-finrobot-pickup.html",
-            "serial": 64,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 64
         },
         {
             "category": "github-pickup",
@@ -681,9 +617,7 @@
             "repoName": "kevinrgu/autoagent",
             "repoUrl": "https://github.com/kevinrgu/autoagent",
             "articleUrl": "./articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html",
-            "serial": 63,
-            "originType": "pickup",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 63
         },
         {
             "category": "github-update-report",
@@ -708,9 +642,7 @@
             "repoUrl": "https://github.com/letta-ai/claude-subconscious",
             "articleUrl": "./articles/github/daily/2026-04-04-letta-ai-claude-subconscious.html",
             "rank": 5,
-            "serial": 50,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 50
         },
         {
             "category": "github-trending",
@@ -724,9 +656,7 @@
             "repoUrl": "https://github.com/pascalorg/editor",
             "articleUrl": "./articles/github/daily/2026-04-04-pascalorg-editor.html",
             "rank": 4,
-            "serial": 49,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 49
         },
         {
             "category": "github-trending",
@@ -740,9 +670,7 @@
             "repoUrl": "https://github.com/BerriAI/litellm",
             "articleUrl": "./articles/github/daily/2026-04-04-berriai-litellm.html",
             "rank": 3,
-            "serial": 48,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 48
         },
         {
             "category": "github-pickup",
@@ -755,9 +683,7 @@
             "repoName": "ZiYang-xie/WorldGen",
             "repoUrl": "https://github.com/ZiYang-xie/WorldGen",
             "articleUrl": "./articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html",
-            "serial": 62,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 62
         },
         {
             "category": "github-pickup",
@@ -770,9 +696,7 @@
             "repoName": "onyx-dot-app/onyx",
             "repoUrl": "https://github.com/onyx-dot-app/onyx",
             "articleUrl": "./articles/github/pickup/2026-04-04-onyx-dot-app-onyx-pickup.html",
-            "serial": 61,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 61
         },
         {
             "category": "ai-tool-log",
@@ -799,9 +723,7 @@
             "repoName": "hsliuping/TradingAgents-CN",
             "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
             "articleUrl": "./articles/github/pickup/2026-04-03-hsliuping-tradingagents-cn-pickup.html",
-            "serial": 60,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 60
         },
         {
             "category": "github-pickup",
@@ -814,9 +736,7 @@
             "repoName": "poco-ai/poco-claw",
             "repoUrl": "https://github.com/poco-ai/poco-claw",
             "articleUrl": "./articles/github/pickup/2026-04-03-poco-ai-poco-claw.html",
-            "serial": 59,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 59
         },
         {
             "category": "github-pickup",
@@ -829,9 +749,7 @@
             "repoName": "webadderall/Recordly",
             "repoUrl": "https://github.com/webadderall/Recordly",
             "articleUrl": "./articles/github/pickup/2026-04-03-webadderall-recordly.html",
-            "serial": 58,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 58
         },
         {
             "category": "github-update-report",
@@ -855,9 +773,7 @@
             "repoName": "siddharthvaddem/openscreen",
             "repoUrl": "https://github.com/siddharthvaddem/openscreen",
             "articleUrl": "./articles/github/pickup/2026-04-03-siddharthvaddem-openscreen-pickup.html",
-            "serial": 57,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 57
         },
         {
             "category": "github-pickup",
@@ -870,9 +786,7 @@
             "repoName": "NousResearch/hermes-agent-self-evolution",
             "repoUrl": "https://github.com/NousResearch/hermes-agent-self-evolution",
             "articleUrl": "./articles/github/pickup/2026-04-03-nousresearch-hermes-agent-self-evolution.html",
-            "serial": 56,
-            "originType": "pickup",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 56
         },
         {
             "category": "github-pickup",
@@ -885,9 +799,7 @@
             "repoName": "0Chencc/clawgod",
             "repoUrl": "https://github.com/0Chencc/clawgod",
             "articleUrl": "./articles/github/pickup/2026-04-03-0chencc-clawgod.html",
-            "serial": 55,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 55
         },
         {
             "category": "github-pickup",
@@ -900,9 +812,7 @@
             "repoName": "MiniMax-AI/skills",
             "repoUrl": "https://github.com/MiniMax-AI/skills/",
             "articleUrl": "./articles/github/pickup/2026-04-03-minimax-ai-skills.html",
-            "serial": 54,
-            "originType": "pickup",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 54
         },
         {
             "category": "github-trending",
@@ -916,9 +826,7 @@
             "repoUrl": "https://github.com/asgeirtj/system_prompts_leaks",
             "articleUrl": "./articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html",
             "rank": 3,
-            "serial": 46,
-            "originType": "trending",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 46
         },
         {
             "category": "github-trending",
@@ -932,9 +840,7 @@
             "repoUrl": "https://github.com/Yeachan-Heo/oh-my-codex",
             "articleUrl": "./articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html",
             "rank": 2,
-            "serial": 45,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 45
         },
         {
             "category": "github-trending",
@@ -948,9 +854,7 @@
             "repoUrl": "https://github.com/siddharthvaddem/openscreen",
             "articleUrl": "./articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html",
             "rank": 1,
-            "serial": 44,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 44
         },
         {
             "category": "github-pickup",
@@ -963,9 +867,7 @@
             "repoName": "openagents-org/openagents",
             "repoUrl": "https://github.com/openagents-org/openagents",
             "articleUrl": "./articles/github/pickup/2026-04-03-openagents-org-openagents.html",
-            "serial": 53,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 53
         },
         {
             "category": "ai-tool-log",
@@ -992,9 +894,7 @@
             "repoName": "tradesdontlie/tradingview-mcp",
             "repoUrl": "https://github.com/tradesdontlie/tradingview-mcp",
             "articleUrl": "./articles/github/pickup/2026-04-03-tradesdontlie-tradingview-mcp.html",
-            "serial": 52,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 52
         },
         {
             "category": "github-pickup",
@@ -1007,9 +907,7 @@
             "repoName": "open-gitagent/clawless",
             "repoUrl": "https://github.com/open-gitagent/clawless",
             "articleUrl": "./articles/github/pickup/2026-04-03-open-gitagent-clawless.html",
-            "serial": 51,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 51
         },
         {
             "category": "ai-tool-log",
@@ -1158,9 +1056,7 @@
             "repoName": "Anand-Swamy/stockbot",
             "repoUrl": "https://github.com/Anand-Swamy/stockbot",
             "articleUrl": "./articles/github/pickup/2026-04-02-anand-swamy-stockbot.html",
-            "serial": 50,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 50
         },
         {
             "category": "github-pickup",
@@ -1173,9 +1069,7 @@
             "repoName": "flipbit03/terminal-use",
             "repoUrl": "https://github.com/flipbit03/terminal-use",
             "articleUrl": "./articles/github/pickup/2026-04-02-flipbit03-terminal-use.html",
-            "serial": 49,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 49
         },
         {
             "category": "github-pickup",
@@ -1188,9 +1082,7 @@
             "repoName": "jipraks/yt-short-clipper",
             "repoUrl": "https://github.com/jipraks/yt-short-clipper",
             "articleUrl": "./articles/github/pickup/2026-04-02-jipraks-yt-short-clipper.html",
-            "serial": 48,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 48
         },
         {
             "category": "github-pickup",
@@ -1203,9 +1095,7 @@
             "repoName": "generativereality/ccremote",
             "repoUrl": "https://github.com/generativereality/ccremote",
             "articleUrl": "./articles/github/pickup/2026-04-02-generativereality-ccremote.html",
-            "serial": 47,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 47
         },
         {
             "category": "github-pickup",
@@ -1218,9 +1108,7 @@
             "repoName": "drona23/claude-token-efficient",
             "repoUrl": "https://github.com/drona23/claude-token-efficient",
             "articleUrl": "./articles/github/pickup/2026-04-02-drona23-claude-token-efficient.html",
-            "serial": 46,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 46
         },
         {
             "category": "github-pickup",
@@ -1233,9 +1121,7 @@
             "repoName": "jjongguet/oh-my-gemini",
             "repoUrl": "https://github.com/jjongguet/oh-my-gemini",
             "articleUrl": "./articles/github/pickup/2026-04-02-jjongguet-oh-my-gemini.html",
-            "serial": 45,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 45
         },
         {
             "category": "github-trending",
@@ -1249,9 +1135,7 @@
             "repoUrl": "https://github.com/jwasham/coding-interview-university",
             "articleUrl": "./articles/github/daily/2026-04-02-jwasham-coding-interview-university.html",
             "rank": 14,
-            "serial": 43,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 43
         },
         {
             "category": "github-trending",
@@ -1265,9 +1149,7 @@
             "repoUrl": "https://github.com/OpenBMB/ChatDev",
             "articleUrl": "./articles/github/daily/2026-04-02-openbmb-chatdev.html",
             "rank": 13,
-            "serial": 42,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 42
         },
         {
             "category": "github-pickup",
@@ -1280,9 +1162,7 @@
             "repoName": "D4Vinci/Scrapling",
             "repoUrl": "https://github.com/D4Vinci/Scrapling",
             "articleUrl": "./articles/github/pickup/2026-04-02-d4vinci-scrapling.html",
-            "serial": 44,
-            "originType": "pickup",
-            "genre": "スクレイピング・情報収集・セキュリティ"
+            "serial": 44
         },
         {
             "category": "github-pickup",
@@ -1295,9 +1175,7 @@
             "repoName": "ramjke/Translumo",
             "repoUrl": "https://github.com/ramjke/Translumo",
             "articleUrl": "./articles/github/pickup/2026-04-02-ramjke-translumo.html",
-            "serial": 43,
-            "originType": "pickup",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 43
         },
         {
             "category": "ai-tool-log",
@@ -1363,9 +1241,7 @@
             "repoUrl": "https://github.com/vas3k/TaxHacker",
             "articleUrl": "./articles/github/daily/2026-04-01-vas3k-taxhacker.html",
             "rank": 12,
-            "serial": 40,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 40
         },
         {
             "category": "github-trending",
@@ -1379,9 +1255,7 @@
             "repoUrl": "https://github.com/neovim/neovim",
             "articleUrl": "./articles/github/daily/2026-04-01-neovim-neovim.html",
             "rank": 11,
-            "serial": 39,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 39
         },
         {
             "category": "github-trending",
@@ -1395,9 +1269,7 @@
             "repoUrl": "https://github.com/Dimillian/Skills",
             "articleUrl": "./articles/github/daily/2026-04-01-dimillian-skills.html",
             "rank": 9,
-            "serial": 38,
-            "originType": "trending",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 38
         },
         {
             "category": "github-trending",
@@ -1411,9 +1283,7 @@
             "repoUrl": "https://github.com/PaddlePaddle/PaddleOCR",
             "articleUrl": "./articles/github/daily/2026-04-01-paddlepaddle-paddleocr.html",
             "rank": 8,
-            "serial": 37,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 37
         },
         {
             "category": "github-trending",
@@ -1427,9 +1297,7 @@
             "repoUrl": "https://github.com/microsoft/agent-lightning",
             "articleUrl": "./articles/github/daily/2026-04-01-microsoft-agent-lightning.html",
             "rank": 7,
-            "serial": 36,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 36
         },
         {
             "category": "github-pickup",
@@ -1442,9 +1310,7 @@
             "repoName": "LeoYeAI/openclaw-auto-dream",
             "repoUrl": "https://github.com/LeoYeAI/openclaw-auto-dream",
             "articleUrl": "./articles/github/pickup/2026-04-01-leoyeai-openclaw-auto-dream.html",
-            "serial": 42,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 42
         },
         {
             "category": "github-pickup",
@@ -1457,9 +1323,7 @@
             "repoName": "Gitlawb/openclaude",
             "repoUrl": "https://github.com/Gitlawb/openclaude",
             "articleUrl": "./articles/github/pickup/2026-04-01-gitlawb-openclaude.html",
-            "serial": 41,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 41
         },
         {
             "category": "github-pickup",
@@ -1472,9 +1336,7 @@
             "repoName": "instructkr/claw-code",
             "repoUrl": "https://github.com/instructkr/claw-code",
             "articleUrl": "./articles/github/pickup/2026-04-01-instructkr-claw-code.html",
-            "serial": 40,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 40
         },
         {
             "category": "github-pickup",
@@ -1487,9 +1349,7 @@
             "repoName": "paoloanzn/free-code",
             "repoUrl": "https://github.com/paoloanzn/free-code",
             "articleUrl": "./articles/github/pickup/2026-04-01-paoloanzn-free-code.html",
-            "serial": 39,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 39
         },
         {
             "category": "ai-tool-log",
@@ -1618,9 +1478,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-nikilster-clawflows.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T21:21:59+09:00",
-            "serial": 38,
-            "originType": "pickup",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 38
         },
         {
             "category": "github-pickup",
@@ -1634,9 +1492,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-trading-agents.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T19:25:30+09:00",
-            "serial": 37,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 37
         },
         {
             "category": "github-pickup",
@@ -1650,9 +1506,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-hippo-memory.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T19:21:50+09:00",
-            "serial": 36,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 36
         },
         {
             "category": "github-pickup",
@@ -1666,9 +1520,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-claude-token-counter.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:41:01+09:00",
-            "serial": 35,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 35
         },
         {
             "category": "github-pickup",
@@ -1682,9 +1534,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-praison-ai.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:41:01+09:00",
-            "serial": 34,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 34
         },
         {
             "category": "github-pickup",
@@ -1698,9 +1548,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-crucix.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:20:28+09:00",
-            "serial": 33,
-            "originType": "pickup",
-            "genre": "スクレイピング・情報収集・セキュリティ"
+            "serial": 33
         },
         {
             "category": "github-pickup",
@@ -1714,9 +1562,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-ai-marketing-skills.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:15:21+09:00",
-            "serial": 32,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 32
         },
         {
             "category": "github-pickup",
@@ -1730,9 +1576,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-studycraft.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:13:35+09:00",
-            "serial": 31,
-            "originType": "pickup",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 31
         },
         {
             "category": "github-pickup",
@@ -1746,9 +1590,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-31-options-portfolio-backtester.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-31T12:07:13+09:00",
-            "serial": 30,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 30
         },
         {
             "category": "github-trending",
@@ -1762,9 +1604,7 @@
             "articleUrl": "./articles/github/daily/2026-03-31-claude-code-best-practice.html",
             "rank": 4,
             "createdAt": "2026-03-31T07:03:05+09:00",
-            "serial": 31,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 31
         },
         {
             "category": "github-trending",
@@ -1778,9 +1618,7 @@
             "articleUrl": "./articles/github/daily/2026-03-31-dev-tunnels.html",
             "rank": 12,
             "createdAt": "2026-03-31T07:03:05+09:00",
-            "serial": 35,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 35
         },
         {
             "category": "github-trending",
@@ -1794,9 +1632,7 @@
             "articleUrl": "./articles/github/daily/2026-03-31-fastfetch.html",
             "rank": 10,
             "createdAt": "2026-03-31T07:03:05+09:00",
-            "serial": 34,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 34
         },
         {
             "category": "github-trending",
@@ -1810,9 +1646,7 @@
             "articleUrl": "./articles/github/daily/2026-03-31-freecodecamp.html",
             "rank": 7,
             "createdAt": "2026-03-31T07:03:05+09:00",
-            "serial": 32,
-            "originType": "trending",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 32
         },
         {
             "category": "github-trending",
@@ -1826,9 +1660,7 @@
             "articleUrl": "./articles/github/daily/2026-03-31-sherlock.html",
             "rank": 8,
             "createdAt": "2026-03-31T07:03:05+09:00",
-            "serial": 33,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 33
         },
         {
             "category": "github-update-report",
@@ -1977,9 +1809,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-liquidos-ai-autoagents.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T21:25:24+09:00",
-            "serial": 29,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 29
         },
         {
             "category": "github-pickup",
@@ -1993,9 +1823,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-0xnyk-awesome-hermes-agent.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T19:27:31+09:00",
-            "serial": 28,
-            "originType": "pickup",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 28
         },
         {
             "category": "github-pickup",
@@ -2009,9 +1837,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-m5stack-stackchan.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T12:41:35+09:00",
-            "serial": 27,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 27
         },
         {
             "category": "github-pickup",
@@ -2025,9 +1851,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-akii09-pdfx.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T12:37:55+09:00",
-            "serial": 26,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 26
         },
         {
             "category": "github-pickup",
@@ -2041,9 +1865,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-hoxigo-podcats.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T12:37:55+09:00",
-            "serial": 25,
-            "originType": "pickup",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 25
         },
         {
             "category": "github-pickup",
@@ -2057,9 +1879,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-nousresearch-pokemon-agent.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T12:21:42+09:00",
-            "serial": 24,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 24
         },
         {
             "category": "github-pickup",
@@ -2073,9 +1893,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-ericosiu-ai-marketing-skills.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T10:26:29+09:00",
-            "serial": 23,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 23
         },
         {
             "category": "github-pickup",
@@ -2089,9 +1907,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-elder-plinius-v3sp3r.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T08:07:23+09:00",
-            "serial": 21,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 21
         },
         {
             "category": "github-pickup",
@@ -2105,9 +1921,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-google-adk-go.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T08:07:23+09:00",
-            "serial": 22,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 22
         },
         {
             "category": "github-pickup",
@@ -2121,9 +1935,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-30-jatinkrmalik-llmfeeder.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-30T08:07:23+09:00",
-            "serial": 20,
-            "originType": "pickup",
-            "genre": "スクレイピング・情報収集・セキュリティ"
+            "serial": 20
         },
         {
             "category": "github-trending",
@@ -2137,9 +1949,7 @@
             "articleUrl": "./articles/github/daily/2026-03-30-luongnv89-claude-howto.html",
             "rank": 1,
             "createdAt": "2026-03-30T05:10:16+09:00",
-            "serial": 24,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 24
         },
         {
             "category": "github-trending",
@@ -2153,9 +1963,7 @@
             "articleUrl": "./articles/github/daily/2026-03-30-microsoft-vibevoice.html",
             "rank": 3,
             "createdAt": "2026-03-30T05:10:16+09:00",
-            "serial": 25,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 25
         },
         {
             "category": "github-trending",
@@ -2169,9 +1977,7 @@
             "articleUrl": "./articles/github/daily/2026-03-30-nousresearch-hermes-agent.html",
             "rank": 4,
             "createdAt": "2026-03-30T05:10:16+09:00",
-            "serial": 26,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 26
         },
         {
             "category": "github-trending",
@@ -2185,9 +1991,7 @@
             "articleUrl": "./articles/github/daily/2026-03-30-shareai-lab-learn-claude-code.html",
             "rank": 10,
             "createdAt": "2026-03-30T05:10:16+09:00",
-            "serial": 28,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 28
         },
         {
             "category": "github-trending",
@@ -2201,9 +2005,7 @@
             "articleUrl": "./articles/github/daily/2026-03-30-thedotmack-claude-mem.html",
             "rank": 7,
             "createdAt": "2026-03-30T05:10:16+09:00",
-            "serial": 27,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 27
         },
         {
             "category": "github-update-report",
@@ -2255,9 +2057,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-logto.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:37:23+09:00",
-            "serial": 19,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 19
         },
         {
             "category": "github-pickup",
@@ -2271,9 +2071,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-atomic-chat.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:28:49+09:00",
-            "serial": 18,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 18
         },
         {
             "category": "github-pickup",
@@ -2287,9 +2085,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-deepeyesv2.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:26:40+09:00",
-            "serial": 17,
-            "originType": "pickup",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 17
         },
         {
             "category": "github-pickup",
@@ -2303,9 +2099,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-google-research-timesfm.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:20:45+09:00",
-            "serial": 16,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 16
         },
         {
             "category": "github-pickup",
@@ -2319,9 +2113,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-panniantong-agent-reach.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:03:25+09:00",
-            "serial": 15,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 15
         },
         {
             "category": "github-pickup",
@@ -2335,9 +2127,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-copilot-cli-for-beginners.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T21:01:39+09:00",
-            "serial": 14,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 14
         },
         {
             "category": "github-pickup",
@@ -2351,9 +2141,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-openbb.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T20:59:03+09:00",
-            "serial": 13,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 13
         },
         {
             "category": "github-pickup",
@@ -2367,9 +2155,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-digitalsamba-claude-code-video.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T19:32:40+09:00",
-            "serial": 12,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 12
         },
         {
             "category": "github-pickup",
@@ -2383,9 +2169,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-hkuds-openspace.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T19:32:40+09:00",
-            "serial": 11,
-            "originType": "pickup",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 11
         },
         {
             "category": "github-pickup",
@@ -2399,9 +2183,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-willhjw-ib-chart.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T19:32:40+09:00",
-            "serial": 10,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 10
         },
         {
             "category": "github-pickup",
@@ -2415,9 +2197,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-thesvg.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T18:45:56+09:00",
-            "serial": 9,
-            "originType": "pickup",
-            "genre": "学習ガイド・開発アセット"
+            "serial": 9
         },
         {
             "category": "github-pickup",
@@ -2431,9 +2211,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-torchtrade.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T18:33:20+09:00",
-            "serial": 8,
-            "originType": "pickup",
-            "genre": "金融・トレード分析"
+            "serial": 8
         },
         {
             "category": "github-pickup",
@@ -2447,9 +2225,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-anthropics-skill-creator.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 6,
-            "originType": "pickup",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 6
         },
         {
             "category": "github-pickup",
@@ -2463,9 +2239,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-continuedev-continue.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 3,
-            "originType": "pickup",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 3
         },
         {
             "category": "github-pickup",
@@ -2479,9 +2253,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-gsd-build-get-shit-done.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 5,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 5
         },
         {
             "category": "github-pickup",
@@ -2495,9 +2267,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-microsoft-autogen.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 2,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 2
         },
         {
             "category": "github-pickup",
@@ -2511,9 +2281,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-supabase-cli.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 7,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 7
         },
         {
             "category": "github-pickup",
@@ -2527,9 +2295,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-29-teng-lin-notebooklm-py.html",
             "rank": "ピックアップ",
             "createdAt": "2026-03-29T16:55:44+09:00",
-            "serial": 4,
-            "originType": "pickup",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 4
         },
         {
             "category": "github-update-report",
@@ -2557,9 +2323,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-apache-superset.html",
             "rank": 9,
             "createdAt": "2026-03-29T15:54:26+09:00",
-            "serial": 22,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 22
         },
         {
             "category": "github-trending",
@@ -2573,9 +2337,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-datalab-to-chandra.html",
             "rank": 7,
             "createdAt": "2026-03-29T15:33:56+09:00",
-            "serial": 21,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 21
         },
         {
             "category": "github-trending",
@@ -2589,9 +2351,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-onyx-dot-app-onyx.html",
             "rank": 6,
             "createdAt": "2026-03-29T15:33:56+09:00",
-            "serial": 20,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 20
         },
         {
             "category": "github-trending",
@@ -2605,9 +2365,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-sakanaai-ai-scientist-v2.html",
             "rank": 3,
             "createdAt": "2026-03-29T15:33:56+09:00",
-            "serial": 19,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 19
         },
         {
             "category": "github-trending",
@@ -2621,9 +2379,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-hacksider-deep-live-cam.html",
             "rank": 1,
             "createdAt": "2026-03-29T15:32:45+09:00",
-            "serial": 17,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 17
         },
         {
             "category": "github-trending",
@@ -2637,9 +2393,7 @@
             "articleUrl": "./articles/github/daily/2026-03-29-obra-superpowers.html",
             "rank": 2,
             "createdAt": "2026-03-29T15:32:45+09:00",
-            "serial": 18,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 18
         },
         {
             "category": "ai-tool-log",
@@ -2725,9 +2479,7 @@
             "articleUrl": "./articles/github/daily/2026-03-27-agentscope-ai-agentscope.html",
             "rank": 7,
             "createdAt": "2026-03-27T05:20:45+09:00",
-            "serial": 15,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 15
         },
         {
             "category": "github-trending",
@@ -2741,9 +2493,7 @@
             "articleUrl": "./articles/github/daily/2026-03-27-twentyhq-twenty.html",
             "rank": 8,
             "createdAt": "2026-03-27T05:20:45+09:00",
-            "serial": 16,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 16
         },
         {
             "category": "github-trending",
@@ -2757,9 +2507,7 @@
             "articleUrl": "./articles/github/daily/2026-03-27-Vaibhavs10-insanely-fast-whisper.html",
             "rank": 6,
             "createdAt": "2026-03-27T05:20:45+09:00",
-            "serial": 14,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 14
         },
         {
             "category": "github-trending",
@@ -2773,9 +2521,7 @@
             "articleUrl": "./articles/github/daily/2026-03-27-virattt-dexter.html",
             "rank": 3,
             "createdAt": "2026-03-27T05:20:45+09:00",
-            "serial": 13,
-            "originType": "trending",
-            "genre": "金融・トレード分析"
+            "serial": 13
         },
         {
             "category": "github-trending",
@@ -2789,9 +2535,7 @@
             "articleUrl": "./articles/github/daily/2026-03-27-Yeachan-Heo-oh-my-claudecode.html",
             "rank": 2,
             "createdAt": "2026-03-27T05:20:45+09:00",
-            "serial": 12,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 12
         },
         {
             "category": "ai-tool-log",
@@ -2829,9 +2573,7 @@
             "articleUrl": "./articles/github/pickup/2026-03-26-cccbot.html",
             "rank": 999,
             "createdAt": "2026-03-26T16:01:52+09:00",
-            "serial": 1,
-            "originType": "pickup",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 1
         },
         {
             "category": "github-trending",
@@ -2845,9 +2587,7 @@
             "articleUrl": "./articles/github/daily/2026-03-26-hsliuping-tradingagents-cn.html",
             "rank": 12,
             "createdAt": "2026-03-26T10:07:57+09:00",
-            "serial": 11,
-            "originType": "trending",
-            "genre": "金融・トレード分析"
+            "serial": 11
         },
         {
             "category": "github-trending",
@@ -2861,9 +2601,7 @@
             "articleUrl": "./articles/github/daily/2026-03-26-mvanhorn-last30days-skill.html",
             "rank": 1,
             "createdAt": "2026-03-26T10:07:57+09:00",
-            "serial": 8,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 8
         },
         {
             "category": "github-trending",
@@ -2877,9 +2615,7 @@
             "articleUrl": "./articles/github/daily/2026-03-26-ruvnet-ruview.html",
             "rank": 8,
             "createdAt": "2026-03-26T10:07:57+09:00",
-            "serial": 9,
-            "originType": "trending",
-            "genre": "汎用アプリ・AI基盤・IoT"
+            "serial": 9
         },
         {
             "category": "github-trending",
@@ -2893,9 +2629,7 @@
             "articleUrl": "./articles/github/daily/2026-03-26-supermemoryai-supermemory.html",
             "rank": 9,
             "createdAt": "2026-03-26T10:07:57+09:00",
-            "serial": 10,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 10
         },
         {
             "category": "github-trending",
@@ -2909,9 +2643,7 @@
             "articleUrl": "./articles/github/daily/2026-03-26-ruvnet-ruflo.html",
             "rank": 6,
             "createdAt": "2026-03-26T10:04:33+09:00",
-            "serial": 7,
-            "originType": "trending",
-            "genre": "AIコーディング (CLI本体・拡張機能)"
+            "serial": 7
         },
         {
             "category": "ai-tool-log",
@@ -3081,9 +2813,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-browser-use-browser-use.html",
             "rank": 5,
             "createdAt": "2026-03-24T12:55:44+09:00",
-            "serial": 5,
-            "originType": "trending",
-            "genre": "メディア作成・Web生成 (動画・画像・UI)"
+            "serial": 5
         },
         {
             "category": "github-trending",
@@ -3097,9 +2827,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-crosstalk-solutions-project-nomad.html",
             "rank": 3,
             "createdAt": "2026-03-24T12:55:44+09:00",
-            "serial": 3,
-            "originType": "trending",
-            "genre": "ナレッジ管理・RAG解析"
+            "serial": 3
         },
         {
             "category": "github-trending",
@@ -3113,9 +2841,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-fujiwarachoki-moneyprinterv2.html",
             "rank": 1,
             "createdAt": "2026-03-24T12:55:44+09:00",
-            "serial": 2,
-            "originType": "trending",
-            "genre": "金融・トレード分析"
+            "serial": 2
         },
         {
             "category": "github-trending",
@@ -3129,9 +2855,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-tauricresearch-tradingagents.html",
             "rank": 6,
             "createdAt": "2026-03-24T12:55:44+09:00",
-            "serial": 6,
-            "originType": "trending",
-            "genre": "金融・トレード分析"
+            "serial": 6
         },
         {
             "category": "github-trending",
@@ -3145,9 +2869,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-vxcontrol-pentagi.html",
             "rank": 4,
             "createdAt": "2026-03-24T12:55:44+09:00",
-            "serial": 4,
-            "originType": "trending",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
+            "serial": 4
         },
         {
             "category": "github-trending",
@@ -3161,9 +2883,7 @@
             "articleUrl": "./articles/github/daily/2026-03-24-bytedance-deer-flow.html",
             "rank": 2,
             "createdAt": "2026-03-24T12:34:14+09:00",
-            "serial": 1,
-            "originType": "trending",
-            "genre": "AIコーディング (プロンプト・開発補助ツール)"
+            "serial": 1
         },
         {
             "category": "ai-tool-log",
@@ -3656,29 +3376,7 @@
             "repoName": "alibaba/page-agent",
             "repoUrl": "https://github.com/alibaba/page-agent",
             "articleUrl": "./articles/github/pickup/2026-04-06-page-agent.html",
-            "serial": 67,
-            "originType": "pickup",
-            "genre": "AIエージェント (自律基盤・特化アプリ)"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-cursor-v0-62-0",
-            "title": "Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree",
-            "dek": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
-            "summary": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
-            "publishedAt": "2026-04-08",
-            "toolName": "Cursor",
-            "articleUrl": "./articles/tools/2026-04-08-cursor-v0-62-0.html"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-claude-code-v0-4-5",
-            "title": "Claude Code v0.4.5: Context Freezeとトークン軽量化",
-            "dek": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
-            "summary": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
-            "publishedAt": "2026-04-08",
-            "toolName": "Claude Code",
-            "articleUrl": "./articles/tools/2026-04-08-claude-code-v0-4-5.html"
+            "serial": 67
         }
     ]
 }
