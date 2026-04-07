@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 06:29:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 17:15:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[harness-engineering]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-deusyu-harness-engineering-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-deusyu-harness-engineering-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI発、自律型AIエージェントを安全かつ確実に制御するための次世代設計思想。]]></description>
+    </item>
     <item>
       <title><![CDATA[obsidian-skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-kepano-obsidian-skills-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vibe Coding によるアプリ生成の高度化、Next.js サポート、Secrets Manager 内蔵によるセキュリティ強化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.1.5-rc1: Plan Mode の安定化とマルチファイル・トランザクション]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-grok-cli-v1-1-5-rc1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-grok-cli-v1-1-5-rc1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数ファイルへのアトミックな変更、失敗時の自動ロールバック、Plan Mode のユーザビリティ向上。]]></description>
     </item>
   </channel>
 </rss>
