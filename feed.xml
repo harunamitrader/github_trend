@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 05:44:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 10:16:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[codex-plugin-cc]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-code-skill-scrapling]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。]]></description>
+    </item>
     <item>
       <title><![CDATA[Telegram-iOS]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-telegrammessenger-telegram-ios.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Lovableやv0のオープンソース代替を目指す、プロンプトからWebアプリを構築・デプロイできるセルフホスト型エージェント・プラットフォーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[crawl4ai]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-unclecode-crawl4ai.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-unclecode-crawl4ai.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[RAGやAIエージェントに最適化された、LLMフレンドリーな構造化データを出力するオープンソースWebクローラー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pi-mono]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-badlogic-pi-mono.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-badlogic-pi-mono.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Unified API、コーディングエージェント、TUIライブラリまでを網羅したAIエージェント開発のための包括的モノリポジトリ]]></description>
     </item>
   </channel>
 </rss>

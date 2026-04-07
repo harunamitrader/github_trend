@@ -7,6 +7,32 @@
     },
     "articles": [
         {
+            "category": "github-pickup",
+            "slug": "2026-04-07-openai-codex-plugin-cc-pickup",
+            "title": "codex-plugin-cc",
+            "dek": "Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。",
+            "summary": "Claude Code内からOpenAIのモデル（Codex/GPT-4o）を呼び出し、コードレビューやタスクの委譲を行うためのプラグイン。/codex:review や /codex:rescue などのコマンドにより、モデルの適材適所な使い分けが可能になります。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:06:00+09:00",
+            "repoName": "openai/codex-plugin-cc",
+            "repoUrl": "https://github.com/openai/codex-plugin-cc",
+            "articleUrl": "./articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html",
+            "serial": 82
+        },
+        {
+            "category": "github-pickup",
+            "slug": "2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup",
+            "title": "claude-code-skill-scrapling",
+            "dek": "Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。",
+            "summary": "Claude Code用のWebスクレイピングスキル。強力なライブラリ「scrapling」をベースに、最適なフェッチャーの自動選択やCloudflareバイパス機能を備え、エージェントの外部情報取得能力を大幅に拡張します。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:05:00+09:00",
+            "repoName": "Cedriccmh/claude-code-skill-scrapling",
+            "repoUrl": "https://github.com/Cedriccmh/claude-code-skill-scrapling",
+            "articleUrl": "./articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html",
+            "serial": 81
+        },
+        {
             "category": "github-trending",
             "slug": "2026-04-07-telegrammessenger-telegram-ios",
             "title": "Telegram-iOS",
