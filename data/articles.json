@@ -8,6 +8,74 @@
     "articles": [
         {
             "category": "ai-tool-log",
+            "slug": "2026-04-08-claude-sonnet-4-5-released",
+            "title": "Claude Sonnet 4.5: 感情的インテリジェンスの飛躍的向上と「メソッド俳優」のような振る舞い",
+            "dek": "感情的な文脈への理解が深まり、特定の状況においてより適切なパターンを活性化させる能力が強化されました。",
+            "summary": "Anthropicが最新モデル「Claude Sonnet 4.5」をリリース。感情的インテリジェンスの向上により、ユーザーの状況に応じた「メソッド俳優」のような柔軟な応答が可能になりました。",
+            "publishedAt": "2026-04-08",
+            "createdAt": "2026-04-08T15:00:00+09:00",
+            "toolName": "Claude",
+            "articleUrl": "./articles/tools/2026-04-08-claude-sonnet-4-5-released.html",
+            "serial": 95
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-gemini-mental-health-protection",
+            "title": "Google Gemini: メンタルヘルス保護機能の強化と危機管理インターフェースの導入",
+            "dek": "ユーザーが自傷行為や危機的な状況を示唆した場合、相談窓口へ即座に繋がる「ワンタッチ」インターフェースを表示するアップデートが行われました。",
+            "summary": "GoogleはGeminiにおいてメンタルヘルス保護機能を強化。自傷行為や危機の兆候を検知し、相談窓口へ繋ぐインターフェースを導入。未成年者向けのガードレールも強化されました。",
+            "publishedAt": "2026-04-08",
+            "createdAt": "2026-04-08T14:30:00+09:00",
+            "toolName": "Gemini",
+            "articleUrl": "./articles/tools/2026-04-08-gemini-mental-health-protection.html",
+            "serial": 94
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-cursor-v0-62-0",
+            "title": "Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree",
+            "dek": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
+            "summary": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
+            "publishedAt": "2026-04-08",
+            "toolName": "Cursor",
+            "articleUrl": "./articles/tools/2026-04-08-cursor-v0-62-0.html",
+            "serial": 93
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-claude-code-v0-4-5",
+            "title": "Claude Code v0.4.5: Context Freezeとトークン軽量化",
+            "dek": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
+            "summary": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
+            "publishedAt": "2026-04-08",
+            "toolName": "Claude Code",
+            "articleUrl": "./articles/tools/2026-04-08-claude-code-v0-4-5.html",
+            "serial": 92
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-notebooklm-update",
+            "title": "NotebookLM: リアルタイム同期とグラフ視覚化の実装",
+            "dek": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
+            "summary": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
+            "publishedAt": "2026-04-08",
+            "toolName": "NotebookLM",
+            "articleUrl": "./articles/tools/2026-04-08-notebooklm-update.html",
+            "serial": 91
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-perplexity-update",
+            "title": "Perplexity: Deep Dive Workspaceの導入",
+            "dek": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
+            "summary": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
+            "publishedAt": "2026-04-08",
+            "toolName": "Perplexity",
+            "articleUrl": "./articles/tools/2026-04-08-perplexity-update.html",
+            "serial": 90
+        },
+        {
+            "category": "ai-tool-log",
             "slug": "2026-04-07-github-copilot-cli-v1-0-20-byok-local-models",
             "title": "GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応",
             "dek": "自社モデルやローカル LLM (Ollama) を推論エンジンとして使用可能に。オフラインモードも追加。",
@@ -3683,46 +3751,6 @@
             "serial": 67,
             "originType": "pickup",
             "genre": "AIエージェント (自律基盤・特化アプリ)"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-cursor-v0-62-0",
-            "title": "Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree",
-            "dek": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
-            "summary": "人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。",
-            "publishedAt": "2026-04-08",
-            "toolName": "Cursor",
-            "articleUrl": "./articles/tools/2026-04-08-cursor-v0-62-0.html"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-claude-code-v0-4-5",
-            "title": "Claude Code v0.4.5: Context Freezeとトークン軽量化",
-            "dek": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
-            "summary": "ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。",
-            "publishedAt": "2026-04-08",
-            "toolName": "Claude Code",
-            "articleUrl": "./articles/tools/2026-04-08-claude-code-v0-4-5.html"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-notebooklm-update",
-            "title": "NotebookLM: リアルタイム同期とグラフ視覚化の実装",
-            "dek": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
-            "summary": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
-            "publishedAt": "2026-04-08",
-            "toolName": "NotebookLM",
-            "articleUrl": "./articles/tools/2026-04-08-notebooklm-update.html"
-        },
-        {
-            "category": "ai-tool-log",
-            "slug": "2026-04-08-perplexity-update",
-            "title": "Perplexity: Deep Dive Workspaceの導入",
-            "dek": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
-            "summary": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
-            "publishedAt": "2026-04-08",
-            "toolName": "Perplexity",
-            "articleUrl": "./articles/tools/2026-04-08-perplexity-update.html"
         }
     ]
 }

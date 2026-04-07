@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 19:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 04:54:09 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Sonnet 4.5: 感情的インテリジェンスの飛躍的向上と「メソッド俳優」のような振る舞い]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-sonnet-4-5-released.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-sonnet-4-5-released.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[感情的な文脈への理解が深まり、特定の状況においてより適切なパターンを活性化させる能力が強化されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Google Gemini: メンタルヘルス保護機能の強化と危機管理インターフェースの導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-mental-health-protection.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-mental-health-protection.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ユーザーが自傷行為や危機的な状況を示唆した場合、相談窓口へ即座に繋がる「ワンタッチ」インターフェースを表示するアップデートが行われました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-v0-62-0.html</link>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nousresearch-hermes-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nousresearch-hermes-agent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Nous Research の知性をエージェントに。汎用型学習エージェント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[shannon]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-keygraphhq-shannon.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-keygraphhq-shannon.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI が自律的に脆弱性を診断。Web アプリ向けペンテストツール。]]></description>
     </item>
   </channel>
 </rss>
