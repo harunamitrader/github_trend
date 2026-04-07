@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="kepano/obsidian-skills を読み、要点を実用寄りに整理した記事。AIにObsidianの読み書き・Bases操作・キャンバス編集を「教え込む」ためのスキルセット。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>obsidian-skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">obsidian-skills</h1>
+      <p class="article-dek">あなたのAIを「Obsidianマスター」へ。CEO自らが送る公式級スキルセット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kepano/obsidian-skills" target="_blank" rel="noreferrer">
+              kepano/obsidian-skills
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>obsidian-skills</code> は、Claude Code 等の AI エージェントに対し、Obsidian のノート閲覧、高度なデータベース（Bases）操作、そして視覚的なキャンバス編集を「実行可能なスキル」として付与するためのオープンソース・プロジェクトです。
+          開発者は Obsidian の CEO である Steph Ango（kepano）氏自らであり、事実上の公式級ツールと言えます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>ノートの完全理解（Markdown）:</strong> WikiLinks、埋め込み、コールアウトなどの独自構文を AI が正確に解釈し、操作。</li>
+          <li><strong>Bases（データベース）操作:</strong> Obsidian の新機能 Bases に対応。ビューの作成、フィルタ設定、数式適用、データの要約を AI が代行。</li>
+          <li><strong>Canvas 編集:</strong> 思考マップ（.canvas ファイル）に対し、AI が自律的にノード配置や接続（エッジ）の作成、グループ化を実行。</li>
+          <li><strong>MCP 連携:</strong> Model Context Protocol（MCP）に対応しており、Claude Code 等の最新 AI ツールと即座に統合可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは「AI とナレッジマネジメントの高度な融合」です。単にテキストを読み書きするだけでなく、AI がユーザーの思考の「構造」であるデータベースやキャンバスまで直接操作できるようになるため、AI と共に思考を整理し、知識を拡張する体験が劇的に進化します。
+          また、CEO 直々の開発ということで、今後の機能追加や公式機能への追従も期待できる点も大きな魅力です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、必要な依存関係（Node.js 等）をセットアップ。</li>
+          <li>Claude Code や Codex CLI などの MCP 設定ファイルに、このサーバーを登録します。</li>
+          <li>AI に対して「今日の議事録をキャンバスにまとめて」「データベースに新しいプロジェクトのプロパティを追加して」のように指示するだけで、Obsidian 内で結果が反映されます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Obsidian をメインのナレッジベースとして活用しており、AI エージェントに自分の知識を直接「整理・活用」させたい人。</li>
+          <li>Bases（データベース機能）を活用した高度なタスク・ナレッジ管理を AI で自動化したいユーザー。</li>
+          <li>CEO 開発の「筋の良い」AI 連携ツールをいち早く自身のワークフローに取り込みたい先進的な Obsidian ユーザー。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          Bases などの一部機能は最新の Obsidian バージョンやベータ版での対応状況に左右される場合があります。また、AI にノートの上書きを許可する場合は、バージョン管理（Git 等）によるバックアップを併用することが推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>obsidian-skills</code> は、AI エージェントを単なる「聞き役」から、ユーザーの思考の伴走者である「知識の共同管理者」へと昇華させるツールです。
+          Obsidian の持つ柔軟な構造と AI の強力な推論能力が組み合わさることで、個人の知財管理は次のステージへと進みます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kepano/obsidian-skills" target="_blank" rel="noreferrer">kepano/obsidian-skills</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

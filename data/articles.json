@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-07-kepano-obsidian-skills-pickup",
+            "title": "obsidian-skills",
+            "dek": "あなたのAIを「Obsidianマスター」へ。CEO自らが送る公式級スキルセット。",
+            "summary": "AIにObsidianのノート閲覧、Bases（データベース）操作、Canvas（思考マップ）編集を直接実行させるためのオープンソース・スキル集。ObsidianのCEO自らが開発し、Claude Code等のAIエージェントに「ナレッジを操る目と手」を提供します。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:10:00+09:00",
+            "repoName": "kepano/obsidian-skills",
+            "repoUrl": "https://github.com/kepano/obsidian-skills",
+            "articleUrl": "./articles/github/pickup/2026-04-07-kepano-obsidian-skills-pickup.html",
+            "serial": 86
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-07-m8e-graphify-pickup",
             "title": "graphify",
             "dek": "フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。",
