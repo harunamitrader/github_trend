@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tradesdontlie/tradingview-mcp を読み、要点を実用寄りに整理した記事。TradingView Desktop を AI の「目と手」に変え、チャート分析と Pine Script 開発を効率化する MCP サーバー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>tradingview-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">tradingview-mcp</h1>
+      <p class="article-dek">TradingView Desktop を AI の「目と手」に変え、チャート分析と Pine Script 開発を効率化する MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tradesdontlie/tradingview-mcp" target="_blank" rel="noreferrer">
+              tradesdontlie/tradingview-mcp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>tradingview-mcp</code> は、Claude Code などの AI エージェントから、ローカルで動作している <strong>TradingView Desktop</strong> を直接操作・分析するための MCP（Model Context Protocol）サーバーです。
+          開発者やトレーダー向けに、チャート分析から Pine Script の開発までを AI との対話で完結させる基盤を提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>チャート操作・閲覧:</strong> AI が銘柄切り替え、時間軸変更、特定の期間へのズーム、インディケーターの追加などを自律実行。</li>
+          <li><strong>視覚的分析:</strong> チャートのスクリーンショットを自動撮影し、AI がテクニカル的な形状や指標の動きを視覚的に解析。</li>
+          <li><strong>Pine Script 開発支援:</strong> スクリプトの記述、コンパイル、チャートへのインジェクト、デバッグを AI がフルサポート。</li>
+          <li><strong>アノテーション管理:</strong> トレンドライン、図形の描画、価格アラートの作成・削除をコマンド一つで制御可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは、Chrome DevTools Protocol (CDP) を介して **「デスクトップアプリ」** と直接リアルタイム通信を行う点です。
+          ブラウザ版だけでなく、機能の多いデスクトップ版を AI の「道具」として持たせることができ、リプレイ練習の操作や複雑な Pine Script の検証作業を大幅に自動化できます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>TradingView Desktop を起動し、リモートデバッグ（CDP）を有効にしておきます。</li>
+          <li><code>npm install -g tradingview-mcp</code> 等でインストール（リポジトリ構成に基づく）。</li>
+          <li>Claude Desktop や Claude Code の <code>config.json</code> に MCP サーバーとして登録。</li>
+          <li>AI に対し「BTCUSDの1時間足を表示して、スクショを撮って分析して」のように指示します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>日々のチャート分析やトレーディングワークフローを、AI を使って効率化・自動化したいトレーダー。</li>
+          <li>Pine Script の開発効率を上げたい、あるいはデバッグを AI に手伝わせたい開発者。</li>
+          <li>Claude Code などの MCP 対応ツールを、金融分析の実用的なコパイロットとして活用したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          ローカルの TradingView Desktop アプリとの接続が必要なため、接続設定（ポート番号など）が正しく構成されている必要があります。また、操作の自動化による誤発注などを避けるため、実際の取引連携時には十分な確認が推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>tradingview-mcp</code> は、TradingView という強力なチャートツールを AI に開放するブリッジです。
+          これまで「人間が見て判断する」しかなかったチャート上の視覚情報や Pine Script の運用を、AI との共同作業に変える非常にポテンシャルの高いツールと言えます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tradesdontlie/tradingview-mcp" target="_blank" rel="noreferrer">tradesdontlie/tradingview-mcp</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

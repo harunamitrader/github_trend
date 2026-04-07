@@ -8,6 +8,32 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-07-m8e-graphify-pickup",
+            "title": "graphify",
+            "dek": "フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。",
+            "summary": "ローカルフォルダにあるファイルの関係性をスキャンし、HTML、Wiki、Obsidian 形式のナレッジグラフを構築するツール。AIエージェントがプロジェクトの文脈を把握する際のトークンコストを大幅に削減し、長期的なプロジェクト理解を支えます。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:09:00+09:00",
+            "repoName": "m8e/graphify",
+            "repoUrl": "https://github.com/m8e/graphify",
+            "articleUrl": "./articles/github/pickup/2026-04-07-m8e-graphify-pickup.html",
+            "serial": 85
+        },
+        {
+            "category": "github-pickup",
+            "slug": "2026-04-07-tradesdontlie-tradingview-mcp-pickup",
+            "title": "tradingview-mcp",
+            "dek": "TradingView Desktop を AI の「目と手」に変え、チャート分析と Pine Script 開発を効率化する MCP サーバー。",
+            "summary": "Claude Code などの AI エージェントから、ローカルで動作している TradingView Desktop を直接操作・分析するための MCP サーバー。チャート操作、スクリーンショット分析、Pine Script の記述・デバッグなどを自律的に実行可能にします。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:08:00+09:00",
+            "repoName": "tradesdontlie/tradingview-mcp",
+            "repoUrl": "https://github.com/tradesdontlie/tradingview-mcp",
+            "articleUrl": "./articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html",
+            "serial": 84
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-07-rv64m-autotrade-pickup",
             "title": "autotrade",
             "dek": "AI (Claude/Gemini) にトレード戦略を自律的に考案・改善させる、最先端の自動売買検証フレームワーク。",

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="m8e/graphify を読み、要点を実用寄りに整理した記事。フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>graphify</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">graphify</h1>
+      <p class="article-dek">フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/m8e/graphify" target="_blank" rel="noreferrer">
+              m8e/graphify
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>graphify</code> は、ローカルフォルダ内のソースコード、論文、画像、エンジニアリングノートなどを自動的にスキャンし、それらの相互関連性を可視化する「ナレッジグラフ」を構築するための Claude Code スキルです。
+          雑多な情報を構造化することで、AI エージェントがプロジェクトの全体像を把握する際の効率を極限まで高めます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自動構造化と可視化:</strong> フォルダ内のファイル間の関係性を抽出し、インタラクティブな HTML グラフを生成。</li>
+          <li><strong>多彩なエクスポート:</strong> Obsidian vault 形式や Wiki 形式での出力に対応し、既存のナレッジツールと連携可能。</li>
+          <li><strong>グラフ・レポート生成:</strong> 主要な接続や重要な問いを抽出した <code>GRAPH_REPORT.md</code> を自動作成。</li>
+          <li><strong>トークン消費の劇的な削減:</strong> 生のテキストファイルをすべて読み込ませるのに比べ、グラフ構造を活用することでコンテキスト消費を大幅に（最大約70倍）節約。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは、単純な全文検索（RAG）を超えた **「文脈の構造的理解」** を AI にもたらす点です。
+          数週間後にプロジェクトを再開した際でも、構築済みのグラフを読み込むだけで、AI エージェントは即座に複雑な依存関係や背景知識を思い出すことができます。
+          SHA256 によるキャッシュ機能も備えており、変更があったファイルのみを効率的に再処理します。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Claude Code がインストールされている環境で、このスキルをディレクトリに導入します。</li>
+          <li>「このディレクトリを graphify して」と指示するだけで、スキャンとグラフ構築が始まります。</li>
+          <li>出力された HTML をブラウザで開けば、動的なグラフで情報の繋がりを確認できます。</li>
+          <li><code>GRAPH_REPORT.md</code> を通じて、プロジェクトの要諦を AI に把握させることができます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>大規模、あるいは長期間にわたる複雑なプロジェクトを AI エージェント（Claude Code 等）と共に進めている開発者。</li>
+          <li>Obsidian などのツールを使っており、ローカルの資料をナレッジグラフとして整理・活用したい人。</li>
+          <li>LLM のコンテキスト制限やトークンコストを抑えつつ、深い文脈理解を AI に期待したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          大量のファイルを一度に処理する場合、初回のグラフ構築には相応の時間がかかることがあります。また、出力されるグラフの精度はソースとなるドキュメントやコードの記述密度に依存します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>graphify</code> は、AI エージェントにとっての「外部脳」を、構造化されたグラフという形で提供する強力なツールです。
+          情報の「点」を「線」で繋ぎ、AI がプロジェクトを文字通り「俯瞰」できるようにすることで、次の次元の AI 駆動型開発を支えます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/m8e/graphify" target="_blank" rel="noreferrer">m8e/graphify</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

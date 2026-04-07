@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 12:08:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 12:33:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[graphify]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-m8e-graphify-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-m8e-graphify-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[tradingview-mcp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TradingView Desktop を AI の「目と手」に変え、チャート分析と Pine Script 開発を効率化する MCP サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[autotrade]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-rv64m-autotrade-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ツール呼び出しの繰り返し検知による安全性の向上、Kanban 連携の精度向上、大規模ファイル読み込みの最適化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.5: 組み込みビデオ生成機能の追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-openclaw-v2026-4-5-video-gen.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-openclaw-v2026-4-5-video-gen.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[外部アプリ連携を介したビデオ生成に対応し、マルチモーダル機能がさらに強化されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-06 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
