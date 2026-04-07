@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 19:15:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 04:31:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree]]></title>
@@ -22,6 +22,22 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: リアルタイム同期とグラフ視覚化の実装]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-notebooklm-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-notebooklm-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity: Deep Dive Workspaceの導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-perplexity-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-perplexity-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。]]></description>
     </item>
     <item>
       <title><![CDATA[GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応]]></title>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI が自律的に脆弱性を診断。Web アプリ向けペンテストツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[immich]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-immich-app-immich.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-immich-app-immich.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自己ホストで所有権を取り戻す。 Google フォト代わりの写真管理システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LiteRT-LM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-google-ai-edge-litert-lm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-google-ai-edge-litert-lm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エッジデバイスで LLM を。Google 公式の軽量推論フレームワーク。]]></description>
     </item>
   </channel>
 </rss>

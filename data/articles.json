@@ -3703,6 +3703,26 @@
             "publishedAt": "2026-04-08",
             "toolName": "Claude Code",
             "articleUrl": "./articles/tools/2026-04-08-claude-code-v0-4-5.html"
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-notebooklm-update",
+            "title": "NotebookLM: リアルタイム同期とグラフ視覚化の実装",
+            "dek": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
+            "summary": "Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。",
+            "publishedAt": "2026-04-08",
+            "toolName": "NotebookLM",
+            "articleUrl": "./articles/tools/2026-04-08-notebooklm-update.html"
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-08-perplexity-update",
+            "title": "Perplexity: Deep Dive Workspaceの導入",
+            "dek": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
+            "summary": "調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。",
+            "publishedAt": "2026-04-08",
+            "toolName": "Perplexity",
+            "articleUrl": "./articles/tools/2026-04-08-perplexity-update.html"
         }
     ]
 }
