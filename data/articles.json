@@ -8,6 +8,21 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-08-hkuds-ai-trader-pickup",
+            "title": "AI-Trader",
+            "dek": "100%完全自動トレード：OpenClawエージェントが「群知能」で相場を読み、シグナルを共有・実行する次世代プラットフォーム。",
+            "summary": "AIエージェントが市場シグナルを議論し、集団の知性でトレードを行う自律型プラットフォーム。OpenClawと密接に連携し、コピートレードやマルチマーケット対応、ペーパートレード機能を提供します。",
+            "publishedAt": "2026-04-08",
+            "createdAt": "2026-04-08T17:50:00+09:00",
+            "repoName": "HKUDS/AI-Trader",
+            "repoUrl": "https://github.com/HKUDS/AI-Trader",
+            "articleUrl": "./articles/github/pickup/2026-04-08-hkuds-ai-trader-pickup.html",
+            "serial": 103,
+            "originType": "pickup",
+            "genre": "金融・トレード分析"
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-08-hkuds-deeptutor-pickup",
             "title": "DeepTutor",
             "dek": "パーソナライズされたAI学習アシスタント：香港大学の研究チームによる、教育特化型の自律エージェント・プラットフォーム。",
