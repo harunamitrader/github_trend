@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-07-rv64m-autotrade-pickup",
+            "title": "autotrade",
+            "dek": "AI (Claude/Gemini) にトレード戦略を自律的に考案・改善させる、最先端の自動売買検証フレームワーク。",
+            "summary": "Claude Code や Gemini、OpenAI (Codex) などの AI エージェントを活用して、仮想通貨（Binance 等）のトレード戦略を自律的に生成・改善・実行し続けるためのフレームワーク。バックテスト結果をもとに AI が自律的にロジックを修正し続けるサイクルを実現しています。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T15:07:00+09:00",
+            "repoName": "rv64m/autotrade",
+            "repoUrl": "https://github.com/rv64m/autotrade",
+            "articleUrl": "./articles/github/pickup/2026-04-07-rv64m-autotrade-pickup.html",
+            "serial": 83
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-07-openai-codex-plugin-cc-pickup",
             "title": "codex-plugin-cc",
             "dek": "Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。",

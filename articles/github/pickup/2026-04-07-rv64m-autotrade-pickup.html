@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="rv64m/autotrade を読み、要点を実用寄りに整理した記事。AI (Claude/Gemini) にトレード戦略を自律的に考案・改善させる、最先端の自動売買検証フレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>autotrade</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">autotrade</h1>
+      <p class="article-dek">AI (Claude/Gemini) にトレード戦略を自律的に考案・改善させる、最先端の自動売買検証フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rv64m/autotrade" target="_blank" rel="noreferrer">
+              rv64m/autotrade
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>autotrade</code> は、Claude Code や Gemini、OpenAI (Codex) などの AI エージェントを活用して、仮想通貨（特に Binance 等）のトレード戦略を自律的に生成・改善・実行し続けるためのフレームワークです。
+          人間がロジックを書くのではなく、AI に「利益を最大化する戦略を考えて実行しろ」とまるごと委ねるアプローチをとっています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>AI による戦略の自律改善:</strong> バックテストの結果（損失や利益、ドローダウン）を AI が読み取り、それを改善するためのコード修正を AI 自らが行います。</li>
+          <li><strong>高速バックテスト連携:</strong> Python スクリプト (<code>train.py</code>) を通じて、AI が生成した戦略を即座にヒストリカルデータで検証します。</li>
+          <li><strong>マルチ AI 対応:</strong> 最新の強みを持つ AI ツール（Claude Code, Gemini CLI, Codex 等）をエンジンとして切り替えて利用可能です。</li>
+          <li><strong>取引所データの自動取得:</strong> CCXT ライブラリを統合しており、Binance 等から最新の市場データをシームレスに取得します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大のポイントは「ループの自動化」です。これまでの自動売買は、人間が考えたロジックをプログラムにするものでしたが、このプロジェクトでは「戦略の考案 → 行動（コード生成）→ 結果（バックテスト）→ フィードバック（AIによる内省・修正）」というサイクルを自律的に回す仕組みを提供しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Python 3.10 以上の環境を用意し、<code>pip install -r requirements.txt</code> で依存関係をインストール。</li>
+          <li>Binance 等の API キーを設定（バックテストのみならヒストリカルデータの取得に利用）。</li>
+          <li>Claude Code や Gemini CLI がパスに通っている環境で <code>python train.py</code> を実行。</li>
+          <li>AI が複数の戦略案を生成し、その中で最も優秀なものを自律的に選定・洗練させていきます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>自律型 AI エージェント（AI Agents）による自動投資の可能性を探っている開発者。</li>
+          <li>アルゴリズムトレードのロジック構築を AI に外注し、スピード感を持って検証・改善したい人。</li>
+          <li>複数の AI モデルを組み合わせて、複雑な金融データの解析を行いたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          AI が生成するコードをそのまま実行するため、サンドボックス環境での運用が推奨されます。また、仮想通貨取引には常に高いリスクが伴うため、実運用前に十分なバックテストと資金管理の徹底が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>autotrade</code> は、単なる「自動売買ツール」ではなく、AI が投資というフィールドで「試行錯誤して成長する」ための基盤です。Claude Code などの進化したコーディングエージェントの力を、金融取引という最もシビアな領域に適用した意欲的なプロジェクトと言えます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rv64m/autotrade" target="_blank" rel="noreferrer">rv64m/autotrade</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
