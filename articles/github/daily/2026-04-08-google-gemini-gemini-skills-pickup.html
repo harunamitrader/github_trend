@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="google-gemini/gemini-skills を読み、AI エージェントに最新の Gemini API 活用法を教えるエンジニア向けスキルセットを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gemini-skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gemini-skills</h1>
+      <p class="article-dek">Google 公式が贈る「AI のための学習帳」。Gemini の最新仕様とベストプラクティスを AI エージェントへ即座に反映。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google-gemini/gemini-skills" target="_blank" rel="noreferrer">
+              google-gemini/gemini-skills
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google 公式が提供する、AI 開発者および AI エージェントのための「スキル」コレクションです。LLM の学習データには含まれていない最新の SDK 更新、Gemini モデルの仕様、および Google GenAI のベストプラクティスを <code>SKILL.md</code> 形式でまとめており、これを AI エージェント（Claude Code, Antigravity 等）に読み込ませることで、回答の正確性と開発速度を劇的に向上させます。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリには、以下のような特化型スキルが含まれています。</p>
+        <ul>
+          <li><strong>gemini-api-dev:</strong> Python, JS/TS, Go 等の最新 SDK 仕様や、マルチモーダル、Function Calling、構造化出力の正しい実装手順を AI に教えます。</li>
+          <li><strong>gemini-live-api-dev:</strong> 音声・ビデオ・テキストのリアルタイムストリーミングを実現する最新の Multimodal Live API の活用法。</li>
+          <li><strong>gemini-interactions-api:</strong> Deep Research や複雑な多段エージェント・ワークフローの構築に特化したガイド。</li>
+          <li><strong>vertex-ai-api-dev:</strong> Google Cloud 上のエンタープライズ向け AI サービス「Vertex AI」に最適化された実装パターン。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「スキルなし」での正答率が 28% 前後だったタスクが、この公式スキルを読み込ませることで 90% 以上 <sup>※</sup> に跳ね上がるなど、AI エージェントを「知ったかぶり」させず、「事実に基づいた正確なコード」を書かせるための必須ツールとなっています。MCP (Model Context Protocol) サーバーとも密接に連携し、ドキュメントの即時参照も可能です。<br><small>※ Google の社内ベンチマーク例に基づく</small></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリ内の <code>SKILL.md</code> ファイルのうち、必要なものを自分のプロジェクトフォルダや AI 専用ディレクトリに配置します。</li>
+          <li>または、対応している CLI から <code>npx skills add google-gemini/gemini-skills --skill <name></code> を実行して自動導入します。</li>
+          <li>AI エージェント（例: Claude Code）を起動すると、背景知識としてこれらの最新ルールが認識されます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Gemini を用いた開発を行っているが、AI が生成するコードが古かったり、誤った SDK 呼び出しをしたりすることに悩んでいる開発者。</li>
+          <li>最新の「Gemini Live」や「Interactions」など、ドキュメントが更新され続けている新機能をいち早く使いこなしたい人。</li>
+          <li>AI エージェントを「最高の Gemini 開発パートナー」へと教育したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>スキルのメリットを最大化するには、AI エージェント側が <code>SKILL.md</code> フォーマットに対応している必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>gemini-skills</code> は、AI に AI の使い方を教えるための「現代の教科書」です。開発スピードを落とさず、常に最新・最善のコードを AI と共に生み出し続けたい開発者にとって、これほど頼もしいリソースはないでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-skills" target="_blank" rel="noreferrer">google-gemini/gemini-skills</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VoltAgent/awesome-codex-subagents を読み、Codex の能力を拡張する専門エージェント群の活用法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>awesome-codex-subagents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">awesome-codex-subagents</h1>
+      <p class="article-dek">Codex に「130 以上の専門家」を召喚。特定の開発タスクに特化した subagent 群の定義集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/VoltAgent/awesome-codex-subagents" target="_blank" rel="noreferrer">
+              VoltAgent/awesome-codex-subagents
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI 開発ツール「Codex」の機能を拡張するために設計された、130 を超える専門サブエージェント（subagent）の定義を集めたオープンソース・ライブラリです。各エージェントは特定の開発タスクに特化した命令（プロンプト）を持っており、開発者はタスクに応じて最適な「専門家」を呼び出して協力を得ることができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリを導入することで、Codex は以下の専門スキルを獲得できます。</p>
+        <ul>
+          <li><strong>専門領域の強化:</strong> UI/UX コンポーネントの実装、ユニットテストの自動生成、特定のフレームワーク（React, Next.js 等）に特化したコーディング支援。</li>
+          <li><strong>ワークフローの自動化:</strong> コードベースのドキュメント化、セキュリティレビュー、リファクタリングの計画立案など、繰り返される開発作業の負担軽減。</li>
+          <li><strong>スキルのポータビリティ:</strong> 一度定義したサブエージェントはグローバル（~/.codex/agents/）またはプロジェクトローカルで共有でき、チーム内での開発規約の統一にも役立ちます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「一つの大きな AI」にすべてを頼るのではなく、用途に合わせて小さな専門エージェントを使い分けるという設計思想（Agentic Workflow）が具体化されています。コミュニティによって検証された 130 個以上の <code>.toml</code> ファイルを参照、またはそのまま利用できるため、AI エージェントの精度を即座に一段引き上げることが可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを閲覧し、必要なサブエージェントの <code>.toml</code> ファイルを選択します。</li>
+          <li>選択したファイルを <code>.codex/agents/</code> ディレクトリにコピーします。</li>
+          <li>Codex 上で <code>/use <agent-name></code> などのコマンドを使い、そのエージェントの役割（コンテキスト）を有効化します。</li>
+          <li>AI が専門家としての文脈を維持しながら、指示されたタスクを実行します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Codex を使っているが、より高度で専門的な（プロンプトをいちいち書かなくて済む）支援を求めている人。</li>
+          <li>チーム開発において、AI が生成するコードの品質やスタイルを一定の基準で保ちたいエンジニア。</li>
+          <li>AI エージェントの「専門分化」による性能向上を体験したい開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>これらはコミュニティ有志による提供であり、使用前に内容を確認することが推奨されます。また、機能させるには別途 Codex 本体のインストールが必要です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>awesome-codex-subagents</code> は、AI コーディングにおける「職人集団」を自分のプロジェクトに招き入れるようなツールです。適切な専門知識を持つエージェントを使い分けることで、開発効率はさらに加速していくでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/VoltAgent/awesome-codex-subagents" target="_blank" rel="noreferrer">VoltAgent/awesome-codex-subagents</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/iqSptG2xfu" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/CMKSdiYBAh" target="_blank" rel="noreferrer">Source X (2)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

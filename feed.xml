@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:15:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:20:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[twitter-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jackwener-twitter-cli-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jackwener-twitter-cli-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[API キー不要で X (Twitter) を操作。ターミナルからタイムライン、投稿、ブックマークを自在に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[finance-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-himself65-finance-skills-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-himself65-finance-skills-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントに「投資分析の目」を。流動性解析や市場インパクトの評価を実現する金融特化型スキル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[gemini-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-google-gemini-gemini-skills-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-google-gemini-gemini-skills-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google 公式が贈る「AI のための学習帳」。Gemini の最新仕様とベストプラクティスを AI エージェントへ即座に反映。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-codex-subagents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-voltagent-awesome-codex-subagents-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-voltagent-awesome-codex-subagents-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex に「130 以上の専門家」を召喚。特定の開発タスクに特化した subagent 群の定義集。]]></description>
+    </item>
     <item>
       <title><![CDATA[Nemotron]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-nemo-nemotron-pickup.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google製の時系列予測基盤モデル：ゼロショットで高精度な予測を可能にするデコーダー専用Transformer。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[seomachine]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-thecraighewitt-seomachine.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-thecraighewitt-seomachine.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SEO特化型ブログコンテンツ作成ワークスペース：Claude Code上で動作する調査から最適化までを網羅した自動化システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepTutor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[パーソナライズされたAI学習アシスタント：香港大学の研究チームによるエージェントネイティブな教育支援プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Mythos 発表：強力すぎて「一般公開不可」と判断された次世代モデル]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-mythos-announcement.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-mythos-announcement.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[脆弱性発見能力が飛躍的に向上した新モデル。サイバー防衛特化の「Project Glasswing」として大手 tech 各社へ限定提供。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google Gemini: メンタルヘルス保護機能の強化と危機管理インターフェースの導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-mental-health-protection.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-mental-health-protection.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ユーザーが自傷行為や危機的な状況を示唆した場合、相談窓口へ即座に繋がる「ワンタッチ」インターフェースを表示するアップデートが行われました。]]></description>
     </item>
   </channel>
 </rss>

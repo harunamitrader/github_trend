@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="jackwener/twitter-cli を読み、API キー不要で X (Twitter) を操作・データ取得できる強力な CLI の機能を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>twitter-cli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">twitter-cli</h1>
+      <p class="article-dek">API キー不要で X (Twitter) を操作。ターミナルからタイムライン、投稿、ブックマークを自在に。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jackwener/twitter-cli" target="_blank" rel="noreferrer">
+              jackwener/twitter-cli
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>X (Twitter) の機能をターミナルから直接利用するための、強力なコマンドライン・インターフェース (CLI) です。ブラウザのセッションクッキーを使用することで、煩雑な公式 API キーの取得や申請を行うことなく、エンジニアにとって馴染み深い CUI 上で全ての Twitter 操作を完結させることができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>このツール一つで、普段ブラウザやアプリで行っているほぼ全ての操作が可能です。</p>
+        <ul>
+          <li><strong>閲覧と検索:</strong> タイムラインの表示、ブックマークの取得、キーワード検索、特定ユーザーの投稿一覧の参照。</li>
+          <li><strong>投稿とインタラクション:</strong> 新規ツイート（返信含む）、リツイート、いいね、ブックマークの追加・削除、ツイートの削除。</li>
+          <li><strong>データの構造化出力:</strong> 取得したツイートやユーザー情報を YAML または JSON 形式で出力可能。AI エージェントにデータを渡したり、スクリプトで自動処理したりする際のデザイン性が非常に高いです。</li>
+          <li><strong>セキュリティと検知回避:</strong> TLS フィンガープリントの偽装や、リクエスト間隔のゆらぎ（jitter）機能などを備え、自動操作として検知されにくい工夫が施されています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「API キーが不要」という手軽さはもちろん、何より「エンジニアのワークフローに Twitter を統合できる」点が秀逸です。特に情報のエクスポート機能が充実しているため、例えば「自分のブックマークを AI に読み込ませて整理させる」「タイムラインの特定のトピックを自動で要約する」といった、AI と X を組み合わせた自律型エージェントのナレッジソースとして極めて優秀なパーツになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><code>uv</code> や <code>pipx</code> 等を使って <code>twitter-cli</code> をインストールします。</li>
+          <li>普段使いのブラウザ（Chrome, Edge 等）で X にログインした状態で、ツール内のコマンド（<code>twitter-cli auth</code> 等）を実行してクッキーを紐付けます。</li>
+          <li><code>twitter-cli home</code> でタイムラインを見たり、<code>twitter-cli post "Hello world"</code> で投稿したりします。</li>
+          <li>AI エージェントに操作させたい場合は、MCP ツール等を通じてこの CLI を呼び出すように構成します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Twitter を情報のインプット源としてバリバリ使いつつ、アウトプットもコマンド一つで済ませたい効率化オタクのエンジニア。</li>
+          <li>AI エージェントに「自分の関心事（ブックマーク）」を学習させたいが、API の制限や申請に疲弊している人。</li>
+          <li>ブラウザを開かずに X の世界に浸りたい、ターミナル中毒の住人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>公式 API を介さないツールであるため、過度なリクエストはアカウントに制限がかかるリスクがあります。ツールの推奨設定（ディレイ機能等）に従い、常識的な範囲での利用が求められます。</p>
+
+        <h2>まとめ</h2>
+        <p><code>twitter-cli</code> は、ソーシャルメディアという広大なデータを「開発者の手元」へと引き込み、自在に加工・活用することを可能にします。AI との親和性も高いこのツールは、単なるクライアントソフトを超えた、知識マネジメントの強力なフロントエンドとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jackwener/twitter-cli" target="_blank" rel="noreferrer">jackwener/twitter-cli</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/IqAlHP1sVv" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
