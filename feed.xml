@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:14:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 12:44:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[chrome-devtools-mcp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chromedevtools-chrome-devtools-mcp-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chromedevtools-chrome-devtools-mcp-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google 公式の MCP サーバーが登場。AI エージェントに Chrome の「目」と「手」を与え、ブラウザを自在に操作・デバッグ可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-code-showcase]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chriswiles-claude-code-showcase-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chriswiles-claude-code-showcase-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を「最強のチームメイト」へ。設定、スキル、MCP 連携のベストプラクティスを集約したショーケース。]]></description>
+    </item>
     <item>
       <title><![CDATA[personaplex]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[グラフニューラルネットワーク(GNN)を用いて市場の異常な価格変動を検知。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[glass-magic]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-glass-magic.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-glass-magic.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[手書きUIスケッチからモダンなReactコンポーネントを即座に生成するVLMツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[kraken-shield]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kraken-shield.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kraken-shield.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[依存パッケージの脆弱性をLLMで自動パッチ生成・テストするセキュリティツール。]]></description>
     </item>
   </channel>
 </rss>

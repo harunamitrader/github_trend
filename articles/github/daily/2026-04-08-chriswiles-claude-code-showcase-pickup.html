@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ChrisWiles/claude-code-showcase を読み、Claude Code を最強のチームメイトにするための設定とスキルの活用法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-code-showcase</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-code-showcase</h1>
+      <p class="article-dek">Claude Code を「最強のチームメイト」へ。設定、スキル、MCP 連携のベストプラクティスを集約したショーケース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ChrisWiles/claude-code-showcase" target="_blank" rel="noreferrer">
+              ChrisWiles/claude-code-showcase
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic の AI コーディング CLI「Claude Code」のポテンシャルを最大限に引き出すための、構成例とスキルセットを集めたショーケースリポジトリです。単にツールを使う段階を超え、プロジェクトの文脈（コンテキスト）やルールを AI に学習させ、自律的な「チームメイト」として機能させるための実践的なガイドとなっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリを参照することで、以下の高度な設定方法を学ぶことができます。</p>
+        <ul>
+          <li><strong>CLAUDE.md の最適化:</strong> プロジェクトの規約、命名規則、技術スタックを AI に永続的に記憶させ、回答精度を向上させます。</li>
+          <li><strong>モジュール型スキルの定義:</strong> <code>SKILL.md</code> 形式で、テスト作成、デバッグ手順、UI コンポーネントの実装ルールなどを AI に教え込み、即戦力化します。</li>
+          <li><strong>MCP サーバーの高度な連携:</strong> Model Context Protocol (MCP) を通じて GitHub、JIRA、ブラウザ操作などを Claude Code から直接実行する際の設定例を確認できます。</li>
+          <li><strong>自動化ワークフロー:</strong> GitHub Actions と連携し、AI エージェントが関与する開発サイクルを自動化する方法を提示します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最も価値があるのは、エンジニアが「AI とどう協働すべきか」という設計思想（ハーネス・エンジニアリングに近い概念）が体現されている点です。場当たり的なプロンプトではなく、プロジェクト固有の「ナレッジ」を Markdown ファイルとして管理し、AI に読み取らせることで、プロジェクトに深く通じた一貫性のある支援を可能にしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>使い方は非常にシンプルです。</p>
+        <ol>
+          <li>リポジトリ内の <code>CLAUDE.md</code> や <code>skills/</code> フォルダの中身を確認します。</li>
+          <li>自分のプロジェクトのルートディレクトリに同様のファイルを配置、または必要なスキルをコピーします。</li>
+          <li><code>claude config set --allow-project-config true</code> でプロジェクト設定を有効にします。</li>
+          <li>Claude Code を起動すると、AI が自動的にプロジェクトの文脈や追加されたスキルを認識します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code を導入したが、より複雑なプロジェクトで一貫した協力を得たいと考えている開発者。</li>
+          <li>AI エージェントを「ただのチャット」ではなく「自動化された開発フローの一環」として組み込みたいチーム。</li>
+          <li>効率的な <code>CLAUDE.md</code> の書き方やスキル定義の具体例を探している人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>あくまでサンプルプロジェクトであるため、自分のプロジェクトの言語やフレームワークに合わせて内容を調整（アダプテーション）する必要があります。また、MCP サーバーの利用には別途設定が必要な場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>claude-code-showcase</code> は、Claude Code を使いこなすための道標（ロードマップ）となるリポジトリです。AI を「賢い検索ツール」としてではなく、「開発規約を遵守し、自律的にタスクをこなすパートナー」へと昇華させたいエンジニアにとって、必見の内容と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ChrisWiles/claude-code-showcase" target="_blank" rel="noreferrer">ChrisWiles/claude-code-showcase</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

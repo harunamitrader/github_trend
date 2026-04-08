@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ChromeDevTools/chrome-devtools-mcp を読み、Google 公式 MCP サーバーによる AI ブラウザ操作の可能性を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>chrome-devtools-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">chrome-devtools-mcp</h1>
+      <p class="article-dek">Google 公式の MCP サーバーが登場。AI エージェントに Chrome の「目」と「手」を与え、ブラウザを自在に操作・デバッグ可能に。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank" rel="noreferrer">
+              ChromeDevTools/chrome-devtools-mcp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google Chrome DevTools チームが開発した、Model Context Protocol (MCP) サーバーの公式実装です。Claude や Cursor といった AI エージェントが、実行中の Google Chrome インスタンスを直接制御し、Web ページの閲覧、デバッグ、パフォーマンス計測などを行うためのブリッジとなります。</p>
+
+        <h2>何ができるか</h2>
+        <p>このサーバーを導入することで、AI エージェントはブラウザを介して以下のタスクを自律的に実行できるようになります。</p>
+        <ul>
+          <li><strong>ブラウザ操作:</strong> 指定した URL への移動、テキスト入力、ボタンのクリック、スクロール、スクリーンショットの撮影。</li>
+          <li><strong>DOM 解析とデバッグ:</strong> ページの構造（DOM）の読み取り、コンソールログの取得、ネットワーク通信の監視。</li>
+          <li><strong>ストレージ操作:</strong> Cookie やローカルストレージの読み書き。</li>
+          <li><strong>パフォーマンス計測:</strong> Google 公式ツールならではの強力なトレース機能を使用して、Web アプリのボトルネックを特定。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>これまで AI によるブラウザ操作の多くは Playwright などの外部ライブラリを介したスクリプト生成に頼ってきましたが、この MCP サーバーは Google 公式による <strong>Chrome DevTools Protocol (CDP)</strong> の直接利用を前提としています。これにより、エージェントはブラウザの「中身」をより正確かつリアルタイムに把握でき、より信頼性の高い Web オートメーションとデバッグが可能になります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本的な導入ステップは以下の通りです。</p>
+        <ol>
+          <li>Chrome を <code>--remote-debugging-port=9222</code> フラグを付けて起動し、リモートデバッグを許可します。</li>
+          <li>AI ツールの MCP 設定（例: <code>claude_desktop_config.json</code>）に <code>chrome-devtools-mcp</code> を追加します。</li>
+          <li>エージェントに対して「ブラウザを開いて example.com を調査して」といった指示を出します。</li>
+          <li>エージェントが MCP ツール経由で Chrome を操作し、結果をあなたに報告します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>複雑な Web アプリケーションのデバッグやテストを AI に手伝わせたい開発者。</li>
+          <li>Web サイトから動的に情報を収集（スクレイピング）する高度なエージェントを構築したい人。</li>
+          <li>Playwright などの設定なしで、使い慣れた Chrome を AI から直接操りたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>AI エージェントにブラウザの完全な操作権限を与えるため、セキュリティ上のリスクを認識し、信頼できる環境でのみ使用することが推奨されます。また、現時点では一部の機能が実験的な段階にある可能性があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Google が MCP エコシステムに正式に参入し、ブラウザという最も重要な開発ターゲットを AI に開放したことは大きな前進です。<code>chrome-devtools-mcp</code> は、Web 開発における「AI とブラウザの完全な統合」を実現する強力な武器となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank" rel="noreferrer">ChromeDevTools/chrome-devtools-mcp</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
