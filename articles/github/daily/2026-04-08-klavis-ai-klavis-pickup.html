@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Klavis-AI/klavis を読み、MCP インフラを民主化するプラットフォーム Klavis AI の機能を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>klavis</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">klavis</h1>
+      <p class="article-dek">MCP を誰もが使えるインフラへ。Slack や Discord から AI エージェントのツールを自在に操る統合プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Klavis-AI/klavis" target="_blank" rel="noreferrer">
+              Klavis-AI/klavis
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Model Context Protocol (MCP) をスケールさせ、開発者だけでなく一般ユーザーにとっても使いやすいインフラを提供することを目指した統合プラットフォームです。AI エージェントが外部ツール（レポート生成、YouTube 連携、ドキュメント変換など）を確実に、かつセキュアに利用するための土台を構築しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このプラットフォームは、MCP の導入障壁を下げるための以下の機能を備えています。</p>
+        <ul>
+          <li><strong>マルチチャネル対応:</strong> MCP ツールを Slack や Discord から直接呼び出し、AI エージェントと会話しながら外部操作を実行。</li>
+          <li><strong>Web UI ダッシュボード:</strong> 複雑なコマンドライン操作なしで、ブラウザ上から MCP サーバーの追加、構成、管理が可能。</li>
+          <li><strong>ホスト型インフラ:</strong> ユーザー自身でサーバーを建てることなく、クラウド上で MCP ツールを即座に動かせる環境を提供。</li>
+          <li><strong>セキュアなリソースアクセス:</strong> OAuth を統合し、プライベートなデータやリソースへの安全な接続をサポート。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>MCP は強力である一方、手動でのセットアップには依然としてコマンドラインの知識が必要な場面が多くあります。Klavis は、この「ラストワンマイル」を埋めるために、企業やチームが MCP ツールを組織全体で簡単に共有し、活用できるように設計されている点が非常に実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><code>klavis.ai</code> の公式サイトまたは GitHub リポジトリの手順に従い、アカウントとプロジェクトを設定します。</li>
+          <li>利用したい MCP ツールの設定をダッシュボード上で行います。</li>
+          <li>Slack や Discord などのクライアントを接続し、チャットインターフェースから AI エージェントに指示を与えます。</li>
+          <li>AI が MCP サーバーを介してツールを実行し、結果（集計レポートや画像など）を指定したチャットルームに返します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>MCP の恩恵を受けたいが、毎回の環境構築やサーバー管理が重荷に感じている開発者。</li>
+          <li>チーム内で AI エージェント用のカスタムツール（スキル）を安全に共用・運用したいエンジニアリングマネージャー。</li>
+          <li>Slack などのチャットツールを AI ワークフローの起点にしたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>一部の高度なホスティング機能や独自ドメイン連携は、今後のアップデートや有料プランに依存する場合があるため、リポジトリの最新ロードマップを確認してください。</p>
+
+        <h2>まとめ</h2>
+        <p><code>klavis</code> は、MCP という最新のプロトコルを「限られたマニアのもの」から「ビジネスの標準的なインフラ」へと押し上げる重要な役割を担っています。AI エージェントと外部ツールの接続を簡略化したいすべての人にとって、注目すべきプラットフォームと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Klavis-AI/klavis" target="_blank" rel="noreferrer">Klavis-AI/klavis</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/aMrBvajamT" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/9qj0Zh9Bcq" target="_blank" rel="noreferrer">Source X (2)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:05:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:07:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[klavis]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-klavis-ai-klavis-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-klavis-ai-klavis-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MCP を誰もが使えるインフラへ。Slack や Discord から AI エージェントのツールを自在に操る統合プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-nano-banana]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jimmylv-awesome-nano-banana-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jimmylv-awesome-nano-banana-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google の最新画像生成モデル「Nano Banana」を使いこなす。プロンプトと作例を集約した実践的なショーケース。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI-Novel-Writing-Assistant]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: リアルタイム同期とグラフ視覚化の実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-notebooklm-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-notebooklm-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Driveソースの自動同期機能と、関連性の高い情報をノードマップで表示する大幅アップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity: Deep Dive Workspaceの導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-perplexity-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-perplexity-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。]]></description>
     </item>
   </channel>
 </rss>

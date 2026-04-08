@@ -8,6 +8,36 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-klavis-ai-klavis-pickup",
+      "title": "klavis",
+      "dek": "MCP を誰もが使えるインフラへ。Slack や Discord から AI エージェントのツールを自在に操る統合プラットフォーム。",
+      "summary": "Model Context Protocol (MCP) をスケールさせ、開発者以外でも容易に利用可能にするための統合プラットフォーム。Web UI での管理、Slack/Discord 連携、ホスティング環境を提供し、AI エージェントと外部ツールの接続・運用を劇的に簡略化します。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T19:10:00+09:00",
+      "repoName": "Klavis-AI/klavis",
+      "repoUrl": "https://github.com/Klavis-AI/klavis",
+      "articleUrl": "./articles/github/daily/2026-04-08-klavis-ai-klavis-pickup.html",
+      "serial": 161,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-08-jimmylv-awesome-nano-banana-pickup",
+      "title": "awesome-nano-banana",
+      "dek": "Google の最新画像生成モデル「Nano Banana」を使いこなす。プロンプトと作例を集約した実践的なショーケース。",
+      "summary": "Google の画像生成・編集モデル Nano Banana (Gemini-2.5-flash-image) のポテンシャルを最大限に活用するためのプロンプト集。漫画、図解、セミナー資料、サムネイルなど、多様なユースケースに対応したプロンプトと高品質な生成例がまとめられています。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T19:00:00+09:00",
+      "repoName": "JimmyLv/awesome-nano-banana",
+      "repoUrl": "https://github.com/JimmyLv/awesome-nano-banana",
+      "articleUrl": "./articles/github/daily/2026-04-08-jimmylv-awesome-nano-banana-pickup.html",
+      "serial": 160,
+      "originType": "pickup",
+      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup",
       "title": "AI-Novel-Writing-Assistant",
       "dek": "長編小説の執筆を AI が伴走。設定からプロット、執筆、伏線管理までを網羅した AI Native な創作支援システム。",
