@@ -44,7 +44,8 @@ harunami_ai_base/
 ├── favicon.svg
 ├── SITE_STRUCTURE.md       # このファイル
 ├── data/
-│   └── articles.json       # 全記事メタデータ（category・articleUrl含む）
+│   ├── articles.json       # 全記事メタデータ（category・articleUrl含む）
+│   └── github-search-index.json # GitHub記事検索用インデックス
 └── articles/
     ├── github/             # GitHub Trending解析記事
     │   ├── daily/          # trending / pickup 記事
@@ -154,6 +155,7 @@ harunami_ai_base/
 - `serial` は GitHub Watcher 本体記事である `github-trending` と `github-pickup` が共有する通し番号
 - `github-update-report` は別カウントとして扱い、GitHub Watcher 本体の通し番号を消費しない
 - pickup 記事の `meta description` は、汎用文ではなく repo の価値や用途が伝わる具体文にする
+- GitHub 記事の全文検索用に `data/github-search-index.json` を持つ
 
 ---
 
@@ -171,6 +173,13 @@ harunami_ai_base/
 - 第1キー: `publishedAt` 降順
 - 第2キー: 同日内は `createdAt` 降順
 - `rank` は表示用であり、並び順の主キーには使わない
+
+### GitHub Watcher の検索データ
+
+- `data/github-search-index.json` は GitHub 系記事の検索専用インデックス
+- 1記事ごとに分けず、全記事をまとめた 1 ファイルで管理する
+- `title` / `repoName` / `genre` / `dek` / `summary` / 記事本文の抽出テキストを検索対象にできる形で保持する
+- GitHub 記事を追加・更新したら `generate_github_search_index.py` で再生成する
 
 ---
 
