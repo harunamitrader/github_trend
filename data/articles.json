@@ -8,6 +8,36 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup",
+      "title": "AI-Novel-Writing-Assistant",
+      "dek": "長編小説の執筆を AI が伴走。設定からプロット、執筆、伏線管理までを網羅した AI Native な創作支援システム。",
+      "summary": "アイデアの断片から、設定、世界観、章立て、執筆までを自律的にサポートする小説執筆支援システム。Agent と RAG、独自の「伏線管理台帳」を用いることで、長編特有の論理的整合性を保ちながら高品質なストーリー生成を実現します。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T18:50:00+09:00",
+      "repoName": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+      "repoUrl": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+      "articleUrl": "./articles/github/daily/2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup.html",
+      "serial": 159,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-08-debugbase-glance-pickup",
+      "title": "glance",
+      "dek": "Claude Code からブラウザを自在に操作。スクリーンショット撮影からテスト実行までをターミナルで完結させる MCP サーバー。",
+      "summary": "Claude Code などの AI エージェントに高度なブラウザオートメーション機能を提供する MCP サーバー。TypeScript で実装されており、Web サイトのナビゲーション、要素操作、自動テストなどをターミナル上の対話だけで実行可能にします。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T18:40:00+09:00",
+      "repoName": "DebugBase/glance",
+      "repoUrl": "https://github.com/DebugBase/glance",
+      "articleUrl": "./articles/github/daily/2026-04-08-debugbase-glance-pickup.html",
+      "serial": 158,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-chromedevtools-chrome-devtools-mcp-pickup",
       "title": "chrome-devtools-mcp",
       "dek": "Google 公式の MCP サーバーが登場。AI エージェントに Chrome の「目」と「手」を与え、ブラウザを自在に操作・デバッグ可能に。",

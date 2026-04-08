@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:46:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:03:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI-Novel-Writing-Assistant]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-explosivecoderflome-ai-novel-writing-assistant-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長編小説の執筆を AI が伴走。設定からプロット、執筆、伏線管理までを網羅した AI Native な創作支援システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[glance]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-debugbase-glance-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-debugbase-glance-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code からブラウザを自在に操作。スクリーンショット撮影からテスト実行までをターミナルで完結させる MCP サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[chrome-devtools-mcp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chromedevtools-chrome-devtools-mcp-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ghost-coder]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-ghost-coder.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-ghost-coder.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[バックエンド開発・CI/CDに統合される自律型修正エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[trade-graph-ai]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trade-graph-ai.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trade-graph-ai.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[グラフニューラルネットワーク(GNN)を用いて市場の異常な価格変動を検知。]]></description>
     </item>
   </channel>
 </rss>

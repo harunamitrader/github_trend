@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ExplosiveCoderflome/AI-Novel-Writing-Assistant を読み、AI によるプロット管理・伏線回収・執筆支援システムの機能を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI-Novel-Writing-Assistant</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AI-Novel-Writing-Assistant</h1>
+      <p class="article-dek">長編小説の執筆を AI が伴走。設定からプロット、執筆、伏線管理までを網羅した AI Native な創作支援システム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant" target="_blank" rel="noreferrer">
+              ExplosiveCoderflome/AI-Novel-Writing-Assistant
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>長編小説の創作過程を end-to-end で支援するために設計された、AI Native なオープンソース・システムです。一言のアイデアから、世界観の設定、登場人物の構築、章の構成、そして本文の執筆まで、エージェントと RAG（検索拡張生成）を活用して一貫性のある物語制作をサポートします。</p>
+
+        <h2>何ができるか</h2>
+        <p>このシステムは、単なる「文章生成」を超えた高度な執筆ワークフローを提供します。</p>
+        <ul>
+          <li><strong>オートマチック・ディレクター:</strong> 曖昧なインスピレーションから、物語の骨子（プロジェクト設定やストーリーアーク）を自動生成。</li>
+          <li><strong>伏線管理台帳 (Foreshadowing Ledger):</strong> 過去の記述を RAG で参照し、物語の整合性を保ちながら伏線の設置と回収を追跡。</li>
+          <li><strong>章ごとの自律執筆・レビュー:</strong> 章単位での執筆、AI による内容の検証、必要に応じた修正を自動サイクルで実行。</li>
+          <li><strong>クリエイション・コックピット:</strong> 執筆状況やタスクの進行を俯瞰できる専用の編集・管理インターフェース。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、長編小説特有の「整合性の維持」に焦点を当てている点です。AI エージェントがディレクターの役割を果たし、物語の全体像を常に把握しながら、台帳システムによって情報の矛盾（矛盾した設定や忘れ去られた伏線）を防ぐ仕組みが導入されています。これにより、数万字を超える長編でも破綻の少ない物語制作が可能になります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをセットアップし、専用の Web ダッシュボードまたは CLI インスタンスを起動します。</li>
+          <li>「コックピット」から新しいプロジェクトを作成し、最初の「キーワード」や「コンセプト」を入力します。</li>
+          <li>AI が提案する世界観やプロットを確認・編集し、物語の地図（章立て）を確定させます。</li>
+          <li>執筆ボタンを押すと、各章が設定に基づき順次生成され、あなたはそれをレビューして磨き上げていきます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>小説を書きたいが、プロットの構築や設定の管理が苦手な創作初心者。</li>
+          <li>膨大な設定メモを持つ長編作家で、矛盾チェックや案出しのパートナーとして AI を使いたい人。</li>
+          <li>AI エージェントを用いたリッチなコンテンツ制作フローに興味があるエンジニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>執筆には大量のトークンを消費するため、API コストの管理が重要です。また、最終的な「物語の魂」や感情表現の微細な調整は人間の作家による推敲が不可欠です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>AI-Novel-Writing-Assistant</code> は、AI を「下書きツール」から「優秀な編集者兼共著者」へと進化させる試みです。論理的な整合性を保つシステムが作家の右腕となることで、創作のハードルはかつてないほど下がり、誰もが物語を紡げる時代を象徴するプロジェクトと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant" target="_blank" rel="noreferrer">ExplosiveCoderflome/AI-Novel-Writing-Assistant</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/3aebLYFQ0B" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
