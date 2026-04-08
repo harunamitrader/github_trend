@@ -3,24 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChatGPT: Windowsサンドボックスのセキュリティ強化とCodex CLI改善</title>
+    <meta
+      name="description"
+      content="ChatGPT Desktop / CLI のセキュリティ強化（Windows サンドボックス制限）と、デバイスコードログイン対応の概要を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ChatGPT update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../styles.css" />
   </head>
   <body>
     <article class="article-shell">
       <div class="article-topline">
-        <a class="article-back" href="../../ai-tools-monitor.html">AI Tools Monitor</a>
+        <a class="article-back" href="../../ai-tools-monitor.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">Release Notes</p>
       </div>
-      <h1 class="article-title">ChatGPT: Windowsサンドボックスのセキュリティ強化とCodex CLI改善</h1>
-      <p class="article-dek">OSレベルのネットワーク出力制限の導入や、デバイスコードフローを用いたサインイン機能が追加されました。</p>
+
+      <h1 class="article-title">ChatGPT: Windows サンドボックスの隔離強化とデバイスコードログインへの対応</h1>
+      <p class="article-dek">OS レベルのネットワーク制御による安全性の向上と、CLI などのヘッドレス環境での利便性が改善されました。</p>
+
       <div class="article-meta-grid">
-        <div class="article-meta-item"><span class="meta-label">公開日</span><strong>2026-04-09</strong></div>
-        <div class="article-meta-item"><span class="meta-label">ツール</span><strong>ChatGPT</strong></div>
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>April 2026 Update</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>ChatGPT</strong>
+        </div>
       </div>
+
       <div class="article-body">
-        <h2>セキュリティと運用の強化</h2>
-        <p>Windowsサンドボックスに対してOSレベルの出力ルールが導入され、プロキシ経由のみのネットワーク接続を強制できるようになりました。また、ブラウザベースのログインが困難な環境向けにデバイスコードフローによるサインインがサポートされました。</p>
+        <h2>主な変更点</h2>
+        <h3>Windows サンドボックスの隔離強化</h3>
+        <p>
+          Windows デスクトップ版において、AI がコードを実行する際のサンドボックスに対する OS レベルの制限機能が導入されました。
+          ネットワーク出力を特定のプロキシや許可されたドメインに限定するルールを設定可能になり、コード実行を通じたデータ漏洩リスクを大幅に低減します。
+        </p>
+        <h3>デバイスコードフローによるログイン</h3>
+        <p>
+          CLI やサーバーサイドでの利用を想定し、ブラウザを直接起動できない環境でもログイン可能な「デバイスコードフロー」がサポートされました。
+          表示されたコードを別のブラウザで入力するだけで、ヘッドレス環境でも安全に認証を完了できます。
+        </p>
+
+        <h2>影響や使いどころ</h2>
+        <p>
+          企業のセキュリティポリシーにより厳格なネットワーク制御が求められる環境でも、ChatGPT のコード実行機能をより安全に利用できるようになります。
+          また、Codex CLI などのツール利用時において、SSH 経由のリモート環境などからのログインがスムーズになります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          今回のアップデートは「堅牢性」と「利便性」の両面を強化するものです。
+          特に Windows 環境でのサンドボックス制限は、エンタープライズ利用における大きな障壁を一つ取り払うものとなります。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">OpenAI: ChatGPT Release Notes</a>
+        </div>
       </div>
     </article>
   </body>

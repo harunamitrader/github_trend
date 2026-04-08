@@ -8,6 +8,45 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-09-claude-managed-agents",
+      "title": "Claude Platform: Managed Agents 発表と ant CLI のパブリックベータ開始",
+      "dek": "自律型エージェントを安全に実行するフルマネージド基盤と、開発を加速する ant CLI が公開されました。",
+      "summary": "Anthropicは、自律型エージェントをサンドボックス環境で動作させる「Managed Agents」と、APIリソース管理を強化する「ant CLI」のパブリックベータを開始。エージェント開発のプラットフォーム化を推進しています。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T10:00:00+09:00",
+      "toolName": "Claude",
+      "articleUrl": "./articles/tools/2026-04-09-claude-managed-agents.html",
+      "serial": 103,
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-09-chatgpt-security-codex",
+      "title": "ChatGPT: Windows サンドボックスの隔離強化とデバイスコードログインへの対応",
+      "dek": "OS レベルのネットワーク制御による安全性の向上と、CLI などのヘッドレス環境での利便性が改善されました。",
+      "summary": "ChatGPTのセキュリティアップデート。Windowsサンドボックスでのネットワーク出力制限機能の導入や、デバイスコードフローを用いたセキュアなサインイン方式に対応し、法人・開発者向けの堅牢性が向上しました。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T09:50:00+09:00",
+      "toolName": "ChatGPT",
+      "articleUrl": "./articles/tools/2026-04-09-chatgpt-security-codex.html",
+      "serial": 102,
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-09-openclaw-v2026-4-8",
+      "title": "OpenClaw v2026.4.8: メディア生成ツールの追加と Dreaming 機能の整理",
+      "dek": "動画・音楽生成能力の獲得と、バックグラウンドでの高度な記憶保守システムが実装されました。",
+      "summary": "OpenClaw v2026.4.8 リリース。ComfyUIやSuno連携によるメディア生成機能の拡充に加え、メモリ管理システム「Dreaming」を3段階に再編。長期記憶の精度と運用性が大幅に強化されました。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T09:40:00+09:00",
+      "toolName": "OpenClaw",
+      "articleUrl": "./articles/tools/2026-04-09-openclaw-v2026-4-8.html",
+      "serial": 101,
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-08-claude-code-v2-1-96",
       "title": "Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正",
       "dek": "Bedrock サポートの強化と、v2.1.94 で発生していた認証情報の欠落バグを修正。インタラクティブな学習コマンド /powerup も追加。",
@@ -17,6 +56,7 @@
       "repoName": "anthropic-ai/claude-code",
       "repoUrl": "https://github.com/anthropics/claude-code",
       "articleUrl": "./articles/tools/2026-04-08-claude-code-v2-1-96.html",
+      "serial": 100,
       "rank": 999
     },
     {
@@ -30,6 +70,7 @@
       "repoName": "google-gemini/gemini-cli",
       "repoUrl": "https://github.com/google-gemini/gemini-cli",
       "articleUrl": "./articles/tools/2026-04-08-gemini-cli-v0-37-0-stable.html",
+      "serial": 99,
       "rank": 999
     },
     {
@@ -43,19 +84,21 @@
       "repoName": "github/copilot",
       "repoUrl": "https://github.blog/changelog/label/copilot/",
       "articleUrl": "./articles/tools/2026-04-08-github-copilot-vscode-april-update.html",
+      "serial": 98,
       "rank": 999
     },
     {
       "category": "ai-tool-log",
       "slug": "2026-04-08-codex-v0-12-3",
       "title": "Oh My Codex v0.12.3: チーム状態の JSON 出力とセッションの安定性向上",
-      "dek": "omx team status --json コマンドを追加し、自動化や外部連携が容易に。プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。",
+      "dek": "omx team status --json コマンドを追加し、自動化や外部連携が容易に. プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。",
       "summary": "Oh My Codex v0.12.3 がリリース。チーム情報の JSON 出力対応や、プロセス管理、ログローテーション機能が強化されました。",
       "publishedAt": "2026-04-08",
       "createdAt": "2026-04-08T21:45:00+09:00",
       "repoName": "yeachan-heo/oh-my-codex",
       "repoUrl": "https://github.com/yeachan-heo/oh-my-codex",
       "articleUrl": "./articles/tools/2026-04-08-codex-v0-12-3.html",
+      "serial": 97,
       "rank": 999
     },
     {
@@ -69,6 +112,7 @@
       "repoName": "superagent-ai/grok-cli",
       "repoUrl": "https://github.com/superagent-ai/grok-cli",
       "articleUrl": "./articles/tools/2026-04-07-grok-cli-v1-1-5-rc2.html",
+      "serial": 96,
       "rank": 999
     },
     {

@@ -3,26 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OpenClaw v2026.4.8: メディア生成機能の拡充とDreaming機能の進化</title>
+    <meta
+      name="description"
+      content="OpenClaw v2026.4.8 の更新内容（メディア生成ツール追加、Dreaming機能再編）を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.4.8 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../styles.css" />
   </head>
   <body>
     <article class="article-shell">
       <div class="article-topline">
-        <a class="article-back" href="../../ai-tools-monitor.html">AI Tools Monitor</a>
+        <a class="article-back" href="../../ai-tools-monitor.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">Release Notes</p>
       </div>
-      <h1 class="article-title">OpenClaw v2026.4.8: メディア生成機能の拡充とDreaming機能の進化</h1>
-      <p class="article-dek">動画・音楽生成ツールの追加や、3段階のDreaming（メモリ保守）機能が実装された大型アップデート。</p>
+
+      <h1 class="article-title">OpenClaw v2026.4.8: メディア生成ツールの追加と Dreaming 機能の整理</h1>
+      <p class="article-dek">動画・音楽生成能力の獲得と、バックグラウンドでの高度な記憶保守システムが実装されました。</p>
+
       <div class="article-meta-grid">
-        <div class="article-meta-item"><span class="meta-label">公開日</span><strong>2026-04-09</strong></div>
-        <div class="article-meta-item"><span class="meta-label">ツール</span><strong>OpenClaw</strong></div>
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
       </div>
+
       <div class="article-body">
-        <h2>メディア生成の強化</h2>
-        <p>新しく `video_generate` および `music_generate` ツールが追加され、エージェントが動画や音楽を自律的に生成できるようになりました。ComfyUIやRunwayなどの複数プロバイダーに対応し、自動フォールバックも可能です。</p>
-        <h2>Dreamingメモリ機能の進化</h2>
-        <p>「Light」「Deep」「REM」の3フェーズにDreaming機能が再編され、バックグラウンドでの効率的なメモリ昇格とタグ付けが可能になりました。</p>
+        <h2>主な変更点</h2>
+        <h3>メディア生成ツールの統合</h3>
+        <p>
+          新しく <code>video_generate</code> および <code>music_generate</code> ツールが追加されました。
+          ComfyUI や Runway、Suno などの外部サービスと連携し、エージェントが指示に応じて動画や音楽を自律的に生成・編集できるようになります。
+          複数のプロバイダーを設定可能で、自動フォールバック機能も備えています。
+        </p>
+        <h3>Dreaming 機能の再編</h3>
+        <p>
+          AI のメモリ保守機能「Dreaming（夢見）」が、「Light」「Deep」「REM」の 3 フェーズに体系化されました。
+          バックグラウンドで会話履歴の重要度を判定し、高度なメタデータの付加や長期記憶への昇格を段階的に行うことで、推論時のコンテキスト精度が向上します。
+        </p>
+
+        <h2>影響や使いどころ</h2>
+        <p>
+          マルチモーダルな創作タスクを AI エージェントに一任できるようになります。
+          また、Dreaming 機能の改良により、長期間にわたる複雑なプロジェクトでも AI が過去の文脈をより正確に維持し続けることが可能になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          v2026.4.8 は、OpenClaw が単なる対話アシスタントから、マルチメディア制作能力と高度な記憶管理能力を兼ね備えた「自律開発パートナー」へと進化した重要なアップデートです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.4.8" target="_blank" rel="noreferrer">GitHub: OpenClaw v2026.4.8 Release Notes</a>
+        </div>
       </div>
     </article>
   </body>

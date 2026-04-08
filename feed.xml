@@ -5,8 +5,36 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 08 Apr 2026 21:05:28 GMT</lastBuildDate>
+=======
+    <lastBuildDate>Thu, 09 Apr 2026 06:18:26 GMT</lastBuildDate>
+>>>>>>> f5d76f8 (feat: AIツールおよびGitHubピックアップ記事の更新 (2026-04-09))
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Platform: Managed Agents 発表と ant CLI のパブリックベータ開始]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-managed-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-managed-agents.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律型エージェントを安全に実行するフルマネージド基盤と、開発を加速する ant CLI が公開されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: Windows サンドボックスの隔離強化とデバイスコードログインへの対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-security-codex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-security-codex.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OS レベルのネットワーク制御による安全性の向上と、CLI などのヘッドレス環境での利便性が改善されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw v2026.4.8: メディア生成ツールの追加と Dreaming 機能の整理]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-openclaw-v2026-4-8.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-openclaw-v2026-4-8.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[動画・音楽生成能力の獲得と、バックグラウンドでの高度な記憶保守システムが実装されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</link>
@@ -37,7 +65,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-codex-v0-12-3.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[omx team status --json コマンドを追加し、自動化や外部連携が容易に。プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。]]></description>
+      <description><![CDATA[omx team status --json コマンドを追加し、自動化や外部連携が容易に. プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。]]></description>
     </item>
     <item>
       <title><![CDATA[mempalace]]></title>
@@ -142,30 +170,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code からブラウザを自在に操作。スクリーンショット撮影からテスト実行までをターミナルで完結させる MCP サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[chrome-devtools-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chromedevtools-chrome-devtools-mcp-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chromedevtools-chrome-devtools-mcp-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google 公式の MCP サーバーが登場。AI エージェントに Chrome の「目」と「手」を与え、ブラウザを自在に操作・デバッグ可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-code-showcase]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chriswiles-claude-code-showcase-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-chriswiles-claude-code-showcase-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code を「最強のチームメイト」へ。設定、スキル、MCP 連携のベストプラクティスを集約したショーケース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[personaplex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人間のように割り込み、相槌を。テキスト・音声の両面でペルソナを制御可能な、NVIDIA製の次世代フルデュプレックス音声対話モデル。]]></description>
     </item>
   </channel>
 </rss>
