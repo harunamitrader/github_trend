@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:07:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 12:12:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[personaplex]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人間のように割り込み、相槌を。テキスト・音声の両面でペルソナを制御可能な、NVIDIA製の次世代フルデュプレックス音声対話モデル。]]></description>
+    </item>
     <item>
       <title><![CDATA[indexion]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trkbt10-indexion-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[依存パッケージの脆弱性をLLMで自動パッチ生成・テストするセキュリティツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[rag-studio]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-rag-studio.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-rag-studio.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[チャンキングや検索精度を視覚的に評価・調整できるエンタープライズ向けダッシュボード。]]></description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-nvidia-personaplex-pickup",
+      "title": "personaplex",
+      "dek": "人間のように割り込み、相槌を。テキスト・音声の両面でペルソナを制御可能な、NVIDIA製の次世代フルデュプレックス音声対話モデル。",
+      "summary": "NVIDIAが公開した、全二重（フルデュプレックス）音声対話を実現するAIモデル。Moshiアーキテクチャをベースに、テキストプロンプトと音声サンプルの両方からAIの性格を制御できる機能を備え、低遅延で自然な音声インタラクションを提供します。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T18:10:00+09:00",
+      "repoName": "NVIDIA/personaplex",
+      "repoUrl": "https://github.com/NVIDIA/personaplex",
+      "articleUrl": "./articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html",
+      "serial": 155,
+      "originType": "pickup",
+      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-trkbt10-indexion-pickup",
       "title": "indexion",
       "dek": "複雑なコードベースを「動的な地図」に変える。リファクタリング計画から AI 連携までを網羅した解析・検索エンジン。",
