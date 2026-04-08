@@ -243,10 +243,12 @@
         const report = all.filter(a => a.category && a.category.trim() === "github-update-report");
 
         const containerEl = document.getElementById("articles-container");
+        const normalizedGenreMap = {
+          "AIコーディング (プロンプト・開発補助ツール)": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+        };
         const categoryOrder = [
           "AIコーディング (CLI本体・拡張機能)",
           "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
-          "AIコーディング (プロンプト・開発補助ツール)",
           "AIエージェント (自律基盤・特化アプリ)",
           "金融・トレード分析",
           "メディア作成・Web生成 (動画・画像・UI)",
@@ -263,7 +265,8 @@
           categoryGroups[category] = [];
         }
         for (const article of articles) {
-          const category = (article.genre || "その他・未分類（ユーティリティ等）").trim();
+          const rawCategory = (article.genre || "その他・未分類（ユーティリティ等）").trim();
+          const category = normalizedGenreMap[rawCategory] || rawCategory;
           if (!categoryGroups[category]) categoryGroups[category] = [];
           categoryGroups[category].push(article);
         }
@@ -292,7 +295,7 @@
           const latestCreatedAt = getNewestTimestamp(items);
           const isCategoryNew = isWithinNewWindow(latestCreatedAt);
           html += `
-            <details class="category-accordion" ${category === categoryOrder[0] ? "open" : ""}>
+            <details class="category-accordion">
               <summary class="category-summary">
                 <div class="category-summary-main">
                   <div class="category-summary-row">
@@ -361,8 +364,8 @@
           
           let originBadge = "";
           if (article.originType === "trending") {
-             const rankStr = article.rank && article.rank < 99 ? ` (Rank ${article.rank})` : "";
-             originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">Trending${rankStr}</span>`;
+             const rankStr = article.rank && article.rank < 99 ? `Rank${article.rank}` : "Trending";
+             originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">${rankStr}</span>`;
           } else if (article.originType === "pickup" || article.category === "github-pickup") {
              originBadge = `<span class="rank-label" style="background:#f0fdf4;color:#15803d;border-color:#dcfce7;">Pickup</span>`;
           }
