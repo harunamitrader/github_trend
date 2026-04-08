@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 02:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 11:26:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[AI-Trader]]></title>
@@ -160,12 +160,12 @@
       <description><![CDATA[チャンキングや検索精度を視覚的に評価・調整できるエンタープライズ向けダッシュボード。]]></description>
     </item>
     <item>
-      <title><![CDATA[2026-04-08 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+      <title><![CDATA[GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自社モデルやローカル LLM (Ollama) を推論エンジンとして使用可能に。オフラインモードも追加。]]></description>
     </item>
   </channel>
 </rss>

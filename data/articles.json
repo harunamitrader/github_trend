@@ -3942,16 +3942,6 @@
       "genre": "ナレッジ管理・RAG解析",
       "rank": 5,
       "serial": 145
-    },
-    {
-      "category": "github-update-report",
-      "slug": "2026-04-08-update-report",
-      "title": "2026-04-08 アップデートレポート",
-      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
-      "summary": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
-      "publishedAt": "2026-04-08",
-      "articleUrl": "./articles/github/daily/2026-04-08-update-report.html",
-      "serial": 156
     }
   ]
 }

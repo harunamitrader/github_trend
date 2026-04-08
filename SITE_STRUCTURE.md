@@ -150,7 +150,8 @@ harunami_ai_base/
 - `category: "github-update-report"` → `articleUrl`: `./articles/github/daily/`
 - `category: "github-pickup"` → `articleUrl`: `./articles/github/daily/`
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
-- `serial` は `github-trending`、`github-pickup`、`github-update-report` で共有する通し番号
+- `serial` は GitHub Watcher 本体記事である `github-trending` と `github-pickup` が共有する通し番号
+- `github-update-report` は別カウントとして扱い、GitHub Watcher 本体の通し番号を消費しない
 
 ---
 
