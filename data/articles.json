@@ -44,8 +44,8 @@
       "summary": "2026年4月8日のGitHubトレンドアップデートレポート。DeepTutor, seomachine, TimesFM, dify, vllmなど、注目の5件のリポジトリを詳細解析。AIエージェントの専門分化とインフラの高度化という本日の主要動向を総括しました。",
       "publishedAt": "2026-04-08",
       "createdAt": "2026-04-08T16:30:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-08-update-report.html",
-      "serial": 162
+      "articleUrl": "./articles/github/reports/2026-04-08-update-report.html",
+      "serial": 10
     },
     {
       "category": "github-trending",
@@ -400,8 +400,8 @@
       "summary": "GitHub Trendingから本日の全順位を抽出し、GitNexus、LiteRT-LM、Immich、shannon、hermes-agentの5件を新規に記事化。",
       "publishedAt": "2026-04-07",
       "createdAt": "2026-04-07T05:10:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-07-update-report.html",
-      "serial": 138
+      "articleUrl": "./articles/github/reports/2026-04-07-update-report.html",
+      "serial": 9
     },
     {
       "category": "github-trending",
@@ -555,12 +555,12 @@
     {
       "slug": "2026-04-06-update-report",
       "createdAt": "2026-04-06T12:30:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-06-update-report.html",
+      "articleUrl": "./articles/github/reports/2026-04-06-update-report.html",
       "category": "github-update-report",
       "publishedAt": "2026-04-06",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "title": "2026-04-06 アップデートレポート",
-      "serial": 131,
+      "serial": 8,
       "summary": "GitHub Trendingから本日の全順位を抽出し、gallery、claw-code、pi-mono、crawl4ai、tinykitの5件を新規に記事化。"
     },
     {
@@ -666,8 +666,8 @@
       "summary": "GitHub Trendingから本日の全順位を抽出し、未作成のリポジトリの中からMLX-VLM、tdesktop、goose、agent-frameworkの4件を新しく記事化しました。",
       "publishedAt": "2026-04-05",
       "createdAt": "2026-04-05T12:00:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-05-update-report.html",
-      "serial": 124
+      "articleUrl": "./articles/github/reports/2026-04-05-update-report.html",
+      "serial": 7
     },
     {
       "category": "github-trending",
@@ -885,8 +885,8 @@
       "summary": "本日の GitHub Trending から 3 件の未記事 repo を追加し、daily 記事と更新レポートを公開しました。",
       "publishedAt": "2026-04-04",
       "createdAt": "2026-04-04T05:03:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-04-update-report.html",
-      "serial": 115
+      "articleUrl": "./articles/github/reports/2026-04-04-update-report.html",
+      "serial": 6
     },
     {
       "category": "github-trending",
@@ -1118,8 +1118,8 @@
       "summary": "本日の GitHub Trending から 3 件の注目リポジトリをピックアップし、解析記事を公開しました。",
       "publishedAt": "2026-04-03",
       "createdAt": "2026-04-03T10:05:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-03-update-report.html",
-      "serial": 104
+      "articleUrl": "./articles/github/reports/2026-04-03-update-report.html",
+      "serial": 5
     },
     {
       "category": "github-trending",
@@ -1549,8 +1549,8 @@
       "summary": "本日の GitHub Trending から 5 件の注目リポジトリをピックアップし、解析記事を公開しました。",
       "publishedAt": "2026-04-01",
       "createdAt": "2026-04-01T20:41:00Z",
-      "articleUrl": "./articles/github/daily/2026-04-01-update-report.html",
-      "serial": 84
+      "articleUrl": "./articles/github/reports/2026-04-01-update-report.html",
+      "serial": 4
     },
     {
       "category": "github-pickup",
@@ -2039,10 +2039,10 @@
       "publishedAt": "2026-03-31",
       "repoName": "harunami_AI_base",
       "repoUrl": "../../github-trend.html",
-      "articleUrl": "./articles/github/daily/2026-03-31-update-report.html",
+      "articleUrl": "./articles/github/reports/2026-03-31-update-report.html",
       "rank": 0,
       "createdAt": "2026-03-29T15:59:21+09:00",
-      "serial": 24
+      "serial": 3
     },
     {
       "category": "ai-tool-log",
@@ -2204,10 +2204,10 @@
       "publishedAt": "2026-03-30",
       "repoName": "agithub-trend-daily-writer",
       "repoUrl": "",
-      "articleUrl": "./articles/github/daily/2026-03-30-update-report.html",
+      "articleUrl": "./articles/github/reports/2026-03-30-update-report.html",
       "rank": 999,
       "createdAt": "2026-03-30T05:10:16+09:00",
-      "serial": 44
+      "serial": 2
     },
     {
       "category": "github-pickup",
@@ -2466,10 +2466,10 @@
       "publishedAt": "2026-03-29",
       "repoName": "agithub-trend-daily-writer",
       "repoUrl": "",
-      "articleUrl": "./articles/github/daily/2026-03-29-update-report.html",
+      "articleUrl": "./articles/github/reports/2026-03-29-update-report.html",
       "rank": 999,
       "createdAt": "2026-03-29T15:59:21+09:00",
-      "serial": 25
+      "serial": 1
     },
     {
       "category": "github-trending",

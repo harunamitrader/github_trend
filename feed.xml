@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 02:31:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 11:33:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[AI-Trader]]></title>
@@ -25,8 +25,8 @@
     </item>
     <item>
       <title><![CDATA[2026-04-08 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-08-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-08-update-report.html</guid>
       <category>github-update-report</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査した GitHub トレンドの全順位と、新規作成された 5 件の記事のまとめ。教育AI、SEO自動化、時系列予測、LLMOps、高速推論エンジンと、多様な進化が確認されました。]]></description>

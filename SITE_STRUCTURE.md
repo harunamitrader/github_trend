@@ -47,7 +47,8 @@ harunami_ai_base/
 │   └── articles.json       # 全記事メタデータ（category・articleUrl含む）
 └── articles/
     ├── github/             # GitHub Trending解析記事
-    │   └── 2026-03-24-*.html  (6記事)
+    │   ├── daily/          # trending / pickup 記事
+    │   └── reports/        # update report 記事
     ├── tools/              # AIツール更新要約記事
     │   └── 2026-03-*.html     (21記事)
     └── other/              # その他（現在空）
@@ -147,7 +148,7 @@ harunami_ai_base/
 
 - `category: "ai-tool-log"` → `articleUrl`: `./articles/tools/`
 - `category: "github-trending"` → `articleUrl`: `./articles/github/daily/`
-- `category: "github-update-report"` → `articleUrl`: `./articles/github/daily/`
+- `category: "github-update-report"` → `articleUrl`: `./articles/github/reports/`
 - `category: "github-pickup"` → `articleUrl`: `./articles/github/daily/`
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
 - `serial` は GitHub Watcher 本体記事である `github-trending` と `github-pickup` が共有する通し番号
