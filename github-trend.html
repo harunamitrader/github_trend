@@ -44,6 +44,50 @@
       }
       .gh-tab-content { display: none; }
       .gh-tab-content.active { display: block; }
+      .gh-search-panel {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        background: linear-gradient(135deg, #f8fbff 0%, #eef6ff 100%);
+      }
+      .gh-search-row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .gh-search-input {
+        flex: 1 1 320px;
+        min-width: 220px;
+        padding: 12px 14px;
+        border: 1px solid #bfdbfe;
+        border-radius: 12px;
+        font: inherit;
+        background: #fff;
+        color: var(--heading);
+      }
+      .gh-search-input:focus {
+        outline: none;
+        border-color: #0969da;
+        box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.12);
+      }
+      .gh-search-clear {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid #bfdbfe;
+        background: #fff;
+        color: #0969da;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .gh-search-summary {
+        margin-top: 10px;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
       .category-accordion-list {
         display: grid;
         gap: 14px;
@@ -172,6 +216,19 @@
               <h2>ツール・リポジトリ一覧</h2>
             </div>
             <div class="stats" id="site-stats-articles"></div>
+            <div class="gh-search-panel">
+              <div class="gh-search-row">
+                <input
+                  id="github-search-input"
+                  class="gh-search-input"
+                  type="search"
+                  placeholder="記事タイトル・repo・カテゴリ・本文の単語で検索"
+                  autocomplete="off"
+                />
+                <button id="github-search-clear" class="gh-search-clear" type="button">クリア</button>
+              </div>
+              <div id="github-search-summary" class="gh-search-summary">検索対象: タイトル / repo / カテゴリ / 概要 / 本文</div>
+            </div>
             <div id="articles-container" style="margin-top: 16px;"></div>
           </div>
 
@@ -197,11 +254,22 @@
     <script>
       (async function () {
         const starredStorageKey = "harunami-ai-base-starred-articles";
-        const response = await fetch(`./data/articles.json?t=${Date.now()}`, { cache: "no-store" });
-        const payload = await response.json();
+        const [articlesResponse, searchIndexResponse] = await Promise.all([
+          fetch(`./data/articles.json?t=${Date.now()}`, { cache: "no-store" }),
+          fetch(`./data/github-search-index.json?t=${Date.now()}`, { cache: "no-store" }),
+        ]);
+        const payload = await articlesResponse.json();
+        const searchIndexPayload = await searchIndexResponse.json();
+        const searchIndexMap = new Map(
+          (searchIndexPayload.articles || []).map((article) => [article.slug, article])
+        );
         const starredSlugs = loadStarredSlugs();
         const all = payload.articles
-          .map((article, index) => ({ ...article, __index: index }))
+          .map((article, index) => ({
+            ...article,
+            searchText: searchIndexMap.get(article.slug)?.searchText || buildFallbackSearchText(article),
+            __index: index,
+          }))
           .sort((a, b) => {
             const dateA = a.publishedAt || "";
             const dateB = b.publishedAt || "";
@@ -245,6 +313,10 @@
         const report = all.filter(a => a.category && a.category.trim() === "github-update-report");
 
         const containerEl = document.getElementById("articles-container");
+        const searchInputEl = document.getElementById("github-search-input");
+        const searchClearEl = document.getElementById("github-search-clear");
+        const searchSummaryEl = document.getElementById("github-search-summary");
+        const statsEl = document.getElementById("site-stats-articles");
         const normalizedGenreMap = {
           "AIコーディング (プロンプト・開発補助ツール)": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
         };
@@ -285,66 +357,7 @@
           categoryGroups[category].push(article);
         }
 
-        for (const category of Object.keys(categoryGroups)) {
-          categoryGroups[category].sort((a, b) => {
-            const createdA = Date.parse(a.createdAt || a.publishedAt || "");
-            const createdB = Date.parse(b.createdAt || b.publishedAt || "");
-            const hasA = !Number.isNaN(createdA);
-            const hasB = !Number.isNaN(createdB);
-            if (hasA && hasB && createdA !== createdB) return createdB - createdA;
-            if (hasA !== hasB) return hasB ? 1 : -1;
-            const rankA = Number(a.rank);
-            const rankB = Number(b.rank);
-            if (a.category === "github-trending" && b.category === "github-trending" && Number.isFinite(rankA) && Number.isFinite(rankB) && rankA !== rankB) {
-              return rankA - rankB;
-            }
-            return 0;
-          });
-        }
-
-        let html = `<div class="category-accordion-list">`;
-        let displayIndex = 0;
-        for (const category of categoryOrder) {
-          const items = categoryGroups[category] || [];
-          if (items.length === 0) continue;
-          displayIndex += 1;
-          const latestCreatedAt = getNewestTimestamp(items);
-          const isCategoryNew = isWithinNewWindow(latestCreatedAt);
-          html += `
-            <details class="category-accordion" style="--category-tint: ${categoryTintMap[category] || "#f8fafc"};">
-              <summary class="category-summary">
-                <div class="category-summary-main">
-                  <div class="category-summary-row">
-                    <h3>${displayIndex}. ${category}</h3>
-                    ${isCategoryNew ? '<span class="meta-chip new-chip category-new">NEW</span>' : ""}
-                  </div>
-                  <div class="category-summary-meta">直近追加: ${formatCategoryLatest(items)} / 並び順: 作成日時の新しい順</div>
-                </div>
-                <span class="category-chevron">▾</span>
-              </summary>
-              <div class="category-body">
-                <div class="archive-list">
-                  ${items.map((article) => renderArticle(article, { categoryLabel: category })).join("")}
-                </div>
-              </div>
-            </details>
-          `;
-        }
-        html += `</div>`;
-        
-        const statsEl = document.getElementById("site-stats-articles");
-        const latestDate = articles.length > 0
-          ? [...articles]
-              .sort((a, b) => getArticleTimestamp(b) - getArticleTimestamp(a))[0]
-              .publishedAt || "-"
-          : "-";
-        statsEl.innerHTML = `
-          <div class="stat-box"><span>総記事数</span><strong>${articles.length}</strong></div>
-          <div class="stat-box"><span>最新追加</span><strong>${latestDate}</strong></div>
-          <div class="stat-box"><span>カテゴリ数</span><strong>${Object.keys(categoryGroups).filter((category) => (categoryGroups[category] || []).length > 0).length}</strong></div>
-        `;
-        containerEl.innerHTML = html === "" ? '<div class="archive-item"><h3>まだ記事がありません。</h3></div>' : html;
-        attachStarHandlers(containerEl);
+        renderArticles(articles, "");
 
         // Report
         const reportEl = document.getElementById("articles-report");
@@ -369,6 +382,15 @@
             btn.classList.add("active");
             document.getElementById("tab-" + btn.dataset.cat).classList.add("active");
           });
+        });
+
+        searchInputEl.addEventListener("input", () => {
+          renderArticles(articles, searchInputEl.value || "");
+        });
+        searchClearEl.addEventListener("click", () => {
+          searchInputEl.value = "";
+          renderArticles(articles, "");
+          searchInputEl.focus();
         });
 
         function renderArticle(article, options = {}) {
@@ -488,6 +510,115 @@
         function formatCategoryLatest(items) {
           const latest = [...items].sort((a, b) => getArticleTimestamp(b) - getArticleTimestamp(a))[0];
           return latest ? (latest.publishedAt || "不明") : "不明";
+        }
+
+        function buildFallbackSearchText(article) {
+          return [
+            article.title || "",
+            article.dek || "",
+            article.summary || "",
+            article.repoName || "",
+            article.genre || "",
+            article.category || "",
+          ].join(" ").trim();
+        }
+
+        function sortCategoryItems(items) {
+          items.sort((a, b) => {
+            const createdA = Date.parse(a.createdAt || a.publishedAt || "");
+            const createdB = Date.parse(b.createdAt || b.publishedAt || "");
+            const hasA = !Number.isNaN(createdA);
+            const hasB = !Number.isNaN(createdB);
+            if (hasA && hasB && createdA !== createdB) return createdB - createdA;
+            if (hasA !== hasB) return hasB ? 1 : -1;
+            const rankA = Number(a.rank);
+            const rankB = Number(b.rank);
+            if (a.category === "github-trending" && b.category === "github-trending" && Number.isFinite(rankA) && Number.isFinite(rankB) && rankA !== rankB) {
+              return rankA - rankB;
+            }
+            return 0;
+          });
+          return items;
+        }
+
+        function renderArticles(sourceArticles, rawQuery) {
+          const query = normalizeSearchQuery(rawQuery);
+          const filteredArticles = query
+            ? sourceArticles.filter((article) => normalizeSearchQuery(article.searchText || "").includes(query))
+            : sourceArticles;
+
+          const groups = {};
+          for (const category of categoryOrder) {
+            groups[category] = [];
+          }
+          for (const article of filteredArticles) {
+            const rawCategory = (article.genre || "その他・未分類（ユーティリティ等）").trim();
+            const category = normalizedGenreMap[rawCategory] || rawCategory;
+            if (!groups[category]) groups[category] = [];
+            groups[category].push(article);
+          }
+          for (const category of Object.keys(groups)) {
+            sortCategoryItems(groups[category]);
+          }
+
+          let html = `<div class="category-accordion-list">`;
+          let displayIndex = 0;
+          for (const category of categoryOrder) {
+            const items = groups[category] || [];
+            if (items.length === 0) continue;
+            displayIndex += 1;
+            const latestCreatedAt = getNewestTimestamp(items);
+            const isCategoryNew = !query && isWithinNewWindow(latestCreatedAt);
+            html += `
+              <details class="category-accordion" style="--category-tint: ${categoryTintMap[category] || "#f8fafc"};" ${query ? "open" : ""}>
+                <summary class="category-summary">
+                  <div class="category-summary-main">
+                    <div class="category-summary-row">
+                      <h3>${displayIndex}. ${category}</h3>
+                      ${isCategoryNew ? '<span class="meta-chip new-chip category-new">NEW</span>' : ""}
+                    </div>
+                    <div class="category-summary-meta">直近追加: ${formatCategoryLatest(items)} / 並び順: 作成日時の新しい順 / ${items.length}件</div>
+                  </div>
+                  <span class="category-chevron">▾</span>
+                </summary>
+                <div class="category-body">
+                  <div class="archive-list">
+                    ${items.map((article) => renderArticle(article, { categoryLabel: category })).join("")}
+                  </div>
+                </div>
+              </details>
+            `;
+          }
+          html += `</div>`;
+
+          const latestDate = sourceArticles.length > 0
+            ? [...sourceArticles]
+                .sort((a, b) => getArticleTimestamp(b) - getArticleTimestamp(a))[0]
+                .publishedAt || "-"
+            : "-";
+          const visibleCategoryCount = Object.keys(groups).filter((category) => (groups[category] || []).length > 0).length;
+          statsEl.innerHTML = `
+            <div class="stat-box"><span>${query ? "検索ヒット数" : "総記事数"}</span><strong>${filteredArticles.length}</strong></div>
+            <div class="stat-box"><span>${query ? "対象期間" : "最新追加"}</span><strong>${query ? latestDate + " まで" : latestDate}</strong></div>
+            <div class="stat-box"><span>${query ? "ヒットカテゴリ数" : "カテゴリ数"}</span><strong>${visibleCategoryCount}</strong></div>
+          `;
+          if (query) {
+            searchSummaryEl.textContent = `「${rawQuery.trim()}」の検索結果: ${filteredArticles.length}件 / ${visibleCategoryCount}カテゴリ`;
+          } else {
+            searchSummaryEl.textContent = "検索対象: タイトル / repo / カテゴリ / 概要 / 本文";
+          }
+          containerEl.innerHTML = filteredArticles.length === 0
+            ? '<div class="archive-item"><h3>該当する記事がありません。</h3><p>別の単語や repo 名で試してください。</p></div>'
+            : html;
+          attachStarHandlers(containerEl);
+        }
+
+        function normalizeSearchQuery(value) {
+          return String(value || "")
+            .toLowerCase()
+            .normalize("NFKC")
+            .replace(/\s+/g, " ")
+            .trim();
         }
       })();
     </script>
