@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NVIDIA-NeMo/Nemotron を読み、高性能オープン LLM シリーズの学習レシピとデータセットの活用法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Nemotron</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Nemotron</h1>
+      <p class="article-dek">NVIDIA が放つ最高峰のオープンモデル。学習レシピから RL 調整、データセットまでを完全公開。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NVIDIA-NeMo/Nemotron" target="_blank" rel="noreferrer">
+              NVIDIA-NeMo/Nemotron
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>GPU 王者 NVIDIA が開発した高性能 LLM「Nemotron」シリーズの公式リポジトリです。モデルの重み（ウェイト）だけでなく、事前学習から reinforcement learning (RL) を用いたアライメント調整に足るまでの「完全なレシピ」が公開されています。企業や研究者が、独自にカスタマイズされた最高品質の AI を構築するための包括的アセット集となっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリを活用することで、以下のような高度な AI 開発プロセスを実行可能です。</p>
+        <ul>
+          <li><strong>エンドツーエンドの学習パイプライン:</strong> NVIDIA NeMo フレームワークを使用して、大規模なデータセットからモデルを効率的に事前学習。</li>
+          <li><strong>RL 調整レシピの活用:</strong> 人間の好みに合わせた回答生成を行うための RLHF/DPO といったアライメント手法の具体的設定の確認。</li>
+          <li><strong>高品質なデータセットの参照:</strong> モデルの知性を高めるために使用された、精選されたデータセットの構造やクリーニング手法の学習。</li>
+          <li><strong>カスタマイズとデプロイ:</strong> 自社データを用いた微調整（Fine-tuning）の実施と、NVIDIA のインフラに最適化された高速な推論環境の構築。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なるモデルの公開にとどまらず、その「作り方（レシピ）」を惜しみなく開示した点が最大の特徴です。NVIDIA の GPU リソースを最大限に活かすための最適化ノウハウが詰まっており、オープンソース・コミュニティが「巨大テック企業に匹敵する知性」を自律的に生み出し、洗練させるための強力な武器となっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリ内の <code>cookbooks/</code> や <code>recipes/</code> フォルダを探索し、目的に合った学習設定を選択します。</li>
+          <li>NVIDIA NeMo ツールキットをインストールします。</li>
+          <li>提供されているレシピに従い、自分のデータセットや計算リソースを割り当てて学習プロセスを開始します。</li>
+          <li>生成されたモデルを NVIDIA NIM などのプラットフォームを通じてデプロイし、アプリケーションで利用します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>自社専用の高精度なドメイン特化型 LLM を構築したいと考えている企業エンジニア。</li>
+          <li>最新の強化学習手法が LLM にどのような影響を与えるかを実践的に研究したい研究者。</li>
+          <li>NVIDIA のエコシステムを最大限に活用し、最速の AI インフラを構築したい DevOps 担当者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>大規模な学習を実行するには、相応の GPU 計算リソース（H100/A100 など）が必要になります。小規模な検証であれば、公開されているウェイトのみを利用することも可能です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>Nemotron</code> は、NVIDIA による「AI の民主化」への本気度が伺えるプロジェクトです。最高峰のレシピを共有することで、AI の進化は加速し、私たちのビジネスや生活にさらなる知性の恩恵をもたらす基盤となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NVIDIA-NeMo/Nemotron" target="_blank" rel="noreferrer">NVIDIA-NeMo/Nemotron</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

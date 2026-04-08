@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leonxlnx/claude-code-system-prompts を読み、Claude Code のシステムプロンプト構成を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-code-system-prompts</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-code-system-prompts</h1>
+      <p class="article-dek">Claude Code の「頭脳」をのぞき見る。エージェントを動かす 40 以上のシステムプロンプトを集約。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Leonxlnx/claude-code-system-prompts" target="_blank" rel="noreferrer">
+              Leonxlnx/claude-code-system-prompts
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic の AI コーディング CLI「Claude Code」に組み込まれているシステムプロンプト群を抽出し、整理したコミュニティ・リポジトリです。最新の AI エージェントがどのように考え、どのような制約のもとでタスクを実行しているのか、その「思考の設計図」を直接確認することができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリを分析することで、以下のような高度なプロンプト設計のノウハウを学ぶことができます。</p>
+        <ul>
+          <li><strong>モード別のプロンプト戦略:</strong> 調査に特化した「Explore」、計画を練る「Plan」、実行を行う「Task」など、状況に応じて AI がどう振る舞いを変えているかの解明。</li>
+          <li><strong>ツール呼び出しのガードレール:</strong> Bash コマンドの実行やファイル編集の際、安全性を保ちつつ正確に操作を行うための指示（命令文）の構成方法。</li>
+          <li><strong>CLAUDE.md の参照ロジック:</strong> プロジェクト固有のルールを AI にどう優先させて読み込ませているかの詳細。</li>
+          <li><strong>バージョン間での進化の追跡:</strong> アップデートごとにプロンプトがどう改善・洗練されているかの履歴（CHANGELOG）の確認。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>Claude Code は単一の長いプロンプトではなく、40 以上のモジュール化された断片（Fragments）を組み替えて動作しています。このリポジトリは、それらを一箇所に集約しており、複雑な「エージェント型アーキテクチャ」を構築したい開発者にとって、プロンプト・エンジニアリングの究極の参考資料となっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを閲覧し、<code>prompts/</code> などのディレクトリ内にある Markdown ファイルを確認します。</li>
+          <li>自分が作成している AI エージェントのプロンプト設計において、特定の機能（エラー解決、コードレビュー等）の指示出しを参考にします。</li>
+          <li><code>CHANGELOG.md</code> を読み、Anthropic のエンジニアがどのような問題（ハルシネーションや無限ループ等）にどう対処したかという知見を取り入れます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>自律型 AI エージェントを開発中で、プロバイダーがどのようなプロンプトを書いているか知りたいエンジニア。</li>
+          <li>Claude Code の挙動が時々変わる原因を、内部の指示レベルで理解・デバッグしたいユーザー。</li>
+          <li>プロンプト・エンジニアリングの極致を学び、自分のスキルを向上させたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>これらはあくまで「抽出された参照用データ」であり、ここにあるファイルを編集しても手元の Claude Code の動作が変わるわけではありません。また、Anthropic 公式のリポジトリではないことに留意してください。</p>
+
+        <h2>まとめ</h2>
+        <p><code>claude-code-system-prompts</code> は、AI の魔法の裏側にある「論理的な言葉の積み重ね」を明らかにするリポジトリです。エージェントの振る舞いを司る設計思想を学ぶことで、私たちは AI をより深く理解し、より高度に使いこなすことができるようになるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Leonxlnx/claude-code-system-prompts" target="_blank" rel="noreferrer">Leonxlnx/claude-code-system-prompts</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/4RvkSmkt8f" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

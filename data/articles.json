@@ -8,6 +8,36 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-nvidia-nemo-nemotron-pickup",
+      "title": "Nemotron",
+      "dek": "NVIDIA が放つ最高峰のオープンモデル。学習レシピから RL 調整、データセットまでを完全公開。",
+      "summary": "NVIDIA が開発した高性能 LLM「Nemotron」シリーズの公式リポジトリ。事前学習のレシピ、 reinforcement learning (RL) によるアライメント、高品質なデータセットなどが惜しみなく公開されており、独自の高性能 AI モデルを構築・追求したい開発者にとって究極のバイブルとなっています。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T19:30:00+09:00",
+      "repoName": "NVIDIA-NeMo/Nemotron",
+      "repoUrl": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "articleUrl": "./articles/github/daily/2026-04-08-nvidia-nemo-nemotron-pickup.html",
+      "serial": 163,
+      "originType": "pickup",
+      "genre": "汎用アプリ・AI基盤・IoT"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-08-leonxlnx-claude-code-system-prompts-pickup",
+      "title": "claude-code-system-prompts",
+      "dek": "Claude Code の「頭脳」をのぞき見る。エージェントを動かす 40 以上のシステムプロンプトを集約。",
+      "summary": "Anthropic の Claude Code で使用されている膨大なシステムプロンプト群を抽出・整理したリポジトリ。Plan、Explore、Task といった各モードの切り替えや、ツール呼び出しのロジックなど、エージェント型 AI の内部設計を学ぶための貴重な資料となっています。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T19:20:00+09:00",
+      "repoName": "Leonxlnx/claude-code-system-prompts",
+      "repoUrl": "https://github.com/Leonxlnx/claude-code-system-prompts",
+      "articleUrl": "./articles/github/daily/2026-04-08-leonxlnx-claude-code-system-prompts-pickup.html",
+      "serial": 162,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-klavis-ai-klavis-pickup",
       "title": "klavis",
       "dek": "MCP を誰もが使えるインフラへ。Slack や Discord から AI エージェントのツールを自在に操る統合プラットフォーム。",

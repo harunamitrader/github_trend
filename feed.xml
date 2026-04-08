@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:10:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:13:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Nemotron]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-nemo-nemotron-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-nvidia-nemo-nemotron-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[NVIDIA が放つ最高峰のオープンモデル。学習レシピから RL 調整、データセットまでを完全公開。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-code-system-prompts]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-leonxlnx-claude-code-system-prompts-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-leonxlnx-claude-code-system-prompts-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の「頭脳」をのぞき見る。エージェントを動かす 40 以上のシステムプロンプトを集約。]]></description>
+    </item>
     <item>
       <title><![CDATA[klavis]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-klavis-ai-klavis-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ユーザーが自傷行為や危機的な状況を示唆した場合、相談窓口へ即座に繋がる「ワンタッチ」インターフェースを表示するアップデートが行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-v0-62-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-v0-62-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人気のAIディタにClaude最上位モデルが完全組み込み。マルチファイル編集を可視化する新機能も。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v0.4.5: Context Freezeとトークン軽量化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v0-4-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v0-4-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。]]></description>
     </item>
   </channel>
 </rss>
