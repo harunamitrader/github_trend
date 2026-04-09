@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-09T10:42:22.473066+00:00",
-  "count": 191,
+  "generatedAt": "2026-04-09T19:53:53.070077+00:00",
+  "count": 192,
   "articles": [
+    {
+      "slug": "2026-04-10-alchaincyf-hermes-agent-orange-book",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Hermes Agent Orange Book",
+      "dek": "Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。",
+      "summary": "Nous Research が提供するオープンソースの AI エージェント・フレームワークを使いこなすための包括的ドキュメント集。Nous Hermes 2 Pro 等のモデルをベースに、関数呼び出し、ツール連携、マルチエージェント構成などの高度な実装手法を、豊富なコード例とともに詳細に解説します。",
+      "repoName": "alchaincyf/hermes-agent-orange-book",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-10",
+      "createdAt": "2026-04-10T04:53:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-10-alchaincyf-hermes-agent-orange-book.html",
+      "serial": 181,
+      "searchText": "Hermes Agent Orange Book Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。 Nous Research が提供するオープンソースの AI エージェント・フレームワークを使いこなすための包括的ドキュメント集。Nous Hermes 2 Pro 等のモデルをベースに、関数呼び出し、ツール連携、マルチエージェント構成などの高度な実装手法を、豊富なコード例とともに詳細に解説します。 alchaincyf/hermes-agent-orange-book AIコーディング (ワークフロー・プロンプト・開発補助ツール) Hermes Agent Orange Book ← 記事一覧へ戻る GitHub Watcher Hermes Agent Orange Book Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。 記事作成日 2026-04-10 種別 Pickup 対象 repo alchaincyf/hermes-agent-orange-book これは何か Hermes Agent Orange Book（橙皮書）は、オープンソースLLM界隈で絶大な支持を受ける Nous Research が開発した、AIエージェント・フレームワークを使いこなすための包括的チュートリアル集です。性能・自由度ともに高い「Nous Hermes」シリーズをベースに、実戦的なエージェントを構築するためのノウハウが凝縮されています。 何ができるか 単なるモデルの解説にとどまらず、関数呼び出し（Function Calling）やJSONモードの活用、複雑なツール連携、RAG（検索拡張生成）、さらにはマルチエージェントによる協力体制の構築までをカバーしています。プロフェッショナルなエージェント構築に必要なステップが、豊富なコード例とともに体系的に整理されています。 目立つポイント 最大の注目点は、Nous Research が提唱する「エージェント・ネイティブな推論設計」です。特に Nous Hermes 2 Pro や Pro-Llama-3 といった、関数呼び出しに最適化されたモデルのポテンシャルを最大限に引き出す手法が詳しく、ベンダー製のクローズドモデルに頼らず、オープンモデルだけで高度な自律エージェントを構成できることを証明しています。 セットアップや使い方の流れ リポジトリ内には実地的なコードサンプルが多数配置されており、Google Colab 等ですぐに試せる構成も含まれています。Nous Hermes モデルをローカル（Ollama等）または API（Groq, Fireworks AI等）経由で用意し、ガイドに従ってプロンプトとツールパスを設定することで、即座に自律作業を行うエージェントをローンチできます。 どんな人向けか 特定のクラウドベンダーに依存せず、オープンモデルで自律型AIエージェントを開発したいエンジニアに最適です。また、Nous Research のモデルがなぜエージェント用途で高い評価を得ているのか、その背景にある「エージェント・ロジック」を深く学びたい学習者にとっても最良の資料となるでしょう。 まとめ このオレンジのガイドブックは、オープンモデルによるエージェント開発の新基準を示しています。クローズドモデルの制約を飛び越え、より自由で強力なAIパートナーを自分たちの手で作り上げるための、まさに「攻略本」といえる一冊です。 参照リンク alchaincyf/hermes-agent-orange-book"
+    },
     {
       "slug": "2026-04-09-multica-ai-multica",
       "category": "github-pickup",

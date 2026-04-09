@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 10:44:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 04:53:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Hermes Agent Orange Book]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-alchaincyf-hermes-agent-orange-book.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-alchaincyf-hermes-agent-orange-book.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。]]></description>
+    </item>
     <item>
       <title><![CDATA[Multica]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-multica-ai-multica.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nano-banana-2-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。]]></description>
     </item>
   </channel>
 </rss>

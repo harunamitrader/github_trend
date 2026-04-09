@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-10-alchaincyf-hermes-agent-orange-book",
+      "title": "Hermes Agent Orange Book",
+      "dek": "Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。",
+      "summary": "Nous Research が提供するオープンソースの AI エージェント・フレームワークを使いこなすための包括的ドキュメント集。Nous Hermes 2 Pro 等のモデルをベースに、関数呼び出し、ツール連携、マルチエージェント構成などの高度な実装手法を、豊富なコード例とともに詳細に解説します。",
+      "publishedAt": "2026-04-10",
+      "createdAt": "2026-04-10T04:53:00+09:00",
+      "repoName": "alchaincyf/hermes-agent-orange-book",
+      "repoUrl": "https://github.com/alchaincyf/hermes-agent-orange-book",
+      "articleUrl": "./articles/github/daily/2026-04-10-alchaincyf-hermes-agent-orange-book.html",
+      "serial": 181,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-09-multica-ai-multica",
       "title": "Multica",
       "dek": "AIエージェントを「本物のチームメイト」へ。タスク割り当てからスキル蓄積までを統合管理するオープンソース・プラットフォーム。",
