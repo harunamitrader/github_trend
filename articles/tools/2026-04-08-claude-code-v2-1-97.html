@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.97 の更新内容を日本語で整理した記事。Focus view、CJK 入力改善、権限まわりの修正を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.97: Focus view と権限制御の改善</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.97: Focus view と権限制御の改善</h1>
+      <p class="article-dek">Focus view の追加に加え、Bash 権限判定、CJK 入力、Bedrock 認証まわりの不具合修正がまとまって入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.97</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>公式 GitHub Releases では、2026-04-08 付で <code>v2.1.97</code> が公開されています。新機能として <code>NO_FLICKER</code> モード向けの Focus view が追加され、プロンプト、ツール要約、最終回答を見やすく切り替えられるようになりました。さらに <code>/agents</code> の実行中インジケーターや Cedar policy のシンタックスハイライトも入り、長時間のセッション運用が少し扱いやすくなっています。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回の中心は安定性と安全性です。Bash の権限判定が強化され、環境変数プレフィックスやネットワークリダイレクトまわりの穴を詰めつつ、誤検知も減らしています。加えて、CJK 句読点の直後でも slash command や <code>@</code> 補完が効くようになり、日本語入力の引っかかりも軽減されました。</p>
+
+        <h2>補足</h2>
+        <p>Windows Terminal でのスクロール、Unicode コピー、Warp でのショートカット、Bedrock 認証失敗など、実務で詰まりやすい細かな不具合も広く修正されています。派手な追加機能より、日常運用のノイズを下げるタイプのリリースです。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.97 は、Claude Code を継続的に使うチームほど恩恵を受けやすい更新です。特に日本語入力、権限制御、長時間セッションの扱いで改善を体感しやすい内容です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noreferrer">GitHub Releases - Claude Code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

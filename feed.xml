@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 19:56:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 05:57:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Hermes Agent Orange Book]]></title>
@@ -14,6 +14,14 @@
       <category>github-pickup</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI v1.1.5-rc3: LSP support と diagnostics を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-grok-cli-v1-1-5-rc3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-grok-cli-v1-1-5-rc3.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[server catalog を含む LSP support が入り、診断情報をターミナルから扱いやすくなりました。]]></description>
     </item>
     <item>
       <title><![CDATA[Multica]]></title>
@@ -128,6 +136,22 @@
       <description><![CDATA[動画・音楽生成能力の獲得と、バックグラウンドでの高度な記憶保守システムが実装されました。]]></description>
     </item>
     <item>
+      <title><![CDATA[Claude Code v2.1.97: Focus view と権限制御の改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-97.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-97.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Focus view の追加に加え、Bash 権限判定、CJK 入力、Bedrock 認証まわりの不具合修正がまとまって入った更新です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor Bugbot: Learned Rules と MCP Support]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-bugbot-learned-rules-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-bugbot-learned-rules-mcp.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Bugbot がレビュー結果から自動で学習し、MCP サーバー経由の追加コンテキストも参照できるようになりました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</guid>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プレビュー版での実験的機能が正式に安定版として昇格。Plan Mode の信頼性向上と、.env ファイルなど機密情報のサンドボックス保護を強化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot VS Code 4月アップデート: 動画のプレビュー対応と回答コピーの改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-github-copilot-vscode-april-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-github-copilot-vscode-april-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[VS Code 版での画像カルーセルやエクスプローラー・メニューが動画再生に対応。また、エージェントの思考プロセスを除いた「最終回答のみ」のコピー機能が追加。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Oh My Codex v0.12.3: チーム状態の JSON 出力とセッションの安定性向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-codex-v0-12-3.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-codex-v0-12-3.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[omx team status --json コマンドを追加し、自動化や外部連携が容易に. プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mempalace]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。]]></description>
     </item>
   </channel>
 </rss>

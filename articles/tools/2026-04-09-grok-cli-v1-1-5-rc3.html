@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grok CLI v1.1.5-rc3 の更新内容を日本語で整理した記事。LSP support と diagnostics の追加を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI v1.1.5-rc3: LSP support と diagnostics を追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI v1.1.5-rc3: LSP support と diagnostics を追加</h1>
+      <p class="article-dek">server catalog を含む LSP support が入り、診断情報をターミナルから扱いやすくなりました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.1.5-rc3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>GitHub Releases 上では <code>grok-dev@1.1.5-rc3</code> が最新として公開されており、今回の更新では LSP support が追加されています。server catalog と diagnostics が入ったことで、単なるチャット型 CLI から、コード理解と編集支援の基盤が一段進みました。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>LSP が使えると、補完やジャンプそのものよりも、言語サーバー由来の文脈と診断結果をエージェントが扱える点が大きいです。複数ファイルにまたがる修正や、型エラーを踏まえた手戻り削減に効きます。CLI 中心で開発しているユーザーには実務上の価値があります。</p>
+
+        <h2>補足</h2>
+        <p>前版の rc2 が x402 payment 関連の追加だったのに対し、rc3 はよりコーディング支援の中核に寄せた内容です。正式版前の段階ですが、方向性はかなり明確です。</p>
+
+        <h2>まとめ</h2>
+        <p>v1.1.5-rc3 は、Grok CLI を「Grok を叩く端末」から「開発環境の一部」へ寄せる更新です。LSP 連携を試したいユーザーは追っておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noreferrer">GitHub Releases - Grok CLI</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
