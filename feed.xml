@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 06:23:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 19:42:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Multica]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-multica-ai-multica.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-multica-ai-multica.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを「本物のチームメイト」へ。タスク割り当てからスキル蓄積までを統合管理するオープンソース・プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[Three-Man Team]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-russellenvy-three-man-team.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[xangi]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-karaage0703-xangi-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-karaage0703-xangi-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discord で自分専用の AI 社員を。チャット形式でタスクをこなす自律型エージェント・フレームワーク。]]></description>
     </item>
   </channel>
 </rss>

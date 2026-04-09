@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-09-multica-ai-multica",
+      "title": "Multica",
+      "dek": "AIエージェントを「本物のチームメイト」へ。タスク割り当てからスキル蓄積までを統合管理するオープンソース・プラットフォーム。",
+      "summary": "AIエージェントを自律的なチームメンバーとして運用するためのマネージドプラットフォーム。GitHub連携によるIssue解決やコードレビューはもちろん、エージェントが獲得した知見を「スキル」として永続化・再利用できる仕組みを備え、人間とAIが真に対等にコラボレーションできる環境を提供します。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T19:42:00+09:00",
+      "repoName": "multica-ai/multica",
+      "repoUrl": "https://github.com/multica-ai/multica",
+      "articleUrl": "./articles/github/daily/2026-04-09-multica-ai-multica.html",
+      "serial": 180,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-09-russellenvy-three-man-team",
       "title": "Three-Man Team",
       "dek": "Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。",
