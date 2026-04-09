@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="forrestchang/andrej-karpathy-skills を読み、アンジェイ・カルパシーの哲学をAIエージェントに適用するシステムの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Karpathy-Inspired Skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Karpathy-Inspired Skills</h1>
+      <p class="article-dek">AI に「一流エンジニアの思考」を。アンジェイ・カルパシーの哲学を実装した AI エージェント用設定集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>1位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noreferrer">
+              forrestchang/andrej-karpathy-skills
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「Karpathy-Inspired Skills」は、著名な AI 研究者であり教育者でもあるアンジェイ・カルパシー（Andrej Karpathy）氏のコーディング哲学や問題解決のアプローチを、AI エージェント（特に Claude Code）の基本動作として定義・組み込むためのスキルセットおよびプロンプト集です。
+          AI に単にコードを書かせるのではなく、「シンプルであること」「依存関係を最小限にすること」「本質を理解すること」といった達人の思考プロセスを再現させることを目的としています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>Karpathy 流システムプロンプト</strong>: カルパシー氏の教えに基づいた、簡潔で読みやすく、かつ堅牢なコードを生成するための指示セット。</li>
+          <li><strong>自律的リファクタリング</strong>: コードを「よりシンプルに、より分かりやすく」保つための専用コマンド群。</li>
+          <li><strong>ミニマリストアプローチ</strong>: 不要なライブラリ導入を避け、標準機能のみで問題を解くことを優先する開発ワークフロー。</li>
+          <li><strong>教育的フィードバック</strong>: AI がなぜその設計を選んだのか、カルパシー流の観点から解説を行う機能。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Claude Code などのスキル形式（.md や .json）に合わせた定義ファイルが中心です。
+        </p>
+        <ul>
+          <li><code>skills/</code>: AI エージェントに追加される具体的なコマンドの定義。</li>
+          <li><code>prompts/</code>: カルパシー氏の発言やブログ記事を参考に構築された高度なシステム指示。</li>
+          <li><code>examples/</code>: このスキルを適用して作成された、シンプルで美しいサンプルコード集。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Claude Code のプロジェクト用ドキュメント（CLAUDE.md など）に指示を統合して使用します。
+        </p>
+        <ol>
+          <li>リポジトリ内のプロンプト定義をコピー、あるいは <code>skills</code> ディレクトリをインポート。</li>
+          <li>自身のプロジェクトの <code>CLAUDE.md</code> に「Andrej Karpathy のエンジニアリング哲学に従う」というルールを追記。</li>
+          <li>AI エージェントと対話すると、冗長なボイラープレートを排除した、洗練されたコードが出力されるようになります。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          質の高いコードを追求するプロフェッショナルなエンジニアや、AI を通じて一流のコーディングスタイルを学びたい初学者から絶大な支持を受けています。
+          「AI に何をやらせるか」ではなく「AI にどのような思考基準を持たせるか」というメタ的なアプローチが、現代の AI 開発において極めて重要であることを示しています。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          「シンプルさ」を優先するあまり、既存の複雑なエンタープライズ・フレームワークとの相性が悪い場合があります（ボイラープレートを削りすぎてしまう等）。
+          提供される「思考プロセス」はあくまで手法の一つであり、プロジェクトの要件に合わせて適宜調整が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          一世を風靡したカルパシー氏の「達人の知恵」を AI のアルゴリズムとして落とし込んだ意欲作です。
+          これを導入することで、あなたの AI エージェントは単なるツールを超え、最高峰のエンジニアリング・センスを備えた真のパートナーへと進化するでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noreferrer">forrestchang/andrej-karpathy-skills (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

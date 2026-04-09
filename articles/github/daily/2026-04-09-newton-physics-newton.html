@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="newton-physics/newton を読み、NVIDIA Warp上で構築されたGPU加速・微分可能物理エンジンの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>newton</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">newton</h1>
+      <p class="article-dek">数千の環境をGPUで並列シミュレート。微分可能な物理演算がAIのトレーニングを劇的に加速する。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>8位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/newton-physics/newton" target="_blank" rel="noreferrer">
+              newton-physics/newton
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「newton」は、NVIDIA Warpをベースに開発された、ロボティクスおよび強化学習（RL）のための超高性能物理シミュレーションエンジンです。
+          GPUを活用して数千ものシミュレーション環境を並列実行できるだけでなく、システム全体が「微分可能（Differentiable）」である点が最大の特徴です。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>高速な GPU 並列実行</strong>: NVIDIA Warpの JIT コンパイル機能を活用し、数千個のロボットや物体の動きを同時に演算。</li>
+          <li><strong>微分可能なシミュレーション</strong>: シミュレータ自体が勾配情報を持つため、AI教育における逆伝播（Backpropagation）との親和性が極めて高い。</li>
+          <li><strong>ロボティクス向け機能</strong>: URDF (Unified Robot Description Format) 形式のサポート、関節（Joint）の精密な制御、高度な衝突判定を統合。</li>
+          <li><strong>軽量で扱いやすいツールキット</strong>: 物理現象を Python コードとして直感的に記述でき、可視化ツールも同梱。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          NVIDIA Warp のカーネルを活用した Python ベースの構成となっています。
+        </p>
+        <ul>
+          <li><code>newton/core/</code>: 物理演算の基礎ロジック。</li>
+          <li><code>newton/envs/</code>: ロボットアームや歩行ロボットなどの標準環境。</li>
+          <li><code>newton/utils/</code>: URDF のパースや、データの可視化を支援するユーティリティ。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          動作には NVIDIA 製の GPU と CUDA 環境が必須です。
+        </p>
+        <ol>
+          <li><code>pip install newton-physics</code> を実行してコアパッケージを導入。</li>
+          <li>NVIDIA Warp の依存関係を解決し、JIT コンパイルが可能な状態にする。</li>
+          <li> <code>python -m newton.examples.basic_shapes</code> などのサンプルを実行。</li>
+          <li>微分可能であることを活かし、PyTorch 等の深層学習フレームワークと直接結合してトレーニングに使用します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          ロボット工学の研究者、強化学習エンジニア、ならびに物理シミュレーションを AI で解こうとしている開発者に強く支持されています。
+          これまでのシミュレータは「ブラックボックス」として結果のみを返していましたが、newton のように微分可能なエンジンは、AI が「どう動かせば結果がどう変わるか」を勾配を通じて直接学べるため、学習速度の飛躍的な向上が期待できます。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          NVIDIA GPU (CUDA) が事実上の必須件条件であるため、実行環境を選びます。
+          また、プロジェクトは活発な開発段階（初期フェーズ）にあり、API の仕様変更が行われる可能性や、NVIDIA Warp 特有の記述形式への学習コストが考慮される必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          物理世界の複雑な現象を数値化し、AI の学習に最適化した次世代のシミュレータです。
+          「微分可能」という武器を持つこのエンジンは、より高度で自律的なロボット制御の開発において、今後不可欠な存在になっていくでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/newton-physics/newton" target="_blank" rel="noreferrer">newton-physics/newton (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

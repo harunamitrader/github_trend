@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="elebumm/RedditVideoMakerBot を読み、Redditの投稿から短尺動画を自動生成するボットの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>RedditVideoMakerBot</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">RedditVideoMakerBot</h1>
+      <p class="article-dek">Reddit の話題をワンボタンで動画化。TikTok や YouTube ショート向けコンテンツの自動生成システム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>6位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/elebumm/RedditVideoMakerBot" target="_blank" rel="noreferrer">
+              elebumm/RedditVideoMakerBot
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「RedditVideoMakerBot」は、海外掲示板 Reddit の投稿（特に興味深い質問やストーリー）を自動的に収集し、TikTok や YouTube ショート、Instagram リールの形式に最適化した動画を生成するオートメーションツールです。
+          テキストを音声（TTS）に変換し、Minecraft のプレイ動画などの背景映像や字幕と自動合成することで、視聴者の目を引くコンテンツを量産します。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>投稿の自動収集</strong>: 指定したサブレディット（掲示板）から評価の高い投稿を自動取得。</li>
+          <li><strong>自然な音声合成</strong>: TikTok の音声や Google TTS などを利用し、テキストを読み上げ。</li>
+          <li><strong>動的な字幕生成</strong>: 音声に合わせてリアルタイムで字幕が表示されるレイアウトを自動作成。</li>
+          <li><strong>背景動画の自動取得</strong>: Minecraft などの非著作権素材を自動的に背景として挿入。</li>
+          <li><strong>複数フォーマット対応</strong>: 縦型動画（9:16）に完全対応し、即座に SNS 投稿可能な状態で出力。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Python の動画編集ライブラリ「MoviePy」を核にした、機能美あふれるスクリプト構成です。
+        </p>
+        <ul>
+          <li><code>main.py</code>: 動画制作の全工程を制御するメインスクリプト。</li>
+          <li><code>reddit/</code>: Reddit API を介して投稿を取得するモジュール。</li>
+          <li><code>video/</code>: 字幕合成や映像編集を司るロジック。</li>
+          <li><code>config/</code>: フォント、背景映像のパス、APIキーなどの設定ファイル。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Python 3.6 以上が必要です。Reddit の API 登録（開発者アカウント）が前提となります。
+        </p>
+        <ol>
+          <li>リポジトリをクローンし、<code>pip install -r requirements.txt</code> で依存関係を導入。</li>
+          <li><code>.env</code> に Reddit アプリの情報と、利用したい TTS の認証情報を追記。</li>
+          <li><code>python main.py</code> を実行。設定したサブレディットから最新の話題がピックアップされ、動画生成が始まります。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          SNS マーケターや、コンテンツを効率的に量産したいクリエイターに注目されています。
+          特に「面白い Reddit の話」は世界的に中毒性が高く、それらを自力で編集する手間をゼロにし、24時間365日コンテンツを生成し続けられる仕組みが大きな魅力となっています。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          各プラットフォームの利用規約や、AI 生成コンテンツに関するポリシーを遵守する必要があります。
+          また、Reddit API の利用制限や、著作権フリーでない素材の混入、生成される音声の感情表現の限界などが注意点として挙げられます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Reddit という巨大なデータソースを、最新の動画編集自動化技術で SNS 時代に最適化したプロジェクトです。
+          「情報の再構築」がいかに価値を生むかを示す、非常に示唆に富んだツールと言えるでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/elebumm/RedditVideoMakerBot" target="_blank" rel="noreferrer">elebumm/RedditVideoMakerBot (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

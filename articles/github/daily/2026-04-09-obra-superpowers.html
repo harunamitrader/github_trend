@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="obra/superpowers を読み、AIエージェントのスキルを標準化し拡張するフレームワークの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Superpowers</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Superpowers</h1>
+      <p class="article-dek">AIエージェントの能力を標準化。Claude CodeやCursorで共通利用可能な「特技」の詰め合わせ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">
+              obra/superpowers
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「Superpowers」は、AI コーディングエージェント（Claude Code, Cursor, Windsurfなど）に「スキル（特技）」を追加・共有するための統合フレームワークです。
+          エージェントが特定のタスクをこなすためのツール定義やスクリプトをひとまとめにし、プラットフォームを超えて一貫した操作を提供する「AI のための標準ツールベルト」を目指しています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>クロスプラットフォーム・スキル</strong>: 一度定義したスキルを複数の AI コーディングツールから同じインターフェースで呼び出し可能。</li>
+          <li><strong>豊富なビルトインツール</strong>: Web スクレイピング、GitHub 操作、ローカル環境のシステム管理など、即戦力のスキルを同梱。</li>
+          <li><strong>MCP (Model Context Protocol) 対応</strong>: 最新のプロトコルに準拠しており、AI エージェントが文脈を理解した上でツールを選択可能。</li>
+          <li><strong>容易な拡張性</strong>: JavaScript や Python を使用して、独自の「超能力（スキル）」を自在に追加できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          各スキルが独立したパッケージとして管理されており、柔軟な組み合わせが可能です。
+        </p>
+        <ul>
+          <li><code>skills/</code>: Web、System、Git 等、カテゴリ別に分類された各ツールの実体。</li>
+          <li><code>packages/</code>: コアとなるランタイムや型定義。</li>
+          <li><code>docs/</code>: 各スキルをどのようにエージェントへ教え出すか（プロンプト・マニュアル）の定義。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+           npm または bun を使用して簡単に導入できます。
+        </p>
+        <ol>
+          <li>リポジトリを <code>git clone</code> して、<code>npm install</code> を実行。</li>
+          <li>エージェント（例: Claude Code）の <code>skills/</code> 管理下で <code>superpowers</code> のパスを登録。</li>
+          <li>エージェントとの会話を通じて、<code>/superpowers install [skill-name]</code> のように呼び出すことで能力が拡張されます。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          複数の AI ツールを使い分けているパワーユーザーや、AI に特定業務を代行させたい開発チームに最適です。
+          これまでツールごとにバラバラだった「スキルの定義」が標準化されることで、エージェントが「道具」を使いこなす能力が劇的に安定・向上する点が高く評価されています。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          スキルによっては高度な権限（ファイルアクセスやシステム実行）を必要とするため、利用するスキルの安全性はご自身で確認する必要があります。
+          また、各エージェント側のアップデートにより、一部のスキルが正常に動作しなくなる可能性がある点も注意が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          AI エージェントを「ただ話す相手」から「仕事を任せられる職人」へ変えるための、強力な基盤となるプロジェクトです。
+          「Superpowers」を導入することで、あなたの AI アシスタントは文字通り多才なスーパーパワーを手に入れ、開発効率を次のレベルへ引き上げてくれるでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">obra/superpowers (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

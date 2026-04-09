@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HKUDS/Vibe-Trading を読み、自然言語によるトレード戦略生成やマルチエージェントによる市場分析の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Vibe-Trading</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Vibe-Trading</h1>
+      <p class="article-dek">自然言語で市場を分析。戦略生成からバックテストまでを完結させるAI金融エージェント基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HKUDS/Vibe-Trading" target="_blank" rel="noreferrer">
+              HKUDS/Vibe-Trading
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Vibe-Tradingは、香港大学の研究チーム（HKUDS）が開発した、AI駆動のマルチエージェント型金融ワークスペースです。ユーザーが自然言語で「〜といった戦略をテストして」「最新の暗号資産市場のセンチメントを分析して」といった依頼を投げるだけで、AIエージェントが自律的にコードを書き、データを取得し、分析レポートを作成します。</p>
+
+        <h2>何ができるか</h2>
+        <p>単なるチャットボットではなく、実行能力（Execution）に重点が置かれています。トレード戦略の自動生成、マルチソースからの市場データ取得、過去データを用いたバックテスト、そして投資委員会や暗号資産デスクといった仮想的な「専門家チーム」による多角的なリサーチが可能です。米国株、香港株、中国A株、そして暗号資産といった主要市場を横断してサポートしています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、金融ドメインに特化した「64のスキル」と「29のチームプリセット」です。テクニカル分析、クオンツ、財務諸表分析、グローバルマクロなど、人間のアナリストが行うような高度なタスクがモジュール化されており、これらを組み合わせて「投資委員会」エージェントが議論を戦わせるようなワークフローを簡単に構築できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は非常に柔軟で、<code>pip install vibe-trading-ai</code> によるインストール、Dockerによるワンコマンド起動、さらには MCP（Model Context Protocol）サーバーとしての利用も可能です。起動後は対話型の CLI や Web UI を通じてエージェントに指示を与えます。OpenAI 互換の API キーがあれば、すぐに分析を開始できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自分のトレードアイデアを素早く検証したい個人トレーダーや、膨大なデータから特定の市場シグナルを抽出したいクオンツ・リサーチャーに最適です。また、AIエージェントを金融実務でどう活用すべきかのフレームワークを探している開発者にとっても、非常に完成度の高いリファレンス実装となります。</p>
+
+        <h2>注意点</h2>
+        <p>現時点ではバックテストやリサーチが主眼であり、直接的なライブ取引（自動売買の執行）については、各ブローカーの API 連携を含め、自身の責任で環境を構築する必要があります。また、高度な分析には強力な LLM（Claude 3.5 Sonnet や GPT-4o 等）の使用が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Vibe-Tradingは、金融分析という専門性の高い領域において、AIエージェントが「思考」だけでなく「実行」までを代替する強力なツールです。自然言語という最も手軽なインターフェースで、プロフェッショナルなリサーチチームを手に入れたかのような体験を提供してくれる、次世代の金融分析基盤と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/HKUDS/Vibe-Trading" target="_blank" rel="noreferrer">HKUDS/Vibe-Trading</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
