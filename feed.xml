@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 01:17:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:22:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-code-toolkit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-xixu-me-claude-code-toolkit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-xixu-me-claude-code-toolkit.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code をより便利に、強力に。セットアップから拡張機能までを網羅した統合ツールキット。]]></description>
+    </item>
     <item>
       <title><![CDATA[Vibe-Trading]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-hkuds-vibe-trading.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェントに「投資分析の目」を。流動性解析や市場インパクトの評価を実現する金融特化型スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[gemini-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-google-gemini-gemini-skills-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-google-gemini-gemini-skills-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google 公式が贈る「AI のための学習帳」。Gemini の最新仕様とベストプラクティスを AI エージェントへ即座に反映。]]></description>
     </item>
   </channel>
 </rss>

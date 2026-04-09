@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-09-xixu-me-claude-code-toolkit",
+      "title": "claude-code-toolkit",
+      "dek": "Claude Code をより便利に、強力に。セットアップから拡張機能までを網羅した統合ツールキット。",
+      "summary": "Claude Code のポテンシャルを最大限に引き出すための統合ツールキット。macOS/Linux/Windows 各環境への適応から、再利用可能なスキル集、さらに AI エージェント의 挙動をカスタマイズする設定群まで、Claude Code を実戦投入するための必須リソースがまとめられています。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T10:20:00+09:00",
+      "repoName": "xixu-me/claude-code-toolkit",
+      "repoUrl": "https://github.com/xixu-me/claude-code-toolkit",
+      "articleUrl": "./articles/github/daily/2026-04-09-xixu-me-claude-code-toolkit.html",
+      "serial": 177,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-09-hkuds-vibe-trading",
       "title": "Vibe-Trading",
       "dek": "自然言語で市場を分析。戦略生成からバックテストまでを完結させるAI金融エージェント基盤。",

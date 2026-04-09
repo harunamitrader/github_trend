@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="xixu-me/claude-code-toolkit を読み、Claude Code のクロスプラットフォーム管理や複数プロバイダー切り替え機能の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-code-toolkit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-code-toolkit</h1>
+      <p class="article-dek">Claude Code をより便利に、強力に。セットアップから拡張機能までを網羅した統合ツールキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/xixu-me/claude-code-toolkit" target="_blank" rel="noreferrer">
+              xixu-me/claude-code-toolkit
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>claude-code-toolkitは、Anthropicの提供するCLIエージェント「Claude Code」の導入、設定、およびマルチプロバイダー運用を一元管理するためのクロスプラットフォーム・ツールキットです。macOS/Linux（Bash）とWindows（PowerShell）の両方にネイティブ対応しており、環境構築から高度なカスタマイズまでをシームレスにサポートします。</p>
+
+        <h2>何ができるか</h2>
+        <p>主な機能は、Claude Code 本体の自動インストールと更新、環境変数の自動設定、および複数のAPIプロバイダーの管理です。公式の Anthropic API だけでなく、Moonshot AI（Kimi）などの Anthropic 互換 API を簡単に切り替えて利用でき、プロジェクトやコストに応じて最適な推論エンジンを選択可能にします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特筆すべきは、ローカルプロキシツール「Claude Code Sugar」の同梱です。これにより、本来は Anthropic 互換 API しか受け付けない Claude Code を、OpenAI 互換の API サービス（ModelScope 等）に接続できるようになります。また、最新の Kimi モデル（kimi-k2-0711-preview）がプリセットされており、安価かつ強力な別モデルを Claude Code のインターフェースで利用できる点は大きな魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は非常にシンプルで、リポジトリに公開されている <code>cct.sh</code> または <code>cct.ps1</code> をダウンロードして実行するだけです。<code>install</code> コマンドで対話的なセットアップが始まり、<code>switch</code> コマンドでプロバイダーを瞬時に切り替えられます。また、<code>check</code> コマンドで環境が正しく構成されているかをいつでも診断可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Windows 環境で Claude Code を安定して動かしたいユーザーや、複数の AI プロバイダーを使い分けたい開発者に最適です。また、公式 API 以外の軽量・安価な LLM を Claude Code の強力なエージェント能力と組み合わせて使いたい、ハッカー気質のユーザーにとっても必須のツールとなるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>サードパーティのプロバイダーを利用する場合、API キーの保存場所（~/.claude/providers.json）の管理には注意が必要です。また、カスタムプロバイダー経由での利用は Anthropic の公式なサポート範囲外となるため、動作の整合性については利用者の責任となります。</p>
+
+        <h2>まとめ</h2>
+        <p>claude-code-toolkitは、Claude Code を「ただの CLI」から「汎用的なエージェントプラットフォーム」へと昇華させるための強力なサポーターです。環境の依存関係に悩まされることなく、最新のエージェント機能を最大限に活用したいすべてのユーザーにとって、最初に入れるべきツールの一つと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/xixu-me/claude-code-toolkit" target="_blank" rel="noreferrer">xixu-me/claude-code-toolkit</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
