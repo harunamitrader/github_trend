@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 21:09:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 07:19:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-11 アップデートレポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[lightweight-charts]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-tradingview-lightweight-charts.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-tradingview-lightweight-charts.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TradingView が開発した、HTML5 Canvas ベース of 超軽量・高速な金融チャートライブラリ。]]></description>
     </item>
     <item>
       <title><![CDATA[markitdown]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini app が、質問や複雑なトピックからチャット内で操作できる 3D モデルやインタラクティブな図表を生成できるようになりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity: Computer is Now Your Personal CFO]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-perplexity-computer-personal-cfo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-perplexity-computer-personal-cfo.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Perplexity Computer が個人の財務状況を扱う CFO 的な用途へ広がったことを示す公式 Hub 更新です。]]></description>
     </item>
   </channel>
 </rss>

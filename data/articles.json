@@ -18,6 +18,21 @@
       "serial": 13
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-04-11-tradingview-lightweight-charts",
+      "title": "lightweight-charts",
+      "dek": "TradingView が開発した、HTML5 Canvas ベース of 超軽量・高速な金融チャートライブラリ。",
+      "summary": "パフォーマンスと表示速度を最優先に設計された、プロフェッショナルな金融チャートライブラリ。ウェブページ上で静止画に近い軽快さで、インタラクティブな高機能チャートを実現します。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T07:10:00+09:00",
+      "repoName": "tradingview/lightweight-charts",
+      "repoUrl": "https://github.com/tradingview/lightweight-charts",
+      "articleUrl": "./articles/github/daily/2026-04-11-tradingview-lightweight-charts.html",
+      "serial": 180,
+      "originType": "pickup",
+      "genre": "トレード・金融分析 (ライブラリ・可視化ツール)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-04-11-microsoft-markitdown",
       "title": "markitdown",

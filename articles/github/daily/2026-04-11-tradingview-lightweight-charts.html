@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tradingview/lightweight-charts を読み、要点を実用寄りに整理した記事。ウェブサイトに超軽量・高速な金融チャートを導入するための決定版ライブラリです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>lightweight-charts</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">lightweight-charts</h1>
+      <p class="article-dek">TradingView が開発した、HTML5 Canvas ベースの超軽量・高速な金融チャートライブラリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tradingview/lightweight-charts" target="_blank" rel="noreferrer">
+              tradingview/lightweight-charts
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <strong>Lightweight Charts™</strong> は、TradingView がオープンソースで公開している、金融データを可視化するための高性能なチャートライブラリです。HTML5 Canvas を最大限に活用し、ウェブページの読み込み速度やパフォーマンスに悪影響を与えずに、インタラクティブでプロフェッショナルなチャートを表示することに特化しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          ローソク足、ライン、エリア、ヒストグラムなど、金融チャートに必要な主要な描画タイプをサポートしています。数千、数万のデータポイントをストレスなく描画でき、スクロールやズームといったユーザー操作も極めて滑らかです。静的なチャート画像を、同等以下のバイナリサイズでインタラクティブなものに置き換えることができます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <ul>
+          <li><strong>圧倒的なパフォーマンス:</strong> Canvas 直接描画により、DOM 要素を大量に生成するライブラリよりも遥かに高速に動作します。</li>
+          <li><strong>軽量なフットプリント:</strong> 最小構成で約 45KB (gzipped) と非常に小さく、モバイル環境や低速なネットワークでも快適に利用可能です。</li>
+          <li><strong>専門性の高い機能:</strong> 金融取引で必須となる時間軸の制御、価格スケールの自動調整、カスタムインジケーターの追加（プラグイン経由）などが最初から考慮されています。</li>
+          <li><strong>カスタマイズ性:</strong> テーマ、色、線のスタイル、十字カーソルの挙動など、ほぼ全ての視覚要素を API 経由で細かく制御できます。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          npm でインストールして、数行のコードでチャートを初期化できます：
+        </p>
+        <pre><code>npm install lightweight-charts</code></pre>
+        <p>
+          使用例：
+        </p>
+        <pre><code>import { createChart } from 'lightweight-charts';
+
+const chart = createChart(document.body, { width: 600, height: 400 });
+const lineSeries = chart.addLineSeries();
+lineSeries.setData([
+    { time: '2026-01-01', value: 80.01 },
+    { time: '2026-01-02', value: 96.63 },
+]);</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li><strong>金融/フィンテックアプリの開発者:</strong> 信頼性の高いチャートコンポーネントを自社サービスに組み込みたい場合に最適です。</li>
+          <li><strong>トレードツールの自作者:</strong> 自分のトレード戦略を可視化するための「軽くて速い」エンジンを求めている人に刺さります。</li>
+          <li><strong>パフォーマンスを重視するウェブ開発者:</strong> ページの LCP（Largest Contentful Paint）を損なわずにリッチなグラフを表示したいニーズに応えます。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          商用利用を含む Apache License 2.0 の下で無料で使用できますが、TradingView へのリンク（またはアトリビューション表示）がライセンス条件として必要です。API 内に <code>attributionLogo</code> オプションが用意されており、これを有効にすることで条件を満たすことができます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Lightweight Charts は、市場データ可視化の分野における「標準機」とも言えるライブラリです。TradingView 本体が培ったノウハウが凝縮されており、これを超える「手軽さ」と「高性能」の両立を実現しているライブラリは他に類を見ません。本格的な金融プラットフォームから個人のダッシュボードまで、幅広く推奨できるツールです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tradingview/lightweight-charts" target="_blank" rel="noreferrer">tradingview/lightweight-charts</a>
+        </div>
+        <div class="source-item">
+          <a href="https://tradingview.github.io/lightweight-charts/" target="_blank" rel="noreferrer">Official Documentation</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p>GitHub Watcher Serial: 180</p>
+      </div>
+    </article>
+  </body>
+</html>
