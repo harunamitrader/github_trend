@@ -160,6 +160,8 @@ harunami_ai_base/
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
 - `serial` は GitHub Watcher 本体記事である `github-trending` と `github-pickup` が共有する通し番号
 - `github-update-report` は別カウントとして扱い、GitHub Watcher 本体の通し番号を消費しない
+- GitHub Watcher 本体記事は、同じ `repoName` について一覧上は常に最新 1 本だけを残す
+- `github-trending` / `github-pickup` の新規作成前には、既存の同一 `repoName` がないか必ず確認する
 - pickup 記事の `meta description` は、汎用文ではなく repo の価値や用途が伝わる具体文にする
 - GitHub 記事の全文検索用に `data/github-search-index.json` を持つ
 
