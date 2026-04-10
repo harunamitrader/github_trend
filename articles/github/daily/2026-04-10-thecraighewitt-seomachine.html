@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TheCraigHewitt/seomachine を読み、Claude Code ベースで SEO 記事制作を一連のワークスペースに落とし込む実装を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>seomachine</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">seomachine</h1>
+      <p class="article-dek">Claude Code を土台に、調査から執筆・改善・公開までを一本化する SEO 記事制作ワークスペースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TheCraigHewitt/seomachine" target="_blank" rel="noreferrer">
+              TheCraigHewitt/seomachine
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          seomachine は、Claude Code を単なるチャット補助ではなく、長文 SEO コンテンツ制作の専用オペレーティング環境として構成したリポジトリです。
+          キーワード調査、競合分析、下書き、リライト、公開前最適化までを、命令セットとコンテキストファイルで再現可能なワークフローに落とし込んでいます。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>専用コマンド群</strong>: <code>/research</code>、<code>/write</code>、<code>/rewrite</code>、<code>/optimize</code> など、記事制作工程ごとの入口が用意されています。</li>
+          <li><strong>役割分担されたエージェント設計</strong>: コンテンツ分析、SEO 最適化、見出し生成、内部リンク設計、CRO 分析などの役割を分離しています。</li>
+          <li><strong>マーケティング向けスキル同梱</strong>: コピー、A/B テスト、価格訴求、メール導線など 26 種の実務スキルを前提にしています。</li>
+          <li><strong>分析データ連携</strong>: Google Analytics 4、Search Console、DataForSEO を組み合わせて実測値ベースで記事改善できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          ルート直下にワークスペースの材料が整理されており、記事生成だけでなく運用プロセス全体を管理しやすい構成です。
+        </p>
+        <ul>
+          <li><code>.claude/</code>、<code>CLAUDE.md</code>: Claude Code に読み込ませる指示と環境定義。</li>
+          <li><code>context/</code>: ブランドボイス、社内ルール、内部リンク戦略、ターゲットキーワードなどの運用知識。</li>
+          <li><code>research/</code>、<code>drafts/</code>、<code>published/</code>: 調査から公開までの成果物置き場。</li>
+          <li><code>research_*.py</code> 群: SERP 分析、競合比較、優先順位付けなどの補助スクリプト。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          前提は Claude Code と Anthropic API の利用です。さらに Python 依存を入れることで、外部データを使った分析まで回せます。
+        </p>
+        <ol>
+          <li>リポジトリを clone し、<code>pip install -r data_sources/requirements.txt</code> で分析系依存を導入します。</li>
+          <li><code>context/brand-voice.md</code> や <code>context/target-keywords.md</code> などのテンプレートを自社向けに埋めます。</li>
+          <li>Claude Code で開き、専用コマンドを使って調査、構成、執筆、最適化を順に流します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          コンテンツマーケティングを AI に外注するのではなく、自社の文脈を持った半自動制作ラインとして運用したいチームに向いています。
+          特に「AI ライター」ではなく「AI 編集部」を作る方向性が明確で、Claude Code ワークスペースの実務化サンプルとしても見やすい構成です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          効果はコンテキストファイルの質に大きく依存します。ブランド情報や内部リンク設計が薄い状態では、汎用的な記事生成に戻りやすいです。
+          また、外部分析 API を前提にした運用では、料金や認証設定の管理も別途必要になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          seomachine は、SEO 記事制作を Claude Code の再利用可能な作業系として固めたい人にとって実践度の高いリポジトリです。
+          文章生成そのものより、調査と改善を含む編集フローをどう定義するかに価値があります。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/TheCraigHewitt/seomachine" target="_blank" rel="noreferrer">TheCraigHewitt/seomachine (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

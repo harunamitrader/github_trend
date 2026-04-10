@@ -5,8 +5,64 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 21:01:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 16:16:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[sim]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-simstudioai-sim.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-simstudioai-sim.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ビジュアルキャンバスでAIエージェントのワークフローを構築・デプロイできる統合プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-04-10 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-10-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-10-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hermes-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-nousresearch-hermes-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-nousresearch-hermes-agent.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[学習ループ、記憶、スキル生成、マルチチャネル対話を備え、クラウド常駐も前提にした自己改善型 AI エージェント基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[DeepTutor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-hkuds-deeptutor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-hkuds-deeptutor.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[RAG、個別 TutorBot、AI Co-Writer をまとめ、学習支援を継続的なエージェント体験に変える教育プラットフォームです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[VoxCPM]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-openbmb-voxcpm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-openbmb-voxcpm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[30言語対応のトークナイザ不要 TTS で、音声デザインと制御可能なボイスクローニングまで扱える生成音声基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[opendataloader-pdf]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-opendataloader-project-opendataloader-pdf.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-opendataloader-project-opendataloader-pdf.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF を Markdown や JSON に構造化しつつ、Tagged PDF 自動生成まで狙う AI 向け PDF 変換基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[seomachine]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-thecraighewitt-seomachine.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-thecraighewitt-seomachine.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を土台に、調査から執筆・改善・公開までを一本化する SEO 記事制作ワークスペースです。]]></description>
+    </item>
     <item>
       <title><![CDATA[Hermes Agent Orange Book]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-alchaincyf-hermes-agent-orange-book.html</link>
@@ -110,62 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[著名投資家の思考をマルチエージェントで再現。議論と合意で市場に挑むAIヘッジファンド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Platform: Managed Agents 発表と ant CLI のパブリックベータ開始]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-managed-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-managed-agents.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律型エージェントを安全に実行するフルマネージド基盤と、開発を加速する ant CLI が公開されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: Windows サンドボックスの隔離強化とデバイスコードログインへの対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-security-codex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-security-codex.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OS レベルのネットワーク制御による安全性の向上と、CLI などのヘッドレス環境での利便性が改善されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.8: メディア生成ツールの追加と Dreaming 機能の整理]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-openclaw-v2026-4-8.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-openclaw-v2026-4-8.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[動画・音楽生成能力の獲得と、バックグラウンドでの高度な記憶保守システムが実装されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.97: Focus view と権限制御の改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-97.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-97.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Focus view の追加に加え、Bash 権限判定、CJK 入力、Bedrock 認証まわりの不具合修正がまとまって入った更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor Bugbot: Learned Rules と MCP Support]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-bugbot-learned-rules-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-cursor-bugbot-learned-rules-mcp.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Bugbot がレビュー結果から自動で学習し、MCP サーバー経由の追加コンテキストも参照できるようになりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Bedrock サポートの強化と、v2.1.94 で発生していた認証情報の欠落バグを修正。インタラクティブな学習コマンド /powerup も追加。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.37.0 Stable: Plan Mode の強化とセキュリティサンドボックスの改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-cli-v0-37-0-stable.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-cli-v0-37-0-stable.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プレビュー版での実験的機能が正式に安定版として昇格。Plan Mode の信頼性向上と、.env ファイルなど機密情報のサンドボックス保護を強化。]]></description>
     </item>
   </channel>
 </rss>

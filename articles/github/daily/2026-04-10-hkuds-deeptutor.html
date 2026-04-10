@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HKUDS/DeepTutor を読み、RAG・TutorBot・Co-Writer を束ねる学習支援エージェント基盤の構成を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepTutor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">DeepTutor</h1>
+      <p class="article-dek">RAG、個別 TutorBot、AI Co-Writer をまとめ、学習支援を継続的なエージェント体験に変える教育プラットフォームです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>3位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noreferrer">
+              HKUDS/DeepTutor
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          DeepTutor は、AI チャット、深掘り問題解決、クイズ生成、リサーチ、教材生成を一つの会話文脈で回せる学習支援プラットフォームです。
+          2026 年 4 月の v1 系ではアーキテクチャを全面刷新し、TutorBot、Co-Writer、Guided Learning、持続メモリなどを agent-native な設計に再編しています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>Unified Chat Workspace</strong>: Chat、Deep Solve、Quiz Generation、Deep Research、Math Animator を同じスレッドで切り替えられます。</li>
+          <li><strong>Personal TutorBots</strong>: 個別のメモリと性格、スキルを持つ自律的な学習ボットを用意できます。</li>
+          <li><strong>AI Co-Writer</strong>: Markdown 編集に AI 協調を組み込み、書き換えや要約を知識ベースと接続して行えます。</li>
+          <li><strong>Knowledge Hub</strong>: PDF や Markdown を取り込み、RAG ベースの学習知識庫として再利用できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          フロント、バックエンド、CLI が分かれており、プロダクトとしての形がかなり明瞭です。
+        </p>
+        <ul>
+          <li><code>deeptutor/</code>: サーバー側のコア実装。</li>
+          <li><code>deeptutor_cli/</code>: CLI エントリポイント。</li>
+          <li><code>web/</code>: Next.js ベースのフロントエンド。</li>
+          <li><code>scripts/</code>、<code>requirements/</code>、<code>tests/</code>: 補助スクリプト、依存定義、テスト。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Docker かローカル構築の両方が用意されており、README では Python 3.11 以上を前提にしています。
+          `.env` では OpenAI、Anthropic、Gemini、Copilot、Ollama など多様な LLM・Embedding プロバイダを切り替えられます。
+        </p>
+        <ol>
+          <li>リポジトリを clone し、<code>pip install -e ".[server]"</code> とフロント側の <code>npm install</code> を実行します。</li>
+          <li><code>.env.example</code> をコピーして LLM、Embedding、Web Search の接続先を設定します。</li>
+          <li>ローカル起動後、チャット、知識ベース、TutorBot、Co-Writer などを用途別に使い分けます。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          個人学習者だけでなく、教材作成、社内教育、RAG 付きナレッジ学習を同じ UI で回したいチームにも向いています。
+          とくに学習体験を「一問一答チャット」から「継続する個別エージェント」へ引き上げようとしている点が目立ちます。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          機能面は広い一方で、LLM、埋め込み、検索、フロント、バックエンドを全部組むため設定項目は多めです。
+          教育用途では回答の正確性検証、学習履歴の扱い、モデルごとのコスト管理も実運用の論点になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          DeepTutor は、教育アプリに AI を足したのではなく、学習そのものをエージェント中心に組み直そうとしているプロジェクトです。
+          OSS の学習支援基盤として見ても機能密度が高く、教育 × RAG × agent の交点を追うなら押さえておきたい一件です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noreferrer">HKUDS/DeepTutor (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

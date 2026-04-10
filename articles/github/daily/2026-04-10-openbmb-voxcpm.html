@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenBMB/VoxCPM を読み、トークナイザ不要の多言語 TTS と音声デザイン機能の実装ポイントを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>VoxCPM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">VoxCPM</h1>
+      <p class="article-dek">30言語対応のトークナイザ不要 TTS で、音声デザインと制御可能なボイスクローニングまで扱える生成音声基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/OpenBMB/VoxCPM" target="_blank" rel="noreferrer">
+              OpenBMB/VoxCPM
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          VoxCPM は、離散トークンを介さずに連続的な音声表現を直接生成する tokenizer-free TTS プロジェクトです。
+          最新の VoxCPM2 では 30 言語対応、48kHz 出力、自然言語からの声質設計、参照音声を使った制御可能なボイスクローニングまで含め、研究寄りと実用寄りの中間を強く狙っています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>多言語音声合成</strong>: 日本語を含む 30 言語と複数の中国方言に対応しています。</li>
+          <li><strong>Voice Design</strong>: 参照音声なしで「若い女性、やさしい声」などの自然言語記述から話者設計が可能です。</li>
+          <li><strong>Controllable Voice Cloning</strong>: 参照音声の声質を保持しつつ、速度や感情、スタイルを追記で調整できます。</li>
+          <li><strong>複数入口</strong>: Python API、CLI、Web Demo、Playground、Docs が揃っており試しやすいです。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          コア実装と周辺デモが分離されており、研究コードをそのまま使うだけでなく、プロダクト導入の足場もあります。
+        </p>
+        <ul>
+          <li><code>src/voxcpm/</code>: モデル本体の Python パッケージ。</li>
+          <li><code>conf/</code>: 設定ファイル群。</li>
+          <li><code>examples/</code>、<code>scripts/</code>: 利用例と補助スクリプト。</li>
+          <li><code>app.py</code>、<code>lora_ft_webui.py</code>: デモや fine-tuning 入口。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          最短導入は Python パッケージ <code>voxcpm</code> のインストールです。README では Python 3.10 以上、PyTorch 2.5 以上、CUDA 12.0 以上が前提になっています。
+        </p>
+        <ol>
+          <li><code>pip install voxcpm</code> を実行します。</li>
+          <li><code>VoxCPM.from_pretrained("openbmb/VoxCPM2")</code> でモデルを読み込みます。</li>
+          <li><code>generate()</code> に通常テキスト、声質記述、参照音声を与えて TTS、Voice Design、Voice Cloning を切り替えます。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          多言語ナレーション生成、ゲームや映像向け音声制作、対話エージェントの音声化など、質感重視の音声生成案件に向いています。
+          特に voice design と controllable cloning が同じ生成 API に乗っているため、単純な読み上げツールではなく、音声制作エンジンとして見られている点がトレンド入りの理由です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          高品質推論には GPU 条件が重く、ローカル導入の敷居は低くありません。さらにボイスクローニング機能は利用規約や権利処理の設計が不可欠で、プロダクト実装では技術より運用ガードが重要になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          VoxCPM は、単なる OSS TTS ではなく、声質生成と制御を一体化した音声モデル基盤として完成度が高いです。
+          研究成果の公開にとどまらず、今の生成音声 UI や API の実装候補として見る価値があります。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OpenBMB/VoxCPM" target="_blank" rel="noreferrer">OpenBMB/VoxCPM (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://voxcpm.readthedocs.io" target="_blank" rel="noreferrer">VoxCPM Documentation</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

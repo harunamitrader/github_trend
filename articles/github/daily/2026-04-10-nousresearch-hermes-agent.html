@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NousResearch/hermes-agent を読み、自己改善ループとマルチチャネル実行を備えた常駐型 AI エージェント基盤の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hermes-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hermes-agent</h1>
+      <p class="article-dek">学習ループ、記憶、スキル生成、マルチチャネル対話を備え、クラウド常駐も前提にした自己改善型 AI エージェント基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>1位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noreferrer">
+              NousResearch/hermes-agent
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          hermes-agent は、Nous Research が開発する常駐型の AI エージェント基盤です。
+          CLI だけでなく Telegram、Discord、Slack、WhatsApp、Signal などのメッセージング経路を単一ゲートウェイで扱いながら、作業経験からスキルを作り、記憶を蓄積し、次回以降に自己改善する閉ループを中核に置いています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>自己改善ループ</strong>: 経験からスキルを作成し、利用中に改善し、過去会話を検索して再利用します。</li>
+          <li><strong>マルチチャネル運用</strong>: CLI と複数メッセージングプラットフォームをまたいで同一エージェントを維持できます。</li>
+          <li><strong>サブエージェント並列化</strong>: 独立したサブエージェントを起動し、並列作業やパイプライン化が可能です。</li>
+          <li><strong>広い実行基盤</strong>: ローカル、Docker、SSH、Daytona、Singularity、Modal など複数バックエンドに対応します。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          エージェント本体だけでなく、CLI、ゲートウェイ、スキル、プラグイン、研究用途まで含めた大きめの構成です。
+        </p>
+        <ul>
+          <li><code>agent/</code>、<code>hermes_cli/</code>: コアエージェントと CLI まわり。</li>
+          <li><code>gateway/</code>: Telegram や Discord などへ接続するメッセージング層。</li>
+          <li><code>skills/</code>、<code>plugins/</code>、<code>tools/</code>: 拡張と能力追加の仕組み。</li>
+          <li><code>cron/</code>、<code>tests/</code>、<code>docs/</code>: 自動化、検証、ドキュメント。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Quick Install はシェルスクリプト 1 本で、Linux、macOS、WSL2 を対象にしています。Windows ネイティブは非対応で、README でも WSL2 利用が明記されています。
+        </p>
+        <ol>
+          <li><code>curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash</code> で導入します。</li>
+          <li><code>hermes model</code> で利用する LLM を選び、<code>hermes tools</code> や <code>hermes setup</code> で環境を整えます。</li>
+          <li>必要に応じて <code>hermes gateway</code> を起動し、CLI 外のチャネルとも連携します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          「ローカルの補助ツール」ではなく、「常にどこかで動き続ける作業エージェント」を作りたい人に向いています。
+          モデルロックインを避けつつ、記憶、スキル、並列化、スケジューリングまで一式揃っているため、個人用 AI 秘書から運用エージェントまで用途が広いです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          機能が多いため、初期設定や権限制御の設計を雑にすると扱いづらくなります。外部チャネルや長期記憶を有効にする場合は、秘密情報、作業ディレクトリ、許可コマンドの境界設計が実質的な本番課題です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          hermes-agent は、対話 UI 付きの CLI を超えて、学習し続ける作業エージェントの実装見本として完成度が高いです。
+          2026 年時点のオープンな agent 基盤の中でも、常駐運用と自己改善をここまで一体化している例は少なく、1 位になる理由は明確です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noreferrer">NousResearch/hermes-agent (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://hermes-agent.nousresearch.com/docs" target="_blank" rel="noreferrer">Hermes Agent Docs</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

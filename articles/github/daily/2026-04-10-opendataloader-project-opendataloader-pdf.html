@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="opendataloader-project/opendataloader-pdf を読み、PDF を AI 向けデータとアクセシブルな Tagged PDF に変換する基盤の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>opendataloader-pdf</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">opendataloader-pdf</h1>
+      <p class="article-dek">PDF を Markdown や JSON に構造化しつつ、Tagged PDF 自動生成まで狙う AI 向け PDF 変換基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>5位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank" rel="noreferrer">
+              opendataloader-project/opendataloader-pdf
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          opendataloader-pdf は、PDF を AI が扱いやすい構造化データへ変換するためのオープンソース基盤です。
+          単なるテキスト抽出ではなく、読み順、見出し階層、表、画像の座標まで保持しながら Markdown や JSON に落とし込み、さらにアクセシビリティ対応の Tagged PDF 自動生成も視野に入れています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>構造保持付き抽出</strong>: 見出し、段落、表、画像を bounding box 付きで取り出せます。</li>
+          <li><strong>複雑 PDF 向けハイブリッド処理</strong>: 難しい表や OCR、数式、チャートは AI バックエンドに逃がす前提です。</li>
+          <li><strong>アクセシビリティ自動化</strong>: レイアウト解析を活かし、Tagged PDF 化を無償範囲で提供する計画が明示されています。</li>
+          <li><strong>多言語 SDK</strong>: Python、Node.js、Java 系統を含む配布を前提にしています。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          実装は単一言語に閉じず、複数ランタイム向けに整理されています。
+        </p>
+        <ul>
+          <li><code>python/</code>、<code>node/opendataloader-pdf/</code>、<code>java/</code>: 各 SDK 実装。</li>
+          <li><code>docs/</code>、<code>content/docs/</code>: ドキュメントと利用案内。</li>
+          <li><code>samples/</code>、<code>examples/python/</code>: 入出力例とサンプルコード。</li>
+          <li><code>build-scripts/</code>、<code>scripts/</code>: パッケージングや補助処理。</li>
+        </ul>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          README 上の最短導入は Python パッケージ経由です。Java 11+ と Python 3.10+ が前提で、1 回の <code>convert()</code> で複数 PDF をまとめて処理する形が推奨されています。
+        </p>
+        <ol>
+          <li><code>pip install -U opendataloader-pdf</code> を実行します。</li>
+          <li>Python から <code>opendataloader_pdf.convert(...)</code> を呼び、入力 PDF と出力ディレクトリ、形式を指定します。</li>
+          <li>必要に応じて Markdown、JSON、Tagged PDF 生成フローへ接続します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          RAG パイプライン、文書検索、監査文書の解析、アクセシビリティ対応など、PDF を本番データソースとして扱うチームに直結します。
+          「PDF を読む」ではなく「PDF を座標つき構造データに変える」点と、PDF/UA 文脈まで射程に入れている点が強いです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          README でも、Word や Excel、PowerPoint などは対象外と整理されています。Tagged PDF 自動生成の一部は今後提供予定で、PDF/UA-1 や PDF/UA-2 書き出しはエンタープライズ機能として区別されています。
+          そのため、現時点では「完全なアクセシビリティ変換基盤」というより、抽出と自動タグ付けの中核部分を公開している段階です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          opendataloader-pdf は、PDF 解析を AI ワークフローとアクセシビリティ対応の両面から組み立てている点が特徴です。
+          既存の OCR やテキスト抽出だけでは足りず、構造と読み順まで必要な現場ではかなり実務寄りの選択肢です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank" rel="noreferrer">opendataloader-project/opendataloader-pdf (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
