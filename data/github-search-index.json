@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-11T21:03:16.860150+00:00",
-  "count": 201,
+  "generatedAt": "2026-04-11T21:41:27.328704+00:00",
+  "count": 202,
   "articles": [
+    {
+      "slug": "2026-04-12-ahujasid-blender-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "blender-mcp",
+      "dek": "AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。",
+      "summary": "ahujasid/blender-mcp は、3D制作ソフト Blender を AI エージェントから操作可能にする MCP サーバー。自然言語によるシーン構築、Python実行、さらに視覚的フィードバックを用いた自律的な3D編集を実現します。",
+      "repoName": "ahujasid/blender-mcp",
+      "genre": "メディア作成・Web生成 (動画・画像・UI)",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T06:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-12-ahujasid-blender-mcp.html",
+      "serial": 186,
+      "searchText": "blender-mcp AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。 ahujasid/blender-mcp は、3D制作ソフト Blender を AI エージェントから操作可能にする MCP サーバー。自然言語によるシーン構築、Python実行、さらに視覚的フィードバックを用いた自律的な3D編集を実現します。 ahujasid/blender-mcp メディア作成・Web生成 (動画・画像・UI) blender-mcp ← 記事一覧へ戻る GitHub Watcher blender-mcp AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。 記事作成日 2026-04-12 種別 Pickup 対象 repo ahujasid/blender-mcp Shared GitHub Serial: #186 これは何か blender-mcp は、オープンソースの 3D 制作スイート「Blender」を Model Context Protocol (MCP) サーバーとして動作させる拡張ツールです。Claude や Cursor といった AI エージェントが Blender の内部 API (bpy) に直接アクセスできるようにし、自然言語による 3D モデリングやシーン編集を可能にします。 何ができるか エージェントに対して「宇宙船のモデルを作って」「ライティングを夕暮れ時に変更して」「現在のシーンをレンダリングして画像で見せて」といった指示を出すことができます。AI は背後で Python コードを生成・実行し、リアルタイムに Blender のシーンを構築します。また、PolyHaven と連携して高品質なアセットを自動で取り込むことも可能です。 目立つポイント 最大の特徴は、AI が Blender の「ビューポートのスクリーンショット」を取得できる点です。これにより、AI は自分の操作結果を視覚的に確認（マルチモーダル機能を利用）し、「オブジェクトが重なっているから修正する」といった自律的なフィードバックループを回すことができます。3D 制作の非言語的なプロセスを言語化する画期的な試みです。 セットアップや使い方の流れ まず Blender 側でリポジトリに含まれる addon.py をインストールし、Nパネル（サイドバー）からサーバーを起動します。次に、MCP クライアント（Claude Desktop 等）の構成ファイルに以下の設定を追加します。 \"blender\": { \"command\": \"uvx\", \"args\": [\"blender-mcp\"] } あとはエージェントに「Blender に接続して」と伝えるだけで、対話的な 3D 制作が始まります。 どんな人向けか Blender の複雑な操作体系を覚えきれない初心者から、Python スクリプトによる自動化を加速させたいプロフェッショナルまで幅広く役立ちます。また、AI を用いたゲームアセットの動的生成や、物語に基づいたシーンの自動構築を試みたい実験者にとっても非常に強力なツールとなります。 注意点 AI が直接 Python コードを実行するため、信頼できるプロンプト環境での使用が必須です。また、現在の仕様では 1 つの MCP インスタンスにつき 1 つの Blender セッションしか制御できないため、複数のツールから同時に接続しようとするとエラーが発生する場合があります。 まとめ blender-mcp は、AI エージェントに「3D 空間を操る手」と「それを確認する目」を与えるツールです。2D の画像生成から一歩進み、物理的な整合性を持つ 3D 資産を AI と共創する、次世代のクリエイティブ・ワークフローの先駆けと言えるでしょう。 参照リンク ahujasid/blender-mcp"
+    },
     {
       "slug": "2026-04-12-update-report",
       "category": "github-update-report",

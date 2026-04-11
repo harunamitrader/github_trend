@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ahujasid/blender-mcp を読み、AIエージェントが 3D 制作ソフト Blender を直接操作し、シーン構築やレンダリングを行う仕組みを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>blender-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">blender-mcp</h1>
+      <p class="article-dek">AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ahujasid/blender-mcp" target="_blank" rel="noreferrer">
+              ahujasid/blender-mcp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p class="article-serial">Shared GitHub Serial: #186</p>
+
+        <h2>これは何か</h2>
+        <p>blender-mcp は、オープンソースの 3D 制作スイート「Blender」を Model Context Protocol (MCP) サーバーとして動作させる拡張ツールです。Claude や Cursor といった AI エージェントが Blender の内部 API (bpy) に直接アクセスできるようにし、自然言語による 3D モデリングやシーン編集を可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントに対して「宇宙船のモデルを作って」「ライティングを夕暮れ時に変更して」「現在のシーンをレンダリングして画像で見せて」といった指示を出すことができます。AI は背後で Python コードを生成・実行し、リアルタイムに Blender のシーンを構築します。また、PolyHaven と連携して高品質なアセットを自動で取り込むことも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、AI が Blender の「ビューポートのスクリーンショット」を取得できる点です。これにより、AI は自分の操作結果を視覚的に確認（マルチモーダル機能を利用）し、「オブジェクトが重なっているから修正する」といった自律的なフィードバックループを回すことができます。3D 制作の非言語的なプロセスを言語化する画期的な試みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず Blender 側でリポジトリに含まれる <code>addon.py</code> をインストールし、Nパネル（サイドバー）からサーバーを起動します。次に、MCP クライアント（Claude Desktop 等）の構成ファイルに以下の設定を追加します。</p>
+        <pre><code>"blender": {
+  "command": "uvx",
+  "args": ["blender-mcp"]
+}</code></pre>
+        <p>あとはエージェントに「Blender に接続して」と伝えるだけで、対話的な 3D 制作が始まります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Blender の複雑な操作体系を覚えきれない初心者から、Python スクリプトによる自動化を加速させたいプロフェッショナルまで幅広く役立ちます。また、AI を用いたゲームアセットの動的生成や、物語に基づいたシーンの自動構築を試みたい実験者にとっても非常に強力なツールとなります。 </p>
+
+        <h2>注意点</h2>
+        <p>AI が直接 Python コードを実行するため、信頼できるプロンプト環境での使用が必須です。また、現在の仕様では 1 つの MCP インスタンスにつき 1 つの Blender セッションしか制御できないため、複数のツールから同時に接続しようとするとエラーが発生する場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>blender-mcp は、AI エージェントに「3D 空間を操る手」と「それを確認する目」を与えるツールです。2D の画像生成から一歩進み、物理的な整合性を持つ 3D 資産を AI と共創する、次世代のクリエイティブ・ワークフローの先駆けと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ahujasid/blender-mcp" target="_blank" rel="noreferrer">ahujasid/blender-mcp</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-12-ahujasid-blender-mcp",
+      "title": "blender-mcp",
+      "dek": "AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。",
+      "summary": "ahujasid/blender-mcp は、3D制作ソフト Blender を AI エージェントから操作可能にする MCP サーバー。自然言語によるシーン構築、Python実行、さらに視覚的フィードバックを用いた自律的な3D編集を実現します。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T06:40:00+09:00",
+      "repoName": "ahujasid/blender-mcp",
+      "repoUrl": "https://github.com/ahujasid/blender-mcp",
+      "articleUrl": "./articles/github/daily/2026-04-12-ahujasid-blender-mcp.html",
+      "serial": 186,
+      "originType": "pickup",
+      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox",
       "title": "Codex CLI 0.120.0: Realtime V2 と hooks 表示、Windows sandbox を改善",
