@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-voltagent-awesome-design-md",
+      "title": "awesome-design-md",
+      "dek": "AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。",
+      "summary": "VoltAgent/awesome-design-md は、Vercel や Claude のような洗練されたデザインシステムを AI が解釈しやすい Markdown 形式でまとめたリポジトリ。エージェントに渡すだけで、特定のブランドトーンを再現した UI 生成が可能になります。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T08:21:00+09:00",
+      "repoName": "VoltAgent/awesome-design-md",
+      "repoUrl": "https://github.com/VoltAgent/awesome-design-md",
+      "articleUrl": "./articles/github/daily/2026-04-12-voltagent-awesome-design-md.html",
+      "serial": 188,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-bloopai-vibe-kanban",
       "title": "vibe-kanban",
       "dek": "AIエージェントの能力を10倍に。カンバンと内蔵ブラウザを備えたAIファーストの統合ワークスペース。",

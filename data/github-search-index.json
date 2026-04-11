@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-11T22:12:10.800335+00:00",
-  "count": 203,
+  "generatedAt": "2026-04-11T23:21:27.161531+00:00",
+  "count": 204,
   "articles": [
+    {
+      "slug": "2026-04-12-voltagent-awesome-design-md",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-design-md",
+      "dek": "AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。",
+      "summary": "VoltAgent/awesome-design-md は、Vercel や Claude のような洗練されたデザインシステムを AI が解釈しやすい Markdown 形式でまとめたリポジトリ。エージェントに渡すだけで、特定のブランドトーンを再現した UI 生成が可能になります。",
+      "repoName": "VoltAgent/awesome-design-md",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T08:21:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-12-voltagent-awesome-design-md.html",
+      "serial": 188,
+      "searchText": "awesome-design-md AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。 VoltAgent/awesome-design-md は、Vercel や Claude のような洗練されたデザインシステムを AI が解釈しやすい Markdown 形式でまとめたリポジトリ。エージェントに渡すだけで、特定のブランドトーンを再現した UI 生成が可能になります。 VoltAgent/awesome-design-md AIコーディング (ワークフロー・プロンプト・開発補助ツール) awesome-design-md ← 記事一覧へ戻る GitHub Watcher awesome-design-md AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。 記事作成日 2026-04-12 種別 Pickup 対象 repo VoltAgent/awesome-design-md Shared GitHub Serial: #188 これは何か awesome-design-md は、Vercel, Claude, Stripe, Notion といった世界的に洗練された IT ブランドのデザインシステムを、AI エージェント（LLM）が読み取り・理解しやすい Markdown 形式（DESIGN.md）としてまとめたキュレーションリポジトリです。「Design as Code」の概念を具現化し、テキストだけでブランド特有の「雰囲気」を AI に伝えることを可能にします。 何ができるか 提供されている Markdown ファイルには、各ブランドのカラー、タイポグラフィ、コンポーネントの挙動、さらには「余白の持たせ方」といった微細な美学が言語化されています。これを AI エージェント（Claude Code, Cursor 等）に読み込ませることで、プログラミングやデザインの専門知識がなくても、特定のブランドを彷彿とさせる洗練された UI を即座に生成できます。 目立つポイント 最大の魅力は「AI-First & Zero Tooling」というアプローチです。Figma や重厚な CSS ライブラリに頼ることなく、LLM が最も得意とする「テキスト」を媒体としてデザインの指示を完結させます。AI が生成する UI 全体にわたって視覚的な一貫性を保ち、ブランドの「魂」をコードに継承させることができます。 セットアップや使い方の流れ 使い方は非常にシンプルです。リポジトリや getdesign.md から、適用したいスタイル（例：Linear風、Stripe風）を選び、その Markdown の内容をプロジェクトのルートディレクトリに DESIGN.md という名前で保存します。あとは AI エージェントに対し「 DESIGN.md のガイドラインに従ってこのページを実装して」と依頼するだけです。 どんな人向けか AI 駆動開発をメインで行っているエンジニアや、デザインスキルはないが洗練された UI のプロトタイプを高速に作りたい個人開発者に最適です。また、プロジェクトごとに異なるデザインの「トーン＆マナー」を AI に正確に伝えたいチームにとっても、強力な指示書（プロンプト）のベースとなります。 注意点 最終的な UI の品質は、使用する LLM モデルの解釈能力に大きく左右されます。また、これはコンポーネントライブラリそのものではないため、具体的なコード自体を生成する過程で AI との対話（微調整）が必要になる場合があります。 まとめ awesome-design-md は、AI コーディング時代における「デザインの定義」を再定義する独創的なプロジェクトです。Markdown 1枚で AI に美学を伝え、誰もが一流ブランドのようなプロダクトを共創できる未来を予感させてくれます。 参照リンク VoltAgent/awesome-design-md"
+    },
     {
       "slug": "2026-04-12-bloopai-vibe-kanban",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 07:15:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:21:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-design-md]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-voltagent-awesome-design-md.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-voltagent-awesome-design-md.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。]]></description>
+    </item>
     <item>
       <title><![CDATA[vibe-kanban]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-bloopai-vibe-kanban.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[金融市場のローソク足を「市場の言語」として扱い、価格系列の予測や分析に使うオープンな foundation model です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[jq]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-jqlang-jq.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-jqlang-jq.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JSON を検索、抽出、変換するための定番 CLI プロセッサで、シェル作業や自動化の基礎部品として使えるツールです。]]></description>
     </item>
   </channel>
 </rss>
