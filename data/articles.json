@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-affaan-m-everything-claude-code",
+      "title": "everything-claude-code",
+      "dek": "AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。",
+      "summary": "affaan-m/everything-claude-code は、Claude Code や Cursor の性能を極限まで引き出すための統合最適化フレームワーク。トークン削減、長期記憶、自動スキル抽出により、AI との協働を自律的なレベルへと押し上げます。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T05:25:00+09:00",
+      "repoName": "affaan-m/everything-claude-code",
+      "repoUrl": "https://github.com/affaan-m/everything-claude-code",
+      "articleUrl": "./articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html",
+      "serial": 185,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-11-microsoft-work-iq",
       "title": "work-iq",
       "dek": "AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。",

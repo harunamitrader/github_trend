@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Apr 2026 21:36:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 05:25:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[everything-claude-code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
+    </item>
     <item>
       <title><![CDATA[work-iq]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-work-iq.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[30言語対応のトークナイザ不要 TTS で、音声デザインと制御可能なボイスクローニングまで扱える生成音声基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opendataloader-pdf]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-opendataloader-project-opendataloader-pdf.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-opendataloader-project-opendataloader-pdf.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PDF を Markdown や JSON に構造化しつつ、Tagged PDF 自動生成まで狙う AI 向け PDF 変換基盤です。]]></description>
     </item>
   </channel>
 </rss>
