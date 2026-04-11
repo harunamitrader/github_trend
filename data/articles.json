@@ -30,7 +30,7 @@
       "articleUrl": "./articles/github/daily/2026-04-11-tradingview-lightweight-charts.html",
       "serial": 180,
       "originType": "pickup",
-      "genre": "トレード・金融分析 (ライブラリ・可視化ツール)"
+      "genre": "金融・トレード分析"
     },
     {
       "category": "github-pickup",
@@ -45,7 +45,7 @@
       "articleUrl": "./articles/github/daily/2026-04-11-freqtrade-freqtrade-strategies.html",
       "serial": 181,
       "originType": "pickup",
-      "genre": "トレード・金融分析 (アルゴリズム・戦略集)"
+      "genre": "金融・トレード分析"
     },
     {
       "category": "github-trending",
