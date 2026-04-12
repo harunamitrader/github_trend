@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 21:05:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 05:03:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-13 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-13-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-13-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[rustfs]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-rustfs-rustfs.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-rustfs-rustfs.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rust で実装された S3 互換の高性能オブジェクトストレージで、AI・データレイク・ビッグデータ用途を意識した基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ralph]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-snarktank-ralph.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-snarktank-ralph.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PRD の user story がすべて完了するまで、Amp や Claude Code を新しい文脈で反復実行する自律 AI コーディングループです。]]></description>
+    </item>
     <item>
       <title><![CDATA[AirLLM]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-lyogavin-airllm.html</link>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIのトークン消費を最大90%削減。Rust製の超高速CLIプロキシによる出力最適化ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cocoindex-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-cocoindex-io-cocoindex-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-cocoindex-io-cocoindex-code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ASTベースの軽量コード検索エンジン。コーディングエージェントのトークン削減と速度向上を支援。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-11 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-11-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-11-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[lightweight-charts]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-tradingview-lightweight-charts.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-tradingview-lightweight-charts.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TradingView が開発した、HTML5 Canvas ベース of 超軽量・高速な金融チャートライブラリ。]]></description>
     </item>
   </channel>
 </rss>

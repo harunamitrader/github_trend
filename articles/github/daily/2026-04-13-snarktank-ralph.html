@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="snarktank/ralph を読み、PRD の全項目が完了するまで AI コーディングツールを反復実行する自律ループとしての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ralph</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ralph</h1>
+      <p class="article-dek">PRD の user story がすべて完了するまで、Amp や Claude Code を新しい文脈で反復実行する自律 AI コーディングループです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>13位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/snarktank/ralph" target="_blank" rel="noreferrer">snarktank/ralph</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          ralph は、PRD の user story がすべて <code>passes: true</code> になるまで、AI コーディングツールを繰り返し起動する自律ループです。
+          各 iteration は新しい AI インスタンスで実行され、記憶は git history、<code>progress.txt</code>、<code>prd.json</code> に残します。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>PRD 駆動</strong>: Markdown の PRD を <code>prd.json</code> に変換し、user story 単位で進捗を管理します。</li>
+          <li><strong>反復実行</strong>: 最高優先度の未完了 story を選び、実装、品質チェック、commit、進捗更新を繰り返します。</li>
+          <li><strong>文脈リセット</strong>: 各 iteration を fresh context にすることで、巨大な作業を小さく分割して進めます。</li>
+          <li><strong>Amp / Claude Code 対応</strong>: Amp CLI と Claude Code の両方で動き、Claude Code Marketplace plugin としても導入できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          中核は <code>ralph.sh</code> の bash loop です。<code>prompt.md</code>、<code>CLAUDE.md</code>、<code>prd.json.example</code>、<code>skills/</code>、<code>.claude-plugin/</code>、<code>flowchart/</code> が含まれ、実行ループとスキル配布の両方を扱います。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          プロジェクトへ <code>ralph.sh</code> とプロンプトテンプレートをコピーするか、Amp / Claude Code の skills として導入します。
+          Claude Code では marketplace を追加し、<code>ralph-skills</code> を install して PRD 作成と変換を使えるようにします。
+        </p>
+        <ol>
+          <li><code>scripts/ralph/</code> に <code>ralph.sh</code> とプロンプトを配置します。</li>
+          <li><code>/prd</code> で PRD を作成し、<code>/ralph</code> で <code>prd.json</code> に変換します。</li>
+          <li><code>./scripts/ralph/ralph.sh --tool claude</code> のように実行して反復させます。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          AI コーディングを一発生成ではなく、PRD、品質チェック、git commit、学習ログを組み合わせた継続ループとして運用したい開発者に向いています。
+          AGENTS.md へ学びを残す設計により、次の iteration や将来の人間開発者にも知見が残る点が特徴です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          PRD の粒度が大きすぎると、AI が 1 context で完了できずに品質が落ちます。typecheck、test、CI のようなフィードバックループを必ず用意し、失敗した変更が反復で増幅されないようにする必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          ralph は、AI コーディングを「新しい文脈で何度も試す」ための最小構成に近いプロジェクトです。
+          PRD と git を記憶層にする発想が明快で、長い作業を安全に分割したいチームにとって参考になります。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/snarktank/ralph" target="_blank" rel="noreferrer">snarktank/ralph (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://snarktank.github.io/ralph/" target="_blank" rel="noreferrer">Ralph Interactive Flowchart</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

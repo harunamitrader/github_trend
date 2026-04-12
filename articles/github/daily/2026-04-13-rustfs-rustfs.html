@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="rustfs/rustfs を読み、Rust 製の S3 互換分散オブジェクトストレージとしての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>rustfs</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">rustfs</h1>
+      <p class="article-dek">Rust で実装された S3 互換の高性能オブジェクトストレージで、AI・データレイク・ビッグデータ用途を意識した基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rustfs/rustfs" target="_blank" rel="noreferrer">rustfs/rustfs</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          RustFS は、Rust で作られた高性能な分散オブジェクトストレージです。
+          README では、MinIO のシンプルさと Rust のメモリ安全性・性能を組み合わせ、S3 互換、データレイク、AI、ビッグデータ workload を意識した設計だと説明されています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>S3 互換</strong>: 既存の S3 クライアントやアプリケーションと組み合わせやすい API を提供します。</li>
+          <li><strong>分散ストレージ</strong>: スケーラブルで fault-tolerant な構成を目指し、bucket replication や event notifications も扱います。</li>
+          <li><strong>OpenStack 連携</strong>: Swift API や Keystone authentication に対応しています。</li>
+          <li><strong>クラウドネイティブ導入</strong>: Docker、Docker Compose、Helm Chart、Nix など複数の導入経路があります。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>crates/</code> と <code>rustfs/</code> が Rust 実装の中心で、<code>deploy/</code>、<code>helm/</code>、<code>.docker/</code>、複数の Dockerfile が運用・配布を支えます。
+          <code>Cargo.toml</code> と <code>rust-toolchain.toml</code> を持つ、Rust ワークスペースとしての構成です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          README ではワンラインインストール、Docker、Podman、Docker Compose、ソースビルド、Helm Chart、Nix などが案内されています。
+          Docker では <code>9000</code> と <code>9001</code> を公開し、データとログ用ディレクトリをマウントして起動します。
+        </p>
+        <ol>
+          <li><code>curl -O https://rustfs.com/install_rustfs.sh && bash install_rustfs.sh</code> で導入できます。</li>
+          <li>Docker では <code>rustfs/rustfs:latest</code> を使ってローカル起動できます。</li>
+          <li>Kubernetes では Helm Chart を使い、クラスタ上へ展開します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          S3 互換ストレージを自前運用したいインフラ担当、AI データ基盤、データレイク、エッジ環境の開発者に向いています。
+          Apache 2.0 ライセンス、Rust 実装、S3 互換という組み合わせは、商用利用や長期運用を意識するチームにとって分かりやすい強みです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          README の status では、distributed mode、lifecycle management、RustFS KMS など一部機能が testing 扱いです。
+          本番利用では、障害時の復旧、互換性、運用監視、バックアップ、既存 S3 ワークロードとの検証を十分に行う必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          rustfs は、AI 時代の大量データを支えるオブジェクトストレージを Rust で作り直すプロジェクトです。
+          単なる MinIO 代替ではなく、S3 互換とクラウドネイティブ運用を両立する基盤として注目されています。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rustfs/rustfs" target="_blank" rel="noreferrer">rustfs/rustfs (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.rustfs.com" target="_blank" rel="noreferrer">RustFS Docs</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
