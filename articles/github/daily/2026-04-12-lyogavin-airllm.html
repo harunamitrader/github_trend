@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="lyogavin/airllm を読み、低メモリGPUで巨大モデルを動かす推論ライブラリの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AirLLM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AirLLM</h1>
+      <p class="article-dek">4GBのGPU1枚で 70B 巨大モデルをフル精度推論。メモリの壁を「レイヤー単位実行」で突破。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/lyogavin/airllm" target="_blank" rel="noreferrer">
+              lyogavin/airllm
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          AirLLM は、一般的な家庭用 GPU（VRAM 4GB〜）でも、Llama 3 70B や Llama 3.1 405B のような超巨大な大規模言語モデル（LLM）の推論を実行できるようにする画期的なライブラリです。
+        </p>
+        <p>
+          通常、70B クラスのモデルを動作させるには 100GB 以上のビデオメモリが必要になりますが、AirLLM は「メモリの効率化」に特化した独自の実行手法を用いることで、そのハードルを劇的に下げました。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>超巨大モデルのローカル実行:</strong> 4GB VRAM で 70B、8GB VRAM で 405B パラメータのモデルを推論可能。</li>
+          <li><strong>量子化なしでの動作:</strong> 精度を落とす「量子化（Quantization）」を行わなくても、フル精度の重みで動作させることができます（もちろん量子化併用も可能）。</li>
+          <li><strong>多様なモデル対応:</strong> Llama シリーズに加え、Qwen、ChatGLM、Baichuan、Mistral など主要な多数のアーキテクチャをサポート。</li>
+          <li><strong>MacOS 対応:</strong> Apple Silicon 搭載の Mac 上でも、同様の省メモリ推論が可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          その核となる技術は「レイヤー単位推論（Layer-wise inference）」です。巨大なモデル全体を VRAM に一度にロードするのではなく、計算が必要な瞬間に「その特定の層（レイヤー）」だけを VRAM へ送り、計算が終わると即座に破棄して次の層を読み込む、というプロセスを繰り返します。
+        </p>
+        <p>
+          いわば、OS の仮想メモリのスワッピングに近い仕組みを LLM の推論パイプラインに持ち込んだ形です。これにより、VRAM 容量が計算中の「1レイヤー分」さえ確保できれば、モデル全体のサイズがどれほど大きくても「動いてしまう」というマジックを実現しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <code>pip install airllm</code> で導入でき、HuggingFace Transformers に似たインターフェースで利用できます。
+        </p>
+        <pre><code>from airllm import AutoModel
+# 70Bモデルを読み込む（内部でレイヤー分解が自動実行される）
+model = AutoModel.from_pretrained("garage-bAInd/Platypus2-70B-instruct")
+# 通常のTransformersと同じようにgenerateを実行
+generation_output = model.generate(input_ids, max_new_tokens=20)</code></pre>
+        <p>
+          推論の際、モデルデータは一旦「レイヤーごとのファイル」に分解されてディスクに保存され、実行時に逐次ロードされます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>手持ちのゲーミング PC や Mac で、巨大モデルの真の実力（精度）を確認したい開発者。</li>
+          <li>速度は二の次で、とにかく巨大モデルを自前で動かす必要があるデータサイエンティスト。</li>
+          <li>ハイエンド GPU をクラウドで借りるコストを抑えつつ、バッチ処理で大量のテキストを処理したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          モデルの重みをディスクから逐次読み出すため、推論速度は非常に遅くなります。ディスクの読み出し速度（SSD 推奨）と PCIe バスの帯域がボトルネックとなるため、リアルタイムの対話（チャット）には向かず、バックグラウンドでの「一括処理」用途が主なターゲットとなります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          AirLLM は「動かないものを動くようにする」プロジェクトです。これまで、個人の環境では物理的に不可能だった 405B のような怪物モデルの推論を手の届く範囲に引き寄せた意義は大きく、ローカル LLM ユーザーにとっての最終兵器とも言える存在です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/lyogavin/airllm" target="_blank" rel="noreferrer">lyogavin/airllm</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

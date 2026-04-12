@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-lyogavin-airllm",
+      "title": "AirLLM",
+      "dek": "4GBのGPU1枚で 70B 巨大モデルをフル精度推論。メモリের壁を「レイヤー単位実行」で突破。",
+      "summary": "lyogavin/airllm は、モデルを1レイヤーずつ逐次ロードして計算する「Layer-wise inference」手法により、4GB程度のVRAMでも70B〜405Bの超巨大LLMを動作させるライブラリ。生成速度よりも「手元の環境で動かすこと」を極限まで追求したツールです。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T18:45:00+09:00",
+      "repoName": "lyogavin/airllm",
+      "repoUrl": "https://github.com/lyogavin/airllm",
+      "articleUrl": "./articles/github/daily/2026-04-12-lyogavin-airllm.html",
+      "serial": 193,
+      "originType": "pickup",
+      "genre": "ローカルLLM・推論高速化・モデル量子化"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-greensheep01201-claw-empire",
       "title": "Claw-Empire",
       "dek": "AIエージェントたちを「社員」として指揮し、自律型仮想企業を運営するCEOシミュレーター。",
