@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-purpleailab-decepticon",
+      "title": "Decepticon",
+      "dek": "プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。",
+      "summary": "PurpleAILAB/Decepticon は、偵察、攻撃、C2展開、横展開といったサイバー攻撃のキルチェーンを自律的に遂行するレッドチーム向けプラットフォーム。現実のツールをtmux経由で人間のように操作し、強固な防御体制を構築するための「攻撃のワクチン」として機能します。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T14:00:00+09:00",
+      "repoName": "PurpleAILAB/Decepticon",
+      "repoUrl": "https://github.com/PurpleAILAB/Decepticon",
+      "articleUrl": "./articles/github/daily/2026-04-12-purpleailab-decepticon.html",
+      "serial": 190,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-arman-bd-guppylm",
       "title": "guppylm",
       "dek": "9Mパラメータで「魚」として振る舞う、教育向けの超小型LLMプロジェクト。",

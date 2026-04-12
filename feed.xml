@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 04:58:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 14:01:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Decepticon]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-purpleailab-decepticon.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-purpleailab-decepticon.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[guppylm]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-arman-bd-guppylm.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI コーディングの計画、実装、検証、レビュー、PR 作成を YAML ワークフローとして固定化する開発エージェント基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[rowboat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rowboatlabs-rowboat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rowboatlabs-rowboat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[メール、会議メモ、音声メモを知識グラフに変え、ローカル環境で作業文脈を維持する AI coworker です。]]></description>
     </item>
   </channel>
 </rss>

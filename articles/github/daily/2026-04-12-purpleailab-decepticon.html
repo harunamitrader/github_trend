@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PurpleAILAB/Decepticon を読み、自律型レッドチーム・エージェントによる高度なセキュリティテスト基盤の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Decepticon</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Decepticon</h1>
+      <p class="article-dek">プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PurpleAILAB/Decepticon" target="_blank" rel="noreferrer">
+              PurpleAILAB/Decepticon
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Decepticon は、企業の防御体制を実戦形式でテストする「レッドチーム」の活動を、AI エージェントによって自律化した高度なセキュリティ・プラットフォームです。
+        </p>
+        <p>
+          単に CVE（脆弱性情報）をスキャンしてレポートを出すだけのツールとは異なり、偵察、脆弱性の特定、攻撃コードの実行、C2（指令・制御）サーバーの展開、ドメイン情報の収集、そして内部ネットワークへの横展開（ラテラルムーブメント）といった、攻撃者が辿る「キルチェーン」全体を自律的に遂行します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自律型攻撃シナリオの実行:</strong> 作戦計画（OPPLAN）に基づき、偵察から特権昇格までを人の介入なしに連続実行します。</li>
+          <li><strong>対話型ツールの操作:</strong> <code>msfconsole</code> や <code>sliver-client</code> といった対話が必要なセキュリティツールを、tmux 経由で人間のように操作します。</li>
+          <li><strong>インフラの分離:</strong> 攻撃用の Kali Linux サンドボックス、C2 サーバー、監視システムが物理的・論理的に分離された安全なアーキテクチャで動作します。</li>
+          <li><strong>プロフェッショナルな枠組み:</strong> 交戦規定（RoE）やデコンフリクション（衝突回避）計画など、実務的なレッドチーム運用のワークフローを強制します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最も特筆すべきは、AI が「ツールのプロンプト（<code>msf6 &gt;</code> 等）」を検出し、次のコマンドを投げるという、徹底したインタラクティブ性の実現です。従来の AI エージェントが苦手としていた、一度起動して待ち受けるタイプの攻撃ツールを完全に使いこなします。
+        </p>
+        <p>
+          また、MITRE ATT&amp;CK フレームワークと密に連携しており、各アクションがどのような攻撃手法に相当するかが明確にマッピングされます。これにより、防御側（ブルーチーム）はどの攻撃チェーンで検知が漏れたのかを正確に振り返ることが可能です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Docker と Docker Compose v2 があれば、ワンライナーでインストール可能です。
+        </p>
+        <pre><code>curl -fsSL https://decepticon.red/install | bash
+decepticon config  # Anthropic または OpenAI の API キーを設定
+decepticon         # 起動</code></pre>
+        <p>
+          <code>decepticon demo</code> コマンドを実行すると、ターゲットとなる脆弱なサーバー（Metasploitable 2）を自動で立ち上げ、実際の攻撃フローをデモンストレーションしてくれます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>継続的なセキュリティ評価を自律化したい企業のセキュリティ担当者（SOC/CSIRT）。</li>
+          <li>AI エージェントを実務的なレッドチーム運用に統合したいセキュリティエンジニア。</li>
+          <li>高度なサイバー攻撃の挙動を安全な環境で学習・シミュレーションしたいプロフェッショナル。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          Decepticon は極めて強力な「武器」にもなり得るツールです。必ず明示的な許可を得た所有システムやネットワーク上でのみ使用してください。無許可での使用は違法であり、開発者は一切の責任を負わないことが明記されています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Decepticon は「AI にハッキングができるか」という初期の問いを超え、「AI をどのようにプロフェッショナルなレッドチーム活動に組み込むか」という実運用フェーズへの回答となるプロジェクトです。単なる攻撃ツールではなく、防御側の能力を高めるための強固な「仮想ウイルス（Offensive Vaccine）」としてのビジョンを持っており、セキュリティと AI の融合における重要な試金石となるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PurpleAILAB/Decepticon" target="_blank" rel="noreferrer">PurpleAILAB/Decepticon</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
