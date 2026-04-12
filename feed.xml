@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 08:21:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 13:55:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[guppylm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-arman-bd-guppylm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-arman-bd-guppylm.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[9Mパラメータで「魚」として振る舞う、教育向けの超小型LLMプロジェクト。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-design-md]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-voltagent-awesome-design-md.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[メール、会議メモ、音声メモを知識グラフに変え、ローカル環境で作業文脈を維持する AI coworker です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Kronos]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-shiyu-coder-kronos.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-shiyu-coder-kronos.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[金融市場のローソク足を「市場の言語」として扱い、価格系列の予測や分析に使うオープンな foundation model です。]]></description>
     </item>
   </channel>
 </rss>

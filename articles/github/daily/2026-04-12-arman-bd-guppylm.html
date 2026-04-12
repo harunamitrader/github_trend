@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="arman-bd/guppylm を読み、9Mパラメータの超小型LLMによる教育的プロジェクトの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>guppylm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">guppylm</h1>
+      <p class="article-dek">9Mパラメータで「魚」として振る舞う、教育向けの超小型LLMプロジェクト。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/arman-bd/guppylm" target="_blank" rel="noreferrer">
+              arman-bd/guppylm
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          guppylm は、900万パラメータ（約9M）という極めて軽量な言語モデルです。水槽の中に住む魚「グッピー」になりきって会話をすることを目的に設計されています。
+        </p>
+        <p>
+          このプロジェクトの真の価値は、LLM（大規模言語モデル）の構築と訓練が「魔法」ではないことを証明することにあります。データ生成からトークナイザーの準備、モデルアーキテクチャ、訓練ループ、そして推論まで、すべての工程がシンプルに提示されており、LLMの基礎を学ぶための最高の実践教材となっています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>魚との対話:</strong> 水、食べ物、光、水槽の中の生活について、小文字の短い文章で喋るグッピーとチャットできます。</li>
+          <li><strong>ブラウザ実行:</strong> WebAssembly と ONNX を使用し、サーバー不要でブラウザ上で直接モデルを動かせます（量子化されたモデルは約10MB）。</li>
+          <li><strong>5分間の訓練:</strong> Google Colab を使用して、スクラッチから自分だけのモデルを約5分で訓練できます。</li>
+          <li><strong>ローカル実行:</strong> pip を介してインストールし、ターミナルから直接グッピーと対話可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          徹底して「シンプルさ」にこだわっている点が特徴です。現代の主流モデルで使われる GQA（Grouped Query Attention）や RoPE（Rotary Positional Embedding）などの複雑な手法をあえて排除し、Vanilla Transformer アーキテクチャを採用しています。
+        </p>
+        <p>
+          また、9Mパラメータというサイズにより、高価な GPU クラスタを必要とせず、ノート PC やブラウザで軽快に動作します。性格は 6万件の合成会話データによって「焼き付けられて」おり、システムプロンプトなしでも安定したキャラクター性を維持します。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          最も手軽なのは、GitHub ページに用意されているブラウザデモでの試遊です。開発者として深く触りたい場合は、以下の手順でローカル実行が可能です。
+        </p>
+        <pre><code>pip install torch tokenizers
+python -m guppylm chat</code></pre>
+        <p>
+          訓練フローを自作したい場合は、付属の <code>train_guppylm.ipynb</code> を Google Colab で開くことで、データ生成から訓練までの全工程を体験できます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>LLM がどのように動いているか、中身をブラックボックスなしで理解したい学習者。</li>
+          <li>特定のキャラクター（この場合は魚）を持った超軽量モデルの構築手法に興味があるエンジニア。</li>
+          <li>ブラウザやエッジデバイス上で AI を動作させる方法（WASM/ONNX）のリファレンスを探している開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          教育用かつ極小サイズであるため、128 トークンの短いコンテキスト制限があります。数ターン以上の長い会話は記憶が曖昧になりやすく、また、魚の理解を超える高度な話題（経済、政治、科学など）には対応していません。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          guppylm は、巨大化の一途をたどる LLM の世界において、あえて「最小構成」を見せることでその仕組みを民主化する素晴らしいプロジェクトです。AI エージェントやツール開発に携わるなら、一度その内部コードをのぞいて、LLM の本質に触れてみることをお勧めします。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/arman-bd/guppylm" target="_blank" rel="noreferrer">arman-bd/guppylm</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
