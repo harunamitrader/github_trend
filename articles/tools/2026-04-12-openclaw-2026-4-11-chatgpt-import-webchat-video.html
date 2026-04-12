@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw 2026.4.11 の更新内容を日本語で整理した記事。ChatGPT import、Webchat、video generation、OAuth 修正を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw 2026.4.11: ChatGPT import と Webchat / video generation を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw 2026.4.11: ChatGPT import と Webchat / video generation を強化</h1>
+      <p class="article-dek">Dreaming の ChatGPT import、Webchat の構造化表示、video generation の providerOptions などをまとめた運用改善リリースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>GitHub Releases では、2026-04-12 付で OpenClaw <code>2026.4.11</code> が Latest として公開されています。今回の中心は、Dreaming / memory-wiki に ChatGPT import ingestion を追加し、Imported Insights と Memory Palace のサブタブから取り込んだ会話や wiki ページを確認できるようにした点です。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>Control UI / webchat では、assistant の media、reply、voice directive を構造化された chat bubble として表示し、<code>[embed ...]</code> によるリッチ出力も扱えるようになっています。Webchat を OpenClaw の主画面として使う場合、生成物や音声付き応答を会話履歴と結びつけて見やすくする更新です。</p>
+
+        <h2>補足</h2>
+        <p>video generation では URL-only delivery、typed <code>providerOptions</code>、reference audio input、adaptive aspect-ratio などが追加され、動画プロバイダーごとの表現力を出しやすくなっています。修正面では OpenAI / Codex OAuth の scope 処理、音声 transcription、Google Veo の unsupported field 送信などが整理されています。</p>
+
+        <h2>まとめ</h2>
+        <p>2026.4.11 は、OpenClaw の記憶取り込み、Webchat 表示、メディア生成、OAuth / provider 周辺をまとめて安定化する更新です。2026.4.10 の Codex provider / Active Memory に続き、長期利用とマルチメディア運用を現実的にする方向のリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">GitHub Releases - OpenClaw</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

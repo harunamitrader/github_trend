@@ -8,6 +8,19 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-12-openclaw-2026-4-11-chatgpt-import-webchat-video",
+      "title": "OpenClaw 2026.4.11: ChatGPT import と Webchat / video generation を強化",
+      "dek": "Dreaming の ChatGPT import、Webchat の構造化表示、video generation の providerOptions などをまとめた運用改善リリースです。",
+      "summary": "OpenClaw 2026.4.11 は、ChatGPT import ingestion、Webchat の構造化表示、video generation の providerOptions、OpenAI / Codex OAuth 修正を含む更新です。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-13T05:45:00+09:00",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-04-12-openclaw-2026-4-11-chatgpt-import-webchat-video.html",
+      "serial": 125
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-11-gemini-cli-v0-39-0-nightly-20260411",
       "title": "Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新",
       "dek": "Gemini CLI の nightly 系が v0.39.0-nightly.20260411.0957f7d3e に進み、次期安定版へ向けた検証対象が更新されました。",

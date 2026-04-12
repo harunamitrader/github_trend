@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 20:26:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 05:44:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-13 アップデートレポート]]></title>
@@ -30,6 +30,14 @@
       <category>github-trending</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PRD の user story がすべて完了するまで、Amp や Claude Code を新しい文脈で反復実行する自律 AI コーディングループです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw 2026.4.11: ChatGPT import と Webchat / video generation を強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-12-openclaw-2026-4-11-chatgpt-import-webchat-video.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-12-openclaw-2026-4-11-chatgpt-import-webchat-video.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dreaming の ChatGPT import、Webchat の構造化表示、video generation の providerOptions などをまとめた運用改善リリースです。]]></description>
     </item>
     <item>
       <title><![CDATA[AirLLM]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex 管理の認証・実行経路、会話前に関連記憶を取り込む Active Memory、exec policy 管理などが入った大型更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[work-iq]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-work-iq.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-work-iq.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。]]></description>
     </item>
   </channel>
 </rss>
