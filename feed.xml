@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 04:46:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 04:47:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[token-optimizer]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-alexgreensh-token-optimizer.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-alexgreensh-token-optimizer.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントの「無駄なトークン」を徹底削減。コンテキスト品質を維持し、運用コストを劇的に下げるための統合最適化ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[openclaw-codex-app-server]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数のAIコーディングツール間で「エージェント・スキル」を共有・一括管理できるデスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Decepticon]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-purpleailab-decepticon.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-purpleailab-decepticon.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。]]></description>
     </item>
   </channel>
 </rss>

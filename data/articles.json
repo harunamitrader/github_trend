@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-alexgreensh-token-optimizer",
+      "title": "token-optimizer",
+      "dek": "AI エージェントの「無駄なトークン」を徹底削減。コンテキスト品質を維持し、運用コストを劇的に下げるための統合最適化ツール。",
+      "summary": "alexgreensh/token-optimizer は、Claude Code や OpenClaw のトークン消費を最適化する強力なローカルツール。コマンド出力の圧縮から、肥大化した設定のクリーンアップ、自動要約で失われた情報の復元まで、AI の「賢さ」を落とさずにコストを抑えるための全方位的な機能を提供します。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:48:00+09:00",
+      "repoName": "alexgreensh/token-optimizer",
+      "repoUrl": "https://github.com/alexgreensh/token-optimizer",
+      "articleUrl": "./articles/github/daily/2026-04-14-alexgreensh-token-optimizer.html",
+      "serial": 207,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-pwrdrvr-openclaw-codex-app-server",
       "title": "openclaw-codex-app-server",
       "dek": "OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。",
