@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 06:21:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 15:38:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[LLM Wiki]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-nashsu-llm_wiki.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-nashsu-llm_wiki.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。]]></description>
+    </item>
     <item>
       <title><![CDATA[gbrain]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-garrytan-gbrain.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの能力を10倍に。カンバンと内蔵ブラウザを備えたAIファーストの統合ワークスペース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[blender-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-ahujasid-blender-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-ahujasid-blender-mcp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。]]></description>
     </item>
   </channel>
 </rss>
