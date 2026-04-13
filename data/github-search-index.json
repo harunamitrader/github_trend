@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T06:52:03.938528+00:00",
-  "count": 222,
+  "generatedAt": "2026-04-13T07:10:33.151689+00:00",
+  "count": 223,
   "articles": [
+    {
+      "slug": "2026-04-13-kzhrknt-awesome-design-md-jp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-design-md-jp",
+      "dek": "AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。",
+      "summary": "kzhrknt/awesome-design-md-jp は、AI エージェント向けの日本語デザイン仕様書コレクション。欧米中心のカタログでは欠落しがちな和文タイポグラフィのルールを言語化し、AI による高品質な日本語 UI 生成を支援します。",
+      "repoName": "kzhrknt/awesome-design-md-jp",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T16:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html",
+      "serial": 205,
+      "searchText": "awesome-design-md-jp AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。 kzhrknt/awesome-design-md-jp は、AI エージェント向けの日本語デザイン仕様書コレクション。欧米中心のカタログでは欠落しがちな和文タイポグラフィのルールを言語化し、AI による高品質な日本語 UI 生成を支援します。 kzhrknt/awesome-design-md-jp 学習ガイド・開発アセット awesome-design-md-jp ← 記事一覧へ戻る GitHub Watcher awesome-design-md-jp AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。 記事作成日 2026-04-13 種別 Pickup 対象 repo kzhrknt/awesome-design-md-jp これは何か awesome-design-md-jp は、AI エージェント（Cursor, Claude, Claude Code など）に日本語 Web サービスの洗練されたデザインを再現させるための、デザイン仕様書（DESIGN.md）のキュレーションリポジトリです。Google Stitch が提唱する DESIGN.md 形式をベースに、欧米中心のカタログでは欠落しがちな「日本語タイポグラフィ」のルールを徹底的に言語化しています。これをプロジェクトに導入することで、AI が生成する日本語 UI の「フォントが変」「行間が詰まっている」といった違和感を一掃できます。 なぜ重要か AI エージェントは通常、英語圏のデザイン原則に基づいてコードを生成します。しかし、日本語 UI を美しく見せるには独自のルールが必要です。本リポジトリは以下の項目を AI に正しく指示するための仕様を定義しています： 和文フォントの優先順位： システムフォントの最適な並び順（和文 → 欧文 → generic）。 日本語に最適化された行間： 欧文（1.4〜1.5）より広い行間（1.5〜2.0）の指定。 字間と禁則処理： 日本語特有の句読点ルールや文字の間隔。 デザイントークンの言語化： 配色、余白、影の深さなど、サービスの「雰囲気」を AI が読み取れるテキストに変換。 主な収録サイトの DESIGN.md Apple Japan, SmartHR, freee, Mercari, note, LINE, Zenn など、国内でもデザインが高く評価されているサービスの仕様（公開されている CSS 等から抽出）が収録されています。各サービスごとの preview.html では、その仕様がどのように可視化されるかを確認できるギャラリーも用意されています。 使い方の流れ リポジトリから、自分の目指したいデザインに近いサービスの DESIGN.md をコピーします。 自分のプロジェクトのルートまたは docs/ ディレクトリに DESIGN.md として配置します。 AI エージェントに指示を出す際、「プロジェクトの DESIGN.md に従った UI コンポーネントを作成して」と伝えます。 AI がそのサービス独自のタイポグラフィや配色ルールを自動的に適用した React/HTML コードを生成してくれます。 どんな人向けか AI を使ったフロントエンド開発で、デザインの質を一段階上げたいエンジニア。 自分のサービスのブランドガイドラインを AI に理解させ、一貫性を保ちたいデザイナー。 日本語の美しいタイポグラフィにこだわりがあり、AI が生成する「野暮ったい日本語」に不満を感じている人。 まとめ AI コーディングの時代において、ドキュメントは人間だけでなく AI のためのものでもあります。awesome-design-md-jp は、日本語 UI の美意識を AI に「インプット」するための強力な架け橋となります。既存の人気サービスの仕様を参考に、あなたの AI エージェントにより「センスの良い」日本語 UI を書かせてみてはいかがでしょうか。 参照リンク kzhrknt/awesome-design-md-jp Visual Gallery (Preview)"
+    },
     {
       "slug": "2026-04-13-microsoft-SWE-bench-Live",
       "category": "github-pickup",

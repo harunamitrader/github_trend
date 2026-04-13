@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="awesome-design-md-jp は、AI エージェントに日本語の美意識を受け継がせるための DESIGN.md コレクションです。タイポグラフィや配色ルールを AI が理解できる形式で提供します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>awesome-design-md-jp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">awesome-design-md-jp</h1>
+      <p class="article-dek">AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kzhrknt/awesome-design-md-jp" target="_blank" rel="noreferrer">
+              kzhrknt/awesome-design-md-jp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>awesome-design-md-jp は、AI エージェント（Cursor, Claude, Claude Code など）に日本語 Web サービスの洗練されたデザインを再現させるための、デザイン仕様書（DESIGN.md）のキュレーションリポジトリです。Google Stitch が提唱する <code>DESIGN.md</code> 形式をベースに、欧米中心のカタログでは欠落しがちな「日本語タイポグラフィ」のルールを徹底的に言語化しています。これをプロジェクトに導入することで、AI が生成する日本語 UI の「フォントが変」「行間が詰まっている」といった違和感を一掃できます。</p>
+
+        <h2>なぜ重要か</h2>
+        <p>AI エージェントは通常、英語圏のデザイン原則に基づいてコードを生成します。しかし、日本語 UI を美しく見せるには独自のルールが必要です。本リポジトリは以下の項目を AI に正しく指示するための仕様を定義しています：</p>
+        <ul>
+          <li><strong>和文フォントの優先順位：</strong> システムフォントの最適な並び順（和文 → 欧文 → generic）。</li>
+          <li><strong>日本語に最適化された行間：</strong> 欧文（1.4〜1.5）より広い行間（1.5〜2.0）の指定。</li>
+          <li><strong>字間と禁則処理：</strong> 日本語特有の句読点ルールや文字の間隔。</li>
+          <li><strong>デザイントークンの言語化：</strong> 配色、余白、影の深さなど、サービスの「雰囲気」を AI が読み取れるテキストに変換。</li>
+        </ul>
+
+        <h2>主な収録サイトの DESIGN.md</h2>
+        <p>Apple Japan, SmartHR, freee, Mercari, note, LINE, Zenn など、国内でもデザインが高く評価されているサービスの仕様（公開されている CSS 等から抽出）が収録されています。各サービスごとの <code>preview.html</code> では、その仕様がどのように可視化されるかを確認できるギャラリーも用意されています。</p>
+
+        <h2>使い方の流れ</h2>
+        <ol>
+          <li>リポジトリから、自分の目指したいデザインに近いサービスの <code>DESIGN.md</code> をコピーします。</li>
+          <li>自分のプロジェクトのルートまたは <code>docs/</code> ディレクトリに <code>DESIGN.md</code> として配置します。</li>
+          <li>AI エージェントに指示を出す際、「プロジェクトの <code>DESIGN.md</code> に従った UI コンポーネントを作成して」と伝えます。</li>
+          <li>AI がそのサービス独自のタイポグラフィや配色ルールを自動的に適用した React/HTML コードを生成してくれます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>AI を使ったフロントエンド開発で、デザインの質を一段階上げたいエンジニア。</li>
+          <li>自分のサービスのブランドガイドラインを AI に理解させ、一貫性を保ちたいデザイナー。</li>
+          <li>日本語の美しいタイポグラフィにこだわりがあり、AI が生成する「野暮ったい日本語」に不満を感じている人。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>AI コーディングの時代において、ドキュメントは人間だけでなく AI のためのものでもあります。awesome-design-md-jp は、日本語 UI の美意識を AI に「インプット」するための強力な架け橋となります。既存の人気サービスの仕様を参考に、あなたの AI エージェントにより「センスの良い」日本語 UI を書かせてみてはいかがでしょうか。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kzhrknt/awesome-design-md-jp" target="_blank" rel="noreferrer">kzhrknt/awesome-design-md-jp</a>
+        </div>
+        <div class="source-item">
+          <a href="https://kzhrknt.github.io/awesome-design-md-jp/gallery.html" target="_blank" rel="noreferrer">Visual Gallery (Preview)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

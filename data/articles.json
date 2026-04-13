@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-kzhrknt-awesome-design-md-jp",
+      "title": "awesome-design-md-jp",
+      "dek": "AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。",
+      "summary": "kzhrknt/awesome-design-md-jp は、AI エージェント向けの日本語デザイン仕様書コレクション。欧米中心のカタログでは欠落しがちな和文タイポグラフィのルールを言語化し、AI による高品質な日本語 UI 生成を支援します。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T16:10:00+09:00",
+      "repoName": "kzhrknt/awesome-design-md-jp",
+      "repoUrl": "https://github.com/kzhrknt/awesome-design-md-jp",
+      "articleUrl": "./articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html",
+      "serial": 205,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-microsoft-SWE-bench-Live",
       "title": "SWE-bench-Live",
       "dek": "AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。",
