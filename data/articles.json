@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-14-github-copilot-sdk",
+      "title": "GitHub Copilot SDK",
+      "dek": "Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。",
+      "summary": "GitHub Copilot SDK は、GitHub Copilot のエージェント機能を Python, TypeScript, Go 等から利用可能にする公式 SDK。Copilot CLI のエンジンを JSON-RPC 経由で叩く仕組みで、既存の Copilot サブスクリプションの枠内で利用可能です。BYOK 対応により自前の API キーでの運用もサポートし、AI 機能を組み込んだ独自アプリの開発を加速させます。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T05:25:00+09:00",
+      "repoName": "github/copilot-sdk",
+      "repoUrl": "https://github.com/github/copilot-sdk",
+      "articleUrl": "./articles/github/daily/2026-04-14-github-copilot-sdk.html",
+      "serial": 211,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-14-update-report",
       "title": "2026-04-14 アップデートレポート",

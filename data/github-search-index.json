@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T20:04:40.616043+00:00",
-  "count": 231,
+  "generatedAt": "2026-04-13T20:19:57.722534+00:00",
+  "count": 232,
   "articles": [
+    {
+      "slug": "2026-04-14-github-copilot-sdk",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "GitHub Copilot SDK",
+      "dek": "Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。",
+      "summary": "GitHub Copilot SDK は、GitHub Copilot のエージェント機能を Python, TypeScript, Go 等から利用可能にする公式 SDK。Copilot CLI のエンジンを JSON-RPC 経由で叩く仕組みで、既存の Copilot サブスクリプションの枠内で利用可能です。BYOK 対応により自前の API キーでの運用もサポートし、AI 機能を組み込んだ独自アプリの開発を加速させます。",
+      "repoName": "github/copilot-sdk",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T05:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-github-copilot-sdk.html",
+      "serial": 211,
+      "searchText": "GitHub Copilot SDK Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。 GitHub Copilot SDK は、GitHub Copilot のエージェント機能を Python, TypeScript, Go 等から利用可能にする公式 SDK。Copilot CLI のエンジンを JSON-RPC 経由で叩く仕組みで、既存の Copilot サブスクリプションの枠内で利用可能です。BYOK 対応により自前の API キーでの運用もサポートし、AI 機能を組み込んだ独自アプリの開発を加速させます。 github/copilot-sdk AIコーディング (CLI本体・拡張機能) GitHub Copilot SDK ← 記事一覧へ戻る GitHub Watcher GitHub Copilot SDK Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。 記事作成日 2026-04-14 種別 Pickup 対象 repo github/copilot-sdk これは何か GitHub Copilot のエージェント機能を、自分のアプリやサービスにプログラムから組み込むためのマルチプラットフォーム SDK です。 Python, TypeScript, Go, .NET, Java などに対応しており、これまで VS Code や CLI 上だけで利用されていた Copilot の「思考と行動（オーケストレーション）」を、独自のソフトウェアに統合できます。 何ができるか / CLI との違い 最も大きな違いは、 「ユーザーが対話するツール（CLI）」 か、 「エンジニアが機能を呼び出す部品（SDK）」 かという点です。 Copilot CLI : ターミナルで対話し、シェルコマンドの生成や実行を支援する、人間向けのインターフェースです。 Copilot SDK : プログラム内部から Copilot の「エージェント・ランタイム」を操作します。裏側では Copilot CLI をサーバーモードで動かし、JSON-RPC を介して「タスクの計画」「ファイル編集」「ツール呼び出し」といった高度なフローをプログラム制御できます。 サブスクリプションと費用について もっとも気になる「課金」や「サブスクリプション」については以下の通りです。 既存のサブスクで利用可能 : GitHub Copilot の契約があれば、特別な追加料金なしで使用できます（Public Preview 時点）。 API キーは原則不要 : モデル（GPT-4o等）を直接叩くための個別 API キーを用意する必要はありません。Copilot の認証済みセッションを利用して動作します。 リクエスト枠の消費 : 通常の Copilot 利用と同様に「プレミアムリクエスト」のクォータ（上限枠）を消費する形で動作します。 BYOK (Bring Your Own Key) 対応 : 例外として、自分の OpenAI や Anthropic 等のキーを使用するモードもあります。この場合は GitHub のサブスクは不要になりますが、モデル側の従量課金が発生します。 目立つポイント 一番のメリットは、 「本物のエージェント機能を自作アプリに持たせられる」 ことです。 LLM 単体の API を叩くのと違い、SDK は「ファイルの保存先はどこか？」「どのツールをいつ呼ぶか？」といったエージェント特有の複雑なロジックを肩代わりしてくれます。 Node.js や Python ではライブラリをインストールするだけで、内部的な CLI の管理も含めて全自動で行ってくれるため、導入障壁が非常に低くなっています。 まとめ github/copilot-sdk は、Copilot を「エディタの補助」から「アプリケーションのコア機能」へと昇華させるための鍵です。 GitHub Copilot の信頼性の高いエージェント実行環境を、自分のコードから自由に呼び出せるこの SDK は、AI アプリケーション開発の新しいスタンダードになる可能性を秘めています。 参照リンク github/copilot-sdk"
+    },
     {
       "slug": "2026-04-14-update-report",
       "category": "github-update-report",

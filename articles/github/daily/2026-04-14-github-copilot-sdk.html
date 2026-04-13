@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="github/copilot-sdk の概要、使い方、課金体系について整理した記事。自作アプリに Copilot の知能を組み込む方法の解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitHub Copilot SDK</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">GitHub Copilot SDK</h1>
+      <p class="article-dek">Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/github/copilot-sdk" target="_blank" rel="noreferrer">
+              github/copilot-sdk
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          GitHub Copilot のエージェント機能を、自分のアプリやサービスにプログラムから組み込むためのマルチプラットフォーム SDK です。
+          Python, TypeScript, Go, .NET, Java などに対応しており、これまで VS Code や CLI 上だけで利用されていた Copilot の「思考と行動（オーケストレーション）」を、独自のソフトウェアに統合できます。
+        </p>
+
+        <h2>何ができるか / CLI との違い</h2>
+        <p>
+          最も大きな違いは、<strong>「ユーザーが対話するツール（CLI）」</strong>か、<strong>「エンジニアが機能を呼び出す部品（SDK）」</strong>かという点です。
+        </p>
+        <ul>
+          <li><strong>Copilot CLI</strong>: ターミナルで対話し、シェルコマンドの生成や実行を支援する、人間向けのインターフェースです。</li>
+          <li><strong>Copilot SDK</strong>: プログラム内部から Copilot の「エージェント・ランタイム」を操作します。裏側では Copilot CLI をサーバーモードで動かし、JSON-RPC を介して「タスクの計画」「ファイル編集」「ツール呼び出し」といった高度なフローをプログラム制御できます。</li>
+        </ul>
+
+        <h2>サブスクリプションと費用について</h2>
+        <p>
+          もっとも気になる「課金」や「サブスクリプション」については以下の通りです。
+        </p>
+        <ul>
+          <li><strong>既存のサブスクで利用可能</strong>: GitHub Copilot の契約があれば、特別な追加料金なしで使用できます（Public Preview 時点）。</li>
+          <li><strong>API キーは原則不要</strong>: モデル（GPT-4o等）を直接叩くための個別 API キーを用意する必要はありません。Copilot の認証済みセッションを利用して動作します。</li>
+          <li><strong>リクエスト枠の消費</strong>: 通常の Copilot 利用と同様に「プレミアムリクエスト」のクォータ（上限枠）を消費する形で動作します。</li>
+          <li><strong>BYOK (Bring Your Own Key) 対応</strong>: 例外として、自分の OpenAI や Anthropic 等のキーを使用するモードもあります。この場合は GitHub のサブスクは不要になりますが、モデル側の従量課金が発生します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番のメリットは、<strong>「本物のエージェント機能を自作アプリに持たせられる」</strong>ことです。
+          LLM 単体の API を叩くのと違い、SDK は「ファイルの保存先はどこか？」「どのツールをいつ呼ぶか？」といったエージェント特有の複雑なロジックを肩代わりしてくれます。
+          Node.js や Python ではライブラリをインストールするだけで、内部的な CLI の管理も含めて全自動で行ってくれるため、導入障壁が非常に低くなっています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>github/copilot-sdk</code> は、Copilot を「エディタの補助」から「アプリケーションのコア機能」へと昇華させるための鍵です。
+          GitHub Copilot の信頼性の高いエージェント実行環境を、自分のコードから自由に呼び出せるこの SDK は、AI アプリケーション開発の新しいスタンダードになる可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/github/copilot-sdk" target="_blank" rel="noreferrer">github/copilot-sdk</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
