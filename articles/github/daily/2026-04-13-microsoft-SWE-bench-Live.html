@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SWE-bench-Live は、AI エージェントの実践的なソフトウェア開発能力を評価するための、毎月更新される最新ベンチマークです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>SWE-bench-Live</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">SWE-bench-Live</h1>
+      <p class="article-dek">AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/SWE-bench-Live" target="_blank" rel="noreferrer">
+              microsoft/SWE-bench-Live
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>SWE-bench-Live は、AI エージェントが現実のソフトウェア開発現場でどれだけ通用するかを測定するための「生きた」ベンチマークです。従来のベンチマークは一度作成されると内容が固定され、AI モデルがその「答え」を学習に含んでしまう「データ汚染」の問題がありました。Microsoft が開発した本プロジェクトは、自動キュレーション・パイプラインにより毎月新しい GitHub Issue をタスクとして追加し続けることで、常に AI にとって「初見」の難題を用意し続けます。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>継続的な更新：</strong> 毎月、実際に GitHub で解決された高品質な新着 Issue 50 件がデータセットに追加され、AI モデルの最新能力を検証できます。</li>
+          <li><strong>多言語・多プラットフォーム対応：</strong> Python だけでなく、C++、Go、Java、JavaScript などの多言語に対応。さらに Linux に加え Windows 環境固有のバグ修正能力も測定可能です。</li>
+          <li><strong>RepoLaunch による自動環境構築：</strong> LLM を活用した RepoLaunch ツールにより、任意の GitHub リポジトリのビルド・テスト環境を Docker コンテナとして自動セットアップ。評価の手間を劇的に削減します。</li>
+          <li><strong>厳格な評価指標：</strong> NeurIPS 2025 で発表された信頼性の高い評価アルゴリズムを採用しており、AI エージェント開発の真の進捗を確認するためのデファクトスタンダードとなっています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「ベンチマークの更新が自動化されている」という点が、現在の急速な AI の進化スピードに完璧に合致しています。特に、Windows 固有のバグや PowerShell 操作を対象とした <code>SWE-bench-Live/Windows</code> の追加は、AI がオペレーティングシステムの深部まで理解してタスクを実行できるかを問う、非常に難易度の高いテストセットとなっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを <code>git clone</code> し、<code>pip install -e .</code> でセットアップ。</li>
+          <li>Hugging Face から <code>SWE-bench-Live</code> データセットを取得（Python/MultiLang/Windows などのスプリットが用意されています）。</li>
+          <li>自身の AI モデルやエージェントにタスクを解かせ、生成されたパッチ（git diff）を保存します。</li>
+          <li>評価スクリプト <code>evaluation.evaluation</code> を実行し、Docker コンテナ内でパッチがテストを通過するかを確認します。</li>
+          <li>結果が得られたら、公式リポジトリへのプルリクエストを通じてリーダーボードに掲載申請が可能です。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>自社で開発したコーディング AI モデル（LLM）や自律型 AI エージェントの性能を、汚染のない最新データで客観的に測定したい開発者。</li>
+          <li>最新の AI がどの程度の難易度のバグまで自動で修正できるのか、限界点を知りたいソフトウェアエンジニア。</li>
+          <li>多言語に対応した、AI によるコード生成・修正の研究を行っているアカデミアの研究者。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>SWE-bench-Live は、AI エージェントの性能向上と歩調を合わせるように進化し続ける、新しい形のベンチマークです。AI が単にコードを書くだけでなく、「Issue を理解し、環境を整え、バグを直し、テストで証明する」というエンジニアリングの全工程をどの程度マスターしたかを評価するための、最も「シビア」で「公正」な戦場と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/SWE-bench-Live" target="_blank" rel="noreferrer">microsoft/SWE-bench-Live</a>
+        </div>
+        <div class="source-item">
+          <a href="https://swe-bench-live.github.io/" target="_blank" rel="noreferrer">Official Website / Leaderboard</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-microsoft-SWE-bench-Live",
+      "title": "SWE-bench-Live",
+      "dek": "AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。",
+      "summary": "microsoft/SWE-bench-Live は、AI エージェントの実践的な開発能力を評価する最新ベンチマーク。毎月新しいタスクが追加されるためデータ汚染に強く、多言語や Windows 環境にも対応。真のコード解決能力を測定します。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T15:52:00+09:00",
+      "repoName": "microsoft/SWE-bench-Live",
+      "repoUrl": "https://github.com/microsoft/SWE-bench-Live",
+      "articleUrl": "./articles/github/daily/2026-04-13-microsoft-SWE-bench-Live.html",
+      "serial": 204,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-nashsu-llm_wiki",
       "title": "LLM Wiki",
       "dek": "Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。",

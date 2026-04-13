@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T06:38:35.617913+00:00",
-  "count": 221,
+  "generatedAt": "2026-04-13T06:51:34.655922+00:00",
+  "count": 222,
   "articles": [
+    {
+      "slug": "2026-04-13-microsoft-SWE-bench-Live",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "SWE-bench-Live",
+      "dek": "AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。",
+      "summary": "microsoft/SWE-bench-Live は、AI エージェントの実践的な開発能力を評価する最新ベンチマーク。毎月新しいタスクが追加されるためデータ汚染に強く、多言語や Windows 環境にも対応。真のコード解決能力を測定します。",
+      "repoName": "microsoft/SWE-bench-Live",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T15:52:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-microsoft-SWE-bench-Live.html",
+      "serial": 204,
+      "searchText": "SWE-bench-Live AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。 microsoft/SWE-bench-Live は、AI エージェントの実践的な開発能力を評価する最新ベンチマーク。毎月新しいタスクが追加されるためデータ汚染に強く、多言語や Windows 環境にも対応。真のコード解決能力を測定します。 microsoft/SWE-bench-Live AIコーディング (CLI本体・拡張機能) SWE-bench-Live ← 記事一覧へ戻る GitHub Watcher SWE-bench-Live AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。 記事作成日 2026-04-13 種別 Pickup 対象 repo microsoft/SWE-bench-Live これは何か SWE-bench-Live は、AI エージェントが現実のソフトウェア開発現場でどれだけ通用するかを測定するための「生きた」ベンチマークです。従来のベンチマークは一度作成されると内容が固定され、AI モデルがその「答え」を学習に含んでしまう「データ汚染」の問題がありました。Microsoft が開発した本プロジェクトは、自動キュレーション・パイプラインにより毎月新しい GitHub Issue をタスクとして追加し続けることで、常に AI にとって「初見」の難題を用意し続けます。 何ができるか 継続的な更新： 毎月、実際に GitHub で解決された高品質な新着 Issue 50 件がデータセットに追加され、AI モデルの最新能力を検証できます。 多言語・多プラットフォーム対応： Python だけでなく、C++、Go、Java、JavaScript などの多言語に対応。さらに Linux に加え Windows 環境固有のバグ修正能力も測定可能です。 RepoLaunch による自動環境構築： LLM を活用した RepoLaunch ツールにより、任意の GitHub リポジトリのビルド・テスト環境を Docker コンテナとして自動セットアップ。評価の手間を劇的に削減します。 厳格な評価指標： NeurIPS 2025 で発表された信頼性の高い評価アルゴリズムを採用しており、AI エージェント開発の真の進捗を確認するためのデファクトスタンダードとなっています。 目立つポイント 「ベンチマークの更新が自動化されている」という点が、現在の急速な AI の進化スピードに完璧に合致しています。特に、Windows 固有のバグや PowerShell 操作を対象とした SWE-bench-Live/Windows の追加は、AI がオペレーティングシステムの深部まで理解してタスクを実行できるかを問う、非常に難易度の高いテストセットとなっています。 セットアップや使い方の流れ リポジトリを git clone し、 pip install -e . でセットアップ。 Hugging Face から SWE-bench-Live データセットを取得（Python/MultiLang/Windows などのスプリットが用意されています）。 自身の AI モデルやエージェントにタスクを解かせ、生成されたパッチ（git diff）を保存します。 評価スクリプト evaluation.evaluation を実行し、Docker コンテナ内でパッチがテストを通過するかを確認します。 結果が得られたら、公式リポジトリへのプルリクエストを通じてリーダーボードに掲載申請が可能です。 どんな人向けか 自社で開発したコーディング AI モデル（LLM）や自律型 AI エージェントの性能を、汚染のない最新データで客観的に測定したい開発者。 最新の AI がどの程度の難易度のバグまで自動で修正できるのか、限界点を知りたいソフトウェアエンジニア。 多言語に対応した、AI によるコード生成・修正の研究を行っているアカデミアの研究者。 まとめ SWE-bench-Live は、AI エージェントの性能向上と歩調を合わせるように進化し続ける、新しい形のベンチマークです。AI が単にコードを書くだけでなく、「Issue を理解し、環境を整え、バグを直し、テストで証明する」というエンジニアリングの全工程をどの程度マスターしたかを評価するための、最も「シビア」で「公正」な戦場と言えるでしょう。 参照リンク microsoft/SWE-bench-Live Official Website / Leaderboard"
+    },
     {
       "slug": "2026-04-13-nashsu-llm_wiki",
       "category": "github-pickup",
