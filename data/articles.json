@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-paperswithbacktest-awesome-systematic-trading",
+      "title": "awesome-systematic-trading",
+      "dek": "システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。",
+      "summary": "paperswithbacktest/awesome-systematic-trading は、クオンツ・システムトレーディングのためのリソース集。97以上のライブラリ、40以上の戦略論文、55以上の書籍を網羅し、開発から運用まで必要なツールを容易に発見できます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:45:00+09:00",
+      "repoName": "paperswithbacktest/awesome-systematic-trading",
+      "repoUrl": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "articleUrl": "./articles/github/daily/2026-04-13-paperswithbacktest-awesome-systematic-trading.html",
+      "serial": 200,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-tensortrade-org-tensortrade",
       "title": "TensorTrade",
       "dek": "強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。",

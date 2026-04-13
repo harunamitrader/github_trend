@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T03:41:31.381315+00:00",
-  "count": 217,
+  "generatedAt": "2026-04-13T03:46:05.203604+00:00",
+  "count": 218,
   "articles": [
+    {
+      "slug": "2026-04-13-paperswithbacktest-awesome-systematic-trading",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-systematic-trading",
+      "dek": "システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。",
+      "summary": "paperswithbacktest/awesome-systematic-trading は、クオンツ・システムトレーディングのためのリソース集。97以上のライブラリ、40以上の戦略論文、55以上の書籍を網羅し、開発から運用まで必要なツールを容易に発見できます。",
+      "repoName": "paperswithbacktest/awesome-systematic-trading",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-paperswithbacktest-awesome-systematic-trading.html",
+      "serial": 200,
+      "searchText": "awesome-systematic-trading システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。 paperswithbacktest/awesome-systematic-trading は、クオンツ・システムトレーディングのためのリソース集。97以上のライブラリ、40以上の戦略論文、55以上の書籍を網羅し、開発から運用まで必要なツールを容易に発見できます。 paperswithbacktest/awesome-systematic-trading 学習ガイド・開発アセット awesome-systematic-trading ← 記事一覧へ戻る GitHub Watcher awesome-systematic-trading システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。 記事作成日 2026-04-13 種別 Pickup 対象 repo paperswithbacktest/awesome-systematic-trading これは何か awesome-systematic-trading は、システムトレーディング（計量トレーディング / クオンツ）の世界で必要とされるあらゆるリソースを整理した「Awesome」リストです。バックテスト用フレームワークから、ライブトレードBot、金融指標計算ライブラリ、戦略の論文、さらには学習用の書籍や動画まで、この分野のフロントランナーが厳選したナレッジが集約されています。 何ができるか 最適なライブラリの選定： 97以上のライブラリが、バックテスト（イベント駆動型/ベクトル型）、仮想通貨特化、トレードBotなどのカテゴリ別に分類され、スター数順に並んでいます。 実戦的な戦略の学習： 機関投資家やアカデミアによって記述された 40 以上の具体的なトレード戦略にアクセスできます。 体系的な学習： 初心者からプロまでを対象とした 55 冊以上の推奨書籍や、オンラインコース、ブログから体系的に知識を深めることができます。 データソースの把握： 信頼できるブローカー API や無料・有料のデータソースを一覧で確認し、独自の分析基盤を構築する際の参考にできます。 目立つポイント このリストの価値は、単なるリンク集に留まらない「網羅性」と「整理の良さ」にあります。例えば、バックテスト一つとっても Python、C++、Rust、Go といった言語別に人気ツールが整理されており、自分の得意なスタックで最適なツールを即座に見つけることができます。また、 paperswithbacktest.com という専門サイトと連動しており、研究論文のバックテスト結果など、より深い分析データへの入り口としても機能しています。 セットアップや使い方の流れ リポジトリの README をブラウズし、自分の目的に合ったカテゴリ（例：仮想通貨のバックテスト、ポートフォリオ最適化など）を探します。 紹介されているライブラリやツールを pip install などで導入し、自分のプロジェクトに組み込みます。 理論を深めたい場合は、「Books」セクションから自分のレベルに合った書籍を選んで学習を進めます。 どんな人向けか 独自のアルゴリズム取引システムを構築しようとしている個人開発者。 最新のクオンツ戦略やライブラリの動向を追いかけたいプロのトレーダーや金融エンジニア。 データサイエンスの知識を金融市場に応用したい学生や研究者。 まとめ awesome-systematic-trading は、情報の断片が散らばりやすいトレーディング開発の世界において、信頼できる「地図」として機能します。初心者が何から始めればよいか、あるいはベテランが新しい技術スタックを模索する際、最初に見るべきバイブルのようなリソースと言えるでしょう。 参照リンク paperswithbacktest/awesome-systematic-trading Papers with Backtest Official Site"
+    },
     {
       "slug": "2026-04-13-tensortrade-org-tensortrade",
       "category": "github-pickup",
