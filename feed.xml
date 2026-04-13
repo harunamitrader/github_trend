@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 03:41:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 12:41:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TensorTrade]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-tensortrade-org-tensortrade.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-tensortrade-org-tensortrade.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[nofx]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-NoFxAiOS-nofx.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[世界中のデザインシステム、UI ライブラリ、ブランドガイド、トーン&ボイス指針を一覧できる実務向けリファレンス集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[everything-claude-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
     </item>
   </channel>
 </rss>
