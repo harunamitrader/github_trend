@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-hamen-material-3-skill",
+      "title": "material-3-skill",
+      "dek": "Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。",
+      "summary": "hamen/material-3-skill は、Google の Material Design 3 を Claude Code で扱うためのスキル集。30以上のコンポーネント、トークン、自動テーマ生成、最新の Expressive アップデート、さらに MD3 準拠監査機能まで備えた開発アセットです。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:37:00+09:00",
+      "repoName": "hamen/material-3-skill",
+      "repoUrl": "https://github.com/hamen/material-3-skill",
+      "articleUrl": "./articles/github/daily/2026-04-13-hamen-material-3-skill.html",
+      "serial": 197,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-DearVa-Everywhere",
       "title": "Everywhere",
       "dek": "画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。",

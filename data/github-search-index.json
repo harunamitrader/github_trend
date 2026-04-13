@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T03:35:23.445626+00:00",
-  "count": 214,
+  "generatedAt": "2026-04-13T03:37:19.869009+00:00",
+  "count": 215,
   "articles": [
+    {
+      "slug": "2026-04-13-hamen-material-3-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "material-3-skill",
+      "dek": "Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。",
+      "summary": "hamen/material-3-skill は、Google の Material Design 3 を Claude Code で扱うためのスキル集。30以上のコンポーネント、トークン、自動テーマ生成、最新の Expressive アップデート、さらに MD3 準拠監査機能まで備えた開発アセットです。",
+      "repoName": "hamen/material-3-skill",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:37:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-hamen-material-3-skill.html",
+      "serial": 197,
+      "searchText": "material-3-skill Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。 hamen/material-3-skill は、Google の Material Design 3 を Claude Code で扱うためのスキル集。30以上のコンポーネント、トークン、自動テーマ生成、最新の Expressive アップデート、さらに MD3 準拠監査機能まで備えた開発アセットです。 hamen/material-3-skill 学習ガイド・開発アセット material-3-skill ← 記事一覧へ戻る GitHub Watcher material-3-skill Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。 記事作成日 2026-04-13 種別 Pickup 対象 repo hamen/material-3-skill これは何か material-3-skill は、Anthropic の AI コーディングエージェント「Claude Code」向けに最適化された、Material Design 3 (MD3) の実装ガイド兼スキル集です。Google の最新デザインシステム「Material You」をプロジェクトに導入する際、AI が正確なデザイントークンやコンポーネント構成を提案・実装できるよう、構造化された知識を提供します。 何ができるか MD3 準拠のコード生成： 正しい要素名、属性、デザイントークンを使用した高品質な UI コードを AI に生成させることができます。 30以上のコンポーネントをカバー： Web コンポーネント (@material/web) を中心に、Flutter や Jetpack Compose にも対応した詳細なリファレンスが含まれています。 テーマとダイナミックカラーの自動作成： シードカラーからのテーマ生成や、アクセシビリティに配慮したカラーパレットの構築を支援します。 MD3 準拠監査（Audit）： 既存のアプリやソースコードをスキャンし、MD3 のガイドラインにどれだけ適合しているかをスコア化して判定。 最新の「M3 Expressive」対応： 2025年5月のアップデートに含まれるスプリングモーションや強調されたタイポグラフィなども反映済みです。 目立つポイント このスキルの最大の特徴は、AI エージェント（Claude Code）がブラウザ自動操作ツールを使用して Google 公式ドキュメント（m3.material.io）をライブリサーチし、人間と協力して作り上げた点にあります。単なる過去の情報の焼き増しではなく、最新の仕様に基づいた「AI が最も理解しやすい形式」での知識蒸留が行われています。 セットアップや使い方の流れ リポジトリを git clone します。 ~/.claude/skills/material-3 にフォルダをコピーまたはシンボリックリンクを作成します。 Claude Code 内で /material-3 component [指示] のように呼び出すことで、コンポーネントの作成やテーマ生成、アプリの足場（Scaffold）作成、さらには準拠監査の実行が可能になります。 どんな人向けか Claude Code を活用して、モダンで洗練された Material Design 3 の UI を効率的に構築したい Web / モバイル開発者。 デザインシステムの知識を AI と共有し、実装の不一致やミスを最小限に抑えたいチーム。 自作アプリが Google のデザインガイドラインにどれだけ準拠しているかを確認・改善したい人。 注意点 このスキルは 2025 年初頭時点の仕様に基づいて最適化されています。Google 側で MD3 の仕様が更新された場合、スキルに含まれるトークン値などが古くなる可能性があるため、定期的な更新やコントリビューションが推奨されます。 まとめ material-3-skill は、AI を単なる「コードを生成する機械」から「特定のデザインシステムに精通したエキスパート」へと昇華させるための強力なアセットです。デザインの正解を AI に事前に教え込む（RAG/スキル化）ことで、生成 AI 時代の UI 開発をより確実で楽しいものにしてくれます。 参照リンク hamen/material-3-skill Official Material Design 3 Site"
+    },
     {
       "slug": "2026-04-13-DearVa-Everywhere",
       "category": "github-pickup",
