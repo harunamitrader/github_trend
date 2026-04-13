@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 03:40:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 12:39:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nofx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-NoFxAiOS-nofx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-NoFxAiOS-nofx.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[API キー不要、USDC 支払いで動作する、あらゆる市場に対応した自律型 AI トレードアシスタント。]]></description>
+    </item>
     <item>
       <title><![CDATA[material-3-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-hamen-material-3-skill.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-gemini-cli-v0-39-0-nightly-20260411.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-gemini-cli-v0-39-0-nightly-20260411.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI の nightly 系が v0.39.0-nightly.20260411.0957f7d3e に進み、次期安定版へ向けた検証対象が更新されました。]]></description>
     </item>
   </channel>
 </rss>
