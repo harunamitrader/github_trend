@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 07:08:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:09:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Native DevTools MCP]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenCLI]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-jackwener-opencli.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[あなたの人生、人脈、思考を AI エージェントの「長期記憶」へと変える。Garry Tan 氏が提唱するパーソナル・ナレッジベース構築ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Vibe-Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-foryourhealth111-pixel-Vibe-Skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-foryourhealth111-pixel-Vibe-Skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[340 種類以上のスキルを統合管理し、AI アシスタントの能力を極限まで引き出すためのインテリジェント・スキルプラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

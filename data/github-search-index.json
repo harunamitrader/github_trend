@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T22:08:18.469003+00:00",
-  "count": 234,
+  "generatedAt": "2026-04-13T22:09:47.564264+00:00",
+  "count": 235,
   "articles": [
+    {
+      "slug": "2026-04-14-sh3ll3x3c-native-devtools-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Native DevTools MCP",
+      "dek": "AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。",
+      "summary": "sh3ll3x3c/native-devtools-mcp は、macOS, Windows, Android のネイティブアプリ操作とブラウザ自動化を実現する MCP サーバー。スクリーンショットからの OCR 処理、テンプレートマッチング、CDP 連携による精密な操作を AI エージェントから実行できます。Claude や Cursor などの IDE を、真の「OS 操作エージェント」へと進化させるツールです。",
+      "repoName": "sh3ll3x3c/native-devtools-mcp",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html",
+      "serial": 214,
+      "searchText": "Native DevTools MCP AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。 sh3ll3x3c/native-devtools-mcp は、macOS, Windows, Android のネイティブアプリ操作とブラウザ自動化を実現する MCP サーバー。スクリーンショットからの OCR 処理、テンプレートマッチング、CDP 連携による精密な操作を AI エージェントから実行できます。Claude や Cursor などの IDE を、真の「OS 操作エージェント」へと進化させるツールです。 sh3ll3x3c/native-devtools-mcp AIコーディング (CLI本体・拡張機能) Native DevTools MCP - Native App Testing & Automation ← 記事一覧へ戻る GitHub Watcher Native DevTools MCP AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。 記事作成日 2026-04-14 種別 Pickup 対象 repo sh3ll3x3c/native-devtools-mcp これは何か Claude や Cursor などの AI クライアントから、OS のネイティブアプリやブラウザを直接操作できるようにする MCP (Model Context Protocol) サーバーです。 スクリーンショットの取得、OCR（光学文字認識）によるテキストの特定、マウスクリック、キーボード入力といった「UI 操作の基本」を、AI がツールとして実行可能にします。 主な機能 マルチプラットフォーム対応 : macOS, Windows, そして Android までサポート。 高度な UI 認識 : OCR だけでなく、テンプレートマッチングを使用して特定のアイコンやボタンを画像レベルで探し出せます。 ブラウザ連携 (CDP) : Chrome や Electron アプリの CDP (Chrome DevTools Protocol) と直接通信し、DOM レベルでの精密な操作も可能です。 広範な LLM クライアント対応 : Claude 3.5 Sonnet はもちろん、Cursor やその他の MCP 対応ツールから即座に利用できます。 活用シーン これまでは「コードを書く」だけだった AI が、「開発中のアプリを実際に動かして挙動を確認する」段階へと進みます。 自動 UI テスト : AI に「ログイン画面から新規登録まで進み、エラーが出ないか確認して」と指示するだけで、実際の画面を操作させることができます。 ブラウザ自動化 : 複雑な操作が必要なウェブサービスでも、AI が視覚的に判断しながら手順を進めます。 モバイルアプリ検証 : Android デバイスを接続し、実機上での動作確認を AI に任せることが可能です。 なぜ重要か AI エージェントが「ブラウザの中だけ」あるいは「ターミナルの中だけ」という制約から解放され、PC 全体の操作権限を持つ **Compute Use** の基盤となります。 特に、ネイティブアプリの操作を記述なしに AI の視覚判断に任せられる点は、UI 自動化の常識を塗り替える可能性があります。 まとめ sh3ll3x3c/native-devtools-mcp は、AI の能力を実社会のアプリケーション操作に直結させるための強力な架け橋です。 開発プロセスの自動化を一段階上のレベルへ引き上げたいエンジニアにとって、必携の MCP サーバーとなるでしょう。 参照リンク sh3ll3x3c/native-devtools-mcp"
+    },
     {
       "slug": "2026-04-14-jackwener-opencli",
       "category": "github-pickup",

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="sh3ll3x3c/native-devtools-mcp の概要と、ネイティブアプリ・ブラウザ自動化を可能にする MCP サーバーの解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Native DevTools MCP - Native App Testing & Automation</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Native DevTools MCP</h1>
+      <p class="article-dek">AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/sh3ll3x3c/native-devtools-mcp" target="_blank" rel="noreferrer">
+              sh3ll3x3c/native-devtools-mcp
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Claude や Cursor などの AI クライアントから、OS のネイティブアプリやブラウザを直接操作できるようにする MCP (Model Context Protocol) サーバーです。
+          スクリーンショットの取得、OCR（光学文字認識）によるテキストの特定、マウスクリック、キーボード入力といった「UI 操作の基本」を、AI がツールとして実行可能にします。
+        </p>
+
+        <h2>主な機能</h2>
+        <ul>
+            <li><strong>マルチプラットフォーム対応</strong>: macOS, Windows, そして Android までサポート。</li>
+            <li><strong>高度な UI 認識</strong>: OCR だけでなく、テンプレートマッチングを使用して特定のアイコンやボタンを画像レベルで探し出せます。</li>
+            <li><strong>ブラウザ連携 (CDP)</strong>: Chrome や Electron アプリの CDP (Chrome DevTools Protocol) と直接通信し、DOM レベルでの精密な操作も可能です。</li>
+            <li><strong>広範な LLM クライアント対応</strong>: Claude 3.5 Sonnet はもちろん、Cursor やその他の MCP 対応ツールから即座に利用できます。</li>
+        </ul>
+
+        <h2>活用シーン</h2>
+        <p>
+          これまでは「コードを書く」だけだった AI が、「開発中のアプリを実際に動かして挙動を確認する」段階へと進みます。
+        </p>
+        <ul>
+            <li><strong>自動 UI テスト</strong>: AI に「ログイン画面から新規登録まで進み、エラーが出ないか確認して」と指示するだけで、実際の画面を操作させることができます。</li>
+            <li><strong>ブラウザ自動化</strong>: 複雑な操作が必要なウェブサービスでも、AI が視覚的に判断しながら手順を進めます。</li>
+            <li><strong>モバイルアプリ検証</strong>: Android デバイスを接続し、実機上での動作確認を AI に任せることが可能です。</li>
+        </ul>
+
+        <h2>なぜ重要か</h2>
+        <p>
+          AI エージェントが「ブラウザの中だけ」あるいは「ターミナルの中だけ」という制約から解放され、PC 全体の操作権限を持つ **Compute Use** の基盤となります。
+          特に、ネイティブアプリの操作を記述なしに AI の視覚判断に任せられる点は、UI 自動化の常識を塗り替える可能性があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>sh3ll3x3c/native-devtools-mcp</code> は、AI の能力を実社会のアプリケーション操作に直結させるための強力な架け橋です。
+          開発プロセスの自動化を一段階上のレベルへ引き上げたいエンジニアにとって、必携の MCP サーバーとなるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/sh3ll3x3c/native-devtools-mcp" target="_blank" rel="noreferrer">sh3ll3x3c/native-devtools-mcp</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

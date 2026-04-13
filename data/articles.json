@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-sh3ll3x3c-native-devtools-mcp",
+      "title": "Native DevTools MCP",
+      "dek": "AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。",
+      "summary": "sh3ll3x3c/native-devtools-mcp は、macOS, Windows, Android のネイティブアプリ操作とブラウザ自動化を実現する MCP サーバー。スクリーンショットからの OCR 処理、テンプレートマッチング、CDP 連携による精密な操作を AI エージェントから実行できます。Claude や Cursor などの IDE を、真の「OS 操作エージェント」へと進化させるツールです。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:15:00+09:00",
+      "repoName": "sh3ll3x3c/native-devtools-mcp",
+      "repoUrl": "https://github.com/sh3ll3x3c/native-devtools-mcp",
+      "articleUrl": "./articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html",
+      "serial": 214,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-jackwener-opencli",
       "title": "OpenCLI",
       "dek": "あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。",
