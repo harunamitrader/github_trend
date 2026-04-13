@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DearVa/Everywhere は、デスクトップ画面上の内容を即座に認識し、複数の LLM や MCP ツールと連携して回答するコンテキスト認識型 AI アシスタントです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Everywhere</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Everywhere</h1>
+      <p class="article-dek">画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/DearVa/Everywhere" target="_blank" rel="noreferrer">
+              DearVa/Everywhere
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Everywhere は、デスクトップ環境に深く統合された AI アシスタントです。最大の特徴は、ユーザーが現在見ている画面の内容を「コンテキスト」として即座に理解できる点にあります。スクショを撮ったりテキストをコピーしたりする手間なく、ショートカットキー一つで AI を呼び出し、現在の作業内容に基づいた具体的な支援を受けることができます。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>コンテキスト認識対話：</strong> 画面上のエラーメッセージ、Web 記事、編集中のコードやメールなどを AI が自動で読み取って回答。</li>
+          <li><strong>マルチ LLM 対応：</strong> OpenAI、Gemini、Claude、DeepSeek、さらにローカルの Ollama など、主要なモデルを切り替えて利用可能。</li>
+          <li><strong>MCP ツールの統合：</strong> Model Context Protocol (MCP) を通じて、外部ツールやデータとシームレスに連携。</li>
+          <li><strong>クロスプラットフォーム：</strong> Windows および macOS に対応（Linux は近日対応予定）。</li>
+          <li><strong>UI オートメーション：</strong> 画面の構造を理解し、対話を通じて操作や要約を効率化。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>既存の AI チャットツールが「ブラウザや専用アプリの中」で完結していたのに対し、Everywhere は「OS のレイヤー」で動作します。Avalonia を使用した洗練された UI は、デスクトップのどこにでも違和感なく馴染み、必要なときにだけ現れる「透明なアシスタント」のような体験を提供します。また、企業向けの Business Source License 1.1 を採用しており、開発の持続可能性も考慮されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>GitHub の Releases ページから、OS に合ったインストーラー（Windows は .exe、macOS は .pkg）をダウンロードしてインストールします。</li>
+          <li>アプリを起動し、使用したい AI モデルの API キー（または Ollama のローカル接続設定）を入力します。</li>
+          <li>ショートカットキー（デフォルト設定）を押すと、画面上に Everywhere の入力窓が現れます。</li>
+          <li>「このエラーの原因は？」「このメールを丁寧に書き直して」など、画面を見せながら指示を送るだけで AI が実行します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>作業中のコンテキストスイッチ（アプリの切り替え）を最小限に抑えたい開発者やクリエイター。</li>
+          <li>ブラウザ、エディタ、ターミナルなど、複数のアプリを跨いで AI の支援を受けたい人。</li>
+          <li>特定の MCP ツールを活用して、自分専用の業務自動化環境を構築したいパワーユーザー。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>画面上の情報を読み取る性質上、機密情報が表示されている環境での利用には配慮が必要です（設定でプライバシーポリシーを確認することをお勧めします）。また、記事執筆時点（2026年3月〜4月）で Linux への対応は開発中となっています。</p>
+
+        <h2>まとめ</h2>
+        <p>Everywhere は、AI が「ツールの外側」に飛び出し、デスクトップ全体をキャンバスにするための強力な一歩です。単なるチャットボットではなく、視覚情報を共有する「同僚」のような存在を目指しており、MCP への対応によってその拡張性は無限に広がっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/DearVa/Everywhere" target="_blank" rel="noreferrer">DearVa/Everywhere</a>
+        </div>
+        <div class="source-item">
+          <a href="https://everywhere.sylinko.com" target="_blank" rel="noreferrer">Official Documentation</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-12T21:46:36.269167+00:00",
-  "count": 213,
+  "generatedAt": "2026-04-13T03:34:41.045788+00:00",
+  "count": 214,
   "articles": [
+    {
+      "slug": "2026-04-13-DearVa-Everywhere",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Everywhere",
+      "dek": "画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。",
+      "summary": "DearVa/Everywhere は、画面上の内容を即座に認識し、複数の LLM（OpenAI, Gemini, Claude, DeepSeek, Ollama）や MCP ツールと連携して回答するデスクトップ AI アシスタント。Avalonia 製のモダンな UI で、どこからでもショートカットキー一つで AI の支援を受けられます。",
+      "repoName": "DearVa/Everywhere",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-DearVa-Everywhere.html",
+      "serial": 196,
+      "searchText": "Everywhere 画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。 DearVa/Everywhere は、画面上の内容を即座に認識し、複数の LLM（OpenAI, Gemini, Claude, DeepSeek, Ollama）や MCP ツールと連携して回答するデスクトップ AI アシスタント。Avalonia 製のモダンな UI で、どこからでもショートカットキー一つで AI の支援を受けられます。 DearVa/Everywhere AIエージェント (自律基盤・特化アプリ) Everywhere ← 記事一覧へ戻る GitHub Watcher Everywhere 画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。 記事作成日 2026-04-13 種別 Pickup 対象 repo DearVa/Everywhere これは何か Everywhere は、デスクトップ環境に深く統合された AI アシスタントです。最大の特徴は、ユーザーが現在見ている画面の内容を「コンテキスト」として即座に理解できる点にあります。スクショを撮ったりテキストをコピーしたりする手間なく、ショートカットキー一つで AI を呼び出し、現在の作業内容に基づいた具体的な支援を受けることができます。 何ができるか コンテキスト認識対話： 画面上のエラーメッセージ、Web 記事、編集中のコードやメールなどを AI が自動で読み取って回答。 マルチ LLM 対応： OpenAI、Gemini、Claude、DeepSeek、さらにローカルの Ollama など、主要なモデルを切り替えて利用可能。 MCP ツールの統合： Model Context Protocol (MCP) を通じて、外部ツールやデータとシームレスに連携。 クロスプラットフォーム： Windows および macOS に対応（Linux は近日対応予定）。 UI オートメーション： 画面の構造を理解し、対話を通じて操作や要約を効率化。 目立つポイント 既存の AI チャットツールが「ブラウザや専用アプリの中」で完結していたのに対し、Everywhere は「OS のレイヤー」で動作します。Avalonia を使用した洗練された UI は、デスクトップのどこにでも違和感なく馴染み、必要なときにだけ現れる「透明なアシスタント」のような体験を提供します。また、企業向けの Business Source License 1.1 を採用しており、開発の持続可能性も考慮されています。 セットアップや使い方の流れ GitHub の Releases ページから、OS に合ったインストーラー（Windows は .exe、macOS は .pkg）をダウンロードしてインストールします。 アプリを起動し、使用したい AI モデルの API キー（または Ollama のローカル接続設定）を入力します。 ショートカットキー（デフォルト設定）を押すと、画面上に Everywhere の入力窓が現れます。 「このエラーの原因は？」「このメールを丁寧に書き直して」など、画面を見せながら指示を送るだけで AI が実行します。 どんな人向けか 作業中のコンテキストスイッチ（アプリの切り替え）を最小限に抑えたい開発者やクリエイター。 ブラウザ、エディタ、ターミナルなど、複数のアプリを跨いで AI の支援を受けたい人。 特定の MCP ツールを活用して、自分専用の業務自動化環境を構築したいパワーユーザー。 注意点 画面上の情報を読み取る性質上、機密情報が表示されている環境での利用には配慮が必要です（設定でプライバシーポリシーを確認することをお勧めします）。また、記事執筆時点（2026年3月〜4月）で Linux への対応は開発中となっています。 まとめ Everywhere は、AI が「ツールの外側」に飛び出し、デスクトップ全体をキャンバスにするための強力な一歩です。単なるチャットボットではなく、視覚情報を共有する「同僚」のような存在を目指しており、MCP への対応によってその拡張性は無限に広がっています。 参照リンク DearVa/Everywhere Official Documentation"
+    },
     {
       "slug": "2026-04-13-voltagent-awesome-agent-skills",
       "category": "github-pickup",

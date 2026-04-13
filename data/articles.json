@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-DearVa-Everywhere",
+      "title": "Everywhere",
+      "dek": "画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。",
+      "summary": "DearVa/Everywhere は、画面上の内容を即座に認識し、複数の LLM（OpenAI, Gemini, Claude, DeepSeek, Ollama）や MCP ツールと連携して回答するデスクトップ AI アシスタント。Avalonia 製のモダンな UI で、どこからでもショートカットキー一つで AI の支援を受けられます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:35:00+09:00",
+      "repoName": "DearVa/Everywhere",
+      "repoUrl": "https://github.com/DearVa/Everywhere",
+      "articleUrl": "./articles/github/daily/2026-04-13-DearVa-Everywhere.html",
+      "serial": 196,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-voltagent-awesome-agent-skills",
       "title": "Awesome Agent Skills",
       "dek": "AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。",
