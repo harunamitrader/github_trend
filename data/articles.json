@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-jackwener-opencli",
+      "title": "OpenCLI",
+      "dek": "あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。",
+      "summary": "jackwener/OpenCLI は、Web サイトや Electron アプリ、ローカルバイナリを標準化された CLI インターフェースへ変換する Rust 製の AI ネイティブ・ランタイム。AGENT.md という共通仕様を提唱し、AI エージェントが初めて出会うツールを自律的に理解して実行できるようにします。MCP を補完または簡略化する新たなエコシステムとして注目されます。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:10:00+09:00",
+      "repoName": "jackwener/opencli",
+      "repoUrl": "https://github.com/jackwener/opencli",
+      "articleUrl": "./articles/github/daily/2026-04-14-jackwener-opencli.html",
+      "serial": 213,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-scitix-siclaw",
       "title": "Siclaw",
       "dek": "インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T21:41:58.566238+00:00",
-  "count": 233,
+  "generatedAt": "2026-04-13T22:07:54.688972+00:00",
+  "count": 234,
   "articles": [
+    {
+      "slug": "2026-04-14-jackwener-opencli",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenCLI",
+      "dek": "あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。",
+      "summary": "jackwener/OpenCLI は、Web サイトや Electron アプリ、ローカルバイナリを標準化された CLI インターフェースへ変換する Rust 製の AI ネイティブ・ランタイム。AGENT.md という共通仕様を提唱し、AI エージェントが初めて出会うツールを自律的に理解して実行できるようにします。MCP を補完または簡略化する新たなエコシステムとして注目されます。",
+      "repoName": "jackwener/opencli",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-jackwener-opencli.html",
+      "serial": 213,
+      "searchText": "OpenCLI あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。 jackwener/OpenCLI は、Web サイトや Electron アプリ、ローカルバイナリを標準化された CLI インターフェースへ変換する Rust 製の AI ネイティブ・ランタイム。AGENT.md という共通仕様を提唱し、AI エージェントが初めて出会うツールを自律的に理解して実行できるようにします。MCP を補完または簡略化する新たなエコシステムとして注目されます。 jackwener/opencli AIコーディング (CLI本体・拡張機能) OpenCLI - Universal CLI Hub & AI-native Runtime ← 記事一覧へ戻る GitHub Watcher OpenCLI あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。 記事作成日 2026-04-14 種別 Pickup 対象 repo jackwener/opencli これは何か Web サイト、Electron アプリ、またはローカルのバイナリファイルを、標準化された CLI（コマンドライン・インターフェース）に変換するためのユニバーサル・プラットフォームです。 単なる CLI ツールではなく、 「AI エージェントがツールを自律的に使いこなすためのランタイム」 としての側面を強く持っています。 AGENT.md による革新 OpenCLI の核心は AGENT.md という標準仕様にあります。これによって以下が実現されます： 発見 (Discover) : AI が「そのツールで何ができるか」を自動検知。 学習 (Learn) : ツールの使い方（引数や挙動）をプロンプトなしで理解。 実行 (Execute) : 統一されたコマンド形式で、Web だろうがデスクトップアプリだろうが操作可能に。 主な特徴 Web to CLI : ブラウザで見ているサイトの機能を、AI が opencli 経由で直接操作。 Universal Bridge : インストールされているバイナリをラップし、AI にとって扱いやすいインターフェースに整形。 Rust 製の堅牢性 : 高速かつ安全な動作を実現。 MCP との関係 : 既存の MCP (Model Context Protocol) を補完する、よりシンプルでユニバーサルな「ツールのカタログ」としての役割を果たします。 なぜ重要か AI エージェントの最大の課題は「新しい道具にどう対応するか」です。 OpenCLI は、世界中のウェブサイトやローカルツールを、AI が読み書きできる形式でカタログ化します。 これにより、AI エージェントの「手足」を爆発的に増やすことが可能になります。 まとめ jackwener/OpenCLI は、AI と既存ソフトウェアの境界線をなくす挑戦的なプロジェクトです。 人間がブラウザを開いて操作するあらゆるものを AI のコマンドに変えてしまうこのハブは、AI エージェントのエコシステムを大きく変えるポテンシャルを秘めています。 参照リンク jackwener/opencli"
+    },
     {
       "slug": "2026-04-14-scitix-siclaw",
       "category": "github-pickup",
