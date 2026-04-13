@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-foryourhealth111-pixel-Vibe-Skills",
+      "title": "Vibe-Skills",
+      "dek": "340 種類以上のスキルを統合管理し、AI アシスタントの能力を極限まで引き出すためのインテリジェント・スキルプラットフォーム。",
+      "summary": "foryourhealth111-pixel/Vibe-Skills は、AI エージェント向けの統治型スキルセット。インテリジェント・ルーティングにより 340 以上のスキルを衝突なく活用し、明確化から検証までの一貫した自律ワークフローを提供します。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T15:00:00+09:00",
+      "repoName": "foryourhealth111-pixel/Vibe-Skills",
+      "repoUrl": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+      "articleUrl": "./articles/github/daily/2026-04-13-foryourhealth111-pixel-Vibe-Skills.html",
+      "serial": 201,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-paperswithbacktest-awesome-systematic-trading",
       "title": "awesome-systematic-trading",
       "dek": "システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。",
