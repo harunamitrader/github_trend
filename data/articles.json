@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-garrytan-gbrain",
+      "title": "gbrain",
+      "dek": "あなたの人生、人脈、思考を AI エージェントの「長期記憶」へと変える。Garry Tan 氏が提唱するパーソナル・ナレッジベース構築ツール。",
+      "summary": "garrytan/gbrain は、AI エージェント向けのパーソナル・ナレッジ管理基盤。メールや会議録などを統合し、対話を通じて知識を複利で蓄積。ローカル Postgres (PGLite) によりセキュアかつ高速に「外部脳」を構築します。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T15:15:00+09:00",
+      "repoName": "garrytan/gbrain",
+      "repoUrl": "https://github.com/garrytan/gbrain",
+      "articleUrl": "./articles/github/daily/2026-04-13-garrytan-gbrain.html",
+      "serial": 202,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-foryourhealth111-pixel-Vibe-Skills",
       "title": "Vibe-Skills",
       "dek": "340 種類以上のスキルを統合管理し、AI アシスタントの能力を極限まで引き出すためのインテリジェント・スキルプラットフォーム。",

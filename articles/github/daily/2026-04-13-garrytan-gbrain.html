@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="gbrain は、AI エージェントが個人のコンテキスト（会議、メール、アイデアなど）を完全に把握し、対話のたびに賢くなるためのパーソナル・ナレッジベース構築ツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gbrain</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gbrain</h1>
+      <p class="article-dek">あなたの人生、人脈、思考を AI エージェントの「長期記憶」へと変える。Garry Tan 氏が提唱するパーソナル・ナレッジベース構築ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/garrytan/gbrain" target="_blank" rel="noreferrer">
+              garrytan/gbrain
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>gbrain は、Y Combinator の会長である Garry Tan 氏が公開した、AI エージェントのための「外部脳」構築フレームワークです。メール、カレンダー、会議の議事録、SNS、そして自分自身のメモやアイデアを一箇所に集約。AI エージェントがそれらを「読み・書き」し続けることで、あなたについて世界で最も詳しいパーソナル・アシスタントを育てるための基盤を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>長期記憶の構築：</strong> 会話のたびに情報を蓄積し、次にその人物やトピックが登場した際に、過去の経緯を完璧に踏まえた回答が可能になります。</li>
+          <li><strong>インテリジェント・検索（RAG）：</strong> ベクトル検索とキーワード検索を組み合わせたハイブリッド検索により、膨大な個人データから瞬時に必要な情報を引き出します。</li>
+          <li><strong>広範なデータ連携：</strong> X（Twitter）、メール、カレンダー、音声通話（Twilio）などのデータを AI エージェントが自らインポート・学習する「レシピ」が用意されています。</li>
+          <li><strong>MCP (Model Context Protocol) 対応：</strong> Claude Code や Cursor などの MCP 対応エージェントから、30 以上のツールを通じて脳内の知識にアクセスできます。</li>
+          <li><strong>Local-First ＆ Scalable：</strong> 最初はローカルの PGLite（サーバー不要の Postgres）で開始し、規模が大きくなれば Supabase などのクラウド DB へ容易に移行できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なる「ツール」ではなく、「AI と共に生きるためのライフスタイル（Playbook）」を提案している点が非常にユニークです。特に <code>GBRAIN_SKILLPACK.md</code> と呼ばれるドキュメントには、AI エージェントが「いつ情報を確認し、いつ自分の脳を更新すべきか」という具体的な行動指針が記されています。これにより、AI はただ質問に答えるだけの存在から、自律的にあなたの記憶を整理し、朝起きるたびに賢くなっているパートナーへと進化します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを <code>git clone</code> し、<code>bun install</code> でセットアップを行います。</li>
+          <li><code>gbrain init</code> を実行してローカルに脳（データベース）を作成します。</li>
+          <li><code>gbrain import ~/notes/</code> などで、既存のメモやプロジェクト資料を一括で読み込ませます。</li>
+          <li>Claude Code などのエージェントに MCP 設定を追加し、エージェントが <code>gbrain</code> のスキルセットを使えるようにします。</li>
+          <li>あとは普段通り AI と会話するだけ。エージェントが自動でエンティティを検出し、情報の紐付け（バックリンク）や更新を行ってくれます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>大量の会議、メール、人脈を抱え、AI に自分の文脈を完璧に理解させたい経営者やリーダー。</li>
+          <li>情報の断片が散らばり、自律型 AI エージェント（OpenClaw 等）の長期記憶基盤を探している開発者。</li>
+          <li>「昨日の続き」を完璧に覚えてくれている、真のパーソナル AI を育てたいと願うすべての人。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>gbrain は、AI が「あなたという人間」についての知識を複利（Compounding）で蓄積していくための土壌です。使えば使うほど、AI はあなたにとって代えがたい存在へと成長します。AI エージェントという新しいインターフェースに、自分だけの歴史と文脈を吹き込みたい人にとって、これ以上ない強力な武器となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/garrytan/gbrain" target="_blank" rel="noreferrer">garrytan/gbrain</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
