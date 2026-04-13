@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 03:37:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 12:37:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[material-3-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-hamen-material-3-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-hamen-material-3-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Everywhere]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-DearVa-Everywhere.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini CLI の nightly 系が v0.39.0-nightly.20260411.0957f7d3e に進み、次期安定版へ向けた検証対象が更新されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Codex CLI 0.120.0: Realtime V2 と hooks 表示、Windows sandbox を改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[background agent の進捗ストリーミング、hooks 表示の整理、code-mode outputSchema、Windows sandbox 修正が入った更新です。]]></description>
     </item>
   </channel>
 </rss>
