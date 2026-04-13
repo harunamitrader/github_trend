@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 04:55:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 04:56:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[MateClaw]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-matevip-mateclaw.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-matevip-mateclaw.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Java で構築された「AI オペレーティングシステム」。マルチエージェント、MCP、長期記憶、マルチチャネル配信を一台で完結させる統合環境。]]></description>
+    </item>
     <item>
       <title><![CDATA[ios-builder]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-MobAI-App-ios-builder.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Dreaming の ChatGPT import、Webchat の構造化表示、video generation の providerOptions などをまとめた運用改善リリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AirLLM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-lyogavin-airllm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-lyogavin-airllm.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[4GBのGPU1枚で 70B 巨大モデルをフル精度推論。メモリের壁を「レイヤー単位実行」で突破。]]></description>
     </item>
   </channel>
 </rss>

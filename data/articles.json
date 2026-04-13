@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-matevip-mateclaw",
+      "title": "MateClaw",
+      "dek": "Java で構築された「AI オペレーティングシステム」。マルチエージェント、MCP、長期記憶、マルチチャネル配信を一台で完結させる統合環境。",
+      "summary": "matevip/mateclaw は、Spring Boot と Vue 3 をベースにした高度な AI アシスタント基盤。複雑なタスクを計画・実行するマルチエージェント機能に加え、ナレッジを Wiki 形式で構造化する独自のメモリシステム、さらに 7 種類以上の IM 連携をサポート。企業の Java エコシステムに適合する、フル機能の AI サービス構築に最適なリポジトリです。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:56:00+09:00",
+      "repoName": "matevip/mateclaw",
+      "repoUrl": "https://github.com/matevip/mateclaw",
+      "articleUrl": "./articles/github/daily/2026-04-14-matevip-mateclaw.html",
+      "serial": 210,
+      "originType": "pickup",
+      "genre": "AIエージェント (基盤・コンポーネント)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-MobAI-App-ios-builder",
       "title": "ios-builder",
       "dek": "Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。",

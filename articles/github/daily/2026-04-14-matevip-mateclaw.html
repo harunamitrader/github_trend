@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="matevip/mateclaw を読み、要点を実用寄りに整理した記事。Java (Spring Boot) ベースで構築された高度な AI アシスタント基盤の解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>MateClaw</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">MateClaw</h1>
+      <p class="article-dek">Java で構築された「AI オペレーティングシステム」。マルチエージェント、MCP、長期記憶、マルチチャネル配信を一台で完結させる統合環境。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/matevip/mateclaw" target="_blank" rel="noreferrer">
+              matevip/mateclaw
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Java (Spring Boot) と Vue 3 を基盤とした、次世代の AI エージェント構築プラットフォームです。
+          単純なチャットボットではなく、複雑なタスクの計画実行、構造化された知識の自己管理、そして多様なコミュニケーションツールとの連携を一つにまとめた「AI 用の OS」のような体験を提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          本格的な AI サービスを自前でホストし、あらゆる業務に統合できる機能群を備えています。
+        </p>
+        <ul>
+          <li><strong>Plan-and-Execute</strong>: 複雑な指示をステップに分け、逐次実行しながら状況に応じて計画を修正。単発の回答ではなく、実作業の完遂に特化したエージェント。</li>
+          <li><strong>LLM Wiki システム</strong>: 情報をただ保存するだけでなく、AI が内容を解析して構造化。リンク済みの百科事典のようにナレッジを自動整理します。</li>
+          <li><strong>長期記憶の管理</strong>: 会話の要点を抽出し、次回以降の応答に活かすパーソナリティ維持機能。AGENTS.md や SOUL.md といったファイルで AI の「魂」を管理。</li>
+          <li><strong>MCP (Model Context Protocol)</strong>: 最新の外部ツール連携プロトコルに対応しており、既存の MCP サーバーを介して様々な外部ツールと接続可能。</li>
+          <li><strong>マルチチャネル配信</strong>: Telegram, Discord はもちろん、企業の業務ツール（DingTalk, WeChat Work 等）に AI を直接派遣。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          既存の高度な AI エージェントの多くが Python で開発されているのに対し、<strong>「Java エコシステム」</strong>で構築されている点がユニークです。
+          Spring AI Alibaba を採用しており、既に Java を運用している企業にとって、導入のしやすさやメンテナンス性、スケーラビリティの面で非常に強力なアドバンテージがあります。
+          また、バックエンド、フロントエンド、デスクトップアプリ（Electron）までがパッケージ化されており、OSS でありながら製品レベルの完成度を持つ「全部入り」のリポジトリと言えます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Java 17 以上、Node.js 18 以上の環境を用意します。</li>
+          <li>バックエンドは Maven でビルド (<code>mvn spring-boot:run</code>)、フロントエンドは pnpm で起動します。</li>
+          <li>Docker があれば <code>docker compose up -d</code> 一発で全環境（管理画面、チャット UI）を立ち上げることも可能です。</li>
+          <li>管理画面（admin/admin123）にログインし、OpenAI, Anthropic, Gemini などの API キーを設定すれば即座に使用可能です。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Java エコシステムで AI エージェント基盤を運用したい企業エンジニア。</li>
+          <li>チャットだけでなく、AI に複雑なタスクを任せたい、あるいは独自の知識ベースを持たせたい開発者。</li>
+          <li>社内ツール（Slack や Discord、DingTalk 等）に高度な AI ボットを低コストで導入したい管理者。</li>
+          <li>AI の「記憶」や「性格」を詳細にコントロール・可視化したい技術者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          多機能である分、構成要素（Java, Node.js, 各種 DB 等）が多く、初動の環境構築やリソース確保には一定の注意が必要です。
+          また、Spring AI Alibaba を基盤としているため、アリババ系のモデルや機能との親和性が高いですが、標準的な OpenAI 互換 API であればどのプロバイダーでも利用可能です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>MateClaw</code> は、遊びではなく、本格的なビジネス・実務に AI エージェントを組み込むための「重量級」かつ「高性能」なスイートです。
+          既存の CLI エージェントの利便性と、Web ベースの管理・配信システムの利点を高度に融合させた、Java 開発者待望のプロジェクトと言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/matevip/mateclaw" target="_blank" rel="noreferrer">matevip/mateclaw</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
