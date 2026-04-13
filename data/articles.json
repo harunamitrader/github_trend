@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-tensortrade-org-tensortrade",
+      "title": "TensorTrade",
+      "dek": "強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。",
+      "summary": "tensortrade-org/tensortrade は、アルゴリズム取引に強化学習を適用するためのオープンソース・フレームワーク。環境、アクション、報酬関数を柔軟にカスタマイズでき、Ray や Optuna と連携した高度な学習プロセスを構築可能です。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:40:00+09:00",
+      "repoName": "tensortrade-org/tensortrade",
+      "repoUrl": "https://github.com/tensortrade-org/tensortrade",
+      "articleUrl": "./articles/github/daily/2026-04-13-tensortrade-org-tensortrade.html",
+      "serial": 199,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-NoFxAiOS-nofx",
       "title": "nofx",
       "dek": "API キー不要、USDC 支払いで動作する、あらゆる市場に対応した自律型 AI トレードアシスタント。",

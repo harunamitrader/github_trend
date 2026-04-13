@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TensorTrade は、アルゴリズム取引のための強化学習エージェントを構築・評価するための Python フレームワーク。柔軟なコンポーネント設計により、独自の取引戦略を科学的に検証可能です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TensorTrade</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TensorTrade</h1>
+      <p class="article-dek">強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tensortrade-org/tensortrade" target="_blank" rel="noreferrer">
+              tensortrade-org/tensortrade
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>TensorTrade は、強化学習（Reinforcement Learning）をアルゴリズム取引に適用するためのオープンソース Python フレームワークです。単なる取引 Bot のライブラリではなく、エージェントが「どのような情報を得て（観測）」、「どのような行動をとり（アクション）」、「どのような結果を得るか（報酬）」という強化学習のサイクルを、トレーディングの現場に即してモジュール単位で設計・検証できるように構築されています。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>柔軟なコンポーネント構成：</strong> アクションスキーム、報酬関数、観測データフィードなどを、パズルのように組み合わせて独自の環境を構築できます。</li>
+          <li><strong>多機能な環境（TradingEnv）：</strong> OpenAI Gym 互換の環境を提供。既存の強化学習アルゴリズムをシームレスに適用可能です。</li>
+          <li><strong>Ray / RLlib 連携：</strong> 並列分散学習を強力にサポートし、大規模な訓練やハイパーパラメータ最適化（Optuna 等）を効率的に行えます。</li>
+          <li><strong>リアルなシミュレーション：</strong> 手数料（Commission）やスリッページを考慮したポートフォリオ管理が可能で、バックテストと実運用の乖離を最小限に抑えます。</li>
+          <li><strong>豊富なチュートリアル：</strong> 強化学習初心者からプロの開発者まで、段階的に学べるドキュメントが整備されています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「Buy-and-Hold（ガチホ）に勝てるか？」という挑戦的なテーマを掲げつつ、科学的な厳密さを重視している点が特徴的です。リポジトリ内には、PPO（Proximal Policy Optimization）を用いた BTC/USD での実験記録などが公開されており、手数料コストが予測利益を上回ってしまうといった現実的な失敗例とその分析結果まで提供されています。この透明性は、実際のトレード戦略を検討する上で非常に価値があります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Python 3.11 または 3.12 の環境を用意し、<code>pip install tensortrade</code>（またはソースからの <code>pip install -e .</code>）でインストールします。</li>
+          <li>チュートリアル（Jupyter Notebooks）を実行し、環境（Env）の定義とエージェントの基本を理解します。</li>
+          <li><code>examples/training</code> 内のスクリプトを参考に、Ray/RLlib を用いた本格的な学習プロセスを構築します。</li>
+          <li>訓練したモデルをウォークフォワード検証（将来データでの検証）にかけ、過学習を避けた上でデプロイを検討します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>強化学習を用いて、独自の裁定取引やトレンドフォローエージェントを開発したい Python エンジニア。</li>
+          <li>科学的なバックテスト手法を導入し、勘や経験ではなくデータに基づいたトレードを極めたい人。</li>
+          <li>Ray や TensorFlow/PyTorch などの AI スタックをトレーディングに応用したいデータサイエンティスト。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>強化学習モデルは非常に過学習（Overfitting）しやすく、バックテストで良好な結果が出ても実運用で通用するとは限りません。TensorTrade は「ツール」を提供しますが、利益を保証するものではないため、統計的な検証とリスク管理が不可欠です。</p>
+
+        <h2>まとめ</h2>
+        <p>TensorTrade は、アルゴリズム取引の世界に「強化学習」という強力な武器を、整理された形で持ち込むためのプラットフォームです。柔軟な設計思想により、市場の複雑な変化に適応しようとする次世代のトレーダーにとって、なくてはならない研究・開発基盤となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tensortrade-org/tensortrade" target="_blank" rel="noreferrer">tensortrade-org/tensortrade</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.tensortrade.org/" target="_blank" rel="noreferrer">Official Documentation</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
