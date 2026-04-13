@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 06:03:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 15:19:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[gbrain]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-garrytan-gbrain.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-garrytan-gbrain.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あなたの人生、人脈、思考を AI エージェントの「長期記憶」へと変える。Garry Tan 氏が提唱するパーソナル・ナレッジベース構築ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Vibe-Skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-foryourhealth111-pixel-Vibe-Skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-12 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-12-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-12-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
