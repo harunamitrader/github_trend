@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NoFxAiOS/nofx は、仮想通貨や株式などの市場を自律的に監視・取引する AI アシスタント。x402 プロトコルにより API キーなしで LLM を利用できる次世代のトレード基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>nofx</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">nofx</h1>
+      <p class="article-dek">API キー不要、USDC 支払いで動作する、あらゆる市場に対応した自律型 AI トレードアシスタント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NoFxAiOS/nofx" target="_blank" rel="noreferrer">
+              NoFxAiOS/nofx
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>NOFX は、オープンソースで開発されている自律型の AI トレードプラットフォームです。従来のトレード Bot とは異なり、AI 自体が市場の状況を認識し、最適な LLM モデルを選択して、必要なデータを自動で取得・分析して取引を行います。ユーザーは戦略の大枠を決めるだけで、あとは AI が自律的に動く「AI Coworker」としてのトレード体験を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自律型マーケット分析：</strong> AI が市場の動きを「知覚」し、人間に代わって意思決定を行います。</li>
+          <li><strong>マルチアセット対応：</strong> 仮想通貨だけでなく、米国株、FX、貴金属など幅広い市場をサポート。</li>
+          <li><strong>API キー不要の AI 利用：</strong> x402 規格のマイクロペイメントに対応しており、USDC の入ったウォレットがあれば API キーの設定なしで 15 種類以上の LLM を即座に利用可能です。</li>
+          <li><strong>多数の取引所連携：</strong> Binance、Bybit などの大手 CEX から、Hyperliquid などの最新の Perp-DEX まで幅広く接続可能。</li>
+          <li><strong>直感的な Web UI：</strong> Go 製のバックエンドと React/TradingView 製のフロントエンドにより、デスクトップから手軽に管理・運用できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最も革新的な点は、AI モデルの利用料金を API キーではなく USDC で「従量課金」支払う仕組み（x402）を組み込んでいる点です。これにより、複数の LLM サービスにアカウントを作ったり、API キーの管理に追われたりすることなく、ウォレット一つですべての AI 機能を解放できます。開発に貢献すると将来的に収益の一部がエアドロップされる仕組みなど、コミュニティ主導のプロジェクトとしても注目されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Linux や macOS の場合は、ワンラインの install コマンド（<code>curl -fsSL ... | bash</code>）でセットアップが完了します。</li>
+          <li>Windows の場合は、Docker Desktop を使用してクイックに起動可能です。</li>
+          <li>ブラウザで <code>http://127.0.0.1:3000</code> にアクセスし、初心者向けのガイド付きオンボーディングに従ってセットアップを進めます。</li>
+          <li>AI の接続（API キーまたは x402 ウォレット）、取引所との連携、そして戦略の選択を行い、ダッシュボードから起動します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>AI を使った自律的なトレードに興味がある研究者やトレーダー。</li>
+          <li>API キーの管理や複雑なモデル構成を避け、シンプルに高性能な AI アシスタントを導入したい人。</li>
+          <li>Web3 時代の新しい決済プロトコル（x402）を活用した実用的なツールを体験したいパワーユーザー。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>AI による自動取引には常に高いリスクが伴います。まずは少額、あるいは教育・研究目的での利用が推奨されます。また、モデルの利用には USDC による支払いが必要になる（x402 モードの場合）ため、ウォレットの管理には十分注意してください。</p>
+
+        <h2>まとめ</h2>
+        <p>NOFX は、AI・金融・決済の 3 つが高度に融合した次世代のトレード基盤です。「API Key ではなく Wallet で支払う」という新しい概念をトレードの世界に持ち込み、誰でも手軽に、かつ自律的な AI の力を借りて市場に挑むことができる環境を提供しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NoFxAiOS/nofx" target="_blank" rel="noreferrer">NoFxAiOS/nofx</a>
+        </div>
+        <div class="source-item">
+          <a href="https://nofxai.com" target="_blank" rel="noreferrer">Official Site</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

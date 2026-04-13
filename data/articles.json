@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-NoFxAiOS-nofx",
+      "title": "nofx",
+      "dek": "API キー不要、USDC 支払いで動作する、あらゆる市場に対応した自律型 AI トレードアシスタント。",
+      "summary": "NoFxAiOS/nofx は、仮想通貨、株、FX、貴金属を自律的に取引するオープンソース AI トレードプラットフォーム。x402 プロトコルにより、API キーなしで USDC ウォレットから LLM 利用料を支払える次世代のトレード基盤です。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T12:38:00+09:00",
+      "repoName": "NoFxAiOS/nofx",
+      "repoUrl": "https://github.com/NoFxAiOS/nofx",
+      "articleUrl": "./articles/github/daily/2026-04-13-NoFxAiOS-nofx.html",
+      "serial": 198,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-hamen-material-3-skill",
       "title": "material-3-skill",
       "dek": "Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。",
