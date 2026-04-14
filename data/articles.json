@@ -8,6 +8,45 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-15-google-ai-chrome-ai-prompts",
+      "title": "Google AI: Chromeブラウザで使える「AI Prompts」機能を発表",
+      "dek": "よく使うプロンプトをワンクリックで実行できるツールに変換する機能がChromeに登場。ブラウザ上でのAI活用がさらに手軽になります。",
+      "summary": "GoogleはChromeブラウザと統合された「AI Prompts」機能を発表。頻繁に使うプロンプトをワンクリックで実行できるツールとして保存可能になります。また、Colabの学習支援機能「Learn Mode」やオープンモデル「Gemma 4」も発表されました。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T11:00:00+09:00",
+      "repoName": "google/ai-platform",
+      "repoUrl": "https://blog.google/technology/ai/",
+      "articleUrl": "./articles/tools/2026-04-15-google-ai-chrome-ai-prompts.html",
+      "serial": 138
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-openclaw-v2026-4-14-gpt5-support",
+      "title": "OpenClaw v2026.4.14: GPT-5ファミリーへの前方互換性とメモリ機能強化",
+      "dek": "未発表の gpt-5.4-pro への対応や、サブエージェントが文脈を記憶するActive Memoryプラグインの改善が行われました。",
+      "summary": "オープンソースAIエージェントOpenClawがv2026.4.14にアップデート。未発表のgpt-5.4-proを含むGPT-5ファミリーへの前方互換性をサポートし、サブエージェントの記憶力を向上させるActive Memoryプラグインも改善されました。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T10:55:00+09:00",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-04-15-openclaw-v2026-4-14-gpt5-support.html",
+      "serial": 137
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-gemini-robotics-er-1-6-preview",
+      "title": "Gemini API: ロボティクス向けモデル「gemini-robotics-er-1.6-preview」を発表",
+      "dek": "視覚的理解、高度な空間・物理的推論能力を備えた、ロボット工学タスクに特化した新しいプレビューモデルが登場。",
+      "summary": "GoogleのGemini APIに、ロボティクス分野に特化した新モデル「gemini-robotics-er-1.6-preview」が登場。視覚的理解、空間・物理的推論能力が強化され、物理世界でのAI活用を加速させます。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T10:50:00+09:00",
+      "repoName": "google/gemini-api",
+      "repoUrl": "https://ai.google.dev/gemini-api/docs/changelog",
+      "articleUrl": "./articles/tools/2026-04-15-gemini-robotics-er-1-6-preview.html",
+      "serial": 136
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-15-github-copilot-fedramp-compliance",
       "title": "GitHub Copilot: FedRAMP準拠とデータレジデンシー対応を発表",
       "dek": "米国連邦政府のセキュリティ基準であるFedRAMPへの準拠や、米国・EUでのデータ保管対応など、エンタープライズ向けの機能が強化されました。",
