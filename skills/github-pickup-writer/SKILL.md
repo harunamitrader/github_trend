@@ -35,7 +35,8 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 - Use a concrete `meta description` that matches the article's actual dek or summary; avoid vague boilerplate such as "要点を整理した記事".
 - `data/articles.json` にエントリを追加する際、以下のメタデータを必ず推論・設定してください。
   - `originType`: 常に `"pickup"` を設定。
-  - `genre`: 記事の内容に基づいて以下の9分類から最も適切な日本語を1つ選定して設定します。 ["AIコーディング (CLI本体・拡張機能)", "AIコーディング (ワークフロー・プロンプト・開発補助ツール)", "AIエージェント (自律基盤・特化アプリ)", "金融・トレード分析", "メディア作成・Web生成 (動画・画像・UI)", "ナレッジ管理・RAG解析", "スクレイピング・情報収集・セキュリティ", "汎用アプリ・AI基盤・IoT", "学習ガイド・開発アセット"]
+  - `genre`: 記事の内容に基づいて以下の9分類から最も適切な日本語を1つ選定して設定します。 ["AIコーディング (CLI本体・拡張機能)", "AIコーディング (ワークフロー・プロンプト・開発補助ツール)", "AIエージェント (自律基盤・特化アプリ)", "AI基盤・データ基盤・業務アプリ", "金融・トレード分析", "メディア作成・マルチモーダル・UI", "ナレッジ管理・RAG解析", "スクレイピング・情報収集・セキュリティ", "学習ガイド・開発アセット"]
+  - 分類は実装形態ではなく、読者が得る主価値で決めます。ブラウザやツールを自律操作する repo は `AIエージェント (自律基盤・特化アプリ)` を優先し、音声・画像・動画・UI 生成や処理が主価値なら `メディア作成・マルチモーダル・UI`、基盤モデル・データ基盤・業務アプリ寄りなら `AI基盤・データ基盤・業務アプリ` を優先します。
 - Use `category: "github-pickup"` for the JSON entry.
 - Save pickup articles under `articles/github/daily/`.
 - Add `serial` to the JSON entry and show the shared GitHub serial in the article page.

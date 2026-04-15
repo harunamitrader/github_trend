@@ -127,7 +127,7 @@
       "rank": 4,
       "serial": 219,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -159,7 +159,7 @@
       "rank": 12,
       "serial": 217,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -356,7 +356,7 @@
       "articleUrl": "./articles/github/daily/2026-04-14-scitix-siclaw.html",
       "serial": 212,
       "originType": "pickup",
-      "genre": "AIエージェント (基盤・コンポーネント)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "ai-tool-log",
@@ -469,7 +469,7 @@
       "rank": 12,
       "serial": 211,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -485,7 +485,7 @@
       "articleUrl": "./articles/github/daily/2026-04-14-matevip-mateclaw.html",
       "serial": 210,
       "originType": "pickup",
-      "genre": "AIエージェント (基盤・コンポーネント)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -779,7 +779,7 @@
       "rank": 11,
       "serial": 195,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -812,7 +812,7 @@
       "articleUrl": "./articles/github/daily/2026-04-12-lyogavin-airllm.html",
       "serial": 193,
       "originType": "pickup",
-      "genre": "ローカルLLM・推論高速化・モデル量子化"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -828,7 +828,7 @@
       "articleUrl": "./articles/github/daily/2026-04-12-greensheep01201-claw-empire.html",
       "serial": 192,
       "originType": "pickup",
-      "genre": "AIエージェント・マルチエージェント・オーケストレーション"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -924,7 +924,7 @@
       "articleUrl": "./articles/github/daily/2026-04-12-ahujasid-blender-mcp.html",
       "serial": 186,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "ai-tool-log",
@@ -1239,7 +1239,7 @@
       "rank": 11,
       "serial": 175,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "ai-tool-log",
@@ -1463,7 +1463,7 @@
       "rank": 4,
       "serial": 170,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -1621,7 +1621,7 @@
       "articleUrl": "./articles/github/daily/2026-04-09-goharbor-harbor-pickup.html",
       "serial": 164,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -1698,7 +1698,7 @@
       "rank": 6,
       "serial": 162,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -1732,7 +1732,7 @@
       "rank": 8,
       "serial": 158,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -1986,7 +1986,7 @@
       "articleUrl": "./articles/github/daily/2026-04-08-nvidia-nemo-nemotron-pickup.html",
       "serial": 149,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -2034,7 +2034,7 @@
       "articleUrl": "./articles/github/daily/2026-04-08-jimmylv-awesome-nano-banana-pickup.html",
       "serial": 146,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -2114,7 +2114,7 @@
       "articleUrl": "./articles/github/daily/2026-04-08-nvidia-personaplex-pickup.html",
       "serial": 141,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -2174,7 +2174,7 @@
       "createdAt": "2026-04-08T16:20:00+09:00",
       "serial": 138,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -2208,7 +2208,7 @@
       "createdAt": "2026-04-08T16:10:00+09:00",
       "serial": 136,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "ai-tool-log",
@@ -2401,7 +2401,7 @@
       "rank": 9,
       "serial": 124,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -2418,7 +2418,7 @@
       "rank": 10,
       "serial": 123,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-trending",
@@ -2497,7 +2497,7 @@
       "rank": 5,
       "serial": 119,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -2514,7 +2514,7 @@
       "rank": 4,
       "serial": 118,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -2629,7 +2629,7 @@
       "serial": 115,
       "summary": "プロンプトからWebアプリを自律的に構築・デプロイできるセルフホスト型プラットフォーム。SvelteとPocketBaseをベースにした軽量設計。",
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "slug": "2026-04-06-unclecode-crawl4ai",
@@ -2663,7 +2663,7 @@
       "serial": 113,
       "summary": "AIエージェント構築とLLMデプロイを支える統合ツールキット。統一APIやCUI/Web UIコンポーネント、インフラ管理ツールを同梱。",
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "slug": "2026-04-06-ultraworkers-claw-code",
@@ -2697,7 +2697,7 @@
       "serial": 111,
       "summary": "オンデバイスAIの最新ユースケースを紹介するギャラリーアプリ。クラウドを介さずローカルで推論プロセスやマルチモーダル機能を試用可能。",
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -2741,7 +2741,7 @@
       "rank": 1,
       "serial": 109,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -2758,7 +2758,7 @@
       "rank": 5,
       "serial": 108,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -2912,7 +2912,7 @@
       "articleUrl": "./articles/github/daily/2026-04-04-kevinrgu-autoagent-pickup.html",
       "serial": 97,
       "originType": "pickup",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -2928,7 +2928,7 @@
       "articleUrl": "./articles/github/daily/2026-04-04-ziyang-xie-worldgen-pickup.html",
       "serial": 96,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -2989,7 +2989,7 @@
       "rank": 4,
       "serial": 100,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -3006,7 +3006,7 @@
       "rank": 3,
       "serial": 99,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "ai-tool-log",
@@ -3078,7 +3078,7 @@
       "articleUrl": "./articles/github/daily/2026-04-03-webadderall-recordly.html",
       "serial": 92,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -3094,7 +3094,7 @@
       "articleUrl": "./articles/github/daily/2026-04-03-nousresearch-hermes-agent-self-evolution.html",
       "serial": 91,
       "originType": "pickup",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -3142,7 +3142,7 @@
       "articleUrl": "./articles/github/daily/2026-04-03-openagents-org-openagents.html",
       "serial": 85,
       "originType": "pickup",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -3220,7 +3220,7 @@
       "rank": 1,
       "serial": 86,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "ai-tool-log",
@@ -3348,7 +3348,7 @@
       "articleUrl": "./articles/github/daily/2026-04-02-jipraks-yt-short-clipper.html",
       "serial": 81,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -3429,7 +3429,7 @@
       "rank": 14,
       "serial": 77,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -3603,7 +3603,7 @@
       "articleUrl": "./articles/github/daily/2026-04-01-leoyeai-openclaw-auto-dream.html",
       "serial": 73,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-update-report",
@@ -3647,7 +3647,7 @@
       "rank": 12,
       "serial": 70,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -3893,7 +3893,7 @@
       "createdAt": "2026-03-31T21:21:59+09:00",
       "serial": 64,
       "originType": "pickup",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -3961,7 +3961,7 @@
       "createdAt": "2026-03-31T07:03:05+09:00",
       "serial": 52,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -3995,7 +3995,7 @@
       "createdAt": "2026-03-31T07:03:05+09:00",
       "serial": 53,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -4097,7 +4097,7 @@
       "createdAt": "2026-03-31T07:03:05+09:00",
       "serial": 51,
       "originType": "trending",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -4345,7 +4345,7 @@
       "createdAt": "2026-03-30T12:41:35+09:00",
       "serial": 48,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -4379,7 +4379,7 @@
       "createdAt": "2026-03-30T12:37:55+09:00",
       "serial": 46,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -4413,7 +4413,7 @@
       "createdAt": "2026-03-30T05:10:16+09:00",
       "serial": 39,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -4553,7 +4553,7 @@
       "createdAt": "2026-03-29T15:54:26+09:00",
       "serial": 19,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -4587,7 +4587,7 @@
       "createdAt": "2026-03-29T21:37:23+09:00",
       "serial": 37,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -4621,7 +4621,7 @@
       "createdAt": "2026-03-29T21:28:49+09:00",
       "serial": 36,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -4638,7 +4638,7 @@
       "createdAt": "2026-03-29T21:26:40+09:00",
       "serial": 35,
       "originType": "pickup",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-trending",
@@ -4655,7 +4655,7 @@
       "createdAt": "2026-03-29T15:32:45+09:00",
       "serial": 16,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -4672,7 +4672,7 @@
       "createdAt": "2026-03-29T21:20:45+09:00",
       "serial": 34,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -4757,7 +4757,7 @@
       "createdAt": "2026-03-29T19:32:40+09:00",
       "serial": 29,
       "originType": "pickup",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -4842,7 +4842,7 @@
       "createdAt": "2026-03-29T16:55:44+09:00",
       "serial": 20,
       "originType": "pickup",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -4893,7 +4893,7 @@
       "createdAt": "2026-03-29T16:55:44+09:00",
       "serial": 21,
       "originType": "pickup",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -4999,7 +4999,7 @@
       "createdAt": "2026-03-27T05:20:45+09:00",
       "serial": 14,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -5033,7 +5033,7 @@
       "createdAt": "2026-03-27T05:20:45+09:00",
       "serial": 11,
       "originType": "trending",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-trending",
@@ -5108,7 +5108,7 @@
       "createdAt": "2026-03-26T10:07:57+09:00",
       "serial": 9,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-trending",
@@ -5125,7 +5125,7 @@
       "createdAt": "2026-03-26T10:07:57+09:00",
       "serial": 8,
       "originType": "trending",
-      "genre": "汎用アプリ・AI基盤・IoT"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
@@ -5142,7 +5142,7 @@
       "createdAt": "2026-03-26T10:07:57+09:00",
       "serial": 7,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-trending",
@@ -5349,7 +5349,7 @@
       "createdAt": "2026-03-24T12:55:44+09:00",
       "serial": 2,
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-trending",
@@ -5417,7 +5417,7 @@
       "createdAt": "2026-03-24T12:34:14+09:00",
       "serial": 1,
       "originType": "trending",
-      "genre": "AIコーディング (プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "ai-tool-log",
@@ -5955,7 +5955,7 @@
       "repoName": "ui-gen/glass-magic",
       "articleUrl": "./articles/github/daily/2026-04-08-glass-magic.html",
       "originType": "trending",
-      "genre": "メディア作成・Web生成 (動画・画像・UI)",
+      "genre": "メディア作成・マルチモーダル・UI",
       "rank": 3,
       "serial": 132,
       "repoUrl": "https://github.com/ui-gen/glass-magic",
