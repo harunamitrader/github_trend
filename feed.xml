@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 20:40:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 05:46:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-16 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-16-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-16-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[andrej-karpathy-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dive-into-llms]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-lordog-dive-into-llms.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-lordog-dive-into-llms.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-hedge-fund]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-virattt-ai-hedge-fund.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-virattt-ai-hedge-fund.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のAIエージェントが「アナリスト」「リスク管理者」「ポートフォリオマネージャー」として協調し、投資判断を下す仮想ヘッジファンド。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[superpowers]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-obra-superpowers.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-obra-superpowers.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントのスキルフレームワークと実用的な開発手法を統合し、効率的かつ安全な自律型ワークフローを実現するツールキット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[public-apis]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-public-apis-public-apis.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-public-apis-public-apis.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[開発者が無料で利用できる各種APIをまとめた、オープンソースコミュニティによる巨大なキュレーションリスト。]]></description>
+    </item>
     <item>
       <title><![CDATA[nixtla]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nixtla-nixtla.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[視覚的理解、高度な空間・物理的推論能力を備えた、ロボット工学タスクに特化した新しいプレビューモデルが登場。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: FedRAMP準拠とデータレジデンシー対応を発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-github-copilot-fedramp-compliance.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-github-copilot-fedramp-compliance.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[米国連邦政府のセキュリティ基準であるFedRAMPへの準拠や、米国・EUでのデータ保管対応など、エンタープライズ向けの機能が強化されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.37.2: Skillシステムの進化とアーキテクチャ刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-cli-v0-37-2-skill-system-evolution.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-cli-v0-37-2-skill-system-evolution.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SkillパッチのサポートやバックグラウンドでのSkill抽出など、Skillシステムが大幅に進化。アーキテクチャも刷新されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.78.0: 支出制限UIとKanbanボード統合を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cline-v3-78-0-spend-limit-ui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cline-v3-78-0-spend-limit-ui.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[支出制限に達した際の専用UIや、デフォルトで起動するKanbanボードなど、コスト管理とタスク管理機能が改善されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Windsurf 1.9600.41: Adaptive Model Router と最新モデルサポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-windsurf-1-9600-41-adaptive-model-router.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-windsurf-1-9600-41-adaptive-model-router.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[タスクに応じて最適なモデルを自動選択する機能や、GPT-5.4、Claude Sonnet 4.6など最新モデルへの対応が進んでいます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor 3.1: Agents Window と Design Mode で開発体験を革新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-3-1-agents-window-design-mode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-3-1-agents-window-design-mode.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数のAIエージェントを並列実行できる「Agents Window」や、UIを直接指示できる「Design Mode」が登場。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.108: プロンプトキャッシュとセッション要約(recap)を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-claude-code-v2-1-108-cache-recap.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-claude-code-v2-1-108-cache-recap.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロンプトキャッシュのTTL設定や、セッション復帰時の要約機能追加で、より効率的な利用が可能になりました。]]></description>
     </item>
   </channel>
 </rss>

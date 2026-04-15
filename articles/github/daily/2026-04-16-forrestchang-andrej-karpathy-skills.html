@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="forrestchang/andrej-karpathy-skills の概要と、Claude Codeのプロンプトを劇的に改善するツールの解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>andrej-karpathy-skills - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">andrej-karpathy-skills</h1>
+      <p class="article-dek">Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>1位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noreferrer">
+              forrestchang/andrej-karpathy-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>42,183</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          著名なAI研究開発者である Andrej Karpathy 氏がSNS等で発信した「LLMがコード生成時に陥りやすい罠や欠陥」に関する知見を集約し、Claude Code 向けの設定・指示プロンプト（<code>CLAUDE.md</code>）へと落とし込んだ単一のファイルからなるプロジェクトです。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>意図しない破壊的変更の防止</strong>: AIが既存の正常な設定ファイルやインフラコードを無闇に書き換える癖を抑制します。</li>
+          <li><strong>コンテキスト維持の強制</strong>: 長い対話でもLLMが過去の文脈を忘却せず、一貫したアーキテクチャ設計を維持するよう指示。</li>
+          <li><strong>問題解決のルーティング</strong>: バグに直面した際、推測でコードを切り刻む前に、まずはプリントデバッグなどで確実に仮説検証させてから修正を行わせる思考プロセスを定義。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          本リポジトリの核となるのは <code>CLAUDE.md</code> というプレーンテキストのルール指示書のみであり、極めてシンプルな構成です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          プロジェクトの手元にあるルートディレクトリに <code>CLAUDE.md</code> をコピーして配置するだけです。Claude Code （や、それに類似機能を持つ対応エッジブラウザ/エディタ）は、この指示をシステムガイドラインとして暗黙的に読み込み、自身の振る舞いを修正します。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          日々のコーディングでAIエージェントを使用しており、AIの「暴走」や「幻覚（ハルシネーション）による余計なファイル修正」に悩まされているすべての開発者に対する、軽量で即効性のある解決策です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          ファイル一つであっても全タスクで読み込まれるため、プロンプト容量の消費（トークンへの影響）が発生します。小規模タスクに対してはやや過剰な指示出しになる可能性もあります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          AI開発ツールの効果を高めるには、コードそのものよりも「エージェントにどう振る舞わせるかのルール」が最も重要であることを証明する、ミニマリストでありながら強力なアプローチの好例です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noreferrer">forrestchang/andrej-karpathy-skills</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
