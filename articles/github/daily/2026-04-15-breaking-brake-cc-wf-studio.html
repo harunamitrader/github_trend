@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="breaking-brake/cc-wf-studio を読み、要点を実用寄りに整理した記事。AIエージェントのワークフローを視覚的に可視化・設計するツールの解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cc-wf-studio</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cc-wf-studio</h1>
+      <p class="article-dek">「人間は視点で考え、AIはMarkdownで考える」を体現する、AIエージェント向けワークフロー可視化・設計スタジオ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/breaking-brake/cc-wf-studio" target="_blank" rel="noreferrer">
+              breaking-brake/cc-wf-studio
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          CC Workflow Studio（cc-wf-studio）は、Claude Code や Roo Code などの AI エージェントが実行する「手順（スキルやワークフロー）」を、VSCode 上で視覚的に設計できる拡張機能です。
+          AI エージェントに複雑なタスクを依頼する際、プロンプトが巨大化しすぎて制御不能になることがありますが、このツールを使えば、ノードベースのキャンバスで論理構造を整理し、人間と AI の双方が理解しやすい形式で定義を行うことができます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>視覚的なワークフロー設計</strong>: フローチャートのようにノードを繋ぎ、AI が次に何を実行すべきかを定義。</li>
+          <li><strong>マルチプラットフォーム出力</strong>: 設計したフローを Claude Code, GitHub Copilot, Roo Code, Gemini CLI, Cursor などの設定ファイルとして一括書き出し。</li>
+          <li><strong>MCP との統合</strong>: Model Context Protocol を通じた外部ツールの呼び出しを、フローの一部として組み込み可能。</li>
+          <li><strong>サブエージェント管理</strong>: 計画、リサーチ、実装といった役割分担を、プリセット化されたサブエージェントに割り当て。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、作成した「設計図」の圧倒的な汎用性にあります。特定の IDE や AI サービスに縛られることなく、一度設計したワークフローをブラウザ（Gemini）、ターミナル（Claude Code）、IDE（Cursor）のどこでも使い回せる点は、マルチ AI 時代において非常に強力なアドバンテージです。
+          直近では、Google の AI IDE「Antigravity (Cascade)」への正式対応も果たしており、エコシステムの爆発的な広がりに対応しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          VSCode のマーケットプレイスから <code>CC Workflow Studio</code> を検索し、インストールします。
+          インストール後、サイドバーからスタジオを立ち上げ、キャンバスにノードをドラッグ＆ドロップしてフローを作成します。
+          最後に「Export」ボタンをクリックするだけで、プロジェクト配下の <code>.claude/</code> や <code>.github/</code> ディレクトリに、AI エージェントが読み込める形式でスキル定義が保存されます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          大規模なリファクタリングや、新規サービスの要件定義から実装までを AI エージェントに任せたいエンジニアに最適です。
+          また、チーム内で「AI に実行させるベストプラクティス」をドキュメントではなく、実行可能なワークフローとして共有したい開発チームにとっても強力な武器となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          本ツールはワークフローの「設計」を行うものであり、AI 本体の推論性能を向上させるものではありません。
+          また、書き出したスキルを実行するためには、ターゲットとなる各 AI エージェント（Claude Code 等）の最新バージョンが正しくセットアップされている必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>breaking-brake/cc-wf-studio</code> は、AI エージェントを「ただのチャット履歴」から「再利用可能な開発資産」へと昇華させるツールです。
+          AI との協働をより構造化し、確実な成果を求めるエンジニアにとって、現在のデファクトスタンダードとなりつつある VSCode 拡張機能の一つと言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/breaking-brake/cc-wf-studio" target="_blank" rel="noreferrer">breaking-brake/cc-wf-studio</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

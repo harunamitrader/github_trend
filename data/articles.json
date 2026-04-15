@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-15-breaking-brake-cc-wf-studio",
+      "title": "cc-wf-studio",
+      "dek": "AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。",
+      "summary": "cc-wf-studio（CC Workflow Studio）は、AIエージェントのスキルやワークフローをノードベースで可視化・設計するためのスタジオです。設計したフローは複数のAIツール向けにエクスポート可能で、マルチエージェント環境での開発を構造化します。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T21:18:00+09:00",
+      "repoName": "breaking-brake/cc-wf-studio",
+      "repoUrl": "https://github.com/breaking-brake/cc-wf-studio",
+      "starCount": 4700,
+      "articleUrl": "./articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html",
+      "serial": 224,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-15-mininglamp-ai-mano-p",
       "title": "MANO-P",
       "dek": "エッジデバイス（Mac mini/MacBook等）上で動作し、OSWorldベンチマーク1位を記録した高性能なGUI操作自動化エージェント。",

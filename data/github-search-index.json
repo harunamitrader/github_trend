@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-15T12:15:51.608164+00:00",
-  "count": 245,
+  "generatedAt": "2026-04-15T12:18:52.227357+00:00",
+  "count": 246,
   "articles": [
+    {
+      "slug": "2026-04-15-breaking-brake-cc-wf-studio",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cc-wf-studio",
+      "dek": "AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。",
+      "summary": "cc-wf-studio（CC Workflow Studio）は、AIエージェントのスキルやワークフローをノードベースで可視化・設計するためのスタジオです。設計したフローは複数のAIツール向けにエクスポート可能で、マルチエージェント環境での開発を構造化します。",
+      "repoName": "breaking-brake/cc-wf-studio",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T21:18:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html",
+      "serial": 224,
+      "searchText": "cc-wf-studio AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。 cc-wf-studio（CC Workflow Studio）は、AIエージェントのスキルやワークフローをノードベースで可視化・設計するためのスタジオです。設計したフローは複数のAIツール向けにエクスポート可能で、マルチエージェント環境での開発を構造化します。 breaking-brake/cc-wf-studio AIコーディング (ワークフロー・プロンプト・開発補助ツール) cc-wf-studio ← 記事一覧へ戻る GitHub Watcher cc-wf-studio 「人間は視点で考え、AIはMarkdownで考える」を体現する、AIエージェント向けワークフロー可視化・設計スタジオ。 記事作成日 2026-04-15 種別 Pickup 対象 repo breaking-brake/cc-wf-studio Star数 4,700 これは何か CC Workflow Studio（cc-wf-studio）は、Claude Code や Roo Code などの AI エージェントが実行する「手順（スキルやワークフロー）」を、VSCode 上で視覚的に設計できる拡張機能です。 AI エージェントに複雑なタスクを依頼する際、プロンプトが巨大化しすぎて制御不能になることがありますが、このツールを使えば、ノードベースのキャンバスで論理構造を整理し、人間と AI の双方が理解しやすい形式で定義を行うことができます。 何ができるか 視覚的なワークフロー設計 : フローチャートのようにノードを繋ぎ、AI が次に何を実行すべきかを定義。 マルチプラットフォーム出力 : 設計したフローを Claude Code, GitHub Copilot, Roo Code, Gemini CLI, Cursor などの設定ファイルとして一括書き出し。 MCP との統合 : Model Context Protocol を通じた外部ツールの呼び出しを、フローの一部として組み込み可能。 サブエージェント管理 : 計画、リサーチ、実装といった役割分担を、プリセット化されたサブエージェントに割り当て。 目立つポイント 最大の特徴は、作成した「設計図」の圧倒的な汎用性にあります。特定の IDE や AI サービスに縛られることなく、一度設計したワークフローをブラウザ（Gemini）、ターミナル（Claude Code）、IDE（Cursor）のどこでも使い回せる点は、マルチ AI 時代において非常に強力なアドバンテージです。 直近では、Google の AI IDE「Antigravity (Cascade)」への正式対応も果たしており、エコシステムの爆発的な広がりに対応しています。 セットアップや使い方の流れ VSCode のマーケットプレイスから CC Workflow Studio を検索し、インストールします。 インストール後、サイドバーからスタジオを立ち上げ、キャンバスにノードをドラッグ＆ドロップしてフローを作成します。 最後に「Export」ボタンをクリックするだけで、プロジェクト配下の .claude/ や .github/ ディレクトリに、AI エージェントが読み込める形式でスキル定義が保存されます。 どんな人向けか 大規模なリファクタリングや、新規サービスの要件定義から実装までを AI エージェントに任せたいエンジニアに最適です。 また、チーム内で「AI に実行させるベストプラクティス」をドキュメントではなく、実行可能なワークフローとして共有したい開発チームにとっても強力な武器となります。 注意点 本ツールはワークフローの「設計」を行うものであり、AI 本体の推論性能を向上させるものではありません。 また、書き出したスキルを実行するためには、ターゲットとなる各 AI エージェント（Claude Code 等）の最新バージョンが正しくセットアップされている必要があります。 まとめ breaking-brake/cc-wf-studio は、AI エージェントを「ただのチャット履歴」から「再利用可能な開発資産」へと昇華させるツールです。 AI との協働をより構造化し、確実な成果を求めるエンジニアにとって、現在のデファクトスタンダードとなりつつある VSCode 拡張機能の一つと言えるでしょう。 参照リンク breaking-brake/cc-wf-studio"
+    },
     {
       "slug": "2026-04-15-mininglamp-ai-mano-p",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 12:18:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 21:18:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[cc-wf-studio]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。]]></description>
+    </item>
     <item>
       <title><![CDATA[MANO-P]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Native DevTools MCP]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-sh3ll3x3c-native-devtools-mcp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。]]></description>
     </item>
   </channel>
 </rss>
