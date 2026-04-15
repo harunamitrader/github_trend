@@ -16,15 +16,17 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 1. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\AGENTS.md`.
 2. Read `references/article-outline.md`.
 3. Confirm the target repository or repository URL from the user request.
-4. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same `repoName` is already published as pickup content.
-5. Read only the target repository page and the minimum extra material needed to explain what it is, and capture the current public GitHub star count.
-6. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
-7. Append one `category: "github-pickup"` entry to `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json`.
-8. Assign the next GitHub serial number by reading existing `github-trending` and `github-pickup` entries and incrementing the largest `serial`. Do not consume `github-update-report` numbers.
-9. Refresh `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\github-search-index.json` via `generate_github_search_index.py`.
-10. Refresh `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\feed.xml` via `generate_rss.py` when the article list changes.
-11. Verify links, dates, category, serial, relative paths, and obvious Japanese typos before finalizing.
-12. Commit once and push once inside `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base`.
+4. Resolve the target repository to the canonical GitHub URL after redirects, and normalize `repoName` to canonical `owner/repo` casing before writing anything.
+5. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same canonical `repoName` / `repoUrl` is already published.
+6. If the same repository already has an older visible GitHub Watcher article, keep only the latest correct one instead of creating a second visible duplicate.
+7. Read only the target repository page and the minimum extra material needed to explain what it is, and capture the current public GitHub star count.
+8. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
+9. Append or replace one `category: "github-pickup"` entry in `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` using the canonical `repoName` / `repoUrl`.
+10. Assign the next GitHub serial number by reading existing `github-trending` and `github-pickup` entries and incrementing the largest `serial`. Do not consume `github-update-report` numbers.
+11. Refresh `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\github-search-index.json` via `generate_github_search_index.py`.
+12. Refresh `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\feed.xml` via `generate_rss.py` when the article list changes.
+13. Verify links, dates, category, serial, relative paths, and obvious Japanese typos before finalizing.
+14. Commit once and push once inside `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base`.
 
 ## Rules
 

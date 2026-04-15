@@ -58,6 +58,8 @@ JSON 記述に関する期待事項：
 - `summary` は `dek` よりも長く、または具体的な内容にします
 - `articleUrl` は `articles/github/` 配下の実際のファイルパスと一致させる必要があります
 - GitHub Watcher 本体の記事では `starCount` を現在の public star 数（整数）として保存し、記事ページのメタデータにも表示します
+- GitHub リポジトリは、リダイレクト後の canonical URL を `repoUrl` に保存し、`repoName` もその canonical `owner/repo` に合わせます
+- 同じ canonical GitHub リポジトリに対して複数の visible エントリを残さず、必要な場合は最新記事を残して古い重複を差し替えます
 - `github-update-report` の `articleUrl` は `./articles/github/reports/` を使います
 - カテゴリのセマンティクスは `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\AGENTS.md` のリポジトリルールと互換性を保ちます
 

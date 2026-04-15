@@ -14,17 +14,18 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 1. `references/site-contract.md` を確認します。
 2. GitHub Trending を最新の情報源として読み込み、**https://github.com/trending のページに掲載されているすべての順位・リポジトリ**をリストアップします。
 3. `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` を読み込みます。
-4. 取得したすべてのTrendingリポジトリを既存の `repoName` エントリと比較します。
-5. ページ上の全順位の中から、未作成のリポジトリを**順位順に最大5つ**選びます。
-6. 記事の作成順は、選定後に**下位順位のものから先に**進めます。これにより、あとから追加される上位順位の記事が一覧上で上に並びやすくなります。
-7. ページ上のすべてのリポジトリを調査しても未作成がない場合は、コンテンツの変更は行いません。
-8. 各リポジトリについて、リポジトリページと最低限の追加情報を読み、内容を把握し、公開時点の GitHub star 数を取得します。
-9. `references/article-outline.md` に従い、日本語で記事を執筆します。形式は **GitHub Watcher** スタイルを厳守します。
-10. 新しい記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\` に保存します。
-11. 新しいエントリを `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` に追加します。
-12. 既存の `github-trending` と `github-pickup` を読み込み、最大の `serial` をインクリメントして GitHub Watcher 本体記事の新しい通し番号を割り当てます。
-13. 1つ以上の新しい記事が作成された場合、同日のアップデートレポート記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\reports\YYYY-MM-DD-update-report.html` に作成または更新します。
-14. `data/articles.json` に `category: "github-update-report"` のエントリを追加または更新します。アップデートレポートは GitHub Watcher 本体とは別カウントとして扱い、同日の重複エントリを作らないでください。
+4. 取得したすべてのTrendingリポジトリについて、GitHub 上で最終的に開かれる canonical なリポジトリ URL を確認し、`owner/repo` 形式の正規化済み `repoName` と `repoUrl` を確定します。
+5. その canonical な `repoName` / `repoUrl` を既存エントリと比較します。同じリポジトリが既にある場合は重複記事を増やさず、必要なら**最新記事を残して古い重複を置き換える**前提で扱います。
+6. ページ上の全順位の中から、未作成のリポジトリを**順位順に最大5つ**選びます。
+7. 記事の作成順は、選定後に**下位順位のものから先に**進めます。これにより、あとから追加される上位順位の記事が一覧上で上に並びやすくなります。
+8. ページ上のすべてのリポジトリを調査しても未作成がない場合は、コンテンツの変更は行いません。
+9. 各リポジトリについて、リポジトリページと最低限の追加情報を読み、内容を把握し、公開時点の GitHub star 数を取得します。
+10. `references/article-outline.md` に従い、日本語で記事を執筆します。形式は **GitHub Watcher** スタイルを厳守します。
+11. 新しい記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\` に保存します。
+12. `data/articles.json` には canonical な `repoName` / `repoUrl` を使って新規追加または既存重複の置き換えを行います。
+13. 既存の `github-trending` と `github-pickup` を読み込み、最大の `serial` をインクリメントして GitHub Watcher 本体記事の新しい通し番号を割り当てます。
+14. 1つ以上の新しい記事が作成された場合、同日のアップデートレポート記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\reports\YYYY-MM-DD-update-report.html` に作成または更新します。
+15. `data/articles.json` に `category: "github-update-report"` のエントリを追加または更新します。アップデートレポートは GitHub Watcher 本体とは別カウントとして扱い、同日の重複エントリを作らないでください。
 15. 記事リストが変更されたら、`generate_github_search_index.py` を実行して `data/github-search-index.json` を更新します。
 16. 記事リストが変更されたら、`generate_rss.py` を実行して `feed.xml` を更新します。
 17. リンク、日付、カテゴリ、シリアル番号、相対パスを検証します。

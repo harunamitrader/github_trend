@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-15T20:07:25.373437+00:00",
-  "count": 247,
+  "generatedAt": "2026-04-15T20:35:09.683522+00:00",
+  "count": 242,
   "articles": [
     {
       "slug": "2026-04-15-nixtla-nixtla",
@@ -99,13 +99,13 @@
       "title": "Claude-Mem",
       "dek": "Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。",
       "summary": "",
-      "repoName": "THEDOTMACK/CLAUDE-MEM",
+      "repoName": "thedotmack/claude-mem",
       "genre": "AIコーディング (CLI本体・拡張機能)",
       "publishedAt": "2026-04-15",
       "createdAt": "2026-04-15T12:00:00+09:00",
       "articleUrl": "./articles/github/daily/2026-04-15-claude-mem.html",
       "serial": 220,
-      "searchText": "Claude-Mem Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。 THEDOTMACK/CLAUDE-MEM AIコーディング (CLI本体・拡張機能) Claude-Mem - Persistent Memory System for Claude Code - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Claude-Mem Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。 分析日 2026-04-15 Trending 順位 2位 対象 repo THEDOTMACK/CLAUDE-MEM Star数 56,758 プロジェクトの概要 Claude-Mem は、Anthropic の CLI ツール「Claude Code」向けに開発された、高度なメモリ圧縮・管理システムです。 通常、AI との会話はセッションが終了するとコンテキストがリセットされますが、Claude-Mem を導入することで、過去の作業内容、設計上の判断、修正したバグの履歴などを「永続的な記憶」として蓄積できます。 これにより、次にエージェントを起動した際も、過去の経緯を踏まえたスムーズな開発再開が可能になります。 機能・できること 永続メモリ : セッションをまたいで重要な情報を保持。過去のコンテキストを自動的に要約して蓄積します。 セマンティック検索 : mem-search スキルを通じて、曖昧な指示から関連する過去の記憶を呼び出せます。 リアルタイム UI : ブラウザベースのダッシュボードで、現在エージェントが何を「記憶」しているかを視覚的に確認可能。 柔軟な制御 : <private> タグを使用して、特定の情報を記憶から除外するなどのプライバシー管理。 マルチエージェント対応 : Gemini CLI などの他のツールとの統合も視野に入れた設計。 リポジトリの構成 TypeScript と Node.js で構築されており、データ保存には SQLite、ベクトル検索には Chroma DB と Python を組み合わせたハイブリッドな構成を採用しています。 Bun を使用した高速なプロセス管理も特徴の一つです。 セットアップ・導入のイメージ npx claude-mem install コマンドを実行するだけで、Claude Code のスキルとして組み込まれます。 インストール後は、エージェントとの対話を通じて自動的にメモリが蓄積されていき、ユーザーは特別な操作を意識することなく恩恵を受けられます。 ターゲット層 / 注目ポイント Claude Code を日々のメインの開発ツールとして利用しているエンジニアにとって、もはや必須級の拡張機能です。 「あの時の修正内容を思い出して」といった指示が通るようになるため、長期にわたる複雑なプロジェクトでの生産性が劇的に向上します。 制約・リスク ライセンスが AGPL-3.0 であるため、商用利用や改変・配布の際には注意が必要です。 また、ベクトル検索の実行に伴い、わずかながら追加のトークン消費や計算リソースが発生します。機密情報の取り扱いには手動での制御が推奨されます。 まとめ THEDOTMACK/Claude-Mem は、AI コーディングにおける最大の課題の一つである「忘却」を解決する、非常に完成度の高いソリューションです。 Claude Code の可能性を最大限に引き出したいユーザーにとって、最高のパートナーとなるでしょう。 ソースリンク THEDOTMACK/CLAUDE-MEM"
+      "searchText": "Claude-Mem Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。 thedotmack/claude-mem AIコーディング (CLI本体・拡張機能) Claude-Mem - Persistent Memory System for Claude Code - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Claude-Mem Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。 分析日 2026-04-15 Trending 順位 2位 対象 repo thedotmack/claude-mem Star数 56,758 プロジェクトの概要 Claude-Mem は、Anthropic の CLI ツール「Claude Code」向けに開発された、高度なメモリ圧縮・管理システムです。 通常、AI との会話はセッションが終了するとコンテキストがリセットされますが、Claude-Mem を導入することで、過去の作業内容、設計上の判断、修正したバグの履歴などを「永続的な記憶」として蓄積できます。 これにより、次にエージェントを起動した際も、過去の経緯を踏まえたスムーズな開発再開が可能になります。 機能・できること 永続メモリ : セッションをまたいで重要な情報を保持。過去のコンテキストを自動的に要約して蓄積します。 セマンティック検索 : mem-search スキルを通じて、曖昧な指示から関連する過去の記憶を呼び出せます。 リアルタイム UI : ブラウザベースのダッシュボードで、現在エージェントが何を「記憶」しているかを視覚的に確認可能。 柔軟な制御 : <private> タグを使用して、特定の情報を記憶から除外するなどのプライバシー管理。 マルチエージェント対応 : Gemini CLI などの他のツールとの統合も視野に入れた設計。 リポジトリの構成 TypeScript と Node.js で構築されており、データ保存には SQLite、ベクトル検索には Chroma DB と Python を組み合わせたハイブリッドな構成を採用しています。 Bun を使用した高速なプロセス管理も特徴の一つです。 セットアップ・導入のイメージ npx claude-mem install コマンドを実行するだけで、Claude Code のスキルとして組み込まれます。 インストール後は、エージェントとの対話を通じて自動的にメモリが蓄積されていき、ユーザーは特別な操作を意識することなく恩恵を受けられます。 ターゲット層 / 注目ポイント Claude Code を日々のメインの開発ツールとして利用しているエンジニアにとって、もはや必須級の拡張機能です。 「あの時の修正内容を思い出して」といった指示が通るようになるため、長期にわたる複雑なプロジェクトでの生産性が劇的に向上します。 制約・リスク ライセンスが AGPL-3.0 であるため、商用利用や改変・配布の際には注意が必要です。 また、ベクトル検索の実行に伴い、わずかながら追加のトークン消費や計算リソースが発生します。機密情報の取り扱いには手動での制御が推奨されます。 まとめ THEDOTMACK/Claude-Mem は、AI コーディングにおける最大の課題の一つである「忘却」を解決する、非常に完成度の高いソリューションです。 Claude Code の可能性を最大限に引き出したいユーザーにとって、最高のパートナーとなるでしょう。 ソースリンク thedotmack/claude-mem"
     },
     {
       "slug": "2026-04-15-editor",
@@ -114,13 +114,13 @@
       "title": "Editor",
       "dek": "React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。",
       "summary": "",
-      "repoName": "PASCALORG/EDITOR",
+      "repoName": "pascalorg/editor",
       "genre": "メディア作成・マルチモーダル・UI",
       "publishedAt": "2026-04-15",
       "createdAt": "2026-04-15T11:55:00+09:00",
       "articleUrl": "./articles/github/daily/2026-04-15-editor.html",
       "serial": 219,
-      "searchText": "Editor React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。 PASCALORG/EDITOR メディア作成・マルチモーダル・UI Editor - Next-Gen 3D Building Design Platform - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Editor React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。 分析日 2026-04-15 Trending 順位 4位 対象 repo PASCALORG/EDITOR Star数 12,139 プロジェクトの概要 Pascal Editor は、ブラウザ上で直感的に3D建築モデルを構築・編集できるオープンソースのプラットフォームです。 最新の Web 規格である WebGPU を活用することで、従来の WebGL ベースのエディタを凌駕する描画性能と、複雑な 3D オブジェクトのリアルタイムな操作感を実現しています。 建築設計のプロトタイピングから、詳細なインテリアレイアウトまで、シームレスな編集体験を提供することを目指しています。 機能・できること 直感的な建築編集 : 壁の描画、床の生成、ゾーン（部屋）の定義、家具や設備の配置などをマウス操作で簡単に行えます。 階層的ノード管理 : 「サイト ＞ 建物 ＞ 階層」という論理的な構造でプロジェクトを管理。 リアルタイム保存・復元 : IndexedDB を利用した自動保存機能と、高度な Undo/Redo システムを搭載。 検証システム : 3D空間上での衝突判定や、配置ルールの検証をリアルタイムで実施。 リポジトリの構成 React 19、Next.js 16 という最新のフロントエンドスタックに加え、Three.js (WebGPU) と React Three Fiber を描画エンジンのコアに採用しています。 状態管理には Zustand、スキーマ検証には Zod を使用し、モノレポ管理には Turborepo、パッケージマネージャーには Bun を採用した非常にモダンな構成です。 セットアップ・導入のイメージ Bun がインストールされた環境であれば、以下の手順で即座に開発環境を起動できます。 bun install bun dev 最新のブラウザ（WebGPU 対応）で localhost:3000 にアクセスするだけで、リッチなエディタが立ち上がります。 ターゲット層 / 注目ポイント 建築家やインテリアデザイナーはもちろん、3D Web アプリケーションの開発手法を学びたいエンジニアにとっても垂涎のリポジトリです。 特に WebGPU を本格的に活用した大規模なアプリケーションの実装例として、技術的な注目度が非常に高まっています。 制約・リスク WebGPU などの最新技術に依存しているため、古いブラウザや一部のハードウェア環境では動作しません。 また、現在は v0.5.1 のプレリリース段階であり、API の破壊的変更や、複雑なシーンにおけるパフォーマンスのチューニングが課題として挙げられています。 まとめ PASCALORG/Editor は、Web ブラウザがプロフェッショナルな設計ツールとしてどこまで進化できるかを示す野心的なプロジェクトです。 オープンソースでありながら極めて高い完成度を誇り、今後の 3D Web 開発の指標となる可能性を秘めています。 ソースリンク PASCALORG/EDITOR"
+      "searchText": "Editor React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。 pascalorg/editor メディア作成・マルチモーダル・UI Editor - Next-Gen 3D Building Design Platform - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Editor React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。 分析日 2026-04-15 Trending 順位 4位 対象 repo pascalorg/editor Star数 12,139 プロジェクトの概要 Pascal Editor は、ブラウザ上で直感的に3D建築モデルを構築・編集できるオープンソースのプラットフォームです。 最新の Web 規格である WebGPU を活用することで、従来の WebGL ベースのエディタを凌駕する描画性能と、複雑な 3D オブジェクトのリアルタイムな操作感を実現しています。 建築設計のプロトタイピングから、詳細なインテリアレイアウトまで、シームレスな編集体験を提供することを目指しています。 機能・できること 直感的な建築編集 : 壁の描画、床の生成、ゾーン（部屋）の定義、家具や設備の配置などをマウス操作で簡単に行えます。 階層的ノード管理 : 「サイト ＞ 建物 ＞ 階層」という論理的な構造でプロジェクトを管理。 リアルタイム保存・復元 : IndexedDB を利用した自動保存機能と、高度な Undo/Redo システムを搭載。 検証システム : 3D空間上での衝突判定や、配置ルールの検証をリアルタイムで実施。 リポジトリの構成 React 19、Next.js 16 という最新のフロントエンドスタックに加え、Three.js (WebGPU) と React Three Fiber を描画エンジンのコアに採用しています。 状態管理には Zustand、スキーマ検証には Zod を使用し、モノレポ管理には Turborepo、パッケージマネージャーには Bun を採用した非常にモダンな構成です。 セットアップ・導入のイメージ Bun がインストールされた環境であれば、以下の手順で即座に開発環境を起動できます。 bun install bun dev 最新のブラウザ（WebGPU 対応）で localhost:3000 にアクセスするだけで、リッチなエディタが立ち上がります。 ターゲット層 / 注目ポイント 建築家やインテリアデザイナーはもちろん、3D Web アプリケーションの開発手法を学びたいエンジニアにとっても垂涎のリポジトリです。 特に WebGPU を本格的に活用した大規模なアプリケーションの実装例として、技術的な注目度が非常に高まっています。 制約・リスク WebGPU などの最新技術に依存しているため、古いブラウザや一部のハードウェア環境では動作しません。 また、現在は v0.5.1 のプレリリース段階であり、API の破壊的変更や、複雑なシーンにおけるパフォーマンスのチューニングが課題として挙げられています。 まとめ PASCALORG/Editor は、Web ブラウザがプロフェッショナルな設計ツールとしてどこまで進化できるかを示す野心的なプロジェクトです。 オープンソースでありながら極めて高い完成度を誇り、今後の 3D Web 開発の指標となる可能性を秘めています。 ソースリンク pascalorg/editor"
     },
     {
       "slug": "2026-04-15-apollo-11",
@@ -159,13 +159,13 @@
       "title": "Claude-Code-Best-Practice",
       "dek": "Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。",
       "summary": "",
-      "repoName": "SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE",
+      "repoName": "shanraisshan/claude-code-best-practice",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "publishedAt": "2026-04-15",
       "createdAt": "2026-04-15T11:40:00+09:00",
       "articleUrl": "./articles/github/daily/2026-04-15-claude-code-best-practice.html",
       "serial": 216,
-      "searchText": "Claude-Code-Best-Practice Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。 SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE AIコーディング (ワークフロー・プロンプト・開発補助ツール) Claude-Code-Best-Practice - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Claude-Code-Best-Practice Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。 分析日 2026-04-15 Trending 順位 13位 対象 repo SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE Star数 44,613 プロジェクトの概要 Anthropicの自律型CLIツール「Claude Code」を、単なるチャットツールから真の自律的な開発パートナーへと進化させるための知恵袋です。 「Vibe Coding（感覚的なコーディング）」の枠を超え、構造化された「Agentic Engineering（エージェント工学）」を実践するための具体的な手法がまとめられています。 機能・できること エージェント設計指針 : プロンプトやコマンド、カスタムスキルの最適な設計方法を学べます。 CLAUDE.md の最適化 : プロジェクト固有の文脈をエージェントに効率よく伝えるための設定ファイルの書き方。 ワークフローの自動化 : 定型的な開発作業を Claude Code に任せるための自動化事例の紹介。 プロンプトエンジニアリング : エージェントの自律性と正確性を高めるための高度なテクニック。 リポジトリの構成 Markdownファイルを中心としたドキュメント構成で、一部にPythonやHTMLのサンプルコードが含まれています。 論理的で分かりやすい構成になっており、各トピックごとに深い洞察が提供されています。 セットアップ・導入のイメージ 特別なインストールは不要で、リポジトリをクローンまたは直接ブラウザで閲覧して学習できます。 提供されているベストプラクティスを、自身のプロジェクトの CLAUDE.md や環境設定に反映させることで効果を実感できます。 ターゲット層 / 注目ポイント Claude Codeを導入したものの、「どう使いこなせば良いか分からない」「もっと自律的に動いてほしい」と感じているエンジニアがターゲットです。 AIとの協調開発における「作法」を体系化している点が、多くの開発者から支持されている理由です。 制約・リスク Claude Code 本体のアップデートが非常に速いため、一部の情報が古くなる可能性があります。 また、高度な自動化設定はプロジェクトの複雑性を増す可能性があるため、段階的な導入が推奨されます。 まとめ SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE は、AIネイティブな開発スタイルを確立したいユーザーにとって、必読のバイブルと言えるでしょう。 エージェントを「道具」から「チームメンバー」へと昇華させるためのヒントが詰まっています。 ソースリンク SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE"
+      "searchText": "Claude-Code-Best-Practice Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。 shanraisshan/claude-code-best-practice AIコーディング (ワークフロー・プロンプト・開発補助ツール) Claude-Code-Best-Practice - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Claude-Code-Best-Practice Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。 分析日 2026-04-15 Trending 順位 13位 対象 repo shanraisshan/claude-code-best-practice Star数 44,613 プロジェクトの概要 Anthropicの自律型CLIツール「Claude Code」を、単なるチャットツールから真の自律的な開発パートナーへと進化させるための知恵袋です。 「Vibe Coding（感覚的なコーディング）」の枠を超え、構造化された「Agentic Engineering（エージェント工学）」を実践するための具体的な手法がまとめられています。 機能・できること エージェント設計指針 : プロンプトやコマンド、カスタムスキルの最適な設計方法を学べます。 CLAUDE.md の最適化 : プロジェクト固有の文脈をエージェントに効率よく伝えるための設定ファイルの書き方。 ワークフローの自動化 : 定型的な開発作業を Claude Code に任せるための自動化事例の紹介。 プロンプトエンジニアリング : エージェントの自律性と正確性を高めるための高度なテクニック。 リポジトリの構成 Markdownファイルを中心としたドキュメント構成で、一部にPythonやHTMLのサンプルコードが含まれています。 論理的で分かりやすい構成になっており、各トピックごとに深い洞察が提供されています。 セットアップ・導入のイメージ 特別なインストールは不要で、リポジトリをクローンまたは直接ブラウザで閲覧して学習できます。 提供されているベストプラクティスを、自身のプロジェクトの CLAUDE.md や環境設定に反映させることで効果を実感できます。 ターゲット層 / 注目ポイント Claude Codeを導入したものの、「どう使いこなせば良いか分からない」「もっと自律的に動いてほしい」と感じているエンジニアがターゲットです。 AIとの協調開発における「作法」を体系化している点が、多くの開発者から支持されている理由です。 制約・リスク Claude Code 本体のアップデートが非常に速いため、一部の情報が古くなる可能性があります。 また、高度な自動化設定はプロジェクトの複雑性を増す可能性があるため、段階的な導入が推奨されます。 まとめ shanraisshan/claude-code-best-practice は、AIネイティブな開発スタイルを確立したいユーザーにとって、必読のバイブルと言えるでしょう。 エージェントを「道具」から「チームメンバー」へと昇華させるためのヒントが詰まっています。 ソースリンク shanraisshan/claude-code-best-practice"
     },
     {
       "slug": "2026-04-14-touchpoint-labs-touchpoint",
@@ -2133,21 +2133,6 @@
       "searchText": "claude-subconscious Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。 letta-ai/claude-subconscious は、Claude Code のセッションを監視しつつ Letta Agent に記憶とツールアクセスを与え、次のプロンプト前に補足を返す背景エージェントのデモです。 letta-ai/claude-subconscious AIコーディング (CLI本体・拡張機能) claude-subconscious ← 記事一覧へ戻る GitHub Watcher claude-subconscious GitHub #109 Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。 記事作成日 2026-04-04 トレンド順位 Rank 5 対象 repo letta-ai/claude-subconscious Star数 2,632 これは何か claude-subconscious は、Claude Code の下で Letta Agent を常駐させ、セッション transcript とコードベースを読みながら補助メッセージを返すデモアプリです。 README 冒頭でも本番利用向けではなく、実運用するなら Letta Code を使うよう明記されています。つまり製品というより、構成例として読む repo です。 何ができるか Claude Code のセッション開始、プロンプト送信前、ツール実行前、応答停止時に hook を差し込み、背景側の Letta Agent が transcript を処理します。 その Agent は Read、Grep、Glob、Web 検索などを使い、コードや会話を見ながら記憶を更新し、次のプロンプト前に whisper 形式で助言を差し込めます。 目立つポイント 記憶を CLAUDE.md に書き戻さず、stdout 経由で注入する設計なので、既存の運用ファイルを汚さないのが面白いです。 複数セッションを 1 つの Letta Agent に束ねて記憶共有する説明や、SDK tools の read-only / full / off 切り替えまであり、背景エージェント設計の教材として密度があります。 セットアップや使い方の流れ 導入は plugin marketplace 経由か source install で行い、最低限 LETTA_API_KEY を設定します。必要に応じて LETTA_MODEL 、 LETTA_AGENT_ID 、 LETTA_SDK_TOOLS を追加します。 動作の中心は Claude Code hook と Letta Code SDK の組み合わせで、Stop hook 側では transcript を非同期 worker へ渡し、Claude 側を待たせない作りです。 どんな人向けか / 注意点 Claude Code に長期記憶や背景エージェントを足したい人、Letta を使った coding assistant の実験をしたい人、hook 設計を学びたい人に向いています。 ただし transcript とコード読み取りを伴うので、権限設計とプライバシー管理は必須です。README 自体も production 用ではないと明示しています。 まとめ claude-subconscious は、Claude Code の外側にもう 1 層エージェントを置くと何ができるかを具体化した実験 repo です。2026-04-04 の Trending Rank 5 として見ても、背景メモリの設計例としてかなり示唆があります。 参照リンク GitHub Trending Trending mirror (一覧参照補助) letta-ai/claude-subconscious"
     },
     {
-      "slug": "2026-04-04-pascalorg-editor",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "editor",
-      "dek": "WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。",
-      "summary": "pascalorg/editor は、3D 建築シーンをノード・システム・Viewer に分けて管理し、編集 UI まで含めてブラウザ上で扱う React ベースの建築エディタです。",
-      "repoName": "pascalorg/editor",
-      "genre": "メディア作成・マルチモーダル・UI",
-      "publishedAt": "2026-04-04",
-      "createdAt": "2026-04-04T05:01:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-04-pascalorg-editor.html",
-      "serial": 100,
-      "searchText": "editor WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。 pascalorg/editor は、3D 建築シーンをノード・システム・Viewer に分けて管理し、編集 UI まで含めてブラウザ上で扱う React ベースの建築エディタです。 pascalorg/editor メディア作成・マルチモーダル・UI editor ← 記事一覧へ戻る GitHub Watcher editor GitHub #108 WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。 記事作成日 2026-04-04 トレンド順位 Rank 4 対象 repo pascalorg/editor Star数 12,139 これは何か editor は、React Three Fiber と WebGPU を使って 3D 建築プロジェクトを編集する Pascal Editor の monorepo です。 README では core 、 viewer 、 apps/editor を分け、シーン定義、3D 表示、実際の編集 UI を分離した構成が丁寧に説明されています。 何ができるか Site / Building / Level / Wall / Zone / Item などのノードで建物を表現し、壁、床、天井、屋根、ゾーン、家具配置まで 3D シーンとして管理できます。 Zustand の各 store、scene registry、dirty node ベースの system 更新で、編集操作と 3D 再計算を分けているのが特徴です。 目立つポイント 単なるデモではなく、ノード階層、イベントバス、空間グリッド、Boolean geometry、undo/redo まで README に整理されており、拡張前提の設計が見えます。 Viewer を既定表示層、Editor をツール拡張層として扱うので、建築編集機能を部分利用したいケースにも流用しやすそうです。 セットアップや使い方の流れ 開発開始はリポジトリのルートで bun install 後に bun dev を実行する想定です。Turborepo の watch と Next.js の editor アプリがまとめて立ち上がります。 本番ビルドや package 公開は turbo build と npm workspace publish を使う流れで、アプリとライブラリを同時に育てる前提です。 どんな人向けか / 注意点 建築・空間設計系の SaaS、3D 編集 UI を持つ業務アプリ、Three.js で大きめの編集体験を作りたいチームに向いています。 一方で技術スタックはかなり厚く、WebGPU 前提や monorepo 前提の理解も要ります。単純な 3D ビューア用途にはオーバースペックです。 まとめ editor は、建築向け 3D 編集の状態管理と表示責務をきちんと分けた、実装参考価値の高い repo です。2026-04-04 の Trending Rank 4 として見ても、構成そのものを学ぶ価値があります。 参照リンク GitHub Trending Trending mirror (一覧参照補助) pascalorg/editor"
-    },
-    {
       "slug": "2026-04-04-berriai-litellm",
       "category": "github-trending",
       "originType": "trending",
@@ -2583,21 +2568,6 @@
       "searchText": "openclaude Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。 Gitlawb/openclaude は、Claude Code 系 CLI のツール体験を維持しながら、OpenAI 互換 API を通して複数の LLM に接続できる fork です。openaiShim による形式変換と診断コマンド群で、マルチモデル運用を試しやすくしています。 Gitlawb/openclaude AIコーディング (CLI本体・拡張機能) openclaude ← 記事一覧へ戻る GitHub Watcher openclaude GitHub #073 Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。 記事作成日 2026-04-01 種別 Pickup 対象 repo Gitlawb/openclaude Star数 21,643 これは何か openclaude は、Claude Code 系の CLI を Anthropic 固定ではなく、OpenAI 互換 API を話せる任意のモデルで動かすための fork です。README では GPT-4o、Gemini、DeepSeek、Llama、Mistral、Ollama など幅広い接続先を想定し、CLI コマンド名はそのまま openclaude として配布しています。 何ができるか このリポジトリの売りは、元のツール体験を大きく崩さずにプロバイダだけ差し替える点です。README 上では bash、ファイル read/write/edit、grep、glob、agents、tasks、MCP、画像入力、スラッシュコマンド、サブエージェント、永続メモリまで動くと整理されています。 目立つポイント 中心は src/services/api/openaiShim.ts で、Anthropic 形式のメッセージや tool_use / tool_result、ストリーミングイベントを OpenAI Chat Completions API 向けに変換します。README では追加差分を 6 ファイル・依存追加なしとしており、fork の狙いを「全面改造」ではなく「接続層の差し替え」に絞っているのが分かりやすいです。 セットアップや使い方の流れ 最短は npm install -g @gitlawb/openclaude です。起動前に CLAUDE_CODE_USE_OPENAI=1 、 OPENAI_API_KEY 、 OPENAI_MODEL を設定し、必要なら OPENAI_BASE_URL で接続先を差し替えます。README には bun run smoke 、 doctor:runtime 、 hardening:check などの診断系コマンドもまとまっていて、導入後の事故を減らしやすい構成です。 どんな人向けか Claude Code 風の CLI ワークフローを、OpenAI 系やローカル LLM でも試したい人に向いています。特に、Ollama や LM Studio のようなローカル環境を含めて、同じ操作感で複数モデルを比較したい人には分かりやすい選択肢です。 注意点 README 自体が、出発点として 2026 年 3 月 31 日の source map 露出を明記しており、教育・研究用途の位置づけも強く打ち出しています。また、extended thinking や prompt caching のような Anthropic 固有機能はそのままでは再現されません。実運用前提なら、法的背景と「何が同じで何が違うか」を README の Disclaimer と Difference 節で確認した方がいいです。 まとめ openclaude は、Claude Code 系の操作感を維持したまま、モデル選択の自由度だけを大きく広げたい人向けの fork です。価値の中心は多機能さよりも「既存の CLI 体験を OpenAI 互換 API に移植する shim 設計」にあるので、マルチモデル化の実装例として読むと収穫があります。 参照リンク Gitlawb/openclaude 依頼元URL"
     },
     {
-      "slug": "2026-04-01-instructkr-claw-code",
-      "category": "github-pickup",
-      "originType": "pickup",
-      "title": "claw-code",
-      "dek": "Claude Code 系ハーネスの構造を Python で追い直しつつ、Rust 実装への移行も進めている研究色の強い再実装プロジェクト。",
-      "summary": "instructkr/claw-code は、Claude Code 系ハーネスの設計を観察しながら、Python ベースのクリーンルーム再実装と Rust 版統合を進める公開リポジトリです。マニフェスト出力やパリティ監査など、移植状況を確認する CLI 群が整理されています。",
-      "repoName": "instructkr/claw-code",
-      "genre": "AIコーディング (CLI本体・拡張機能)",
-      "publishedAt": "2026-04-01",
-      "createdAt": "2026-04-01T21:05:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-01-instructkr-claw-code.html",
-      "serial": 71,
-      "searchText": "claw-code Claude Code 系ハーネスの構造を Python で追い直しつつ、Rust 実装への移行も進めている研究色の強い再実装プロジェクト。 instructkr/claw-code は、Claude Code 系ハーネスの設計を観察しながら、Python ベースのクリーンルーム再実装と Rust 版統合を進める公開リポジトリです。マニフェスト出力やパリティ監査など、移植状況を確認する CLI 群が整理されています。 instructkr/claw-code AIコーディング (CLI本体・拡張機能) claw-code ← 記事一覧へ戻る GitHub Watcher claw-code GitHub #072 Claude Code 系ハーネスの構造を Python で追い直しつつ、Rust 実装への移行も進めている研究色の強い再実装プロジェクト。 記事作成日 2026-04-01 種別 Pickup 対象 repo instructkr/claw-code Star数 184,507 これは何か claw-code は、Claude Code 系のエージェントハーネス設計を観察しながら、公開可能な形で再構成していくためのリポジトリです。README では、現在の主軸を Python ベースのクリーンルーム再実装としつつ、より高速で安全な実行基盤として Rust 版の統合も進めていると説明しています。 何ができるか 現状の Python ワークスペースでは、マニフェスト出力、サブシステム一覧、コマンドとツールの棚卸し、要約表示、パリティ監査といった確認系の CLI をまとめて扱えます。テスト用ディレクトリも分かれており、完全互換のランタイムというより、構造理解と段階的移植を支える作業場として見るのが自然です。 目立つポイント 目立つのは 3 点です。1 つ目は src/ と tests/ を中心にした Python-first の構成。2 つ目は README 上で「元の露出スナップショットを追跡対象から外した」と明示し、現在の公開リポジトリを再実装側に寄せている点。3 つ目は dev/rust ブランチで Rust 版統合を進め、将来的な高速化とメモリ安全性を前面に出している点です。 セットアップや使い方の流れ README で案内されている入り方は素直です。まず python3 -m src.main summary や manifest で現在の移植状況を確認し、必要なら commands や tools サブコマンドで棚卸しを見ます。その後、 python3 -m unittest discover -s tests -v で検証し、ローカルに条件が揃っていれば parity-audit で差分確認を進める流れです。 どんな人向けか AI エージェントのツール接続やタスク実行のハーネス設計を研究したい人、Codex や OmX を使ったオーケストレーション実例を追いたい人、既存ツールの動きをクリーンルームに寄せて理解したい人に向いています。逆に、すぐ商用運用に入れたい完成品 CLI を探している場合は、現時点では少し研究寄りです。 注意点 README 自体が、元のシステムとの完全な runtime parity にはまだ達していないと書いています。また、出発点に法的・倫理的な議論を伴う文脈があるため、導入判断では README の Disclaimer や背景説明まで読むべきです。公開リポジトリは再実装に寄せられていますが、そこを雑に読み飛ばすと誤解しやすいタイプのプロジェクトです。 まとめ claw-code は、派手な話題性よりも「いま公開されている実体は何か」を押さえて読むと価値が見えます。現時点では Python で構造を揃えながら検証コマンドを整備し、次段として Rust 実装を育てている段階なので、完成品というより移植プロセスそのものを観察するためのリポジトリとして面白いです。 参照リンク instructkr/claw-code 依頼元URL"
-    },
-    {
       "slug": "2026-04-01-update-report",
       "category": "github-update-report",
       "originType": "",
@@ -2898,21 +2868,6 @@
       "searchText": "dev-tunnels クロスプラットフォームなトンネリングをコードで制御。デバッグや Web フックテストの自動化を強力に支援。 Microsoft が提供するトンネリング SDK を通じ、ローカルの開発サーバーを安全に外部公開し、Web フック連携やリモートデバッグを行う仕組みの解説。 microsoft/dev-tunnels AIコーディング (ワークフロー・プロンプト・開発補助ツール) dev-tunnels - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher dev-tunnels: ローカル環境をセキュアに全世界へ公開する Microsoft 製 SDK GitHub #058 クロスプラットフォームなトンネリングをコードで制御。デバッグや Web フックテストの自動化を強力に支援。 記事作成日 2026-03-31 トレンド順位 Rank 12 対象 repo microsoft/dev-tunnels Star数 457 リポジトリの概要 Microsoft Dev Tunnels は、ローカル開発サーバーをインターネット上に安全に公開（Expose）するための強力なサービスです。GitHub Trending に上がったこの SDK は、各種言語からプログラム的にトンネルを管理することを可能にします。 注目ポイント セキュアな認証: Microsoft Entra ID や GitHub アカウントによる高度なアクセス制御。 クロス言語サポート: C#, TypeScript/JavaScript, Go, Java, Python, Rust といった主要言語用 SDK の提供。 自動化の加速: Webhook のテスト、CI/CD からのセキュアな一時リンク生成など、手動操作を介さないフローを実現。 まとめ 開発環境の「一歩先」を行くためのツールとして、Dev Tunnels はローカルとクラウドの境界線をより安全で透明なものにしてくれます。 参照リンク GitHub Trending microsoft/dev-tunnels"
     },
     {
-      "slug": "2026-03-31-claude-code-best-practice",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "claude-code-best-practice",
-      "dek": "Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。",
-      "summary": "Claude Code を自律型エージェントとして使いこなすための、config 設定、MCP 連携、プロンプト例を集めたリポジトリの解析。",
-      "repoName": "shanraisshan/claude-code-best-practice",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
-      "publishedAt": "2026-03-31",
-      "createdAt": "2026-03-31T07:03:05+09:00",
-      "articleUrl": "./articles/github/daily/2026-03-31-claude-code-best-practice.html",
-      "serial": 51,
-      "searchText": "claude-code-best-practice Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。 Claude Code を自律型エージェントとして使いこなすための、config 設定、MCP 連携、プロンプト例を集めたリポジトリの解析。 shanraisshan/claude-code-best-practice AIコーディング (ワークフロー・プロンプト・開発補助ツール) claude-code-best-practice - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher claude-code-best-practice: 開発を加速させる秘伝の設定と MCP 活用術 GitHub #057 Claude Code のポテンシャルを引き出す 15 以上の Tip と、チーム開発でのベストプラクティスを網羅。 記事作成日 2026-03-31 トレンド順位 Rank 4 対象 repo shanraisshan/claude-code-best-practice Star数 44,613 リポジトリの概要 Anthropic の公式 AI エージェント「Claude Code」を最大限に活用するためのコミュニティ主導のナレッジベースです。最新の v2.1.8x 系列に最適化された設定や、実務でのハマりどころが整理されています。 注目ポイント 秘伝の config.json: トークン消費を抑えつつ高い精度を出すためのパラメータ設定。 MCP サーバーの連携術: データベースや API と Claude Code を繋ぐ Model Context Protocol の実用例。 チーム開発用プロンプト: 複数人で開発する際の一貫性を保つための System Prompt テンプレート。 まとめ Claude Code を単なるチャットツールとしてではなく、自律的な「ペアプログラマー」として使いこなしたい開発者にとって、まず最初に目を通すべきリポジトリと言えるでしょう。 参照リンク GitHub Trending shanraisshan/claude-code-best-practice"
-    },
-    {
       "slug": "2026-03-31-update-report",
       "category": "github-update-report",
       "originType": "",
@@ -3078,21 +3033,6 @@
       "searchText": "2026-03-30 更新レポート 5件のトレンド記事を追加しました。 agithub-trend-daily-writer 2026-03-30 更新レポート ← 記事一覧へ戻る GitHub Watcher 2026-03-30 更新レポート GitHub #002 5件のトレンド記事を追加しました。 記事作成日 2026-03-30 カテゴリ GitHub Trend Daily Update 【更新件数】 5件 【追加したリポジトリ】 luongnv89/claude-howto (Rank: 1) microsoft/VibeVoice (Rank: 3) NousResearch/hermes-agent (Rank: 4) thedotmack/claude-mem (Rank: 7) shareAI-lab/learn-claude-code (Rank: 10) 【ステータス】 正常に追加完了"
     },
     {
-      "slug": "2026-03-30-thedotmack-claude-mem",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "claude-mem",
-      "dek": "Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。",
-      "summary": "Claude Code に強力な長期記憶（Long-term memory）を追加し、セッション間の文脈を維持する非公式プラグイン。",
-      "repoName": "thedotmack/claude-mem",
-      "genre": "AIコーディング (CLI本体・拡張機能)",
-      "publishedAt": "2026-03-30",
-      "createdAt": "2026-03-30T05:10:16+09:00",
-      "articleUrl": "./articles/github/daily/2026-03-30-thedotmack-claude-mem.html",
-      "serial": 41,
-      "searchText": "claude-mem Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。 Claude Code に強力な長期記憶（Long-term memory）を追加し、セッション間の文脈を維持する非公式プラグイン。 thedotmack/claude-mem AIコーディング (CLI本体・拡張機能) claude-mem ← 記事一覧へ戻る GitHub Watcher claude-mem GitHub #046 Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。 記事作成日 2026-03-30 作成時順位 7位 対象 repo thedotmack/claude-mem Star数 56,758 これは何か Anthropic のコーディングエージェント「Claude Code」を使用している際、セッションを跨ぐと「さっき何をしていたか」を忘れてしまうという課題を解決するために作られた、非常に強力な非公式プラグインです。背後で動作するベクトルデータベース（Chroma）と RAG（検索拡張生成）技術を組み合わせることで、Claude Code に「永続的な長期記憶」を持たせることができます。リリースから数日で 4 万スターを突破した、驚異的な注目度のリポジトリです。 何ができるか コーディングセッション中の会話や、AI が行ったコード変更の履歴を自動的にバックグラウンドで記録し、AI によって自動的に要約・タグ付けを行います。再度プロジェクトを開いた際、Claude Code は過去の決定事項やコンテキストを瞬時に「思い出す」ことができ、一貫性のある作業継続が可能になります。また、Cursor 等の他の主要な AI IDE とも連携でき、エディタ上の作業とターミナル上のエージェント作業の文脈を統合できます。 目立つポイント とにかく「速い」こと、そして「インストールが極めて簡単」であることです。RAG の仕組みは一般に複雑ですが、このプラグインは開発者のワークフローを邪魔しないシームレスな統合を実現しています。また、オープンソースでありながら、ベクトル検索による高度なコンテキストの再注入を自動で行うため、ユーザーは「記憶」について意識することなく、エージェントの賢さが向上したかのように感じられます。 セットアップや使い方の流れ ターミナルから `curl -fsSL install.cmem.ai | bash` というワンラインコマンドを実行するだけで、必要なベクトル DB も含めて自動インストールされます。その後、Claude Code 起動時にプラグインとして読み込ませれば、すぐに自動記録が開始されます。過去の履歴を検索したい場合は、特定のコマンドやプロンプトを通じてエージェントに「過去の〇〇について教えて」と聞くだけで、過去の文脈を引き出してくれます。 どんな人向けか Claude Code を毎日の開発業務に本格的に導入しており、日々発生する大量の文脈（仕様決定、デバッグの過程等）を AI に「理解（記憶）」させたまま、長期的なプロジェクトを進めたいパワーユーザーに最適です。複数のプロジェクトやタスクを並行して進める際に、文脈のリセットに悩まされているエンジニアにも強力な武器となるでしょう。 注意点 非公式のツールであるため、Anthropic の公式アップデートによる影響を受ける可能性があります。また、ローカル環境のベクトルデータベース（Chroma DB）にデータを保存して検索するため、メモリやディスクリソースを一定以上消費します。大規模なプロジェクト履歴を蓄積する場合は、リソース使用量に注意が必要です。 まとめ 「claude-mem」は、AI エージェントが「忘却」という最大の弱点を克服するための画期的な解決策です。このツールを導入することで、AI との対話は「単発の指示」から「連続した協力関係」へと進化します。Claude Code ユーザーなら一度は試すべき、エージェント体験を根底から変えるプラグインです。 参照リンク GitHub Trending thedotmack/claude-mem"
-    },
-    {
       "slug": "2026-03-30-shareai-lab-learn-claude-code",
       "category": "github-trending",
       "originType": "trending",
@@ -3181,21 +3121,6 @@
       "articleUrl": "./articles/github/daily/2026-03-29-deepeyesv2.html",
       "serial": 35,
       "searchText": "DeepEyesV2 コード実行とWeb検索を単一の推論ループに統合した、高度な自律型エージェンティック・マルチモーダルモデル。 Visual-Agent/DeepEyesV2 AIエージェント (自律基盤・特化アプリ) DeepEyesV2 ← 記事一覧へ戻る GitHub Watcher DeepEyesV2 GitHub #039 コード実行とWeb検索を単一の推論ループに統合した、高度な自律型エージェンティック・マルチモーダルモデル。 記事作成日 2026-03-29 作成時順位 ピックアップ 対象 repo Visual-Agent/DeepEyesV2 Star数 569 これは何か 単なる画像の理解（VLM）を超え、推論過程においてコードの実行やWeb検索といった外部プロセスを自律的に統合するアーキテクチャを備えた、「エージェンティック・マルチモーダルモデル」のオープンソース研究プロジェクトです。 何ができるか 視覚的な課題（画像やグラフ）を与えられた際、不確実な部分があれば自らPythonコードを生成して専用のサンドボックスで実行・検証し、さらに最新の知識が必要な場合は検索APIを叩いて情報を補強することで、複雑な問題を自己完結的な単一の推論ループの中で解決・回答します。 目立つポイント OpenAIの最新モデルでも話題となっている「画像を用いて思考する能力（Thinking with images）」に焦点を当てており、強化学習（RL）を導入することで、LLMが「いつツールを使うべきか」「どのようにツールを組み合わせるべきか」を文脈に依存して適応的に学習している点が極めてアカデミックで野心的です。 セットアップや使い方の流れ Qwen-2.5-VLなどをベースモデルとしてLLaMA-Factoryを使用したSFT（事前学習）を行った後、Dockerで提供されるコード実行用サンドボックス環境や検索用のAPIサーバーを立ち上げ、強化学習（RL）パイプラインを回してモデルを進化させます。既にベースラインの重みもHugging Faceで公開されています。 どんな人向けか 画像と言語、プログラミングを横断した完全自律型エージェントの構築や、o1/o3モデルのように「思考プロセス（Chain of Thought）とツールの活用」を組み合わせた次世代の推論アーキテクチャ研究に興味がある深層学習エンジニア・リサーチャー向けです。 注意点 モデルの特性上、トレーニングには複数のGPUノード（7Bモデルでも32GPU、ハイメモリノード推奨）といった非常に大規模なコンピューティングリソースが必要なため、個人レベルで学習環境をフルに構築するには大きなハードルがあります。 まとめ AIが「見て、考えて、調べて、手を動かす」という人間の問題解決プロセスそのものをモデルの学習と推論ループとして体現しようとする、最先端のビジョン言語モデル研究の結晶と言えるプロジェクトです。 参照リンク GitHub Trending Visual-Agent/DeepEyesV2"
-    },
-    {
-      "slug": "2026-03-29-google-research-timesfm",
-      "category": "github-pickup",
-      "originType": "pickup",
-      "title": "timesfm",
-      "dek": "Google Researchが提供する、事前学習不要で高精度な「ゼロショット時系列予測」を実現する基礎モデル。",
-      "summary": "",
-      "repoName": "google-research/timesfm",
-      "genre": "AI基盤・データ基盤・業務アプリ",
-      "publishedAt": "2026-03-29",
-      "createdAt": "2026-03-29T21:20:45+09:00",
-      "articleUrl": "./articles/github/daily/2026-03-29-google-research-timesfm.html",
-      "serial": 34,
-      "searchText": "timesfm Google Researchが提供する、事前学習不要で高精度な「ゼロショット時系列予測」を実現する基礎モデル。 google-research/timesfm AI基盤・データ基盤・業務アプリ timesfm ← 記事一覧へ戻る GitHub Watcher timesfm GitHub #038 Google Researchが提供する、事前学習不要で高精度な「ゼロショット時系列予測」を実現する基礎モデル。 記事作成日 2026-03-29 作成時順位 ピックアップ 対象 repo google-research/timesfm Star数 17,593 これは何か Google Researchによって開発・一般公開された、時系列予測（Time-Series Forecasting）のための強力な事前学習済み基礎モデル「TimesFM (Time Series Foundation Model)」の公式リポジトリです。 何ができるか 過去の小売売上データや天候、サーバーのトラフィックなど、あらゆる時系列指標を入力として与えるだけで、新たに専門のモデル学習やファインチューニングを行うことなく、高精度な未来のグラフや数値を「ゼロショットで予測・出力」させることができます。 目立つポイント 言語モデル（LLM）の開発等で培われた大規模なTransformerパラダイムを、言語ではなく「一連の数値推移（時系列データ）」に適用しており、特定のドメイン・タスクを想定したこれまでの伝統的統計モデル（ARIMAなど）をそのまま凌駕する汎用性と性能を誇る点が革新的です。 セットアップや使い方の流れ Python環境にて公式リポジトリをパッケージインストールし、Hugging Face等で公開されているGoogleの事前学習済みモデルをダウンロードします。提供されているPyTorchやJAX互換の推論APIにNumPy形式で過去データを流し込むだけで、簡単に未来のレンジが計算されます。 どんな人向けか 小売業の需要予測、金融市場のトレンド分析、インフラの異常検知やパフォーマンス見積もりなど、「時間の経過とともに変化するデータ」を扱うすべてのデータサイエンティストや機械学習エンジニア向けです。 注意点 大規模なTransformerベースのディープラーニングモデルであるため、単変量の軽い統計モデル等と比較して推論にかかる計算リソース（メモリやGPU要件）が高くなりやすいため、利用システムの規模やリアルタイム要件とのトレードオフに配慮が必要です。 まとめ 「タスクごとに専用モデルを組む」というこれまでの時系列予測の常識を覆し、「大容量のパラメータを持った基礎モデル（基盤モデル）で一発解決する」という新しいスタンダードを切り開く画期的なプロジェクトです。 参照リンク GitHub Trending google-research/timesfm"
     },
     {
       "slug": "2026-03-29-panniantong-agent-reach",
