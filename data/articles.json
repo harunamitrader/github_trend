@@ -42,6 +42,7 @@
       "repoName": "THEDOTMACK/CLAUDE-MEM",
       "repoUrl": "https://github.com/THEDOTMACK/CLAUDE-MEM",
       "articleUrl": "./articles/github/daily/2026-04-15-claude-mem.html",
+      "rank": 2,
       "serial": 220,
       "originType": "trending",
       "genre": "AIコーディング (CLI本体・拡張機能)"
@@ -56,6 +57,7 @@
       "repoName": "PASCALORG/EDITOR",
       "repoUrl": "https://github.com/PASCALORG/EDITOR",
       "articleUrl": "./articles/github/daily/2026-04-15-editor.html",
+      "rank": 4,
       "serial": 219,
       "originType": "trending",
       "genre": "メディア作成・Web生成 (動画・画像・UI)"
@@ -70,6 +72,7 @@
       "repoName": "CHRISLGARRY/APOLLO-11",
       "repoUrl": "https://github.com/CHRISLGARRY/APOLLO-11",
       "articleUrl": "./articles/github/daily/2026-04-15-apollo-11.html",
+      "rank": 7,
       "serial": 218,
       "originType": "trending",
       "genre": "学習ガイド・開発アセット"
@@ -84,6 +87,7 @@
       "repoName": "TW93/MOLE",
       "repoUrl": "https://github.com/TW93/MOLE",
       "articleUrl": "./articles/github/daily/2026-04-15-mole.html",
+      "rank": 12,
       "serial": 217,
       "originType": "trending",
       "genre": "汎用アプリ・AI基盤・IoT"
@@ -98,6 +102,7 @@
       "repoName": "SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE",
       "repoUrl": "https://github.com/SHANRAISSHAN/CLAUDE-CODE-BEST-PRACTICE",
       "articleUrl": "./articles/github/daily/2026-04-15-claude-code-best-practice.html",
+      "rank": 13,
       "serial": 216,
       "originType": "trending",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
