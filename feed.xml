@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 12:21:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 21:22:24 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nixtla]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nixtla-nixtla.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nixtla-nixtla.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1,000億以上のデータポイントで学習された、数行のコードで高精度な予測が可能な世界初の時系列基盤モデル「TimeGPT」。]]></description>
+    </item>
     <item>
       <title><![CDATA[cc-wf-studio]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プロンプトキャッシュのTTL設定や、セッション復帰時の要約機能追加で、より効率的な利用が可能になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Touchpoint]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-touchpoint-labs-touchpoint.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-touchpoint-labs-touchpoint.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。]]></description>
     </item>
   </channel>
 </rss>

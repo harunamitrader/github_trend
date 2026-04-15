@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nixtla/nixtla を読み、要点を実用寄りに整理した記事。1000億のデータで学習された時系列予測の基盤モデル TimeGPT の解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>nixtla</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">nixtla</h1>
+      <p class="article-dek">1,000億以上のデータポイントで学習された、数行のコードで高精度な予測が可能な世界初の時系列基盤モデル「TimeGPT」。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Nixtla/nixtla" target="_blank" rel="noreferrer">
+              Nixtla/nixtla
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,800</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Nixtla は、時系列予測と異常検知のための世界初の基盤モデル「TimeGPT-1」を提供するための SDK です。
+          従来の時系列分析では、データの定常性や季節性を考慮して個別のモデルを構築・学習させる必要がありましたが、TimeGPT は 1,000 億件を超える公開データで学習済みの Transformer ベースのモデルを用います。
+          これにより、LLM（大規模言語モデル）がテキストを扱うように、時系列データを「パターン」として捉え、学習なし（Zero-shot）での予測を実現しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>Zero-shot 予測</strong>: 独自のデータで再学習させることなく、過去のデータを与えるだけで将来の推移を予測。</li>
+          <li><strong>異常検知</strong>: 予測値と実際の値の乖離から、信頼区間を用いた制度の高い外れ値検出が可能。</li>
+          <li><strong>外生変数の組み込み</strong>: 祝日カレンダー、価格情報、イベントフラグなどの外部要因を考慮した高度な予測。</li>
+          <li><strong>ファインチューニング</strong>: 特定のドメインや、非常に特殊な傾向を持つデータに対してモデルを迅速に微調整。</li>
+          <li><strong>複数系列の同時処理</strong>: 膨大な数の異なる時系列データを一括して効率的に処理。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の衝撃は、これまでデータサイエンティストが数日かけて行っていた特徴量エンジニアリングやモデル選定（ARIMA, Prophet, XGBoost等）を、数行のコードで代替しうる精度を叩き出している点です。
+          既存の LLM（GPT-4 等）のトークナイザーは時系列データに最適化されていませんが、TimeGPT は時系列のために特化して構築されたアーキテクチャを持ち、不規則な間隔のデータや複雑な季節性に対しても頑健です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          pip を通じてライブラリをインストールし、API キー（Nixtla Portal で取得可能）を設定するだけで開始できます。
+          <code>pip install nixtla</code>
+          使い方は非常にシンプルで、Pandas の DataFrame にデータを読み込み、<code>nixtla.forecast()</code> メソッドを呼び出すだけです。
+          予測結果は不確実性を考慮した信頼区間（Prediction Intervals）と共に返されるため、リスク管理にも直結します。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          需要予測を行うサプライチェーン担当者、アルゴリズム取引を行う金融関係者、インフラのサーバー負荷を監視する SRE チームなどに最適です。
+          特に、モデル構築の時間はないが、統計学的に裏付けられた高度な予測精度を即座に手に入れたい組織にとって、TimeGPT は「時系列への AI 革命」をもたらす存在となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          TimeGPT のコアモデル自体はクローズドソースであり、パブリック API を介して利用する形態となります。
+          機密性の極めて高いデータを扱う場合は、Azure AI Studio や Snowflake といった信頼されたインフラを介した統合オプションを検討する必要があります。また、API の利用にはデータ量に応じたトークンコストが発生します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Nixtla/nixtla</code> は、時系列分析の常識を一変させる可能性を秘めたプロジェクトです。
+          「データを入れて予測を待つだけ」という手軽さと、1000億件のデータに裏打ちされた汎化性能は、あらゆるビジネス現場での意思決定の精度を劇的に向上させるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Nixtla/nixtla" target="_blank" rel="noreferrer">Nixtla/nixtla</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

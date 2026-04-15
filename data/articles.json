@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-15-nixtla-nixtla",
+      "title": "nixtla",
+      "dek": "1,000億以上のデータポイントで学習された、数行のコードで高精度な予測が可能な世界初の時系列基盤モデル「TimeGPT」。",
+      "summary": "TimeGPT は、時系列予測に特化した世界初の基盤モデルです。Transformer ベースのアーキテクチャを用い、公開データ 1,000 億件の学習済み知識を活用することで、個別の学習なしに数秒で高精度な予測と異常検知を実現します。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T21:21:00+09:00",
+      "repoName": "Nixtla/nixtla",
+      "repoUrl": "https://github.com/Nixtla/nixtla",
+      "starCount": 3800,
+      "articleUrl": "./articles/github/daily/2026-04-15-nixtla-nixtla.html",
+      "serial": 225,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-15-breaking-brake-cc-wf-studio",
       "title": "cc-wf-studio",
       "dek": "AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。",
