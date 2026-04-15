@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 22:34:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 12:41:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nautilus_trader]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-15 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-15-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot SDK]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-github-copilot-sdk.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-github-copilot-sdk.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。]]></description>
     </item>
   </channel>
 </rss>

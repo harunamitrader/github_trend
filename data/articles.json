@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-15-nautechsystems-nautilus-trader-pickup",
+      "title": "nautilus_trader",
+      "dek": "Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。",
+      "summary": "NautilusTrader は Rust コアと Python 制御レイヤーの二層構造を採用した本番グレードの取引エンジン。バックテストとライブ取引の間でコード変更が不要な「研究〜本番パリティ」が最大の特徴。Binance, Bybit, Interactive Brokers など 15 以上の取引所に対応し、強化学習による AI トレーダーの訓練にも活用できる。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T12:39:00+09:00",
+      "repoName": "nautechsystems/nautilus_trader",
+      "repoUrl": "https://github.com/nautechsystems/nautilus_trader",
+      "articleUrl": "./articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html",
+      "serial": 221,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-15-update-report",
       "title": "2026-04-15 アップデートレポート",

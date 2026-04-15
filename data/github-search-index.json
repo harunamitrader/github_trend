@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-14T22:29:13.168526+00:00",
-  "count": 242,
+  "generatedAt": "2026-04-15T03:41:14.434457+00:00",
+  "count": 243,
   "articles": [
+    {
+      "slug": "2026-04-15-nautechsystems-nautilus-trader-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "nautilus_trader",
+      "dek": "Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。",
+      "summary": "NautilusTrader は Rust コアと Python 制御レイヤーの二層構造を採用した本番グレードの取引エンジン。バックテストとライブ取引の間でコード変更が不要な「研究〜本番パリティ」が最大の特徴。Binance, Bybit, Interactive Brokers など 15 以上の取引所に対応し、強化学習による AI トレーダーの訓練にも活用できる。",
+      "repoName": "nautechsystems/nautilus_trader",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T12:39:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html",
+      "serial": 221,
+      "searchText": "nautilus_trader Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。 NautilusTrader は Rust コアと Python 制御レイヤーの二層構造を採用した本番グレードの取引エンジン。バックテストとライブ取引の間でコード変更が不要な「研究〜本番パリティ」が最大の特徴。Binance, Bybit, Interactive Brokers など 15 以上の取引所に対応し、強化学習による AI トレーダーの訓練にも活用できる。 nautechsystems/nautilus_trader 金融・トレード分析 nautilus_trader ← 記事一覧へ戻る GitHub Watcher nautilus_trader Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。 記事作成日 2026-04-15 種別 Pickup 対象 repo nautechsystems/nautilus_trader これは何か NautilusTrader は、マルチアセット・マルチ取引所に対応した本番グレードのクォンツ・トレーディングエンジンです。 コアは Rust で実装されており、Python を「制御レイヤー」として使う二層構造を採用しています。 これにより、Python の柔軟な戦略記述と、Rust の高速・安全な実行基盤を両立させています。 研究（バックテスト）から本番ライブ取引まで、 同一のコードと同一のアーキテクチャ で動かせる点が最大の特徴です。 何ができるか バックテスト : ナノ秒精度のヒスト価格データを使い、複数の取引所・複数の銘柄・複数の戦略を同時にシミュレーション。 ライブ取引 : バックテストで作成した戦略コードをそのままライブ環境に投入可能（コード変更不要）。 マルチ取引所対応 : Binance, Bybit, Kraken, Coinbase, Interactive Brokers, dYdX, Hyperliquid など 15 以上の取引所・データプロバイダーにアダプター経由で接続。 高度な注文管理 : IOC, FOK, GTC, GTC+D, OCO, OUO, OTO など、プロ仕様の多様な注文タイプをサポート。 AI トレーニング対応 : エンジンの高速処理を活かし、強化学習（RL）や進化戦略（ES）による AI トレーディングエージェントのトレーニングにも利用可能。 目立つポイント 最も際立つのは「 研究とライブの完全なコードパリティ 」です。 一般的なクォンツ開発では、Python でのバックテスト用コードと、本番用の低レイテンシシステム（多くの場合 C++ や Java で書き直した）が別々になります。 NautilusTrader はこれを根本から解消しており、戦略ロジックを書き直すことなくそのまま本番に投入できます。 また、Python バインディングは PyO3 経由で提供されており、 インストール時に Rust のツールチェーンは不要 です。 Redis を使ったオプションの状態永続化や、Tokio による非同期ネットワーキングも標準で利用できます。 セットアップや使い方の流れ pip でインストール : pip install nautilus_trader でコアパッケージを導入（Rust ツールチェーン不要）。 戦略クラスを定義 : Python で Strategy を継承したクラスに取引ロジックを記述します。 バックテスト実行 : BacktestEngine にヒストリカルデータと戦略を渡して検証。 ライブ移行 : 戦略コードを変更せず、 TradingNode に差し替えるだけで接続先取引所を指定しライブ稼働。 どんな人向けか Python でアルゴ/クォンツ取引の研究を行っているが、本番化の際に「書き直しコスト」に悩んでいる開発者。 暗号資産（Binance, Bybit 等）と伝統的金融市場（Interactive Brokers）を横断してマルチ取引所の戦略を動かしたいトレーダー。 強化学習によるトレーディング AI の開発・トレーニング環境を探しているリサーチャー。 高いパフォーマンスと型安全性を求めながらも、インフラを Python で組みたいチーム。 注意点 学習コストが高め : 設計が本格的であるため、コンセプト（Cache, MessageBus, Actor, Strategy など）の理解に一定の時間が必要です。まず公式ドキュメントの概念解説を読むことを推奨します。 MSRV が最新 Rust : ビルドから使う場合、常に最新の安定版 Rust ツールチェーンが必要です。パッケージ（pip）インストールなら不要。 本番運用はライセンスに注意 : LGPL-3.0 ライセンスです。商業利用・組み込みには自社の法務確認を行ってください。 まとめ 「研究で使ったコードをそのまま本番に載せられる」というシンプルな理想を、Rust と Python の二層構造で高いレベルで実現したエンジンです。 ⭐ 21.9k というスター数が示すように、クォンツトレードのオープンソースエコシステムにおいて事実上の標準として機能しつつあります。 高性能かつ生産レベルのトレーディング基盤を探している方にとって、現時点で最有力の選択肢の一つです。 参照リンク nautechsystems/nautilus_trader (GitHub) 公式ドキュメント (nautilustrader.io)"
+    },
     {
       "slug": "2026-04-15-update-report",
       "category": "github-update-report",
