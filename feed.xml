@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 20:17:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 05:19:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[100-Days-Of-ML-Code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[100日間で機械学習の基礎から深層学習までを「完走」する。全世界で 5 万人以上がスターを付けた伝説の学習ロードマップ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Awesome Quant Machine Learning Trading]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-grananqvist-awesome-quant-machine-learning-trading.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nautilus_trader]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。]]></description>
     </item>
   </channel>
 </rss>

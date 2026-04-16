@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-avik-jain-100-days-of-ml-code",
+      "title": "100-Days-Of-ML-Code",
+      "dek": "100日間で機械学習の基礎から深層学習までを「完走」する。全世界で 5 万人以上がスターを付けた伝説の学習ロードマップ。",
+      "summary": "Avik-Jain/100-Days-Of-ML-Code は、機械学習を100日間でマスターするための網羅的なカリキュラムです。直感的なインフォグラフィックスとScikit-Learn等の実装コードがセットになっており、数学の基礎からディープラーニングまでを体系的に学習できます。スター数 5 万を超える世界的名著的なリソースです。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:35:00+09:00",
+      "repoName": "Avik-Jain/100-Days-Of-ML-Code",
+      "repoUrl": "https://github.com/Avik-Jain/100-Days-Of-ML-Code",
+      "starCount": 50600,
+      "articleUrl": "./articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html",
+      "serial": 240,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-grananqvist-awesome-quant-machine-learning-trading",
       "title": "Awesome Quant Machine Learning Trading",
       "dek": "機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。",
