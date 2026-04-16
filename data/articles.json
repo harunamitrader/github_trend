@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-grananqvist-awesome-quant-machine-learning-trading",
+      "title": "Awesome Quant Machine Learning Trading",
+      "dek": "機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。",
+      "summary": "grananqvist/Awesome-Quant-Machine-Learning-Trading は、機械学習を用いたクオンツ・トレードのリソースを集約したAwesomeリストです。質の低い素材を排除し、信頼できる書籍、最新論文、バックテスト環境、ポッドキャストなどを厳選。AIトレードを志す者にとっての決定版リソース集です。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:30:00+09:00",
+      "repoName": "grananqvist/Awesome-Quant-Machine-Learning-Trading",
+      "repoUrl": "https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading",
+      "starCount": 3600,
+      "articleUrl": "./articles/github/daily/2026-04-17-grananqvist-awesome-quant-machine-learning-trading.html",
+      "serial": 239,
+      "originType": "pickup",
+      "genre": "金融・投資・トレード"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-agenticnotetaking-arscontexta",
       "title": "Ars Contexta",
       "dek": "対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。",

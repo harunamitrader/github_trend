@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-16T20:10:43.243851+00:00",
-  "count": 256,
+  "generatedAt": "2026-04-16T20:15:34.945970+00:00",
+  "count": 257,
   "articles": [
+    {
+      "slug": "2026-04-17-grananqvist-awesome-quant-machine-learning-trading",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Awesome Quant Machine Learning Trading",
+      "dek": "機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。",
+      "summary": "grananqvist/Awesome-Quant-Machine-Learning-Trading は、機械学習を用いたクオンツ・トレードのリソースを集約したAwesomeリストです。質の低い素材を排除し、信頼できる書籍、最新論文、バックテスト環境、ポッドキャストなどを厳選。AIトレードを志す者にとっての決定版リソース集です。",
+      "repoName": "grananqvist/Awesome-Quant-Machine-Learning-Trading",
+      "genre": "金融・投資・トレード",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-grananqvist-awesome-quant-machine-learning-trading.html",
+      "serial": 239,
+      "searchText": "Awesome Quant Machine Learning Trading 機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。 grananqvist/Awesome-Quant-Machine-Learning-Trading は、機械学習を用いたクオンツ・トレードのリソースを集約したAwesomeリストです。質の低い素材を排除し、信頼できる書籍、最新論文、バックテスト環境、ポッドキャストなどを厳選。AIトレードを志す者にとっての決定版リソース集です。 grananqvist/Awesome-Quant-Machine-Learning-Trading 金融・投資・トレード Awesome Quant Machine Learning Trading ← 記事一覧へ戻る GitHub Watcher Awesome Quant Machine Learning Trading 機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。 記事作成日 2026-04-17 種別 Pickup 対象 repo grananqvist/Awesome-Quant-Machine-Learning-Trading Star数 3,600 これは何か Awesome Quant Machine Learning Trading は、クオンツ・アルゴリズムトレードにおける「機械学習（ML）」活用に特化した、最高品質のリソースをまとめた Awesome リストです。管理者の grananqvist 氏により、質の低い素材が徹底的に排除されており、学習者や実務家が「何から手をつければいいか」に迷わないよう厳選されています。 何ができるか（リソースの内容） 名著の紹介: Marcos López de Prado 氏の「Advances in Financial Machine Learning」など、クオンツ業界のバイブル的書籍を網羅。 動画・オンライン講座: YouTube のウェビナーや Udacity、Coursera 等の質の高い教育コンテンツ。 研究論文 (Research Papers): 時系列予測、強化学習（RL）を用いたポートフォリオ最適化、イベント駆動型予測など、学術的根拠となる重要論文。 バックテスト・ライブラリ: ML を組み込みやすい Python ベースのフレームワークや、強化学習用の Trading Gym 環境。 実録ポッドキャスト: 実際に AI を活用して市場で戦うトレーダーたちのインタビュー（Chat with Traders 等）。 目立つポイント 単なるリンク集ではなく、 「⭐」印による管理者のおすすめ（Favorites） が付与されているのが非常に有用です。特に強化学習（Reinforcement Learning）に関するセクションが充実しており、TradingGym や OpenAI Gym 準拠のトレード環境など、AI トレーディングエージェントを自作したい人にとっての「宝の地図」となっています。また、金融データの特殊性（オーバーフィッティングの罠など）を論じた論文も多く含まれており、理論と実践の両面を学べます。 活用の流れ まずは「⭐」の付いた書籍や Youtube 動画から、金融機械学習の全体像（データ処理、クロスバリデーション、バックテストの注意点）を把握。 興味のある分野（時系列予測 vs 強化学習 vs NLP による感情分析）の論文を読み、手法の当たりをつける。 「Code」セクションから、自分の投資戦略に合ったバックテストフレームワーク（QTradeX 等）や Gym 環境を選び、実装を開始。 どんな人向けか 機械学習を実際の市場で「武器」として使いたい個人トレーダーやエンジニア。 金融データ特有の課題（非定常性、低い S/N 比）を理論的に突破したい研究者。 既存のインジケーター頼みのトレードから、データ駆動型のアルゴリズム構築へ移行したいクオンツ志望者。 まとめ 「Awesome Quant Machine Learning Trading」は、情報の荒波を泳ぐための強固な羅針盤です。ここにあるリソースを一つずつ消化していくことは、現代の金融市場という「AI の主戦場」で戦い抜くための最も確実な近道であり、知的刺激に満ちた体験になるはずです。 参照リンク grananqvist/Awesome-Quant-Machine-Learning-Trading"
+    },
     {
       "slug": "2026-04-17-agenticnotetaking-arscontexta",
       "category": "github-pickup",
