@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-16-simoneavogadro-android-reverse-engineering-skill",
+      "title": "android-reverse-engineering-skill",
+      "dek": "Claude Code に Android アプリのリバースエンジニアリング能力を追加する強力な解析スキル。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T19:15:00+09:00",
+      "repoName": "SimoneAvogadro/android-reverse-engineering-skill",
+      "repoUrl": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "starCount": 2000,
+      "articleUrl": "./articles/github/daily/2026-04-16-simoneavogadro-android-reverse-engineering-skill.html",
+      "serial": 234,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-16-ai4finance-foundation-fingpt",
       "title": "FinGPT",
       "dek": "オープンソースで提供される金融特化型の大規模言語モデル（LLM）。低コストなファインチューニングによりBloombergGPTの代替を目指す。",

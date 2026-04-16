@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SimoneAvogadro/android-reverse-engineering-skill の概要と、Claude Code 向けのリバースエンジニアリングスキルの解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>android-reverse-engineering-skill - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">android-reverse-engineering-skill</h1>
+      <p class="article-dek">Claude Code に Android アプリのリバースエンジニアリング能力を追加する強力な解析スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill" target="_blank" rel="noreferrer">
+              SimoneAvogadro/android-reverse-engineering-skill
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Anthropic 社が提供するターミナルベースのAIエージェント「Claude Code」に対して、Android アプリ（APK / XAPK / JAR / AAR）のリバースエンジニアリング能力を付与するプラグイン（スキル）です。
+          AIに対して自然言語やスラッシュコマンド（<code>/decompile</code>）で指示するだけで、ローカルのデコンパイラ群を駆使し、アプリの内部構造を解析してくれます。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>自動デコンパイル</strong>: <code>jadx</code> や <code>Fernflower/Vineflower</code> といった強力なデコンパイラを Claude Code の中からシームレスに呼び出します。</li>
+          <li><strong>API 及び通信フローの抽出</strong>: Retrofit のエンドポイント、OkHttp のコール履歴、ハードコードされた URL、あるいは認証トークンやヘッダー情報を自動的に見つけ出しドキュメント化します。</li>
+          <li><strong>アーキテクチャ解析</strong>: Activity や Fragment から ViewModel を経由して HTTP コールに至るまでの「コールフロー」を追跡し、コードのない状態からアプリの動きを再現・解析するのを助けます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Claude Code 向けの <code>.claude-plugin</code> マニフェストや、AIへのシステムプロンプト的な役割を果たす <code>SKILL.md</code>、そしてデコンパイラを動かす実体となるいくつかのシェルスクリプトで構成されています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          ローカルの PC に Java 17+ と <code>jadx</code> がインストールされている必要があります。
+          その上で、Claude Code のプロンプトから <code>/plugin marketplace add SimoneAvogadro/android-reverse-engineering-skill</code> コマンドを実行するだけで、以降のすべてのセッションでこのスキルが永続的に利用可能となります。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          セキュリティリサーチャーやマルウェア・アナリスト、あるいは他社アプリのAPI構造を研究（互換層の実装など）したい開発者に非常におすすめです。「複雑なリバースエンジニアリングツールの出力を、自然言語で統合・解釈する」というAIエージェントの強みを最大限に活かした拡張機能です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          他者のアプリのリバースエンジニアリングは、各国の著作権法や各サービスの利用規約（TOS）に違反する可能性があります。セキュリティ研究や法的例外（互換性の確保など）の範囲内でのみ利用等、自己責任が伴います。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          コード生成や開発補助にとどまりがちな AI コーディングアシスタントを「強力な解析ツール」へと瞬時に変貌させる、非常に専門的で興味深い拡張エコシステムの一例です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill" target="_blank" rel="noreferrer">SimoneAvogadro/android-reverse-engineering-skill</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
