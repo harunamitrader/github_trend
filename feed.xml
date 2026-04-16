@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 20:08:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 05:09:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[last30days-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenStock]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-open-dev-society-openstock.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Editor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-editor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-editor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。]]></description>
     </item>
   </channel>
 </rss>

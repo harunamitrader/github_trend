@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="mvanhorn/last30days-skill を活用し、Reddit, X, YouTube, HN などを横断して直近 30 日間の動向を AI で深堀り調査する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>last30days-skill</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">last30days-skill</h1>
+      <p class="article-dek">Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noreferrer">
+              mvanhorn/last30days-skill
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>22,300</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>last30days-skill は、AI エージェント（Claude Code や OpenClaw など）に「過去 30 日間の新鮮なインターネット情報」をリサーチさせるための知能を追加する拡張機能です。従来の検索エンジンが SEO の強さで順位を決めるのに対し、このツールは「Reddit のアップvote数」「X のいいね数」「YouTube の再生回数」など、<strong>現実の人間がどれだけ反応したか</strong>という熱量を基準に情報をランク付けします。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>クロスプラットフォーム検索:</strong> Reddit, X (Twitter), YouTube, Hacker News, Polymarket, GitHub などを一括リサーチ。</li>
+          <li><strong>ナラティブ合成:</strong> 複数の断片的な情報を一つの論理的な要約としてまとめ、全ての主張に具体的なソースリンク（引用）を付与。</li>
+          <li><strong>YouTube トランスクリプト解析:</strong> 動画を実際に見ることなく、音声データを AI が読み取って最新のレビューや議論を把握。</li>
+          <li><strong>競合比較 (X vs Y):</strong> 「A と B、最近どっちが熱い？」といった比較を、人々の反応ベースで 3 分以内にレポート化。</li>
+          <li><strong>人物・企業リサーチ:</strong> LinkedIn の古い経歴ではなく、その人物が「今月何をツイートし、どんなコードをコミットしたか」を可視化。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なるスクレイピングツールではなく、<strong>「どこを調べるべきか」を事前に判断するプレ・リサーチ脳</strong>を搭載している点が革命的です。例えば「Kanye West」と入力すれば、AI が自動で r/hiphopheads や特定の X ハンドルをターゲットに定め、最短ルートで真実にたどり着きます。また、Polymarket の予測市場データ（賭け金による予測）を取り入れているため、単なる噂ではない「経済的インセンティブが働いた予測」を得られるのも特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Claude Code や OpenClaw などの対応クライアントに <code>/plugin marketplace add mvanhorn/last30days-skill</code> でインストール。</li>
+          <li><code>/last30days [トピック名]</code> を実行。</li>
+          <li>必要に応じて <code>eli5 on</code> モードに切り替え、専門用語を排除した分かりやすい解説を受ける。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>GitHub の最新トレンドや AI 技術の変遷を 0 秒で追いかけたい開発者。</li>
+          <li>会議や登壇の前に、対象トピックの最新の「世間の空気感」を知っておきたいプロフェッショナル。</li>
+          <li>SNS の海を泳ぐ時間を短縮し、質の高いシグナルだけを抽出したいリサーチャー。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>「検索は、編集者（Google）から、人々（Social）と AI エージェントへ」。last30days-skill は、情報の鮮度と信頼性が命のリサーチ業務において、手放せない武器となるでしょう。AI を単なるチャットツールとしてではなく、自律的な「調査官」として活用したいすべての人におすすめです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noreferrer">mvanhorn/last30days-skill</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

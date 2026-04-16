@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-16T20:06:02.643732+00:00",
-  "count": 254,
+  "generatedAt": "2026-04-16T20:08:59.975115+00:00",
+  "count": 255,
   "articles": [
+    {
+      "slug": "2026-04-17-mvanhorn-last30days-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "last30days-skill",
+      "dek": "Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。",
+      "summary": "mvanhorn/last30days-skill は、主要なSNSやプラットフォームから直近30日間の議論や engagement データを抽出し、AIエージェントによる深いリサーチを自動化するスキルです。従来の検索よりも『情報の鮮度』と『世間の反応』に特化した強力なインテリジェンスを提供します。",
+      "repoName": "mvanhorn/last30days-skill",
+      "genre": "AI・開発ツール",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html",
+      "serial": 237,
+      "searchText": "last30days-skill Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。 mvanhorn/last30days-skill は、主要なSNSやプラットフォームから直近30日間の議論や engagement データを抽出し、AIエージェントによる深いリサーチを自動化するスキルです。従来の検索よりも『情報の鮮度』と『世間の反応』に特化した強力なインテリジェンスを提供します。 mvanhorn/last30days-skill AI・開発ツール last30days-skill ← 記事一覧へ戻る GitHub Watcher last30days-skill Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。 記事作成日 2026-04-17 種別 Pickup 対象 repo mvanhorn/last30days-skill Star数 22,300 これは何か last30days-skill は、AI エージェント（Claude Code や OpenClaw など）に「過去 30 日間の新鮮なインターネット情報」をリサーチさせるための知能を追加する拡張機能です。従来の検索エンジンが SEO の強さで順位を決めるのに対し、このツールは「Reddit のアップvote数」「X のいいね数」「YouTube の再生回数」など、 現実の人間がどれだけ反応したか という熱量を基準に情報をランク付けします。 何ができるか クロスプラットフォーム検索: Reddit, X (Twitter), YouTube, Hacker News, Polymarket, GitHub などを一括リサーチ。 ナラティブ合成: 複数の断片的な情報を一つの論理的な要約としてまとめ、全ての主張に具体的なソースリンク（引用）を付与。 YouTube トランスクリプト解析: 動画を実際に見ることなく、音声データを AI が読み取って最新のレビューや議論を把握。 競合比較 (X vs Y): 「A と B、最近どっちが熱い？」といった比較を、人々の反応ベースで 3 分以内にレポート化。 人物・企業リサーチ: LinkedIn の古い経歴ではなく、その人物が「今月何をツイートし、どんなコードをコミットしたか」を可視化。 目立つポイント 単なるスクレイピングツールではなく、 「どこを調べるべきか」を事前に判断するプレ・リサーチ脳 を搭載している点が革命的です。例えば「Kanye West」と入力すれば、AI が自動で r/hiphopheads や特定の X ハンドルをターゲットに定め、最短ルートで真実にたどり着きます。また、Polymarket の予測市場データ（賭け金による予測）を取り入れているため、単なる噂ではない「経済的インセンティブが働いた予測」を得られるのも特徴です。 セットアップや使い方の流れ Claude Code や OpenClaw などの対応クライアントに /plugin marketplace add mvanhorn/last30days-skill でインストール。 /last30days [トピック名] を実行。 必要に応じて eli5 on モードに切り替え、専門用語を排除した分かりやすい解説を受ける。 どんな人向けか GitHub の最新トレンドや AI 技術の変遷を 0 秒で追いかけたい開発者。 会議や登壇の前に、対象トピックの最新の「世間の空気感」を知っておきたいプロフェッショナル。 SNS の海を泳ぐ時間を短縮し、質の高いシグナルだけを抽出したいリサーチャー。 まとめ 「検索は、編集者（Google）から、人々（Social）と AI エージェントへ」。last30days-skill は、情報の鮮度と信頼性が命のリサーチ業務において、手放せない武器となるでしょう。AI を単なるチャットツールとしてではなく、自律的な「調査官」として活用したいすべての人におすすめです。 参照リンク mvanhorn/last30days-skill"
+    },
     {
       "slug": "2026-04-17-open-dev-society-openstock",
       "category": "github-pickup",

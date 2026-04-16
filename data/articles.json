@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-mvanhorn-last30days-skill",
+      "title": "last30days-skill",
+      "dek": "Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。",
+      "summary": "mvanhorn/last30days-skill は、主要なSNSやプラットフォームから直近30日間の議論や engagement データを抽出し、AIエージェントによる深いリサーチを自動化するスキルです。従来の検索よりも『情報の鮮度』と『世間の反応』に特化した強力なインテリジェンスを提供します。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:20:00+09:00",
+      "repoName": "mvanhorn/last30days-skill",
+      "repoUrl": "https://github.com/mvanhorn/last30days-skill",
+      "starCount": 22300,
+      "articleUrl": "./articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html",
+      "serial": 237,
+      "originType": "pickup",
+      "genre": "AI・開発ツール"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-open-dev-society-openstock",
       "title": "OpenStock",
       "dek": "高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。",
