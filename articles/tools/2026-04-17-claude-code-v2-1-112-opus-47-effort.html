@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.112 の更新内容を日本語で整理した記事。Opus 4.7 xhigh、/effort、/ultrareview、PowerShell tool の展開を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加</h1>
+      <p class="article-dek">Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">確認日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.112</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の Claude Code changelog では、v2.1.112 が最新として公開されています。v2.1.112 は auto mode で Opus 4.7 が一時的に利用できない問題の修正が中心で、直前の v2.1.111 で入った Opus 4.7 関連の機能を安定化する位置づけです。</p>
+        <ul>
+          <li><strong>Opus 4.7 xhigh:</strong> Opus 4.7 向けに <code>xhigh</code> effort が追加され、<code>/effort</code>、<code>--effort</code>、モデルピッカーから選べます。</li>
+          <li><strong>対話式 /effort:</strong> 引数なしで <code>/effort</code> を呼ぶと、矢印キーで調整できるスライダーが開くようになりました。</li>
+          <li><strong>/ultrareview:</strong> クラウド上の並列マルチエージェント分析を使い、現在のブランチや指定 PR を包括的にレビューできます。</li>
+          <li><strong>PowerShell tool:</strong> Windows 向け PowerShell tool が段階的に展開され、環境変数で有効化・無効化できます。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回の更新は、モデル選択とレビュー実行をより細かく制御したいユーザーに効きます。特に <code>xhigh</code> は、速度と推論深度のバランスを高めたい長めの設計・修正作業で使いやすく、<code>/ultrareview</code> は PR レビュー前の自己点検に向いています。</p>
+
+        <h2>補足</h2>
+        <p>v2.1.111 では、Auto mode の要件緩和、terminal の dark/light に合わせる theme、権限プロンプトを減らす <code>/less-permission-prompts</code> skill、Windows の環境ファイル適用修正なども含まれています。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.112 は小さな修正リリースですが、v2.1.111 の大型変更と合わせて見ると、Claude Code のモデル制御、レビュー、Windows 運用の実用性を押し上げる更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code release notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

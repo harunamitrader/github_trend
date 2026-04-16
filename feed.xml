@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 20:21:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 05:39:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
+    </item>
     <item>
       <title><![CDATA[100-Days-Of-ML-Code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html</link>
@@ -46,6 +54,22 @@
       <category>github-pickup</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Windsurf 2.0.50: 認証体験と Windows Terminal 起動を修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-windsurf-2-0-50-auth-windows-terminal.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-windsurf-2-0-50-auth-windows-terminal.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windsurf 2.0 後の認証まわりを整え、Windows で Terminal session が生成できない問題を修正したメンテナンス更新です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: Claude Opus 4.7 が一般提供に]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot Pro+、Business、Enterprise 向けに Claude Opus 4.7 が段階展開され、複数の Copilot 画面から選択可能になります。]]></description>
     </item>
     <item>
       <title><![CDATA[maxun]]></title>
@@ -136,36 +160,12 @@
       <description><![CDATA[開発者が無料で利用できる各種APIをまとめた、オープンソースコミュニティによる巨大なキュレーションリスト。]]></description>
     </item>
     <item>
-      <title><![CDATA[nixtla]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nixtla-nixtla.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nixtla-nixtla.html</guid>
-      <category>github-pickup</category>
+      <title><![CDATA[Cursor Canvases: インタラクティブな成果物を agent から生成]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-canvases.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-canvases.html</guid>
+      <category>ai-tool-log</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1,000億以上のデータポイントで学習された、数行のコードで高精度な予測が可能な世界初の時系列基盤モデル「TimeGPT」。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cc-wf-studio]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-breaking-brake-cc-wf-studio.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェント向けのワークフローを視覚的に設計・管理し、Claude CodeやCopilot、Gemini CLIなどの主要ツール向けにエクスポートできるVSCode拡張機能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MANO-P]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エッジデバイス（Mac mini/MacBook等）上で動作し、OSWorldベンチマーク1位を記録した高性能なGUI操作自動化エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SlideKit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nogataka-slidekit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nogataka-slidekit.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。]]></description>
+      <description><![CDATA[Agents Window やエディタ上で、表・図・チャート・ダッシュボードなどを durable artifact として扱える更新です。]]></description>
     </item>
   </channel>
 </rss>

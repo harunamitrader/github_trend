@@ -7,6 +7,78 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-17-claude-code-v2-1-112-opus-47-effort",
+      "title": "Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加",
+      "dek": "Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。",
+      "summary": "Claude Code v2.1.112 は、auto mode での Opus 4.7 利用不具合を修正し、直前の v2.1.111 で追加された Opus 4.7 xhigh、対話式 /effort、/ultrareview、PowerShell tool 展開を安定化する更新です。",
+      "publishedAt": "2026-04-17",
+      "toolName": "Claude Code",
+      "repoName": "anthropics/claude-code",
+      "repoUrl": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "articleUrl": "./articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-16-windsurf-2-0-50-auth-windows-terminal",
+      "title": "Windsurf 2.0.50: 認証体験と Windows Terminal 起動を修正",
+      "dek": "Windsurf 2.0 後の認証まわりを整え、Windows で Terminal session が生成できない問題を修正したメンテナンス更新です。",
+      "summary": "Windsurf 2.0.50 は、2.0 系の認証体験に関する不具合修正とパフォーマンス改善、Windows で Terminal session を生成できない問題の修正を含む安定化リリースです。",
+      "publishedAt": "2026-04-16",
+      "toolName": "Windsurf",
+      "repoName": "windsurf/editor",
+      "repoUrl": "https://windsurf.com/changelog",
+      "articleUrl": "./articles/tools/2026-04-16-windsurf-2-0-50-auth-windows-terminal.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-16-github-copilot-claude-opus-4-7",
+      "title": "GitHub Copilot: Claude Opus 4.7 が一般提供に",
+      "dek": "Copilot Pro+、Business、Enterprise 向けに Claude Opus 4.7 が段階展開され、複数の Copilot 画面から選択可能になります。",
+      "summary": "GitHub Copilot は Claude Opus 4.7 の一般提供を開始し、VS Code、Visual Studio、Copilot CLI、Cloud Agent、github.com、Mobile、JetBrains、Xcode、Eclipse から選択できるようにします。",
+      "publishedAt": "2026-04-16",
+      "toolName": "GitHub Copilot",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/",
+      "articleUrl": "./articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-cursor-canvases",
+      "title": "Cursor Canvases: インタラクティブな成果物を agent から生成",
+      "dek": "Agents Window やエディタ上で、表・図・チャート・ダッシュボードなどを durable artifact として扱える更新です。",
+      "summary": "Cursor Canvases は、agent がインタラクティブな canvas を回答として作成し、表、図、チャート、diff、to-do list などを durable artifact として扱えるようにする更新です。",
+      "publishedAt": "2026-04-15",
+      "toolName": "Cursor",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-04-15-cursor-canvases.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-gemini-cli-v0-38-1-patch",
+      "title": "Gemini CLI v0.38.1: stable パッチリリースを公開",
+      "dek": "v0.38.0 系からの cherry-pick を反映した stable パッチで、GitHub Releases 上の latest タグが v0.38.1 に更新されました。",
+      "summary": "Gemini CLI v0.38.1 は、v0.38.0 系への cherry-pick を反映した stable パッチリリースで、GitHub Releases 上の latest タグが v0.38.1 に更新されています。",
+      "publishedAt": "2026-04-15",
+      "toolName": "Gemini CLI",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-15-gemini-cli-v0-38-1-patch.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-codex-cli-0-121-0-marketplace-memory-mcp",
+      "title": "Codex CLI 0.121.0: marketplace、memory、MCP/plugin を強化",
+      "dek": "plugin marketplace の追加、TUI prompt history、memory mode 管理、MCP Apps tool calls などが入った Codex CLI 更新です。",
+      "summary": "Codex CLI 0.121.0 は、codex marketplace add、TUI prompt history、memory mode 管理、MCP Apps tool calls、namespaced MCP registration などを追加した拡張基盤強化のリリースです。",
+      "publishedAt": "2026-04-15",
+      "toolName": "Codex",
+      "repoName": "openai/codex",
+      "repoUrl": "https://developers.openai.com/codex/changelog",
+      "articleUrl": "./articles/tools/2026-04-15-codex-cli-0-121-0-marketplace-memory-mcp.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-04-17-avik-jain-100-days-of-ml-code",
       "title": "100-Days-Of-ML-Code",

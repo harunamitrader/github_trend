@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex CLI 0.121.0 の更新内容を日本語で整理した記事。marketplace add、prompt history、memory mode、MCP/plugin 拡張を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Codex CLI 0.121.0: marketplace、memory、MCP/plugin を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Codex CLI 0.121.0: marketplace、memory、MCP/plugin を強化</h1>
+      <p class="article-dek">plugin marketplace の追加、TUI prompt history、memory mode 管理、MCP Apps tool calls などが入った Codex CLI 更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>0.121.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAI の公式 Codex changelog では、2026-04-15 付で <code>Codex CLI 0.121.0</code> が公開されています。今回の中心は、CLI / TUI / app-server / MCP / plugin 周辺の運用機能強化です。</p>
+        <ul>
+          <li><strong>marketplace add:</strong> <code>codex marketplace add</code> と app-server が、GitHub、git URL、ローカルディレクトリ、直接の <code>marketplace.json</code> URL から plugin marketplace を追加できるようになりました。</li>
+          <li><strong>TUI prompt history:</strong> <code>Ctrl+R</code> の reverse search と、受理済み slash command の local recall が追加されています。</li>
+          <li><strong>memory 管理:</strong> TUI と app-server に memory mode、memory reset / deletion、memory-extension cleanup の操作が入りました。</li>
+          <li><strong>MCP/plugin 拡張:</strong> MCP Apps tool calls、namespaced MCP registration、parallel-call opt-in、MCP server の sandbox-state metadata などが追加されています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>plugin marketplace と memory 管理が入ったことで、Codex を単発 CLI ではなく、継続的な開発環境として運用しやすくなります。MCP/plugin の名前空間や並列呼び出し設定は、複数サーバーを使う構成で衝突や意図しない動作を減らす助けになります。</p>
+
+        <h2>補足</h2>
+        <p>バグ修正では、macOS sandbox/proxy、Windows の cwd/session matching、rate-limit/account handling、Guardian timeout、app-server の thread unload、MCP/tool-call の edge case などが対象です。</p>
+
+        <h2>まとめ</h2>
+        <p>0.121.0 は、Codex の拡張基盤と長期利用の管理機能を一段進めるリリースです。plugin、MCP、memory を組み合わせて使っているユーザーほど確認しておきたい更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://developers.openai.com/codex/changelog" target="_blank" rel="noreferrer">Codex Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
