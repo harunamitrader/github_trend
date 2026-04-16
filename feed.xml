@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 20:11:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 05:10:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Ars Contexta]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。]]></description>
+    </item>
     <item>
       <title><![CDATA[last30days-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude-Mem]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-mem.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-mem.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。]]></description>
     </item>
   </channel>
 </rss>

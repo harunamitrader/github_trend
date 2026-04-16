@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-16T20:08:59.975115+00:00",
-  "count": 255,
+  "generatedAt": "2026-04-16T20:10:43.243851+00:00",
+  "count": 256,
   "articles": [
+    {
+      "slug": "2026-04-17-agenticnotetaking-arscontexta",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Ars Contexta",
+      "dek": "対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。",
+      "summary": "agenticnotetaking/arscontexta は、Claude Code 等のAIエージェントが自ら知識を読み書き・整理するための『第二の脳』を構築するプラグインです。249の研究根拠に基づき、対話を通じてユーザーに最適化された認知アーキテクチャと自動化パイプラインを導き出します。",
+      "repoName": "agenticnotetaking/arscontexta",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html",
+      "serial": 238,
+      "searchText": "Ars Contexta 対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。 agenticnotetaking/arscontexta は、Claude Code 等のAIエージェントが自ら知識を読み書き・整理するための『第二の脳』を構築するプラグインです。249の研究根拠に基づき、対話を通じてユーザーに最適化された認知アーキテクチャと自動化パイプラインを導き出します。 agenticnotetaking/arscontexta ナレッジ管理・RAG解析 Ars Contexta ← 記事一覧へ戻る GitHub Watcher Ars Contexta 対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。 記事作成日 2026-04-17 種別 Pickup 対象 repo agenticnotetaking/arscontexta Star数 3,100 これは何か Ars Contexta は、Claude Code 等の AI エージェントが利用するための「第二の脳（ナレッジ管理システム）」を構築するプラグインです。最大の特徴は、既存のテンプレートを押し付けるのではなく、ユーザーとの数問の対話を通じて、その人の専門領域や思考スタイルに最適化された 「認知アーキテクチャ」 をゼロから導き出す点にあります。 何ができるか Vault（書庫）の自動生成: Wiki リンクで繋がった Markdown ファイル群を自動作成。特定のデータベースにロックインされず、永続的に所有可能。 タスク自動並列実行: /ralph コマンドにより、未完了のタスクを AI サブエージェントが自律的に処理し、報告・更新を行うパイプライン機能。 認知系フックの統合: セッション開始時やツール実行後に自動で作動するフックにより、情報の品質管理や文脈のキャプチャを自動化。 249 の研究根拠: Zettelkasten や Cornell Note-Taking など、249 もの認知科学的研究に基づいた論理的な意思決定により、フォルダ構成やノート形式が決定。 ナビゲーションマップ: 知識が迷子にならないよう、MOCs（Map of Content）をハブ、ドメイン、トピックの各階層で自動維持。 目立つポイント 「AI はセッションごとに記憶を失う（Blank State）」という課題に対し、 「エージェント自身が読み書きし、メンテナンスする知識ベース」 を提供することで解決を試みています。生成のプロセス自体が非常に知的で、AI がユーザーのドキュメンテーションニーズを推論し、セルフメンテナンス（ /verify や /reweave ）までこなす自己増殖型のシステムとなっています。 セットアップや使い方の流れ Claude Code に /plugin marketplace add agenticnotetaking/arscontexta でリポジトリを追加し、インストール。 /arscontexta:setup を実行し、自身の専門領域やワークフローに関する数問の質問（約 20 分の対話プロセス）に回答。 AI が研究データに基づき、専用のディレクトリ構造、フック、スキル、そしてユーザーマニュアルを生成。 再起動後、生成された /reflect や /rethink コマンドで知識の構築を開始。 どんな人向けか Claude Code を単なるコード書きではなく、長期的な研究パートナーやプロジェクトマネージャーとして活用したい開発者。 膨大なリサーチ結果や意思決定の履歴を、AI に整理・記憶させたい人。 Obsidian 等のノート術を AI エージェントの自律性と組み合わせたい知識労働者。 まとめ Ars Contexta（「文脈の技術」の意）は、AI エージェントを真に「知的」にするための最後のパズルピースかもしれません。人が整理しきれない情報を AI が自ら体系化し、次のセッションでその「脳」を読み込んで再開する。この「エージェントネイティブな知識循環」は、未来のワークフローを先取りした体験と言えるでしょう。 参照リンク agenticnotetaking/arscontexta"
+    },
     {
       "slug": "2026-04-17-mvanhorn-last30days-skill",
       "category": "github-pickup",

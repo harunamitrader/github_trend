@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-agenticnotetaking-arscontexta",
+      "title": "Ars Contexta",
+      "dek": "対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。",
+      "summary": "agenticnotetaking/arscontexta は、Claude Code 等のAIエージェントが自ら知識を読み書き・整理するための『第二の脳』を構築するプラグインです。249の研究根拠に基づき、対話を通じてユーザーに最適化された認知アーキテクチャと自動化パイプラインを導き出します。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:25:00+09:00",
+      "repoName": "agenticnotetaking/arscontexta",
+      "repoUrl": "https://github.com/agenticnotetaking/arscontexta",
+      "starCount": 3100,
+      "articleUrl": "./articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html",
+      "serial": 238,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-mvanhorn-last30days-skill",
       "title": "last30days-skill",
       "dek": "Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。",
