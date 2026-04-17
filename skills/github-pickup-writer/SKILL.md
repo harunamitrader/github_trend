@@ -18,7 +18,7 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 3. Confirm the target repository or repository URL from the user request.
 4. Resolve the target repository to the canonical GitHub URL after redirects, and normalize `repoName` to canonical `owner/repo` casing before writing anything.
 5. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same canonical `repoName` / `repoUrl` is already published.
-6. If the same repository already has an older visible GitHub Watcher article, keep only the latest correct one instead of creating a second visible duplicate.
+6. If the same repository is already published in `articles.json`, stop the task immediately, report the existing article's title and URL to the user in chat, and DO NOT create a new article or overwrite the existing one.
 7. Read only the target repository page and the minimum extra material needed to explain what it is, and capture the current public GitHub star count.
 8. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
 9. Append or replace one `category: "github-pickup"` entry in `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` using the canonical `repoName` / `repoUrl`.

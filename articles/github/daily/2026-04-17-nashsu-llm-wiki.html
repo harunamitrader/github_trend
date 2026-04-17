@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="nashsu/llm_wiki の概要と、Karpathy 氏の LLM Wiki 構想を具現化したデスクトップアプリについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>llm_wiki</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">llm_wiki</h1>
+      <p class="article-dek">Andrej Karpathy 氏の LLM Wiki 構想を実現。ドキュメントを読み込み、自動で構造化・リンクされた個人知識ベースを構築するデスクトップアプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noreferrer">
+              nashsu/llm_wiki
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,500</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          AI 研究者の Andrej Karpathy 氏が提唱した「LLM Wiki」の概念（LLM にドキュメントを読み込ませ、構造化された Wiki を自動構築・保守させる手法）を、一般ユーザーが利用可能なデスクトップアプリケーションとして実装したプロジェクトです。Tauri v2 と React をベースにしたクロスプラットフォーム対応アプリであり、単なる RAG（検索・回答）を超えて、持続的で閲覧性の高い知識ネットワークを構築します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>2ステップ・インジェスト：</strong> LLM による高度な解析（Chain-of-Thought）を経てから Wiki ページを生成することで、ソースの追跡可能性（Traceability）と高品質な要約を両立。</li>
+          <li><strong>インテリジェント・グラフ：</strong> Louvain アルゴリズムを用いて知識のクラスタを自動検出し、視覚的なナレッジグラフとして表示。</li>
+          <li><strong>Deep Research：</strong> 構築された Wiki 内の知識の欠落（Knowledge Gap）を AI が分析し、Web 検索（Tavily API）を用いて自動的に情報を補完。</li>
+          <li><strong>Web クリッパー：</strong> Chrome 拡張機能経由でブラウザから直接、整理された情報としてナレッジベースに流し込み。</li>
+          <li><strong>Obsidian 連携：</strong> 生成されるデータは Markdown 形式であり、Obsidian の Vault としてもそのまま利用可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          従来の RAG システムが「質問のたびに検索する」使い捨てのプロセスになりがちだったのに対し、本プロジェクトは「インクリメンタルに Wiki を育てる」点に注力しています。知識の SHA256 キャッシュによる効率的な読み込みや、同期・非同期のレビューシステムなど、実用的な知識管理ツールとしての機能が詰め込まれています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリの Releases ページから、OS（macOS, Windows, Linux）に合わせたバイナリをダウンロードしてインストール。</li>
+          <li>設定画面で OpenAI や Anthropic などの API キーと使用モデル（DeepSeek、QwQ などの思考型モデルも推奨）を設定。</li>
+          <li>ドキュメント（PDF, DOCX, MD 等）をインポート。Activity Panel で AI による解析・自動構築が進むのを確認します。</li>
+          <li>構築された Wiki をチャットで検索したり、ナレッジグラフで繋がりを探索したりして活用します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>溜まり続けるドキュメントや Web 記事を、読みやすく整理された「自分専用の百科事典」に変えたい人。</li>
+          <li>RAG を自作したいが、デスクトップアプリとしての完成度も求める開発者。</li>
+          <li>Andrej Karpathy 氏の LLM 活用戦略に興味があり、その具現化を体験したいエンジニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          インジェスト（読み込み）の過程で大量の LLM トークンを消費する可能性があるため、モデルの選択や設定されたコンテキストウィンドウ サイズには注意が必要です。また、自動生成される Wiki リンクの正確性を保つため、定期的な「Lint（整合性チェック）」機能の実行が推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>llm_wiki</code> は、AI エージェントを「個人の司書」として雇うような体験を提供します。デスクトップアプリとしての利便性と、グラフ理論や最新の LLM 手法を組み合わせた強力な検索・保守性能を兼ね備えており、セカンドブレイン構築の新たなスタンダードになり得るポテンシャルを持っています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noreferrer">nashsu/llm_wiki</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
