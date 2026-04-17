@@ -34,6 +34,22 @@
       "genre": "AIコーディング (CLI本体・拡張機能)"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-04-16-forrestchang-andrej-karpathy-skills",
+      "title": "andrej-karpathy-skills",
+      "dek": "Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。",
+      "summary": "AI 研究の第一人者 Andrej Karpathy 氏の観察に基づく、LLM コーディングの落とし穴を回避するための行動指針（CLAUDE.md テンプレート）を提供するリポジトリです。「思考優先」「シンプルさ」「surgical な変更」といった原則により、AI エージェントの精度を劇的に向上させます。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-17T10:35:00+09:00",
+      "repoName": "forrestchang/andrej-karpathy-skills",
+      "repoUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "starCount": 50000,
+      "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
+      "serial": 247,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-04-17-lsdefine-genericagent",
       "title": "GenericAgent",

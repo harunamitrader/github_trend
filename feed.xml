@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 01:19:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 10:36:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
@@ -112,6 +112,14 @@
       <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
     </item>
     <item>
+      <title><![CDATA[andrej-karpathy-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Claude Opus 4.7: コーディングと視覚性能を強化して一般提供]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-16 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-16-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-16-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
