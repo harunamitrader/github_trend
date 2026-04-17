@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-tirth8205-code-review-graph",
+      "title": "code-review-graph",
+      "dek": "AIが「本当に読むべきコード」だけを特定。AST解析でトークン消費を最大1/49に抑えるローカルナレッジグラフ。",
+      "summary": "Claude CodeやCursor等のAIツールがコードを読みすぎる問題を解決する、Tree-sitterベースのコードベース用ナレッジグラフです。MCP経由でAIにコンテキストを提供し、影響範囲（Blast Radius）のみを特定して読み込ませることで、トークン消費を劇的に削減します。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T17:25:00+09:00",
+      "repoName": "tirth8205/code-review-graph",
+      "repoUrl": "https://github.com/tirth8205/code-review-graph",
+      "starCount": 10700,
+      "articleUrl": "./articles/github/daily/2026-04-17-tirth8205-code-review-graph.html",
+      "serial": 248,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-sirmalloc-ccstatusline",
       "title": "ccstatusline",
       "dek": "Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。",

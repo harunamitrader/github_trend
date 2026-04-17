@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 01:44:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 17:25:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[code-review-graph]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-tirth8205-code-review-graph.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-tirth8205-code-review-graph.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIが「本当に読むべきコード」だけを特定。AST解析でトークン消費を最大1/49に抑えるローカルナレッジグラフ。]]></description>
     </item>
     <item>
       <title><![CDATA[ccstatusline]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[オープンソースで提供される低コストな10.5 GHz フェーズドアレイレーダー開発プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[notebooklm-py]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。]]></description>
     </item>
   </channel>
 </rss>

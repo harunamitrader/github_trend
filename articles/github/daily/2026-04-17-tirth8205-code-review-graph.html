@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tirth8205/code-review-graph を読み、AI コーディングにおけるトークン消費を劇的に削減するナレッジグラフ活用法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>code-review-graph</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">code-review-graph</h1>
+      <p class="article-dek">AIが「本当に読むべきコード」だけを特定。AST解析でトークン消費を最大1/49に抑えるローカルナレッジグラフ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-17 -->
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noreferrer">
+              tirth8205/code-review-graph
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Claude Code や Cursor などの AI コーディングエディタが、タスクごとにコードベース全体を読み直してトークンを浪費する問題を解決するためのツールです。Tree-sitter を利用してコードの抽象構文木（AST）を解析し、関数、クラス、インポートの関係性をグラフ化して保持します。これにより、AI は「修正すべき箇所と、そこから影響を受ける最小限の範囲（Blast Radius）」だけをスマートに読み取れるようになります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          MCP（Model Context Protocol）サーバーとして動作し、AI エージェントに対して以下のような高度なコンテキスト提供を自動化します。
+        </p>
+        <ul>
+          <li><strong>影響範囲の特定：</strong> 特定のファイルを変更した際、どの関数やテストが影響を受けるかをグラフ上でトレース。</li>
+          <li><strong>トークンの劇的削減：</strong> レビュー時で平均 6.8 倍、日常的なタスクで最大 49 倍のトークン消費を抑制。</li>
+          <li><strong>セマンティック検索：</strong> コードの構造に基づいた高精度なノード検索。</li>
+          <li><strong>可視化：</strong> コードの依存関係を SVG や Obsidian vault 形式などで書き出し。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          特に巨大なモノレポにおいて威力を発揮します。何万ものファイルがあるプロジェクトでも、グラフ解析によって実際に AI が読むべきファイルを 10 数件程度に絞り込むことができ、コンテキストウィンドウの枯渇を防ぎます。また、23 以上の言語に加え、Jupyter ノートブック（.ipynb）にも対応している点が非常に実用的です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.10 以上がインストールされた環境で、以下の手順で導入できます。</p>
+        <ol>
+          <li><code>pip install code-review-graph</code>（または <code>pipx</code>, <code>uvx</code>）</li>
+          <li><code>code-review-graph install</code> を実行して、使用中のエディタ（Claude Code/Cursor等）に MCP 設定を自動注入。</li>
+          <li>プロジェクトディレクトリで <code>code-review-graph build</code> を実行し、ナレッジグラフを構築。</li>
+          <li>エディタを再起動し、AI に「このプロジェクトのグラフを構築して」と指示するだけで、自動的に最適化された読み込みが開始されます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>AI エージェントのトークン使用量（およびコスト）を削減したい開発者。</li>
+          <li>大規模なプロジェクトに従事しており、AI がコンテキストを正しく把握できずに困っている方。</li>
+          <li>コードの依存関係を視覚的に把握し、変更の影響を正確に見極めたいエンジニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          初回ビルドには数秒（500ファイル程度で約10秒）かかります。その後はインクリメンタル（差分）更新に対応していますが、大幅なディレクトリ構造の変更などがあった場合は再ビルドが推奨されます。また、現時点では JavaScript や Go のコントロールフロー検出など、一部の言語固有の高度な機能については継続的な改善が進んでいる段階です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>code-review-graph</code> は、AI コーディングにおける「全読み」の非効率を構造化データで解決する、まさに AI 時代の「コードインデックス」と言える存在です。コスト削減だけでなく、AI が「本当に重要なコード」に集中できるため、回答の精度向上にも直結する強力なツールです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noreferrer">tirth8205/code-review-graph</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
