@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 18:18:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 19:04:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
@@ -14,6 +14,22 @@
       <category>github-update-report</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ccmux]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-shin-sibainu-ccmux.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-shin-sibainu-ccmux.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code をマルチペインで同時に動かす。並列タスクとファイル管理をひとつの TUI に統合するターミナルマルチプレクサ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[llm_wiki]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-nashsu-llm-wiki.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-nashsu-llm-wiki.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy 氏の LLM Wiki 構想を実現。ドキュメントを読み込み、自動で構造化・リンクされた個人知識ベースを構築するデスクトップアプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[dive-into-llms]]></title>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[あらゆるWebサイトからAIとノーコードでデータを抽出し、数分で構造化APIに変えるオープンソースプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[android-reverse-engineering-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-simoneavogadro-android-reverse-engineering-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-simoneavogadro-android-reverse-engineering-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code に Android アプリのリバースエンジニアリング能力を追加する強力な解析スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FinGPT]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-ai4finance-foundation-fingpt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-ai4finance-foundation-fingpt.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オープンソースで提供される金融特化型の大規模言語モデル（LLM）。低コストなファインチューニングによりBloombergGPTの代替を目指す。]]></description>
     </item>
   </channel>
 </rss>
