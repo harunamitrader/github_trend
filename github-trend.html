@@ -351,8 +351,11 @@
         const statsEl = document.getElementById("site-stats-articles");
         const normalizedGenreMap = {
           "AIコーディング (プロンプト・開発補助ツール)": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+          "生産性向上・AIエージェント": "AIエージェント (自律基盤・特化アプリ)",
           "AIエージェント (基盤・コンポーネント)": "AIエージェント (自律基盤・特化アプリ)",
           "AIエージェント・マルチエージェント・オーケストレーション": "AIエージェント (自律基盤・特化アプリ)",
+          "金融・投資・トレード": "金融・トレード分析",
+          "AI・開発ツール": "AI基盤・データ基盤・業務アプリ",
           "ローカルLLM・推論高速化・モデル量子化": "AI基盤・データ基盤・業務アプリ",
           "メディア作成・Web生成 (動画・画像・UI)": "メディア作成・マルチモーダル・UI",
           "汎用アプリ・AI基盤・IoT": "AI基盤・データ基盤・業務アプリ"
@@ -366,8 +369,7 @@
           "メディア作成・マルチモーダル・UI": "#ffe0e7",
           "ナレッジ管理・RAG解析": "#dff9ff",
           "スクレイピング・情報収集・セキュリティ": "#fff8cf",
-          "学習ガイド・開発アセット": "#e1f8df",
-          "その他・未分類（ユーティリティ等）": "#edf2f8"
+          "学習ガイド・開発アセット": "#e1f8df"
         };
         const categoryOrder = [
           "AIコーディング (CLI本体・拡張機能)",
@@ -378,8 +380,7 @@
           "メディア作成・マルチモーダル・UI",
           "ナレッジ管理・RAG解析",
           "スクレイピング・情報収集・セキュリティ",
-          "学習ガイド・開発アセット",
-          "その他・未分類（ユーティリティ等）"
+          "学習ガイド・開発アセット"
         ];
         const nowMs = Date.now();
         const newWindowMs = 3 * 24 * 60 * 60 * 1000;
@@ -618,7 +619,7 @@
             groups[category] = [];
           }
           for (const article of filteredArticles) {
-            const rawCategory = (article.genre || "その他・未分類（ユーティリティ等）").trim();
+            const rawCategory = (article.genre || "学習ガイド・開発アセット").trim();
             const category = normalizedGenreMap[rawCategory] || rawCategory;
             if (!groups[category]) groups[category] = [];
             groups[category].push(article);

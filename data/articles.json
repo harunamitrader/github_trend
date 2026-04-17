@@ -79,7 +79,7 @@
       "articleUrl": "./articles/github/daily/2026-04-18-makeplane-plane.html",
       "serial": 256,
       "originType": "pickup",
-      "genre": "生産性向上・AIエージェント"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -111,7 +111,7 @@
       "articleUrl": "./articles/github/daily/2026-04-18-bit-datalab-edit-banana.html",
       "serial": 254,
       "originType": "pickup",
-      "genre": "生産性向上・AIエージェント"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -127,7 +127,7 @@
       "articleUrl": "./articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html",
       "serial": 253,
       "originType": "pickup",
-      "genre": "生産性向上・AIエージェント"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -143,7 +143,7 @@
       "articleUrl": "./articles/github/daily/2026-04-17-m1k1o-neko.html",
       "serial": 252,
       "originType": "pickup",
-      "genre": "生産性向上・AIエージェント"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -175,7 +175,7 @@
       "articleUrl": "./articles/github/daily/2026-04-17-nashsu-llm-wiki.html",
       "serial": 250,
       "originType": "pickup",
-      "genre": "生産性向上・AIエージェント"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -374,7 +374,7 @@
       "articleUrl": "./articles/github/daily/2026-04-17-grananqvist-awesome-quant-machine-learning-trading.html",
       "serial": 239,
       "originType": "pickup",
-      "genre": "金融・投資・トレード"
+      "genre": "金融・トレード分析"
     },
     {
       "category": "github-pickup",
@@ -406,7 +406,7 @@
       "articleUrl": "./articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html",
       "serial": 237,
       "originType": "pickup",
-      "genre": "AI・開発ツール"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
