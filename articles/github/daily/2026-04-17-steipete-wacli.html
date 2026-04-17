@@ -1,76 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>wacli | harunami AI base</title>
-  <meta name="description" content="WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。">
-  <link rel="stylesheet" href="../../../css/index.css">
-  <link rel="stylesheet" href="../../../css/article.css">
-</head>
-<body class="article-page">
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="../../../index.html" class="site-title">harunami AI base</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="steipete/wacli を読み、WhatsApp をターミナルから操作する CLI ツールの特徴をまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>wacli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-  <main class="main-content">
-    <article class="article-container">
-      <div class="article-header">
-        <span class="eyebrow">GitHub Watcher</span>
-        <h1 class="article-title">wacli</h1>
-        <p class="article-dek">WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。</p>
-        
-        <div class="article-meta-grid">
-          <div class="meta-item">
-            <span class="meta-label">分析日</span>
-            <span class="meta-value">2026-04-17</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Trending順位</span>
-            <span class="meta-value">#7</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">対象リポジトリ</span>
-            <span class="meta-value"><a href="https://github.com/steipete/wacli" target="_blank" rel="noopener noreferrer">steipete/wacli</a></span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">GitHub Stars</span>
-            <span class="meta-value">1,641</span>
-          </div>
+      <h1 class="article-title">wacli</h1>
+      <p class="article-dek">WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/steipete/wacli" target="_blank" rel="noreferrer">
+              steipete/wacli
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,641</strong>
         </div>
       </div>
 
       <div class="article-body">
-        <h2>概要</h2>
-        <p>wacli は、WhatsApp をコマンドラインから操作するための非公式CLIクライアントです。QRコード認証によりデバイスと連携し、プレーンテキストから画像・動画までターミナル内で送受信可能。自動化スクリプトやAIエージェントの通知基盤としても応用が利くツールです。</p>
+        <h2>これは何か</h2>
+        <p>
+          wacli は、世界的に普及しているメッセージングアプリ「WhatsApp」をターミナル（CLI）から直接操作するためのオープンソースツールです。GUI を開くことなく、Rust 製の高速なインターフェースを通じてメッセージのやり取りが可能になります。
+        </p>
 
-        <h2>主な機能</h2>
+        <h2>何ができるか</h2>
         <ul>
-          <li><strong>ターミナルからのWhatsAppメッセージ送受信</strong></li>
-          <li><strong>QRコードでの安全かつ手軽なログイン</strong></li>
-          <li><strong>自動化や通知ツールとしての活用が容易</strong></li>
-          <li><strong>メディア（画像、動画など）の転送対応</strong></li>
+          <li><strong>メッセージ送受信：</strong> コマンドラインからのリアルタイムチャット。</li>
+          <li><strong>メディア対応：</strong> 画像やファイルなどの添付情報の管理。</li>
+          <li><strong>コンタクト管理：</strong> 連絡先の検索やメッセージ履歴の表示。</li>
+          <li><strong>ヘッドレス動作：</strong> サーバー上での実行やスクリプト連携。</li>
         </ul>
 
-        <h2>ターゲット層</h2>
-        <p>AIシステムの運用者、データアナリスト、OSS開発者、自動化による業務改善を目指すエンジニア全般。</p>
+        <h2>目立つポイント</h2>
+        <p>
+          公式 SDK でないにも関わらず、非常に安定しており、WhatsApp Web の API を効率的にラップしている点です。特に開発者が作業中に画面を切り替えることなく、ターミナル内で連絡を取れるため、生産性の向上が期待できます。また、Rust で記述されているためレスポンスが非常に軽快です。
+        </p>
 
-        <h2>リスクと注意点</h2>
-        <p>オープンソースの特性上、プロダクション環境への導入前には十分なセキュリティ検証と依存関係の確認が必要です。</p>
+        <h2>どんな人向けか</h2>
+        <p>
+          ターミナルの外に出たくない開発者、WhatsApp を使った通知の自動化を検討しているエンジニア、または Vimmer/Emacser。
+        </p>
 
-        <h2>今後の影響</h2>
-        <p>このツールや基盤が普及することで、より高度な自動化とエージェント技術の民主化が加速するでしょう。</p>
+        <h2>注意点</h2>
+        <p>
+          WhatsApp の利用規約に基づき、スパム行為や不適切な自動配信に使用するとアカウント停止のリスクがあります。また、利用には事前の QR コード認証（WhatsApp 側のセキュリティ）が必要です。
+        </p>
 
-        <div class="source-links">
-          <h3>参考リンク</h3>
-          <ul>
-            <li><a href="https://github.com/steipete/wacli" target="_blank" rel="noopener noreferrer">GitHub - steipete/wacli</a></li>
-          </ul>
+        <h2>まとめ</h2>
+        <p>
+          「ターミナルこそがホーム」であるエンジニアにとって、WhatsApp への窓口となるこのツールは非常に魅力的です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/steipete/wacli" target="_blank" rel="noreferrer">steipete/wacli</a>
         </div>
       </div>
     </article>
-  </main>
-</body>
+  </body>
 </html>

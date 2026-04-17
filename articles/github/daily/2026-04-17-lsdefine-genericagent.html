@@ -1,76 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GenericAgent | harunami AI base</title>
-  <meta name="description" content="3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。">
-  <link rel="stylesheet" href="../../../css/index.css">
-  <link rel="stylesheet" href="../../../css/article.css">
-</head>
-<body class="article-page">
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="../../../index.html" class="site-title">harunami AI base</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="lsdefine/GenericAgent を読み、自己進化する AI エージェントの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GenericAgent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-  <main class="main-content">
-    <article class="article-container">
-      <div class="article-header">
-        <span class="eyebrow">GitHub Watcher</span>
-        <h1 class="article-title">GenericAgent</h1>
-        <p class="article-dek">3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。</p>
-        
-        <div class="article-meta-grid">
-          <div class="meta-item">
-            <span class="meta-label">分析日</span>
-            <span class="meta-value">2026-04-17</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Trending順位</span>
-            <span class="meta-value">#3</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">対象リポジトリ</span>
-            <span class="meta-value"><a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noopener noreferrer">lsdefine/GenericAgent</a></span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">GitHub Stars</span>
-            <span class="meta-value">2,690</span>
-          </div>
+      <h1 class="article-title">GenericAgent</h1>
+      <p class="article-dek">3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noreferrer">
+              lsdefine/GenericAgent
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,690</strong>
         </div>
       </div>
 
       <div class="article-body">
-        <h2>概要</h2>
-        <p>GenericAgent は、実行時の経験から新たな関数（スキル）を自動生成して自らを拡張し続けるAIエージェントです。初期状態の小さなコードベースからタスクごとに最適なツール群を学習・保持することで、プロンプトに頼らずとも高度なシステム操作を最小のトークンコストで達成します。</p>
+        <h2>これは何か</h2>
+        <p>
+          GenericAgent は、実行時の経験から新たな関数（スキル）を自動生成して自らを拡張し続ける AI エージェントです。初期状態の小さなコードベースからタスクごとに最適なツール群を学習・保持することで、プロンプトに頼らずとも高度なシステム操作を最小のトークンコストで達成します。
+        </p>
 
-        <h2>主な機能</h2>
+        <h2>何ができるか</h2>
         <ul>
-          <li><strong>経験からスキルセットを動的に成長させる自己進化機構</strong></li>
-          <li><strong>他モデル比較で6倍のトークン効率</strong></li>
-          <li><strong>システム操作や複数タスクをまたぐナレッジの蓄積</strong></li>
-          <li><strong>小規模なコアコード（3.3K行）による高い保守性</strong></li>
+          <li><strong>自己進化機構：</strong> 経験からスキルセットを動的に成長させます。</li>
+          <li><strong>高いトークン効率：</strong> 他モデル比較で約 6 倍の効率を実現。</li>
+          <li><strong>ナレッジの蓄積：</strong> システム操作や複数タスクをまたぐ知見を保持。</li>
+          <li><strong>小規模なコア：</strong> 約 3.3K 行のコードにより高い保守性を維持。</li>
         </ul>
 
-        <h2>ターゲット層</h2>
-        <p>AIシステムの運用者、データアナリスト、OSS開発者、自動化による業務改善を目指すエンジニア全般。</p>
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、エージェントが「自ら道具（関数）を作り、それを使いこなす」という点にあります。固定されたツールセットに縛られず、新しい課題に対して最適なアプローチを自律的に開発していくため、未知の業務フローへの適応力が非常に高いです。
+        </p>
 
-        <h2>リスクと注意点</h2>
-        <p>オープンソースの特性上、プロダクション環境への導入前には十分なセキュリティ検証と依存関係の確認が必要です。</p>
+        <h2>どんな人向けか</h2>
+        <p>
+          AI システムの運用者、データアナリスト、OSS 開発者、および自動化による業務改善を目指すエンジニア全般に適しています。
+        </p>
 
-        <h2>今後の影響</h2>
-        <p>このツールや基盤が普及することで、より高度な自動化とエージェント技術の民主化が加速するでしょう。</p>
+        <h2>注意点</h2>
+        <p>
+          オープンソースの特性上、プロダクション環境への導入前には十分なセキュリティ検証と依存関係の確認が必要です。
+        </p>
 
-        <div class="source-links">
-          <h3>参考リンク</h3>
-          <ul>
-            <li><a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noopener noreferrer">GitHub - lsdefine/GenericAgent</a></li>
-          </ul>
+        <h2>まとめ</h2>
+        <p>
+          このツールや基盤が普及することで、より高度な自動化とエージェント技術の民主化が加速するでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/lsdefine/GenericAgent" target="_blank" rel="noreferrer">lsdefine/GenericAgent</a>
         </div>
       </div>
     </article>
-  </main>
-</body>
+  </body>
 </html>
