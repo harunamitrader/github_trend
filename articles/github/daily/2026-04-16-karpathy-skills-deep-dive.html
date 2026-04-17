@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrej Karpathy 氏の知見に基づき、Claude Code のミスを劇的に減らすための CLAUDE.md 指針と活用法を解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code を劇的に改善する Karpathy 流 CLAUDE.md 実践ガイド</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="./2026-04-16-forrestchang-andrej-karpathy-skills.html">← 記事へ戻る</a>
+        <p class="eyebrow">Technical Tutorial</p>
+      </div>
+
+      <h1 class="article-title">Claude Code を劇的に改善する Karpathy 流 CLAUDE.md 実践ガイド</h1>
+      <p class="article-dek">推測を排し、シンプルさを貫く。AI 研究者 Andrej Karpathy 氏が提唱する「LLM コーポレート・ガイドライン」を日本語で徹底解説。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>AI 開発手法</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象</span>
+          <strong>Claude Code / AI Agents</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>はじめに</h2>
+        <p>
+          AI 研究・開発の第一人者である Andrej Karpathy 氏が指摘した、「LLM がコーディング中に陥りがちな落とし穴」を回避するための具体的な行動指針を解説します。Claude Code をはじめとする AI エージェントの挙動を、よりシンプルで、確実で、余計なことをしない「熟練エンジニア」へと近づけるための高品質な <code>CLAUDE.md</code> の作成を目指します。
+        </p>
+
+        <h2>なぜこれが必要か（LLM の弱点）</h2>
+        <p>
+          Karpathy 氏は、現在の LLM コーディングには以下の 3 つの大きな問題があるとしています。
+        </p>
+        <ul>
+          <li><strong>勝手な推測：</strong> 本来質問すべき不明点に対し、勝手に憶測で進めてしまう。</li>
+          <li><strong>複雑化（Bloat）：</strong> 100 行で済むものを 1000 行の過剰な抽象化で構築してしまう。</li>
+          <li><strong>無駄な変更：</strong> 関係ないコメントを消したり、壊れていない隣接コードを「修正」してしまう。</li>
+        </ul>
+
+        <h2>解決のための 4 つの原則</h2>
+        <p>Karpathy 氏の知見を元に提案されている、4 つの行動ルールを深掘りします。</p>
+        
+        <h3>1. 実装前にまず思考せよ (Think Before Coding)</h3>
+        <p>勝手に推測せず、曖昧な点はまず質問することを優先します。複数の解釈がある場合は独断せず、ユーザーに選択肢を提示させます。これにより、「作ってからやり直し」というコストを最小化します。</p>
+
+        <h3>2. シンプルさを最優先に (Simplicity First)</h3>
+        <p>「将来のため」といった憶測での機能追加や、不必要な抽象化を禁じます。目的を達成する最小限のコードにこだわります。シニアエンジニアがコードを見て「過剰だ」と感じるものはすべて排除します。</p>
+
+        <h3>3. 「外科手術」のようなピンポイント変更 (Surgical Changes)</h3>
+        <p>修正が必要な箇所だけを触り、関係ないリファクタリングやフォーマット変更を行わないよう徹底します。差分（Diff）を極限までクリーンに保つことが、信頼性に繋がります。</p>
+
+        <h3>4. ゴール駆動の実行 (Goal-Driven Execution)</h3>
+        <p>「とりあえず修正して」を、「テストを成功させる」などの検証可能なゴールに変換させます。特に多段階のタスクでは、実行ごとに検証を挟むループを回します。具体的な成功指標を持たせることが重要です。</p>
+
+        <hr>
+
+        <h2>CLAUDE.md 日本語記述例（テンプレート）</h2>
+        <p>自身のプロジェクトに導入する際、以下の内容を <code>CLAUDE.md</code> に記述してください。Claude Code のシステムプロンプトとして機能し、挙動が劇的に安定します。</p>
+
+<pre><code class="language-markdown"># Behavior Guidelines
+
+AI特有のコーディングミスを減らすため、以下の原則を厳守してください。
+
+## 1. 実装前の思考と確認
+- 勝手な推測をせず、不明点があれば実装前に必ず質問すること。
+- 複数の解釈ができる場合は、独断で選ばず選択肢を提示すること。
+- よりシンプルな設計が可能なら、それを提案すること。
+
+## 2. シンプルさの追求
+- 要求されていない機能や「将来のための拡張性」を追加しない。
+- 1回しか使わないコードを抽象化（共通化）しない。
+- 200行のコードが50行で書けるなら、迷わず書き直すこと。
+
+## 3. 外科手術的な変更
+- 依頼された修正に関係のない箇所（隣接コード、コメント、フォーマット）を触らない。
+- 元からあるデッドコードを見つけた場合は、削除せず報告のみ行う。
+- 既存のコードスタイルに100%合わせること。
+
+## 4. ゴールの定義と検証
+- タスクを「検証可能なゴール」に変換してから着手すること。
+- (例: 「バグ修正」→「失敗するテストを書き、それをパスさせる」)
+- 計画を「[手順] → [検証]」の形式で立ててから実行すること。</code></pre>
+
+        <h2>まとめ</h2>
+        <p>
+          AI エージェントは非常に強力ですが、デフォルトでは「頑張りすぎてしまう（過剰構築）」という癖があります。Andrej Karpathy 氏流の厳格な節制ルールを <code>CLAUDE.md</code> で定義することで、AI はあなたの意図を汲み取り、より洗練されたコードを生成するようになるでしょう。
+        </p>
+
+        <h2>参照</h2>
+        <div class="source-item">
+          <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noreferrer">Original Repository: forrestchang/andrej-karpathy-skills</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
