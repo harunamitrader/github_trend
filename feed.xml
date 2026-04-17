@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 19:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 04:05:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Edit-Banana]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bit-datalab-edit-banana.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bit-datalab-edit-banana.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「編集できない画像」を「編集できる図表」へ。SAM 3 とマルチモーダル LLM を駆使して、静的なチャートを DrawIO や PPTX に高精度復元するフレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[alpaca-mcp-server]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[andrej-karpathy-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。]]></description>
     </item>
   </channel>
 </rss>

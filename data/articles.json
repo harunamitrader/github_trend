@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-bit-datalab-edit-banana",
+      "title": "Edit-Banana",
+      "dek": "「編集できない画像」を「編集できる図表」へ。SAM 3 とマルチモーダル LLM を駆使して、静的なチャートを DrawIO や PPTX に高精度復元するフレームワーク。",
+      "summary": "画像内のフローチャートや各種グラフを、編集可能な DrawIO XML や PowerPoint 形式に変換。SAM 3 による高度なセグメンテーションと VLM スキャンにより、元のレイアウトや論理構造を維持したまま 1:1 の再構築を実現します。LaTeX 数式認識にも対応。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:04:00+09:00",
+      "repoName": "BIT-DataLab/Edit-Banana",
+      "repoUrl": "https://github.com/BIT-DataLab/Edit-Banana",
+      "starCount": 4900,
+      "articleUrl": "./articles/github/daily/2026-04-18-bit-datalab-edit-banana.html",
+      "serial": 254,
+      "originType": "pickup",
+      "genre": "生産性向上・AIエージェント"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-alpacahq-alpaca-mcp-server",
       "title": "alpaca-mcp-server",
       "dek": "Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。",

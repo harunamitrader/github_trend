@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BIT-DataLab/Edit-Banana の概要と、静的な画像を編集可能な DrawIO や PowerPoint 形式に変換するフレームワークについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Edit-Banana</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Edit-Banana</h1>
+      <p class="article-dek">「編集できない画像」を「編集できる図表」へ。SAM 3 とマルチモーダル LLM を駆使して、静的なチャートを DrawIO や PPTX に高精度復元するフレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/BIT-DataLab/Edit-Banana" target="_blank" rel="noreferrer">
+              BIT-DataLab/Edit-Banana
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,900</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          画像形式（PNG/JPG等）で保存されてしまったフローチャート、グラフ、構成図などを、構造解析によって「再度編集可能な形式（DrawIO XML, PowerPoint, LaTeX等）」へと書き戻すユニバーサル・コンテンツ・再エディターです。Meta の最新セグメンテーションモデル SAM 3 をファインチューニングして使用し、図の構成要素を個別に分離・認識することで、レイアウトや論理関係を維持したまま、1:1 の高精度なデジタルツイン（編集可能データ）を生成します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リ・エディタ機能：</strong> 過去の資料から画像だけが残っているフローチャートなどをアップロードすると、個々のボックスや矢印が独立したオブジェクトとして扱える DrawIO 形式で出力されます。</li>
+          <li><strong>高度な要素分離 (SAM 3)：</strong> 複雑に重なり合った図形や多種多様な矢印のスタイル（点線、太さ、色）を正確に識別し、ベクターデータとして再構成します。</li>
+          <li><strong>マルチモーダル LLM スキャン：</strong> マルチモーダル大規模言語モデル（VLM）を用いて図全体を複数回スキャンし、図の中に含まれる情報の論理的な階層や接続関係を補完します。</li>
+          <li><strong>強力なテキスト & 数式認識：</strong> 単なるテキスト OCR だけでなく、Pix2Text を統合することで複雑な数学公式も認識し、LaTeX 形式で埋め込むことが可能です。</li>
+          <li><strong>ビジネス資料への転載：</strong> PowerPoint (pptx) への書き出しにも対応しており、画像しか手元にない古いグラフを、最新の数値を反映させるための編集可能なグラフへと即座に変換できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          「画像の中の文字を抽出する」ツールは多くありますが、Edit-Banana は「図の中の構造（意味）を抽出して、元の編集ソフトで開ける形式に戻す」という一歩踏み込んだ解決策を提示しています。特に SAM 3 を図表のセグメンテーションに特化させて利用している点は技術的にも非常に興味深く、業務効率化の観点でも「資料の作り直し」という苦痛から解放してくれる救世主的なツールです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、<code>requirements.txt</code> をインストールします。CUDA 対応 GPU が推奨されています。</li>
+          <li>SAM 3 のモデルウェイト（sam3.pt）を指定の場所にダウンロードし、環境をセットアップします。</li>
+          <li>コマンドラインから <code>python main.py -i <画像パス></code> を実行します。</li>
+          <li><code>output/</code> ディレクトリに、生成された DrawIO XML や中間ファイルが出力されます。</li>
+          <li>オンラインデモ（editbanana.anxin6.cn）も公開されており、ブラウザ上ですぐに変換を試すことも可能です。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>画像しか残っていない過去のシステム構成図やフローチャートを、最新の状態に修正・メンテナンスしたいエンジニアやドキュメント作成者。</li>
+          <li>論文やレポート内の高度なグラフを、自分のプレゼン資料用に微修正して引用したい研究者。</li>
+          <li>「画像化された図表」を構造化データとして抽出して機械学習などの学習データに活用したいデータサイエンティスト。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          非常に高度な処理を行うため、ローカルで動かすには CUDA 環境（GPU）が必要です。また、GitHub 版はウェブサービス版よりも機能が先行していない場合があると作者が述べているため、最新の体験を求める場合はまず公開されているウェブプラットフォームを試すのが良さそうです。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Edit-Banana</code> は、情報の「静的なフリーズ状態（画像化）」を解除し、再び「動的な編集状態」へと戻すマジックのようなツールです。図表作成というクリエイティブな作業において、過去の資産を無駄にせず、スムーズに再開できるようにするこのフレームワークは、多くの資料作成現場で強力な武器になるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/BIT-DataLab/Edit-Banana" target="_blank" rel="noreferrer">BIT-DataLab/Edit-Banana</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
