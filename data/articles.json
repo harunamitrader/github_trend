@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-d3-d3",
+      "title": "D3.js",
+      "dek": "データを生命へ。SVG と HTML を自在に操り、世界最高峰のデータビジュアライゼーションを実現する JavaScript ライブラリの金字塔。",
+      "summary": "データドリブンなドキュメント操作（Data-Driven Documents）を実現する JavaScript ライブラリ。DOM 要素への直接的なデータバインド、強力なレイアウト計算、滑らかなアニメーション機能を備え、あらゆるカスタム可視化を Web 標準技術で構築可能です。数多のグラフツールの基盤であり続ける、可視化分野の絶対的な存在です。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T05:02:00+09:00",
+      "repoName": "d3/d3",
+      "repoUrl": "https://github.com/d3/d3",
+      "starCount": 109000,
+      "articleUrl": "./articles/github/daily/2026-04-18-d3-d3.html",
+      "serial": 261,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-bugbasesecurity-pentest-copilot",
       "title": "Pentest Copilot",
       "dek": "エシカルハッカーのための AI 助手。ブラウザ上で動作し、脆弱性診断のペイロード生成やコマンド提案をリアルタイムで行う支援ツール。",

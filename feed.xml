@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 20:03:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:02:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[D3.js]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-d3-d3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-d3-d3.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[データを生命へ。SVG と HTML を自在に操り、世界最高峰のデータビジュアライゼーションを実現する JavaScript ライブラリの金字塔。]]></description>
+    </item>
     <item>
       <title><![CDATA[Pentest Copilot]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bugbasesecurity-pentest-copilot.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cognee]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-topoteretes-cognee.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-topoteretes-cognee.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[わずか6行のコードでAIエージェントに自律的な「長期記憶（グラフ構造）」を組み込めるオープンソースのナレッジエンジン。]]></description>
     </item>
   </channel>
 </rss>

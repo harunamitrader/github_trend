@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="d3/d3 の概要と、データと DOM をバインドして高度なビジュアライゼーションを実現する JavaScript ライブラリ D3.js についての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>D3.js</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">D3.js</h1>
+      <p class="article-dek">データを生命へ。SVG と HTML を自在に操り、世界最高峰のデータビジュアライゼーションを実現する JavaScript ライブラリの金字塔。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/d3/d3" target="_blank" rel="noreferrer">
+              d3/d3
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>109,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>D3 (Data-Driven Documents)</code> は、データを基にブラウザ上のドキュメント（DOM）を操作し、SVG、Canvas、HTML による高度なインタラクティブ・ビジュアライゼーションを実現するための、JavaScript ライブラリの頂点です。単なる「グラフ作成ツール」ではなく、物理演算、地図投影、複雑なレイアウト計算などを備えた、データ表現のための完全な基盤を提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自由自在なデータバインド：</strong> データを DOM 要素に直接結びつけ、値の変化に応じて要素の位置、色、形を宣言的に制御できます。</li>
+          <li><strong>数学的計算モジュールの充実：</strong> ツリー構造のマッピング、フォースシミュレーション（接点同士の反発・吸引）、地理データの描画など、可視化に必要な複雑な計算処理を標準でサポート。</li>
+          <li><strong>高性能な遷移とアニメーション：</strong> 数値の補完（Interpolation）計算によって、データ更新時の滑らかなアニメーション（Transition）を低負荷かつ高品質に実現。</li>
+          <li><strong>Web 標準への準拠：</strong> 抽象化された独自の描画エンジンではなく、SVG や Canvas というブラウザの標準機能を直接叩くため、Web 技術の進化をそのまま武器にできます。</li>
+          <li><strong>究極のカスタマイズ性：</strong> 既存のテンプレートに当てはめるのではなく、ゼロから「これまでに存在しなかった全く新しいグラフ形式」を構築できる唯一無二の柔軟性を誇ります。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          D3 が 10 万スターを超える支持を受け続けている理由は、その「一生モノのスキル」としての価値にあります。流行のフレームワークが移り変わっても、D3 が重んじる「データと座標の関係性」や「標準技術の扱い」は不変です。特にデータサイエンスや、情報を直感的に伝える必要があるニュースメディアなどの第一線において、D3 は今なお最強のビジュアル表現ツールとして君臨しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>HTML ファイルに CDN や <code>npm install d3</code> を通じてライブラリを読み込みます。</li>
+          <li><code>d3.select()</code> で描画対象となる SVG 等のコンテナを選択します。</li>
+          <li><code>.data()</code> で配列データをバインドし、<code>.enter()</code> などを駆使して対応する図形要素を生成。</li>
+          <li>スケール（<code>d3.scaleLinear</code> 等）を定義して、データ値を画面上の座標系に変換します。</li>
+          <li>必要に応じてアニメーションや軸、ツールチップを追加して完成です。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>既存のチャートライブラリ（Chart.js や Recharts 等）では妥協できない、独自のグラフ表現を作りたいエンジニア。</li>
+          <li>データの裏側に潜む関係性を、視覚的に分かりやすく伝えたいデータサイエンティストやジャーナリスト。</li>
+          <li>SVG や数学を駆使して、デザインとコードが高次元で融合したクリエイティブ・コーディングを目指すデザイナー。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          D3 はその圧倒的な自由度と引き換えに、習得難易度は非常に高いことで知られています。「データバインド」という独特の概念を理解するまでに時間がかかるため、単純な棒グラフを作るだけなら高レベルなラッパーライブラリを検討する方が効率的な場合もあります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>D3.js</code> は、ブラウザで表現可能なビジュアライゼーションの限界を押し広げ続けてきました。「データを理解し、それを芸術的なまでに美しく表現する」。そんな志を持つ開発者にとって、D3 は最強の筆であり、共通言語です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/d3/d3" target="_blank" rel="noreferrer">d3/d3</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
