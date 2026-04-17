@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 11:09:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 04:03:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[alpaca-mcp-server]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-17-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Opus 4.7: コーディングと視覚性能を強化して一般提供]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。]]></description>
     </item>
   </channel>
 </rss>

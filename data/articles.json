@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-alpacahq-alpaca-mcp-server",
+      "title": "alpaca-mcp-server",
+      "dek": "Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。",
+      "summary": "金融取引 API の Alpaca が提供する公式 MCP サーバー。自然言語での米国株・ETF・暗号資産・オプションの売買に加え、ポートフォリオ管理やマーケットデータ分析を AI チャット上から安全に実行可能です。V2 で FastMCP ベースに刷新されました。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:02:00+09:00",
+      "repoName": "alpacahq/alpaca-mcp-server",
+      "repoUrl": "https://github.com/alpacahq/alpaca-mcp-server",
+      "starCount": 654,
+      "articleUrl": "./articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html",
+      "serial": 253,
+      "originType": "pickup",
+      "genre": "生産性向上・AIエージェント"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-m1k1o-neko",
       "title": "neko",
       "dek": "Docker 内で動く自分専用のブラウザを WebRTC で低遅延ストリーミング。複数人での共同操作やウォッチパーティーに最適なセルフホスト型仮想ブラウザ。",

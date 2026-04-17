@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-17T11:06:43.980051+00:00",
-  "count": 268,
+  "generatedAt": "2026-04-17T19:03:45.909746+00:00",
+  "count": 269,
   "articles": [
+    {
+      "slug": "2026-04-18-alpacahq-alpaca-mcp-server",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "alpaca-mcp-server",
+      "dek": "Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。",
+      "summary": "金融取引 API の Alpaca が提供する公式 MCP サーバー。自然言語での米国株・ETF・暗号資産・オプションの売買に加え、ポートフォリオ管理やマーケットデータ分析を AI チャット上から安全に実行可能です。V2 で FastMCP ベースに刷新されました。",
+      "repoName": "alpacahq/alpaca-mcp-server",
+      "genre": "生産性向上・AIエージェント",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:02:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html",
+      "serial": 253,
+      "searchText": "alpaca-mcp-server Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。 金融取引 API の Alpaca が提供する公式 MCP サーバー。自然言語での米国株・ETF・暗号資産・オプションの売買に加え、ポートフォリオ管理やマーケットデータ分析を AI チャット上から安全に実行可能です。V2 で FastMCP ベースに刷新されました。 alpacahq/alpaca-mcp-server 生産性向上・AIエージェント alpaca-mcp-server ← 記事一覧へ戻る GitHub Watcher alpaca-mcp-server Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。 分析日 2026-04-18 種別 Pickup 対象 repo alpacahq/alpaca-mcp-server Star数 654 これは何か 米国株や暗号資産の取引 API を提供する Alpaca 社が公式にリリースした、Model Context Protocol（MCP）サーバーの実装です。このサーバーを Claude Desktop、Cursor、VS Code などの AI ツールに導入することで、チャットインターフェースを通じて直接、売買注文の発行やマーケットデータの分析を行えるようになります。最新の V2 アップデートにより、FastMCP と OpenAPI をベースにした堅牢な設計へと進化しています。 何ができるか 自然言語による取引： 「今日の指値で NVIDIA を 5株買って」「ビットコインのポジションを半分決済して」といった自然な日本語（または英語）の指示で、実際の取引を実行できます。 リアルタイム分析： 最新の株価クオート、ヒストリカルデータ、オプションの Greeks やインプライド・ボラティリティ（IV）を AI が直接取得。データに基づいた投資判断をチャット上で受けられます。 ポートフォリオ管理： 口座残高の確認、現在のポジション一覧、ウォッチリストの作成・編集を AI に代行させることが可能です。 多様な資産クラス： 米国株、ETF に加え、暗号資産（Crypto）やオプション取引にもフル対応しています。 安全性への配慮： API キーは環境変数を介して安全に管理され、AI ツール側に直接ハードコードする必要はありません。また、ペーパートレード（デモ取引）モードがデフォルトで考慮されており、安全なテストが可能です。 目立つポイント これまで「投資」と「AI エージェント」を組み合わせるには複雑な Python スクリプトの記述が必要でしたが、この MCP サーバーの登場により、Cursor や Claude などの汎用 AI ツール自体が「金融トレーダー」へと変貌します。特に FastMCP への移行により、ツールの発見性やエラーハンドリングが大幅に向上しており、実用レベルでの「AI による投資支援」が現実のものとなっています。 セットアップや使い方の流れ Alpaca のダッシュボードから、API キー（Key ID と Secret Key）を取得します。最初はペーパートレード用を推奨します。 uvx alpaca-mcp-server を使用して MCP サーバーを導入します。 Claude Desktop や Cursor の設定ファイル（ mcpServers セクション）に、取得した API キーを環境変数（ ALPACA_API_KEY , ALPACA_SECRET_KEY ）として登録します。 AI チャットを開き、「現在の私の口座残高を教えて」「Apple の最新株価に基づいた分析をして」などと話しかけて運用を開始します。 どんな人向けか 投資ワークフローを AI で効率化したい個人投資家やトレーダー。 Cursor などの IDE を使いながら、コードを書く合間にマーケットを監視・操作したいエンジニア。 独自のアルゴリズム取引を構築する際、プロンプトベースで戦略を試行錯誤したい開発者。 注意点 実際の資産を扱うツールであるため、注文指示の際には AI が意図した通りの銘柄や数量を解釈しているか、実行前の確認が不可欠です。また、V2 への移行に伴い、旧バージョン（V1）のツール名やパラメータとは互換性がないため、以前の設定を利用している場合は再構成が必要です。 まとめ alpaca-mcp-server は、AI エージェントが現実社会の経済活動（金融取引）へと直接アクセスするための強力な架け橋です。「指示するだけで投資ができる」未来が、MCP という標準規格を通じて公式にサポートされた意義は大きく、投資体験のあり方を根本から変える可能性を秘めています。 参照リンク alpacahq/alpaca-mcp-server"
+    },
     {
       "slug": "2026-04-17-m1k1o-neko",
       "category": "github-pickup",
