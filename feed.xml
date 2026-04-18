@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 19:46:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 05:29:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[empirical-prompt-tuning (by mizchi)]]></title>
@@ -136,6 +136,14 @@
       <description><![CDATA[Claude Code を超強化する、自律型の「AI開発チーム」エージェント集]]></description>
     </item>
     <item>
+      <title><![CDATA[Grok CLI v1.1.5: Grep WASM と Grok STT を統合した安定版リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-grok-cli-v1-1-5-stable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-grok-cli-v1-1-5-stable.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[高速なコード検索とネイティブな音声認識を備え、自律エージェントとしての完成度が一段と向上しました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Production SaaS Starter]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-moasq-production-saas-starter.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-moasq-production-saas-starter.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[エシカルハッカーのための AI 助手。ブラウザ上で動作し、脆弱性診断のペイロード生成やコマンド提案をリアルタイムで行う支援ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity Awesome Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-sickn33-antigravity-awesome-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-sickn33-antigravity-awesome-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1,400種類以上の「知能」をエージェントに。Antigravity や Claude Code の能力を極限まで拡張する、インストール可能な巨大スキルライブラリ。]]></description>
     </item>
   </channel>
 </rss>

@@ -248,6 +248,17 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-18-grok-cli-v1-1-5-stable",
+      "title": "Grok CLI v1.1.5: Grep WASM と Grok STT を統合した安定版リリース",
+      "dek": "高速なコード検索とネイティブな音声認識を備え、自律エージェントとしての完成度が一段と向上しました。",
+      "publishedAt": "2026-04-18",
+      "toolName": "Grok CLI",
+      "repoName": "superagent-ai/grok-cli",
+      "repoUrl": "https://github.com/superagent-ai/grok-cli",
+      "articleUrl": "./articles/tools/2026-04-18-grok-cli-v1-1-5-stable.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-17-grok-4-3-beta-audio-apis",
       "title": "Grok 4.3 Beta & 新オーディオ API: スライド生成と Tesla 譲りの音声合成",
       "dek": "ネイティブなスライド生成機能を備えた Grok 4.3 Beta と、高性能な独立オーディオ API が登場。",
