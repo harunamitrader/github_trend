@@ -31,11 +31,12 @@
       <div class="article-meta-grid">
         <div class="article-meta-item">
           <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
           <strong>2026-04-18</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>Trending #6</strong>
+          <strong>Trending</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">対象 repo</span>
@@ -70,14 +71,16 @@
           <li><strong>Claude Code ネイティブ：</strong> 追加インストール不要で Claude Code にそのまま組み込んで使用。</li>
         </ul>
 
-        <h2>リポジトリの構成</h2>
+        <h2>目立つポイント</h2>
         <p>
           <code>.claude/agents/</code> 配下に 49 体分のエージェント定義、<code>.claude/skills/</code> に 72 のスキル定義、
           <code>.claude/hooks/</code> に 12 のフック、<code>.claude/rules/</code> に 11 のチーム運用ルールが整理されています。
-          MIT ライセンスで公開されており、独自スタジオ向けにエージェントやスキルを追加・変更可能です。
+          注目すべきは単なる「ゲーム開発ツール」に留まらず、
+          「大規模な専門 AI エージェントの役割分担設計」のリファレンス実装としても参考になる点です。
+          11,690 Stars という急成長がコミュニティの高い関心を示しています。
         </p>
 
-        <h2>セットアップ・導入のイメージ</h2>
+        <h2>セットアップや使い方の流れ</h2>
         <p>
           リポジトリをゲームプロジェクトのルートにクローンし、Claude Code を起動するだけです。
           すると Claude Code が <code>.claude/</code> 配下を認識し、49体のエージェント体制が自動的に有効になります。
@@ -85,13 +88,10 @@
           ゲームディレクタエージェントが各担当へタスクを割り振り自律的に開発が進みます。
         </p>
 
-        <h2>ターゲット層 / 注目ポイント</h2>
+        <h2>どんな人向けか</h2>
         <p>
           インディーゲーム開発者、ゲーム制作に興味を持つエンジニア、
           および Claude Code の限界を極限まで押し広げたい開発者に最適です。
-          注目すべきは単なる「ゲーム開発ツール」に留まらず、
-          「大規模な専門 AI エージェントの役割分担設計」のリファレンス実装としても参考になる点です。
-          11,690 Stars という急成長がコミュニティの高い関心を示しています。
         </p>
 
         <h2>注意点</h2>
@@ -99,19 +99,18 @@
           49体のエージェントが協調動作するため、大量のトークン消費が予想されます。
           長時間作業ではコストが急増する可能性があるため、使用前に API の利用上限を設定してください。
           また、複雑なゲームロジックの実装では依然として人間のレビューが不可欠です。
-          AI が生成したゲームロジックを無検証でプロダクションへ適用することは避けてください。
         </p>
 
         <h2>まとめ</h2>
         <p>
           Claude-Code-Game-Studios は、AI エージェント活用の一つの到達点を示す実験的かつ実用的な試みです。
           ゲーム開発に限らず「複数の専門 AI エージェントをどう組織するか」というアーキテクチャの参考事例として、
-          幅広いエンジニアに学びのある OSS です。コミュニティの急速な支持がその可能性を裏付けています。
+          幅広いエンジニアに学びのある OSS です。
         </p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noreferrer">Donchitos/Claude-Code-Game-Studios — GitHub</a>
+          <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noreferrer">Donchitos/Claude-Code-Game-Studios</a>
         </div>
       </div>
     </article>

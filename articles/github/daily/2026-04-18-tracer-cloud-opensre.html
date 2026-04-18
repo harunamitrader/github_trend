@@ -31,11 +31,12 @@
       <div class="article-meta-grid">
         <div class="article-meta-item">
           <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
           <strong>2026-04-18</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>Trending #9</strong>
+          <strong>Trending</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">対象 repo</span>
@@ -68,23 +69,23 @@
           <li><strong>自前インフラで動作：</strong> クラウドへのデータ送信なしに、オンプレミスやプライベートクラウドで完結。</li>
         </ul>
 
-        <h2>リポジトリの構成</h2>
+        <h2>目立つポイント</h2>
         <p>
           主要コンポーネントはエージェントコア、ツールコネクター群（各 SaaS/OSS 向けアダプター）、ワークフロー定義ファイル、
           およびシミュレーション環境から構成されています。Python ベースで実装されており、既存の LangChain や各種 LLM API との統合が想定されています。
+          既存の監視ツールを置き換えるのではなく「その上に AI 層を追加する」アプローチが現実的で、導入ハードルが低い点が評価されています。
         </p>
 
-        <h2>セットアップ・導入のイメージ</h2>
+        <h2>セットアップや使い方の流れ</h2>
         <p>
           リポジトリをクローン後、環境変数に LLM API キーと監視ツールの認証情報を設定します。
           コネクターを有効化した後、ワークフロー YAML でエージェントの応答手順を定義すれば、
           Prometheus アラートを受け取った時点からエージェントが自律動作を開始します。
         </p>
 
-        <h2>ターゲット層 / 注目ポイント</h2>
+        <h2>どんな人向けか</h2>
         <p>
           SRE・インフラエンジニア、DevOps チーム、および 24 時間監視体制の構築コスト削減を目指す組織に特に有用です。
-          既存の監視ツールを置き換えるのではなく「その上に AI 層を追加する」アプローチが現実的で、導入ハードルが低い点が評価されています。
           急増するオンコール疲弊（Pager Fatigue）への回答として GitHub コミュニティの注目を集めています。
         </p>
 
@@ -93,19 +94,18 @@
           プロジェクトは活発に開発中のため API の安定性は保証されていません。
           AI による自律的なインシデント対応はリスクを伴うため、まず読み取り専用モードで試験運用し、
           段階的に対応権限を拡張するアプローチを推奨します。
-          本番環境への適用前には接続する外部ツールの認証・権限設計を慎重に行ってください。
         </p>
 
         <h2>まとめ</h2>
         <p>
           OpenSRE は、AI による SRE 自動化を「自前のインフラ上で」実現するためのオープンな基盤です。
           オンコール負荷の軽減や夜間インシデント対応の自動化を検討しているチームにとって、
-          検証を始める価値のあるプロジェクトです。エコシステムの成熟と共に実用性がさらに高まるでしょう。
+          検証を始める価値のあるプロジェクトです。
         </p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noreferrer">Tracer-Cloud/opensre — GitHub</a>
+          <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noreferrer">Tracer-Cloud/opensre</a>
         </div>
       </div>
     </article>
