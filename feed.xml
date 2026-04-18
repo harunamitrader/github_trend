@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 08:02:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 18:37:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[PAI-OpenCode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-steffen025-pai-opencode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-steffen025-pai-opencode.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。]]></description>
+    </item>
     <item>
       <title><![CDATA[jetbrains-cc-gui (CC GUI)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI への定期命令を自動化。Claude Code や Gemini CLI をスケジュール実行し、ダッシュボードで監視する管理デーモン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Plane]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-makeplane-plane.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-makeplane-plane.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Jira や Linear に対する強力なオープンソースの回答。美しく、高速で、セルフホスト可能な次世代プロジェクト管理プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

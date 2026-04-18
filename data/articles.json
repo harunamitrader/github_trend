@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-steffen025-pai-opencode",
+      "title": "PAI-OpenCode",
+      "dek": "「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。",
+      "summary": "Daniel Miessler 氏が提唱する Personal AI Infrastructure (PAI) を、オープンソースの AI コーディング環境「OpenCode」に移植。52 のスキル、16 の専門エージェント、そしてユーザー独自の目標や価値観を学習する TELOS フレームワークを統合し、モデルを問わない自律的・個人的な AI 基盤を構築します。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T18:37:00+09:00",
+      "repoName": "Steffen025/pai-opencode",
+      "repoUrl": "https://github.com/Steffen025/pai-opencode",
+      "starCount": 134,
+      "articleUrl": "./articles/github/daily/2026-04-18-steffen025-pai-opencode.html",
+      "serial": 275,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui",
       "title": "jetbrains-cc-gui (CC GUI)",
       "dek": "ターミナルから IDE のサイドバーへ。JetBrains IDE で Claude Code と Codex を GUI 操作。開発者の「使いやすさ」を極めた AI 統合プラグイン。",

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Steffen025/pai-opencode を読み、Daniel Miessler の PAI フレームワークをオープンソースの AI コーディング環境「OpenCode」に移植した仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>PAI-OpenCode</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">PAI-OpenCode</h1>
+      <p class="article-dek">「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Steffen025/pai-opencode" target="_blank" rel="noreferrer">
+              Steffen025/pai-opencode
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>134</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          PAI-OpenCode は、著名なセキュリティ専門家 Daniel Miessler 氏が構築した「Personal AI Infrastructure (PAI) v3.0」を、
+          オープンソースの AI コーディングアシスタント「OpenCode」に完全移植したプロジェクトです。
+          OpenCode は Claude Code のオープンソース代替として 75 以上の AI プロバイダーに対応しており、
+          PAI-OpenCode を導入することで、モデルを問わず Daniel 氏の高度な推論アルゴリズムやスキルセットを手元で再現できます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>The Algorithm v1.8.0：</strong> 8段階の努力レベル、検証ゲート、フェーズ分離による高品質な推論と出力。</li>
+          <li><strong>16 の専門エージェント：</strong> アーキテクト、エンジニア、調査員など、タスクに応じて最適なエージェントを動的に調整。</li>
+          <li><strong>52 の拡張スキル：</strong> ブラウザ自動操作、セキュリティ監査、知恵の抽出（ExtractWisdom）などのモジュール化された能力。</li>
+          <li><strong>TELOS フレームワーク：</strong> ユーザー個人の目標、価値観、コンテキストを記憶し、画一的ではない「自分専用」のアドバイスを提供。</li>
+          <li><strong>マルチプロバイダー対応：</strong> Claude, GPT-4, Gemini, Ollama など 75 以上のモデルをシームレスに切り替え可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          PAI の核心は、**「どの AI モデルを使うかよりも、AI の周囲にどのようなインフラ（足場）を築くか」** という思想にあります。
+          単にチャットするのではなく、自律的なエージェント群がプロジェクトの記憶（Memory）を参照し、
+          定義されたスキルとアルゴリズムに基づいて作業を進めるため、複雑なタスクでも目的を見失いません。
+          また、インストール時に「Zen free」モデルがデフォルト設定されているため、API キーを所有していなくても即座に体験できる点も秀逸です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ターミナルでインストールスクリプト（<code>PAI-Install/install.sh</code>）を実行するインタラクティブなウィザード形式で導入できます。
+          導入後は <code>opencode</code> コマンドでエージェントを起動し、
+          「Let's do the onboarding（オンボーディングを始めよう）」と指示することで、
+          ユーザーの TELOS（目標や価値観）の設定から始まるパーソナライズされた AI 環境の構築が始まります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Claude Code のように強力なツールを使いつつ、特定のプロバイダーに縛られずに自由なモデル構成を試したいエンジニア、
+          自分自身のコンテキストや価値観を理解した「真のパーソナル・アシスタント」を構築したい方に最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          多機能なため、フル機能を使いこなすには TELOS の設定など 15 分程度の集中した対話が必要になります。
+          また、自律的にエージェントが動作するため、モデルによってはトークンの消費速度が早くなる可能性があります（コスト最適化のため Intern エージェントを使うなどの工夫が推奨されています）。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          PAI-OpenCode は、AI コーディング環境を単なる編集補助ツールから、
+          「ユーザーの文脈を深く理解した自律的な開発インフラ」へと進化させる巨大なフレームワークです。
+          Daniel Miessler 氏が長年磨き上げてきた知見（スキャフォールディング）が詰め込まれたこのプロジェクトは、
+          次世代の AI ワークフローにおける金字塔となる可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Steffen025/pai-opencode" target="_blank" rel="noreferrer">Steffen025/pai-opencode</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

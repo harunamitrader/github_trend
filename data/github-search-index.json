@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T07:59:41.220646+00:00",
-  "count": 291,
+  "generatedAt": "2026-04-18T09:37:42.904894+00:00",
+  "count": 292,
   "articles": [
+    {
+      "slug": "2026-04-18-steffen025-pai-opencode",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "PAI-OpenCode",
+      "dek": "「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。",
+      "summary": "Daniel Miessler 氏が提唱する Personal AI Infrastructure (PAI) を、オープンソースの AI コーディング環境「OpenCode」に移植。52 のスキル、16 の専門エージェント、そしてユーザー独自の目標や価値観を学習する TELOS フレームワークを統合し、モデルを問わない自律的・個人的な AI 基盤を構築します。",
+      "repoName": "Steffen025/pai-opencode",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T18:37:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-steffen025-pai-opencode.html",
+      "serial": 275,
+      "searchText": "PAI-OpenCode 「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。 Daniel Miessler 氏が提唱する Personal AI Infrastructure (PAI) を、オープンソースの AI コーディング環境「OpenCode」に移植。52 のスキル、16 の専門エージェント、そしてユーザー独自の目標や価値観を学習する TELOS フレームワークを統合し、モデルを問わない自律的・個人的な AI 基盤を構築します。 Steffen025/pai-opencode AIコーディング (CLI本体・拡張機能) PAI-OpenCode ← 記事一覧へ戻る GitHub Watcher PAI-OpenCode 「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。 記事作成日 2026-04-18 種別 Pickup 対象 repo Steffen025/pai-opencode Star数 134 これは何か PAI-OpenCode は、著名なセキュリティ専門家 Daniel Miessler 氏が構築した「Personal AI Infrastructure (PAI) v3.0」を、 オープンソースの AI コーディングアシスタント「OpenCode」に完全移植したプロジェクトです。 OpenCode は Claude Code のオープンソース代替として 75 以上の AI プロバイダーに対応しており、 PAI-OpenCode を導入することで、モデルを問わず Daniel 氏の高度な推論アルゴリズムやスキルセットを手元で再現できます。 何ができるか The Algorithm v1.8.0： 8段階の努力レベル、検証ゲート、フェーズ分離による高品質な推論と出力。 16 の専門エージェント： アーキテクト、エンジニア、調査員など、タスクに応じて最適なエージェントを動的に調整。 52 の拡張スキル： ブラウザ自動操作、セキュリティ監査、知恵の抽出（ExtractWisdom）などのモジュール化された能力。 TELOS フレームワーク： ユーザー個人の目標、価値観、コンテキストを記憶し、画一的ではない「自分専用」のアドバイスを提供。 マルチプロバイダー対応： Claude, GPT-4, Gemini, Ollama など 75 以上のモデルをシームレスに切り替え可能。 目立つポイント PAI の核心は、**「どの AI モデルを使うかよりも、AI の周囲にどのようなインフラ（足場）を築くか」** という思想にあります。 単にチャットするのではなく、自律的なエージェント群がプロジェクトの記憶（Memory）を参照し、 定義されたスキルとアルゴリズムに基づいて作業を進めるため、複雑なタスクでも目的を見失いません。 また、インストール時に「Zen free」モデルがデフォルト設定されているため、API キーを所有していなくても即座に体験できる点も秀逸です。 セットアップや使い方の流れ ターミナルでインストールスクリプト（ PAI-Install/install.sh ）を実行するインタラクティブなウィザード形式で導入できます。 導入後は opencode コマンドでエージェントを起動し、 「Let's do the onboarding（オンボーディングを始めよう）」と指示することで、 ユーザーの TELOS（目標や価値観）の設定から始まるパーソナライズされた AI 環境の構築が始まります。 どんな人向けか Claude Code のように強力なツールを使いつつ、特定のプロバイダーに縛られずに自由なモデル構成を試したいエンジニア、 自分自身のコンテキストや価値観を理解した「真のパーソナル・アシスタント」を構築したい方に最適です。 注意点 多機能なため、フル機能を使いこなすには TELOS の設定など 15 分程度の集中した対話が必要になります。 また、自律的にエージェントが動作するため、モデルによってはトークンの消費速度が早くなる可能性があります（コスト最適化のため Intern エージェントを使うなどの工夫が推奨されています）。 まとめ PAI-OpenCode は、AI コーディング環境を単なる編集補助ツールから、 「ユーザーの文脈を深く理解した自律的な開発インフラ」へと進化させる巨大なフレームワークです。 Daniel Miessler 氏が長年磨き上げてきた知見（スキャフォールディング）が詰め込まれたこのプロジェクトは、 次世代の AI ワークフローにおける金字塔となる可能性を秘めています。 参照リンク Steffen025/pai-opencode"
+    },
     {
       "slug": "2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui",
       "category": "github-pickup",
