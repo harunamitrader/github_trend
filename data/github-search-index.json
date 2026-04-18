@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T06:01:33.754797+00:00",
-  "count": 289,
+  "generatedAt": "2026-04-18T06:12:09.817678+00:00",
+  "count": 290,
   "articles": [
+    {
+      "slug": "2026-04-18-cursortouch-windows-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Windows-MCP",
+      "dek": "Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。",
+      "summary": "Windows 版の「Computer Use」を実現する軽量な MCP サーバー。OS レベルの UI 構造把握により、高度な画像認識モデルに頼らずとも低レイテンシで正確なデスクトップ自動操作を可能にします。",
+      "repoName": "CursorTouch/Windows-MCP",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T15:11:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-cursortouch-windows-mcp.html",
+      "serial": 273,
+      "searchText": "Windows-MCP Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。 Windows 版の「Computer Use」を実現する軽量な MCP サーバー。OS レベルの UI 構造把握により、高度な画像認識モデルに頼らずとも低レイテンシで正確なデスクトップ自動操作を可能にします。 CursorTouch/Windows-MCP AIエージェント (自律基盤・特化アプリ) Windows-MCP ← 記事一覧へ戻る GitHub Watcher Windows-MCP Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。 記事作成日 2026-04-18 種別 Pickup 対象 repo CursorTouch/Windows-MCP Star数 5,200 これは何か Windows-MCP は、Anthropic が提唱する Model Context Protocol (MCP) に準拠した、Windows 向けの「Computer Use」実現ツールです。 AI エージェント（Claude Desktop 等）と Windows OS の橋渡しをすることで、 エージェントがファイル操作、アプリケーションの起動、UI 要素のクリック、入力シミュレーションなどを直接行えるようにします。 200万人以上の利用実績を誇る、Windows 自動化 MCP の決定版的存在です。 何ができるか OS の直接操作： アプリの起動、ウィンドウ制御、マウスクリック、キーボード入力の代行。 UI 状態のキャプチャ： スクリーンショットの取得や、ウィンドウ内の UI 要素構造の把握。 ブラウザ DOM モード： ブラウザの外枠を除外し、Web ページの内容のみに特化した効率的なキャプチャ（use_dom）。 QA/テスト自動化： 実際のデスクトップ環境での動作確認やバグ報告の自動化補助。 マルチプラットフォーム対応： Claude Desktop だけでなく、Gemini CLI や Perplexity Desktop からも利用可能。 目立つポイント もっとも注目すべき点は、**「Vision 能力が必須ではない」** 設計です。 多くの自動化ツールが画面解析に高度な画像認識モデル（Vision-Language Model）を要求するのに対し、 Windows-MCP は OS レベルの UI 情報（状態の取得）を活用するため、安価または軽量なテキスト専用モデルからでもある程度の操作が可能です。 また、操作間のレイテンシが 0.2〜0.9 秒と極めて低く、非常にスムーズな UX を提供しています。 セットアップや使い方の流れ Python 環境（3.13以上）と `uv` パッケージマネージャーが必要です。 Claude Desktop の設定ファイル（ claude_desktop_config.json ）に、 uvx windows-mcp コマンドを追加するだけで、Claude のツールパネルにマウス操作やアプリ起動のボタンが出現します。 PyPI に公開されているため、ソースコードをクローンしなくても即座に導入できる点も魅力です。 どんな人向けか Windows 環境でのルーチンワークを AI に任せたい事務職の方から、 アプリケーションの UI テストを自動化したい開発者、 そして自作の AI エージェントに「デスクトップ操作能力」を持たせたいパワーユーザーに最適です。 注意点 AI にマウスやキーボードの制御権を渡すため、意図しない操作（ファイルの削除など）のリスクがあります。 信頼できないリポジトリやプロンプトでの利用は避け、操作を確認しながら進めることが推奨されます。 また、現時点では Windows の言語設定が英語（English）である場合に最高のパフォーマンスを発揮します。 まとめ Windows-MCP は、LLM とローカル環境を接続する「神経系」としての役割を完璧に果たしています。 オープンソースで軽量、かつスピーディーな操作が可能なこのサーバーは、 Windows ユーザーが自分専用の AI アシスタントを構築する際の、もっとも核となるコンポーネントになるでしょう。 参照リンク CursorTouch/Windows-MCP Official Site (windowsmcp.io)"
+    },
     {
       "slug": "2026-04-18-browser-use-video-use",
       "category": "github-pickup",

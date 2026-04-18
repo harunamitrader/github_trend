@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CursorTouch/Windows-MCP を読み、AI エージェントが Windows OS を直接操作するための MCP サーバーの機能と、軽量かつ高速な UI 自動化の仕組みを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Windows-MCP</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Windows-MCP</h1>
+      <p class="article-dek">Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/CursorTouch/Windows-MCP" target="_blank" rel="noreferrer">
+              CursorTouch/Windows-MCP
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Windows-MCP は、Anthropic が提唱する Model Context Protocol (MCP) に準拠した、Windows 向けの「Computer Use」実現ツールです。
+          AI エージェント（Claude Desktop 等）と Windows OS の橋渡しをすることで、
+          エージェントがファイル操作、アプリケーションの起動、UI 要素のクリック、入力シミュレーションなどを直接行えるようにします。
+          200万人以上の利用実績を誇る、Windows 自動化 MCP の決定版的存在です。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>OS の直接操作：</strong> アプリの起動、ウィンドウ制御、マウスクリック、キーボード入力の代行。</li>
+          <li><strong>UI 状態のキャプチャ：</strong> スクリーンショットの取得や、ウィンドウ内の UI 要素構造の把握。</li>
+          <li><strong>ブラウザ DOM モード：</strong> ブラウザの外枠を除外し、Web ページの内容のみに特化した効率的なキャプチャ（use_dom）。</li>
+          <li><strong>QA/テスト自動化：</strong> 実際のデスクトップ環境での動作確認やバグ報告の自動化補助。</li>
+          <li><strong>マルチプラットフォーム対応：</strong> Claude Desktop だけでなく、Gemini CLI や Perplexity Desktop からも利用可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          もっとも注目すべき点は、**「Vision 能力が必須ではない」** 設計です。
+          多くの自動化ツールが画面解析に高度な画像認識モデル（Vision-Language Model）を要求するのに対し、
+          Windows-MCP は OS レベルの UI 情報（状態の取得）を活用するため、安価または軽量なテキスト専用モデルからでもある程度の操作が可能です。
+          また、操作間のレイテンシが 0.2〜0.9 秒と極めて低く、非常にスムーズな UX を提供しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python 環境（3.13以上）と `uv` パッケージマネージャーが必要です。
+          Claude Desktop の設定ファイル（<code>claude_desktop_config.json</code>）に、
+          <code>uvx windows-mcp</code> コマンドを追加するだけで、Claude のツールパネルにマウス操作やアプリ起動のボタンが出現します。
+          PyPI に公開されているため、ソースコードをクローンしなくても即座に導入できる点も魅力です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Windows 環境でのルーチンワークを AI に任せたい事務職の方から、
+          アプリケーションの UI テストを自動化したい開発者、
+          そして自作の AI エージェントに「デスクトップ操作能力」を持たせたいパワーユーザーに最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          AI にマウスやキーボードの制御権を渡すため、意図しない操作（ファイルの削除など）のリスクがあります。
+          信頼できないリポジトリやプロンプトでの利用は避け、操作を確認しながら進めることが推奨されます。
+          また、現時点では Windows の言語設定が英語（English）である場合に最高のパフォーマンスを発揮します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Windows-MCP は、LLM とローカル環境を接続する「神経系」としての役割を完璧に果たしています。
+          オープンソースで軽量、かつスピーディーな操作が可能なこのサーバーは、
+          Windows ユーザーが自分専用の AI アシスタントを構築する際の、もっとも核となるコンポーネントになるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/CursorTouch/Windows-MCP" target="_blank" rel="noreferrer">CursorTouch/Windows-MCP</a>
+        </div>
+        <div class="source-item">
+          <a href="https://windowsmcp.io/" target="_blank" rel="noreferrer">Official Site (windowsmcp.io)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 06:03:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 15:12:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Windows-MCP]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-cursortouch-windows-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-cursortouch-windows-mcp.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[video-use]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-browser-use-video-use.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Edit-Banana]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bit-datalab-edit-banana.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bit-datalab-edit-banana.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「編集できない画像」を「編集できる図表」へ。SAM 3 とマルチモーダル LLM を駆使して、静的なチャートを DrawIO や PPTX に高精度復元するフレームワーク。]]></description>
     </item>
   </channel>
 </rss>

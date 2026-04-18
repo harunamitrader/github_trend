@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-cursortouch-windows-mcp",
+      "title": "Windows-MCP",
+      "dek": "Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。",
+      "summary": "Windows 版の「Computer Use」を実現する軽量な MCP サーバー。OS レベルの UI 構造把握により、高度な画像認識モデルに頼らずとも低レイテンシで正確なデスクトップ自動操作を可能にします。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T15:11:00+09:00",
+      "repoName": "CursorTouch/Windows-MCP",
+      "repoUrl": "https://github.com/CursorTouch/Windows-MCP",
+      "starCount": 5200,
+      "articleUrl": "./articles/github/daily/2026-04-18-cursortouch-windows-mcp.html",
+      "serial": 273,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-browser-use-video-use",
       "title": "video-use",
       "dek": "Claude Code が動画編集者に。素材をフォルダに置く。チャットで指示する。プロ級の final.mp4 が出力される。100% オープンソースの動画編集スキル。",
