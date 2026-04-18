@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T06:12:09.817678+00:00",
-  "count": 290,
+  "generatedAt": "2026-04-18T07:59:41.220646+00:00",
+  "count": 291,
   "articles": [
+    {
+      "slug": "2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "jetbrains-cc-gui (CC GUI)",
+      "dek": "ターミナルから IDE のサイドバーへ。JetBrains IDE で Claude Code と Codex を GUI 操作。開発者の「使いやすさ」を極めた AI 統合プラグイン。",
+      "summary": "JetBrains IDE ユーザー待望の Claude Code / Codex 用 GUI プラグイン。CLI ベースの強力な自律エージェント機能を、直感的なチャット UI、@ファイル参照、DIFF プレビューとして統合し、開発体験を劇的に向上させます。",
+      "repoName": "zhukunpenglinyutong/jetbrains-cc-gui",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T16:58:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui.html",
+      "serial": 274,
+      "searchText": "jetbrains-cc-gui (CC GUI) ターミナルから IDE のサイドバーへ。JetBrains IDE で Claude Code と Codex を GUI 操作。開発者の「使いやすさ」を極めた AI 統合プラグイン。 JetBrains IDE ユーザー待望の Claude Code / Codex 用 GUI プラグイン。CLI ベースの強力な自律エージェント機能を、直感的なチャット UI、@ファイル参照、DIFF プレビューとして統合し、開発体験を劇的に向上させます。 zhukunpenglinyutong/jetbrains-cc-gui AIコーディング (CLI本体・拡張機能) jetbrains-cc-gui (CC GUI) ← 記事一覧へ戻る GitHub Watcher jetbrains-cc-gui (CC GUI) ターミナルから IDE のサイドバーへ。JetBrains IDE で Claude Code と Codex を GUI 操作。開発者の「使いやすさ」を極めた AI 統合プラグイン。 記事作成日 2026-04-18 種別 Pickup 対象 repo zhukunpenglinyutong/jetbrains-cc-gui Star数 2,800 これは何か jetbrains-cc-gui（公式名：CC GUI）は、IntelliJ IDEA や PyCharm などの JetBrains IDE 上で利用できる、Claude Code および OpenAI Codex 用の GUI プラグインです。 ターミナルベースで動作する Claude Code の強力な機能を、より直感的で視認性の高い GUI インターフェースとして提供します。 商標リスク回避のため旧名「Claude Code GUI」から「CC GUI」へ名称変更されましたが、その実力は折り紙付きです。 何ができるか デュアルエンジン対応： Anthropic の Claude（Opus 4.5等）と OpenAI の Codex の両方をサポート。 リッチなチャット UI： @file による精密なファイル参照、画像送信による視覚的な要件説明に対応。 スラッシュコマンド： /init , /review などの Claude Code 標準コマンドを GUI から実行。 MCP サーバ連携： Model Context Protocol に対応し、AI の能力を外部ソースへ拡張。 セッション管理： 過去のチャット履歴の検索、お気に入り保存、メッセージのエクスポート機能。 DIFF プレビュー： AI が提案したコード変更をビジュアルに比較し、安全にマージ。 目立つポイント 最大の特徴は、**「CLI のパワーと IDE の快適さの融合」** です。 Claude Code の持つ高度な自律エージェント機能（自らファイルを作成・テストする等）を、IDE のエディタと密接に連携させながら GUI で管理できます。 また、会話を特定の地点まで戻せる「Rewind（巻き戻し）」機能など、試行錯誤を繰り返す開発現場での利便性が徹底的に追求されています。 2,800 を超える Stars が示す通り、コミュニティからの期待も非常に高いプロダクトです。 セットアップや使い方の流れ JetBrains Marketplace から 「CC GUI (Claude or Codex)」を検索してインストールします。 インストール後、サイドバーに現れる CC アイコンをクリックし、プロバイダー設定（API キー等）を行うだけで準備完了です。 既存の cc-switch 等とも互換性があり、既に Claude Code を CLI で使っているユーザーもスムーズに移行可能です。 どんな人向けか JetBrains IDE をメインの開発環境としており、Claude Code の強力な機能をコマンド入力なしに使いこなしたい全エンジニアに最適です。 特に、ファイル構成が複雑な大規模プロジェクトにおいて、視覚的にコンテキストを指定しながら AI に指示を出したい開発者に強く推奨されます。 注意点 現在、開発が非常に活発なため、頻繁なアップデートが行われています。 また、一部の高度な MCP 連携やエージェント機能を利用する際は、 バックエンドで動作する ai-bridge 等の依存関係を正しく構成する必要があります。 まとめ CC GUI は、AI コーディングにおける「体験」の質を一段引き上げるツールです。 ターミナルでの対話も魅力的ですが、IDE のエコシステムに完璧に溶け込んだ GUI を提供するこのプラグインは、 多くの開発者にとって AI アシスタントを「真のチームメンバー」として迎えるための最短距離となるでしょう。 参照リンク zhukunpenglinyutong/jetbrains-cc-gui JetBrains Marketplace: CC GUI"
+    },
     {
       "slug": "2026-04-18-cursortouch-windows-mcp",
       "category": "github-pickup",

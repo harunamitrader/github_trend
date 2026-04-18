@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui",
+      "title": "jetbrains-cc-gui (CC GUI)",
+      "dek": "ターミナルから IDE のサイドバーへ。JetBrains IDE で Claude Code と Codex を GUI 操作。開発者の「使いやすさ」を極めた AI 統合プラグイン。",
+      "summary": "JetBrains IDE ユーザー待望の Claude Code / Codex 用 GUI プラグイン。CLI ベースの強力な自律エージェント機能を、直感的なチャット UI、@ファイル参照、DIFF プレビューとして統合し、開発体験を劇的に向上させます。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T16:58:00+09:00",
+      "repoName": "zhukunpenglinyutong/jetbrains-cc-gui",
+      "repoUrl": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
+      "starCount": 2800,
+      "articleUrl": "./articles/github/daily/2026-04-18-zhukunpenglinyutong-jetbrains-cc-gui.html",
+      "serial": 274,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-cursortouch-windows-mcp",
       "title": "Windows-MCP",
       "dek": "Windows OS を AI の手足に。アプリ操作から UI 自動化まで。Claude や自動化ツールに「Windows 操作能力」を付与する軽量 MCP サーバー。",
