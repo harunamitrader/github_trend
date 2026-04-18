@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>claude-code-hooks - Claude Code に「声」を宿す拡張フック集 | harunami AI base</title>
+    <meta name="description" content="Claude Code の豊富なフック機能を活用し、音声通知やツール実行前後の自動処理を追加する拡張キット。27種類の全フックイベントに対応しています。">
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <article class="article-container">
+        <header class="article-header">
+            <p class="eyebrow">GitHub Watcher</p>
+            <h1>claude-code-hooks</h1>
+            <p class="subtitle">Claude Code に「声」や通知を追加する、27種類のフックを活用した拡張キット</p>
+        </header>
+
+        <div class="article-meta-grid">
+            <div class="meta-item">
+                <span class="meta-label">分析日</span>
+                <span class="meta-value">2026-04-18</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">カテゴリ</span>
+                <span class="meta-value">GitHub Pickup</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">対象リポジトリ</span>
+                <span class="meta-value"><a href="https://github.com/shanraisshan/claude-code-hooks" target="_blank">shanraisshan/claude-code-hooks</a></span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Star数</span>
+                <span class="meta-value">289</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">GitHubシリアル</span>
+                <span class="meta-value">No. 264</span>
+            </div>
+        </div>
+
+        <section class="content-section">
+            <h2>プロジェクトの概要</h2>
+            <p>
+                <code>claude-code-hooks</code> は、Anthropic の Claude Code CLI が備える強力なフック（Hooks）機能を使いこなし、ターミナルでの AI 開発体験を劇的に向上させるプロジェクトです。最大の特徴は <strong>Claude Code に音声（Voice）を追加する</strong> ことで、AI がツールの実行を開始した際や完了した際に、音声でステータスを報告させることが可能になります。
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>機能・できること</h2>
+            <ul>
+                <li><strong>全 27 種類のフックに対応</strong>: <code>PreToolUse</code>（ツール使用前）、<code>PostToolUse</code>（ツール使用後）、<code>OnMessage</code> など、Claude Code が提供するすべてのイベントタイミングをカバーしています。</li>
+                <li><strong>音声通知 (Voice Integration)</strong>: ターミナルの背後で長時間タスクを実行させている間も、音声による報告で作業の進捗を把握できます。</li>
+                <li><strong>自動化のトリガー</strong>: ツール実行の成功/失敗に応じて、外部スクリプトの実行やデスクトップ通知などのアクションを紐付けることができます。</li>
+                <li><strong>macOS/Windows 両対応</strong>: <code>say</code> コマンドや PowerShell の <code>Add-Type -AssemblyName System.Speech</code> を活用したクロスプラットフォームな音声合成をサポート。</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>技術スタックとリポジトリ構成</h2>
+            <p>
+                リポジトリは、Claude Code の設定ディレクトリである <code>.claude/hooks/</code> 内に配置するためのシェルスクリプトや Python スクリプトで構成されています。
+            </p>
+            <ul>
+                <li><strong>Hooks Logic</strong>: 各イベントに対応したエントリーポイント（<code>pre-tool-use.sh</code> など）。</li>
+                <li><strong>Audio Engine</strong>: OS ごとの標準音声合成機能を呼び出すシンプルなラッパー。</li>
+                <li><strong>Configuration</strong>: フックの挙動をカスタマイズするための環境変数や設定ファイル。</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>導入のイメージ</h2>
+            <p>
+                Claude Code の標準的なフック機構を利用するため、既存のプロジェクトの <code>.claude/hooks</code> ディレクトリにファイルを配置するか、本プロジェクトをクローンしてシンボリックリンクを張ることで動作します。
+            </p>
+            <pre><code># macOS での導入例
+git clone https://github.com/shanraisshan/claude-code-hooks.git
+cd claude-code-hooks
+./install/mac-os.sh
+</code></pre>
+            <p>これにより、例えば <code>gh</code> コマンドでのプルリク作成が完了した際に、「Pull request successfully created!」と Claude が声で教えてくれるようになります。</p>
+        </section>
+
+        <section class="content-section">
+            <h2>ターゲット層 / 注目ポイント</h2>
+            <ul>
+                <li><strong>マルチタスク派の開発者</strong>: ターミナルを裏で動かしている間に、他の作業（ブラウジングやドキュメント作成）をしていても進捗を逃したくないユーザー。</li>
+                <li><strong>Claude Code カスタマイズ愛好家</strong>: 標準の CLI 体験をさらにパーソナライズし、ゲーム感覚やアシスタント感を高めたい層。</li>
+                <li><strong>自動化ワークフローの構築者</strong>: AI が実行したアクションの結果を外部システムへ即座に通知させたい場合。</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>制約・リスク</h2>
+            <ul>
+                <li><strong>OS 依存の音声エンジン</strong>: OS ごとの読み上げ機能に依存するため、声色や言語（特に日本語への対応度）は実行環境に左右されます。</li>
+                <li><strong>過剰な通知</strong>: 27 種類すべてのフックを有効にすると、ツール使用のたびに通知が発生し、騒がしくなる可能性があります。必要なイベントのみを有効にする設定が推奨されます。</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>まとめ</h2>
+            <p>
+                <code>claude-code-hooks</code> は、単なる音声通知ツールにとどまらず、Claude Code とローカルマシンの接点である「フック機能」の可能性を広げるショーケースのようなプロジェクトです。自分の開発スタイルに合わせてフックを調整することで、AI コーディングはよりインタラクティブで楽しいものへと進化します。
+            </p>
+        </section>
+
+        <footer class="article-footer">
+            <div class="source-links">
+                <h2>ソースリンク</h2>
+                <div class="source-item">
+                    <a href="https://github.com/shanraisshan/claude-code-hooks" target="_blank">shanraisshan/claude-code-hooks (GitHub)</a>
+                </div>
+            </div>
+            <div class="back-link">
+                <a href="../../../github-trend.html">← GitHub トレンド一覧へ戻る</a>
+            </div>
+        </footer>
+    </article>
+</body>
+</html>

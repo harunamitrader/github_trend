@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 10:08:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 11:40:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-code-hooks]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-shanraisshan-claude-code-hooks.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-shanraisshan-claude-code-hooks.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code に「声」や通知を追加する、27種類のフックを活用した拡張キット]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-claude-agents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-vijaythecoder-awesome-claude-agents.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GenericAgent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lsdefine-genericagent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lsdefine-genericagent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。]]></description>
     </item>
   </channel>
 </rss>

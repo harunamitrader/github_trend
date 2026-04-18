@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-18T01:08:12.858720+00:00",
-  "count": 279,
+  "generatedAt": "2026-04-18T02:40:01.733629+00:00",
+  "count": 280,
   "articles": [
     {
       "slug": "2026-04-18-moasq-production-saas-starter",
@@ -151,6 +151,21 @@
       "articleUrl": "./articles/github/daily/2026-04-18-alpacahq-alpaca-mcp-server.html",
       "serial": 253,
       "searchText": "alpaca-mcp-server Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。 金融取引 API の Alpaca が提供する公式 MCP サーバー。自然言語での米国株・ETF・暗号資産・オプションの売買に加え、ポートフォリオ管理やマーケットデータ分析を AI チャット上から安全に実行可能です。V2 で FastMCP ベースに刷新されました。 alpacahq/alpaca-mcp-server AIエージェント (自律基盤・特化アプリ) alpaca-mcp-server ← 記事一覧へ戻る GitHub Watcher alpaca-mcp-server Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。 分析日 2026-04-18 種別 Pickup 対象 repo alpacahq/alpaca-mcp-server Star数 654 これは何か 米国株や暗号資産の取引 API を提供する Alpaca 社が公式にリリースした、Model Context Protocol（MCP）サーバーの実装です。このサーバーを Claude Desktop、Cursor、VS Code などの AI ツールに導入することで、チャットインターフェースを通じて直接、売買注文の発行やマーケットデータの分析を行えるようになります。最新の V2 アップデートにより、FastMCP と OpenAPI をベースにした堅牢な設計へと進化しています。 何ができるか 自然言語による取引： 「今日の指値で NVIDIA を 5株買って」「ビットコインのポジションを半分決済して」といった自然な日本語（または英語）の指示で、実際の取引を実行できます。 リアルタイム分析： 最新の株価クオート、ヒストリカルデータ、オプションの Greeks やインプライド・ボラティリティ（IV）を AI が直接取得。データに基づいた投資判断をチャット上で受けられます。 ポートフォリオ管理： 口座残高の確認、現在のポジション一覧、ウォッチリストの作成・編集を AI に代行させることが可能です。 多様な資産クラス： 米国株、ETF に加え、暗号資産（Crypto）やオプション取引にもフル対応しています。 安全性への配慮： API キーは環境変数を介して安全に管理され、AI ツール側に直接ハードコードする必要はありません。また、ペーパートレード（デモ取引）モードがデフォルトで考慮されており、安全なテストが可能です。 目立つポイント これまで「投資」と「AI エージェント」を組み合わせるには複雑な Python スクリプトの記述が必要でしたが、この MCP サーバーの登場により、Cursor や Claude などの汎用 AI ツール自体が「金融トレーダー」へと変貌します。特に FastMCP への移行により、ツールの発見性やエラーハンドリングが大幅に向上しており、実用レベルでの「AI による投資支援」が現実のものとなっています。 セットアップや使い方の流れ Alpaca のダッシュボードから、API キー（Key ID と Secret Key）を取得します。最初はペーパートレード用を推奨します。 uvx alpaca-mcp-server を使用して MCP サーバーを導入します。 Claude Desktop や Cursor の設定ファイル（ mcpServers セクション）に、取得した API キーを環境変数（ ALPACA_API_KEY , ALPACA_SECRET_KEY ）として登録します。 AI チャットを開き、「現在の私の口座残高を教えて」「Apple の最新株価に基づいた分析をして」などと話しかけて運用を開始します。 どんな人向けか 投資ワークフローを AI で効率化したい個人投資家やトレーダー。 Cursor などの IDE を使いながら、コードを書く合間にマーケットを監視・操作したいエンジニア。 独自のアルゴリズム取引を構築する際、プロンプトベースで戦略を試行錯誤したい開発者。 注意点 実際の資産を扱うツールであるため、注文指示の際には AI が意図した通りの銘柄や数量を解釈しているか、実行前の確認が不可欠です。また、V2 への移行に伴い、旧バージョン（V1）のツール名やパラメータとは互換性がないため、以前の設定を利用している場合は再構成が必要です。 まとめ alpaca-mcp-server は、AI エージェントが現実社会の経済活動（金融取引）へと直接アクセスするための強力な架け橋です。「指示するだけで投資ができる」未来が、MCP という標準規格を通じて公式にサポートされた意義は大きく、投資体験のあり方を根本から変える可能性を秘めています。 参照リンク alpacahq/alpaca-mcp-server"
+    },
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "claude-code-hooks",
+      "dek": "Claude Code に「声」や通知を追加する、27種類のフックを活用した拡張キット",
+      "summary": "",
+      "repoName": "shanraisshan/claude-code-hooks",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18",
+      "articleUrl": "articles/github/daily/2026-04-18-shanraisshan-claude-code-hooks.html",
+      "serial": 264,
+      "searchText": "claude-code-hooks Claude Code に「声」や通知を追加する、27種類のフックを活用した拡張キット shanraisshan/claude-code-hooks AIコーディング (ワークフロー・プロンプト・開発補助ツール) claude-code-hooks - Claude Code に「声」を宿す拡張フック集 | harunami AI base GitHub Watcher claude-code-hooks Claude Code に「声」や通知を追加する、27種類のフックを活用した拡張キット 分析日 2026-04-18 カテゴリ GitHub Pickup 対象リポジトリ shanraisshan/claude-code-hooks Star数 289 GitHubシリアル No. 264 プロジェクトの概要 claude-code-hooks は、Anthropic の Claude Code CLI が備える強力なフック（Hooks）機能を使いこなし、ターミナルでの AI 開発体験を劇的に向上させるプロジェクトです。最大の特徴は Claude Code に音声（Voice）を追加する ことで、AI がツールの実行を開始した際や完了した際に、音声でステータスを報告させることが可能になります。 機能・できること 全 27 種類のフックに対応 : PreToolUse （ツール使用前）、 PostToolUse （ツール使用後）、 OnMessage など、Claude Code が提供するすべてのイベントタイミングをカバーしています。 音声通知 (Voice Integration) : ターミナルの背後で長時間タスクを実行させている間も、音声による報告で作業の進捗を把握できます。 自動化のトリガー : ツール実行の成功/失敗に応じて、外部スクリプトの実行やデスクトップ通知などのアクションを紐付けることができます。 macOS/Windows 両対応 : say コマンドや PowerShell の Add-Type -AssemblyName System.Speech を活用したクロスプラットフォームな音声合成をサポート。 技術スタックとリポジトリ構成 リポジトリは、Claude Code の設定ディレクトリである .claude/hooks/ 内に配置するためのシェルスクリプトや Python スクリプトで構成されています。 Hooks Logic : 各イベントに対応したエントリーポイント（ pre-tool-use.sh など）。 Audio Engine : OS ごとの標準音声合成機能を呼び出すシンプルなラッパー。 Configuration : フックの挙動をカスタマイズするための環境変数や設定ファイル。 導入のイメージ Claude Code の標準的なフック機構を利用するため、既存のプロジェクトの .claude/hooks ディレクトリにファイルを配置するか、本プロジェクトをクローンしてシンボリックリンクを張ることで動作します。 # macOS での導入例 git clone https://github.com/shanraisshan/claude-code-hooks.git cd claude-code-hooks ./install/mac-os.sh これにより、例えば gh コマンドでのプルリク作成が完了した際に、「Pull request successfully created!」と Claude が声で教えてくれるようになります。 ターゲット層 / 注目ポイント マルチタスク派の開発者 : ターミナルを裏で動かしている間に、他の作業（ブラウジングやドキュメント作成）をしていても進捗を逃したくないユーザー。 Claude Code カスタマイズ愛好家 : 標準の CLI 体験をさらにパーソナライズし、ゲーム感覚やアシスタント感を高めたい層。 自動化ワークフローの構築者 : AI が実行したアクションの結果を外部システムへ即座に通知させたい場合。 制約・リスク OS 依存の音声エンジン : OS ごとの読み上げ機能に依存するため、声色や言語（特に日本語への対応度）は実行環境に左右されます。 過剰な通知 : 27 種類すべてのフックを有効にすると、ツール使用のたびに通知が発生し、騒がしくなる可能性があります。必要なイベントのみを有効にする設定が推奨されます。 まとめ claude-code-hooks は、単なる音声通知ツールにとどまらず、Claude Code とローカルマシンの接点である「フック機能」の可能性を広げるショーケースのようなプロジェクトです。自分の開発スタイルに合わせてフックを調整することで、AI コーディングはよりインタラクティブで楽しいものへと進化します。 ソースリンク shanraisshan/claude-code-hooks (GitHub) ← GitHub トレンド一覧へ戻る"
     },
     {
       "slug": null,
