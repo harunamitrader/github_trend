@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 12:29:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 03:25:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[empirical-prompt-tuning (by mizchi)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。]]></description>
+    </item>
     <item>
       <title><![CDATA[Clearwing (Lazarus AI)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lazarus-ai-clearwing.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[1,400種類以上の「知能」をエージェントに。Antigravity や Claude Code の能力を極限まで拡張する、インストール可能な巨大スキルライブラリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity Discord Bot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-antigravity-discord-bot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-antigravity-discord-bot.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントを Discord で連れ歩く。コーディングアシスタント Antigravity の進捗確認と操作をチャット UI へ拡張する専用クライアント。]]></description>
     </item>
   </channel>
 </rss>

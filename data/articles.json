@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-mizchi-empirical-prompt-tuning",
+      "title": "empirical-prompt-tuning (by mizchi)",
+      "dek": "プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。",
+      "summary": "mizchi 氏が公開した Claude Code 用スキル。別の AI エージェント（Subagent）に実際にプロンプトを実行させ、成功率・精度・ステップ数などの定量的指標と、不明瞭点の指摘などの質的フィードバックを組み合わせてプロンプトを反復改善する「経験的チューニング」の手法を定義しています。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T03:25:00+09:00",
+      "repoName": "mizchi/chezmoi-dotfiles",
+      "repoUrl": "https://github.com/mizchi/chezmoi-dotfiles/tree/main/dot_claude/skills/empirical-prompt-tuning",
+      "starCount": 0,
+      "articleUrl": "./articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html",
+      "serial": 277,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-lazarus-ai-clearwing",
       "title": "Clearwing (Lazarus AI)",
       "dek": "単なる指摘で終わらない。「疑い」から「パッチ検証」まで。LangGraph で構築された自律型脆弱性ハンターが、ソースコードとネットワークの安全を徹底追求する。",

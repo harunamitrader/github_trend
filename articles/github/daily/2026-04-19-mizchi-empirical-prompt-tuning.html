@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="mizchi 氏の chezmoi-dotfiles 内にある Claude Code 用スキル「empirical-prompt-tuning」を読み、AI が AI のプロンプトを評価・改善する「経験的チューニング」の設計思想を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>empirical-prompt-tuning (by mizchi)</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">empirical-prompt-tuning (by mizchi)</h1>
+      <p class="article-dek">プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mizchi/chezmoi-dotfiles/tree/main/dot_claude/skills/empirical-prompt-tuning" target="_blank" rel="noreferrer">
+              mizchi/empirical-prompt-tuning
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ジャンル</span>
+          <strong>学習ガイド・開発アセット</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          日本の技術コミュニティのフロントランナーである mizchi 氏が公開した、Claude Code (AIエージェント) 用の高度なシステムプロンプト（スキル）です。
+          「プロンプトの良し悪しは書き手には客観視できない」という前提に立ち、
+          別の AI エージェント（Subagent）に実際にプロンプトを実行させ、その結果をメトリクスと質的フィードバックの両面から評価・反復改善するためのフレームワークを定義しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>バイアス排除読み：</strong> 指示を「白紙」の Subagent に読ませ、書き手の思い込みを排除。</li>
+          <li><strong>定量的メトリクス測定：</strong> 成功率、精度（％）、ステップ数（tool_uses）、所要時間、再試行回数を数値化。</li>
+          <li><strong>質的フィードバック収集：</strong> Subagent から「不明瞭点（解釈に迷った箇所）」や「裁量補完（指示がないため勝手に決めた箇所）」を収集。</li>
+          <li><strong>収束判定：</strong> 2回連続で不明瞭点ゼロ、かつ改善が飽和するまで反復を自動継続。</li>
+          <li><strong>過適合チェック：</strong> 未知の Hold-out シナリオを用いた最終検証機能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          **「AI に AI のための説明書をテストさせる」** という、モデルの知能を最大限に活用した設計が秀逸です。
+          プロンプトを「文学」ではなく「ソフトウェア」として扱い、TDD（テスト駆動開発）のようなサイクルで堅牢化していくアプローチは、
+          実用レベルの AI エージェントを運用する上で不可欠な視点を提供しています。
+          単に精度 100% を目指すだけでなく、`tool_uses`（ステップ数）の偏りから「エージェントの迷い」を検出し、
+          構造的な欠陥（指示の不備）を炙り出す仕組みも非常に実践的です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          mizchi 氏の <code>chezmoi-dotfiles</code> 内にある <code>dot_claude/skills/</code> 以下のファイルを自身の Claude Code プロジェクト（通常は <code>.claude/skills/</code>）にコピーします。
+          改善したいプロンプトと評価シナリオ、要件チェックリストを用意し、Claude Code に「本スキルに従ってプロンプトをチューニングして」と指示することで、
+          Subagent を駆使した反復改善プロセスが開始されます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Claude Code の挙動が不安定で悩んでいる開発者、あるいは頻繁に使用する重要なカスタムスキル（Slash Command）を、
+          極限まで堅牢かつ効率的に（認知負荷を低く）磨き上げたいプロンプトエンジニアに最適です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          empirical-prompt-tuning は、AI エージェント時代の「デバッグと最適化」の新しい標準を示すツールです。
+          人の主観を排し、バイナリのようにプロンプトを精査するこの手法は、
+          「AI への指示の曖昧さ」を徹底的に排除したいすべての開発者にとって、最高のガイドラインとなるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mizchi/chezmoi-dotfiles/blob/main/dot_claude/skills/empirical-prompt-tuning/SKILL.md" target="_blank" rel="noreferrer">mizchi/empirical-prompt-tuning (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

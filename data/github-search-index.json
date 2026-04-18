@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T12:27:04.104320+00:00",
-  "count": 293,
+  "generatedAt": "2026-04-18T18:25:52.859598+00:00",
+  "count": 294,
   "articles": [
+    {
+      "slug": "2026-04-19-mizchi-empirical-prompt-tuning",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "empirical-prompt-tuning (by mizchi)",
+      "dek": "プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。",
+      "summary": "mizchi 氏が公開した Claude Code 用スキル。別の AI エージェント（Subagent）に実際にプロンプトを実行させ、成功率・精度・ステップ数などの定量的指標と、不明瞭点の指摘などの質的フィードバックを組み合わせてプロンプトを反復改善する「経験的チューニング」の手法を定義しています。",
+      "repoName": "mizchi/chezmoi-dotfiles",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T03:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html",
+      "serial": 277,
+      "searchText": "empirical-prompt-tuning (by mizchi) プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。 mizchi 氏が公開した Claude Code 用スキル。別の AI エージェント（Subagent）に実際にプロンプトを実行させ、成功率・精度・ステップ数などの定量的指標と、不明瞭点の指摘などの質的フィードバックを組み合わせてプロンプトを反復改善する「経験的チューニング」の手法を定義しています。 mizchi/chezmoi-dotfiles 学習ガイド・開発アセット empirical-prompt-tuning (by mizchi) ← 記事一覧へ戻る GitHub Watcher empirical-prompt-tuning (by mizchi) プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。 記事作成日 2026-04-19 種別 Pickup 対象 repo mizchi/empirical-prompt-tuning ジャンル 学習ガイド・開発アセット これは何か 日本の技術コミュニティのフロントランナーである mizchi 氏が公開した、Claude Code (AIエージェント) 用の高度なシステムプロンプト（スキル）です。 「プロンプトの良し悪しは書き手には客観視できない」という前提に立ち、 別の AI エージェント（Subagent）に実際にプロンプトを実行させ、その結果をメトリクスと質的フィードバックの両面から評価・反復改善するためのフレームワークを定義しています。 何ができるか バイアス排除読み： 指示を「白紙」の Subagent に読ませ、書き手の思い込みを排除。 定量的メトリクス測定： 成功率、精度（％）、ステップ数（tool_uses）、所要時間、再試行回数を数値化。 質的フィードバック収集： Subagent から「不明瞭点（解釈に迷った箇所）」や「裁量補完（指示がないため勝手に決めた箇所）」を収集。 収束判定： 2回連続で不明瞭点ゼロ、かつ改善が飽和するまで反復を自動継続。 過適合チェック： 未知の Hold-out シナリオを用いた最終検証機能。 目立つポイント **「AI に AI のための説明書をテストさせる」** という、モデルの知能を最大限に活用した設計が秀逸です。 プロンプトを「文学」ではなく「ソフトウェア」として扱い、TDD（テスト駆動開発）のようなサイクルで堅牢化していくアプローチは、 実用レベルの AI エージェントを運用する上で不可欠な視点を提供しています。 単に精度 100% を目指すだけでなく、`tool_uses`（ステップ数）の偏りから「エージェントの迷い」を検出し、 構造的な欠陥（指示の不備）を炙り出す仕組みも非常に実践的です。 セットアップや使い方の流れ mizchi 氏の chezmoi-dotfiles 内にある dot_claude/skills/ 以下のファイルを自身の Claude Code プロジェクト（通常は .claude/skills/ ）にコピーします。 改善したいプロンプトと評価シナリオ、要件チェックリストを用意し、Claude Code に「本スキルに従ってプロンプトをチューニングして」と指示することで、 Subagent を駆使した反復改善プロセスが開始されます。 どんな人向けか Claude Code の挙動が不安定で悩んでいる開発者、あるいは頻繁に使用する重要なカスタムスキル（Slash Command）を、 極限まで堅牢かつ効率的に（認知負荷を低く）磨き上げたいプロンプトエンジニアに最適です。 まとめ empirical-prompt-tuning は、AI エージェント時代の「デバッグと最適化」の新しい標準を示すツールです。 人の主観を排し、バイナリのようにプロンプトを精査するこの手法は、 「AI への指示の曖昧さ」を徹底的に排除したいすべての開発者にとって、最高のガイドラインとなるでしょう。 参照リンク mizchi/empirical-prompt-tuning (GitHub)"
+    },
     {
       "slug": "2026-04-18-lazarus-ai-clearwing",
       "category": "github-pickup",
