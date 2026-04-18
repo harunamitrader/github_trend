@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Apr 2026 11:40:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 12:02:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-18 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-18-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-18-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[opensre]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-tracer-cloud-opensre.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-tracer-cloud-opensre.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[60以上のツールと連携。自動インシデント対応を実現するAI SREエージェント構築フレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[craft-agents-oss]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lukilabs-craft-agents-oss.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lukilabs-craft-agents-oss.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ClaudeエージェントSDK。柔軟なマルチタスクとUI操作でエージェントとの協調定義を可能にするネイティブ環境。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude-Code-Game-Studios]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-donchitos-claude-code-game-studios.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-donchitos-claude-code-game-studios.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[49のAIエージェントと72のスキルで、Claude Codeをゲームスタジオに。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[omi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-basedhardware-omi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-basedhardware-omi.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画面共有と音声から自律的にアクションを提案。ウェアラブル・モバイル対応のマルチモーダルAI。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[evolver]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-evomap-evolver.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-evomap-evolver.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェント自身がスキルを自動生成・改良し続けるゲノム進化エンジン。]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-code-hooks]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-shanraisshan-claude-code-hooks.html</link>
@@ -118,54 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[neko]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-m1k1o-neko.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-m1k1o-neko.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Docker 内で動く自分専用のブラウザを WebRTC で低遅延ストリーミング。複数人での共同操作やウォッチパーティーに最適なセルフホスト型仮想ブラウザ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ccmux]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-shin-sibainu-ccmux.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-shin-sibainu-ccmux.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code をマルチペインで同時に動かす。並列タスクとファイル管理をひとつの TUI に統合するターミナルマルチプレクサ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[llm_wiki]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-nashsu-llm-wiki.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-nashsu-llm-wiki.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Andrej Karpathy 氏の LLM Wiki 構想を実現。ドキュメントを読み込み、自動で構造化・リンクされた個人知識ベースを構築するデスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dive-into-llms]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lordog-dive-into-llms.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lordog-dive-into-llms.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[code-review-graph]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-tirth8205-code-review-graph.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-tirth8205-code-review-graph.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIが「本当に読むべきコード」だけを特定。AST解析でトークン消費を最大1/49に抑えるローカルナレッジグラフ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ccstatusline]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。]]></description>
     </item>
   </channel>
 </rss>
