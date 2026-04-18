@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="browser-use/video-use を読み、Claude Code を動画編集ソフトに変える AI エージェントスキルの仕組みと、トランスクリプトベースの編集ワークフローを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>video-use</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">video-use</h1>
+      <p class="article-dek">Claude Code が動画編集者に。素材をフォルダに置く。チャットで指示する。プロ級の final.mp4 が出力される。100% オープンソースの動画編集スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browser-use/video-use" target="_blank" rel="noreferrer">
+              browser-use/video-use
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          video-use は、人気ブラウザエージェント「browser-use」のチームが開発した、Claude Code 専用の動画編集拡張スキルです。
+          動画素材が入ったフォルダで Claude を起動し、「これをローンチ動画に編集して」と指示するだけで、
+          カット、カラーグレーディング、字幕入れ、アニメーション合成といった一連の編集工程を AI が自律的に実行します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>不要箇所の自動カット：</strong> 「えー」「あのー」などのフィラーワード（Filler Words）や無音区間を削除。</li>
+          <li><strong>自動カラーグレーディング：</strong> FFmpeg を駆使し、シネマティックな補正やパンチのある色調への自動調整。</li>
+          <li><strong>字幕（テロップ）生成：</strong> 文脈に合わせたスタイルでの字幕焼き付け。</li>
+          <li><strong>アニメーション合成：</strong> Manim や Remotion を使用した動的なオーバーレイの生成・合成。</li>
+          <li><strong>自己評価ループ：</strong> レンダリング後に AI 自らが映像を確認し、ジャンプカットやノイズを修正。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          画期的な点は、「AI が動画を直接観るのではなく、『読む』」というアプローチです。
+          ElevenLabs 等を利用した高精度なトランスクリプト（単語単位の時間情報付き）を主軸に据え、文字ベースで編集点を判断します。
+          これにより、数万フレームを AI に解析させるトークンの無駄を省きつつ、単語境界での精密なカットを実現しています。
+          必要な瞬間だけフィルムストリップ（静止画）を生成して視認性を確保する、「DOM 構造でブラウザを操る browser-use」の思想が動画編集にも適用されています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          リポジトリをクローンし、Claude Code のスキルディレクトリ（<code>~/.claude/skills/video-use</code>）にシンボリックリンクを貼ることで導入できます。
+          別途 FFmpeg や yt-dlp などのコマンドラインツールが必要です。
+          導入後は、編集したい動画のあるフォルダで <code>claude</code> を起動し、「edit these into a launch video」といった自然言語で編集を開始します。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          YouTube ショートやチュートリアル動画を頻繁に作成するクリエイター、
+          動画編集に時間をかけたくないエンジニア、
+          および AI エージェントによる「マルチモーダルなアウトプット生成」の可能性を追求したい開発者に最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          トランスクリプト生成に外部 API（ElevenLabs 等）を利用するため、その利用料金が発生します。
+          また、複雑な Manim アニメーションなどは生成に時間がかかることがあり、
+          最終的なレンダリング負荷はマシンの CPU/GPU 性能に依存します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          video-use は、動画編集を「UI ポチポチ作業」から「AI との対話」へと昇華させるプロダクトです。
+          「編集の民主化」を AI エージェントの力で推し進める browser-use チームの野心的な試みであり、
+          今後の AI アシスタントが備えるべき標準機能のあり方を示唆しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/browser-use/video-use" target="_blank" rel="noreferrer">browser-use/video-use</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

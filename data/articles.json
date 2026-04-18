@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-browser-use-video-use",
+      "title": "video-use",
+      "dek": "Claude Code が動画編集者に。素材をフォルダに置く。チャットで指示する。プロ級の final.mp4 が出力される。100% オープンソースの動画編集スキル。",
+      "summary": "browser-use チームが開発した Claude Code 専用の動画編集エージェントスキル。トランスクリプト（文字起こし）ベースで編集点を判断し、フィラー削除からアニメーション合成まで自律的に完結させます。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T15:00:00+09:00",
+      "repoName": "browser-use/video-use",
+      "repoUrl": "https://github.com/browser-use/video-use",
+      "starCount": 1000,
+      "articleUrl": "./articles/github/daily/2026-04-18-browser-use-video-use.html",
+      "serial": 272,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-othmanadi-planning-with-files",
       "title": "planning-with-files",
       "dek": "Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。",
