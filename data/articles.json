@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-robbyant-lingbot-map",
+      "title": "LingBot-Map",
+      "dek": "動画やストリーミングデータから「瞬時に」3D空間を構築。世界最高峰の再構成精度とリアルタイム性を両立した、次世代の3D空間基盤モデル。",
+      "summary": "動画やストリーミングデータから直接 3D シーンを再構成するフィードフォワード型の基盤モデル。反復最適化を必要とせず、約 20 FPS の高速動作、10,000 フレーム超の長距離対応、そして SOTA の精度を単一の Transformer アーキテクチャで実現しています。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T21:50:00+09:00",
+      "repoName": "Robbyant/lingbot-map",
+      "repoUrl": "https://github.com/Robbyant/lingbot-map",
+      "starCount": 2300,
+      "articleUrl": "./articles/github/daily/2026-04-19-robbyant-lingbot-map.html",
+      "serial": 289,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-pingdotgg-t3code",
       "title": "T3 Code",
       "dek": "ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。",

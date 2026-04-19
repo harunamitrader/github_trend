@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 12:38:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 21:41:26 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[LingBot-Map]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robbyant-lingbot-map.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robbyant-lingbot-map.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[動画やストリーミングデータから「瞬時に」3D空間を構築。世界最高峰の再構成精度とリアルタイム性を両立した、次世代の3D空間基盤モデル。]]></description>
+    </item>
     <item>
       <title><![CDATA[T3 Code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-pingdotgg-t3code.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-18 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-18-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-18-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Robbyant/lingbot-map を読み、動画からリアルタイムに 3D 空間を再構成する基盤モデルの特徴を整理した記事。高速動作、高精度、長距離対応の魅力を紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LingBot-Map</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LingBot-Map</h1>
+      <p class="article-dek">動画やストリーミングデータから「瞬時に」3D空間を構築。世界最高峰の再構成精度とリアルタイム性を両立した、次世代の3D空間基盤モデル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Robbyant/lingbot-map" target="_blank" rel="noreferrer">
+              Robbyant/lingbot-map
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,300</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          LingBot-Map は、動画やリアルタイムのストリーミングデータから高精度な 3D シーンを再構成するために設計された、フィードフォワード型の「3D 空間基盤モデル」です。
+          従来の 3D 再構成技術（SLAM や NeRF など）が膨大な計算量や反復的な最適化を必要としていたのに対し、本モデルはストリーミングデータから直接、高速かつ安定的に 3D 構造を導き出す革新的なアプローチを採用しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リアルタイム 3D 再構成：</strong> 約 20 FPS（518x378 解像度時）という驚異的な速度で、入力される映像から順次 3D 空間を構築していきます。</li>
+          <li><strong>長距離ドリフト補正：</strong> 10,000 フレームを超えるような長いシーケンスでも、内蔵の Geometric Context Transformer (GCT) により幾何学的な整合性を保ち、位置のズレ（ドリフト）を最小限に抑えます。</li>
+          <li><strong>多様なシーンへの適応：</strong> 屋内から屋外の広大な空間まで対応。屋外シーンでは空のマスク処理（Sky Masking）を自動実行し、ノイズの少ない高品質な点群データを生成します。</li>
+          <li><strong>ブラウザベースの可視化：</strong> 構築中の 3D 空間をブラウザ上の viser ビューアでリアルタイムに観察でき、直感的な空間把握を可能にします。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の革新点は、**「反復的な最適化を介さず、フィードフォワード推論のみで世界最高水準（SOTA）の再構成精度を達成している点」** です。
+          独自の GCT アーキテクチャにより、詳細な幾何学的手がかり、座標の接地、そして長期的な軌道メモリを単一の Transformer フレームワークで統合しています。
+          これは、ロボティクスやドローン、AR/VR デバイスなどのエッジ環境において、「見たものをその瞬間に正確に 3D 化する」という、極めて難易度の高いタスクを実現するための決定打となり得ます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Conda 等で Python 3.10 環境を構築し、PyTorch (CUDA 12.8 以降推奨) とパッケージをインストールします。
+          推論の高速化のために <code>FlashInfer</code> の併用が推奨されます。
+          Hugging Face から事前学習済みモデルをダウンロードした後、<code>demo.py</code> に動画や画像フォルダを指定して実行するだけで、
+          ブラウザ（localhost:8080）から生成された 3D 点群の世界に飛び込むことができます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          ロボットの自律走行やドローンのマッピング、あるいは AR デバイスでの低遅延な空間認識を必要としているエンジニア・研究者に最適です。
+          また、大量の映像コンテンツから効率的に 3D アセットを生成したいクリエイターにとっても、強力なパイプラインの核となるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          数千フレームを超える極めて長いシーケンスを扱う場合は、メモリ消費のピークを避けるために Windowed Inference モードや keyframe_interval（キーフレーム間隔）の適切な設定が求められます。
+          また、最大のパフォーマンスを引き出すには、高性能な NVIDIA GPU とそれに対応したセットアップが不可欠です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          LingBot-Map は、AI が物理世界を「理解する速度」を劇的に変えるプロジェクトです。
+          待ち時間なしで空間を 3D 化し、それを即座に活用できるこの技術は、自律型システムと人間のインタラクションをより密接で高度なものへと進化させるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Robbyant/lingbot-map" target="_blank" rel="noreferrer">Robbyant/lingbot-map (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://huggingface.co/robbyant/lingbot-map" target="_blank" rel="noreferrer">Hugging Face Model Hub</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
