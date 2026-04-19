@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 10:47:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 12:41:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Mission Control (builderz-labs)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントの「艦隊」を指揮せよ。タスク、コスト、セキュリティ。自律型エージェントの運用を一つのダッシュボードで統制する、セルフホスト型「管制塔」。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-19 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-19-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[画面共有と音声から自律的にアクションを提案。ウェアラブル・モバイル対応のマルチモーダルAI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[evolver]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-evomap-evolver.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-evomap-evolver.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェント自身がスキルを自動生成・改良し続けるゲノム進化エンジン。]]></description>
     </item>
   </channel>
 </rss>

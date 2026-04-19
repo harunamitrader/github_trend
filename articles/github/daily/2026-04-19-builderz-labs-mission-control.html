@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="builderz-labs/mission-control を読み、自律型 AI エージェントの艦隊を一括管理・統制するためのセルフホスト型「管制塔」ダッシュボードの特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Mission Control (builderz-labs)</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Mission Control (builderz-labs)</h1>
+      <p class="article-dek">AI エージェントの「艦隊」を指揮せよ。タスク、コスト、セキュリティ。自律型エージェントの運用を一つのダッシュボードで統制する、セルフホスト型「管制塔」。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/builderz-labs/mission-control" target="_blank" rel="noreferrer">
+              builderz-labs/mission-control
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Mission Control は、複数の自律型 AI エージェントを一元管理するための、セルフホスト可能なオーケストレーション・プラットフォームです。
+          エージェントへのタスク割り当て、ワークフローの監視、利用コストの追跡、そしてセキュリティガバナンスを、たった一つの「管制塔」ダッシュボードから実行できるようにすることを目指して開発されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>エージェント・オーケストレーション：</strong> Claude Code や CrewAI、LangGraph など、異なるフレームワークで構築されたエージェントを統合・指揮。</li>
+          <li><strong>統合カンバンボード：</strong> タスクの進捗状況を Inbox から Done まで可視化。エージェント間の「ハンドオフ（受け渡し）」やクオリティゲートの設置が可能。</li>
+          <li><strong>コスト＆トークン管理：</strong> セッションやモデルごとのトークン消費量とコストをリアルタイムで追跡。</li>
+          <li><strong>セキュリティ・監査：</strong> MCP ツール呼び出しの監査、秘密情報の検知、エージェントごとの「信頼スコア」の算出など、エンタープライズレベルのガバナンス機能。</li>
+          <li><strong>スキル・ハブ：</strong> 安全スキャン済みのエージェントスキルをワンクリックで導入。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、**「エージェント運用をブラックボックス化させない」** という思想です。
+          AI エージェントが自律的に動けば動くほど、運用者は「何が起きているか」「いくらかかっているか」が見えにくくなります。
+          Mission Control は SQLite ベースの「ローカルファースト」な設計でありながら、大規模なエージェント艦隊を統制するための可視化ツールを提供し、AI エージェントを実験段階から実用的な「業務運用（Operations）」へと引き上げます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Docker Compose、または <code>bash install.sh</code> による簡単なインストールが可能です。
+          起動後、<code>/setup</code> から管理者アカウントを作成すれば、すぐに自分のエージェントを登録し、タスクを割り振る準備が整います。
+          Claude Code のセッション自動発見などもサポートしており、既存の CLI ツールをそのまま監視下に置くことができます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          複数の AI エージェントを並行して運用している開発チームや、AI エージェントの「統制、コスト、セキュリティ」に責任を持つ IT 管理者にとって、必須のプラットフォームとなるでしょう。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Mission Control は、自律型 AI エージェントが社会に浸透していく中で不可欠な「ガバナンスレイヤー」を体現しています。
+          単なるダッシュボードを超え、AI エージェントの可能性を安全かつ予測可能な形で解き放つための、強力な司令センターです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/builderz-labs/mission-control" target="_blank" rel="noreferrer">builderz-labs/mission-control (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

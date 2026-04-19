@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-19-builderz-labs-mission-control",
+      "title": "Mission Control (builderz-labs)",
+      "dek": "AI エージェントの「艦隊」を指揮せよ。タスク、コスト、セキュリティ。自律型エージェントの運用を一つのダッシュボードで統制する、セルフホスト型「管制塔」。",
+      "summary": "builderz-labs による、自律型 AI エージェントのための一元管理プラットフォーム。Claude Code や CrewAI などの異なるフレームワークを指揮し、カンバン形式でのタスク割り当て、モデルごとのコスト追跡、セキュリティ監査などを、セルフホスト可能な SQLite ベースのダッシュボードで実現します。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T12:40:00+09:00",
+      "repoName": "builderz-labs/mission-control",
+      "repoUrl": "https://github.com/builderz-labs/mission-control",
+      "starCount": 4200,
+      "articleUrl": "./articles/github/daily/2026-04-19-builderz-labs-mission-control.html",
+      "serial": 284,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "publishedAt": "2026-04-19",
       "createdAt": "2026-04-19T05:40:00+09:00",
       "category": "github-update-report",
