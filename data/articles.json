@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-20-6551team-opennews-mcp",
+      "title": "opennews-mcp",
+      "dek": "84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤",
+      "summary": "AI エージェントから 84 以上のリアルタイム・ニュースソースにアクセス可能にする MCP サーバー。記事の重要度、売買シグナル、バイリンガル要約を AI が自動分析して提供し、投資や情報のキャッチアップを効率化します。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T05:07:00+09:00",
+      "repoName": "6551Team/opennews-mcp",
+      "repoUrl": "https://github.com/6551Team/opennews-mcp",
+      "starCount": 965,
+      "articleUrl": "./articles/github/daily/2026-04-20-6551team-opennews-mcp.html",
+      "serial": 294,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-20-0xnyk-council-of-high-intelligence",
       "title": "council-of-high-intelligence",
       "dek": "18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援",

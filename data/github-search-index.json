@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T19:59:06.496955+00:00",
-  "count": 310,
+  "generatedAt": "2026-04-19T20:09:36.156178+00:00",
+  "count": 311,
   "articles": [
+    {
+      "slug": "2026-04-20-6551team-opennews-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "opennews-mcp",
+      "dek": "84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤",
+      "summary": "AI エージェントから 84 以上のリアルタイム・ニュースソースにアクセス可能にする MCP サーバー。記事の重要度、売買シグナル、バイリンガル要約を AI が自動分析して提供し、投資や情報のキャッチアップを効率化します。",
+      "repoName": "6551Team/opennews-mcp",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T05:07:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-20-6551team-opennews-mcp.html",
+      "serial": 294,
+      "searchText": "opennews-mcp 84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤 AI エージェントから 84 以上のリアルタイム・ニュースソースにアクセス可能にする MCP サーバー。記事の重要度、売買シグナル、バイリンガル要約を AI が自動分析して提供し、投資や情報のキャッチアップを効率化します。 6551Team/opennews-mcp AI基盤・データ基盤・業務アプリ opennews-mcp - GitHub Watcher Home GitHub AI Tools GitHub Watcher opennews-mcp #294 84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤 記事作成日 2026-04-20 種別 Pickup 対象 repo 6551Team/opennews-mcp Star数 960+ これは何か opennews-mcp は、Claude や Cursor などの AI エージェントから最新ニュースへ即座にアクセスできるようにする MCP (Model Context Protocol) サーバーです。 特に仮想通貨（Crypto）や金融領域に強く、世界中の 84 以上のニュースソース、オンチェーンデータ、取引所のリスティング情報、ミームコインのトレンドなどを一元的に集約し、AI による分析を加えて提供します。 何ができるか リアルタイム・ニュース集約 : Bloomberg, CoinDesk, 取引所のお知らせなど、多様なソースから最新情報を取得。 AI による自動分析 : 各記事に対して重要度（0-100スコア）、売買シグナル（Long/Short/Neutral）、多言語要約を自動付与。 高度な検索・フィルタリング : 特定の通貨（BTC, ETH等）、データ種別（Engine Category）、スコアの高さなどに基づいてニュースを絞り込み。 WebSocket による購読 : 最新のアップデートをリアルタイムで受け取ることが可能です。 目立つポイント 金融・投資特化 : 単なるニュースリーダーではなく、「Trading Signals」や「Impact Score」といった、投資判断に直結するメタデータが充実しています。 MCP サーバーとしての使いやすさ : Claude Desktop や Cursor に一行のコマンド、あるいは設定ファイルへの追記だけで統合でき、エンジニアのワークフローを邪魔しません。 圧倒的な網羅性 : ニュース（News）、オンチェーン（On-chain）、上場情報（Listing）、ミーム（Meme）、マーケット（Market）、予測市場（Prediction）の6つのエンジンカテゴリーを網羅しています。 セットアップや使い方の流れ Token取得 : https://6551.io/mcp で API トークンを取得します。 インストール : claude mcp add opennews または設定ファイル（claude_desktop_config.json 等）に、取得したトークンと実行パスを登録します。 実行（問いかけ） : AI に対して「最新の BTC 関連ニュースを教えて」「今のマーケットで重要度の高い情報を要約して」と指示するだけで、ツールが起動し情報を取得します。 どんな人向けか 膨大なニュースの中から、AI を使ってノイズを除去し、重要な情報だけを効率的にキャッチアップしたい投資家。 特定の通貨やトレンドに関するオンチェーン情報を、ブラウザを開かずに IDE や端末内だけで完結させたいトレーダー。 自身の AI エージェント（Claude Code 等）に、最新の市場データやニュース検索能力を付加したい開発者。 注意点 トークンの管理 : API アクセスには 6551.io のトークンが必要なため、管理には注意してください。 情報の取捨選択 : AI によるレーティング（スコア）は便利ですが、最終的な投資判断は必ず一次情報を確認した上で行う必要があります。 まとめ opennews-mcp は、AI エージェントを「ただのプログラム」から「敏腕の情報アナリスト」へと変貌させる強力なプラグインです。 84を数える膨大なソースを MCP という統一インターフェースで扱えるメリットは大きく、特に情報の断片化が激しい Web3・金融界隈において、強力な武器になるでしょう。 参照リンク 公式リポジトリ: https://github.com/6551Team/opennews-mcp API トークン取得: https://6551.io/mcp ← GitHub Watcher 一覧へ戻る harunami AI base"
+    },
     {
       "slug": "2026-04-20-0xnyk-council-of-high-intelligence",
       "category": "github-pickup",
