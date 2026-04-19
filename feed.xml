@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 13:02:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 22:22:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[krr]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robusta-dev-krr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robusta-dev-krr.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール]]></description>
+    </item>
     <item>
       <title><![CDATA[stagewise]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code が動画編集者に。素材をフォルダに置く。チャットで指示する。プロ級の final.mp4 が出力される。100% オープンソースの動画編集スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[planning-with-files]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-othmanadi-planning-with-files.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-othmanadi-planning-with-files.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。]]></description>
     </item>
   </channel>
 </rss>

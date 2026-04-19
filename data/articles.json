@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-robusta-dev-krr",
+      "title": "krr",
+      "dek": "Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール",
+      "summary": "Kubernetes クラスター内のリソース割り当てを最適化するための CLI ツール。Prometheus から実際の使用状況データを収集し、CPU およびメモリの適切なリクエストと制限を推奨することで、コスト削減とパフォーマンス向上を支援します。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T22:21:00+09:00",
+      "repoName": "robusta-dev/krr",
+      "repoUrl": "https://github.com/robusta-dev/krr",
+      "starCount": 4600,
+      "articleUrl": "./articles/github/daily/2026-04-19-robusta-dev-krr.html",
+      "serial": 291,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-stagewise-io-stagewise",
       "title": "stagewise",
       "dek": "ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。",

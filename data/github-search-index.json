@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T13:00:18.799085+00:00",
-  "count": 307,
+  "generatedAt": "2026-04-19T13:22:06.438643+00:00",
+  "count": 308,
   "articles": [
+    {
+      "slug": "2026-04-19-robusta-dev-krr",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "krr",
+      "dek": "Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール",
+      "summary": "Kubernetes クラスター内のリソース割り当てを最適化するための CLI ツール。Prometheus から実際の使用状況データを収集し、CPU およびメモリの適切なリクエストと制限を推奨することで、コスト削減とパフォーマンス向上を支援します。",
+      "repoName": "robusta-dev/krr",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T22:21:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-robusta-dev-krr.html",
+      "serial": 291,
+      "searchText": "krr Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール Kubernetes クラスター内のリソース割り当てを最適化するための CLI ツール。Prometheus から実際の使用状況データを収集し、CPU およびメモリの適切なリクエストと制限を推奨することで、コスト削減とパフォーマンス向上を支援します。 robusta-dev/krr AI基盤・データ基盤・業務アプリ krr - GitHub Watcher Home GitHub AI Tools GitHub Watcher krr #291 Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール 記事作成日 2026-04-19 種別 Pickup 対象 repo robusta-dev/krr Star数 4,600+ これは何か Robusta KRR (Kubernetes Resource Recommender) は、Kubernetes クラスター内のリソース割り当てを最適化するための CLI ツールです。 既存の Prometheus から Pod の実際の使用状況データを収集し、CPU およびメモリの適切なリクエスト値（requests）と制限値（limits）を推奨します。 何ができるか リソースの使用状況分析 : Prometheus の履歴データに基づき、CPU とメモリの利用実態を詳細に解析します。 最適化パラメーターの推奨 : 無駄なリソース確保を減らし、逆に不足している箇所を補うための具体的な数値を提示します。 多様な統合 : Prometheus だけでなく、Thanos、Victoria Metrics、Managed Prometheus (Google/AWS/Azure) など、多くのデータソースに対応しています。 レポート出力 : CLI での結果表示に加え、Slack 通知や Web UI での可視化も可能です。 目立つポイント エージェント不要 : クラスター内に常駐するエージェントをインストールする必要がなく、ローカル端末から CLI を実行するだけで即座に結果が得られます。 説明可能性 : なぜその数値が推奨されたのかをグラフで確認できる機能があり、運用の意思決定を強力にサポートします。 高いコスト削減効果 : 多くのクラスターで平均 60% 以上の未使用 CPU が存在するとされており、これを削減することで直接的なクラウドコストの節約に繋がります。 セットアップや使い方の流れ インストール : Homebrew などを使用してインストールします（ brew install krr ）。 実行 : クラスターに接続可能な環境で krr simple を叩きます。 結果の確認 : CLI 画面に現在の割り当て量と、KRR による推奨値、および差分が表示されます。 適応 : 推奨値を書き留めて、Deployment などのマニフェストファイルを更新します。 どんな人向けか クラスターのクラウドコストが高騰しており、コスト削減の糸口を探している SRE・インフラエンジニア。 Resource Quota や HPA の設定値の根拠に悩んでいる開発担当者。 Kubernetes のリソース管理を場当たり的ではなく、データに基づいて運用したいチーム。 注意点 履歴データの重要性 : 推奨の精度は Prometheus に蓄積された履歴の長さに依存します。 直近の短時間だけのデータでは、スパイク的な負荷を見落とす可能性があります。 最終判断 : 提供されるのはあくまで「推奨値」であり、アプリケーションの特性（起動時の高負荷など）を考慮した最終的な判断は人間が行う必要があります。 まとめ krr は、Kubernetes のリソース管理という「地味ながら難易度の高い課題」に対して、既存のモニタリングデータを活用してシンプルに解を示してくれる優れたツールです。 エージェントレスで手軽に試せるため、まずは一度自社のクラスターでスキャンを実行し、どれほどの「無駄」が潜んでいるかを確認してみる価値があります。 参照リンク 公式リポジトリ: https://github.com/robusta-dev/krr 公式サイト: https://robusta.dev/ ← GitHub Watcher 一覧へ戻る harunami AI base"
+    },
     {
       "slug": "2026-04-19-stagewise-io-stagewise",
       "category": "github-pickup",
