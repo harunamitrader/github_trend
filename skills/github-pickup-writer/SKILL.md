@@ -59,10 +59,21 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 - Keep the article short, concrete, and practical.
 - Before finishing, do one quick proofreading pass for obvious wording slips or typos in Japanese.
 
+## Site Tab Structure (as of 2026-04-19)
+
+The GitHub Watcher page (`github-trend.html`) has **3 tabs**:
+| Tab label | data-cat | 説明 |
+|---|---|---|
+| カテゴリ一覧 | `github-articles` | カテゴリ別アコーディオン表示（旧「記事一覧」） |
+| 全記事一覧 | `github-all-articles` | 全記事を `serial` 降順でフラット表示。新規 pickup は自動で最上位に現れる |
+| 更新レポート | `github-update-report` | daily writer が生成するレポート |
+
+Do **not** rename or remove these tabs without a user instruction.
+
 ## Output shape
 
 - One article page under `articles/github/daily/`
-- One matching JSON entry
+- One matching JSON entry (with correct `serial`, `genre`, `originType: "pickup"`)
 - Refreshed `data/github-search-index.json`
 - Refreshed `feed.xml` when applicable
 

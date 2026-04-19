@@ -230,14 +230,15 @@
       <main class="layout">
         <section class="card">
           <div class="gh-tab-bar">
-            <button class="gh-tab-btn active" data-cat="github-articles">記事一覧</button>
+            <button class="gh-tab-btn active" data-cat="github-articles">カテゴリ一覧</button>
+            <button class="gh-tab-btn" data-cat="github-all-articles">全記事一覧</button>
             <button class="gh-tab-btn" data-cat="github-update-report">更新レポート</button>
           </div>
 
           <div id="tab-github-articles" class="gh-tab-content active">
             <div class="section-head">
               <p class="eyebrow">GitHub Archive</p>
-              <h2>ツール・リポジトリ一覧</h2>
+              <h2>ツール・リポジトリ（カテゴリ別）</h2>
             </div>
             <div class="stats" id="site-stats-articles"></div>
             <div class="gh-search-panel">
@@ -261,6 +262,15 @@
               <div id="github-search-summary" class="gh-search-summary">検索対象: タイトル / repo / カテゴリ / 概要 / 本文</div>
             </div>
             <div id="articles-container" style="margin-top: 16px;"></div>
+          </div>
+
+          <div id="tab-github-all-articles" class="gh-tab-content">
+            <div class="section-head">
+              <p class="eyebrow">New Arrival</p>
+              <h2>新着記事一覧（全件）</h2>
+            </div>
+            <div class="stats" id="site-stats-all-articles"></div>
+            <div id="all-articles-container" class="archive-list" style="margin-top: 16px;"></div>
           </div>
 
           <div id="tab-github-update-report" class="gh-tab-content">
@@ -388,6 +398,7 @@
         let currentSortMode = sortSelectEl?.value || "newest";
 
         renderArticles(articles, "", currentSortMode);
+        renderAllArticles(articles);
 
         // Report
         const reportEl = document.getElementById("articles-report");
@@ -686,6 +697,31 @@
             .normalize("NFKC")
             .replace(/\s+/g, " ")
             .trim();
+        }
+
+        function renderAllArticles(sourceArticles) {
+          const container = document.getElementById("all-articles-container");
+          const statsEl = document.getElementById("site-stats-all-articles");
+          if (!container) return;
+
+          // Serial 降順でソート
+          const sorted = [...sourceArticles].sort((a, b) => {
+            const sB = Number(b.serial || 0);
+            const sA = Number(a.serial || 0);
+            if (sB !== sA) return sB - sA;
+            return getArticleTimestamp(b) - getArticleTimestamp(a);
+          });
+
+          if (statsEl) {
+            statsEl.innerHTML = `
+              <div class="stat-box"><span>総記事数</span><strong>${sorted.length}</strong></div>
+              <div class="stat-box"><span>最新 Serial</span><strong>#${String(sorted[0]?.serial || 0).padStart(3, "0")}</strong></div>
+              <div class="stat-box"><span>最終更新</span><strong>${sorted[0]?.publishedAt || "-"}</strong></div>
+            `;
+          }
+
+          container.innerHTML = sorted.map(a => renderArticle(a)).join("");
+          attachStarHandlers(container);
         }
       })();
     </script>

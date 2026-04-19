@@ -81,11 +81,22 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 - 記事ファイルは `articles/github/` 以下に保存します。
 - GitHub Pagesが正常に動作しない場合は、原因を説明してください。
 
+## Site Tab Structure (as of 2026-04-19)
+
+The GitHub Watcher page (`github-trend.html`) has **3 tabs**:
+| Tab label | data-cat | 説明 |
+|---|---|---|
+| カテゴリ一覧 | `github-articles` | カテゴリ別アコーディオン表示（旧「記事一覧」） |
+| 全記事一覧 | `github-all-articles` | 全記事を `serial` 降順でフラット表示。新規記事は自動で最上位に現れる |
+| 更新レポート | `github-update-report` | この daily writer が生成するレポート |
+
+Do **not** rename or remove these tabs without a user instruction.
+
 ## Output shape
 
 - `articles/github/daily/` 配下に1〜5つの記事ページ
 - 該当する場合、`articles/github/reports/` 配下の同日アップデートレポートページ1つ
-- 対応する新しいJSONエントリ
+- 対応する新しいJSONエントリ（正しい `serial`、`genre`、`originType: "trending"` を含む）
 - 更新された `data/github-search-index.json`
 - 更新された `feed.xml`
 
