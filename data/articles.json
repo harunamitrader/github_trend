@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-20-0xnyk-council-of-high-intelligence",
+      "title": "council-of-high-intelligence",
+      "dek": "18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援",
+      "summary": "歴史的な哲学者、科学者、そしてテックリーダーたち18名の人格（AI Persona）からなる「最高知能評議会」を召集するエージェントツール。複数の LLM プロバイダーを横断して異なる知性を戦わせる多段階審議プロトコルにより、バイアスのない深い洞察を得ることができます。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T04:58:00+09:00",
+      "repoName": "0xNyk/council-of-high-intelligence",
+      "repoUrl": "https://github.com/0xNyk/council-of-high-intelligence",
+      "starCount": 230,
+      "articleUrl": "./articles/github/daily/2026-04-20-0xnyk-council-of-high-intelligence.html",
+      "serial": 293,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-20-titanwings-colleague-skill",
       "title": "colleague-skill",
       "dek": "実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク",
