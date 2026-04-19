@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-open-gitagent-clawless",
+      "title": "ClawLess (open-gitagent)",
+      "dek": "ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。",
+      "summary": "WebContainer (WASM) を活用し、サーバー不要でブラウザ上の隔離環境で AI エージェント（Claw Agents）を走らせるランタイム。YAML による強力なポリシー制御と詳細な監査ログを備え、ホストシステムを侵害することなく自律型エージェントのフル機能を安全に利用できます。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T16:00:00+09:00",
+      "repoName": "open-gitagent/clawless",
+      "repoUrl": "https://github.com/open-gitagent/clawless",
+      "starCount": 287,
+      "articleUrl": "./articles/github/daily/2026-04-19-open-gitagent-clawless.html",
+      "serial": 286,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-coding-kitties-investing-algorithm-framework",
       "title": "Investing Algorithm Framework",
       "dek": "「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。",

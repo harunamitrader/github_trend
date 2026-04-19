@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T06:44:12.318254+00:00",
-  "count": 302,
+  "generatedAt": "2026-04-19T07:02:09.433321+00:00",
+  "count": 303,
   "articles": [
+    {
+      "slug": "2026-04-19-open-gitagent-clawless",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ClawLess (open-gitagent)",
+      "dek": "ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。",
+      "summary": "WebContainer (WASM) を活用し、サーバー不要でブラウザ上の隔離環境で AI エージェント（Claw Agents）を走らせるランタイム。YAML による強力なポリシー制御と詳細な監査ログを備え、ホストシステムを侵害することなく自律型エージェントのフル機能を安全に利用できます。",
+      "repoName": "open-gitagent/clawless",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T16:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-open-gitagent-clawless.html",
+      "serial": 286,
+      "searchText": "ClawLess (open-gitagent) ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。 WebContainer (WASM) を活用し、サーバー不要でブラウザ上の隔離環境で AI エージェント（Claw Agents）を走らせるランタイム。YAML による強力なポリシー制御と詳細な監査ログを備え、ホストシステムを侵害することなく自律型エージェントのフル機能を安全に利用できます。 open-gitagent/clawless AIコーディング (CLI本体・拡張機能) ClawLess (open-gitagent) ← 記事一覧へ戻る GitHub Watcher ClawLess (open-gitagent) ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。 記事作成日 2026-04-19 種別 Pickup 対象 repo open-gitagent/clawless Star数 287 これは何か ClawLess は、AI エージェントを「ブラウザ内」だけで完結して実行できるようにする、サーバーレスなランタイム環境です。 StackBlitz の WebContainer 技術を活用し、WASM ベースの完全に隔離された Node.js 環境をブラウザ上に構築。 サーバーサイドのバックエンドを一切必要とせず、高度な自律型エージェントを安全に走らせることができます。 何ができるか ブラウザ内 Node.js 実行： エージェントが WebContainer 内で npm パッケージをインストールし、コードを実行・プレビューすることが可能。 強力なポリシーエンジン： YAML 形式でエージェントの挙動を制限。ファイルアクセス、実行プロセス、ネットワーク接続などを細かく制御できます。 完全な監査ログ： ファイル I/O やプロセス生成、ネットワークリクエストのすべてを記録。エージェントの「ブラックボックス化」を防ぎます。 統合 IDE/ターミナル： Monaco Editor と xterm.js を内蔵し、エージェントの作業内容をリアルタイムで監視・修正。 マルチプロバイダー： Anthropic, OpenAI, Google の各モデルをスイッチして使用可能。 目立つポイント 最大の特徴は、**「究極のポータビリティとセキュリティ」** です。 通常、自律型 AI エージェントには強力な権限が必要なため、ローカルマシンやサーバーで動かすにはリスクが伴います。 ClawLess はブラウザのサンドボックス内で完結するため、ホストシステムへの影響を完全に遮断。 「URL を開くだけ」で、完全にセットアップされた安全な AI 開発環境がその場で立ち上がります。 セットアップや使い方の流れ リポジトリをクローンして npm run dev でローカル起動するか、公式のプレイグラウンド（play.clawless.io）にアクセスするだけです。 また、SDK 形式（ clawcontainer ）でも提供されており、自身の Web アプリケーションの中に「AI エージェントが動く安全なサンドボックス」を簡単に組み込むことができます。 どんな人向けか AI エージェントの「安全な実行環境」を探している開発者や、エージェントベースの機能を Web アプリにセキュアに組み込みたい SaaS 開発者に強くおすすめします。 まとめ ClawLess は、WebContainer という強力な技術を AI エージェントの文脈で再定義しました。 「ブラウザこそがエージェントの最適なランタイムである」という未来を予感させる、非常に意欲的かつ実用的なプロジェクトです。 参照リンク open-gitagent/clawless (GitHub)"
+    },
     {
       "slug": "2026-04-19-coding-kitties-investing-algorithm-framework",
       "category": "github-pickup",

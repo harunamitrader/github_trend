@@ -8,6 +8,14 @@
     <lastBuildDate>Sun, 19 Apr 2026 06:46:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title><![CDATA[ClawLess (open-gitagent)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-open-gitagent-clawless.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-open-gitagent-clawless.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Investing Algorithm Framework]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ClaudeエージェントSDK。柔軟なマルチタスクとUI操作でエージェントとの協調定義を可能にするネイティブ環境。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude-Code-Game-Studios]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-donchitos-claude-code-game-studios.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-donchitos-claude-code-game-studios.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[49のAIエージェントと72のスキルで、Claude Codeをゲームスタジオに。]]></description>
     </item>
   </channel>
 </rss>
