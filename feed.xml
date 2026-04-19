@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 20:52:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 21:09:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[opennews-mcp]]></title>
@@ -160,12 +160,12 @@
       <description><![CDATA[プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。]]></description>
     </item>
     <item>
-      <title><![CDATA[Clearwing (Lazarus AI)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lazarus-ai-clearwing.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lazarus-ai-clearwing.html</guid>
-      <category>github-pickup</category>
+      <title><![CDATA[GitHub Copilot CLI: スマートセッションとドキュメント添付に対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-github-copilot-cli-smarter-sessions-attachments.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-github-copilot-cli-smarter-sessions-attachments.html</guid>
+      <category>ai-tool-log</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[単なる指摘で終わらない。「疑い」から「パッチ検証」まで。LangGraph で構築された自律型脆弱性ハンターが、ソースコードとネットワークの安全を徹底追求する。]]></description>
+      <description><![CDATA[ターミナルネイティブなエージェントが進化. 自動モデル選択と参考ファイルの直接添付が可能に。]]></description>
     </item>
   </channel>
 </rss>
