@@ -1,117 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>opennews-mcp - GitHub Watcher</title>
-    <meta name="description" content="84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤" />
+    <meta
+      name="description"
+      content="6551Team/opennews-mcp を読み、投資・情報収集を加速させるニュース MCP サーバーの特徴を整理した記事。AIレーティングとリアルタイム配信の魅力を紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>opennews-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../../styles.css" />
   </head>
-  <body class="article-page">
-    <nav class="top-nav">
-      <a href="../../../index.html" class="nav-item">Home</a>
-      <a href="../../../github-trend.html" class="nav-item">GitHub</a>
-      <a href="../../../ai-tools-monitor.html" class="nav-item">AI Tools</a>
-    </nav>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-    <div class="shell">
-      <article class="article-container">
-        <header class="article-header">
-          <p class="eyebrow">GitHub Watcher</p>
-          <div class="article-title-row">
-            <h1>opennews-mcp</h1>
-            <span class="serial-badge">#294</span>
-          </div>
-          <p class="article-dek">84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤</p>
+      <h1 class="article-title">opennews-mcp</h1>
+      <p class="article-dek">84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤</p>
 
-          <div class="article-meta-grid">
-            <div class="meta-item">
-              <span class="meta-label">記事作成日</span>
-              <span class="meta-value">
-                <!-- 2026-04-20 -->
-                <strong>2026-04-20</strong>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">種別</span>
-              <span class="meta-value"><strong>Pickup</strong></span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">対象 repo</span>
-              <span class="meta-value">
-                <a href="https://github.com/6551Team/opennews-mcp" target="_blank" rel="noopener noreferrer">6551Team/opennews-mcp</a>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Star数</span>
-              <span class="meta-value">960+</span>
-            </div>
-          </div>
-        </header>
-
-        <div class="article-body">
-          <h2>これは何か</h2>
-          <p>
-            opennews-mcp は、Claude や Cursor などの AI エージェントから最新ニュースへ即座にアクセスできるようにする MCP (Model Context Protocol) サーバーです。
-            特に仮想通貨（Crypto）や金融領域に強く、世界中の 84 以上のニュースソース、オンチェーンデータ、取引所のリスティング情報、ミームコインのトレンドなどを一元的に集約し、AI による分析を加えて提供します。
-          </p>
-
-          <h2>何ができるか</h2>
-          <ul>
-            <li><strong>リアルタイム・ニュース集約</strong>: Bloomberg, CoinDesk, 取引所のお知らせなど、多様なソースから最新情報を取得。</li>
-            <li><strong>AI による自動分析</strong>: 各記事に対して重要度（0-100スコア）、売買シグナル（Long/Short/Neutral）、多言語要約を自動付与。</li>
-            <li><strong>高度な検索・フィルタリング</strong>: 特定の通貨（BTC, ETH等）、データ種別（Engine Category）、スコアの高さなどに基づいてニュースを絞り込み。</li>
-            <li><strong>WebSocket による購読</strong>: 最新のアップデートをリアルタイムで受け取ることが可能です。</li>
-          </ul>
-
-          <h2>目立つポイント</h2>
-          <ul>
-            <li><strong>金融・投資特化</strong>: 単なるニュースリーダーではなく、「Trading Signals」や「Impact Score」といった、投資判断に直結するメタデータが充実しています。</li>
-            <li><strong>MCP サーバーとしての使いやすさ</strong>: Claude Desktop や Cursor に一行のコマンド、あるいは設定ファイルへの追記だけで統合でき、エンジニアのワークフローを邪魔しません。</li>
-            <li><strong>圧倒的な網羅性</strong>: ニュース（News）、オンチェーン（On-chain）、上場情報（Listing）、ミーム（Meme）、マーケット（Market）、予測市場（Prediction）の6つのエンジンカテゴリーを網羅しています。</li>
-          </ul>
-
-          <h2>セットアップや使い方の流れ</h2>
-          <ol>
-            <li><strong>Token取得</strong>: <a href="https://6551.io/mcp" target="_blank" rel="noopener noreferrer">https://6551.io/mcp</a> で API トークンを取得します。</li>
-            <li><strong>インストール</strong>: <code>claude mcp add opennews</code> または設定ファイル（claude_desktop_config.json 等）に、取得したトークンと実行パスを登録します。</li>
-            <li><strong>実行（問いかけ）</strong>: AI に対して「最新の BTC 関連ニュースを教えて」「今のマーケットで重要度の高い情報を要約して」と指示するだけで、ツールが起動し情報を取得します。</li>
-          </ol>
-
-          <h2>どんな人向けか</h2>
-          <ul>
-            <li>膨大なニュースの中から、AI を使ってノイズを除去し、重要な情報だけを効率的にキャッチアップしたい投資家。</li>
-            <li>特定の通貨やトレンドに関するオンチェーン情報を、ブラウザを開かずに IDE や端末内だけで完結させたいトレーダー。</li>
-            <li>自身の AI エージェント（Claude Code 等）に、最新の市場データやニュース検索能力を付加したい開発者。</li>
-          </ul>
-
-          <h2>注意点</h2>
-          <ul>
-            <li><strong>トークンの管理</strong>: API アクセスには 6551.io のトークンが必要なため、管理には注意してください。</li>
-            <li><strong>情報の取捨選択</strong>: AI によるレーティング（スコア）は便利ですが、最終的な投資判断は必ず一次情報を確認した上で行う必要があります。</li>
-          </ul>
-
-          <h2>まとめ</h2>
-          <p>
-            opennews-mcp は、AI エージェントを「ただのプログラム」から「敏腕の情報アナリスト」へと変貌させる強力なプラグインです。
-            84を数える膨大なソースを MCP という統一インターフェースで扱えるメリットは大きく、特に情報の断片化が激しい Web3・金融界隈において、強力な武器になるでしょう。
-          </p>
-
-          <h2>参照リンク</h2>
-          <ul>
-            <li>公式リポジトリ: <a href="https://github.com/6551Team/opennews-mcp" target="_blank" rel="noopener noreferrer">https://github.com/6551Team/opennews-mcp</a></li>
-            <li>API トークン取得: <a href="https://6551.io/mcp" target="_blank" rel="noopener noreferrer">https://6551.io/mcp</a></li>
-          </ul>
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-20 -->
+          <strong>2026-04-20</strong>
         </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/6551Team/opennews-mcp" target="_blank" rel="noreferrer">
+              6551Team/opennews-mcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>965</strong>
+        </div>
+      </div>
 
-        <footer class="article-footer">
-          <a href="../../../github-trend.html" class="back-link">← GitHub Watcher 一覧へ戻る</a>
-        </footer>
-      </article>
-    </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          opennews-mcp は、Claude や Cursor などの AI エージェントから最新ニュースへ即座にアクセスできるようにする MCP (Model Context Protocol) サーバーです。
+          特に仮想通貨（Crypto）や金融領域に強く、世界中の 84 以上のニュースソース、オンチェーンデータ、取引所のリスティング情報、トレンドなどを一元的に集約し、AI による分析を加えて提供します。
+        </p>
 
-    <footer class="footer">
-      <p>harunami AI base</p>
-    </footer>
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リアルタイム・ニュース集約：</strong> Bloomberg, CoinDesk, 取引所のお知らせなど、多様なソースから最新情報を取得。</li>
+          <li><strong>AI による自動分析：</strong> 各記事に対して重要度スコア（0-100）、売買シグナル（Long/Short/Neutral）、多言語要約を自動付与。</li>
+          <li><strong>高度な検索・フィルタリング：</strong> 特定の通貨、データ種別（Engine Category）、スコアの高さなどに基づいてニュースを素早く絞り込めます。</li>
+          <li><strong>WebSocket 購読：</strong> 最新のアップデートをリアルタイムで受け取ることが可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大のポイントは、**「情報の量（網羅性）と質（AI分析）を MCP という統一インターフェースで提供している点」**です。
+          ニュース、オンチェーン、上場情報、ミーム、マーケット、予測市場の6カテゴリーを網羅。単なる取得に留まらず、AI レーティングによって「読むべき情報の取捨選択」を強力に支援します。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <a href="https://6551.io/mcp" target="_blank" rel="noreferrer">6551.io/mcp</a> で API トークンを取得し、Claude Desktop や Cursor の設定ファイルに登録します。
+          あとは AI に対して「最新のマーケットニュースを要約して」「指定した通貨に関する重要度の高い情報を探して」などと指示するだけで、ツールが情報を正確に引き出します。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          膨大なニュースの中から AI を使ってノイズを除去し、重要な情報だけを効率的にキャッチアップしたい投資家やトレーダーに最適です。
+          自身の AI エージェント（Claude Code 等）に、最新の市場データやニュース検索能力を付加したい開発者にとっても、不可欠なインフラとなるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          API アクセスには専用のトークン（6551.io）が必要です。また、AI レーティングは非常に便利ですが、最終的な投資判断は必ず一次情報を確認した上で行う必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          opennews-mcp は、AI エージェントを「ただのプログラム」から「敏腕の情報アナリスト」へと変貌させる強力なプラグインです。
+          情報の断片化が激しい金融・Web3 界隈において、MCP を通じたシームレスな情報アクセスは、意思決定の速度を劇的に向上させるはずです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/6551Team/opennews-mcp" target="_blank" rel="noreferrer">6551Team/opennews-mcp (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://6551.io/mcp" target="_blank" rel="noreferrer">Get API Token (Official)</a>
+        </div>
+      </div>
+    </article>
   </body>
 </html>

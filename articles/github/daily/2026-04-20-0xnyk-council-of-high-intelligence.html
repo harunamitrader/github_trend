@@ -1,116 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>council-of-high-intelligence - GitHub Watcher</title>
-    <meta name="description" content="18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援" />
+    <meta
+      name="description"
+      content="0xNyk/council-of-high-intelligence を読み、18名の知性を召集して難問を審議するエージェントツールの特徴を整理した記事。多面的審議とプロバイダー分散の魅力を紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>council-of-high-intelligence</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../../styles.css" />
   </head>
-  <body class="article-page">
-    <nav class="top-nav">
-      <a href="../../../index.html" class="nav-item">Home</a>
-      <a href="../../../github-trend.html" class="nav-item">GitHub</a>
-      <a href="../../../ai-tools-monitor.html" class="nav-item">AI Tools</a>
-    </nav>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-    <div class="shell">
-      <article class="article-container">
-        <header class="article-header">
-          <p class="eyebrow">GitHub Watcher</p>
-          <div class="article-title-row">
-            <h1>council-of-high-intelligence</h1>
-            <span class="serial-badge">#293</span>
-          </div>
-          <p class="article-dek">18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援</p>
+      <h1 class="article-title">council-of-high-intelligence</h1>
+      <p class="article-dek">18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援</p>
 
-          <div class="article-meta-grid">
-            <div class="meta-item">
-              <span class="meta-label">記事作成日</span>
-              <span class="meta-value">
-                <!-- 2026-04-20 -->
-                <strong>2026-04-20</strong>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">種別</span>
-              <span class="meta-value"><strong>Pickup</strong></span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">対象 repo</span>
-              <span class="meta-value">
-                <a href="https://github.com/0xNyk/council-of-high-intelligence" target="_blank" rel="noopener noreferrer">0xNyk/council-of-high-intelligence</a>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Star数</span>
-              <span class="meta-value">230+</span>
-            </div>
-          </div>
-        </header>
-
-        <div class="article-body">
-          <h2>これは何か</h2>
-          <p>
-            council-of-high-intelligence は、歴史的な哲学者、科学者、そして現代のテックリーダーなど18名の人格（AI Persona）からなる「最高知能評議会」を召集し、あなたの複雑な意思決定を審議させるためのツールです。
-            単一の AI に答えを求めるのではなく、複数の LLM プロバイダーを横断して異なる知性を戦わせることで、バイアスのない深い洞察を得ることを目的としています。
-          </p>
-
-          <h2>何ができるか</h2>
-          <ul>
-            <li><strong>多段階審議プロトコル</strong>: 独立分析 → 相互反対尋問 → 最終結論という3段階のプロセスを経て議論を深めます。</li>
-            <li><strong>多様なプロバイダーの活用</strong>: 反応の均質化を防ぐため、評議会員を Claude, OpenAI, Gemini, Ollama(ローカル) など異なるプロバイダーへ自動的に振り分けます。</li>
-            <li><strong>18名の評議会員</strong>: アリストテレス、ファインマン、カーネマン、リーナス・トーバルズ、宮本武蔵、アンドレイ・カーパシーなど、古今東西の知性が揃っています。</li>
-          </ul>
-
-          <h2>目立つポイント</h2>
-          <ul>
-            <li><strong>対立構造の強制（Polarity Pairs）</strong>: 「ソクラテス vs ファインマン（前提の破壊 vs 第一原理からの再構築）」や「サン・ズ（孫子） vs アウレリウス（外的な勝利 vs 内的な規律）」など、あえて対立的な視点を持つペアで議論を戦わせます。</li>
-            <li><strong>バイアス・エコーチェンジの抑制</strong>: 意見の一致が早すぎる場合に強制的に反対意見（スチールマニング）を生成させる「ディセント・クォータ（反対意見ノルマ）」機能を搭載しています。</li>
-            <li><strong>課題のリフレーミング</strong>: 各メンバーは分析の前にまず「質問そのもの」を自分なりに定義し直します。これにより、そもそも問いが間違っていないかを検証します。</li>
-          </ul>
-
-          <h2>セットアップや使い方の流れ</h2>
-          <ol>
-            <li><strong>インストール</strong>: リポジトリをクローンし、<code>./install.sh</code> を実行して Claude Code や Codex にインストールします。</li>
-            <li><strong>実行</strong>: <code>/council [あなたの悩みや決断すべきこと]</code> を入力します。</li>
-            <li><strong>モード選択</strong>: 徹底審議のフルモードのほか、簡単な判断のための <code>--quick</code>、2名での対立軸を探る <code>--duo</code> モードが選べます。</li>
-            <li><strong>審議の確認</strong>: 異なる知性たちが互いの矛盾を突き合いながら結論を導き出していく過程が表示されます。</li>
-          </ol>
-
-          <h2>どんな人向けか</h2>
-          <ul>
-            <li>重要なビジネス戦略、技術選定、あるいは倫理的なジレンマに直面しているリーダー。</li>
-            <li>単一の AI の「尤もらしい回答」ではなく、あえて「批判的な視点」や「多様な代替案」を求めている人。</li>
-            <li>エージェント・スウォーム（大規模なエージェント群）による意思決定の自動化に興味があるエンジニア。</li>
-          </ul>
-
-          <h2>注意点</h2>
-          <ul>
-            <li><strong>全プロバイダーの環境</strong>: 全ポテンシャルを引き出すには、Claude, OpenAI, Gemini 等の API キーが設定されていることが望ましいです（もちろん単一プロバイダーでも動作します）。</li>
-            <li><strong>審議コスト</strong>: 18名の AI が複数回対話するため、トークン消費量は単一プロンプトよりも多くなります。</li>
-          </ul>
-
-          <h2>まとめ</h2>
-          <p>
-            「最高知能評議会」は、AI を単なる『回答者』から、自らの思考を磨き上げるための『壁打ち相手としての評議会』へとアップグレードさせるツールです。
-            歴史上の賢人たちが現代の技術スタックやビジネス課題について激論を交わす様子は、エンジニアリング的にも知的エンターテインメントとしても非常に興味深い試みと言えます。
-          </p>
-
-          <h2>参照リンク</h2>
-          <ul>
-            <li>公式リポジトリ: <a href="https://github.com/0xNyk/council-of-high-intelligence" target="_blank" rel="noopener noreferrer">https://github.com/0xNyk/council-of-high-intelligence</a></li>
-          </ul>
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-20 -->
+          <strong>2026-04-20</strong>
         </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/0xNyk/council-of-high-intelligence" target="_blank" rel="noreferrer">
+              0xNyk/council-of-high-intelligence
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>230+</strong>
+        </div>
+      </div>
 
-        <footer class="article-footer">
-          <a href="../../../github-trend.html" class="back-link">← GitHub Watcher 一覧へ戻る</a>
-        </footer>
-      </article>
-    </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          council-of-high-intelligence は、歴史的な哲学者、科学者、そして現代のテックリーダーなど18名の人格（AI Persona）からなる「最高知能評議会」を召集し、あなたの複雑な意思決定を審議させるためのツールです。
+          単一の AI に答えを求めるのではなく、複数の LLM プロバイダーを横断して異なる知性を戦わせることで、バイアスのない深い洞察を得ることを目的としています。
+        </p>
 
-    <footer class="footer">
-      <p>harunami AI base</p>
-    </footer>
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>多段階審議プロトコル：</strong> 独立分析 → 相互反対尋問 → 最終結論という3段階のプロセスを経て議論を深めます。</li>
+          <li><strong>多様なプロバイダーの活用：</strong> 反応の均質化を防ぐため、評議会員を Claude, OpenAI, Gemini, Ollama(ローカル) など異なるプロバイダーへ自動的に振り分けます。</li>
+          <li><strong>18名の評議会員：</strong> アリストテレス、ファインマン、カーネマン、リーナス・トーバルズ、宮本武蔵、アンドレイ・カーパシーなど、古今東西の知性が揃っています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、**「多層的な反対意見（ディセント）を強制的に生成させる仕組み」**です。
+          「ソクラテス vs ファインマン」といった対立軸を持つペア（Polarity Pairs）での議論や、意見の一致が早すぎる場合に反対意見を強制する「反対意見ノルマ」機能を搭載。
+          これにより、単一モデルの自信満々な回答（ハルシネーション含む）を多角的に検証し、隠れたリスクを表面化させます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          リポジトリをクローンし、<code>./install.sh</code> を実行して Claude Code や Codex にインストールします。
+          <code>/council [内容]</code> を入力すると審議が始まります。徹底審議のフルモード、短時間の判断のための <code>--quick</code>、2名での対立軸を探る <code>--duo</code> モードが選べます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          重要なビジネス戦略、技術選定、あるいは倫理的なジレンマに直面しているリーダーに最適です。
+          単一の AI の「尤もらしい回答」ではなく、あえて「批判的な視点」や「多様な代替案」を求めている人にとって、非常に強力な意思決定支援ツールとなるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          全ポテンシャルを引き出すには、主要な LLM (Claude, OpenAI, Gemini 等) の API キーが設定されていることが望ましいです。
+          また、複数名のエージェントが対話を繰り返すため、単一プロンプトよりもトークン消費量（コスト）が多くなる点に留意が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          この「最高知能評議会」は、AI を単なる『回答者』から、自らの思考を磨き上げるための『知的パートナー』へとアップグレードさせるツールです。
+          歴史上の賢人たちが現代の課題について激論を交わす体験は、実利的であると同時に、AI エージェントの新しい活用形を示唆しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/0xNyk/council-of-high-intelligence" target="_blank" rel="noreferrer">0xNyk/council-of-high-intelligence (GitHub)</a>
+        </div>
+      </div>
+    </article>
   </body>
 </html>

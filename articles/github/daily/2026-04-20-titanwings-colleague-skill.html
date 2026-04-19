@@ -1,123 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>colleague-skill - GitHub Watcher</title>
-    <meta name="description" content="実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク" />
+    <meta
+      name="description"
+      content="titanwings/colleague-skill を読み、実在の人物やキャラクターをAIスキルとして蒸留するフレームワークの特徴を整理した記事。人格再現と次世代エージェントの魅力を紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>colleague-skill</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../../styles.css" />
   </head>
-  <body class="article-page">
-    <nav class="top-nav">
-      <a href="../../../index.html" class="nav-item">Home</a>
-      <a href="../../../github-trend.html" class="nav-item">GitHub</a>
-      <a href="../../../ai-tools-monitor.html" class="nav-item">AI Tools</a>
-    </nav>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-    <div class="shell">
-      <article class="article-container">
-        <header class="article-header">
-          <p class="eyebrow">GitHub Watcher</p>
-          <div class="article-title-row">
-            <h1>colleague-skill</h1>
-            <span class="serial-badge">#292</span>
-          </div>
-          <p class="article-dek">実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク</p>
+      <h1 class="article-title">colleague-skill</h1>
+      <p class="article-dek">実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク</p>
 
-          <div class="article-meta-grid">
-            <div class="meta-item">
-              <span class="meta-label">記事作成日</span>
-              <span class="meta-value">
-                <!-- 2026-04-20 -->
-                <strong>2026-04-20</strong>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">種別</span>
-              <span class="meta-value"><strong>Pickup</strong></span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">対象 repo</span>
-              <span class="meta-value">
-                <a href="https://github.com/titanwings/colleague-skill" target="_blank" rel="noopener noreferrer">titanwings/colleague-skill</a>
-              </span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Star数</span>
-              <span class="meta-value">15,200+</span>
-            </div>
-          </div>
-        </header>
-
-        <div class="article-body">
-          <h2>これは何か</h2>
-          <p>
-            colleague-skill（移行中：dot-skill）は、特定の人格や思考プロセスを「AIスキル」として抽出・再現（蒸留）するためのオープンソース・フレームワークです。
-            離職した同僚、卒業したメンター、さらには著名人や架空のキャラクター、あるいは自分自身など、対象に関連するテキストデータからその人物らしい反応をするエージェントを生成します。
-          </p>
-
-          <h2>何ができるか</h2>
-          <ul>
-            <li><strong>人格の蒸留（Distillation）</strong>: チャットログ、メール、インタビュー記事、動画の書き起こしなどを読み込み、対象の「思考の枠組み」と言動の特徴を学習したスキルを生成します。</li>
-            <li><strong>3つのファミリー対応</strong>:
-              <ul>
-                <li><strong>Colleague</strong>: プロフェッショナルなスキル、特定のドメイン知識、仕事の進め方を再現。</li>
-                <li><strong>Relationship</strong>: 家族や友人など、感情や親密な関係性の文脈を考慮。</li>
-                <li><strong>Celebrity</strong>: 著名人の思考モデルや意思決定プロセスを分析・再現。</li>
-              </ul>
-            </li>
-            <li><strong>主要Agentへの統合</strong>: Claude Code, Codex, Hermes, OpenClaw などのエージェントホストに直接インストールして、「/dot-skill」コマンドで呼び出すことができます。</li>
-          </ul>
-
-          <h2>目立つポイント</h2>
-          <ul>
-            <li><strong>多角的な分析エンジン</strong>: 単なるパロット（オウム返し）ではなく、作品・インタビュー・意思決定・表現の癖・外部の評価・タイムラインの6次元から対象を分析します。</li>
-            <li><strong>動的な自己進化</strong>: 新しいファイルを追記することで差分を自動解析し、既存の結論を上書きせずにマージ（Evolution）する機構を備えています。</li>
-            <li><strong>対話による修正</strong>: AIの反応に対して「彼ならそんなことは言わない」とフィードバックを送ることで、即座に人格（Persona）を微調整可能です。</li>
-          </ul>
-
-          <h2>セットアップや使い方の流れ</h2>
-          <ol>
-            <li><strong>インストール</strong>: 対応するエージェントホスト（Claude Code等）でリポジトリのURLを渡し、自動セットアップを実行します。</li>
-            <li><strong>初期化</strong>: <code>/dot-skill</code> コマンドを実行し、蒸留したい対象の「ファミリー（同僚/関係/著名人）」を選択します。</li>
-            <li><strong>データ提供</strong>: 対象のプロフィール、特徴タグ、およびデータソース（チャットログやメールの書き出し等）を流し込みます。</li>
-            <li><strong>スキルの使用</strong>: 生成されたスキル <code>/{character}-{slug}</code> を呼び出し、彼／彼女と対話を開始します。</li>
-          </ol>
-
-          <h2>どんな人向けか</h2>
-          <ul>
-            <li>退職や卒業によって失われる「仕事の勘どころ」や「属人的な知恵」をデジタル化して残したい開発チーム。</li>
-            <li>憧れの思想家や天才的なエンジニアなら、自分の直面している問題にどう答えるかを身近に感じたい学習者。</li>
-            <li>「デジタル生命」や「人格の再現」というSF的な試みを、実務に近いエージェント環境で試してみたい技術者。</li>
-          </ul>
-
-          <h2>注意点</h2>
-          <ul>
-            <li><strong>データの質が重要</strong>: 蒸留の精度は入力データの「密度」と「質」に大きく左右されます。表面的な会話だけでなく、意思決定の背景がわかるデータが理想的です。</li>
-            <li><strong>倫理とプライバシー</strong>: 実在の人物を再現する場合、そのデータの取り扱いやAI化の是非については周囲の同意や倫理的な配慮が不可欠です。</li>
-          </ul>
-
-          <h2>まとめ</h2>
-          <p>
-            「離別を温かなスキルに変える」というコンセプトを掲げる colleague-skill は、AI時代のナレッジマネジメントとパーソナライズされたAIの究極の形を提示しています。
-            単なるチャットボットを超え、特定の人物の「思考の癖」を道具として使えるようにするという発想は、今後の開発チームの在り方に大きな影響を与えるかもしれません。
-          </p>
-
-          <h2>参照リンク</h2>
-          <ul>
-            <li>公式リポジトリ: <a href="https://github.com/titanwings/colleague-skill" target="_blank" rel="noopener noreferrer">https://github.com/titanwings/colleague-skill</a></li>
-            <li>コミュニティ・ギャラリー: <a href="https://titanwings.github.io/colleague-skill-site/" target="_blank" rel="noopener noreferrer">https://titanwings.github.io/colleague-skill-site/</a></li>
-          </ul>
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-20 -->
+          <strong>2026-04-20</strong>
         </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/titanwings/colleague-skill" target="_blank" rel="noreferrer">
+              titanwings/colleague-skill
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,200+</strong>
+        </div>
+      </div>
 
-        <footer class="article-footer">
-          <a href="../../../github-trend.html" class="back-link">← GitHub Watcher 一覧へ戻る</a>
-        </footer>
-      </article>
-    </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          colleague-skill（移行中：dot-skill）は、特定の人格や思考プロセスを「AIスキル」として抽出・再現（蒸留）するためのオープンソース・フレームワークです。
+          離職した同僚、卒業したメンター、さらには著名人や架空のキャラクター、あるいは自分自身など、対象に関連するテキストデータからその人物らしい反応をするエージェントを生成します。
+        </p>
 
-    <footer class="footer">
-      <p>harunami AI base</p>
-    </footer>
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>人格の蒸留（Distillation）：</strong> チャットログ、メール、インタビュー記事、動画の書き起こしなどを読み込み、対象の「思考の枠組み」と言動の特徴を学習したスキルを生成します。</li>
+          <li><strong>3つのファミリー対応：</strong> Colleague（プロフェッショナルなスキル）、Relationship（感情や親密な関係性）、Celebrity（著名人の思考モデル）の3つの文脈を使い分け可能です。</li>
+          <li><strong>主要Agentへの統合：</strong> Claude Code, Codex, Hermes, OpenClaw などのエージェントホストに直接インストールして、「/dot-skill」コマンドで呼び出すことができます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、**「単なるコピーではなく、多角的な分析エンジンによって人格を再構成する点」**です。
+          作品、インタビュー、意思決定、表現の癖、外部評価、タイムラインの6次元から対象を分析します。また、AIの反応に対して「彼ならそんなことは言わない」とフィードバックを送ることで、即座に人格を微調整できる動的な進化機構を備えています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          対応するエージェントホスト（Claude Code等）でリポジトリのURLを渡し、自動セットアップを実行します。
+          <code>/dot-skill</code> コマンドを実行して対象のプロフィールやデータソース（チャットログ等）を提供すると、専用のスキル <code>/{character}-{slug}</code> が生成され、対話が可能になります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          退職や卒業によって失われる「属人的な知恵」をデジタル化して残したい開発チームや、憧れの思想家の思考プロセスを身近に感じたい学習者に最適です。
+          「デジタル生命」というSF的な試みを実務に近いエージェント環境で試してみたい技術者にとって、知的好奇心を刺激する道具となるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          蒸留の精度は入力データの「密度」と「質」に大きく左右されるため、意思決定の背景がわかるデータが理想的です。
+          また、実在の人物を再現する場合には、プライバシーや倫理的な配慮、および周囲の同意が不可欠です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          colleague-skill は、AI時代のナレッジマネジメントとパーソナライズされたAIの究極の形を提示しています。
+          特定の人物の「思考の癖」を道具として使えるようにするという発想は、今後のチーム開発や個人の学習のあり方に大きな影響を与える可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/titanwings/colleague-skill" target="_blank" rel="noreferrer">titanwings/colleague-skill (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://titanwings.github.io/colleague-skill-site/" target="_blank" rel="noreferrer">Community Gallery (Official)</a>
+        </div>
+      </div>
+    </article>
   </body>
 </html>
