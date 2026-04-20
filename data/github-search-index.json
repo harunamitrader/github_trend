@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-20T03:26:00.988644+00:00",
-  "count": 318,
+  "generatedAt": "2026-04-20T11:23:57.312028+00:00",
+  "count": 319,
   "articles": [
+    {
+      "slug": "2026-04-20-trimstray-the-book-of-secret-knowledge",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "the-book-of-secret-knowledge",
+      "dek": "Linux, Security, DevOps, Hacking などの膨大な知識を凝縮した究極의 チートシート集。",
+      "summary": "システム管理者やセキュリティ研究者のための究極のナレッジベース。実用的なワンライナー、設定例、ツールリストが体系的に整理されており、技術者の生産性を極限まで高めます。",
+      "repoName": "trimstray/the-book-of-secret-knowledge",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T20:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html",
+      "serial": 301,
+      "searchText": "the-book-of-secret-knowledge Linux, Security, DevOps, Hacking などの膨大な知識を凝縮した究極의 チートシート集。 システム管理者やセキュリティ研究者のための究極のナレッジベース。実用的なワンライナー、設定例、ツールリストが体系的に整理されており、技術者の生産性を極限まで高めます。 trimstray/the-book-of-secret-knowledge 学習ガイド・開発アセット the-book-of-secret-knowledge ← 記事一覧へ戻る GitHub Watcher the-book-of-secret-knowledge Linux, Security, DevOps, Hacking などの膨大な知識を凝縮した究極のチートシート集。 記事作成日 2026-04-20 種別 Pickup 対象 repo trimstray/the-book-of-secret-knowledge Star数 216,000 これは何か 「秘密の知識の書」という名の通り、システム管理者、セキュリティ研究者、Web 開発者が日常的に必要とする技術情報を一つのリポジトリに集約した巨大なナレッジベースです。単なるリンク集ではなく、実用的なワンライナーや設定例、チェックリストが体系的に整理されています。 何ができるか Linux の高度なコマンド操作、ネットワーク診断、セキュリティペネトレーションテストの各フェーズで必要なツール選びや、特定のタスクを爆速で終わらせるための「ハック」を即座に参照できます。CLI ツールからオンラインサービス、さらには推奨ブログまで、技術向上のためのソースが網羅されています。 目立つポイント 最大のポイントは「情報の密度」と「アクセスのしやすさ」です。21万スターを超える支持は、その情報の正確さと実用性の証です。特にワンライナー集や、目的別の CLI ツールリストは、ググる時間を数分から数秒に短縮してくれます。 セットアップや使い方の流れ GitHub 上で README をブラウズするのが最も一般的です。目次から自分の興味のあるカテゴリ（例：Linux, Hacking, DevOps）をクリックし、そこにあるリンクやコマンド例をコピー＆ペーストして活用します。 どんな人向けか インフラエンジニア、SRE、セキュリティエンジニアはもちろん、「もっと効率的に PC やサーバーを操作したい」と願うすべてのパワーユーザーに最適です。 注意点 掲載されているコマンドやツールの中には、強力かつ破壊的なものも含まれています。自分の管理下にないシステムで実行したり、内容を理解せずに実行したりすることは避け、必ずローカル環境やテスト環境で挙動を確認してください。 まとめ the-book-of-secret-knowledge は、エンジニアの「武器庫」です。ブックマークしておくだけで、日々のトラブルシューティングやスキルアップの速度が劇的に向上するでしょう。 参照リンク trimstray/the-book-of-secret-knowledge Shared GitHub Serial: #301"
+    },
     {
       "slug": "2026-04-20-milisp-codexia",
       "category": "github-pickup",

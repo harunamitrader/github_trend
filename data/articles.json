@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-20-trimstray-the-book-of-secret-knowledge",
+      "title": "the-book-of-secret-knowledge",
+      "dek": "Linux, Security, DevOps, Hacking などの膨大な知識を凝縮した究極의 チートシート集。",
+      "summary": "システム管理者やセキュリティ研究者のための究極のナレッジベース。実用的なワンライナー、設定例、ツールリストが体系的に整理されており、技術者の生産性を極限まで高めます。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T20:40:00+09:00",
+      "repoName": "trimstray/the-book-of-secret-knowledge",
+      "repoUrl": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "starCount": 216000,
+      "articleUrl": "./articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html",
+      "serial": 301,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-20-milisp-codexia",
       "title": "Codexia",
       "dek": "Codex CLI と Claude Code を統合管理し、タスクスケジューラーやリモート操作を可能にするエージェント・ワークステーション。",
