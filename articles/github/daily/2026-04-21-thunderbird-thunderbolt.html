@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Watcher: thunderbolt - AI エージェントを自律的な PR モニターに。bash/GraphQL 連携で PR の自動レビューと修正を継続実行。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>thunderbolt | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← GitHub 一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">thunderbolt</h1>
+      <p class="article-dek">AI エージェントを自律的な PR モニターに。bash/GraphQL 連携で PR の自動レビューと修正を継続実行。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <a
+            href="https://github.com/thunderbird/thunderbolt"
+            target="_blank"
+            rel="noopener noreferrer"
+            >thunderbird/thunderbolt</a
+          >
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,800</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Thunderbird（Mozilla 系メールクライアント）の開発チームが手がける、エージェントベースのコード自動改善・監視ツールです。特定の PR（プルリクエスト）やディレクトリを「ループ」機能で監視し、AI が継続的にコード品質を監視し、必要に応じて修正や提案を自律的にコミットします。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自律型ループ (/loop):</strong> AI に対し、タスクが完了するまで（あるいは監視し続けるように）継続的な試行・改善を指示できます。</li>
+          <li><strong>GitHub 連携:</strong> GraphQL 経由でプルリクエストのメタデータを読み取り、コードの意図を汲み取った高度なレビューを提供します。</li>
+          <li><strong>bash/python 実行:</strong> ローカル環境や Sandbox でテストを実行し、その結果をもとに AI がコードを修正する「テスト駆動型」の自律開発が可能です。</li>
+          <li><strong>マルチモデル対応:</strong> OpenAI, Anthropic, Google Gemini 等、好みや用途に合わせてバックエンドの LLM を切り替え可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「大規模プロダクトの開発現場」から生まれた実用性が魅力です。汎用的なチャットとしての AI ではなく、特定のエンジニアリング・ワークフローに特化しており、bash コマンドとの組み合わせによって「AI 自身がビルドを回し、エラーを直す」という実務に近い自動化を実現しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Node.js 環境でリポジトリをセットアップします。</li>
+          <li>プロジェクトのルートに <code>.env</code> ファイルを作成し、各種 API キーを設定します。</li>
+          <li>CLI から <code>thunderbolt --pr [URL]</code> のように実行するか、<code>/loop</code> を使って監視を開始します。</li>
+          <li>AI が提案した修正内容を確認し、問題なければレポジトリへプッシュします。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <p>GitHub での PR 管理を自動化したいチームリーダー、大規模なリファクタリングを AI に任せたいシニアエンジニア、そして「エージェントにコードを書かせ続ける」という実験的な開発スタイルに興味がある方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>AI が自律的にコードを書き換えるため、適切なテスト環境がない場所での利用は危険です。また、Mozilla 系列のツールらしく、非常に高い透明性を持ちますが、設定には GraphQL や GitHub App の権限管理に関する知識が必要になる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>thunderbolt は、AI コーディングにおける「次の一歩」を示しています。単なるコード生成ではなく、プロダクトの文脈を理解し、プルリクエストというサイクルの中で「働き続ける」エージェントの姿を具体化しており、今後の OSS 開発の在り方を変える可能性を感じさせます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/thunderbird/thunderbolt" target="_blank" rel="noreferrer">GitHub - thunderbird/thunderbolt</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

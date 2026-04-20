@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Watcher: pi-hole - ネットワーク全体の広告を DNS レベルで遮断。プライバシー保護と通信高速化を一台のサーバーで実現。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>pi-hole | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← GitHub 一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">pi-hole</h1>
+      <p class="article-dek">ネットワーク全体の広告を DNS レベルで遮断。プライバシー保護と通信高速化を一台のサーバーで実現。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <a
+            href="https://github.com/pi-hole/pi-hole"
+            target="_blank"
+            rel="noopener noreferrer"
+            >pi-hole/pi-hole</a
+          >
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>57,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ネットワーク内を流れる DNS リクエストを監視し、広告やトラッキング用のドメインへの接続をサーバー側で一括遮断する「DNS シンクホール」です。各デバイスに広告ブロック用ソフトをインストールすることなく、テレビ、スマホ、PC 全ての通信をクリーンに保ちます。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>DNS レベルの広告ブロック:</strong> ブラウザ拡張機能では防げない、アプリ内の広告やスマートデバイスのトラッキングも遮断可能です。</li>
+          <li><strong>コンテンツフィルタリング:</strong> 特定のドメインに対するブラックリスト・ホワイトリスト設定により、安全なネット環境を構築できます。</li>
+          <li><strong>ネットワーク統計の可視化:</strong> どのデバイスが多く通信しているか、どの程度の広告をブロックしたかをダッシュボードで確認できます。</li>
+          <li><strong>DHCP サーバー機能:</strong> ルーターの代わりに DHCP を担当させ、ネットワーク全体の管理を一元化できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「一台で完結する」点が最大の特徴です。Raspberry Pi のような低スペックなシングルボードコンピュータで軽快に動作し、セットアップが簡単でありながら、エンタープライズ級のカスタマイズ性を備えています。また、広告を読み込まないことで、体感的な通信速度が向上します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Linux サーバー (Ubuntu, Debian, Raspberry Pi OS 等) を用意します。</li>
+          <li>公式の簡易インストールスクリプト実行し、ウィザードに従って設定します。</li>
+          <li>ルーターの DNS 設定を Pi-hole サーバーの IP アドレスに書き換えます。</li>
+          <li>ウェブ管理画面 (http://pi.hole/admin) からブロック状況を監視・調整します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <p>自宅やオフィスのセキュリティとプライバシーを強化したいギーク、広告のない快適なブラウジング環境を家族全員に提供したい管理者、そしてネットワーク全体のパケットを管理したいインフラエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>YouTube アプリ動画内広告のように、コンテンツと同じドメインから配信される広告は DNS レベルでは完全には遮断できません。また、設定を誤るとネットワーク全体がインターネットに繋がらなくなるため、導入時の検証は慎重に行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Pi-hole は、現代のトラッキングまみれのインターネット環境に「静寂」をもたらす最強のインフラツールの一つです。一度構築してしまえば、全てのデバイスで自動的にクリーンなネット体験が得られるようになります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/pi-hole/pi-hole" target="_blank" rel="noreferrer">GitHub - pi-hole/pi-hole</a>
+        </div>
+        <div class="source-item">
+          <a href="https://pi-hole.net/" target="_blank" rel="noreferrer">Pi-hole Official Site</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

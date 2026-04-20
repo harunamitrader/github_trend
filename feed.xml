@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 05:37:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 05:48:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-21 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-21-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-21-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[thunderbolt]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-thunderbird-thunderbolt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-thunderbird-thunderbolt.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントを自律的な PR モニターに。bash/GraphQL 連携で PR の自動レビューと修正を継続実行。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[worldmonitor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-koala73-worldmonitor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-koala73-worldmonitor.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[世界中のニュースと地政学的リスクをリアルタイムで可視化。AI が世界の状況を監視し続けるインテリジェンス・ボード。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openai-agents-python]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-openai-openai-agents-python.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-openai-openai-agents-python.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マルチエージェント連携を Python で構築。OpenAI 純正の軽量フレームワークで、複雑な自律操作をシンプルに記述。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[DeepGEMM]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-deepseek-ai-DeepGEMM.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-deepseek-ai-DeepGEMM.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[FP8 行列演算を極限まで効率化。Mega-MoE 等の超大規模モデルに最適化された高速 GEMM カーネル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pi-hole]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-pi-hole-pi-hole.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-pi-hole-pi-hole.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ネットワーク全体の広告を DNS レベルで遮断。プライバシー保護と通信高速化を一台のサーバーで実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[Perplexity "Personal Computer" for Mac: ローカル連携を強化したデスクトップの進化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.19-beta.1: サブエージェントの連鎖安定化と診断ツールの実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェント間の協調動作（スキルスパawning）のバグ修正に加え、Browser/CDP 接続の健全性を確認する診断機能を追加。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[krr]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robusta-dev-krr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robusta-dev-krr.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stagewise]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LingBot-Map]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robbyant-lingbot-map.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robbyant-lingbot-map.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[動画やストリーミングデータから「瞬時に」3D空間を構築。世界最高峰の再構成精度とリアルタイム性を両立した、次世代の3D空間基盤モデル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[T3 Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-pingdotgg-t3code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-pingdotgg-t3code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nanobot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-hkuds-nanobot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-hkuds-nanobot.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。]]></description>
     </item>
   </channel>
 </rss>

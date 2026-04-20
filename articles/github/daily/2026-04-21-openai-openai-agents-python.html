@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Watcher: openai-agents-python - マルチエージェント連携を Python で構築。OpenAI 純正の軽量フレームワークで、複雑な自律操作をシンプルに記述。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openai-agents-python | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← GitHub 一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openai-agents-python</h1>
+      <p class="article-dek">マルチエージェント連携を Python で構築。OpenAI 純正の軽量フレームワークで、複雑な自律操作をシンプルに記述。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <a
+            href="https://github.com/openai/openai-agents-python"
+            target="_blank"
+            rel="noopener noreferrer"
+            >openai/openai-agents-python</a
+          >
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>23,900</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenAI が公開した、複数の AI エージェントを協調・連携させるための公式 Python フレームワークです。エージェント間でのタスクの引継ぎ（Handoffs）や、ルーターエージェントによる適切なモデルへの割り振りなどを、直感的なコードで実装できます。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>エージェント・オーケストレーション:</strong> 特定の専門知識を持つ複数のエージェントを定義し、ユーザーのリクエストに応じてモデルを使い分け・連携させることができます。</li>
+          <li><strong>ハンドオフ機能:</strong> エージェントが自分の能力を超えるタスクを検知した際、他の適切なエージェントへ「バトンを渡す」フローを標準でサポート。</li>
+          <li><strong>Sandbox 連携:</strong> 実行が危険なコードやツールを、セキュアな環境でエージェントに実行させる仕組みを提供します。</li>
+          <li><strong>コンテキスト管理:</strong> 各エージェント間での会話履歴やシステムプロンプトの共有を自動化し、一貫性のある対話を実現します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>OpenAI 自身が推奨する「Swarm」のような軽量なエージェント・アーキテクチャを手軽に実装できる点が魅力です。複雑な制御フローを state machine のように記述する必要がなく、エージェント同士が「会話」を通じてタスクを分業していく次世代の開発スタイルを体感できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Python 環境で <code>pip install openai-agents</code> を実行します。</li>
+          <li>複数の <code>Agent</code> オブジェクトを定義し、それぞれの役割とツール（関数）を設定します。</li>
+          <li>リクエストを受け取るメインの <code>Runner</code> を初期化します。</li>
+          <li>エージェント間で「誰に依頼するか」を指示する条件を記述し、プロジェクトを実行します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <p>ChatGPT を単なるチャットではなく、高度な自動化システムの一部として組み込みたい開発者、複雑なマルチステップのタスクを AI に任せたいエンジニア、そして OpenAI 公式の設計思想に基づいたエージェント開発をしたい方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>複数のエージェントを稼働させるため、単一のエージェント利用に比べて API 料金（トークン消費量）が増加する傾向にあります。また、複雑な連携を構築する場合は、エージェント間の「無限ループ」や「誤った引継ぎ」を防ぐためのプロンプト調整が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>openai-agents-python の登場により、マルチエージェントシステムのハードルは劇的に下がりました。OpenAI 公式ライブラリとして、今後のアップデートや最新モデル（o1/o3-mini 等）への迅速な対応も期待される、エージェント開発の本命ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/openai-agents-python" target="_blank" rel="noreferrer">GitHub - openai/openai-agents-python</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

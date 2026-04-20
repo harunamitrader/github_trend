@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Watcher: DeepGEMM - FP8 行列演算を極限まで効率化。Mega-MoE 等の超大規模モデルに最適化された高速 GEMM カーネル。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepGEMM | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← GitHub 一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">DeepGEMM</h1>
+      <p class="article-dek">FP8 行列演算を極限まで効率化。Mega-MoE 等の超大規模モデルに最適化された高速 GEMM カーネル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <a
+            href="https://github.com/deepseek-ai/DeepGEMM"
+            target="_blank"
+            rel="noopener noreferrer"
+            >deepseek-ai/DeepGEMM</a
+          >
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,800</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI モデルの学習・推論におけるボトルネックとなる行列乗算（GEMM）を、FP8 精度で極めて高速に実行するためのライブラリです。DeepSeek が開発し、同社の大規模モデルの効率的な計算を支える基盤技術として公開されました。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>高速な FP8 GEMM 実装:</strong> モダンな GPU の FP8 テンソルコアを最大限に活用し、従来の精度に比べてメモリ帯域と計算コストを大幅に削減します。</li>
+          <li><strong>きめ細かなスケーリング (Fine-grained scaling):</strong> 推論精度を維持するために重要な、小さな単位（タイル等）での動的なスケーリングに対応しています。</li>
+          <li><strong>Mega-MoE 最適化:</strong> 混合専門家（MoE）モデル特有の、スパースかつ大規模な演算パターンに合わせてチューニングされています。</li>
+          <li><strong>JIT コンパイル:</strong> ランタイム時の状況に応じてコードを最適にコンパイルし、多様な行列サイズに対して一貫した性能を発揮します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「DeepSeek が実際に使っている技術」という点が最大の注目点です。Mega-MoE のような数兆パラメータ規模のモデルを実用化するために最適化された実装は、研究者や AI エンジニアにとって最高峰の参照コードとなります。依存関係が少なく、クリーンな設計であることも評価されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>NVIDIA GPU（Hopper 世代以降を推奨）の環境を用意します。</li>
+          <li>リポジトリをクローンし、CMake を用いてコンパイルを行います。</li>
+          <li>提供されている Python API や C++ API を通じて、行列サイズを指定して計算を実行します。</li>
+          <li>既存のディープラーニングフレームワーク（PyTorch 等）に組み込み、カスタムカーネルとして利用します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <p>LLM の学習コストを削減したい研究者、MoE モデルの推論速度を極限まで高めたい ML エンジニア、そして低精度演算（FP8）の GPU 最適化に関心があるシステムプログラマに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>高度に専門的なライブラリであり、利用には GPU アーキテクチャや CUDA プログラミングに関する深い知識が求められます。また、FP8 のハードウェアサポートを持つ比較的新しい GPU（NVIDIA H100 等）での利用が前提となります。</p>
+
+        <h2>まとめ</h2>
+        <p>DeepGEMM は、大規模 AI モデル時代の「計算の要」となる GEMM 演算を極限まで磨き上げたツールです。オープンソースとして公開されたことで、コミュニティ全体のモデル学習・推論効率が底上げされることが期待されます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/deepseek-ai/DeepGEMM" target="_blank" rel="noreferrer">GitHub - deepseek-ai/DeepGEMM</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
