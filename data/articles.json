@@ -7,6 +7,24 @@
   },
   "articles": [
     {
+      "id": "2026-04-21-perplexity-personal-computer-for-mac",
+      "category": "ai-tool-log",
+      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "title": "Perplexity \"Personal Computer\" for Mac: ローカル連携を強化したデスクトップの進化",
+      "publishedAt": "2026-04-21",
+      "articleUrl": "./articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html",
+      "summary": "Perplexity が Mac 向けに「Personal Computer」機能を発表。ローカルファイルの編集やブラウジング、音声操作が統合された新体験を提供します。"
+    },
+    {
+      "id": "2026-04-21-gemini-for-mac-launch",
+      "category": "ai-tool-log",
+      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "title": "Google Gemini: macOS 用ネイティブアプリがついに登場",
+      "publishedAt": "2026-04-21",
+      "articleUrl": "./articles/tools/2026-04-21-gemini-for-mac-launch.html",
+      "summary": "Google が macOS 向けの Gemini ネイティブアプリをリリース。ショートカット起動やシステム統合により、ブラウザ不要の AI 体験が可能になりました。"
+    },
+    {
       "id": "2026-04-20-github-copilot-plan-restructuring",
       "category": "ai-tool-log",
       "genre": "AIコーディング (CLI本体・拡張機能)",

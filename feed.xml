@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 05:33:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 05:37:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Perplexity "Personal Computer" for Mac: ローカル連携を強化したデスクトップの進化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Perplexity が Mac 向けに「Personal Computer」機能を発表。ローカルファイルの編集やブラウジング、音声操作が統合された新体験を提供します。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Google Gemini: macOS 用ネイティブアプリがついに登場]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-gemini-for-mac-launch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-gemini-for-mac-launch.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google が macOS 向けの Gemini ネイティブアプリをリリース。ショートカット起動やシステム統合により、ブラウザ不要の AI 体験が可能になりました。]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-github-copilot-plan-restructuring.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ClawLess (open-gitagent)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-open-gitagent-clawless.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-open-gitagent-clawless.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Investing Algorithm Framework]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。]]></description>
     </item>
   </channel>
 </rss>
