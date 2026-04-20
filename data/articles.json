@@ -121,6 +121,15 @@
       "summary": "Google が macOS 向けの Gemini ネイティブアプリをリリース。ショートカット起動やシステム統合により、ブラウザ不要の AI 体験が可能になりました。"
     },
     {
+      "id": "2026-04-18-claude-code-v2-1-113-native-binaries-tui",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "title": "Claude Code v2.1.113: ネイティブバイナリ化と TUI 刷新による高速化",
+      "publishedAt": "2026-04-18",
+      "articleUrl": "./articles/tools/2026-04-18-claude-code-v2-1-113-native-binaries-tui.html",
+      "summary": "Claude Code がネイティブバイナリへ移行。起動速度の向上、ちらつきのない全画面 TUI モード、Opus 4.7 xhigh 対応など大幅な進化。"
+    },
+    {
       "id": "2026-04-20-github-copilot-plan-restructuring",
       "category": "ai-tool-log",
       "genre": "AIコーディング (CLI本体・拡張機能)",

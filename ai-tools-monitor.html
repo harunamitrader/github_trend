@@ -52,12 +52,16 @@
               <div class="tool-details-body">
                 <ul class="changelog-list" id="list-claude-code">
                 <li><span class="changelog-date">2026-04-18</span><span class="changelog-version">v2.1.114</span><span class="changelog-title">許可ダイアログでのクラッシュ修正 (Agent Teams 連携)</span></li>
-                <li class="changelog-item"><span class="changelog-date">2026-04-17</span><a href="./articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html">Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加</a></li>
-                <li><span class="changelog-date">2026-04-15</span><span class="changelog-version">v2.1.108</span><span class="changelog-title">プロンプトキャッシュとセッション要約(recap)を強化</span></li>
-                <li class="changelog-item"><span class="changelog-date">2026-04-13</span><a href="./articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html">Claude Code v2.1.104: 最新リリースタグを更新</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-04-10</span><a href="./articles/tools/2026-04-10-claude-code-v2-1-101-team-onboarding-cert-store.html">Claude Code v2.1.101: team onboarding と企業 TLS 対応を正式化</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-04-10</span><a href="./articles/tools/2026-04-10-claude-code-v2-1-100-team-onboarding-ca-trust.html">Claude Code v2.1.100: team onboarding と企業 TLS 対応を強化</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-04-09</span><a href="./articles/tools/2026-04-09-claude-code-v2-1-98-vertex-monitor.html">Claude Code v2.1.98: Vertex AI 導入と Monitor tool を追加</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-18</span><a href="./articles/tools/2026-04-18-claude-code-v2-1-113-native-binaries-tui.html">v2.1.113: ネイティブバイナリ化と TUI 刷新による高速化</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-17</span><a href="./articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html">v2.1.112: Opus 4.7 xhigh と /ultrareview を追加</a></li>
+                <li><span class="changelog-date">2026-04-17</span><span class="changelog-version">v2.1.111</span><span class="changelog-title">Opus 4.7 effort 設定とオートテーマ機能を改善</span></li>
+                <li><span class="changelog-date">2026-04-16</span><span class="changelog-version">v2.1.110</span><span class="changelog-title">/tui 指令による全画面モードの実装</span></li>
+                <li><span class="changelog-date">2026-04-16</span><span class="changelog-version">v2.1.109</span><span class="changelog-title">Thinking ステータスの進捗ヒント表示を追加</span></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-15</span><a href="./articles/tools/2026-04-15-claude-code-v2-1-108-recap.html">v2.1.108: プロンプトキャッシュとセッション要約(recap)を強化</a></li>
+                <li><span class="changelog-date">2026-04-14</span><span class="changelog-version">v2.1.107</span><span class="changelog-title">ターミナル内ショートカット (Ctrl+A/E) のサポート</span></li>
+                <li><span class="changelog-date">2026-04-13</span><span class="changelog-version">v2.1.106</span><span class="changelog-title">マルチエージェント連携時のメッセージパッシングを安定化</span></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-13</span><a href="./articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html">v2.1.104: 最新リリースタグを更新</a></li>
+                <li><span class="changelog-date">2026-04-12</span><span class="changelog-version">v2.1.105</span><span class="changelog-title">EnterWorktree コマンドにパス引数を追加</span></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-08</span><a href="./articles/tools/2026-04-08-claude-code-v2-1-97.html">Claude Code v2.1.97: Focus view と権限制御の改善</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-08</span><a href="./articles/tools/2026-04-08-claude-code-v2-1-96.html">Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-08</span><a href="./articles/tools/2026-04-08-claude-code-v0-4-5.html">Claude Code v0.4.5: Context Freeze コマンド実装による長期記憶の制御</a></li>
@@ -482,16 +486,16 @@
             <div id="report-coding" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(59, 130, 246, 0.04);">
               <p style="margin-bottom: 8px;"><strong>Coding 調査日時:</strong> <span id="report-coding-date">2026-04-21 05:40 JST</span></p>
               <div id="report-coding-updates">
-                <p style="margin: 0 0 4px 0;"><strong>Updates Found (2):</strong></p>
+                <p style="margin: 0 0 4px 0;"><strong>Updates Found (3):</strong></p>
                 <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+                  <li>Claude Code (v2.1.113 Native Binary / TUI refresh)</li>
                   <li>GitHub Copilot (Plan Restructuring / CLI v1.0.33-0)</li>
                   <li>Windsurf (v2.0 Official Release)</li>
                 </ul>
               </div>
               <div id="report-coding-no-updates" style="margin-top: 8px;">
-                <p style="margin: 0 0 4px 0;"><strong>No New Updates (7):</strong></p>
+                <p style="margin: 0 0 4px 0;"><strong>No New Updates (6):</strong></p>
                 <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
-                  <li>Claude Code</li>
                   <li>Antigravity</li>
                   <li>Cursor</li>
                   <li>Cline</li>
