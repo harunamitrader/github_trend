@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 08:56:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 19:36:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[github-readme-stats]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。]]></description>
+    </item>
     <item>
       <title><![CDATA[magi]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-fshiori-magi.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[エンタープライズ・アーキテクチャの羅針盤。ITガバナンス、ベンダー調達、そして技術スタックの最適化を支援する専門ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[paperless-ngx]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-paperless-ngx-paperless-ngx.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-paperless-ngx-paperless-ngx.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[紙の山をスマートな資産へ。スキャン・自動分類・OCRを備え、あらゆる書類を検索可能にする究極の自炊ドキュメント管理システム。]]></description>
     </item>
   </channel>
 </rss>

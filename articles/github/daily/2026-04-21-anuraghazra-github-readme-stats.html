@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。READMEに統計情報や使用言語、ランクを美しく表示。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>github-readme-stats</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">github-readme-stats</h1>
+      <p class="article-dek">GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noreferrer">
+              anuraghazra/github-readme-stats
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>79,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>GitHubのプロファイルやリポジトリのREADMEに、リアルタイムで更新される統計情報を「埋め込み可能な画像（SVG）」として表示するツールです。スター数、コミット履歴、プルリクエスト数などの活動実績を、一目で分かる美しいカード形式で可視化し、開発者としての「顔」であるプロフィールページをプロフェッショナルかつ魅力的に演出します。</p>
+
+        <h2>何ができるか</h2>
+        <p>基本の合計統計カードに加え、最も使用しているプログラミング言語の割合（円グラフやバー表示）、WakaTimeと連携したコーディング時間の可視化、特定リポジトリのピン留めカードなど、多岐にわたる実績を表示できます。各データは外部サーバー（または自前ビルド）を通じて動的に取得・生成されるため、常に最新の状態が反映されます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の魅力は、その強烈な「RPG風ランクシステム」です。コミット数やスター数などからグローバルな偏差値を算出し、SランクからCランクまでの称号を付与してくれるため、自身の成長をゲーム感覚で楽しむことができます。また、80種類を超えるプリセットテーマに加え、カスタム配色も可能で、あらゆるポートフォリオのデザインに馴染みます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最も簡単な方法は、指定のURLに自身のGitHubユーザー名をクエリパラメータとして追加し、Markdownの画像タグとしてREADMEに貼るだけです（<code>![Stats](https://.../api?username=YOUR_NAME)</code>）。高度な利用をしたい場合は、Vercelを使って自分専用のインスタンスを作成することで、API制限を回避したりプライベートなリポジトリの統計を表示したりすることも可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>GitHubをポートフォリオとして活用している就活中の学生や転職希望者、または自身の開発活動を可視化してモチベーションを維持したい全開発者向けです。7.9万スターを超える圧倒的な支持を得ており、現代のGitHubプロフィールのカスタマイズにおける「必修科目」といっても過言ではない人気ツールです。</p>
+
+        <h2>注意点</h2>
+        <p>公式が提供しているデモ用のAPIエンドポイントは非常に高いトラフィックを受けており、時にRate Limit（回数制限）にかかって画像が表示されないことがあります。安定した運用や、完全なプライベート統計（非公開コミットなど）の反映を望む場合は、READMEの手順に従って「自分専用のデプロイ（Self-hosting）」を行うことが推奨されています。</p>
+
+        <h2>まとめ</h2>
+        <p>GitHub Readme Statsは、無機質になりがちなプロファイルに「動的な命」を吹き込むツールです。単なる飾り以上の、自身のスキルと情熱を証明する強力なアセットになり得ます。数行のマークダウンを追加するだけで、あなたの開発者としてのストーリーをより饒舌に語らせてみてはいかがでしょうか。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noreferrer">https://github.com/anuraghazra/github-readme-stats</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #313</p>
+      </div>
+    </article>
+  </body>
+</html>

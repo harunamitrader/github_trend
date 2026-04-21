@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-anuraghazra-github-readme-stats",
+      "title": "github-readme-stats",
+      "dek": "GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。",
+      "summary": "GitHubのREADMEに、スター数、コミット数、コントリビューション、使用言語などの統計情報を美しく表示するためのSVGカードを動的に生成します。80種類以上のテーマ設定、表示項目のカスタマイズ、WakaTimeとの連携、さらにはゲームのような「ランク（S〜C）」表示機能も備えており、開発者の個性をデータで表現するデファクトスタンダード的なツールです。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T19:36:00+09:00",
+      "repoName": "anuraghazra/github-readme-stats",
+      "repoUrl": "https://github.com/anuraghazra/github-readme-stats",
+      "starCount": 79100,
+      "articleUrl": "./articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html",
+      "serial": 313,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-fshiori-magi",
       "title": "magi",
       "dek": "3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。",
