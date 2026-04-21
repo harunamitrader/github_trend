@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-kaimingwan-oh-my-kiro",
+      "title": "oh-my-kiro",
+      "dek": "AIエージェントに「規律」を。oh-my-zsh のようにフックとメモリを活用し、自律エージェントを決定論的に制御するフレームワーク。",
+      "summary": "AI エージェントに永続的なメモリ、決定論的なワークフロー、自己進化する知能を付与するためのフレームワーク。フック（Hooks）による挙動制御や RALPH 思考サイクルの導入により、自律型エージェントの安定運用と知的進化を実現します。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T12:01:00+09:00",
+      "repoName": "KaimingWan/oh-my-kiro",
+      "repoUrl": "https://github.com/KaimingWan/oh-my-kiro",
+      "starCount": 77,
+      "articleUrl": "./articles/github/daily/2026-04-21-kaimingwan-oh-my-kiro.html",
+      "serial": 311,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-op7418-m5-paper-buddy",
       "title": "m5-paper-buddy",
       "dek": "Claude Code に「実体」を。M5Paper を専用ダッシュボードに変え、物理ボタンで AI のアクションを承認・制御する。",

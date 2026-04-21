@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 02:51:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 12:01:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[oh-my-kiro]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-kaimingwan-oh-my-kiro.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-kaimingwan-oh-my-kiro.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「規律」を。oh-my-zsh のようにフックとメモリを活用し、自律エージェントを決定論的に制御するフレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[m5-paper-buddy]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[WiFi信号を「目」に変え、カメラなしで人影やバイタルを計測。物理空間をデジタル化する次世代のWiFiセンシング基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opennews-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-6551team-opennews-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-6551team-opennews-mcp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤]]></description>
     </item>
   </channel>
 </rss>

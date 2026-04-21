@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KaimingWan/oh-my-kiro を使い、AI エージェントに永続的なメモリと決定論的なワークフロー（フック）を導入。自律エージェントの挙動を安定化させるためのフレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>oh-my-kiro</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">oh-my-kiro</h1>
+      <p class="article-dek">AIエージェントに「規律」を。oh-my-zsh のようにフックとメモリを活用し、自律エージェントを決定論的に制御するフレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/KaimingWan/oh-my-kiro" target="_blank" rel="noreferrer">
+              KaimingWan/oh-my-kiro
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>77</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>oh-my-kiro (OMK) は、AI コーディングエージェントに「永続的なメモリ」「決定論的なワークフロー」「自己進化する知能」を付与するためのフレームワークです。シェルのカスタマイズで定番の「oh-my-zsh」の哲学をエージェントの世界に持ち込み、プロンプトベースの曖昧な指示ではなく、コード（フック）による厳格な挙動制御と長期的な記憶保持を可能にすることを目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントの行動の節目に「フック（Hooks）」を挿入できます。例えば、機密情報の流出を阻止する <code>block-secrets.sh</code>、コード書き込み後の自動処理 <code>post-write.sh</code>、push 前のリンター強制実行など、プロジェクト固有のルールを「As-Code」でエージェントに守らせることができます。また、「RALPH」と呼ばれる構造化された思考サイクル（Read-Analyze-Loop-Perform-Halt/Evaluate）を導入し、エージェントが場当たり的ではなく、一貫した計画に基づいて動作することを保証します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる「便利なプロンプト集」に留まらず、エージェントに「メタ認知」と「自律的な改善」のループを組み込もうとしている点が非常にユニークです。エージェントが過去の失敗や成功を「永続メモリ」に蓄積し、同じ状況に直面した際に前回の教訓を自ら引き出すことで、使い込むほどに賢くなる自分専用の AI パートナーを構築できます。設定がシェルスクリプトや Python で記述可能なため、カスタマイズ性が極めて高いのも特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリを <code>~/.kiro</code> などのディレクトリにクローンし、Claude Code や Codex などのエージェントの作業環境にリンクさせることで導入します。同梱されている <code>install.sh</code> を実行すると標準的なフックセットが配置され、即座に「管理されたエージェント環境」が整います。その後は、必要に応じて <code>plugins/</code> ディレクトリに独自のロジックを追加することで、エージェントを特定のプロジェクトに最適化させていきます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律型エージェントの「予測不可能な挙動」や「記憶の揮発性」に悩んでいる中上級の開発者に最適です。企業やプロジェクトのコーディング規約をエージェントに強制したい管理者や、エージェントを「ただのチャット相手」ではなく「信頼できる自動化基盤」へと押し上げたいと考えているエンジニアにとって、最高のカスタマイズ基盤となるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>フックによってエージェントの行動を強く制限するため、スクリプトの設定を誤るとエージェントが「何もできない」状態になったり、無限ループに陥ったりする可能性があります。また、現時点では「エージェント版 oh-my-zsh」としての構想の初期段階にあるため、各エージェントツール（Claude Code 等）との細かな統合設定については、ユーザーがソースコードを確認しながら調整する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>oh-my-kiro は、AI エージェントという「馬」を乗りこなすための、洗練された「手綱」と「サドル」のような存在です。プロンプトエンジニアリングの限界を、伝統的なシステム管理の知恵（フックとワークフロー）で突破しようとする挑戦的なアプローチは、実務でエージェントを運用する上で極めて現実的な解決策を示しています。エージェントを本当の意味で「使い物」にしたい方は、一考の価値があるリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/KaimingWan/oh-my-kiro" target="_blank" rel="noreferrer">KaimingWan/oh-my-kiro</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
