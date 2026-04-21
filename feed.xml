@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 02:49:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 11:49:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[m5-paper-buddy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code に「実体」を。M5Paper を専用ダッシュボードに変え、物理ボタンで AI のアクションを承認・制御する。]]></description>
+    </item>
     <item>
       <title><![CDATA[ElatoAI]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-akdeb-elatoai.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[84以上のニュースソースを統合するMCPサーバー。AIによる重要度スコアリング、売買シグナル、要約生成を備えた投資・情報収集基盤]]></description>
-    </item>
-    <item>
-      <title><![CDATA[council-of-high-intelligence]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-0xnyk-council-of-high-intelligence.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-0xnyk-council-of-high-intelligence.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援]]></description>
     </item>
   </channel>
 </rss>

@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-op7418-m5-paper-buddy",
+      "title": "m5-paper-buddy",
+      "dek": "Claude Code に「実体」を。M5Paper を専用ダッシュボードに変え、物理ボタンで AI のアクションを承認・制御する。",
+      "summary": "電子ペーパー端末「M5Paper」を Claude Code 専用の物理コンパニオンデバイスにする拡張プラグイン。セッション情報の表示や、物理ボタンによるコマンド実行の承認・ログ確認を、メイン画面を占有せずに行えるようにします。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T11:49:00+09:00",
+      "repoName": "op7418/m5-paper-buddy",
+      "repoUrl": "https://github.com/op7418/m5-paper-buddy",
+      "starCount": 89,
+      "articleUrl": "./articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html",
+      "serial": 310,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-akdeb-elatoai",
       "title": "ElatoAI",
       "dek": "「会話するおもちゃ」を自作する。ESP32-S3 で低遅延なボイス AI デバイスを構築するためのオープンソース基盤。",
