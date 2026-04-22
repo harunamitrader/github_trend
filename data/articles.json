@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-gitleaks-gitleaks",
+      "title": "Gitleaks",
+      "dek": "コード内に潜むパスワードやAPIキーを自動検出。Git履歴を遡り、機密情報の流出を未然に防ぐ強力なセキュリティツール。",
+      "summary": "リポジトリ内の機密情報（Secrets）を検出・防止するためのオープンソースツール。正規表現とエントロピー解析を用いた高速エンジンにより、Git履歴を含む全てのコードからパスワードやAPIキーを瞬時に特定します。pre-commitフックやCIパイプラインへの統合も容易です。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T11:32:00+09:00",
+      "repoName": "gitleaks/gitleaks",
+      "repoUrl": "https://github.com/gitleaks/gitleaks",
+      "starCount": 26200,
+      "articleUrl": "./articles/github/daily/2026-04-22-gitleaks-gitleaks.html",
+      "serial": 323,
+      "genre": "開発支援・各種ツール"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-lightningpixel-modly",
       "title": "Modly",
       "dek": "1枚の画像から高品質な3Dモデルを生成。ローカルGPUで完結するプライバシー重視のデスクトップアプリ。",

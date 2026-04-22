@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="コード内に潜むパスワードやAPIキーを自動検出。Git履歴を遡り、機密情報の流出を未然に防ぐ強力なセキュリティツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gitleaks</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Gitleaks</h1>
+      <p class="article-dek">コード内に潜むパスワードやAPIキーを自動検出。Git履歴を遡り、機密情報の流出を未然に防ぐ強力なセキュリティツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noreferrer">
+              gitleaks/gitleaks
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>26,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>リポジトリやファイルの中にハードコードされた機密情報（Secrets）を検出するための、デファクトスタンダード的なセキュリティツールです。パスワード、APIキー、AWSアクセスキー、プライベートトークンなどが誤ってコミットされていないかを、超高速にスキャンします。</p>
+
+        <h2>何ができるか</h2>
+        <p>単に現在のファイルをチェックするだけでなく、Gitの全コミット履歴を遡ってパッチ単位で解析します。正規表現とエントロピー解析を組み合わせた高精度なエンジンにより、数千コミットを超えるリポジトリでも数秒でスキャンを完了し、漏洩の証拠（Fingerprint）を特定します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>圧倒的な「使いやすさ」と「エコシステム」が特徴です。CLI単体での利用はもちろん、<code>pre-commit</code> フックとしてコミット前に自動チェックしたり、公式の GitHub Action を利用してプルリクエスト時に自動で機密情報漏洩をブロックしたりと、開発プロセスのあらゆる段階に導入可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go製のシングルバイナリで、Homebrew (<code>brew install gitleaks</code>) や Docker を通じて簡単に導入できます。<code>gitleaks git -v</code> を実行すればカレントリポジトリの履歴を含めたフルスキャンが開始されます。また、<code>.gitleaks.toml</code> をリポジトリに配置することで、独自のルール追加や特定パスの除外も自由自在です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>公開リポジトリを運用している個人開発者はもちろん、DevSecOpsを推進し、機密情報の流出による致命的な事故を未然に防ぎたい企業の開発チームに必須のツールです。特に、AWSやGitHubトークンを多用するクラウドネイティブな開発環境において威力を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>万が一機密情報をコミットしてしまった場合、Gitleaksで場所を特定し、ファイルを修正しただけでは不十分です。Git履歴に残っている情報は依然として危険であるため、キーの無効化（ローテーション）と、必要に応じて履歴の書き換え（<code>git filter-repo</code> 等）を行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「機密情報のコミット」というミスは、どれだけ注意していても起こり得るものです。Gitleaksをパイプラインに組み込むことは、そうしたヒューマンエラーが組織的な事故に発展するのを防ぐ、最も安価で効果的な保険と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noreferrer">https://github.com/gitleaks/gitleaks</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #323</p>
+      </div>
+    </article>
+  </body>
+</html>
