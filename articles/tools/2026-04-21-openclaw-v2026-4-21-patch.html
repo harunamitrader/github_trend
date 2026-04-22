@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OpenClaw v2026.4.21 リリース。画像プロバイダのデフォルト変更や、接続安定性の向上が含まれる。">
+    <meta name="theme-color" content="#f7fbff">
+    <title>OpenClaw v2026.4.21 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw: v2026.4.21 リリース、画像処理と基盤の安定化</h1>
+      <p class="article-dek">デフォルトの画像プロバイダを最新エンジンへ刷新。エージェントの挙動安定性が向上。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>自律型ブラウザエージェント OpenClaw の最新パッチがリリースされました。視覚情報の処理能力と、実行時の信頼性向上が主眼となっています。</p>
+        <ul>
+            <li><strong>画像プロバイダの変更:</strong> デフォルトの画像生成・解析エンジンが `gpt-image-2` (ImageGen 2.0 互換) へと変更されました。これにより、タスク実行中の視覚的な理解度が向上。</li>
+            <li><strong>CDP 接続の耐障害性強化:</strong> ブラウザ操作時の接続エラーに対する再試行ロジックが改善。ネットワークが不安定な環境下での長時間タスクの成功率が向上しました。</li>
+            <li><strong>マイナーバグ修正:</strong> サブエージェントの生成プロセスにおけるリソースリークが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>ブラウザを介した複雑な自動化を行うユーザにとって、より「壊れにくい」エージェントへと進化しました。新しい画像プロバイダにより、アイコンや微細な UI 要素の認識精度が高まっているため、従来失敗していたサイトでの自動化を再試行する価値があります。</p>
+
+        <h2>まとめ</h2>
+        <p>着実なメンテナンスリリースですが、デフォルトエンジンの刷新はエージェントの「知覚」に大きなプラスの影響を与えます。より高度な自律ブラウジングを支える強固な足場が築かれました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OpenClaw/OpenClaw/releases" target="_blank" rel="noreferrer">OpenClaw GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+</body>
+</html>

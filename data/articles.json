@@ -8,6 +8,54 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-22-gemini-1-5-pro-flash-002-ga",
+      "title": "Gemini 1.5 Pro & Flash 002: モデル更新と GA リリース",
+      "dek": "Gemini 1.5 系列の最新モデル 002 が正式公開。推論性能とコストパフォーマンスがさらに向上。",
+      "summary": "Gemini 1.5 Pro 002 および Flash 002 の GA リリース情報を整理。前バージョンからの改善点や、開発者向けの新しいクォータ設定について解説する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "google/gemini",
+      "repoUrl": "https://ai.google.dev/",
+      "articleUrl": "./articles/tools/2026-04-22-gemini-1-5-pro-flash-002-ga.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-perplexity-personal-computer-release",
+      "title": "Perplexity Personal Computer: ローカルファイルとウェブを繋ぐ AI 基盤",
+      "dek": "デスクトップ上のファイルやアプリを直接操作。Perplexity が目指す「AI による PC 操作の再定義」。",
+      "summary": "Perplexity の新機能「Personal Computer」の詳細を整理。ローカルコンテキストを活用した高度なタスク実行能力と、Mac/Windows への統合について解説する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "perplexity/pc",
+      "repoUrl": "https://blog.perplexity.ai/",
+      "articleUrl": "./articles/tools/2026-04-22-perplexity-personal-computer-release.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-google-gemini-app-mac-update",
+      "title": "Google Gemini: Mac 用デスクトップアプリの大型アップデート",
+      "dek": "ショートカットキーでの即時起動や、パーソナライズされた画像生成機能が追加。",
+      "summary": "Google Gemini App の Mac 版アップデート情報を整理。デスクトップ統合の強化や、新しい画像生成ツール、パーソナライズ機能について解説する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "google/gemini-app",
+      "repoUrl": "https://blog.google/",
+      "articleUrl": "./articles/tools/2026-04-22-google-gemini-app-mac-update.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-21-openclaw-v2026-4-21-patch",
+      "title": "OpenClaw v2026.4.21: 接続安定性の向上とマイナーバグ修正",
+      "dek": "ブラウザエンジンの接続維持機能を強化。より長時間の自律タスク実行が可能に。",
+      "summary": "OpenClaw v2026.4.21 のリリース情報を整理。CDP 接続の再試行ロジック改善や、特定のウェブサイトでの DOM 解析エラー修正について解説する。",
+      "publishedAt": "2026-04-21",
+      "repoName": "OpenClaw/OpenClaw",
+      "repoUrl": "https://github.com/OpenClaw/OpenClaw",
+      "articleUrl": "./articles/tools/2026-04-21-openclaw-v2026-4-21-patch.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-23-cline-v3-80-0-enterprise-skills",
       "title": "Cline v3.80.0: エンタープライズ向けリモートスキルと動的モデル推奨機能",
       "dek": "組織内で共有可能なカスタムスキルセットを導入。タスクに応じた最適な AI モデルを Cline が提案。",
