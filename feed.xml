@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 20:35:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 22:30:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-gpt-image-2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-youmind-openlab-awesome-gpt-image-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-youmind-openlab-awesome-gpt-image-2.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[ERNIE-Image]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-baidu-ernie-image.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[大規模セッションの復帰が最大67%高速化。MCPサーバーの起動負荷も軽減されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[github-readme-stats]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。]]></description>
     </item>
   </channel>
 </rss>

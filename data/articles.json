@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-youmind-openlab-awesome-gpt-image-2",
+      "title": "awesome-gpt-image-2",
+      "dek": "OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。",
+      "summary": "OpenAIの次世代モデル「GPT Image 2」に特化したプロンプトライブラリ。画像内への正確な文字描画や複数画像間でのスタイル一貫性を実現するための構造化プロンプトが16言語で提供されており、商業レベルのクリエイティブ制作を強力に支援します。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T22:29:00+09:00",
+      "repoName": "YouMind-OpenLab/awesome-gpt-image-2",
+      "repoUrl": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "starCount": 133,
+      "articleUrl": "./articles/github/daily/2026-04-22-youmind-openlab-awesome-gpt-image-2.html",
+      "serial": 329,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-baidu-ernie-image",
       "title": "ERNIE-Image",
       "dek": "百度（Baidu）が贈る、8Bパラメータの軽量かつ強力な画像生成モデル。優れたテキスト描画と指示忠実性で、ポスター制作もAIにお任せ。",

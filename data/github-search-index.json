@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-22T11:35:28.085965+00:00",
-  "count": 346,
+  "generatedAt": "2026-04-22T13:30:16.200529+00:00",
+  "count": 347,
   "articles": [
+    {
+      "slug": "2026-04-22-youmind-openlab-awesome-gpt-image-2",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-gpt-image-2",
+      "dek": "OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。",
+      "summary": "OpenAIの次世代モデル「GPT Image 2」に特化したプロンプトライブラリ。画像内への正確な文字描画や複数画像間でのスタイル一貫性を実現するための構造化プロンプトが16言語で提供されており、商業レベルのクリエイティブ制作を強力に支援します。",
+      "repoName": "YouMind-OpenLab/awesome-gpt-image-2",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T22:29:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-22-youmind-openlab-awesome-gpt-image-2.html",
+      "serial": 329,
+      "searchText": "awesome-gpt-image-2 OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。 OpenAIの次世代モデル「GPT Image 2」に特化したプロンプトライブラリ。画像内への正確な文字描画や複数画像間でのスタイル一貫性を実現するための構造化プロンプトが16言語で提供されており、商業レベルのクリエイティブ制作を強力に支援します。 YouMind-OpenLab/awesome-gpt-image-2 メディア作成・マルチモーダル・UI awesome-gpt-image-2 ← 記事一覧へ戻る GitHub Watcher awesome-gpt-image-2 OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。 記事作成日 2026-04-22 種別 Pickup 対象 repo YouMind-OpenLab/awesome-gpt-image-2 Star数 133 これは何か OpenAIが開発した（あるいは次世代モデルとして期待される）「GPT Image 2」に最適化された高品質なプロンプトのライブラリです。多言語対応（16言語）で、商業レベルのイラストレーションや正確なテキストレンダリングを実現するためのノウハウが凝縮されています。 何ができるか 画像内への「ピクセルパーフェクト」な文字描画の実現、複数画像間でのキャラクターやスタイルの「一貫性」維持、商業利用に耐えうる高品質なイラストレーションの生成が可能です。16カ国語におよぶ多言語プロンプトも提供されています。 目立つポイント 単なるプロンプト集にとどまらず、GPT Image 2の強力な機能である「テキストレンダリング」と「一貫性」を最大限に活用するための構造化されたプロンプトが提供されている点です。また、オープンソースとしてコミュニティに開放されています。 セットアップや使い方の流れ リポジトリをクローンするか、READMEに記載されているプロンプト例をコピーしてChatGPT（あるいはAPI）の画像生成機能で使用します。TypeScriptベースのツールも含まれており、プロンプトの管理や拡張が可能です。 どんな人向けか 画像生成AIを活用してロゴやバナーを作成したいデザイナー、キャラクターの一貫性を保ったストーリーボードを作成したいクリエイター、プロンプトエンジニアリングの最新手法を学びたい開発者に最適です。 注意点 「GPT Image 2」は特定の環境やモデル（DALL-E 3の次世代版など）を指している可能性があり、利用可能な環境が制限されている場合があります。また、プロンプトの効果はモデルのアップデートにより変化することがあります。 まとめ GPT Image 2の驚異的な表現力を引き出すための、まさに「バイブル」とも言えるプロンプト集です。特に文字入れや一貫性に悩むクリエイターにとって、即戦力となる知識が詰まっています。 参照リンク https://github.com/YouMind-OpenLab/awesome-gpt-image-2 Shared GitHub Serial: #329"
+    },
     {
       "slug": "2026-04-22-baidu-ernie-image",
       "category": "github-pickup",
