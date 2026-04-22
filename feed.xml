@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 20:13:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 05:28:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-23 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-23-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-23-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[langfuse]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-langfuse-langfuse.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-langfuse-langfuse.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMアプリケーションの監視、評価、デバッグを統合管理。開発ライフサイクル全体を支えるオープンソースのLLMエンジニアリング基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[shannon]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-keygraphhq-shannon.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-keygraphhq-shannon.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律型AIペンテスターがWebアプリの脆弱性を実証。ソースコード解析と動的攻撃を組み合わせ、論理的なセキュリティホールを特定する。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenMetadata]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-open-metadata-openmetadata.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-open-metadata-openmetadata.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[データ発見、ガバナンス、オブザーバビリティを統合。あらゆるデータ資産をカタログ化し、リネージ（系譜）と品質を管理するオープンソース・メタデータ基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Pixelle-Video]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-aidc-ai-pixelle-video.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-aidc-ai-pixelle-video.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[テキストから全自動で短動画を生成。ComfyUIベースの柔軟なパイプラインで、脚本から画像生成、音声合成までをAIが完遂する。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hackingtool]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-z4nzu-hackingtool.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-z4nzu-hackingtool.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ハッカーのための「オールインワン」ツールセット。偵察からWeb攻撃、ワイヤレス攻撃まで、数百種類のセキュリティツールを一つのコンソールから操る。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline v3.80.0: エンタープライズ向けリモートスキルと動的モデル推奨機能]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[コード内に潜むパスワードやAPIキーを自動検出。Git履歴を遡り、機密情報の流出を未然に防ぐ強力なセキュリティツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Modly]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-lightningpixel-modly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-lightningpixel-modly.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1枚の画像から高品質な3Dモデルを生成。ローカルGPUで完結するプライバシー重視のデスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Compozy]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-compozy-compozy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-compozy-compozy.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[40種以上のAIエージェントをオーケストレーション。アイデアからPRD作成、タスク分割、コード実装、レビューまでを統合管理。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradeMaster]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-trademaster-ntu-trademaster.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-trademaster-ntu-trademaster.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[強化学習（RL）を用いた量化トレードの統合プラットフォーム。データ収集からシミュレーション、13種以上のアルゴリズム実装までを網羅。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenMythos]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-kyegomez-openmythos.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-kyegomez-openmythos.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-context]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-zilliztech-claude-context.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-zilliztech-claude-context.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude に「忘れられない記憶」を。過去の会話やプロジェクトの知識を瞬時に呼び出し、対話をパーソナライズする。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-agents-for-beginners]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-microsoft-ai-agents-for-beginners.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-microsoft-ai-agents-for-beginners.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoft が贈る、次世代の「AI エージェント開発者」への最短ルート。12 のレッスンで基礎から実践までを完全網羅。]]></description>
     </item>
   </channel>
 </rss>

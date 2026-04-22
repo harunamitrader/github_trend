@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="テキストから全自動で短動画を生成。ComfyUIベースの柔軟なパイプラインで、脚本から画像生成、音声合成までをAIが完遂する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AIDC-AI/Pixelle-Video | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AIDC-AI/Pixelle-Video</h1>
+      <p class="article-dek">テキストから全自動で短動画を生成。ComfyUIベースの柔軟なパイプラインで、脚本から画像生成、音声合成までをAIが完遂する。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending #10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/AIDC-AI/Pixelle-Video" target="_blank" rel="noreferrer">
+              AIDC-AI/Pixelle-Video
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,462</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Pixelle-Videoは、アリババ（Alibaba AIDC-AIチーム）が開発したオープンソースの全自動動画生成エンジンです。ユーザーが入力した簡単なトピックやテキストプロンプトをもとに、AIが脚本を書き、シーンに合わせた画像や動画を生成し、音声を合成して、最終的なショート動画として一本化します。動画編集の技術がなくても、プロ品質のコンテンツを自動で「製造」できるシステムです。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロンプト入力だけで、脚本作成（LLM）、画像/動画生成（FluxやWan 2.1等）、音声合成（TTS）、BGM挿入、字幕生成、そして最終的な動画レンダリングまでを自動で行います。縦長（TikTok/Shorts）、スクエア（Instagram）、横長（YouTube）など主要なアスペクト比に対応しており、自分の写真や動画を素材として提供し、AIに解析・物語化させることも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ComfyUIベースのモジュラーアーキテクチャを採用している点が革新的です。これにより、生成AIの進化に合わせて「最新の動画モデルに入れ替える」「特定のTTSエンジンに切り替える」といったカスタマイズが自由自在に行えます。デジタルヒューマンによるナレーションや、モーション転送、Image-to-Videoパイプラインなど、最新のマルチモーダル技術が凝縮されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境とComfyUIが動作するスペックのGPU環境が必要です。リポジトリをクローンし、必要なカスタムノードとモデルファイルを配置して起動します。Web UI上で作成したい動画のテーマを入力し、あらかじめ用意されたテンプレート（スタイル）を選択して実行ボタンを押すと、バックグラウンドで一連の生成プロセスが走り、数分後には完成した動画が出力されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>コンテンツ制作のスピードを劇的に上げたいクリエイターや、SNS向けのショート動画を大量に運用したいマーケター、そして最新のマルチモーダルAIパイプラインを研究したい開発者に最適です。編集ソフトに張り付く時間をゼロにし、アイデアを即座に形にしたい層に強く支持されています。</p>
+
+        <h2>注意点</h2>
+        <p>高品質な動画生成をローカルで行うため、高性能なNVIDIA製GPU（VRAM 16GB以上推奨）が必要です。また、生成されたコンテンツの著作権や倫理的な使用については、各モデルのライセンスと利用規約を遵守する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Pixelle-Videoは、「AIが監督・脚本・編集をすべてこなす」動画制作の民主化を象徴するプロジェクトです。ComfyUIという強力な基盤を活かし、常に最新モデルを組み込める拡張性を備えたこのエンジンは、AIネイティブな動画制作のデファクトスタンダードになる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AIDC-AI/Pixelle-Video" target="_blank" rel="noreferrer">https://github.com/AIDC-AI/Pixelle-Video</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #333</p>
+      </div>
+    </article>
+  </body>
+</html>

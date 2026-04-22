@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自律型AIペンテスターがWebアプリの脆弱性を実証。ソースコード解析と動的攻撃を組み合わせ、論理的なセキュリティホールを特定する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>KeygraphHQ/shannon | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">KeygraphHQ/shannon</h1>
+      <p class="article-dek">自律型AIペンテスターがWebアプリの脆弱性を実証。ソースコード解析と動的攻撃を組み合わせ、論理的なセキュリティホールを特定する。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending #5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/KeygraphHQ/shannon" target="_blank" rel="noreferrer">
+              KeygraphHQ/shannon
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>39,443</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Shannonは、WebアプリケーションやAPIに対して自律的にペネトレーションテスト（侵入テスト）を実行するAI搭載のセキュリティツールです。単なる「静的解析」や「脆弱性スキャナ」ではなく、ホワイトボックス的な知見（ソースコードへのアクセス）を活かしながら、実際に攻撃コードを実行して脆弱性が「本当に悪用可能か」を証明することに特化しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>静的なコード解析によって攻撃の足がかりを見つけ、2FA（二要素認証）やSSOが絡む複雑なログインフローをAIが突破しながら、インジェクションやXSS、SSRF、認可不備といったOWASP Top 10クラスの脆弱性を実際に突いてみせます。テスト完了後には、そのままコピペして再現可能な「エクスプロイト（攻撃実証コード）」を含む詳細なレポートを生成します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「ホワイトボックス」のアプローチを採用している点が最大の特徴です。ソースコードを読み込むことで、通常の外部スキャンでは到達しにくい内部APIエンドポイントやビジネスロジックの不備をインテリジェントに予測し、攻撃の成功率を劇的に高めています。また、NmapやSubfinderといった既存の標準的なセキュリティツールをAIが背後でオーケストレーションし、調査プロセスを自動化しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>本リポジトリ（Shannon Lite）をクローンし、Python環境でインストールを行います。テスト対象のソースコードディレクトリと、実際に稼働しているアプリケーションのURLを指定して実行します。AIエージェントが偵察（Reconnaissance）、分析、攻撃実証、報告の4つのフェーズを完全に自律して進めるため、ユーザーは待つだけで精度の高いセキュリティ評価を得られます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>リリース前に「本物の」攻撃に対する耐性を確認したい開発チームや、手動のペネトレーションテストのコストを削減したいセキュリティエンジニアに最適です。特に、APIを多用するモダンなWebアプリにおいて、論理的な認可不備をAIで見つけ出したい場合に威力を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>Shannonは「アクティブ」な攻撃を実行するツールです。理論上の指摘にとどまらず、実際にDBを操作したりリクエストを送信したりするため、必ずテスト環境に対して実行し、本番環境への使用は避けてください。また、法的・倫理的な許可を得た対象にのみ使用してください。</p>
+
+        <h2>まとめ</h2>
+        <p>「悪用できなければ報告しない」という実戦的な思想に基づいたShannonは、AIによるセキュリティ自動化の最前線を示すツールです。従来のツールでは見落とされがちだった「動的な脆弱性」を自律的に特定・実証することで、開発プロセスの初期段階でのセキュリティ強化を強力に支援します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/KeygraphHQ/shannon" target="_blank" rel="noreferrer">https://github.com/KeygraphHQ/shannon</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #331</p>
+      </div>
+    </article>
+  </body>
+</html>
