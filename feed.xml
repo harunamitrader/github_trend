@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 11:22:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 20:35:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ERNIE-Image]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-baidu-ernie-image.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-baidu-ernie-image.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[百度（Baidu）が贈る、8Bパラメータの軽量かつ強力な画像生成モデル。優れたテキスト描画と指示忠実性で、ポスター制作もAIにお任せ。]]></description>
+    </item>
     <item>
       <title><![CDATA[n8n Skills for Claude Code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-czlonkowski-n8n-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GitHubプロフィールを動的に彩る、高機能な実績可視化カード生成エンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[magi]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-fshiori-magi.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-fshiori-magi.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。]]></description>
     </item>
   </channel>
 </rss>

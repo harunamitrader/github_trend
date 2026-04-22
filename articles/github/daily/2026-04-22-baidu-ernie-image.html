@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="百度（Baidu）が贈る、8Bパラメータの軽量かつ強力な画像生成モデル。優れたテキスト描画と指示忠実性で、ポスター制作もAIにお任せ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ERNIE-Image</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ERNIE-Image</h1>
+      <p class="article-dek">百度（Baidu）が贈る、8Bパラメータの軽量かつ強力な画像生成モデル。優れたテキスト描画と指示忠実性で、ポスター制作もAIにお任せ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/baidu/ERNIE-Image" target="_blank" rel="noreferrer">
+              baidu/ERNIE-Image
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>327</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>中国のテック大手、百度（Baidu）の ERNIE-Image チームが公開した、オープンウェイトの画像生成モデルです。最新の Diffusion Transformer (DiT) アーキテクチャを採用し、8Bという効率的なパラメータ数ながら、画像生成AIのベンチマークにおいて世界最高水準の性能を達成しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>テキストプロンプトから、写真のようにリアルな画像やアーティスティックなイラストを生成します。特に「画像内のテキスト描画」に強みを持っており、ポスターやUIデザイン、インフォグラフィックといった文字情報が重要なビジュアルの作成に威力を発揮します。また、指示への忠実性が高く、複数の要素が複雑に絡むプロンプトも正確に反映します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>8Bという比較的コンパクトなサイズでありながら、より巨大なモデルを凌駕する表現力を持っている点が驚異的です。独自の「Prompt Enhancer (PE)」を搭載しており、ユーザーが入力した短い言葉をAIが豊かに膨らませてから生成するため、専門的なプロンプト技術がなくても高品質な結果が得られます。24GB程度のVRAMを持つコンシューマー向けGPUで動作する点も実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Hugging Face でモデルが公開されており、<code>diffusers</code> ライブラリを通じてPythonコードから利用できます。また、ComfyUI のワークフローテンプレートも用意されており、GUI環境での利用もスムーズです。標準の「ERNIE-Image」に加えて、わずか8ステップで高速生成が可能な「ERNIE-Image-Turbo」も選択できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>高精度な画像生成を自前環境で実現したいクリエイターやエンジニアに最適です。特に、従来のモデルでは苦手とされていた「画像内の文字表現」を重視するデザイナーや、複雑な構図のストーリーボードを作成したいプランナーにとって、新たな強力な選択肢となるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>Prompt Enhancer を最大限に活用するには、実行環境に相応のセットアップが必要です。また、生成される文字の正確性や対応言語（日本語含む）については、入力する言語やプロンプトの内容によって変動するため、商用利用などの際には十分な検証が求められます。</p>
+
+        <h2>まとめ</h2>
+        <p>扱いやすいサイズ感と、文字表現・指示忠実性における圧倒的な実力を兼ね備えた、非常に完成度の高いモデルです。Baidu の画像生成技術がオープンに提供されたことで、Stable Diffusion や Flux といった既存の主要モデルに匹敵する、新たなエコシステムの発展が期待されます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/baidu/ERNIE-Image" target="_blank" rel="noreferrer">https://github.com/baidu/ERNIE-Image</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #328</p>
+      </div>
+    </article>
+  </body>
+</html>
