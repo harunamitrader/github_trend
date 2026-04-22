@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-22T10:11:29.144588+00:00",
-  "count": 344,
+  "generatedAt": "2026-04-22T11:20:37.768936+00:00",
+  "count": 345,
   "articles": [
+    {
+      "slug": "2026-04-22-czlonkowski-n8n-skills",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "n8n Skills for Claude Code",
+      "dek": "Claude Codeでn8nワークフローを完璧に構築。7つの専門スキルが、AIによる自動化フロー作成を強力にバックアップ。",
+      "summary": "Claude CodeやClaude.ai向けに設計されたn8n構築用スキルセット。式構文、バリデーション修正、ノード設定など7つの専門知識をAIに提供し、n8n-mcpサーバーを介したワークフロー作成の精度とスピードを劇的に向上させます。",
+      "repoName": "czlonkowski/n8n-skills",
+      "genre": "開発支援・各種ツール",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T20:19:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-22-czlonkowski-n8n-skills.html",
+      "serial": 327,
+      "searchText": "n8n Skills for Claude Code Claude Codeでn8nワークフローを完璧に構築。7つの専門スキルが、AIによる自動化フロー作成を強力にバックアップ。 Claude CodeやClaude.ai向けに設計されたn8n構築用スキルセット。式構文、バリデーション修正、ノード設定など7つの専門知識をAIに提供し、n8n-mcpサーバーを介したワークフロー作成の精度とスピードを劇的に向上させます。 czlonkowski/n8n-skills 開発支援・各種ツール n8n Skills for Claude Code ← 記事一覧へ戻る GitHub Watcher n8n Skills for Claude Code Claude Codeでn8nワークフローを完璧に構築。7つの専門スキルが、AIによる自動化フロー作成を強力にバックアップ。 記事作成日 2026-04-22 種別 Pickup 対象 repo czlonkowski/n8n-skills Star数 4,500 これは何か Claude Code が n8n ワークフローをプロフェッショナルな品質で構築できるようにするための「専門スキル（Skills）」のコレクションです。AIエージェントが n8n の仕様や特有の構文、エラー回避のベストプラクティスを正確に理解し、 n8n-mcp サーバーを介して完璧な自動化フローを作成・修正できるように支援します。 何ができるか ワークフローの設計から、各ノードのパラメータ設定、JavaScriptやPythonによるカスタムコードの記述、そしてバリデーションエラーの自動解釈と修正までをカバーします。AIが犯しがちな「不正な式構文」や「ノード接続のミス」を事前に防ぎ、指示通りの動作をするワークフローを瞬時に組み上げることが可能です。 目立つポイント n8n 構築における「詰まりポイント」を熟知した7つの専門スキルが含まれている点が非常に強力です。式の書き方を教える Expression Syntax や、バリデーションエラーのループを防ぐ Validation Expert など、相補的なスキルが連携することで、AIの作業効率を飛躍的に高めています。2,600以上のテンプレートから得られた知見が凝縮されています。 セットアップや使い方の流れ Claude Code ユーザーであれば、 /plugin install czlonkowski/n8n-skills コマンドで簡単に導入できます。あらかじめ n8n-mcp サーバーを設定しておくことで、AIに対して「HTTPリクエストの結果をスプレッドシートに保存するフローを作って」といった自然言語の指示を出すだけで、スキルに基づいた精度の高い構築が開始されます。 どんな人向けか n8n を使った複雑な業務自動化を推進しており、その構築スピードをAIエージェントで加速させたいエンジニアやシステム管理者。特に、AIが生成する n8n の設定ミスに悩まされている方にとって、このスキルセットは必須の「職人マニュアル」となるでしょう。 注意点 本スキルを活用するには、別途 n8n-mcp サーバーの稼働環境が必要です。また、スキルのアドバイスに従って構築されたコードでも、セキュリティやパフォーマンスの観点から最終的な人によるチェックは推奨されます。特に Python ノードについては、n8n 自体の制約（外部ライブラリ不可など）があるため、スキルの助言をよく確認する必要があります。 まとめ AIに n8n の深い知識を与えることで、自動化フロー開発の生産性を劇的に変革するツールです。n8n と Claude Code という強力なコンビを、さらに一段上のレベルへと引き上げ、ノーコード・ローコード開発の未来を体現しています。 参照リンク https://github.com/czlonkowski/n8n-skills Shared GitHub Serial: #327"
+    },
     {
       "slug": "2026-04-22-joinclass-ai-ceo-framework",
       "category": "github-pickup",

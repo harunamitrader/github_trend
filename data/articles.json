@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-czlonkowski-n8n-skills",
+      "title": "n8n Skills for Claude Code",
+      "dek": "Claude Codeでn8nワークフローを完璧に構築。7つの専門スキルが、AIによる自動化フロー作成を強力にバックアップ。",
+      "summary": "Claude CodeやClaude.ai向けに設計されたn8n構築用スキルセット。式構文、バリデーション修正、ノード設定など7つの専門知識をAIに提供し、n8n-mcpサーバーを介したワークフロー作成の精度とスピードを劇的に向上させます。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T20:19:00+09:00",
+      "repoName": "czlonkowski/n8n-skills",
+      "repoUrl": "https://github.com/czlonkowski/n8n-skills",
+      "starCount": 4500,
+      "articleUrl": "./articles/github/daily/2026-04-22-czlonkowski-n8n-skills.html",
+      "serial": 327,
+      "genre": "開発支援・各種ツール"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-joinclass-ai-ceo-framework",
       "title": "AI-CEO Framework",
       "dek": "Claude Codeで「1人企業」を完全自動化。15体のAIエージェントと承認パイプラインを備えた、実戦投入済みの経営フレームワーク。",
