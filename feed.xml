@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 23:55:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 09:06:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Modly]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-lightningpixel-modly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-lightningpixel-modly.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1枚の画像から高品質な3Dモデルを生成。ローカルGPUで完結するプライバシー重視のデスクトップアプリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Compozy]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-compozy-compozy.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「自らツールを拡張する」次世代エージェント基盤。LLM がブラウザを自由自在に操り、自律的に機能を自己修復する。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[grafana]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-grafana-grafana.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-grafana-grafana.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。]]></description>
     </item>
   </channel>
 </rss>

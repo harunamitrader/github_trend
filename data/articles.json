@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-lightningpixel-modly",
+      "title": "Modly",
+      "dek": "1枚の画像から高品質な3Dモデルを生成。ローカルGPUで完結するプライバシー重視のデスクトップアプリ。",
+      "summary": "画像から高品質な3Dメッシュを自動生成するオープンソースのデスクトップアプリ。外部サーバーを介さずローカルGPUで処理を完結でき、GitHub経由で最新のAI生成モデル（Hunyuan3D, TripoSR等）を簡単に追加できる高い拡張性が特徴です。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T09:06:00+09:00",
+      "repoName": "lightningpixel/modly",
+      "repoUrl": "https://github.com/lightningpixel/modly",
+      "starCount": 1500,
+      "articleUrl": "./articles/github/daily/2026-04-22-lightningpixel-modly.html",
+      "serial": 322,
+      "genre": "クリエイティブ・マルチメディア"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-compozy-compozy",
       "title": "Compozy",
       "dek": "40種以上のAIエージェントをオーケストレーション。アイデアからPRD作成、タスク分割、コード実装、レビューまでを統合管理。",
