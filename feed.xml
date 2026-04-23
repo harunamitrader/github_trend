@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 04:07:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 04:25:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Code v2.1.118: Vimビジュアルモードの実装と /usage への統合]]></title>
@@ -152,20 +152,20 @@
       <description><![CDATA[組織内で共有可能なカスタムスキルセットを導入。タスクに応じた最適な AI モデルを Cline が提案。]]></description>
     </item>
     <item>
-      <title><![CDATA[Gemini 1.5 Pro & Flash 002: モデル更新と GA リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-gemini-1-5-pro-flash-002-ga.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-gemini-1-5-pro-flash-002-ga.html</guid>
+      <title><![CDATA[OpenClaw v2026.4.22: xAI (Grok-2) 連携の大幅強化とマルチ STT サポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-openclaw-v2026-4-22-xai-stt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-openclaw-v2026-4-22-xai-stt.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini 1.5 系列の最新モデル 002 が正式公開。推論性能とコストパフォーマンスがさらに向上。]]></description>
+      <description><![CDATA[Grok による画像生成・音声合成・文字起こしへの対応に加え、Deepgram や ElevenLabs などの高度な STT 連携を統合。]]></description>
     </item>
     <item>
-      <title><![CDATA[Perplexity Personal Computer: ローカルファイルとウェブを繋ぐ AI 基盤]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-perplexity-personal-computer-release.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-perplexity-personal-computer-release.html</guid>
+      <title><![CDATA[ChatGPT: 一般的な質問への回答速度を向上させる「Fast answers」を導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-chatgpt-fast-answers.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-chatgpt-fast-answers.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[デスクトップ上のファイルやアプリを直接操作。Perplexity が目指す「AI による PC 操作の再定義」。]]></description>
+      <description><![CDATA[スポーツの結果や一般常識など、事実に基づく質問に対して、より迅速に回答を生成する最適化が行われました。]]></description>
     </item>
   </channel>
 </rss>

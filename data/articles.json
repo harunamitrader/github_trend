@@ -8,6 +8,28 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-22-openclaw-v2026-4-22-xai-stt",
+      "title": "OpenClaw v2026.4.22: xAI (Grok-2) 連携の大幅強化とマルチ STT サポート",
+      "dek": "Grok による画像生成・音声合成・文字起こしへの対応に加え、Deepgram や ElevenLabs などの高度な STT 連携を統合。",
+      "summary": "xAIの画像・音声機能への完全対応と、ElevenLabs Scribe v2 を含むマルチSTTサポートを統合した大型アップデート。",
+      "publishedAt": "2026-04-22",
+      "toolName": "OpenClaw",
+      "version": "v2026.4.22",
+      "articleUrl": "./articles/tools/2026-04-22-openclaw-v2026-4-22-xai-stt.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-chatgpt-fast-answers",
+      "title": "ChatGPT: 一般的な質問への回答速度を向上させる「Fast answers」を導入",
+      "dek": "スポーツの結果や一般常識など、事実に基づく質問に対して、より迅速に回答を生成する最適化が行われました。",
+      "summary": "事実確認クエリに対するレスポンスを高速化する「Fast answers」機能を導入。検索ツールとしての即時性がさらに強化されています。",
+      "publishedAt": "2026-04-22",
+      "toolName": "ChatGPT",
+      "version": "2026-04-22 Update",
+      "articleUrl": "./articles/tools/2026-04-22-chatgpt-fast-answers.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-24-claude-code-v2-1-118-vim-visual-usage",
       "title": "Claude Code v2.1.118: Vimビジュアルモードの実装と /usage への統合",
       "dek": "Vimビジュアルモードの追加やコマンド統合により、ターミナルでの操作性と統計管理が向上。",
