@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 04:25:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 05:09:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-24 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-24-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-24-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ml-intern]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-huggingface-ml-intern.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-huggingface-ml-intern.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Hugging Faceが放つ、機械学習エンジニアのための最強インターンシップ・ガイド。業界トップクラスの知見が詰まったリサーチ・ワークフローと学習リソースの宝庫。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[RuView]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-ruview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-ruview.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[カメラ不要。WiFi信号の反射だけで人間の姿勢を3D推定する驚異の技術。プライバシーを守りながら、壁越しでも人の動きをリアルタイムに視覚化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[free-claude-code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-alishahryar1-free-claude-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-alishahryar1-free-claude-code.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Anthropic の Claude Code を無料で。独自のリバースプロキシと認証バイパスにより、ターミナル完結型 AI 開発環境を誰でも手軽に構築できる実験的プロジェクト。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[PowerShell]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-powershell-powershell.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-powershell-powershell.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows, Linux, macOSに対応した次世代クロスプラットフォーム・シェル。オブジェクトベースের強力なパイプラインが、AIエージェントによる自動化操作の「手」として再注目。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[onnxruntime]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-microsoft-onnxruntime.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-microsoft-onnxruntime.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[機械学習モデルの推論とトレーニングを、あらゆるハードウェアで高速化。AIエージェント向けの知識付与も進む、クロスプラットフォームな高性能アクセラレータ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.118: Vimビジュアルモードの実装と /usage への統合]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-claude-code-v2-1-118-vim-visual-usage.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自律型AIペンテスターがWebアプリの脆弱性を実証。ソースコード解析と動的攻撃を組み合わせ、論理的なセキュリティホールを特定する。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenMetadata]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-open-metadata-openmetadata.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-open-metadata-openmetadata.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[データ発見、ガバナンス、オブザーバビリティを統合。あらゆるデータ資産をカタログ化し、リネージ（系譜）と品質を管理するオープンソース・メタデータ基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Pixelle-Video]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-aidc-ai-pixelle-video.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-aidc-ai-pixelle-video.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[テキストから全自動で短動画を生成。ComfyUIベースの柔軟なパイプラインで、脚本から画像生成、音声合成までをAIが完遂する。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hackingtool]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-z4nzu-hackingtool.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-z4nzu-hackingtool.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ハッカーのための「オールインワン」ツールセット。偵察からWeb攻撃、ワイヤレス攻撃まで、数百種類のセキュリティツールを一つのコンソールから操る。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.80.0: エンタープライズ向けリモートスキルと動的モデル推奨機能]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[組織内で共有可能なカスタムスキルセットを導入。タスクに応じた最適な AI モデルを Cline が提案。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.22: xAI (Grok-2) 連携の大幅強化とマルチ STT サポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-openclaw-v2026-4-22-xai-stt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-openclaw-v2026-4-22-xai-stt.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Grok による画像生成・音声合成・文字起こしへの対応に加え、Deepgram や ElevenLabs などの高度な STT 連携を統合。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: 一般的な質問への回答速度を向上させる「Fast answers」を導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-chatgpt-fast-answers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-chatgpt-fast-answers.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[スポーツの結果や一般常識など、事実に基づく質問に対して、より迅速に回答を生成する最適化が行われました。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="カメラ不要。WiFi信号の反射だけで人間の姿勢を3D推定する驚異の技術。プライバシーを守りながら、壁越しでも人の動きをリアルタイムに視覚化。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>RuView</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">RuView</h1>
+      <p class="article-dek">カメラ不要。WiFi信号の反射だけで人間の姿勢を3D推定する驚異の技術。プライバシーを守りながら、壁越しでも人の動きをリアルタイムに視覚化。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ruvnet/RuView" target="_blank" rel="noreferrer">
+              ruvnet/RuView
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>WiFiルーターから発せられる電波が、人間の体に当たって跳ね返る様子をAIで解析し、人の姿勢や動きを推定するプロジェクトです。「WiFi感知（WiFi Sensing）」と呼ばれる分野の最新実装で、カメラなどの光学センサーを一切使用せずに環境内の人物をモニターできます。</p>
+
+        <h2>何ができるか</h2>
+        <p>暗闇や、薄い壁の向こう側にいる人の存在を検知し、その人がどのような姿勢（立っている、座っている、倒れている等）で、どの方向に動いているかをリアルタイムで3Dモデル化できます。従来の「カメラで見られている」という圧迫感を与えずに、見守りや侵入検知が可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の注目点は、市販の安価なWiFiチップセット（ESP32等）でも動作可能な軽量化が図られている点です。また、独自学習させたディープラーニングモデルにより、信号のノイズを効果的に除去し、極めて高い精度でボーン（骨格）推定を実現している点が驚愕的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>対応するWiFiマイコンに専用のファームウェアを書き込み、データをPCに転送します。PC側では提供されているPythonベースのダッシュボードを起動することで、解析された3Dスケルトンが画面上に描画されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>プライバシーに配慮した高齢者の見守りシステム、スマートホームの自動制御、あるいは「SFのような壁透過レーダー」を自作してみたいメイカーや研究者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>金属製の障害物が多い環境や、複数の人が密集している場所では精度が低下する場合があります。また、WiFiの周波数帯域（2.4GHz/5GHz）によっても検知可能な距離や解像度が変化します。</p>
+
+        <h2>まとめ</h2>
+        <p>RuViewは、私たちの身近にあるWiFiという存在を「インターネットの入り口」から「万能の目」へと変貌させる可能性を秘めています。カメラに頼らないモニタリングという新しい価値観は、今後多くの公共施設や家庭で普及していくかもしれません。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ruvnet/RuView" target="_blank" rel="noreferrer">https://github.com/ruvnet/RuView</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #344</p>
+      </div>
+    </article>
+  </body>
+</html>
