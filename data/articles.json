@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-anomalyco-openauth",
+      "title": "OpenAuth",
+      "dek": "あらゆるインフラでセルフホスト可能な、OAuth 2.0準拠のユニバーサルな認証プロバイダー。",
+      "summary": "特定のSaaSに依存せず、自身のインフラで実行できる標準ベースの認証サーバー。認証とユーザー管理を分離した柔軟な設計により、既存のあらゆるシステムとシームレスに連携可能です。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T07:45:00+09:00",
+      "repoName": "anomalyco/openauth",
+      "repoUrl": "https://github.com/anomalyco/openauth",
+      "starCount": 6800,
+      "articleUrl": "./articles/github/daily/2026-04-24-anomalyco-openauth.html",
+      "serial": 349,
+      "genre": "開発エコシステム (ライブラリ・フレームワーク)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-mksglu-context-mode",
       "title": "context-mode",
       "dek": "AIコーディングエージェントのコンテキスト窓を最大98%削減し、セッションの継続性と推論効率を劇的に向上させる最適化MCPサーバー。",

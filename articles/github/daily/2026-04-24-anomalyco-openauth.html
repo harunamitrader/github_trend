@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="あらゆるインフラでセルフホスト可能な、OAuth 2.0準拠のユニバーサルな認証プロバイダー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAuth</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenAuth</h1>
+      <p class="article-dek">あらゆるインフラでセルフホスト可能な、OAuth 2.0準拠のユニバーサルな認証プロバイダー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/anomalyco/openauth" target="_blank" rel="noreferrer">
+              anomalyco/openauth
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,800</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenAuthは、Webアプリ、モバイルアプリ、SPA、APIなど、あらゆる環境で利用可能な標準ベースの認証プロバイダーです。特定のSaaSに依存せず、自身のインフラ（Node.js, Bun, AWS Lambda, Cloudflare Workers等）で実行できる「セルフホスト型」の認証サーバーを簡単に構築できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>OAuth 2.0仕様に準拠しており、GoogleやGitHubなどの外部プロバイダー連携から、メール/パスワード、PINコードといった独自の認証フローまでを統合管理できます。認証されたユーザー情報を任意の「Subject（主体）」にマッピングし、アクセストークンやリフレッシュトークンを発行することが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Honoをベースに構築されており、極めて軽量かつ移植性が高いのが特徴です。また、認証と「ユーザー管理（データベース保存等）」を意図的に分離しており、認証成功後のコールバックで独自のロジックを実装できるため、既存のあらゆるデータベース構成と組み合わせることができます。SSTのメンテナーによって開発されており、デプロイの容易さも追求されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>「@openauthjs/openauth」パッケージを導入し、issuer関数を使用してプロバイダーやストレージ、成功時の処理を定義します。クライアント側では標準のOAuthライブラリを使用できるほか、提供されている専用クライアントライブラリを使うことで、トークンの検証や自動更新を数行のコードで実装できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Auth0やClerkなどのSaaS型認証サービスから脱却し、コスト削減やデータコントロールのために認証基盤を自前で運用したい開発者に最適です。また、複数のアプリ間で共通の認証基盤を必要とするプロジェクトや、サーバーレス環境で動作する軽量な認証サーバーを求めるチームに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>現在ベータ版として提供されているため、本番導入時はリリースの更新状況に注意が必要です。また、ユーザーデータの永続化については開発者側で実装する必要があるため（意図的な設計）、データベースとの連携部分の設計は慎重に行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenAuthは、認証という複雑な機能を「標準」という共通言語で整理し、開発者に自由とコントロールを取り戻させる野心的なプロジェクトです。セルフホストの障壁を下げつつ、高いカスタマイズ性と標準準拠を両立させた、極めて実用的でモダンな認証ソリューションと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anomalyco/openauth" target="_blank" rel="noreferrer">https://github.com/anomalyco/openauth</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #349</p>
+      </div>
+    </article>
+  </body>
+</html>
