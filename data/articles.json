@@ -19,6 +19,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-23-thinkinaixyz-deepchat",
+      "title": "deepchat",
+      "dek": "複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。",
+      "summary": "モデル、ツール、エージェント実行環境を1つのデスクトップアプリケーションに統合した強力なオープンソースAIプラットフォーム。MCPやACPなどの最新エージェントプロトコルを標準サポートしています。",
+      "publishedAt": "2026-04-23",
+      "repoName": "ThinkInAIXYZ/deepchat",
+      "repoUrl": "https://github.com/ThinkInAIXYZ/deepchat",
+      "starCount": 5700,
+      "articleUrl": "./articles/github/daily/2026-04-23-thinkinaixyz-deepchat.html",
+      "serial": 336,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-23-vercel-labs-skills",
       "title": "skills",
       "dek": "AIエージェントの能力をパッケージ管理。npx skillsでClaude CodeやCursorに新しい「スキル」を即座に追加できる次世代のエコシステム。",

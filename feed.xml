@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Apr 2026 05:47:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 18:46:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-23 アップデートレポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[deepchat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-thinkinaixyz-deepchat.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-thinkinaixyz-deepchat.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。]]></description>
     </item>
     <item>
       <title><![CDATA[skills]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google NotebookLMの強力なオープンソース代替。100%ローカル実行・マルチモデル対応で、プライバシーを守りつつ知識を構造化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Reflect]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-bayramannakov-claude-reflect.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-bayramannakov-claude-reflect.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-22T20:47:33.811156+00:00",
-  "count": 354,
+  "generatedAt": "2026-04-23T09:46:23.651273+00:00",
+  "count": 355,
   "articles": [
     {
       "slug": "2026-04-23-z4nzu-hackingtool",
@@ -46,6 +46,21 @@
       "articleUrl": "./articles/github/reports/2026-04-23-update-report.html",
       "serial": 25,
       "searchText": "2026-04-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending のトップ12を調査。langfuse, shannon, OpenMetadata, Pixelle-Video, hackingtool の計5件を新規に記事化しました。 2026-04-23 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-04-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-04-23 調査件数 全 12 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-04-23）の GitHub Trending にランクインしていたリポジトリの調査結果です。 zilliztech/claude-context ✅ 記事作成済み Fincept-Corporation/FinceptTerminal ✅ 記事作成済み koala73/worldmonitor ✅ 記事作成済み langfuse/langfuse ✨ 新規追加 KeygraphHQ/shannon ✨ 新規追加 open-metadata/OpenMetadata ✨ 新規追加 ruvnet/RuView ✅ 記事作成済み HKUDS/RAG-Anything ✅ 記事作成済み sansan0/TrendRadar ✅ 記事作成済み AIDC-AI/Pixelle-Video ✨ 新規追加 Z4nzu/hackingtool ✨ 新規追加 vercel-labs/skills 未作成（本日の上限により） 今後の展望 本日はLLM開発を支える基盤ツール（Langfuse）から、AIによる自動侵入テスト（Shannon）、さらには全自動動画生成（Pixelle-Video）まで、非常に「AIエージェントの実践投入」を感じさせるリポジトリが目立ちました。特に、セキュリティ分野でのAI活用は今後さらに加速すると予想され、Shannonのような自律型ツールの進化に注目していきたいところです。"
+    },
+    {
+      "slug": "2026-04-23-thinkinaixyz-deepchat",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "deepchat",
+      "dek": "複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。",
+      "summary": "モデル、ツール、エージェント実行環境を1つのデスクトップアプリケーションに統合した強力なオープンソースAIプラットフォーム。MCPやACPなどの最新エージェントプロトコルを標準サポートしています。",
+      "repoName": "ThinkInAIXYZ/deepchat",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-23",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-23-thinkinaixyz-deepchat.html",
+      "serial": 336,
+      "searchText": "deepchat 複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。 モデル、ツール、エージェント実行環境を1つのデスクトップアプリケーションに統合した強力なオープンソースAIプラットフォーム。MCPやACPなどの最新エージェントプロトコルを標準サポートしています。 ThinkInAIXYZ/deepchat AIエージェント (自律基盤・特化アプリ) deepchat ← 記事一覧へ戻る GitHub Watcher deepchat 複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。 記事作成日 2026-04-23 種別 Pickup 対象 repo ThinkInAIXYZ/deepchat Star数 5,700 これは何か DeepChatは、モデル、ツール、エージェント実行環境を1つのデスクトップアプリケーションに統合した強力なオープンソースAIプラットフォームです。OpenAI、Gemini、AnthropicなどのクラウドAPIや、Ollamaを用いたローカルモデルをシームレスに利用できるだけでなく、MCP（Model Context Protocol）やACP（Agent Client Protocol）といった次世代のエージェントプロトコルを標準でサポートしています。 何ができるか 複数モデルの統合管理、Ollamaを用いたローカルモデルの容易なデプロイ・実行、そしてMCPを通じたコード実行やWebアクセスなどのツール呼び出しが可能です。さらに、Agent Client Protocol (ACP) を介して、外部の自律エージェントをモデルの1つとして扱うこともでき、構造化されたプランやターミナル出力用の専用ワークスペースUIを提供します。 目立つポイント マルチモデル対応 : クラウドAPIからローカルモデル(Ollama)まで、主流なLLMを幅広くサポートし、1つのアプリで管理可能。 MCPエコシステム内包 : リソース、プロンプト、ツールの3つのコア機能をサポート。組み込みのNode.jsランタイムにより、設定不要ですぐにコード実行やWeb検索などを活用できます。 ACP統合 : ACP互換の自律エージェントを統合し、専用のワークスペースUIで高度なタスクを効率よく実行可能です。 洗練されたUI/UX : CodeMirrorベースのコード表示、マルチウィンドウ・タブでの並行操作、各種Artifactsレンダリングなど、モダンなチャットクライアントとしての完成度が非常に高いです。 セットアップや使い方の流れ Windows、macOS、Linux向けのバイナリが提供されており、公式サイトやGitHubのReleasesページからダウンロードしてインストールします。macOSの場合はHomebrew（ brew install --cask deepchat ）でも導入できます。インストール後、設定画面からAPIキーを入力するかOllamaを連携させれば、すぐにチャットやエージェント機能を利用開始できます。 どんな人向けか 複数のLLMを切り替えて使いたい開発者やクリエイター、最新のMCPツールや自律型エージェント(ACP)をコマンドラインではなく使いやすいGUI上で一元管理・活用したいパワーユーザーに最適です。 注意点 クラウドAPIの利用には各自でAPIキー（従量課金等）の準備が必要です。また、MCPやACPによるコード実行ツールなどは強力な反面、意図しないファイル操作などが発生する可能性があるため、実行環境には注意して利用してください。 まとめ クラウドAPIとローカルモデルの壁をなくし、最新のエージェントプロトコル（MCP・ACP）の恩恵を直感的かつ美しいデスクトップUIで享受できる、まさに次世代のAIワークステーションです。 参照リンク https://github.com/ThinkInAIXYZ/deepchat Shared GitHub Serial: #336"
     },
     {
       "slug": "2026-04-23-open-metadata-openmetadata",

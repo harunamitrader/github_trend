@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>deepchat</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">deepchat</h1>
+      <p class="article-dek">複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ThinkInAIXYZ/deepchat" target="_blank" rel="noreferrer">
+              ThinkInAIXYZ/deepchat
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>DeepChatは、モデル、ツール、エージェント実行環境を1つのデスクトップアプリケーションに統合した強力なオープンソースAIプラットフォームです。OpenAI、Gemini、AnthropicなどのクラウドAPIや、Ollamaを用いたローカルモデルをシームレスに利用できるだけでなく、MCP（Model Context Protocol）やACP（Agent Client Protocol）といった次世代のエージェントプロトコルを標準でサポートしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数モデルの統合管理、Ollamaを用いたローカルモデルの容易なデプロイ・実行、そしてMCPを通じたコード実行やWebアクセスなどのツール呼び出しが可能です。さらに、Agent Client Protocol (ACP) を介して、外部の自律エージェントをモデルの1つとして扱うこともでき、構造化されたプランやターミナル出力用の専用ワークスペースUIを提供します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          <ul>
+            <li><strong>マルチモデル対応</strong>: クラウドAPIからローカルモデル(Ollama)まで、主流なLLMを幅広くサポートし、1つのアプリで管理可能。</li>
+            <li><strong>MCPエコシステム内包</strong>: リソース、プロンプト、ツールの3つのコア機能をサポート。組み込みのNode.jsランタイムにより、設定不要ですぐにコード実行やWeb検索などを活用できます。</li>
+            <li><strong>ACP統合</strong>: ACP互換の自律エージェントを統合し、専用のワークスペースUIで高度なタスクを効率よく実行可能です。</li>
+            <li><strong>洗練されたUI/UX</strong>: CodeMirrorベースのコード表示、マルチウィンドウ・タブでの並行操作、各種Artifactsレンダリングなど、モダンなチャットクライアントとしての完成度が非常に高いです。</li>
+          </ul>
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Windows、macOS、Linux向けのバイナリが提供されており、公式サイトやGitHubのReleasesページからダウンロードしてインストールします。macOSの場合はHomebrew（<code>brew install --cask deepchat</code>）でも導入できます。インストール後、設定画面からAPIキーを入力するかOllamaを連携させれば、すぐにチャットやエージェント機能を利用開始できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数のLLMを切り替えて使いたい開発者やクリエイター、最新のMCPツールや自律型エージェント(ACP)をコマンドラインではなく使いやすいGUI上で一元管理・活用したいパワーユーザーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>クラウドAPIの利用には各自でAPIキー（従量課金等）の準備が必要です。また、MCPやACPによるコード実行ツールなどは強力な反面、意図しないファイル操作などが発生する可能性があるため、実行環境には注意して利用してください。</p>
+
+        <h2>まとめ</h2>
+        <p>クラウドAPIとローカルモデルの壁をなくし、最新のエージェントプロトコル（MCP・ACP）の恩恵を直感的かつ美しいデスクトップUIで享受できる、まさに次世代のAIワークステーションです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ThinkInAIXYZ/deepchat" target="_blank" rel="noreferrer">https://github.com/ThinkInAIXYZ/deepchat</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #336</p>
+      </div>
+    </article>
+  </body>
+</html>
