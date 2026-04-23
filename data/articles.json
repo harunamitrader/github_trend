@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-23-traderalice-auto-quant",
+      "title": "Auto-Quant",
+      "dek": "Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。",
+      "summary": "Andrej Karpathy氏が提唱した「autoresearch」の概念を量化トレードに応用。FreqTradeのバックテスト環境を利用し、AIエージェントが自ら取引戦略の記述・テスト・評価を自律的に繰り返す実験的プロジェクトです。",
+      "publishedAt": "2026-04-23",
+      "createdAt": "2026-04-23T21:20:00+09:00",
+      "repoName": "TraderAlice/Auto-Quant",
+      "repoUrl": "https://github.com/TraderAlice/Auto-Quant",
+      "starCount": 140,
+      "articleUrl": "./articles/github/daily/2026-04-23-traderalice-auto-quant.html",
+      "serial": 338,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-23-update-report",
       "title": "2026-04-23 アップデートレポート",

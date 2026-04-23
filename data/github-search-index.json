@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-23T11:26:23.869010+00:00",
-  "count": 356,
+  "generatedAt": "2026-04-23T12:21:50.996719+00:00",
+  "count": 357,
   "articles": [
+    {
+      "slug": "2026-04-23-traderalice-auto-quant",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Auto-Quant",
+      "dek": "Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。",
+      "summary": "Andrej Karpathy氏が提唱した「autoresearch」の概念を量化トレードに応用。FreqTradeのバックテスト環境を利用し、AIエージェントが自ら取引戦略の記述・テスト・評価を自律的に繰り返す実験的プロジェクトです。",
+      "repoName": "TraderAlice/Auto-Quant",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-23",
+      "createdAt": "2026-04-23T21:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-23-traderalice-auto-quant.html",
+      "serial": 338,
+      "searchText": "Auto-Quant Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。 Andrej Karpathy氏が提唱した「autoresearch」の概念を量化トレードに応用。FreqTradeのバックテスト環境を利用し、AIエージェントが自ら取引戦略の記述・テスト・評価を自律的に繰り返す実験的プロジェクトです。 TraderAlice/Auto-Quant 金融・トレード分析 Auto-Quant ← 記事一覧へ戻る GitHub Watcher Auto-Quant Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。 記事作成日 2026-04-23 種別 Pickup 対象 repo TraderAlice/Auto-Quant Star数 140 これは何か Andrej Karpathy氏が提唱した「autoresearch（自律研究）」の概念を、暗号資産の量化（クオンツ）トレード戦略の探索に応用した実験的なプロジェクトです。FreqTradeのバックテスト環境と組み合わせ、LLMエージェントが自ら取引戦略のコードを書き、テストし、結果を評価して改善するループを構築します。 何ができるか エージェント（Claude CodeやCursorなど）にこのリポジトリを与えると、初期戦略の作成から始まり、自動でバックテスト（ run.py ）を実行します。結果のSharpeレシオなどを確認しながら、戦略の保持、進化、フォーク、あるいは破棄を自律的に判断し、何百回もの実験ループを人手の介入なしに回し続けます。 目立つポイント 最大の特徴は、AIエージェントの行動を固定のオーケストレーター（Pythonスクリプトなど）ではなく、自然言語で記述された program.md というプロンプトファイルで制御している点です。また、イベントログ（ results.tsv ）を保持しながらGitの操作（commitやreset）をエージェント自身に行わせることで、試行錯誤の歴史を安全に記録します。 セットアップや使い方の流れ Python 3.11以上と uv 、そしてTA-LibのCライブラリが必要です。 uv sync で依存関係をインストール後、 uv run prepare.py でBinanceから過去データをダウンロードします。その後、Claude Codeなどのエージェントを起動し、「program.mdを見て新しい実験を開始して」と指示するだけで自律ループがスタートします。 どんな人向けか AIエージェントによるコード生成や自律的な研究ループに興味がある開発者、およびシステマティックトレード（システムトレード）の新しいアプローチを模索しているクオンツ・リサーチャー。 注意点 本プロジェクトは「AIが自律研究ループを回せるか」を検証するためのプロトタイプであり、実際の資金を運用するための投資推奨ではありません。生成された戦略の中には、バックテストの穴を突くような過学習（ハルシネーションの一種）が含まれる可能性もあるため、結果の解釈には注意が必要です。 まとめ Auto-Quantは、LLMエージェントをプログラマーとしてだけでなく、仮説検証を繰り返す「研究者」として機能させるためのミニマルな基盤です。トレード戦略の探索という具体的なタスクを通じて、未来のAI駆動型リサーチの可能性を垣間見ることができます。 参照リンク https://github.com/TraderAlice/Auto-Quant Shared GitHub Serial: #338"
+    },
     {
       "slug": "2026-04-23-z4nzu-hackingtool",
       "category": "github-trending",
