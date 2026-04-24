@@ -20,7 +20,7 @@
       "starCount": 15200,
       "articleUrl": "./articles/github/daily/2026-04-24-chiphuyen-aie-book.html",
       "serial": 350,
-      "genre": "AI学習リポジトリ (教育・ロードマップ・論文集)"
+      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "github-pickup",
@@ -36,7 +36,7 @@
       "starCount": 6800,
       "articleUrl": "./articles/github/daily/2026-04-24-anomalyco-openauth.html",
       "serial": 349,
-      "genre": "開発エコシステム (ライブラリ・フレームワーク)"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -574,7 +574,7 @@
       "starCount": 327,
       "articleUrl": "./articles/github/daily/2026-04-22-baidu-ernie-image.html",
       "serial": 328,
-      "genre": "AIモデル・生成AI・基盤モデル"
+      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-pickup",
@@ -590,7 +590,7 @@
       "starCount": 4500,
       "articleUrl": "./articles/github/daily/2026-04-22-czlonkowski-n8n-skills.html",
       "serial": 327,
-      "genre": "開発支援・各種ツール"
+      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "github-pickup",
@@ -654,7 +654,7 @@
       "starCount": 26200,
       "articleUrl": "./articles/github/daily/2026-04-22-gitleaks-gitleaks.html",
       "serial": 323,
-      "genre": "開発支援・各種ツール"
+      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "github-pickup",
@@ -670,7 +670,7 @@
       "starCount": 1500,
       "articleUrl": "./articles/github/daily/2026-04-22-lightningpixel-modly.html",
       "serial": 322,
-      "genre": "クリエイティブ・マルチメディア"
+      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "github-pickup",
@@ -813,7 +813,7 @@
     {
       "category": "ai-tool-log",
       "slug": "2026-04-21-chatgpt-gpt-5-4-imagegen-2-0",
-      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "genre": "AI基盤・データ基盤・業務アプリ",
       "title": "ChatGPT: GPT-5.4 と ImageGen 2.0 が統合された大型リリース",
       "dek": "推論の正確性を極めた新基盤と、対話ベースで自在に加工できる画像生成エンジンが登場。",
       "summary": "OpenAI が GPT-5.4 と ImageGen 2.0 を同時リリース。ハルシネーションの削減と、対話型画像編集機能のウェブ・モバイル統合が行われました。",
@@ -824,7 +824,7 @@
     {
       "category": "ai-tool-log",
       "slug": "2026-04-21-obsidian-cli-binary-refresh",
-      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "genre": "AI基盤・データ基盤・業務アプリ",
       "title": "Obsidian: CLI バイナリ刷新による高速化と安定性の向上",
       "dek": "3月に導入された CLI 基盤がアップデート。大規模な保管庫でのインデックス処理や起動時間が大幅に改善されました。",
       "summary": "Rust ベースのコアバイナリが最適化され、Windows 環境でのオーバーヘッド削減や大規模保管庫での検索・起動速度が向上しました。",
@@ -1030,7 +1030,7 @@
     {
       "id": "2026-04-21-perplexity-personal-computer-for-mac",
       "category": "ai-tool-log",
-      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "genre": "AI基盤・データ基盤・業務アプリ",
       "title": "Perplexity \"Personal Computer\" for Mac: ローカル連携を強化したデスクトップの進化",
       "publishedAt": "2026-04-21",
       "articleUrl": "./articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html",
@@ -1039,7 +1039,7 @@
     {
       "id": "2026-04-21-gemini-for-mac-launch",
       "category": "ai-tool-log",
-      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "genre": "AI基盤・データ基盤・業務アプリ",
       "title": "Google Gemini: macOS 用ネイティブアプリがついに登場",
       "publishedAt": "2026-04-21",
       "articleUrl": "./articles/tools/2026-04-21-gemini-for-mac-launch.html",
@@ -1378,7 +1378,7 @@
       "articleUrl": "./articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html",
       "serial": 285,
       "originType": "pickup",
-      "genre": "トレード (自動取引・分析ツール)"
+      "genre": "金融・トレード分析"
     },
     {
       "category": "github-pickup",
