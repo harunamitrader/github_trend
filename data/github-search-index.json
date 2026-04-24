@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-24T10:17:40.726266+00:00",
-  "count": 374,
+  "generatedAt": "2026-04-24T10:19:12.945203+00:00",
+  "count": 375,
   "articles": [
+    {
+      "slug": "2026-04-24-neka-nat-freecad-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "FreeCAD MCP Server",
+      "dek": "Claude Desktopからオープンソースの3D CAD「FreeCAD」を直接操作し、3Dモデルの作成・編集・視覚化を可能にする MCPサーバー。",
+      "summary": "AIがFreeCADの『手』となり、3Dモデリング作業を直接代行。オブジェクト操作からPythonコード実行、画面キャプチャまでをサポートし、自然言語による設計支援を実現します。",
+      "repoName": "neka-nat/freecad-mcp",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:18:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-neka-nat-freecad-mcp.html",
+      "serial": 355,
+      "searchText": "FreeCAD MCP Server Claude Desktopからオープンソースの3D CAD「FreeCAD」を直接操作し、3Dモデルの作成・編集・視覚化を可能にする MCPサーバー。 AIがFreeCADの『手』となり、3Dモデリング作業を直接代行。オブジェクト操作からPythonコード実行、画面キャプチャまでをサポートし、自然言語による設計支援を実現します。 neka-nat/freecad-mcp AIコーディング (ワークフロー・プロンプト・開発補助ツール) FreeCAD MCP Server ← 記事一覧へ戻る GitHub Watcher FreeCAD MCP Server Claude Desktopからオープンソースの3D CAD「FreeCAD」を直接操作し、3Dモデルの作成・編集・視覚化を可能にするMCPサーバー。 記事作成日 2026-04-24 種別 Pickup 対象 repo neka-nat/freecad-mcp Star数 830 これは何か オープンソースの3DCADソフトウェア「FreeCAD」とAIエージェント（Claude Desktop等）を接続するための、MCP（Model Context Protocol）サーバー実装です。AIがプロンプトを通じて、FreeCAD上でのモデリング作業を直接実行できるようにします。 何ができるか ドキュメントや3Dオブジェクトの新規作成、既存オブジェクトの編集・削除、さらにはFreeCAD内部でのPythonコード実行が可能です。また、現在のモデルのスクリーンショットを取得してAIに見せたり、既存のパーツライブラリから部品を挿入したりすることもできます。 目立つポイント Claudeのインターフェースから「〇〇の形状をしたパーツを作って」と指示するだけで、AIが背後でFreeCADを操作してモデリングを進める体験を提供します。リモート接続にも対応しており、FreeCADが動作しているPCとAIツールを動かしているPCが別々でも制御可能です。 セットアップや使い方の流れ FreeCAD側に専用のアドオン（FreeCADMCP）をインストールし、RPCサーバーを起動します。その後、Claude Desktopの設定ファイル（claude_desktop_config.json）に本サーバーを追加することで、チャット経由での操作が可能になります。 どんな人向けか AIを活用してCAD作業を自動化・効率化したい設計者やエンジニア、自然言語で3Dモデリングを試してみたい開発者、あるいは複雑な形状をプログラム的に生成したいパワーユーザーに最適です。 注意点 使用にはFreeCAD本体のインストールとアドオンの設定が必要です。また、AIに自由なPythonコード実行を許可するツール（execute_code）が含まれるため、セキュリティ上の観点から信頼できる環境での利用を推奨します。 まとめ freecad-mcpは、製造業やDIY、プロトタイピングの現場において、AIが単なる「助言者」から「実務をこなす手」へと進化する可能性を示す興味深いプロジェクトです。CAD特有の煩雑な操作をAIが肩代わりしてくれる未来を、今すぐ体験できます。 参照リンク https://github.com/neka-nat/freecad-mcp Shared GitHub Serial: #355"
+    },
     {
       "slug": "2026-04-24-echohive42-ai-reads-books-page-by-page",
       "category": "github-pickup",

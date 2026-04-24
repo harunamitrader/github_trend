@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-neka-nat-freecad-mcp",
+      "title": "FreeCAD MCP Server",
+      "dek": "Claude Desktopからオープンソースの3D CAD「FreeCAD」を直接操作し、3Dモデルの作成・編集・視覚化を可能にする MCPサーバー。",
+      "summary": "AIがFreeCADの『手』となり、3Dモデリング作業を直接代行。オブジェクト操作からPythonコード実行、画面キャプチャまでをサポートし、自然言語による設計支援を実現します。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:18:00+09:00",
+      "repoName": "neka-nat/freecad-mcp",
+      "repoUrl": "https://github.com/neka-nat/freecad-mcp",
+      "starCount": 830,
+      "articleUrl": "./articles/github/daily/2026-04-24-neka-nat-freecad-mcp.html",
+      "serial": 355,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-echohive42-ai-reads-books-page-by-page",
       "title": "AI reads books: Page-by-Page",
       "dek": "AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。",
