@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 19:19:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 04:06:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor 3.2: Agents Window の並列実行(/multitask)とワークツリー対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cursor-v3-2-multitask-worktrees-multi-root.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cursor-v3-2-multitask-worktrees-multi-root.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.119: 設定の永続化と WSL 連携の強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-claude-code-v2-1-119-settings-persistence-wsl.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-claude-code-v2-1-119-settings-persistence-wsl.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[設定の永続化、WSL での Windows 設定継承、自動アップデートの完全無効化など、実用的な改善を含むパッチアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[FreeCAD MCP Server]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-neka-nat-freecad-mcp.html</link>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vimビジュアルモードの追加やコマンド統合により、ターミナルでの操作性と統計管理が向上。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.41.0-nightly: ripgrepの同梱とYOLOモードの修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-gemini-cli-v0-41-0-nightly-ripgrep.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-gemini-cli-v0-41-0-nightly-ripgrep.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[外部依存の削減とバグ修正により、オフライン環境でのセットアップと自律実行の安定性が向上。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.2.0: Grok-2 対応と TUI 刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-grok-cli-v1-2-0-grok-2-tui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-grok-cli-v1-2-0-grok-2-tui.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[最新モデル Grok-2 への完全対応と、より直感的になった TUI により開発体験が劇的に進化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Extensions の一般提供(GA)とメトリクスAPIの拡充]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-github-copilot-extensions-ga-metrics-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-github-copilot-extensions-ga-metrics-api.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[外部ツールと連携する Copilot Extensions が正式リリース。管理向けの利用統計 API も強化。]]></description>
     </item>
   </channel>
 </rss>

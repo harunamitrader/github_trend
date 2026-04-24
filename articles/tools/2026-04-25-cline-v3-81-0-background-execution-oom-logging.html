@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化</h1>
+      <p class="article-dek">全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.81.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>コマンド実行の安定性と、大規模タスクにおけるデバッグ能力を向上させるアップデートが行われました。</p>
+        <ul>
+            <li><strong>コマンド実行の完全バックグラウンド化:</strong> 従来の「フォアグラウンドターミナルモード」が廃止され、全てのタスクがデフォルトでバックグラウンド実行されるようになりました。これにより、VS Code の統合ターミナル設定に依存せず、より安定した動作が可能になります。</li>
+            <li><strong>メモリ使用量の定期ログ記録:</strong> 定期的なメモリ使用量の記録機能が追加され、大規模なプロジェクトでの動作状況を把握しやすくなりました。</li>
+            <li><strong>OOM (Out Of Memory) 診断機能:</strong> 異常終了時にヒープスナップショットのログを出力する機能が実装され、メモリ不足によるクラッシュの調査が容易になりました。</li>
+            <li><strong>UI のクリーンアップ:</strong> 古いハードコードされたアナウンス用バナーが削除され、インターフェースが整理されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>VS Code のターミナル設定に左右されず、一貫したコマンド実行が期待できるようになります。また、メモリ不足で Cline が落ちてしまうような大規模な開発環境において、原因特定がスムーズになる大きな前進です。</p>
+
+        <h2>まとめ</h2>
+        <p>ターミナル統合の制約を排除し、より堅牢なバックエンドへと進化したアップデートです。大規模プロジェクトでの安定性がさらに向上しました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">GitHub Releases - cline/cline</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

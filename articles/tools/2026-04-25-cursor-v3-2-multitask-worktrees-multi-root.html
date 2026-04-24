@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor 3.2: Agents Window の並列実行(/multitask)とワークツリー対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cursor 3.2: Agents Window の並列実行(/multitask)とワークツリー対応</h1>
+      <p class="article-dek">Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>AI エージェントによるマルチタスク性能と、複雑なワークスペース管理能力が大幅に強化されました。</p>
+        <ul>
+            <li><strong>マルチタスク(/multitask):</strong> 非同期サブエージェントを利用して、複数のリクエストを並列に実行できるようになりました。巨大なタスクを分割して並列処理することで、完了までの時間を大幅に短縮できます。</li>
+            <li><strong>ワークツリー対応:</strong> Agents Window 内で Git ワークツリーを構築できるようになりました。バックグラウンドで別ブランチの作業をエージェントに任せ、ワンクリックでフォアグラウンド（メインの作業）に切り替えるといった運用が可能です。</li>
+            <li><strong>マルチルートワークスペースのサポート:</strong> 複数のフォルダを含むワークスペースに対しても、エージェントがフォルダを跨いで変更を適用できるようになりました。フロントエンドとバックエンドが別リポジトリにある場合などに有効です。</li>
+            <li><strong>CLI の安定性向上:</strong> Ctrl+Z によるバックグラウンド化の信頼性向上や、Debug/Plan モードでの自動実行サポートなど、CLI 側の操作性も改善されています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>「エージェントに任せて自分は別の作業をする」というワークフローがより洗練されました。特に、複数ブランチを並行して管理する場合や、リポジトリを跨ぐ大規模なリファクタリングにおいて、Cursor の優位性がさらに際立つアップデートです。</p>
+
+        <h2>まとめ</h2>
+        <p>「Agent-First」な開発環境として、並列性とワークスペース管理を一段上のレベルへ引き上げたメジャーアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

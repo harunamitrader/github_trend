@@ -7,6 +7,39 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-cline-v3-81-0-background-execution-oom-logging",
+      "title": "Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化",
+      "dek": "全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。",
+      "summary": "コマンド実行の完全バックグラウンド化と、大規模プロジェクト向けのメモリ診断機能を強化したアップデート。",
+      "publishedAt": "2026-04-25",
+      "toolName": "Cline",
+      "version": "v3.81.0",
+      "articleUrl": "./articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-cursor-v3-2-multitask-worktrees-multi-root",
+      "title": "Cursor 3.2: Agents Window の並列実行(/multitask)とワークツリー対応",
+      "dek": "Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。",
+      "summary": "並列実行、ワークツリー、マルチルートワークスペース対応など、エージェントワークフローを劇的に進化させるメジャーアップデート。",
+      "publishedAt": "2026-04-25",
+      "toolName": "Cursor",
+      "version": "v3.2",
+      "articleUrl": "./articles/tools/2026-04-25-cursor-v3-2-multitask-worktrees-multi-root.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-claude-code-v2-1-119-settings-persistence-wsl",
+      "title": "Claude Code v2.1.119: 設定の永続化と WSL 連携の強化",
+      "dek": "設定の永続化、WSL での Windows 設定継承、自動アップデートの完全無効化など、実用的な改善を含むパッチアップデート。",
+      "summary": "設定の保存機能や WSL での互換性向上など、ユーザビリティを改善したパッチリリース。",
+      "publishedAt": "2026-04-25",
+      "toolName": "Claude Code",
+      "version": "v2.1.119",
+      "articleUrl": "./articles/tools/2026-04-25-claude-code-v2-1-119-settings-persistence-wsl.html"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-24-neka-nat-freecad-mcp",
