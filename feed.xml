@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 15:11:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 18:30:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[FreeLLMAPI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-tashfeenahmed-freellmapi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-tashfeenahmed-freellmapi.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[BrowserWing]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-browserwing-browserwing.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Auto-Quant]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-traderalice-auto-quant.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-traderalice-auto-quant.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。]]></description>
     </item>
   </channel>
 </rss>

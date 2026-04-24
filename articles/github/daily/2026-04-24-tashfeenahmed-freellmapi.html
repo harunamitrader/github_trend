@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>FreeLLMAPI</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">FreeLLMAPI</h1>
+      <p class="article-dek">14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noreferrer">
+              tashfeenahmed/freellmapi
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>268</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google、Groq、Mistral、GitHub Modelsなど、主要なAIプロバイダーが提供している「無料枠（Free Tier）」のAPIキーを一つにまとめ、OpenAI互換の単一エンドポイントとして提供するプロキシサーバーです。個別のSDKや複雑なレート制限管理から解放され、実験的なプロジェクトで大量のトークン（月間約13億トークン分）を無料で活用可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロバイダーがレート制限（429）に達したり、5xxエラーを返したりした場合、自動的に次の利用可能なプロバイダーへリクエストを転送（フェイルオーバー）します。また、プロバイダーごとのRPM/TPD制限を自動追跡し、常に最適なモデルを選択するルーター機能や、暗号化されたキー管理ダッシュボード、リクエスト履歴の分析機能を備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>OpenAI SDKやLangChainなどの既存ツールから、<code>base_url</code>を変更するだけで即座に利用可能です。ストリーミング応答、ツール呼び出し（Function Calling）、スティッキーセッション（会話の一貫性維持）など、実用的な機能もフルサポートしています。Node.jsで動作し、Raspberry Piのような軽量な環境でも運用できる設計です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 20以上が動作する環境でリポジトリをクローンし、環境変数を設定して起動します。Webベースの管理画面から各プロバイダーのAPIキーを登録すれば、自分だけの「無限に近い無料LLM API」が手に入ります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>APIコストを抑えてLLMの実験を行いたい個人開発者、複数の無料モデルを組み合わせて冗長性を確保したいエンジニア、あるいは大量のトークンを消費するバッチ処理をコストゼロで試行したい学習者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>本ツールは「個人レベルの実験用」として設計されています。無料枠の仕様変更により動作が不安定になる可能性があるほか、商用利用やマルチテナントでの公開は推奨されていません。また、上位モデルから下位モデルへの動的な切り替えが発生するため、推論精度が時間帯によって変動する点に注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>FreeLLMAPIは、分散している「無料リソース」を一つの強力な推論インフラへと変貌させる賢いソリューションです。開発者がコストを気にせず、AIエンジニアリングの本質的な部分（プロンプトやロジック）に集中できる環境を、自前で構築できる点が最大の魅力です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noreferrer">https://github.com/tashfeenahmed/freellmapi</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #352</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-tashfeenahmed-freellmapi",
+      "title": "FreeLLMAPI",
+      "dek": "14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。",
+      "summary": "Google, Groq, Mistralなどの無料枠APIを集約し、単一のエンドポイントとして提供。レート制限を自動回避しながら月間10億トークン以上の推論リソースを無料で活用可能にします。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T18:30:00+09:00",
+      "repoName": "tashfeenahmed/freellmapi",
+      "repoUrl": "https://github.com/tashfeenahmed/freellmapi",
+      "starCount": 268,
+      "articleUrl": "./articles/github/daily/2026-04-24-tashfeenahmed-freellmapi.html",
+      "serial": 352,
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-browserwing-browserwing",
       "title": "BrowserWing",
       "dek": "ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-24T06:11:25.787859+00:00",
-  "count": 371,
+  "generatedAt": "2026-04-24T09:30:39.855280+00:00",
+  "count": 372,
   "articles": [
+    {
+      "slug": "2026-04-24-tashfeenahmed-freellmapi",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "FreeLLMAPI",
+      "dek": "14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。",
+      "summary": "Google, Groq, Mistralなどの無料枠APIを集約し、単一のエンドポイントとして提供。レート制限を自動回避しながら月間10億トークン以上の推論リソースを無料で活用可能にします。",
+      "repoName": "tashfeenahmed/freellmapi",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T18:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-tashfeenahmed-freellmapi.html",
+      "serial": 352,
+      "searchText": "FreeLLMAPI 14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。 Google, Groq, Mistralなどの無料枠APIを集約し、単一のエンドポイントとして提供。レート制限を自動回避しながら月間10億トークン以上の推論リソースを無料で活用可能にします。 tashfeenahmed/freellmapi AI基盤・データ基盤・業務アプリ FreeLLMAPI ← 記事一覧へ戻る GitHub Watcher FreeLLMAPI 14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。 記事作成日 2026-04-24 種別 Pickup 対象 repo tashfeenahmed/freellmapi Star数 268 これは何か Google、Groq、Mistral、GitHub Modelsなど、主要なAIプロバイダーが提供している「無料枠（Free Tier）」のAPIキーを一つにまとめ、OpenAI互換の単一エンドポイントとして提供するプロキシサーバーです。個別のSDKや複雑なレート制限管理から解放され、実験的なプロジェクトで大量のトークン（月間約13億トークン分）を無料で活用可能にします。 何ができるか プロバイダーがレート制限（429）に達したり、5xxエラーを返したりした場合、自動的に次の利用可能なプロバイダーへリクエストを転送（フェイルオーバー）します。また、プロバイダーごとのRPM/TPD制限を自動追跡し、常に最適なモデルを選択するルーター機能や、暗号化されたキー管理ダッシュボード、リクエスト履歴の分析機能を備えています。 目立つポイント OpenAI SDKやLangChainなどの既存ツールから、 base_url を変更するだけで即座に利用可能です。ストリーミング応答、ツール呼び出し（Function Calling）、スティッキーセッション（会話の一貫性維持）など、実用的な機能もフルサポートしています。Node.jsで動作し、Raspberry Piのような軽量な環境でも運用できる設計です。 セットアップや使い方の流れ Node.js 20以上が動作する環境でリポジトリをクローンし、環境変数を設定して起動します。Webベースの管理画面から各プロバイダーのAPIキーを登録すれば、自分だけの「無限に近い無料LLM API」が手に入ります。 どんな人向けか APIコストを抑えてLLMの実験を行いたい個人開発者、複数の無料モデルを組み合わせて冗長性を確保したいエンジニア、あるいは大量のトークンを消費するバッチ処理をコストゼロで試行したい学習者に最適です。 注意点 本ツールは「個人レベルの実験用」として設計されています。無料枠の仕様変更により動作が不安定になる可能性があるほか、商用利用やマルチテナントでの公開は推奨されていません。また、上位モデルから下位モデルへの動的な切り替えが発生するため、推論精度が時間帯によって変動する点に注意が必要です。 まとめ FreeLLMAPIは、分散している「無料リソース」を一つの強力な推論インフラへと変貌させる賢いソリューションです。開発者がコストを気にせず、AIエンジニアリングの本質的な部分（プロンプトやロジック）に集中できる環境を、自前で構築できる点が最大の魅力です。 参照リンク https://github.com/tashfeenahmed/freellmapi Shared GitHub Serial: #352"
+    },
     {
       "slug": "2026-04-24-browserwing-browserwing",
       "category": "github-pickup",
