@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Parallel Code</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Parallel Code</h1>
+      <p class="article-dek">複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-25 -->
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/johannesjo/parallel-code" target="_blank" rel="noreferrer">
+              johannesjo/parallel-code
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>550</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code, Codex, Gemini CLI といった強力な AI エージェントたちを、文字通り「並列（Parallel）」で走らせるためのデスクトップアプリケーションです。通常、一つのリポジトリで複数のエージェントを走らせるとファイルの競合が起きますが、このツールはタスクごとに独立した <code>git worktree</code> を自動生成することで、完全に隔離された環境での同時作業を可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>新しいタスクを作成するたびに、Parallel Code は裏側で新しいブランチを作成し、専用の作業ディレクトリ（worktree）をセットアップします。エージェントはそのディレクトリ内で作業を行うため、開発者はダッシュボード上で複数のエージェントが異なる機能を同時に実装していく様子をタイル状の画面で監視できます。完了したタスクは、サイドバーから簡単にメインブランチへマージ可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるチャットUIのラッパーではなく、本物のターミナル CLI を直接 UI 内に埋め込んでいるため、エージェント本来の操作感やパワーを損ないません。また、40以上のショートカットを備えたキーボードファーストの設計や、スマホで進行状況を監視できる QR コード連携、さらには Docker を利用した安全な隔離実行モードなど、プロの開発者が現場で必要とする機能が凝縮されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>macOS (.dmg) および Linux (.AppImage/.deb) 向けにリリースされています。インストール後、お手持ちの Git リポジトリを指定し、使用したい AI エージェント（Claude Code 等）のパスを通すだけで準備完了です。タスクを追加すると即座に独立したセッションが立ち上がり、並列開発を開始できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>「AI エージェントの返答や作業を待っている時間がもったいない」と感じている開発者に最適です。5つの細かい修正や機能を、5体のエージェントに同時に投げ、自分はそれらをマージ・確認する「指揮官」としての役割に専念したい場合に、このツールの真価が発揮されます。</p>
+
+        <h2>注意点</h2>
+        <p>各セッションが独立したディレクトリを使用するため、プロジェクトの規模によってはディスク容量を消費したり、依存関係のシンボリックリンク設定に注意が必要な場合があります（ツール側で自動化されていますが）。現在は macOS と Linux のみをサポートしています。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェントを「一対一」で使う時代から、「一対多」で指揮する時代への架け橋となるツールです。待機時間を並列作業に変えることで、開発スピードを理論上数倍に跳ね上げることができます。オープンソースで提供されており、自分の使い慣れた CLI ツールをそのまま統合できる柔軟性も大きな魅力です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/johannesjo/parallel-code" target="_blank" rel="noreferrer">https://github.com/johannesjo/parallel-code</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #366</p>
+      </div>
+    </article>
+  </body>
+</html>

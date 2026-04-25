@@ -92,6 +92,21 @@
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-johannesjo-parallel-code",
+      "title": "Parallel Code",
+      "dek": "複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。",
+      "summary": "エージェントを「待つ」時間を排除。タスクごとに独立した git worktree を自動セットアップし、Claude や Gemini などの CLI ツールを複数並列で走らせるためのタイル型ダッシュボードを提供します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "johannesjo/parallel-code",
+      "repoUrl": "https://github.com/johannesjo/parallel-code",
+      "starCount": 550,
+      "articleUrl": "./articles/github/daily/2026-04-25-johannesjo-parallel-code.html",
+      "serial": 366,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",

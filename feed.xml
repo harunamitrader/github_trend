@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 19:14:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 19:15:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-25 アップデートレポート]]></title>
@@ -54,6 +54,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[巨大なコードベースを「読まずに見る」。マルチエージェント分析でプロジェクトをインタラクティブな知識グラフに変換し、直感的な理解を支援する開発者向けツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Parallel Code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-johannesjo-parallel-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-johannesjo-parallel-code.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[osv-scanner]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Bloomberg Terminal Clone]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-feremabraz-bloomberg-terminal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-feremabraz-bloomberg-terminal.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。]]></description>
     </item>
   </channel>
 </rss>
