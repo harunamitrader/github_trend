@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cc-sdd</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cc-sdd</h1>
+      <p class="article-dek">「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/gotalab/cc-sdd" target="_blank" rel="noreferrer">
+              gotalab/cc-sdd
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIコーディングエージェント（Claude Code, Codex, Cursor, Copilot, Windsurf等）を、単なるチャットUIから「仕様に基づいて自律的にタスクを完遂するSDLC（ソフトウェア開発ライフサイクル）エンジン」へと変貌させるためのSDD（仕様駆動開発）ハーネスです。仕様書を「AIと人間の契約」として扱い、承認された仕様から自律的な実装を長時間駆動させることができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロジェクトの初期構想から、要件定義（EARS形式）、アーキテクチャ設計、具体的なタスク分割までのフローをAIがサポートします。そして最大の目玉は <code>/kiro-impl</code> コマンドによる自律実装です。定義された <code>tasks.md</code> に基づき、AIがタスクごとに実装、テスト実行（TDD）、独立したレビュアーによる検証、そして失敗時の自動デバッグ（Auto-debug）を繰り返し、人間が介入することなく機能を完成させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単一のプロンプトで実装させるのではなく、実装者（Implementer）とレビュアー（Reviewer）という役割を分離し、さらにエラー時には別の文脈で原因を調査する「Auto-debug」機能を備えている点が極めて強力です。これにより、既存のAIエージェントが陥りがちな「一度詰まるとループする」問題を克服し、複数のファイルを横断する大規模な機能追加でも高い成功率を維持します。また、主要な8種類のコーディングエージェントに同一の「Agent Skills」セットを提供できる互換性も備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>プロジェクトのルートディレクトリで <code>npx cc-sdd@latest</code> を実行するだけで導入可能です。その後、各エージェント（例：Claude Code）を起動し、<code>/kiro-discovery <作りたい機能></code> を入力することで、仕様の策定から実装までのガイドが開始されます。生成された仕様書（requirements.md, design.md, tasks.md）を人間がレビュー・承認すれば、あとは <code>/kiro-impl</code> で自律実装を開始するだけです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIを使って、より大規模で複雑な機能を「指示一発」に近い感覚で実装したい開発者。あるいは、AIに任せきりにするのではなく、仕様の段階で境界線（Boundary）を明確にし、設計品質を担保しながら自動化の恩恵を受けたいチームに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>v3.0へのメジャーアップデートにより、従来のコマンド体系から Agent Skills ベースのワークフローに刷新されています。また、実装は TDD（テスト駆動開発）を前提としているため、プロジェクトに適切なテスト環境が整っていることが望ましいです。</p>
+
+        <h2>まとめ</h2>
+        <p>cc-sddは、AIによる開発を「その場しのぎのパッチ当て」から、エンジニアリングの原則に基づいた「構造化された自律実行」へと引き上げるためのツールです。仕様書という古典的かつ本質的な資産を、AIエージェントを動かすための最高級の燃料へと変えてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/gotalab/cc-sdd" target="_blank" rel="noreferrer">https://github.com/gotalab/cc-sdd</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #377</p>
+      </div>
+    </article>
+  </body>
+</html>

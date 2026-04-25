@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-26-gotalab-cc-sdd",
+      "title": "cc-sdd",
+      "dek": "「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。",
+      "summary": "承認された仕様書（SDD）を元に、AIエージェントが自律的に実装・テスト・デバッグ・レビューを繰り返すためのワークフロー基盤。TDDに基づき、複数のタスクを連続して完遂させる強力な自律実行能力を提供します。",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-26T08:10:00+09:00",
+      "repoName": "gotalab/cc-sdd",
+      "repoUrl": "https://github.com/gotalab/cc-sdd",
+      "starCount": 3200,
+      "articleUrl": "./articles/github/daily/2026-04-26-gotalab-cc-sdd.html",
+      "serial": 377,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-26-gotalab-skillport",
       "title": "SkillPort",
       "dek": "AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。",
