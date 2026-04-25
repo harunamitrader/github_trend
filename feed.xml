@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 07:44:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 09:09:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-25 アップデートレポート]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを「個人のAI CFO」へ。仮想通貨、米国株、商品、為替の分析と取引機能をAIに付与する、強力なスキルセット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Flowsurface]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-flowsurface-rs-flowsurface.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-flowsurface-rs-flowsurface.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rust製の高速・高機能な仮想通貨チャーティングアプリ。ヒートマップ、フットプリント、DOMなど、プロ仕様の分析機能をネイティブデスクトップ環境で提供。]]></description>
     </item>
     <item>
       <title><![CDATA[osv-scanner]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Chip Huyen氏の著書『AI Engineering』(2025年)の公式リソース集およびAIエンジニア向け学習ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAuth]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-anomalyco-openauth.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-anomalyco-openauth.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆるインフラでセルフホスト可能な、OAuth 2.0準拠のユニバーサルな認証プロバイダー。]]></description>
     </item>
   </channel>
 </rss>

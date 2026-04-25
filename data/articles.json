@@ -32,6 +32,21 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-flowsurface-rs-flowsurface",
+      "title": "Flowsurface",
+      "dek": "Rust製の高速・高機能な仮想通貨チャーティングアプリ。ヒートマップ、フットプリント、DOMなど、プロ仕様の分析機能をネイティブデスクトップ環境で提供。",
+      "summary": "Cryptowatch にインスパイアされた、オープンソースのネイティブチャート基盤。Rust と iced を採用し、低遅延なオーダーフロー分析環境を Windows/macOS/Linux で実現します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "flowsurface-rs/flowsurface",
+      "repoUrl": "https://github.com/flowsurface-rs/flowsurface",
+      "starCount": 1500,
+      "articleUrl": "./articles/github/daily/2026-04-25-flowsurface-rs-flowsurface.html",
+      "serial": 362,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
