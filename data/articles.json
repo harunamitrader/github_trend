@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-26-gotalab-skillport",
+      "title": "SkillPort",
+      "dek": "AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。",
+      "summary": "AIエージェント（Cline, Cursor, Copilot等）に高度な専門知識やワークフローを「スキル」として付与するための管理ツール。GitHubやローカルからスキルをワンコマンドで追加・検証でき、必要な時だけ呼び出す効率的なコンテキスト管理を実現します。",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-26T08:09:00+09:00",
+      "repoName": "gotalab/skillport",
+      "repoUrl": "https://github.com/gotalab/skillport",
+      "starCount": 380,
+      "articleUrl": "./articles/github/daily/2026-04-26-gotalab-skillport.html",
+      "serial": 376,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-26-update-report",
       "title": "2026-04-26 アップデートレポート",

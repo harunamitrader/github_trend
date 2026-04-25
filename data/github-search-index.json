@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-25T21:11:05.620857+00:00",
-  "count": 395,
+  "generatedAt": "2026-04-25T23:09:49.228593+00:00",
+  "count": 396,
   "articles": [
+    {
+      "slug": "2026-04-26-gotalab-skillport",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "SkillPort",
+      "dek": "AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。",
+      "summary": "AIエージェント（Cline, Cursor, Copilot等）に高度な専門知識やワークフローを「スキル」として付与するための管理ツール。GitHubやローカルからスキルをワンコマンドで追加・検証でき、必要な時だけ呼び出す効率的なコンテキスト管理を実現します。",
+      "repoName": "gotalab/skillport",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-26T08:09:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-26-gotalab-skillport.html",
+      "serial": 376,
+      "searchText": "SkillPort AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。 AIエージェント（Cline, Cursor, Copilot等）に高度な専門知識やワークフローを「スキル」として付与するための管理ツール。GitHubやローカルからスキルをワンコマンドで追加・検証でき、必要な時だけ呼び出す効率的なコンテキスト管理を実現します。 gotalab/skillport AIエージェント (自律基盤・特化アプリ) SkillPort ← 記事一覧へ戻る GitHub Watcher SkillPort AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。 記事作成日 2026-04-26 種別 Pickup 対象 repo gotalab/skillport Star数 380 これは何か AIエージェント（Cline, Cursor, Copilot, Claude Code等）に、高度な専門知識や特定のワークフローを実行させるための「Agent Skills」を管理・配信するためのツールキット（SkillOps）です。プロンプトエンジニアリングによって作成された指示書を、ソフトウェアのプラグインのように動的に管理・適用することを可能にします。 何ができるか GitHub上のリポジトリやローカルフォルダ、Zipファイルからスキルを一括して追加・管理できます。また、作成したスキルが「Agent Skills 仕様」に準拠しているかをバリデーションする機能や、MCP（Model Context Protocol）サーバーとして稼働し、対応するクライアントにスキルを配信する機能も備えています。CLIモードもサポートしており、シェルコマンドを実行可能なエージェントであれば、MCPなしでもスキルを活用できます。 目立つポイント 「必要な時だけロードする」というオンデマンドな配信設計が最大の特徴です。50以上の大量のスキルがある場合でも、最初はメタデータのみを読み込ませ、エージェントが必要と判断した際（検索）にのみ詳細な指示をロードするため、コンテキスト（トークン）の浪費を抑えつつ、推論精度を維持することができます。また、カテゴリやタグによるフィルタリング機能により、特定の用途に応じたスキルの使い分けも容易です。 セットアップや使い方の流れ uv tool install skillport （または pip install skillport ）でインストールできます。 skillport add で公開されているスキルセットを取り込み、 skillport validate で整合性を確認。あとは MCP サーバーとして設定に追加するか、 skillport doc でプロジェクトの AGENTS.md にスキル一覧を書き出すことで、エージェントがそのスキルを使用できるようになります。 どんな人向けか AIエージェントを日々の業務に深く組み込んでおり、プロジェクトごとに異なる専門的な「動き」をAIにさせたい開発者。また、チーム全体で共通のプロンプトやコーディング規約を「スキル」として共有・管理したい組織に最適です。 注意点 現在は「Work in progress（開発中）」の状態であり、APIや仕様が変更される可能性があります。導入前にリポジトリの最新情報を確認することをお勧めします。 まとめ SkillPortは、単なる「プロンプト管理」の枠を超え、AIエージェントを「道具」から「熟練した同僚」へと進化させるためのインフラです。Agent Skills 仕様に基づいた標準化されたスキルの流通を支える、強力なスキル・ハブと言えるでしょう。 参照リンク https://github.com/gotalab/skillport Shared GitHub Serial: #376"
+    },
     {
       "slug": "2026-04-26-update-report",
       "category": "github-update-report",
