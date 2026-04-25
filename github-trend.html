@@ -270,6 +270,19 @@
               <h2>新着記事一覧（全件）</h2>
             </div>
             <div class="stats" id="site-stats-all-articles"></div>
+            <div class="gh-search-panel" style="margin-top:16px;">
+              <div class="gh-search-row">
+                <input
+                  id="all-articles-search-input"
+                  class="gh-search-input"
+                  type="search"
+                  placeholder="記事タイトル・repo・カテゴリ・本文の単語で検索"
+                  autocomplete="off"
+                />
+                <button id="all-articles-search-clear" class="gh-search-clear" type="button">クリア</button>
+              </div>
+              <div id="all-articles-search-summary" class="gh-search-summary">検索対象: タイトル / repo / カテゴリ / 概要 / 本文</div>
+            </div>
             <div id="all-articles-container" class="archive-list" style="margin-top: 16px;"></div>
           </div>
 
@@ -392,6 +405,20 @@
           "スクレイピング・情報収集・セキュリティ",
           "学習ガイド・開発アセット"
         ];
+        const genreShortNameMap = {
+          "AIコーディング (CLI本体・拡張機能)":                        "AIコーディング (CLI)",
+          "AIコーディング (ワークフロー・プロンプト・開発補助ツール)": "AIコーディング (WF)",
+          "AIエージェント (自律基盤・特化アプリ)":                    "AIエージェント",
+          "AI基盤・データ基盤・業務アプリ":                           "AI基盤・業務",
+          "金融・トレード分析":                                        "金融・トレード",
+          "メディア作成・マルチモーダル・UI":                          "メディア・UI",
+          "ナレッジ管理・RAG解析":                                     "ナレッジ・RAG",
+          "スクレイピング・情報収集・セキュリティ":                    "スクレイピング",
+          "学習ガイド・開発アセット":                                  "学習ガイド",
+          // 未分類・その他
+          "github-trending":  "Trending",
+          "github-pickup":    "PickUp",
+        };
         const nowMs = Date.now();
         const newWindowMs = 3 * 24 * 60 * 60 * 1000;
         const starCountFormatter = new Intl.NumberFormat("ja-JP");
@@ -440,8 +467,11 @@
 
         function renderArticle(article, options = {}) {
           const deck = article.dek ?? article.summary ?? "詳細情報はありません。";
+          const shortCategoryLabel = genreShortNameMap[options.categoryLabel || article.genre || article.category] || (options.categoryLabel || article.genre || article.category || "未分類");
           const published = article.publishedAt || "不明";
-          const categoryLabel = options.categoryLabel || (article.category || "未分類");
+          const categoryLabel = options.categoryLabel
+            || article.genre
+            || (article.category || "未分類");
           const isNew = isWithinNewWindow(getArticleTimestamp(article));
           
           let originBadge = "";
@@ -474,7 +504,7 @@
                   <div class="archive-meta">
                     <span>${published}</span>
                     ${serialTag}
-                    <span class="meta-chip category-chip">${categoryLabel}</span>
+                    <span class="meta-chip category-chip">${genreShortNameMap[categoryLabel] || categoryLabel}</span>
                     ${originBadge}
                     ${starTag}
                     ${repoTag}
@@ -702,6 +732,9 @@
         function renderAllArticles(sourceArticles) {
           const container = document.getElementById("all-articles-container");
           const statsEl = document.getElementById("site-stats-all-articles");
+          const searchInputEl = document.getElementById("all-articles-search-input");
+          const searchClearEl = document.getElementById("all-articles-search-clear");
+          const summaryEl = document.getElementById("all-articles-search-summary");
           if (!container) return;
 
           // Serial 降順でソート
@@ -712,16 +745,44 @@
             return getArticleTimestamp(b) - getArticleTimestamp(a);
           });
 
-          if (statsEl) {
-            statsEl.innerHTML = `
-              <div class="stat-box"><span>総記事数</span><strong>${sorted.length}</strong></div>
-              <div class="stat-box"><span>最新 Serial</span><strong>#${String(sorted[0]?.serial || 0).padStart(3, "0")}</strong></div>
-              <div class="stat-box"><span>最終更新</span><strong>${sorted[0]?.publishedAt || "-"}</strong></div>
-            `;
+          function renderFiltered(rawQuery) {
+            const query = normalizeSearchQuery(rawQuery);
+            const filtered = query
+              ? sorted.filter(a => normalizeSearchQuery(a.searchText || "").includes(query))
+              : sorted;
+
+            if (statsEl) {
+              statsEl.innerHTML = `
+                <div class="stat-box"><span>総記事数</span><strong>${sorted.length}</strong></div>
+                <div class="stat-box"><span>最新 Serial</span><strong>#${String(sorted[0]?.serial || 0).padStart(3, "0")}</strong></div>
+                <div class="stat-box"><span>最終更新</span><strong>${sorted[0]?.publishedAt || "-"}</strong></div>
+              `;
+            }
+
+            if (summaryEl) {
+              summaryEl.textContent = query
+                ? `「${rawQuery.trim()}」の検索結果: ${filtered.length}件`
+                : "検索対象: タイトル / repo / カテゴリ / 概要 / 本文";
+            }
+
+            container.innerHTML = filtered.length === 0
+              ? '<div class="archive-item"><h3>該当する記事がありません。</h3><p>別の単語や repo 名で試してください。</p></div>'
+              : filtered.map(a => renderArticle(a)).join("");
+            attachStarHandlers(container);
           }
 
-          container.innerHTML = sorted.map(a => renderArticle(a)).join("");
-          attachStarHandlers(container);
+          // 初期表示
+          renderFiltered("");
+
+          // イベントリスナー
+          searchInputEl?.addEventListener("input", () => {
+            renderFiltered(searchInputEl.value || "");
+          });
+          searchClearEl?.addEventListener("click", () => {
+            searchInputEl.value = "";
+            renderFiltered("");
+            searchInputEl.focus();
+          });
         }
       })();
     </script>
