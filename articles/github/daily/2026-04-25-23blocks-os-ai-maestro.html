@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="多数のAIエージェントを一つのダッシュボードで統制。エージェント間通信、永続メモリ、マルチマシン対応を備えた、プロの開発者向けエージェント・オーケストレーター。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Maestro</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AI Maestro</h1>
+      <p class="article-dek">多数のAIエージェントを一つのダッシュボードで統制。エージェント間通信、永続メモリ、マルチマシン対応を備えた、プロの開発者向けエージェント・オーケストレーター。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-25 -->
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/23blocks-OS/ai-maestro" target="_blank" rel="noreferrer">
+              23blocks-OS/ai-maestro
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>620</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>複数の AI コーディングエージェント（Claude Code, Aider, Cursor 等）を一元管理するための、高度なオーケストレーション・ダッシュボードです。開発者が多数のエージェントを並列で走らせる際、ターミナル間を行き来してコンテキストをコピペする「人間メッセンジャー」になってしまう問題を解決するために開発されました。</p>
+
+        <h2>何ができるか</h2>
+        <p>一つの Web ダッシュボードから、ローカルやリモート、さらには別々のマシンで動作しているエージェントたちを監視・操作できます。Agent Messaging Protocol (AMP) を採用しており、エージェント同士が直接メッセージをやり取りして連携することが可能です。また、永続的なメモリ機能や、コードベースを視覚化する Code Graph 機能により、エージェントに深いプロジェクト理解を与えます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最もユニークなのは、P2P メッシュネットワークによるマルチマシン対応です。中央サーバーを介さず、自宅の Mac、職場の Linux、クラウドのインスタンスに散らばったエージェントを一つの画面に集約できます。また、tmux 統合により、既存のターミナルセッションを自動検出し、そのまま GUI 管理下に置くことができる点も非常に実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 18+ と tmux がインストールされた環境であれば、ワンラインの <code>curl</code> コマンドでインストール可能です。Windows ユーザーは WSL2 (Ubuntu) 経由での利用が推奨されています。起動後、<code>localhost:23000</code> で開くダッシュボードからエージェントを新規作成したり、既存のプロジェクトをインポートしてチームを編成したりできます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>日常的に複数の AI エージェントを駆使して開発を行っている「AIネイティブ」な開発者に最適です。特に、大規模なリファクタリングや機能開発を、役割の異なる複数のエージェント（例：研究担当、実装担当、テスト担当）に分担させて並列処理したい場合に真価を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>非常に多機能で強力なツールであるため、最初は機能の多さに圧倒されるかもしれません。まずは一つのプロジェクトで少数のエージェントを連携させることから始め、徐々にマルチマシンや AMP などの高度な機能を活用していくのが良いでしょう。</p>
+
+        <h2>まとめ</h2>
+        <p>AI エージェントは「ツール」から「チーム」へと進化しています。AI Maestro は、そのチームを指揮するための本格的なコントロールセンターを提供します。個人開発者であっても、80体以上のエージェントを自在に操り、文字通り「マエストロ（指揮者）」として爆速の開発体験を手に入れることができるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/23blocks-OS/ai-maestro" target="_blank" rel="noreferrer">https://github.com/23blocks-OS/ai-maestro</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #364</p>
+      </div>
+    </article>
+  </body>
+</html>

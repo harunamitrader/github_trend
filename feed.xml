@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 13:13:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 13:56:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-25 アップデートレポート]]></title>
@@ -38,6 +38,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[HTMLをそのままビデオに。AIエージェントによる動画生成・編集を前提に設計された、オープンソースの次世代動画レンダリングフレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI Maestro]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-23blocks-os-ai-maestro.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-23blocks-os-ai-maestro.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[多数のAIエージェントを一つのダッシュボードで統制。エージェント間通信、永続メモリ、マルチマシン対応を備えた、プロの開発者向けエージェント・オーケストレーター。]]></description>
     </item>
     <item>
       <title><![CDATA[osv-scanner]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[BrowserWing]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-browserwing-browserwing.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-browserwing-browserwing.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

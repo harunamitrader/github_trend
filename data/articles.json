@@ -62,6 +62,21 @@
       "genre": "メディア作成・マルチモーダル・UI"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-23blocks-os-ai-maestro",
+      "title": "AI Maestro",
+      "dek": "多数のAIエージェントを一つのダッシュボードで統制。エージェント間通信、永続メモリ、マルチマシン対応を備えた、プロの開発者向けエージェント・オーケストレーター。",
+      "summary": "AI エージェントチームの指揮官（マエストロ）のためのコントロールパネル。AMP によるエージェント間通信や P2P メッシュネットワークをサポートし、複数のマシンに散らばる 80 体以上のエージェントをシームレスに統制します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "23blocks-OS/ai-maestro",
+      "repoUrl": "https://github.com/23blocks-OS/ai-maestro",
+      "starCount": 620,
+      "articleUrl": "./articles/github/daily/2026-04-25-23blocks-os-ai-maestro.html",
+      "serial": 364,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
