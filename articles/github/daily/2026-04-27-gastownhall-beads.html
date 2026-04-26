@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントに「構造化された記憶」を。Gitバックエンドのタスク管理により、長期タスクの完遂を支援するメモリ・アップグレード・ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Beads</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Beads</h1>
+      <p class="article-dek">AIエージェントに「構造化された記憶」を。Gitバックエンドのタスク管理により、長期タスクの完遂を支援するメモリ・アップグレード・ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-27 -->
+          <strong>2026-04-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/gastownhall/beads" target="_blank" rel="noreferrer">
+              gastownhall/beads
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>21,613</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェント（Claude Code、Cursor、Windsurf等）が複雑なソフトウェア開発を自律的に進めるための「タスクベースのメモリ・システム」です。標準的なMarkdownによるTODO管理の限界（コンテキストの忘却、更新漏れ、構造の欠如）を克服し、エージェントがプロジェクトの全体像を常に把握したまま長期間作業を継続できる環境を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントは専用のCLIツール（`bd`）を介して、タスクの作成、依存関係の定義、作業の開始・完了を自律的に管理できます。Gitと密接に連携しており、タスクの進捗状況はリポジトリ内のJSONLファイルとして保存されます。これにより、ブランチを切り替えてもエージェントの「記憶」が失われず、マルチエージェントやチーム開発でもコンフリクトを最小限に抑えながら協調作業が可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるTODOリストではなく、「依存関係を認識するグラフ構造」であることが最大の特徴です。エージェントは「何がブロックされているか」「次に何をすべきか」を論理的に判断できます。また、セマンティックな要約機能（Semantic Compaction）を備えており、完了した古いタスクを要約してコンテキスト窓をきれいに保つことで、AIの推論品質を維持します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npm経由でインストール（`npm install -g @gastownhall/beads`）した後、リポジトリ内で `bd init` を実行します。エージェントに対して「bdツールを使ってタスクを管理して」と指示するだけで、エージェントは `bd list` で未着手タスクを確認し、`bd claim` でタスクを開始する自律的なワークフローを開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントに「1分で終わる修正」ではなく、「数時間から数日かかる新機能の実装」を任せたい開発者に最適です。特に、エージェントが途中で何をしていたか忘れてしまったり、不整合なTODOを残して混乱したりすることに悩んでいるプロジェクトにおすすめです。</p>
+
+        <h2>注意点</h2>
+        <p>タスクの詳細はリポジトリ内の `.beads/` ディレクトリに保存されるため、これらをGitで管理する必要があります。また、エージェントにこのツールの使い方（bdコマンドの仕様）を理解させるためのプロンプトや、MCP経由での連携が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Beadsは、AIエージェントを「その場限りのアシスタント」から「長期的なタスクを完遂する頼れる同僚」へと進化させるインフラです。Gitバックエンドによる堅牢な永続化と、グラフ構造による論理的なタスク管理は、自律型開発エージェントの次なるスタンダードになる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/gastownhall/beads" target="_blank" rel="noreferrer">https://github.com/gastownhall/beads</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #384</p>
+      </div>
+    </article>
+  </body>
+</html>

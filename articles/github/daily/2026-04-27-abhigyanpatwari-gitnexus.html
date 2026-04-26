@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="巨大なコードベースを「知識グラフ」へ。AIエージェントにプロジェクトの全貌を教える、プライバシー重視のGraph RAGエンジン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitNexus</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">GitNexus</h1>
+      <p class="article-dek">巨大なコードベースを「知識グラフ」へ。AIエージェントにプロジェクトの全貌を教える、プライバシー重視のGraph RAGエンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-27 -->
+          <strong>2026-04-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noreferrer">
+              abhigyanpatwari/GitNexus
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>30,064</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェント（Claude Code、Cursor等）にコードベースの「構造的な理解」を与えるための、クライアントサイド・ナレッジグラフ構築エンジンです。従来のRAG（検索拡張生成）が単純なテキスト検索に頼るのに対し、GitNexusは関数、クラス、呼び出し関係をグラフ構造として抽出し、AIがプロジェクトの全体像を把握できるようにします。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントはGitNexusが構築した「知識グラフ」にアクセスすることで、「この関数を変更したときの影響範囲は？」や「プロジェクト全体の認証フローはどうなっている？」といった、広範囲な理解を必要とする質問に対して正確な回答を得られます。また、ブラウザ上で動作するインタラクティブなビジュアライザーを備えており、人間も視覚的にコードのつながりを探索できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「ゼロ・サーバー」かつ「プライバシー重視」である点です。インデックス作成からグラフ解析まで全てローカルまたはブラウザ内（WASM）で完結し、ソースコードが外部に送信されることはありません。また、MCP（Model Context Protocol）をネイティブサポートしており、AIエージェントに対して「構造化された回答」を一撃で提供できる強力なツールとなっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>CLIツールとして導入し、プロジェクトのルートで `gitnexus index` を実行するだけで解析が始まります。Tree-sitterを活用した高度なパースにより、複数のプログラム言語を横断して依存関係をマップします。作成されたグラフはWeb UI（`gitnexus gui`）で確認できるほか、MCPサーバーとして動作させてコーディングエージェントに接続することが可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大規模なリポジトリに新しく参加したエンジニアや、AIエージェントを活用してプロジェクト全体のリファクタリングや複雑なバグ修正を行いたい開発者に最適です。企業内での機密コードを扱う場合でも、安全にAIの支援を受けることができます。</p>
+
+        <h2>注意点</h2>
+        <p>非常に大規模なプロジェクトの場合、初回インデックス作成に相応のマシンリソースと時間を要する場合があります。また、解析の精度は言語ごとのパーサーの対応状況に依存しますが、主要な11以上の言語では実用レベルの解析が可能です。</p>
+
+        <h2>まとめ</h2>
+        <p>GitNexusは、AIエージェントに「盲目的な検索」ではなく「知的な探索」を可能にする、次世代のGraph RAGエンジンです。コードを点ではなく網として捉えることで、AIによる開発支援の質を、単なる補完からアーキテクチャレベルの助言へと一段引き上げる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noreferrer">https://github.com/abhigyanpatwari/GitNexus</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #387</p>
+      </div>
+    </article>
+  </body>
+</html>

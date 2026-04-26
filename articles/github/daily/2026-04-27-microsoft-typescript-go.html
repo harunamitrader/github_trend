@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TypeScriptをGo言語で再実装。Microsoftが開発を進める、コンパイル速度の劇的向上を目指したネイティブ・ポート版。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TypeScript-Go (microsoft/typescript-go)</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TypeScript-Go</h1>
+      <p class="article-dek">TypeScriptをGo言語で再実装。Microsoftが開発を進める、コンパイル速度の劇的向上を目指したネイティブ・ポート版。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-27 -->
+          <strong>2026-04-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/typescript-go" target="_blank" rel="noreferrer">
+              microsoft/typescript-go
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>25,143</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>MicrosoftのTypeScriptチームが進めている、TypeScript本体のGo言語（Golang）へのネイティブ移植プロジェクトです。現在のTypeScriptコンパイラ（tsc）はJavaScript/TypeScript自身で記述されていますが、これをメモリ管理や並列処理に長けたGoで再構築することで、ビルドパフォーマンスの大幅な改善を狙っています。</p>
+
+        <h2>何ができるか</h2>
+        <p>現時点では「Staging repo（準備用リポジトリ）」という位置づけですが、開発が進めば、巨大なTypeScriptプロジェクトの型チェックやトランスパイルが数分から数秒へと短縮されることが期待されます。V8エンジン上で動作するJavaScript版tscに対し、ネイティブバイナリとして動作するGo版は、特にCPUリソースを最大限に活用した高速な開発体験を提供します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の注目点は、Microsoft公式が「ネイティブ移植」に踏み切ったことです。これまでもRust製（swc、oxc）やGo製（esbuild）のサードパーティ製高速パーサーは存在しましたが、それらは型チェックの完全な再現が課題でした。公式がGoを採用したことで、100%の互換性を持ちつつ圧倒的な速度を実現する「究極のtsc」が期待されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>現在は開発初期段階のソースコードが公開されている状態であり、一般のプロジェクトですぐに入れ替えて使用できるパッケージ（npm）としてのリリースはまだ先になります。Goがインストールされた環境であれば、ソースをクローンしてコンパイルの試作状況を確認することが可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大規模なTypeScriptコードベースを抱え、日々の「待ち時間」に悩まされているフロントエンドエンジニアやプラットフォームエンジニア。そして、公式TypeScriptのアーキテクチャがどのようにネイティブ言語へ移植されるのかに興味がある低レイヤ好きのエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>現時点ではあくまで実験的、あるいは開発中のリポジトリであり、プロダクション環境での使用は想定されていません。また、全てのTypeScript機能が完全に移植されるまでには相応の時間がかかることが予想されます。</p>
+
+        <h2>まとめ</h2>
+        <p>TypeScript-Goは、開発エコシステムの基盤を根本から高速化しようとするMicrosoftの野心的なプロジェクトです。Go言語への移植という選択は、今後のTypeScript開発体験に革命をもたらす可能性があり、その動向は世界中の開発者から熱い視線を浴びています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/typescript-go" target="_blank" rel="noreferrer">https://github.com/microsoft/typescript-go</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #386</p>
+      </div>
+    </article>
+  </body>
+</html>
