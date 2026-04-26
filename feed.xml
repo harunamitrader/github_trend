@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Apr 2026 19:08:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 05:47:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT: 画像生成モデル「Images 2.0」を公開、思考プロセスによる品質向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-images-2-0-thinking-model.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-images-2-0-thinking-model.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画像生成に「思考（Thinking）」プロセスを導入。生成前に構成を計画・推敲することで、視覚的な細部やテキスト描画の精度が大幅に向上しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: 業務自動化を加速する「Workspace Agents」の一般提供を開始]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-workspace-agents-automation.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-workspace-agents-automation.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Slack、Google ドライブ、Gmail など、複数のアプリを横断してタスクを自律実行する「Workspace Agents」が登場。チーム内でのエージェント共有と、承認ワークフローの統合が可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw v2026.4.25: Voice/TTS の大幅強化と OpenTelemetry 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openclaw-v2026-4-25-voice-tts-telemetry.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openclaw-v2026-4-25-voice-tts-telemetry.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Azure Speech や ElevenLabs v3 への対応、プラグイン管理の決定論的刷新、OpenTelemetry によるフルスタック監視など、プロダクション運用に向けた安定性が向上。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html</link>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[多数のAIエージェントを一つのダッシュボードで統制。エージェント間通信、永続メモリ、マルチマシン対応を備えた、プロの開発者向けエージェント・オーケストレーター。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Understand Anything]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-lum1104-understand-anything.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-lum1104-understand-anything.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[巨大なコードベースを「読まずに見る」。マルチエージェント分析でプロジェクトをインタラクティブな知識グラフに変換し、直感的な理解を支援する開発者向けツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Parallel Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-johannesjo-parallel-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-johannesjo-parallel-code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenRouter Agent TUI (create-agent-tui)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-openrouterteam-create-agent-tui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-openrouterteam-create-agent-tui.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。]]></description>
     </item>
   </channel>
 </rss>

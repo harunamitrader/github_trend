@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Azure Speech や ElevenLabs v3 への対応、プラグイン管理の決定論的刷新、OpenTelemetry によるフルスタック監視など、プロダクション運用に向けた安定性が向上。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.4.25: Voice/TTS の大幅強化と OpenTelemetry 対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.4.25: Voice/TTS の大幅強化と OpenTelemetry 対応</h1>
+      <p class="article-dek">Azure Speech や ElevenLabs v3 への対応、プラグイン管理の決定論的刷新、OpenTelemetry によるフルスタック監視など、プロダクション運用に向けた安定性が向上。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>自律型エージェント基盤 OpenClaw の最新版 v2026.4.25 がリリースされました。音声合成エンジンの拡充と、運用監視のためのインフラ強化が中心となっています。</p>
+        <ul>
+            <li><strong>Voice/TTS エコシステムの拡充:</strong> Azure Speech、ElevenLabs v3、Xiaomi、Inworld など、複数の外部 TTS プロバイダーにネイティブ対応しました。チャットごとの自動 TTS 制御も可能になっています。</li>
+            <li><strong>Cold Registry の導入:</strong> プラグインのインストールパスやメタデータを管理するレジストリを刷新。アップデート時の決定論的な挙動と効率性が大幅に向上しました。</li>
+            <li><strong>OpenTelemetry 対応:</strong> モデル呼び出し、ツール実行ループ、メモリ管理の各レイヤーで詳細なテレメトリ取得が可能になり、大規模運用のデバッグが容易になりました。</li>
+            <li><strong>ブラウザ自動化の安全強化:</strong> ブラウザ操作時のサンドボックス制限と、視覚的な実行確認 UI の改善が行われました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>多様な音声エンジンのサポートにより、より自然でコンテキストに沿った音声対話型エージェントの構築が容易になります。また、OpenTelemetry への対応により、企業導入時などのオブザーバビリティ（可視性）要件を満たしやすくなりました。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw は単なる実験的なツールから、高い信頼性と監視機能を備えた、実用的なエージェント・プラットフォームへと進化を続けています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
