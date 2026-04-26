@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上</h1>
+      <p class="article-dek">ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.40.0-preview.4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>エージェントの信頼性と効率を向上させるための、アーキテクチャレベルの改善が行われています。</p>
+        <ul>
+            <li><strong>ダイナミックモデルルーティング:</strong> タスクの複雑度に応じて、Gemini 1.5 Pro と Flash を動的に切り替えるルーティング機能が導入されました。これにより、シンプルなタスクではコストとレイテンシを抑えつつ、難易度の高いタスクでは Pro の推論能力を最大限に活用できます。</li>
+            <li><strong>ContextManager の刷新:</strong> セッションの状態管理を担う <code>ContextManager</code> が独立したモジュールとして再設計され、エラー発生時や接続切断時の状態復旧能力が飛躍的に向上しました。</li>
+            <li><strong>/memory コマンドの強化:</strong> エージェントがセッション中に抽出したスキルを即座に確認し、修正や永続化を行うためのインターフェースが改善されました。</li>
+            <li><strong>セッション履歴の圧縮:</strong> 長期間のセッションにおいて、トークン消費を抑えるために履歴を要約して保持する最適化ロジックが追加されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>モデルの自動切り替えにより、ユーザーが手動でモデルを指定する手間が減り、かつ最適なパフォーマンスが得られるようになりました。特に、大規模なコードベースの解析と小規模なファイル修正を繰り返すようなワークフローで真価を発揮します。</p>
+
+        <h2>まとめ</h2>
+        <p>プレビュー版ながら、実用性を重視した堅実な進化を遂げています。特に状態管理の安定化は、長時間駆動するエージェントにとって非常に重要なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing",
+      "title": "Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上",
+      "dek": "ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。",
+      "summary": "ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。",
+      "publishedAt": "2026-04-27",
+      "toolName": "Gemini CLI",
+      "version": "v0.40.0-preview.4",
+      "articleUrl": "./articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html",
+      "serial": 380
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-openai-codex-v0-125-0-app-server-plugin",
+      "title": "OpenAI Codex CLI v0.125.0: アプリサーバー連携とプラグイン管理の強化",
+      "dek": "アプリサーバー統合のアップグレード、リモートプラグイン管理、および権限プロファイルの改善により、開発自動化プラットフォームとしての柔軟性が向上しました。",
+      "summary": "アプリサーバー統合のアップグレード、リモートプラグイン管理、および権限プロファイルの改善により、開発自動化プラットフォームとしての柔軟性が向上しました。",
+      "publishedAt": "2026-04-27",
+      "toolName": "Codex",
+      "version": "v0.125.0",
+      "articleUrl": "./articles/tools/2026-04-27-openai-codex-v0-125-0-app-server-plugin.html",
+      "serial": 379
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-26-amitshekhariitbhu-llm-internals",

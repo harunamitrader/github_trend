@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Apr 2026 21:16:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 04:05:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Codex CLI v0.125.0: アプリサーバー連携とプラグイン管理の強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openai-codex-v0-125-0-app-server-plugin.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openai-codex-v0-125-0-app-server-plugin.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[アプリサーバー統合のアップグレード、リモートプラグイン管理、および権限プロファイルの改善により、開発自動化プラットフォームとしての柔軟性が向上しました。]]></description>
+    </item>
     <item>
       <title><![CDATA[llm-internals]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[QuantConnect LEAN]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-quantconnect-lean.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-quantconnect-lean.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[osv-scanner]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-google-osv-scanner.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-google-osv-scanner.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Googleが開発したオープンソース脆弱性スキャナー。OSV.devデータベースと連携し、コンテナやプロジェクトの依存関係に潜むリスクを自動検知・修正提案。]]></description>
     </item>
   </channel>
 </rss>
