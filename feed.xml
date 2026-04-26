@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 23:19:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 21:16:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[llm-internals]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。]]></description>
+    </item>
     <item>
       <title><![CDATA[cc-sdd]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-gotalab-cc-sdd.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Googleが開発したオープンソース脆弱性スキャナー。OSV.devデータベースと連携し、コンテナやプロジェクトの依存関係に潜むリスクを自動検知・修正提案。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[posthog]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-posthog-posthog.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-posthog-posthog.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロダクト分析、セッションリプレイ、ABテスト、機能フラグ。開発者のための機能を凝縮した、オープンソースのオールインワン・プロダクトOS。]]></description>
     </item>
   </channel>
 </rss>

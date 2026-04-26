@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-26-amitshekhariitbhu-llm-internals",
+      "title": "llm-internals",
+      "dek": "LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。",
+      "summary": "トークン化からアテンション・メカニズム、そして推論の最適化まで、大規模言語モデル（LLM）の内部動作をステップバイステップで解説する教育用リポジトリ。AI技術のブラックボックスを解明することを目的に、詳細な解説を提供しています。",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-26T21:15:00+09:00",
+      "repoName": "amitshekhariitbhu/llm-internals",
+      "repoUrl": "https://github.com/amitshekhariitbhu/llm-internals",
+      "starCount": 643,
+      "articleUrl": "./articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html",
+      "serial": 378,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-26-gotalab-cc-sdd",
       "title": "cc-sdd",
       "dek": "「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。",

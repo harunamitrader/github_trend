@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-25T23:17:34.235333+00:00",
-  "count": 397,
+  "generatedAt": "2026-04-26T12:16:29.115408+00:00",
+  "count": 398,
   "articles": [
+    {
+      "slug": "2026-04-26-amitshekhariitbhu-llm-internals",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "llm-internals",
+      "dek": "LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。",
+      "summary": "トークン化からアテンション・メカニズム、そして推論の最適化まで、大規模言語モデル（LLM）の内部動作をステップバイステップで解説する教育用リポジトリ。AI技術のブラックボックスを解明することを目的に、詳細な解説を提供しています。",
+      "repoName": "amitshekhariitbhu/llm-internals",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-26T21:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html",
+      "serial": 378,
+      "searchText": "llm-internals LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。 トークン化からアテンション・メカニズム、そして推論の最適化まで、大規模言語モデル（LLM）の内部動作をステップバイステップで解説する教育用リポジトリ。AI技術のブラックボックスを解明することを目的に、詳細な解説を提供しています。 amitshekhariitbhu/llm-internals 学習ガイド・開発アセット llm-internals ← 記事一覧へ戻る GitHub Watcher llm-internals LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。 記事作成日 2026-04-26 種別 Pickup 対象 repo amitshekhariitbhu/llm-internals Star数 643 これは何か トークン化からアテンション・メカニズム、そして推論の最適化まで、大規模言語モデル（LLM）の内部動作をステップバイステップで解説する教育用リポジトリです。AI技術のブラックボックスを解明することを目的に、技術ブログや動画と連動して詳細な解説を提供しています。 何ができるか Transformer、Attention、RMSNormなどの核心技術を数式と図解で学べるほか、BPE（Byte Pair Encoding）やSentencePieceなどのトークナイザーの仕組み、RAG、MCP、量子化、ファインチューニングといった最新トピックまで幅広くカバーしています。 目立つポイント 複雑な概念が豊富な図解と数式で丁寧に紐解かれており、基礎から応用まで体系的に学習できる点が最大の特徴です。単なるコードの提示ではなく、理論背景に重点を置いた教育的アプローチが採られています。 セットアップや使い方の流れ リポジトリのREADMEにある「Table of Contents」から、学習したいトピックを選択します。各項目は詳細な解説記事（Mediumなど）や解説動画にリンクされており、それらを読み解くことで理解を深めていくスタイルです。 どんな人向けか LLMの動作原理をアルゴリズムレベルで深く理解したいエンジニアや、AIエンジニアリングを専門的に学びたい学生、最新のAI技術スタックの基礎知識を求めている開発者に最適です。 注意点 このリポジトリ自体は実行可能な大規模ソースコードを提供するものではなく、あくまで理論解説を主目的としたドキュメント集である点に注意が必要です。具体的な実装については、リンク先の外部メディアを参照する必要があります。 まとめ AI技術の「中身」を理解し、一歩進んだAIエンジニアを目指す人にとっての羅針盤となるリポジトリです。図解と数式のバランスが良く、独学でハイレベルな知識を習得したい人におすすめです。 参照リンク https://github.com/amitshekhariitbhu/llm-internals Shared GitHub Serial: #378"
+    },
     {
       "slug": "2026-04-26-gotalab-cc-sdd",
       "category": "github-pickup",
