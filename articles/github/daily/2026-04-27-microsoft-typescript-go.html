@@ -8,7 +8,7 @@
       content="TypeScriptをGo言語で再実装。Microsoftが開発を進める、コンパイル速度の劇的向上を目指したネイティブ・ポート版。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>TypeScript-Go (microsoft/typescript-go)</title>
+    <title>TypeScript-Go</title>
     <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,7 +36,7 @@
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>Daily Trending #6</strong>
+          <strong>Trending</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">対象 repo</span>
@@ -57,7 +57,7 @@
         <p>MicrosoftのTypeScriptチームが進めている、TypeScript本体のGo言語（Golang）へのネイティブ移植プロジェクトです。現在のTypeScriptコンパイラ（tsc）はJavaScript/TypeScript自身で記述されていますが、これをメモリ管理や並列処理に長けたGoで再構築することで、ビルドパフォーマンスの大幅な改善を狙っています。</p>
 
         <h2>何ができるか</h2>
-        <p>現時点では「Staging repo（準備用リポジトリ）」という位置づけですが、開発が進めば、巨大なTypeScriptプロジェクトの型チェックやトランスパイルが数分から数秒へと短縮されることが期待されます。V8エンジン上で動作するJavaScript版tscに対し、ネイティブバイナリとして動作するGo版は、特にCPUリソースを最大限に活用した高速な開発体験を提供します。</p>
+        <p>現時点では「Staging repo（準備用リポジトリ）」という位置づけですが、開発が進れば、巨大なTypeScriptプロジェクトの型チェックやトランスパイルが数分から数秒へと短縮されることが期待されます。V8エンジン上で動作するJavaScript版tscに対し、ネイティブバイナリとして動作するGo版は、特にCPUリソースを最大限に活用した高速な開発体験を提供します。</p>
 
         <h2>目立つポイント</h2>
         <p>最大の注目点は、Microsoft公式が「ネイティブ移植」に踏み切ったことです。これまでもRust製（swc、oxc）やGo製（esbuild）のサードパーティ製高速パーサーは存在しましたが、それらは型チェックの完全な再現が課題でした。公式がGoを採用したことで、100%の互換性を持ちつつ圧倒的な速度を実現する「究極のtsc」が期待されています。</p>
