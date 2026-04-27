@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Apr 2026 19:49:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 05:18:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[heretic]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-p-e-w-heretic.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-p-e-w-heretic.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[言語モデルの検閲（安全アライメント）を完全自動で除去するツール本体。アブリタレーション技術とパラメータ最適化により、モデルの知能を維持したまま制限を解除。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-28 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-28-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに「構造化された記憶」を。Gitバックエンドのタスク管理により、長期タスクの完遂を支援するメモリ・アップグレード・ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: 画像生成モデル「Images 2.0」を公開、思考プロセスによる品質向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-images-2-0-thinking-model.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-images-2-0-thinking-model.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画像生成に「思考（Thinking）」プロセスを導入。生成前に構成を計画・推敲することで、視覚的な細部やテキスト描画の精度が大幅に向上しました。]]></description>
     </item>
   </channel>
 </rss>

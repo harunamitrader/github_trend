@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-28-p-e-w-heretic",
+      "title": "heretic",
+      "dek": "言語モデルの検閲（安全アライメント）を完全自動で除去するツール本体。アブリタレーション技術とパラメータ最適化により、モデルの知能を維持したまま制限を解除。",
+      "summary": "言語モデルの検閲（安全アライメント）を完全自動で除去するツール。アブリタレーション技術とパラメータ最適化により、モデルの知能を維持したまま制限を解除。",
+      "publishedAt": "2026-04-28",
+      "repoName": "p-e-w/heretic",
+      "repoUrl": "https://github.com/p-e-w/heretic",
+      "starCount": 20000,
+      "articleUrl": "./articles/github/daily/2026-04-28-p-e-w-heretic.html",
+      "serial": 403,
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-28-update-report",
       "title": "2026-04-28 アップデートレポート",
