@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Apr 2026 01:49:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 15:27:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-trading-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-tradermonty-claude-trading-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-tradermonty-claude-trading-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-agent-orchestrators]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-andyrewlee-awesome-agent-orchestrators.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[DeepSeek-V3/R1を支える超高速MoE通信ライブラリ。MoEとエキスパート並列に特化した、世界最高峰のGPUカーネル集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Roo-Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-roocodeinc-roo-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-roocodeinc-roo-code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Clineから進化したVS Code用自律型AIコーディングエージェント。マルチモード対応とMCP連携により、実装からデバッグまでを完遂。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-27T01:46:34.149269+00:00",
-  "count": 405,
+  "generatedAt": "2026-04-27T06:27:53.496469+00:00",
+  "count": 406,
   "articles": [
+    {
+      "slug": "2026-04-27-tradermonty-claude-trading-skills",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "claude-trading-skills",
+      "dek": "Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。",
+      "summary": "AnthropicのClaude Codeに、金融ニュース解析、テクニカル分析、銘柄スクリーニング、そしてAlpaca APIを通じた自動取引機能を追加するカスタムスキル集。AIエージェントによる投資ワークフローの自律化を実現します。",
+      "repoName": "tradermonty/claude-trading-skills",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-27T15:27:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-27-tradermonty-claude-trading-skills.html",
+      "serial": 390,
+      "searchText": "claude-trading-skills Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。 AnthropicのClaude Codeに、金融ニュース解析、テクニカル分析、銘柄スクリーニング、そしてAlpaca APIを通じた自動取引機能を追加するカスタムスキル集。AIエージェントによる投資ワークフローの自律化を実現します。 tradermonty/claude-trading-skills 金融・トレード分析 claude-trading-skills ← 記事一覧へ戻る GitHub Watcher claude-trading-skills Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。 記事作成日 2026-04-27 種別 Pickup 対象 repo tradermonty/claude-trading-skills Star数 4 これは何か Anthropic のターミナル用 AI エージェント「Claude Code」に、金融・投資・トレードの専門機能を追加するための「スキル（カスタムツール・プロンプト集）」リポジトリです。Claude を単なるコーディング助手から、高度なマーケットリサーチャーやポートフォリオ・マネージャーへと進化させます。 何ができるか 最新のニュース解析から定量的なインパクト評価、FinViz を利用したスクリーニング、テクニカル分析によるチャート解析、さらには Alpaca API を介した実際のトレード実行まで、投資判断から執行までのワークフローを Claude 上で完結させることが可能です。 目立つポイント ニュースの重要度をスコアリングする「Market News Analyst」、エリオット波動やダウ理論に基づき価格推移を読み解く「Technical Analysis」、自然言語で銘柄を抽出する「FinViz Screener」、そして Alpaca と連携して口座状況の確認や発注を行う「Portfolio Manager」などの強力な機能が含まれています。 セットアップや使い方の流れ Claude Code がインストールされた環境で本リポジトリをクローンし、必要な API キー（Alpaca 等）を .env ファイルに設定します。あとはリポジトリ内で claude を起動し、「NVDA の最新ニュースを分析して」や「BTC/USD の週足チャートをテクニカル分析して」のように話しかけるだけで、各スキルが発動します。 どんな人向けか Claude Code を日常的に利用している個人投資家やトレーダー、AI を活用して高度なマーケット調査を効率化したいエンジニア、あるいは AI エージェントに実際の資産運用プロセスを統合したいと考えている開発者に最適です。 注意点 本ツールが提供する情報は投資判断の参考用であり、最終的な取引は自己責任で行う必要があります。一部の機能（ポートフォリオ管理等）の利用には、Alpaca などの外部サービスの API キーが必要です。また、Claude Code CLI 環境に最適化されています。 まとめ AI エージェントの汎用的な推論能力を「金融」という専門領域にロックオンさせる、非常に実用的なプロジェクトです。特に Alpaca 連携による実運用への橋渡しは、エージェントを「知る」だけの存在から「行動する」存在へと変える大きな一歩と言えるでしょう。 参照リンク https://github.com/tradermonty/claude-trading-skills Shared GitHub Serial: #390"
+    },
     {
       "slug": "2026-04-27-andyrewlee-awesome-agent-orchestrators",
       "category": "github-pickup",

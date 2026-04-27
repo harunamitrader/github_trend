@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-27-tradermonty-claude-trading-skills",
+      "title": "claude-trading-skills",
+      "dek": "Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。",
+      "summary": "AnthropicのClaude Codeに、金融ニュース解析、テクニカル分析、銘柄スクリーニング、そしてAlpaca APIを通じた自動取引機能を追加するカスタムスキル集。AIエージェントによる投資ワークフローの自律化を実現します。",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-27T15:27:00+09:00",
+      "repoName": "tradermonty/claude-trading-skills",
+      "repoUrl": "https://github.com/tradermonty/claude-trading-skills",
+      "starCount": 4,
+      "articleUrl": "./articles/github/daily/2026-04-27-tradermonty-claude-trading-skills.html",
+      "serial": 390,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-27-andyrewlee-awesome-agent-orchestrators",
       "title": "awesome-agent-orchestrators",
       "dek": "AIエージェントの「オーケストレーション」に特化。複数の自律エージェントを連携・管理・並列実行するための最新ツールを網羅した、開発者必見のキュレーションリスト。",
