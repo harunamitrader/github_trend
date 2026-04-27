@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Apr 2026 04:37:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 04:46:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-28 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-28-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-28-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Awesome Codex Skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-composiohq-awesome-codex-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-composiohq-awesome-codex-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Codexを極限まで強化する、検証済みスキルのキュレーションリスト。GitHub連携、ブラウザ自動化、システム操作などの実用的なスキルを網羅。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Free Claude Code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-alishahryar1-free-claude-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-alishahryar1-free-claude-code.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AnthropicのClaude Codeを、API経由で「無料」あるいは自由なプロバイダーで利用可能にするプロキシ・ラッパー。レート制限の回避や複数キーの自動切り替えに対応。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Penpot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-penpot-penpot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-penpot-penpot.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Figmaに代わる、デザイナーと開発者のためのオープンソース・デザインツール。SVGネイティブ、CSS親和性、セルフホスト対応が特徴。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[VibeVoice]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-microsoft-vibevoice.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-microsoft-vibevoice.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoftが公開した低遅延・高品質なオープンソース音声AIモデル。リアルタイムなTTS/ASRに対応し、Apple Silicon (MPS) での高速推論をサポート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TradingAgents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-tauricresearch-tradingagents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-tauricresearch-tradingagents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[画像生成に「思考（Thinking）」プロセスを導入。生成前に構成を計画・推敲することで、視覚的な細部やテキスト描画の精度が大幅に向上しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: 業務自動化を加速する「Workspace Agents」の一般提供を開始]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-workspace-agents-automation.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-workspace-agents-automation.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Slack、Google ドライブ、Gmail など、複数のアプリを横断してタスクを自律実行する「Workspace Agents」が登場。チーム内でのエージェント共有と、承認ワークフローの統合が可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.25: Voice/TTS の大幅強化と OpenTelemetry 対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openclaw-v2026-4-25-voice-tts-telemetry.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openclaw-v2026-4-25-voice-tts-telemetry.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Azure Speech や ElevenLabs v3 への対応、プラグイン管理の決定論的刷新、OpenTelemetry によるフルスタック監視など、プロダクション運用に向けた安定性が向上。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.40.0-preview.4: ダイナミックモデルルーティングとセッション耐性の向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-40-0-preview-4-dynamic-routing.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ダイナミックモデルルーティングの導入と、セッションの永続性を高める ContextManager の刷新により、エージェントの自律実行がさらに安定しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex CLI v0.125.0: アプリサーバー連携とプラグイン管理の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openai-codex-v0-125-0-app-server-plugin.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-openai-codex-v0-125-0-app-server-plugin.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[アプリサーバー統合のアップグレード、リモートプラグイン管理、および権限プロファイルの改善により、開発自動化プラットフォームとしての柔軟性が向上しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[llm-internals]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-amitshekhariitbhu-llm-internals.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMの内部構造やAIエンジニアリングの核心を、数式や図解で深く理解するための学習リソース集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cc-sdd]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-gotalab-cc-sdd.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-gotalab-cc-sdd.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。]]></description>
     </item>
   </channel>
 </rss>
