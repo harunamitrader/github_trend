@@ -445,7 +445,7 @@
       "dek": "DeepSeek-V3/R1を支える超高速MoE通信ライブラリ。MoEとエキスパート並列に特化した、世界最高峰のGPUカーネル集。",
       "summary": "DeepSeek 公開の高性能通信ライブラリ。MoE モデルのボトルネックとなる Dispatch/Combine ステップを最適化し、低遅延・高スループットな学習と推論を実現します。",
       "repoName": "deepseek-ai/DeepEP",
-      "genre": "LLM・機械学習リサーチ",
+      "genre": "AI基盤・データ基盤・業務アプリ",
       "publishedAt": "2026-04-26",
       "createdAt": "",
       "articleUrl": "./articles/github/daily/2026-04-26-deepseek-ai-deepep.html",
