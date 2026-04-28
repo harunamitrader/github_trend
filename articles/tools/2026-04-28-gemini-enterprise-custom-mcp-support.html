@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini Enterprise 向けに、独自の MCP (Model Context Protocol) サーバーをデータストアとして接続できる機能がプレビュー公開。社内の独自 API やデータベースを Gemini から直接活用可能になります。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini Enterprise: カスタム MCP サーバーのデータストア接続に対応（Preview）</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Tool Update</p>
+      </div>
+
+      <h1 class="article-title">Gemini Enterprise: カスタム MCP サーバーのデータストア接続に対応（Preview）</h1>
+      <p class="article-dek">Gemini Enterprise 向けに、独自の MCP (Model Context Protocol) サーバーをデータストアとして接続できる機能がプレビュー公開。社内の独自 API やデータベースを Gemini から直接活用可能になります。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-04-28 -->
+          <strong>2026-04-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Enterprise Feature</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google は、企業が持つ独自のデータを Gemini でより安全かつ柔軟に活用できるようにするため、MCP サーバーの直接接続をサポートしました。</p>
+        <ul>
+            <li><strong>カスタム MCP データストア:</strong> 社内でホストしている MCP サーバーを Gemini Enterprise の管理画面から登録し、回答生成のための知識ソース（データストア）として利用できます。</li>
+            <li><strong>独自 API の統合:</strong> データベースだけでなく、社内の独自 API やレガシーシステムを MCP 経由で Gemini に接続し、リアルタイムな情報を取得させることが可能です。</li>
+            <li><strong>セキュアな接続基盤:</strong> Google Cloud の堅牢なインフラを介して MCP サーバーと通信するため、機密性の高いデータを安全に AI に渡すことができます。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>企業は、既製品のコネクタがない独自の社内ツールやデータベースを、最小限の実装（MCP 準拠）で Gemini に「教える」ことができます。これにより、企業の業務ドメインに特化した、より精度の高い AI アシスタントを自社専用にカスタマイズして運用することが容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>MCP の採用により、Gemini の拡張性は飛躍的に向上しました。特定のベンダーに依存しないオープンなプロトコルを介して社内資産を AI と融合させる動きは、今後の企業向け AI 活用のデファクトスタンダードになる可能性があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cloud.google.com/blog/products/ai-machine-learning" target="_blank" rel="noreferrer">Google Cloud Blog - AI</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

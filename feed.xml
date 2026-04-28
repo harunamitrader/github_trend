@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 05:15:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:25:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上]]></title>
@@ -14,6 +14,14 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini Enterprise: カスタム MCP サーバーのデータストア接続に対応（Preview）]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-gemini-enterprise-custom-mcp-support.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-gemini-enterprise-custom-mcp-support.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini Enterprise 向けに、独自の MCP (Model Context Protocol) サーバーをデータストアとして接続できる機能がプレビュー公開。社内の独自 API やデータベースを Gemini から直接活用可能になります。]]></description>
     </item>
     <item>
       <title><![CDATA[OpenClaw v2026.4.26: 音声合成の刷新とテレメトリ監視の導入]]></title>
@@ -136,36 +144,28 @@
       <description><![CDATA[OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。]]></description>
     </item>
     <item>
+      <title><![CDATA[GitHub Copilot: 全プランの従量課金制移行と新規登録制限の発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-pricing-pay-as-you-go.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-pricing-pay-as-you-go.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub Copilot が 2026 年 6 月 1 日より全プランで従量課金制（pay-as-you-go）へ移行することを発表。これに伴い、新規のサブスクリプション登録が一時的に制限されています。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Windsurf Next v2.1: Devin for Terminal の統合とエージェント機能の強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-windsurf-next-v2-1-devin-terminal.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-windsurf-next-v2-1-devin-terminal.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windsurf Next v2.1 がリリース。ターミナル上で動作する AI エージェント「Devin for Terminal」が直接統合され、エディタとターミナルの境界を超えた開発支援が可能になりました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[ChatGPT: SharePoint & OneDrive 同期コネクタの導入]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-sharepoint-onedrive-connector.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-sharepoint-onedrive-connector.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT Business 向けに SharePoint / OneDrive 同期コネクタがリリース。社内の膨大なドキュメントを直接参照し、安全なナレッジ共有を実現します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity Computer: 19 モデルを統合する次世代 AI ワークスペースへの刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-perplexity-computer-unified-workspace.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-perplexity-computer-unified-workspace.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Perplexity がすべての機能を統合した「Perplexity Computer」へ刷新。19 種類以上のモデルを使い分け、リサーチからプロジェクト完遂までを一つのワークスペースで行えます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: オープンソースのエージェント仕様「Symphony」を発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-symphony-oss-spec.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-symphony-oss-spec.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI がマルチエージェントのオーケストレーションを定義するオープンソース仕様「Symphony」を発表。エージェント間の協調とタスク分散の標準化を目指します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: モデルセレクターの整理と GPT-5.3-Codex の段階的廃止]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-model-selector-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-model-selector-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHub Copilot のモデル選択肢が整理され、旧世代の GPT-5.3-Codex モデルの提供が段階的に終了します。]]></description>
     </item>
   </channel>
 </rss>
