@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Apr 2026 08:14:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:04:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor SDK: 独自のプログラマブル・エージェント開発が可能に]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-cursor-sdk-programmable-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-cursor-sdk-programmable-agents.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor が Programmable Agents を構築するための「Cursor SDK」を公開。独自のクラウドエージェントを開発し、エディタから直接呼び出すことが可能になります。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.121: MCP alwaysLoad と /skills 検索の実装]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.121 がリリース。MCP サーバーの自動ロード設定や /skills のフィルタリング機能、不要なプラグインを整理する prune コマンドが追加されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Memary]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-kingjulio8238-memary.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[100種類以上のセキュリティ・ツールを統合。ペネトレーションテストやOSINT、情報収集を自動化する、最強のオールインワン・ハッキング・フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitNexus]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-abhigyanpatwari-gitnexus.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-abhigyanpatwari-gitnexus.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[巨大なコードベースを「知識グラフ」へ。AIエージェントにプロジェクトの全貌を教える、プライバシー重視のGraph RAGエンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TypeScript-Go]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-microsoft-typescript-go.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-microsoft-typescript-go.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TypeScriptをGo言語で再実装。Microsoftが開発を進める、コンパイル速度の劇的向上を目指したネイティブ・ポート版。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cua]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-trycua-cua.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-trycua-cua.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIが「目」と「手」を持ってPCを操作する。デスクトップ全体を制御するComputer-Use Agent（CUA）のための、安全な実行・開発インフラ。]]></description>
     </item>
   </channel>
 </rss>

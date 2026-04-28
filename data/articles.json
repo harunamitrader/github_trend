@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-29-gemini-cli-v0-41-0-preview-0",
+      "title": "Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上",
+      "dek": "Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。",
+      "summary": "週次プレビュー版の更新。ContextManager の安定化、セッション耐性の向上、および内部依存関係の最新化が含まれます。",
+      "publishedAt": "2026-04-29",
+      "toolName": "Gemini CLI",
+      "version": "v0.41.0-preview.0",
+      "articleUrl": "./articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html",
+      "serial": 407
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-28-cursor-sdk-programmable-agents",
+      "title": "Cursor SDK: 独自のプログラマブル・エージェント開発が可能に",
+      "dek": "Cursor が Programmable Agents を構築するための「Cursor SDK」を公開。独自のクラウドエージェントを開発し、エディタから直接呼び出すことが可能になります。",
+      "summary": "カスタムクラウドエージェントを構築・ホストするための Cursor SDK の公開。独自のロジックやツールを持つエージェントをエディタに統合できます。",
+      "publishedAt": "2026-04-28",
+      "toolName": "Cursor",
+      "version": "Cursor SDK v1.0",
+      "articleUrl": "./articles/tools/2026-04-28-cursor-sdk-programmable-agents.html",
+      "serial": 406
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter",
+      "title": "Claude Code v2.1.121: MCP alwaysLoad と /skills 検索の実装",
+      "dek": "Claude Code v2.1.121 がリリース。MCP サーバーの自動ロード設定や /skills のフィルタリング機能、不要なプラグインを整理する prune コマンドが追加されました。",
+      "summary": "MCP の alwaysLoad オプション追加、/skills のフィルタリング対応、および claude plugin prune コマンドの導入が行われました。",
+      "publishedAt": "2026-04-28",
+      "toolName": "Claude Code",
+      "version": "v2.1.121",
+      "articleUrl": "./articles/tools/2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter.html",
+      "serial": 405
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-28-kingjulio8238-memary",
