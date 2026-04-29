@@ -5,7 +5,11 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
+<<<<<<< HEAD
     <lastBuildDate>Thu, 30 Apr 2026 04:02:26 GMT</lastBuildDate>
+=======
+    <lastBuildDate>Wed, 29 Apr 2026 13:29:35 GMT</lastBuildDate>
+>>>>>>> 33f3c1eabcd442f3fac17bef87844917327be8b8
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code v2.1.123, Cursor SDK, Gemini CLI 強化]]></title>
