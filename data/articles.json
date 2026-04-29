@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-29-modelcontextprotocol-servers",
+      "title": "Model Context Protocol Servers",
+      "dek": "AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。",
+      "summary": "Anthropicが提唱するModel Context Protocol (MCP) の公式リファレンス実装集。AIエージェントが外部ツールやデータと通信するための標準的なサーバー群（記憶、Git、ファイル操作等）を提供し、エージェントの自律性を劇的に向上させます。",
+      "publishedAt": "2026-04-29",
+      "repoName": "modelcontextprotocol/servers",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers",
+      "starCount": 84800,
+      "articleUrl": "./articles/github/daily/2026-04-29-modelcontextprotocol-servers.html",
+      "serial": 379,
+      "genre": "開発ツール・インフラ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-29-karpathy-microgpt",
       "title": "microgpt",
       "dek": "Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。",

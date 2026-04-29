@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-29T08:48:17.944961+00:00",
-  "count": 409,
+  "generatedAt": "2026-04-29T12:18:25.331615+00:00",
+  "count": 410,
   "articles": [
     {
       "slug": "2026-04-29-update-report",
@@ -31,6 +31,21 @@
       "articleUrl": "./articles/github/daily/2026-04-29-public-apis-public-apis.html",
       "serial": 373,
       "searchText": "public-apis 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 public-apis/public-apis 学習ガイド・開発アセット public-apis ← 記事一覧へ戻る GitHub Watcher public-apis 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 記事作成日 2026-04-29 種別 Trending #8 対象 repo public-apis/public-apis Star数 427,988 これは何か ソフトウェア開発やWeb制作で使用できる、無料で公開されているAPIの巨大なカタログです。有志によって維持されており、あらゆるジャンルのデータソースや機能が網羅されています。 何ができるか 動物、金融、健康、音楽、ニュースなど、50以上のカテゴリから用途に合ったAPIを検索できます。各エントリには、APIの簡単な説明に加えて、認証の要否（APIキー、OAuthなど）、HTTPS対応の有無、CORS設定の情報が整理されており、実装のしやすさを事前に判断できます。 目立つポイント 情報の「鮮度」と「網羅性」が群を抜いています。個人プロジェクトのアイデア出しや、ハッカソンでの迅速なプロトタイプ作成、あるいは新しいプログラミング言語の学習におけるデータ取得の練習台として、世界中の開発者に愛用されています。 セットアップや使い方の流れ リポジトリ内の README.md を開くと、アルファベット順の目次が表示されます。興味のあるカテゴリ（例： `Currency Exchange`）をクリックすると、対応するAPIのリストが表示されます。リンクを辿れば、各APIの公式ドキュメントへ直接飛ぶことができます。 どんな人向けか 新しいWebサービスのアイデアを探している起業家、実データを使ったアプリを作りたい学習者、あるいは特定の機能を自前で実装せずに済ませたい効率重視のエンジニアに最適です。 注意点 「無料」と記載されていても、利用回数制限（Rate Limit）があるものや、商用利用には別途ライセンスが必要なものも含まれます。また、外部サービスである以上、突然の提供終了や仕様変更のリスクがあるため、プロダクション環境での利用には十分な検証が必要です。 まとめ 現代のソフトウェア開発は「APIをどう組み合わせるか」が重要です。その選択肢を一覧できるこのリポジトリは、まさに現代の開発者にとっての「道具箱の目録」と言えるでしょう。スター数が40万を超えているのも納得の有用性です。 参照リンク https://github.com/public-apis/public-apis Shared GitHub Serial: #373"
+    },
+    {
+      "slug": "2026-04-29-modelcontextprotocol-servers",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Model Context Protocol Servers",
+      "dek": "AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。",
+      "summary": "Anthropicが提唱するModel Context Protocol (MCP) の公式リファレンス実装集。AIエージェントが外部ツールやデータと通信するための標準的なサーバー群（記憶、Git、ファイル操作等）を提供し、エージェントの自律性を劇的に向上させます。",
+      "repoName": "modelcontextprotocol/servers",
+      "genre": "開発ツール・インフラ",
+      "publishedAt": "2026-04-29",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-29-modelcontextprotocol-servers.html",
+      "serial": 379,
+      "searchText": "Model Context Protocol Servers AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。 Anthropicが提唱するModel Context Protocol (MCP) の公式リファレンス実装集。AIエージェントが外部ツールやデータと通信するための標準的なサーバー群（記憶、Git、ファイル操作等）を提供し、エージェントの自律性を劇的に向上させます。 modelcontextprotocol/servers 開発ツール・インフラ Model Context Protocol Servers ← 記事一覧へ戻る GitHub Watcher Model Context Protocol Servers GitHub #379 AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。 記事作成日 2026-04-29 作成時順位 1位 (公式) 対象 repo modelcontextprotocol/servers Star数 84,800+ これは何か Anthropic が提唱し、現在 AI 業界で急速に普及している「Model Context Protocol (MCP)」の公式リファレンス実装集です。AI エージェント（Claude Code, Cursor, Windsurf, 等）が外部のデータソースやツールと安全かつ標準化された方法で通信するための「サーバー」のソースコードがまとめられています。まさに AI エージェント時代の「標準ドライバ集」と呼べるリポジトリです。 何ができるか このリポジトリには、エージェントの基礎能力を底上げする強力なサーバーが多数含まれています： Memory : 知識グラフ（Knowledge Graph）を用いた永続的な長期記憶システム。 Filesystem : 安全な制限下でのファイル読み書き・検索操作。 Git : リポジトリの履歴解析やコミット、差分確認の自動化。 Fetch : ウェブサイトの内容を LLM が読みやすい形式で取得・変換。 Sequential Thinking : AI が複雑な問題を解くための「思考の連鎖」を可視化・構造化。 目立つポイント 最大の特徴は「相互運用性」です。一度 MCP サーバーとして実装されたツールは、規格に対応しているあらゆる AI クライアントから即座に利用可能になります。また、公式によるリファレンス実装であるため、セキュリティやパフォーマンス、SDK の使い方のベストプラクティスが詰まっており、開発者が独自の MCP サーバーを構築する際の最高の教科書となっています。 セットアップや使い方の流れ 多くのサーバーは Node.js または Python で記述されており、`npx` や `uvx` を通じてインストールなしで実行可能です。例えば記憶サーバーなら `npx -y @modelcontextprotocol/server-memory` を実行し、お使いの AI ツールの設定ファイル（`.claude.json` や `config.toml` 等）に追加するだけで、AI が「記憶」を持ち始めます。公式ドキュメントには各エージェントごとの設定例も豊富に用意されています。 どんな人向けか AI エージェントを単なるチャットボットとしてではなく、自分のローカル環境や特定の外部 API と連携させて「実際に動く自律型アシスタント」に育てたい開発者に最適です。また、自社のサービスを AI から呼び出せるようにしたい SaaS 開発者にとっても、MCP は避けては通れない標準規格となっています。 注意点 各サーバーには強力な権限（ファイルの削除など）を与えることができるため、設定時には「どのディレクトリへのアクセスを許可するか」といった権限管理（サンドボックス設定）を慎重に行う必要があります。公式リファレンスは教育目的の側面もあり、本番環境での利用時にはそれぞれの脅威モデルに合わせたカスタマイズが推奨されます。 まとめ 「modelcontextprotocol/servers」は、AI とソフトウェアの境界線をなくし、AI が現実世界のツールを自在に操るためのインフラを提供しています。このリポジトリにあるサーバーを一つ導入するごとに、あなたの AI アシスタントはより「賢く、役に立つ」存在へと進化していくでしょう。 参照リンク Model Context Protocol 公式サイト GitHub - modelcontextprotocol/servers Shared GitHub Serial: #379"
     },
     {
       "slug": "2026-04-29-microsoft-playwright-mcp",

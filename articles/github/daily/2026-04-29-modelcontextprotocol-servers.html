@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="modelcontextprotocol/servers を読み、Anthropicが提唱する Model Context Protocol の公式サーバー群と、AIエージェントの能力を拡張する標準的な手法について整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Model Context Protocol Servers</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Model Context Protocol Servers</h1>
+      <p class="article-serial">GitHub #379</p>
+      <p class="article-dek">AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>1位 (公式)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noreferrer">
+              modelcontextprotocol/servers
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>84,800+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic が提唱し、現在 AI 業界で急速に普及している「Model Context Protocol (MCP)」の公式リファレンス実装集です。AI エージェント（Claude Code, Cursor, Windsurf, 等）が外部のデータソースやツールと安全かつ標準化された方法で通信するための「サーバー」のソースコードがまとめられています。まさに AI エージェント時代の「標準ドライバ集」と呼べるリポジトリです。</p>
+
+        <h2>何ができるか</h2>
+        <p>このリポジトリには、エージェントの基礎能力を底上げする強力なサーバーが多数含まれています：</p>
+        <ul>
+          <li><strong>Memory</strong>: 知識グラフ（Knowledge Graph）を用いた永続的な長期記憶システム。</li>
+          <li><strong>Filesystem</strong>: 安全な制限下でのファイル読み書き・検索操作。</li>
+          <li><strong>Git</strong>: リポジトリの履歴解析やコミット、差分確認の自動化。</li>
+          <li><strong>Fetch</strong>: ウェブサイトの内容を LLM が読みやすい形式で取得・変換。</li>
+          <li><strong>Sequential Thinking</strong>: AI が複雑な問題を解くための「思考の連鎖」を可視化・構造化。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「相互運用性」です。一度 MCP サーバーとして実装されたツールは、規格に対応しているあらゆる AI クライアントから即座に利用可能になります。また、公式によるリファレンス実装であるため、セキュリティやパフォーマンス、SDK の使い方のベストプラクティスが詰まっており、開発者が独自の MCP サーバーを構築する際の最高の教科書となっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>多くのサーバーは Node.js または Python で記述されており、`npx` や `uvx` を通じてインストールなしで実行可能です。例えば記憶サーバーなら `npx -y @modelcontextprotocol/server-memory` を実行し、お使いの AI ツールの設定ファイル（`.claude.json` や `config.toml` 等）に追加するだけで、AI が「記憶」を持ち始めます。公式ドキュメントには各エージェントごとの設定例も豊富に用意されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェントを単なるチャットボットとしてではなく、自分のローカル環境や特定の外部 API と連携させて「実際に動く自律型アシスタント」に育てたい開発者に最適です。また、自社のサービスを AI から呼び出せるようにしたい SaaS 開発者にとっても、MCP は避けては通れない標準規格となっています。</p>
+
+        <h2>注意点</h2>
+        <p>各サーバーには強力な権限（ファイルの削除など）を与えることができるため、設定時には「どのディレクトリへのアクセスを許可するか」といった権限管理（サンドボックス設定）を慎重に行う必要があります。公式リファレンスは教育目的の側面もあり、本番環境での利用時にはそれぞれの脅威モデルに合わせたカスタマイズが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>「modelcontextprotocol/servers」は、AI とソフトウェアの境界線をなくし、AI が現実世界のツールを自在に操るためのインフラを提供しています。このリポジトリにあるサーバーを一つ導入するごとに、あなたの AI アシスタントはより「賢く、役に立つ」存在へと進化していくでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://modelcontextprotocol.io/" target="_blank" rel="noreferrer">Model Context Protocol 公式サイト</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noreferrer">GitHub - modelcontextprotocol/servers</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #379</p>
+      </div>
+    </article>
+  </body>
+</html>
