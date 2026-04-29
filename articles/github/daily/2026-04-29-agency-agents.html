@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="msitarzewski/agency-agents を読み、AIエージェントを専門的な「代理店」として機能させるための高度なペルソナ設計と、マルチツール対応の統合手法について整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>The Agency: AI Agents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">The Agency: AI Agents</h1>
+      <p class="article-serial">GitHub #380</p>
+      <p class="article-dek">あなたの指先に「AI代理店」を。フロントエンドからRedditマーケまで、88,000スター超えの専門特化型エージェント・プロンプト集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>1位 (Trending)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noreferrer">
+              msitarzewski/agency-agents
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>88,600+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>単なる「汎用AI」を、特定の業務に特化した「プロフェッショナル集団」へと変貌させるためのエージェント設計フレームワークです。Claude Code, Cursor, Gemini CLI, Antigravity など、主要な AI ツールすべてに統合可能な「専門職ペルソナ」が、ディレクトリごとに整理されています。Redditのスレッドから生まれ、数ヶ月の改善を経て、現在 GitHub で最も注目されているエージェント・リポジトリの一つです。</p>
+
+        <h2>何ができるか</h2>
+        <p>このプロジェクトには、以下のような多岐にわたる専門分野のエージェントが含まれています：</p>
+        <ul>
+          <li><strong>Engineering Division</strong>: フロントエンド、バックエンド、AIエンジニア、セキュリティ、DevOps。</li>
+          <li><strong>Marketing/Sales Division</strong>: Redditコミュニティビルダー、Twitterエンゲージメント、グロースハッカー、アウトバウンド戦略。</li>
+          <li><strong>Product/Design Division</strong>: UIデザイナー、UXリサーチャー、スプリント優先順位付け。</li>
+          <li><strong>Specialized Division</strong>: 法律、財務、ゲーム開発、空間コンピューティングなど。</li>
+        </ul>
+        <p>各エージェントは単なるテンプレートではなく、独自の「性格」「ミッション」「ワークフロー」「成功指標」が定義されており、まるで人間の専門家と働いているような体験を提供します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「マルチツール対応」と「納品物重視（Deliverable-Focused）」の姿勢です。リポジトリに含まれる変換スクリプト（`convert.sh`）を使用することで、保有している AI ツールに合わせた最適な形式でエージェントをインストールできます。また、各エージェントは抽象的な回答ではなく、実際に動作するコードや具体的な成果物を出すことに特化して設計されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最も推奨される方法は Claude Code への導入ですが、他のツールでも利用可能です。リポジトリをクローンし、`scripts/convert.sh` で各ツール用のファイルを生成した後、`scripts/install.sh` を実行するだけで、お使いの環境（Antigravity や Gemini CLI 等）にエージェントが統合されます。その後は AI に対して「Frontend Developer モードを起動して」と指示するだけで、その専門家の知識と振る舞いが有効になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI を「何でも聞けるチャット」としてではなく、「特定のプロジェクトを完遂するためのチームメンバー」として活用したい個人開発者や小規模チームに最適です。スタートアップの MVP 構築から、多チャンネルでのマーケティング展開、エンタープライズ向けの品質管理まで、あらゆるビジネスシーンを AI で加速させたい人にとって、この「代理店」は最強の武器になります。</p>
+
+        <h2>まとめ</h2>
+        <p>「The Agency」は、AI エージェントの活用方法を「プロンプトエンジニアリング」から「チームメイキング」へと進化させました。このリポジトリを導入することは、あなたのデスクトップに 24 時間 365 日働く、世界最高峰の専門家集団を雇い入れることと同義です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noreferrer">GitHub - msitarzewski/agency-agents</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #380</p>
+      </div>
+    </article>
+  </body>
+</html>

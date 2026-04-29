@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 12:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 22:26:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[The Agency: AI Agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-agency-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-agency-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あなたの指先に「AI代理店」を。フロントエンドからRedditマーケまで、88,000スター超えの専門特化型エージェント・プロンプト集。]]></description>
+    </item>
     <item>
       <title><![CDATA[Model Context Protocol Servers]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-modelcontextprotocol-servers.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自律型AIエージェントに「人間の記憶」を与えるオープンソースのメモリレイヤー。ナレッジグラフを活用し、過去の対話やユーザーの知識レベルを追跡・管理する。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[heretic]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-p-e-w-heretic.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-p-e-w-heretic.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[言語モデルの検閲（安全アライメント）を完全自動で除去するツール本体。アブリタレーション技術とパラメータ最適化により、モデルの知能を維持したまま制限を解除。]]></description>
     </item>
   </channel>
 </rss>

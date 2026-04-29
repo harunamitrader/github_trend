@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-29-agency-agents",
+      "title": "The Agency: AI Agents",
+      "dek": "あなたの指先に「AI代理店」を。フロントエンドからRedditマーケまで、88,000スター超えの専門特化型エージェント・プロンプト集。",
+      "summary": "AIエージェントを特定の業務に特化した「専門職の代理店」として機能させるためのプロンプトフレームワーク。Claude Code, Cursor, Antigravity など主要ツールに統合可能で、開発からマーケティング、財務まで100以上の専門エージェントを即座に配備できます。",
+      "publishedAt": "2026-04-29",
+      "repoName": "msitarzewski/agency-agents",
+      "repoUrl": "https://github.com/msitarzewski/agency-agents",
+      "starCount": 88600,
+      "articleUrl": "./articles/github/daily/2026-04-29-agency-agents.html",
+      "serial": 380,
+      "genre": "AI エージェント・自動化"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-29-modelcontextprotocol-servers",
       "title": "Model Context Protocol Servers",
       "dek": "AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。",
