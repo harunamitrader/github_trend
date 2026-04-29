@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-29T19:47:37.757018+00:00",
-  "count": 417,
+  "generatedAt": "2026-04-29T19:52:39.937726+00:00",
+  "count": 418,
   "articles": [
     {
       "slug": "2026-04-30-zhulinsen-daily-stock-analysis",
@@ -61,6 +61,21 @@
       "articleUrl": "./articles/github/daily/2026-04-30-soxoj-maigret.html",
       "serial": 381,
       "searchText": "maigret ユーザー名から3000以上のサイトを横断検索し、個人の資料を収集するOSINTツール。 ユーザー名一つから数千のプラットフォームを検索し、公開情報を集約してレポート化する強力なOSINTツール。再帰的検索と多彩な出力形式をサポートします。 soxoj/maigret スクレイピング・情報収集・セキュリティ maigret ← 記事一覧へ戻る GitHub Watcher maigret ユーザー名から3000以上のサイトを横断検索し、個人の資料を収集するOSINTツール。 記事作成日 2026-04-30 種別 GitHub Trending #13 対象 repo soxoj/maigret Star数 20,115 これは何か ユーザー名一つから、3000以上のWebサイトを横断的に検索し、その人物に関する公開情報を集約する強力なOSINT（オープンソース・インテリジェンス）ツールです。 何ができるか 指定したユーザー名の存在を数千のプラットフォーム（SNS、フォーラム、ブログ等）で確認し、プロフィール情報、メールアドレス、リンクされたアカウントなどを自動的に抽出します。 目立つポイント 3000以上の膨大な対応サイト数、情報の再帰的検索機能、多言語対応、そしてHTMLやPDF、JSONなど多彩な形式での詳細レポート出力が特徴です。 セットアップや使い方の流れ Python環境で `pip install maigret` によりインストール可能で、コマンドラインからユーザー名を指定するだけで調査が開始されます。プロキシやTor経由の実行もサポートしています。 どんな人向けか セキュリティ研究者、プライバシー調査官、法執行機関、または自分のオンライン上のフットプリントを確認したい個人に向いています。 注意点 非常に強力な情報収集ツールであるため、プライバシーに配慮し、法的に許容される範囲内での使用が求められます。 まとめ 広範囲なサイトカバレッジと高度なレポート機能を備えた、OSINTツールの決定版の一つです。 参照リンク https://github.com/soxoj/maigret Shared GitHub Serial: #381"
+    },
+    {
+      "slug": "2026-04-30-nexu-io-open-design",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "open-design",
+      "dek": "AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。",
+      "summary": "Claude Designをローカル環境で動作するように再構築したオープンソース基盤。70以上のデザインシステムと連携し、ブランド品質のUIやドキュメントをAIが生成することを支援します。",
+      "repoName": "nexu-io/open-design",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-04-30",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-30-nexu-io-open-design.html",
+      "serial": 386,
+      "searchText": "open-design AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。 Claude Designをローカル環境で動作するように再構築したオープンソース基盤。70以上のデザインシステムと連携し、ブランド品質のUIやドキュメントをAIが生成することを支援します。 nexu-io/open-design メディア作成・マルチモーダル・UI open-design ← 記事一覧へ戻る GitHub Watcher open-design AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。 記事作成日 2026-04-30 種別 Pickup 対象 repo nexu-io/open-design Star数 3,970 これは何か Anthropicが発表した「Claude Design」機能を、ローカル環境で動作するようにオープンソースで再構築したプロジェクトです。AIがデザインシステムを理解し、ブランドガイドラインに沿ったUIやプレゼンテーションを生成するための共通基盤を提供します。 何ができるか 70以上の有名ブランドのデザインシステムをAIに「教える」ことができ、一貫性のあるデザインの生成、HTML/PDF/PPTX形式へのエクスポート、さらにはサンドボックス環境でのリアルタイムプレビューが可能です。Claude CodeやCursor、Gemini CLIなどの主要なコーディングエージェントと統合して使用できます。 目立つポイント 単なるテンプレート集ではなく、AIがデザインを「生成」するための論理的な枠組み（スキル）をMarkdown形式で定義している点が画期的です。これにより、特定のプロプライエタリな環境に依存することなく、あらゆるLLMを使用してブランド品質のアセットを作成できます。 セットアップや使い方の流れ リポジトリをクローンし、お好みのAIエージェント（Claude Code等）にリポジトリ内の `skills` や `design-systems` フォルダを読み込ませることで、デザイン生成能力を拡張できます。また、内蔵のデーモンを起動することで、生成物のライブプレビューも可能です。 どんな人向けか AIを活用してUIデザインや資料作成を効率化したいデザイナー、開発者、そして自社のデザインシステムをAIに正しく理解させたいプロダクトチームに最適です。 注意点 高い品質を得るためには、Claude 3.5 Sonnetのようなビジョン能力と推論能力に優れた最新のLLMを使用することが推奨されます。 まとめ 「デザインの民主化」をAIの力で一歩進める、非常に野心的で実用的なプロジェクトです。AIが企業の「ブランド」を理解してアウトプットを出す時代が、このオープンな基盤によって加速するでしょう。 参照リンク https://github.com/nexu-io/open-design Shared GitHub Serial: #386"
     },
     {
       "slug": "2026-04-30-lukilabs-craft-agents-oss",

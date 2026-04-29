@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-30-nexu-io-open-design",
+      "title": "open-design",
+      "dek": "AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。",
+      "summary": "Claude Designをローカル環境で動作するように再構築したオープンソース基盤。70以上のデザインシステムと連携し、ブランド品質のUIやドキュメントをAIが生成することを支援します。",
+      "publishedAt": "2026-04-30",
+      "repoName": "nexu-io/open-design",
+      "repoUrl": "https://github.com/nexu-io/open-design",
+      "starCount": 3970,
+      "articleUrl": "./articles/github/daily/2026-04-30-nexu-io-open-design.html",
+      "serial": 386,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-30-update-report",
       "title": "2026-04-30 アップデートレポート",

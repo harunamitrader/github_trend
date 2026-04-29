@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 19:50:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 04:52:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[open-design]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-nexu-io-open-design.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-nexu-io-open-design.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-30 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-30-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[あらゆるプログラミング言語の無料学習リソースを網羅した、世界最大級のオープンソース・ライブラリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。]]></description>
     </item>
   </channel>
 </rss>
