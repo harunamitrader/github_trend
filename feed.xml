@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Apr 2026 22:24:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 11:36:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TradingView-API]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-29 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-29-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AnthropicのClaude Codeを、API経由で「無料」あるいは自由なプロバイダーで利用可能にするプロキシ・ラッパー。レート制限の回避や複数キーの自動切り替えに対応。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Penpot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-penpot-penpot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-penpot-penpot.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Figmaに代わる、デザイナーと開発者のためのオープンソース・デザインツール。SVGネイティブ、CSS親和性、セルフホスト対応が特徴。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-29-mathieu2301-tradingview-api",
+      "title": "TradingView-API",
+      "dek": "TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。",
+      "summary": "TradingViewのウェブサイトから市場価格やテクニカル指標のデータをリアルタイム取得するライブラリ。WebSocketエミュレーションにより高度なバックテストやBot構築を支援します。",
+      "publishedAt": "2026-04-29",
+      "repoName": "Mathieu2301/TradingView-API",
+      "repoUrl": "https://github.com/Mathieu2301/TradingView-API",
+      "starCount": 3334,
+      "articleUrl": "./articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html",
+      "serial": 376,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-29-update-report",
       "title": "2026-04-29 アップデートレポート",

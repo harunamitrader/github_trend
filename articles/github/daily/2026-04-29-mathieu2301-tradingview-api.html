@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TradingView-API</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TradingView-API</h1>
+      <p class="article-dek">TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-29 -->
+          <strong>2026-04-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Mathieu2301/TradingView-API" target="_blank" rel="noreferrer">
+              Mathieu2301/TradingView-API
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,334</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>TradingViewのウェブサイトからリアルタイムの市場価格やテクニカル指標のデータを取得するためのライブラリ。非公式ながら、通常のブラウザアクセスをエミュレートすることで、API制限を超えた高度なデータ取得を可能にしています。Node.js環境を中心に、Python等のラッパーも存在します。</p>
+
+        <h2>何ができるか</h2>
+        <p>
+          リアルタイムの株価・暗号資産価格の取得はもちろん、RSIやMACDといったテクニカル指標の値を取得できます。また、ストラテジーのバックテスト実行やチャート上の描画オブジェクトの取得、さらには「招待制インジケーター」の値にもアクセス可能です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みはWebSocketサーバーのエミュレーションによるリアルタイム性です。ブラウザ版と遜色ない速度でデータを更新でき、スクレイピングの枠を超えた「TradingViewのバックエンド化」を実現します。リプレイモードのシミュレーションや、公式では制限されている無料プランでの複数時間軸データ取得などもサポートされています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          基本的には <code>npm i @mathieuc/tradingview</code> でインストール可能です。WebSocketクライアントを初期化し、対象のシンボル（例: <code>BINANCE:BTCUSDT</code>）を指定して接続します。<code>onUpdate</code> 等のイベントを介して、最新の価格や指標の更新データをリアルタイムで受け取る実装になります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          自作のトレーディングBotを開発しているエンジニアや、独自のバックテスト環境を構築したい個人投資家に最適です。特に、TradingViewの使いやすいUIで分析した結果を、そのままプログラム側の「トリガー」として利用したい場合に真価を発揮します。
+        </p>
+
+        <h2>注意点</h2>
+        <p>非公式ライブラリであるため、TradingView側のフロントエンドの仕様変更により突然動作しなくなるリスクがあります。また、利用規約（ToS）に抵触する可能性があるため、過度なリクエストや商用利用には細心の注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>TradingViewの膨大な市場データと強力な分析エンジンを、外部プログラムから直接制御可能にする強力なAPI。自律型トレードエージェントの「感覚器官」として、あるいはデータ分析のパイプラインとして、非常に高い実用性を誇るリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Mathieu2301/TradingView-API" target="_blank" rel="noreferrer">https://github.com/Mathieu2301/TradingView-API</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #376</p>
+      </div>
+    </article>
+  </body>
+</html>
