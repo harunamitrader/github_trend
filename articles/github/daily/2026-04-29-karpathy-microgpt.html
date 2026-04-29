@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>microgpt</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">microgpt</h1>
+      <p class="article-dek">Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-29 -->
+          <strong>2026-04-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup (Gist)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" target="_blank" rel="noreferrer">
+              karpathy / microgpt (Gist)
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,000+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>元OpenAI/TeslaのAndrej Karpathy氏が公開した、GPT（Generative Pre-trained Transformer）の最もミニマムな実装です。外部ライブラリに依存せず（NumPyのみ）、自動微分からモデル構造、トレーニングループまでをわずか200行弱の単一Pythonファイルに凝縮しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>シェイクスピアのテキストなどを学習データとして与え、文字ベースで次に来る文字を予測するGPTモデルのトレーニングと推論が可能です。コードそのものが「読み物」として設計されており、Transformerの内部で何が起きているのかを数式レベルで追跡できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大のポイントは「教育的な純粋さ」です。PyTorchやTensorFlowのようなフレームワークを使わず、スカラ値ベースの自動微分エンジン（micrograd）をGPT向けに最適化して組み込んでいます。Multi-Head Attention、RMSNorm、FFNといった現代的なLLMのコンポーネントが、いかにシンプルな数学的ルールの積み重ねであるかを実感させてくれます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Gistから <code>microgpt.py</code> をダウンロードし、NumPyがインストールされた環境で実行するだけです。デフォルトでは小さなデータセット（names.txtやinput.txt）を使って数分でトレーニングを完了させ、GPTスタイルの生成結果を確認できます。また、多くの派生プロジェクト（Zig, Rust, APL等への移植）のインスピレーションの源となっています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大規模言語モデルのブラックボックスの中身を理解したいエンジニアや、AIの基礎を学ぶ学生に強くお勧めします。「Attention is All You Need」を読んだけど実装の細部がピンとこない、という方にとっての「最強の副読本」と言えるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>教育・理解を最優先しているため、大規模なデータや高速なGPUトレーニングには適していません。実務でモデルを開発するためのツールではなく、あくまで「動作原理を知るための工芸品」として扱うべきものです。</p>
+
+        <h2>まとめ</h2>
+        <p>「Maxwellの方程式のLLM版」とも称されるこのスクリプトは、AIの複雑な概念をいかに削ぎ落とし、その本質をエレガントに伝えられるかを示した金字塔的な作品です。AIに関わるすべての開発者が一度は目を通すべき「教養」と言っても過言ではありません。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" target="_blank" rel="noreferrer">https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #378</p>
+      </div>
+    </article>
+  </body>
+</html>

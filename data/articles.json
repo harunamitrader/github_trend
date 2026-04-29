@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-29-karpathy-microgpt",
+      "title": "microgpt",
+      "dek": "Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。",
+      "summary": "Andrej Karpathy氏による、Transformerアーキテクチャの核心を200行のPythonコードに凝縮した教育用スクリプト。スカラ値の自動微分からGPTのトレーニング、推論までを単一ファイルで実現しており、大規模言語モデルの動作原理を理解するための最高峰の教材です。",
+      "publishedAt": "2026-04-29",
+      "repoName": "karpathy/microgpt",
+      "repoUrl": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+      "starCount": 5000,
+      "articleUrl": "./articles/github/daily/2026-04-29-karpathy-microgpt.html",
+      "serial": 378,
+      "genre": "AI 基礎理論・モデル解説"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-29-microsoft-playwright-mcp",
       "title": "playwright-mcp",
       "dek": "AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。",

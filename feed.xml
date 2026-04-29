@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 05:10:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 17:48:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[microgpt]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-karpathy-microgpt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-karpathy-microgpt.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。]]></description>
+    </item>
     <item>
       <title><![CDATA[playwright-mcp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-microsoft-playwright-mcp.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Awesome Codex Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-composiohq-awesome-codex-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-composiohq-awesome-codex-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codexを極限まで強化する、検証済みスキルのキュレーションリスト。GitHub連携、ブラウザ自動化、システム操作などの実用的なスキルを網羅。]]></description>
     </item>
   </channel>
 </rss>

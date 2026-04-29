@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-29T05:07:10.794830+00:00",
-  "count": 408,
+  "generatedAt": "2026-04-29T08:48:17.944961+00:00",
+  "count": 409,
   "articles": [
     {
       "slug": "2026-04-29-update-report",
@@ -61,6 +61,21 @@
       "articleUrl": "./articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html",
       "serial": 376,
       "searchText": "TradingView-API TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。 TradingViewのウェブサイトから市場価格やテクニカル指標のデータをリアルタイム取得するライブラリ。WebSocketエミュレーションにより高度なバックテストやBot構築を支援します。 Mathieu2301/TradingView-API 金融・トレード分析 TradingView-API ← 記事一覧へ戻る GitHub Watcher TradingView-API TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。 記事作成日 2026-04-29 種別 Pickup 対象 repo Mathieu2301/TradingView-API Star数 3,334 これは何か TradingViewのウェブサイトからリアルタイムの市場価格やテクニカル指標のデータを取得するためのライブラリ。非公式ながら、通常のブラウザアクセスをエミュレートすることで、API制限を超えた高度なデータ取得を可能にしています。Node.js環境を中心に、Python等のラッパーも存在します。 何ができるか リアルタイムの株価・暗号資産価格の取得はもちろん、RSIやMACDといったテクニカル指標の値を取得できます。また、ストラテジーのバックテスト実行やチャート上の描画オブジェクトの取得、さらには「招待制インジケーター」の値にもアクセス可能です。 目立つポイント 最大の強みはWebSocketサーバーのエミュレーションによるリアルタイム性です。ブラウザ版と遜色ない速度でデータを更新でき、スクレイピングの枠を超えた「TradingViewのバックエンド化」を実現します。リプレイモードのシミュレーションや、公式では制限されている無料プランでの複数時間軸データ取得などもサポートされています。 セットアップや使い方の流れ 基本的には npm i @mathieuc/tradingview でインストール可能です。WebSocketクライアントを初期化し、対象のシンボル（例: BINANCE:BTCUSDT ）を指定して接続します。 onUpdate 等のイベントを介して、最新の価格や指標の更新データをリアルタイムで受け取る実装になります。 どんな人向けか 自作のトレーディングBotを開発しているエンジニアや、独自のバックテスト環境を構築したい個人投資家に最適です。特に、TradingViewの使いやすいUIで分析した結果を、そのままプログラム側の「トリガー」として利用したい場合に真価を発揮します。 注意点 非公式ライブラリであるため、TradingView側のフロントエンドの仕様変更により突然動作しなくなるリスクがあります。また、利用規約（ToS）に抵触する可能性があるため、過度なリクエストや商用利用には細心の注意が必要です。 まとめ TradingViewの膨大な市場データと強力な分析エンジンを、外部プログラムから直接制御可能にする強力なAPI。自律型トレードエージェントの「感覚器官」として、あるいはデータ分析のパイプラインとして、非常に高い実用性を誇るリポジトリです。 参照リンク https://github.com/Mathieu2301/TradingView-API Shared GitHub Serial: #376"
+    },
+    {
+      "slug": "2026-04-29-karpathy-microgpt",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "microgpt",
+      "dek": "Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。",
+      "summary": "Andrej Karpathy氏による、Transformerアーキテクチャの核心を200行のPythonコードに凝縮した教育用スクリプト。スカラ値の自動微分からGPTのトレーニング、推論までを単一ファイルで実現しており、大規模言語モデルの動作原理を理解するための最高峰の教材です。",
+      "repoName": "karpathy/microgpt",
+      "genre": "AI 基礎理論・モデル解説",
+      "publishedAt": "2026-04-29",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-29-karpathy-microgpt.html",
+      "serial": 378,
+      "searchText": "microgpt Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。 Andrej Karpathy氏による、Transformerアーキテクチャの核心を200行のPythonコードに凝縮した教育用スクリプト。スカラ値の自動微分からGPTのトレーニング、推論までを単一ファイルで実現しており、大規模言語モデルの動作原理を理解するための最高峰の教材です。 karpathy/microgpt AI 基礎理論・モデル解説 microgpt ← 記事一覧へ戻る GitHub Watcher microgpt Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。 記事作成日 2026-04-29 種別 Pickup (Gist) 対象 repo karpathy / microgpt (Gist) Star数 5,000+ これは何か 元OpenAI/TeslaのAndrej Karpathy氏が公開した、GPT（Generative Pre-trained Transformer）の最もミニマムな実装です。外部ライブラリに依存せず（NumPyのみ）、自動微分からモデル構造、トレーニングループまでをわずか200行弱の単一Pythonファイルに凝縮しています。 何ができるか シェイクスピアのテキストなどを学習データとして与え、文字ベースで次に来る文字を予測するGPTモデルのトレーニングと推論が可能です。コードそのものが「読み物」として設計されており、Transformerの内部で何が起きているのかを数式レベルで追跡できます。 目立つポイント 最大のポイントは「教育的な純粋さ」です。PyTorchやTensorFlowのようなフレームワークを使わず、スカラ値ベースの自動微分エンジン（micrograd）をGPT向けに最適化して組み込んでいます。Multi-Head Attention、RMSNorm、FFNといった現代的なLLMのコンポーネントが、いかにシンプルな数学的ルールの積み重ねであるかを実感させてくれます。 セットアップや使い方の流れ Gistから microgpt.py をダウンロードし、NumPyがインストールされた環境で実行するだけです。デフォルトでは小さなデータセット（names.txtやinput.txt）を使って数分でトレーニングを完了させ、GPTスタイルの生成結果を確認できます。また、多くの派生プロジェクト（Zig, Rust, APL等への移植）のインスピレーションの源となっています。 どんな人向けか 大規模言語モデルのブラックボックスの中身を理解したいエンジニアや、AIの基礎を学ぶ学生に強くお勧めします。「Attention is All You Need」を読んだけど実装の細部がピンとこない、という方にとっての「最強の副読本」と言えるでしょう。 注意点 教育・理解を最優先しているため、大規模なデータや高速なGPUトレーニングには適していません。実務でモデルを開発するためのツールではなく、あくまで「動作原理を知るための工芸品」として扱うべきものです。 まとめ 「Maxwellの方程式のLLM版」とも称されるこのスクリプトは、AIの複雑な概念をいかに削ぎ落とし、その本質をエレガントに伝えられるかを示した金字塔的な作品です。AIに関わるすべての開発者が一度は目を通すべき「教養」と言っても過言ではありません。 参照リンク https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95 Shared GitHub Serial: #378"
     },
     {
       "slug": "2026-04-29-hunxbyts-ghosttrack",
