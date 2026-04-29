@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GenCAD</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">GenCAD</h1>
+      <p class="article-dek">手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-30 -->
+          <strong>2026-04-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ferdous-alam/GenCAD" target="_blank" rel="noreferrer">
+              ferdous-alam/GenCAD
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,529</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>2次元のスケッチや画像情報から、3次元のCADモデル（STL形式）を直接生成することができるAIフレームワークです。拡散モデル（Diffusion Models）と対照学習を応用し、設計者の意図を3D形状へと自動変換することを目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>手書きの製品スケッチやコンセプトアートを入力として与えると、それに基づいた3Dモデルを生成します。CSR（CAD Sketch Representation）による形状の記述と、CCIPによる画像とスケッチの対応付け学習、そしてDiffusion Priorを用いた高度な推論プロセスを統合しています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる形状生成にとどまらず、CAD的な「スケッチ（断面）」と「立体（3D）」の関係性を深く学習している点が特徴です。これにより、単一の画像からでも構造的に妥当な3Dパーツを生成できる可能性を秘めています。STLから画像への変換ツールなども同梱されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Conda環境で依存関係（PyTorch, PyTorch3D等）をセットアップし、提供されている学習済みチェックポイントを使用することで推論を実行できます。ヘッドレス環境（サーバー）での実行用に `xvfb-run` を介したコマンドも用意されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>製品設計の初期段階でプロトタイプを迅速に作成したい工業デザイナーや、2Dアートを3D化したいクリエイター、そして生成AIを製造・設計分野に応用したい研究者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>GPU（CUDA環境）と PyTorch3D の導入が必要であり、環境構築の難易度はやや高めです。また、生成されたモデルはさらなる微調整や後処理が必要になる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「スケッチから3Dへ」という、設計実務における最大のボトルネックを解消しうる野心的なツールです。CADデータと画像データの橋渡しを行うこのアプローチは、将来のエンジニアリングワークフローを根本から変える可能性を持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ferdous-alam/GenCAD" target="_blank" rel="noreferrer">https://github.com/ferdous-alam/GenCAD</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #387</p>
+      </div>
+    </article>
+  </body>
+</html>

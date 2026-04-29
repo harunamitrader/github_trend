@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 19:55:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 04:55:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GenCAD]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-ferdous-alam-gencad.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-ferdous-alam-gencad.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。]]></description>
+    </item>
     <item>
       <title><![CDATA[open-design]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-nexu-io-open-design.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[大規模システムの設計（システムデザイン）を基礎から学べる、エンジニア必携の学習ガイドと問題集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[free-programming-books]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-ebookfoundation-free-programming-books.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-ebookfoundation-free-programming-books.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆるプログラミング言語の無料学習リソースを網羅した、世界最大級のオープンソース・ライブラリ。]]></description>
     </item>
   </channel>
 </rss>

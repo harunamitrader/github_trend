@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-30-ferdous-alam-gencad",
+      "title": "GenCAD",
+      "dek": "手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。",
+      "summary": "手書きスケッチや画像から3D CADモデル（STL形式）を直接生成するAIフレームワーク。設計意図を汲み取り、構造的に妥当な3Dパーツの生成を支援します。",
+      "publishedAt": "2026-04-30",
+      "repoName": "ferdous-alam/GenCAD",
+      "repoUrl": "https://github.com/ferdous-alam/GenCAD",
+      "starCount": 1529,
+      "articleUrl": "./articles/github/daily/2026-04-30-ferdous-alam-gencad.html",
+      "serial": 387,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-30-nexu-io-open-design",
       "title": "open-design",
       "dek": "AnthropicのClaude Designをオープンソースで再現。デザインシステムとAIを繋ぐ次世代クリエイティブ基盤。",
