@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 22:26:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 04:02:26 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code v2.1.123, Cursor SDK, Gemini CLI 強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年4月末の主要コーディングAIツールの動向。Claude CodeのBedrock対応、Cursor SDKの発表、Gemini CLIのnightly更新など、開発環境の進化を総括。]]></description>
+    </item>
     <item>
       <title><![CDATA[The Agency: AI Agents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-agency-agents.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.121 がリリース。MCP サーバーの自動ロード設定や /skills のフィルタリング機能、不要なプラグインを整理する prune コマンドが追加されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Memary]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-kingjulio8238-memary.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-kingjulio8238-memary.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律型AIエージェントに「人間の記憶」を与えるオープンソースのメモリレイヤー。ナレッジグラフを活用し、過去の対話やユーザーの知識レベルを追跡・管理する。]]></description>
     </item>
   </channel>
 </rss>

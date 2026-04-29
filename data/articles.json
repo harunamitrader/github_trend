@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-30-ai-others-tools-multi-update",
+      "title": "AI 汎用ツール 4月末アップデート: ChatGPT モデル選択統合、Claude Design、Perplexity デスクトップ基盤",
+      "dek": "ChatGPT の UI 刷新から、Anthropic Labs による次世代デザインツール、Perplexity のデスクトップ特化型 AI まで。汎用 AI エコシステムが加速する進化を総括。",
+      "summary": "ChatGPT のモデル選択・思考プロセスの統合、Claude Design の発表、Perplexity Personal Computer のリリース、NotebookLM の自動分類機能など、主要汎用ツールの最新アップデートをまとめました。",
+      "publishedAt": "2026-04-30",
+      "toolName": "AI Others Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-04-30-ai-others-tools-multi-update.html",
+      "serial": 418
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-30-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools 統合アップデート: Claude Code v2.1.123, Cursor SDK, Gemini CLI 強化",
+      "dek": "2026年4月末の主要コーディングAIツールの動向。Claude CodeのBedrock対応、Cursor SDKの発表、Gemini CLIのnightly更新など、開発環境の進化を総括。",
+      "summary": "Claude Code v2.1.123 のリリース、Cursor SDK v1.0 の公開、Gemini CLI の nightly 更新、Antigravity v4.3.3 へのメジャーアップデートなど、主要コーディングツールの最新情報をまとめました。",
+      "publishedAt": "2026-04-30",
+      "toolName": "AI Coding Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-04-30-ai-coding-tools-multi-update.html",
+      "serial": 417
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-29-agency-agents",
