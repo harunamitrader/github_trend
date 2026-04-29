@@ -19,7 +19,7 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 4. Resolve the target repository to the canonical GitHub URL after redirects, and normalize `repoName` to canonical `owner/repo` casing before writing anything.
 5. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same canonical `repoName` / `repoUrl` is already published.
 6. If the same repository is already published in `articles.json`, stop the task immediately, report the existing article's title and URL to the user in chat, and DO NOT create a new article or overwrite the existing one.
-7. Read only the target repository page and the minimum extra material needed to explain what it is, and capture the current public GitHub star count.
+7. Use GitHub MCP or the GitHub API (e.g., via `run_command` with `gh api` or `curl` using the `.env` token) to fetch accurate repository metadata (especially the exact `stargazers_count` integer) and read the `README.md` to understand what it is. Fallback to the browser subagent only if complex visual navigation or external documentation is absolutely required.
 8. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
 9. Append or replace one `category: "github-pickup"` entry in `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` using the canonical `repoName` / `repoUrl`.
 10. Assign the next GitHub serial number by reading existing `github-trending` and `github-pickup` entries and incrementing the largest `serial`. Do not consume `github-update-report` numbers.

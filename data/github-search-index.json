@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-29T02:36:33.231121+00:00",
-  "count": 407,
+  "generatedAt": "2026-04-29T05:07:10.794830+00:00",
+  "count": 408,
   "articles": [
     {
       "slug": "2026-04-29-update-report",
@@ -31,6 +31,21 @@
       "articleUrl": "./articles/github/daily/2026-04-29-public-apis-public-apis.html",
       "serial": 373,
       "searchText": "public-apis 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 public-apis/public-apis 学習ガイド・開発アセット public-apis ← 記事一覧へ戻る GitHub Watcher public-apis 開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。 記事作成日 2026-04-29 種別 Trending #8 対象 repo public-apis/public-apis Star数 427,988 これは何か ソフトウェア開発やWeb制作で使用できる、無料で公開されているAPIの巨大なカタログです。有志によって維持されており、あらゆるジャンルのデータソースや機能が網羅されています。 何ができるか 動物、金融、健康、音楽、ニュースなど、50以上のカテゴリから用途に合ったAPIを検索できます。各エントリには、APIの簡単な説明に加えて、認証の要否（APIキー、OAuthなど）、HTTPS対応の有無、CORS設定の情報が整理されており、実装のしやすさを事前に判断できます。 目立つポイント 情報の「鮮度」と「網羅性」が群を抜いています。個人プロジェクトのアイデア出しや、ハッカソンでの迅速なプロトタイプ作成、あるいは新しいプログラミング言語の学習におけるデータ取得の練習台として、世界中の開発者に愛用されています。 セットアップや使い方の流れ リポジトリ内の README.md を開くと、アルファベット順の目次が表示されます。興味のあるカテゴリ（例： `Currency Exchange`）をクリックすると、対応するAPIのリストが表示されます。リンクを辿れば、各APIの公式ドキュメントへ直接飛ぶことができます。 どんな人向けか 新しいWebサービスのアイデアを探している起業家、実データを使ったアプリを作りたい学習者、あるいは特定の機能を自前で実装せずに済ませたい効率重視のエンジニアに最適です。 注意点 「無料」と記載されていても、利用回数制限（Rate Limit）があるものや、商用利用には別途ライセンスが必要なものも含まれます。また、外部サービスである以上、突然の提供終了や仕様変更のリスクがあるため、プロダクション環境での利用には十分な検証が必要です。 まとめ 現代のソフトウェア開発は「APIをどう組み合わせるか」が重要です。その選択肢を一覧できるこのリポジトリは、まさに現代の開発者にとっての「道具箱の目録」と言えるでしょう。スター数が40万を超えているのも納得の有用性です。 参照リンク https://github.com/public-apis/public-apis Shared GitHub Serial: #373"
+    },
+    {
+      "slug": "2026-04-29-microsoft-playwright-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "playwright-mcp",
+      "dek": "AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。",
+      "summary": "Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、AIエージェントに視覚モデル不要で確実なDOM操作やスクレイピング能力を提供します。",
+      "repoName": "microsoft/playwright-mcp",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-29",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-29-microsoft-playwright-mcp.html",
+      "serial": 377,
+      "searchText": "playwright-mcp AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。 Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、AIエージェントに視覚モデル不要で確実なDOM操作やスクレイピング能力を提供します。 microsoft/playwright-mcp AIエージェント (自律基盤・特化アプリ) playwright-mcp ← 記事一覧へ戻る GitHub Watcher playwright-mcp AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。 記事作成日 2026-04-29 種別 Pickup 対象 repo microsoft/playwright-mcp Star数 31,724 これは何か Microsoftが公式に提供する、Playwrightを基盤としたMCP（Model Context Protocol）サーバーです。Claude DesktopやCursorなどのMCP対応AIクライアントに、高度で安定したウェブブラウジング能力を追加します。 何ができるか 指定したURLへのアクセス、要素のクリックやテキスト入力、スクリーンショットの撮影、さらにはページ全体のPDF出力まで、一般的なブラウザ操作をAIが自律的に実行できるようになります。複数のブラウザエンジン（Chromium, WebKit, Firefox等）をサポートし、DevToolsへのアクセスも備えています。 目立つポイント 最大の特徴は、従来の「画面のスクリーンショットを撮ってVisionモデルに解釈させる」方式ではなく、ウェブページの「アクセシビリティツリー」をLLMに提供する点です。これにより、AIは画像認識を必要とせず、テキストベースで高速かつ正確（Deterministic）にページ構造とインタラクティブ要素を把握できます。 セットアップや使い方の流れ MCP対応クライアント（Claude Desktopの設定ファイルなど）に、npxコマンド（例: npx -y @playwright/mcp@latest ）をサーバーとして追加するだけで利用を開始できます。環境変数を利用して、特定のオリジンをブロックしたり、ファイルアクセスを制限するといったセキュリティ設定も可能です。 どんな人向けか 自律型AIエージェントを開発しているエンジニアや、AIにウェブ検索・操作を任せて情報収集やテストを自動化したいユーザーに最適です。スクリーンショットベースの操作（Computer Useなど）が重くて不安定だと感じている方にも強く推奨されます。 注意点 強力な自動化ツールである反面、AIに不用意な操作（決済ボタンのクリックなど）を行わせないよう注意が必要です。また、アクセシビリティ・スナップショットに依存するため、アクセシビリティ対応が極端に悪いサイトではAIが適切に要素を認識できない場合があります。 まとめ AIの「目と手」となるウェブ操作ツールにおいて、Microsoft公式という信頼性と、アクセシビリティツリーを活用した高精度なアプローチが光る、現在のMCP界隈における最重要リポジトリの一つです。 参照リンク https://github.com/microsoft/playwright-mcp Shared GitHub Serial: #377"
     },
     {
       "slug": "2026-04-29-mathieu2301-tradingview-api",

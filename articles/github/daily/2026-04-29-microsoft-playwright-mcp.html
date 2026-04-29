@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>playwright-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">playwright-mcp</h1>
+      <p class="article-dek">AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-29 -->
+          <strong>2026-04-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/playwright-mcp" target="_blank" rel="noreferrer">
+              microsoft/playwright-mcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>31,724</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Microsoftが公式に提供する、Playwrightを基盤としたMCP（Model Context Protocol）サーバーです。Claude DesktopやCursorなどのMCP対応AIクライアントに、高度で安定したウェブブラウジング能力を追加します。</p>
+
+        <h2>何ができるか</h2>
+        <p>指定したURLへのアクセス、要素のクリックやテキスト入力、スクリーンショットの撮影、さらにはページ全体のPDF出力まで、一般的なブラウザ操作をAIが自律的に実行できるようになります。複数のブラウザエンジン（Chromium, WebKit, Firefox等）をサポートし、DevToolsへのアクセスも備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、従来の「画面のスクリーンショットを撮ってVisionモデルに解釈させる」方式ではなく、ウェブページの「アクセシビリティツリー」をLLMに提供する点です。これにより、AIは画像認識を必要とせず、テキストベースで高速かつ正確（Deterministic）にページ構造とインタラクティブ要素を把握できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>MCP対応クライアント（Claude Desktopの設定ファイルなど）に、npxコマンド（例: <code>npx -y @playwright/mcp@latest</code>）をサーバーとして追加するだけで利用を開始できます。環境変数を利用して、特定のオリジンをブロックしたり、ファイルアクセスを制限するといったセキュリティ設定も可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律型AIエージェントを開発しているエンジニアや、AIにウェブ検索・操作を任せて情報収集やテストを自動化したいユーザーに最適です。スクリーンショットベースの操作（Computer Useなど）が重くて不安定だと感じている方にも強く推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>強力な自動化ツールである反面、AIに不用意な操作（決済ボタンのクリックなど）を行わせないよう注意が必要です。また、アクセシビリティ・スナップショットに依存するため、アクセシビリティ対応が極端に悪いサイトではAIが適切に要素を認識できない場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AIの「目と手」となるウェブ操作ツールにおいて、Microsoft公式という信頼性と、アクセシビリティツリーを活用した高精度なアプローチが光る、現在のMCP界隈における最重要リポジトリの一つです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/playwright-mcp" target="_blank" rel="noreferrer">https://github.com/microsoft/playwright-mcp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #377</p>
+      </div>
+    </article>
+  </body>
+</html>

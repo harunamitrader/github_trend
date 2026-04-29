@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 02:39:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 14:07:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[playwright-mcp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-microsoft-playwright-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-microsoft-playwright-mcp.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。]]></description>
+    </item>
     <item>
       <title><![CDATA[TradingView-API]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI Codexを極限まで強化する、検証済みスキルのキュレーションリスト。GitHub連携、ブラウザ自動化、システム操作などの実用的なスキルを網羅。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Free Claude Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-alishahryar1-free-claude-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-alishahryar1-free-claude-code.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AnthropicのClaude Codeを、API経由で「無料」あるいは自由なプロバイダーで利用可能にするプロキシ・ラッパー。レート制限の回避や複数キーの自動切り替えに対応。]]></description>
     </item>
   </channel>
 </rss>

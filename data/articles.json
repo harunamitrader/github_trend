@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-29-microsoft-playwright-mcp",
+      "title": "playwright-mcp",
+      "dek": "AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。",
+      "summary": "Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、AIエージェントに視覚モデル不要で確実なDOM操作やスクレイピング能力を提供します。",
+      "publishedAt": "2026-04-29",
+      "repoName": "microsoft/playwright-mcp",
+      "repoUrl": "https://github.com/microsoft/playwright-mcp",
+      "starCount": 31724,
+      "articleUrl": "./articles/github/daily/2026-04-29-microsoft-playwright-mcp.html",
+      "serial": 377,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-29-mathieu2301-tradingview-api",
       "title": "TradingView-API",
       "dek": "TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。",

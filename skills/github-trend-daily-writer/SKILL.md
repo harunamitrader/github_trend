@@ -19,7 +19,7 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 6. ページ上の全順位の中から、未作成のリポジトリを**順位順に最大5つ**選びます。
 7. 記事の作成順は、選定後に**下位順位のものから先に**進めます。これにより、あとから追加される上位順位の記事が一覧上で上に並びやすくなります。
 8. ページ上のすべてのリポジトリを調査しても未作成がない場合は、コンテンツの変更は行いません。
-9. 各リポジトリについて、リポジトリページと最低限の追加情報を読み、内容を把握し、公開時点の GitHub star 数を取得します。
+9. 各リポジトリについて、GitHub MCPやAPI（`.env` のトークン等）を利用して正確な `stargazers_count`（整数）と `README.md` などの基本情報を高速に取得し、内容を把握します。ブラウザエージェントでの巡回は時間がかかるため避け、APIによる一括・高速なデータ収集を優先してください。
 10. `references/article-outline.md` に従い、日本語で記事を執筆します。形式は **GitHub Watcher** スタイルを厳守します。
 11. 新しい記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\` に保存します。
 12. `data/articles.json` には canonical な `repoName` / `repoUrl` を使って新規追加または既存重複の置き換えを行います。
