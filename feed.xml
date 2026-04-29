@@ -5,8 +5,64 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 04:02:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 04:47:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-30 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-30-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-30-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[warp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-warpdotdev-warp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-warpdotdev-warp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIと深く統合された「エージェント型（Agentic）開発環境」としての次世代ターミナル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[jcode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-1jehuang-jcode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-1jehuang-jcode.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントのための軽量なRust製TUI操作盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[daily_stock_analysis]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-zhulinsen-daily-stock-analysis.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-zhulinsen-daily-stock-analysis.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A株/香港株/米国株に対応した、LLM駆動のインテリジェント株式分析システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[craft-agents-oss]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-lukilabs-craft-agents-oss.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-lukilabs-craft-agents-oss.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[様々なAIエージェントを実行・管理するための統合プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[maigret]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-soxoj-maigret.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-soxoj-maigret.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ユーザー名から3000以上のサイトを横断検索し、個人の資料を収集するOSINTツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI 汎用ツール 4月末アップデート: ChatGPT モデル選択統合、Claude Design、Perplexity デスクトップ基盤]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChatGPT の UI 刷新から、Anthropic Labs による次世代デザインツール、Perplexity のデスクトップ特化型 AI まで。汎用 AI エコシステムが加速する進化を総括。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code v2.1.123, Cursor SDK, Gemini CLI 強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-coding-tools-multi-update.html</link>
@@ -110,62 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini Enterprise: カスタム MCP サーバーのデータストア接続に対応（Preview）]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-gemini-enterprise-custom-mcp-support.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-gemini-enterprise-custom-mcp-support.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini Enterprise 向けに、独自の MCP (Model Context Protocol) サーバーをデータストアとして接続できる機能がプレビュー公開。社内の独自 API やデータベースを Gemini から直接活用可能になります。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.26: 音声合成の刷新とテレメトリ監視の導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-voice-telemetry.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-voice-telemetry.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.4.26 がリリース。ElevenLabs v3 への対応、アカウントごとの音声上書き設定、OpenTelemetry による高度な監視機能が追加されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok: 超低遅延・高感情の音声基盤「Think Fast 1.0」をリリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-grok-voice-think-fast-1-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-grok-voice-think-fast-1-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[xAI が世界最速レベルの音声エージェント基盤「Grok Voice Think Fast 1.0」をリリース。100ms 以下の低遅延と、自然な感情表現を備えたリアルタイム対話を実現します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: Gemini への完全統合と Google Slides 編集機能の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-notebooklm-gemini-slides-integration.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-notebooklm-gemini-slides-integration.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NotebookLM の機能が Google Gemini アプリと Slides に深く統合。資料の要約、構造化、そして Slides 内でのスライド自動構成が可能になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: 9 つのクリエイティブ・コネクタを公開、プロの制作環境と直接連携]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-creative-connectors.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-creative-connectors.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Anthropic が 9 つのプロ向けクリエイティブ・コネクタをリリース。Claude が Photoshop、Blender、Ableton などのアプリを直接操作し、共同制作を支援します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor SDK: 独自のプログラマブル・エージェント開発が可能に]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-cursor-sdk-programmable-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-cursor-sdk-programmable-agents.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor が Programmable Agents を構築するための「Cursor SDK」を公開。独自のクラウドエージェントを開発し、エディタから直接呼び出すことが可能になります。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.121: MCP alwaysLoad と /skills 検索の実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-claude-code-v2-1-121-mcp-alwaysload-skills-filter.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.121 がリリース。MCP サーバーの自動ロード設定や /skills のフィルタリング機能、不要なプラグインを整理する prune コマンドが追加されました。]]></description>
     </item>
   </channel>
 </rss>
