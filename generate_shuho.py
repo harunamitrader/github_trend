@@ -42,13 +42,15 @@ def generate_shuho_html():
         html_body = markdown.markdown(body_content, extensions=['tables'])
         
         card_html = f"""
-              <article class="shuho-card">
-                <div class="shuho-date">{date_str}</div>
-                <h3 class="shuho-title">{title_str}</h3>
+              <details class="shuho-card">
+                <summary class="shuho-summary">
+                  <span class="shuho-date">{date_str}</span>
+                  <h3 class="shuho-title">{title_str}</h3>
+                </summary>
                 <div class="shuho-content">
 {html_body}
                 </div>
-              </article>"""
+              </details>"""
         html_cards.append(card_html)
         
     all_cards_html = "\n".join(html_cards)
