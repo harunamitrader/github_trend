@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 07:09:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 17:59:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ray-finance]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-cdinnison-ray-finance.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-cdinnison-ray-finance.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[個人財務をAIが徹底サポート. Plaid連携で収支をリアルタイム把握し、対話を通じて賢くなるオープンソース・アドバイザー。]]></description>
+    </item>
     <item>
       <title><![CDATA[Mind]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI音楽生成「ACE-Step」のためのプロフェッショナルなUI。ローカル環境で無制限に高品質な音楽を生成可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[public-apis]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-public-apis-public-apis.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-public-apis-public-apis.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。]]></description>
     </item>
   </channel>
 </rss>

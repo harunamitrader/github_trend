@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-30-cdinnison-ray-finance",
+      "title": "ray-finance",
+      "dek": "個人財務をAIが徹底サポート. Plaid連携で収支をリアルタイム把握し、対話を通じて賢くなるオープンソース・アドバイザー。",
+      "summary": "Plaid連携によって金融データをリアルタイムで取得・分析し、パーソナライズされた財務アドバイスを提供するAIアシスタント。CLIツールとして動作し、好みのLLMを選択可能で、対話を通じてユーザーの消費傾向や目標を学習していくのが特徴です。",
+      "publishedAt": "2026-04-30",
+      "repoName": "cdinnison/ray-finance",
+      "repoUrl": "https://github.com/cdinnison/ray-finance",
+      "starCount": 162,
+      "articleUrl": "./articles/github/daily/2026-04-30-cdinnison-ray-finance.html",
+      "serial": 389,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-30-gabrielmartinmoran-mind",
       "title": "Mind",
       "dek": "AIエージェントに「長期記憶」を。RAGを活用してエージェントの忘却を防ぐ自動メモリレイヤー。",
