@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-05-01-AI4Finance-Foundation-FinRL",
+      "title": "FinRL",
+      "dek": "深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。",
+      "summary": "金融分野への深層強化学習の応用を劇的に効率化し、AI による高度なトレード戦略開発を身近にする極めて強力な基盤ツールです。",
+      "publishedAt": "2026-05-01",
+      "repoName": "AI4Finance-Foundation/FinRL",
+      "repoUrl": "https://github.com/AI4Finance-Foundation/FinRL",
+      "starCount": 14980,
+      "articleUrl": "./articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html",
+      "serial": 396,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-05-01-browserbase-skills",

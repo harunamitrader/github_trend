@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 21:21:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 07:13:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[FinRL]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-browserbase-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ユーザー名から3000以上のサイトを横断検索し、個人の資料を収集するOSINTツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 汎用ツール 4月末アップデート: ChatGPT モデル選択統合、Claude Design、Perplexity デスクトップ基盤]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT の UI 刷新から、Anthropic Labs による次世代デザインツール、Perplexity のデスクトップ特化型 AI まで。汎用 AI エコシステムが加速する進化を総括。]]></description>
     </item>
   </channel>
 </rss>

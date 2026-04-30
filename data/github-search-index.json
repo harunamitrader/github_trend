@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T21:18:43.634261+00:00",
-  "count": 428,
+  "generatedAt": "2026-04-30T22:12:49.846390+00:00",
+  "count": 429,
   "articles": [
     {
       "slug": "2026-05-01-update-report",
@@ -76,6 +76,21 @@
       "articleUrl": "./articles/github/daily/2026-05-01-ForrestKnight-open-source-cs.html",
       "serial": 393,
       "searchText": "open-source-cs コンピュータサイエンスの基礎から応用までを独学するためのオープンソース・カリキュラム。 独学でコンピュータサイエンスの学位レベルの知識を身につけるために厳選された無料の学習リソース集。プログラミングの基礎からアルゴリズムまで体系的に学べます。 ForrestKnight/open-source-cs 学習ガイド・開発アセット open-source-cs ← 記事一覧へ戻る GitHub Watcher open-source-cs コンピュータサイエンスの基礎から応用までを独学するためのオープンソース・カリキュラム。 記事作成日 2026-05-01 種別 Trending #12 対象 repo ForrestKnight/open-source-cs Star数 22,339 これは何か 独学でコンピュータサイエンスの学位レベルの知識を身につけるために厳選された無料の学習リソース集です。 何ができるか プログラミングの基礎、アルゴリズム、データ構造、システム設計などの幅広いトピックを体系的に学べます。 目立つポイント 各コースへのリンクが構造化されており、学習の進捗を自己管理しやすい点が特徴です。 セットアップや使い方の流れ リポジトリの README を読み進め、記載されている順番にオンラインコースや教材に取り組むだけです。 どんな人向けか コンピュータサイエンスの基礎を固めたい独学者や、知識を再確認したいエンジニア。 注意点 全てを修了するには数ヶ月から数年の継続的な努力が必要です。 まとめ オープンソースのリソースを最大限に活用し、体系的な学習パスを提供する非常に価値の高いカリキュラムです。 参照リンク https://github.com/ForrestKnight/open-source-cs Shared GitHub Serial: #393"
+    },
+    {
+      "slug": "2026-05-01-AI4Finance-Foundation-FinRL",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "FinRL",
+      "dek": "深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。",
+      "summary": "金融分野への深層強化学習の応用を劇的に効率化し、AI による高度なトレード戦略開発を身近にする極めて強力な基盤ツールです。",
+      "repoName": "AI4Finance-Foundation/FinRL",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-01",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html",
+      "serial": 396,
+      "searchText": "FinRL 深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。 金融分野への深層強化学習の応用を劇的に効率化し、AI による高度なトレード戦略開発を身近にする極めて強力な基盤ツールです。 AI4Finance-Foundation/FinRL 金融・トレード分析 FinRL ← 記事一覧へ戻る GitHub Watcher FinRL 深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。 記事作成日 2026-05-01 種別 Pickup 対象 repo AI4Finance-Foundation/FinRL Star数 14,980 これは何か FinRL は、深層強化学習（DRL）を利用して自動取引エージェントを構築するためのオープンソース・フレームワークです。金融市場データを OpenAI Gym 環境としてラップし、様々なアルゴリズムで学習可能な基盤を提供します。 何ができるか 株式、暗号資産、為替など多様な金融データの取得から、前処理、特徴量エンジニアリング、そして PyTorch や TensorFlow を用いた深層強化学習モデルの訓練・バックテストを一貫して行えます。 目立つポイント 初心者から研究者まで使いやすいモジュール化された設計が特徴です。ElegantRL や Stable-Baselines3 などの強力な DRL ライブラリとシームレスに連携し、複雑な取引戦略の実装を大幅に簡略化します。 セットアップや使い方の流れ pip コマンド（`pip install finrl`）で簡単にインストール可能です。リポジトリ内の豊富な Jupyter Notebook のチュートリアルに従うことで、すぐにデータ取得からバックテストまでのパイプラインを構築できます。 どんな人向けか アルゴリズム取引やクオンツトレードに興味のあるデータサイエンティスト、AI を使った金融市場の分析・予測モデルを研究したい開発者。 注意点 モデルの学習結果が実際の金融市場での利益を保証するものではありません。実運用（ライブトレード）の際は、過学習や市場の変動リスクに十分な注意が必要です。 まとめ 金融分野への深層強化学習の応用を劇的に効率化し、AI による高度なトレード戦略開発を身近にする極めて強力な基盤ツールです。 参照リンク https://github.com/AI4Finance-Foundation/FinRL Shared GitHub Serial: #396"
     },
     {
       "slug": "2026-04-30-zhulinsen-daily-stock-analysis",
