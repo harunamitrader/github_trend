@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 19:24:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 04:43:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-browserbase-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-browserbase-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Agent SDK と連携するブラウザ自動化・操作ツールキット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[open-source-cs]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ForrestKnight-open-source-cs.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ForrestKnight-open-source-cs.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[コンピュータサイエンスの基礎から応用までを独学するためのオープンソース・カリキュラム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ghostty]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ghostty-org-ghostty.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ghostty-org-ghostty.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Zig で書かれた、GPU アクセラレーション対応の高速かつ高機能なクロスプラットフォーム・ターミナル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[quarkdown]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-iamgio-quarkdown.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-iamgio-quarkdown.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Markdown を拡張し、より表現豊かなドキュメントやプレゼンテーションを作成できるコンパイラ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-01 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-01-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-01-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[Perplexity: Deep Research 機能の導入]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-perplexity-deep-research.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT の UI 刷新から、Anthropic Labs による次世代デザインツール、Perplexity のデスクトップ特化型 AI まで。汎用 AI エコシステムが加速する進化を総括。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code v2.1.123, Cursor SDK, Gemini CLI 強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-30-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026年4月末の主要コーディングAIツールの動向。Claude CodeのBedrock対応、Cursor SDKの発表、Gemini CLIのnightly更新など、開発環境の進化を総括。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[The Agency: AI Agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-agency-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-agency-agents.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あなたの指先に「AI代理店」を。フロントエンドからRedditマーケまで、88,000スター超えの専門特化型エージェント・プロンプト集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Model Context Protocol Servers]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-modelcontextprotocol-servers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-modelcontextprotocol-servers.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「手足」を与える世界標準。Anthropic公式が提供する、ファイル操作・記憶・検索を統合するMCPサーバーリファレンス群。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[microgpt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-karpathy-microgpt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-karpathy-microgpt.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Andrej Karpathy氏による、わずか200行のPythonコードで記述された「最小のGPT」。Transformerの核心を学ぶための究極の教材。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[playwright-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-microsoft-playwright-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-microsoft-playwright-mcp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。]]></description>
     </item>
   </channel>
 </rss>
