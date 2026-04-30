@@ -119,7 +119,7 @@
       "starCount": 1510,
       "articleUrl": "./articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html",
       "serial": 391,
-      "genre": "開発ツール・インフラ"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -323,7 +323,7 @@
       "starCount": 88600,
       "articleUrl": "./articles/github/daily/2026-04-29-agency-agents.html",
       "serial": 380,
-      "genre": "AI エージェント・自動化"
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "category": "github-pickup",
@@ -338,7 +338,7 @@
       "starCount": 84800,
       "articleUrl": "./articles/github/daily/2026-04-29-modelcontextprotocol-servers.html",
       "serial": 379,
-      "genre": "開発ツール・インフラ"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-pickup",
@@ -353,7 +353,7 @@
       "starCount": 5000,
       "articleUrl": "./articles/github/daily/2026-04-29-karpathy-microgpt.html",
       "serial": 378,
-      "genre": "AI 基礎理論・モデル解説"
+      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "github-pickup",
