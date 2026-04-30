@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-30-the-swarm-corporation-autohedge",
+      "title": "AutoHedge",
+      "dek": "AIエージェントの「群知能」で自律型ヘッジファンドを構築。市場分析からリスク管理、取引実行までを全自動化するマルチエージェント・システム。",
+      "summary": "AIエージェントの「群知能（Swarm Intelligence）」を活用して、投資プロセスの全自動化を目指す自律型ヘッジファンド構築フレームワーク。特化型エージェント（Director, Quant, Risk Manager, Execution）を連携させ、分析からリスク管理、取引実行までを人間の介入なしに完遂します。",
+      "publishedAt": "2026-04-30",
+      "repoName": "The-Swarm-Corporation/AutoHedge",
+      "repoUrl": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "starCount": 1951,
+      "articleUrl": "./articles/github/daily/2026-04-30-the-swarm-corporation-autohedge.html",
+      "serial": 390,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-30-cdinnison-ray-finance",
       "title": "ray-finance",
       "dek": "個人財務をAIが徹底サポート. Plaid連携で収支をリアルタイム把握し、対話を通じて賢くなるオープンソース・アドバイザー。",
