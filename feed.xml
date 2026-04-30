@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 19:04:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 04:21:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Perplexity: Deep Research 機能の導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-perplexity-deep-research.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-perplexity-deep-research.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長時間の自律的なリサーチタスクをサポートし、詳細なレポートを自動生成するDeep Researchモードを実装。]]></description>
+    </item>
     <item>
       <title><![CDATA[Windsurf v2.2: コンテキストウィンドウの視覚化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-windsurf-v2-2-context-window.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに正確なWebブラウジング能力を与える、Microsoft公式のPlaywright用MCPサーバー。アクセシビリティツリーを活用し、視覚モデル不要で確実なDOM操作を実現します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradingView-API]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-mathieu2301-tradingview-api.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。]]></description>
     </item>
   </channel>
 </rss>

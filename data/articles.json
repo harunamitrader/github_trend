@@ -9,6 +9,19 @@
     {
       "category": "ai-tool-log",
       "originType": "tool",
+      "slug": "2026-05-01-perplexity-deep-research",
+      "title": "Perplexity: Deep Research 機能の導入",
+      "dek": "長時間の自律的なリサーチタスクをサポートし、詳細なレポートを自動生成するDeep Researchモードを実装。",
+      "summary": "Perplexity に、長時間の自律的な情報収集と分析を行う「Deep Research」機能が搭載されました。複雑なテーマに対して複数の視点から深く掘り下げたレポートを生成します。",
+      "publishedAt": "2026-05-01",
+      "toolName": "Perplexity",
+      "articleUrl": "./articles/tools/2026-05-01-perplexity-deep-research.html",
+      "serial": 393,
+      "genre": "Others"
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool",
       "slug": "2026-05-01-windsurf-v2-2-context-window",
       "title": "Windsurf v2.2: コンテキストウィンドウの視覚化",
       "dek": "コンテキストウィンドウの視覚化機能の追加と、新しいテーマの導入による開発体験の向上。",
