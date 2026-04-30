@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool",
+      "slug": "2026-05-01-windsurf-v2-2-context-window",
+      "title": "Windsurf v2.2: コンテキストウィンドウの視覚化",
+      "dek": "コンテキストウィンドウの視覚化機能の追加と、新しいテーマの導入による開発体験の向上。",
+      "summary": "Windsurf v2.2 がリリースされました。エージェントが現在どのようなファイルや情報をコンテキストとして保持しているかを視覚的に確認できる機能が追加され、予期せぬ動作を防ぎやすくなっています。",
+      "publishedAt": "2026-05-01",
+      "toolName": "Windsurf",
+      "articleUrl": "./articles/tools/2026-05-01-windsurf-v2-2-context-window.html",
+      "serial": 392,
+      "genre": "Coding"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-30-hyperbrowserai-hyperbrowser-app-examples",

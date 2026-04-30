@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 10:43:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 04:01:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Windsurf v2.2: コンテキストウィンドウの視覚化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-windsurf-v2-2-context-window.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-windsurf-v2-2-context-window.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[コンテキストウィンドウの視覚化機能の追加と、新しいテーマの導入による開発体験の向上。]]></description>
+    </item>
     <item>
       <title><![CDATA[Hyperbrowser App Examples]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[TradingViewのリアルタイム価格やインジケーター値をPython/Node.jsから取得・操作できる非公式API。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-29 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-29-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-29-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
