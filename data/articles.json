@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-30-gabrielmartinmoran-mind",
+      "title": "Mind",
+      "dek": "AIエージェントに「長期記憶」を。RAGを活用してエージェントの忘却を防ぐ自動メモリレイヤー。",
+      "summary": "AIエージェントやワークフローにおいて、対話の履歴や重要なコンテキストを永続的に保持するための外部メモリレイヤー。RAG（検索拡張生成）の仕組みをバックエンドに統合し、ベクトル検索によって過去の情報を自動的に呼び出すことで、トークン上限による忘却を防ぎます。",
+      "publishedAt": "2026-04-30",
+      "repoName": "GabrielMartinMoran/mind",
+      "repoUrl": "https://github.com/GabrielMartinMoran/mind",
+      "starCount": 92,
+      "articleUrl": "./articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html",
+      "serial": 388,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-30-ferdous-alam-gencad",
       "title": "GenCAD",
       "dek": "手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。",
