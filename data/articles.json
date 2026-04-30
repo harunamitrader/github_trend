@@ -72,15 +72,13 @@
     },
     {
       "category": "github-update-report",
-      "originType": "report",
       "slug": "2026-05-01-update-report",
       "title": "2026-05-01 GitHub Trending 更新レポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "summary": "本日の調査で上位13件のトレンドを巡回し、4件の新しい記事を作成しました。",
       "publishedAt": "2026-05-01",
       "articleUrl": "./articles/github/reports/2026-05-01-update-report.html",
-      "serial": 33,
-      "genre": "レポート"
+      "serial": 33
     },
     {
       "category": "ai-tool-log",

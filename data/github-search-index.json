@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-30T19:42:54.868994+00:00",
+  "generatedAt": "2026-04-30T21:09:51.621837+00:00",
   "count": 428,
   "articles": [
     {
       "slug": "2026-05-01-update-report",
       "category": "github-update-report",
-      "originType": "report",
+      "originType": "",
       "title": "2026-05-01 GitHub Trending 更新レポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "summary": "本日の調査で上位13件のトレンドを巡回し、4件の新しい記事を作成しました。",
       "repoName": "",
-      "genre": "レポート",
+      "genre": "",
       "publishedAt": "2026-05-01",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-01-update-report.html",
       "serial": 33,
-      "searchText": "2026-05-01 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査で上位13件のトレンドを巡回し、4件の新しい記事を作成しました。 レポート 2026-05-01 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-01 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-01 調査件数 全 {{TOTAL_COUNT}} 件 新規作成 {{NEW_COUNT}} 件 本日の調査ランキング（全件） 本日（2026-05-01）の GitHub Trending にランクインしていた全 {{TOTAL_COUNT}} リポジトリの調査結果です。 {{RANKING_LIST_ITEMS}} 今後の展望 {{FUTURE_OUTLOOK}}"
+      "searchText": "2026-05-01 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査で上位13件のトレンドを巡回し、4件の新しい記事を作成しました。 2026-05-01 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-01 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-01 調査件数 全 13 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-01）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 warpdotdev/warp ✅ 記事作成済み TauricResearch/TradingAgents ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み obra/superpowers ✅ 記事作成済み lukilabs/craft-agents-oss ✅ 記事作成済み public-apis/public-apis ✅ 記事作成済み 1jehuang/jcode ✅ 記事作成済み soxoj/maigret ✅ 記事作成済み HunxByts/GhostTrack ✅ 記事作成済み iamgio/quarkdown ✨ 新規追加 ghostty-org/ghostty ✨ 新規追加 ForrestKnight/open-source-cs ✨ 新規追加 browserbase/skills ✨ 新規追加 今後の展望 本日は、ブラウザ操作のAIエージェント統合SDK（browserbase/skills）や、高速なターミナルエミュレータ（ghostty）、Markdownの拡張コンパイラ（quarkdown）、さらにはOSSのコンピュータサイエンス学習カリキュラムなど、AIと開発の生産性を高める基盤ツールや学習アセットが多くランクインしました。継続的な自己学習と効率的なツール選定が重要視されている傾向が伺えます。"
     },
     {
       "slug": "2026-05-01-iamgio-quarkdown",
