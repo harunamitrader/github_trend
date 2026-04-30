@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 10:35:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 19:41:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Hyperbrowser App Examples]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。]]></description>
+    </item>
     <item>
       <title><![CDATA[AutoHedge]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-the-swarm-corporation-autohedge.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GhostTrack]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-hunxbyts-ghosttrack.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-hunxbyts-ghosttrack.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[電話番号や位置情報を追跡・分析するためのOSINTツール。情報収集とセキュリティ調査を支援する。]]></description>
     </item>
   </channel>
 </rss>

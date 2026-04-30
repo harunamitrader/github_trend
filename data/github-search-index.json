@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T10:33:20.448551+00:00",
-  "count": 422,
+  "generatedAt": "2026-04-30T10:41:11.043431+00:00",
+  "count": 423,
   "articles": [
     {
       "slug": "2026-04-30-zhulinsen-daily-stock-analysis",
@@ -106,6 +106,21 @@
       "articleUrl": "./articles/github/daily/2026-04-30-lukilabs-craft-agents-oss.html",
       "serial": 382,
       "searchText": "craft-agents-oss 様々なAIエージェントを実行・管理するための統合プラットフォーム。 複数のAIプロバイダーや自律エージェントを、統一された環境で実行・管理するためのオープンソース基盤。Bunベースの高速環境とブラウザ操作ツールの統合が特徴です。 lukilabs/craft-agents-oss AIエージェント (自律基盤・特化アプリ) craft-agents-oss ← 記事一覧へ戻る GitHub Watcher craft-agents-oss 様々なAIエージェントを実行・管理するための統合プラットフォーム。 記事作成日 2026-04-30 種別 Trending #11 対象 repo lukilabs/craft-agents-oss Star数 5,282 これは何か 複数のAIプロバイダーやエージェントを、統一された環境で実行・管理・ホストするためのオープンソース・プラットフォームです。 何ができるか OpenAIやClaudeなどのAPIを切り替えながら、自律型エージェントを特定のプロジェクトやタスクに配備し、WebUIやCLIを通じてその挙動を監視・制御できます。 目立つポイント Bunベースの高速な実行環境、直感的なWebUI、MCP（Model Context Protocol）のサポート、そしてブラウザ操作ツールのネイティブ統合による高い自律性が特徴です。 セットアップや使い方の流れ DockerまたはBunを使用してローカルにセットアップでき、Craft CLIを用いてセッションの管理やエージェントのカスタマイズを行います。 どんな人向けか 独自のAIエージェント実行環境を構築したい開発者や、複数のエージェントを効率的に管理したいチームに適しています。 注意点 開発初期段階にあるため、APIの変更や一部機能の不安定さが伴う可能性があります。 まとめ エージェントの実行と管理を簡素化し、カスタマイズ可能なワークスペースを提供する強力なインフラです。 参照リンク https://github.com/lukilabs/craft-agents-oss Shared GitHub Serial: #382"
+    },
+    {
+      "slug": "2026-04-30-hyperbrowserai-hyperbrowser-app-examples",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Hyperbrowser App Examples",
+      "dek": "AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。",
+      "summary": "AIエージェント向けに最適化されたブラウジングプラットフォーム「Hyperbrowser」を活用した実用的なアプリの実装例集。Webスクレイピング、自動データ抽出、リサーチエージェントなどの高度なブラウジング機能を備えたアプリの構築方法を、Next.js/TypeScriptのコードを通じて学べます。",
+      "repoName": "hyperbrowserai/hyperbrowser-app-examples",
+      "genre": "開発ツール・インフラ",
+      "publishedAt": "2026-04-30",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html",
+      "serial": 391,
+      "searchText": "Hyperbrowser App Examples AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。 AIエージェント向けに最適化されたブラウジングプラットフォーム「Hyperbrowser」を活用した実用的なアプリの実装例集。Webスクレイピング、自動データ抽出、リサーチエージェントなどの高度なブラウジング機能を備えたアプリの構築方法を、Next.js/TypeScriptのコードを通じて学べます。 hyperbrowserai/hyperbrowser-app-examples 開発ツール・インフラ Hyperbrowser App Examples ← 記事一覧へ戻る GitHub Watcher Hyperbrowser App Examples AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。 記事作成日 2026-04-30 種別 Pickup 対象 repo hyperbrowserai/hyperbrowser-app-examples Star数 1,510 これは何か AIエージェントによるウェブ操作を劇的に効率化するプラットフォーム「Hyperbrowser」を活用した、実用的なアプリケーションの実装例集です。ブラウジング、データ抽出、自動リサーチなど、AIエージェントの能力を最大限に引き出すためのコードが凝縮されています。 何ができるか ウェブサイトからの構造化データの自動抽出（Web Scraper）、特定のトピックに関する情報を収集・要約するリサーチエージェント、そしてウェブサービス間の操作を自動化するワークフローの実装方法を学ぶことができます。各例はNext.jsやTypeScriptで記述されており、そのままプロジェクトの雛形として活用可能です。 目立つポイント 「AIのために最適化されたブラウザ環境」というHyperbrowserの特性を活かし、従来のスクレイピングツールでは困難だった動的なウェブサイトの操作や、複雑なDOM構造からの情報取得を、AIがいかに「人間のように」実行するかを具体的なコードで示しています。 セットアップや使い方の流れ 各ディレクトリ（例: research-agent ）へ移動し、依存関係をインストールします。HyperbrowserのAPIキーを設定するだけで、強力なブラウジング機能を備えたAIアプリがローカル環境で動き出します。 どんな人向けか AIエージェントに高度なブラウジング能力を持たせたいエンジニアや、ウェブ上の膨大なデータからインサイトを自動で引き出すツールを構築したい開発者に最適です。また、ヘッドレスブラウザとLLMの統合パターンの学習にも非常に役立ちます。 注意点 利用にはHyperbrowserのAPIキーが必要になります。また、ウェブサイトの操作にあたっては、各サイトの利用規約（robots.txt等）を遵守し、倫理的なスクレイピングを行うことが求められます。 まとめ ウェブはAIエージェントにとって最も広大な知識の源ですが、同時に最も複雑な操作対象でもあります。Hyperbrowser App Examplesは、その「ウェブ操作」という壁を突破し、エージェントの可能性を大きく広げるための強力な実装ガイドです。 参照リンク https://github.com/hyperbrowserai/hyperbrowser-app-examples Shared GitHub Serial: #391"
     },
     {
       "slug": "2026-04-30-gabrielmartinmoran-mind",

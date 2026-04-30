@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-30-hyperbrowserai-hyperbrowser-app-examples",
+      "title": "Hyperbrowser App Examples",
+      "dek": "AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。",
+      "summary": "AIエージェント向けに最適化されたブラウジングプラットフォーム「Hyperbrowser」を活用した実用的なアプリの実装例集。Webスクレイピング、自動データ抽出、リサーチエージェントなどの高度なブラウジング機能を備えたアプリの構築方法を、Next.js/TypeScriptのコードを通じて学べます。",
+      "publishedAt": "2026-04-30",
+      "repoName": "hyperbrowserai/hyperbrowser-app-examples",
+      "repoUrl": "https://github.com/hyperbrowserai/hyperbrowser-app-examples",
+      "starCount": 1510,
+      "articleUrl": "./articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html",
+      "serial": 391,
+      "genre": "開発ツール・インフラ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-30-the-swarm-corporation-autohedge",
       "title": "AutoHedge",
       "dek": "AIエージェントの「群知能」で自律型ヘッジファンドを構築。市場分析からリスク管理、取引実行までを全自動化するマルチエージェント・システム。",
