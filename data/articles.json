@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "camofox-browser",
+      "dek": "AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。",
+      "summary": "AIエージェント向けのステルス型ヘッドレスブラウザ「Camofox Browser」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T17:15:30Z",
+      "repoName": "jo-inc/camofox-browser",
+      "repoUrl": "https://github.com/jo-inc/camofox-browser",
+      "articleUrl": "./articles/github/daily/2026-05-01-camofox-browser.html",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 420,
+      "starCount": 3606
+    },
+    {
       "title": "blinko",
       "dek": "プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。",
       "summary": "プライバシー重視のセルフホスト型AIノートツール「Blinko」の概要と特徴をまとめました。",

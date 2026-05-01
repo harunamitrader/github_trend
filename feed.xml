@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 May 2026 16:22:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 17:15:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[camofox-browser]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-camofox-browser.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-camofox-browser.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。]]></description>
+    </item>
     <item>
       <title><![CDATA[blinko]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-blinko.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A株/香港株/米国株に対応した、LLM駆動のインテリジェント株式分析システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[craft-agents-oss]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-lukilabs-craft-agents-oss.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-lukilabs-craft-agents-oss.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[様々なAIエージェントを実行・管理するための統合プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
