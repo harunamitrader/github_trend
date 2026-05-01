@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 May 2026 19:06:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 04:22:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Others Tools 統合アップデート: Claude Security, Grok Custom Voice, ChatGPT Advanced Security]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Security (Beta) の開始、Grok のカスタム音声ライブラリ、ChatGPT の高度なアカウント保護など、2026年5月初旬の主要 AI 汎用ツール動向。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools 統合アップデート: Cursor Team Marketplace, Security Review, Codex CLI v0.128.0]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-coding-tools-multi-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[warp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-warpdotdev-warp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-warpdotdev-warp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIと深く統合された「エージェント型（Agentic）開発環境」としての次世代ターミナル。]]></description>
     </item>
   </channel>
 </rss>

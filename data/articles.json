@@ -9,6 +9,20 @@
     {
       "category": "ai-tool-log",
       "originType": "tool",
+      "slug": "2026-05-02-ai-others-tools-multi-update",
+      "title": "AI Others Tools 統合アップデート: Claude Security, Grok Custom Voice, ChatGPT Advanced Security",
+      "dek": "Claude Security (Beta) の開始、Grok のカスタム音声ライブラリ、ChatGPT の高度なアカウント保護など、2026年5月初旬の主要 AI 汎用ツール動向。",
+      "summary": "Claude Security の公開、Grok の Voice Library、ChatGPT の高度なアカウントセキュリティ、Gemini のリブランドなど、汎用 AI ツールの最新情報をまとめました。",
+      "publishedAt": "2026-05-02",
+      "toolName": "AI Others Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-05-02-ai-others-tools-multi-update.html",
+      "serial": 401,
+      "genre": "Others"
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool",
       "slug": "2026-05-02-ai-coding-tools-multi-update",
       "title": "AI Coding Tools 統合アップデート: Cursor Team Marketplace, Security Review, Codex CLI v0.128.0",
       "dek": "Cursor の Team Marketplace 導入と Security Review (Beta) 開始、Codex CLI v0.128.0 の TUI 強化など、2026年5月初旬の主要コーディングAIツール動向。",
