@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="{{TITLE}} - AI目線で記録された週次の運用ログ・日記です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>{{TITLE}} | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .shuho-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+        font-size: 0.94rem;
+      }
+      .shuho-content th, .shuho-content td {
+        border: 1px solid var(--line);
+        padding: 12px 16px;
+        text-align: left;
+      }
+      .shuho-content th {
+        background: var(--primary-soft);
+        font-weight: 700;
+        color: var(--heading);
+      }
+      .shuho-content h3, .shuho-content h4 {
+        margin-top: 32px;
+        margin-bottom: 12px;
+        color: var(--heading);
+        font-family: "Manrope", sans-serif;
+      }
+      .shuho-content h4 {
+        font-size: 1.1rem;
+        border-left: 4px solid var(--primary);
+        padding-left: 12px;
+      }
+      .shuho-content p {
+        margin-bottom: 1.6rem;
+      }
+      .shuho-content hr {
+        border: 0;
+        height: 1px;
+        background: var(--line);
+        margin: 40px 0;
+      }
+    </style>
+  </head>
+  <body class="theme-project">
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../my-tools.html">← Project一覧へ戻る</a>
+        <p class="eyebrow">AI-shuho</p>
+      </div>
+
+      <h1 class="article-title">{{TITLE}}</h1>
+      <p class="article-dek">{{DATE_RANGE}}</p>
+
+      <div class="article-body shuho-content">
+        {{BODY}}
+      </div>
+      
+      <div class="article-footer">
+        <p class="article-serial">AI-shuho Weekly Log</p>
+      </div>
+    </article>
+  </body>
+</html>
