@@ -5,32 +5,8 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 May 2026 19:46:07 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 04:56:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-mattpocock-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-mattpocock-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[著名なエンジニアMatt Pocock氏による、AIエージェントの「思考と行動」を強化する実戦的なスキル・プロンプト集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[sim]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-simstudioai-sim.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-simstudioai-sim.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの構築・デプロイ・管理を視覚的に行う、オープンソースの「AIワークフォース」統合プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[superpowers]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-obra-superpowers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-obra-superpowers.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに設計・計画・実装の「思考プロセス」を授ける、エージェント特化型のスキルフレームワーク。]]></description>
-    </item>
     <item>
       <title><![CDATA[zapret-discord-youtube]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-Flowseal-zapret-discord-youtube.html</link>
@@ -166,6 +142,30 @@
       <category>github-pickup</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの「群知能」で自律型ヘッジファンドを構築。市場分析からリスク管理、取引実行までを全自動化するマルチエージェント・システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ray-finance]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-cdinnison-ray-finance.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-cdinnison-ray-finance.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[個人財務をAIが徹底サポート. Plaid連携で収支をリアルタイム把握し、対話を通じて賢くなるオープンソース・アドバイザー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Mind]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「長期記憶」を。RAGを活用してエージェントの忘却を防ぐ自動メモリレイヤー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GenCAD]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-ferdous-alam-gencad.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-ferdous-alam-gencad.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[手書きスケッチや画像から3D CADモデルを自動生成。拡散モデルと対照学習を組み合わせた次世代の設計支援AI。]]></description>
     </item>
   </channel>
 </rss>
