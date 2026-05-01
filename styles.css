@@ -21,7 +21,8 @@
   --radius-md: 16px;
   --radius-sm: 8px;
   --glass-blur: 12px;
-  font-family: "IBM Plex Sans JP", "Inter", system-ui, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
 }
 
 * {
