@@ -443,13 +443,38 @@
         }
 
         // Tabs
-        document.querySelectorAll(".gh-tab-btn").forEach(btn => {
-          btn.addEventListener("click", () => {
+        function switchTab(cat) {
+          const targetSection = document.getElementById("tab-" + cat);
+          const targetBtn = document.querySelector(`[data-cat="${cat}"]`);
+          
+          if (targetSection && targetBtn) {
             document.querySelectorAll(".gh-tab-btn").forEach(b => b.classList.remove("active"));
             document.querySelectorAll(".gh-tab-content").forEach(c => c.classList.remove("active"));
-            btn.classList.add("active");
-            document.getElementById("tab-" + btn.dataset.cat).classList.add("active");
+            targetBtn.classList.add("active");
+            targetSection.classList.add("active");
+          }
+        }
+
+        document.querySelectorAll(".gh-tab-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const cat = btn.dataset.cat;
+            switchTab(cat);
+            history.replaceState(null, null, `#tab-${cat}`);
           });
+        });
+
+        // Handle initial load with hash
+        const initialHash = window.location.hash.replace("#tab-", "");
+        if (initialHash) {
+          switchTab(initialHash);
+        }
+
+        // Handle hash change
+        window.addEventListener("hashchange", () => {
+          const hash = window.location.hash.replace("#tab-", "");
+          if (hash) {
+            switchTab(hash);
+          }
         });
 
         searchInputEl.addEventListener("input", () => {
