@@ -362,13 +362,40 @@
       const tabs = document.querySelectorAll('.tab-btn');
       const sections = document.querySelectorAll('.tab-section');
 
-      tabs.forEach(btn => {
-        btn.addEventListener('click', () => {
+      function switchTab(targetId) {
+        const targetSection = document.getElementById(targetId);
+        const targetBtn = document.querySelector(`[data-target="${targetId}"]`);
+        
+        if (targetSection && targetBtn) {
           tabs.forEach(b => b.classList.remove('active'));
           sections.forEach(s => s.classList.remove('active'));
-          btn.classList.add('active');
-          document.getElementById(btn.dataset.target).classList.add('active');
+          targetBtn.classList.add('active');
+          targetSection.classList.add('active');
+        }
+      }
+
+      tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetId = btn.dataset.target;
+          switchTab(targetId);
+          history.replaceState(null, null, `#${targetId}`);
         });
+      });
+
+      // Handle initial load with hash
+      window.addEventListener('load', () => {
+        const hash = window.location.hash.replace('#', '');
+        if (hash) {
+          switchTab(hash);
+        }
+      });
+
+      // Handle hash change (browser back/forward)
+      window.addEventListener('hashchange', () => {
+        const hash = window.location.hash.replace('#', '');
+        if (hash) {
+          switchTab(hash);
+        }
       });
     </script>
   </body>
