@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool",
+      "slug": "2026-05-02-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools 統合アップデート: Cursor Team Marketplace, Security Review, Codex CLI v0.128.0",
+      "dek": "Cursor の Team Marketplace 導入と Security Review (Beta) 開始、Codex CLI v0.128.0 の TUI 強化など、2026年5月初旬の主要コーディングAIツール動向。",
+      "summary": "Cursor の Team Marketplace 導入、セキュリティレビュー機能、Codex CLI v0.128.0 の TUI ワークフロー強化、GitHub Copilot の高速化など、最新のコーディングツール情報をまとめました。",
+      "publishedAt": "2026-05-02",
+      "toolName": "AI Coding Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-05-02-ai-coding-tools-multi-update.html",
+      "serial": 400,
+      "genre": "Coding"
+    },
+    {
       "title": "e-shiwake",
       "dek": "仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。",
       "summary": "Webブラウザで動作するローカルファーストな仕訳帳・証憑管理アプリ「e-shiwake」の概要と特徴をまとめました。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 May 2026 12:31:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 04:03:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools 統合アップデート: Cursor Team Marketplace, Security Review, Codex CLI v0.128.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor の Team Marketplace 導入と Security Review (Beta) 開始、Codex CLI v0.128.0 の TUI 強化など、2026年5月初旬の主要コーディングAIツール動向。]]></description>
+    </item>
     <item>
       <title><![CDATA[e-shiwake]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIと深く統合された「エージェント型（Agentic）開発環境」としての次世代ターミナル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[jcode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-1jehuang-jcode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-1jehuang-jcode.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントのための軽量なRust製TUI操作盤。]]></description>
     </item>
   </channel>
 </rss>
