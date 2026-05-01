@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Apr 2026 22:15:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 16:22:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[blinko]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-blinko.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-blinko.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[FinRL]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[様々なAIエージェントを実行・管理するための統合プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[maigret]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-soxoj-maigret.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-soxoj-maigret.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ユーザー名から3000以上のサイトを横断検索し、個人の資料を収集するOSINTツール。]]></description>
     </item>
   </channel>
 </rss>

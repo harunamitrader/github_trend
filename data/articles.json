@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "blinko",
+      "dek": "プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。",
+      "summary": "プライバシー重視のセルフホスト型AIノートツール「Blinko」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T16:21:00Z",
+      "repoName": "blinkospace/blinko",
+      "repoUrl": "https://github.com/blinkospace/blinko",
+      "articleUrl": "./articles/github/daily/2026-05-01-blinko.html",
+      "category": "github-pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "originType": "pickup",
+      "serial": 419,
+      "starCount": 10169
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-01-AI4Finance-Foundation-FinRL",
