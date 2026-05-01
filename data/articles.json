@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "e-shiwake",
+      "dek": "仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。",
+      "summary": "Webブラウザで動作するローカルファーストな仕訳帳・証憑管理アプリ「e-shiwake」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T21:28:00Z",
+      "repoName": "shuji-bonji/e-shiwake",
+      "repoUrl": "https://github.com/shuji-bonji/e-shiwake",
+      "articleUrl": "./articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "serial": 399,
+      "starCount": 7
+    },
+    {
       "title": "camofox-browser",
       "dek": "AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。",
       "summary": "AIエージェント向けのステルス型ヘッドレスブラウザ「Camofox Browser」の概要と特徴をまとめました。",

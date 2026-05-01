@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 May 2026 09:27:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 21:28:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[e-shiwake]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。]]></description>
+    </item>
     <item>
       <title><![CDATA[camofox-browser]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-camofox-browser.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングエージェントのための軽量なRust製TUI操作盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[daily_stock_analysis]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-zhulinsen-daily-stock-analysis.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-zhulinsen-daily-stock-analysis.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A株/香港株/米国株に対応した、LLM駆動のインテリジェント株式分析システム。]]></description>
     </item>
   </channel>
 </rss>
