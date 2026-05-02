@@ -9,6 +9,21 @@
     {
       "category": "ai-tool-log",
       "originType": "tool",
+      "slug": "2026-05-03-ai-others-tools-multi-update",
+      "title": "AI Others Tools 統合アップデート: OpenClaw v2026.4.29, Grok 4.3, Claude Mythos Preview",
+      "dek": "OpenClaw v2026.4.29 のステアリング機能、Grok 4.3 の 100万トークン対応と価格改定、Claude Mythos の限定プレビュー開始など、2026年5月初旬の主要 AI 汎用ツール動向。",
+      "summary": "OpenClaw v2026.4.29 の Active Run Steering 導入、Grok 4.3 の 1M コンテキスト化と値下げ、Claude Mythos の限定プレビュー、ChatGPT GPT-5.5-Cyber の公開など、最新の汎用ツール情報をまとめました。",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T04:20:00Z",
+      "toolName": "AI Others Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-05-03-ai-others-tools-multi-update.html",
+      "serial": 408,
+      "genre": "Others"
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool",
       "slug": "2026-05-03-ai-coding-tools-multi-update",
       "title": "AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3",
       "dek": "Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。",
