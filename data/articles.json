@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-05-02-b-nnett-codex-plusplus",
+      "title": "codex-plusplus",
+      "dek": "OpenAI Codex デスクトップアプリにカスタム機能やUI改善を注入する、強力な「拡張機能（Tweak）」システム。",
+      "summary": "Codex本体をパッチして、自分好みの機能（ショートカット、UI改善、追加のサイドバーなど）を注入できる拡張機能管理システム「Codex++」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T13:00:00Z",
+      "repoName": "b-nnett/codex-plusplus",
+      "repoUrl": "https://github.com/b-nnett/codex-plusplus",
+      "starCount": 771,
+      "articleUrl": "./articles/github/daily/2026-05-02-b-nnett-codex-plusplus.html",
+      "serial": 403,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-05-02-Flowseal-zapret-discord-youtube",
