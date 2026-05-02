@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 May 2026 04:03:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 18:53:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[personal-api-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。]]></description>
+    </item>
     <item>
       <title><![CDATA[codex-plusplus]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-b-nnett-codex-plusplus.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[個人財務をAIが徹底サポート. Plaid連携で収支をリアルタイム把握し、対話を通じて賢くなるオープンソース・アドバイザー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Mind]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-gabrielmartinmoran-mind.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「長期記憶」を。RAGを活用してエージェントの忘却を防ぐ自動メモリレイヤー。]]></description>
     </item>
   </channel>
 </rss>
