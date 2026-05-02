@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 May 2026 19:24:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 04:42:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TradingAgents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-TauricResearch-TradingAgents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-TauricResearch-TradingAgents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「マルチエージェント LLM による次世代金融取引フレームワーク」。分析、リスク管理、実行を AI エージェントが自律的に連携。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ruflo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ruvnet-ruflo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ruvnet-ruflo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Claude のための自律エージェント・オーケストレーター」。マルチエージェント・スウォームの構築と Claude Code / Codex との高度な統合を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-03 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-03-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-03-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ShareX]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ShareX-ShareX.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ShareX-ShareX.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「画面キャプチャ・録画・共有を、これ一本体で」。豊富な機能とアップロード連携を備えた、Windows 向けオープンソースの最強ユーティリティ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[coding-interview-university]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-jwasham-coding-interview-university.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-jwasham-coding-interview-university.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「ソフトウェアエンジニアになるための独学カリキュラム」。コンピュータサイエンスの基礎を体系的に網羅した、世界で最も有名な学習ガイド。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools 統合アップデート: OpenClaw v2026.4.29, Grok 4.3, Claude Mythos Preview]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-others-tools-multi-update.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Agent SDK と連携するブラウザ自動化・操作ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[open-source-cs]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ForrestKnight-open-source-cs.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ForrestKnight-open-source-cs.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コンピュータサイエンスの基礎から応用までを独学するためのオープンソース・カリキュラム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ghostty]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ghostty-org-ghostty.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-ghostty-org-ghostty.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Zig で書かれた、GPU アクセラレーション対応の高速かつ高機能なクロスプラットフォーム・ターミナル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[quarkdown]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-iamgio-quarkdown.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-iamgio-quarkdown.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Markdown を拡張し、より表現豊かなドキュメントやプレゼンテーションを作成できるコンパイラ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-01 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-01-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-01-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity: Deep Research 機能の導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-perplexity-deep-research.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-01-perplexity-deep-research.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[長時間の自律的なリサーチタスクをサポートし、詳細なレポートを自動生成するDeep Researchモードを実装。]]></description>
     </item>
   </channel>
 </rss>
