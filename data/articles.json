@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-02-scriptscat-scriptcat",
+      "title": "scriptcat",
+      "dek": "Tampermonkey 互換を超えた、バックグラウンド実行や定期実行をサポートする強力な次世代ユーザースクリプトマネージャー。",
+      "summary": "バックグラウンド実行や定期タスク機能を備え、ブラウザの自動化を飛躍的に強化するユーザースクリプト管理ツール「ScriptCat」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T19:55:00Z",
+      "repoName": "scriptscat/scriptcat",
+      "repoUrl": "https://github.com/scriptscat/scriptcat",
+      "starCount": 4359,
+      "articleUrl": "./articles/github/daily/2026-05-02-scriptscat-scriptcat.html",
+      "serial": 405,
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-02-beiyuii-personal-api-skill",
       "title": "personal-api-skill",
       "dek": "Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。",
