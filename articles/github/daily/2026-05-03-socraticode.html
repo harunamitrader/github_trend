@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>SocratiCode</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">SocratiCode</h1>
+      <p class="article-dek">大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-03 -->
+          <strong>2026-05-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/giancarloerra/SocratiCode" target="_blank" rel="noreferrer">
+              giancarloerra/SocratiCode
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>SocratiCodeは、AIアシスタントに巨大なコードベースの深い「理解」を与えるための、ゼロ設定・プライバシー重視のインテリジェンスエンジンです。MCPサーバーや各種AIコーディングツールのプラグイン（Claude Code, Cursor, Codex等）として動作し、4000万行を超えるような大規模リポジトリでも高速かつ高精度なコード解析と検索を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>ベクトル検索（Qdrant）とBM25を組み合わせたハイブリッドなセマンティック検索、多言語対応の依存関係グラフ生成、シンボルレベルの影響範囲分析、およびブラウザで閲覧可能なインタラクティブなHTMLビューア機能などを備えています。また、データベーススキーマやAPIスペック、インフラ構成などの「コンテキスト・アーティファクト」も統合的に管理・検索可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Dockerを利用したセルフホスト形式により、コードが外部に漏れることのない高いプライバシーを維持しつつ、初回インデックス作成後はファイル監視によって常に最新の状態を保ちます。既存のgrepベースの探索に比べ、トークン消費量を61%削減し、ツール呼び出しを84%減らしつつ、37倍の高速レスポンスを実現している点が大きな強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Dockerが動作している環境であれば、`npx -y socraticode` をMCP設定に追加するか、Claude Codeなどの対応ツールで専用プラグインをインストールするだけで即座に利用を開始できます。初回実行時に必要なコンテナやモデルが自動でセットアップされ、その後のインデックス作成や更新はすべてバックグラウンドで自動的に行われます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>既存の大規模かつ複雑なコードベースを短期間で把握・修正する必要がある開発者や、複数のAIエージェントを協調させて開発効率を最大化したいチームに最適です。特にプライバシーの制約が厳しい企業内プロジェクトでのAI活用において、強力な武器となります。</p>
+
+        <h2>注意点</h2>
+        <p>初回インデックス作成時にはリポジトリの規模に応じて数分から数十分程度の時間と計算リソースが必要です。また、Dockerコンテナ内ではGPUアクセラレーションが制限されるため、MacやWindows環境で大規模な解析を行う場合は、ネイティブのOllamaやクラウドembeddingsの併用が推奨されています。</p>
+
+        <h2>まとめ</h2>
+        <p>SocratiCodeは、単なる「検索」を超えて、AIがコードの文脈や構造を真に理解するためのブリッジとなるツールです。オープンソースでありながらエンタープライズ級の性能と使い勝手を両立させており、モダンなAI駆動開発における不可欠なコンポーネントとなり得るポテンシャルを持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/giancarloerra/SocratiCode" target="_blank" rel="noreferrer">https://github.com/giancarloerra/SocratiCode</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #413</p>
+      </div>
+    </article>
+  </body>
+</html>

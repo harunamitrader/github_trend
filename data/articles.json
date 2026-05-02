@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "serial": "413",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03",
+      "category": "github-pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "pickup",
+      "repoName": "giancarloerra/SocratiCode",
+      "repoUrl": "https://github.com/giancarloerra/SocratiCode",
+      "articleUrl": "articles/github/daily/2026-05-03-socraticode.html",
+      "title": "SocratiCode",
+      "summary": "大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン",
+      "starCount": 1700
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-05-03-TauricResearch-TradingAgents",

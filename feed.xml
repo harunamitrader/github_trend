@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 May 2026 19:48:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 05:50:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[SocratiCode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン]]></description>
+    </item>
     <item>
       <title><![CDATA[TradingAgents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-TauricResearch-TradingAgents.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-browserbase-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-browserbase-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Agent SDK と連携するブラウザ自動化・操作ツールキット。]]></description>
     </item>
   </channel>
 </rss>
