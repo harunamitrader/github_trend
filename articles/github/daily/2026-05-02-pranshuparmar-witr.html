@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>witr</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">witr</h1>
+      <p class="article-dek">「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-02 -->
+          <strong>2026-05-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/pranshuparmar/witr" target="_blank" rel="noreferrer">
+              pranshuparmar/witr
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>14,456</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>witr ("Why Is This Running?") は、システム上で動作しているプロセスについて「単に動いていること」だけでなく「なぜ動いているのか」という因果関係を解き明かすための診断ツールです。Rust で書かれており、Linux, macOS, Windows, FreeBSD といった主要なプラットフォームで動作します。</p>
+
+        <h2>何ができるか</h2>
+        <p>特定のポート（例: 8080）、PID、実行ファイル名、あるいは開かれているファイルパスを指定するだけで、そのプロセスがどのように起動され、何がそれを管理しているのかをツリー形式やナラティブ（物語的）なスタイルで表示します。Docker コンテナ、systemd ユニット、SSH セッション、tmux、さらには git ブランチといった実行時の文脈までを統合して解説してくれます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>1. **因果関係の可視化**: プロセスの親子関係だけでなく、systemd や launchd、Docker といった管理システムを特定し、起動の背景を説明します。 2. **マルチプラットフォーム対応**: OS ごとの低レイヤーな情報（/proc, sysctl, registry 等）を抽象化し、統一されたインターフェースを提供します。 3. **強力な診断機能**: ルート権限での実行、公開インターフェースでのリスニング、バイナリの削除、メモリ異常消費などのリスクを自動で警告します。 4. **柔軟な出力形式**: TUI によるダッシュボード表示に加え、JSON、環境変数形式、ショートサマリなどの出力に対応しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各プラットフォーム向けにバイナリが配布されており、Homebrew (macOS/Linux) や PowerShell (Windows) で簡単にインストール可能です。基本的な使い方は <code>witr &lt;ポート番号や名前&gt;</code> と入力するだけです。システム全体の詳細な情報を得るには sudo (管理者権限) での実行が推奨されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>サーバー管理、デバッグ、障害対応を行うエンジニア。特に「身に覚えのないプロセスがポートを占有している」「このサービスがどこから起動されたかわからない」といった状況で、複数のツール（ps, lsof, netstat 等）を使い分ける手間を省きたい方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>診断ツールであり、プロセスの強制終了や修正を行うためのツールではありません。また、macOS の SIP (System Integrity Protection) などのセキュリティ制限により、一部のシステムプロセスの詳細にはアクセスできない場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>witr は、プロセスの背後にある「ストーリー」を読み解くためのツールです。単なる状態表示にとどまらず、実行時のコンテキストを可視化することで、エンジニアの調査時間を大幅に短縮し、システムへの理解を深めてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/pranshuparmar/witr" target="_blank" rel="noreferrer">https://github.com/pranshuparmar/witr</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #406</p>
+      </div>
+    </article>
+  </body>
+</html>

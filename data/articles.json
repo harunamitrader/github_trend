@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-02-pranshuparmar-witr",
+      "title": "witr",
+      "dek": "「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。",
+      "summary": "ポート、PID、ファイルからプロセスの「起動の理由」と管理システムを特定し、システム診断を劇的に効率化するRust製ツール「witr」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T20:30:00Z",
+      "repoName": "pranshuparmar/witr",
+      "repoUrl": "https://github.com/pranshuparmar/witr",
+      "starCount": 14456,
+      "articleUrl": "./articles/github/daily/2026-05-02-pranshuparmar-witr.html",
+      "serial": 406,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-02-scriptscat-scriptcat",
       "title": "scriptcat",
       "dek": "Tampermonkey 互換を超えた、バックグラウンド実行や定期実行をサポートする強力な次世代ユーザースクリプトマネージャー。",
