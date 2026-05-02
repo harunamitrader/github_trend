@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-02T04:00:57.280435+00:00",
-  "count": 435,
+  "generatedAt": "2026-05-02T09:52:33.648987+00:00",
+  "count": 436,
   "articles": [
+    {
+      "slug": "2026-05-02-beiyuii-personal-api-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "personal-api-skill",
+      "dek": "Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。",
+      "summary": "Obsidian内のMarkdownファイルをAIエージェントに読み込ませ、ユーザーの価値観や好みの挙動を瞬時に同期させる「Personal API Skill」の概要と特徴をまとめました。",
+      "repoName": "beiyuii/personal-api-skill",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T18:55:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html",
+      "serial": 404,
+      "searchText": "personal-api-skill Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。 Obsidian内のMarkdownファイルをAIエージェントに読み込ませ、ユーザーの価値観や好みの挙動を瞬時に同期させる「Personal API Skill」の概要と特徴をまとめました。 beiyuii/personal-api-skill AIエージェント (自律基盤・特化アプリ) personal-api-skill ← 記事一覧へ戻る GitHub Watcher personal-api-skill Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。 記事作成日 2026-05-02 種別 Pickup 対象 repo beiyuii/personal-api-skill Star数 9 これは何か Personal API Skill は、Obsidian 内の特定の Markdown ファイル（ME.md, AGENT.md）を AI エージェントに読み込ませることで、ユーザーのアイデンティティ、思考プロセス、好みの挙動を一瞬で同期させるための Hermes Agent 専用スキルです。システムプロンプトの代わりに「自分の分身となるデータ資産」を管理するというアプローチをとっています。 何ができるか 「私は個人開発者です」「箇条書きで答えてください」といった繰り返しの説明を排除できます。Obsidian 内にアイデンティティ層（Identity Layer）を構築し、エージェントに「ME.md を読んでコンテキストを把握して」と伝えるだけで、これまでの経緯や価値観、現在のフォーカスを考慮した対話が可能になります。また、ディレクトリ構造に基づいた「挙動の自動切り替え」もサポートしています。 目立つポイント 1. **アセットとしての自分**: 設定ではなく Markdown ファイルとして管理するため、git での履歴管理や、異なるエージェント間での共有が容易です。 2. **階層型ロード (L0-L2)**: 基本属性から深い価値観まで、情報の重要度に応じた階層的な情報提供が可能です。 3. **プライバシー重視**: データはローカルの Obsidian Vault 内に留まり、ベンダーに依存しません。 4. **Hermes Agent 統合**: Hermes のスキルシステムとして動作し、セットアップスクリプト一つで導入可能です。 セットアップや使い方の流れ Hermes Agent 環境でリポジトリを ~/.hermes/skills/personal-api にクローンし、スキルを有効化した後、付属のセットアップスクリプト setup.sh を実行します。これにより Obsidian 内にテンプレートファイルが作成されるので、PLACEHOLDER を埋めるだけで「自分専用 API」が完成します。 どんな人向けか Obsidian を活用しており、AI エージェントとの対話において「毎回同じ説明をするのが面倒」「自分を深く理解したパートナーとして AI を使いたい」と感じているパワーユーザーや開発者。 注意点 Hermes Agent v1.0 以上が必要で、Obsidian Vault のパス設定が環境変数で正しく行われている必要があります。また、自分自身の情報を Markdown で言語化する作業（初期設定）にはある程度の時間と自己分析が必要です。 まとめ Personal API Skill は、AI との対話における「コンテキストの欠如」という根本的な問題を、馴染みのある Markdown と Obsidian で解決するスマートな手法です。「システムプロンプトをいじる」フェーズから「アイデンティティをデータとして所有する」フェーズへと、AI との関わり方を一歩進めるツールと言えます。 参照リンク https://github.com/beiyuii/personal-api-skill Shared GitHub Serial: #404"
+    },
     {
       "slug": "2026-05-02-b-nnett-codex-plusplus",
       "category": "github-pickup",

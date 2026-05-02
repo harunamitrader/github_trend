@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-02-beiyuii-personal-api-skill",
+      "title": "personal-api-skill",
+      "dek": "Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。",
+      "summary": "Obsidian内のMarkdownファイルをAIエージェントに読み込ませ、ユーザーの価値観や好みの挙動を瞬時に同期させる「Personal API Skill」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T18:55:00Z",
+      "repoName": "beiyuii/personal-api-skill",
+      "repoUrl": "https://github.com/beiyuii/personal-api-skill",
+      "starCount": 9,
+      "articleUrl": "./articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html",
+      "serial": 404,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-02-b-nnett-codex-plusplus",
       "title": "codex-plusplus",
       "dek": "OpenAI Codex デスクトップアプリにカスタム機能やUI改善を注入する、強力な「拡張機能（Tweak）」システム。",

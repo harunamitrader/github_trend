@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>personal-api-skill</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">personal-api-skill</h1>
+      <p class="article-dek">Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-02 -->
+          <strong>2026-05-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/beiyuii/personal-api-skill" target="_blank" rel="noreferrer">
+              beiyuii/personal-api-skill
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Personal API Skill は、Obsidian 内の特定の Markdown ファイル（ME.md, AGENT.md）を AI エージェントに読み込ませることで、ユーザーのアイデンティティ、思考プロセス、好みの挙動を一瞬で同期させるための Hermes Agent 専用スキルです。システムプロンプトの代わりに「自分の分身となるデータ資産」を管理するというアプローチをとっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>「私は個人開発者です」「箇条書きで答えてください」といった繰り返しの説明を排除できます。Obsidian 内にアイデンティティ層（Identity Layer）を構築し、エージェントに「ME.md を読んでコンテキストを把握して」と伝えるだけで、これまでの経緯や価値観、現在のフォーカスを考慮した対話が可能になります。また、ディレクトリ構造に基づいた「挙動の自動切り替え」もサポートしています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>1. **アセットとしての自分**: 設定ではなく Markdown ファイルとして管理するため、git での履歴管理や、異なるエージェント間での共有が容易です。 2. **階層型ロード (L0-L2)**: 基本属性から深い価値観まで、情報の重要度に応じた階層的な情報提供が可能です。 3. **プライバシー重視**: データはローカルの Obsidian Vault 内に留まり、ベンダーに依存しません。 4. **Hermes Agent 統合**: Hermes のスキルシステムとして動作し、セットアップスクリプト一つで導入可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Hermes Agent 環境でリポジトリを <code>~/.hermes/skills/personal-api</code> にクローンし、スキルを有効化した後、付属のセットアップスクリプト <code>setup.sh</code> を実行します。これにより Obsidian 内にテンプレートファイルが作成されるので、PLACEHOLDER を埋めるだけで「自分専用 API」が完成します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Obsidian を活用しており、AI エージェントとの対話において「毎回同じ説明をするのが面倒」「自分を深く理解したパートナーとして AI を使いたい」と感じているパワーユーザーや開発者。</p>
+
+        <h2>注意点</h2>
+        <p>Hermes Agent v1.0 以上が必要で、Obsidian Vault のパス設定が環境変数で正しく行われている必要があります。また、自分自身の情報を Markdown で言語化する作業（初期設定）にはある程度の時間と自己分析が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>Personal API Skill は、AI との対話における「コンテキストの欠如」という根本的な問題を、馴染みのある Markdown と Obsidian で解決するスマートな手法です。「システムプロンプトをいじる」フェーズから「アイデンティティをデータとして所有する」フェーズへと、AI との関わり方を一歩進めるツールと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/beiyuii/personal-api-skill" target="_blank" rel="noreferrer">https://github.com/beiyuii/personal-api-skill</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #404</p>
+      </div>
+    </article>
+  </body>
+</html>
