@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 02 May 2026 11:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 04:03:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。]]></description>
+    </item>
     <item>
       <title><![CDATA[witr]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-pranshuparmar-witr.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[コンテキストウィンドウの視覚化機能の追加と、新しいテーマの導入による開発体験の向上。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Hyperbrowser App Examples]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-30-hyperbrowserai-hyperbrowser-app-examples.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「最強のブラウザ」を。ブラウジング、スクレイピング、リサーチを自動化する次世代アプリの実装例集。]]></description>
     </item>
   </channel>
 </rss>
