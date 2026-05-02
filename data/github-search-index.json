@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-02T19:42:31.098577+00:00",
-  "count": 443,
+  "generatedAt": "2026-05-02T19:45:08.664042+00:00",
+  "count": 438,
   "articles": [
     {
       "slug": "2026-05-03-update-report",
@@ -661,21 +661,6 @@
       "articleUrl": "./articles/github/reports/2026-04-28-update-report.html",
       "serial": 30,
       "searchText": "2026-04-28 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending のトップ13を調査。ComposioHQ/awesome-codex-skills, Alishahryar1/free-claude-code, penpot/penpot, microsoft/VibeVoice, TauricResearch/TradingAgents の計5件を新規に記事化しました。 2026-04-28 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-04-28 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-04-28 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-04-28）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 mattpocock/skills ✅ 記事作成済み abhigyanpatwari/GitNexus ✅ 記事作成済み ComposioHQ/awesome-codex-skills ✨ 新規追加 Alishahryar1/free-claude-code ✨ 新規追加 gastownhall/beads ✅ 記事作成済み penpot/penpot ✨ 新規追加 davila7/claude-code-templates ✅ 記事作成済み microsoft/VibeVoice ✨ 新規追加 Z4nzu/hackingtool ✅ 記事作成済み TauricResearch/TradingAgents ✨ 新規追加 CJackHwang/ds2api ✅ 記事作成済み deepseek-ai/DeepSeek-V3 未作成 donnemartin/system-design-primer 未作成 今後の展望 本日は金融取引エージェントや高品質音声AI、さらには人気デザインツールの Penpot など、多岐にわたる強力なプロジェクトがランクインしました。特に AI エージェントの「スキル」や「無料化」に関連するプロジェクトへの関心が高まっており、開発エコシステムの急速な拡大が伺えます。今後もこれらのトレンドを注視し、実用性の高いツールを優先的にピックアップしていきます。"
-    },
-    {
-      "slug": "2026-04-28-tauricresearch-tradingagents",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "TradingAgents",
-      "dek": "LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。",
-      "summary": "LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。",
-      "repoName": "TauricResearch/TradingAgents",
-      "genre": "金融・トレード分析",
-      "publishedAt": "2026-04-28",
-      "createdAt": "",
-      "articleUrl": "./articles/github/daily/2026-04-28-tauricresearch-tradingagents.html",
-      "serial": 364,
-      "searchText": "TradingAgents LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。 LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。 TauricResearch/TradingAgents 金融・トレード分析 TradingAgents ← 記事一覧へ戻る GitHub Watcher TradingAgents LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。 記事作成日 2026-04-28 種別 Trending #10 対象 repo TauricResearch/TradingAgents Star数 53,598 これは何か 大規模言語モデル（LLM）を核とした、マルチエージェント・システムによる自律型の金融取引フレームワークです。単一のエージェントではなく、リサーチ、トレーディング、ポートフォリオ管理といった役割を持った複数のエージェントが協調して動作するように設計されています。 何ができるか 市場ニュースの解析、テクニカル指標の計算、それらに基づく取引戦略の立案、ポートフォリオの最適化、そして実際の注文執行までを、一貫してAIエージェントに任せることができます。DeepSeekやQwen、OpenAIなどの主要なLLMを柔軟に切り替えて使用可能です。 目立つポイント LangGraph を採用しており、エージェント間のワークフローをグラフ構造で定義できる点が特徴です。これにより、クラッシュからの復旧（チェックポイント機能）や、複雑なロジックの管理が容易になっています。また、Dockerによるパッケージ化により、環境構築のハードルが非常に低く抑えられています。 セットアップや使い方の流れ リポジトリをクローンした後、`.env` ファイルに LLM プロバイダーの API キーを設定します。その後、`docker-compose up` を実行するだけでシステムが起動します。設定ファイルを通じて、使用するエージェントの構成や取引対象の銘柄をカスタマイズすることが可能です。 どんな人向けか AIを活用したアルゴリズム取引に興味があるエンジニアや、LLMエージェントを実際の金融実務に適用したいと考えているクオンツ、またはマルチエージェント・システムの具体的な実装例を学びたい開発者に最適です。 注意点 実際の資産を投入する前に、必ずペーパー・トレーディング環境で十分にテストを行う必要があります。LLMの判断ミスやAPIのダウンタイムによる損失リスクが常に存在するため、十分なリスク管理策を講じることが不可欠です。 まとめ TradingAgentsは、金融取引における「AI同僚」を構築するための強力なインフラです。マルチエージェント連携の堅牢な設計は、今後の自律型金融アプリケーションの模範となるでしょう。 参照リンク https://github.com/TauricResearch/TradingAgents Shared GitHub Serial: #364"
     },
     {
       "slug": "2026-04-28-penpot-penpot",
@@ -2716,21 +2701,6 @@
       "articleUrl": "articles/github/daily/2026-04-18-tracer-cloud-opensre.html",
       "serial": 250,
       "searchText": "opensre 60以上のツールと連携。自動インシデント対応を実現するAI SREエージェント構築フレームワーク。 Tracer-Cloud/opensre AI基盤・データ基盤・業務アプリ opensre ← 記事一覧へ戻る GitHub Watcher opensre 60以上のツールと連携し、自分のインフラ上でインシデントを自律調査・対応するAI SREエージェントをゼロから構築できるオープンソースフレームワーク。 記事作成日 2026-04-18 種別 Rank9 対象 repo Tracer-Cloud/opensre Star数 1,359 これは何か OpenSRE は、AI エージェントによるサイト信頼性エンジニアリング（SRE）を実現するためのオープンソースフレームワークです。 Prometheus、Grafana、PagerDuty、Kubernetes など 60 以上の既存ツールと連携し、インシデント発生時のアラート受信から原因調査、対応手順の提案までを AI エージェントが自律的に担います。 自社インフラ上で稼働するため、クラウドベンダーへの依存なしにカスタマイズされた AI SRE 環境を構築できます。 何ができるか 60+ツール連携： Prometheus、Grafana、PagerDuty、K8s 等の既存監視スタックをそのまま活用。 自律インシデント調査： アラートを受信するとエージェントが自動でログ解析・メトリクス調査を開始。 カスタムワークフロー定義： Runbook や手順をコードとして定義し、エージェントに学習させられる。 訓練・評価環境： AI SRE エージェントを改善するためのシミュレーション環境を内蔵。 自前インフラで動作： クラウドへのデータ送信なしに、オンプレミスやプライベートクラウドで完結。 目立つポイント 主要コンポーネントはエージェントコア、ツールコネクター群（各 SaaS/OSS 向けアダプター）、ワークフロー定義ファイル、 およびシミュレーション環境から構成されています。Python ベースで実装されており、既存の LangChain や各種 LLM API との統合が想定されています。 既存の監視ツールを置き換えるのではなく「その上に AI 層を追加する」アプローチが現実的で、導入ハードルが低い点が評価されています。 セットアップや使い方の流れ リポジトリをクローン後、環境変数に LLM API キーと監視ツールの認証情報を設定します。 コネクターを有効化した後、ワークフロー YAML でエージェントの応答手順を定義すれば、 Prometheus アラートを受け取った時点からエージェントが自律動作を開始します。 どんな人向けか SRE・インフラエンジニア、DevOps チーム、および 24 時間監視体制の構築コスト削減を目指す組織に特に有用です。 急増するオンコール疲弊（Pager Fatigue）への回答として GitHub コミュニティの注目を集めています。 注意点 プロジェクトは活発に開発中のため API の安定性は保証されていません。 AI による自律的なインシデント対応はリスクを伴うため、まず読み取り専用モードで試験運用し、 段階的に対応権限を拡張するアプローチを推奨します。 まとめ OpenSRE は、AI による SRE 自動化を「自前のインフラ上で」実現するためのオープンな基盤です。 オンコール負荷の軽減や夜間インシデント対応の自動化を検討しているチームにとって、 検証を始める価値のあるプロジェクトです。 参照リンク Tracer-Cloud/opensre Shared GitHub Serial: #250"
-    },
-    {
-      "slug": null,
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "craft-agents-oss",
-      "dek": "ClaudeエージェントSDK。柔軟なマルチタスクとUI操作でエージェントとの協調定義を可能にするネイティブ環境。",
-      "summary": "",
-      "repoName": "lukilabs/craft-agents-oss",
-      "genre": "AIエージェント (自律基盤・特化アプリ)",
-      "publishedAt": "2026-04-18",
-      "createdAt": "2026-04-18",
-      "articleUrl": "articles/github/daily/2026-04-18-lukilabs-craft-agents-oss.html",
-      "serial": 251,
-      "searchText": "craft-agents-oss ClaudeエージェントSDK。柔軟なマルチタスクとUI操作でエージェントとの協調定義を可能にするネイティブ環境。 lukilabs/craft-agents-oss AIエージェント (自律基盤・特化アプリ) craft-agents-oss ← 記事一覧へ戻る GitHub Watcher craft-agents-oss Claude エージェント SDK を核に、直感的なマルチタスクと美しい UI でエージェントとの協働を再定義するAI ネイティブな開発環境。 記事作成日 2026-04-18 種別 Rank8 対象 repo lukilabs/craft-agents-oss Star数 4,261 これは何か Craft Agents は、craft.do 社が自社の AI エージェント業務効率化のために開発したツールをオープンソース化したものです。 Claude Agent SDK と Pi SDK を組み合わせ、CLI 操作を不要とする「ドキュメント中心（vs コード中心）」のワークフローで AI エージェントとの協働を実現します。マルチタスクの分担、外部 API への接続、 セッション共有などをプロンプトのみで制御できる Agent Native な設計が特徴です。 何ができるか マルチタスク並列処理： 複数のエージェントタスクを直感的に分割・管理できる UI。 API・サービス接続： 煩雑さなく外部 API やサービスへ即座に接続可能。 セッション共有： チーム内でエージェントの作業状況を共有できる協働機能。 高いカスタマイズ性： コードエディタ不要で、Craft Agents 自体を Craft Agents で改造可能。 Apache 2.0 ライセンス： 商用利用を含む自由なカスタマイズが可能。 目立つポイント Claude Agent SDK をコアに採用し、Pi SDK を補完的に活用した構成です。 ドキュメントベースのワークフロー管理層、API コネクター、セッション管理、 およびビジュアル UI コンポーネントで構成されています。 開発チーム自身が Craft Agents のみを用いてプロダクトを作り続けているという実績が、 実用性の高さを示しています。 セットアップや使い方の流れ 動作確認には GitHub 上の紹介動画（YouTube リンク）が最も分かりやすいとされています。 基本的には Claude API キーを設定後、GUI ベースでタスクとエージェントを定義する形式です。 コード記述を最小限に抑えながら、AI エージェントを使ったアプリケーション開発を始められます。 どんな人向けか 非エンジニアでも AI エージェントを活用したい方、CLI 操作が苦手なビジネスユーザー、 および Anthropic の Claude をフル活用したいチームに向いています。 注意点 OSS 公開直後のプロジェクトのため、ドキュメントや API の安定性が今後変化する可能性があります。 また、Claude エージェント SDK への依存度が高いため、Anthropic の API 変更がそのまま影響します。 まとめ Craft Agents は、AI エージェントとの協働を「コードを書く作業」から「思考と指示を与える作業」へと昇華させるツールです。 Claude Code のような CLI に慣れていないチームに対して、エージェント活用の入り口を大幅に下げる可能性を持っています。 参照リンク lukilabs/craft-agents-oss Shared GitHub Serial: #251"
     },
     {
       "slug": null,
@@ -5418,21 +5388,6 @@
       "searchText": "system_prompts_leaks ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。 asgeirtj/system_prompts_leaks は、OpenAI、Anthropic、Google、xAI、Perplexity などの system prompt や developer instructions をモデル別に追える継続更新型の資料集です。 asgeirtj/system_prompts_leaks 学習ガイド・開発アセット system_prompts_leaks ← 記事一覧へ戻る GitHub Watcher system_prompts_leaks GitHub #095 ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。 記事作成日 2026-04-03 トレンド順位 Rank 3 対象 repo asgeirtj/system_prompts_leaks Star数 38,369 これは何か system_prompts_leaks は、人気 AI チャットやコーディング支援ツールの system prompt、system message、developer instructions を整理して集めたリポジトリです。README では ChatGPT、Codex、Claude、Gemini、Grok、Perplexity などを継続更新対象として明示しています。 何ができるか Anthropic、OpenAI、Google、xAI、Perplexity、Misc といったフォルダ単位で prompt 群をたどれます。OpenAI セクションだけでも GPT-5.4、GPT-5.3、Codex、Codex CLI、各種ツール指示まで分かれており、モデルごとの差分や製品ごとの設計思想を比較しやすい構造です。 目立つポイント 単に断片を並べるのではなく、モデル名ごとにリンクを整理していて追跡しやすいのが特徴です。更新頻度も高く、PR 歓迎を明記しているため、一次資料を集約するコミュニティ型アーカイブとして機能しています。 セットアップや使い方の流れ 利用自体にセットアップはほぼ不要で、README から各モデルや製品の prompt ファイルへ直接たどれます。調査用途では特定ベンダーだけを見るより、同じカテゴリの prompt を横並びで比較しながら読む使い方が向いています。 どんな人向けか AI プロダクトの振る舞いを観察したい人、プロンプト設計やガードレール比較をしたい人、記事や研究の一次資料を探している人に向いています。特にプロダクト分析や評価観点づくりの出発点として使いやすいです。 注意点 収集物の性質上、内容の完全性や鮮度は常に変動します。README にも定期更新と PR ベースの拡充が書かれているので、引用や断定に使うときは対象ファイルの日付や文脈を別途確認した方が安全です。 まとめ system_prompts_leaks は、主要 AI 製品の内部指示を横断して追える観測拠点として価値が高いリポジトリです。2026-04-03 の GitHub Trending 3 位に入っているのも、AI の振る舞いを可視化したい需要の強さをそのまま表しています。 参照リンク GitHub Trending asgeirtj/system_prompts_leaks Shared GitHub Serial: #79"
     },
     {
-      "slug": "2026-04-03-yeachan-heo-oh-my-codex",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "oh-my-codex",
-      "dek": "Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。",
-      "summary": "Yeachan-Heo/oh-my-codex は、Codex CLI を実行エンジンとして維持したまま、要求整理、計画承認、継続実行、並列実行、状態管理を扱いやすくするワークフロー層です。",
-      "repoName": "Yeachan-Heo/oh-my-codex",
-      "genre": "AIコーディング (CLI本体・拡張機能)",
-      "publishedAt": "2026-04-03",
-      "createdAt": "2026-04-03T05:01:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html",
-      "serial": 78,
-      "searchText": "oh-my-codex Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。 Yeachan-Heo/oh-my-codex は、Codex CLI を実行エンジンとして維持したまま、要求整理、計画承認、継続実行、並列実行、状態管理を扱いやすくするワークフロー層です。 Yeachan-Heo/oh-my-codex AIコーディング (CLI本体・拡張機能) oh-my-codex ← 記事一覧へ戻る GitHub Watcher oh-my-codex GitHub #094 Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。 記事作成日 2026-04-03 トレンド順位 Rank 2 対象 repo Yeachan-Heo/oh-my-codex Star数 23,015 これは何か oh-my-codex は、OpenAI Codex CLI 自体を置き換えるのではなく、その上に運用用のワークフロー層を載せるツールです。README では OMX として紹介されており、Codex を実行エンジンに据えたまま、日常作業の流れを揃えることを狙っています。 何ができるか 強めの初期起動、要求整理、計画承認、継続実行、並列実行といった流れを、 $deep-interview 、 $ralplan 、 $ralph 、 $team などの定型コマンドで呼び出せます。加えて、プロジェクトのガイダンスや計画、ログ、状態を .omx/ に蓄積できるため、単発セッションよりも継続開発に向いた構成です。 目立つポイント README が「Codex を置き換えない」と明言しているのが重要です。役割キーワード、スキル再利用、チーム実行ランタイム、HUD や doctor コマンドまで揃っており、単なるプロンプト集ではなく運用基盤に近い設計になっています。 セットアップや使い方の流れ 基本導線は明快で、 npm install -g @openai/codex oh-my-codex の後に omx setup 、続いて omx --madmax --high で起動します。その後に Codex 内で定型コマンドを順番に使う流れが推奨されており、tmux や psmux を使うチーム実行は後から追加する形です。 どんな人向けか Codex CLI 自体は気に入っているが、要求整理や計画確認、並列化の流れを毎回手作業で組んでいる人に向いています。個人でも使えますが、複数ワーカーを回す前提の運用チームほど恩恵が大きいです。 注意点 Codex を素のまま軽く使いたいだけなら過剰です。Node.js、Codex CLI 認証、必要に応じて tmux や psmux など前提条件が増えるので、まずは小さなプロジェクトで標準フローが自分に合うか確かめた方がよさそうです。 まとめ oh-my-codex は、Codex CLI の周辺に「強い開始」「計画承認」「継続実行」を足したい人向けの実務寄りレイヤーです。2026-04-03 の GitHub Trending 2 位という順位も、Codex 周辺エコシステムへの関心の高さを示しています。 参照リンク GitHub Trending Yeachan-Heo/oh-my-codex Shared GitHub Serial: #78"
-    },
-    {
       "slug": "2026-04-03-siddharthvaddem-openscreen",
       "category": "github-trending",
       "originType": "trending",
@@ -5551,21 +5506,6 @@
       "articleUrl": "./articles/github/daily/2026-04-02-jjongguet-oh-my-gemini.html",
       "serial": 70,
       "searchText": "oh-my-gemini Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。 jjongguet/oh-my-gemini は、Gemini CLI に対して team run、verify、HUD、doctor、slash command 群を追加し、複数ワーカー実行と状態管理を実務向けに整理する拡張プロジェクトです。 jjongguet/oh-my-gemini AIコーディング (CLI本体・拡張機能) oh-my-gemini ← 記事一覧へ戻る GitHub Watcher oh-my-gemini GitHub #084 Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。 記事作成日 2026-04-02 種別 Pickup 対象 repo jjongguet/oh-my-gemini Star数 88 これは何か oh-my-gemini は、Gemini CLI 向けに CLI 拡張と運用コマンドをまとめたプロジェクトです。README では「Gemini CLI のための multi-agent orchestration」を掲げており、通常の対話実行に加えて複数ワーカーの並列作業や状態監視を扱えるようにしています。 何ができるか グローバルに oh-my-gemini-sisyphus を入れて omg setup --scope project を実行すると、Gemini CLI に /omg:plan 、 /omg:review 、 /omg:verify などのコマンド群を追加できます。加えて omg team run で複数ワーカー実行、 omg team status や omg hud --watch で進捗確認、 omg doctor で前提チェックまで一続きで回せます。 目立つポイント 特徴は、単なるプロンプト集ではなくチーム運用の状態を .omg/state/ に保持し、resume や shutdown を前提にしている点です。tmux を既定バックエンドにしつつ、役割タグ付きの subagents 実行も選べるため、Gemini CLI を 1 セッションずつ手で回すより再現性のある進行管理を作りやすい構成です。 セットアップや使い方の流れ 基本導入は Node.js 20+、Gemini CLI、tmux を用意して npm からインストールし、 omg setup --scope project で拡張を登録、その後に Gemini CLI を再起動します。日常利用は omg で対話起動、並列タスクは omg team run --task \\\"...\\\" --workers 2 、確認は omg team status や omg hud --watch という流れが分かりやすいです。 どんな人向けか Gemini CLI を単発の会話だけでなく、レビュー、検証、長めの実装タスクへ広げたい人に向いています。特に tmux を使った分業や、実行途中の再開、チーム状態の可視化が欲しい開発者には相性がよさそうです。 注意点 README 上の必須要件に Node.js 20+、Gemini CLI、tmux が含まれているため、Windows では WSL2 前提の tmux セットアップを考えた方が安全です。また omg verify は開発リポジトリ内向けの検証セットという記述があるので、外部プロジェクトでそのまま全て使える前提では見ない方がよいです。 まとめ oh-my-gemini は、Gemini CLI を「1 人で対話する道具」から「並列実行と検証を含む作業基盤」へ広げるための実務寄りラッパーです。Gemini を使った開発フローを標準化したい人には、導入コストに対して得られる運用整理の効果が大きいリポジトリです。 参照リンク jjongguet/oh-my-gemini 依頼元URL Shared GitHub Serial: #70"
-    },
-    {
-      "slug": "2026-04-02-jwasham-coding-interview-university",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "coding-interview-university",
-      "dek": "ソフトウェアエンジニア採用を目指す人向けに、CS基礎と面接対策を順番に学べる巨大な学習ロードマップ。",
-      "summary": "jwasham/coding-interview-university は、データ構造、アルゴリズム、システム設計、模擬問題、参考書や動画までを一つの README にまとめ、独学で面接準備を進めやすくした学習計画リポジトリです。",
-      "repoName": "jwasham/coding-interview-university",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-02T10:05:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-02-jwasham-coding-interview-university.html",
-      "serial": 69,
-      "searchText": "coding-interview-university ソフトウェアエンジニア採用を目指す人向けに、CS基礎と面接対策を順番に学べる巨大な学習ロードマップ。 jwasham/coding-interview-university は、データ構造、アルゴリズム、システム設計、模擬問題、参考書や動画までを一つの README にまとめ、独学で面接準備を進めやすくした学習計画リポジトリです。 jwasham/coding-interview-university AIコーディング (ワークフロー・プロンプト・開発補助ツール) coding-interview-university ← 記事一覧へ戻る GitHub Trending Daily coding-interview-university GitHub #083 ソフトウェアエンジニア採用を目指す人向けに、CS基礎と面接対策を順番に学べる巨大な学習ロードマップ。 記事作成日 2026-04-02 作成時順位 Rank: 14 対象 repo jwasham/coding-interview-university Star数 340,961 概要 coding-interview-university は、2026-04-02 時点で GitHub Trending 14 位に入っていた学習計画リポジトリです。作者自身の面接準備メモを起点に、ソフトウェアエンジニア就職に必要な基礎を一通りたどれる巨大な README へ育っています。 できること 内容は単なる問題集リンク集ではなく、Big-O、データ構造、木、ソート、面接本、演習の進め方まで、学ぶ順番を含めて整理されています。README の「How to use it」では上から順に進めることを前提にしており、Git を使わない閲覧方法と、fork して進捗管理する方法の両方を案内しています。 また translations ディレクトリがあり、日本語を含む複数言語版が用意されています。英語圏の有名教材を読む前の道しるべとしても使いやすい構成です。 向いている人と注意点 独学で面接対策を始める人、CS 学位なしで基礎を埋めたい人、学習範囲を見失っている人には特に相性がよいです。反面、README 自体が非常に大きく、全部を同じ密度で消化しようとすると時間がかかります。 このリポジトリの価値は「必要そうなものを全部読むこと」より、「順番と抜け漏れのない地図を手に入れること」にあります。自分の経験に応じて取捨選択しないと、学習負荷は重くなります。 まとめ coding-interview-university は、面接対策を断片的なテクニック集ではなく、基礎学力の積み上げとして再構成した定番リポジトリです。腰を据えて準備したい人には、今でも十分に実用的です。 参照リンク GitHub Trending jwasham/coding-interview-university (GitHub) Shared GitHub Serial: #69"
     },
     {
       "slug": "2026-04-02-openbmb-chatdev",
@@ -6556,21 +6496,6 @@
       "articleUrl": "./articles/github/daily/2026-03-26-mvanhorn-last30days-skill.html",
       "serial": 7,
       "searchText": "last30days-skill Reddit や X 等の複数プラットフォームを横断調査し、直近 30 日間の動向を根拠付きでまとめる AI リサーチエージェント。 mvanhorn/last30days-skill を読み、Reddit や X などの複数プラットフォームを横断して直近 30 日間のリサーチを自動化する AI ツールを整理。 mvanhorn/last30days-skill AIコーディング (ワークフロー・プロンプト・開発補助ツール) last30days-skill ← 記事一覧へ戻る GitHub Watcher last30days-skill GitHub #009 Reddit や X 等の複数プラットフォームを横断調査し、直近 30 日間の動向を根拠付きでまとめる AI リサーチエージェント。 記事作成日 2026-03-26 作成時順位 2位 対象 repo mvanhorn/last30days-skill Star数 21,991 これは何か mvanhorn/last30days-skill は、AI エージェント（Claude Code 等）がインターネット上の広範なソースを巡回し、特定のトピックについて直近 30 日間の「新鮮な情報」だけを抽出・要約するための専用スキルです。 何ができるか Reddit、X（旧 Twitter）、YouTube、Hacker News、TikTok などの主要プラットフォームからデータを収集し、それらを一つの物語（ナラティブ）としてまとめ上げます。YouTube の再生回数考慮やトランスクリプトの自動取得、競合比較を行う「X vs Y」モードなど、実用性の高いリサーチ機能が目白押しです。 目立つポイント 単なる検索要約ではなく、各主張にしっかりとした引用（ソースリンク）を付与する点が強力です。また、ウォッチリスト機能により、競合他社の動向や特定の人物の活動を定期的に自動チェックする「自分専用のニュースレター」のような運用も可能です。 セットアップや使い方の流れ Python ベースで構築されており、環境構築後に API キーなどを設定して使用します。 npx last30days-skill research \"トピック名\" のように実行すると、数分で Markdown 形式のレポートが ~/Documents/Last30Days/ フォルダに保存されます。 どんな人向けか トレンド追従が欠かせないデジタルマーケターや、競合調査を頻繁に行うリサーチャー、あるいは日々膨大な情報の海から重要なシグナルを見落としたくない全ての知識労働者に適しています。 注意点 SNS 等のスクレイピング制限や API 制限に依存するため、安定した動作には適切なプロキシ設定やプロバイダーの環境が必要になる場合があります。また、YouTube の完全な解析には yt-dlp などの外部ライブラリも必要です。 まとめ 情報の「新しさ」に特化し、複数のプラットフォームを串刺しにして AI に推論させるこのスキルは、AI を単なるチャット相手から、自律的なリサーチャーへとアップグレードさせる強力な武器となります。 参照リンク GitHub Trending mvanhorn/last30days-skill Shared GitHub Serial: #7"
-    },
-    {
-      "slug": "2026-03-26-ruvnet-ruflo",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "ruflo",
-      "dek": "Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。",
-      "summary": "ruvnet/ruflo を読み、Claude Code を強力なマルチエージェント・システムへと拡張する Hive Mind アーキテクチャを整理する。",
-      "repoName": "ruvnet/ruflo",
-      "genre": "AIコーディング (CLI本体・拡張機能)",
-      "publishedAt": "2026-03-26",
-      "createdAt": "2026-03-26T10:04:33+09:00",
-      "articleUrl": "./articles/github/daily/2026-03-26-ruvnet-ruflo.html",
-      "serial": 6,
-      "searchText": "ruflo Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。 ruvnet/ruflo を読み、Claude Code を強力なマルチエージェント・システムへと拡張する Hive Mind アーキテクチャを整理する。 ruvnet/ruflo AIコーディング (CLI本体・拡張機能) ruflo ← 記事一覧へ戻る GitHub Watcher ruflo GitHub #007 Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。 記事作成日 2026-03-26 作成時順位 3位 対象 repo ruvnet/ruflo Star数 31,889 これは何か rufno は、Anthropic の Claude Code を単なる一人の「AI アシスタント」から、高度に調整された「マルチエージェント・チーム」へと進化させるためのオープンソース・オーケストレーション基盤です。以前は Claude Flow として知られていました。 何ができるか 60 種類を超える専門エージェント（コーダー、テスター、セキュリティ監査人、ドキュメント作成者など）を「Hive Mind」と呼ばれる集合知モデルで統合し、複雑なソフトウェア開発タスクを協調して実行できます。Claude Code 内で直接 MCP (Model Context Protocol) サーバーとして動作し、コマンド一つでスウォーム（群れ）を起動して並列・段階的なタスク処理が可能です。 目立つポイント 最大の特徴は、Strategic/Tactical/Adaptive といった役割を持つ「Queen」エージェントが、他の Worker エージェントを指揮して合意（コンセンサス）を形成するガバナンス構造です。また、自己学習アルゴリズムを搭載しており、成功したワークフローのパターンを学習して時間とともに最適化される点もユニークです。 セットアップや使い方の流れ Node.js 環境があれば npx ruflo@latest init で初期化できます。Claude Code と連携させるには npx ruflo@latest mcp start で MCP サーバーを起動し、Claude 側で特定のタスク（例：「認証機能を実装し、テストを書いてドキュメントを作成せよ」）を投げると、適切なエージェント群が自動的に選定・編成されます。 どんな人向けか Claude Code を既に業務に取り入れており、単一のプロンプトでは対応しきれない大規模なリファクタリングや、包括的なセキュリティ監査、自動テストスイートの構築を AI に自律的に行わせたい開発者に最適です。 注意点 60 種類以上のエージェントを動かす「スウォーム」構成の場合、API コストが急増する可能性があります。Ruflo はコスト効率の高いルーティング機能も備えていますが、並列実行数や複雑な合意形成アルゴリズムの使用には注意が必要です。 まとめ Ruflo は、Claude Code をエンタープライズレベルの「自律型開発チーム」へ拡張する、現在最も注目されるエージェント・オーケストレーターの一つです。個別のツールとしてではなく、既存の Claude ワークフローを深める「基盤」として設計されている点が強力です。 参照リンク GitHub Trending ruvnet/ruflo Shared GitHub Serial: #6"
     },
     {
       "slug": "2026-03-24-vxcontrol-pentagi",
