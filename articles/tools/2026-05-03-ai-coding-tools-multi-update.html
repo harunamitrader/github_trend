@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Tool Update Log #407</p>
+      </div>
+
+      <h1 class="article-title">AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3</h1>
+      <p class="article-dek">Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>AI Coding Tools</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>連休中も主要ツールの更新が続いており、特に接続性の向上とランタイムの信頼性確保に重点が置かれています。</p>
+        <ul>
+            <li><strong>Claude Code (May 1 Update):</strong> <code>/model</code> ピッカーが Anthropic 互換ゲートウェイに対応。また、プロジェクトの全ローカル状態を一括削除する <code>claude project purge</code> コマンドが追加されました。</li>
+            <li><strong>Cline v3.82.0:</strong> VS Code のフォアグラウンドターミナルサポートを復旧。最新の OpenAI モデル、SAP AI Core、および Z AI モデルへの対応も追加されています。</li>
+            <li><strong>OpenAI Codex CLI v0.15.3:</strong> Team ランタイムの信頼性を大幅に強化。スタックしたタスクのクリーンアップ、セッション分離の厳格化、および <code>gpt-5.5</code> 利用時のコンテキスト上限警告が導入されました。</li>
+            <li><strong>GitHub Copilot CLI:</strong> カスタム CA 証明書の非同期ロードによる起動高速化、および <code>/research</code> コマンドへのオーケストレーターモデル導入による調査精度の向上が図られています。</li>
+            <li><strong>Gemini CLI v0.41.0-preview.1:</strong> プレビュー版における ContextManager の安定性向上を目的としたパッチが反映されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Code のゲートウェイ対応により、自社運用の LLM 基盤を Claude インターフェースから利用しやすくなりました。Codex の v0.15.3 アップデートは、大規模なチーム開発環境でのセッション競合やハングアップを劇的に減らすことが期待されます。</p>
+
+        <h2>まとめ</h2>
+        <p>ツールの「多機能化」が一段落し、実際の現場での「安定運用」と「エコシステム（ゲートウェイ・モデル）への適応」が加速しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code Release Notes</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/yeachan-heo/oh-my-codex/releases" target="_blank" rel="noreferrer">OpenAI Codex CLI Releases (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

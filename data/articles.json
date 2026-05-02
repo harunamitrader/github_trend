@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool",
+      "slug": "2026-05-03-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3",
+      "dek": "Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。",
+      "summary": "Claude Code の Anthropic 互換ゲートウェイ対応、Cline v3.82.0 のターミナルサポート復旧、Codex v0.15.3 のチームランタイム安定化、GitHub Copilot の起動高速化など、最新のコーディングツール情報をまとめました。",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T04:00:00Z",
+      "toolName": "AI Coding Tools",
+      "version": "Multi-Update",
+      "articleUrl": "./articles/tools/2026-05-03-ai-coding-tools-multi-update.html",
+      "serial": 407,
+      "genre": "Coding"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-02-pranshuparmar-witr",
