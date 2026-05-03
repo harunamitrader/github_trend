@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「キーを押して話し、離せば入力完了」。AIによる自動リライト機能を備えた、macOS & Windows 向けのオープンソース音声入力ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openless</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openless</h1>
+      <p class="article-dek">「キーを押して話し、離せば入力完了」。AIによる自動リライト機能を備えた、macOS & Windows 向けのオープンソース音声入力ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-03 -->
+          <strong>2026-05-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/appergb/openless" target="_blank" rel="noreferrer">
+              appergb/openless
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>471</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>キーを押している間だけ音声を録音し、離した瞬間にAI（LLM）がその内容を整理・推敲して、カーソル位置にテキストとして流し込む音声入力デスクトップアプリです。</p>
+
+        <h2>何ができるか</h2>
+        <p>単なる文字起こし（ASR）にとどまらず、言い淀みの除去、誤字脱字の修正、文脈に合わせた自然な表現への書き換えを自動で行います。macOS と Windows の両方に対応しており、ブラウザやエディタなど、あらゆるアプリケーションで利用可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Wispr Flow」などの商用ツールに近い操作感をオープンソースで実現している点です。ユーザー独自の語彙登録（Dictionary）機能により、専門用語や固有表現の誤認を抑制でき、プライバシーを重視した設計（AIは回答せず、リライトのみに専念する）も特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Tauri 2ベースのインストーラーからセットアップします。音声認識には Volcengine（火山エンジン）などのAPIを利用し、リライト用には OpenAI 互換の LLM API（Ark, DeepSeek 等）を設定して使用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>キーボード入力よりも音声で思考をアウトプットしたいライター、プログラマー、ビジネスパーソンに最適です。特に、従来の音声入力の「そのままの文字起こし」では修正が面倒だと感じていた人に刺さるツールです。</p>
+
+        <h2>注意点</h2>
+        <p>動作には ASR（音声認識）と LLM（推敲）の API キーが必要です。設定には多少の技術的な理解が必要ですが、一度設定すれば非常にスムーズな入力体験が得られます。</p>
+
+        <h2>まとめ</h2>
+        <p>「話すだけで完璧な文章が入力される」体験を、オープンソースでカスタマイズ可能な形で提供する有望なプロジェクトです。入力効率を劇的に高めるポテンシャルを秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/appergb/openless" target="_blank" rel="noreferrer">https://github.com/appergb/openless</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #415</p>
+      </div>
+    </article>
+  </body>
+</html>

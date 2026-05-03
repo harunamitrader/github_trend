@@ -7,7 +7,19 @@
   },
   "articles": [
     {
-      "serial": "414",
+      "serial": "415",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T20:21:00Z",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "repoName": "appergb/openless",
+      "repoUrl": "https://github.com/appergb/openless",
+      "articleUrl": "articles/github/daily/2026-05-03-appergb-openless.html",
+      "title": "openless",
+      "summary": "macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。",
+      "starCount": 471
+    },
       "publishedAt": "2026-05-03",
       "createdAt": "2026-05-03T20:20:00Z",
       "category": "github-pickup",
