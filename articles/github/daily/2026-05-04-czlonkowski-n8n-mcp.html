@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>n8n-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">n8n-mcp</h1>
+      <p class="article-dek">「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <!-- 2026-05-04 -->
+          <strong>2026-05-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/czlonkowski/n8n-mcp" target="_blank" rel="noreferrer">
+              czlonkowski/n8n-mcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>19443</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>n8n-mcp は、強力なワークフロー自動化ツール「n8n」を Model Context Protocol (MCP) を通じて LLM エージェントに公開するためのサーバーです。これにより、Claude Desktop、Claude Code、Cursor、Windsurf などのエージェント対応ツールから、n8n 上の既存ワークフローを呼び出したり、新しい自動化を構築させたりすることが可能になります。</p>
+
+        <h2>機能・できること</h2>
+        <ul>
+            <li><strong>ワークフローの実行:</strong> AI エージェントに対して、特定の n8n ワークフローを引数付きで実行するように指示。</li>
+            <li><strong>ワークフローのメタデータ取得:</strong> エージェントが利用可能なワークフローの一覧や、各ノードの入出力形式を把握。</li>
+            <li><strong>動的な自動化構築:</strong> LLM が現在の文脈に合わせて、n8n のノードを組み合わせて新しい自動化シナリオを提案・実行。</li>
+            <li><strong>マルチツール連携:</strong> n8n が持つ数百のコネクタ（Notion, Slack, Google Drive 等）を、AI エージェントのスキルとして直接活用。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>Node.js で記述されており、MCP SDK を使用して n8n の API (REST) と通信するブリッジとして機能します。設定ファイルを通じて n8n の URL と API キーを紐付けるだけで動作するシンプルな設計です。</p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>npx を利用して直接実行するか、MCP 対応クライアント（Claude Desktop 等）の設定ファイルにサーバーの起動コマンドを追加します。環境変数として n8n の認証情報を設定することで、エージェントがワークフローにアクセスできるようになります。</p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>n8n を活用して業務自動化を行っている開発者や、AI エージェントに「実際の外部アプリ操作能力」を効率的に持たせたいユーザーに最適です。既存の膨大な n8n エコシステムをそのまま MCP に接続できる点が、非常に強力な注目ポイントです。</p>
+
+        <h2>制約・リスク</h2>
+        <p>n8n サーバーが API アクセスを許可している必要があります（特にセルフホスト環境）。また、エージェントに強力な権限を与えることになるため、破壊的な操作を伴うワークフローを実行させる場合は注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「ノーコード自動化」の n8n と「AI エージェント」の MCP を繋ぐミッシングリンクを埋めるツールです。エージェントができることの幅を劇的に広げ、実務への適用を加速させるポテンシャルを持っています。</p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/czlonkowski/n8n-mcp" target="_blank" rel="noreferrer">https://github.com/czlonkowski/n8n-mcp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #418</p>
+      </div>
+    </article>
+  </body>
+</html>

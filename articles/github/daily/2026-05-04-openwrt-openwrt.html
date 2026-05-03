@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「組み込みデバイスのための Linux ディストリビューション」。軽量・高速かつ高度にカスタマイズ可能なネットワークOSの総本山。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openwrt</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openwrt</h1>
+      <p class="article-dek">「組み込みデバイスのための Linux ディストリビューション」。軽量・高速かつ高度にカスタマイズ可能なネットワークOSの総本山。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <!-- 2026-05-04 -->
+          <strong>2026-05-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openwrt/openwrt" target="_blank" rel="noreferrer">
+              openwrt/openwrt
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>26587</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>OpenWrt は、ルーターや組み込みデバイス向けに設計された Linux ディストリビューションです。ベンダー提供の固定されたファームウェアとは異なり、書き込み可能なファイルシステムとパッケージ管理システムを備えており、ユーザーが自由に機能を追加・カスタマイズできるのが最大の特徴です。</p>
+
+        <h2>機能・できること</h2>
+        <ul>
+            <li><strong>自由なパッケージ導入:</strong> opkg パッケージマネージャーにより、VPN サーバー、広告ブロック、ファイル共有など、数千のパッケージをインストール可能。</li>
+            <li><strong>高度なネットワーク制御:</strong> VLAN、QoS、マルチ WAN、メッシュネットワークなど、商用グレードのネットワーク設定を実現。</li>
+            <li><strong>軽量・高速:</strong> リソースが限られた古いハードウェアでも動作するよう最適化されており、パフォーマンスを最大限に引き出します。</li>
+            <li><strong>LuCI Web インターフェース:</strong> ブラウザから直感的に設定可能なグラフィカルな管理画面を提供。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>リポジトリは、ビルドシステム（buildroot）、カーネル設定、そして「feeds」と呼ばれる外部パッケージリポジトリの管理ツールなどで構成されています。ターゲットとなるハードウェアごとに最適なバイナリを生成するための強力なツールチェーンが含まれています。</p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>通常は、対応するハードウェア向けのビルド済みイメージをダウンロードし、デバイスのフラッシュメモリに書き込むことで導入します。開発者は、SDK を使用して独自のパッケージをビルドしたり、ビルドシステムをカスタマイズして自分専用のファームウェアを構築したりすることも可能です。</p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>ネットワークエンジニア、プライバシー重視のユーザー、そして古いルーターを再利用したい DIY 愛好家に最適です。近年では、IoT デバイスの基盤 OS としても再注目されており、その安定性と拡張性が高く評価されています。</p>
+
+        <h2>制約・リスク</h2>
+        <p>導入にはハードウェアごとの「対応状況」の確認が不可欠であり、誤った書き込みを行うとデバイスが起動しなくなる（文鎮化）リスクがあります。また、一部のベンダー製 Wi-Fi ドライバーがオープンソース化されていない場合、無線性能が制限されることがあります。</p>
+
+        <h2>まとめ</h2>
+        <p>ネットワーク機器のポテンシャルを解放し、真のコントロールを手に入れるための最も信頼できる OS です。長年の歴史を持ちながら進化を続けており、ネットワークの自由度を求めるすべての人にとっての標準となっています。</p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openwrt/openwrt" target="_blank" rel="noreferrer">https://github.com/openwrt/openwrt</a>
+        </div>
+        <div class="source-item">
+          <a href="https://openwrt.org/" target="_blank" rel="noreferrer">OpenWrt Project Official Website</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #417</p>
+      </div>
+    </article>
+  </body>
+</html>

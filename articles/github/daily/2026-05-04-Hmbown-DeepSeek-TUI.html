@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「ターミナルで動作する DeepSeek コーディングエージェント」。軽量な TUI 環境で AI ペアプログラミングを実現。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepSeek-TUI</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">DeepSeek-TUI</h1>
+      <p class="article-dek">「ターミナルで動作する DeepSeek コーディングエージェント」。軽量な TUI 環境で AI ペアプログラミングを実現。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <!-- 2026-05-04 -->
+          <strong>2026-05-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank" rel="noreferrer">
+              Hmbown/DeepSeek-TUI
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2056</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>DeepSeek-TUI は、高性能な DeepSeek モデルを活用してターミナル（TUI）上で動作するコーディングエージェントです。ブラウザや複雑な IDE 拡張機能を介さず、エンジニアが日常的に使用するターミナル環境から直接、AI によるコード生成、リファクタリング、デバッグの支援を受けることができます。</p>
+
+        <h2>機能・できること</h2>
+        <ul>
+            <li><strong>インタラクティブなチャット:</strong> ターミナル上で DeepSeek モデルと対話し、コーディングに関する質問や指示を行う。</li>
+            <li><strong>ファイル操作と編集:</strong> エージェントが直接プロジェクト内のファイルを読み書きし、コードの変更を適用。</li>
+            <li><strong>コンテキスト管理:</strong> 現在のプロジェクト構造や開いているファイルを理解し、関連性の高いコード生成を実現。</li>
+            <li><strong>ストリーミング出力:</strong> 生成されるコードをリアルタイムで表示し、思考プロセスを可視化。</li>
+            <li><strong>マルチモデル対応:</strong> DeepSeek V3 や Coder モデルを、API 経由で柔軟に切り替えて利用可能。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>Python をベースに構築されており、リッチな TUI を実現するためのライブラリ（Textual 等）を活用しています。API クライアント、プロジェクトインデックス作成ツール、および対話型インターフェースのコアコンポーネントで構成されています。</p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>pip を利用してインストールし、DeepSeek の API キーを環境変数または設定ファイルに記述するだけで開始できます。起動後はターミナル上で `ds-tui` コマンド（想定）を叩くだけで、直ちにコーディングセッションが始まります。</p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>軽量で高速な開発環境を好む CLI 派のエンジニアや、DeepSeek の高いコーディング性能をミニマルな環境で最大限に活かしたいユーザーに最適です。Claude Code に近い使用感を、DeepSeek モデルで実現している点が大きな魅力です。</p>
+
+        <h2>制約・リスク</h2>
+        <p>現時点では TUI インターフェースの操作性に依存するため、大規模な差分表示や複雑なグラフィカルな操作は制限される場合があります。また、実行には DeepSeek API の利用料金が発生します。</p>
+
+        <h2>まとめ</h2>
+        <p>「ターミナルこそがエンジニアの主戦場」という思想を体現した、シンプルながらも強力なコーディングツールです。DeepSeek の躍進とともに、軽量エージェントの決定版としての成長が期待されます。</p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank" rel="noreferrer">https://github.com/Hmbown/DeepSeek-TUI</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #419</p>
+      </div>
+    </article>
+  </body>
+</html>

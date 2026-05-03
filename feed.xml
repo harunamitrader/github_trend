@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 May 2026 05:36:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 05:52:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[DeepSeek-TUI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-Hmbown-DeepSeek-TUI.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-Hmbown-DeepSeek-TUI.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「ターミナルで動作する DeepSeek コーディングエージェント」。軽量な TUI 環境で AI ペアプログラミングを実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[n8n-mcp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-czlonkowski-n8n-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-czlonkowski-n8n-mcp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openwrt]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-openwrt-openwrt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-openwrt-openwrt.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「組み込みデバイスのための Linux ディストリビューション」。軽量・高速かつ高度にカスタマイズ可能なネットワークOSの総本山。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-04 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-04-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-04-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.5.2: プラグイン管理システムの強化とパフォーマンス最適化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-04-openclaw-v2026-5-2-plugin-management.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ロシア等のDPI（Deep Packet Inspection）制限を回避し、DiscordやYouTubeの快適な利用を支援するWindows向けツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-02 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-02-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-02-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools 統合アップデート: Claude Security, Grok Custom Voice, ChatGPT Advanced Security]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Security (Beta) の開始、Grok のカスタム音声ライブラリ、ChatGPT の高度なアカウント保護など、2026年5月初旬の主要 AI 汎用ツール動向。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools 統合アップデート: Cursor Team Marketplace, Security Review, Codex CLI v0.128.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-02-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor の Team Marketplace 導入と Security Review (Beta) 開始、Codex CLI v0.128.0 の TUI 強化など、2026年5月初旬の主要コーディングAIツール動向。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[e-shiwake]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。]]></description>
     </item>
   </channel>
 </rss>
