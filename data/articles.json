@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "serial": "416",
+      "publishedAt": "2026-05-04",
+      "createdAt": "2026-05-04T05:40:00Z",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "tool-log",
+      "articleUrl": "articles/tools/2026-05-04-openclaw-v2026-5-2-plugin-management.html",
+      "title": "OpenClaw v2026.5.2: プラグイン管理システムの強化とパフォーマンス最適化",
+      "summary": "セルフホスト型AIエージェントプラットフォーム「OpenClaw」の最新版 v2026.5.2 が公開。プラグインのインストール・更新プロセスの改善や、通信ホットパスの最適化により、エージェントの拡張性と応答性能が向上しました。",
+      "toolName": "OpenClaw"
+    },
+    {
       "serial": "415",
       "publishedAt": "2026-05-03",
       "createdAt": "2026-05-03T20:21:00Z",
