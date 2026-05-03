@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 May 2026 05:50:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 20:20:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[worldmonitor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-koala73-worldmonitor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-koala73-worldmonitor.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[地政学リスクや金融市場、重要インフラの動向を3D地球儀上でリアルタイム監視できる次世代ダッシュボード「World Monitor」の概要と特徴をまとめました。ローカルAIを活用したニュース要約機能も備えています。]]></description>
+    </item>
     <item>
       <title><![CDATA[SocratiCode]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FinRL]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-AI4Finance-Foundation-FinRL.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[深層強化学習を用いた金融市場の定量取引（クオンツトレード）フレームワーク。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "serial": "414",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T20:20:00Z",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "repoName": "koala73/worldmonitor",
+      "repoUrl": "https://github.com/koala73/worldmonitor",
+      "articleUrl": "articles/github/daily/2026-05-03-koala73-worldmonitor.html",
+      "title": "worldmonitor",
+      "summary": "地政学リスクや金融市場、重要インフラの動向を3D地球儀上でリアルタイム監視できる次世代ダッシュボード「World Monitor」の概要と特徴をまとめました。ローカルAIを活用したニュース要約機能も備えています。",
+      "starCount": 53292
+    },
+    {
       "serial": "413",
       "publishedAt": "2026-05-03",
       "createdAt": "2026-05-03",
