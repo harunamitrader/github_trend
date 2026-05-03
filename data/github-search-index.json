@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-03T11:20:33.540510+00:00",
-  "count": 440,
+  "generatedAt": "2026-05-03T11:22:18.504022+00:00",
+  "count": 441,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "openless",
+      "dek": "",
+      "summary": "macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。",
+      "repoName": "appergb/openless",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T20:21:00Z",
+      "articleUrl": "articles/github/daily/2026-05-03-appergb-openless.html",
+      "serial": "415",
+      "searchText": "openless macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。 appergb/openless AI基盤・データ基盤・業務アプリ openless ← 記事一覧へ戻る GitHub Watcher openless 「キーを押して話し、離せば入力完了」。AIによる自動リライト機能を備えた、macOS & Windows 向けのオープンソース音声入力ツール。 記事作成日 2026-05-03 種別 Pickup 対象 repo appergb/openless Star数 471 これは何か キーを押している間だけ音声を録音し、離した瞬間にAI（LLM）がその内容を整理・推敲して、カーソル位置にテキストとして流し込む音声入力デスクトップアプリです。 何ができるか 単なる文字起こし（ASR）にとどまらず、言い淀みの除去、誤字脱字の修正、文脈に合わせた自然な表現への書き換えを自動で行います。macOS と Windows の両方に対応しており、ブラウザやエディタなど、あらゆるアプリケーションで利用可能です。 目立つポイント 「Wispr Flow」などの商用ツールに近い操作感をオープンソースで実現している点です。ユーザー独自の語彙登録（Dictionary）機能により、専門用語や固有表現の誤認を抑制でき、プライバシーを重視した設計（AIは回答せず、リライトのみに専念する）も特徴です。 セットアップや使い方の流れ Tauri 2ベースのインストーラーからセットアップします。音声認識には Volcengine（火山エンジン）などのAPIを利用し、リライト用には OpenAI 互換の LLM API（Ark, DeepSeek 等）を設定して使用します。 どんな人向けか キーボード入力よりも音声で思考をアウトプットしたいライター、プログラマー、ビジネスパーソンに最適です。特に、従来の音声入力の「そのままの文字起こし」では修正が面倒だと感じていた人に刺さるツールです。 注意点 動作には ASR（音声認識）と LLM（推敲）の API キーが必要です。設定には多少の技術的な理解が必要ですが、一度設定すれば非常にスムーズな入力体験が得られます。 まとめ 「話すだけで完璧な文章が入力される」体験を、オープンソースでカスタマイズ可能な形で提供する有望なプロジェクトです。入力効率を劇的に高めるポテンシャルを秘めています。 参照リンク https://github.com/appergb/openless Shared GitHub Serial: #415"
+    },
     {
       "slug": null,
       "category": "github-pickup",

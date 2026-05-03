@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 May 2026 11:23:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 20:22:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openless]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-appergb-openless.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-appergb-openless.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。]]></description>
+    </item>
     <item>
       <title><![CDATA[worldmonitor]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-koala73-worldmonitor.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[blinko]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-blinko.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-01-blinko.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。]]></description>
     </item>
   </channel>
 </rss>
