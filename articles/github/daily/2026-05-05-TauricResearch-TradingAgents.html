@@ -9,19 +9,19 @@
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>TradingAgents - GitHub Watcher</title>
-    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
     <article class="article-shell">
       <div class="article-topline">
-        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">GitHub Watcher</p>
       </div>
 
@@ -35,7 +35,15 @@
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>GitHub Trending</strong>
+          <strong>Rank 2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">
+              TauricResearch/TradingAgents
+            </a>
+          </strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">Star数</span>
@@ -45,25 +53,33 @@
 
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>TradingAgents は、LLM（大規模言語モデル）を搭載した複数のエージェントが、金融取引において異なる役割（アナリスト、ストラテジスト、トレーダー等）を担い、自律的に連携するフレームワークです。市場データ、ニュース、SNS の感情分析などを総合的に判断し、最適なトレード戦略を導き出します。</p>
+        <p>TradingAgents は、LLM（大規模言語モデル）をベースにした複数の自律型エージェントが、金融市場において異なる専門的な役割を担い、協力してトレードを行うためのオープンソースフレームワークです。数値データとしての価格推移だけでなく、ニュース、決算報告書、SNS の感情データなどの非構造化情報をエージェントが読み解き、総合的な投資判断を下します。</p>
 
-        <h2>注目のポイント</h2>
-        <ul>
-          <li><strong>役割ベースの連携:</strong> 各エージェントに専門性を持たせることで、多角的な視点からリスク評価とリターン予測を行います。</li>
-          <li><strong>リアルタイム適応:</strong> 急激な市場変動に対し、エージェント間での「会議」を通じて戦略を動的に修正する機能を備えています。</li>
-          <li><strong>多様なデータソース:</strong> 株価などの数値データだけでなく、テキストベースの情報（決算短信、X/Twitter 等）を高度に処理します。</li>
-        </ul>
+        <h2>何ができるか</h2>
+        <p>「マーケットアナリスト」「マクロ経済調査官」「リスク管理担当」「実行トレーダー」といった役割を各エージェントに割り当て、エージェント間での「議論（ディベート）」を通じて最終的な売買注文を決定します。バックテスト機能も統合されており、過去のデータを用いて AI 戦略の有効性を検証することが可能です。</p>
 
-        <h2>筆者の視点</h2>
-        <p>「AI によるトレード」が数値予測（RNN や Transformer）から、より高次な「推論と判断」へとシフトしている象徴的なプロジェクトです。6万スターを超える驚異的な注目度は、個人投資家からプロフェッショナルまで、エージェントによる自動運用の可能性に大きな期待を寄せていることを示しています。</p>
+        <h2>目立つポイント</h2>
+        <p>「集団的知性」を利用して単一モデルのバイアスを排除しようとする設計が非常にユニークです。また、Python ベースで拡張性が高く、最新の LLM（GPT-4, Claude 3, Llama 3 等）を容易に切り替えて、特定の市場（株式、仮想通貨、FX）に特化したエージェントチームを構築できる点が評価されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンし、Python 仮想環境で依存ライブラリをインストールします。API キーを設定した後、デフォルトの「投資委員会」構成ファイルを読み込んでデモを実行できます。独自の取引所 API と接続することで、リアルタイムデータに基づいたシミュレーションや実取引への適用も可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI を活用したアルゴリズム取引に興味がある個人投資家や、大規模言語モデルをドメイン特化の意志決定システムとして運用したいデータサイエンティストに向いています。特に「なぜそのトレードを行ったか」という理由を自然言語で説明させたい（説明可能な AI トレード）場合に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>LLM による推論には一定の遅延（レイテンシ）が発生するため、ミリ秒単位を争う HFT（高頻度取引）には不向きです。また、AI が生成する投資アドバイスには「幻覚（ハルシネーション）」が含まれるリスクがあるため、常に人間の監視や厳格なリスク管理ロジックの併用が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>TradingAgents は、金融工学と生成 AI を融合させた野心的なプロジェクトです。6万スターを超える注目度は、AI エージェントが投資の世界においても「強力なパートナー」になり得るという期待感の現れと言えるでしょう。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">GitHub - TauricResearch/TradingAgents</a>
+          <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noreferrer">https://github.com/TauricResearch/TradingAgents</a>
         </div>
       </div>
       <div class="article-footer">
-        <p class="article-serial">Shared Serial: #427</p>
+        <p class="article-serial">Shared GitHub Serial: #427</p>
       </div>
     </article>
   </body>

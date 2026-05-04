@@ -9,19 +9,19 @@
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>qBittorrent - GitHub Watcher</title>
-    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
     <article class="article-shell">
       <div class="article-topline">
-        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">GitHub Watcher</p>
       </div>
 
@@ -35,7 +35,15 @@
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>GitHub Trending</strong>
+          <strong>Rank 6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/qbittorrent/qBittorrent" target="_blank" rel="noreferrer">
+              qbittorrent/qBittorrent
+            </a>
+          </strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">Star数</span>
@@ -45,25 +53,33 @@
 
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>qBittorrent は、Qt ツールキットを使用して書かれた、機能豊富でオープンソースの BitTorrent クライアントです。µTorrent などの商用クライアントに代わる、広告がなく、プライバシーに配慮された強力な選択肢として広く認知されています。</p>
+        <p>qBittorrent は、Qt ツールキットを使用して開発された、オープンソースで機能豊富な BitTorrent クライアントです。商用ソフトにありがちな広告や不要なバンドルソフトを一切含まず、軽量かつ高速な動作を追求しており、世界中のユーザーから「µTorrent の精神的な後継」として最も信頼されているクライアントの一つです。</p>
 
-        <h2>注目のポイント</h2>
-        <ul>
-          <li><strong>広告なし・オープンソース:</strong> クリーンな UI で、バックグラウンドでの不要な通信や広告表示が一切ありません。</li>
-          <li><strong>高度な機能:</strong> 検索エンジン内蔵、RSS フィード対応、帯域制限、IP フィルタリングなど、ヘビーユーザーが必要とする機能を網羅しています。</li>
-          <li><strong>クロスプラットフォーム:</strong> Windows, macOS, Linux, FreeBSD など、主要な OS すべてで動作します。</li>
-        </ul>
+        <h2>何ができるか</h2>
+        <p>基本的なファイルのダウンロード・アップロード機能に加え、強力な検索エンジン内蔵、RSS フィードによる自動ダウンロード、帯域幅の細かな制御、IP フィルタリング、Web UI によるリモート管理などが可能です。IPv6 にも完全対応しており、ネットワーク環境を選ばず最適なパフォーマンスを発揮します。</p>
 
-        <h2>筆者の視点</h2>
-        <p>長年にわたり信頼されているツールですが、今なおトレンドに挙がるのはその安定性とコミュニティの支持の厚さを物語っています。最近のアップデートでは Web UI の強化や IPv6 対応の改善が進んでおり、サーバーサイドでの運用（headless 運用）も非常に快適です。</p>
+        <h2>目立つポイント</h2>
+        <p>「シンプルでありながら妥協のない機能性」がポイントです。ユーザーインターフェースはクリーンで分かりやすく、初心者でも迷わず使えますが、設定の奥深くには詳細なネットワークパラメータが用意されており、玄人のニーズにも応えます。また、完全にボランティアによって開発・メンテナンスされているため、プライバシーの透明性が非常に高い点も特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各 OS（Windows, macOS, Linux, FreeBSD 等）向けのインストーラーが提供されており、導入は非常に簡単です。起動後、内蔵の検索プラグインを有効にすれば、ブラウザを開くことなくクライアント内から目的のファイルを直接探し出し、ワンクリックでダウンロードを開始できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>広告まみれのクライアントに嫌気が差したユーザーや、PC のリソースを浪費せずに快適なファイル転送を行いたいすべての人に向いています。また、NAS や Linux サーバー上で Web UI を介してリモートでファイルを管理したいエンジニアにとっても、極めて安定した選択肢となります。</p>
+
+        <h2>注意点</h2>
+        <p>BitTorrent 自体は合法的な技術ですが、著作権を侵害するコンテンツの送受信に使用することは違法です。利用にあたっては、各地域の法律およびマナーを遵守し、ネットワークの帯域消費が他のアプリケーションに影響を与えないよう適切に設定を行うことが重要です。</p>
+
+        <h2>まとめ</h2>
+        <p>qBittorrent は、インターネットの自由と共有の精神を体現する、オープンソースソフトウェアの模範のような存在です。長年の安定稼働実績がありながら、今なお活発に開発が続いており、これからも BitTorrent クライアントの決定版であり続けるでしょう。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/qbittorrent/qBittorrent" target="_blank" rel="noreferrer">GitHub - qbittorrent/qBittorrent</a>
+          <a href="https://github.com/qbittorrent/qBittorrent" target="_blank" rel="noreferrer">https://github.com/qbittorrent/qBittorrent</a>
         </div>
       </div>
       <div class="article-footer">
-        <p class="article-serial">Shared Serial: #424</p>
+        <p class="article-serial">Shared GitHub Serial: #424</p>
       </div>
     </article>
   </body>

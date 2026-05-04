@@ -9,19 +9,19 @@
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>skills - GitHub Watcher</title>
-    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
     <article class="article-shell">
       <div class="article-topline">
-        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">GitHub Watcher</p>
       </div>
 
@@ -35,7 +35,15 @@
         </div>
         <div class="article-meta-item">
           <span class="meta-label">種別</span>
-          <strong>GitHub Trending</strong>
+          <strong>Rank 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browserbase/skills" target="_blank" rel="noreferrer">
+              browserbase/skills
+            </a>
+          </strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">Star数</span>
@@ -45,25 +53,33 @@
 
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>browserbase/skills は、Anthropic の Claude (Claude Code 等) を含む AI エージェントに、高度な Web ブラウジングおよび操作能力を付与するための SDK です。ヘッドレスブラウザのホスティングサービスである Browserbase をバックエンドに使用しています。</p>
+        <p>browserbase/skills は、AI エージェント（特に Anthropic の Claude シリーズ）に対して、ヘッドレスブラウザを通じた高度な Web 閲覧と操作の能力を付与するための公式ツールセットです。サーバーサイドブラウザのホスティングサービス「Browserbase」を基盤としており、エージェントが動的な Web サイトを人間と同じように操作するための「目」と「手」の役割を果たします。</p>
 
-        <h2>注目のポイント</h2>
-        <ul>
-          <li><strong>MCP 対応:</strong> Model Context Protocol に準拠しており、エージェントから「スキル」として容易に呼び出すことができます。</li>
-          <li><strong>高度なインタラクション:</strong> 単なるテキスト取得だけでなく、クリック、入力、スクロールといった人間のようなブラウザ操作をエージェントに代行させることが可能です。</li>
-          <li><strong>認証・セッション管理:</strong> 複雑なログインが必要なサイトや、動的なコンテンツの読み込みもBrowserbase のインフラ上で安定して処理します。</li>
-        </ul>
+        <h2>何ができるか</h2>
+        <p>Model Context Protocol (MCP) を通じて、エージェントはブラウザの起動、URL への遷移、要素のクリック、テキストの入力、スクリーンショットの撮影などを自律的に実行できます。これにより、エージェントが最新のドキュメントをネットから検索したり、Web アプリケーション上で直接作業を行ったりすることが可能になります。</p>
 
-        <h2>筆者の視点</h2>
-        <p>エージェントが自律的に調査を行い、フォームを送信し、データを収集するための「手」となるライブラリです。特に Claude Code との相性が良く、開発者がターミナルから出ることなく Web 上のドキュメントをエージェントに読ませる、といったワークフローが非常にスムーズになります。</p>
+        <h2>目立つポイント</h2>
+        <p>Browserbase のインフラを利用するため、エージェント側でブラウザのインストールや環境構築をする必要がなく、認証が必要な複雑なサイトや CAPTCHA 対策、動的な JavaScript レンダリングにも安定して対応できる点が最大の強みです。また、エージェントの操作履歴を視覚的に追跡できるデバッグ機能も備わっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npm または pip を利用して `browserbase` クライアントをインストールし、API キーを取得します。Claude Code などの MCP 対応クライアントの設定に `browserbase/skills` を追加するだけで、エージェントが「ブラウジング」の道具（Tool）として認識し、必要に応じて自ら Web を開き始めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律型 AI エージェントを構築している開発者や、Claude Code などのターミナルツールに「ネット検索能力」や「Web ページ操作能力」を追加したいユーザーに最適です。ブラウザ操作の安定性とセキュリティをアウトソーシングしたい商用アプリケーション開発にも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>Browserbase の利用には API 使用料が発生するため、大規模なクローリングや長時間のセッションを行う場合はコスト管理が必要です。また、エージェントが自律的に操作を行うため、機密情報が含まれるサイトや不適切な操作を行わないよう、アクセス可能な URL の制限などのガードレール設定が重要です。</p>
+
+        <h2>まとめ</h2>
+        <p>skills は、エージェントがローカル環境や閉じられた知識から脱却し、Web という広大な情報源にアクセスするための標準的なインターフェースを提供します。Claude の進化に伴い、この「Web ブラウジング能力」はエージェントにとって不可欠な機能となっていくでしょう。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/browserbase/skills" target="_blank" rel="noreferrer">GitHub - browserbase/skills</a>
+          <a href="https://github.com/browserbase/skills" target="_blank" rel="noreferrer">https://github.com/browserbase/skills</a>
         </div>
       </div>
       <div class="article-footer">
-        <p class="article-serial">Shared Serial: #426</p>
+        <p class="article-serial">Shared GitHub Serial: #426</p>
       </div>
     </article>
   </body>
