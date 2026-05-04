@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 May 2026 20:55:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 09:56:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hermes-agent-kanban]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。]]></description>
+    </item>
     <item>
       <title><![CDATA[DeepSeek-TUI]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-Hmbown-DeepSeek-TUI.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI Codex デスクトップアプリにカスタム機能やUI改善を注入する、強力な「拡張機能（Tweak）」システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[zapret-discord-youtube]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-Flowseal-zapret-discord-youtube.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-Flowseal-zapret-discord-youtube.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ロシア等のDPI（Deep Packet Inspection）制限を回避し、DiscordやYouTubeの快適な利用を支援するWindows向けツール。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hermes-agent-kanban</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hermes-agent-kanban</h1>
+      <p class="article-dek">「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-04 -->
+          <strong>2026-05-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NousResearch/hermes-agent/tree/main/plugins/kanban" target="_blank" rel="noreferrer">
+              NousResearch/hermes-agent (kanban)
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>131,205</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Hermes Agent の強力な拡張機能である Kanban プラグインは、AI エージェントと人間がひとつのボード上で協力してプロジェクトを進めるためのタスク管理システムです。Linear 風のモダンな UI を提供し、タスクの割り当て、実行、監視をシームレスに行えます。</p>
+
+        <h2>何ができるか</h2>
+        <p>単なるタスクの可視化にとどまらず、「Dispatcher」機能によって「Ready」状態のタスクをエージェントが自動的に検知・実行します。進捗は「Running」「Blocked」「Done」などのステータスで管理され、エージェントが自律的にコメントを残したり、依存関係に基づいて次のタスクへ移行したりすることが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>SQLite（WALモード）を基盤とした堅牢なデータ管理と、エージェントのハートビート監視、自動再試行（サーキットブレーカー）など、自律型システムに必須の機能が組み込まれています。エージェントが「道具」としてではなく、ボード上で「同僚」のように振る舞う設計思想が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Hermes Agent 本体をインストール後、CLI から `hermes kanban` コマンドでダッシュボードを起動できます。Next.js ベースのフロントエンドにより、ブラウザから直感的にタスクを追加・操作でき、エージェント用の API キーを設定するだけで自律実行サイクルが始まります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の自律型エージェントに複雑なワークフローを任せたい開発者や、AI との共同作業を視覚的に管理したいチームに最適です。特に、大規模なタスクを分解し、確実な実行ログを保持しながら進めたいプロジェクトで真価を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>実行には適切な LLM プロバイダーの API 接続が必要です。また、Dispatcher が自動的にタスクを実行するため、破壊的な操作を含むタスクを「Ready」に置く際は、エージェントの権限範囲に注意を払う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>カンバンという馴染みのある形式に AI の実行エンジンを融合させた、次世代のプロジェクト管理ツールです。人間が「指示」をボードに置くと、AI がそれを「実行」し、結果をボードに返す——そんな未来の働き方を体現しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NousResearch/hermes-agent/tree/main/plugins/kanban" target="_blank" rel="noreferrer">https://github.com/NousResearch/hermes-agent/tree/main/plugins/kanban</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #420</p>
+      </div>
+    </article>
+  </body>
+</html>

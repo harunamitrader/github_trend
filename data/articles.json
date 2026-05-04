@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-05-04-nousresearch-hermes-agent-kanban",
+      "title": "hermes-agent-kanban",
+      "dek": "「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。",
+      "summary": "エージェントと人間がひとつのボード上で協力してプロジェクトを進めるためのタスク管理システム。 dispatcher 機能による自動タスク実行、SQLite による堅牢なログ保存、そしてモダンなカンバン UI を備えています。",
+      "publishedAt": "2026-05-04",
+      "repoName": "NousResearch/hermes-agent (kanban)",
+      "repoUrl": "https://github.com/NousResearch/hermes-agent/tree/main/plugins/kanban",
+      "starCount": 131205,
+      "articleUrl": "./articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html",
+      "serial": 420,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-05-04-Hmbown-DeepSeek-TUI",
