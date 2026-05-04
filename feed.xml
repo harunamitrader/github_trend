@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 05:02:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 05:11:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
@@ -16,20 +16,20 @@
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
-      <title><![CDATA[ruflo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-ruvnet-ruflo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-ruvnet-ruflo.html</guid>
+      <title><![CDATA[jcode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-1jehuang-jcode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-1jehuang-jcode.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「Claude 特化の最高峰エージェント・オーケストレーター」。自律型ワークフロー、RAG 統合、自己学習するスウォーム・インテリジェンスを搭載。]]></description>
+      <description><![CDATA[「次世代のコーディング・エージェント基盤」。AI がコードを理解し、安全に編集し、テストを実行するためのハーネス・フレームワーク。]]></description>
     </item>
     <item>
-      <title><![CDATA[TradingAgents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-TauricResearch-TradingAgents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-TauricResearch-TradingAgents.html</guid>
+      <title><![CDATA[agency-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-msitarzewski-agency-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-msitarzewski-agency-agents.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「マルチエージェントで金融市場を攻略」。LLM エージェントが協力して分析、戦略立案、取引を実行する次世代トレードフレームワーク。]]></description>
+      <description><![CDATA[「あなたの指先に、完全な AI 代理店を」。フロントエンド職人からコミュニティ忍者まで、専門特化した AI エージェント集団。]]></description>
     </item>
     <item>
       <title><![CDATA[skills]]></title>
