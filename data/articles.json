@@ -9,6 +9,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-04-aidanpark-openclaw-android",
+      "title": "openclaw-android",
+      "dek": "「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。",
+      "summary": "AIエージェントプラットフォーム「OpenClaw」を Android 端末上でネイティブ実行するためのツールキット。proot 等の仮想化を使わず、Android システム上で直接 Node.js を動かすことで、圧倒的なパフォーマンスと省電力を両立しています。",
+      "publishedAt": "2026-05-04",
+      "repoName": "AidanPark/openclaw-android",
+      "repoUrl": "https://github.com/AidanPark/openclaw-android",
+      "starCount": 1454,
+      "articleUrl": "./articles/github/daily/2026-05-04-aidanpark-openclaw-android.html",
+      "serial": 421,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-04-nousresearch-hermes-agent-kanban",
       "title": "hermes-agent-kanban",
       "dek": "「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 May 2026 09:56:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 13:08:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openclaw-android]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-aidanpark-openclaw-android.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-aidanpark-openclaw-android.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。]]></description>
+    </item>
     <item>
       <title><![CDATA[hermes-agent-kanban]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[codex-plusplus]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-b-nnett-codex-plusplus.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-b-nnett-codex-plusplus.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codex デスクトップアプリにカスタム機能やUI改善を注入する、強力な「拡張機能（Tweak）」システム。]]></description>
     </item>
   </channel>
 </rss>

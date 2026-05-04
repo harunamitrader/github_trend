@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-04T00:56:27.643401+00:00",
-  "count": 446,
+  "generatedAt": "2026-05-04T04:08:59.784911+00:00",
+  "count": 447,
   "articles": [
     {
       "slug": "2026-05-04-update-report",
@@ -61,6 +61,21 @@
       "articleUrl": "./articles/github/daily/2026-05-04-czlonkowski-n8n-mcp.html",
       "serial": 418,
       "searchText": "n8n-mcp 「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。 n8n ワークフローを Model Context Protocol (MCP) を通じて LLM エージェントに公開するブリッジ。既存の自動化エコシステムを AI エージェントのスキルとして統合可能です。 czlonkowski/n8n-mcp AIコーディング (ワークフロー・プロンプト・開発補助ツール) n8n-mcp ← 記事一覧へ戻る GitHub Watcher n8n-mcp 「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。 記事作成日 2026-05-04 種別 Rank 7 対象 repo czlonkowski/n8n-mcp Star数 19,443 これは何か n8n-mcp は、強力なワークフロー自動化ツール「n8n」を Model Context Protocol (MCP) を通じて LLM エージェントに公開するためのサーバーです。Claude Desktop や Cursor などのエージェント対応ツールから、n8n 上の既存ワークフローを直接呼び出すことが可能になります。 何ができるか エージェントに対して特定の n8n ワークフローを引数付きで実行させたり、利用可能なワークフローの一覧を取得させたりできます。これにより、n8n が持つ数百のコネクタを AI エージェントの拡張スキルとして統合できます。 目立つポイント ノーコード自動化の n8n エコシステムを、コードを介さずに AI エージェントにそのまま引き渡せる点が最大の特徴です。エージェントが動的にワークフローを組み合わせて新しい自動化を提案する、といった運用も視野に入ります。 セットアップや使い方の流れ npx を利用して実行するか、MCP 対応クライアントの設定ファイルにサーバーの起動コマンドを追加します。環境変数に n8n の API キーを設定することで、エージェントがワークフローにアクセスできるようになります。 どんな人向けか n8n を活用して業務自動化を行っている開発者や、AI エージェントに「実際のアプリ操作能力」を効率的に持たせたいユーザーに最適です。既存の自動化資産を AI 時代に最適化したい場合に強力なツールとなります。 注意点 n8n サーバーが API アクセスを許可している必要があり、セキュリティの観点から API キーの管理には注意が必要です。また、エージェントが意図しないワークフローを起動しないよう、適切な権限設定が推奨されます。 まとめ 「ノーコード自動化」の n8n と「AI エージェント」の MCP を繋ぐミッシングリンクを埋めるツールです。エージェントができることの幅を劇的に広げ、実務への適用を加速させるポテンシャルを持っています。 ソースリンク https://github.com/czlonkowski/n8n-mcp Shared GitHub Serial: #418"
+    },
+    {
+      "slug": "2026-05-04-aidanpark-openclaw-android",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "openclaw-android",
+      "dek": "「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。",
+      "summary": "AIエージェントプラットフォーム「OpenClaw」を Android 端末上でネイティブ実行するためのツールキット。proot 等の仮想化を使わず、Android システム上で直接 Node.js を動かすことで、圧倒的なパフォーマンスと省電力を両立しています。",
+      "repoName": "AidanPark/openclaw-android",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-04",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-05-04-aidanpark-openclaw-android.html",
+      "serial": 421,
+      "searchText": "openclaw-android 「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。 AIエージェントプラットフォーム「OpenClaw」を Android 端末上でネイティブ実行するためのツールキット。proot 等の仮想化を使わず、Android システム上で直接 Node.js を動かすことで、圧倒的なパフォーマンスと省電力を両立しています。 AidanPark/openclaw-android AIエージェント (自律基盤・特化アプリ) openclaw-android ← 記事一覧へ戻る GitHub Watcher openclaw-android 「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。 記事作成日 2026-05-04 種別 Pickup 対象 repo AidanPark/openclaw-android Star数 1,454 これは何か openclaw-android は、自律型 AI エージェントプラットフォーム「OpenClaw」を Android デバイス上で動作させるための専用プロジェクトです。独自のリンカー戦略を用いることで、従来の `proot` や仮想化環境を介さず、Android のシステム上で Node.js と OpenClaw をネイティブ実行することを可能にしました。 何ができるか 余っている Android 端末を、24時間稼働の自律型 AI エージェントノードや、Web ブラウザを操作して情報を収集するホームサーバーとして再利用（Repurpose）できます。専用の「Claw App」をインストールし、Termux 上で一行のコマンドを実行するだけで、必要な環境がすべて自動的に構築されます。 目立つポイント 最大の強みは「仮想化のオーバーヘッドがないこと」です。Android の Bionic libc と OpenClaw の Node.js 環境を直接ブリッジさせることで、CPU やメモリの性能を 100% 活用できます。また、 Playwright による Chromium 操作もサポートされており、モバイル端末単体で高度な Web 自動化を実現できます。 セットアップや使い方の流れ GitHub で配布されている APK（Claw App）をインストールし、アプリ内のターミナルまたは Termux から、リポジトリに記載されたインストールスクリプトを実行します。Node.js、OpenClaw 本体、Chromium 等が自動で導入され、Web ベースのダッシュボードを通じて PC からもエージェントの監視・操作が可能になります。 どんな人向けか 機種変更で使わなくなった古い Android スマホを活用したいユーザーや、低消費電力で自律型 AI エージェントを動かしたい開発者に最適です。また、Termux を使いこなしているパワーユーザーにとって、最もパフォーマンスの高い AI 実行環境となるでしょう。 注意点 Android のバージョンやチップセット（ARM64 推奨）によって、動作の安定性が異なる場合があります。また、バッテリーの膨張を防ぐため、常時給電で運用する場合は Android の「バッテリー保護機能」や、スマートプラグによる充放電管理を併用することが強く推奨されます。 まとめ 「スマホを AI の頭脳にする」というコンセプトを、ネイティブ実行という最も効率的な手法で具現化した野心的なプロジェクトです。AI エージェントの普及に伴い、余剰デバイスの「再定義」を促す重要なツールとなるはずです。 参照リンク https://github.com/AidanPark/openclaw-android Shared GitHub Serial: #421"
     },
     {
       "slug": "2026-05-04-Hmbown-DeepSeek-TUI",
