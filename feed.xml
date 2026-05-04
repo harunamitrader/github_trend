@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 04:22:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 04:50:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ruflo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-ruvnet-ruflo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-ruvnet-ruflo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Claude 特化の最高峰エージェント・オーケストレーター」。自律型ワークフロー、RAG 統合、自己学習するスウォーム・インテリジェンスを搭載。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TradingAgents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-TauricResearch-TradingAgents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-TauricResearch-TradingAgents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「マルチエージェントで金融市場を攻略」。LLM エージェントが協力して分析、戦略立案、取引を実行する次世代トレードフレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-browserbase-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-browserbase-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Claude に Web ブラウジング能力を」。Browserbase 連携により、エージェントが自由に Web を探索・操作するための SDK。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[maigret]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-soxoj-maigret.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-soxoj-maigret.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「ユーザー名ひとつで 3000 以上のサイトを徹底調査」。OSINT の強力な味方、デジタルフットプリントの可視化ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[qBittorrent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-qbittorrent-qBittorrent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-qbittorrent-qBittorrent.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「自由でオープンな BitTorrent クライアント」。広告なし、軽量、そして高度な機能を備えたオープンソースの定番ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Tools Others Update: OpenClaw v2026.5.4 & Platform Integrations]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-ai-others-tools-multi-update.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Claude のための自律エージェント・オーケストレーター」。マルチエージェント・スウォームの構築と Claude Code / Codex との高度な統合を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-03 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-03-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-03-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ShareX]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ShareX-ShareX.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ShareX-ShareX.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「画面キャプチャ・録画・共有を、これ一本体で」。豊富な機能とアップロード連携を備えた、Windows 向けオープンソースの最強ユーティリティ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[coding-interview-university]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-jwasham-coding-interview-university.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-jwasham-coding-interview-university.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「ソフトウェアエンジニアになるための独学カリキュラム」。コンピュータサイエンスの基礎を体系的に網羅した、世界で最も有名な学習ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools 統合アップデート: OpenClaw v2026.4.29, Grok 4.3, Claude Mythos Preview]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.4.29 のステアリング機能、Grok 4.3 の 100万トークン対応と価格改定、Claude Mythos の限定プレビュー開始など、2026年5月初旬の主要 AI 汎用ツール動向。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools 統合アップデート: Claude Code /model 拡張, Cline v3.82.0, Codex v0.15.3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-03-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の /model 拡張とプロジェクト一括削除、Cline v3.82.0 のターミナル復旧、Codex v0.15.3 のランタイム安定化など、2026年5月初旬の主要コーディングAIツール動向。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[witr]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-pranshuparmar-witr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-pranshuparmar-witr.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。]]></description>
     </item>
   </channel>
 </rss>
