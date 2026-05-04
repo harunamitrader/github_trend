@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "serial": "423",
+      "publishedAt": "2026-05-05",
+      "createdAt": "2026-05-05T04:21:00Z",
+      "category": "ai-tool-log",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "tool-log",
+      "articleUrl": "articles/tools/2026-05-05-ai-others-tools-multi-update.html",
+      "title": "AI Tools Others Update: OpenClaw v2026.5.4 & Platform Integrations",
+      "summary": "汎用 AI ツールカテゴリの最新アップデート。OpenClaw のファイル転送機能追加、Perplexity の Microsoft Teams 連携、Claude のエンタープライズ新会社設立など、実用性とビジネス展開の両面で大きな進展がありました。",
+      "toolName": "Others"
+    },
+    {
       "serial": "422",
       "publishedAt": "2026-05-05",
       "createdAt": "2026-05-05T04:03:00Z",
