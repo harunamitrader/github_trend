@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="検索ツールの信頼性向上と、内部統計処理の標準化を主眼としたメンテナンスアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.42.0-nightly: GrepTool のケースセンシティビティ修正とメトリクス整合性向上</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.42.0-nightly: GrepTool のケースセンシティビティ修正とメトリクス整合性向上</h1>
+      <p class="article-dek">検索ツールの信頼性向上と、内部統計処理の標準化を主眼としたメンテナンスアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-04 -->
+          <strong>2026-05-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.42.0-nightly</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、コード検索ツール(GrepTool)の挙動修正と、内部統計の整合性向上が主な内容となっています。</p>
+        <ul>
+            <li><strong>GrepTool の修正:</strong> 大文字小文字の区別（Case-sensitivity）に関する挙動を修正し、検索の精度と一貫性を向上させました。</li>
+            <li><strong>メトリクスの整合性向上:</strong> アクション実行数やトークン使用量などのメトリクス計算ロジックを見直し、統計データの正確性を向上させました。</li>
+            <li><strong>レポーティングの標準化:</strong> ツール実行結果の出力形式を標準化し、上位のエージェントや監視ツールによる解析を容易にしました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>コードベースの広域検索において、意図しない検索漏れが抑制されるため、リファクタリングや大規模なコード解析の信頼性が向上します。また、メトリクスの正確な把握は、コスト管理やパフォーマンスチューニングにおいて重要です。</p>
+
+        <h2>まとめ</h2>
+        <p>地味ながらもツールの「足回り」を固める重要なアップデートです。特に大規模なプロジェクトで GrepTool を多用する環境では、早めの適用を推奨します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">GitHub Releases - google-gemini/gemini-cli</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared Serial: #422</p>
+      </div>
+    </article>
+  </body>
+</html>

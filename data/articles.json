@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "serial": "422",
+      "publishedAt": "2026-05-05",
+      "createdAt": "2026-05-05T04:03:00Z",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "tool-log",
+      "articleUrl": "articles/tools/2026-05-05-gemini-cli-v0-42-0-nightly-grep-metrics.html",
+      "title": "Gemini CLI v0.42.0-nightly: GrepTool のケースセンシティビティ修正とメトリクス整合性向上",
+      "summary": "Google 製 AI コーディング CLI「Gemini CLI」の v0.42.0-nightly が公開。コード検索ツール(GrepTool)の精度向上や内部統計メトリクスの整合性修正など、ツールの信頼性を高めるメンテナンスが行われました。",
+      "toolName": "Gemini CLI"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-04-aidanpark-openclaw-android",

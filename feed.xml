@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 May 2026 13:09:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 04:03:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.42.0-nightly: GrepTool のケースセンシティビティ修正とメトリクス整合性向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-gemini-cli-v0-42-0-nightly-grep-metrics.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-gemini-cli-v0-42-0-nightly-grep-metrics.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google 製 AI コーディング CLI「Gemini CLI」の v0.42.0-nightly が公開。コード検索ツール(GrepTool)の精度向上や内部統計メトリクスの整合性修正など、ツールの信頼性を高めるメンテナンスが行われました。]]></description>
+    </item>
     <item>
       <title><![CDATA[openclaw-android]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-aidanpark-openclaw-android.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Tampermonkey 互換を超えた、バックグラウンド実行や定期実行をサポートする強力な次世代ユーザースクリプトマネージャー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[personal-api-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。]]></description>
     </item>
   </channel>
 </rss>
