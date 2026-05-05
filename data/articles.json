@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-shubhamsaboo-ai-home-renovation-agent",
+      "title": "ai_home_renovation_agent",
+      "dek": "「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。",
+      "summary": "Google ADK と Gemini 3 Flash/Pro を活用し、部屋の画像解析から予算配分、タイムライン策定、そして AI によるレンダリング生成までを一貫して行うリノベーション支援エージェント「AI Home Renovation Planner Agent」の概要と、Coordinator/Dispatcher パターンを用いたマルチエージェント設計についてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T08:17:00Z",
+      "repoName": "Shubhamsaboo/ai_home_renovation_agent",
+      "repoUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent",
+      "starCount": 109000,
+      "articleUrl": "./articles/github/daily/2026-05-06-shubhamsaboo-ai-home-renovation-agent.html",
+      "serial": 444,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-howiewang1121-socratic-education-system",
       "title": "Socratic-Education-System",
       "dek": "「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。",

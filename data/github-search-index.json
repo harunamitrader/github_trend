@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T23:15:44.569363+00:00",
-  "count": 466,
+  "generatedAt": "2026-05-05T23:17:53.594898+00:00",
+  "count": 467,
   "articles": [
+    {
+      "slug": "2026-05-06-shubhamsaboo-ai-home-renovation-agent",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ai_home_renovation_agent",
+      "dek": "「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。",
+      "summary": "Google ADK と Gemini 3 Flash/Pro を活用し、部屋の画像解析から予算配分、タイムライン策定、そして AI によるレンダリング生成までを一貫して行うリノベーション支援エージェント「AI Home Renovation Planner Agent」の概要と、Coordinator/Dispatcher パターンを用いたマルチエージェント設計についてまとめました。",
+      "repoName": "Shubhamsaboo/ai_home_renovation_agent",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T08:17:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-06-shubhamsaboo-ai-home-renovation-agent.html",
+      "serial": 444,
+      "searchText": "ai_home_renovation_agent 「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。 Google ADK と Gemini 3 Flash/Pro を活用し、部屋の画像解析から予算配分、タイムライン策定、そして AI によるレンダリング生成までを一貫して行うリノベーション支援エージェント「AI Home Renovation Planner Agent」の概要と、Coordinator/Dispatcher パターンを用いたマルチエージェント設計についてまとめました。 Shubhamsaboo/ai_home_renovation_agent AIエージェント (自律基盤・特化アプリ) ai_home_renovation_agent ← 記事一覧へ戻る GitHub Watcher ai_home_renovation_agent 「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。 記事作成日 2026-05-06 種別 Pickup 対象 repo Shubhamsaboo/ai_home_renovation_agent Star数 109,000 これは何か AI Home Renovation Planner Agent は、Google の ADK (Agent Development Kit) と Gemini 3 Flash / Pro を使用して構築された、住宅リノベーション専用のマルチエージェント・システムです。部屋の現在の写真やインスピレーションとなる画像をアップロードし、予算を伝えるだけで、AI が空間を解析し、具体的な改修プランの策定から、フォトリアルな完成予想イメージ（レンダリング）の生成までを自律的に行います。 何ができるか ・部屋の写真解析：レイアウト、現状のコンディション、寸法の自動検出。 ・スタイル抽出：Pinterest などの参考画像からデザインの好みを読み取り、自分の部屋に適用。 ・予算に合わせた計画：指定した予算内で最大の効果が得られる改修案を提案。 ・フォトリアルなレンダリング生成：Gemini のマルチモーダル能力を活かし、プロ品質の完成予想図を出力。 ・包括的なロードマップ作成：タイムライン、予算内訳、必要な資材、アクションチェックリストの提供。 ・対話による微調整：「キャビネットを白からクリーム色に変えて」といったフィードバックに基づき、画像を再生成。 目立つポイント 「Coordinator/Dispatcher（コーディネーター／ディスパッチャー）」と呼ばれる、実用的なマルチエージェント・パターンを採用している点が技術的な見どころです。視覚解析を担当する「Visual Assessor」、詳細な設計を行う「Design Planner」、そして最終的なレンダリングとロードマップを統合する「Project Coordinator」の3つのエージェントが、順次パイプライン（Sequential Pipeline）形式で連携します。これにより、各ステップで専門性の高い処理が可能となり、単一のプロンプトでは難しい複雑なタスクを高い精度で完結させています。 セットアップや使い方の流れ Google Gemini の API キーを準備し、リポジトリをクローンして依存関係をインストールします。ADK の Web インターフェース（ adk web ）を起動し、ブラウザからこのエージェントを選択することで利用可能です。部屋の写真をアップロードして「5,000ドルでこのキッチンをどう改善できる？」と入力すれば、エージェントたちが動き出し、分析と提案、そして視覚的なイメージを返してくれます。 どんな人向けか ・リノベーションを検討しているが、何から手をつけていいか、いくらかかるか想像がつかない施主。 ・顧客への初期提案を素早く可視化したいインテリアデザイナーやリフォーム業者。 ・Google ADK を使ったマルチエージェント・システムの具体的な実装パターン（Coordinator, Sequential Pipeline）を学びたい AI 開発者。 注意点 画像生成や詳細な解析には Gemini Pro の高度な能力が必要となるため、API の利用料金やレート制限に注意が必要です。また、AI によるコスト見積もりやタイムラインはあくまで予測であり、実際の現場状況（配管の状態や構造上の制約など）はプロの業者による現調が必要です。生成された画像はインスピレーションとして非常に強力ですが、建材の正確な品番までは保証されません。 まとめ AI Home Renovation Planner Agent は、AI が「見る（解析）」「考える（計画）」「描く（生成）」という一連のクリエイティブなプロセスを、マルチエージェント連携によって高次元で統合した好例です。技術的には ADK のショーケースとして優れており、実用的には住宅という人生の大きな投資において、AI が強力な意思決定支援パートナーになれることを証明しています。 参照リンク https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/.../ai_home_renovation_agent Shared GitHub Serial: #444"
+    },
     {
       "slug": "2026-05-06-howiewang1121-socratic-education-system",
       "category": "github-pickup",

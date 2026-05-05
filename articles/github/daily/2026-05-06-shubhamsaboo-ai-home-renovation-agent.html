@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ai_home_renovation_agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ai_home_renovation_agent</h1>
+      <p class="article-dek">「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent" target="_blank" rel="noreferrer">
+              Shubhamsaboo/ai_home_renovation_agent
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>109,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI Home Renovation Planner Agent は、Google の ADK (Agent Development Kit) と Gemini 3 Flash / Pro を使用して構築された、住宅リノベーション専用のマルチエージェント・システムです。部屋の現在の写真やインスピレーションとなる画像をアップロードし、予算を伝えるだけで、AI が空間を解析し、具体的な改修プランの策定から、フォトリアルな完成予想イメージ（レンダリング）の生成までを自律的に行います。</p>
+
+        <h2>何ができるか</h2>
+        <p>・部屋の写真解析：レイアウト、現状のコンディション、寸法の自動検出。<br>
+        ・スタイル抽出：Pinterest などの参考画像からデザインの好みを読み取り、自分の部屋に適用。<br>
+        ・予算に合わせた計画：指定した予算内で最大の効果が得られる改修案を提案。<br>
+        ・フォトリアルなレンダリング生成：Gemini のマルチモーダル能力を活かし、プロ品質の完成予想図を出力。<br>
+        ・包括的なロードマップ作成：タイムライン、予算内訳、必要な資材、アクションチェックリストの提供。<br>
+        ・対話による微調整：「キャビネットを白からクリーム色に変えて」といったフィードバックに基づき、画像を再生成。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Coordinator/Dispatcher（コーディネーター／ディスパッチャー）」と呼ばれる、実用的なマルチエージェント・パターンを採用している点が技術的な見どころです。視覚解析を担当する「Visual Assessor」、詳細な設計を行う「Design Planner」、そして最終的なレンダリングとロードマップを統合する「Project Coordinator」の3つのエージェントが、順次パイプライン（Sequential Pipeline）形式で連携します。これにより、各ステップで専門性の高い処理が可能となり、単一のプロンプトでは難しい複雑なタスクを高い精度で完結させています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Google Gemini の API キーを準備し、リポジトリをクローンして依存関係をインストールします。ADK の Web インターフェース（<code>adk web</code>）を起動し、ブラウザからこのエージェントを選択することで利用可能です。部屋の写真をアップロードして「5,000ドルでこのキッチンをどう改善できる？」と入力すれば、エージェントたちが動き出し、分析と提案、そして視覚的なイメージを返してくれます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・リノベーションを検討しているが、何から手をつけていいか、いくらかかるか想像がつかない施主。<br>
+        ・顧客への初期提案を素早く可視化したいインテリアデザイナーやリフォーム業者。<br>
+        ・Google ADK を使ったマルチエージェント・システムの具体的な実装パターン（Coordinator, Sequential Pipeline）を学びたい AI 開発者。</p>
+
+        <h2>注意点</h2>
+        <p>画像生成や詳細な解析には Gemini Pro の高度な能力が必要となるため、API の利用料金やレート制限に注意が必要です。また、AI によるコスト見積もりやタイムラインはあくまで予測であり、実際の現場状況（配管の状態や構造上の制約など）はプロの業者による現調が必要です。生成された画像はインスピレーションとして非常に強力ですが、建材の正確な品番までは保証されません。</p>
+
+        <h2>まとめ</h2>
+        <p>AI Home Renovation Planner Agent は、AI が「見る（解析）」「考える（計画）」「描く（生成）」という一連のクリエイティブなプロセスを、マルチエージェント連携によって高次元で統合した好例です。技術的には ADK のショーケースとして優れており、実用的には住宅という人生の大きな投資において、AI が強力な意思決定支援パートナーになれることを証明しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent" target="_blank" rel="noreferrer">https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/.../ai_home_renovation_agent</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #444</p>
+      </div>
+    </article>
+  </body>
+</html>
