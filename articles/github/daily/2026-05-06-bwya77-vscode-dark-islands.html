@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「エディタを、フローティング・ガラスの島へ」。 rounded corners と透明感溢れるパネル、滑らかなアニメーションが融合した、極めてモダンな VS Code テーマ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Islands Dark</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Islands Dark</h1>
+      <p class="article-dek">「エディタを、フローティング・ガラスの島へ」。 rounded corners と透明感溢れるパネル、滑らかなアニメーションが融合した、極めてモダンな VS Code テーマ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/bwya77/vscode-dark-islands" target="_blank" rel="noreferrer">
+              bwya77/vscode-dark-islands
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,777</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Islands Dark は、Visual Studio Code の外観を劇的に変えるカスタムテーマです。JetBrains の Islands UI や easemate IDE にインスパイアされており、一般的なエディタのような「平面的で境界のはっきりしたパネル」を、背景から浮き上がった「角の丸いガラスの島」のようなスタイルへと変貌させます。</p>
+
+        <h2>何ができるか</h2>
+        <p>・VS Code の UI 全体に対する「フローティング・ガラス・エフェクト」の適用。<br>
+        ・すべてのパネル、通知、コマンドパレット、サイドバーに対する角丸（Border Radius）の適用。<br>
+        ・サイドバーの選択やスクロールバーなど、随所に配置された滑らかなアニメーション演出。<br>
+        ・専用フォント（Bear Sans UI）とシンタックスハイライトによる、一貫したブランド体験。<br>
+        ・CSS 変数を用いた、角丸の強さやパネル間の隙間の柔軟なカスタマイズ。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるカラーテーマの枠を超え、VS Code の「構造そのもの」を再定義している点が最大の特徴です。背景（Canvas）と各パネルを分離し、パネルに透明感のあるボーダーとドロップシャドウを与えることで、Mac アプリのようなプレミアムな質感を演出しています。また、アクティビティバーやステータスバー、タブの挙動にまで細かく手が加えられており、非常に洗練された印象を与えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>このテーマは「カラーテーマ拡張」と「CSS インジェクション」の二段構えで動作します。推奨される方法は、リポジトリに用意されたワンライナー（Windows なら PowerShell コマンド）を実行することです。これにより、テーマ本体に加えて CSS カスタマイズを可能にする「Custom UI Style」拡張や、必要なフォントが自動的にインストールされます。手動で設定する場合は、<code>settings.json</code> に提供されている膨大な CSS 設定をコピーして適用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・エディタの外観に徹底的にこだわりたいエンジニア：既存の VS Code のデザインに飽き、よりモダンで洗練された UI を求めている方に。<br>
+        ・Mac 風の美しいデザインを好む方：フローティングパネルや角丸、ガラスエフェクトといった要素が好みに合致するはずです。<br>
+        ・開発環境をパーソナライズしてモチベーションを上げたい方：エディタが美しくなることで、コードを書く体験そのものが楽しくなります。</p>
+
+        <h2>注意点</h2>
+        <p>CSS を直接 VS Code の UI に注入するため、インストール時に「VS Code が破損している」という警告が表示されることがありますが、これは CSS インジェクション系の拡張機能では一般的な挙動であり、無視して問題ありません。また、VS Code のアップデート時に再適用が必要になる場合があります。パフォーマンスへの影響は軽微ですが、低スペックな PC ではアニメーションを調整した方が良いかもしれません。</p>
+
+        <h2>まとめ</h2>
+        <p>Islands Dark は、VS Code を「単なるツール」から「美しい仕事場」へと変えてくれます。その徹底したこだわりは、エディタ全体の使い心地を一段上の次元へと引き上げます。設定には少し手間がかかる面もありますが、一度適用してしまえば、二度と標準の UI には戻りたくなくなるような魅力を持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/bwya77/vscode-dark-islands" target="_blank" rel="noreferrer">https://github.com/bwya77/vscode-dark-islands</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #439</p>
+      </div>
+    </article>
+  </body>
+</html>

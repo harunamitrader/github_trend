@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「表形式データに、基盤モデルの力を」。前処理なし、わずか数秒で分類・回帰を実行可能な、Transformer ベースの画期的な表形式データ基盤モデル。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TabPFN</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TabPFN</h1>
+      <p class="article-dek">「表形式データに、基盤モデルの力を」。前処理なし、わずか数秒で分類・回帰を実行可能な、Transformer ベースの画期的な表形式データ基盤モデル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PriorLabs/TabPFN" target="_blank" rel="noreferrer">
+              PriorLabs/TabPFN
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,338</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>TabPFN (Tabular Prior-Data Fitted Network) は、表形式データのために特別に設計された画期的な基盤モデル（Foundation Model）です。従来の機械学習手法とは異なり、Transformer アーキテクチャを採用し、合成データを用いた膨大な事前学習によって「表形式データをどう解釈すべきか」を学習済みです。これにより、ユーザーはトレーニングデータをモデルに入力するだけで、追加のトレーニング（微調整）なしに即座に高度な予測（分類・回帰）を行うことができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>CSV やデータフレーム形式の小〜中規模データセット（最大 50,000 行程度）に対して、以下のことが可能です。<br>
+        ・バイナリ分類、多クラス分類、および回帰タスクの実行。<br>
+        ・欠損値を含むデータの直接処理。<br>
+        ・GPU を活用した超高速な推論（1秒以内での予測完了）。<br>
+        ・SHAP 等を用いた予測の解釈性分析（拡張機能経由）。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の強みは「データ前処理がほぼ不要」であることです。通常、表形式データの機械学習ではスケーリング、ワンホットエンコーディング、特徴量選択などの煩雑なパイプライン構築が必要ですが、TabPFN はそのままの数値を入力するだけで動作します。また、勾配ブースティング（XGBoost, LightGBM等）に匹敵するか、小規模データにおいてはそれらを凌駕する精度を、はるかに短い時間で達成できる点が注目されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.9 以上が必要です。pip で <code>pip install tabpfn</code> を実行してインストールします。使い方は scikit-learn ライクで、<code>TabPFNClassifier</code> や <code>TabPFNRegressor</code> をインスタンス化し、<code>fit(X, y)</code> でデータを読み込ませ、<code>predict(X_test)</code> で予測を得るだけです。初回実行時にモデルの重み（チェックポイント）が自動的にダウンロードされます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・データサイエンティストや研究者：ベースラインモデルの構築や、前処理に時間をかけたくない迅速なプロトタイピングに。<br>
+        ・機械学習を業務に取り入れたい開発者：複雑なパイプライン構築なしに、信頼性の高い分類・回帰モデルをアプリに組み込みたい場合に。<br>
+        ・小規模な実験データを扱うアナリスト：統計的な予測を最小限の手間で高精度に行いたい場合に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>100,000 行を超えるような大規模データセットは、現時点ではメモリ消費や計算コストの観点から推奨されていません（50,000行以下が最適）。また、CPU でも動作しますが、本来のパフォーマンスを発揮するためには NVIDIA GPU が推奨されます。商用利用にはライセンスの確認が必要です（TabPFN-2.5/2.6 の重みは非商用ライセンスがデフォルトです）。</p>
+
+        <h2>まとめ</h2>
+        <p>TabPFN は、言語モデルにおける GPT のような衝撃を、表形式データの世界にもたらそうとしています。事前学習済みの知見を活かし、前処理や長いトレーニング時間をスキップして「いきなり高精度な予測」が得られる体験は、多くのデータ分析現場のワークフローを劇的に変える可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PriorLabs/TabPFN" target="_blank" rel="noreferrer">https://github.com/PriorLabs/TabPFN</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #436</p>
+      </div>
+    </article>
+  </body>
+</html>

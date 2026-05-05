@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「究極のプライバシーと、妥協のないリサーチを」。ローカル環境で完結し、多彩な検索エンジンと LLM を組み合わせて深層調査を実現する、自律型リサーチアシスタント。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Local Deep Research</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Local Deep Research</h1>
+      <p class="article-dek">「究極のプライバシーと、妥協のないリサーチを」。ローカル環境で完結し、多彩な検索エンジンと LLM を組み合わせて深層調査を実現する、自律型リサーチアシスタント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Daily Trending #13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/LearningCircuit/local-deep-research" target="_blank" rel="noreferrer">
+              LearningCircuit/local-deep-research
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,074</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Local Deep Research は、AI エージェントを活用して、特定のトピックについてインターネットやデータベースから深い調査を行うためのツールです。OpenAI の Deep Research にインスパイアされつつも、データのプライバシーを重視し、すべてのインデックスや検索履歴をローカル環境で暗号化して管理できる点が特徴です。LangGraph をベースとした高度な自律的リサーチフローを備えています。</p>
+
+        <h2>何ができるか</h2>
+        <p>・多様な LLM（OpenAI, Anthropic, Gemini, Groq, Ollama 等）を利用したリサーチ。<br>
+        ・10 以上の検索エンジン（Google, Bing, arXiv, PubMed, DuckDuckGo 等）を横断した情報収集。<br>
+        ・SQLCipher（AES-256）を用いた、完全にローカルで暗号化されたナレッジベースの構築。<br>
+        ・MCP (Model Context Protocol) サーバーとしての動作。Claude 等のデスクトップアプリから直接呼び出し可能です。<br>
+        ・調査結果に基づいた詳細なレポート生成。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「徹底的なローカル・ファースト」と「エージェント・ワークフロー」の融合が目立ちます。調査データは外部サーバーに送信されず、ローカルで安全に保管されます。また、LangGraph を使用したリサーチ戦略により、単なる検索の繰り返しではなく、情報を整理・分析し、さらなる疑問を自ら設定して深掘りしていく「思考するリサーチ」を実現しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.11 以上が必要です。リポジトリをクローンし、依存関係をインストールした後、<code>.env</code> ファイルに各検索エンジンや LLM の API キーを設定します。CLI から <code>python main.py</code> を実行するか、Docker を利用して起動することも可能です。MCP サーバーとして利用する場合は、Claude Desktop の設定ファイルに本ツールの情報を追加します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・プライバシーを重視する研究者やアナリスト：機密性の高いトピックについて、外部にデータを漏らさず AI の力を借りたい場合に。<br>
+        ・開発効率を上げたいエンジニア：最新の技術動向やライブラリの仕様を、複数のソースから自動でまとめさせたい場合に。<br>
+        ・AI エージェントの実践的な活用に興味がある方：LangGraph を使った複雑なワークフローがどのように動作するかを学び、活用したい方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>検索エンジン（Tavily や Serper 等）や LLM の利用には、それぞれの API 料金や制限が適用されます。完全に無料ですべてを完結させるには、Ollama によるローカル LLM と、無料枠のある検索エンジンの組み合わせを慎重に選ぶ必要があります。また、高度な調査には相応の時間がかかる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Local Deep Research は、AI リサーチの利便性と、ローカル管理の安全性をハイレベルで両立させています。MCP への対応により、普段使いの AI チャット環境からシームレスに「深層調査エージェント」を呼び出せるようになったことで、個人の調査能力を数倍に引き上げる強力な武器となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/LearningCircuit/local-deep-research" target="_blank" rel="noreferrer">https://github.com/LearningCircuit/local-deep-research</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #437</p>
+      </div>
+    </article>
+  </body>
+</html>

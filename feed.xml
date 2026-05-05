@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 19:33:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 04:49:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TabPFN]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-priorlabs-tabpfn.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-priorlabs-tabpfn.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「表形式データに、基盤モデルの力を」。前処理なし、わずか数秒で分類・回帰を実行可能な、Transformer ベースの画期的な表形式データ基盤モデル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Local Deep Research]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-learningcircuit-local-deep-research.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-learningcircuit-local-deep-research.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「究極のプライバシーと、妥協のないリサーチを」。ローカル環境で完結し、多彩な検索エンジンと LLM を組み合わせて深層調査を実現する、自律型リサーチアシスタント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Awesome AI Apps]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-arindam200-awesome-ai-apps.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-arindam200-awesome-ai-apps.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「作りながら学ぶ、次世代 AI 開発」。RAG、音声アシスタント、MCP エージェントなど、80 種類以上の実践的な AI アプリ構築レシピを集約した究極のカタログ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Islands Dark]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-bwya77-vscode-dark-islands.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-bwya77-vscode-dark-islands.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「エディタを、フローティング・ガラスの島へ」。 rounded corners と透明感溢れるパネル、滑らかなアニメーションが融合した、極めてモダンな VS Code テーマ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-06-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-06-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Tools Others Update: Claude Opus 4.7 for Finance, Gemini API Webhooks, and ChatGPT Memory Sources]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-others-tools-multi-update.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google 製 AI コーディング CLI「Gemini CLI」の v0.42.0-nightly が公開。コード検索ツール(GrepTool)の精度向上や内部統計メトリクスの整合性修正など、ツールの信頼性を高めるメンテナンスが行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openclaw-android]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-aidanpark-openclaw-android.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-aidanpark-openclaw-android.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「古いスマホを高性能な AI エージェントノードに」。仮想化なしのネイティブ実行で、Android 端末の力を最大限に引き出す OpenClaw 実行環境。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-agent-kanban]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-nousresearch-hermes-agent-kanban.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「エージェントと人間が共同でタスクを管理」。Dispatcher 機能により自動実行を可能にする、Hermes Agent 専用の洗練されたカンバンボード。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepSeek-TUI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-Hmbown-DeepSeek-TUI.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-Hmbown-DeepSeek-TUI.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「ターミナルで動作する DeepSeek コーディングエージェント」。軽量な TUI 環境で AI ペアプログラミングを実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[n8n-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-czlonkowski-n8n-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-czlonkowski-n8n-mcp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「n8n ワークフローを MCP 経由で操作」。Claude や Cursor から直接自動化シナリオを起動・管理。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openwrt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-openwrt-openwrt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-04-openwrt-openwrt.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「組み込みデバイスのための Linux ディストリビューション」。軽量・高速かつ高度にカスタマイズ可能なネットワークOSの総本山。]]></description>
     </item>
   </channel>
 </rss>
