@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T06:17:09.958237+00:00",
-  "count": 455,
+  "generatedAt": "2026-05-05T11:34:05.895931+00:00",
+  "count": 456,
   "articles": [
+    {
+      "slug": "2026-05-05-dodo-reach-hermes-desktop",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hermes-desktop",
+      "dek": "「Hermes エージェントを、もっと安全・シンプルに」。macOS から SSH 経由で直接エージェントを管理可能な、ネイティブデスクトップアプリ。",
+      "summary": "Hermes エージェントを macOS から安全に管理するためのネイティブアプリ「Hermes Desktop」の概要と、SSH 接続によるセキュアな運用のメリットについてまとめました。",
+      "repoName": "dodo-reach/hermes-desktop",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-05",
+      "createdAt": "2026-05-05T20:33:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-05-dodo-reach-hermes-desktop.html",
+      "serial": 432,
+      "searchText": "hermes-desktop 「Hermes エージェントを、もっと安全・シンプルに」。macOS から SSH 経由で直接エージェントを管理可能な、ネイティブデスクトップアプリ。 Hermes エージェントを macOS から安全に管理するためのネイティブアプリ「Hermes Desktop」の概要と、SSH 接続によるセキュアな運用のメリットについてまとめました。 dodo-reach/hermes-desktop AIエージェント (自律基盤・特化アプリ) hermes-desktop ← 記事一覧へ戻る GitHub Watcher hermes-desktop 「Hermes エージェントを、もっと安全・シンプルに」。macOS から SSH 経由で直接エージェントを管理可能な、ネイティブデスクトップアプリ。 記事作成日 2026-05-05 種別 Pickup 対象 repo dodo-reach/hermes-desktop Star数 909 これは何か Nous Research の AI エージェント「Hermes」を、macOS 上から安全かつ直感的に管理するためのネイティブデスクトップアプリケーションです。 何ができるか ブラウザや外部ゲートウェイを介さず、SSH 経由で直接エージェントに接続し、チャットやカンバン、セッション管理などの操作をデスクトップアプリからシームレスに行えます。 目立つポイント 「Pure SSH」による高いセキュリティ、余計なポート開放やブラウザレイヤーを必要としないシンプルさ、そして macOS に最適化された高速なユーザー体験が特徴です。 セットアップや使い方の流れ ビルド済みアプリをダウンロードするかソースからビルドし、接続先のエージェント情報を SSH 形式で設定するだけで、すぐに管理を開始できます。 どんな人向けか Hermes エージェントを日常的に活用しており、Web インターフェースよりもセキュアで高速なネイティブ環境を求めている macOS ユーザーに最適です。 注意点 SSH 接続を前提としているため、ターゲットとなるエージェント側で SSH サーバーが適切に設定・稼働している必要があります。 まとめ 「安全性と使いやすさの両立」。エージェント運用のインフラを支える、プロフェッショナルな管理ツールです。 参照リンク https://github.com/dodo-reach/hermes-desktop Shared GitHub Serial: #432"
+    },
     {
       "slug": "2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit",
       "category": "github-pickup",

@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 15:17:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 20:34:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hermes-desktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-dodo-reach-hermes-desktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-dodo-reach-hermes-desktop.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Hermes エージェントを、もっと安全・シンプルに」。macOS から SSH 経由で直接エージェントを管理可能な、ネイティブデスクトップアプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[Claude-Code-Frontend-Design-Toolkit]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SocratiCode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン]]></description>
     </item>
   </channel>
 </rss>
