@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 00:30:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 04:01:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Cursor v2.5 Security Patch, Windsurf Arena Mode, and Cline OOM Fixes]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI コーディングツールの主要なアップデートをまとめました。Cursor の重大な脆弱性修正、Windsurf のエージェント比較機能(Arena)、Cline のメモリ使用量改善など、信頼性と使い勝手を向上させる更新が相次いでいます。]]></description>
+    </item>
     <item>
       <title><![CDATA[hermes-agent-acp-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.5.2: プラグイン管理システムの強化とパフォーマンス最適化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-04-openclaw-v2026-5-2-plugin-management.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-04-openclaw-v2026-5-2-plugin-management.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[セルフホスト型AIエージェントプラットフォーム「OpenClaw」の最新版 v2026.5.2 が公開。プラグインのインストール・更新プロセスの改善や、通信ホットパスの最適化により、エージェントの拡張性と応答性能が向上しました。]]></description>
     </item>
   </channel>
 </rss>
