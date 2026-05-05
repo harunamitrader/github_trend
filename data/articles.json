@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-shubhamsaboo-awesome-llm-apps",
+      "title": "awesome-llm-apps",
+      "dek": "「ゼロから作らず、クックブックから選ぶ」。RAG、マルチエージェント、MCP、音声生成など、100以上の『即実行可能』な AI アプリ・テンプレートが揃う究極の LLM 開発レシピ集。",
+      "summary": "100以上の実用的な AI Agent & RAG アプリのテンプレートを収録したリポジトリ「Awesome LLM Apps」の全体像と、クローンしてすぐに動かせる「Hand-built」な各カテゴリの構成、および AI 開発ワークフローを加速させる学習リソースについてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T08:23:00Z",
+      "repoName": "Shubhamsaboo/awesome-llm-apps",
+      "repoUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "starCount": 109000,
+      "articleUrl": "./articles/github/daily/2026-05-06-shubhamsaboo-awesome-llm-apps.html",
+      "serial": 445,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-shubhamsaboo-ai-home-renovation-agent",
       "title": "ai_home_renovation_agent",
       "dek": "「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。",

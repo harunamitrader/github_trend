@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 23:20:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 08:24:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-llm-apps]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-shubhamsaboo-awesome-llm-apps.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-shubhamsaboo-awesome-llm-apps.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「ゼロから作らず、クックブックから選ぶ」。RAG、マルチエージェント、MCP、音声生成など、100以上の『即実行可能』な AI アプリ・テンプレートが揃う究極の LLM 開発レシピ集。]]></description>
     </item>
     <item>
       <title><![CDATA[ai_home_renovation_agent]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「AI エージェントに、自由なブラウジングを」。スクレイピングと AI エージェントの自律操作に特化した、高速・高機能なヘッドレスブラウザ CLI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[docuseal]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-docusealco-docuseal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-docusealco-docuseal.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「DocuSign を、オープンソースで自由に」。デジタル署名の作成・署名・管理をセルフホスト可能なデジタルドキュメント基盤。]]></description>
     </item>
   </channel>
 </rss>
