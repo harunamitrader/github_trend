@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T11:34:05.895931+00:00",
-  "count": 456,
+  "generatedAt": "2026-05-05T15:30:27.203614+00:00",
+  "count": 457,
   "articles": [
+    {
+      "slug": "2026-05-06-rainhoole-hermes-agent-acp-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hermes-agent-acp-skill",
+      "dek": "「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。",
+      "summary": "複数の AI エージェントを連携させてタスクを委譲・調整するための Hermes 向けスキル「hermes-agent-acp-skill」の概要と特徴をまとめました。",
+      "repoName": "Rainhoole/hermes-agent-acp-skill",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T00:30:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html",
+      "serial": 433,
+      "searchText": "hermes-agent-acp-skill 「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。 複数の AI エージェントを連携させてタスクを委譲・調整するための Hermes 向けスキル「hermes-agent-acp-skill」の概要と特徴をまとめました。 Rainhoole/hermes-agent-acp-skill AIエージェント (自律基盤・特化アプリ) hermes-agent-acp-skill ← 記事一覧へ戻る GitHub Watcher hermes-agent-acp-skill 「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。 記事作成日 2026-05-06 種別 Pickup 対象 repo Rainhoole/hermes-agent-acp-skill Star数 13 これは何か Nous Research の Hermes エージェントが、Codex や Claude Code といった他の AI エージェントに対して、適切にタスクを委譲・調整するためのワークフローと命令セット（スキル）です。 何ができるか エンジニアリングワークフローにおいて、実装は Codex、リスクレビューは Claude Code、最終統合は Hermes といった具合に、エージェントごとの特性を活かした役割分担と自律的な指揮が可能になります。 目立つポイント 明確なエージェントルーティング、親コンテキストを汚染しないコンテキスト隔離、そしてタイムアウトや出力制限による安全制御が組み込まれている点が特徴です。 セットアップや使い方の流れ Hermes エージェントのスキルディレクトリに `SKILL.md` を追加し、設定ファイルで委譲先の外部エージェント（Codex 等）を定義することで利用可能になります。 どんな人向けか 単一のエージェントでは完結しない複雑な開発・検証タスクを、複数の AI エージェントを組み合わせて自動化したいパワーユーザーや開発者に最適です。 注意点 委譲先の外部エージェント（Codex や Claude Code）が適切にインストール・設定されており、Hermes から呼び出し可能な状態である必要があります。 まとめ 「エージェントのオーケストレーション」。複数の知能を束ねて、より大規模で複雑な課題を解決するための実用的な拡張スキルです。 参照リンク https://github.com/Rainhoole/hermes-agent-acp-skill Shared GitHub Serial: #433"
+    },
     {
       "slug": "2026-05-05-dodo-reach-hermes-desktop",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 20:34:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:30:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hermes-agent-acp-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[セルフホスト型AIエージェントプラットフォーム「OpenClaw」の最新版 v2026.5.2 が公開。プラグインのインストール・更新プロセスの改善や、通信ホットパスの最適化により、エージェントの拡張性と応答性能が向上しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openless]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-appergb-openless.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-appergb-openless.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。]]></description>
     </item>
   </channel>
 </rss>
