@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-howiewang1121-socratic-education-system",
+      "title": "Socratic-Education-System",
+      "dek": "「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。",
+      "summary": "K12 向けに蘇格拉底式（ソクラテス式）の「助产术」を応用した教育支援 AI Agent ツール「Socratic Education System」の概要と、学生の認知状態をリアルタイムで追跡する動的プロファイリング、および教師向けの診断・干渉機能についてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T08:14:00Z",
+      "repoName": "HowieWang1121/Socratic-Education-System",
+      "repoUrl": "https://github.com/HowieWang1121/Socratic-Education-System",
+      "starCount": 77,
+      "articleUrl": "./articles/github/daily/2026-05-06-howiewang1121-socratic-education-system.html",
+      "serial": 443,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-vibeforge1111-keep-codex-fast",
       "title": "keep-codex-fast",
       "dek": "「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。",

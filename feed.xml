@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 22:17:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 08:15:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Socratic-Education-System]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-howiewang1121-socratic-education-system.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-howiewang1121-socratic-education-system.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。]]></description>
     </item>
     <item>
       <title><![CDATA[keep-codex-fast]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「長期タスクを完遂する AI エージェントのために」。エージェントの思考プロセスを最適化し、長時間の推論とタスク実行を支えるインクリメンタルエンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[jellyfin]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-jellyfin-jellyfin.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-jellyfin-jellyfin.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「あなたのメディアを、完全にあなたの手に」。プライバシーを重視し、あらゆるデバイスでメディアをストリーミング可能なオープンソースのメディアサーバー基盤。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Socratic-Education-System</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Socratic-Education-System</h1>
+      <p class="article-dek">「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HowieWang1121/Socratic-Education-System" target="_blank" rel="noreferrer">
+              HowieWang1121/Socratic-Education-System
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>77</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Socratic Education System は、古代の「蘇格拉底式（ソクラテス式）教学法」を現代の大規模言語モデル（LLM）と組み合わせた、K12（小中高校）向けのスマート教育プラットフォームです。学生に対して直接的な正解を与えるのではなく、対話を通じて問いを投げかけ、学生自身の思考と問題解決能力を育むことを目的としています。特に、教育リソースの地域格差を埋めるための解決策として設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>・ソクラテス・チューター・エージェントによる、徹底した「誘導式対話（助産術）」の提供。<br>
+        ・プロファイラー・エージェントによる、対話履歴の自動分析と学生の認知障害の特定。<br>
+        ・動的な学生画像（Student Profile）の構築。思考の弱点を JSON 形式で記録し、成長過程を可視化。<br>
+        ・教師向けの学情診断レポートと干渉（指導）案の自動生成。<br>
+        ・Markdown 渲染や KaTeX 公式サポートを備えた、モダンなブラウザベースのインターフェース。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる「質問回答ボット」ではなく、マルチエージェント・システムを採用している点が特徴的です。対話を行うエージェントと、その対話を教育心理学的な視点でレビューするエージェントが分業することで、より精度の高い学習支援を実現しています。また、教師を排除するのではなく、AI が分析した学生の「知識の盲点」に基づいて、教師がどのような具体的なアプローチをとるべきか（例えば：理論より先に実験的な感性認知を促す、等）を推薦する、人間と AI の協調体制が構築されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>FastAPI をベースとした構成になっており、Python 環境で <code>pip install</code> した後、DeepSeek 等の API キーを設定して <code>multi_agent_tutor.py</code> を実行するだけでサーバーが起動します。フロントエンドは <code>index.html</code> を開くだけで利用可能です。データは軽量な JSON ファイルベースで管理されており、スレッドセーフな RLock によって安全な読み書きが保証されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・AI を使って学生の「考える力」を養いたい教育関係者や、アダプティブ・ラーニングの実装を検討している開発者。<br>
+        ・偏遠地域の教育格差を埋めるための、安価で質の高い教育ソリューションを求めている NGO や教育機関。<br>
+        ・マルチエージェント・オーケストレーションを教育分野に応用したいと考えているエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>現在は DeepSeek API をバックエンドの推論エンジンとして使用する設定になっています。本物の「ソクラテス的対話」を実現するためには、モデルに対して高度なシステムプロンプトの遵守（＝答えを教えないこと）が求められるため、使用する LLM の性能や指示追従性に大きく依存します。また、学生データの管理場所やプライバシーに関する設計には、実際の運用において十分な配慮が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「教育の本質は灌輸（詰め込み）ではなく、点火（着火）である」というビジョンのもと、Socratic Education System は AI を用いて最高の対話相手を再現しようとしています。AI が人間の教師に代わるのではなく、教師がよりパーソナライズされた高度な教育判断を下すための強力な武器となることで、教育の質と平等の両立を目指す意欲的なプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/HowieWang1121/Socratic-Education-System" target="_blank" rel="noreferrer">https://github.com/HowieWang1121/Socratic-Education-System</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #443</p>
+      </div>
+    </article>
+  </body>
+</html>
