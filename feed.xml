@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 05:11:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 12:29:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
@@ -16,36 +16,52 @@
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
-      <title><![CDATA[jcode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-1jehuang-jcode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-1jehuang-jcode.html</guid>
-      <category>github-trending</category>
+      <title><![CDATA[hack-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-yaklang-hack-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-yaklang-hack-skills.html</guid>
+      <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「次世代のコーディング・エージェント基盤」。AI がコードを理解し、安全に編集し、テストを実行するためのハーネス・フレームワーク。]]></description>
+      <description><![CDATA[「AI エージェントを、凄腕のハッカーへ」。脆弱性診断やペネトレーションテストの知識を AI が扱える形式で集約した、セキュリティ特化型ナレッジベース。]]></description>
     </item>
     <item>
-      <title><![CDATA[agency-agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-msitarzewski-agency-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-msitarzewski-agency-agents.html</guid>
-      <category>github-trending</category>
+      <title><![CDATA[claude-code-memory-setup]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-lucasrosati-claude-code-memory-setup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-lucasrosati-claude-code-memory-setup.html</guid>
+      <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「あなたの指先に、完全な AI 代理店を」。フロントエンド職人からコミュニティ忍者まで、専門特化した AI エージェント集団。]]></description>
+      <description><![CDATA[「Claude Code の消費トークンを最大 71.5 分の 1 に」。Obsidian と Graphify を活用し、永続メモリとコードベースの知識グラフを構築する最適化ガイド。]]></description>
     </item>
     <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-browserbase-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-browserbase-skills.html</guid>
-      <category>github-trending</category>
+      <title><![CDATA[obscura]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-h4ckf0r0day-obscura.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-h4ckf0r0day-obscura.html</guid>
+      <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「Claude に Web ブラウジング能力を」。Browserbase 連携により、エージェントが自由に Web を探索・操作するための SDK。]]></description>
+      <description><![CDATA[「AI エージェントに、自由なブラウジングを」。スクレイピングと AI エージェントの自律操作に特化した、高速・高機能なヘッドレスブラウザ CLI。]]></description>
     </item>
     <item>
-      <title><![CDATA[maigret]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-soxoj-maigret.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-soxoj-maigret.html</guid>
+      <title><![CDATA[docuseal]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-docusealco-docuseal.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-docusealco-docuseal.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「ユーザー名ひとつで 3000 以上のサイトを徹底調査」。OSINT の強力な味方、デジタルフットプリントの可視化ツール。]]></description>
+      <description><![CDATA[「DocuSign を、オープンソースで自由に」。デジタル署名の作成・署名・管理をセルフホスト可能なデジタルドキュメント基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cocoindex]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-cocoindex-io-cocoindex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-cocoindex-io-cocoindex.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「長期タスクを完遂する AI エージェントのために」。エージェントの思考プロセスを最適化し、長時間の推論とタスク実行を支えるインクリメンタルエンジン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[jellyfin]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-jellyfin-jellyfin.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-jellyfin-jellyfin.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「あなたのメディアを、完全にあなたの手に」。プライバシーを重視し、あらゆるデバイスでメディアをストリーミング可能なオープンソースのメディアサーバー基盤。]]></description>
     </item>
     <item>
       <title><![CDATA[qBittorrent]]></title>
@@ -136,14 +152,6 @@
       <description><![CDATA[macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。]]></description>
     </item>
     <item>
-      <title><![CDATA[worldmonitor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-koala73-worldmonitor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-koala73-worldmonitor.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[地政学リスクや金融市場、重要インフラの動向を3D地球儀上でリアルタイム監視できる次世代ダッシュボード「World Monitor」の概要と特徴をまとめました。ローカルAIを活用したニュース要約機能も備えています。]]></description>
-    </item>
-    <item>
       <title><![CDATA[SocratiCode]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-socraticode.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「マルチエージェント LLM による次世代金融取引フレームワーク」。分析、リスク管理、実行を AI エージェントが自律的に連携。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ruflo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ruvnet-ruflo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-ruvnet-ruflo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「Claude のための自律エージェント・オーケストレーター」。マルチエージェント・スウォームの構築と Claude Code / Codex との高度な統合を実現。]]></description>
     </item>
   </channel>
 </rss>
