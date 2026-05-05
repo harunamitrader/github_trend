@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 12:33:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 15:17:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude-Code-Frontend-Design-Toolkit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。]]></description>
     </item>
     <item>
       <title><![CDATA[hack-skills]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[大規模コードベースのセマンティック検索と構造解析をゼロ構成・ローカル完結で実現するAI知能エンジン]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradingAgents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-TauricResearch-TradingAgents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-03-TauricResearch-TradingAgents.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「マルチエージェント LLM による次世代金融取引フレームワーク」。分析、リスク管理、実行を AI エージェントが自律的に連携。]]></description>
     </item>
   </channel>
 </rss>

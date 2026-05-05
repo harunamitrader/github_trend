@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T03:29:07.100958+00:00",
-  "count": 454,
+  "generatedAt": "2026-05-05T06:17:09.958237+00:00",
+  "count": 455,
   "articles": [
+    {
+      "slug": "2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Claude-Code-Frontend-Design-Toolkit",
+      "dek": "「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。",
+      "summary": "Claude Code のフロントエンド出力品質を向上させるためのリソース集「Claude-Code-Frontend-Design-Toolkit」の概要と活用法をまとめました。",
+      "repoName": "wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-05",
+      "createdAt": "2026-05-05T15:16:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html",
+      "serial": 431,
+      "searchText": "Claude-Code-Frontend-Design-Toolkit 「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。 Claude Code のフロントエンド出力品質を向上させるためのリソース集「Claude-Code-Frontend-Design-Toolkit」の概要と活用法をまとめました。 wilwaldon/Claude-Code-Frontend-Design-Toolkit AIコーディング (ワークフロー・プロンプト・開発補助ツール) Claude-Code-Frontend-Design-Toolkit ← 記事一覧へ戻る GitHub Watcher Claude-Code-Frontend-Design-Toolkit 「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。 記事作成日 2026-05-05 種別 Pickup 対象 repo wilwaldon/Claude-Code-Frontend-Design-Toolkit Star数 106 これは何か Anthropic の AI コーディングエージェント「Claude Code」が、より美しく使いやすいフロントエンドを出力できるようにするための、設定ファイル（CLAUDE.md）や推奨ツールのリポジトリです。 何ができるか デザイン原則の適用、Lucide アイコンの適切な使用、Tailwind CSS の最適化、そしてコンポーネントライブラリの正しい導入方法などを Claude Code に指示するためのベストプラクティスを提供します。 目立つポイント すぐにコピーして使える CLAUDE.md のスニペット、デザイン補助に特化した MCP サーバーの紹介、そして Claude Code の公式ドキュメントだけでは到達しにくい「審美的な出力」のためのプロンプトハックが満載です。 セットアップや使い方の流れ README に記載されている設定をプロジェクトの `CLAUDE.md` に追記するか、推奨されている MCP サーバーをインストールすることで、次回のセッションから Claude の出力が洗練されたものに変わります。 どんな人向けか Claude Code を使ってフロントエンドを構築しているが、生成される UI の見た目に満足していない開発者や、デザイン作業をより自動化したいエンジニアに最適です。 注意点 ツールの組み合わせによっては Claude の推論時間が長くなる可能性があるため、プロジェクトの規模や必要性に応じて設定を調整することが推奨されます。 まとめ 「コードが動く」のその先へ。AI エージェントを優秀なフロントエンドデザイナーへと変貌させるための決定版リソースです。 参照リンク https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit Shared GitHub Serial: #431"
+    },
     {
       "slug": "2026-05-05-yaklang-hack-skills",
       "category": "github-pickup",
