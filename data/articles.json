@@ -16,7 +16,8 @@
       "publishedAt": "2026-05-06",
       "createdAt": "2026-05-06T04:15:00Z",
       "toolName": "Claude, Gemini, ChatGPT, NotebookLM, Obsidian",
-      "articleUrl": "./articles/tools/2026-05-06-ai-others-tools-multi-update.html"
+      "articleUrl": "./articles/tools/2026-05-06-ai-others-tools-multi-update.html",
+      "serial": 435
     },
     {
       "category": "ai-tool-log",
@@ -28,7 +29,8 @@
       "publishedAt": "2026-05-06",
       "createdAt": "2026-05-06T04:00:00Z",
       "toolName": "Cursor, Windsurf, Cline, Claude Code, Gemini CLI",
-      "articleUrl": "./articles/tools/2026-05-06-ai-coding-tools-multi-update.html"
+      "articleUrl": "./articles/tools/2026-05-06-ai-coding-tools-multi-update.html",
+      "serial": 434
     },
     {
       "category": "github-pickup",
