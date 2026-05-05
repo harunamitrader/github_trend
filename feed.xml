@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 20:05:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:23:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[codex-visual-builder-guild]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-codex-visual-builder-guild.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-codex-visual-builder-guild.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。]]></description>
     </item>
     <item>
       <title><![CDATA[Islands Dark]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[汎用 AI ツールカテゴリの最新アップデート。OpenClaw のファイル転送機能追加、Perplexity の Microsoft Teams 連携、Claude のエンタープライズ新会社設立など、実用性とビジネス展開の両面で大きな進展がありました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.42.0-nightly: GrepTool のケースセンシティビティ修正とメトリクス整合性向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-gemini-cli-v0-42-0-nightly-grep-metrics.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-gemini-cli-v0-42-0-nightly-grep-metrics.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google 製 AI コーディング CLI「Gemini CLI」の v0.42.0-nightly が公開。コード検索ツール(GrepTool)の精度向上や内部統計メトリクスの整合性修正など、ツールの信頼性を高めるメンテナンスが行われました。]]></description>
     </item>
   </channel>
 </rss>

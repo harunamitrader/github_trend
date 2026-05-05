@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-vibeforge1111-codex-visual-builder-guild",
+      "title": "codex-visual-builder-guild",
+      "dek": "「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。",
+      "summary": "Codex Desktop や Spark Skill Graphs で利用可能な、デザイン QA と資産生成に特化した 16 種類の専門スキル群「Codex Visual Builder Guild」の概要と、視覚的なフィードバックループによる UI 改善フローについてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T06:22:00Z",
+      "repoName": "vibeforge1111/codex-visual-builder-guild",
+      "repoUrl": "https://github.com/vibeforge1111/codex-visual-builder-guild",
+      "starCount": 23,
+      "articleUrl": "./articles/github/daily/2026-05-06-vibeforge1111-codex-visual-builder-guild.html",
+      "serial": 440,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-bwya77-vscode-dark-islands",
       "title": "Islands Dark",
       "dek": "「エディタを、フローティング・ガラスの島へ」。 rounded corners と透明感溢れるパネル、滑らかなアニメーションが融合した、極めてモダンな VS Code テーマ。",

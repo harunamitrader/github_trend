@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T20:03:15.048746+00:00",
-  "count": 462,
+  "generatedAt": "2026-05-05T21:23:28.979965+00:00",
+  "count": 463,
   "articles": [
+    {
+      "slug": "2026-05-06-vibeforge1111-codex-visual-builder-guild",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "codex-visual-builder-guild",
+      "dek": "「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。",
+      "summary": "Codex Desktop や Spark Skill Graphs で利用可能な、デザイン QA と資産生成に特化した 16 種類の専門スキル群「Codex Visual Builder Guild」の概要と、視覚的なフィードバックループによる UI 改善フローについてまとめました。",
+      "repoName": "vibeforge1111/codex-visual-builder-guild",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T06:22:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-06-vibeforge1111-codex-visual-builder-guild.html",
+      "serial": 440,
+      "searchText": "codex-visual-builder-guild 「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。 Codex Desktop や Spark Skill Graphs で利用可能な、デザイン QA と資産生成に特化した 16 種類の専門スキル群「Codex Visual Builder Guild」の概要と、視覚的なフィードバックループによる UI 改善フローについてまとめました。 vibeforge1111/codex-visual-builder-guild AIコーディング (ワークフロー・プロンプト・開発補助ツール) codex-visual-builder-guild ← 記事一覧へ戻る GitHub Watcher codex-visual-builder-guild 「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。 記事作成日 2026-05-06 種別 Pickup 対象 repo vibeforge1111/codex-visual-builder-guild Star数 23 これは何か Codex Visual Builder Guild は、Codex (Antigravity) や Spark Skill Graphs での UI 開発を劇的に向上させるための、16 種類の専門的な AI スキルを集約した「ギルド（専門集団）」です。AI がコードを書いて終わりにするのではなく、実際にアプリを動かし、スクリーンショットを撮り、Vision モデルで視覚的にレビューし、問題を各専門家に割り当てて修正するという「ビジュアル・ビルダー・ループ」を構築します。 何ができるか ・実機のスクリーンショットに基づいた、正確なビジュアル QA ループの実行。 ・モバイル、デスクトップ、タブレットなど、マルチデバイス間でのレイアウト整合性チェック。 ・imagegen を活用した、プレースホルダではない実用的な UI 資産（ヒーロー画像、アイコン等）の自動生成。 ・アクセシビリティ、インタラクション（ホバー・フォーカス状態）、ブランドの一貫性など、特定の視点を持つ 16 人の「専門家」へのタスク委譲。 ・修正前後の比較スクリーンショットと、再利用可能なデザインルールの自動抽出。 目立つポイント 単一のプロンプトで「綺麗にして」と頼むのではなく、16 種類の「レンズ（視点）」を定義している点がユニークです。例えば、レスポンシブ専門のレンズ、アクセシビリティ専門のレンズ、デザインシステム（トークン）専門のレンズなどが存在し、メインの監督エージェントが問題に応じて適切な専門家を召喚します。これにより、AI 特有の「なんとなくそれっぽい」デザインから脱却し、細部まで意図の通ったプロダクト品質を実現します。 セットアップや使い方の流れ Codex Desktop を使用している場合、リポジトリをクローンして npm run install:codex を実行するだけで、ネイティブスキルとしてインストールされます。その後、Codex に対して「Use codex-visual-builder-guild to run the visual builder loop on this app.」と指示するだけで、ループが開始されます。Spark Skill Graphs ユーザー向けには、YAML 形式のスキルグラフ定義も提供されています。 どんな人向けか ・AI を使って爆速でプロトタイプを作りたいが、デザインの細部（余白、対比、モバイル対応など）に妥協したくない開発者。 ・複数の AI エージェントを連携させて、より高度で自律的な開発ワークフローを構築したいパワーユーザー。 ・Codex や Spark Skill Graphs の可能性を最大限に引き出したいコミュニティメンバーに最適です。 注意点 このギルドは、Codex が「実際にアプリを起動してスクリーンショットを撮影できる環境（ブラウザ操作ツールやローカルサーバー起動権限）」を持っているときに最大の威力を発揮します。また、Vision モデル（GPT-4o や Claude 3.5 Sonnet 等）の能力に依存するため、使用するモデルの視覚認識精度によって結果が左右される場合があります。 まとめ Codex Visual Builder Guild は、AI によるソフトウェア開発を「コード生成」の段階から「プロダクト開発」の段階へと押し進める強力なツールセットです。人間がデザイナーとディレクターの間を行き来するように、AI にも視覚的なフィードバックと専門的な分業体制を与えることで、これまで手動で行っていた面倒な微調整や QA を自律的に解決できるようになります。 参照リンク https://github.com/vibeforge1111/codex-visual-builder-guild Shared GitHub Serial: #440"
+    },
     {
       "slug": "2026-05-06-priorlabs-tabpfn",
       "category": "github-pickup",

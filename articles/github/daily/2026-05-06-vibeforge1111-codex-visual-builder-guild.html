@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>codex-visual-builder-guild</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">codex-visual-builder-guild</h1>
+      <p class="article-dek">「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/vibeforge1111/codex-visual-builder-guild" target="_blank" rel="noreferrer">
+              vibeforge1111/codex-visual-builder-guild
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>23</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Codex Visual Builder Guild は、Codex (Antigravity) や Spark Skill Graphs での UI 開発を劇的に向上させるための、16 種類の専門的な AI スキルを集約した「ギルド（専門集団）」です。AI がコードを書いて終わりにするのではなく、実際にアプリを動かし、スクリーンショットを撮り、Vision モデルで視覚的にレビューし、問題を各専門家に割り当てて修正するという「ビジュアル・ビルダー・ループ」を構築します。</p>
+
+        <h2>何ができるか</h2>
+        <p>・実機のスクリーンショットに基づいた、正確なビジュアル QA ループの実行。<br>
+        ・モバイル、デスクトップ、タブレットなど、マルチデバイス間でのレイアウト整合性チェック。<br>
+        ・imagegen を活用した、プレースホルダではない実用的な UI 資産（ヒーロー画像、アイコン等）の自動生成。<br>
+        ・アクセシビリティ、インタラクション（ホバー・フォーカス状態）、ブランドの一貫性など、特定の視点を持つ 16 人の「専門家」へのタスク委譲。<br>
+        ・修正前後の比較スクリーンショットと、再利用可能なデザインルールの自動抽出。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単一のプロンプトで「綺麗にして」と頼むのではなく、16 種類の「レンズ（視点）」を定義している点がユニークです。例えば、レスポンシブ専門のレンズ、アクセシビリティ専門のレンズ、デザインシステム（トークン）専門のレンズなどが存在し、メインの監督エージェントが問題に応じて適切な専門家を召喚します。これにより、AI 特有の「なんとなくそれっぽい」デザインから脱却し、細部まで意図の通ったプロダクト品質を実現します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Codex Desktop を使用している場合、リポジトリをクローンして <code>npm run install:codex</code> を実行するだけで、ネイティブスキルとしてインストールされます。その後、Codex に対して「Use codex-visual-builder-guild to run the visual builder loop on this app.」と指示するだけで、ループが開始されます。Spark Skill Graphs ユーザー向けには、YAML 形式のスキルグラフ定義も提供されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・AI を使って爆速でプロトタイプを作りたいが、デザインの細部（余白、対比、モバイル対応など）に妥協したくない開発者。<br>
+        ・複数の AI エージェントを連携させて、より高度で自律的な開発ワークフローを構築したいパワーユーザー。<br>
+        ・Codex や Spark Skill Graphs の可能性を最大限に引き出したいコミュニティメンバーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>このギルドは、Codex が「実際にアプリを起動してスクリーンショットを撮影できる環境（ブラウザ操作ツールやローカルサーバー起動権限）」を持っているときに最大の威力を発揮します。また、Vision モデル（GPT-4o や Claude 3.5 Sonnet 等）の能力に依存するため、使用するモデルの視覚認識精度によって結果が左右される場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Codex Visual Builder Guild は、AI によるソフトウェア開発を「コード生成」の段階から「プロダクト開発」の段階へと押し進める強力なツールセットです。人間がデザイナーとディレクターの間を行き来するように、AI にも視覚的なフィードバックと専門的な分業体制を与えることで、これまで手動で行っていた面倒な微調整や QA を自律的に解決できるようになります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/vibeforge1111/codex-visual-builder-guild" target="_blank" rel="noreferrer">https://github.com/vibeforge1111/codex-visual-builder-guild</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #440</p>
+      </div>
+    </article>
+  </body>
+</html>
