@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-maxbogo-awesome-ai-tools-for-ui",
+      "title": "awesome-ai-tools-for-ui",
+      "dek": "「AI に、美学と使い勝手を」。エディタ向けのデザインスキルから、UI 生成 MCP、心理学に基づいた UX 原則まで、次世代 UI/UX 構築のための厳選リソース集。",
+      "summary": "AI を活用して高品質な UI/UX を構築するための厳選ツールリスト「Awesome AI Tools for UI」の概要と、エディタにデザインの知性を与える各種スキルや MCP サーバー、実用的なリソース群についてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T07:11:00Z",
+      "repoName": "maxbogo/awesome-ai-tools-for-ui",
+      "repoUrl": "https://github.com/maxbogo/awesome-ai-tools-for-ui",
+      "starCount": 333,
+      "articleUrl": "./articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html",
+      "serial": 441,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-vibeforge1111-codex-visual-builder-guild",
       "title": "codex-visual-builder-guild",
       "dek": "「Codex に、16人の専属デザイナーを」。実機スクリーンショットと Vision 解析をループさせ、AI 生成 UI の品質を極限まで高めるマルチエージェント・ギルド。",

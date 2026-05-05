@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 21:26:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 07:11:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-ai-tools-for-ui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「AI に、美学と使い勝手を」。エディタ向けのデザインスキルから、UI 生成 MCP、心理学に基づいた UX 原則まで、次世代 UI/UX 構築のための厳選リソース集。]]></description>
     </item>
     <item>
       <title><![CDATA[codex-visual-builder-guild]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「自由でオープンな BitTorrent クライアント」。広告なし、軽量、そして高度な機能を備えたオープンソースの定番ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Tools Others Update: OpenClaw v2026.5.4 & Platform Integrations]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-05-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[汎用 AI ツールカテゴリの最新アップデート。OpenClaw のファイル転送機能追加、Perplexity の Microsoft Teams 連携、Claude のエンタープライズ新会社設立など、実用性とビジネス展開の両面で大きな進展がありました。]]></description>
     </item>
   </channel>
 </rss>
