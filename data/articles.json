@@ -9,6 +9,18 @@
     {
       "category": "ai-tool-log",
       "originType": "tool-log",
+      "slug": "2026-05-06-ai-others-tools-multi-update",
+      "title": "AI Tools Others Update: Claude Opus 4.7 for Finance, Gemini API Webhooks, and ChatGPT Memory Sources",
+      "dek": "汎用 AI ツールの 2026年5月初週のアップデートをまとめました。金融特化型モデル Claude Opus 4.7 の発表、Gemini API の Webhooks 対応、ChatGPT のパーソナライズ機能強化など、利便性と実用性を高める更新が続いています。",
+      "summary": "Claude Opus 4.7 (金融特化)、Gemini API Webhooks、ChatGPT Memory Sources、NotebookLM の学生向け Classroom 連携など、汎用 AI ツールの 2026年5月初週アップデートをまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T04:15:00Z",
+      "toolName": "Claude, Gemini, ChatGPT, NotebookLM, Obsidian",
+      "articleUrl": "./articles/tools/2026-05-06-ai-others-tools-multi-update.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
       "slug": "2026-05-06-ai-coding-tools-multi-update",
       "title": "AI Coding Tools Update: Cursor v2.5 Security Patch, Windsurf Arena Mode, and Cline OOM Fixes",
       "dek": "AI コーディングツールの主要なアップデートをまとめました。Cursor の重大な脆弱性修正、Windsurf のエージェント比較機能(Arena)、Cline のメモリ使用量改善など、信頼性と使い勝手を向上させる更新が相次いでいます。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 04:01:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 04:16:21 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Tools Others Update: Claude Opus 4.7 for Finance, Gemini API Webhooks, and ChatGPT Memory Sources]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[汎用 AI ツールの 2026年5月初週のアップデートをまとめました。金融特化型モデル Claude Opus 4.7 の発表、Gemini API の Webhooks 対応、ChatGPT のパーソナライズ機能強化など、利便性と実用性を高める更新が続いています。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update: Cursor v2.5 Security Patch, Windsurf Arena Mode, and Cline OOM Fixes]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-coding-tools-multi-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「組み込みデバイスのための Linux ディストリビューション」。軽量・高速かつ高度にカスタマイズ可能なネットワークOSの総本山。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-04 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-04-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-04-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
