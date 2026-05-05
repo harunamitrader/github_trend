@@ -17,8 +17,8 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 2. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-daily.template.html`.
 3. Confirm the target repository or repository URL from the user request.
 4. Resolve the target repository to the canonical GitHub URL after redirects, and normalize `repoName` to canonical `owner/repo` casing before writing anything.
-5. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same canonical `repoName` / `repoUrl` is already published.
-6. If the same repository is already published in `articles.json`, stop the task immediately, report the existing article's title and URL to the user in chat, and DO NOT create a new article or overwrite the existing one.
+5. **重複チェックを機械的に実行します。** `Select-String` コマンド等を使用して `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` 内に canonical な `repoName` (owner/repo) または `repoUrl` が既に存在するか検索してください。
+6. **`articles.json` の全文ロードは厳禁です。** ファイルが肥大化しているため、AIの記憶による比較は確実ではありません。必ずコマンドの検索結果（ヒットなし）に基づいて「未作成」であることを確認してください。既に存在する場合はタスクを即座に中断し、既存記事のタイトルとURLを報告してください。新規作成や上書きは絶対に行わないでください。
 7. Use GitHub MCP or the GitHub API (e.g., via `run_command` with `gh api` or `curl` using the `.env` token) to fetch accurate repository metadata (especially the exact `stargazers_count` integer) and read the `README.md` to understand what it is. Fallback to the browser subagent only if complex visual navigation or external documentation is absolutely required.
 8. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
 9. Append or replace one `category: "github-pickup"` entry in `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` using the canonical `repoName` / `repoUrl`.
