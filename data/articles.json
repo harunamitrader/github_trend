@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-06-vibeforge1111-keep-codex-fast",
+      "title": "keep-codex-fast",
+      "dek": "「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。",
+      "summary": "Codex (Antigravity) のローカル状態を高速かつクリーンに保つためのスキル「Keep Codex Fast」の概要と、引き継ぎドキュメント（Handoff）作成を前提とした安全なアーカイブ・最適化フローについてまとめました。",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T07:13:00Z",
+      "repoName": "vibeforge1111/keep-codex-fast",
+      "repoUrl": "https://github.com/vibeforge1111/keep-codex-fast",
+      "starCount": 732,
+      "articleUrl": "./articles/github/daily/2026-05-06-vibeforge1111-keep-codex-fast.html",
+      "serial": 442,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-06-maxbogo-awesome-ai-tools-for-ui",
       "title": "awesome-ai-tools-for-ui",
       "dek": "「AI に、美学と使い勝手を」。エディタ向けのデザインスキルから、UI 生成 MCP、心理学に基づいた UX 原則まで、次世代 UI/UX 構築のための厳選リソース集。",

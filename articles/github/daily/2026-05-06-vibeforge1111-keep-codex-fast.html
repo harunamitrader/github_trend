@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>keep-codex-fast</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">keep-codex-fast</h1>
+      <p class="article-dek">「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-06 -->
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/vibeforge1111/keep-codex-fast" target="_blank" rel="noreferrer">
+              vibeforge1111/keep-codex-fast
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>732</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Keep Codex Fast は、Codex (Antigravity) を数週間、数ヶ月と使い続ける中で蓄積されるチャット履歴、ログファイル、一時的なワークツリー、プロジェクト設定などを整理し、動作を軽快（Fast）に保つための専用スキルです。単にファイルを削除するのではなく、現在の作業状況を「引き継ぎドキュメント（Handoff）」として書き出し、古い状態を「アーカイブ」するという、安全性と継続性を重視した設計が特徴です。</p>
+
+        <h2>何ができるか</h2>
+        <p>・肥大化したローカル状態（SQLite データベース、ログ、設定ファイル）の可視化と診断レポートの作成。<br>
+        ・古いチャットをアーカイブする前に、作業の継続に必要な情報（現在のゴール、変更点、次のステップ等）をまとめた引き継ぎドキュメントの自動生成。<br>
+        ・不要になった古いワークツリーやログのアーカイブ（退避）による、ディスクスペースとメモリ使用量の最適化。<br>
+        ・動作が重くなった際の原因調査（Node.js プロセスや開発サーバーの状態確認）。<br>
+        ・メンテナンスのリマインダー設定と、安全なバックアップ・リストア手順の提供。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Handoffs First, Archive, don't delete」という哲学が徹底されています。AI エージェントとのチャットは、時間が経つほど文脈が長くなり、トークン消費や応答速度に影響を与えます。このスキルは、その「重荷」を捨てるのではなく、構造化されたドキュメントとして外出しすることで、新しいチャットスレッドでも以前の文脈を瞬時に復元できるようにします。また、Windows 特有の長いパス（\\?\C:\...）の問題など、Codex 特有のローカルエラーに対する修正機能も備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリを Codex のスキルディレクトリに配置するか、Codex に対して「Install the keep-codex-fast skill from...」と依頼することで導入できます。導入後は、「Use $keep-codex-fast to inspect my Codex local state」と入力して現状のレポートを確認し、必要に応じて引き継ぎドキュメントを作成してから、アーカイブ処理（--apply）を実行する流れが推奨されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>・Codex を毎日ハードに使い込み、最近なんとなく動作が重くなってきたと感じているヘビーユーザー。<br>
+        ・複数のプロジェクトを並行して進めており、古いチャット履歴を消したくないが、今のスレッドはスッキリさせたい開発者。<br>
+        ・AI との長期的な協業において、作業のログや文脈を「知識」として整理・保存しておきたいエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>このスキルは、明示的に許可しない限り、ローカルファイルを勝手に変更したり削除したりすることはありません。メンテナンス（アーカイブ等）を実行する際は、Codex が動作していない状態で行うか、事前に重要な作業の引き継ぎが完了していることを確認する必要があります。また、アーカイブされたデータには機密情報が含まれる可能性があるため、バックアップファイルの取り扱いには注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>AI エージェントとの対話が長期化するほど、その「記憶の整理」が重要になります。Keep Codex Fast は、物理的なデータ整理と論理的な作業の引き継ぎをセットで行うことで、Codex のパフォーマンスを常に最高の状態に維持します。エージェントを使い捨てるのではなく、適切にメンテナンスして長く付き合っていくための必須ツールと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/vibeforge1111/keep-codex-fast" target="_blank" rel="noreferrer">https://github.com/vibeforge1111/keep-codex-fast</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #442</p>
+      </div>
+    </article>
+  </body>
+</html>

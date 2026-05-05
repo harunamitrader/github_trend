@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 22:14:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 07:14:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[keep-codex-fast]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-keep-codex-fast.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-keep-codex-fast.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。]]></description>
     </item>
     <item>
       <title><![CDATA[awesome-ai-tools-for-ui]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「あなたのメディアを、完全にあなたの手に」。プライバシーを重視し、あらゆるデバイスでメディアをストリーミング可能なオープンソースのメディアサーバー基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[qBittorrent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-qbittorrent-qBittorrent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-qbittorrent-qBittorrent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「自由でオープンな BitTorrent クライアント」。広告なし、軽量、そして高度な機能を備えたオープンソースの定番ツール。]]></description>
     </item>
   </channel>
 </rss>
