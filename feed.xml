@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 14:44:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 04:03:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.131, Cursor 3.3, and Windsurf 2.2.17]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-07-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-07-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年5月7日のAIコーディングツールの主要アップデートをまとめました。Claude Code の Windows 環境での修正や Cursor のコンテキスト使用量可視化、Windsurf の新レビュー機能など、利便性を高める更新が続いています。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-06-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[サーバーへのアップロード不要。ブラウザ完結で90種類以上の操作ができる、プライバシー重視の究極PDFツールキット]]></description>
-    </item>
-    <item>
-      <title><![CDATA[The-Rosetta-Prompt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-the-rosetta-prompt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-the-rosetta-prompt.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム]]></description>
     </item>
   </channel>
 </rss>

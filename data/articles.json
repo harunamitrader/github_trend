@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-07-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools Update: Claude Code v2.1.131, Cursor 3.3, and Windsurf 2.2.17",
+      "dek": "2026年5月7日のAIコーディングツールの主要アップデートをまとめました。Claude Code の Windows 環境での修正や Cursor のコンテキスト使用量可視化、Windsurf の新レビュー機能など、利便性を高める更新が続いています。",
+      "summary": "Claude Code v2.1.131 (Windows 修正)、Cursor 3.3 (コンテキスト可視化)、Windsurf 2.2.17 (Devin Review) など、主要な AI コーディングツールの 2026年5月7日アップデートをまとめました。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T04:00:00Z",
+      "toolName": "Claude Code, Cursor, Windsurf, Gemini CLI",
+      "articleUrl": "./articles/tools/2026-05-07-ai-coding-tools-multi-update.html",
+      "serial": 452
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-05-06-update-report",
       "title": "2026-05-06 GitHub Trending 更新レポート",
