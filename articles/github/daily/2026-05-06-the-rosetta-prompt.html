@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>The-Rosetta-Prompt</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">The-Rosetta-Prompt</h1>
+      <p class="article-dek">モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/muratcankoylan/The-Rosetta-Prompt" target="_blank" rel="noreferrer">
+              muratcankoylan/The-Rosetta-Prompt
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>229</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>The Rosetta Promptは、一つのプロンプトをOpenAI、Anthropic、Googleなど、各AIプロバイダーが推奨する「独自の作法」に合わせて自動的に最適化・変換するシステムです。各社の最新ドキュメントを学習したエージェントが、プロバイダーごとのベストプラクティスを反映したプロンプトを生成します。</p>
+
+        <h2>何ができるか</h2>
+        <p>入力された一つのプロンプトを、複数のLLM向けに同時に最適化します。例えば、Anthropic向けにはXMLタグを活用した構造に、OpenAI向けにはMarkdownを多用した指示へと自動変換します。また、Firecrawlを使用して最新の公式ドキュメントを自律的にスクレイピングし、知識ベースを常に最新の状態に保つ自動更新機能も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、ドキュメントベースの最適化エージェントです。ReAct（Reason + Act）パターンを採用したエージェントが、プロバイダー固有のドキュメントを読み込み、具体的な変更点（構造、フォーマット等）をログとともに提案します。フロントエンドにはThree.jsを使用した3Dビジュアライゼーションが採用されており、結果を視覚的に美しく表示します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>FastAPIによるバックエンドとReactによるフロントエンドで構成されています。OpenRouterのAPIキーを設定することで動作し、ローカル環境でAPIサーバーを立ち上げてブラウザから利用します。updaterディレクトリ内のエージェントを実行することで、ドキュメントの最新化も可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数のLLMを併用している開発者や、プロバイダーごとのプロンプトエンジニアリングに苦労しているプロンプトエンジニア、そして常に最新の公式推奨手法を反映させたいエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>最適化にはLLM（デフォルトではClaude Opus等）を使用するため、実行にはAPIキーとそれに応じたコストが発生します。また、自動スクレイピング機能を利用する場合は、FirecrawlのAPIキーも必要となります。</p>
+
+        <h2>まとめ</h2>
+        <p>The Rosetta Promptは、モデルの多様化が進む現代において、「どのモデルでも最高の結果を出す」ための橋渡しとなる強力なツールです。公式ドキュメントを自動で追従する設計は、変化の激しいAI業界において非常に実用的です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/muratcankoylan/The-Rosetta-Prompt" target="_blank" rel="noreferrer">https://github.com/muratcankoylan/The-Rosetta-Prompt</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #451</p>
+      </div>
+    </article>
+  </body>
+</html>

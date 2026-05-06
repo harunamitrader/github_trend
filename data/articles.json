@@ -9251,6 +9251,23 @@
       "serial": 450,
       "originType": "pickup",
       "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-05-06-the-rosetta-prompt",
+      "title": "The-Rosetta-Prompt",
+      "dek": "モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム",
+      "summary": "主要LLMプロバイダー（OpenAI, Anthropic, Google等）の公式ベストプラクティスに基づき、一つのプロンプトを各モデルに最適化された形式へ自動変換するシステム「The Rosetta Prompt」を調査。最新ドキュメントを自律的に学習するエージェント機能を備える。",
+      "publishedAt": "2026-05-06",
+      "repoName": "muratcankoylan/The-Rosetta-Prompt",
+      "repoUrl": "https://github.com/muratcankoylan/The-Rosetta-Prompt",
+      "starCount": 229,
+      "articleUrl": "./articles/github/daily/2026-05-06-the-rosetta-prompt.html",
+      "rank": 999,
+      "createdAt": "2026-05-06T23:40:00+09:00",
+      "serial": 451,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     }
   ]
 }

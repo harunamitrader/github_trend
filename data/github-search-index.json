@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-06T12:55:50.581239+00:00",
-  "count": 473,
+  "generatedAt": "2026-05-06T14:41:27.971069+00:00",
+  "count": 474,
   "articles": [
+    {
+      "slug": "2026-05-06-the-rosetta-prompt",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "The-Rosetta-Prompt",
+      "dek": "モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム",
+      "summary": "主要LLMプロバイダー（OpenAI, Anthropic, Google等）の公式ベストプラクティスに基づき、一つのプロンプトを各モデルに最適化された形式へ自動変換するシステム「The Rosetta Prompt」を調査。最新ドキュメントを自律的に学習するエージェント機能を備える。",
+      "repoName": "muratcankoylan/The-Rosetta-Prompt",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T23:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-06-the-rosetta-prompt.html",
+      "serial": 451,
+      "searchText": "The-Rosetta-Prompt モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム 主要LLMプロバイダー（OpenAI, Anthropic, Google等）の公式ベストプラクティスに基づき、一つのプロンプトを各モデルに最適化された形式へ自動変換するシステム「The Rosetta Prompt」を調査。最新ドキュメントを自律的に学習するエージェント機能を備える。 muratcankoylan/The-Rosetta-Prompt AIコーディング (ワークフロー・プロンプト・開発補助ツール) The-Rosetta-Prompt ← 記事一覧へ戻る GitHub Watcher The-Rosetta-Prompt モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム 記事作成日 2026-05-06 種別 Pickup 対象 repo muratcankoylan/The-Rosetta-Prompt Star数 229 これは何か The Rosetta Promptは、一つのプロンプトをOpenAI、Anthropic、Googleなど、各AIプロバイダーが推奨する「独自の作法」に合わせて自動的に最適化・変換するシステムです。各社の最新ドキュメントを学習したエージェントが、プロバイダーごとのベストプラクティスを反映したプロンプトを生成します。 何ができるか 入力された一つのプロンプトを、複数のLLM向けに同時に最適化します。例えば、Anthropic向けにはXMLタグを活用した構造に、OpenAI向けにはMarkdownを多用した指示へと自動変換します。また、Firecrawlを使用して最新の公式ドキュメントを自律的にスクレイピングし、知識ベースを常に最新の状態に保つ自動更新機能も備えています。 目立つポイント 最大の特徴は、ドキュメントベースの最適化エージェントです。ReAct（Reason + Act）パターンを採用したエージェントが、プロバイダー固有のドキュメントを読み込み、具体的な変更点（構造、フォーマット等）をログとともに提案します。フロントエンドにはThree.jsを使用した3Dビジュアライゼーションが採用されており、結果を視覚的に美しく表示します。 セットアップや使い方の流れ FastAPIによるバックエンドとReactによるフロントエンドで構成されています。OpenRouterのAPIキーを設定することで動作し、ローカル環境でAPIサーバーを立ち上げてブラウザから利用します。updaterディレクトリ内のエージェントを実行することで、ドキュメントの最新化も可能です。 どんな人向けか 複数のLLMを併用している開発者や、プロバイダーごとのプロンプトエンジニアリングに苦労しているプロンプトエンジニア、そして常に最新の公式推奨手法を反映させたいエンジニアに最適です。 注意点 最適化にはLLM（デフォルトではClaude Opus等）を使用するため、実行にはAPIキーとそれに応じたコストが発生します。また、自動スクレイピング機能を利用する場合は、FirecrawlのAPIキーも必要となります。 まとめ The Rosetta Promptは、モデルの多様化が進む現代において、「どのモデルでも最高の結果を出す」ための橋渡しとなる強力なツールです。公式ドキュメントを自動で追従する設計は、変化の激しいAI業界において非常に実用的です。 参照リンク https://github.com/muratcankoylan/The-Rosetta-Prompt Shared GitHub Serial: #451"
+    },
     {
       "slug": "2026-05-06-pdfcraft",
       "category": "github-pickup",

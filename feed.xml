@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 12:58:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 23:41:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -160,12 +160,12 @@
       <description><![CDATA[サーバーへのアップロード不要。ブラウザ完結で90種類以上の操作ができる、プライバシー重視の究極PDFツールキット]]></description>
     </item>
     <item>
-      <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+      <title><![CDATA[The-Rosetta-Prompt]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-the-rosetta-prompt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-the-rosetta-prompt.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[モデルごとの「最適解」を自動反映。主要LLMプロバイダーの公式ガイドに基づきプロンプトを最適化・翻訳するエージェントシステム]]></description>
     </item>
   </channel>
 </rss>
