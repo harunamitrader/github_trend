@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 10:58:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:44:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -136,6 +136,14 @@
       <description><![CDATA[自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版）]]></description>
     </item>
     <item>
+      <title><![CDATA[taste-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-taste-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-taste-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIが生成する「退屈で汎用的なデザイン」を打破し、プレミアムなUI/UXを実現するための命令セット集]]></description>
+    </item>
+    <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hack-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-yaklang-hack-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-yaklang-hack-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「AI エージェントを、凄腕のハッカーへ」。脆弱性診断やペネトレーションテストの知識を AI が扱える形式で集約した、セキュリティ特化型ナレッジベース。]]></description>
     </item>
   </channel>
 </rss>
