@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-06T19:49:59.738566+00:00",
-  "count": 480,
+  "generatedAt": "2026-05-06T20:10:24.529230+00:00",
+  "count": 481,
   "articles": [
+    {
+      "slug": "2026-05-07-ekkolearnai-hermes-web-ui",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hermes-web-ui",
+      "dek": "AI エージェントをブラウザから完全制御。Telegram や Discord など多プラットフォーム連携を統合管理する、Hermes Agent 専用の高機能ダッシュボード。",
+      "summary": "自律型 AI エージェント「Hermes Agent」を視覚的に管理できる高機能 Web ダッシュボード「hermes-web-ui」を調査。Telegram、Discord、Slack 等の多プラットフォーム連携を一元化し、リアルタイムチャットやジョブ管理を GUI で提供する「エージェントの司令塔」の実力を解説します。",
+      "repoName": "EKKOLearnAI/hermes-web-ui",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T05:12:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html",
+      "serial": 459,
+      "searchText": "hermes-web-ui AI エージェントをブラウザから完全制御。Telegram や Discord など多プラットフォーム連携を統合管理する、Hermes Agent 専用の高機能ダッシュボード。 自律型 AI エージェント「Hermes Agent」を視覚的に管理できる高機能 Web ダッシュボード「hermes-web-ui」を調査。Telegram、Discord、Slack 等の多プラットフォーム連携を一元化し、リアルタイムチャットやジョブ管理を GUI で提供する「エージェントの司令塔」の実力を解説します。 EKKOLearnAI/hermes-web-ui AIエージェント (自律基盤・特化アプリ) hermes-web-ui ← 記事一覧へ戻る GitHub Watcher hermes-web-ui AI エージェントをブラウザから完全制御。Telegram や Discord など多プラットフォーム連携を統合管理する、Hermes Agent 専用の高機能ダッシュボード。 記事作成日 2026-05-07 種別 Pickup 対象 repo EKKOLearnAI/hermes-web-ui Star数 3,712 これは何か 自律型 AI エージェント「Hermes Agent」を視覚的に操作・管理するための、レスポンシブな Web ダッシュボードです。CLI（コマンドライン）での操作をリッチな GUI に置き換え、エージェントの活動状況をリアルタイムで把握できます。 何ができるか リアルタイムの AI チャット、ファイル管理、 cron ジョブのスケジュール管理、そして Telegram, Discord, Slack, WhatsApp などの主要なメッセージングプラットフォームとの連携設定を一元的に行えます。エージェントの利用コストやトレンドのモニタリングも可能です。 目立つポイント SSE（Server-Sent Events）によるリアルタイムストリーミングチャット。マルチセッション管理と Markdown レンダリング。多言語・多プラットフォーム対応の柔軟なゲートウェイ設定。MCP（Model Context Protocol）との高い親和性も期待されます。 セットアップや使い方の流れ バックエンドの Hermes Agent を起動した状態で、Node.js 環境にてリポジトリをクローンし、依存関係をインストールして `npm run dev` 等でダッシュボードを起動します。設定画面から各種 API キーを入力して各プラットフォームと接続します。 どんな人向けか 自律型 AI エージェントを複数の SNS やチャットアプリで運用したい開発者、エージェントの稼働状況をブラウザから手軽に管理したいユーザー。 注意点 複数のプラットフォームと連携するため、各サービスの API キーの管理とセキュリティ設定（認証等）を適切に行う必要があります。自己ホスト環境での運用が基本となります。 まとめ エージェントが「道具」から「自律的なサービス」へと進化する中で、その司令塔となるダッシュボードの重要性は増しています。Hermes Web UI は、その管理コストを大幅に下げてくれる強力なツールです。 参照リンク https://github.com/EKKOLearnAI/hermes-web-ui Shared GitHub Serial: #459"
+    },
     {
       "slug": "2026-05-07-addyosmani-agent-skills",
       "category": "github-trending",
@@ -15,7 +30,7 @@
       "createdAt": "2026-05-07T04:50:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-07-addyosmani-agent-skills.html",
       "serial": 458,
-      "searchText": "agent-skills AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。 Google の Addy Osmani 氏が公開した、AI コーディングエージェントのための SDLC 遵守スキル集「agent-skills」を調査。仕様、計画、テスト、レビュー、シップなど、プロフェッショナルな開発プロセスをエージェントに自律実行させるためのワークフローを提供します。 addyosmani/agent-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。 記事作成日 2026-05-07 種別 {{RANK_OR_PICKUP}} 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "agent-skills AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。 Google の Addy Osmani 氏が公開した、AI コーディングエージェントのための SDLC 遵守スキル集「agent-skills」を調査。仕様、計画、テスト、レビュー、シップなど、プロフェッショナルな開発プロセスをエージェントに自律実行させるためのワークフローを提供します。 addyosmani/agent-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) agent-skills ← 記事一覧へ戻る GitHub Watcher agent-skills AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。 記事作成日 2026-05-07 種別 No.2 対象 repo addyosmani/agent-skills Star数 30,111 これは何か Google の Addy Osmani 氏が公開した、AI コーディングエージェント向けのソフトウェア開発ライフサイクル（SDLC）遵守スキルとスラッシュコマンドのコレクションです。 何ができるか AI に仕様策定（/spec）、計画（/plan）、テスト（/test）、レビュー（/review）などのシニアレベルの工程を強制。AI が勝手な変更でコードを壊すのを防ぎ、品質を維持します。 目立つポイント 20 種類以上の実用的なスキル。Claude Code, Cursor, Windsurf などの主要な AI ツールで動作するように設計された高い互換性。 セットアップや使い方の流れ リポジトリからスキルの命令セット（Markdown 等）を取得し、AI ツール（Codex 含む）のカスタムインストラクションやスキルとして設定して利用します。 どんな人向けか AI エージェントを用いた開発の品質を上げたいエンジニア、大規模プロダクションコードを扱う開発チーム。 注意点 AI がスキルを「知っている」だけでなく、実際に手順を守っているか人間が継続的に監督し、適切なフィードバックを与える必要があります。 まとめ AI コーディングを単なるパッチ当てからプロフェッショナルな統合開発へと引き上げるための「作法」であり、開発チームの必須知識となっていくでしょう。 参照リンク https://github.com/addyosmani/agent-skills Shared GitHub Serial: #458"
     },
     {
       "slug": "2026-05-07-ladybirdbrowser-ladybird",
@@ -30,7 +45,7 @@
       "createdAt": "2026-05-07T04:49:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-07-ladybirdbrowser-ladybird.html",
       "serial": 457,
-      "searchText": "ladybird 既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。 既存のブラウザエンジンを一切使わずゼロから開発されている独立系ブラウザ「Ladybird」を調査。LibWeb レンダリングエンジンや LibJS などの独自実装により、広告や追跡に縛られない純粋なオープンウェブの実現を目指すプロジェクトの全貌に迫ります。 LadybirdBrowser/ladybird メディア作成・マルチモーダル・UI {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} 既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。 記事作成日 2026-05-07 種別 {{RANK_OR_PICKUP}} 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "ladybird 既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。 既存のブラウザエンジンを一切使わずゼロから開発されている独立系ブラウザ「Ladybird」を調査。LibWeb レンダリングエンジンや LibJS などの独自実装により、広告や追跡に縛られない純粋なオープンウェブの実現を目指すプロジェクトの全貌に迫ります。 LadybirdBrowser/ladybird メディア作成・マルチモーダル・UI ladybird ← 記事一覧へ戻る GitHub Watcher ladybird 既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。 記事作成日 2026-05-07 種別 No.6 対象 repo LadybirdBrowser/ladybird Star数 62,921 これは何か 非営利団体によって開発されている、完全に独立した新しいウェブブラウザです。既存のブラウザエンジンを一切流用せず、ゼロから C++ で構築されています。 何ができるか モダンで標準準拠なブラウジング体験を提供。企業の利益や広告ビジネスに左右されない、純粋にオープンで透明性の高いウェブブラウザとしての機能を目指しています。 目立つポイント 独自レンダリングエンジン（LibWeb）と JavaScript エンジン（LibJS）。マルチプロセスアーキテクチャによる堅牢なセキュリティ設計。 セットアップや使い方の流れ 現在は開発者向けのプレアルファ段階であり、リポジトリからソースコードを取得してビルドすることで試用可能です。2026 年以降にアルファ版のリリースが予定されています。 どんな人向けか ブラウザ技術に関心のある開発者、プライバシーと透明性を重視するユーザー、ウェブの多様性を支持する層。 注意点 現在は開発の初期段階であるため、日常的なメインブラウザとしての利用には適していません。レンダリングの不完全さやクラッシュが含まれる可能性があります。 まとめ ブラウザの寡占化が進む中で、独立した実装が存在することはウェブの健全な発展に不可欠です。自由なウェブの砦としての成長が期待されるプロジェクトです。 参照リンク https://github.com/LadybirdBrowser/ladybird Shared GitHub Serial: #457"
     },
     {
       "slug": "2026-05-07-insforge-insforge",
@@ -45,7 +60,7 @@
       "createdAt": "2026-05-07T04:48:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-07-insforge-insforge.html",
       "serial": 456,
-      "searchText": "InsForge AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。 AI エージェントが自律的にバックエンド（DB、認証、ストレージ等）を構築・管理できるプラットフォーム「InsForge」を調査。Postgres を核としたセマンティックレイヤーにより、AI がシステム構造を理解してフルスタック開発を行うための基盤を提供します。 InsForge/InsForge AI基盤・データ基盤・業務アプリ {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。 記事作成日 2026-05-07 種別 {{RANK_OR_PICKUP}} 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "InsForge AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。 AI エージェントが自律的にバックエンド（DB、認証、ストレージ等）を構築・管理できるプラットフォーム「InsForge」を調査。Postgres を核としたセマンティックレイヤーにより、AI がシステム構造を理解してフルスタック開発を行うための基盤を提供します。 InsForge/InsForge AI基盤・データ基盤・業務アプリ InsForge ← 記事一覧へ戻る GitHub Watcher InsForge AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。 記事作成日 2026-05-07 種別 No.7 対象 repo InsForge/InsForge Star数 8,348 これは何か AI コーディングエージェントが、アプリケーションのバックエンド（認証、DB、ストレージ、サーバーレス関数）を自律的に構築・管理できるように設計されたオープンソースプラットフォームです。 何ができるか エージェントが要件に応じてテーブル作成、権限設定、API 公開を自動で行えます。Postgres を核としたセマンティックレイヤーを提供し、AI とシステムの親和性を高めます。 目立つポイント AI が理解・操作しやすい抽象化されたメタデータ形式。MCP（Model Context Protocol）に対応しており、多様な AI ツールからインフラ操作が可能です。 セットアップや使い方の流れ プラットフォームをデプロイし、AI エージェントにアクセス権限（MCP 等経由）を付与。エージェントに対してバックエンド構築の指示を出します。 どんな人向けか 自律的なフルスタック開発エージェントを構築したい開発者、AI ネイティブなアプリ基盤を求める層。 注意点 AI による自動プロビジョニングには予期せぬ構成ミスやセキュリティリスクが伴うため、監視と適切な制約（ガードレール）の設定が不可欠です。 まとめ AI が「インフラを管理・運用する」段階への進化を象徴する基盤であり、今後の自律開発エージェントの標準インフラとなることが期待されます。 参照リンク https://github.com/InsForge/InsForge Shared GitHub Serial: #456"
     },
     {
       "slug": "2026-05-07-anthropics-financial-services",
@@ -60,7 +75,7 @@
       "createdAt": "2026-05-07T04:47:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-07-anthropics-financial-services.html",
       "serial": 455,
-      "searchText": "financial-services 金融実務に Claude の知性を。投資銀行、PE、リサーチ業務を自動化・高度化するための公式エージェント、スキル、データコネクタ集。 Anthropic が公式公開した金融サービス向け Claude リソース「financial-services」を調査。DCF 分析や LBO モデル、ディールトラッキングなど、金融専門業務を Claude Code や Claude Cowork で自動化・高度化するための公式テンプレートとスキルの活用法をまとめました。 anthropics/financial-services AIエージェント (自律基盤・特化アプリ) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} 金融実務に Claude の知性を。投資銀行、PE、リサーチ業務を自動化・高度化するための公式エージェント、スキル、データコネクタ集。 記事作成日 2026-05-07 種別 {{RANK_OR_PICKUP}} 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "financial-services 金融実務に Claude の知性を。投資銀行、PE、リサーチ業務を自動化・高度化するための公式エージェント、スキル、データコネクタ集。 Anthropic が公式公開した金融サービス向け Claude リソース「financial-services」を調査。DCF 分析や LBO モデル、ディールトラッキングなど、金融専門業務を Claude Code や Claude Cowork で自動化・高度化するための公式テンプレートとスキルの活用法をまとめました。 anthropics/financial-services AIエージェント (自律基盤・特化アプリ) financial-services ← 記事一覧へ戻る GitHub Watcher financial-services 金融実務に Claude の知性を。投資銀行、PE、リサーチ業務を自動化・高度化するための公式エージェント、スキル、データコネクタ集。 記事作成日 2026-05-07 種別 No.9 対象 repo anthropics/financial-services Star数 8,933 これは何か Anthropic が公式に提供する、金融サービス業界向けの参照エージェント、ツール、およびデータ連携用のテンプレート集です。Claude Code や Claude Cowork での利用を想定しています。 何ができるか 投資銀行業務、株式リサーチ、プライベート・エクイティ等の専門的なワークフローを AI で支援。DCF モデリング、LBO 分析、ディールトラッキング、コンプライアンスチェックなどを効率化できます。 目立つポイント Markdown と JSON で構成された柔軟なテンプレート。公式推奨のデータコネクタ構成例が含まれており、安全な社内データ連携の指針となります。 セットアップや使い方の流れ Claude Code 等の環境に、提供されているスキルやプロンプトをインポート。必要に応じて自社の財務データや内部プロセスに合わせてカスタマイズして実行します。 どんな人向けか 金融業界のアナリスト、アソシエイト、AI 導入を推進する IT 部門。 注意点 生成された財務モデルや分析結果は必ず人間が検証する必要があります。また、機密データの取り扱いには十分注意してください。 まとめ AI が単なるチャットを超えて「金融実務エージェント」として機能することを示す重要なリソースであり、業界の標準的な AI 活用基盤となる可能性を秘めています。 参照リンク https://github.com/anthropics/financial-services Shared GitHub Serial: #455"
     },
     {
       "slug": "2026-05-07-cheahjs-free-llm-api-resources",
@@ -75,7 +90,7 @@
       "createdAt": "2026-05-07T04:46:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-07-cheahjs-free-llm-api-resources.html",
       "serial": 454,
-      "searchText": "free-llm-api-resources 開発のコスト障壁を打破。LLM API の無料枠やトライアル特典を提供するサービスを網羅した、開発者必携のリソース・ディレクトリ。 LLM API の無料枠や初回クレジットを提供するプロバイダーを網羅したディレクトリ「free-llm-api-resources」を調査。OpenAI, Google, Groq 等の最新提供状況から、個人開発やプロトタイピングのコストを劇的に下げるためのリソース活用術を解説します。 cheahjs/free-llm-api-resources 学習ガイド・開発アセット {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} 開発のコスト障壁を打破。LLM API の無料枠やトライアル特典を提供するサービスを網羅した、開発者必携のリソース・ディレクトリ。 記事作成日 2026-05-07 種別 {{RANK_OR_PICKUP}} 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "free-llm-api-resources 開発のコスト障壁を打破。LLM API の無料枠やトライアル特典を提供するサービスを網羅した、開発者必携のリソース・ディレクトリ。 LLM API の無料枠や初回クレジットを提供するプロバイダーを網羅したディレクトリ「free-llm-api-resources」を調査。OpenAI, Google, Groq 等の最新提供状況から、個人開発やプロトタイピングのコストを劇的に下げるためのリソース活用術を解説します。 cheahjs/free-llm-api-resources 学習ガイド・開発アセット free-llm-api-resources ← 記事一覧へ戻る GitHub Watcher free-llm-api-resources 開発のコスト障壁を打破。LLM API の無料枠やトライアル特典を提供するサービスを網羅した、開発者必携のリソース・ディレクトリ。 記事作成日 2026-05-07 種別 No.11 対象 repo cheahjs/free-llm-api-resources Star数 20,387 これは何か 主要な LLM プロバイダー（OpenAI, Anthropic, Google, Groq, Mistral 等）が提供している無料の API アクセス枠や、特定のプラットフォーム経由で利用可能な無料推論リソースをまとめたキュレーション・リポジトリです。 何ができるか 開発者がコストを抑えて LLM アプリケーションを構築・実験できるよう、永続的な無料枠や初回トライアルクレジットを提供する API プロバイダーを網羅的に把握できます。テキスト生成から埋め込み、マルチモーダル API までカテゴリ別に整理されています。 目立つポイント 永続的な無料枠を持つサービスと、初回限定クレジットを提供するサービスを明確に区別して掲載。コミュニティ駆動で頻繁に更新されており、最新の提供状況が反映されます。 セットアップや使い方の流れ リポジトリの README を閲覧し、目的のカテゴリからプロバイダーを選択。リンク先の公式サイトで API キーを取得して利用を開始します。 どんな人向けか コストを抑えて LLM アプリを開発したい個人開発者、学生、プロトタイプ作成中のエンジニア。 注意点 各プロバイダーの利用規約や制限（Rate Limit 等）は随時変更される可能性があるため、利用前に必ず公式サイトを確認してください。 まとめ LLM 市場の競争激化に伴い、各社が提供する無料枠は変化していますが、このリポジトリはそうした流動的なリソース状況を把握するための標準的なリファレンスとして非常に有用です。 参照リンク https://github.com/cheahjs/free-llm-api-resources Shared GitHub Serial: #454"
     },
     {
       "slug": "2026-05-07-update-report",
@@ -90,7 +105,7 @@
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-07-update-report.html",
       "serial": 36,
-      "searchText": "2026-05-07 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査では、シニアエンジニアの規律を AI に導入する「agent-skills」、独立系ブラウザ「Ladybird」、AI ネイティブなバックエンド「InsForge」、金融実務特化の「financial-services」、そして LLM API の無料リソース集の 5 件を新規に記事化しました。開発プロセスの標準化からインフラ、専門実務まで、AI 活用のレイヤーが着実に深まっていることを感じさせるラインナップです。 2026-05-07 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-07 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-07 調査件数 全 {{TOTAL_COUNT}} 件 新規作成 {{NEW_COUNT}} 件 本日の調査ランキング（全件） 本日（2026-05-07）の GitHub Trending にランクインしていた全 {{TOTAL_COUNT}} リポジトリの調査結果です。 {{RANKING_LIST_ITEMS}} 今後の展望 {{FUTURE_OUTLOOK}}"
+      "searchText": "2026-05-07 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査では、シニアエンジニアの規律を AI に導入する「agent-skills」、独立系ブラウザ「Ladybird」、AI ネイティブなバックエンド「InsForge」、金融実務特化の「financial-services」、そして LLM API の無料リソース集の 5 件を新規に記事化しました。開発プロセスの標準化からインフラ、専門実務まで、AI 活用のレイヤーが着実に深まっていることを感じさせるラインナップです。 2026-05-07 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-07 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-07 調査件数 全 15 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-07）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 Hmbown/DeepSeek-TUI ✅ 記事作成済み addyosmani/agent-skills ✨ 新規追加 PriorLabs/TabPFN ✅ 記事作成済み docusealco/docuseal ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み LadybirdBrowser/ladybird ✨ 新規追加 InsForge/InsForge ✨ 新規追加 virattt/dexter ✅ 記事作成済み anthropics/financial-services ✨ 新規追加 ruvnet/ruflo ✅ 記事作成済み cheahjs/free-llm-api-resources ✨ 新規追加 shiyu-coder/Kronos ✅ 記事作成済み bwya77/vscode-dark-islands ✅ 記事作成済み bytedance/deer-flow ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み 今後の展望 AI エージェントが単なるコード生成を超え、エンジニアリングの規律やバックエンド管理、さらには金融などの専門実務を肩代わりするフェーズに入っています。今後、これらの要素が統合されることで、真に自律的なソフトウェア開発・運用環境が構築されていくでしょう。"
     },
     {
       "slug": "2026-05-06-the-rosetta-prompt",

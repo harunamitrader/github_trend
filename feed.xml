@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 19:53:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 05:10:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hermes-web-ui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントをブラウザから完全制御。Telegram や Discord など多プラットフォーム連携を統合管理する、Hermes Agent 専用の高機能ダッシュボード。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-07 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-07-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「表形式データに、基盤モデルの力を」。前処理なし、わずか数秒で分類・回帰を実行可能な、Transformer ベースの画期的な表形式データ基盤モデル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Tools Others Update: Claude Opus 4.7 for Finance, Gemini API Webhooks, and ChatGPT Memory Sources]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[汎用 AI ツールの 2026年5月初週のアップデートをまとめました。金融特化型モデル Claude Opus 4.7 の発表、Gemini API の Webhooks 対応、ChatGPT のパーソナライズ機能強化など、利便性と実用性を高める更新が続いています。]]></description>
     </item>
   </channel>
 </rss>
