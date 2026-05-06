@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>stagehand</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">stagehand</h1>
+      <p class="article-dek">自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browserbase/stagehand" target="_blank" rel="noreferrer">
+              browserbase/stagehand
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>22,493</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Stagehandは、自然言語とコードの両方を使用してWebブラウザを制御するためのブラウザオートメーションフレームワークです。AIの柔軟性とコードの正確性を組み合わせることで、堅牢でメンテナンス性の高い自動化を実現します。</p>
+
+        <h2>何ができるか</h2>
+        <p>ブラウザの操作（クリック、入力、遷移）を自然言語で指示できるほか、特定のページからの構造化データの抽出、複雑なマルチステップタスクの実行が可能です。また、AIの実行前にアクションをプレビューしたり、結果をキャッシュしてLLMのトークン消費を抑える機能も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大のポイントは「コードと自然言語の使い分け」です。慣れ親しんだ操作はコードで、未知のページや複雑なナビゲーションはAIに任せるといった使い方が可能です。また、自己修復機能を備えており、サイトの構造が変わってもAIが判断して自動で追従します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npx create-browser-app を実行することで簡単にプロジェクトを開始できます。コード内では act() で個別のアクションを実行し、agent() で複雑なタスクを、extract() でデータの抽出を行います。Playwrightなどの既存ツールとの親和性も高い設計です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Webスクレイピングのエンジニア、AIエージェントの開発者、ブラウザベースのワークフローを自動化したいQAエンジニアなどに最適です。特に「AIエージェントを本番環境で安定して動かしたい」と考えている層に強く推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>LLMのAPIキー（OpenAI等）や、Browserbaseの認証情報が必要になる場合があります。AIによる自律操作は強力ですが、予期せぬ挙動を防ぐために最初はプレビュー機能を活用することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Stagehandは、従来のコードベースの自動化と最新のAIエージェントの橋渡しをする強力なSDKです。高い信頼性と柔軟性を両立しており、次世代のブラウザ操作自動化のスタンダードになり得るポテンシャルを持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/browserbase/stagehand" target="_blank" rel="noreferrer">https://github.com/browserbase/stagehand</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #446</p>
+      </div>
+    </article>
+  </body>
+</html>

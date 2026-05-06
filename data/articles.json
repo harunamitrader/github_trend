@@ -9166,6 +9166,23 @@
       "repoUrl": "https://codeium.com/windsurf",
       "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html",
       "rank": 999
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-05-06-browserbase-stagehand",
+      "title": "stagehand",
+      "dek": "自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK",
+      "summary": "自然言語でのブラウザ操作とコードによる精密な制御を統合したSDK「Stagehand」を調査。自己修復機能やキャッシング、構造化データの抽出機能を備え、AIエージェントのブラウザ操作を劇的に簡略化する。",
+      "publishedAt": "2026-05-06",
+      "repoName": "browserbase/stagehand",
+      "repoUrl": "https://github.com/browserbase/stagehand",
+      "starCount": 22493,
+      "articleUrl": "./articles/github/daily/2026-05-06-browserbase-stagehand.html",
+      "rank": 999,
+      "createdAt": "2026-05-06T19:48:00+09:00",
+      "serial": 446,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     }
   ]
 }

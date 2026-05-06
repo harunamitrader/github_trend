@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2026 23:26:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 19:52:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -120,6 +120,14 @@
       <description><![CDATA[「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。]]></description>
     </item>
     <item>
+      <title><![CDATA[stagehand]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-browserbase-stagehand.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-browserbase-stagehand.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK]]></description>
+    </item>
+    <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Claude Code の消費トークンを最大 71.5 分の 1 に」。Obsidian と Graphify を活用し、永続メモリとコードベースの知識グラフを構築する最適化ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[obscura]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-h4ckf0r0day-obscura.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-h4ckf0r0day-obscura.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「AI エージェントに、自由なブラウジングを」。スクレイピングと AI エージェントの自律操作に特化した、高速・高機能なヘッドレスブラウザ CLI。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-05T23:24:06.171145+00:00",
-  "count": 468,
+  "generatedAt": "2026-05-06T10:52:42.891901+00:00",
+  "count": 469,
   "articles": [
+    {
+      "slug": "2026-05-06-browserbase-stagehand",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "stagehand",
+      "dek": "自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK",
+      "summary": "自然言語でのブラウザ操作とコードによる精密な制御を統合したSDK「Stagehand」を調査。自己修復機能やキャッシング、構造化データの抽出機能を備え、AIエージェントのブラウザ操作を劇的に簡略化する。",
+      "repoName": "browserbase/stagehand",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T19:48:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-06-browserbase-stagehand.html",
+      "serial": 446,
+      "searchText": "stagehand 自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK 自然言語でのブラウザ操作とコードによる精密な制御を統合したSDK「Stagehand」を調査。自己修復機能やキャッシング、構造化データの抽出機能を備え、AIエージェントのブラウザ操作を劇的に簡略化する。 browserbase/stagehand AIエージェント (自律基盤・特化アプリ) stagehand ← 記事一覧へ戻る GitHub Watcher stagehand 自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK 記事作成日 2026-05-06 種別 Pickup 対象 repo browserbase/stagehand Star数 22,493 これは何か Stagehandは、自然言語とコードの両方を使用してWebブラウザを制御するためのブラウザオートメーションフレームワークです。AIの柔軟性とコードの正確性を組み合わせることで、堅牢でメンテナンス性の高い自動化を実現します。 何ができるか ブラウザの操作（クリック、入力、遷移）を自然言語で指示できるほか、特定のページからの構造化データの抽出、複雑なマルチステップタスクの実行が可能です。また、AIの実行前にアクションをプレビューしたり、結果をキャッシュしてLLMのトークン消費を抑える機能も備えています。 目立つポイント 最大のポイントは「コードと自然言語の使い分け」です。慣れ親しんだ操作はコードで、未知のページや複雑なナビゲーションはAIに任せるといった使い方が可能です。また、自己修復機能を備えており、サイトの構造が変わってもAIが判断して自動で追従します。 セットアップや使い方の流れ npx create-browser-app を実行することで簡単にプロジェクトを開始できます。コード内では act() で個別のアクションを実行し、agent() で複雑なタスクを、extract() でデータの抽出を行います。Playwrightなどの既存ツールとの親和性も高い設計です。 どんな人向けか Webスクレイピングのエンジニア、AIエージェントの開発者、ブラウザベースのワークフローを自動化したいQAエンジニアなどに最適です。特に「AIエージェントを本番環境で安定して動かしたい」と考えている層に強く推奨されます。 注意点 LLMのAPIキー（OpenAI等）や、Browserbaseの認証情報が必要になる場合があります。AIによる自律操作は強力ですが、予期せぬ挙動を防ぐために最初はプレビュー機能を活用することが推奨されます。 まとめ Stagehandは、従来のコードベースの自動化と最新のAIエージェントの橋渡しをする強力なSDKです。高い信頼性と柔軟性を両立しており、次世代のブラウザ操作自動化のスタンダードになり得るポテンシャルを持っています。 参照リンク https://github.com/browserbase/stagehand Shared GitHub Serial: #446"
+    },
     {
       "slug": "2026-05-06-shubhamsaboo-awesome-llm-apps",
       "category": "github-pickup",
