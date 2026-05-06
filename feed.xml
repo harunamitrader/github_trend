@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 12:47:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:46:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-06 GitHub Trending 更新レポート]]></title>
@@ -144,6 +144,14 @@
       <description><![CDATA[AIが生成する「退屈で汎用的なデザイン」を打破し、プレミアムなUI/UXを実現するための命令セット集]]></description>
     </item>
     <item>
+      <title><![CDATA[500-AI-Agents-Projects]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-500-ai-agents-projects.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-500-ai-agents-projects.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[500種類以上のAIエージェント活用事例と実装コードを網羅した、AI開発者のための究極のリソース集]]></description>
+    </item>
+    <item>
       <title><![CDATA[2026-05-05 GitHub Trending 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-05-update-report.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Hermes エージェントを、もっと安全・シンプルに」。macOS から SSH 経由で直接エージェントを管理可能な、ネイティブデスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude-Code-Frontend-Design-Toolkit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「Claude Code に、プロ級のデザインセンスを」。フロントエンド開発の質を劇的に向上させるためのスキル、MCP、CLAUDE.md 設定を集約した総合ツールキット。]]></description>
     </item>
   </channel>
 </rss>
