@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 19:22:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 04:50:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-07 GitHub Trending 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-07-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-07-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-addyosmani-agent-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-addyosmani-agent-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ladybird]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ladybirdbrowser-ladybird.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ladybirdbrowser-ladybird.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[InsForge]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-insforge-insforge.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-insforge-insforge.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[financial-services]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-financial-services.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-financial-services.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[金融実務に Claude の知性を。投資銀行、PE、リサーチ業務を自動化・高度化するための公式エージェント、スキル、データコネクタ集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[free-llm-api-resources]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cheahjs-free-llm-api-resources.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cheahjs-free-llm-api-resources.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[開発のコスト障壁を打破。LLM API の無料枠やトライアル特典を提供するサービスを網羅した、開発者必携のリソース・ディレクトリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools Update: OpenClaw v2026.5.6 and xAI-Anthropic Partnership]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-07-ai-others-tools-multi-update.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[汎用 AI ツールの 2026年5月初週のアップデートをまとめました。金融特化型モデル Claude Opus 4.7 の発表、Gemini API の Webhooks 対応、ChatGPT のパーソナライズ機能強化など、利便性と実用性を高める更新が続いています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update: Cursor v2.5 Security Patch, Windsurf Arena Mode, and Cline OOM Fixes]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-06-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI コーディングツールの主要なアップデートをまとめました。Cursor の重大な脆弱性修正、Windsurf のエージェント比較機能(Arena)、Cline のメモリ使用量改善など、信頼性と使い勝手を向上させる更新が相次いでいます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-agent-acp-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-rainhoole-hermes-agent-acp-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「エージェントが、他のエージェントを指揮する」。Hermes, Codex, Claude Code を連携させ、マルチエージェント間の高度なタスク委譲を実現するスキルセット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stagehand]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-browserbase-stagehand.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-browserbase-stagehand.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語とコードを組み合わせてブラウザを自律操作する、Browser Agentのための次世代SDK]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nanobrowser]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-nanobrowser.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-nanobrowser.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版）]]></description>
-    </item>
-    <item>
-      <title><![CDATA[taste-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-taste-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-taste-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIが生成する「退屈で汎用的なデザイン」を打破し、プレミアムなUI/UXを実現するための命令セット集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[500-AI-Agents-Projects]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-500-ai-agents-projects.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-500-ai-agents-projects.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[500種類以上のAIエージェント活用事例と実装コードを網羅した、AI開発者のための究極のリソース集]]></description>
     </item>
   </channel>
 </rss>
