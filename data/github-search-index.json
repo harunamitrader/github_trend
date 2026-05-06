@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-06T10:52:42.891901+00:00",
-  "count": 469,
+  "generatedAt": "2026-05-06T10:55:47.430215+00:00",
+  "count": 470,
   "articles": [
+    {
+      "slug": "2026-05-06-nanobrowser",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "nanobrowser",
+      "dek": "自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版）",
+      "summary": "Chrome拡張機能として動作するオープンソースのブラウザ操作AI「Nanobrowser」を調査。独自のLLM APIキーやローカルモデルを利用でき、プランナーとナビゲーターの複数エージェント構成で自律的なWeb操作を実現する。",
+      "repoName": "nanobrowser/nanobrowser",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-06T19:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-06-nanobrowser.html",
+      "serial": 447,
+      "searchText": "nanobrowser 自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版） Chrome拡張機能として動作するオープンソースのブラウザ操作AI「Nanobrowser」を調査。独自のLLM APIキーやローカルモデルを利用でき、プランナーとナビゲーターの複数エージェント構成で自律的なWeb操作を実現する。 nanobrowser/nanobrowser AIエージェント (自律基盤・特化アプリ) nanobrowser ← 記事一覧へ戻る GitHub Watcher nanobrowser 自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版） 記事作成日 2026-05-06 種別 Pickup 対象 repo nanobrowser/nanobrowser Star数 12,894 これは何か Nanobrowserは、Chrome拡張機能として動作するオープンソースのWebオートメーションツールです。独自のLLM APIキーを使用して、ブラウザ上での複雑な操作をAIエージェントに任せることができます。OpenAI Operatorのオープンソース版代替ツールとしての側面も持っています。 何ができるか ニュースの要約、GitHubでのトレンド調査、Amazonでの商品リサーチなど、自然言語で指示したタスクをブラウザ上で実行します。Planner（計画立案）とNavigator（ナビゲーション）という2つのエージェントを使い分け、効率的にゴールを目指します。 目立つポイント Chrome拡張機能であるため導入が非常に簡単で、現在のブラウジング環境をそのままAI化できるのが特徴です。Claude、GPT、Geminiに加え、Ollama経由でローカルモデルも利用可能。プライバシーを重視し、データを外部に出さずに自律操作を行う構成も選べます。 セットアップや使い方の流れ Chromeウェブストアからインストールするか、リリースページからZIPをダウンロードして手動で読み込むことで利用可能です。サイドバーを開き、設定画面でAPIキーを入力。あとはプロンプトを入力するだけでエージェントが動き出します。 どんな人向けか 日常的なブラウザ操作を自動化したい一般ユーザーから、AIエージェントの挙動を実環境でテストしたい開発者、プライバシー重視でローカルAIを使いたいユーザーまで幅広く対応しています。 注意点 動作にはLLMのAPIキーが必要です。また、複雑なタスクでは高性能なモデル（Claude Sonnet等）の使用が推奨されます。自律操作中はブラウザが自動で動くため、操作対象のサイトには注意が必要です。 まとめ Nanobrowserは、ブラウザ操作AIを「誰でも、自分のお気に入りのモデルで」使えるようにする強力なツールです。拡張機能という形態をとることで、既存のWebオートメーションツールよりも身近で実用的な体験を提供しています。 参照リンク https://github.com/nanobrowser/nanobrowser Shared GitHub Serial: #447"
+    },
     {
       "slug": "2026-05-06-browserbase-stagehand",
       "category": "github-pickup",

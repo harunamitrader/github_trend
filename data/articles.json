@@ -9183,6 +9183,23 @@
       "serial": 446,
       "originType": "pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-05-06-nanobrowser",
+      "title": "nanobrowser",
+      "dek": "自分自身のLLMキーで動かせる、ブラウザ操作の自律型AIエージェント（Chrome拡張機能版）",
+      "summary": "Chrome拡張機能として動作するオープンソースのブラウザ操作AI「Nanobrowser」を調査。独自のLLM APIキーやローカルモデルを利用でき、プランナーとナビゲーターの複数エージェント構成で自律的なWeb操作を実現する。",
+      "publishedAt": "2026-05-06",
+      "repoName": "nanobrowser/nanobrowser",
+      "repoUrl": "https://github.com/nanobrowser/nanobrowser",
+      "starCount": 12894,
+      "articleUrl": "./articles/github/daily/2026-05-06-nanobrowser.html",
+      "rank": 999,
+      "createdAt": "2026-05-06T19:55:00+09:00",
+      "serial": 447,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
     }
   ]
 }
