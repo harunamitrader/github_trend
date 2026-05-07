@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Anthropic 公式の金融エージェント基盤『financial-services』の技術解説。Managed Agents、MCP、オーケストレーションの仕組みを深掘り。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Deep Dive: anthropics/financial-services | harunami AI base</title>
+    <link rel="icon" href="../../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../../styles.css" />
+    <style>
+      .detail-grid {
+        display: grid;
+        gap: 40px;
+        margin-top: 40px;
+      }
+      .tech-card {
+        background: var(--surface-strong);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        padding: 32px;
+        box-shadow: var(--shadow-sm);
+      }
+      .tech-card h3 {
+        margin-bottom: 16px;
+        color: var(--primary);
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .tech-card h3 i {
+        font-style: normal;
+        font-size: 1.4rem;
+      }
+      .tech-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .tech-list li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 12px;
+        line-height: 1.6;
+      }
+      .tech-list li::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: var(--primary);
+        font-weight: 800;
+      }
+      .code-note {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.9rem;
+        background: var(--surface);
+        padding: 4px 8px;
+        border-radius: 4px;
+        color: var(--text-muted);
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, var(--primary-soft) 0%, #fff 100%);
+        border-left: 4px solid var(--primary);
+        padding: 24px;
+        border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        margin: 24px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../daily/2026-05-07-anthropics-financial-services.html">← 概要記事へ戻る</a>
+        <p class="eyebrow">Technical Deep Dive</p>
+      </div>
+
+      <h1 class="article-title">Claude for Financial Services: 徹底解剖</h1>
+      <p class="article-dek">単なるチャットを超えた「自律型金融エンジニア」の実現。Managed Agents と MCP が切り拓く金融実務の未来。</p>
+
+      <div class="article-body">
+        <section>
+          <h2>1. アーキテクチャ：Claude Managed Agents による垂直統合</h2>
+          <p>Anthropic がこのリポジトリで提示しているのは、複雑な金融ワークフローを「単一の巨大なプロンプト」で解くのではなく、役割分担された<strong>マルチエージェント・システム</strong>で解決するアプローチです。</p>
+          
+          <div class="highlight-box">
+            <strong>Orchestrator-Worker パターン</strong><br>
+            中央の「オーケストレーター」が全体像（例：DCFモデルの作成）を把握し、個別の専門タスク（例：Capital IQ からのデータ抽出、Excel 書き出し）を、その分野に特化した「ワーカーエージェント」に委任（Handoff）します。
+          </div>
+          
+          <div class="detail-grid">
+            <div class="tech-card">
+              <h3><i>🏗️</i> オーケストレーションの仕組み</h3>
+              <ul class="tech-list">
+                <li><span class="code-note">orchestrate.py</span> による動的なセッション管理。</li>
+                <li>エージェント間の明示的な「引き継ぎ（Handoff）」プロトコル。</li>
+                <li>タスク完了後の自動的な品質検証（Evaluation）ループ。</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>2. 専門エージェント：金融実務の特化型 AI</h2>
+          <p>リポジトリには、特定の金融業務を完遂させるために設計された「Managed Agent」の定義が含まれています。</p>
+          
+          <div class="detail-grid">
+            <div class="tech-card">
+              <h3>投資銀行 / PE 向け：Pitch Agent</h3>
+              <p>単なる文書作成ではなく、財務モデリング（Excel）とプレゼン作成（PPTX）を自動化します。</p>
+              <ul class="tech-list">
+                <li><span class="code-note">mcp-capiq</span> を介して最新の市場データにアクセス。</li>
+                <li><span class="code-note">xlsx-author</span> による数式維持型の Excel 生成。</li>
+                <li>LBO / DCF 分析のドラフト作成と感度分析の自動実行。</li>
+              </ul>
+            </div>
+
+            <div class="tech-card">
+              <h3>コンプライアンス / オペレーション</h3>
+              <ul class="tech-list">
+                <li><strong>KYC Screener:</strong> 非構造化文書からリスク要素を抽出し、ルールベースで判定。</li>
+                <li><strong>GL Reconciler:</strong> 会計データの不一致を特定し、仕訳レベルまで遡って原因を究明。</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>3. 技術的ブレイクスルー：MCP (Model Context Protocol)</h2>
+          <p>このプロジェクトの真の強みは、<strong>MCP によるデータの垂直統合</strong>にあります。Claude が「知っている」情報だけでなく、エンタープライズ内部のデータベースや、S&P Capital IQ のような専門プロバイダーのデータを「道具」として自由に使いこなせるようになっています。</p>
+          
+          <div class="tech-card">
+            <h3>コネクティビティの重要性</h3>
+            <p>金融実務において「最新かつ正確な数値」は生命線です。MCP コネクタを利用することで、Claude は幻覚（Hallucination）を防ぎながら、リアルタイムの財務データに基づいた分析結果を出力することが可能になります。</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>4. デプロイメントと拡張性</h2>
+          <p>リポジトリに含まれる <span class="code-note">deploy-managed-agent.sh</span> は、これらのエージェントをインフラとしてプロビジョニングするためのツールです。これにより、開発者は Claude を「ブラウザ上のチャットツール」としてではなく、<strong>「API 経由で呼び出せる自律的な金融マイクロサービス」</strong>として自社システムに組み込むことができます。</p>
+        </section>
+
+        <section class="summary-box" style="background: var(--surface-strong); padding: 32px; border-radius: var(--radius-lg); border: 1px solid var(--primary-soft); margin-top: 40px;">
+          <h2 style="margin-top: 0;">技術的なまとめ</h2>
+          <p>『financial-services』リポジトリは、以下の 3 つの要素が組み合わさった次世代の AI 基盤を提示しています：</p>
+          <ul class="tech-list">
+            <li><strong>Managed Agents:</strong> 役割が定義された自律ユニット。</li>
+            <li><strong>MCP:</strong> 信頼できるデータソースへの安全なアクセス。</li>
+            <li><strong>Orchestration:</strong> 複雑な業務フローを繋ぎ合わせる規律。</li>
+          </ul>
+          <p>これは、AI が単なるアシスタントから、人間の専門家を強力にサポートする「デジタル同僚」へと進化する過程の、非常に具体的な設計図と言えます。</p>
+        </section>
+
+        <div class="article-footer">
+          <p>Original Repository: <a href="https://github.com/anthropics/financial-services" target="_blank" rel="noreferrer">anthropics/financial-services</a></p>
+          <p class="article-serial">Deep Dive Content: financial-services-detail</p>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
