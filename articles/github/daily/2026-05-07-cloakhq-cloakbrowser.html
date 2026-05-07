@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>CloakBrowser</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">CloakBrowser</h1>
+      <p class="article-dek">ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-07 -->
+          <strong>2026-05-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/CloakHQ/CloakBrowser" target="_blank" rel="noreferrer">
+              CloakHQ/CloakBrowser
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,421</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ウェブスクレイピングや自動化において最大の障害となる「ボット検知」を回避するために設計された、高度にカスタマイズされた Chromium ブラウザです。JavaScript による表面的な修正ではなく、Chromium の C++ ソースコードレベルで指紋（Fingerprint）を偽装しているのが最大の特徴です。</p>
+
+        <h2>何ができるか</h2>
+        <p>Cloudflare Turnstile, reCAPTCHA Enterprise, Akamai, DataDome などの強力なボット対策システムを、通常の自動化ツールよりも高い成功率で突破できます。Playwright や Puppeteer のドロップイン・リプレイスメントとして機能し、既存のスクリプトを最小限の修正でステルス化できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>バイナリレベルでの指紋パッチ（Canvas, WebGL, Audio, Fonts, GPU 等）。OS（Windows/Mac/Linux）や CPU アーキテクチャを問わず動作。自動的なカスタムバイナリのダウンロードとキャッシュ。ブラウザの内部的な振る舞いを「本物のユーザー」に限りなく近づける設計。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Playwright のブラウザタイプとして `CloakBrowser` を指定するだけで利用可能です。初回実行時に、各 OS に最適化されたパッチ済み Chromium バイナリが自動的にダウンロードされます。あとは通常の Playwright API を使ってブラウジングを自動化するだけです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>高度なボット対策が施されたサイトをスクレイピングしたい開発者、AI エージェントのウェブ閲覧能力を強化したいエンジニア、アンチ検知ブラウザを自前で運用したい層。</p>
+
+        <h2>注意点</h2>
+        <p>非常に強力なツールですが、ウェブサイトの利用規約を遵守し、倫理的な範囲で利用してください。また、バイナリのダウンロードには一定の信頼が必要です。オープンソースプロジェクトであるため、ソースコードの検証が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>AI エージェントがウェブ上の情報を収集する際、ボット検知は大きな壁となります。CloakBrowser はその壁を技術の深部（バイナリレベル）から解決しようとする、非常に野心的なプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/CloakHQ/CloakBrowser" target="_blank" rel="noreferrer">https://github.com/CloakHQ/CloakBrowser</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #460</p>
+      </div>
+    </article>
+  </body>
+</html>

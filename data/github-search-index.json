@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-06T20:10:24.529230+00:00",
-  "count": 481,
+  "generatedAt": "2026-05-07T00:38:24.758494+00:00",
+  "count": 482,
   "articles": [
+    {
+      "slug": "2026-05-07-cloakhq-cloakbrowser",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CloakBrowser",
+      "dek": "ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。",
+      "summary": "ボット検知回避に特化した Chromium ベースのステルスブラウザ「CloakBrowser」を調査。JavaScript による表面的な偽装ではなく、C++ ソースコードレベルでの指紋パッチにより、Playwright や Puppeteer の自動化を極限まで検知不能にする技術を解説します。",
+      "repoName": "CloakHQ/CloakBrowser",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T09:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html",
+      "serial": 460,
+      "searchText": "CloakBrowser ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。 ボット検知回避に特化した Chromium ベースのステルスブラウザ「CloakBrowser」を調査。JavaScript による表面的な偽装ではなく、C++ ソースコードレベルでの指紋パッチにより、Playwright や Puppeteer の自動化を極限まで検知不能にする技術を解説します。 CloakHQ/CloakBrowser スクレイピング・情報収集・セキュリティ CloakBrowser ← 記事一覧へ戻る GitHub Watcher CloakBrowser ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。 記事作成日 2026-05-07 種別 Pickup 対象 repo CloakHQ/CloakBrowser Star数 1,421 これは何か ウェブスクレイピングや自動化において最大の障害となる「ボット検知」を回避するために設計された、高度にカスタマイズされた Chromium ブラウザです。JavaScript による表面的な修正ではなく、Chromium の C++ ソースコードレベルで指紋（Fingerprint）を偽装しているのが最大の特徴です。 何ができるか Cloudflare Turnstile, reCAPTCHA Enterprise, Akamai, DataDome などの強力なボット対策システムを、通常の自動化ツールよりも高い成功率で突破できます。Playwright や Puppeteer のドロップイン・リプレイスメントとして機能し、既存のスクリプトを最小限の修正でステルス化できます。 目立つポイント バイナリレベルでの指紋パッチ（Canvas, WebGL, Audio, Fonts, GPU 等）。OS（Windows/Mac/Linux）や CPU アーキテクチャを問わず動作。自動的なカスタムバイナリのダウンロードとキャッシュ。ブラウザの内部的な振る舞いを「本物のユーザー」に限りなく近づける設計。 セットアップや使い方の流れ Playwright のブラウザタイプとして `CloakBrowser` を指定するだけで利用可能です。初回実行時に、各 OS に最適化されたパッチ済み Chromium バイナリが自動的にダウンロードされます。あとは通常の Playwright API を使ってブラウジングを自動化するだけです。 どんな人向けか 高度なボット対策が施されたサイトをスクレイピングしたい開発者、AI エージェントのウェブ閲覧能力を強化したいエンジニア、アンチ検知ブラウザを自前で運用したい層。 注意点 非常に強力なツールですが、ウェブサイトの利用規約を遵守し、倫理的な範囲で利用してください。また、バイナリのダウンロードには一定の信頼が必要です。オープンソースプロジェクトであるため、ソースコードの検証が推奨されます。 まとめ AI エージェントがウェブ上の情報を収集する際、ボット検知は大きな壁となります。CloakBrowser はその壁を技術の深部（バイナリレベル）から解決しようとする、非常に野心的なプロジェクトです。 参照リンク https://github.com/CloakHQ/CloakBrowser Shared GitHub Serial: #460"
+    },
     {
       "slug": "2026-05-07-ekkolearnai-hermes-web-ui",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2026 20:13:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 09:38:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[CloakBrowser]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。]]></description>
+    </item>
     <item>
       <title><![CDATA[hermes-web-ui]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「究極のプライバシーと、妥協のないリサーチを」。ローカル環境で完結し、多彩な検索エンジンと LLM を組み合わせて深層調査を実現する、自律型リサーチアシスタント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TabPFN]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-priorlabs-tabpfn.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-priorlabs-tabpfn.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「表形式データに、基盤モデルの力を」。前処理なし、わずか数秒で分類・回帰を実行可能な、Transformer ベースの画期的な表形式データ基盤モデル。]]></description>
     </item>
   </channel>
 </rss>
