@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-07T03:01:28.776044+00:00",
-  "count": 485,
+  "generatedAt": "2026-05-07T06:19:45.369614+00:00",
+  "count": 486,
   "articles": [
+    {
+      "slug": "2026-05-07-anthropics-cwc-workshops",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cwc-workshops",
+      "dek": "Claude と共に次世代のエージェントを創る。Anthropic 公式ワークショップ「Code with Claude」のハンズオン教材・実践モジュール集。",
+      "summary": "Anthropic 公式ワークショップ「Code with Claude」の教材リポジトリを調査。プロンプトの分解手法、MCP によるツール連携、エージェントの性能評価など、高度な AI アシスタントを構築するための実践的な知見とハンズオンの内容を解説します。",
+      "repoName": "anthropics/cwc-workshops",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T15:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-anthropics-cwc-workshops.html",
+      "serial": 464,
+      "searchText": "cwc-workshops Claude と共に次世代のエージェントを創る。Anthropic 公式ワークショップ「Code with Claude」のハンズオン教材・実践モジュール集。 Anthropic 公式ワークショップ「Code with Claude」の教材リポジトリを調査。プロンプトの分解手法、MCP によるツール連携、エージェントの性能評価など、高度な AI アシスタントを構築するための実践的な知見とハンズオンの内容を解説します。 anthropics/cwc-workshops 学習ガイド・開発アセット cwc-workshops ← 記事一覧へ戻る GitHub Watcher cwc-workshops Claude と共に次世代のエージェントを創る。Anthropic 公式ワークショップ「Code with Claude」のハンズオン教材・実践モジュール集。 記事作成日 2026-05-07 種別 Pickup 対象 repo anthropics/cwc-workshops Star数 1,515 これは何か Anthropic が開催した公式ワークショップ「Code with Claude (CWC)」で使用された学習用リポジトリです。最新の Claude モデルやエージェント機能を使いこなし、実用的な AI アプリケーションや自律型エージェントを構築するためのハンズオン教材がまとめられています。 何ができるか 複雑なプロンプトの分解（Decomposition）、Model Context Protocol (MCP) を使ったツール連携、エージェントの性能評価（Evaluation）、そして特定のユースケース（SRE 業務やデータ分析等）に特化した Managed Agent の構築手法を段階的に学ぶことができます。 目立つポイント 用途に合わせたモデル選択（Extended Thinking 等）の最適化ガイド。大規模プロンプトを小さな「スキル」に分割するマルチエージェント設計。MCP サーバーを介した外部ツール操作の実践。 grader（評価器）を用いた定量的な改善サイクル。 セットアップや使い方の流れ 各モジュールのディレクトリ（`rightmodel/`, `agent-decomposition/` 等）に移動し、README の指示に従って環境を構築します。Claude Code 等を併用しながら、提供されたコードやプロンプトを改変して学習を進めます。 どんな人向けか Claude の最新機能をエンジニアリングに活かしたい開発者、自律型 AI エージェントの設計・評価手法を体系的に学びたい層。 注意点 現在は「アーカイブ」扱いの非推奨リポジトリとなっており、プルリクエスト等の受付は行われていません。教材としての価値は非常に高いですが、最新の SDK バージョンとの差分には注意が必要です。 まとめ Anthropic のエンジニアがどのような思想でエージェントを設計しているのか、その「手の内」を垣間見ることができる極めて貴重な学習リソースです。 参照リンク https://github.com/anthropics/cwc-workshops Shared GitHub Serial: #464"
+    },
     {
       "slug": "2026-05-07-edtechre-pybroker",
       "category": "github-pickup",

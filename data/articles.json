@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-07-anthropics-cwc-workshops",
+      "title": "cwc-workshops",
+      "dek": "Claude と共に次世代のエージェントを創る。Anthropic 公式ワークショップ「Code with Claude」のハンズオン教材・実践モジュール集。",
+      "summary": "Anthropic 公式ワークショップ「Code with Claude」の教材リポジトリを調査。プロンプトの分解手法、MCP によるツール連携、エージェントの性能評価など、高度な AI アシスタントを構築するための実践的な知見とハンズオンの内容を解説します。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T15:20:00+09:00",
+      "repoName": "anthropics/cwc-workshops",
+      "repoUrl": "https://github.com/anthropics/cwc-workshops",
+      "starCount": 1515,
+      "articleUrl": "./articles/github/daily/2026-05-07-anthropics-cwc-workshops.html",
+      "serial": 464,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-07-edtechre-pybroker",
       "title": "pybroker",
       "dek": "機械学習とバックテストを直結。NumPy と Numba による高速処理を実現した、アルゴリズム取引戦略開発のための Python フレームワーク。",
