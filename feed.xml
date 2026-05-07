@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 04:12:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 05:24:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Tools Update: GPT-5.5 Instant, Claude Managed Agents, and gemini-3.1-flash-lite]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年5月8日の汎用AIツールの主要アップデートをまとめました。OpenAI の GPT-5.5 Instant 投入、Claude の「Dreaming（自己改善）」機能、Google の Flash-lite 正式リリースなど、エージェント機能の進化が加速しています。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-coding-tools-multi-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「ゼロから作らず、クックブックから選ぶ」。RAG、マルチエージェント、MCP、音声生成など、100以上の『即実行可能』な AI アプリ・テンプレートが揃う究極の LLM 開発レシピ集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai_home_renovation_agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-shubhamsaboo-ai-home-renovation-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-shubhamsaboo-ai-home-renovation-agent.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。]]></description>
     </item>
   </channel>
 </rss>
