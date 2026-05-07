@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ベクトル検索不要、推論ベースの次世代 RAG フレームワーク。長大な文書を階層構造化し、人間のような「目次」ベースのナビゲーションで回答を導出。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>PageIndex</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">PageIndex</h1>
+      <p class="article-dek">ベクトル検索不要、推論ベースの次世代 RAG フレームワーク。長大な文書を階層構造化し、人間のような「目次」ベースのナビゲーションで回答を導出。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-08 -->
+          <strong>2026-05-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/VectifyAI/PageIndex" target="_blank" rel="noreferrer">
+              VectifyAI/PageIndex
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>29,459</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>PageIndex は、従来のベクトル類似度検索（Vector Search）に依存しない、推論ベースの新しい RAG（検索拡張生成）フレームワークです。文書を単なる「チャンク（断片）」として扱うのではなく、意味のある階層構造としてインデックス化することで、精度の高い情報抽出を実現します。</p>
+
+        <h2>何ができるか</h2>
+        <p>長大な PDF やドキュメントから、人間が目次や索引を辿るようにして必要な情報を見つけ出します。質問に対して LLM がインデックスのツリー構造を動的に探索し、最も関連性の高いセクションを特定して回答を生成します。ページ番号やセクション名の正確な引用も可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「ベクトルレス」かつ「チャンク分割不要」な点が最大の特徴です。これにより、文脈の分断を防ぎ、複雑な構造を持つ文書でも正確に理解できます。また、探索のプロセスが可視化されるため、なぜその回答に至ったのかという説明責任（Explainability）が非常に高いのも利点です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python ライブラリとして提供されており、`pip install pageindex` で導入可能です。ドキュメントを読み込ませてツリーインデックスを作成し、クエリを投げることで、高度な推論を伴う RAG システムを構築できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>従来のベクトル RAG の精度に限界を感じている開発者、法務・技術文書などの構造化された長大ドキュメントを扱う企業、根拠（引用）の正確性が求められるシステムを構築したいエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>探索に LLM の推論を複数回使用するため、単純なベクトル検索と比較してコストとレスポンスタイムが増加する傾向があります。速度よりも精度を重視するユースケースに適しています。</p>
+
+        <h2>まとめ</h2>
+        <p>「検索」を「推論による探索」へと進化させた RAG のブレイクスルーです。ベクトル検索の弱点を補い、ドキュメント理解の質を一段階引き上げる強力なフレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/VectifyAI/PageIndex" target="_blank" rel="noreferrer">https://github.com/VectifyAI/PageIndex</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #472</p>
+      </div>
+    </article>
+  </body>
+</html>

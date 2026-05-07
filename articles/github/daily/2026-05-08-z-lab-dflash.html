@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="拡散モデルを用いた並列トークン生成による推論加速手法。LLM の推論速度を、精度を損なうことなく最大 6 倍以上に向上させる次世代の投機的デコーディング。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>dflash</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">dflash</h1>
+      <p class="article-dek">拡散モデルを用いた並列トークン生成による推論加速手法。LLM の推論速度を、精度を損なうことなく最大 6 倍以上に向上させる次世代の投機的デコーディング。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-08 -->
+          <strong>2026-05-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/z-lab/dflash" target="_blank" rel="noreferrer">
+              z-lab/dflash
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,433</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>DFlash (Block Diffusion for Flash Speculative Decoding) は、LLM の推論を劇的に高速化するための新しい手法です。従来の 1 トークンずつ順番に生成する方式に対し、拡散モデル（Diffusion Model）を用いて「トークンのブロック」を並列に一括生成し、メインモデルで検証することで高速化を実現します。</p>
+
+        <h2>何ができるか</h2>
+        <p>既存の LLM（ターゲットモデル）の出力を損なうことなく、推論の総実行時間を大幅に短縮します。ベンチマークテストでは、特定の設定下で 6 倍以上の加速が確認されており、リアルタイム性が求められるエージェントや対話システムでの応用が期待されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ターゲットモデルの隠れ状態（Hidden States）を拡散モデルの条件付けに使用することで、メインモデルの出力分布に極めて近い高品質なドラフトトークンを並列生成できる点が独創的です。これにより、従来の投機的デコーディングよりも高い承認率と加速率を両立しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>PyTorch ベースの実装として提供されており、vLLM や SGLang といった既存の推論フレームワークへの統合を想定した設計になっています。リポジトリ内のコードを使用して、独自のモデルに対して DFlash をトレーニングし、推論エンジンに組み込むことが可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大規模言語モデルのデプロイコストや遅延を改善したい機械学習エンジニア、推論エンジンの開発者、最新の生成アルゴリズム（Diffusion + LLM）に関心のあるリサーチャーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>導入には拡散モデル（ドラフトモデル）のトレーニングや追加の計算資源が必要です。また、使用するハードウェア（GPU）の性能やモデルの特性によって加速の恩恵は変化します。</p>
+
+        <h2>まとめ</h2>
+        <p>「逐次処理」という LLM の最大のボトルネックに、拡散モデルによる「並列化」で挑む野心的な手法です。推論インフラの常識を塗り替える可能性を秘めた、エンジニア必見のプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/z-lab/dflash" target="_blank" rel="noreferrer">https://github.com/z-lab/dflash</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #473</p>
+      </div>
+    </article>
+  </body>
+</html>
