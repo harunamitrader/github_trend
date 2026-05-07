@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-07-yichengyang-ethan-oracle3",
+      "title": "oracle3",
+      "dek": "予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。",
+      "summary": "予測市場（Prediction Markets）特化の自律型トレードエージェント「oracle3」を調査。学術的な価格理論を背景にした裁定取引戦略や、マルチプラットフォーム対応の実行エンジンなど、クオンツ・エージェントの最前線を解説します。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T20:21:00+09:00",
+      "repoName": "YichengYang-Ethan/oracle3",
+      "repoUrl": "https://github.com/YichengYang-Ethan/oracle3",
+      "starCount": 167,
+      "articleUrl": "./articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html",
+      "serial": 466,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-07-robbyczgw-cla-hermes-web-search-plus",
       "title": "hermes-web-search-plus",
       "dek": "Hermes Agent に「最強の検索能力」を。10 種類以上のプロバイダーを自動使い分け、ウェブ情報の抽出・要約を極限まで高度化する特化型プラグイン。",

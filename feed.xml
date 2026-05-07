@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 11:14:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 20:21:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[oracle3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[hermes-web-search-plus]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-robbyczgw-cla-hermes-web-search-plus.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[keep-codex-fast]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-keep-codex-fast.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-vibeforge1111-keep-codex-fast.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。]]></description>
     </item>
   </channel>
 </rss>

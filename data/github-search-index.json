@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-07T11:11:15.296025+00:00",
-  "count": 487,
+  "generatedAt": "2026-05-07T11:21:17.818905+00:00",
+  "count": 488,
   "articles": [
+    {
+      "slug": "2026-05-07-yichengyang-ethan-oracle3",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "oracle3",
+      "dek": "予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。",
+      "summary": "予測市場（Prediction Markets）特化の自律型トレードエージェント「oracle3」を調査。学術的な価格理論を背景にした裁定取引戦略や、マルチプラットフォーム対応の実行エンジンなど、クオンツ・エージェントの最前線を解説します。",
+      "repoName": "YichengYang-Ethan/oracle3",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T20:21:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html",
+      "serial": 466,
+      "searchText": "oracle3 予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。 予測市場（Prediction Markets）特化の自律型トレードエージェント「oracle3」を調査。学術的な価格理論を背景にした裁定取引戦略や、マルチプラットフォーム対応の実行エンジンなど、クオンツ・エージェントの最前線を解説します。 YichengYang-Ethan/oracle3 金融・トレード分析 oracle3 ← 記事一覧へ戻る GitHub Watcher oracle3 予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。 記事作成日 2026-05-07 種別 Pickup 対象 repo YichengYang-Ethan/oracle3 Star数 167 これは何か Polymarket や Kalshi といった予測市場（Prediction Markets）での取引を自動化・高度化するための自律型エージェント・フレームワークです。学術的な価格理論（Wang Transform）を実務的なトレードパイプラインに統合しており、定量的アプローチによる自律運用を可能にします。 何ができるか 複数の予測市場プラットフォームに接続し、確率の公理に基づいた裁定取引（Arbitrage）や、モデル駆動型のクオンツ戦略を実行できます。ケリー基準（Kelly Criterion）による動的なポジションサイジングや、ポートフォリオのリアルタイム監視、ペーパートレード（デモ取引）機能も備えています。 目立つポイント Wang Transform を用いた公正価値（Fair Value）とグリークスの算出。8種類の裁定取引戦略と2種類のモデル駆動戦略。Polymarket, Kalshi, Solana 系市場へのマルチプラットフォーム対応。asyncio による並行処理を駆使した高速な実行エンジン。 セットアップや使い方の流れ Python 環境にてクローンし、必要なライブラリをインストール。各取引所の API キーを設定し、CLI ツール（Click ベース）を通じて戦略の選択、バックテスト、またはライブ取引を開始します。 どんな人向けか 予測市場のボラティリティを定量的手法で攻略したいトレーダー、金融工学の知見を実運用のエージェントに落とし込みたいエンジニア。 注意点 予測市場には高い流動性リスクやカウンターパーティリスクが存在します。本ツールのアルゴリズムや戦略は利益を保証するものではなく、特にリアル資金での運用には慎重な検証とリスク管理が不可欠です。 まとめ AI エージェントが「意思決定」だけでなく「資本投下」まで自律的に行う未来を、予測市場というフロンティアで具現化した野心的なプロジェクトです。 参照リンク https://github.com/YichengYang-Ethan/oracle3 Shared GitHub Serial: #466"
+    },
     {
       "slug": "2026-05-07-robbyczgw-cla-hermes-web-search-plus",
       "category": "github-pickup",
