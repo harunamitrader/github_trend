@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-07T08:30:38.407232+00:00",
-  "count": 486,
+  "generatedAt": "2026-05-07T11:11:15.296025+00:00",
+  "count": 487,
   "articles": [
+    {
+      "slug": "2026-05-07-robbyczgw-cla-hermes-web-search-plus",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hermes-web-search-plus",
+      "dek": "Hermes Agent に「最強の検索能力」を。10 種類以上のプロバイダーを自動使い分け、ウェブ情報の抽出・要約を極限まで高度化する特化型プラグイン。",
+      "summary": "Hermes Agent 用の高度なウェブ検索拡張「hermes-web-search-plus」を調査。10種類以上のプロバイダー（Serper, Brave, Tavily等）をクエリの意図に応じて動的にルーティングし、高精度な情報抽出と要約を実現するプラグインの機能を解説します。",
+      "repoName": "robbyczgw-cla/hermes-web-search-plus",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T20:11:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-robbyczgw-cla-hermes-web-search-plus.html",
+      "serial": 465,
+      "searchText": "hermes-web-search-plus Hermes Agent に「最強の検索能力」を。10 種類以上のプロバイダーを自動使い分け、ウェブ情報の抽出・要約を極限まで高度化する特化型プラグイン。 Hermes Agent 用の高度なウェブ検索拡張「hermes-web-search-plus」を調査。10種類以上のプロバイダー（Serper, Brave, Tavily等）をクエリの意図に応じて動的にルーティングし、高精度な情報抽出と要約を実現するプラグインの機能を解説します。 robbyczgw-cla/hermes-web-search-plus AIエージェント (自律基盤・特化アプリ) hermes-web-search-plus ← 記事一覧へ戻る GitHub Watcher hermes-web-search-plus Hermes Agent に「最強の検索能力」を。10 種類以上のプロバイダーを自動使い分け、ウェブ情報の抽出・要約を極限まで高度化する特化型プラグイン。 記事作成日 2026-05-07 種別 Pickup 対象 repo robbyczgw-cla/hermes-web-search-plus Star数 151 これは何か 自律型 AI エージェントフレームワーク「Hermes Agent」のウェブ検索・情報抽出機能を劇的に強化するための、インテリジェントなプラグインです。単一の検索エンジンに依存せず、複数のプロバイダーをクエリの意図に応じて動的に切り替える「自動ルーティング」機能を備えています。 何ができるか Serper, Brave, Tavily, Exa, Perplexity などの主要な検索・リサーチ API 10 種類以上に対応。質問の内容（最新ニュース、専門論文、一般的なウェブ情報など）を解析し、最適なプロバイダーを自動選択します。また、抽出された URL からクリーンな Markdown コンテンツを生成する高度なスクレイピング機能も統合されています。 目立つポイント 意図に基づく自動ルーティング（Auto-Routing）。失敗時の代替プロバイダーへの自動フォールバック。Exa を活用した「深層推論（Deep Reasoning）」モード。API コールを節約するローカルキャッシュ。詳細な診断レポート（なぜその検索エンジンを選んだか）の出力。 セットアップや使い方の流れ Hermes Agent のプラグインディレクトリにクローン、またはパッケージとしてインストール。各種検索 API のキーを設定ファイルに記述するだけで、エージェントが既存の検索ツールよりも賢くウェブを探索できるようになります。 どんな人向けか Hermes Agent を使って高度な調査・要約タスクを行いたい開発者、検索の精度や信頼性を極限まで高めたいエージェントエンジニア。 注意点 複数の外部 API を利用するため、各サービスの利用料金やレート制限に注意が必要です。また、特定のプロバイダーがダウンしている場合、ルーティング設定によっては挙動が変わる可能性があります。 まとめ エージェントが「ネットで調べる」という行為の質を、ルーティングと抽出の技術によって一段上のレベルへ引き上げる、非常に実用性の高い拡張ツールです。 参照リンク https://github.com/robbyczgw-cla/hermes-web-search-plus Shared GitHub Serial: #465"
+    },
     {
       "slug": "2026-05-07-anthropics-cwc-workshops",
       "category": "github-pickup",

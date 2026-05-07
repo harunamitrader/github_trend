@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 08:34:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 20:11:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hermes-web-search-plus]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-robbyczgw-cla-hermes-web-search-plus.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-robbyczgw-cla-hermes-web-search-plus.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Hermes Agent に「最強の検索能力」を。10 種類以上のプロバイダーを自動使い分け、ウェブ情報の抽出・要約を極限まで高度化する特化型プラグイン。]]></description>
+    </item>
     <item>
       <title><![CDATA[cwc-workshops]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-cwc-workshops.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-ai-tools-for-ui]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「AI に、美学と使い勝手を」。エディタ向けのデザインスキルから、UI 生成 MCP、心理学に基づいた UX 原則まで、次世代 UI/UX 構築のための厳選リソース集。]]></description>
     </item>
   </channel>
 </rss>
