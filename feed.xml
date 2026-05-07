@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 00:41:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 09:43:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[petdex]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-crafter-station-petdex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-crafter-station-petdex.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex に命を吹き込む、デスクトップ・ペットの百科事典。コミュニティ製アニメーションペットの閲覧・検証・配信を支える中央ギャラリー。]]></description>
+    </item>
     <item>
       <title><![CDATA[CloakBrowser]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「作りながら学ぶ、次世代 AI 開発」。RAG、音声アシスタント、MCP エージェントなど、80 種類以上の実践的な AI アプリ構築レシピを集約した究極のカタログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Local Deep Research]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-learningcircuit-local-deep-research.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-learningcircuit-local-deep-research.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「究極のプライバシーと、妥協のないリサーチを」。ローカル環境で完結し、多彩な検索エンジンと LLM を組み合わせて深層調査を実現する、自律型リサーチアシスタント。]]></description>
     </item>
   </channel>
 </rss>
