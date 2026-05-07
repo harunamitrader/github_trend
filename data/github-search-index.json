@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-07T00:46:41.201545+00:00",
-  "count": 484,
+  "generatedAt": "2026-05-07T03:01:28.776044+00:00",
+  "count": 485,
   "articles": [
+    {
+      "slug": "2026-05-07-edtechre-pybroker",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "pybroker",
+      "dek": "機械学習とバックテストを直結。NumPy と Numba による高速処理を実現した、アルゴリズム取引戦略開発のための Python フレームワーク。",
+      "summary": "アルゴリズム取引の戦略開発とバックテストに特化した「PyBroker」を調査。機械学習モデルの組み込みを前提とした設計や、Numba による高速化、ウォークフォワード分析による頑健性検証など、クオンツ・エンジニア向けの強力な機能を解説します。",
+      "repoName": "edtechre/pybroker",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T12:02:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-edtechre-pybroker.html",
+      "serial": 463,
+      "searchText": "pybroker 機械学習とバックテストを直結。NumPy と Numba による高速処理を実現した、アルゴリズム取引戦略開発のための Python フレームワーク。 アルゴリズム取引の戦略開発とバックテストに特化した「PyBroker」を調査。機械学習モデルの組み込みを前提とした設計や、Numba による高速化、ウォークフォワード分析による頑健性検証など、クオンツ・エンジニア向けの強力な機能を解説します。 edtechre/pybroker 金融・トレード分析 pybroker ← 記事一覧へ戻る GitHub Watcher pybroker 機械学習とバックテストを直結。NumPy と Numba による高速処理を実現した、アルゴリズム取引戦略開発のための Python フレームワーク。 記事作成日 2026-05-07 種別 Pickup 対象 repo edtechre/pybroker Star数 3,284 これは何か アルゴリズム取引の戦略開発とバックテストに特化したオープンソースの Python フレームワークです。特に機械学習（ML）モデルを取引戦略に組み込むワークフローを強力にサポートしており、データ収集からモデル学習、パフォーマンス評価までを一気通貫で行えます。 何ができるか NumPy や Numba（JIT コンパイル）を活用した超高速なバックテストエンジンにより、大規模なデータセットでも短時間で検証可能です。また、ウォークフォワード分析（Walkforward Analysis）やブートストラップ法を用いた統計的な評価指標算出により、戦略の頑健性を客観的に判断できます。 目立つポイント 機械学習フレームワークとのネイティブな親和性。並列計算による複数銘柄の同時バックテスト。Alpaca や Yahoo Finance 等からのデータ自動取得とキャッシュ。ポジションサイジングやストップロスの高度な制御。 セットアップや使い方の流れ Python 環境にて `pip install pybroker` でインストール。Pandas DataFrames や外部 API からデータをロードし、独自の取引ルール（または ML モデルによる予測）を定義して、バックテストエンジンを実行します。 どんな人向けか データサイエンスの手法を取引戦略に導入したいクオンツ、Python で独自の自動売買システムを構築したいエンジニア、既存のバックテストツールの速度に不満がある層。 注意点 金融市場での取引にはリスクが伴います。PyBroker によるバックテスト結果は将来の利益を保証するものではなく、実運用前には十分なリスク管理と検証が必要です。 まとめ AI・機械学習が投資判断の重要性を増す中で、それらを「取引戦略」として具現化し、高速かつ厳密に検証できる PyBroker は、現代のトレーダーにとって非常に価値のあるツールです。 参照リンク https://github.com/edtechre/pybroker Shared GitHub Serial: #463"
+    },
     {
       "slug": "2026-05-07-anthropics-cwc-long-running-agents",
       "category": "github-pickup",
