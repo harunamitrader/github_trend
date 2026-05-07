@@ -5,16 +5,8 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 06:29:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 17:30:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title><![CDATA[[Deep Dive] financial-services]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/details/2026-05-07-anthropics-financial-services-deep-dive.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/details/2026-05-07-anthropics-financial-services-deep-dive.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude for Financial Services: 徹底解剖。Managed Agents と MCP が切り拓く金融実務の未来。]]></description>
-    </item>
     <item>
       <title><![CDATA[cwc-workshops]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-cwc-workshops.html</link>
@@ -166,6 +158,14 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「Codex の重さを、手放そう」。肥大化したチャット履歴やログ、古いワークツリーを安全に整理し、AI エージェントの動作を軽快に保つためのメンテナンス・スキル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-ai-tools-for-ui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-maxbogo-awesome-ai-tools-for-ui.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「AI に、美学と使い勝手を」。エディタ向けのデザインスキルから、UI 生成 MCP、心理学に基づいた UX 原則まで、次世代 UI/UX 構築のための厳選リソース集。]]></description>
     </item>
   </channel>
 </rss>

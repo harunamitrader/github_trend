@@ -1,22 +1,7 @@
 {
-  "generatedAt": "2026-05-07T06:25:34.657231+00:00",
-  "count": 487,
+  "generatedAt": "2026-05-07T08:30:38.407232+00:00",
+  "count": 486,
   "articles": [
-    {
-      "slug": "2026-05-07-anthropics-financial-services-deep-dive",
-      "category": "github-pickup",
-      "originType": "pickup",
-      "title": "[Deep Dive] financial-services",
-      "dek": "Claude for Financial Services: 徹底解剖。Managed Agents と MCP が切り拓く金融実務の未来。",
-      "summary": "Anthropic 公式の金融エージェント基盤「financial-services」を技術的に深掘り。オーケストレーターとワーカーによるマルチエージェント設計、MCP による外部データ連携、そして専門スキルの実装詳細など、実務への AI 導入に不可欠なエッセンスを詳説します。",
-      "repoName": "anthropics/financial-services",
-      "genre": "AIエージェント (自律基盤・特化アプリ)",
-      "publishedAt": "2026-05-07",
-      "createdAt": "2026-05-07T15:25:00+09:00",
-      "articleUrl": "./articles/github/details/2026-05-07-anthropics-financial-services-deep-dive.html",
-      "serial": 465,
-      "searchText": "[Deep Dive] financial-services Claude for Financial Services: 徹底解剖。Managed Agents と MCP が切り拓く金融実務の未来。 Anthropic 公式の金融エージェント基盤「financial-services」を技術的に深掘り。オーケストレーターとワーカーによるマルチエージェント設計、MCP による外部データ連携、そして専門スキルの実装詳細など、実務への AI 導入に不可欠なエッセンスを詳説します。 anthropics/financial-services AIエージェント (自律基盤・特化アプリ) Deep Dive: anthropics/financial-services | harunami AI base ← 概要記事へ戻る Technical Deep Dive Claude for Financial Services: 徹底解剖 単なるチャットを超えた「自律型金融エンジニア」の実現。Managed Agents と MCP が切り拓く金融実務の未来。 1. アーキテクチャ：Claude Managed Agents による垂直統合 Anthropic がこのリポジトリで提示しているのは、複雑な金融ワークフローを「単一の巨大なプロンプト」で解くのではなく、役割分担された マルチエージェント・システム で解決するアプローチです。 Orchestrator-Worker パターン 中央の「オーケストレーター」が全体像（例：DCFモデルの作成）を把握し、個別の専門タスク（例：Capital IQ からのデータ抽出、Excel 書き出し）を、その分野に特化した「ワーカーエージェント」に委任（Handoff）します。 🏗️ オーケストレーションの仕組み orchestrate.py による動的なセッション管理。 エージェント間の明示的な「引き継ぎ（Handoff）」プロトコル。 タスク完了後の自動的な品質検証（Evaluation）ループ。 2. 専門エージェント：金融実務の特化型 AI リポジトリには、特定の金融業務を完遂させるために設計された「Managed Agent」の定義が含まれています。 投資銀行 / PE 向け：Pitch Agent 単なる文書作成ではなく、財務モデリング（Excel）とプレゼン作成（PPTX）を自動化します。 mcp-capiq を介して最新の市場データにアクセス。 xlsx-author による数式維持型の Excel 生成。 LBO / DCF 分析のドラフト作成と感度分析の自動実行。 コンプライアンス / オペレーション KYC Screener: 非構造化文書からリスク要素を抽出し、ルールベースで判定。 GL Reconciler: 会計データの不一致を特定し、仕訳レベルまで遡って原因を究明。 3. 技術的ブレイクスルー：MCP (Model Context Protocol) このプロジェクトの真の強みは、 MCP によるデータの垂直統合 にあります。Claude が「知っている」情報だけでなく、エンタープライズ内部のデータベースや、S&P Capital IQ のような専門プロバイダーのデータを「道具」として自由に使いこなせるようになっています。 コネクティビティの重要性 金融実務において「最新かつ正確な数値」は生命線です。MCP コネクタを利用することで、Claude は幻覚（Hallucination）を防ぎながら、リアルタイムの財務データに基づいた分析結果を出力することが可能になります。 4. デプロイメントと拡張性 リポジトリに含まれる deploy-managed-agent.sh は、これらのエージェントをインフラとしてプロビジョニングするためのツールです。これにより、開発者は Claude を「ブラウザ上のチャットツール」としてではなく、 「API 経由で呼び出せる自律的な金融マイクロサービス」 として自社システムに組み込むことができます。 技術的なまとめ 『financial-services』リポジトリは、以下の 3 つの要素が組み合わさった次世代の AI 基盤を提示しています： Managed Agents: 役割が定義された自律ユニット。 MCP: 信頼できるデータソースへの安全なアクセス。 Orchestration: 複雑な業務フローを繋ぎ合わせる規律。 これは、AI が単なるアシスタントから、人間の専門家を強力にサポートする「デジタル同僚」へと進化する過程の、非常に具体的な設計図と言えます。 Original Repository: anthropics/financial-services Deep Dive Content: financial-services-detail"
-    },
     {
       "slug": "2026-05-07-anthropics-cwc-workshops",
       "category": "github-pickup",
