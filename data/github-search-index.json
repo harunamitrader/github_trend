@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-07T00:43:34.737912+00:00",
-  "count": 483,
+  "generatedAt": "2026-05-07T00:46:41.201545+00:00",
+  "count": 484,
   "articles": [
+    {
+      "slug": "2026-05-07-anthropics-cwc-long-running-agents",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cwc-long-running-agents",
+      "dek": "エージェントを「止まらないエンジニア」へ。長時間・多セッションにわたる複雑なタスクを Claude に完遂させるための、Anthropic 公式ハーネス実装例。",
+      "summary": "複雑な開発プロジェクトを AI エージェントに長時間自律遂行させるための公式ハーネス実装「cwc-long-running-agents」を調査。Git 履歴や進捗ノートを活用したセッション引き継ぎ、評価用エージェントによる自己検証など、Claude の能力を極限まで引き出す規律あるワークフローを解説します。",
+      "repoName": "anthropics/cwc-long-running-agents",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T09:47:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-07-anthropics-cwc-long-running-agents.html",
+      "serial": 462,
+      "searchText": "cwc-long-running-agents エージェントを「止まらないエンジニア」へ。長時間・多セッションにわたる複雑なタスクを Claude に完遂させるための、Anthropic 公式ハーネス実装例。 複雑な開発プロジェクトを AI エージェントに長時間自律遂行させるための公式ハーネス実装「cwc-long-running-agents」を調査。Git 履歴や進捗ノートを活用したセッション引き継ぎ、評価用エージェントによる自己検証など、Claude の能力を極限まで引き出す規律あるワークフローを解説します。 anthropics/cwc-long-running-agents AIエージェント (自律基盤・特化アプリ) cwc-long-running-agents ← 記事一覧へ戻る GitHub Watcher cwc-long-running-agents エージェントを「止まらないエンジニア」へ。長時間・多セッションにわたる複雑なタスクを Claude に完遂させるための、Anthropic 公式ハーネス実装例。 記事作成日 2026-05-07 種別 Pickup 対象 repo anthropics/cwc-long-running-agents Star数 29 これは何か 長時間（数時間から数日）にわたって稼働する AI エージェントが、コンテキストの喪失や迷走を防ぎながら複雑なタスクを完遂できるようにするための「ハーネス（制御機構）」の実装例です。Anthropic のエンジニアリングチームが提唱する「品質ループ（Quality Loop）」の概念を具現化したリポジトリです。 何ができるか エージェントが自ら進捗を記録し、Git 履歴を活用してセッションを跨いだ作業の引き継ぎを行うための構造を提供します。また、独立した評価用エージェント（Evaluator）を動かし、客観的な視点で成果物の品質をチェックする「自己検証」の仕組みを導入できます。 目立つポイント Default-FAIL 原則（証拠がない限り不合格とする評価基準）。Fresh-context 評価（編集権限のないクリーンな環境での検証）。エージェントによる自動進捗ノート（handoff）の作成と管理。Claude Code 等のツールと組み合わせて利用可能な設計。 セットアップや使い方の流れ リポジトリをクローンし、提供されているスクリプトやプロンプトテンプレートを参考に、自身のエージェントワークフローに組み込みます。特に、エージェントが `/spec` や `/plan` などの段階を経て作業を進める「規律」を定義する際に役立ちます。 どんな人向けか 大規模なリファクタリングや新機能実装など、長時間かかるタスクを AI エージェントに任せたい開発者、エージェントの自律性と信頼性を高めたいエンジニア。 注意点 このリポジトリは Anthropic のワークショップ用教材としての側面が強く、そのまま動かすアプリというよりは「設計思想とコード片」の提供に主眼が置かれています。自身の環境への適応には一定の実装が必要です。 まとめ AI エージェントが実務で「使える」ようになるためには、単なる指示の実行ではなく、プロフェッショナルなエンジニアと同等の「規律と検証」が必要です。その最先端の知見が詰まった、開発者必見のリソースです。 参照リンク https://github.com/anthropics/cwc-long-running-agents Shared GitHub Serial: #462"
+    },
     {
       "slug": "2026-05-07-crafter-station-petdex",
       "category": "github-pickup",

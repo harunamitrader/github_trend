@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 00:47:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 09:46:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[cwc-long-running-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-cwc-long-running-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-anthropics-cwc-long-running-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エージェントを「止まらないエンジニア」へ。長時間・多セッションにわたる複雑なタスクを Claude に完遂させるための、Anthropic 公式ハーネス実装例。]]></description>
+    </item>
     <item>
       <title><![CDATA[petdex]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-crafter-station-petdex.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「エディタを、フローティング・ガラスの島へ」。 rounded corners と透明感溢れるパネル、滑らかなアニメーションが融合した、極めてモダンな VS Code テーマ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Awesome AI Apps]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-arindam200-awesome-ai-apps.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-arindam200-awesome-ai-apps.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「作りながら学ぶ、次世代 AI 開発」。RAG、音声アシスタント、MCP エージェントなど、80 種類以上の実践的な AI アプリ構築レシピを集約した究極のカタログ。]]></description>
     </item>
   </channel>
 </rss>

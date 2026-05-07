@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-07-anthropics-cwc-long-running-agents",
+      "title": "cwc-long-running-agents",
+      "dek": "エージェントを「止まらないエンジニア」へ。長時間・多セッションにわたる複雑なタスクを Claude に完遂させるための、Anthropic 公式ハーネス実装例。",
+      "summary": "複雑な開発プロジェクトを AI エージェントに長時間自律遂行させるための公式ハーネス実装「cwc-long-running-agents」を調査。Git 履歴や進捗ノートを活用したセッション引き継ぎ、評価用エージェントによる自己検証など、Claude の能力を極限まで引き出す規律あるワークフローを解説します。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T09:47:00+09:00",
+      "repoName": "anthropics/cwc-long-running-agents",
+      "repoUrl": "https://github.com/anthropics/cwc-long-running-agents",
+      "starCount": 29,
+      "articleUrl": "./articles/github/daily/2026-05-07-anthropics-cwc-long-running-agents.html",
+      "serial": 462,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-07-crafter-station-petdex",
       "title": "petdex",
       "dek": "Codex に命を吹き込む、デスクトップ・ペットの百科事典。コミュニティ製アニメーションペットの閲覧・検証・配信を支える中央ギャラリー。",
