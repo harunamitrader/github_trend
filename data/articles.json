@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-08-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3",
+      "dek": "2026年5月8日のAIコーディングツールの主要アップデートをまとめました。Claude Code のリモートプラグイン対応や Cline のメモリ不足修正(8GB heap)、GitHub Copilot CLI の無料枠開放など、実用性を高める更新が続いています。",
+      "summary": "Claude Code v2.1.133 (リモートプラグイン)、Cline v3.83.0 (8GB heap)、Gemini CLI v0.42.0-p3 (メモリ管理)、GitHub Copilot CLI v1.1.0 (無料枠開放) など、主要な AI コーディングツールの 2026年5月8日アップデートをまとめました。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T04:08:00+09:00",
+      "toolName": "Claude Code, Cline, Gemini CLI, Codex, GitHub Copilot CLI",
+      "articleUrl": "./articles/tools/2026-05-08-ai-coding-tools-multi-update.html",
+      "serial": 467
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-07-yichengyang-ethan-oracle3",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 May 2026 20:21:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:11:26 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年5月8日のAIコーディングツールの主要アップデートをまとめました。Claude Code のリモートプラグイン対応や Cline のメモリ不足修正(8GB heap)、GitHub Copilot CLI の無料枠開放など、実用性を高める更新が続いています。]]></description>
+    </item>
     <item>
       <title><![CDATA[oracle3]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「理想の住まいを、AI と描く」。部屋の写真と予算から、Gemini のマルチモーダル能力を駆使してリノベーション案とフォトリアルな完成予想図を生成するマルチエージェント・システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Socratic-Education-System]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-howiewang1121-socratic-education-system.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-06-howiewang1121-socratic-education-system.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「答えではなく、問いを」。多智能体（マルチエージェント）の連携により、学生の論理的思考を誘発し、教師に的確な介入案を提示する蘇格拉底（ソクラテス）式教育プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

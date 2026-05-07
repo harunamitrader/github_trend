@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="2026年5月8日のAIコーディングツールの主要アップデート。Claude Code のリモートプラグイン対応や Cline のメモリ不足修正(8GB heap)、GitHub Copilot CLI の無料枠開放など、実用性を高める更新が続いています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log #467</p>
+      </div>
+
+      <h1 class="article-title">AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3</h1>
+      <p class="article-dek">2026年5月8日のAIコーディングツールの主要アップデート。Claude Code のリモートプラグイン対応や Cline のメモリ不足修正(8GB heap)、GitHub Copilot CLI の無料枠開放など、実用性を高める更新が続いています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-08 -->
+          <strong>2026-05-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>AIコーディング (CLI本体・拡張機能)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cline, Gemini CLI, Codex, GitHub Copilot CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>本日のアップデートでは、大規模なコードベースを扱うエージェントの安定性向上や、プラグインエコシステムの拡張が目立ちます。主な変更点は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            
+<li><strong>Claude Code v2.1.133:</strong> <code>--plugin-url</code> によるリモートアーカイブからのプラグイン読み込みに対応。また、Homebrew/WinGet での自動アップデート管理機能（CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE）が追加されました。</li>
+<li><strong>Cline v3.83.0:</strong> メモリ不足（OOM）によるクラッシュを回避するため、ヒープサイズを 8GB に拡大。また、要望の多かった VS Code フォアグラウンドターミナルでの実行オプションが復旧しました。</li>
+<li><strong>Gemini CLI v0.42.0-preview.3:</strong> 自動メモリ管理のための「canonical-patch」コントラクトを導入。<code>/exit --delete</code> によるセッション削除や <code>/bug-memory</code> コマンドが追加されています。</li>
+<li><strong>Codex v0.129.0:</strong> ワークスペース間でのプラグイン共有 API を実装。大規模な MCP 出力の切り詰め処理により、安定性が向上しました。</li>
+<li><strong>GitHub Copilot CLI v1.1.0:</strong> Copilot Free ユーザーへの開放が開始されました。また、<code>--hostname</code> フラグによるマルチアカウント運用がサポートされています。</li>
+
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Cline の 8GB ヒープ対応により、巨大なプロジェクトでの長時間作業がより安定します。また、Claude Code のリモートプラグイン対応は、チーム間でのツール共有を劇的に容易にする可能性があります。GitHub Copilot CLI の無料枠開放は、より幅広いユーザー層が AI 駆動の開発フローを試す機会となるでしょう。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェントの「タフさ（安定性）」と「拡張性（プラグイン）」の両面が強化された、非常に実用的なアップデート群です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="../../ai-tools-monitor.html" target="_blank" rel="noreferrer">AI Tool Log Dashboard</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
