@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 03:26:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 18:00:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-08 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,22 @@
       <category>github-update-report</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openai-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-openai-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-openai-cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI公式のコマンドラインツール。API操作、組織・プロジェクト管理、使用状況確認などをターミナルから直感的に実行可能。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[mcp-chrome]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mcp-chrome.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mcp-chrome.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Chrome拡張機能ベースのMCPサーバー。AIアシスタントが普段使いのブラウザを直接操作し、自動化やコンテンツ分析を可能にするツール。]]></description>
     </item>
     <item>
       <title><![CDATA[llama_index]]></title>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-web-ui]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ekkolearnai-hermes-web-ui.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントをブラウザから完全制御。Telegram や Discord など多プラットフォーム連携を統合管理する、Hermes Agent 専用の高機能ダッシュボード。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-07 GitHub Trending 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-07-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-07-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
