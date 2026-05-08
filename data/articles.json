@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "title": "llama_index",
+      "dek": "データとLLMを繋ぐ業界標準のフレームワーク。RAGから自律型エージェントまで、あらゆるAIアプリ開発を支えるデータ基盤。",
+      "summary": "データとLLMを連携させるための業界標準フレームワーク「LlamaIndex」を調査。多様なデータソースの取り込みから、高度な検索・クエリ、自律型エージェントの構築までをカバーする、AIアプリ開発のデファクトスタンダードです。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T12:24:00+09:00",
+      "repoName": "run-llama/llama_index",
+      "repoUrl": "https://github.com/run-llama/llama_index",
+      "starCount": 49226,
+      "articleUrl": "./articles/github/daily/2026-05-08-llama-index.html",
+      "rank": 999,
+      "serial": 476
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "title": "agentmemory",
       "dek": "AIコーディングエージェントに永続的な記憶を与える共有メモリレイヤー。一度教えたことを「忘れさせない」実務特化のMCPサーバー。",

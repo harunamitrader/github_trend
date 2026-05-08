@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-08T03:07:52.974727+00:00",
-  "count": 496,
+  "generatedAt": "2026-05-08T03:23:23.276366+00:00",
+  "count": 497,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "llama_index",
+      "dek": "データとLLMを繋ぐ業界標準のフレームワーク。RAGから自律型エージェントまで、あらゆるAIアプリ開発を支えるデータ基盤。",
+      "summary": "データとLLMを連携させるための業界標準フレームワーク「LlamaIndex」を調査。多様なデータソースの取り込みから、高度な検索・クエリ、自律型エージェントの構築までをカバーする、AIアプリ開発のデファクトスタンダードです。",
+      "repoName": "run-llama/llama_index",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T12:24:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-08-llama-index.html",
+      "serial": 476,
+      "searchText": "llama_index データとLLMを繋ぐ業界標準のフレームワーク。RAGから自律型エージェントまで、あらゆるAIアプリ開発を支えるデータ基盤。 データとLLMを連携させるための業界標準フレームワーク「LlamaIndex」を調査。多様なデータソースの取り込みから、高度な検索・クエリ、自律型エージェントの構築までをカバーする、AIアプリ開発のデファクトスタンダードです。 run-llama/llama_index ナレッジ管理・RAG解析 llama_index ← 記事一覧へ戻る GitHub Watcher llama_index データとLLMを繋ぐ業界標準のフレームワーク。RAGから自律型エージェントまで、あらゆるAIアプリ開発を支えるデータ基盤。 記事作成日 2026-05-08 種別 Pickup 対象 repo run-llama/llama_index Star数 49,226 これは何か LlamaIndexは、プライベートデータや独自のデータソースをLLM（大規模言語モデル）と連携させるための、業界標準のデータフレームワークです。単なる検索（RAG）を超えて、自律的な「エージェント型アプリケーション」を構築するための包括的なツールキットを提供します。 何ができるか 多様なデータ形式（PDF、API、SQLなど）の取り込み（Ingest）、LLMが扱いやすい形式への構造化（Index/Graph）、高度な検索・クエリインターフェースの提供、そして外部アプリケーションとの統合を可能にします。 目立つポイント 1. LlamaParse : 文書解析とOCRに特化した強力なプラットフォーム。130以上の形式に対応。 2. 300以上の統合プラグイン : OpenAI, Anthropic, Ollama, 各種ベクトルDBなど、幅広いスタックと連携。 3. Workflows & Agents : 複雑なタスクを遂行する自律型エージェントを、高度なAPIまたはローレベルなカスタマイズで構築可能。 セットアップや使い方の流れ pip install llama-index で基本パッケージを導入し、 SimpleDirectoryReader でデータを読み込み、数行のコードで VectorStoreIndex を作成してクエリを実行できます。目的に応じて llama-index-core をベースに個別プラグインを組み合わせる構成も可能です。 どんな人向けか 独自のデータを用いたAIチャットボットを開発したいエンジニア、複雑なビジネス要件を自動化するエージェントを構築したい開発者、最新のRAG（検索拡張生成）技術を実装したい研究者に最適です。 注意点 コア機能とプラグインが分離された設計になっているため、使用する機能（LLMやベクトルDB）に応じた追加パッケージのインストールが必要です。また、ドキュメントの更新頻度が高いため、常に公式の最新リファレンスを参照することが推奨されます。 まとめ データとLLMを繋ぐ「架け橋」として、初心者から高度なエージェント構築を目指す上級者までを支える、AI開発に不可欠なインフラストラクチャです。 参照リンク https://github.com/run-llama/llama_index Shared GitHub Serial: #476"
+    },
     {
       "slug": null,
       "category": "github-pickup",
