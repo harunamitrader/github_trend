@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "articleUrl": "./articles/tools/2026-05-09-cursor-v3-3-1-context-usage.html",
+      "createdAt": "2026-05-09T04:00:01+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "Cursor 3.3.1: Context usage UI改善とバグ修正",
+      "summary": "Cursor 3.3.1のアップデート。Context usage breakdownのUI改善と軽微なバグ修正が含まれます。",
+      "category": "ai-tool-log",
+      "repoName": "Cursor",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "articleUrl": "./articles/tools/2026-05-09-antigravity-v4-3-4-memory-management.html",
+      "createdAt": "2026-05-09T04:00:00+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "Antigravity v4.3.4: メモリ管理最適化とクラッシュ修正",
+      "summary": "Antigravity v4.3.4のアップデート。メモリ管理の最適化とVS Code拡張ホストのクラッシュ修正が含まれます。",
+      "category": "ai-tool-log",
+      "repoName": "Antigravity",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-05-08-update-report",
       "title": "2026-05-08 GitHub Trending 更新レポート",
