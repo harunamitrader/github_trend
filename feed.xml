@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 19:35:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:51:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[aidlc-workflows]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-aidlc-workflows.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-aidlc-workflows.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントの動作を制御する適応型ワークフロールール集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[lobehub]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-lobehub.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-lobehub.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エージェント連携とシームレスなUIを備えた次世代のAIコラボレーション基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hello-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-hello-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-hello-agents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントの原理と構築手法をゼロから学べる実践的チュートリアル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Flutter公式による体系的なスキルアップガイドと実践的チュートリアル集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-09 GitHub Updates]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-09-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-09-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日のGitHub Trending調査レポート。新規に4件のリポジトリをピックアップしました。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[拡散モデルを用いた並列トークン生成による推論加速手法。LLM の推論速度を、精度を損なうことなく最大 6 倍以上に向上させる次世代の投機的デコーディング。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PageIndex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-VectifyAI-PageIndex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-VectifyAI-PageIndex.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ベクトル検索不要、推論ベースの次世代 RAG フレームワーク。長大な文書を階層構造化し、人間のような「目次」ベースのナビゲーションで回答を導出。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[9router]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-decolua-9router.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-decolua-9router.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI コーディングツール専用のインテリジェント・ルーター。トークン使用量の 20〜40% 削減と、複数プロバイダー間の自動フォールバックを実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[goose]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-aaif-goose-goose.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-aaif-goose-goose.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rust 製の多機能 AI エージェント。Model Context Protocol (MCP) を通じて 70 以上の拡張機能と連携し、リサーチやコーディングを自動化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openreel-video]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-Augani-openreel-video.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-Augani-openreel-video.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ完結型の完全オープンソース・ビデオエディタ。WebGPU 加速による 4K 書き出しと、プライバシー重視のローカル処理を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Tools Update: GPT-5.5 Instant, Claude Managed Agents, and gemini-3.1-flash-lite]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026年5月8日の汎用AIツールの主要アップデートをまとめました。OpenAI の GPT-5.5 Instant 投入、Claude の「Dreaming（自己改善）」機能、Google の Flash-lite 正式リリースなど、エージェント機能の進化が加速しています。]]></description>
     </item>
   </channel>
 </rss>
