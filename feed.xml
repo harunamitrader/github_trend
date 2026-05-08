@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 09:03:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 18:44:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-08 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[local-deep-researcher]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-local-deep-researcher.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-local-deep-researcher.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。]]></description>
     </item>
     <item>
       <title><![CDATA[openai-cli]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex に命を吹き込む、デスクトップ・ペットの百科事典。コミュニティ製アニメーションペットの閲覧・検証・配信を支える中央ギャラリー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CloakBrowser]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-cloakhq-cloakbrowser.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ボット検知を「ソースレベル」で回避。Chromium のバイナリを直接パッチし、Playwright や Puppeteer との完全互換を維持する究極のステルスブラウザ。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-08T09:00:57.212396+00:00",
-  "count": 499,
+  "generatedAt": "2026-05-08T09:44:46.791945+00:00",
+  "count": 500,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "local-deep-researcher",
+      "dek": "ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。",
+      "summary": "OllamaやLM Studio等のローカルLLM環境で動作するウェブ調査エージェント「local-deep-researcher」を調査。自律的な反復調査により知識のギャップを埋め、ソース引用付きの詳細なレポートを生成するワークフローを解説します。",
+      "repoName": "langchain-ai/local-deep-researcher",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T18:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-08-local-deep-researcher.html",
+      "serial": 479,
+      "searchText": "local-deep-researcher ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。 OllamaやLM Studio等のローカルLLM環境で動作するウェブ調査エージェント「local-deep-researcher」を調査。自律的な反復調査により知識のギャップを埋め、ソース引用付きの詳細なレポートを生成するワークフローを解説します。 langchain-ai/local-deep-researcher AIエージェント (自律基盤・特化アプリ) local-deep-researcher ← 記事一覧へ戻る GitHub Watcher local-deep-researcher ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。 記事作成日 2026-05-08 種別 Pickup 対象 repo langchain-ai/local-deep-researcher Star数 9,103 これは何か OllamaやLM StudioなどのローカルLLM環境を利用し、完全にプライベートな環境で動作するウェブ調査・レポート作成アシスタントです。OpenAIのDeep Researchと同様のワークフローを、外部APIに依存せず（検索を除く）手元のPCで実行できます。 何ができるか 与えられたトピックに対して、ウェブ検索クエリの生成、結果の収集と要約、知識のギャップの特定、追加調査の実行を反復（イテレーション）します。最終的に、使用したソースの引用を含む詳細なマークダウン形式のレポートを出力します。 目立つポイント 1. 完全ローカル実行 : LLM処理をローカルで行うため、調査内容が外部に送信されずプライバシーが守られます。 2. イテレーティブ調査 : 調査結果を自己批判し、不足している情報を自律的に追加調査するループ機能を搭載。 3. LangGraphによる可視化 : エージェントの思考プロセスや調査状況をグラフでリアルタイムに追跡・確認可能。 セットアップや使い方の流れ リポジトリをクローンし、 .env ファイルでLLMプロバイダー（Ollama等）と検索API（DuckDuckGoならキー不要）を設定します。 langgraph dev コマンドで起動し、ブラウザ上のLangGraph Studio UIからトピックを入力して調査を開始します。 どんな人向けか 調査業務を自動化したいがデータの外部送信を避けたい研究者やエンジニア、DeepSeek R1などの最新ローカルモデルを実務に活用したいユーザー、LangGraphによるエージェント構築の実践例を学びたい開発者に最適です。 注意点 高度な調査をローカルで行うには、DeepSeek R1 32Bなどの相応のスペックのLLMと、それを動かすマシンパワーが必要です。また、検索APIとしてTavilyなどを使用する場合は別途APIキーが必要になります。 まとめ 手元のPCで「自律的な調査エージェント」を動かせる、プライバシー重視の開発者にとって究極のデスクトップ調査ツールです。 参照リンク https://github.com/langchain-ai/local-deep-researcher Shared GitHub Serial: #479"
+    },
     {
       "slug": null,
       "category": "github-pickup",
