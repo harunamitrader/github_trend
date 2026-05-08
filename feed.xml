@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 09:20:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 12:07:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-08 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agentmemory]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-agentmemory.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-agentmemory.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントに永続的な記憶を与える共有メモリレイヤー。一度教えたことを「忘れさせない」実務特化のMCPサーバー。]]></description>
     </item>
     <item>
       <title><![CDATA[mini-wiki]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI に「シニアエンジニアの規律」を。仕様策定、テスト、レビュー、デプロイなど、実務で不可欠な開発プロセスを AI エージェントに実行させるためのエンジニアリング・スキル集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ladybird]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ladybirdbrowser-ladybird.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-ladybirdbrowser-ladybird.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。]]></description>
     </item>
   </channel>
 </rss>
