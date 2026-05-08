@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "title": "feynman",
+      "dek": "エビデンス重視のオープンソースAI研究エージェント。論文監査、文献レビュー、自律的な実験ループなど、科学的探究を構造的に支援。",
+      "summary": "科学的研究プロセスに特化したAIエージェント「Feynman」を調査。論文の矛盾特定（/audit）や自律的な実験ループ（/autoresearch）など、エビデンスと正確性を最優先したリサーチワークフローを提供する専門家向けツールを解説します。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T19:15:00+09:00",
+      "repoName": "getcompanion-ai/feynman",
+      "repoUrl": "https://github.com/getcompanion-ai/feynman",
+      "starCount": 6910,
+      "articleUrl": "./articles/github/daily/2026-05-08-feynman.html",
+      "rank": 999,
+      "serial": 481
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "title": "tessera",
       "dek": "AIコーディングエージェントの司令塔。Claude CodeやCodexを統合し、並列ワークフローを視覚化・管理するオープンソース・ワークスペース。",
