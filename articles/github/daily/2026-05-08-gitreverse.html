@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHubリポジトリを「AIへの開発指示プロンプト」に逆変換。既存プロジェクトの設計をCursorやClaude Codeで再利用可能にするツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gitreverse</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gitreverse</h1>
+      <p class="article-dek">GitHubリポジトリを「AIへの開発指示プロンプト」に逆変換。既存プロジェクトの設計をCursorやClaude Codeで再利用可能にするツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-08 -->
+          <strong>2026-05-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/filiksyos/gitreverse" target="_blank" rel="noreferrer">
+              filiksyos/gitreverse
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>853</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>公開されているGitHubリポジトリを解析し、そのプロジェクトをゼロから再現するために必要な「単一のユーザープロンプト」を生成するリバースエンジニアリングツールです。CursorやClaude CodeなどのAIエディタにそのまま貼り付けられるような、文脈を捉えた会話形式のプロンプトを抽出します。</p>
+
+        <h2>何ができるか</h2>
+        <p>リポジトリのURLを入力するだけで、メタデータ、ファイルツリー、READMEなどを解析し、そのプロジェクトの本質（何を作るのか、技術スタックは何か、主要な機能は何か）を凝縮した1つの合成プロンプトを出力します。生成されたプロンプトは共有可能なリンクとしても保存できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>1. <strong>プロンプトへの変換</strong>: 複雑なコードベースを、人間がAIに依頼する際の「最初の指示」へと逆変換。 2. <strong>マルチLLM対応</strong>: Grok 3, Gemini 2.5 Pro, GPT-4.1など、最新のLLMを活用した高速な解析。 3. <strong>共有とキャッシュ</strong>: 解析結果をキャッシュし、他のユーザーが生成したプロンプトのライブラリを閲覧することも可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>公開されているWebサイトでリポジトリのURLを入力するか、セルフホストする場合はリポジトリをクローンし、環境変数にLLMのAPIキー（OpenAI, Google等）を設定してNext.jsアプリとして起動します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>他のプロジェクトの優れた設計思想を自分のコードに取り入れたい開発者、既存のアプリをベースに新しいツールを「Vibe Coding（AIとの対話による開発）」で迅速に作り上げたいエンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>現時点ではリポジトリ全体の文脈を使用して1つのプロンプトを生成します。特定のサブフォルダやファイルに絞った詳細な解析については、今後のアップデートでの対応が予定されています。</p>
+
+        <h2>まとめ</h2>
+        <p>優れたコードベースを「AIへのプロンプト」という形で再利用可能にする、AI時代の新しいソースコード活用ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/filiksyos/gitreverse" target="_blank" rel="noreferrer">https://github.com/filiksyos/gitreverse</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #482</p>
+      </div>
+    </article>
+  </body>
+</html>

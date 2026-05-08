@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "title": "gitreverse",
+      "dek": "GitHubリポジトリを「AIへの開発指示プロンプト」に逆変換。既存プロジェクトの設計をCursorやClaude Codeで再利用可能にするツール。",
+      "summary": "リポジトリのコードベースを解析し、そのプロジェクトをゼロから再現するための単一のプロンプトを生成する「gitreverse」を調査。優れた設計を持つ既存アプリを「Vibe Coding」のベースとして再利用するための強力なリバースエンジニアリング機能を解説します。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T19:53:00+09:00",
+      "repoName": "filiksyos/gitreverse",
+      "repoUrl": "https://github.com/filiksyos/gitreverse",
+      "starCount": 853,
+      "articleUrl": "./articles/github/daily/2026-05-08-gitreverse.html",
+      "rank": 999,
+      "serial": 482
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "title": "feynman",
       "dek": "エビデンス重視のオープンソースAI研究エージェント。論文監査、文献レビュー、自律的な実験ループなど、科学的探究を構造的に支援。",
