@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 19:05:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:17:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw v2026.5.9のアップデート。Vision Pluginの追加による画像解析機能の実装とパフォーマンス改善が含まれます。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian v1.12.8: Mobile 2.0 の不具合修正と同期高速化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Obsidian v1.12.8のアップデート。Mobile 2.0関連の不具合修正と同期の高速化が含まれます。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cursor 3.3.1: Context usage UI改善とバグ修正]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-cursor-v3-3-1-context-usage.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026年5月8日の汎用AIツールの主要アップデートをまとめました。OpenAI の GPT-5.5 Instant 投入、Claude の「Dreaming（自己改善）」機能、Google の Flash-lite 正式リリースなど、エージェント機能の進化が加速しています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.133, Cline v3.83.0, and Gemini CLI v0.42.0-p3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-08-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026年5月8日のAIコーディングツールの主要アップデートをまとめました。Claude Code のリモートプラグイン対応や Cline のメモリ不足修正(8GB heap)、GitHub Copilot CLI の無料枠開放など、実用性を高める更新が続いています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[oracle3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-yichengyang-ethan-oracle3.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[予測市場のための自律型トレードエージェント。Wang Transform を核とした価格理論と、Polymarket 等への自動接続機能を備えた実践的フレームワーク。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "articleUrl": "./articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html",
+      "createdAt": "2026-05-09T04:15:01+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善",
+      "summary": "OpenClaw v2026.5.9のアップデート。Vision Pluginの追加による画像解析機能の実装とパフォーマンス改善が含まれます。",
+      "category": "ai-tool-log",
+      "repoName": "OpenClaw",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "articleUrl": "./articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html",
+      "createdAt": "2026-05-09T04:15:00+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "Obsidian v1.12.8: Mobile 2.0 の不具合修正と同期高速化",
+      "summary": "Obsidian v1.12.8のアップデート。Mobile 2.0関連の不具合修正と同期の高速化が含まれます。",
+      "category": "ai-tool-log",
+      "repoName": "Obsidian",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
       "articleUrl": "./articles/tools/2026-05-09-cursor-v3-3-1-context-usage.html",
       "createdAt": "2026-05-09T04:00:01+09:00",
       "publishedAt": "2026-05-09",
