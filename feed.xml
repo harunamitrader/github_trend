@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 19:20:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 04:32:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善]]></title>
@@ -13,7 +13,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.5.9のアップデート。Vision Pluginの追加による画像解析機能の実装とパフォーマンス改善が含まれます。]]></description>
+      <description><![CDATA[Vision Pluginが追加され、画像の直接入力と文脈解析が可能に。通信速度の最適化も実施。]]></description>
     </item>
     <item>
       <title><![CDATA[Obsidian v1.12.8: Mobile 2.0 の不具合修正と同期高速化]]></title>
@@ -21,7 +21,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Obsidian v1.12.8のアップデート。Mobile 2.0関連の不具合修正と同期の高速化が含まれます。]]></description>
+      <description><![CDATA[モバイル版の同期プロセスの高速化と、ウィジェット・Keychain認証のバグ修正を実施。]]></description>
     </item>
     <item>
       <title><![CDATA[Cursor 3.3.1: Context usage UI改善とバグ修正]]></title>
@@ -29,7 +29,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-cursor-v3-3-1-context-usage.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor 3.3.1のアップデート。Context usage breakdownのUI改善と軽微なバグ修正が含まれます。]]></description>
+      <description><![CDATA[Context usage breakdownの視認性向上と、エディタ操作時の軽微な不具合を修正。]]></description>
     </item>
     <item>
       <title><![CDATA[Antigravity v4.3.4: メモリ管理最適化とクラッシュ修正]]></title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-antigravity-v4-3-4-memory-management.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Antigravity v4.3.4のアップデート。メモリ管理の最適化とVS Code拡張ホストのクラッシュ修正が含まれます。]]></description>
+      <description><![CDATA[長時間利用時のメモリリーク解消とVS Code拡張ホストのクラッシュ修正パッチ。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-05-08 GitHub Trending 更新レポート]]></title>

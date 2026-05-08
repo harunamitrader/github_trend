@@ -11,7 +11,7 @@
       "createdAt": "2026-05-09T04:15:01+09:00",
       "publishedAt": "2026-05-09",
       "title": "OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善",
-      "summary": "OpenClaw v2026.5.9のアップデート。Vision Pluginの追加による画像解析機能の実装とパフォーマンス改善が含まれます。",
+      "summary": "Vision Pluginが追加され、画像の直接入力と文脈解析が可能に。通信速度の最適化も実施。",
       "category": "ai-tool-log",
       "repoName": "OpenClaw",
       "genre": "AIエージェント (自律基盤・特化アプリ)"
@@ -21,7 +21,7 @@
       "createdAt": "2026-05-09T04:15:00+09:00",
       "publishedAt": "2026-05-09",
       "title": "Obsidian v1.12.8: Mobile 2.0 の不具合修正と同期高速化",
-      "summary": "Obsidian v1.12.8のアップデート。Mobile 2.0関連の不具合修正と同期の高速化が含まれます。",
+      "summary": "モバイル版の同期プロセスの高速化と、ウィジェット・Keychain認証のバグ修正を実施。",
       "category": "ai-tool-log",
       "repoName": "Obsidian",
       "genre": "ナレッジ管理・RAG解析"
@@ -31,7 +31,7 @@
       "createdAt": "2026-05-09T04:00:01+09:00",
       "publishedAt": "2026-05-09",
       "title": "Cursor 3.3.1: Context usage UI改善とバグ修正",
-      "summary": "Cursor 3.3.1のアップデート。Context usage breakdownのUI改善と軽微なバグ修正が含まれます。",
+      "summary": "Context usage breakdownの視認性向上と、エディタ操作時の軽微な不具合を修正。",
       "category": "ai-tool-log",
       "repoName": "Cursor",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
@@ -41,7 +41,7 @@
       "createdAt": "2026-05-09T04:00:00+09:00",
       "publishedAt": "2026-05-09",
       "title": "Antigravity v4.3.4: メモリ管理最適化とクラッシュ修正",
-      "summary": "Antigravity v4.3.4のアップデート。メモリ管理の最適化とVS Code拡張ホストのクラッシュ修正が含まれます。",
+      "summary": "長時間利用時のメモリリーク解消とVS Code拡張ホストのクラッシュ修正パッチ。",
       "category": "ai-tool-log",
       "repoName": "Antigravity",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
