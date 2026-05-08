@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 May 2026 05:38:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 09:20:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-08 GitHub Trending 更新レポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[mini-wiki]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mini-wiki.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mini-wiki.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[コードベースを解析し、Mermaid図面や相互リンクを含むプロフェッショナルなWikiドキュメントを自動生成するAIツール。]]></description>
     </item>
     <item>
       <title><![CDATA[dflash]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[既存の巨人の肩に乗らない、真の独立。Chromium も Firefox も使わず、ゼロから独自のレンダリング・JS エンジンを構築する、完全新規のオープンソース・ブラウザ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[InsForge]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-insforge-insforge.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-07-insforge-insforge.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントが自らバックエンドを構築。Postgres を基盤に、認証・DB・ストレージをセマンティックに制御する、次世代の AI ネイティブ・バックエンド・プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

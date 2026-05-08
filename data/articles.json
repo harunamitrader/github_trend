@@ -17,6 +17,22 @@
       "serial": 37
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "title": "mini-wiki",
+      "dek": "コードベースを解析し、Mermaid図面や相互リンクを含むプロフェッショナルなWikiドキュメントを自動生成するAIツール。",
+      "summary": "Mini-Wikiは、AIエージェントがコードベースを深く解析し、アーキテクチャ図や詳細な説明を含む構造化されたWikiドキュメントを自動生成するためのツールです。npx経由で簡単に利用でき、増分更新やプラグインによる機能拡張にも対応しています。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T09:20:00+09:00",
+      "repoName": "trsoliu/mini-wiki",
+      "repoUrl": "https://github.com/trsoliu/mini-wiki",
+      "starCount": 98,
+      "articleUrl": "./articles/github/daily/2026-05-08-mini-wiki.html",
+      "rank": 999,
+      "serial": 474
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-05-08-z-lab-dflash",
