@@ -19,6 +19,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "title": "tessera",
+      "dek": "AIコーディングエージェントの司令塔。Claude CodeやCodexを統合し、並列ワークフローを視覚化・管理するオープンソース・ワークスペース。",
+      "summary": "複数のAIコーディングエージェントをGUI上で一括管理できるワークスペース「Tessera」を調査。並列実行されるタスク、推論プロセス、Gitワークツリーの状態をリアルタイムで可視化し、複雑な開発ワークフローを効率化する司令塔としての機能を解説します。",
+      "publishedAt": "2026-05-08",
+      "createdAt": "2026-05-08T18:58:00+09:00",
+      "repoName": "horang-labs/tessera",
+      "repoUrl": "https://github.com/horang-labs/tessera",
+      "starCount": 96,
+      "articleUrl": "./articles/github/daily/2026-05-08-tessera.html",
+      "rank": 999,
+      "serial": 480
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "title": "local-deep-researcher",
       "dek": "ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。",
