@@ -7,18 +7,13 @@
   },
   "articles": [
     {
-      "title": "2026-05-10 GitHub Updates",
-      "repoName": "",
-      "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-05-10-update-report.html",
+      "createdAt": "2026-05-10T05:00:00+09:00",
+      "publishedAt": "2026-05-10",
+      "title": "2026-05-10 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "genre": "",
-      "originType": "",
-      "starCount": 0,
-      "serial": 39,
-      "publishedAt": "2026-05-10",
-      "createdAt": "2026-05-10T11:00:00Z"
+      "serial": 39
     },
     {
       "title": "UI-TARS-desktop",

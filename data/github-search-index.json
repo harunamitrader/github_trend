@@ -5,17 +5,17 @@
     {
       "slug": null,
       "category": "github-update-report",
-      "originType": "report",
+      "originType": "",
       "title": "2026-05-10 GitHub Updates",
       "dek": "",
-      "summary": "",
+      "summary": "本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。",
       "repoName": "",
       "genre": "",
       "publishedAt": "2026-05-10",
-      "createdAt": "2026-05-10T11:00:00Z",
+      "createdAt": "2026-05-10T05:00:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-10-update-report.html",
       "serial": 39,
-      "searchText": "2026-05-10 GitHub Updates 本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。 update report 2026-05-10 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-10 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） anthropics/financial-services Hmbown/DeepSeek-TUI InsForge/InsForge LearningCircuit/local-deep-research addyosmani/agent-skills z-lab/dflash CloakHQ/CloakBrowser HKUDS/AI-Trader oracle-devrel/oracle-ai-developer-hub playcanvas/supersplat masterking32/MasterDnsVPN datawhalechina/easy-vibe bytedance/UI-TARS-desktop Shared GitHub Serial: #39"
+      "searchText": "2026-05-10 GitHub Updates 本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。 2026-05-10 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-10 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-10 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） anthropics/financial-services ✅ 記事作成済み Hmbown/DeepSeek-TUI ✅ 記事作成済み InsForge/InsForge ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み z-lab/dflash ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み oracle-devrel/oracle-ai-developer-hub ✨ 新規追加 playcanvas/supersplat ✨ 新規追加 masterking32/MasterDnsVPN ✨ 新規追加 datawhalechina/easy-vibe ✨ 新規追加 bytedance/UI-TARS-desktop ✨ 新規追加 今後の展望 本日のトレンドでは、ByteDance によるデスクトップ AI エージェント「UI-TARS-desktop」や、3D Gaussian Splatting 編集ツール「supersplat」など、視覚と操作を融合させたツールが目立ちました。また、AI プログラミングの学習ロードマップ「easy-vibe」が高い関心を集めていることは、開発の民主化がさらに加速していることを示唆しています。引き続き、これらの技術がどのように実務に浸透していくかを追跡していきます。"
     },
     {
       "slug": null,
