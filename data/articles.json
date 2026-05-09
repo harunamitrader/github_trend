@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ian-handdrawn-ppt",
+      "repoName": "helloianneo/ian-handdrawn-ppt",
+      "repoUrl": "https://github.com/helloianneo/ian-handdrawn-ppt",
+      "articleUrl": "./articles/github/daily/2026-05-09-ian-handdrawn-ppt.html",
+      "description": "文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 487,
+      "serial": 476,
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T15:25:00Z"
+    },
+    {
       "title": "gnhf",
       "repoName": "kunchenguid/gnhf",
       "repoUrl": "https://github.com/kunchenguid/gnhf",

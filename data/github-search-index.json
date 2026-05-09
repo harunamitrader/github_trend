@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-09T03:19:25.951609+00:00",
-  "count": 511,
+  "generatedAt": "2026-05-09T06:25:08.257865+00:00",
+  "count": 512,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ian-handdrawn-ppt",
+      "dek": "",
+      "summary": "",
+      "repoName": "helloianneo/ian-handdrawn-ppt",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T15:25:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-09-ian-handdrawn-ppt.html",
+      "serial": 476,
+      "searchText": "ian-handdrawn-ppt helloianneo/ian-handdrawn-ppt メディア作成・マルチモーダル・UI ian-handdrawn-ppt ← 記事一覧へ戻る GitHub Watcher ian-handdrawn-ppt 文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。 記事作成日 2026-05-09 種別 Pickup 対象 repo helloianneo/ian-handdrawn-ppt Star数 487 これは何か テキストベースの情報を、視覚的に洗練された「手書き風の技術解説図（PPTスタイル）」として生成するためのAIエージェント（Codex Skill）用プロンプト集・フレームワークです。 何ができるか 記事、講義ノート、アウトラインなどを読み込み、内容を構造化した上で、統一感のある手書きスタイルのPNG画像（21:9のカバー、16:9の本文解説図など）を生成します。 目立つポイント 単なる画像生成ではなく、AIが「内容を理解し、叙事構造を計画し、適切な図解 archetype を選択する」というプロセスを経て、一貫性のある技術解説ビジュアルを作成する点にあります。 セットアップや使い方の流れ リポジトリをクローンし、Codexのスキルディレクトリに配置することで、AIエージェントに対して「この内容をスライド画像にして」といった指示が可能になります。 どんな人向けか 技術記事に高品質な図解を入れたい人、オンライン講義やワークショップの資料を素早く、かつ「テンプレ感」を抑えて作成したいクリエイターに最適です。 注意点 出力はラスタ画像（PNG）であり、編集可能なPPTXファイルを出力するツールではありません。また、画像内の文字（特に中国語や日本語）の精度は使用する画像生成モデルに依存します。 まとめ AIの思考力と描画力を組み合わせ、抽象的な概念を親しみやすい「手書き図解」へと昇華させる、コンテンツクリエイターのための強力な武器です。 参照リンク https://github.com/helloianneo/ian-handdrawn-ppt Shared GitHub Serial: #476"
+    },
     {
       "slug": null,
       "category": "github-pickup",
