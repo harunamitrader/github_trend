@@ -16,6 +16,20 @@
       "serial": 39
     },
     {
+      "title": "hermes-miniverse",
+      "repoName": "teknium1/hermes-miniverse",
+      "repoUrl": "https://github.com/teknium1/hermes-miniverse",
+      "articleUrl": "./articles/github/daily/2026-05-10-hermes-miniverse.html",
+      "summary": "NousResearch の Hermes Agent を Miniverse ピクセルワールドに接続し、AI エージェントが仮想空間で活動・会話できるようにするブリッジ。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 27,
+      "serial": 484,
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-10T14:30:00Z"
+    },
+    {
       "title": "UI-TARS-desktop",
       "repoName": "bytedance/UI-TARS-desktop",
       "repoUrl": "https://github.com/bytedance/UI-TARS-desktop",
