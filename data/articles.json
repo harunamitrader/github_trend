@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "gnhf",
+      "repoName": "kunchenguid/gnhf",
+      "repoUrl": "https://github.com/kunchenguid/gnhf",
+      "articleUrl": "./articles/github/daily/2026-05-09-gnhf.html",
+      "description": "就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 1536,
+      "serial": 475,
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T12:20:00Z"
+    },
+    {
       "title": "waza",
       "repoName": "microsoft/waza",
       "repoUrl": "https://github.com/microsoft/waza",
