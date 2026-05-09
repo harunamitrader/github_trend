@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T20:42:53.288956+00:00",
+  "generatedAt": "2026-05-09T22:02:27.784938+00:00",
   "count": 519,
   "articles": [
     {
@@ -113,14 +113,14 @@
       "originType": "pickup",
       "title": "ian-handdrawn-ppt",
       "dek": "",
-      "summary": "",
+      "summary": "文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。",
       "repoName": "helloianneo/ian-handdrawn-ppt",
       "genre": "メディア作成・マルチモーダル・UI",
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T15:25:00Z",
       "articleUrl": "./articles/github/daily/2026-05-09-ian-handdrawn-ppt.html",
       "serial": 476,
-      "searchText": "ian-handdrawn-ppt helloianneo/ian-handdrawn-ppt メディア作成・マルチモーダル・UI ian-handdrawn-ppt ← 記事一覧へ戻る GitHub Watcher ian-handdrawn-ppt 文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。 記事作成日 2026-05-09 種別 Pickup 対象 repo helloianneo/ian-handdrawn-ppt Star数 487 これは何か テキストベースの情報を、視覚的に洗練された「手書き風の技術解説図（PPTスタイル）」として生成するためのAIエージェント（Codex Skill）用プロンプト集・フレームワークです。 何ができるか 記事、講義ノート、アウトラインなどを読み込み、内容を構造化した上で、統一感のある手書きスタイルのPNG画像（21:9のカバー、16:9の本文解説図など）を生成します。 目立つポイント 単なる画像生成ではなく、AIが「内容を理解し、叙事構造を計画し、適切な図解 archetype を選択する」というプロセスを経て、一貫性のある技術解説ビジュアルを作成する点にあります。 セットアップや使い方の流れ リポジトリをクローンし、Codexのスキルディレクトリに配置することで、AIエージェントに対して「この内容をスライド画像にして」といった指示が可能になります。 どんな人向けか 技術記事に高品質な図解を入れたい人、オンライン講義やワークショップの資料を素早く、かつ「テンプレ感」を抑えて作成したいクリエイターに最適です。 注意点 出力はラスタ画像（PNG）であり、編集可能なPPTXファイルを出力するツールではありません。また、画像内の文字（特に中国語や日本語）の精度は使用する画像生成モデルに依存します。 まとめ AIの思考力と描画力を組み合わせ、抽象的な概念を親しみやすい「手書き図解」へと昇華させる、コンテンツクリエイターのための強力な武器です。 参照リンク https://github.com/helloianneo/ian-handdrawn-ppt Shared GitHub Serial: #476"
+      "searchText": "ian-handdrawn-ppt 文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。 helloianneo/ian-handdrawn-ppt メディア作成・マルチモーダル・UI ian-handdrawn-ppt ← 記事一覧へ戻る GitHub Watcher ian-handdrawn-ppt 文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。 記事作成日 2026-05-09 種別 Pickup 対象 repo helloianneo/ian-handdrawn-ppt Star数 487 これは何か テキストベースの情報を、視覚的に洗練された「手書き風の技術解説図（PPTスタイル）」として生成するためのAIエージェント（Codex Skill）用プロンプト集・フレームワークです。 何ができるか 記事、講義ノート、アウトラインなどを読み込み、内容を構造化した上で、統一感のある手書きスタイルのPNG画像（21:9のカバー、16:9の本文解説図など）を生成します。 目立つポイント 単なる画像生成ではなく、AIが「内容を理解し、叙事構造を計画し、適切な図解 archetype を選択する」というプロセスを経て、一貫性のある技術解説ビジュアルを作成する点にあります。 セットアップや使い方の流れ リポジトリをクローンし、Codexのスキルディレクトリに配置することで、AIエージェントに対して「この内容をスライド画像にして」といった指示が可能になります。 どんな人向けか 技術記事に高品質な図解を入れたい人、オンライン講義やワークショップの資料を素早く、かつ「テンプレ感」を抑えて作成したいクリエイターに最適です。 注意点 出力はラスタ画像（PNG）であり、編集可能なPPTXファイルを出力するツールではありません。また、画像内の文字（特に中国語や日本語）の精度は使用する画像生成モデルに依存します。 まとめ AIの思考力と描画力を組み合わせ、抽象的な概念を親しみやすい「手書き図解」へと昇華させる、コンテンツクリエイターのための強力な武器です。 参照リンク https://github.com/helloianneo/ian-handdrawn-ppt Shared GitHub Serial: #476"
     },
     {
       "slug": null,
@@ -128,14 +128,14 @@
       "originType": "pickup",
       "title": "gnhf",
       "dek": "",
-      "summary": "",
+      "summary": "就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。",
       "repoName": "kunchenguid/gnhf",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T12:20:00Z",
       "articleUrl": "./articles/github/daily/2026-05-09-gnhf.html",
       "serial": 475,
-      "searchText": "gnhf kunchenguid/gnhf AIコーディング (ワークフロー・プロンプト・開発補助ツール) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Pickup 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク https://github.com/kunchenguid/gnhf Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "gnhf 就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。 kunchenguid/gnhf AIコーディング (ワークフロー・プロンプト・開発補助ツール) gnhf ← 記事一覧へ戻る GitHub Watcher gnhf 就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。 記事作成日 2026-05-09 種別 Pickup 対象 repo kunchenguid/gnhf Star数 1,536 これは何か 「Good Night, Have Fun（おやすみ、楽しんで）」という名前の通り、人間が寝ている間にAIエージェント（Claude Code, Codex, GitHub Copilot CLIなど）を自律的にループ稼働させ、タスクを完遂させるためのオーケストレーターです。 何ができるか 指示（プロンプト）を与えると、AIエージェントが「1回のイテレーションごとに1つの小さなコミットを行う」というサイクルを繰り返し、目標を達成するまで自律的に動作します。朝起きたときには、綺麗に整理されたプルリクエストや作業ログが出来上がっている状態を目指しています。 目立つポイント 最大の特徴は「自律ループの堅牢性」です。各イテレーションでの変更を自動でコミットし、失敗した場合はロールバックまたは修復を試みます。また、Git worktree を利用して、複数のエージェントを異なるブランチで同時に走らせることも可能です。 セットアップや使い方の流れ npm経由で npm install -g gnhf でインストールできます。使い方は非常にシンプルで、 gnhf \"コードベースの複雑さを軽減して\" のようにコマンドを実行するだけで、自律ループが開始されます。 どんな人向けか 大規模なリファクタリングやテストの追加など、時間がかかる作業をAIに任せて放置したい開発者や、複数のAIエージェントを同時に並列稼働させて開発を加速させたい人に最適です。 注意点 AIが自律的にコマンドを実行するため、信頼できる環境での使用が推奨されます。また、トークン使用量の制限（--max-tokens）などを適切に設定しておくことが重要です。 まとめ 「寝ている間に開発が進む」という夢を実現する、自律型開発エージェントのための強力な実行エンジンです。 参照リンク https://github.com/kunchenguid/gnhf Shared GitHub Serial: #475"
     },
     {
       "slug": null,
@@ -143,14 +143,14 @@
       "originType": "pickup",
       "title": "waza",
       "dek": "",
-      "summary": "",
+      "summary": "AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。",
       "repoName": "microsoft/waza",
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T12:15:00Z",
       "articleUrl": "./articles/github/daily/2026-05-09-waza.html",
       "serial": 474,
-      "searchText": "waza microsoft/waza AIエージェント (自律基盤・特化アプリ) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Pickup 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク https://github.com/microsoft/waza Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "waza AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。 microsoft/waza AIエージェント (自律基盤・特化アプリ) waza ← 記事一覧へ戻る GitHub Watcher waza AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。 記事作成日 2026-05-09 種別 Pickup 対象 repo microsoft/waza Star数 302 これは何か AIエージェントが実行する「スキル（Agent Skills）」の品質を評価・向上させるための、Go言語で開発されたCLIツールおよびフレームワークです。Microsoftによって公開されています。 何ができるか スキルの雛形作成（scaffold）、ベンチマークの実行、そして異なるモデル間での結果の比較が可能です。また、スキルが仕様に準拠しているか、トークン予算内に収まっているかなどをチェックする readiness report も生成できます。 目立つポイント 単なるテストツールではなく、AIエージェントの能力を定量的に「測定」し、改善のサイクルを回すためのエコシステムを提供している点が強力です。LLM-as-a-judge 方式によるグレーディング機能も備えており、人間の判断に近い評価を自動化できます。 セットアップや使い方の流れ インストールスクリプトや azd 拡張機能として導入できます。 waza init でプロジェクトを初期化し、 waza new skill で新規スキルを作成、 waza run で評価スイートを実行するという流れで利用します。 どんな人向けか 高度なAIエージェントや、再利用可能なAIスキル（スキルの定義ファイルなど）を開発しているエンジニア、プロンプトエンジニアリングの品質を客観的に検証したいチームに向いています。 注意点 内部で LFS（Large File Storage）を使用しているため、ソースからのビルド時には git lfs pull が必要になる場合があります。また、実行には Copilot 等の適切なモデルプロバイダーの設定が必要です。 まとめ AIの振る舞いを「勘」ではなく「データ」で改善するための、エンジニアリング重視の強力な評価プラットフォームです。 参照リンク https://github.com/microsoft/waza Shared GitHub Serial: #474"
     },
     {
       "slug": null,
@@ -158,14 +158,14 @@
       "originType": "pickup",
       "title": "docmd",
       "dek": "",
-      "summary": "",
+      "summary": "Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。",
       "repoName": "docmd-io/docmd",
       "genre": "メディア作成・マルチモーダル・UI",
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T11:35:00Z",
       "articleUrl": "./articles/github/daily/2026-05-09-docmd.html",
       "serial": 473,
-      "searchText": "docmd docmd-io/docmd メディア作成・マルチモーダル・UI {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Pickup 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク https://github.com/docmd-io/docmd Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "docmd Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。 docmd-io/docmd メディア作成・マルチモーダル・UI docmd ← 記事一覧へ戻る GitHub Watcher docmd Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。 記事作成日 2026-05-09 種別 Pickup 対象 repo docmd-io/docmd Star数 1,513 これは何か Markdownファイルを含むフォルダでコマンドを実行するだけで、即座にプロダクション品質のドキュメントサイトを生成・公開できるNode.jsベースの軽量ツールです。 何ができるか npx @docmd/core dev を実行するだけでローカルサーバーが立ち上がり、ファイル構造に基づいたナビゲーションが自動生成されます。また、ビルドコマンドにより静的なHTMLサイトを出力でき、SEO最適化も標準で行われます。 目立つポイント 最大の特徴は「ゼロコンフィグ（設定不要）」である点です。Reactなどの重いフレームワークを使用せず、JavaScriptのペイロードを最小限（約18kb）に抑えているため、表示速度が極めて高速です。i18n、バージョニング、オフライン検索などの高度な機能も標準搭載されています。 セットアップや使い方の流れ 既存のMarkdownプロジェクトで npx @docmd/core dev を実行するか、 npm install -g @docmd/core でグローバルにインストールして使用します。必要に応じて docmd.config.js を作成し、タイトルやURLをカスタマイズできます。 どんな人向けか ドキュメントツールの設定に時間をかけたくない開発者や、高速で軽量なドキュメントサイトを求めているOSSプロジェクトのメンテナーに最適です。 注意点 極限までシンプルさを追求しているため、Docusaurusのような高度にカスタマイズされたUIコンポーネントを多用するニーズには不向きな場合があります。 まとめ 「ドキュメントツールは目立たない存在であるべき」という哲学の下、執筆に専念できる環境を提供する、次世代のドキュメント生成ツールです。 参照リンク https://github.com/docmd-io/docmd Shared GitHub Serial: #473"
     },
     {
       "slug": null,

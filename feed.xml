@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 May 2026 20:46:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 07:02:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-10 GitHub Updates]]></title>
@@ -85,7 +85,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-ian-handdrawn-ppt.html</guid>
       <category>github-pickup</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。]]></description>
     </item>
     <item>
       <title><![CDATA[gnhf]]></title>
@@ -93,7 +93,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-gnhf.html</guid>
       <category>github-pickup</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。]]></description>
     </item>
     <item>
       <title><![CDATA[waza]]></title>
@@ -101,7 +101,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-waza.html</guid>
       <category>github-pickup</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。]]></description>
     </item>
     <item>
       <title><![CDATA[docmd]]></title>
@@ -109,7 +109,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-docmd.html</guid>
       <category>github-pickup</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。]]></description>
     </item>
     <item>
       <title><![CDATA[aidlc-workflows]]></title>
