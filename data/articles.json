@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "docmd",
+      "repoName": "docmd-io/docmd",
+      "repoUrl": "https://github.com/docmd-io/docmd",
+      "articleUrl": "./articles/github/daily/2026-05-09-docmd.html",
+      "description": "Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 1513,
+      "serial": 473,
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T11:35:00Z"
+    },
+    {
       "articleUrl": "./articles/github/daily/2026-05-09-aidlc-workflows.html",
       "createdAt": "2026-05-09T04:45:04+09:00",
       "publishedAt": "2026-05-09",
