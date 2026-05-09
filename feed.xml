@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 10 May 2026 04:30:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 10:00:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[UI-TARS-desktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-ui-tars-desktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-ui-tars-desktop.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画面の視覚情報から UI 要素を認識し、人間のようにマウスやキーボードを操作してタスクを完遂するデスクトップ AI エージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[easy-vibe]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-easy-vibe.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-easy-vibe.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI プログラミングツールをフル活用し、初心者でも短期間でフルスタック開発をマスターするための学習ロードマップと教材。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[MasterDnsVPN]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-masterdnsvpn.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-masterdnsvpn.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[検閲の厳しいネットワークでも DNS トンネリングで接続を確保。パケット損失に強い高度な ARQ と負荷分散を備えた次世代 VPN。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[supersplat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-supersplat.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-supersplat.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザ上で 3D Gaussian Splatting を直感的に編集・最適化。PlayCanvas チームによる強力な Web ベースエディタ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[oracle-ai-developer-hub]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-oracle-ai-developer-hub.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-oracle-ai-developer-hub.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OCI 上でのAI開発を加速させる。サンプル、ベストプラクティス、自動化スクリプトを集約。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools Update: ChatGPT GPT-5.5 Instant Default, Claude Usage Limit Increase, and Gemini File Generation]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-10-ai-others-tools-multi-update.html</link>
