@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="2026年5月9日のAIコーディングツールの主要アップデートをまとめました。Claude Code のエージェント安定性向上、Cursor の PR レビュー・並列ビルド機能、Gemini CLI の nightly 更新など、開発効率を底上げする改善が続いています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI TOOL LOG</p>
+      </div>
+
+      <h1 class="article-title">AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly</h1>
+      <p class="article-dek">2026年5月9日のAIコーディングツールの主要アップデートをまとめました。Claude Code のエージェント安定性向上、Cursor の PR レビュー・並列ビルド機能、Gemini CLI の nightly 更新など、開発効率を底上げする改善が続いています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cursor, Gemini CLI, Codex, GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>本日のアップデートでは、エージェントの「実務適応能力」と「並列処理」に焦点が当てられています。</p>
+        <ul>
+            <li><strong>Claude Code v2.1.138:</strong> エージェントの安定性と観測性が向上しました。Mantle 認証の修正に加え、特定モデルでの推論効率が改善されています。</li>
+            <li><strong>Cursor v3.3:</strong> PR レビュー体験が刷新されました。また、プランから複数のタスクを並列に実行する「Build in Parallel」や、大きな変更を小さな PR に分割する機能が追加されました。</li>
+            <li><strong>Gemini CLI v0.42.0-nightly.20260507:</strong> エージェント停止（AgentExecutionStopped）時の JSON 出力に対応。MCP ツールとの連携の信頼性が向上しています。</li>
+            <li><strong>Codex (oh-my-codex) v0.16.3:</strong> Native-hook 設定の信頼性が向上し、Team/Ralph ワークフローでのエージェントの引き継ぎがより堅牢になりました。</li>
+            <li><strong>GitHub Copilot:</strong> コードレビュー使用統計 API が拡充され、組織内での Copilot 活用状況の可視化が進みました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に Cursor の「Build in Parallel」は、複雑な計画を立てた後に一気にコードを生成・テストさせる際に威力を発揮します。また、Claude Code や Gemini CLI の安定性向上により、長時間にわたる複雑なリファクタリング作業での「エージェントの脱落」が減少することが期待されます。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェントが単なる「コード生成機」から、PR 作成や並列ビルドまでこなす「自律的なチームメンバー」へと進化しています。特に PR 周りの機能強化は、チーム開発での AI 活用を一歩前進させるものです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code Release Notes</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

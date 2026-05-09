@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 May 2026 06:28:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 04:04:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。]]></description>
+    </item>
     <item>
       <title><![CDATA[ian-handdrawn-ppt]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-ian-handdrawn-ppt.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI公式のコマンドラインツール。API操作、組織・プロジェクト管理、使用状況確認などをターミナルから直感的に実行可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mcp-chrome]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mcp-chrome.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mcp-chrome.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Chrome拡張機能ベースのMCPサーバー。AIアシスタントが普段使いのブラウザを直接操作し、自動化やコンテンツ分析を可能にするツール。]]></description>
     </item>
   </channel>
 </rss>

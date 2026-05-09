@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "articleUrl": "./articles/tools/2026-05-09-ai-coding-tools-multi-update.html",
+      "createdAt": "2026-05-09T19:00:00+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly",
+      "summary": "Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。",
+      "category": "ai-tool-log",
+      "toolName": "Claude Code, Cursor, Gemini CLI, Codex, GitHub Copilot",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "serial": 477
+    },
+    {
       "title": "ian-handdrawn-ppt",
       "repoName": "helloianneo/ian-handdrawn-ppt",
       "repoUrl": "https://github.com/helloianneo/ian-handdrawn-ppt",
