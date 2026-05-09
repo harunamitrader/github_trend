@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 10 May 2026 04:04:06 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 04:16:21 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Others Tools Update: ChatGPT GPT-5.5 Instant Default, Claude Usage Limit Increase, and Gemini File Generation]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-10-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-10-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChatGPT GPT-5.5 Instant デフォルト化、Claude 使用制限の大幅緩和(2倍)、Gemini ファイル生成・エクスポート対応など、汎用 AI ツールの 2026年5月10日アップデートをまとめました。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-ai-coding-tools-multi-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ローカルLLMを利用し、完全にプライベートな環境で動作する自律型ウェブ調査アシスタント。反復的な調査とレポート作成を自動化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openai-cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-openai-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-openai-cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI公式のコマンドラインツール。API操作、組織・プロジェクト管理、使用状況確認などをターミナルから直感的に実行可能。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "articleUrl": "./articles/tools/2026-05-10-ai-others-tools-multi-update.html",
+      "createdAt": "2026-05-10T04:15:00+09:00",
+      "publishedAt": "2026-05-10",
+      "title": "AI Others Tools Update: ChatGPT GPT-5.5 Instant Default, Claude Usage Limit Increase, and Gemini File Generation",
+      "summary": "ChatGPT GPT-5.5 Instant デフォルト化、Claude 使用制限の大幅緩和(2倍)、Gemini ファイル生成・エクスポート対応など、汎用 AI ツールの 2026年5月10日アップデートをまとめました。",
+      "category": "ai-tool-log",
+      "toolName": "ChatGPT, Claude, Gemini, Perplexity, Grok, NotebookLM, Obsidian",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "serial": 478
+    },
+    {
       "articleUrl": "./articles/tools/2026-05-09-ai-coding-tools-multi-update.html",
       "createdAt": "2026-05-09T19:00:00+09:00",
       "publishedAt": "2026-05-09",
