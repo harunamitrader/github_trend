@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-09T02:33:36.548721+00:00",
-  "count": 509,
+  "generatedAt": "2026-05-09T03:11:42.176162+00:00",
+  "count": 510,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "waza",
+      "dek": "",
+      "summary": "",
+      "repoName": "microsoft/waza",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T12:15:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-09-waza.html",
+      "serial": 474,
+      "searchText": "waza microsoft/waza AIエージェント (自律基盤・特化アプリ) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Pickup 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク https://github.com/microsoft/waza Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+    },
     {
       "slug": null,
       "category": "github-pickup",

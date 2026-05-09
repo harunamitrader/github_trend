@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "waza",
+      "repoName": "microsoft/waza",
+      "repoUrl": "https://github.com/microsoft/waza",
+      "articleUrl": "./articles/github/daily/2026-05-09-waza.html",
+      "description": "AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 302,
+      "serial": 474,
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-09T12:15:00Z"
+    },
+    {
       "title": "docmd",
       "repoName": "docmd-io/docmd",
       "repoUrl": "https://github.com/docmd-io/docmd",

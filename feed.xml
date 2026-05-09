@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 May 2026 02:36:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 12:12:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[waza]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-waza.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-waza.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[]]></description>
+    </item>
     <item>
       <title><![CDATA[docmd]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-docmd.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングエージェントに永続的な記憶を与える共有メモリレイヤー。一度教えたことを「忘れさせない」実務特化のMCPサーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mini-wiki]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mini-wiki.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-08-mini-wiki.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コードベースを解析し、Mermaid図面や相互リンクを含むプロフェッショナルなWikiドキュメントを自動生成するAIツール。]]></description>
     </item>
   </channel>
 </rss>
