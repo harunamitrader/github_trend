@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "AI Others Tools Update (2026-05-11)",
+      "summary": "ChatGPT の Office 連携、Grok のコネクタ機能、Claude の使用制限大幅緩和についてのアップデートログ。",
+      "publishedAt": "2026-05-11",
+      "category": "ai-tool-log",
+      "serial": 488,
+      "articleUrl": "./articles/tools/2026-05-11-ai-others-tools-multi-update.html",
+      "tags": [
+        "ChatGPT",
+        "Grok",
+        "Claude",
+        "Perplexity"
+      ]
+    },
+    {
       "title": "AI Coding Tools Update (2026-05-11)",
       "summary": "Codex v0.130.0 のリリース、Antigravity のメモリ最適化、および Cursor v3.3 の並列エージェント実行についての技術アップデートログ。",
       "publishedAt": "2026-05-11",
