@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 04:31:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 04:48:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[UI-TARS-desktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-bytedance-UI-TARS-desktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-bytedance-UI-TARS-desktop.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[視覚と言語を統合し、デスクトップ GUI を自律操作するオープンソースのマルチモーダル AI エージェント基盤。ピクセル情報を直接解釈し、アプリを跨いだ複雑な操作を遂行。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[financial-services]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-anthropics-financial-services.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-anthropics-financial-services.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Anthropic 公式による、金融サービス向け AI 活用リファレンスと実装ガイド。リスク評価や投資分析、コンプライアンス等への Claude 適用例を豊富に掲載。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-addyosmani-agent-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-addyosmani-agent-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI コーディングエージェントのための、プロダクショングレードの拡張スキル集。MCP への対応が進んでおり、Claude Code や Cursor 等の能力を安全かつ強力に拡張。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[CloakBrowser]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-CloakHQ-CloakBrowser.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-CloakHQ-CloakBrowser.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ボット検知を100%回避することを目指した、ステルス仕様の Chromium ブラウザ。Playwright のドロップイン代替として、ソースレベルのパッチで高い秘匿性を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI-Trader]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-HKUDS-AI-Trader.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-HKUDS-AI-Trader.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[100%完全自動化、エージェントネイティブな次世代トレーディングシステム。LLM ベースのエージェントが自律的に市場分析から投資判断、実行までを完遂する。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-11 GitHub Updates]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-11-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-11-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools Update (2026-05-11)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-11-ai-others-tools-multi-update.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[gnhf]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-gnhf.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-gnhf.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[就寝中などのオフライン時間帯に、ClaudeやCopilotなどのAIエージェントを自律的に連続稼働させるためのオーケストレーターです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[waza]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-waza.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-waza.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの「スキル」を作成、テスト、測定し、品質を向上させるためのCLI・フレームワークです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[docmd]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-docmd.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-docmd.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Markdownから本番環境レベルのドキュメントサイトを高速に構築できる軽量ツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[aidlc-workflows]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-aidlc-workflows.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-aidlc-workflows.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントの動作を制御する適応型ワークフロールール集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[lobehub]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-lobehub.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-lobehub.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェント連携とシームレスなUIを備えた次世代のAIコラボレーション基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hello-agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-hello-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-hello-agents.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの原理と構築手法をゼロから学べる実践的チュートリアル。]]></description>
     </item>
   </channel>
 </rss>
