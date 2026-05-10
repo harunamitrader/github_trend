@@ -1,27 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>omlx - harunami_AI_base</title>
-    <link rel="stylesheet" href="../../../css/style.css">
-</head>
-<body>
-    <article class="github-article">
-        <header>
-            <span class="serial-number">#489</span>
-            <h1>omlx</h1>
-            <div class="metadata">
-                <span class="repo-name">jundot/omlx</span>
-                <span class="date">2026-05-11</span>
-            </div>
-        </header>
-        <section class="description">
-            <p>Apple Silicon（Mac）向けに最適化されたLLM推論サーバーで、継続的バッチ処理やSSDキャッシュ機能を備えています。macOSのメニューバーから管理可能で、OpenAI互換のAPIを提供するため、既存のツールと簡単に連携して効率的なAI推論環境を構築できます。</p>
-        </section>
-        <section class="links">
-            <a href="https://github.com/jundot/omlx" class="github-link" target="_blank">View on GitHub</a>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apple Siliconに最適化された高性能ローカルLLM推論サーバー。SSDを活用した独自キャッシュ機構により、Mac上でのAIエージェント実行を強力に支援します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>omlx | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">omlx</h1>
+      <p class="article-dek">Apple Siliconに最適化された、SSDキャッシュ搭載の高性能ローカルLLM推論サーバー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jundot/omlx" target="_blank" rel="noreferrer">
+              jundot/omlx
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,100+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>OMLX</strong> は、Apple Silicon (M1/M2/M3/M4) 搭載の Mac に最適化された、高性能なローカル LLM（大規模言語モデル）推論サーバーです。Apple の機械学習フレームワークである MLX をベースにしており、macOS のメニューバーから手軽に管理できる常駐型アプリケーションとして設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>LLM（テキスト生成）だけでなく、VLM（画像認識）、OCR、Embedding（ベクトル化）、Reranker モデルを同時に、あるいは切り替えて動作させることができます。<code>localhost:8000</code> で OpenAI 互換の API を提供するため、Claude Code、Cursor、Continue といった既存の AI ツールから即座に利用可能です。また、MCP (Model Context Protocol) ホスト機能を備えており、ローカル LLM にファイル操作や Web 検索などのツールを使わせることも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、<strong>「2層 KV キャッシュ (Tiered KV Cache)」</strong> 機構です。RAM（Hot）と SSD（Cold）を組み合わせることで、メモリ不足時にコンテキスト情報を SSD へ一時退避させます。これにより、数十万トークンにおよぶ膨大な会話履歴があっても、数秒で前回の続きから推論を再開できるという、他のツール（Ollama 等）にはない強力な利点を持っています。また、連続バッチングによる効率的な並列処理もサポートしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>GitHub の Releases ページから <code>.dmg</code> ファイルをダウンロードしてインストールするか、<code>brew install omlx</code> で導入します。起動後、管理パネル（<code>/admin</code>）から Hugging Face に直結したモデル検索・ダウンロードを行い、メニューバーからサーバーを「Start」させるだけで利用準備が整います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Mac ユーザーの開発者で、API コストを抑えつつプライバシーを確保したい方、特に Claude Code などの AI エージェントを長時間の文脈を維持したまま高速に動かしたい方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>Apple Silicon 専用であり、Intel Mac や Windows/Linux では動作しません。また、SSD キャッシュ機能をフル活用するには、相応の空きストレージ容量（数十GB単位）が必要です。使用するモデルは MLX 形式に最適化されている必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>OMLX は、単なる推論エンジンを超えて、Mac ユーザーにとっての実用的な AI 基盤を目指したプロジェクトです。SSD を活用したコンテキスト復旧能力は、ローカル LLM を「一過性のチャット」ではなく「継続的な開発パートナー」に変える大きな一歩と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jundot/omlx" target="_blank" rel="noreferrer">https://github.com/jundot/omlx</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #489</p>
+      </div>
     </article>
-</body>
+  </body>
 </html>

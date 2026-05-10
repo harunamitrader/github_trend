@@ -1,27 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>symphony - harunami_AI_base</title>
-    <link rel="stylesheet" href="../../../css/style.css">
-</head>
-<body>
-    <article class="github-article">
-        <header>
-            <span class="serial-number">#491</span>
-            <h1>symphony</h1>
-            <div class="metadata">
-                <span class="repo-name">openai/symphony</span>
-                <span class="date">2026-05-11</span>
-            </div>
-        </header>
-        <section class="description">
-            <p>OpenAIによる、マルチモーダルAIエージェントの対話と連携をオーケストレートするためのライブラリです。複数のAIモデルや外部ツールが協調して動作する複雑なタスクを、一貫性のあるプロトコルで管理し、信頼性の高いAIアプリケーションの開発を支援します。</p>
-        </section>
-        <section class="links">
-            <a href="https://github.com/openai/symphony" class="github-link" target="_blank">View on GitHub</a>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenAIによる、AIエージェントの実行を自律化・効率化するためのオーケストレーション・フレームワーク。タスク管理ツールと連携し、開発ワークフローを自律化します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>symphony | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">symphony</h1>
+      <p class="article-dek">OpenAIが提唱する、AIエージェントを自律的な「同僚」に変えるオーケストレーション基盤</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openai/symphony" target="_blank" rel="noreferrer">
+              openai/symphony
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,200+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>Symphony</strong> は、OpenAI が開発した、AI エージェントの実行を自律化・効率化するための <strong>オーケストレーション・フレームワーク</strong> です。人間が逐一指示を出すのではなく、Linear などのプロジェクト管理ツール上の「タスク（チケット）」をトリガーにして、エージェントが自律的に作業を開始・完了するためのエコシステムを提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>Linear のボードを監視し、特定のステータスになったタスクを自動でピックアップします。その後、タスクごとに独立した隔離環境（Docker 等）を構築し、Codex などのエージェントを起動してコード作成、テスト実行、プルリクエストの作成までを自動で行わせます。作業完了時には、実行ログや分析結果、さらには作業内容を解説する「ウォークスルー動画」まで生成し、人間にフィードバックします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、エージェントが自ら仕事を取りに行く <strong>「プル型」のワークフロー</strong> を実現している点です。また、<strong>「Harness Engineering（ハーネス・エンジニアリング）」</strong> という思想を掲げており、エージェントが確実に成果を出せるように「テスト、CI、環境、ツール」といった周辺インフラを整えることを重視しています。設定はリポジトリ内の <code>WORKFLOW.md</code> で管理でき、プロジェクトごとにエージェントの挙動を詳細に定義可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>利用には Linear の API キー、OpenAI の API キー、Docker、およびツール管理用の <code>mise</code> が必要です。リポジトリ内に <code>WORKFLOW.md</code> を配置し、Elixir 製の Symphony サービスを起動して Linear ボードの監視を開始します。あとは Linear 上でタスクを作成し、ステータスを専用のもの（例: Symphony: Active）に変更するだけで自動化が始まります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェントを単なる「チャットボット」ではなく、開発チームの「自律的な一員（同僚）」として本格的に統合したい先進的な開発チームや、大量の定型タスク・メンテナンス業務を自動化したいプロダクトマネージャーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>現時点では「Developer Preview」であり、実験的な性質が強いプロジェクトです。リファレンス実装は Linear との連携を前提としており、GitHub Issues などの他のツールで利用するには独自のカスタマイズが必要になります。また、GUI はなく、操作は基本的に既存のタスク管理ツール上で行います。</p>
+
+        <h2>まとめ</h2>
+        <p>Symphony は、人間が「何をすべきか（WHAT）」をチケットに書き、AI が「どのように実現するか（HOW）」を担うという、次世代のソフトウェア開発スタイルのプロトタイプです。AI エージェントと人間の協調を「オーケストレーション」という一段高い視点から再定義する、非常に野心的なプロジェクトと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/symphony" target="_blank" rel="noreferrer">https://github.com/openai/symphony</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #491</p>
+      </div>
     </article>
-</body>
+  </body>
 </html>

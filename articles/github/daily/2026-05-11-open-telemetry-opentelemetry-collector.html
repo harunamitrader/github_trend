@@ -1,27 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>opentelemetry-collector - harunami_AI_base</title>
-    <link rel="stylesheet" href="../../../css/style.css">
-</head>
-<body>
-    <article class="github-article">
-        <header>
-            <span class="serial-number">#492</span>
-            <h1>opentelemetry-collector</h1>
-            <div class="metadata">
-                <span class="repo-name">open-telemetry/opentelemetry-collector</span>
-                <span class="date">2026-05-11</span>
-            </div>
-        </header>
-        <section class="description">
-            <p>テレメトリデータ（トレース、メトリクス、ログ）の受信、処理、エクスポートをベンダー中立な方法で行うためのコレクターです。複雑な分散システムのオブザーバビリティを統合的に管理し、AIを活用したシステム監視や異常検知の基盤として広く利用されています。</p>
-        </section>
-        <section class="links">
-            <a href="https://github.com/open-telemetry/opentelemetry-collector" class="github-link" target="_blank">View on GitHub</a>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ベンダー中立な方法でテレメトリデータを収集・加工・配信するための高性能ハブ。OpenTelemetry Collectorの基本から活用シーンまでを解説します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>opentelemetry-collector | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">opentelemetry-collector</h1>
+      <p class="article-dek">ベンダーロックインを打破し、テレメトリデータを自在に操る「観測性の中心ハブ」</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/open-telemetry/opentelemetry-collector" target="_blank" rel="noreferrer">
+              open-telemetry/opentelemetry-collector
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>8,500+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>OpenTelemetry Collector</strong> は、システムから出力されるテレメトリデータ（トレース、メトリクス、ログ）を受信、加工、およびエクスポートするための <strong>「ベンダー中立なプロキシ/アグリゲーター」</strong> です。CNCF (Cloud Native Computing Foundation) の卒業プロジェクトである OpenTelemetry の中核コンポーネントであり、現代的なオブザーバビリティ（観測性）基盤のデファクトスタンダードとなっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>主に「受信 (Receive)」「処理 (Process)」「エクスポート (Export)」の3ステージで動作します。OTLP, Prometheus, Jaeger などの多様な形式でデータを受け取り、フィルタリングやバッチ化、PII（個人情報）のマスキングなどの加工を施した上で、Datadog, AWS CloudWatch, Honeycomb などの一つまたは複数のバックエンドへ同時に送信できます。これにより、送信先の切り替えが設定ファイル一つで可能になります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、<strong>「ベンダーロックインの回避」</strong> と <strong>「運用負荷のオフロード」</strong> です。アプリケーションに各ベンダー固有のSDKを埋め込む必要がなく、Collector 側でリトライ制御やサンプリング、圧縮を一括して担うため、アプリケーションのコードをクリーンに保ちつつ、パフォーマンスへの影響を最小限に抑えられます。また、プラグインアーキテクチャを採用しており、コミュニティから提供される膨大な数の拡張機能（Contrib）を利用可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>YAML形式の <code>config.yaml</code> を作成し、パイプラインを定義します。Docker イメージやバイナリ、あるいは Kubernetes のサイドカーとしてデプロイ可能です。起動後、アプリケーション側の送信先を Collector の待ち受けポートに向けるだけで、データ収集が開始されます。必要に応じて、特定のログレベルのみを除外したり、属性を追加したりするプロセッサをパイプラインに挿入します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>マイクロサービスを運用する SRE やプラットフォームエンジニア、特定のモニタリングツールのコストや仕様変更に柔軟に対応したい組織、あるいはテレメトリデータのセキュリティ要件（加工・マスキング）が厳しい環境に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>コンポーネントごとに「Stable（安定）」「Beta」「Alpha」などの成熟度が異なるため、本番環境で利用する際は各レシーバーやエキスポーターのステータスを確認する必要があります。また、大規模なデータを扱う場合は、Collector 自体の CPU/メモリリソース設計が不可欠です。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenTelemetry Collector は、クラウドネイティブ時代の「テレメトリデータのハブ」です。単なる転送ツールではなく、データの「観測可能性」をコントロールするための強力なインフラ基盤として、システムの透明性を高める上で欠かせない存在となっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/open-telemetry/opentelemetry-collector" target="_blank" rel="noreferrer">https://github.com/open-telemetry/opentelemetry-collector</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #492</p>
+      </div>
     </article>
-</body>
+  </body>
 </html>

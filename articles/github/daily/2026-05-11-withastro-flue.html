@@ -1,27 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flue - harunami_AI_base</title>
-    <link rel="stylesheet" href="../../../css/style.css">
-</head>
-<body>
-    <article class="github-article">
-        <header>
-            <span class="serial-number">#490</span>
-            <h1>flue</h1>
-            <div class="metadata">
-                <span class="repo-name">withastro/flue</span>
-                <span class="date">2026-05-11</span>
-            </div>
-        </header>
-        <section class="description">
-            <p>Astro公式によるAIエージェントフレームワークで、開発ワークフローにAIを統合するための高度なオーケストレーション機能を提供します。Web開発のコンテキストを理解し、効率的なコード生成やドキュメント作成を自動化するための強力なツールセットが含まれています。</p>
-        </section>
-        <section class="links">
-            <a href="https://github.com/withastro/flue" class="github-link" target="_blank">View on GitHub</a>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Astroチームが開発した、隔離環境で動作するプログラム可能なサンドボックス・エージェント・フレームワーク。信頼性の高い自律型AIエージェントの構築を支援します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>flue | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">flue</h1>
+      <p class="article-dek">Astroチームが贈る、プログラム可能な「サンドボックス・エージェント・フレームワーク」</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/withastro/flue" target="_blank" rel="noreferrer">
+              withastro/flue
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,800+</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>flue</strong> は、Astro フレームワークの開発チームが公開した、ヘッドレスでプログラム可能な <strong>「サンドボックス・エージェント・フレームワーク」</strong> です。AI エージェントが安全にコードを実行したり、外部ツールを操作したりするための隔離環境（サンドボックス）を抽象化し、信頼性の高い自律型システムの構築を可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>ローカル、仮想（just-bash）、リモート（Docker/Daytona）といった多様な実行環境を使い分け、エージェントにタスクを実行させることができます。具体的には、GitHub Issue の自動仕分け（Triage）、ドキュメントベースのカスタマーサポート、複雑なバグ修正エージェントなどの開発が可能です。また、MCP (Model Context Protocol) を標準サポートしており、既存の MCP ツール群を即座にエージェントのスキルとして統合できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、エージェントの「Role（役割）」や「Skill（スキル）」、文脈となる「Context」を <strong>Markdown ファイルで定義できる</strong> 点です。これにより、開発者は使い慣れたテキスト形式でエージェントの振る舞いを記述・管理できます。また、Cloudflare エコシステム（R2 や Durable Objects）との統合が深く、エッジ環境での状態管理やファイル保存を効率的に行える設計になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>プロジェクト内に <code>.flue/agents/</code> などのディレクトリを作成し、エージェントの定義ファイルを配置します。<code>flue dev</code> でローカル開発、<code>flue run</code> でタスク実行が可能です。また、提供されている SDK (<code>@flue/sdk/client</code>) を使用することで、Node.js アプリケーションの中から直接エージェントを呼び出し、対話やタスク実行を制御できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI を活用した高度な自動化パイプラインを構築したいエンジニアや、自社プロダクトに特化した独自のコーディングアシスタントを開発したいチーム、そして Cloudflare Workers などのサーバーレス環境でエージェントを動かしたい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>現在は「Experimental（実験的）」なフェーズにあり、API の破壊的変更が含まれる可能性があります。ドキュメントも整備の途上であるため、詳細な実装にはリポジトリ内の <code>examples/</code> フォルダを参照しながら進める必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>flue は、Astro チームの「開発体験（DX）」に対する深い知見を、AI エージェントの世界へと持ち込んだ意欲的なプロジェクトです。サンドボックスの隔離性とプログラムによる制御を高い次元で両立しており、次世代のエージェント駆動型アプリケーションの基盤として大きな可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/withastro/flue" target="_blank" rel="noreferrer">https://github.com/withastro/flue</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #490</p>
+      </div>
     </article>
-</body>
+  </body>
 </html>
