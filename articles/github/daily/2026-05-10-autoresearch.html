@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>autoresearch</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">autoresearch</h1>
+      <p class="article-dek">AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/karpathy/autoresearch" target="_blank" rel="noreferrer">
+              karpathy/autoresearch
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>80,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Andrej Karpathy 氏によって公開された、AIエージェントに「LLMの訓練と改善」を自律的に行わせるための実験用フレームワークです。人間が介在することなく、AIが自らコードを書き換え、実験を実行し、その結果から学習してモデルを洗練させていく「自動リサーチ」の概念を具現化しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>AIエージェントに対して、単一のGPU（H100推奨）を用いた <code>nanochat</code> ベースの軽量な訓練環境を提供します。エージェントは <code>train.py</code> を自由に編集（アーキテクチャ、ハイパーパラメータ、オプティマイザの変更など）し、5分間という固定のタイムバジェットで訓練を実行。バリデーションスコアが改善したかどうかを判断し、次の実験を繰り返します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「固定時間バジェット（5分）」という設計です。これにより、ハードウェア環境が異なってもエージェントは「その環境で5分間以内に最も高い性能を出せる構成」を探索するようになります。また、人間は一切コードに触れず、エージェントへの指示書である <code>program.md</code> を通じて「研究組織」をプログラミングするというアプローチが非常にユニークです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.10+ と uv がインストールされた、単一の NVIDIA GPU を持つ環境が必要です。リポジトリをクローンした後、<code>uv run prepare.py</code> でデータの準備を行い、Claude や Codex などのエージェントをこのディレクトリで起動して <code>program.md</code> を元に実験を開始するよう促します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントによる自律的なソフトウェア開発や、LLMのアーキテクチャ探索の自動化に興味がある研究者・エンジニアに最適です。特に、AIに「研究そのもの」を任せる未来を体験したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>デフォルトでは NVIDIA GPU 専用となっており、Apple Silicon (MPS) や CPU 環境で動作させるには、有志によるフォーク版を利用するか、エージェントに自力で対応させる必要があります。また、非常に高いトークン消費とコンピュートコストが発生する可能性があるため注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「朝起きたら、AIが勝手に実験を100回繰り返して、前日よりも良いモデルを作ってくれていた」という、AIリサーチの未来を先取りするエキサイティングなプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/karpathy/autoresearch" target="_blank" rel="noreferrer">https://github.com/karpathy/autoresearch</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #486</p>
+      </div>
+    </article>
+  </body>
+</html>

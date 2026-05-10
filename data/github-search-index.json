@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-10T00:41:46.716827+00:00",
-  "count": 520,
+  "generatedAt": "2026-05-10T05:45:35.986004+00:00",
+  "count": 521,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "autoresearch",
+      "dek": "",
+      "summary": "Andrej Karpathy 氏による、AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。",
+      "repoName": "karpathy/autoresearch",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-10T14:45:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-10-autoresearch.html",
+      "serial": 486,
+      "searchText": "autoresearch Andrej Karpathy 氏による、AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。 karpathy/autoresearch AIエージェント (自律基盤・特化アプリ) autoresearch ← 記事一覧へ戻る GitHub Watcher autoresearch AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。 記事作成日 2026-05-10 種別 Pickup 対象 repo karpathy/autoresearch Star数 80,100 これは何か Andrej Karpathy 氏によって公開された、AIエージェントに「LLMの訓練と改善」を自律的に行わせるための実験用フレームワークです。人間が介在することなく、AIが自らコードを書き換え、実験を実行し、その結果から学習してモデルを洗練させていく「自動リサーチ」の概念を具現化しています。 何ができるか AIエージェントに対して、単一のGPU（H100推奨）を用いた nanochat ベースの軽量な訓練環境を提供します。エージェントは train.py を自由に編集（アーキテクチャ、ハイパーパラメータ、オプティマイザの変更など）し、5分間という固定のタイムバジェットで訓練を実行。バリデーションスコアが改善したかどうかを判断し、次の実験を繰り返します。 目立つポイント 最大の特徴は「固定時間バジェット（5分）」という設計です。これにより、ハードウェア環境が異なってもエージェントは「その環境で5分間以内に最も高い性能を出せる構成」を探索するようになります。また、人間は一切コードに触れず、エージェントへの指示書である program.md を通じて「研究組織」をプログラミングするというアプローチが非常にユニークです。 セットアップや使い方の流れ Python 3.10+ と uv がインストールされた、単一の NVIDIA GPU を持つ環境が必要です。リポジトリをクローンした後、 uv run prepare.py でデータの準備を行い、Claude や Codex などのエージェントをこのディレクトリで起動して program.md を元に実験を開始するよう促します。 どんな人向けか AIエージェントによる自律的なソフトウェア開発や、LLMのアーキテクチャ探索の自動化に興味がある研究者・エンジニアに最適です。特に、AIに「研究そのもの」を任せる未来を体験したい人に向いています。 注意点 デフォルトでは NVIDIA GPU 専用となっており、Apple Silicon (MPS) や CPU 環境で動作させるには、有志によるフォーク版を利用するか、エージェントに自力で対応させる必要があります。また、非常に高いトークン消費とコンピュートコストが発生する可能性があるため注意が必要です。 まとめ 「朝起きたら、AIが勝手に実験を100回繰り返して、前日よりも良いモデルを作ってくれていた」という、AIリサーチの未来を先取りするエキサイティングなプロジェクトです。 参照リンク https://github.com/karpathy/autoresearch Shared GitHub Serial: #486"
+    },
     {
       "slug": null,
       "category": "github-pickup",

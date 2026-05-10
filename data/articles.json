@@ -30,6 +30,20 @@
       "createdAt": "2026-05-10T14:40:00Z"
     },
     {
+      "title": "autoresearch",
+      "repoName": "karpathy/autoresearch",
+      "repoUrl": "https://github.com/karpathy/autoresearch",
+      "articleUrl": "./articles/github/daily/2026-05-10-autoresearch.html",
+      "summary": "Andrej Karpathy 氏による、AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 80100,
+      "serial": 486,
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-10T14:45:00Z"
+    },
+    {
       "title": "hermes-miniverse",
       "repoName": "teknium1/hermes-miniverse",
       "repoUrl": "https://github.com/teknium1/hermes-miniverse",

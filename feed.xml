@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 10 May 2026 00:44:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 14:45:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-10 GitHub Updates]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[独自モデル「SquillaRouter」によるスマートルーティングと、セキュアなサンドボックス、メモリ機能、Web検索などを統合した、トークン効率に優れたマイクロカーネル型AIエージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[autoresearch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-autoresearch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-autoresearch.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy 氏による、AIエージェントが自律的にLLMの訓練実験を繰り返し、モデルを自動的に改善していくためのリサーチフレームワーク。]]></description>
     </item>
     <item>
       <title><![CDATA[hermes-miniverse]]></title>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日のGitHub Trending調査レポート。新規に4件のリポジトリをピックアップしました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.5.9: Vision Plugin 追加とパフォーマンス改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-openclaw-v2026-5-9-vision-plugin.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vision Pluginが追加され、画像の直接入力と文脈解析が可能に。通信速度の最適化も実施。]]></description>
     </item>
   </channel>
 </rss>
