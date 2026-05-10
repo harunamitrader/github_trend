@@ -5,47 +5,47 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 04:48:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 05:18:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title><![CDATA[UI-TARS-desktop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-bytedance-UI-TARS-desktop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-bytedance-UI-TARS-desktop.html</guid>
+      <title><![CDATA[nanotron]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-huggingface-nanotron.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-huggingface-nanotron.html</guid>
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[視覚と言語を統合し、デスクトップ GUI を自律操作するオープンソースのマルチモーダル AI エージェント基盤。ピクセル情報を直接解釈し、アプリを跨いだ複雑な操作を遂行。]]></description>
+      <description><![CDATA[大規模言語モデル（LLM）を効率的に事前学習するための軽量なフレームワーク。3D並列化技術を活用し、柔軟でスケーラブルなモデル学習を実現。]]></description>
     </item>
     <item>
-      <title><![CDATA[financial-services]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-anthropics-financial-services.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-anthropics-financial-services.html</guid>
+      <title><![CDATA[opentelemetry-collector]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-open-telemetry-opentelemetry-collector.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-open-telemetry-opentelemetry-collector.html</guid>
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Anthropic 公式による、金融サービス向け AI 活用リファレンスと実装ガイド。リスク評価や投資分析、コンプライアンス等への Claude 適用例を豊富に掲載。]]></description>
+      <description><![CDATA[テレメトリデータの受信、処理、エクスポートをベンダー中立に行うコレクター。複雑な分散システムのオブザーバビリティ管理に不可欠な基盤ツール。]]></description>
     </item>
     <item>
-      <title><![CDATA[agent-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-addyosmani-agent-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-addyosmani-agent-skills.html</guid>
+      <title><![CDATA[symphony]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</guid>
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI コーディングエージェントのための、プロダクショングレードの拡張スキル集。MCP への対応が進んでおり、Claude Code や Cursor 等の能力を安全かつ強力に拡張。]]></description>
+      <description><![CDATA[OpenAIによるマルチモーダルAIエージェントの連携オーケストレーションライブラリ。複数モデルとツールの協調動作を一貫したプロトコルで管理。]]></description>
     </item>
     <item>
-      <title><![CDATA[CloakBrowser]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-CloakHQ-CloakBrowser.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-CloakHQ-CloakBrowser.html</guid>
+      <title><![CDATA[flue]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</guid>
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ボット検知を100%回避することを目指した、ステルス仕様の Chromium ブラウザ。Playwright のドロップイン代替として、ソースレベルのパッチで高い秘匿性を実現。]]></description>
+      <description><![CDATA[Astro公式のAIエージェントフレームワーク。Web開発ワークフローにAIを統合し、高度なオーケストレーションによる開発効率化を支援。]]></description>
     </item>
     <item>
-      <title><![CDATA[AI-Trader]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-HKUDS-AI-Trader.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-HKUDS-AI-Trader.html</guid>
+      <title><![CDATA[omlx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-jundot-omlx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-jundot-omlx.html</guid>
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100%完全自動化、エージェントネイティブな次世代トレーディングシステム。LLM ベースのエージェントが自律的に市場分析から投資判断、実行までを完遂する。]]></description>
+      <description><![CDATA[Apple Siliconに最適化されたLLM推論サーバー。継続的バッチ処理やSSDキャッシュを備え、Mac上で効率的な推論環境を構築可能。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-05-11 GitHub Updates]]></title>
@@ -53,7 +53,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-11-update-report.html</guid>
       <category>github-update-report</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。]]></description>
+      <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。]]></description>
     </item>
     <item>
       <title><![CDATA[AI Others Tools Update (2026-05-11)]]></title>
