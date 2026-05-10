@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update (2026-05-11)",
+      "summary": "Codex v0.130.0 のリリース、Antigravity のメモリ最適化、および Cursor v3.3 の並列エージェント実行についての技術アップデートログ。",
+      "publishedAt": "2026-05-11",
+      "category": "ai-tool-log",
+      "serial": 487,
+      "articleUrl": "./articles/tools/2026-05-11-ai-coding-tools-multi-update.html",
+      "tags": [
+        "Codex",
+        "Antigravity",
+        "Cursor",
+        "Parallel Agents"
+      ]
+    },
+    {
       "articleUrl": "./articles/github/reports/2026-05-10-update-report.html",
       "createdAt": "2026-05-10T05:00:00+09:00",
       "publishedAt": "2026-05-10",

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2026年5月11日のAIコーディングツール更新情報。Codex v0.130.0、Antigravity v4.3.4、Cursor v3.3の主要な変更点を解説。">
+    <meta name="theme-color" content="#f7fbff">
+    <title>AI Coding Tools Update: Codex, Antigravity, Cursor (2026-05-11)</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <article class="article-shell">
+        <div class="article-topline">
+            <a class="article-back" href="../../ai-tools-monitor.html">← ダッシュボードへ戻る</a>
+            <p class="eyebrow">AI Tool Log</p>
+        </div>
+
+        <h1 class="article-title">AI Coding Tools Update (2026-05-11)</h1>
+        <p class="article-dek">Codex v0.130.0 のリリース、Antigravity のメモリ最適化、および Cursor v3.3 の並列エージェント実行について。</p>
+
+        <div class="article-meta-grid">
+            <div class="article-meta-item">
+                <span class="meta-label">更新日</span>
+                <strong>2026-05-11</strong>
+            </div>
+            <div class="article-meta-item">
+                <span class="meta-label">カテゴリー</span>
+                <strong>Coding</strong>
+            </div>
+            <div class="article-meta-item">
+                <span class="meta-label">重要度</span>
+                <strong>High</strong>
+            </div>
+        </div>
+
+        <div class="article-body">
+            <h2>主要な更新内容</h2>
+            
+            <h3>1. OpenAI Codex Official CLI v0.130.0</h3>
+            <p>OpenAI Codex の公式 CLI が v0.130.0 にアップデートされました。このリリースでは、リモート制御 API の大幅な強化が行われ、外部エージェントからの Codex インスタンス操作がよりスムーズになっています。また、AWS Bedrock 認証および Symphony プロトコルへの対応が追加されました。</p>
+            <ul>
+                <li><strong>Remote Control API v2:</strong> ストリーミングレスポンスの安定性と、キャンセル処理の伝搬を改善。</li>
+                <li><strong>Authentication:</strong> AWS Bedrock をプロバイダーとして利用する際の認証フローを統合。</li>
+                <li><strong>Symphony Support:</strong> 複数エージェント間の協調プロトコル「Symphony」の最新仕様に準拠。</li>
+            </ul>
+
+            <h3>2. Antigravity v4.3.4 (Stabilization)</h3>
+            <p>Antigravity IDE および関連コンポーネントが v4.3.4 へと更新されました。前バージョンで報告されていた大規模プロジェクトにおけるメモリリークの問題が修正され、VS Code 拡張ホストの安定性が大幅に向上しています。</p>
+            <ul>
+                <li><strong>Memory Management:</strong> ガーベッジコレクションのタイミング最適化により、長時間稼働時のメモリ消費を抑制。</li>
+                <li><strong>Crash Fixes:</strong> 特定のワークスペース構造における検索インデックス作成時のクラッシュを修正。</li>
+            </ul>
+
+            <h3>3. Cursor v3.3 (Parallel Agents & PR Review)</h3>
+            <p>Cursor 3.3 が正式にリリースされ、並列エージェント実行機能「Build in Parallel」が導入されました。これにより、依存関係のない複数のタスクを同時に実行できるようになり、開発速度が飛躍的に向上します。</p>
+            <ul>
+                <li><strong>Parallel Execution:</strong> プラン内の独立したステップを識別し、非同期サブエージェントによって同時並行で処理。</li>
+                <li><strong>PR Review Experience:</strong> エディタ内での PR レビュー体験が刷新され、コメントや変更箇所の確認、修正がシームレスに行えます。</li>
+                <li><strong>Context Usage UI:</strong> コンテキスト消費量の詳細な内訳が表示可能になり、トークンコストの管理が容易になりました。</li>
+            </ul>
+
+            <h3>4. GitHub Copilot & Others</h3>
+            <p>GitHub Copilot Extension (v1.388.0) において、エージェントのコンテキスト解析が高速化されました。また、Cline (v3.83.0) では 8GB ヒープ対応による大規模コンパイル時の安定化が図られています。</p>
+
+            <h2>まとめ</h2>
+            <p>今回の更新では、特に「並列化」と「メモリ効率」が主要なテーマとなっています。Cursor の並列エージェント実行や Codex のリモート制御強化は、より複雑で大規模な開発タスクを AI に委ねるための重要な基盤となります。</p>
+        </div>
+
+        <div class="article-footer">
+            <p class="article-serial">AI Tool Log Serial: #487</p>
+        </div>
+    </article>
+</body>
+</html>
