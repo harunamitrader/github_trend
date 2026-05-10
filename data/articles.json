@@ -16,6 +16,20 @@
       "serial": 39
     },
     {
+      "title": "OpenSquilla",
+      "repoName": "OpenSquilla/opensquilla",
+      "repoUrl": "https://github.com/OpenSquilla/opensquilla",
+      "articleUrl": "./articles/github/daily/2026-05-10-opensquilla.html",
+      "summary": "独自モデル「SquillaRouter」によるスマートルーティングと、セキュアなサンドボックス、メモリ機能、Web検索などを統合した、トークン効率に優れたマイクロカーネル型AIエージェント。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 156,
+      "serial": 485,
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-10T14:40:00Z"
+    },
+    {
       "title": "hermes-miniverse",
       "repoName": "teknium1/hermes-miniverse",
       "repoUrl": "https://github.com/teknium1/hermes-miniverse",

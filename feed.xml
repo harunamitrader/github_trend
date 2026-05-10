@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 May 2026 22:05:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 09:42:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-10 GitHub Updates]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenSquilla]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-opensquilla.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-opensquilla.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[独自モデル「SquillaRouter」によるスマートルーティングと、セキュアなサンドボックス、メモリ機能、Web検索などを統合した、トークン効率に優れたマイクロカーネル型AIエージェント。]]></description>
     </item>
     <item>
       <title><![CDATA[hermes-miniverse]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vision Pluginが追加され、画像の直接入力と文脈解析が可能に。通信速度の最適化も実施。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian v1.12.8: Mobile 2.0 の不具合修正と同期高速化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-obsidian-v1-12-8-mobile-sync.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[モバイル版の同期プロセスの高速化と、ウィジェット・Keychain認証のバグ修正を実施。]]></description>
     </item>
   </channel>
 </rss>

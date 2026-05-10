@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-09T22:02:27.784938+00:00",
-  "count": 519,
+  "generatedAt": "2026-05-10T00:41:46.716827+00:00",
+  "count": 520,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenSquilla",
+      "dek": "",
+      "summary": "独自モデル「SquillaRouter」によるスマートルーティングと、セキュアなサンドボックス、メモリ機能、Web検索などを統合した、トークン効率に優れたマイクロカーネル型AIエージェント。",
+      "repoName": "OpenSquilla/opensquilla",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-10T14:40:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-10-opensquilla.html",
+      "serial": 485,
+      "searchText": "OpenSquilla 独自モデル「SquillaRouter」によるスマートルーティングと、セキュアなサンドボックス、メモリ機能、Web検索などを統合した、トークン効率に優れたマイクロカーネル型AIエージェント。 OpenSquilla/opensquilla AIエージェント (自律基盤・特化アプリ) OpenSquilla ← 記事一覧へ戻る GitHub Watcher OpenSquilla トークン効率を最大化する「SquillaRouter」を搭載した、マイクロカーネル型の自律AIエージェント。 記事作成日 2026-05-10 種別 Pickup 対象 repo OpenSquilla/opensquilla Star数 156 これは何か トークン効率に最適化されたマイクロカーネルアーキテクチャを採用した自律型AIエージェントです。限られた予算で高いインテリジェンス密度（能力密度）を実現することを目指しています。 何ができるか スマートルーティング、永続メモリ、セキュアなサンドボックス環境でのコード実行、Web検索、ローカル埋め込み（Local Embeddings）などの機能を統合し、単一のモデルループ内で高度なタスクを遂行します。 目立つポイント 独自の「SquillaRouter」（LightGBM + ONNXベース）による効率的なモデル選択機能が最大の特徴です。OpenRouter, OpenAI, Anthropic, Ollama, DeepSeekなど、20以上のLLMプロバイダーを透過的に切り替えて利用できます。 セットアップや使い方の流れ Gitとuvがインストールされた環境で、リポジトリをクローンし、 install.sh （または install.ps1 ）を実行します。その後 opensquilla onboard でプロバイダーを設定し、 opensquilla gateway run でゲートウェイを起動してWeb UI（ポート18790）にアクセスします。 どんな人向けか トークン消費量を抑えつつ、複数のLLMプロバイダーを統合して高度な自動化を実現したい開発者や、自分専用のセキュアなAIエージェント基盤を構築したいユーザーに適しています。 注意点 Windows環境ではVisual C++ランタイムのインストールが必要になる場合があり、初期設定時にエラーが出る可能性があります。その際は opensquilla onboard --router disabled などのフォールバック設定が必要です。 まとめ 従来のAIエージェントよりも「インテリジェンスの密度」と「トークン効率」にフォーカスした、次世代のマイクロカーネル型AIエージェント基盤です。 参照リンク https://github.com/OpenSquilla/opensquilla Shared GitHub Serial: #485"
+    },
     {
       "slug": null,
       "category": "github-pickup",
