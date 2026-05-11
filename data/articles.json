@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "oh-my-openagent",
+      "repoName": "code-yeongyu/oh-my-openagent",
+      "repoUrl": "https://github.com/code-yeongyu/oh-my-openagent",
+      "articleUrl": "./articles/github/daily/2026-05-11-code-yeongyu-oh-my-openagent.html",
+      "summary": "「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "pickup",
+      "starCount": 57046,
+      "serial": 495,
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T03:30:00Z"
+    },
+    {
       "title": "DeepSeek-Reasonix",
       "repoName": "esengine/DeepSeek-Reasonix",
       "repoUrl": "https://github.com/esengine/DeepSeek-Reasonix",

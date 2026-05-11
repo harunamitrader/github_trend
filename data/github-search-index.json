@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-11T01:13:18.742859+00:00",
-  "count": 528,
+  "generatedAt": "2026-05-11T03:26:54.011647+00:00",
+  "count": 529,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "oh-my-openagent",
+      "dek": "",
+      "summary": "「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。",
+      "repoName": "code-yeongyu/oh-my-openagent",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T03:30:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-11-code-yeongyu-oh-my-openagent.html",
+      "serial": 495,
+      "searchText": "oh-my-openagent 「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。 code-yeongyu/oh-my-openagent AIコーディング (CLI本体・拡張機能) oh-my-openagent | GitHub Watcher ← 記事一覧へ戻る GitHub Watcher oh-my-openagent AIを「道具」から「チーム」へ。専門エージェント群が自律連携する最強の開発ハーネス「omo」 記事作成日 2026-05-11 種別 Pickup 対象 repo code-yeongyu/oh-my-openagent Star数 57,046 これは何か oh-my-openagent (omo) は、複数の専門特化したAIエージェントを「開発チーム」のようにオーケストレート（調整）し、高度な自律性を実現するターミナル専用の開発ハーネスです。「知能は個々のエージェントではなく、システム（ハーネス）に宿る」という哲学のもと、Claude CodeやCursorを凌駕する複雑な課題解決能力を目指して設計されています。 何ができるか ultrawork コマンド一つで、リポジトリの全容把握から計画立案、コードの実装、そして独立した検証ステップまでをAIチームが自律的に実行します。複数のファイルを跨ぐ大規模なリファクタリングや、複雑な依存関係の解決など、単一のエージェントでは困難だった高度なソフトウェアエンジニアリングタスクを完遂可能です。 目立つポイント 最大の特徴は、**「計画（Planner）」と「実行（Executor）」の完全な分離**です。戦略を練る『Prometheus』と、実作業を指揮する『Atlas』、そしてコード検索の『Librarian』やデバッグ専門の『Oracle』といったエージェント群が連携します。また、**「Team Mode」**ではこれらのサブエージェントが並列でタスクを処理し、その様子をtmux上でリアルタイムに監視できるという、圧倒的な「プロ仕様」の機能群を備えています。 セットアップや使い方の流れ Bunがインストールされた環境で bunx oh-my-openagent install を実行することで導入できます。AnthropicやOpenAIなどのAPIキーを設定後、プロジェクトディレクトリで ulw (ultrawork) コマンドを叩くと、AIチームとの共同作業が始まります。最初にPlannerがタスクの詳細をインタビューし、承認された計画に基づいて実行が開始される流れとなります。 どんな人向けか 既存のAIコーディングツールの自律性に物足りなさを感じているパワーユーザーや、大規模なコードベースの変更をAIに高い信頼度で任せたいエンジニアに最適です。複数のLLMを適材適所で使い分け、AIのポテンシャルを極限まで引き出したい層にとって、現在最も野心的な選択肢の一つと言えるでしょう。 注意点 動作にはBunが必要であることや、高度な機能を使いこなすには適切なモデル選択（Opus 4.7 Maxなど）や設定の知識が求められる点に注意が必要です。また、デフォルトで匿名テレメトリが有効になっているため、必要に応じて設定でオフにする必要があります。 まとめ oh-my-openagentは、単なるチャットUIの延長ではなく、「AIチームの司令塔」としての開発体験を提供する次世代のフレームワークです。その高度なオーケストレーション機能は、AIによるソフトウェア開発が次のフェーズ（完全自律）に入ったことを強く予感させます。 参照リンク https://github.com/code-yeongyu/oh-my-openagent https://ohmyopenagent.com/ Shared GitHub Serial: #495"
+    },
     {
       "slug": null,
       "category": "github-pickup",
@@ -105,7 +120,7 @@
       "createdAt": "2026-05-10T20:15:00Z",
       "articleUrl": "./articles/github/reports/2026-05-11-update-report.html",
       "serial": 40,
-      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 6 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
+      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 7 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
     },
     {
       "slug": null,

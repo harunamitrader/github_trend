@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 10:13:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 12:26:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[oh-my-openagent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-code-yeongyu-oh-my-openagent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-code-yeongyu-oh-my-openagent.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。]]></description>
+    </item>
     <item>
       <title><![CDATA[DeepSeek-Reasonix]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT GPT-5.5 Instant デフォルト化、Claude 使用制限の大幅緩和(2倍)、Gemini ファイル生成・エクスポート対応など、汎用 AI ツールの 2026年5月10日アップデートをまとめました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-09-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。]]></description>
     </item>
   </channel>
 </rss>
