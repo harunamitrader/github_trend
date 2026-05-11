@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update (2026-05-12)",
+      "summary": "Claude Code v2.1.139 のリリース、Cursor Bugbot の推論レベル導入、および Gemini CLI の最新パッチについての技術アップデートログ。",
+      "publishedAt": "2026-05-12",
+      "category": "ai-tool-log",
+      "serial": 499,
+      "articleUrl": "./articles/tools/2026-05-12-ai-coding-tools-multi-update.html",
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "Gemini CLI"
+      ]
+    },
+    {
       "title": "autoharness",
       "repoName": "kayba-ai/autoharness",
       "repoUrl": "https://github.com/kayba-ai/autoharness",

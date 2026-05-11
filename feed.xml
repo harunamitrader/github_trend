@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 21:09:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 04:08:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update (2026-05-12)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-coding-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-coding-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.139 のリリース、Cursor Bugbot の推論レベル導入、および Gemini CLI の最新パッチについての技術アップデートログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[autoharness]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-kayba-ai-autoharness.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI プログラミングツールをフル活用し、初心者でも短期間でフルスタック開発をマスターするための学習ロードマップと教材。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MasterDnsVPN]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-masterdnsvpn.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-masterdnsvpn.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[検閲の厳しいネットワークでも DNS トンネリングで接続を確保。パケット損失に強い高度な ARQ と負荷分散を備えた次世代 VPN。]]></description>
     </item>
   </channel>
 </rss>
