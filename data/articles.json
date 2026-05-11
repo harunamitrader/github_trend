@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "agent-skills-eval",
+      "repoName": "darkrishabh/agent-skills-eval",
+      "repoUrl": "https://github.com/darkrishabh/agent-skills-eval",
+      "articleUrl": "./articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html",
+      "summary": "AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "starCount": 310,
+      "serial": 497,
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T06:50:00Z"
+    },
+    {
       "title": "Data-Formulator",
       "repoName": "microsoft/data-formulator",
       "repoUrl": "https://github.com/microsoft/data-formulator",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-11T05:28:44.563973+00:00",
-  "count": 530,
+  "generatedAt": "2026-05-11T06:46:39.606692+00:00",
+  "count": 531,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agent-skills-eval",
+      "dek": "",
+      "summary": "AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。",
+      "repoName": "darkrishabh/agent-skills-eval",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T06:50:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html",
+      "serial": 497,
+      "searchText": "agent-skills-eval AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。 darkrishabh/agent-skills-eval 学習ガイド・開発アセット agent-skills-eval | GitHub Watcher ← 記事一覧へ戻る GitHub Watcher agent-skills-eval プロンプトの効果を「データ」で証明。AIエージェントスキルのための専用テストランナー 記事作成日 2026-05-11 種別 Pickup 対象 repo darkrishabh/agent-skills-eval Star数 310 これは何か agent-skills-eval は、AIエージェントの指示セット（スキル）の効果を定量的に測定するためのテストランナーです。Anthropic が提唱し agentskills.io で標準化が進められているスキル形式（ SKILL.md ）に対応しており、特定のプロンプトを導入することでモデルの回答がどれだけ改善されたかを客観的に評価できます。 何ができるか スキルの適用有無による回答の「Side-by-Side」比較が可能です。具体的には、用意したテスト用プロンプト集（ evals.json ）に対して、ベースライン（スキルなし）とテスト（スキルあり）の両方の結果を取得し、上位モデル（GPT-4oなど）を「ジャッジ」として自動採点させることができます。評価結果はブラウザで確認できるリッチな HTML レポートとして出力されます。 目立つポイント 最大の特徴は、**「スキルの実効性をデータで証明できる」**点にあります。プロンプトエンジニアリングは試行錯誤になりがちですが、本ツールを使えば「成功率が何%向上したか」を数値化できます。また、 agentskills.io のエコシステムに準拠しているため、作成したスキルの品質を標準的な手法で検証し、コミュニティへ公開する前の最終チェックとして機能します。 セットアップや使い方の流れ Node.js 環境で npx agent-skills-eval ./my-skill を実行するのが最も簡単です。評価したいスキルのディレクトリに SKILL.md とテストケースを記述した evals.json を配置し、実行コマンドを叩くだけで評価プロセスが開始されます。完了後、ワークスペース内に生成される index.html を開くと、モデルごとの比較結果を詳細に確認できます。 どんな人向けか 高品質なエージェントスキル（指示書）を開発・提供したいプロンプトエンジニアや、AIエージェントのパフォーマンスを CI/CD パイプラインで継続的にテストしたい開発チームに最適です。特に、大規模なエージェントシステムを構築する際の品質管理レイヤーとして強力な威力を発揮します。 注意点 評価のために LLM を複数回（ベースライン、テスト、ジャッジ）呼び出すため、API コストが発生します。また、自動評価の精度は「ジャッジ」として使用するモデルの性能に依存するため、重要な判断には人間によるレビューを併用することが推奨されます。 まとめ agent-skills-eval は、AIエージェント開発における「評価」という最も重要な、しかし軽視されがちなプロセスを自動化・標準化するツールです。プロンプトの効果を曖昧な感想ではなく、データとして裏付けることで、より信頼性の高い AI スキルの開発を可能にします。 参照リンク https://github.com/darkrishabh/agent-skills-eval agentskills.io Shared GitHub Serial: #497"
+    },
     {
       "slug": null,
       "category": "github-pickup",
@@ -135,7 +150,7 @@
       "createdAt": "2026-05-10T20:15:00Z",
       "articleUrl": "./articles/github/reports/2026-05-11-update-report.html",
       "serial": 40,
-      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 8 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 microsoft/data-formulator ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
+      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 9 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 darkrishabh/agent-skills-eval ✨ 新規追加 microsoft/data-formulator ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
     },
     {
       "slug": null,

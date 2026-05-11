@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 14:28:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 15:46:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agent-skills-eval]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。]]></description>
+    </item>
     <item>
       <title><![CDATA[Data-Formulator]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-microsoft-data-formulator.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ブラウザ上で 3D Gaussian Splatting を直感的に編集・最適化。PlayCanvas チームによる強力な Web ベースエディタ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[oracle-ai-developer-hub]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-oracle-ai-developer-hub.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-oracle-ai-developer-hub.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OCI 上でのAI開発を加速させる。サンプル、ベストプラクティス、自動化スクリプトを集約。]]></description>
     </item>
   </channel>
 </rss>

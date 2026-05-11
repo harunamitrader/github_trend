@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-skills-eval | GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-skills-eval</h1>
+      <p class="article-dek">プロンプトの効果を「データ」で証明。AIエージェントスキルのための専用テストランナー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/darkrishabh/agent-skills-eval" target="_blank" rel="noreferrer">
+              darkrishabh/agent-skills-eval
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>310</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>agent-skills-eval</strong> は、AIエージェントの指示セット（スキル）の効果を定量的に測定するためのテストランナーです。Anthropic が提唱し <a href="https://agentskills.io/" target="_blank">agentskills.io</a> で標準化が進められているスキル形式（<code>SKILL.md</code>）に対応しており、特定のプロンプトを導入することでモデルの回答がどれだけ改善されたかを客観的に評価できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>スキルの適用有無による回答の「Side-by-Side」比較が可能です。具体的には、用意したテスト用プロンプト集（<code>evals.json</code>）に対して、ベースライン（スキルなし）とテスト（スキルあり）の両方の結果を取得し、上位モデル（GPT-4oなど）を「ジャッジ」として自動採点させることができます。評価結果はブラウザで確認できるリッチな HTML レポートとして出力されます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、**「スキルの実効性をデータで証明できる」**点にあります。プロンプトエンジニアリングは試行錯誤になりがちですが、本ツールを使えば「成功率が何%向上したか」を数値化できます。また、<code>agentskills.io</code> のエコシステムに準拠しているため、作成したスキルの品質を標準的な手法で検証し、コミュニティへ公開する前の最終チェックとして機能します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 環境で <code>npx agent-skills-eval ./my-skill</code> を実行するのが最も簡単です。評価したいスキルのディレクトリに <code>SKILL.md</code> とテストケースを記述した <code>evals.json</code> を配置し、実行コマンドを叩くだけで評価プロセスが開始されます。完了後、ワークスペース内に生成される <code>index.html</code> を開くと、モデルごとの比較結果を詳細に確認できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>高品質なエージェントスキル（指示書）を開発・提供したいプロンプトエンジニアや、AIエージェントのパフォーマンスを CI/CD パイプラインで継続的にテストしたい開発チームに最適です。特に、大規模なエージェントシステムを構築する際の品質管理レイヤーとして強力な威力を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>評価のために LLM を複数回（ベースライン、テスト、ジャッジ）呼び出すため、API コストが発生します。また、自動評価の精度は「ジャッジ」として使用するモデルの性能に依存するため、重要な判断には人間によるレビューを併用することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>agent-skills-eval は、AIエージェント開発における「評価」という最も重要な、しかし軽視されがちなプロセスを自動化・標準化するツールです。プロンプトの効果を曖昧な感想ではなく、データとして裏付けることで、より信頼性の高い AI スキルの開発を可能にします。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/darkrishabh/agent-skills-eval" target="_blank" rel="noreferrer">https://github.com/darkrishabh/agent-skills-eval</a>
+        </div>
+        <div class="source-item">
+          <a href="https://agentskills.io/" target="_blank" rel="noreferrer">agentskills.io</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #497</p>
+      </div>
+    </article>
+  </body>
+</html>
