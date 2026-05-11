@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 19:57:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 05:02:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-12 GitHub Updates]]></title>
@@ -17,40 +17,40 @@
     </item>
     <item>
       <title><![CDATA[AiToEarn]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-yikart-AiToEarn.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-yikart-AiToEarn.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-yikart-AiToEarn.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-yikart-AiToEarn.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[創作者がAIを活用してコンテンツを自動生成・分発し、複数のSNSで収益化するためのオールインワン・プラットフォーム。]]></description>
     </item>
     <item>
       <title><![CDATA[OpenHuman]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-tinyhumansai-openhuman.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-tinyhumansai-openhuman.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-tinyhumansai-openhuman.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-tinyhumansai-openhuman.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プライバシー重視で設計された、デスクトップ mascot を持つパーソナルAIアシスタント基盤。]]></description>
     </item>
     <item>
       <title><![CDATA[React Doctor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-millionco-react-doctor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-millionco-react-doctor.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-millionco-react-doctor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-millionco-react-doctor.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントが書いた「質の低いReactコード」を検出し、健康診断スコアと改善策を提示する自動レビューツール。]]></description>
     </item>
     <item>
       <title><![CDATA[Stable Diffusion web UI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[画像生成AI「Stable Diffusion」をブラウザから操作できる、世界で最も普及しているオープンソースのWeb UI。]]></description>
     </item>
     <item>
       <title><![CDATA[LLMs from scratch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-rasbt-LLMs-from-scratch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-05-12-rasbt-LLMs-from-scratch.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-rasbt-LLMs-from-scratch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-rasbt-LLMs-from-scratch.html</guid>
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PyTorchを使用して、ChatGPTのようなLLMを一から実装するための包括的なステップバイステップ・ガイド。]]></description>

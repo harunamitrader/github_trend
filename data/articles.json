@@ -9,6 +9,7 @@
     {
       "articleUrl": "./articles/github/reports/2026-05-12-update-report.html",
       "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T04:55:00Z",
       "title": "2026-05-12 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。",
       "category": "github-update-report",
@@ -26,7 +27,8 @@
       "rank": 3,
       "serial": 505,
       "publishedAt": "2026-05-12",
-      "articleUrl": "./articles/github/2026-05-12-yikart-AiToEarn.html",
+      "createdAt": "2026-05-12T04:54:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-12-yikart-AiToEarn.html",
       "tags": [
         "Monetization",
         "Social Media",
@@ -45,7 +47,8 @@
       "rank": 7,
       "serial": 504,
       "publishedAt": "2026-05-12",
-      "articleUrl": "./articles/github/2026-05-12-tinyhumansai-openhuman.html",
+      "createdAt": "2026-05-12T04:53:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-12-tinyhumansai-openhuman.html",
       "tags": [
         "AI Agent",
         "Personal Assistant",
@@ -64,7 +67,8 @@
       "rank": 8,
       "serial": 503,
       "publishedAt": "2026-05-12",
-      "articleUrl": "./articles/github/2026-05-12-millionco-react-doctor.html",
+      "createdAt": "2026-05-12T04:52:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-12-millionco-react-doctor.html",
       "tags": [
         "React",
         "AI Coding",
@@ -83,7 +87,8 @@
       "rank": 10,
       "serial": 502,
       "publishedAt": "2026-05-12",
-      "articleUrl": "./articles/github/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html",
+      "createdAt": "2026-05-12T04:51:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html",
       "tags": [
         "Stable Diffusion",
         "Image Generation",
@@ -102,7 +107,8 @@
       "rank": 1,
       "serial": 501,
       "publishedAt": "2026-05-12",
-      "articleUrl": "./articles/github/2026-05-12-rasbt-LLMs-from-scratch.html",
+      "createdAt": "2026-05-12T04:50:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-12-rasbt-LLMs-from-scratch.html",
       "tags": [
         "LLM",
         "PyTorch",
