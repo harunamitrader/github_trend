@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン「autoharness」を調査。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>autoharness</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">autoharness</h1>
+      <p class="article-dek">AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kayba-ai/autoharness" target="_blank" rel="noreferrer">
+              kayba-ai/autoharness
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>139</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェントの開発において、プロンプト、設定、ミドルウェアなどの「ハーネス（構成要素）」を最適化するためのツールです。ベンチマークを実行し、その結果に基づいて自動的に改善案を提案・適用する反復ループを実現します。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>pytest</code> や <code>tau2_bench</code> などの既存のベンチマークフレームワークと連携し、エージェントのパフォーマンスを測定します。その後、LLM（CodexやClaude）を使用してプロンプトやコードの修正案を生成し、再度テストを行うことで、最適な構成（チャンピオン）を導き出します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>改善案の自動生成（Proposal Generation）、最適化キャンペーンの管理、複数のベンチマークアダプターへの対応、そしてローカルでの設定管理（<code>.autoharness/</code>）が特徴です。単なるテストランナーではなく、性能向上のための「自律的な実験プラットフォーム」として機能します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install autoharness</code> でインストール後、<code>autoharness guide</code> でプロジェクトの初期設定を行います。その後 <code>autoharness optimize</code> を実行することで、ベンチマーク結果に基づいた最適化の反復が開始されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントの開発者や、既存のエージェントの精度・効率をさらに向上させたいと考えているエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>最適化ループ内でLLMのAPIを多用するため、トークンコストに注意が必要です。また、自動生成されたコードやプロンプトが常に期待通りであるとは限らないため、最終的な検証は人間が行うことが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p><code>autoharness</code> は、勘や経験に頼りがちだったAIエージェントの微調整を、ベンチマークという客観的な指標に基づいて自動化する強力なツールです。開発の反復速度を劇的に向上させる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kayba-ai/autoharness" target="_blank" rel="noreferrer">https://github.com/kayba-ai/autoharness</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #498</p>
+      </div>
+    </article>
+  </body>
+</html>

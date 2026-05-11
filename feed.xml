@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 06:49:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 21:09:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[autoharness]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-kayba-ai-autoharness.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-kayba-ai-autoharness.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン。プロンプトや設定の改善ループを自動化します。]]></description>
+    </item>
     <item>
       <title><![CDATA[agent-skills-eval]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[検閲の厳しいネットワークでも DNS トンネリングで接続を確保。パケット損失に強い高度な ARQ と負荷分散を備えた次世代 VPN。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[supersplat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-supersplat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-supersplat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ上で 3D Gaussian Splatting を直感的に編集・最適化。PlayCanvas チームによる強力な Web ベースエディタ。]]></description>
     </item>
   </channel>
 </rss>

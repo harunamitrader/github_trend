@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "autoharness",
+      "repoName": "kayba-ai/autoharness",
+      "repoUrl": "https://github.com/kayba-ai/autoharness",
+      "articleUrl": "./articles/github/daily/2026-05-11-kayba-ai-autoharness.html",
+      "summary": "AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン。プロンプトや設定の改善ループを自動化します。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 139,
+      "serial": 498,
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T12:04:00Z"
+    },
+    {
       "title": "agent-skills-eval",
       "repoName": "darkrishabh/agent-skills-eval",
       "repoUrl": "https://github.com/darkrishabh/agent-skills-eval",
@@ -14,8 +28,9 @@
       "summary": "AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。",
       "category": "github-pickup",
       "genre": "学習ガイド・開発アセット",
-      "originType": "pickup",
+      "originType": "trending",
       "starCount": 310,
+      "rank": 17,
       "serial": 497,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-11T06:50:00Z"
@@ -28,8 +43,9 @@
       "summary": "Microsoft Researchが開発した、AI（LLM）とUIを融合させたデータ探索ツール。自然言語とUI操作を組み合わせて複雑なデータの可視化を自動化します。",
       "category": "github-pickup",
       "genre": "AI基盤・データ基盤・業務アプリ",
-      "originType": "pickup",
+      "originType": "trending",
       "starCount": 15359,
+      "rank": 18,
       "serial": 496,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-11T05:30:00Z"
@@ -42,8 +58,9 @@
       "summary": "「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。",
       "category": "github-pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)",
-      "originType": "pickup",
+      "originType": "trending",
       "starCount": 57046,
+      "rank": 19,
       "serial": 495,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-11T03:30:00Z"
@@ -56,8 +73,9 @@
       "summary": "DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。",
       "category": "github-pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)",
-      "originType": "pickup",
+      "originType": "trending",
       "starCount": 1077,
+      "rank": 20,
       "serial": 494,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-11T01:15:00Z"
@@ -72,6 +90,7 @@
       "genre": "LLM・基盤モデル開発",
       "originType": "trending",
       "starCount": 12500,
+      "rank": 16,
       "serial": 493,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:20:00Z"
@@ -86,6 +105,7 @@
       "genre": "開発インフラ・オブザーバビリティ",
       "originType": "trending",
       "starCount": 8500,
+      "rank": 15,
       "serial": 492,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:19:00Z"
@@ -100,6 +120,7 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "originType": "trending",
       "starCount": 5200,
+      "rank": 14,
       "serial": 491,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:18:00Z"
@@ -114,6 +135,7 @@
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "originType": "trending",
       "starCount": 3800,
+      "rank": 13,
       "serial": 490,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:17:00Z"
@@ -128,6 +150,7 @@
       "genre": "AI推論・デプロイ・量子化",
       "originType": "trending",
       "starCount": 2100,
+      "rank": 6,
       "serial": 489,
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:16:00Z"
