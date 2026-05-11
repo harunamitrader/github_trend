@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントが書いた「質の低いReactコード」を検出し、健康診断スコアと改善策を提示する自動レビューツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>React Doctor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">React Doctor</h1>
+      <p class="article-dek">AIエージェントが書いた「質の低いReactコード」を検出し、健康診断スコアと改善策を提示する自動レビューツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-12 -->
+          <strong>2026-05-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending (Rank 8)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/millionco/react-doctor" target="_blank" rel="noreferrer">
+              millionco/react-doctor
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,900</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェント（Claude CodeやCursorなど）が生成したReactコードの品質を担保するための診断ツールです。静的解析によってパフォーマンスやアーキテクチャのアンチパターンを特定します。</p>
+
+        <h2>何ができるか</h2>
+        <p>コードベースをスキャンして0〜100の「健康スコア」を算出し、状態管理、副作用（Effects）、パフォーマンス、セキュリティ、アクセシビリティなどの観点から具体的な問題を指摘します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>診断だけでなく、AIエージェント自体にベストプラクティスを「教える」インストール機能（npx react-doctor install）を備えています。これにより、エージェントが最初から質の高いコードを書くように誘導できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>プロジェクトのルートディレクトリで`npx -y react-doctor@latest .`を実行するだけです。CI/CD（GitHub Actions）への組み込みもサポートされており、プルリクエストごとに自動で品質チェックを行えます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIを開発にフル活用しているフロントエンドエンジニア、Reactプロジェクトのコード品質を維持したいチームリーダー。</p>
+
+        <h2>注意点</h2>
+        <p>現時点ではReactに特化しており、VueやSvelteなどの他のフレームワークには対応していません。また、既存のESLint設定との競合を避けるための微調整が必要な場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AI時代の開発ワークフローにおいて、人間が行っていたコードレビューの一部を自動化し、品質の低下を未然に防ぐための重要なガードレールとなるツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/millionco/react-doctor" target="_blank" rel="noreferrer">https://github.com/millionco/react-doctor</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #503</p>
+      </div>
+    </article>
+  </body>
+</html>

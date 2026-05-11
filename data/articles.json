@@ -7,6 +7,109 @@
   },
   "articles": [
     {
+      "articleUrl": "./articles/github/reports/2026-05-12-update-report.html",
+      "publishedAt": "2026-05-12",
+      "title": "2026-05-12 GitHub Updates",
+      "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。",
+      "category": "github-update-report",
+      "serial": 41
+    },
+    {
+      "title": "AiToEarn",
+      "repoName": "yikart/AiToEarn",
+      "repoUrl": "https://github.com/yikart/AiToEarn",
+      "summary": "創作者がAIを活用してコンテンツを自動生成・分発し、複数のSNSで収益化するためのオールインワン・プラットフォーム。",
+      "category": "github-trending",
+      "genre": "AIビジネス・収益化 (マーケティング・コンテンツ自動生成)",
+      "originType": "trending",
+      "starCount": 10600,
+      "rank": 3,
+      "serial": 505,
+      "publishedAt": "2026-05-12",
+      "articleUrl": "./articles/github/2026-05-12-yikart-AiToEarn.html",
+      "tags": [
+        "Monetization",
+        "Social Media",
+        "Automation"
+      ]
+    },
+    {
+      "title": "OpenHuman",
+      "repoName": "tinyhumansai/openhuman",
+      "repoUrl": "https://github.com/tinyhumansai/openhuman",
+      "summary": "プライバシー重視で設計された、デスクトップ mascot を持つパーソナルAIアシスタント基盤。",
+      "category": "github-trending",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "trending",
+      "starCount": 1300,
+      "rank": 7,
+      "serial": 504,
+      "publishedAt": "2026-05-12",
+      "articleUrl": "./articles/github/2026-05-12-tinyhumansai-openhuman.html",
+      "tags": [
+        "AI Agent",
+        "Personal Assistant",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "React Doctor",
+      "repoName": "millionco/react-doctor",
+      "repoUrl": "https://github.com/millionco/react-doctor",
+      "summary": "AIエージェントが書いた「質の低いReactコード」を検出し、健康診断スコアと改善策を提示する自動レビューツール。",
+      "category": "github-trending",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "trending",
+      "starCount": 7900,
+      "rank": 8,
+      "serial": 503,
+      "publishedAt": "2026-05-12",
+      "articleUrl": "./articles/github/2026-05-12-millionco-react-doctor.html",
+      "tags": [
+        "React",
+        "AI Coding",
+        "Linter"
+      ]
+    },
+    {
+      "title": "Stable Diffusion web UI",
+      "repoName": "AUTOMATIC1111/stable-diffusion-webui",
+      "repoUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "summary": "画像生成AI「Stable Diffusion」をブラウザから操作できる、世界で最も普及しているオープンソースのWeb UI。",
+      "category": "github-trending",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "trending",
+      "starCount": 163000,
+      "rank": 10,
+      "serial": 502,
+      "publishedAt": "2026-05-12",
+      "articleUrl": "./articles/github/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html",
+      "tags": [
+        "Stable Diffusion",
+        "Image Generation",
+        "Web UI"
+      ]
+    },
+    {
+      "title": "LLMs from scratch",
+      "repoName": "rasbt/LLMs-from-scratch",
+      "repoUrl": "https://github.com/rasbt/LLMs-from-scratch",
+      "summary": "PyTorchを使用して、ChatGPTのようなLLMを一から実装するための包括的なステップバイステップ・ガイド。",
+      "category": "github-trending",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "trending",
+      "starCount": 92900,
+      "rank": 1,
+      "serial": 501,
+      "publishedAt": "2026-05-12",
+      "articleUrl": "./articles/github/2026-05-12-rasbt-LLMs-from-scratch.html",
+      "tags": [
+        "LLM",
+        "PyTorch",
+        "Education"
+      ]
+    },
+    {
       "title": "AI Others Tools Update (2026-05-12)",
       "summary": "OpenClaw v2026.5.10-beta.5 のリリース、fal Providers による画像編集機能の強化、および UI リカバリパネルの導入についての技術アップデートログ。",
       "publishedAt": "2026-05-12",
