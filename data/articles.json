@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "DeepSeek-Reasonix",
+      "repoName": "esengine/DeepSeek-Reasonix",
+      "repoUrl": "https://github.com/esengine/DeepSeek-Reasonix",
+      "articleUrl": "./articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html",
+      "summary": "DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "pickup",
+      "starCount": 1077,
+      "serial": 494,
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T01:15:00Z"
+    },
+    {
       "title": "nanotron",
       "repoName": "huggingface/nanotron",
       "repoUrl": "https://github.com/huggingface/nanotron",

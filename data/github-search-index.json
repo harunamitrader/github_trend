@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-10T20:35:58.993208+00:00",
-  "count": 527,
+  "generatedAt": "2026-05-11T01:13:18.742859+00:00",
+  "count": 528,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "DeepSeek-Reasonix",
+      "dek": "",
+      "summary": "DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。",
+      "repoName": "esengine/DeepSeek-Reasonix",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T01:15:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html",
+      "serial": 494,
+      "searchText": "DeepSeek-Reasonix DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。 esengine/DeepSeek-Reasonix AIコーディング (CLI本体・拡張機能) DeepSeek-Reasonix | GitHub Watcher ← 記事一覧へ戻る GitHub Watcher DeepSeek-Reasonix DeepSeekのキャッシュ効率を「極限」まで追求した、圧倒的低コストな次世代ターミナルエージェント 記事作成日 2026-05-11 種別 Pickup 対象 repo esengine/DeepSeek-Reasonix Star数 1,077 これは何か DeepSeek-Reasonix は、DeepSeek（特にDeepSeek-R1）の推論能力を最大限に引き出すために設計された、ターミナルネイティブなAIコーディングエージェントです。単にDeepSeekを利用できるだけでなく、そのAPI特性に特化した最適化を施すことで、従来のエージェントとは一線を画す効率性を実現しています。 何ができるか ターミナル上での対話を通じて、自律的なコード生成、ファイル編集、コマンド実行が可能です。MCP（Model Context Protocol）に対応しており、外部ツールとの連携も容易です。また、実行前に提案をレビューできる「プランニングモード」や、長期間のタスクでも文脈を失わない永続セッション機能を備えています。 目立つポイント 最大の特徴は、DeepSeekのコスト効率の要である**「プレフィックスキャッシュ」への徹底した最適化**です。プロンプトを「不変のプロジェクト定義」「追記型の履歴」「揮発性の作業スペース」の3層に分離して管理することで、一般的なエージェントの数倍（約94%）という驚異的なキャッシュヒット率を達成。結果として、Claude 3.5 Sonnetなどを使用する構成と比較して、約30倍という圧倒的な低コストを実現しています。 セットアップや使い方の流れ Node.js 22以上がインストールされた環境で npx reasonix code を実行するだけで開始できます。DeepSeekのAPIキーを環境変数として設定することで、すぐにコーディングエージェントを起動可能です。その他、対話のみの chat モードや、単発タスクの run モードも用意されています。 どんな人向けか ターミナルでの開発ワークフローを好むエンジニア、特にAIエージェントのAPIコストを大幅に削減したい、あるいはDeepSeek-R1の高い推論能力を実戦で使い倒したいと考えている開発者に最適です。 注意点 DeepSeek API専用として設計されているため、他のLLMモデルには対応していません。また、現在は v0.6 の初期段階であり、非常に活発にアップデートが進んでいる点に留意が必要です。 まとめ DeepSeek-Reasonixは、モデルの性能だけでなく「APIの経済合理性」というエンジニアリング的な側面からコーディングエージェントを再定義する野心的なプロジェクトです。低コスト・高効率な開発環境を求める層にとって、強力な選択肢となるでしょう。 参照リンク https://github.com/esengine/DeepSeek-Reasonix Shared GitHub Serial: #494"
+    },
     {
       "slug": null,
       "category": "github-pickup",
@@ -90,7 +105,7 @@
       "createdAt": "2026-05-10T20:15:00Z",
       "articleUrl": "./articles/github/reports/2026-05-11-update-report.html",
       "serial": 40,
-      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
+      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 6 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
     },
     {
       "slug": null,

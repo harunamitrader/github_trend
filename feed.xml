@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 05:36:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:13:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[DeepSeek-Reasonix]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。]]></description>
+    </item>
     <item>
       <title><![CDATA[nanotron]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-huggingface-nanotron.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ian-handdrawn-ppt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-ian-handdrawn-ppt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-09-ian-handdrawn-ppt.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[文章やノートを「手書き風の技術解説スライド画像」へ変換するAIエージェント向けスキルです。]]></description>
     </item>
   </channel>
 </rss>
