@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 May 2026 04:08:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 04:19:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Others Tools Update (2026-05-12)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-others-tools-multi-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-others-tools-multi-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw v2026.5.10-beta.5 のリリース、fal Providers による画像編集機能の強化、および UI リカバリパネルの導入についての技術アップデートログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update (2026-05-12)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-coding-tools-multi-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[画面の視覚情報から UI 要素を認識し、人間のようにマウスやキーボードを操作してタスクを完遂するデスクトップ AI エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[easy-vibe]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-easy-vibe.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-10-easy-vibe.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI プログラミングツールをフル活用し、初心者でも短期間でフルスタック開発をマスターするための学習ロードマップと教材。]]></description>
     </item>
   </channel>
 </rss>

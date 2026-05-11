@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "title": "AI Others Tools Update (2026-05-12)",
+      "summary": "OpenClaw v2026.5.10-beta.5 のリリース、fal Providers による画像編集機能の強化、および UI リカバリパネルの導入についての技術アップデートログ。",
+      "publishedAt": "2026-05-12",
+      "category": "ai-tool-log",
+      "serial": 500,
+      "articleUrl": "./articles/tools/2026-05-12-ai-others-tools-multi-update.html",
+      "tags": [
+        "OpenClaw",
+        "fal",
+        "UI Improvement"
+      ]
+    },
+    {
       "title": "AI Coding Tools Update (2026-05-12)",
       "summary": "Claude Code v2.1.139 のリリース、Cursor Bugbot の推論レベル導入、および Gemini CLI の最新パッチについての技術アップデートログ。",
       "publishedAt": "2026-05-12",
