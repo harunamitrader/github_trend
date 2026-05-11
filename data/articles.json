@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Data-Formulator",
+      "repoName": "microsoft/data-formulator",
+      "repoUrl": "https://github.com/microsoft/data-formulator",
+      "articleUrl": "./articles/github/daily/2026-05-11-microsoft-data-formulator.html",
+      "summary": "Microsoft Researchが開発した、AI（LLM）とUIを融合させたデータ探索ツール。自然言語とUI操作を組み合わせて複雑なデータの可視化を自動化します。",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "starCount": 15359,
+      "serial": 496,
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T05:30:00Z"
+    },
+    {
       "title": "oh-my-openagent",
       "repoName": "code-yeongyu/oh-my-openagent",
       "repoUrl": "https://github.com/code-yeongyu/oh-my-openagent",

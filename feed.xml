@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 12:27:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:28:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Data-Formulator]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-microsoft-data-formulator.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-microsoft-data-formulator.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft Researchが開発した、AI（LLM）とUIを融合させたデータ探索ツール。自然言語とUI操作を組み合わせて複雑なデータの可視化を自動化します。]]></description>
+    </item>
     <item>
       <title><![CDATA[oh-my-openagent]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-code-yeongyu-oh-my-openagent.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OCI 上でのAI開発を加速させる。サンプル、ベストプラクティス、自動化スクリプトを集約。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update: ChatGPT GPT-5.5 Instant Default, Claude Usage Limit Increase, and Gemini File Generation]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-10-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-10-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT GPT-5.5 Instant デフォルト化、Claude 使用制限の大幅緩和(2倍)、Gemini ファイル生成・エクスポート対応など、汎用 AI ツールの 2026年5月10日アップデートをまとめました。]]></description>
     </item>
   </channel>
 </rss>

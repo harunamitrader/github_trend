@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-11T03:26:54.011647+00:00",
-  "count": 529,
+  "generatedAt": "2026-05-11T05:28:44.563973+00:00",
+  "count": 530,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Data-Formulator",
+      "dek": "",
+      "summary": "Microsoft Researchが開発した、AI（LLM）とUIを融合させたデータ探索ツール。自然言語とUI操作を組み合わせて複雑なデータの可視化を自動化します。",
+      "repoName": "microsoft/data-formulator",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T05:30:00Z",
+      "articleUrl": "./articles/github/daily/2026-05-11-microsoft-data-formulator.html",
+      "serial": 496,
+      "searchText": "Data-Formulator Microsoft Researchが開発した、AI（LLM）とUIを融合させたデータ探索ツール。自然言語とUI操作を組み合わせて複雑なデータの可視化を自動化します。 microsoft/data-formulator AI基盤・データ基盤・業務アプリ Data-Formulator | GitHub Watcher ← 記事一覧へ戻る GitHub Watcher Data-Formulator 「AIの推論」と「UIの直感」を統合。データの準備から可視化までを爆速にするMicrosoftの次世代探索ツール 記事作成日 2026-05-11 種別 Pickup 対象 repo microsoft/data-formulator Star数 15,359 これは何か Data Formulator は、Microsoft Research が開発した、大規模言語モデル（LLM）と従来のビジュアル分析 UI を高度に融合させたデータ探索・可視化ツールです。単なるチャット形式の AI アシスタントではなく、ユーザーの直感的な UI 操作と自然言語による意図を組み合わせることで、複雑なデータの形成（Data Wrangling）と可視化を同時に、かつ正確に行うことができます。 何ができるか CSV や Excel データの読み込みはもちろん、スクリーンショットや生テキストからデータを抽出して分析対象にすることも可能です。ユーザーが「どのデータをどの軸に割り当てるか」を UI で示すと、AI がその背後で必要なデータ加工（集計やピボットなど）を自動で行い、即座にグラフ（Vega-Lite ベース）を生成します。また、探索の履歴をツリー形式で管理し、異なる分析ルートを簡単に行き来できる機能も備えています。 目立つポイント 最大の特徴は、 「ブレンディッド・インタラクション（Blended Interaction）」 という独自の操作モデルです。完全に AI 任せにするのではなく、ユーザーが UI で大枠の意図（軸の指定など）を示し、AI が詳細な実装（データ変換コードの生成）を担うことで、従来のチャット型 AI では難しかった「正確なコントロール」と「高度な自動化」を両立させています。これにより、Python や SQL を書かずに、プロフェッショナルレベルのデータ分析が可能になります。 セットアップや使い方の流れ Python 環境（3.9以上）にて、 uvx data-formulator （推奨）または pip install data-formulator でインストールできます。OpenAI や Azure、Anthropic、Ollama などの API キーを設定して起動すると、ブラウザ上で直感的な分析画面が開きます。データのロード、ドラッグ＆ドロップによる軸の指定、自然言語による補足、というスムーズなフローで可視化を構築できます。 どんな人向けか データの準備や加工に時間を取られているデータアナリスト、コードを書かずに高度な可視化を行いたいビジネスユーザー、そして AI と人間の新しい協調インターフェースに関心のある研究者に最適です。Microsoft Research の成果ということもあり、非常に実戦的で洗練されたツールとなっています。 注意点 現在は v0.7 のアルファ版であり、研究プロトタイプとしての性質を持っています。そのため、本番環境での利用には注意が必要であり、AI が生成したコードの安全性（サンドボックス実行など）を考慮した運用が推奨されます。また、LLM の API コストが発生する点にも留意してください。 まとめ Data Formulator は、AI を「外部の相談相手」ではなく「システムの中核」に据えることで、データ分析のワークフローを根本から変えようとする野心的なプロジェクトです。データの準備という最も泥臭いプロセスを AI が肩代わりしてくれるこの体験は、データ活用の未来を予感させてくれます。 参照リンク https://github.com/microsoft/data-formulator Project Paper (arXiv) Shared GitHub Serial: #496"
+    },
     {
       "slug": null,
       "category": "github-pickup",
@@ -120,7 +135,7 @@
       "createdAt": "2026-05-10T20:15:00Z",
       "articleUrl": "./articles/github/reports/2026-05-11-update-report.html",
       "serial": 40,
-      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 7 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
+      "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 8 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 microsoft/data-formulator ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
     },
     {
       "slug": null,
