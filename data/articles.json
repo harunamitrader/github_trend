@@ -7,6 +7,57 @@
   },
   "articles": [
     {
+      "title": "hysteria",
+      "repoName": "apernet/hysteria",
+      "repoUrl": "https://github.com/apernet/hysteria",
+      "summary": "カスタマイズされたQUICプロトコルを使用する、強力で高速なプロキシツール。検閲耐性と不安定な回線での高パフォーマンスが特徴。",
+      "category": "github-trending",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "originType": "trending",
+      "starCount": 20100,
+      "rank": 4,
+      "serial": 512,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T04:52:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-apernet-hysteria.html",
+      "tags": [
+        "Proxy",
+        "QUIC",
+        "Censorship Resistance",
+        "Go"
+      ]
+    },
+    {
+      "title": "FadCam",
+      "repoName": "anonfaded/FadCam",
+      "repoUrl": "https://github.com/anonfaded/FadCam",
+      "summary": "バックグラウンド録画、画面録画、ライブストリーミング、リモートカメラ制御に対応したAndroid向け多機能メディアスイート。",
+      "category": "github-trending",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "trending",
+      "starCount": 2200,
+      "rank": 6,
+      "serial": 511,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T04:51:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-anonfaded-FadCam.html",
+      "tags": [
+        "Android",
+        "Camera",
+        "Privacy",
+        "Open Source"
+      ]
+    },
+    {
+      "articleUrl": "./articles/github/reports/2026-05-13-update-report.html",
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T04:50:00Z",
+      "title": "2026-05-13 GitHub Updates",
+      "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。",
+      "category": "github-update-report",
+      "serial": 42
+    },
+    {
       "title": "AI Others Tools Update (2026-05-13)",
       "summary": "OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての技術アップデートログ。",
       "publishedAt": "2026-05-13",

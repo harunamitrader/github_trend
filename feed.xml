@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 May 2026 04:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:50:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hysteria]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-apernet-hysteria.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-apernet-hysteria.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[カスタマイズされたQUICプロトコルを使用する、強力で高速なプロキシツール。検閲耐性と不安定な回線での高パフォーマンスが特徴。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[FadCam]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-anonfaded-FadCam.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-anonfaded-FadCam.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[バックグラウンド録画、画面録画、ライブストリーミング、リモートカメラ制御に対応したAndroid向け多機能メディアスイート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-13 GitHub Updates]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-13-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-13-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools Update (2026-05-13)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-others-tools-update.html</link>
@@ -142,46 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「知能はシステムに宿る」を掲げ、複数の専門AIエージェントをオーケストレートして自律的なソフトウェア開発を実現する次世代エージェント・ハーネス。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepSeek-Reasonix]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-esengine-deepseek-reasonix.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DeepSeek APIのプレフィックスキャッシュを最大限に活用し、コストを抑えつつ高速・高精度な開発を実現するターミナル専用AIコーディングエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nanotron]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-huggingface-nanotron.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-huggingface-nanotron.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[大規模言語モデル（LLM）を効率的に事前学習するための軽量なフレームワーク。3D並列化技術を活用し、柔軟でスケーラブルなモデル学習を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opentelemetry-collector]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-open-telemetry-opentelemetry-collector.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-open-telemetry-opentelemetry-collector.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[テレメトリデータの受信、処理、エクスポートをベンダー中立に行うコレクター。複雑な分散システムのオブザーバビリティ管理に不可欠な基盤ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[symphony]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAIによるマルチモーダルAIエージェントの連携オーケストレーションライブラリ。複数モデルとツールの協調動作を一貫したプロトコルで管理。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[flue]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Astro公式のAIエージェントフレームワーク。Web開発ワークフローにAIを統合し、高度なオーケストレーションによる開発効率化を支援。]]></description>
     </item>
   </channel>
 </rss>
