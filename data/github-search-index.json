@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-11T20:01:34.127202+00:00",
-  "count": 538,
+  "generatedAt": "2026-05-12T08:19:47.525541+00:00",
+  "count": 539,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "whatcable",
+      "dek": "",
+      "summary": "Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。",
+      "repoName": "darrylmorley/whatcable",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T17:19:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-12-darrylmorley-whatcable.html",
+      "serial": 506,
+      "searchText": "whatcable Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。 darrylmorley/whatcable 学習ガイド・開発アセット whatcable ← 記事一覧へ戻る GitHub Watcher whatcable Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。 記事作成日 2026-05-12 種別 Pickup 対象 repo darrylmorley/whatcable Star数 3,287 これは何か Macに接続されたUSB-Cケーブルがどのような仕様（データ転送速度、給電能力など）を持っているかを、メニューバーから一目で確認できるオープンソースのユーティリティアプリです。 何ができるか 接続されたケーブルが「Thunderbolt 4」なのか「USB 2.0（充電専用に近い）」なのかを判別し、最大転送速度（40Gbpsなど）や最大給電能力（100Wなど）を具体的な数値と分かりやすいテキストで表示します。 目立つポイント 専門用語を避け、一般のユーザーでも理解しやすい表現でケーブルの「実力」を説明してくれる点。また、Appleシリコン搭載Macに最適化されており、メニューバーから瞬時に情報を呼び出せます。 セットアップや使い方の流れ GitHubのReleasesページから最新の.dmgファイルをダウンロードしてインストールするだけで使用可能です。アプリを起動するとメニューバーに常駐し、ケーブルを抜き差しするたびに自動で情報を更新します。 どんな人向けか 手元にある大量のUSB-Cケーブルの中から、高速転送用や急速充電用を正しく見分けたいMacユーザー。特に、見た目が同じなのに性能がバラバラなケーブルの管理に困っている方に最適です。 注意点 表示される情報はMacのシステムプロファイルに基づいているため、ハブやアダプタを経由した場合、正確な情報が取得できない場合があります。また、macOS専用のツールです。 まとめ 「このケーブル、本当に速いの？」という誰もが抱く疑問を、技術的な知識なしで解決してくれる、非常に実用的なライフハックツールです。 参照リンク https://github.com/darrylmorley/whatcable Shared GitHub Serial: #506"
+    },
     {
       "slug": null,
       "category": "github-update-report",

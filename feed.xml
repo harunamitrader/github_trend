@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 11 May 2026 20:04:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 17:20:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[whatcable]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-darrylmorley-whatcable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-darrylmorley-whatcable.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-12 GitHub Updates]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-12-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update (2026-05-11)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-11-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-11-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT の Office 連携、Grok のコネクタ機能、Claude の使用制限大幅緩和についてのアップデートログ。]]></description>
     </item>
   </channel>
 </rss>

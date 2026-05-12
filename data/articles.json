@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "whatcable",
+      "repoName": "darrylmorley/whatcable",
+      "repoUrl": "https://github.com/darrylmorley/whatcable",
+      "summary": "Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "starCount": 3287,
+      "serial": 506,
+      "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T17:19:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-12-darrylmorley-whatcable.html",
+      "tags": [
+        "macOS",
+        "Utility",
+        "USB-C",
+        "Hardware"
+      ]
+    },
+    {
       "articleUrl": "./articles/github/reports/2026-05-12-update-report.html",
       "publishedAt": "2026-05-12",
       "createdAt": "2026-05-12T04:55:00Z",
