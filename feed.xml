@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 May 2026 04:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 19:29:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[AI Others Tools Update (2026-05-13)]]></title>
@@ -166,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[テレメトリデータの受信、処理、エクスポートをベンダー中立に行うコレクター。複雑な分散システムのオブザーバビリティ管理に不可欠な基盤ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[symphony]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-openai-symphony.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAIによるマルチモーダルAIエージェントの連携オーケストレーションライブラリ。複数モデルとツールの協調動作を一貫したプロトコルで管理。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[flue]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-withastro-flue.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Astro公式のAIエージェントフレームワーク。Web開発ワークフローにAIを統合し、高度なオーケストレーションによる開発効率化を支援。]]></description>
     </item>
   </channel>
 </rss>
