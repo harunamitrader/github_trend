@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "BMAD-METHOD",
+      "repoName": "bmad-code-org/BMAD-METHOD",
+      "repoUrl": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "summary": "AIを「高度な専門職エージェント」として活用し、アジャイル開発のライフサイクル全体を革新する次世代開発フレームワーク。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 46935,
+      "serial": 507,
+      "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T19:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-12-bmad-code-org-bmad-method.html",
+      "tags": [
+        "AI Driven Development",
+        "Agile",
+        "Framework",
+        "Productivity"
+      ]
+    },
+    {
       "title": "whatcable",
       "repoName": "darrylmorley/whatcable",
       "repoUrl": "https://github.com/darrylmorley/whatcable",

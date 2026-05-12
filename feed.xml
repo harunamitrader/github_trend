@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 May 2026 08:23:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 19:31:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[BMAD-METHOD]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-bmad-code-org-bmad-method.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-bmad-code-org-bmad-method.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIを「高度な専門職エージェント」として活用し、アジャイル開発のライフサイクル全体を革新する次世代開発フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[whatcable]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-darrylmorley-whatcable.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Apple Siliconに最適化されたLLM推論サーバー。継続的バッチ処理やSSDキャッシュを備え、Mac上で効率的な推論環境を構築可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-11 GitHub Updates]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-11-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-11-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。]]></description>
     </item>
   </channel>
 </rss>
