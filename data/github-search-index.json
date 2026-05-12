@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-12T10:31:12.144717+00:00",
-  "count": 540,
+  "generatedAt": "2026-05-12T11:02:56.229954+00:00",
+  "count": 541,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Trellis",
+      "dek": "",
+      "summary": "AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。",
+      "repoName": "mindfold-ai/trellis",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T20:05:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-12-mindfold-ai-trellis.html",
+      "serial": 508,
+      "searchText": "Trellis AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。 mindfold-ai/trellis AIコーディング (ワークフロー・プロンプト・開発補助ツール) Trellis ← 記事一覧へ戻る GitHub Watcher Trellis AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。 記事作成日 2026-05-12 種別 Pickup 対象 repo mindfold-ai/trellis Star数 7,760 これは何か Claude CodeやCursor、Geminiといった複数のAIコーディングツールを「プロダクション・レディ（本番環境品質）」にするための、エージェント・ハーネス（制御・連携フレームワーク）です。 何ができるか プロジェクト固有のコーディング規約（Specs）をAIに自動注入し、過去の意思決定プロセスを「Workspace Journal」として記憶・共有します。これにより、ツールを跨いでも一貫した品質でAIに開発を継続させることが可能です。 目立つポイント 「Auto-injected specs」による規約の自動反映と、AIが何を考えどう実装したかを蓄積する「Workspace Journal」機能。また、計画・実装・検証・改善の4フェーズを循環させる構造化されたワークフローを提供します。 セットアップや使い方の流れ プロジェクトのルートディレクトリに `.trellis` フォルダを作成し、規約やタスクを定義します。専用のCLIツール（trellis-implement等）を通じて、AIエージェントに指示を与える形式で利用します。 どんな人向けか 複数のAIツールを使い分けて開発効率を最大化したい個人開発者や、チーム全体でAIの出力スタイルを統一し、プロジェクト独自の複雑な設計ルールをAIに守らせたい開発チーム。 注意点 ツールのポテンシャルを最大限に引き出すには、`.trellis/spec/` にプロジェクトの標準を丁寧に定義する必要があります。また、各AIツールのAPI設定やCLIの導入が必要です。 まとめ AIエージェントを「ただのツール」から「プロジェクトの文脈を理解する一貫したパートナー」へと変える、AI駆動開発時代の必須インフラとなり得るプロジェクトです。 参照リンク https://github.com/mindfold-ai/trellis Shared GitHub Serial: #508"
+    },
     {
       "slug": null,
       "category": "github-pickup",

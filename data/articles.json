@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "Trellis",
+      "repoName": "mindfold-ai/trellis",
+      "repoUrl": "https://github.com/mindfold-ai/trellis",
+      "summary": "AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 7760,
+      "serial": 508,
+      "publishedAt": "2026-05-12",
+      "createdAt": "2026-05-12T20:05:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-12-mindfold-ai-trellis.html",
+      "tags": [
+        "AI Coding",
+        "Agent Harness",
+        "Workflow",
+        "Productivity"
+      ]
+    },
+    {
       "title": "BMAD-METHOD",
       "repoName": "bmad-code-org/BMAD-METHOD",
       "repoUrl": "https://github.com/bmad-code-org/BMAD-METHOD",

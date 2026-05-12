@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Trellis</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Trellis</h1>
+      <p class="article-dek">AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-12 -->
+          <strong>2026-05-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mindfold-ai/trellis" target="_blank" rel="noreferrer">
+              mindfold-ai/trellis
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,760</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude CodeやCursor、Geminiといった複数のAIコーディングツールを「プロダクション・レディ（本番環境品質）」にするための、エージェント・ハーネス（制御・連携フレームワーク）です。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロジェクト固有のコーディング規約（Specs）をAIに自動注入し、過去の意思決定プロセスを「Workspace Journal」として記憶・共有します。これにより、ツールを跨いでも一貫した品質でAIに開発を継続させることが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Auto-injected specs」による規約の自動反映と、AIが何を考えどう実装したかを蓄積する「Workspace Journal」機能。また、計画・実装・検証・改善の4フェーズを循環させる構造化されたワークフローを提供します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>プロジェクトのルートディレクトリに `.trellis` フォルダを作成し、規約やタスクを定義します。専用のCLIツール（trellis-implement等）を通じて、AIエージェントに指示を与える形式で利用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数のAIツールを使い分けて開発効率を最大化したい個人開発者や、チーム全体でAIの出力スタイルを統一し、プロジェクト独自の複雑な設計ルールをAIに守らせたい開発チーム。</p>
+
+        <h2>注意点</h2>
+        <p>ツールのポテンシャルを最大限に引き出すには、`.trellis/spec/` にプロジェクトの標準を丁寧に定義する必要があります。また、各AIツールのAPI設定やCLIの導入が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>AIエージェントを「ただのツール」から「プロジェクトの文脈を理解する一貫したパートナー」へと変える、AI駆動開発時代の必須インフラとなり得るプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mindfold-ai/trellis" target="_blank" rel="noreferrer">https://github.com/mindfold-ai/trellis</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #508</p>
+      </div>
+    </article>
+  </body>
+</html>
