@@ -7,6 +7,32 @@
   },
   "articles": [
     {
+      "title": "AI Others Tools Update (2026-05-13)",
+      "summary": "OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての技術アップデートログ。",
+      "publishedAt": "2026-05-13",
+      "category": "ai-tool-log",
+      "serial": 510,
+      "articleUrl": "./articles/tools/2026-05-13-ai-others-tools-update.html",
+      "tags": [
+        "OpenClaw",
+        "Gemini 3.1",
+        "UI Improvement"
+      ]
+    },
+    {
+      "title": "AI Coding Tools Update (2026-05-13)",
+      "summary": "OpenAI Codex v0.17.0 における Hermes MCP Bridge の導入と、正規のデザインワークフロー (DESIGN.md) の確立についての技術アップデートログ。",
+      "publishedAt": "2026-05-13",
+      "category": "ai-tool-log",
+      "serial": 509,
+      "articleUrl": "./articles/tools/2026-05-13-ai-coding-tools-update.html",
+      "tags": [
+        "OpenAI Codex",
+        "MCP",
+        "Workflow"
+      ]
+    },
+    {
       "title": "Trellis",
       "repoName": "mindfold-ai/trellis",
       "repoUrl": "https://github.com/mindfold-ai/trellis",

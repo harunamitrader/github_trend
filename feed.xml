@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 May 2026 11:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 04:25:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Others Tools Update (2026-05-13)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての技術アップデートログ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AI Coding Tools Update (2026-05-13)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Codex v0.17.0 における Hermes MCP Bridge の導入と、正規のデザインワークフロー (DESIGN.md) の確立についての技術アップデートログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Trellis]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-mindfold-ai-trellis.html</link>

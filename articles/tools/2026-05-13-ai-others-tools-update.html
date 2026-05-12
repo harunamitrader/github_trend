@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての 2026年5月13日 AI ツール更新情報。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI Others Tools Update (2026-05-13)</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">AI Others Tools Update (2026-05-13)</h1>
+      <p class="article-dek">OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての技術アップデートログ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Update Log</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>本日の調査で確認された汎用 AI ツールのアップデートは以下の通りです。</p>
+        <ul>
+            <li><strong>OpenClaw v2026.5.12-beta.1:</strong> 
+                <ul>
+                    <li><strong>Nested Sub-agent UI:</strong> セッションピッカーにて、サブエージェントを親セッションの下にツリー形式（<code>└─</code> プレフィックス）で表示できるようになりました。</li>
+                    <li><strong>OpenAI CLI Auth:</strong> <code>openclaw models auth login --provider openai</code> にて、ChatGPT/Codex アカウントへのログインフローがデフォルト化されました。</li>
+                    <li><strong>Gemini 3.1 Pro Preview:</strong> Google SDK 内での ID 正規化により、<code>google/gemini-3.1-pro-preview</code> がテスト利用可能になりました。</li>
+                    <li><strong>Security Fixes:</strong> <code>memory-wiki</code> 取り込み時の管理者権限要求の厳格化。</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>OpenClaw の UI 改善により、複雑なマルチエージェント・セッションの親子関係がひと目で把握可能になりました。また、Gemini 3.1 系の早期サポートにより、最新モデルの性能評価をいち早くセルフホスト環境で行えるようになっています。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw は、マルチエージェント運用の視認性と、最新モデルへの追従速度において、オープンソースの自律基盤としての完成度をさらに高めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AidanPark/OpenClaw/releases" target="_blank" rel="noreferrer">OpenClaw Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
