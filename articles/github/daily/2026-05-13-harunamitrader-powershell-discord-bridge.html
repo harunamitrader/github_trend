@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>powershell-discord-bridge</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">powershell-discord-bridge</h1>
+      <p class="article-dek">Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-13 -->
+          <strong>2026-05-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/harunamitrader/powershell-discord-bridge" target="_blank" rel="noreferrer">
+              harunamitrader/powershell-discord-bridge
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Discordをユーザーインターフェースとして使用し、自宅やオフィスのPCでPowerShellスクリプトやコマンドを実行するためのブリッジツールです。Node.jsとDiscord.jsを使用して構築されており、チャット画面からPCをリモート操作することを目的としています。</p>
+
+        <h2>何ができるか</h2>
+        <p>Discordの特定のチャンネルにメッセージを投稿することで、連携したPC上でPowerShell 7を実行します。コマンドの標準出力やエラー出力をDiscordに返送できるため、実行結果をリアルタイムで確認可能です。また、特定のユーザーIDやサーバーIDによる実行制限など、セキュリティ設定も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>環境変数（.env）による柔軟な設定管理と、TypeScriptによる型安全な実装が特徴です。複雑なVPN環境を構築することなく、Discordという既存のプラットフォームを通じてセキュアにリモート実行環境を構築できる点が実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Discord Developer PortalでBotを作成し、トークンを取得します。プロジェクトをクローンした後、<code>npm install</code>で依存関係を解決し、<code>.env</code>ファイルにトークンや許可するユーザーIDを記述します。<code>npm run dev</code>またはビルド後の<code>npm start</code>でBotを起動すれば準備完了です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>外出先から自宅PCのメンテナンスを行いたいインフラエンジニア、特定のルーチンワークをDiscordからトリガーしたい自動化愛好家、またはAIエージェントにPC操作権限を与えるためのプロキシ基盤を構築したい開発者。</p>
+
+        <h2>注意点</h2>
+        <p>本ツールは許可されたメッセージをPC上で直接実行するため、公開サーバーでの運用は避けるべきです。必ず<code>ALLOW_USER_IDS</code>等を使用して、信頼できるユーザーのみが実行できるように厳格に設定を制限して運用してください。</p>
+
+        <h2>まとめ</h2>
+        <p>powershell-discord-bridgeは、Discordという身近なツールを「リモートターミナル」へと変貌させる便利なユーティリティです。シンプルながらも拡張性が高く、パーソナルな自動化環境の核として活用できるポテンシャルを持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/harunamitrader/powershell-discord-bridge" target="_blank" rel="noreferrer">https://github.com/harunamitrader/powershell-discord-bridge</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #500</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "powershell-discord-bridge",
+      "repoName": "harunamitrader/powershell-discord-bridge",
+      "repoUrl": "https://github.com/harunamitrader/powershell-discord-bridge",
+      "summary": "Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 0,
+      "serial": 500,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T09:44:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-harunamitrader-powershell-discord-bridge.html",
+      "tags": [
+        "PowerShell",
+        "Discord",
+        "Automation",
+        "TypeScript"
+      ]
+    },
+    {
       "title": "hysteria",
       "repoName": "apernet/hysteria",
       "repoUrl": "https://github.com/apernet/hysteria",
