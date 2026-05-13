@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>influxdata/telegraf - サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント - Harunami AI Base</title>
+    <meta name="description" content="Telegrafは、データベース、システム、およびIoTセンサーからデータを収集、処理、集約、および書き込みを行うためのプラグイン駆動型エージェントです。Go言語で書かれ、300以上のプラグインをサポートしています。">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://harunami.ai/articles/github/daily/2026-05-13-telegraf.html">
+    <meta property="og:title" content="influxdata/telegraf - サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント">
+    <meta property="og:description" content="Telegrafは、データベース、システム、およびIoTセンサーからデータを収集、処理、集約、および書き込みを行うためのプラグイン駆動型エージェントです。">
+    <meta property="og:image" content="https://opengraph.githubassets.com/1/influxdata/telegraf">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://harunami.ai/articles/github/daily/2026-05-13-telegraf.html">
+    <meta property="twitter:title" content="influxdata/telegraf - サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント">
+    <meta property="twitter:description" content="Telegrafは、データベース、システム、およびIoTセンサーからデータを収集、処理、集約、および書き込みを行うためのプラグイン駆動型エージェントです。">
+    <meta property="twitter:image" content="https://opengraph.githubassets.com/1/influxdata/telegraf">
+
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="article-page">
+    <header class="header">
+        <div class="header-container">
+            <a href="../../../" class="logo">
+                <span class="logo-text">Harunami AI Base</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <article class="article-container">
+            <header class="article-header">
+                <div class="article-meta">
+                    <time datetime="2026-05-13">2026年5月13日</time>
+                    <span class="category">GitHub Trending</span>
+                </div>
+                <h1 class="article-title">influxdata/telegraf - サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント</h1>
+                <div class="article-tags">
+                    <span class="tag">Go</span>
+                    <span class="tag">Monitoring</span>
+                    <span class="tag">Metrics</span>
+                    <span class="tag">IoT</span>
+                </div>
+            </header>
+
+            <div class="article-body">
+                <!-- 概要セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">リポジトリ概要</h2>
+                    <p class="repo-description">Telegrafは、InfluxDataによって開発されている、オープンソースのサーバーエージェントです。データベース、システム、およびIoTセンサーからメトリクスやイベントデータを収集し、処理、集約した上で、InfluxDB、Graphite、OpenTSDB、Datadogなどの様々な出力先にデータを送信します。Go言語で書かれており、メモリフットプリントが非常に小さく、高いパフォーマンスを誇ります。</p>
+                    <div class="repo-stats">
+                        <div class="stat-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/influxdata/telegraf" target="_blank">influxdata/telegraf</a>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span>17.5k stars</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>5.6k forks</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 特徴セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">主な特徴</h2>
+                    <ul class="feature-list">
+                        <li><strong>プラグイン駆動型アーキテクチャ:</strong> 300以上の入力・出力プラグインをサポートしており、柔軟に拡張可能です。</li>
+                        <li><strong>最小限のメモリフットプリント:</strong> システムリソースを浪費することなく、エッジデバイスから大規模サーバーまで幅広く対応します。</li>
+                        <li><strong>多様なデータソース:</strong> Apache、MySQL、Nginx、Redis、Docker、Kubernetesなどの主要なサービスからデータを収集できます。</li>
+                        <li><strong>データの加工・集約:</strong> 収集したデータをフィルタリングしたり、計算（平均、合計など）を行ったりすることができます。</li>
+                    </ul>
+                </section>
+
+                <!-- 技術スタック -->
+                <section class="article-section">
+                    <h2 class="section-title">技術スタック</h2>
+                    <div class="tech-stack">
+                        <span class="tech-item">Go</span>
+                        <span class="tech-item">InfluxDB Ecosystem</span>
+                        <span class="tech-item">Plugin Architecture</span>
+                    </div>
+                </section>
+
+                <!-- 活用シーン -->
+                <section class="article-section">
+                    <h2 class="section-title">活用シーン</h2>
+                    <div class="use-cases">
+                        <div class="use-case">
+                            <h3>インフラ監視</h3>
+                            <p>CPU、メモリ、ディスク使用率などのシステムリソースをリアルタイムで監視し、異常を検知します。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>アプリケーションパフォーマンスモニタリング (APM)</h3>
+                            <p>アプリケーションから出力されるカスタムメトリクスを収集し、ボトルネックの特定に役立てます。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>IoTデータ収集</h3>
+                            <p>MQTTプラグインなどを使用して、各種センサーから送られてくるデータを集約し、クラウドへ送信します。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="article-section footer-cta">
+                    <p>最新のモニタリング環境を構築したい開発者にとって、Telegrafはその柔軟性と効率性から、事実上の標準エージェントと言えるでしょう。</p>
+                    <a href="https://github.com/influxdata/telegraf" class="github-button" target="_blank">
+                        <i class="fab fa-github"></i> GitHubで詳しく見る
+                    </a>
+                </section>
+            </div>
+
+            <footer class="article-footer">
+                <div class="share-buttons">
+                    <p>この記事をシェアする：</p>
+                    <a href="#" class="share-button twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-button facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="navigation-links">
+                    <a href="../../../" class="back-to-home"><i class="fas fa-arrow-left"></i> 記事一覧に戻る</a>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Harunami AI Base. All rights reserved.</p>
+    </footer>
+
+    <script src="../../../js/main.js"></script>
+</body>
+</html>

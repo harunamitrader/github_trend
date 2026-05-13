@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArthurBrussee/brush - ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン - Harunami AI Base</title>
+    <meta name="description" content="Brushは、Gaussian Splattingを用いた3D再構成エンジンです。WebGPUを活用し、ブラウザ、Windows、macOS、Linux、Androidで高速に動作します。">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://harunami.ai/articles/github/daily/2026-05-13-brush.html">
+    <meta property="og:title" content="ArthurBrussee/brush - ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン">
+    <meta property="og:description" content="Brushは、Gaussian Splattingを用いた3D再構成エンジンです。WebGPUを活用し、ブラウザ、Windows、macOS、Linux、Androidで高速に動作します。">
+    <meta property="og:image" content="https://opengraph.githubassets.com/1/ArthurBrussee/brush">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://harunami.ai/articles/github/daily/2026-05-13-brush.html">
+    <meta property="twitter:title" content="ArthurBrussee/brush - ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン">
+    <meta property="twitter:description" content="Brushは、Gaussian Splattingを用いた3D再構成エンジンです。WebGPUを活用し、ブラウザ、Windows、macOS、Linux、Androidで高速に動作します。">
+    <meta property="twitter:image" content="https://opengraph.githubassets.com/1/ArthurBrussee/brush">
+
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="article-page">
+    <header class="header">
+        <div class="header-container">
+            <a href="../../../" class="logo">
+                <span class="logo-text">Harunami AI Base</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <article class="article-container">
+            <header class="article-header">
+                <div class="article-meta">
+                    <time datetime="2026-05-13">2026年5月13日</time>
+                    <span class="category">GitHub Trending</span>
+                </div>
+                <h1 class="article-title">ArthurBrussee/brush - ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン</h1>
+                <div class="article-tags">
+                    <span class="tag">Rust</span>
+                    <span class="tag">3D Reconstruction</span>
+                    <span class="tag">Gaussian Splatting</span>
+                    <span class="tag">WebGPU</span>
+                </div>
+            </header>
+
+            <div class="article-body">
+                <!-- 概要セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">リポジトリ概要</h2>
+                    <p class="repo-description">Brushは、最新の3D再構成技術である「Gaussian Splatting」を用いたレンダリングおよびトレーニングエンジンです。従来の機械学習ツールがCUDAなどの大規模な依存関係を必要とするのに対し、BrushはWebGPU互換の技術とRust製MLフレームワーク「Burn」を採用することで、ブラウザ、モバイル（Android）、および主要なOS（Windows/macOS/Linux）で依存関係なしに動作することを目指しています。誰でも、どこでも高品質な3D再構成を体験できる未来を実現します。</p>
+                    <div class="repo-stats">
+                        <div class="stat-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/ArthurBrussee/brush" target="_blank">ArthurBrussee/brush</a>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.3k stars</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>231 forks</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 特徴セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">主な特徴</h2>
+                    <ul class="feature-list">
+                        <li><strong>広範なプラットフォーム対応:</strong> AMD/Nvidia/Intelの各種グラフィックカード、Android、そしてChromeブラウザ上で動作します。</li>
+                        <li><strong>リアルタイム・ライブトレーニング:</strong> トレーニング中もシーンを自由に操作でき、進行状況をライブで確認できます。ブラウザ上でのトレーニングも可能です。</li>
+                        <li><strong>軽量なバイナリ:</strong> 大規模なランタイムや依存ライブラリを必要とせず、シンプルな実行ファイルとして配布可能です。</li>
+                        <li><strong>高度なビューアー機能:</strong> .ply形式のファイルをURLからストリーミング読み込みできるほか、アニメーション（デルタフレーム）の再生にも対応しています。</li>
+                    </ul>
+                </section>
+
+                <!-- 技術スタック -->
+                <section class="article-section">
+                    <h2 class="section-title">技術スタック</h2>
+                    <div class="tech-stack">
+                        <span class="tech-item">Rust</span>
+                        <span class="tech-item">Burn (ML Framework)</span>
+                        <span class="tech-item">WebGPU / WGPU</span>
+                        <span class="tech-item">WASM (for Web)</span>
+                    </div>
+                </section>
+
+                <!-- 活用シーン -->
+                <section class="article-section">
+                    <h2 class="section-title">活用シーン</h2>
+                    <div class="use-cases">
+                        <div class="use-case">
+                            <h3>Webベースの3Dギャラリー</h3>
+                            <p>Eコマースやデジタルアーカイブにおいて、ブラウザだけで高品質な3Dオブジェクトを表示・体験させることができます。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>モバイル3Dスキャン</h3>
+                            <p>スマートフォンで撮影したデータから、クラウドを介さずデバイス上で直接3Dモデルを再構成するアプリケーションに最適です。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>研究・教育用ツール</h3>
+                            <p>Gaussian Splattingの学習ダイナミクスをリアルタイムで視覚化できるため、教育やアルゴリズムのデバッグに有用です。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="article-section footer-cta">
+                    <p>3Dレンダリングと機械学習を民主化し、誰もが最新の再構成技術を手軽に扱えるようにするBrushは、今後のクリエイティブ業界に大きな影響を与える可能性を秘めています。</p>
+                    <a href="https://github.com/ArthurBrussee/brush" class="github-button" target="_blank">
+                        <i class="fab fa-github"></i> GitHubで詳しく見る
+                    </a>
+                </section>
+            </div>
+
+            <footer class="article-footer">
+                <div class="share-buttons">
+                    <p>この記事をシェアする：</p>
+                    <a href="#" class="share-button twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-button facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="navigation-links">
+                    <a href="../../../" class="back-to-home"><i class="fas fa-arrow-left"></i> 記事一覧に戻る</a>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Harunami AI Base. All rights reserved.</p>
+    </footer>
+
+    <script src="../../../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supertone-inc/supertonic - ローカルで爆速動作する31言語対応のオンデバイスTTSシステム - Harunami AI Base</title>
+    <meta name="description" content="Supertonicは、ONNX Runtimeを使用してデバイス上でネイティブに動作する、超高速・高精度なテキスト読み上げ（TTS）システムです。31言語をサポート。">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://harunami.ai/articles/github/daily/2026-05-13-supertonic.html">
+    <meta property="og:title" content="supertone-inc/supertonic - ローカルで爆速動作する31言語対応のオンデバイスTTSシステム">
+    <meta property="og:description" content="Supertonicは、ONNX Runtimeを使用してデバイス上でネイティブに動作する、超高速・高精度なテキスト読み上げ（TTS）システムです。">
+    <meta property="og:image" content="https://opengraph.githubassets.com/1/supertone-inc/supertonic">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://harunami.ai/articles/github/daily/2026-05-13-supertonic.html">
+    <meta property="twitter:title" content="supertone-inc/supertonic - ローカルで爆速動作する31言語対応의 온디바이스 TTS 시스템">
+    <meta property="twitter:description" content="Supertonicは、ONNX Runtimeを使用してデバイス上でネイティブに動作する、超高速・高精度なテキスト読み上げ（TTS）システムです。">
+    <meta property="twitter:image" content="https://opengraph.githubassets.com/1/supertone-inc/supertonic">
+
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="article-page">
+    <header class="header">
+        <div class="header-container">
+            <a href="../../../" class="logo">
+                <span class="logo-text">Harunami AI Base</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <article class="article-container">
+            <header class="article-header">
+                <div class="article-meta">
+                    <time datetime="2026-05-13">2026年5月13日</time>
+                    <span class="category">GitHub Trending</span>
+                </div>
+                <h1 class="article-title">supertone-inc/supertonic - ローカルで爆速動作する31言語対応のオンデバイスTTSシステム</h1>
+                <div class="article-tags">
+                    <span class="tag">TTS</span>
+                    <span class="tag">AI Audio</span>
+                    <span class="tag">ONNX</span>
+                    <span class="tag">Multi-language</span>
+                </div>
+            </header>
+
+            <div class="article-body">
+                <!-- 概要セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">リポジトリ概要</h2>
+                    <p class="repo-description">Supertonicは、Supertone Inc.によって開発されている、超高速かつオンデバイスで完結するマルチリンガル・テキスト読み上げ（TTS）システムです。ONNX Runtimeを介してネイティブに動作するため、クラウドへの依存やプライバシーの懸念がなく、極めて低い遅延で音声を生成できます。モバイルアプリ、Webブラウザ、組み込みデバイスなど、多様な環境で最高水準の音声合成を実現します。</p>
+                    <div class="repo-stats">
+                        <div class="stat-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/supertone-inc/supertonic" target="_blank">supertone-inc/supertonic</a>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.2k stars</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>433 forks</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 特徴セクション -->
+                <section class="article-section">
+                    <h2 class="section-title">主な特徴</h2>
+                    <ul class="feature-list">
+                        <li><strong>31言語をサポート:</strong> 日本語、英語、韓国語、中国語、欧州各言語など、幅広い言語に対応しています。</li>
+                        <li><strong>超軽量・高速な推論:</strong> 約99Mパラメータというコンパクトな設計により、CPUのみの環境やモバイルデバイスでもリアルタイム以上の速度で動作します。</li>
+                        <li><strong>高度なテキスト処理:</strong> 電話番号、通貨、単位、略語などを自然な読み方で発音できる優れたテキスト正規化機能を備えています。</li>
+                        <li><strong>多様なランタイム対応:</strong> Python, Node.js, WebGPU, iOS, Android, C++, Rust, Go, Flutterなど、豊富な実装例が提供されています。</li>
+                    </ul>
+                </section>
+
+                <!-- 技術スタック -->
+                <section class="article-section">
+                    <h2 class="section-title">技術スタック</h2>
+                    <div class="tech-stack">
+                        <span class="tech-item">ONNX Runtime</span>
+                        <span class="tech-item">PyTorch (Training)</span>
+                        <span class="tech-item">Flow-Matching</span>
+                        <span class="tech-item">WebGPU</span>
+                    </div>
+                </section>
+
+                <!-- 活用シーン -->
+                <section class="article-section">
+                    <h2 class="section-title">活用シーン</h2>
+                    <div class="use-cases">
+                        <div class="use-case">
+                            <h3>アクセシビリティ・拡張機能</h3>
+                            <p>Webページの内容を瞬時に音声化するブラウザ拡張機能や、オフライン環境でも動作する電子書籍リーダーの開発に適しています。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>対話型AIインターフェース</h3>
+                            <p>LLMと組み合わせた音声対話チャットボットにおいて、オンデバイスでTTSを行うことで、ネットワーク遅延のないレスポンスを実現します。</p>
+                        </div>
+                        <div class="use-case">
+                            <h3>エッジコンピューティング</h3>
+                            <p>Raspberry Piなどの組み込み機器で、インターネット接続なしに自然な音声案内を行うことができます。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="article-section footer-cta">
+                    <p>高品質なTTSをプライベートかつ低コストに統合したい開発者にとって、Supertonicは現在最も強力な選択肢の一つです。</p>
+                    <a href="https://github.com/supertone-inc/supertonic" class="github-button" target="_blank">
+                        <i class="fab fa-github"></i> GitHubで詳しく見る
+                    </a>
+                </section>
+            </div>
+
+            <footer class="article-footer">
+                <div class="share-buttons">
+                    <p>この記事をシェアする：</p>
+                    <a href="#" class="share-button twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-button facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="navigation-links">
+                    <a href="../../../" class="back-to-home"><i class="fas fa-arrow-left"></i> 記事一覧に戻る</a>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Harunami AI Base. All rights reserved.</p>
+    </footer>
+
+    <script src="../../../js/main.js"></script>
+</body>
+</html>

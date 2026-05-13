@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 May 2026 00:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 05:32:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[brush]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-brush.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-brush.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン（Gaussian Splatting）。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[supertonic]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-supertonic.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-supertonic.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカルで爆速動作する31言語対応のオンデバイスTTSシステム。ONNX推論による極小フットプリントが特徴。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Personal_AI_Infrastructure]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-personal-ai-infrastructure.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-personal-ai-infrastructure.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人間の能力を拡張する「ライフOS」としてのAIインフラ。個人の目的（Telos）を核とした自律エージェント基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[scientific-agent-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-scientific-agent-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-scientific-agent-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを科学研究アシスタントに変える135の研究用スキルセット。バイオ・化学・医療データベースと高度に連携。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[telegraf]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-telegraf.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-telegraf.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント。300以上のプラグインをサポート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-13 GitHub PM Updates]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-13-pm-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-13-pm-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Hyperliquid-monitor]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-hyperliquid-monitor.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プライバシー重視で設計された、デスクトップ mascot を持つパーソナルAIアシスタント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[React Doctor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-millionco-react-doctor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-millionco-react-doctor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントが書いた「質の低いReactコード」を検出し、健康診断スコアと改善策を提示する自動レビューツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Stable Diffusion web UI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-AUTOMATIC1111-stable-diffusion-webui.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画像生成AI「Stable Diffusion」をブラウザから操作できる、世界で最も普及しているオープンソースのWeb UI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LLMs from scratch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-rasbt-LLMs-from-scratch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-rasbt-LLMs-from-scratch.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PyTorchを使用して、ChatGPTのようなLLMを一から実装するための包括的なステップバイステップ・ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update (2026-05-12)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-others-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-others-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.5.10-beta.5 のリリース、fal Providers による画像編集機能の強化、および UI リカバリパネルの導入についての技術アップデートログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update (2026-05-12)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-coding-tools-multi-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-12-ai-coding-tools-multi-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.139 のリリース、Cursor Bugbot の推論レベル導入、および Gemini CLI の最新パッチについての技術アップデートログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[autoharness]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-kayba-ai-autoharness.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-kayba-ai-autoharness.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン。プロンプトや設定の改善ループを自動化します。]]></description>
     </item>
   </channel>
 </rss>

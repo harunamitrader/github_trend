@@ -7,6 +7,110 @@
   },
   "articles": [
     {
+      "title": "brush",
+      "repoName": "ArthurBrussee/brush",
+      "repoUrl": "https://github.com/ArthurBrussee/brush",
+      "summary": "ブラウザやモバイルで動作するWebGPU対応3D再構成エンジン（Gaussian Splatting）。",
+      "category": "github-trending",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "trending",
+      "starCount": 4300,
+      "serial": 515,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-brush.html",
+      "tags": [
+        "Rust",
+        "Gaussian Splatting",
+        "WebGPU"
+      ]
+    },
+    {
+      "title": "supertonic",
+      "repoName": "supertone-inc/supertonic",
+      "repoUrl": "https://github.com/supertone-inc/supertonic",
+      "summary": "ローカルで爆速動作する31言語対応のオンデバイスTTSシステム。ONNX推論による極小フットプリントが特徴。",
+      "category": "github-trending",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "trending",
+      "starCount": 4200,
+      "serial": 514,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-supertonic.html",
+      "tags": [
+        "TTS",
+        "ONNX",
+        "Multi-language"
+      ]
+    },
+    {
+      "title": "Personal_AI_Infrastructure",
+      "repoName": "danielmiessler/Personal_AI_Infrastructure",
+      "repoUrl": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "summary": "人間の能力を拡張する「ライフOS」としてのAIインフラ。個人の目的（Telos）を核とした自律エージェント基盤。",
+      "category": "github-trending",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "trending",
+      "starCount": 13300,
+      "serial": 513,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-personal-ai-infrastructure.html",
+      "tags": [
+        "AI Infrastructure",
+        "Claude Code",
+        "Life OS"
+      ]
+    },
+    {
+      "title": "scientific-agent-skills",
+      "repoName": "K-Dense-AI/scientific-agent-skills",
+      "repoUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "summary": "AIエージェントを科学研究アシスタントに変える135の研究用スキルセット。バイオ・化学・医療データベースと高度に連携。",
+      "category": "github-trending",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "trending",
+      "starCount": 21000,
+      "serial": 512,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-scientific-agent-skills.html",
+      "tags": [
+        "Science",
+        "Research",
+        "AI Agents"
+      ]
+    },
+    {
+      "title": "telegraf",
+      "repoName": "influxdata/telegraf",
+      "repoUrl": "https://github.com/influxdata/telegraf",
+      "summary": "サーバー・アプリケーション監視のためのプラグイン駆動型メトリクス収集エージェント。300以上のプラグインをサポート。",
+      "category": "github-trending",
+      "genre": "開発インフラ・オブザーバビリティ",
+      "originType": "trending",
+      "starCount": 17500,
+      "serial": 511,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-telegraf.html",
+      "tags": [
+        "Monitoring",
+        "Go",
+        "Metrics"
+      ]
+    },
+    {
+      "articleUrl": "./articles/github/reports/2026-05-13-pm-update-report.html",
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T20:05:00Z",
+      "title": "2026-05-13 GitHub PM Updates",
+      "summary": "本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。",
+      "category": "github-update-report",
+      "serial": 43
+    },
+    {
       "title": "Hyperliquid-monitor",
       "repoName": "harunamitrader/Hyperliquid-monitor",
       "repoUrl": "https://github.com/harunamitrader/Hyperliquid-monitor",
