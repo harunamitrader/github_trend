@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 05:38:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 05:46:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update (2026-05-14)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.140, Cursor の CDE ベータ版, Cline v3.83.0, GitHub Copilot REST API 対応等の最新リリース情報をまとめました。]]></description>
+    </item>
     <item>
       <title><![CDATA[brush]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-brush.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[創作者がAIを活用してコンテンツを自動生成・分発し、複数のSNSで収益化するためのオールインワン・プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenHuman]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-tinyhumansai-openhuman.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-tinyhumansai-openhuman.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プライバシー重視で設計された、デスクトップ mascot を持つパーソナルAIアシスタント基盤。]]></description>
     </item>
   </channel>
 </rss>

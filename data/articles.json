@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update (2026-05-14)",
+      "summary": "Claude Code v2.1.140, Cursor の CDE ベータ版, Cline v3.83.0, GitHub Copilot REST API 対応等の最新リリース情報をまとめました。",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T05:45:00+09:00",
+      "category": "ai-tool-log",
+      "serial": 516,
+      "articleUrl": "./articles/tools/2026-05-14-ai-coding-tools-update.html",
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "Cline",
+        "GitHub Copilot",
+        "Gemini CLI"
+      ]
+    },
+    {
       "title": "brush",
       "repoName": "ArthurBrussee/brush",
       "repoUrl": "https://github.com/ArthurBrussee/brush",
