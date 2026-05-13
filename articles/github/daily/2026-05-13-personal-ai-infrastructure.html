@@ -1,144 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>danielmiessler/Personal_AI_Infrastructure - 人間の能力を拡張する「ライフOS」としてのAIインフラ - Harunami AI Base</title>
-    <meta name="description" content="Personal AI Infrastructure (PAI)は、単なるAIツールではなく、個人の目標や価値観を核に据えた「ライフOS」を構築するためのフレームワークです。">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://harunami.ai/articles/github/daily/2026-05-13-personal-ai-infrastructure.html">
-    <meta property="og:title" content="danielmiessler/Personal_AI_Infrastructure - 人間の能力を拡張する「ライフOS」としてのAIインフラ">
-    <meta property="og:description" content="Personal AI Infrastructure (PAI)は、単なるAIツールではなく、個人の目標や価値観を核に据えた「ライフOS」を構築するためのフレームワークです。">
-    <meta property="og:image" content="https://opengraph.githubassets.com/1/danielmiessler/Personal_AI_Infrastructure">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="人間の能力を拡張する「ライフOS」としてのAIインフラ。個人の目的（Telos）を核とした自律エージェント基盤。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Personal_AI_Infrastructure</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://harunami.ai/articles/github/daily/2026-05-13-personal-ai-infrastructure.html">
-    <meta property="twitter:title" content="danielmiessler/Personal_AI_Infrastructure - 人間の能力を拡張する「ライフOS」としてのAIインフラ">
-    <meta property="twitter:description" content="Personal AI Infrastructure (PAI)は、単なるAIツールではなく、個人の目標や価値観を核に据えた「ライフOS」を構築するためのフレームワークです。">
-    <meta property="twitter:image" content="https://opengraph.githubassets.com/1/danielmiessler/Personal_AI_Infrastructure">
+      <h1 class="article-title">Personal_AI_Infrastructure</h1>
+      <p class="article-dek">人間の能力を拡張する「ライフOS」としてのAIインフラ。個人の目的（Telos）を核とした自律エージェント基盤。</p>
 
-    <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="../../../css/article.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body class="article-page">
-    <header class="header">
-        <div class="header-container">
-            <a href="../../../" class="logo">
-                <span class="logo-text">Harunami AI Base</span>
-            </a>
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-13 -->
+          <strong>2026-05-13</strong>
         </div>
-    </header>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending (Rank 8)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" rel="noreferrer">
+              danielmiessler/Personal_AI_Infrastructure
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>13,300</strong>
+        </div>
+      </div>
 
-    <main class="main-content">
-        <article class="article-container">
-            <header class="article-header">
-                <div class="article-meta">
-                    <time datetime="2026-05-13">2026年5月13日</time>
-                    <span class="category">GitHub Trending</span>
-                </div>
-                <h1 class="article-title">danielmiessler/Personal_AI_Infrastructure - 人間の能力を拡張する「ライフOS」としてのAIインフラ</h1>
-                <div class="article-tags">
-                    <span class="tag">AI Infrastructure</span>
-                    <span class="tag">Productivity</span>
-                    <span class="tag">Claude Code</span>
-                    <span class="tag">Digital Assistant</span>
-                </div>
-            </header>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Personal AI Infrastructure (PAI)は、Daniel Miessler氏によって提唱・開発されている、AIを中心とした生活基盤（ライフOS）を構築するためのフレームワークです。個人の「Telos（目的）」を核に据えた設計が特徴です。</p>
 
-            <div class="article-body">
-                <!-- 概要セクション -->
-                <section class="article-section">
-                    <h2 class="section-title">リポジトリ概要</h2>
-                    <p class="repo-description">Personal AI Infrastructure (PAI)は、著名なセキュリティ研究者Daniel Miessler氏によって提唱・開発されている、AIを中心とした生活基盤（ライフOS）を構築するためのフレームワークです。最新のv5.0.0では、個人の「Telos（目的）」を核に据え、現状から理想状態への移行をAIが支援する高度なアルゴリズムが組み込まれています。単なるタスク管理やチャットボットを超え、人間の可能性を最大限に引き出すためのデジタルパートナーを目指しています。</p>
-                    <div class="repo-stats">
-                        <div class="stat-item">
-                            <i class="fab fa-github"></i>
-                            <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank">danielmiessler/Personal_AI_Infrastructure</a>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-star"></i>
-                            <span>13.3k stars</span>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-code-branch"></i>
-                            <span>1.9k forks</span>
-                        </div>
-                    </div>
-                </section>
+        <h2>何ができるか</h2>
+        <p>最新のv5.0.0では、個人の価値観や目標を理解した上で、現状から理想状態（ISA）への移行をAIが支援します。音声インタラクションやワークフロー管理を一元化する「Pulseデーモン」などを備えています。</p>
 
-                <!-- 特徴セクション -->
-                <section class="article-section">
-                    <h2 class="section-title">主な特徴</h2>
-                    <ul class="feature-list">
-                        <li><strong>ライフOSとしての設計:</strong> 個人の価値観、目標、知識を統合し、あらゆる活動においてAIが文脈を理解したサポートを提供します。</li>
-                        <li><strong>Pulseデーモン:</strong> ローカルホスト上で動作するダッシュボード。音声インタラクション、ワークフロー管理、ステータス表示を一元化します。</li>
-                        <li><strong>ISA (Ideal State Artifact):</strong> 「理想的な状態」を定義するドキュメント形式。AIはこのISAを基準に、タスクが完了したかどうかを検証し、目標達成へ導きます。</li>
-                        <li><strong>思考スキルのライブラリ:</strong> 第一原理思考、レッドチーム、システム思考などの高度な思考フレームワークをAIに適用させることができます。</li>
-                    </ul>
-                </section>
+        <h2>目立つポイント</h2>
+        <p>単なるタスク管理ではなく、第一原理思考やシステム思考などの「思考スキル」をAIに適用させ、人間の意思決定能力を大幅に拡張しようとするアプローチが独創的です。</p>
 
-                <!-- 技術スタック -->
-                <section class="article-section">
-                    <h2 class="section-title">技術スタック</h2>
-                    <div class="tech-stack">
-                        <span class="tech-item">TypeScript</span>
-                        <span class="tech-item">Bun</span>
-                        <span class="tech-item">Claude Code Native</span>
-                        <span class="tech-item">ONNX Runtime</span>
-                    </div>
-                </section>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>TypeScriptとBunをベースとした環境で動作し、Claude Codeとの親和性が非常に高く設計されています。ローカルホスト上で各コンポーネントを起動して構築します。</p>
 
-                <!-- 活用シーン -->
-                <section class="article-section">
-                    <h2 class="section-title">活用シーン</h2>
-                    <div class="use-cases">
-                        <div class="use-case">
-                            <h3>個人のナレッジマネジメント</h3>
-                            <p>過去のプロジェクト、読んだ本、学習した内容を蓄積し、新しい課題に対して過去の知見を即座に引き出します。</p>
-                        </div>
-                        <div class="use-case">
-                            <h3>高度な意思決定支援</h3>
-                            <p>「システム思考」や「レッドチーム」スキルを使用させ、計画の死角を特定したり、最適な戦略を策定させたりします。</p>
-                        </div>
-                        <div class="use-case">
-                            <h3>一貫性のあるデジタルアシスタント</h3>
-                            <p>プラットフォームごとにバラバラなAIではなく、自分自身の文脈を共有した単一のデジタルアシスタントと対話できます。</p>
-                        </div>
-                    </div>
-                </section>
+        <h2>どんな人向けか</h2>
+        <p>AIを単なる道具ではなく、自分の人生を共に歩む「パーソナルパートナー」として統合したいと考えている先進的なユーザー。</p>
 
-                <section class="article-section footer-cta">
-                    <p>AIを単なる「便利な道具」から、自分の人生の目的（Telos）を共にする「パートナー」へと昇華させたいユーザーにとって、PAIは一つの理想形を提示しています。</p>
-                    <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" class="github-button" target="_blank">
-                        <i class="fab fa-github"></i> GitHubで詳しく見る
-                    </a>
-                </section>
-            </div>
+        <h2>注意点</h2>
+        <p>構築には一定の技術的知識が必要であり、また個人の深い情報をAIに共有することになるため、プライバシー管理についても理解しておく必要があります。</p>
 
-            <footer class="article-footer">
-                <div class="share-buttons">
-                    <p>この記事をシェアする：</p>
-                    <a href="#" class="share-button twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="share-button facebook"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="navigation-links">
-                    <a href="../../../" class="back-to-home"><i class="fas fa-arrow-left"></i> 記事一覧に戻る</a>
-                </div>
-            </footer>
-        </article>
-    </main>
+        <h2>まとめ</h2>
+        <p>PAIは、AIが個人の潜在能力を最大限に引き出す未来のライフスタイルを、今すぐ体験するための最も先進的なインフラストラクチャです。</p>
 
-    <footer class="footer">
-        <p>&copy; 2026 Harunami AI Base. All rights reserved.</p>
-    </footer>
-
-    <script src="../../../js/main.js"></script>
-</body>
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" rel="noreferrer">https://github.com/danielmiessler/Personal_AI_Infrastructure</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #513</p>
+      </div>
+    </article>
+  </body>
 </html>
