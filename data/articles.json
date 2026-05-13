@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "AI-Shuho",
+      "repoName": "harunamitrader/AI-Shuho",
+      "repoUrl": "https://github.com/harunamitrader/AI-Shuho",
+      "summary": "日々のAIツール利用ログを自動集計し、AIによる分析を加えて週報（AI週報）を自動生成するナレッジ管理ツール。",
+      "category": "github-pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "originType": "pickup",
+      "starCount": 0,
+      "serial": 501,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T09:48:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-harunamitrader-ai-shuho.html",
+      "tags": [
+        "Knowledge Management",
+        "Reporting",
+        "Automation",
+        "SQLite"
+      ]
+    },
+    {
       "title": "powershell-discord-bridge",
       "repoName": "harunamitrader/powershell-discord-bridge",
       "repoUrl": "https://github.com/harunamitrader/powershell-discord-bridge",
