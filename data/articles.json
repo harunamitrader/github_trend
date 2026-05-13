@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "AI Others Tools Update (2026-05-14)",
+      "summary": "ChatGPT の画像枠拡大, Claude for Small Business 開始, NotebookLM の Gemini 連携強化等の最新リリース情報をまとめました。",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T05:55:00+09:00",
+      "category": "ai-tool-log",
+      "serial": 517,
+      "articleUrl": "./articles/tools/2026-05-14-ai-others-tools-update.html",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "NotebookLM",
+        "OpenClaw"
+      ]
+    },
+    {
       "title": "AI Coding Tools Update (2026-05-14)",
       "summary": "Claude Code v2.1.140, Cursor の CDE ベータ版, Cline v3.83.0, GitHub Copilot REST API 対応等の最新リリース情報をまとめました。",
       "publishedAt": "2026-05-14",
