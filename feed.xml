@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 May 2026 09:49:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 09:50:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Hyperliquid-monitor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-hyperliquid-monitor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-hyperliquid-monitor.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DEX Hyperliquid の市場データ（価格、出来高、ファンディングレート等）を自動取得し、GitHub Pages 上で可視化する OSS 監視ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI-Shuho]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-ai-shuho.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの性能を最大化する、ベンチマーク駆動型の自動最適化コントロールプレーン。プロンプトや設定の改善ループを自動化します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-skills-eval]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-11-darkrishabh-agent-skills-eval.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの「スキル」が本当に効いているかを定量的に測定。agentskills.io規格に対応した、プロンプトエンジニアリングのためのテストランナー。]]></description>
     </item>
   </channel>
 </rss>

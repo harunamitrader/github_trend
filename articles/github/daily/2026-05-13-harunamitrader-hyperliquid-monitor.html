@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DEX Hyperliquid の市場データ（価格、出来高、ファンディングレート等）を自動取得し、GitHub Pages 上で可視化する OSS 監視ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Hyperliquid-monitor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Hyperliquid-monitor</h1>
+      <p class="article-dek">DEX Hyperliquid の市場データ（価格、出来高、ファンディングレート等）を自動取得し、GitHub Pages 上で可視化する OSS 監視ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-13 -->
+          <strong>2026-05-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/harunamitrader/Hyperliquid-monitor" target="_blank" rel="noreferrer">
+              harunamitrader/Hyperliquid-monitor
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>分散型取引所（DEX）である Hyperliquid の L1 ネットワークから市場データを取得し、履歴データとして蓄積・表示するためのオープンソース・モニタリングツールです。サーバーレスな構成（Cloudflare Workers + GitHub Actions）で、低コストかつ自律的に動作するように設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>全銘柄の 5 分足（OHLCV）データ、ファンディングレート、オープンインタレストなどのマーケット統計を定期的に取得し、リポジトリ内の JSON ファイルとして保存します。保存されたデータは GitHub Pages を通じてウェブブラウザから閲覧可能で、トレーダーが過去の価格推移や資金調達率の傾向を分析するための基盤となります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>API キーやウォレットの秘密鍵を一切必要とせず、パブリック API のみで動作する安全な設計が特徴です。また、Cloudflare Worker による軽量なスケジューリングと、GitHub Actions によるデータ永続化を組み合わせた「サーバーレス・データレイク」としての構成は、個人開発者にとって非常にメンテナンス性が高いモデルです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをフォークし、Cloudflare Worker に `worker.mjs` をデプロイします。GitHub Actions の書き込み権限を持つトークンを Worker の Secret に設定し、5 分ごとの Cron 実行を設定します。あとは GitHub Actions を手動で一度実行して初期データを作成すれば、自動的にデータの蓄積とウェブサイトの更新が開始されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Hyperliquid での取引を最適化したいアルゴトレーダーや、DEX の市場動向を独自の UI で監視したい開発者。特定の銘柄のファンディングレートの推移を詳細に追いかけたい、あるいはサーバー維持費をかけずにデータ収集基盤を構築したいユーザーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>Hyperliquid API のレート制限に配慮し、標準では 5 分ごとの更新が推奨されています。また、データの蓄積が進むとリポジトリのサイズが増大するため、長期間の運用においては履歴データのアーカイブや整理を適宜検討する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Hyperliquid-monitor は、DEX トレーディングにおける「情報の非対称性」を解消するための強力な武器となります。サーバー管理の手間を省きつつ、自分だけの市場データバンクを構築できるこのツールは、次世代の DeFi トレード環境を支える実用的な一歩と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/harunamitrader/Hyperliquid-monitor" target="_blank" rel="noreferrer">https://github.com/harunamitrader/Hyperliquid-monitor</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #502</p>
+      </div>
+    </article>
+  </body>
+</html>

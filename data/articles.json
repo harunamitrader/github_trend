@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "Hyperliquid-monitor",
+      "repoName": "harunamitrader/Hyperliquid-monitor",
+      "repoUrl": "https://github.com/harunamitrader/Hyperliquid-monitor",
+      "summary": "DEX Hyperliquid の市場データ（価格、出来高、ファンディングレート等）を自動取得し、GitHub Pages 上で可視化する OSS 監視ツール。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "starCount": 0,
+      "serial": 502,
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T09:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-13-harunamitrader-hyperliquid-monitor.html",
+      "tags": [
+        "Hyperliquid",
+        "DEX",
+        "Market Data",
+        "Serverless"
+      ]
+    },
+    {
       "title": "AI-Shuho",
       "repoName": "harunamitrader/AI-Shuho",
       "repoUrl": "https://github.com/harunamitrader/AI-Shuho",
