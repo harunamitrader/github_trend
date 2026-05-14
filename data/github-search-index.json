@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-14T03:36:55.175894+00:00",
-  "count": 556,
+  "generatedAt": "2026-05-14T03:58:16.303470+00:00",
+  "count": 557,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "rico-skills",
+      "dek": "",
+      "summary": "Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。",
+      "repoName": "ricocc/rico-skills",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T13:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-ricocc-rico-skills.html",
+      "serial": 521,
+      "searchText": "rico-skills Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。 ricocc/rico-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) rico-skills ← 記事一覧へ戻る GitHub Watcher rico-skills Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。 記事作成日 2026-05-14 種別 Pickup 対象 repo ricocc/rico-skills Star数 68 これは何か Anthropic社が提供するAIエージェント型CLIツール「Claude Code」に新機能を追加するための、カスタムスキル（拡張機能）の詰め合わせセットです。開発者が日常的に行うリサーチやドキュメント作成、デザイン調整などのルーチンワークを、Claude Codeを介して高度に自動化することができます。 何ができるか GitHubのトレンドを読み取ってインサイトを抽出したり、URLからブランドのデザインシステムを解析して DESIGN.md を自動生成したりすることができます。また、対話形式でWeb上の情報を収集し、Markdown形式の高品質なキュレーション記事を一瞬で書き上げる「リソース推薦記事ジェネレーター」なども含まれています。 目立つポイント 個別のツールではなく「Claude Codeのスキル」として提供されている点が画期的です。これにより、開発中のプロジェクトコンテキストを保持したまま、自然言語の指示一つで「このURLのデザインを解析して、今のプロジェクトに合うCSS変数を作って」といった複雑なタスクを依頼できるようになります。特にデザイン抽出機能は、既存サイトからのデザイントークン化を大幅に効率化します。 セットアップや使い方の流れ Claude Codeがインストールされている環境で、 npx skills add ricocc/rico-skills/ < スキル名> コマンドを実行することで、特定のスキルをプロジェクトに追加できます。追加後は claude コマンドのセッション内で「このスキルを実行して」と伝えるだけで、対話的な自動化プロセスが開始されます。 どんな人向けか Claude Codeをメインの作業環境として活用しているエンジニアや、コンテンツ制作・デザイン調整の自動化に興味があるクリエイターに最適です。特に、複数の外部リソースを調査してドキュメント化する作業が多い方にとって、強力な味方となるでしょう。 注意点 実行にはClaude Codeのインストールと、Anthropic APIの利用環境が必要です。また、一部のスキルは外部のWebサイトを解析するため、インターネット接続環境と適切なアクセス権限が必要になります。 まとめ rico-skills は、AIエージェントを「ただのチャット」から「実務を遂行するチームメンバー」へと進化させる拡張機能集です。Claude Codeのポテンシャルを最大限に引き出し、開発とクリエイティブの境界をAIで橋渡ししてくれる興味深いリポジトリです。 参照リンク https://github.com/ricocc/rico-skills Shared GitHub Serial: #521"
+    },
     {
       "slug": null,
       "category": "github-pickup",

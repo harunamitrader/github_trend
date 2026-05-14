@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "rico-skills",
+      "repoName": "ricocc/rico-skills",
+      "repoUrl": "https://github.com/ricocc/rico-skills",
+      "summary": "Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 68,
+      "serial": 521,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T13:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-ricocc-rico-skills.html",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "Automation",
+        "Developer Tools"
+      ]
+    },
+    {
       "title": "opentrader",
       "repoName": "Open-Trader/opentrader",
       "repoUrl": "https://github.com/Open-Trader/opentrader",

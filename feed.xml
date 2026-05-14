@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 12:36:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:58:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[rico-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-ricocc-rico-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-ricocc-rico-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。]]></description>
+    </item>
     <item>
       <title><![CDATA[opentrader]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-open-trader-opentrader.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI Codex v0.17.0 における Hermes MCP Bridge の導入と、正規のデザインワークフロー (DESIGN.md) の確立についての技術アップデートログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Trellis]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-mindfold-ai-trellis.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-mindfold-ai-trellis.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。]]></description>
     </item>
   </channel>
 </rss>
