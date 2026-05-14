@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "qiaomu-anything-to-notebooklm",
+      "repoName": "joeseesun/qiaomu-anything-to-notebooklm",
+      "repoUrl": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "summary": "Claude Code に統合可能なカスタムスキル。Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。",
+      "category": "github-pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "originType": "pickup",
+      "starCount": 2175,
+      "serial": 536,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T05:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-joeseesun-qiaomu.html"
+    },
+    {
       "title": "ShowUI-Aloha",
       "repoName": "showlab/ShowUI-Aloha",
       "repoUrl": "https://github.com/showlab/ShowUI-Aloha",

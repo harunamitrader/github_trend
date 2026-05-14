@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 04:59:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 05:18:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[qiaomu-anything-to-notebooklm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-joeseesun-qiaomu.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-joeseesun-qiaomu.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code に統合可能なカスタムスキル。Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。]]></description>
+    </item>
     <item>
       <title><![CDATA[ShowUI-Aloha]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-showlab-showui-aloha.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update (2026-05-14)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT の画像枠拡大, Claude for Small Business 開始, NotebookLM の Gemini 連携強化等の最新リリース情報をまとめました。]]></description>
     </item>
   </channel>
 </rss>

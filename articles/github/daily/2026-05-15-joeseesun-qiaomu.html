@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="qiaomu-anything-to-notebooklm は、Claude Code に統合可能なカスタムスキルで、Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>qiaomu-anything-to-notebooklm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">qiaomu-anything-to-notebooklm</h1>
+      <p class="article-dek">あらゆる情報を Claude Code から NotebookLM へ繋ぎ、Podcast や資料を自動生成する強力なブリッジスキル</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/joeseesun/qiaomu-anything-to-notebooklm" target="_blank" rel="noreferrer">
+              joeseesun/qiaomu-anything-to-notebooklm
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,175</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code (CLI) にシームレスに統合できるカスタムスキルです。Web サイト、YouTube 動画、Podcast、PDF、ニュース記事などの多様な情報源からコンテンツを抽出し、Google NotebookLM へ自動的にアップロードして、音声による解説（Audio Overview）やスライド資料、マインドマップ、要約などを自動生成させるためのハブとして機能します。</p>
+
+        <h2>何ができるか</h2>
+        <p>Claude Code 上で URL を与えるだけで、スキルが背後でコンテンツをスクレイピングし、NotebookLM のノートブックに転送します。さらに NotebookLM の生成機能をリモートで呼び出し、生成された Podcast のリンクや飛書（Lark/Feishu）で構造化された資料をユーザーに返却します。有料サイトのペイウォール回避機能や OCR による画像解析も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるアップローダーではなく、MCP（Model Context Protocol）を活用した高度なデータ取得能力と、NotebookLM の「理解と要約」の力をターミナルから一撃で引き出せる設計が秀逸です。特に、中国語圏の主要な情報源（WeChat、小宇宙等）に強く、多言語の情報を効率よく処理できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>anthropic/claude-code</code> がインストールされた環境でリポジトリをクローンし、<code>install.sh</code> を実行してスキルとして登録します。利用時は <code>claude</code> コマンド内で URL を渡し、Podcast 化や資料作成を依頼するだけで、全工程が自動で進行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>日々大量の情報（動画、論文、Web 記事）に触れており、それらを効率的に NotebookLM で管理・再構成したいナレッジワーカーや、移動中に情報を音声で聴きたい（Podcast化したい）プロフェッショナル、Claude Code を中心とした統合開発・情報処理環境を構築しているエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>動作には Google アカウント（NotebookLM 用）との連携が必要です。また、MCP サーバーを活用するため、一部の外部サービスの利用には環境設定が必要な場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「あらゆる情報を NotebookLM の能力に繋ぐ」というコンセプトを、開発者フレンドリーな CLI スキルとして実現した実用性の高いツールです。AI を単なるチャット相手ではなく、インテリジェントな情報処理の自動パイプラインとして活用したいユーザーにとって、必携のスキルと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/joeseesun/qiaomu-anything-to-notebooklm" target="_blank" rel="noreferrer">https://github.com/joeseesun/qiaomu-anything-to-notebooklm</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #536</p>
+      </div>
+    </article>
+  </body>
+</html>

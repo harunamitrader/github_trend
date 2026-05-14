@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-14T19:59:31.763808+00:00",
-  "count": 570,
+  "generatedAt": "2026-05-14T20:18:22.500487+00:00",
+  "count": 571,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "qiaomu-anything-to-notebooklm",
+      "dek": "",
+      "summary": "Claude Code に統合可能なカスタムスキル。Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。",
+      "repoName": "joeseesun/qiaomu-anything-to-notebooklm",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T05:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-joeseesun-qiaomu.html",
+      "serial": 536,
+      "searchText": "qiaomu-anything-to-notebooklm Claude Code に統合可能なカスタムスキル。Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。 joeseesun/qiaomu-anything-to-notebooklm ナレッジ管理・RAG解析 qiaomu-anything-to-notebooklm ← 記事一覧へ戻る GitHub Watcher qiaomu-anything-to-notebooklm あらゆる情報を Claude Code から NotebookLM へ繋ぎ、Podcast や資料を自動生成する強力なブリッジスキル 記事作成日 2026-05-15 種別 Pickup 対象 repo joeseesun/qiaomu-anything-to-notebooklm Star数 2,175 これは何か Claude Code (CLI) にシームレスに統合できるカスタムスキルです。Web サイト、YouTube 動画、Podcast、PDF、ニュース記事などの多様な情報源からコンテンツを抽出し、Google NotebookLM へ自動的にアップロードして、音声による解説（Audio Overview）やスライド資料、マインドマップ、要約などを自動生成させるためのハブとして機能します。 何ができるか Claude Code 上で URL を与えるだけで、スキルが背後でコンテンツをスクレイピングし、NotebookLM のノートブックに転送します。さらに NotebookLM の生成機能をリモートで呼び出し、生成された Podcast のリンクや飛書（Lark/Feishu）で構造化された資料をユーザーに返却します。有料サイトのペイウォール回避機能や OCR による画像解析も備えています。 目立つポイント 単なるアップローダーではなく、MCP（Model Context Protocol）を活用した高度なデータ取得能力と、NotebookLM の「理解と要約」の力をターミナルから一撃で引き出せる設計が秀逸です。特に、中国語圏の主要な情報源（WeChat、小宇宙等）に強く、多言語の情報を効率よく処理できます。 セットアップや使い方の流れ anthropic/claude-code がインストールされた環境でリポジトリをクローンし、 install.sh を実行してスキルとして登録します。利用時は claude コマンド内で URL を渡し、Podcast 化や資料作成を依頼するだけで、全工程が自動で進行します。 どんな人向けか 日々大量の情報（動画、論文、Web 記事）に触れており、それらを効率的に NotebookLM で管理・再構成したいナレッジワーカーや、移動中に情報を音声で聴きたい（Podcast化したい）プロフェッショナル、Claude Code を中心とした統合開発・情報処理環境を構築しているエンジニアに最適です。 注意点 動作には Google アカウント（NotebookLM 用）との連携が必要です。また、MCP サーバーを活用するため、一部の外部サービスの利用には環境設定が必要な場合があります。 まとめ 「あらゆる情報を NotebookLM の能力に繋ぐ」というコンセプトを、開発者フレンドリーな CLI スキルとして実現した実用性の高いツールです。AI を単なるチャット相手ではなく、インテリジェントな情報処理の自動パイプラインとして活用したいユーザーにとって、必携のスキルと言えるでしょう。 参照リンク https://github.com/joeseesun/qiaomu-anything-to-notebooklm Shared GitHub Serial: #536"
+    },
     {
       "slug": null,
       "category": "github-pickup",
