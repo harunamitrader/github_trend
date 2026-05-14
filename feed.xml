@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 20:27:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:05:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update (2026-05-15)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の agents コマンド強化、GitHub Copilot の専用アプリ技術プレビュー開始、Gemini CLI のナイトリー更新等の最新リリース情報をまとめました。]]></description>
+    </item>
     <item>
       <title><![CDATA[LangExtract]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-google-langextract.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hysteria]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-apernet-hysteria.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-apernet-hysteria.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[カスタマイズされたQUICプロトコルを使用する、強力で高速なプロキシツール。検閲耐性と不安定な回線での高パフォーマンスが特徴。]]></description>
     </item>
   </channel>
 </rss>
