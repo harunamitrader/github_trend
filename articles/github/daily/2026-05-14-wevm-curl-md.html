@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>curl.md</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">curl.md</h1>
+      <p class="article-dek">curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-14 -->
+          <strong>2026-05-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/wevm/curl.md" target="_blank" rel="noreferrer">
+              wevm/curl.md
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>152</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>APIリクエストを行うための標準的なコマンドである <code>curl</code> の結果を、構造化されたMarkdown形式に変換して出力するCLIツールです。特にLLM（大規模言語モデル）にAPIの仕様やレスポンスをコンテキストとして伝える際、プレーンテキストよりも理解しやすい形式で提供することを目的としています。</p>
+
+        <h2>何ができるか</h2>
+        <p>通常の <code>curl</code> コマンドと同様の引数を受け取り、リクエストの詳細（URL、ヘッダー、ボディ）とレスポンスの内容を、シンタックスハイライトが効くコードブロックを含むMarkdownドキュメントとして標準出力またはファイルに書き出すことができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「LLM-Native」な設計が特徴です。単なる変換ツールではなく、LLMがAPIのエンドポイントやデータ構造を正確に把握できるように、Markdownの階層構造（Heading）を利用して情報を整理します。また、<code>wevm</code> チームによる開発ということもあり、Web3/Ethereum関連のAPIテストなどでも重宝されそうなシンプルさが魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js環境であれば、<code>npx curl.md <url></code> で即座に実行可能です。グローバルインストールする場合は <code>npm install -g curl.md</code> を行います。実行すると、APIのレスポンスがMarkdownの <code># Response</code> セクションなどに整理されて表示されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントの開発者や、ChatGPT/ClaudeなどのチャットUIにAPIドキュメントやデバッグログを貼り付けて分析させたい開発者に最適です。手動でMarkdownに整形する手間を省き、AIとの協調作業をスムーズにします。</p>
+
+        <h2>注意点</h2>
+        <p>非常に軽量なラッパーであるため、複雑な <code>curl</code> のオプションすべてを完全にパースしてMarkdown化するわけではありません。基本的なGET/POSTリクエストやヘッダー指定に最適化されています。</p>
+
+        <h2>まとめ</h2>
+        <p>AI時代の開発補助ツールとして、「LLMが読みやすいデータ形式」への変換を自動化する <code>curl.md</code> は、日常的なAPIデバッグやプロンプトエンジニアリングの効率を確実に向上させてくれる便利な小道具です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/wevm/curl.md" target="_blank" rel="noreferrer">https://github.com/wevm/curl.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #518</p>
+      </div>
+    </article>
+  </body>
+</html>

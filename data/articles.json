@@ -7,6 +7,46 @@
   },
   "articles": [
     {
+      "title": "paper-framework-figure-studio-pro",
+      "repoName": "c-narcissus/paper-framework-figure-studio-pro",
+      "repoUrl": "https://github.com/c-narcissus/paper-framework-figure-studio-pro",
+      "summary": "学術論文や技術ドキュメント向けの高品質な図表・ダイアグラムを、マークダウンベースの構成からプロフェッショナルな品質で生成・編集できるスタジオ環境。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 386,
+      "serial": 519,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T12:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-c-narcissus-paper-framework-figure-studio-pro.html",
+      "tags": [
+        "Academic",
+        "Figure",
+        "Diagram",
+        "Studio"
+      ]
+    },
+    {
+      "title": "curl.md",
+      "repoName": "wevm/curl.md",
+      "repoUrl": "https://github.com/wevm/curl.md",
+      "summary": "curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 152,
+      "serial": 518,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T12:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-wevm-curl-md.html",
+      "tags": [
+        "CLI",
+        "cURL",
+        "Markdown",
+        "LLM Context"
+      ]
+    },
+    {
       "title": "AI Others Tools Update (2026-05-14)",
       "summary": "ChatGPT の画像枠拡大, Claude for Small Business 開始, NotebookLM の Gemini 連携強化等の最新リリース情報をまとめました。",
       "publishedAt": "2026-05-14",

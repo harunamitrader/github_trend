@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 05:59:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:33:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[paper-framework-figure-studio-pro]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-c-narcissus-paper-framework-figure-studio-pro.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-c-narcissus-paper-framework-figure-studio-pro.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[学術論文や技術ドキュメント向けの高品質な図表・ダイアグラムを、マークダウンベースの構成からプロフェッショナルな品質で生成・編集できるスタジオ環境。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[curl.md]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-wevm-curl-md.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-wevm-curl-md.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Others Tools Update (2026-05-14)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-others-tools-update.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIを「高度な専門職エージェント」として活用し、アジャイル開発のライフサイクル全体を革新する次世代開発フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[whatcable]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-darrylmorley-whatcable.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-darrylmorley-whatcable.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Macに接続されたUSB-Cケーブルの正体と真の性能を「分かりやすい言葉」で教えてくれるmacOS専用ユーティリティ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-12 GitHub Updates]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-12-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-12-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。]]></description>
     </item>
   </channel>
 </rss>

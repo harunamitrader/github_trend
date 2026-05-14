@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-05-13T20:38:26.943847+00:00",
-  "count": 553,
+  "generatedAt": "2026-05-14T03:33:23.627514+00:00",
+  "count": 555,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "paper-framework-figure-studio-pro",
+      "dek": "",
+      "summary": "学術論文や技術ドキュメント向けの高品質な図表・ダイアグラムを、マークダウンベースの構成からプロフェッショナルな品質で生成・編集できるスタジオ環境。",
+      "repoName": "c-narcissus/paper-framework-figure-studio-pro",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T12:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-c-narcissus-paper-framework-figure-studio-pro.html",
+      "serial": 519,
+      "searchText": "paper-framework-figure-studio-pro 学術論文や技術ドキュメント向けの高品質な図表・ダイアグラムを、マークダウンベースの構成からプロフェッショナルな品質で生成・編集できるスタジオ環境。 c-narcissus/paper-framework-figure-studio-pro メディア作成・マルチモーダル・UI paper-framework-figure-studio-pro ← 記事一覧へ戻る GitHub Watcher paper-framework-figure-studio-pro 学術論文や技術ドキュメント向けの高品質な図表・ダイアグラムを、マークダウンベースの構成からプロフェッショナルな品質で生成・編集できるスタジオ環境。 記事作成日 2026-05-14 種別 Pickup 対象 repo c-narcissus/paper-framework-figure-studio-pro Star数 386 これは何か 論文執筆者や技術ブロガーのために設計された、図表（Figure）作成に特化したデザインスタジオ・フレームワークです。図の構成要素をコード（Markdown/YAML風）で定義しつつ、GUI上で直感的に配置やスタイルを調整できる「ハイブリッドな編集体験」を提供します。 何ができるか フローチャート、システム構成図、実験結果のグラフプロット、およびそれらを組み合わせたマルチパネルの図表を、学会発表や論文投稿に耐えうる高解像度（ベクター形式等）でエクスポートできます。テンプレート機能が充実しており、一貫性のあるデザインを維持できます。 目立つポイント 最も強力な点は、図の「論理構造」と「見た目」を分離していることです。テキストベースで構造を管理できるため、図の変更履歴をGitなどで管理しやすく、また大規模な図の構成変更も定義ファイルを書き換えるだけで瞬時に反映されます。「Pro」の名にふさわしく、タイポグラフィや配色にも高度なこだわりが見られます。 セットアップや使い方の流れ 公式のGitHubリポジトリからバイナリをダウンロードするか、Webブラウザベースのデモ環境（提供されている場合）で開始できます。基本的には .pffs ファイルを作成し、ノードやエッジ、プロットデータを定義した後に、プレビュー画面を見ながらレイアウトを微調整するワークフローになります。 どんな人向けか LaTeXやMarkdownでドキュメントを書いている研究者、エンジニア、テクニカルライターに最適です。特に、パワポやIllustratorでの図解作成に「再現性がない」「修正が面倒」と感じている層にとって、救世主となるツールです。 注意点 独自の定義構文を少し学習する必要があります。また、高度なグラフ描画を行う場合は、背後でPython（Matplotlib等）やJavaScriptのライブラリが動作するため、環境構築に若干の工数がかかる場合があります。 まとめ paper-framework-figure-studio-pro は、図解作成のワークフローをエンジニアリング的なアプローチで再構築します。美しさとメンテナンス性を両立したいすべてのドキュメント作成者にとって、強力な味方になるでしょう。 参照リンク https://github.com/c-narcissus/paper-framework-figure-studio-pro Shared GitHub Serial: #519"
+    },
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "curl.md",
+      "dek": "",
+      "summary": "curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。",
+      "repoName": "wevm/curl.md",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T12:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-wevm-curl-md.html",
+      "serial": 518,
+      "searchText": "curl.md curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。 wevm/curl.md AIコーディング (ワークフロー・プロンプト・開発補助ツール) curl.md ← 記事一覧へ戻る GitHub Watcher curl.md curlコマンドをMarkdown形式でドキュメント化し、LLMが理解しやすいコンテキストとして提供するための軽量なコマンドラインツール。 記事作成日 2026-05-14 種別 Pickup 対象 repo wevm/curl.md Star数 152 これは何か APIリクエストを行うための標準的なコマンドである curl の結果を、構造化されたMarkdown形式に変換して出力するCLIツールです。特にLLM（大規模言語モデル）にAPIの仕様やレスポンスをコンテキストとして伝える際、プレーンテキストよりも理解しやすい形式で提供することを目的としています。 何ができるか 通常の curl コマンドと同様の引数を受け取り、リクエストの詳細（URL、ヘッダー、ボディ）とレスポンスの内容を、シンタックスハイライトが効くコードブロックを含むMarkdownドキュメントとして標準出力またはファイルに書き出すことができます。 目立つポイント 「LLM-Native」な設計が特徴です。単なる変換ツールではなく、LLMがAPIのエンドポイントやデータ構造を正確に把握できるように、Markdownの階層構造（Heading）を利用して情報を整理します。また、 wevm チームによる開発ということもあり、Web3/Ethereum関連のAPIテストなどでも重宝されそうなシンプルさが魅力です。 セットアップや使い方の流れ Node.js環境であれば、 npx curl.md で即座に実行可能です。グローバルインストールする場合は npm install -g curl.md を行います。実行すると、APIのレスポンスがMarkdownの # Response セクションなどに整理されて表示されます。 どんな人向けか AIエージェントの開発者や、ChatGPT/ClaudeなどのチャットUIにAPIドキュメントやデバッグログを貼り付けて分析させたい開発者に最適です。手動でMarkdownに整形する手間を省き、AIとの協調作業をスムーズにします。 注意点 非常に軽量なラッパーであるため、複雑な curl のオプションすべてを完全にパースしてMarkdown化するわけではありません。基本的なGET/POSTリクエストやヘッダー指定に最適化されています。 まとめ AI時代の開発補助ツールとして、「LLMが読みやすいデータ形式」への変換を自動化する curl.md は、日常的なAPIデバッグやプロンプトエンジニアリングの効率を確実に向上させてくれる便利な小道具です。 参照リンク https://github.com/wevm/curl.md Shared GitHub Serial: #518"
+    },
     {
       "slug": null,
       "category": "github-trending",
