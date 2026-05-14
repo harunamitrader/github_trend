@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "md-viewer-app",
+      "repoName": "Tongzhao9417/md-viewer-app",
+      "repoUrl": "https://github.com/Tongzhao9417/md-viewer-app",
+      "summary": "Tauri v2 による超軽量（約8.6MB）な Markdown 閲覧専用アプリ。エディタよりも高速に、ドキュメントを整理して読むことに特化しています。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 26,
+      "serial": 534,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T05:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-tongzhao9417-md-viewer-app.html"
+    },
+    {
       "title": "2026-05-15 アップデートレポート",
       "summary": "本日（2026-05-15）の GitHub Trending 全 15 リポジトリの調査結果と、新規追加された 5 件の記事（gstack, spec-kit 等）のまとめ。",
       "publishedAt": "2026-05-15",

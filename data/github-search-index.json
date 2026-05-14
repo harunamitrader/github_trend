@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-14T19:50:48.869507+00:00",
-  "count": 568,
+  "generatedAt": "2026-05-14T19:56:15.012868+00:00",
+  "count": 569,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "md-viewer-app",
+      "dek": "",
+      "summary": "Tauri v2 による超軽量（約8.6MB）な Markdown 閲覧専用アプリ。エディタよりも高速に、ドキュメントを整理して読むことに特化しています。",
+      "repoName": "Tongzhao9417/md-viewer-app",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T05:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-tongzhao9417-md-viewer-app.html",
+      "serial": 534,
+      "searchText": "md-viewer-app Tauri v2 による超軽量（約8.6MB）な Markdown 閲覧専用アプリ。エディタよりも高速に、ドキュメントを整理して読むことに特化しています。 Tongzhao9417/md-viewer-app AIコーディング (ワークフロー・プロンプト・開発補助ツール) md-viewer-app ← 記事一覧へ戻る GitHub Watcher md-viewer-app Tauri v2 による圧倒的軽量さ（約8.6MB）を実現した、閲覧特化型の Markdown ビューワー 記事作成日 2026-05-15 種別 Pickup 対象 repo Tongzhao9417/md-viewer-app Star数 26 これは何か Tauri v2 を基盤として開発された、Markdown ドキュメントの「閲覧」に特化したデスクトップアプリケーションです。編集機能を省くことで、バイナリサイズ約 8.6MB という驚異的な軽量さと、高速な起動・描画を実現しています。 何ができるか ローカルの Markdown ファイルやフォルダをドラッグ＆ドロップで即座に表示できます。VS Code 風のサイドバー、マルチタブ管理、目次（アウトライン）表示といった開発者に馴染みのある UI を備えており、HTML、PDF、DOCX へのエクスポート機能も搭載しています。 目立つポイント Tauri v2 と Rust による最適化により、システムリソースをほとんど消費せずに動作する点が魅力です。また、学術論文風（Academic）や技術ドキュメント風（Technical）など、読書体験を向上させる独自のテーマエンジンを搭載しています。 セットアップや使い方の流れ リリースエンジンのバイナリをダウンロードして実行するだけで利用可能です。エディタを開くほどではないが、複雑な構造のドキュメントを整理して読みたい場合に、ファイルをアプリへ放り込むだけで閲覧を開始できます。 どんな人向けか AI エージェントが生成した大量の Markdown ドキュメントを素早く確認したい開発者や、VS Code を「ビューワー」として使うには重すぎると感じているユーザー、軽量な技術文書閲覧環境を求めている研究者に最適です。 注意点 閲覧専用（Pure Reader）であるため、アプリ内での Markdown 編集機能は提供されていません。修正が必要な場合は別途エディタを使用する必要があります。 まとめ 「読むこと」に徹することで、エディタにはない快適さを実現した秀逸なツールです。AI 時代、テキストベースの情報が爆発的に増える中で、こうした「軽快なビューワー」の価値はますます高まっていくでしょう。 参照リンク https://github.com/Tongzhao9417/md-viewer-app Shared GitHub Serial: #534"
+    },
     {
       "slug": null,
       "category": "github-update-report",
