@@ -7,6 +7,27 @@
   },
   "articles": [
     {
+      "title": "agents",
+      "repoName": "wshobson/agents",
+      "repoUrl": "https://github.com/wshobson/agents",
+      "summary": "Claude CodeやGemini CLI向けに設計された、300以上の専門エージェント、プラグイン、スキル、ワークフローを統合した巨大な自動化エコシステム。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 35344,
+      "serial": 524,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T20:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-wshobson-agents.html",
+      "tags": [
+        "Claude Code",
+        "Agents",
+        "Orchestration",
+        "Automation",
+        "Plugins"
+      ]
+    },
+    {
       "title": "dots.ocr",
       "repoName": "rednote-hilab/dots.ocr",
       "repoUrl": "https://github.com/rednote-hilab/dots.ocr",
