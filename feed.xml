@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 04:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:46:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[CLI-Anything]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-hkuds-cli-anything.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-hkuds-cli-anything.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤。自己進化するインターフェースを提供します。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Tools Update - Others (2026-05-15)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-others-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[DEX Hyperliquid の市場データ（価格、出来高、ファンディングレート等）を自動取得し、GitHub Pages 上で可視化する OSS 監視ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI-Shuho]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-ai-shuho.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-ai-shuho.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[日々のAIツール利用ログを自動集計し、AIによる分析を加えて週報（AI週報）を自動生成するナレッジ管理ツール。]]></description>
     </item>
   </channel>
 </rss>

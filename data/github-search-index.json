@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-14T11:27:31.200547+00:00",
-  "count": 561,
+  "generatedAt": "2026-05-14T19:46:28.535304+00:00",
+  "count": 562,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CLI-Anything",
+      "dek": "",
+      "summary": "あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤。自己進化するインターフェースを提供します。",
+      "repoName": "HKUDS/CLI-Anything",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T04:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-hkuds-cli-anything.html",
+      "serial": 528,
+      "searchText": "CLI-Anything あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤。自己進化するインターフェースを提供します。 HKUDS/CLI-Anything AIエージェント (自律基盤・特化アプリ) CLI-Anything ← 記事一覧へ戻る GitHub Watcher CLI-Anything あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤 記事作成日 2026-05-15 種別 Pickup 対象 repo HKUDS/CLI-Anything Star数 34,451 これは何か 既存の GUI アプリケーションや複雑なソフトウェアを、AI エージェントがパースしやすい JSON 出力や自己記述的なヘルプを備えた「エージェントネイティブな CLI」へと変換・カプセル化する基盤ツールです。 何ができるか GUI 操作が必要だったツールを CLI としてラップし、Claude Code や Cursor などの AI エージェントがプログラムから確実に制御できるようにします。また、 refine コマンドによって、不足している機能やドキュメントを LLM が自律的に補完・拡張することができます。 目立つポイント 「CLI はエージェントのための API である」という思想のもと、コミュニティが作成した操作ロジック（スキル）を npx skills で即座に共有・利用できるエコシステム「CLI-Hub」を備えている点が非常に強力です。 セットアップや使い方の流れ npm install -g @clianything/cli でインストール後、 clia use [スキル名] で特定のソフトウェアを操作対象としてセットアップします。既存のツールをエージェント対応させたい場合は、 clia refine を実行して必要なコマンドを自動生成させることが可能です。 どんな人向けか 自作の AI エージェントに強力な操作能力を付与したい開発者や、既存のレガシーなソフトウェアを AI 時代に適合させたいシステムエンジニア、複雑な操作をエージェント経由で自動化したいパワーユーザーに最適です。 注意点 複雑な GUI ソフトウェアのラップには、依然として特定のプラットフォーム依存のランタイムや、LLM による正確な機能解析プロセスが必要となる場合があります。 まとめ AI エージェントが真に「コンピュータを使いこなす」ためのミッシングリンクを埋めるプロジェクトです。単なるラッパーを超え、インターフェース自体が自律進化する仕組みは、次世代のソフトウェア開発の標準となる可能性を秘めています。 参照リンク https://github.com/HKUDS/CLI-Anything Shared GitHub Serial: #528"
+    },
     {
       "slug": null,
       "category": "github-pickup",

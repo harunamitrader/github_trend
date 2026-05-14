@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "CLI-Anything",
+      "repoName": "HKUDS/CLI-Anything",
+      "repoUrl": "https://github.com/HKUDS/CLI-Anything",
+      "summary": "あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤。自己進化するインターフェースを提供します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 34451,
+      "serial": 528,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T04:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-hkuds-cli-anything.html"
+    },
+    {
       "title": "AI Tools Update - Others (2026-05-15)",
       "summary": "Grok のコーディングエージェント「Grok Build」プレビュー公開、ChatGPT の会話コンテキスト改善、NotebookLM の手書きデジタル化等の最新リリース情報をまとめました。",
       "publishedAt": "2026-05-15",
