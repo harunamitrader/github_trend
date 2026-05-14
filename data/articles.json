@@ -7,6 +7,27 @@
   },
   "articles": [
     {
+      "title": "esp-claw",
+      "repoName": "espressif/esp-claw",
+      "repoUrl": "https://github.com/espressif/esp-claw",
+      "summary": "ESP32などのIoTデバイス上でローカルに動作するAIエージェントフレームワーク。Luaスクリプトの動的ロードにより、チャット形式でデバイスの動作をリアルタイムに定義・変更できる「Chat Coding」を実現します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 1183,
+      "serial": 522,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T13:05:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-espressif-esp-claw.html",
+      "tags": [
+        "IoT",
+        "ESP32",
+        "AI Agent",
+        "Chat Coding",
+        "Lua"
+      ]
+    },
+    {
       "title": "rico-skills",
       "repoName": "ricocc/rico-skills",
       "repoUrl": "https://github.com/ricocc/rico-skills",

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ESP32などのIoTデバイス上でローカルに動作するAIエージェントフレームワーク。Luaスクリプトの動的ロードにより、チャット形式でデバイスの動作をリアルタイムに定義・変更できる「Chat Coding」を実現します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>esp-claw</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">esp-claw</h1>
+      <p class="article-dek">ESP32などのIoTデバイス上でローカルに動作するAIエージェントフレームワーク。Luaスクリプトの動的ロードにより、チャット形式でデバイスの動作をリアルタイムに定義・変更できる「Chat Coding」を実現します。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-14 -->
+          <strong>2026-05-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/espressif/esp-claw" target="_blank" rel="noreferrer">
+              espressif/esp-claw
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,183</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>半導体メーカーのEspressif社が提供する、IoTデバイス向けのAIエージェントフレームワークです。「Chat Coding」というコンセプトを掲げており、従来の複雑なファームウェア開発工程を、チャットによる対話形式の指示へと置き換えることを目指しています。デバイスそのものが意思決定を行い、物理世界と対話するエッジAIの基盤となります。</p>
+
+        <h2>何ができるか</h2>
+        <p>IM（インスタントメッセージ）形式のチャットを通じてデバイスに指示を出すと、AIエージェントがその意図を解釈し、対応するLuaスクリプトを動的に生成・実行します。これにより、LEDの点灯パターンの変更やセンサーデータの処理方法の定義などを、コンパイルや書き込み（Flash）なしで即座に反映させることができます。また、業界標準のMCP (Model Context Protocol) をサポートしており、他のAIツールとのシームレスな連携も可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最も画期的なのは「完全ローカルなエッジ実行」と「動的な動作変更」の両立です。外部のクラウドに依存せずデバイス内で推論と実行が完結するため、プライバシーとリアルタイム性が極めて高く維持されます。さらに、ブラウザからオンラインで初期ファームウェアを書き込めるツールが用意されており、セットアップの障壁が非常に低い点も、 Espressif公式リポジトリらしい使い勝手の良さを感じさせます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>公式サイトまたはGitHubから提供されている「Online Flasher」を使い、USB接続したESP32デバイスに <code>esp-claw</code> のベースイメージを書き込みます。その後、Wi-Fi設定を行えば、ブラウザや専用のチャットインターフェースからデバイスに対して「部屋が暗くなったらライトをつけて」といった指示を送り、動作を開始させることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>スマートホーム自作派のエンジニアや、AIエージェントを物理デバイスに組み込みたいデベロッパーに最適です。複雑なC言語やIDF（Espressif IoT Development Framework）の知識がなくても、AIとの対話を通じてハードウェアを制御できるため、プロトタイピングの速度を劇的に向上させたい方にもお勧めです。</p>
+
+        <h2>注意点</h2>
+        <p>現在はプレビュー版としての性質が強く、すべての複雑なタスクを完全に自動化できるわけではありません。また、高度な推論を行うには別途LLMのAPIキーやローカルサーバーが必要な場合がありますが、基本機能はデバイス単体での自律動作を前提に設計されています。</p>
+
+        <h2>まとめ</h2>
+        <p><code>esp-claw</code> は、IoT開発に「AIエージェント」という新しいレイヤーを導入するエポックメイキングなプロジェクトです。ソフトウェア開発における「ノーコード/ローコード」の流れが、AIを介してハードウェアの世界にも本格的に波及し始めたことを象徴するリポジトリと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/espressif/esp-claw" target="_blank" rel="noreferrer">https://github.com/espressif/esp-claw</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #522</p>
+      </div>
+    </article>
+  </body>
+</html>
