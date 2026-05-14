@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "title": "opentrader",
+      "repoName": "Open-Trader/opentrader",
+      "repoUrl": "https://github.com/Open-Trader/opentrader",
+      "summary": "100以上の仮想通貨取引所に対応し、GRIDやDCAなどの戦略をGUIから簡単に実行・管理できるオープンソースの自動取引プラットフォーム。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "starCount": 2496,
+      "serial": 520,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T12:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-open-trader-opentrader.html",
+      "tags": [
+        "FinTech",
+        "Trading Bot",
+        "Cryptocurrency",
+        "Self-hosted"
+      ]
+    },
+    {
       "title": "paper-framework-figure-studio-pro",
       "repoName": "c-narcissus/paper-framework-figure-studio-pro",
       "repoUrl": "https://github.com/c-narcissus/paper-framework-figure-studio-pro",

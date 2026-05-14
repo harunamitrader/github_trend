@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 12:33:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:36:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[opentrader]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-open-trader-opentrader.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-open-trader-opentrader.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[100以上の仮想通貨取引所に対応し、GRIDやDCAなどの戦略をGUIから簡単に実行・管理できるオープンソースの自動取引プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[paper-framework-figure-studio-pro]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-c-narcissus-paper-framework-figure-studio-pro.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングエージェントの出力品質を標準化し、マルチエージェント間の「記憶」と「規約」を統合管理するオープンソースの制御基盤（ハーネス）。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[BMAD-METHOD]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-bmad-code-org-bmad-method.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-12-bmad-code-org-bmad-method.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIを「高度な専門職エージェント」として活用し、アジャイル開発のライフサイクル全体を革新する次世代開発フレームワーク。]]></description>
     </item>
   </channel>
 </rss>
