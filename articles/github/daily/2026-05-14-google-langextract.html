@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLMを使用して非構造化テキストから構造化情報を抽出するPythonライブラリ。精密なソースグラウンディング（根拠の紐付け）とインタラクティブな可視化機能を備えています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LangExtract</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LangExtract</h1>
+      <p class="article-dek">LLMを使用して非構造化テキストから構造化情報を抽出するPythonライブラリ。精密なソースグラウンディング（根拠の紐付け）とインタラクティブな可視化機能を備えています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-14 -->
+          <strong>2026-05-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google/langextract" target="_blank" rel="noreferrer">
+              google/langextract
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>36,456</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Googleが開発した、LLM（大規模言語モデル）の推論能力を活用して、雑多な「非構造化テキスト」から正確に「構造化データ（JSON等）」を抽出するためのPythonライブラリです。単なる抽出に留まらず、抽出されたデータの「根拠（Source Grounding）」を元のテキスト上で明示することを重視した設計が特徴です。</p>
+
+        <h2>何ができるか</h2>
+        <p>臨床ノート、技術レポート、法律文書などの複雑なテキストから、ユーザーが指定したスキーマに基づいて特定のエンティティや関係性を抽出します。抽出結果は元のドキュメント内の位置と紐付けられ、抽出された数千もの項目をインタラクティブに確認できるHTMLレポートとして即座に出力することが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「情報の検証可能性（Verifiability）」です。LLMの課題であるハルシネーション（嘘）を防ぐため、すべての抽出データが原文のどこに基づいているかを正確にマッピングします。また、長文ドキュメントを効率的に処理するためのチャンキングと並列化、Few-shot（少数の例示）による精度の最適化など、実務でドキュメント解析を行うための高度な機能が最初から統合されています。Googleのリポジトリらしく、Gemini APIとの連携に最適化されていますが、ローカルのオープンソースモデル（Ollama経由など）もサポートしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境で <code>pip install langextract</code> を実行して導入します。抽出したいデータのスキーマと数個の例（Few-shot）を定義し、対象のテキストをライブラリに渡すだけで、構造化されたデータとインタラクティブな可視化レポートが生成されます。複雑なファインチューニングは必要ありません。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大量の専門文書から特定の情報を抽出してデータベース化したいデータサイエンティストや、RAG（検索拡張生成）の精度を高めるためにドキュメントを正確に構造化したいエンジニアに最適です。医療、金融、法務など、情報の正確性が最優先される領域での活用が強く意識されています。</p>
+
+        <h2>注意点</h2>
+        <p>非常に強力なツールですが、LLMの呼び出し回数が増えるため、クラウドAPIを使用する場合はコスト管理に注意が必要です。また、抽出の精度は提供するFew-shotの例（Examples）の質に大きく依存するため、プロンプト設計には一定の試行錯誤が求められます。</p>
+
+        <h2>まとめ</h2>
+        <p><code>LangExtract</code> は、LLMを単なる「読み手」から「高精度なデータ抽出機」へと変えるための実践的なフレームワークです。Googleが培った「根拠に基づく抽出」のノウハウが凝縮されており、AIによるドキュメント解析の信頼性を一段階引き上げる重要なツールとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google/langextract" target="_blank" rel="noreferrer">https://github.com/google/langextract</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #525</p>
+      </div>
+    </article>
+  </body>
+</html>

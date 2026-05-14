@@ -7,6 +7,27 @@
   },
   "articles": [
     {
+      "title": "LangExtract",
+      "repoName": "google/langextract",
+      "repoUrl": "https://github.com/google/langextract",
+      "summary": "LLMを使用して非構造化テキストから構造化情報を抽出するPythonライブラリ。精密なソースグラウンディング（根拠の紐付け）とインタラクティブな可視化機能を備えています。",
+      "category": "github-pickup",
+      "genre": "データ分析・RAG・基盤モデル",
+      "originType": "pickup",
+      "starCount": 36456,
+      "serial": 525,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T20:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-google-langextract.html",
+      "tags": [
+        "Google",
+        "Data Extraction",
+        "LLM",
+        "NLP",
+        "Python"
+      ]
+    },
+    {
       "title": "agents",
       "repoName": "wshobson/agents",
       "repoUrl": "https://github.com/wshobson/agents",

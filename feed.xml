@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 20:25:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 20:27:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[LangExtract]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-google-langextract.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-google-langextract.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMを使用して非構造化テキストから構造化情報を抽出するPythonライブラリ。精密なソースグラウンディング（根拠の紐付け）とインタラクティブな可視化機能を備えています。]]></description>
+    </item>
     <item>
       <title><![CDATA[agents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-wshobson-agents.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[カスタマイズされたQUICプロトコルを使用する、強力で高速なプロキシツール。検閲耐性と不安定な回線での高パフォーマンスが特徴。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FadCam]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-anonfaded-FadCam.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-anonfaded-FadCam.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[バックグラウンド録画、画面録画、ライブストリーミング、リモートカメラ制御に対応したAndroid向け多機能メディアスイート。]]></description>
     </item>
   </channel>
 </rss>
