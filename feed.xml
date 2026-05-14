@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 04:56:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:59:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ShowUI-Aloha]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-showlab-showui-aloha.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-showlab-showui-aloha.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人間による一回の手本からワークフローを学習し、実際の Windows や macOS デスクトップを自律操作するエージェント。セマンティックな学習により高い汎用性を実現します。]]></description>
+    </item>
     <item>
       <title><![CDATA[md-viewer-app]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-tongzhao9417-md-viewer-app.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT の画像枠拡大, Claude for Small Business 開始, NotebookLM の Gemini 連携強化等の最新リリース情報をまとめました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update (2026-05-14)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-14-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.140, Cursor の CDE ベータ版, Cline v3.83.0, GitHub Copilot REST API 対応等の最新リリース情報をまとめました。]]></description>
     </item>
   </channel>
 </rss>

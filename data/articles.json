@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ShowUI-Aloha",
+      "repoName": "showlab/ShowUI-Aloha",
+      "repoUrl": "https://github.com/showlab/ShowUI-Aloha",
+      "summary": "人間による一回の手本からワークフローを学習し、実際の Windows や macOS デスクトップを自律操作するエージェント。セマンティックな学習により高い汎用性を実現します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 303,
+      "serial": 535,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T05:05:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-showlab-showui-aloha.html"
+    },
+    {
       "title": "md-viewer-app",
       "repoName": "Tongzhao9417/md-viewer-app",
       "repoUrl": "https://github.com/Tongzhao9417/md-viewer-app",
