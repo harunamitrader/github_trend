@@ -7,6 +7,27 @@
   },
   "articles": [
     {
+      "title": "dots.ocr",
+      "repoName": "rednote-hilab/dots.ocr",
+      "repoUrl": "https://github.com/rednote-hilab/dots.ocr",
+      "summary": "RedNote AI Labが開発した、多言語対応の次世代OCR・レイアウト解析ツール。チャートやグラフィックを直接SVGに変換する強力な機能と、3Bパラメータという軽量ながらSOTAの性能を両立。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 8613,
+      "serial": 523,
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-14T14:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-14-rednote-hilab-dots-ocr.html",
+      "tags": [
+        "OCR",
+        "VLM",
+        "Layout Analysis",
+        "SVG",
+        "SOTA"
+      ]
+    },
+    {
       "title": "esp-claw",
       "repoName": "espressif/esp-claw",
       "repoUrl": "https://github.com/espressif/esp-claw",

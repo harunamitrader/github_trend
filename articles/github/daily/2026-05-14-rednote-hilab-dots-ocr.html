@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RedNote AI Labが開発した、多言語対応の次世代OCR・レイアウト解析ツール。チャートやグラフィックを直接SVGに変換する強力な機能と、3Bパラメータという軽量ながらSOTAの性能を両立。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>dots.ocr</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">dots.ocr</h1>
+      <p class="article-dek">RedNote AI Labが開発した、多言語対応の次世代OCR・レイアウト解析ツール。チャートやグラフィックを直接SVGに変換する強力な機能と、3Bパラメータという軽量ながらSOTAの性能を両立。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-14 -->
+          <strong>2026-05-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rednote-hilab/dots.ocr" target="_blank" rel="noreferrer">
+              rednote-hilab/dots.ocr
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>8,613</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「小紅書（XiaoHongShu）」のAI Labが開発した、ドキュメント解析と文字認識に特化したVision-Language Model (VLM) です。現在は <code>dots.mocr</code> としても知られており、画像やPDFに含まれるテキストだけでなく、レイアウト構造やグラフィック要素までを高度に理解し、構造化データとして抽出することを得意としています。</p>
+
+        <h2>何ができるか</h2>
+        <p>人類が使用するほぼ全ての言語体系に対応したOCR機能に加え、特に「dots.mocr-svg」モデルでは、画像内のチャートやダイアグラムを解析し、そのまま編集可能な <b>SVGコード</b> へと変換することができます。また、vLLMなどの高速推論エンジンに対応しており、ドキュメントの大量処理にも適しています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>3B（30億）パラメータという、現代のVLMとしては比較的軽量なサイズでありながら、ベンチマークにおいて巨大なモデルを凌駕するSOTAの性能を叩き出している点が驚異的です。特にレイアウト解析の精度が高く、単なる文字の羅列ではなく「表」や「図」として情報を再構成できるため、RAG（検索拡張生成）のデータ前処理としても非常に強力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Hugging Faceからモデルの重みをダウンロードし、TransformersライブラリまたはvLLMを使用して起動します。Pythonスクリプトから数行で画像を読み込ませ、<code>JSON</code> や <code>Markdown</code>、あるいは <code>SVG</code> 形式での出力を得ることが可能です。公式リポジトリには推論用のサンプルコードが充実しています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ドキュメントのデジタル化（Digitization）を推進しているエンジニアや、画像ベースの情報をAIに読み込ませるための高精度なパーサーを探している開発者に最適です。また、画像内のグラフをベクターデータとして抽出したいデザイナーやリサーチャーにとっても、唯一無二のツールとなるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>モデルはMITライセンスで公開されていますが、商用利用の際は開発元であるRedNoteのガイドラインを適宜確認することをお勧めします。また、日本語の認識精度も高いですが、手書き文字や極端にノイズの多い画像では、適切な前処理が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p><code>dots.ocr</code> は、OCRの枠を超えて「ドキュメントを構造的に理解する」次世代のスタンダードを予感させるプロジェクトです。特に図表のベクター化（SVG変換）機能は、今後のマルチモーダルAI活用の幅を大きく広げるキーテクノロジーとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rednote-hilab/dots.ocr" target="_blank" rel="noreferrer">https://github.com/rednote-hilab/dots.ocr</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #523</p>
+      </div>
+    </article>
+  </body>
+</html>

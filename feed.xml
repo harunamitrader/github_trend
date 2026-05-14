@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 13:02:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 14:24:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[dots.ocr]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-rednote-hilab-dots-ocr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-rednote-hilab-dots-ocr.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[RedNote AI Labが開発した、多言語対応の次世代OCR・レイアウト解析ツール。チャートやグラフィックを直接SVGに変換する強力な機能と、3Bパラメータという軽量ながらSOTAの性能を両立。]]></description>
+    </item>
     <item>
       <title><![CDATA[esp-claw]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-espressif-esp-claw.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update (2026-05-13)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-13-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.5.12-beta.1 のリリース、サブエージェントのネスト表示 UI、OpenAI CLI 認証の改善、および Gemini 3.1 Pro Preview 対応についての技術アップデートログ。]]></description>
     </item>
   </channel>
 </rss>
