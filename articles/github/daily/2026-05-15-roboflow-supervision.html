@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="supervision は、Roboflow が提供する Python ライブラリで、物体検出、セグメンテーション、トラッキング結果の可視化や分析を数行のコードで実現するコンピュータビジョン開発キットです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>supervision</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">supervision</h1>
+      <p class="article-dek">コンピュータビジョンの可視化・分析・後処理を劇的にシンプルにする Python ツールキット</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/roboflow/supervision" target="_blank" rel="noreferrer">
+              roboflow/supervision
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>38,836</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>コンピュータビジョンモデル（YOLO, DINO, SAM 等）が出力する予測結果を、簡単に可視化・分析・処理するための Python ライブラリです。Roboflow コミュニティによってメンテナンスされており、モデルの種類を問わず一貫した API でビジョンタスクの後処理を記述できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>バウンディングボックスの描画、セグメンテーションマスクの表示、ライン跨ぎによるカウント、ヒートマップ生成、領域内カウントなど、実用的な分析機能を数行のコードで実装できます。また、ビデオ処理パイプラインの構築もサポートしています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特定のモデルに依存せず、あらゆる物体検出モデルの出力を「Detections」という共通フォーマットで扱える点が非常に優秀です。これにより、モデルの入れ替えが容易になり、可視化や分析のロジックを再利用できるようになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install supervision</code> でインストール可能です。推論モデルの出力を <code>sv.Detections.from_...</code> で読み込み、<code>sv.BoxAnnotator</code> 等を使って画像や動画に結果を重畳するだけで、プロフェッショナルな可視化が完了します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>コンピュータビジョンモデルを用いたアプリ開発者、研究内容をわかりやすく可視化したい AI エンジニア、工場の検品や交通量調査などの実務でビデオ分析を高速に構築したい方に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>本ライブラリ自体は「モデル」ではなく「ツール」であるため、別途 YOLO 等の推論モデルを用意する必要があります。しかし、主要なモデルとの連携アダプターが非常に充実しています。</p>
+
+        <h2>まとめ</h2>
+        <p>コンピュータビジョン開発における「可視化コードの書き直し」という不毛な作業からエンジニアを解放する、非常に実用的なライブラリです。ビジョンエージェントの観測結果を人間が確認する際や、エッジ側での推論結果の即時分析に欠かせないツールとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/roboflow/supervision" target="_blank" rel="noreferrer">https://github.com/roboflow/supervision</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #533</p>
+      </div>
+    </article>
+  </body>
+</html>
