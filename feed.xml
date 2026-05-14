@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 04:05:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 04:19:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Tools Update - Others (2026-05-15)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Grok のコーディングエージェント「Grok Build」プレビュー公開、ChatGPT の会話コンテキスト改善、NotebookLM の手書きデジタル化等の最新リリース情報をまとめました。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update (2026-05-15)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[日々のAIツール利用ログを自動集計し、AIによる分析を加えて週報（AI週報）を自動生成するナレッジ管理ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[powershell-discord-bridge]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-powershell-discord-bridge.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-13-harunamitrader-powershell-discord-bridge.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。]]></description>
     </item>
   </channel>
 </rss>

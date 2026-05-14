@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "AI Tools Update - Others (2026-05-15)",
+      "summary": "Grok のコーディングエージェント「Grok Build」プレビュー公開、ChatGPT の会話コンテキスト改善、NotebookLM の手書きデジタル化等の最新リリース情報をまとめました。",
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T04:15:00+09:00",
+      "category": "ai-tool-log",
+      "serial": 527,
+      "articleUrl": "./articles/tools/2026-05-15-ai-others-tools-update.html",
+      "tags": [
+        "Grok",
+        "ChatGPT",
+        "NotebookLM"
+      ]
+    },
+    {
       "title": "AI Coding Tools Update (2026-05-15)",
       "summary": "Claude Code の agents コマンド強化、GitHub Copilot の専用アプリ技術プレビュー開始、Gemini CLI のナイトリー更新等の最新リリース情報をまとめました。",
       "publishedAt": "2026-05-15",
