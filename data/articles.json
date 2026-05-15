@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "title": "Bun",
+      "repoName": "oven-sh/bun",
+      "repoUrl": "https://github.com/oven-sh/bun",
+      "summary": "JavaScript/TypeScript の実行、パッケージ管理、ビルド、テストをこれ一つで完結させる超高速オールインワン・ツールキット。Node.js の強力な代替候補として注目を集めています。",
+      "category": "github-trending",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "trending",
+      "rank": 10,
+      "starCount": 72500,
+      "serial": 546,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-oven-sh-bun.html"
+    },
+    {
+      "title": "2026-05-16 アップデートレポート",
+      "summary": "本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:55:00+09:00",
+      "category": "github-update-report",
+      "serial": 45,
+      "articleUrl": "./articles/github/reports/2026-05-16-update-report.html"
+    },
+    {
       "title": "Awesome-finance-skills",
       "repoName": "RKiding/Awesome-finance-skills",
       "repoUrl": "https://github.com/RKiding/Awesome-finance-skills",

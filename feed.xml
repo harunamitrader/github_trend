@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 04:42:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:51:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Bun]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-oven-sh-bun.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-oven-sh-bun.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JavaScript/TypeScript の実行、パッケージ管理、ビルド、テストをこれ一つで完結させる超高速オールインワン・ツールキット。Node.js の強力な代替候補として注目を集めています。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-16 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-16-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-16-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Awesome-finance-skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[YC Garry Tan 氏による Claude Code 最適化設定群。23種類の専門ツールを統合し、エージェントに多様な役割を担わせることが可能です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CLI-Anything]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-hkuds-cli-anything.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-hkuds-cli-anything.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆるソフトウェアを AI エージェントが操作しやすい「構造化 CLI」へ変換するエージェントネイティブ化基盤。自己進化するインターフェースを提供します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Tools Update - Others (2026-05-15)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Grok のコーディングエージェント「Grok Build」プレビュー公開、ChatGPT の会話コンテキスト改善、NotebookLM の手書きデジタル化等の最新リリース情報をまとめました。]]></description>
     </item>
   </channel>
 </rss>
