@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 19:52:27 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 06:38:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[site2cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-lonexreb-site2cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-lonexreb-site2cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール。AI エージェントへのコンテキスト投入用ソース作成にも最適です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Bun]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-oven-sh-bun.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GitHub 公式による Spec-Driven Development 実践ツールキット。AI と協力して仕様書から堅牢なコードを生成するワークフローを支援します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[gstack]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-garrytan-gstack.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-garrytan-gstack.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[YC Garry Tan 氏による Claude Code 最適化設定群。23種類の専門ツールを統合し、エージェントに多様な役割を担わせることが可能です。]]></description>
     </item>
   </channel>
 </rss>

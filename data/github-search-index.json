@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-15T19:51:53.867546+00:00",
-  "count": 580,
+  "generatedAt": "2026-05-15T21:38:01.033713+00:00",
+  "count": 581,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "site2cli",
+      "dek": "",
+      "summary": "Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール。AI エージェントへのコンテキスト投入用ソース作成にも最適です。",
+      "repoName": "lonexreb/site2cli",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T06:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-lonexreb-site2cli.html",
+      "serial": 547,
+      "searchText": "site2cli Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール。AI エージェントへのコンテキスト投入用ソース作成にも最適です。 lonexreb/site2cli スクレイピング・情報収集・セキュリティ site2cli ← 記事一覧へ戻る GitHub Watcher site2cli Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール 記事作成日 2026-05-16 種別 Pickup 対象 repo lonexreb/site2cli Star数 28 これは何か 任意の URL から Web ページのコンテンツを取得し、人間や AI が読みやすい Markdown 形式に変換して標準出力する CLI ツールです。ブラウザを開くことなく、ターミナル上で情報を素早く確認することに特化しています。 何ができるか HTML をパースして不要なタグを除去し、純粋な記事内容を Markdown として抽出します。 site2cli <URL> というワンコマンドで、複雑な Web ページをテキストベースのドキュメントとして取得できます。 目立つポイント JavaScript を実行しない軽量な設計により、非常に高速に動作します。また、生成される Markdown は構造化されているため、そのままエディタで編集したり、AI エージェントへの知識ソースとしてパイプで渡したりするのに非常に適しています。 セットアップや使い方の流れ Go 製のツールとして、 go install github.com/lonexreb/site2cli@latest でインストール可能です。実行時は site2cli https://example.com のように URL を引数に渡すだけで、Markdown が出力されます。 どんな人向けか ターミナル中心のワークフローを好む開発者や、AI エージェントに Web の最新情報を効率よく提供したいエンジニアに最適です。 注意点 JavaScript を多用する動的なページ（SPA 等）では、初期ロード時の HTML のみが対象となるため、期待通りの内容が取得できない場合があります。 まとめ site2cli は、「Web 情報をテキストとして所有する」ための最もシンプルで確実な手段の一つです。AI 時代における情報収集のパイプラインとして重宝するでしょう。 参照リンク https://github.com/lonexreb/site2cli Shared GitHub Serial: #547"
+    },
     {
       "slug": null,
       "category": "github-trending",
@@ -15,7 +30,7 @@
       "createdAt": "2026-05-16T04:55:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-16-oven-sh-bun.html",
       "serial": 546,
-      "searchText": "Bun JavaScript/TypeScript の実行、パッケージ管理、ビルド、テストをこれ一つで完結させる超高速オールインワン・ツールキット。Node.js の強力な代替候補として注目を集めています。 oven-sh/bun AIコーディング (ワークフロー・プロンプト・開発補助ツール) Bun ← 記事一覧へ戻る GitHub Trending Bun JavaScript エコシステムを劇的に高速化する、Rust/Zig 製の次世代オールインワン・ツールキット Serial #546 Star 72,500 Rank 10 これは何か JavaScript および TypeScript のための超高速なオールインワン・ツールキットです。Node.js 互換のランタイムに加え、パッケージマネージャ（npm互換）、バンドラ、テストランナーを内蔵しており、フロントエンドからサーバーサイドまでの開発体験を一変させます。 注目のポイント 圧倒的な速度: Zig で書かれた独自エンジンにより、Node.js や Deno を凌駕する起動速度と実行パフォーマンスを実現。 npm 互換性: 既存の package.json や node_modules の仕組みをそのまま利用でき、移行コストが低い。 TypeScript ネイティブ: 設定ファイルなしで TypeScript や JSX を直接実行可能。 統合ツールキット: bun install , bun build , bun test など、開発に必要なツールがすべて一つに統合。 導入・活用シーン 特に CI/CD パイプラインの高速化や、サーバーレス環境でのコールドスタート時間の短縮に絶大な効果を発揮します。また、開発環境のセットアップを bun 一本に集約することで、プロジェクトの複雑性を下げ、チーム全体の生産性を向上させることができます。 Repository github.com/oven-sh/bun"
+      "searchText": "Bun JavaScript/TypeScript の実行、パッケージ管理、ビルド、テストをこれ一つで完結させる超高速オールインワン・ツールキット。Node.js の強力な代替候補として注目を集めています。 oven-sh/bun AIコーディング (ワークフロー・プロンプト・開発補助ツール) bun ← 記事一覧へ戻る GitHub Watcher bun JavaScript エコシステムを劇的に高速化する、Rust/Zig 製の次世代オールインワン・ツールキット 記事作成日 2026-05-16 種別 Trending (Rank #10) 対象 repo oven-sh/bun Star数 72,500 これは何か JavaScript および TypeScript のための超高速なオールインワン・ツールキットです。Node.js 互換のランタイムに加え、パッケージマネージャ、バンドラ、テストランナーを内蔵しており、開発体験を一変させます。 何ができるか JS/TS ファイルの実行、npm パッケージの超高速インストール、コードのバンドル、そしてテストの実行をすべて bun コマンド一つで完結させることができます。 目立つポイント Zig で書かれた独自エンジンによる圧倒的な速度が最大の魅力です。Node.js 互換性を保ちながら、ランタイムの起動速度やパッケージインストールの待ち時間を大幅に短縮します。 セットアップや使い方の流れ curl -fsSL https://bun.sh/install | bash でインストール後、 bun init でプロジェクトを開始できます。既存の Node.js プロジェクトであれば、そのまま bun install や bun dev を試すことが可能です。 どんな人向けか 開発スピードを極限まで高めたい JS/TS 開発者や、CI/CD パイプラインの実行時間を短縮したい DevOps エンジニアに最適です。 注意点 Node.js との高い互換性を誇りますが、極めて特殊なネイティブモジュールを使用している場合は、個別の動作確認が必要です。 まとめ Bun は単なるランタイムを超え、ツールチェーン全体を再定義する野心的なプロジェクトです。開発環境の標準を塗り替えるポテンシャルを秘めています。 参照リンク https://github.com/oven-sh/bun Shared GitHub Serial: #546"
     },
     {
       "slug": null,
@@ -30,7 +45,7 @@
       "createdAt": "2026-05-16T04:55:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-16-update-report.html",
       "serial": 45,
-      "searchText": "2026-05-16 アップデートレポート 本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。 2026-05-16 アップデートレポート ← 記事一覧へ戻る Update Report 2026-05-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ Serial #45 Date 2026-05-16 本日の調査ランキング（全件） 本日調査した GitHub Trending のリポジトリ一覧です。既に紹介済みのものはチェックマークを、本日新規に作成したものは星マークを付けています。 ✅ tinyhumansai/openhuman ✅ obra/superpowers ✅ K-Dense-AI/scientific-agent-skills ✅ supertone-inc/supertonic ✅ ruvnet/RuView ✅ influxdata/telegraf ✅ anthropics/skills ✅ czlonkowski/n8n-mcp ✅ NVIDIA-AI-Blueprints/video-search-and-summarization ✨ oven-sh/bun ✅ mattpocock/skills ✅ joeseesun/qiaomu-anything-to-notebooklm 今後の展望 本日は Bun がトレンド入りしており、JavaScript エコシステムにおける実行環境の関心の高さが伺えます。また、MCP 関連のスキル（skills）や、特定のドメイン（科学、金融、ビデオ要約）に特化した AI エージェントの基盤プロジェクトが継続的に上位を占めています。"
+      "searchText": "2026-05-16 アップデートレポート 本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。 2026-05-16 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-16 調査件数 全 12 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-05-16）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 tinyhumansai/openhuman ✅ 記事作成済み obra/superpowers ✅ 記事作成済み K-Dense-AI/scientific-agent-skills ✅ 記事作成済み supertone-inc/supertonic ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み influxdata/telegraf ✅ 記事作成済み anthropics/skills ✅ 記事作成済み czlonkowski/n8n-mcp ✅ 記事作成済み NVIDIA-AI-Blueprints/video-search-and-summarization ✅ 記事作成済み oven-sh/bun ✨ 新規追加 mattpocock/skills ✅ 記事作成済み joeseesun/qiaomu-anything-to-notebooklm ✅ 記事作成済み 今後の展望 本日は Bun がトレンド入りしており、JavaScript エコシステムにおける実行環境への関心の高さが伺えます。また、MCP 関連のスキルや、科学・金融・ビデオ要約といった特定ドメインに特化した AI エージェント基盤が継続的に上位を占めており、AI の実務適用がさらに加速している印象です。"
     },
     {
       "slug": null,
@@ -45,7 +60,7 @@
       "createdAt": "2026-05-16T04:45:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html",
       "serial": 545,
-      "searchText": "Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。 RKiding/Awesome-finance-skills 金融・トレード分析 Awesome-finance-skills ← 記事一覧へ戻る GitHub Pickup Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション Serial #545 Star 2,200 Rank / Pickup Pickup これは何か AIエージェントに対して、プロフェッショナルな金融分析能力を即座に付与するためのスキル（ツール）コレクションです。LLMを単なるチャットボットから、リアルタイムデータと専門的な分析ロジックを備えた「AIアナリスト」へと拡張します。 注目のポイント マルチソース・ニュース集約: WSJ、Weibo、Polymarketなど10以上の信頼できるソースからリアルタイムに情報を収集。 ロジックの可視化: ニュースが市場に与える影響の伝達チェーンを自動生成し、分析プロセスの透明性を確保。 高度なセンチメント分析: FinBERT等のモデルを用い、文脈に即したセンチメント数値を算出。 市場予測（Kronos）: ニュースの文脈と価格データを統合し、AIによる市場動向の予測を実施。 導入・活用シーン npx skills install <skill-name> という極めてシンプルなコマンドで、既存のAIエージェント（MCP対応ツール等）に導入可能です。特定の銘柄に関するニュースの要約だけでなく、そのニュースがなぜ市場を動かすのかという「ロジック」をAIに理解させたい場合に最適です。 Repository github.com/RKiding/Awesome-finance-skills"
+      "searchText": "Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。 RKiding/Awesome-finance-skills 金融・トレード分析 Awesome-finance-skills ← 記事一覧へ戻る GitHub Watcher Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション 記事作成日 2026-05-16 種別 Pickup 対象 repo RKiding/Awesome-finance-skills Star数 2,200 これは何か AIエージェントに対して、プロフェッショナルな金融分析能力を即座に付与するためのスキル（ツール）コレクションです。LLMを単なるチャットボットから、リアルタイムデータと専門的な分析ロジックを備えた「AIアナリスト」へと拡張します。 何ができるか WSJ や Weibo などの多言語ニュースソースの集約、金融特化型モデル（FinBERT）を用いたセンチメント分析、そしてニュースの文脈に基づいた市場予測（Kronos）が可能になります。 目立つポイント 単にニュースを要約するだけでなく、ニュースが市場に与える影響の「伝達ロジック」を可視化・分析できる点がユニークです。分析プロセスの透明性が高く、エージェントの推論の信頼性を向上させます。 セットアップや使い方の流れ npx skills install <skill-name> という極めてシンプルなコマンドで、MCP 対応の AI エージェント等に導入可能です。 どんな人向けか AI エージェントを使って高度な投資判断支援や市場調査を自動化したい投資家や金融エンジニアに最適です。 注意点 リアルタイムデータの取得には、各ニュースソースの API キーやアクセス権限が必要になる場合があります。 まとめ Awesome-finance-skills は、AI エージェントを実務レベルの金融アナリストへ引き上げる強力な拡張機能群です。 参照リンク https://github.com/RKiding/Awesome-finance-skills Shared GitHub Serial: #545"
     },
     {
       "slug": null,

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "site2cli",
+      "repoName": "lonexreb/site2cli",
+      "repoUrl": "https://github.com/lonexreb/site2cli",
+      "summary": "Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール。AI エージェントへのコンテキスト投入用ソース作成にも最適です。",
+      "category": "github-pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 547,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T06:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-lonexreb-site2cli.html"
+    },
+    {
       "title": "Bun",
       "repoName": "oven-sh/bun",
       "repoUrl": "https://github.com/oven-sh/bun",
