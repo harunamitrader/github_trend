@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "PowerToys",
+      "repoName": "microsoft/powertoys",
+      "repoUrl": "https://github.com/microsoft/powertoys",
+      "summary": "Windows の生産性を極限まで高める公式ユーティリティ集。FancyZones、PowerToys Run、そして作業環境を一括復元する新機能 Workspaces など、開発者必携のツールが満載です。",
+      "category": "github-pickup",
+      "genre": "開発補助・デスクトップ・生産性",
+      "originType": "pickup",
+      "starCount": 133179,
+      "serial": 542,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-microsoft-powertoys.html"
+    },
+    {
       "title": "ValueCell",
       "repoName": "ValueCell-ai/valuecell",
       "repoUrl": "https://github.com/ValueCell-ai/valuecell",
