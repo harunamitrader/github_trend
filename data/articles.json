@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ValueCell",
+      "repoName": "ValueCell-ai/valuecell",
+      "repoUrl": "https://github.com/ValueCell-ai/valuecell",
+      "summary": "金融アプリケーションのために設計されたオープンソースのマルチエージェントプラットフォーム。株式、仮想通貨、ニュース分析など、高度な金融 AI エージェントの構築を支援します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 10644,
+      "serial": 541,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T21:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-valuecell-ai-valuecell.html"
+    },
+    {
       "title": "DeepEval",
       "repoName": "confident-ai/deepeval",
       "repoUrl": "https://github.com/confident-ai/deepeval",

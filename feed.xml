@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 20:45:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 21:14:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ValueCell]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-valuecell-ai-valuecell.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-valuecell-ai-valuecell.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[金融アプリケーションのために設計されたオープンソースのマルチエージェントプラットフォーム。株式、仮想通貨、ニュース分析など、高度な金融 AI エージェントの構築を支援します。]]></description>
+    </item>
     <item>
       <title><![CDATA[DeepEval]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-confident-ai-deepeval.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[RedNote AI Labが開発した、多言語対応の次世代OCR・レイアウト解析ツール。チャートやグラフィックを直接SVGに変換する強力な機能と、3Bパラメータという軽量ながらSOTAの性能を両立。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[esp-claw]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-espressif-esp-claw.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-espressif-esp-claw.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ESP32などのIoTデバイス上でローカルに動作するAIエージェントフレームワーク。Luaスクリプトの動的ロードにより、チャット形式でデバイスの動作をリアルタイムに定義・変更できる「Chat Coding」を実現します。]]></description>
     </item>
   </channel>
 </rss>
