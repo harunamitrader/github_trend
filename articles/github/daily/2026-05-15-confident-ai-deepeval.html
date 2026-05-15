@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DeepEval は、LLM アプリケーションのためのオープンソースなユニットテストフレームワークです。RAG やエージェントの品質を、Faithfulness や Hallucination などの高度な指標で定量的に評価します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepEval</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">DeepEval</h1>
+      <p class="article-dek">LLM の出力を「勘」ではなく「計測」で評価する。Pytest ベースの強力なユニットテスト基盤</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/confident-ai/deepeval" target="_blank" rel="noreferrer">
+              confident-ai/deepeval
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,441</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>大規模言語モデル（LLM）アプリケーションの品質を、ソフトウェアエンジニアが慣れ親しんだ「ユニットテスト」の形式で評価・検証するためのオープンソースフレームワークです。Pytest をベースにしており、AI の出力という不確実なものを、定量的なスコアとアサーション（検証）によって制御可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>RAG（検索拡張生成）や自律型エージェントの挙動を、多様な評価指標（メトリクス）で自動テストできます。Faithfulness（忠実性）、Answer Relevancy（関連性）、Hallucination（ハルシネーション）といった標準的な指標に加え、LLM 自体を採点者として使う GEval による独自の評価基準も定義可能です。また、既存のドキュメントからテストデータを自動生成する機能も備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単にスコアを出すだけでなく、「なぜそのスコアになったのか」という理由（Reasoning）を自然言語で出力してくれる点が非常に強力です。これにより、開発者はプロンプトのどこを改善すべきか、どのデータがハルシネーションの原因になっているかを即座に判断できます。CI/CD パイプラインへの統合も容易で、精度の低下をデプロイ前に検知できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install deepeval</code> で導入後、Python のコード内でテストケース（LLMTestCase）を定義します。入力、出力、コンテキストをセットし、好みのメトリクスを指定して <code>assert_test</code> を呼び出すだけです。実行は <code>deepeval test run</code> コマンドで行い、結果はダッシュボードやターミナルで美しく表示されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>LLM アプリケーションを本番環境で運用しようとしているエンジニアや、RAG の精度改善に頭を悩ませている開発チーム、AI の品質保証（QA）プロセスを自動化したいリーダーに最適です。「なんとなく良くなった」という主観的な評価から脱却したい全ての AI 開発者に推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>一部の高度なメトリクス計算には、評価用の LLM（GPT-4 等）の API 利用料が発生する場合があります。また、評価基準（しきい値）の設計には、アプリケーションの特性に合わせた適切な調整が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「LLM アプリケーションにもユニットテストを」という思想を具現化した、現代の AI 開発に欠かせないインフラです。評価を自動化し、データに基づいた改善サイクルを回すことで、AI アプリケーションの信頼性をソフトウェア開発の基準まで引き上げてくれるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/confident-ai/deepeval" target="_blank" rel="noreferrer">https://github.com/confident-ai/deepeval</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #540</p>
+      </div>
+    </article>
+  </body>
+</html>

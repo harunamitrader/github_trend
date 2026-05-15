@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "DeepEval",
+      "repoName": "confident-ai/deepeval",
+      "repoUrl": "https://github.com/confident-ai/deepeval",
+      "summary": "LLM アプリケーションのためのオープンソースなユニットテストフレームワーク。Pytest ベースの操作感で、RAG やエージェントの品質を定量的に評価・改善できます。",
+      "category": "github-pickup",
+      "genre": "評価・ベンチマーク・テスト",
+      "originType": "pickup",
+      "starCount": 15441,
+      "serial": 540,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T20:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-confident-ai-deepeval.html"
+    },
+    {
       "title": "Lark CLI",
       "repoName": "larksuite/cli",
       "repoUrl": "https://github.com/larksuite/cli",
