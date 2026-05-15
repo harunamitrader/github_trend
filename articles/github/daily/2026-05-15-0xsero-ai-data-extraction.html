@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ai-data-extraction は、Cursor、Claude Code、Windsurf、Trae などの主要 AI IDE からローカルの対話履歴を完全に抽出し、機械学習用の JSONL 形式に変換するプライバシー重視のツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ai-data-extraction</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ai-data-extraction</h1>
+      <p class="article-dek">主要 AI IDE の対話履歴をローカルから完全抽出し、独自の AI 学習に活用可能にするデータ・ポータビリティ・ツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/0xSero/ai-data-extraction" target="_blank" rel="noreferrer">
+              0xSero/ai-data-extraction
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>680</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Cursor、Claude Code、Windsurf、Trae、Codex といった主要な AI コーディングツールがローカルに保存している対話履歴（生データ）を、直接 SQLite や JSON から読み取って抽出し、構造化された JSONL 形式へ変換するツールです。クラウドを介さず、ローカルに眠る自分の「開発知財」を自由に取り出すことができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>各ツールが独自に管理しているチャット履歴、エージェントの行動ログ、ツール使用、使用モデル、タイムスタンプ、そして当時のコードコンテキストなどを完全に一括抽出できます。抽出されたデータは JSONL 形式で出力されるため、そのまま独自の LLM のファインチューニングや、個人の開発傾向の分析、カスタム RAG の構築などに利用可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「完全ローカル処理」を徹底しており、外部サーバーへの送信が一切行われないため、機密性の高いプロンプトやコードを含む履歴でも安心して処理できる点が最大の強みです。また、新興の AI IDE である Trae (ByteDance) や Windsurf (Codeium) にも迅速に対応している点が評価されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3 の標準ライブラリのみで動作するため、特別な依存関係のインストールは不要です。リポジトリをクローンし、目的のツールに応じたスクリプト（例: <code>python3 extract_cursor.py</code>）を実行するだけで、各 IDE のデータディレクトリを自動検出し、抽出を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI コーディングツールとのやり取りを自分だけの知識ベースとして永続化したい開発者や、自分自身のコーディングスタイルに基づいた「マイ・モデル」をトレーニングしたい AI エンジニア、特定のツールから別のツールへ履歴を移行したいパワーユーザーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>各ツールの内部データベース構造（SQLite など）に直接アクセスするため、各 IDE の大幅なバージョンアップによりデータベース構造が変更された場合、スクリプトの更新が必要になる可能性があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AI との共創が日常となる中、その「対話データ」は貴重な資産です。このツールは、ベンダーロックインを回避し、データの所有権をユーザーの手に取り戻すためのミッシングリンクを埋めてくれます。AI 時代のデータ・ポータビリティを象徴するプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/0xSero/ai-data-extraction" target="_blank" rel="noreferrer">https://github.com/0xSero/ai-data-extraction</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #537</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-14T20:18:35.194396+00:00",
-  "count": 571,
+  "generatedAt": "2026-05-15T01:19:58.249376+00:00",
+  "count": 572,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ai-data-extraction",
+      "dek": "",
+      "summary": "主要 AI IDE（Cursor, Claude Code, Windsurf 等）からローカルの対話履歴を抽出し、独自の AI 学習に活用可能な JSONL 形式へ変換するプライバシー重視のツール。",
+      "repoName": "0xSero/ai-data-extraction",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T10:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-0xsero-ai-data-extraction.html",
+      "serial": 537,
+      "searchText": "ai-data-extraction 主要 AI IDE（Cursor, Claude Code, Windsurf 等）からローカルの対話履歴を抽出し、独自の AI 学習に活用可能な JSONL 形式へ変換するプライバシー重視のツール。 0xSero/ai-data-extraction スクレイピング・情報収集・セキュリティ ai-data-extraction ← 記事一覧へ戻る GitHub Watcher ai-data-extraction 主要 AI IDE の対話履歴をローカルから完全抽出し、独自の AI 学習に活用可能にするデータ・ポータビリティ・ツール 記事作成日 2026-05-15 種別 Pickup 対象 repo 0xSero/ai-data-extraction Star数 680 これは何か Cursor、Claude Code、Windsurf、Trae、Codex といった主要な AI コーディングツールがローカルに保存している対話履歴（生データ）を、直接 SQLite や JSON から読み取って抽出し、構造化された JSONL 形式へ変換するツールです。クラウドを介さず、ローカルに眠る自分の「開発知財」を自由に取り出すことができます。 何ができるか 各ツールが独自に管理しているチャット履歴、エージェントの行動ログ、ツール使用、使用モデル、タイムスタンプ、そして当時のコードコンテキストなどを完全に一括抽出できます。抽出されたデータは JSONL 形式で出力されるため、そのまま独自の LLM のファインチューニングや、個人の開発傾向の分析、カスタム RAG の構築などに利用可能です。 目立つポイント 「完全ローカル処理」を徹底しており、外部サーバーへの送信が一切行われないため、機密性の高いプロンプトやコードを含む履歴でも安心して処理できる点が最大の強みです。また、新興の AI IDE である Trae (ByteDance) や Windsurf (Codeium) にも迅速に対応している点が評価されています。 セットアップや使い方の流れ Python 3 の標準ライブラリのみで動作するため、特別な依存関係のインストールは不要です。リポジトリをクローンし、目的のツールに応じたスクリプト（例: python3 extract_cursor.py ）を実行するだけで、各 IDE のデータディレクトリを自動検出し、抽出を開始します。 どんな人向けか AI コーディングツールとのやり取りを自分だけの知識ベースとして永続化したい開発者や、自分自身のコーディングスタイルに基づいた「マイ・モデル」をトレーニングしたい AI エンジニア、特定のツールから別のツールへ履歴を移行したいパワーユーザーに最適です。 注意点 各ツールの内部データベース構造（SQLite など）に直接アクセスするため、各 IDE の大幅なバージョンアップによりデータベース構造が変更された場合、スクリプトの更新が必要になる可能性があります。 まとめ AI との共創が日常となる中、その「対話データ」は貴重な資産です。このツールは、ベンダーロックインを回避し、データの所有権をユーザーの手に取り戻すためのミッシングリンクを埋めてくれます。AI 時代のデータ・ポータビリティを象徴するプロジェクトです。 参照リンク https://github.com/0xSero/ai-data-extraction Shared GitHub Serial: #537"
+    },
     {
       "slug": null,
       "category": "github-pickup",

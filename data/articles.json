@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ai-data-extraction",
+      "repoName": "0xSero/ai-data-extraction",
+      "repoUrl": "https://github.com/0xSero/ai-data-extraction",
+      "summary": "主要 AI IDE（Cursor, Claude Code, Windsurf 等）からローカルの対話履歴を抽出し、独自の AI 学習に活用可能な JSONL 形式へ変換するプライバシー重視のツール。",
+      "category": "github-pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "originType": "pickup",
+      "starCount": 680,
+      "serial": 537,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T10:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-0xsero-ai-data-extraction.html"
+    },
+    {
       "title": "qiaomu-anything-to-notebooklm",
       "repoName": "joeseesun/qiaomu-anything-to-notebooklm",
       "repoUrl": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
