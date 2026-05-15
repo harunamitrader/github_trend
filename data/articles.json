@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Lark CLI",
+      "repoName": "larksuite/cli",
+      "repoUrl": "https://github.com/larksuite/cli",
+      "summary": "AI エージェントが Lark/Feishu の全機能を操作できるように設計された、Agent-Native な公式 CLI。20以上の AI スキルを備え、日本語業務の自動化を強力に支援します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 10392,
+      "serial": 539,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T17:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-larksuite-cli.html"
+    },
+    {
       "title": "9remote",
       "repoName": "decolua/9remote",
       "repoUrl": "https://github.com/decolua/9remote",

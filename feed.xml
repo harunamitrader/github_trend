@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 17:34:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 17:55:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Lark CLI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-larksuite-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-larksuite-cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントが Lark/Feishu の全機能を操作できるように設計された、Agent-Native な公式 CLI。20以上の AI スキルを備え、日本語業務の自動化を強力に支援します。]]></description>
+    </item>
     <item>
       <title><![CDATA[9remote]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-decolua-9remote.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 向けの拡張機能（スキル）を集めたライブラリ。コンテンツ制作、デザイン最適化、GitHubトレンド分析、リソース検索などの自動化を可能にします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opentrader]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-open-trader-opentrader.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-open-trader-opentrader.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100以上の仮想通貨取引所に対応し、GRIDやDCAなどの戦略をGUIから簡単に実行・管理できるオープンソースの自動取引プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lark CLI は、Lark/Feishu の全機能を AI エージェントが直接操作できるように設計された、Agent-Native な公式コマンドラインツールです。20以上の AI スキルを備え、日本語業務の自動化を劇的に進化させます。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Lark CLI</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Lark CLI</h1>
+      <p class="article-dek">AI エージェントを Lark/Feishu の「パワーユーザー」に変える、20 以上の AI スキルを統合した公式 CLI 基盤</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/larksuite/cli" target="_blank" rel="noreferrer">
+              larksuite/cli
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,392</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Lark（ラーク）および Feishu（飛書）を操作するための公式 CLI ツールです。最大の特徴は、人間だけでなく AI エージェント（Claude Code, Cursor, MCP サーバー等）が利用することを前提に設計された「Agent-Native」な構造にあります。ビジネスに必要なメッセージ送信からドキュメント作成、データベース操作まで、あらゆる機能をプログラムから自在に操れます。</p>
+
+        <h2>何ができるか</h2>
+        <p>メッセンジャー、カレンダー、ドキュメント（Docs）、多次元データベース（Base）、タスク、メールなど、Lark のほぼ全てのドメインに対応する 200 以上のコマンドを提供します。特に、AI エージェント向けの「AI Agent Skills」が統合されており、エージェントは提供される構造化ドキュメントを読み取るだけで、正確に Lark 内の情報を取得・加工・共有することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる API ラッパーではなく、AI の推論ミスを最小限に抑えるための「構造化メタデータ（SKILL.md）」が各コマンドに付随している点が画期的です。これにより、AI エージェントは日本語の指示を受けて「特定のグループチャットに今日の予定を要約して投稿し、関連資料を Docs にまとめる」といった複雑な連鎖タスクを、一貫した精度で実行可能になります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>npm install -g @larksuite/cli</code> でインストール可能です。初回起動時に <code>lark login</code> を実行するとブラウザが開いて認証が完了します。AI エージェントに環境を渡す場合は、エージェントの作業ディレクトリに CLI のバイナリやスキルセットへのパスを教えるだけで、即座に「Lark 操作スキル」を持ったエージェントが誕生します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Lark/Feishu を業務基盤として利用しており、AI エージェントによる業務自動化を一段階進めたい開発者や、複雑な企業内ワークフローを AI に委ねたい組織に最適です。日本語でのコミュニケーションを AI が理解し、それを Lark 上の各種ツールへと正確に橋渡しする基盤を求めている層に強く推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>強力な権限を持つため、CLI の認証情報（トークン）の管理には細心の注意が必要です。また、AI エージェントが実行するコマンドの範囲を適切に制限することで、安全な自動化環境を構築することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>「ビジネス OS」としての Lark のポテンシャルを、AI エージェントという新しいインターフェースへと開放するミッシングリンクです。24 個の AI スキルを備えたこの公式 CLI は、未来の「AI 協調型オフィス」を実現するための最重要ツールの一つと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/larksuite/cli" target="_blank" rel="noreferrer">https://github.com/larksuite/cli</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #539</p>
+      </div>
+    </article>
+  </body>
+</html>
