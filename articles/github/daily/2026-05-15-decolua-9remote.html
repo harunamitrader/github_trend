@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="9remote は、スマートフォンから PC のターミナルを自在に操作し、Claude Code や Gemini CLI による『バイブ・コーディング』を外出先やベッドから可能にする、次世代のモバイル・ブリッジツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>9remote</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">9remote</h1>
+      <p class="article-dek">ポケットにターミナルを。スマホから Claude Code を自在に操り、場所を選ばない AI 開発を実現するブリッジツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-15 -->
+          <strong>2026-05-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/decolua/9remote" target="_blank" rel="noreferrer">
+              decolua/9remote
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>174</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「ポケットの中のターミナル」をコンセプトに、スマートフォンやタブレットから、自宅やオフィスの PC（Mac/Linux/Windows）のターミナル、リモートデスクトップ、ファイルエクスプローラーへ瞬時にアクセスするためのツールです。特に Claude Code、Codex CLI、Gemini CLI といった AI コーディングツールをモバイルから操作することに最適化されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>QR コードをスキャンするだけで、ポート開放なしにセキュアな接続を確立します。モバイルブラウザや専用アプリを通じて、PC 上で走るフル機能の CLI エージェントへ指示を出し、実行結果をリアルタイムで確認できます。また、ローカルで立ち上げている開発用サーバー（localhost:3000 等）も自動でプロキシされ、モバイル端末で動作確認が可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Cloudflare Workers とトンネリング（cloudflared）を組み合わせた高度なアーキテクチャながら、ユーザー側は「ゼロ構成」で利用できる点が秀逸です。同じ Wi-Fi 内なら LAN 通信、外出先ならトンネル通信を自動で切り替える「LocalFirstAdapter」により、常に最低限のレイテンシで快適な操作を実現しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ホスト PC で <code>npx 9remote</code> を実行（または Tauri ベースのデスクトップアプリを起動）すると、QR コードが表示されます。これをスマホのカメラで読み取るだけでペアリングが完了。即座にブラウザベースのモダンなターミナル UI が立ち上がり、PC を「遠隔 AI 開発ステーション」に変貌させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>「Vibe coding（バイブ・コーディング）」を信条とし、カフェやベッド、移動中など、PC を開けない環境でも AI と共に対話を続け、開発を進めたいユーザーに最適です。また、開発中のアプリをスマホ実機で即座にテストしたいフロントエンドエンジニアにも適しています。</p>
+
+        <h2>注意点</h2>
+        <p>デバイス間のペアリングにはホスト側での承認が必要です。ターミナル操作という強力な権限を共有するため、ペアリング用 QR コードの取り扱いには注意し、信頼できる自分のデバイスのみを接続するようにしてください。</p>
+
+        <h2>まとめ</h2>
+        <p>AI エージェントの台頭により、コーディングは「大量のタイピング」から「AI との高度な対話」へとシフトしています。9remote は、その対話をスマホという最も身近なデバイスへと開放し、物理的な場所の制約を取り払う、まさに AI 時代に求められていた「モバイル・ブリッジ」です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/decolua/9remote" target="_blank" rel="noreferrer">https://github.com/decolua/9remote</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #538</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "9remote",
+      "repoName": "decolua/9remote",
+      "repoUrl": "https://github.com/decolua/9remote",
+      "summary": "スマートフォンから PC のターミナルを自在に操作し、Claude Code や Gemini CLI による「バイブ・コーディング」を場所を選ばず可能にするモバイル・ブリッジツール。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "pickup",
+      "starCount": 174,
+      "serial": 538,
+      "publishedAt": "2026-05-15",
+      "createdAt": "2026-05-15T17:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-15-decolua-9remote.html"
+    },
+    {
       "title": "ai-data-extraction",
       "repoName": "0xSero/ai-data-extraction",
       "repoUrl": "https://github.com/0xSero/ai-data-extraction",
