@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Tools Others Update: Gemini Deep Research, ChatGPT Personal Finances, OpenClaw v2026.5.14",
+      "summary": "Gemini Deep Research プレビュー公開。ChatGPT の個人財務管理機能、OpenClaw の安定化アップデート。2026-05-16 の更新情報まとめ。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "update",
+      "serial": 544,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:20:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-16-ai-others-tools-update.html"
+    },
+    {
       "title": "AI Coding Tools Update: Claude Code v2.1.142, Gemini CLI, Codex v0.17.3",
       "summary": "Claude Code が Opus 4.7 を標準採用。Gemini CLI や Codex も安定化アップデートを配信。2026-05-16 の更新情報まとめ。",
       "category": "ai-tool-log",
