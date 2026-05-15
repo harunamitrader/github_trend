@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update: Claude Code v2.1.142, Gemini CLI, Codex v0.17.3",
+      "summary": "Claude Code が Opus 4.7 を標準採用。Gemini CLI や Codex も安定化アップデートを配信。2026-05-16 の更新情報まとめ。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "update",
+      "serial": 543,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:05:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-16-ai-coding-tools-update.html"
+    },
+    {
       "title": "PowerToys",
       "repoName": "microsoft/powertoys",
       "repoUrl": "https://github.com/microsoft/powertoys",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 03:59:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:04:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.142, Gemini CLI, Codex v0.17.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code が Opus 4.7 を標準採用。Gemini CLI や Codex も安定化アップデートを配信。2026-05-16 の更新情報まとめ。]]></description>
+    </item>
     <item>
       <title><![CDATA[PowerToys]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-microsoft-powertoys.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLMを使用して非構造化テキストから構造化情報を抽出するPythonライブラリ。精密なソースグラウンディング（根拠の紐付け）とインタラクティブな可視化機能を備えています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-wshobson-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-14-wshobson-agents.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeやGemini CLI向けに設計された、300以上の専門エージェント、プラグイン、スキル、ワークフローを統合した巨大な自動化エコシステム。]]></description>
     </item>
   </channel>
 </rss>
