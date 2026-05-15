@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 May 2026 19:19:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:42:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Awesome-finance-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Tools Others Update: Gemini Deep Research, ChatGPT Personal Finances, OpenClaw v2026.5.14]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-others-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Grok のコーディングエージェント「Grok Build」プレビュー公開、ChatGPT の会話コンテキスト改善、NotebookLM の手書きデジタル化等の最新リリース情報をまとめました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update (2026-05-15)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-15-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の agents コマンド強化、GitHub Copilot の専用アプリ技術プレビュー開始、Gemini CLI のナイトリー更新等の最新リリース情報をまとめました。]]></description>
     </item>
   </channel>
 </rss>

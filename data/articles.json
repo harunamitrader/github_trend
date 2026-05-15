@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Awesome-finance-skills",
+      "repoName": "RKiding/Awesome-finance-skills",
+      "repoUrl": "https://github.com/RKiding/Awesome-finance-skills",
+      "summary": "AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "starCount": 2200,
+      "serial": 545,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html"
+    },
+    {
       "title": "AI Tools Others Update: Gemini Deep Research, ChatGPT Personal Finances, OpenClaw v2026.5.14",
       "summary": "Gemini Deep Research プレビュー公開。ChatGPT の個人財務管理機能、OpenClaw の安定化アップデート。2026-05-16 の更新情報まとめ。",
       "category": "ai-tool-log",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-15T19:19:06.255736+00:00",
-  "count": 577,
+  "generatedAt": "2026-05-15T19:42:32.803135+00:00",
+  "count": 578,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Awesome-finance-skills",
+      "dek": "",
+      "summary": "AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。",
+      "repoName": "RKiding/Awesome-finance-skills",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T04:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html",
+      "serial": 545,
+      "searchText": "Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。 RKiding/Awesome-finance-skills 金融・トレード分析 Awesome-finance-skills ← 記事一覧へ戻る GitHub Pickup Awesome-finance-skills AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション Serial #545 Star 2,200 Rank / Pickup Pickup これは何か AIエージェントに対して、プロフェッショナルな金融分析能力を即座に付与するためのスキル（ツール）コレクションです。LLMを単なるチャットボットから、リアルタイムデータと専門的な分析ロジックを備えた「AIアナリスト」へと拡張します。 注目のポイント マルチソース・ニュース集約: WSJ、Weibo、Polymarketなど10以上の信頼できるソースからリアルタイムに情報を収集。 ロジックの可視化: ニュースが市場に与える影響の伝達チェーンを自動生成し、分析プロセスの透明性を確保。 高度なセンチメント分析: FinBERT等のモデルを用い、文脈に即したセンチメント数値を算出。 市場予測（Kronos）: ニュースの文脈と価格データを統合し、AIによる市場動向の予測を実施。 導入・活用シーン npx skills install <skill-name> という極めてシンプルなコマンドで、既存のAIエージェント（MCP対応ツール等）に導入可能です。特定の銘柄に関するニュースの要約だけでなく、そのニュースがなぜ市場を動かすのかという「ロジック」をAIに理解させたい場合に最適です。 Repository github.com/RKiding/Awesome-finance-skills"
+    },
     {
       "slug": null,
       "category": "github-pickup",
