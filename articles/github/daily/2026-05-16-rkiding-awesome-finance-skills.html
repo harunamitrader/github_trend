@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../../styles.css" />
@@ -22,7 +22,7 @@
     <article class="article-shell">
       <div class="article-topline">
         <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
-        <p class="eyebrow">GitHub Pickup</p>
+        <p class="eyebrow">GitHub Watcher</p>
       </div>
 
       <h1 class="article-title">Awesome-finance-skills</h1>
@@ -30,16 +30,24 @@
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
-          <span class="meta-label">Serial</span>
-          <strong>#545</strong>
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-16</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">Star</span>
-          <strong>2,200</strong>
-        </div>
-        <div class="article-meta-item">
-          <span class="meta-label">Rank / Pickup</span>
+          <span class="meta-label">種別</span>
           <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/RKiding/Awesome-finance-skills" target="_blank" rel="noreferrer">
+              RKiding/Awesome-finance-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,200</strong>
         </div>
       </div>
 
@@ -49,25 +57,43 @@
           AIエージェントに対して、プロフェッショナルな金融分析能力を即座に付与するためのスキル（ツール）コレクションです。LLMを単なるチャットボットから、リアルタイムデータと専門的な分析ロジックを備えた「AIアナリスト」へと拡張します。
         </p>
 
-        <h2>注目のポイント</h2>
-        <ul class="feature-list">
-          <li><strong>マルチソース・ニュース集約:</strong> WSJ、Weibo、Polymarketなど10以上の信頼できるソースからリアルタイムに情報を収集。</li>
-          <li><strong>ロジックの可視化:</strong> ニュースが市場に与える影響の伝達チェーンを自動生成し、分析プロセスの透明性を確保。</li>
-          <li><strong>高度なセンチメント分析:</strong> FinBERT等のモデルを用い、文脈に即したセンチメント数値を算出。</li>
-          <li><strong>市場予測（Kronos）:</strong> ニュースの文脈と価格データを統合し、AIによる市場動向の予測を実施。</li>
-        </ul>
-
-        <h2>導入・活用シーン</h2>
+        <h2>何ができるか</h2>
         <p>
-          <code>npx skills install &lt;skill-name&gt;</code> という極めてシンプルなコマンドで、既存のAIエージェント（MCP対応ツール等）に導入可能です。特定の銘柄に関するニュースの要約だけでなく、そのニュースがなぜ市場を動かすのかという「ロジック」をAIに理解させたい場合に最適です。
+          WSJ や Weibo などの多言語ニュースソースの集約、金融特化型モデル（FinBERT）を用いたセンチメント分析、そしてニュースの文脈に基づいた市場予測（Kronos）が可能になります。
         </p>
 
-        <div class="source-links">
-          <a href="https://github.com/RKiding/Awesome-finance-skills" class="source-link" target="_blank" rel="noopener noreferrer">
-            <span class="link-text">Repository</span>
-            <span class="link-url">github.com/RKiding/Awesome-finance-skills</span>
-          </a>
+        <h2>目立つポイント</h2>
+        <p>
+          単にニュースを要約するだけでなく、ニュースが市場に与える影響の「伝達ロジック」を可視化・分析できる点がユニークです。分析プロセスの透明性が高く、エージェントの推論の信頼性を向上させます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <code>npx skills install &lt;skill-name&gt;</code> という極めてシンプルなコマンドで、MCP 対応の AI エージェント等に導入可能です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          AI エージェントを使って高度な投資判断支援や市場調査を自動化したい投資家や金融エンジニアに最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          リアルタイムデータの取得には、各ニュースソースの API キーやアクセス権限が必要になる場合があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Awesome-finance-skills は、AI エージェントを実務レベルの金融アナリストへ引き上げる強力な拡張機能群です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/RKiding/Awesome-finance-skills" target="_blank" rel="noreferrer">https://github.com/RKiding/Awesome-finance-skills</a>
         </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #545</p>
       </div>
     </article>
   </body>
