@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "skills",
+      "repoName": "google/skills",
+      "repoUrl": "https://github.com/google/skills",
+      "summary": "Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "starCount": 260,
+      "serial": 548,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T06:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-google-skills.html"
+    },
+    {
       "title": "site2cli",
       "repoName": "lonexreb/site2cli",
       "repoUrl": "https://github.com/lonexreb/site2cli",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-15T21:38:01.033713+00:00",
-  "count": 581,
+  "generatedAt": "2026-05-15T21:54:15.077305+00:00",
+  "count": 582,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "skills",
+      "dek": "",
+      "summary": "Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。",
+      "repoName": "google/skills",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T06:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-google-skills.html",
+      "serial": 548,
+      "searchText": "skills Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。 google/skills 学習ガイド・開発アセット skills ← 記事一覧へ戻る GitHub Watcher skills Google Cloud の設計原則やベストプラクティスを体系化した、公式「スキル」定義リポジトリ 記事作成日 2026-05-16 種別 Pickup 対象 repo google/skills Star数 260 これは何か Google Cloud における技術的な専門知識や設計原則（Well-Architected Framework 等）を、再利用可能な「スキル」形式で構造化したドキュメントリポジトリです。 何ができるか Google Cloud のセキュリティ、信頼性、コスト最適化といった各分野の設計方針を体系的に学ぶことができます。Markdown 形式で定義されているため、独自の学習管理システム（LMS）への統合や、チーム内でのナレッジ共有ベースとしての活用が可能です。 目立つポイント 抽象的なドキュメントではなく、特定の目標を達成するための「スキル」として細分化されている点が特徴です。Google Cloud 公式の Well-Architected Framework に基づいた、実戦的かつ信頼性の高い設計指針が網羅されています。 セットアップや使い方の流れ リポジトリをクローンまたはフォークし、 skills/cloud/ 配下の各ディレクトリにある Markdown ファイルを参照します。各スキルには学習目標や具体的な実装ガイドラインが含まれています。 どんな人向けか Google Cloud を利用した大規模システムの設計に携わるアーキテクトや、チーム全体のクラウド技術レベルを底上げしたいリーダーに最適です。 注意点 本リポジトリはドキュメントとしての「定義」に特化しており、自動実行可能なコードや自動採点機能が含まれているわけではありません。 まとめ google/skills は、クラウドネイティブな開発における「正解」を体系的に整理した、エンジニア必携のナレッジアセットです。 参照リンク https://github.com/google/skills Shared GitHub Serial: #548"
+    },
     {
       "slug": null,
       "category": "github-pickup",

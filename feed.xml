@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 06:38:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 06:54:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-google-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-google-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。]]></description>
+    </item>
     <item>
       <title><![CDATA[site2cli]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-lonexreb-site2cli.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[NVIDIA による GPU 加速ビジョンエージェント構築のためのリファレンスアーキテクチャ。大量の動画から特定シーンを自然言語で検索・要約します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[spec-kit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-github-spec-kit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-github-spec-kit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHub 公式による Spec-Driven Development 実践ツールキット。AI と協力して仕様書から堅牢なコードを生成するワークフローを支援します。]]></description>
     </item>
   </channel>
 </rss>
