@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "terminator",
+      "repoName": "mediar-ai/terminator",
+      "repoUrl": "https://github.com/mediar-ai/terminator",
+      "summary": "自然言語で指示するだけで最適なシェルコマンドを生成・実行してくれる AI ターミナルアシスタント。コマンドを「思い出す」手間をゼロにします。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 555,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T19:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-mediar-ai-terminator.html"
+    },
+    {
       "title": "zcf",
       "repoName": "UfoMiao/zcf",
       "repoUrl": "https://github.com/UfoMiao/zcf",

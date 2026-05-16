@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="terminator: 自然言語で指示するだけで、最適なシェルコマンドを生成・実行してくれる AI ターミナルアシスタント。複雑なパイプラインや忘れてしまったオプションも、対話形式で解決できます。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>terminator</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">terminator</h1>
+      <p class="article-dek">ターミナル操作を自然言語で。コマンドを「思い出す」手間をゼロにする AI アシスタント</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mediar-ai/terminator" target="_blank" rel="noreferrer">
+              mediar-ai/terminator
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>28</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          ターミナル上でのコマンドライン操作を AI が強力にサポートするアシスタントツールです。やりたいことを自然言語（日本語や英語）で入力すると、AI が適切なシェルコマンドを提案し、必要に応じてそのまま実行までガイドしてくれます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          「ポート8080を使っているプロセスをキルして」「直近30分で更新されたログファイルを探して」といった曖昧な指示を、正確な <code>lsof</code> や <code>find</code> コマンドに変換します。複雑なワンライナーの生成や、エラーメッセージの解説、修正案の提示も可能です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          ターミナルのカレントコンテキストを維持したまま対話できるため、作業を中断することなくスムーズにコマンドを呼び出せる点が特徴です。また、LLM の知識を借りることで、滅多に使わない難解なコマンドオプションをマニュアルで調べる時間を大幅に削減できます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          リポジトリをクローンし、必要な Python ライブラリをインストールします。OpenAI や Anthropic 等の API キーを設定後、ターミナルから専用のエイリアスやコマンドを通じて起動します。指示を入力し、提案された内容を確認して <code>y</code> を入力すれば実行されます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          シェルコマンドの暗記に限界を感じている開発者や、複雑なサーバーメンテナンス作業を効率化したいエンジニアに最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          AI が生成したコマンドには、意図しない破壊的な操作（ファイルの削除など）が含まれる可能性があるため、実行前の内容確認は必須です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          terminator は、CLI 操作を「暗記」から「対話」へと進化させ、開発者の思考を止めることなく作業に集中させてくれる実用的なツールです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mediar-ai/terminator" target="_blank" rel="noreferrer">https://github.com/mediar-ai/terminator</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #555</p>
+      </div>
+    </article>
+  </body>
+</html>
