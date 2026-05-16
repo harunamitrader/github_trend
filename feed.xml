@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 20:37:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 05:02:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-17 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-17-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-17-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日（2026-05-17）の GitHub Trending 全 25 リポジトリの調査結果と、新規追加された 5 件の記事（n8n, Warp 等）のまとめ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[codegraph]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-colbymchenry-codegraph.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-colbymchenry-codegraph.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[nuclei]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-projectdiscovery-nuclei.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-projectdiscovery-nuclei.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[YAMLベースのテンプレートを使用して、大規模なインフラストラクチャに対して脆弱性スキャンを実行する強力なセキュリティツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[gyroflow]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-gyroflow-gyroflow.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-gyroflow-gyroflow.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ジャイロスコープデータを使用して、驚異的な精度でビデオを安定化させるオープンソースソフトウェア。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[n8n]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-n8n-io-n8n.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-n8n-io-n8n.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[400以上の統合機能と強力なAI機能を備えた、セルフホスト可能なワークフロー自動化プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[warp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-nvidia-warp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-nvidia-warp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[NVIDIAが提供する、GPU加速されたシミュレーション、ロボティクス、機械学習のためのPythonフレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-matlab-robotics]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Tools Others Update: Gemini Deep Research, ChatGPT Personal Finances, OpenClaw v2026.5.14]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini Deep Research プレビュー公開。ChatGPT の個人財務管理機能、OpenClaw の安定化アップデート。2026-05-16 の更新情報まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.142, Gemini CLI, Codex v0.17.3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-16-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code が Opus 4.7 を標準採用。Gemini CLI や Codex も安定化アップデートを配信。2026-05-16 の更新情報まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PowerToys]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-microsoft-powertoys.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-microsoft-powertoys.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows の生産性を極限まで高める公式ユーティリティ集。FancyZones、PowerToys Run、そして作業環境を一括復元する新機能 Workspaces など、開発者必携のツールが満載です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ValueCell]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-valuecell-ai-valuecell.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-valuecell-ai-valuecell.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[金融アプリケーションのために設計されたオープンソースのマルチエージェントプラットフォーム。株式、仮想通貨、ニュース分析など、高度な金融 AI エージェントの構築を支援します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepEval]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-confident-ai-deepeval.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-confident-ai-deepeval.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM アプリケーションのためのオープンソースなユニットテストフレームワーク。Pytest ベースの操作感で、RAG やエージェントの品質を定量的に評価・改善できます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Lark CLI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-larksuite-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-larksuite-cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントが Lark/Feishu の全機能を操作できるように設計された、Agent-Native な公式 CLI。20以上の AI スキルを備え、日本語業務の自動化を強力に支援します。]]></description>
     </item>
   </channel>
 </rss>

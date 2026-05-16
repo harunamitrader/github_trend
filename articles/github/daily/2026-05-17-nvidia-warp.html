@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NVIDIAが提供する、GPU加速されたシミュレーション、ロボティクス、機械学習のためのPythonフレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>warp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">warp</h1>
+      <p class="article-dek">NVIDIAが提供する、GPU加速されたシミュレーション、ロボティクス、機械学習のためのPythonフレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NVIDIA/warp" target="_blank" rel="noreferrer">
+              NVIDIA/warp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,640</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>NVIDIA Warp は、高性能なシミュレーションとグラフィックスのカーネルを Python で記述するためのフレームワークです。Python コードから直接 GPU 用の効率的なカーネルを生成し、微分可能なプログラミングをサポートすることで、物理シミュレーションやロボティクスの学習を劇的に高速化します。</p>
+
+        <h2>何ができるか</h2>
+        <p>物理エンジンの構築、ロボットの制御最適化、および機械学習モデルのトレーニングなどにおいて、GPU の演算能力を最大限に活用できます。特に「微分可能（Differentiable）」であることが特徴で、シミュレーション結果から逆伝播を行い、パラメータを最適化することが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Python の親しみやすさと CUDA の高速性を両立している点です。JIT（Just-In-Time）コンパイルにより、Python で書かれた数学的表現を C++/CUDA カーネルに変換して実行します。また、Omniverse などの NVIDIA エコシステムとの高い親和性も魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>pip を通じて <code>pip install warp-lang</code> でインストール可能です（CUDA が利用可能な環境が推奨されます）。コード内では <code>@wp.kernel</code> デコレータを使用して演算カーネルを定義し、配列データを <code>wp.array</code> として GPU メモリ上に確保して実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>物理シミュレーションを自作したい研究者、ロボティクスの強化学習を行いたいエンジニア、あるいは Python で手軽に GPU 高速化を試したい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>高度な並列処理を記述するため、CUDA の概念やメモリ管理についての基礎知識があるとより効果的に活用できます。また、実行には互換性のある NVIDIA GPU とドライバが必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>NVIDIA Warp は、Python ユーザーに CUDA のパワーを解放する強力なツールです。シミュレーションと学習を一つの言語で完結させたい現代の AI・ロボティクス開発において、不可欠なインフラとなる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NVIDIA/warp" target="_blank" rel="noreferrer">https://github.com/NVIDIA/warp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #558</p>
+      </div>
+    </article>
+  </body>
+</html>

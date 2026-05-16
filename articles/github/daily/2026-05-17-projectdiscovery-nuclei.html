@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="YAMLベースのテンプレートを使用して、大規模なインフラストラクチャに対して脆弱性スキャンを実行する強力なセキュリティツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>nuclei</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">nuclei</h1>
+      <p class="article-dek">YAMLベースのテンプレートを使用して、大規模なインフラストラクチャに対して脆弱性スキャンを実行する強力なセキュリティツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/projectdiscovery/nuclei" target="_blank" rel="noreferrer">
+              projectdiscovery/nuclei
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>28,677</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Nuclei は、高速で高度にカスタマイズ可能な脆弱性スキャナーです。セキュリティコミュニティが作成・公開している数千もの YAML 形式テンプレートを活用し、Web アプリケーション、ネットワーク、DNS、クラウド設定など、あらゆる対象のセキュリティ上の欠陥を自動的に検出します。</p>
+
+        <h2>何ができるか</h2>
+        <p>最新の CVE（脆弱性情報）に基づいたスキャン、設定ミス、デフォルトパスワード、情報の漏えいなどを瞬時に特定できます。Go 言語で記述されており、数千ものホストに対して並列で非常に高速にリクエストを送信することが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>テンプレート駆動型であるため、新しい脆弱性が発見されると即座にコミュニティからテンプレートが供給される点です。また、スキャンの挙動を完全に制御できるため、偽陽性（誤検知）を最小限に抑えつつ、ターゲットに合わせた緻密なテストが行えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go がインストールされていれば <code>go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest</code> でインストールできます。あとは <code>nuclei -u https://example.com</code> のようにコマンドを実行するだけで、自動的に最新のテンプレートがダウンロードされスキャンが開始されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>セキュリティエンジニア、バグバウンティハンター（脆弱性報奨金制度の参加者）、そして自社の IT インフラを定期的に自己診断したい企業のシステム管理者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>強力なツールであるため、必ず自分が管理している、あるいは許可を得たターゲットに対してのみ使用してください。無許可でのスキャンは攻撃とみなされる可能性があります。また、実行パラメータの設定によってはターゲットに高い負荷をかける場合もあります。</p>
+
+        <h2>まとめ</h2>
+        <p>Nuclei は、モダンなセキュリティ診断においてデファクトスタンダードとなりつつあるツールです。コミュニティの知恵が結集されたテンプレートを活用することで、常に最新の脅威に対抗できる強力な武器となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/projectdiscovery/nuclei" target="_blank" rel="noreferrer">https://github.com/projectdiscovery/nuclei</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #561</p>
+      </div>
+    </article>
+  </body>
+</html>
