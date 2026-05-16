@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Dayflow",
+      "repoName": "JerryZLiu/Dayflow",
+      "repoUrl": "https://github.com/JerryZLiu/Dayflow",
+      "summary": "AI がタスクと優先順位を分析し、最適な一日のスケジュールを自動生成するスマート・プランナー。意思決定を AI がサポートし、生産性を最大化します。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 553,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T14:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-jerryzliu-dayflow.html"
+    },
+    {
       "title": "articraft",
       "repoName": "mattzh72/articraft",
       "repoUrl": "https://github.com/mattzh72/articraft",
