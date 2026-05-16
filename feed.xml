@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 10:55:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 12:11:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-seo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-agricidaniel-claude-seo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-agricidaniel-claude-seo.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude API を活用して SEO 最適化された高品質な記事を自動生成するツール。検索意図を汲み取った構成案から本文までを一気に作成します。]]></description>
+    </item>
     <item>
       <title><![CDATA[remoteDiscordShell]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-enriquemoran-remotediscordshell.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日（2026-05-15）の GitHub Trending 全 15 リポジトリの調査結果と、新規追加された 5 件の記事（gstack, spec-kit 等）のまとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[supervision]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-roboflow-supervision.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-roboflow-supervision.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コンピュータビジョンの可視化・分析・後処理を劇的にシンプルにする Python ツールキット。あらゆるモデルの出力を共通フォーマットで扱えます。]]></description>
     </item>
   </channel>
 </rss>

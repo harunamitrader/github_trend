@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "claude-seo",
+      "repoName": "AgriciDaniel/claude-seo",
+      "repoUrl": "https://github.com/AgriciDaniel/claude-seo",
+      "summary": "Claude API を活用して SEO 最適化された高品質な記事を自動生成するツール。検索意図を汲み取った構成案から本文までを一気に作成します。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 551,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T12:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-agricidaniel-claude-seo.html"
+    },
+    {
       "title": "remoteDiscordShell",
       "repoName": "EnriqueMoran/remoteDiscordShell",
       "repoUrl": "https://github.com/EnriqueMoran/remoteDiscordShell",
