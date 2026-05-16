@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Others Tools Update: OpenClaw v2026.5.16-beta.3",
+      "summary": "OpenClaw v2026.5.16-beta.3 がリリース。xAI Grok OAuthログインや cron ポーリング制御、多言語セットアップウィザードを搭載。2026-05-17 の更新情報まとめ。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "update",
+      "serial": 564,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T06:03:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-17-ai-others-tools-update.html"
+    },
+    {
       "title": "AI Coding Tools Update: Claude Code v2.1.143, Copilot Memory, Gemini CLI",
       "summary": "Claude Code v2.1.143 でプラグインコスト表示を強化。GitHub Copilot Memory のユーザー設定対応や Gemini CLI の機能改善。2026-05-17 の更新情報まとめ。",
       "category": "ai-tool-log",

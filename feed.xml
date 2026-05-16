@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 21:00:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 06:08:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Others Tools Update: OpenClaw v2026.5.16-beta.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw v2026.5.16-beta.3 がリリース。xAI Grok OAuthログインや cron ポーリング制御、多言語セットアップウィザードを搭載。2026-05-17 の更新情報まとめ。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.143, Copilot Memory, Gemini CLI]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[JavaScript/TypeScript の実行、パッケージ管理、ビルド、テストをこれ一つで完結させる超高速オールインワン・ツールキット。Node.js の強力な代替候補として注目を集めています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-16 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-16-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-16-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。]]></description>
     </item>
   </channel>
 </rss>
