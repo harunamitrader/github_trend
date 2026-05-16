@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-15T21:54:15.077305+00:00",
-  "count": 582,
+  "generatedAt": "2026-05-16T00:17:05.740516+00:00",
+  "count": 583,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ai-chatbot",
+      "dek": "",
+      "summary": "Vercel が提供するフルスタックな AI チャットボット・テンプレート。Next.js と Vercel AI SDK を活用した、モダンな AI アプリ開発のベストプラクティスを網羅しています。",
+      "repoName": "vercel/ai-chatbot",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T09:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-vercel-ai-chatbot.html",
+      "serial": 549,
+      "searchText": "ai-chatbot Vercel が提供するフルスタックな AI チャットボット・テンプレート。Next.js と Vercel AI SDK を活用した、モダンな AI アプリ開発のベストプラクティスを網羅しています。 vercel/ai-chatbot AI基盤・データ基盤・業務アプリ ai-chatbot ← 記事一覧へ戻る GitHub Watcher ai-chatbot Vercel 基準の設計で構築された、高性能かつカスタマイズ自在な AI チャットボット基盤 記事作成日 2026-05-16 種別 Pickup 対象 repo vercel/ai-chatbot Star数 11,500 これは何か Vercel が提供する、Next.js と Vercel AI SDK をベースにしたリファレンス実装としての AI チャットボットです。商用利用にも耐えうる、モダンな Web アプリケーションの構成要素がすべて統合されています。 何ができるか AI とのリアルタイムな対話（ストリーミング応答）、NextAuth.js によるユーザー認証、対話履歴の永続化、そして洗練された UI/UX デザインを備えたチャットインターフェースを即座に構築できます。 目立つポイント Vercel AI SDK のパワーを最大限に活用しており、OpenAI だけでなく Anthropic や Google Gemini といった多様な LLM プロバイダーへ容易に切り替え可能です。また、Edge Runtime やサーバーコンポーネントを駆使した、Vercel 基準の高速な動作が特徴です。 セットアップや使い方の流れ Vercel のダッシュボードからワンクリックでデプロイ可能です。ローカル環境では npx create-next-app --example https://github.com/vercel/ai-chatbot で雛形を作成し、環境変数に API キーを設定するだけで開発を開始できます。 どんな人向けか 独自の AI チャットアプリを構築したい開発者や、Vercel AI SDK のベストプラクティスを学びたいエンジニアに最適です。 注意点 フルスタックな構成であるため、データベースや認証プロバイダーの設定が必要になります。初期セットアップ時の環境変数設定を丁寧に行う必要があります。 まとめ vercel/ai-chatbot は、AI アプリケーション開発の「スタンダード」を体現した最高峰のテンプレートです。 参照リンク https://github.com/vercel/ai-chatbot Shared GitHub Serial: #549"
+    },
     {
       "slug": null,
       "category": "github-pickup",

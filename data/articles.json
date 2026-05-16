@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ai-chatbot",
+      "repoName": "vercel/ai-chatbot",
+      "repoUrl": "https://github.com/vercel/ai-chatbot",
+      "summary": "Vercel が提供するフルスタックな AI チャットボット・テンプレート。Next.js と Vercel AI SDK を活用した、モダンな AI アプリ開発のベストプラクティスを網羅しています。",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "starCount": 11500,
+      "serial": 549,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T09:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-vercel-ai-chatbot.html"
+    },
+    {
       "title": "skills",
       "repoName": "google/skills",
       "repoUrl": "https://github.com/google/skills",

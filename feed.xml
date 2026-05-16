@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 06:54:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 09:17:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ai-chatbot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-vercel-ai-chatbot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-vercel-ai-chatbot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Vercel が提供するフルスタックな AI チャットボット・テンプレート。Next.js と Vercel AI SDK を活用した、モダンな AI アプリ開発のベストプラクティスを網羅しています。]]></description>
+    </item>
     <item>
       <title><![CDATA[skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-google-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Android デバイスの超低遅延ミラーリングと操作を可能にする最高峰のツール。AI エージェントのモバイル操作基盤としても注目されています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[video-search-and-summarization]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-nvidia-video-search.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-nvidia-video-search.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NVIDIA による GPU 加速ビジョンエージェント構築のためのリファレンスアーキテクチャ。大量の動画から特定シーンを自然言語で検索・要約します。]]></description>
     </item>
   </channel>
 </rss>
