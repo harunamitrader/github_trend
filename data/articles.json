@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "remoteDiscordShell",
+      "repoName": "EnriqueMoran/remoteDiscordShell",
+      "repoUrl": "https://github.com/EnriqueMoran/remoteDiscordShell",
+      "summary": "Discord を介してリモート PC のシェルを自在に操作可能にするボット。外出先からでもスマートフォン一つでコマンド実行やステータス確認が可能です。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 26,
+      "serial": 550,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T10:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-enriquemoran-remotediscordshell.html"
+    },
+    {
       "title": "ai-chatbot",
       "repoName": "vercel/ai-chatbot",
       "repoUrl": "https://github.com/vercel/ai-chatbot",

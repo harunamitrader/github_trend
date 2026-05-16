@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-16T00:17:05.740516+00:00",
-  "count": 583,
+  "generatedAt": "2026-05-16T01:55:33.106983+00:00",
+  "count": 584,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "remoteDiscordShell",
+      "dek": "",
+      "summary": "Discord を介してリモート PC のシェルを自在に操作可能にするボット。外出先からでもスマートフォン一つでコマンド実行やステータス確認が可能です。",
+      "repoName": "EnriqueMoran/remoteDiscordShell",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T10:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-enriquemoran-remotediscordshell.html",
+      "serial": 550,
+      "searchText": "remoteDiscordShell Discord を介してリモート PC のシェルを自在に操作可能にするボット。外出先からでもスマートフォン一つでコマンド実行やステータス確認が可能です。 EnriqueMoran/remoteDiscordShell AIコーディング (ワークフロー・プロンプト・開発補助ツール) remoteDiscordShell ← 記事一覧へ戻る GitHub Watcher remoteDiscordShell Discord チャットをターミナルに変貌させる、リモートコマンド実行ボット 記事作成日 2026-05-16 種別 Pickup 対象 repo EnriqueMoran/remoteDiscordShell Star数 26 これは何か Discord ボットを通じて、自分の PC やサーバーのシェルコマンドをリモートから実行するためのツールです。Discord アプリさえあれば、場所を選ばず使い慣れたチャットインターフェースからシステムの管理やスクリプトの実行が可能になります。 何ができるか Discord のチャンネルにコマンドを投稿すると、ボットがその内容をシェルの subprocess として実行し、結果をチャットに返信します。ファイルの操作、サーバーの再起動、長時間実行中のプロセスのステータス確認などが、スマートフォンからでも手軽に行えます。 目立つポイント SSH 等の複雑なポート開放や VPN 設定を介さず、Discord の Webhook/Bot API を利用して双方向通信を実現している点が特徴です。また、Python で記述されたシンプルな構造のため、自分専用のカスタムコマンドを追加するなどのカスタマイズも容易です。 セットアップや使い方の流れ Python 環境でリポジトリをクローンし、必要なライブラリをインストールします。Discord Developer Portal でボットを作成し、取得したトークンをソースコードまたは環境変数に設定してボットを起動するだけで、リモート操作の準備が整います。 どんな人向けか 自宅の PC を外出先からカジュアルに操作したい開発者や、サーバーのちょっとしたメンテナンスをチャットから済ませたいインフラ担当者に最適です。また、最近の「バイブ・コーディング」の文脈では、モバイルから AI エージェント（Claude Code 等）を起動するブリッジとしても活用できます。 注意点 シェルを直接操作するため、セキュリティ管理には細心の注意が必要です。ボットが反応するチャンネルやユーザーを厳密に制限するなど、不適切なアクセスを防ぐための設定が必須となります。 まとめ remoteDiscordShell は、使い慣れた Discord を究極のポータブル・ターミナルへと変えてくれる、小粒ながらも強力なユーティリティです。 参照リンク https://github.com/EnriqueMoran/remoteDiscordShell Shared GitHub Serial: #550"
+    },
     {
       "slug": null,
       "category": "github-pickup",

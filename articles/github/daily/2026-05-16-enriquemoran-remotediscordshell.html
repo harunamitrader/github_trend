@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="remoteDiscordShell: Discord を介してリモート PC のシェルを自在に操作可能にするボット。外出先からでもスマートフォン一つでコマンド実行やステータス確認が可能です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>remoteDiscordShell</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">remoteDiscordShell</h1>
+      <p class="article-dek">Discord チャットをターミナルに変貌させる、リモートコマンド実行ボット</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/EnriqueMoran/remoteDiscordShell" target="_blank" rel="noreferrer">
+              EnriqueMoran/remoteDiscordShell
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>26</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Discord ボットを通じて、自分の PC やサーバーのシェルコマンドをリモートから実行するためのツールです。Discord アプリさえあれば、場所を選ばず使い慣れたチャットインターフェースからシステムの管理やスクリプトの実行が可能になります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Discord のチャンネルにコマンドを投稿すると、ボットがその内容をシェルの <code>subprocess</code> として実行し、結果をチャットに返信します。ファイルの操作、サーバーの再起動、長時間実行中のプロセスのステータス確認などが、スマートフォンからでも手軽に行えます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          SSH 等の複雑なポート開放や VPN 設定を介さず、Discord の Webhook/Bot API を利用して双方向通信を実現している点が特徴です。また、Python で記述されたシンプルな構造のため、自分専用のカスタムコマンドを追加するなどのカスタマイズも容易です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python 環境でリポジトリをクローンし、必要なライブラリをインストールします。Discord Developer Portal でボットを作成し、取得したトークンをソースコードまたは環境変数に設定してボットを起動するだけで、リモート操作の準備が整います。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          自宅の PC を外出先からカジュアルに操作したい開発者や、サーバーのちょっとしたメンテナンスをチャットから済ませたいインフラ担当者に最適です。また、最近の「バイブ・コーディング」の文脈では、モバイルから AI エージェント（Claude Code 等）を起動するブリッジとしても活用できます。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          シェルを直接操作するため、セキュリティ管理には細心の注意が必要です。ボットが反応するチャンネルやユーザーを厳密に制限するなど、不適切なアクセスを防ぐための設定が必須となります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          remoteDiscordShell は、使い慣れた Discord を究極のポータブル・ターミナルへと変えてくれる、小粒ながらも強力なユーティリティです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/EnriqueMoran/remoteDiscordShell" target="_blank" rel="noreferrer">https://github.com/EnriqueMoran/remoteDiscordShell</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #550</p>
+      </div>
+    </article>
+  </body>
+</html>
