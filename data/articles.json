@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "articraft",
+      "repoName": "mattzh72/articraft",
+      "repoUrl": "https://github.com/mattzh72/articraft",
+      "summary": "技術トピックから AI が構造化された高品質な記事を自動生成するツール。リサーチ、構成、執筆を一気通貫で自動化し、技術発信を強力に支援します。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 552,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T12:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-mattzh72-articraft.html"
+    },
+    {
       "title": "claude-seo",
       "repoName": "AgriciDaniel/claude-seo",
       "repoUrl": "https://github.com/AgriciDaniel/claude-seo",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 12:11:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 12:58:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[articraft]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mattzh72-articraft.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mattzh72-articraft.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[技術トピックから AI が構造化された高品質な記事を自動生成するツール。リサーチ、構成、執筆を一気通貫で自動化し、技術発信を強力に支援します。]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-seo]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-agricidaniel-claude-seo.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Tauri v2 による超軽量（約8.6MB）な Markdown 閲覧専用アプリ。エディタよりも高速に、ドキュメントを整理して読むことに特化しています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-15 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-15-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-15-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日（2026-05-15）の GitHub Trending 全 15 リポジトリの調査結果と、新規追加された 5 件の記事（gstack, spec-kit 等）のまとめ。]]></description>
     </item>
   </channel>
 </rss>
