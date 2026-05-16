@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "awesome-matlab-robotics",
+      "repoName": "mathworks-robotics/awesome-matlab-robotics",
+      "repoUrl": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
+      "summary": "MATLAB / Simulink を使用したロボティクス開発のための厳選リソース集。自律走行、制御、シミュレーションなどの高度なアルゴリズム実装と学習用資産を網羅しています。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "starCount": 922,
+      "serial": 557,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T20:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html"
+    },
+    {
       "title": "Pixal3D",
       "repoName": "TencentARC/Pixal3D",
       "repoUrl": "https://github.com/TencentARC/Pixal3D",

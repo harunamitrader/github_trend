@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-16T11:33:51.309013+00:00",
-  "count": 590,
+  "generatedAt": "2026-05-16T11:36:57.569775+00:00",
+  "count": 591,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-matlab-robotics",
+      "dek": "",
+      "summary": "MATLAB / Simulink を使用したロボティクス開発のための厳選リソース集。自律走行、制御、シミュレーションなどの高度なアルゴリズム実装と学習用資産を網羅しています。",
+      "repoName": "mathworks-robotics/awesome-matlab-robotics",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T20:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html",
+      "serial": 557,
+      "searchText": "awesome-matlab-robotics MATLAB / Simulink を使用したロボティクス開発のための厳選リソース集。自律走行、制御、シミュレーションなどの高度なアルゴリズム実装と学習用資産を網羅しています。 mathworks-robotics/awesome-matlab-robotics 学習ガイド・開発アセット awesome-matlab-robotics ← 記事一覧へ戻る GitHub Watcher awesome-matlab-robotics ロボット開発を加速させる、MATLAB / Simulink 公式・コミュニティ厳選リソース集 記事作成日 2026-05-16 種別 Pickup 対象 repo mathworks-robotics/awesome-matlab-robotics Star数 922 これは何か MATLAB および Simulink を用いたロボット工学の設計、シミュレーション、実装に役立つ高品質なリソースを体系的にまとめた「Awesome リスト」です。MathWorks のロボティクスチームによってキュレーションされており、信頼性の高い情報が網羅されています。 何ができるか 自律走行、軌道計画、マニピュレーション、知覚（LiDAR/カメラ）、ドローン制御などの各分野において、最新のツールボックス活用事例や、GitHub 上のオープンソース実装、チュートリアル、論文実装などを即座に見つけることができます。 目立つポイント 単なるリンク集にとどまらず、産業界で標準的に使われている MATLAB/Simulink と ROS (Robot Operating System) の連携方法や、モデルベースデザインのベストプラクティスが学べる点が非常に強力です。学術研究から実製品の開発まで、幅広い層に対応しています。 セットアップや使い方の流れ リポジトリの README.md をブラウズし、興味のあるカテゴリーを選択します。各リンク先には、MATLAB アドオン、ソースコード、または学習用ドキュメントが含まれており、必要に応じて git clone や Add-On Explorer を通じて導入可能です。 どんな人向けか ロボット制御の理論をシミュレーションで検証したい学生や研究者、および複雑なロボットシステムのモデルベース開発を効率化したいエンジニアに最適です。 注意点 紹介されているリソースの中には、MATLAB の特定のツールボックス（Robotics System Toolbox 等）のライセンスが必要なものが含まれている場合があります。 まとめ awesome-matlab-robotics は、ロボット工学の複雑な課題を「シミュレーションから実装へ」と橋渡しするための、最高峰の知恵が集約されたリポジトリです。 参照リンク https://github.com/mathworks-robotics/awesome-matlab-robotics Shared GitHub Serial: #557"
+    },
     {
       "slug": null,
       "category": "github-pickup",

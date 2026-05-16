@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 20:34:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 20:36:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-matlab-robotics]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MATLAB / Simulink を使用したロボティクス開発のための厳選リソース集。自律走行、制御、シミュレーションなどの高度なアルゴリズム実装と学習用資産を網羅しています。]]></description>
+    </item>
     <item>
       <title><![CDATA[Pixal3D]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-tencentarc-pixal3d.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェントが Lark/Feishu の全機能を操作できるように設計された、Agent-Native な公式 CLI。20以上の AI スキルを備え、日本語業務の自動化を強力に支援します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[9remote]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-decolua-9remote.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-decolua-9remote.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[スマートフォンから PC のターミナルを自在に操作し、Claude Code や Gemini CLI による「バイブ・コーディング」を場所を選ばず可能にするモバイル・ブリッジツール。]]></description>
     </item>
   </channel>
 </rss>
