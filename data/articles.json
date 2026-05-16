@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Pixal3D",
+      "repoName": "TencentARC/Pixal3D",
+      "repoUrl": "https://github.com/TencentARC/Pixal3D",
+      "summary": "たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "starCount": 766,
+      "serial": 556,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T20:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-tencentarc-pixal3d.html"
+    },
+    {
       "title": "terminator",
       "repoName": "mediar-ai/terminator",
       "repoUrl": "https://github.com/mediar-ai/terminator",

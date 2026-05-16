@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-16T10:55:44.298402+00:00",
-  "count": 589,
+  "generatedAt": "2026-05-16T11:33:51.309013+00:00",
+  "count": 590,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Pixal3D",
+      "dek": "",
+      "summary": "たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。",
+      "repoName": "TencentARC/Pixal3D",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T20:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-tencentarc-pixal3d.html",
+      "serial": 556,
+      "searchText": "Pixal3D たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。 TencentARC/Pixal3D メディア作成・マルチモーダル・UI Pixal3D ← 記事一覧へ戻る GitHub Watcher Pixal3D 一枚の画像からピクセル単位で正確な 3D 復元を。Tencent ARC が贈る次世代 3D 生成基盤 記事作成日 2026-05-16 種別 Pickup 対象 repo TencentARC/Pixal3D Star数 766 これは何か 単一の 2D 画像から高品質な 3D 形状とテクスチャを生成する、Tencent ARC (Applied Research Center) によるオープンソースプロジェクトです。従来の技術よりも「ピクセルとの整合性」を重視しており、入力画像のディテールを正確に反映した 3D モデルを構築できます。 何ができるか 任意のオブジェクトが写った画像を入力すると、そのオブジェクトの 3D メッシュやテクスチャを自動生成します。特に、入力画像の各ピクセルが 3D 空間のどこに対応するかを精密に計算（Pixel-aligned）することで、不自然な歪みの少ない、写真のようにリアルな 3D 復元が可能です。 目立つポイント 複雑な質感や細かい形状の凹凸を、追加のマルチビュー画像を必要とせずに再現できる点が驚異的です。最新の拡散モデル（Diffusion Models）を 3D 空間に拡張した手法を採用しており、ゲームアセット作成やバーチャル試着などの分野に革命をもたらすポテンシャルを秘めています。 セットアップや使い方の流れ Python 環境で PyTorch や CUDA を含む必要なライブラリをインストールします。事前学習済みのチェックポイントをダウンロードし、推論スクリプトに対象の画像パスを渡すことで、3D モデル（OBJ 形式など）が出力されます。 どんな人向けか 3D モデリングの工数を削減したいクリエイターや、画像からの 3D 復元技術を研究しているエンジニアに最適です。 注意点 高品質な生成には高性能な GPU (VRAM 容量の大きい NVIDIA 製 GPU 等) が必要となります。また、背景が複雑な画像ではオブジェクトの切り出し精度に依存するため、適切な前処理が推奨されます。 まとめ Pixal3D は、2D と 3D の境界線をさらに曖昧にする、画像解析と生成 AI が高度に融合した最先端の成果です。 参照リンク https://github.com/TencentARC/Pixal3D Shared GitHub Serial: #556"
+    },
     {
       "slug": null,
       "category": "github-pickup",

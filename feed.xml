@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 19:56:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 20:33:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Pixal3D]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-tencentarc-pixal3d.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-tencentarc-pixal3d.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。]]></description>
+    </item>
     <item>
       <title><![CDATA[terminator]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mediar-ai-terminator.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[スマートフォンから PC のターミナルを自在に操作し、Claude Code や Gemini CLI による「バイブ・コーディング」を場所を選ばず可能にするモバイル・ブリッジツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-data-extraction]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-0xsero-ai-data-extraction.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-0xsero-ai-data-extraction.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[主要 AI IDE（Cursor, Claude Code, Windsurf 等）からローカルの対話履歴を抽出し、独自の AI 学習に活用可能な JSONL 形式へ変換するプライバシー重視のツール。]]></description>
     </item>
   </channel>
 </rss>

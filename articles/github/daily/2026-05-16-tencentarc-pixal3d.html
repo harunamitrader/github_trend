@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pixal3D: たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI プロジェクト。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Pixal3D</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Pixal3D</h1>
+      <p class="article-dek">一枚の画像からピクセル単位で正確な 3D 復元を。Tencent ARC が贈る次世代 3D 生成基盤</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TencentARC/Pixal3D" target="_blank" rel="noreferrer">
+              TencentARC/Pixal3D
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>766</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          単一の 2D 画像から高品質な 3D 形状とテクスチャを生成する、Tencent ARC (Applied Research Center) によるオープンソースプロジェクトです。従来の技術よりも「ピクセルとの整合性」を重視しており、入力画像のディテールを正確に反映した 3D モデルを構築できます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          任意のオブジェクトが写った画像を入力すると、そのオブジェクトの 3D メッシュやテクスチャを自動生成します。特に、入力画像の各ピクセルが 3D 空間のどこに対応するかを精密に計算（Pixel-aligned）することで、不自然な歪みの少ない、写真のようにリアルな 3D 復元が可能です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          複雑な質感や細かい形状の凹凸を、追加のマルチビュー画像を必要とせずに再現できる点が驚異的です。最新の拡散モデル（Diffusion Models）を 3D 空間に拡張した手法を採用しており、ゲームアセット作成やバーチャル試着などの分野に革命をもたらすポテンシャルを秘めています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python 環境で PyTorch や CUDA を含む必要なライブラリをインストールします。事前学習済みのチェックポイントをダウンロードし、推論スクリプトに対象の画像パスを渡すことで、3D モデル（OBJ 形式など）が出力されます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          3D モデリングの工数を削減したいクリエイターや、画像からの 3D 復元技術を研究しているエンジニアに最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          高品質な生成には高性能な GPU (VRAM 容量の大きい NVIDIA 製 GPU 等) が必要となります。また、背景が複雑な画像ではオブジェクトの切り出し精度に依存するため、適切な前処理が推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Pixal3D は、2D と 3D の境界線をさらに曖昧にする、画像解析と生成 AI が高度に融合した最先端の成果です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/TencentARC/Pixal3D" target="_blank" rel="noreferrer">https://github.com/TencentARC/Pixal3D</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #556</p>
+      </div>
+    </article>
+  </body>
+</html>
