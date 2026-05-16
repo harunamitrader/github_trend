@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update: Claude Code v2.1.143, Copilot Memory, Gemini CLI",
+      "summary": "Claude Code v2.1.143 でプラグインコスト表示を強化。GitHub Copilot Memory のユーザー設定対応や Gemini CLI の機能改善。2026-05-17 の更新情報まとめ。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "update",
+      "serial": 563,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T05:55:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-17-ai-coding-tools-update.html"
+    },
+    {
       "title": "2026-05-17 アップデートレポート",
       "summary": "本日（2026-05-17）の GitHub Trending 全 25 リポジトリの調査結果と、新規追加された 5 件の記事（n8n, Warp 等）のまとめ。",
       "publishedAt": "2026-05-17",

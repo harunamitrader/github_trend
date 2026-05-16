@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 05:03:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 05:59:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Claude Code v2.1.143, Copilot Memory, Gemini CLI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.143 でプラグインコスト表示を強化。GitHub Copilot Memory のユーザー設定対応や Gemini CLI の機能改善。2026-05-17 の更新情報まとめ。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-17 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-17-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Awesome-finance-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-rkiding-awesome-finance-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントを「ウォール街のアナリスト」に変貌させる、金融特化型スキルコレクション。リアルタイムニュース、センチメント分析、市場予測能力を即座に付与します。]]></description>
     </item>
   </channel>
 </rss>
