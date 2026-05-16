@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2026 14:59:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 18:29:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[zcf]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-ufomiao-zcf.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-ufomiao-zcf.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。]]></description>
+    </item>
     <item>
       <title><![CDATA[Dayflow]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-jerryzliu-dayflow.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code に統合可能なカスタムスキル。Web 記事、動画、PDF などのあらゆる情報を Google NotebookLM へ自動転送し、Podcast や要約を生成する強力なブリッジツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ShowUI-Aloha]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-showlab-showui-aloha.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-15-showlab-showui-aloha.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人間による一回の手本からワークフローを学習し、実際の Windows や macOS デスクトップを自律操作するエージェント。セマンティックな学習により高い汎用性を実現します。]]></description>
     </item>
   </channel>
 </rss>

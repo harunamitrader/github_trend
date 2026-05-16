@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-16T05:58:55.544203+00:00",
-  "count": 587,
+  "generatedAt": "2026-05-16T09:29:36.833779+00:00",
+  "count": 588,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "zcf",
+      "dek": "",
+      "summary": "Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。",
+      "repoName": "UfoMiao/zcf",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T18:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-ufomiao-zcf.html",
+      "serial": 554,
+      "searchText": "zcf Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。 UfoMiao/zcf AIコーディング (ワークフロー・プロンプト・開発補助ツール) zcf ← 記事一覧へ戻る GitHub Watcher zcf 「設定ファイルどこ？」を過去にする、Node.js 向けの洗練されたゼロ設定コンフィグ・ローダー 記事作成日 2026-05-16 種別 Pickup 対象 repo UfoMiao/zcf Star数 28 これは何か Node.js アプリケーションにおいて、設定ファイルを自動的に探索・読み込みするためのライブラリです。プロジェクトルートにある .json , .yaml , .js , .ts などの様々な形式の設定ファイルを、開発者がパスを指定することなく「いい感じに」読み込んでくれます。 何ができるか import { loadConfig } from 'zcf' とするだけで、プロジェクトに散らばる設定（config）を一つのオブジェクトとして取得できます。TypeScript のネイティブサポートに加え、JSONC（コメント付きJSON）や、ES モジュール形式の読み込みにも対応しています。 目立つポイント 「ゼロ設定（Zero Configuration）」という名の通り、ライブラリ自体の設定がほぼ不要である点が最大のメリットです。また、ライブラリサイズが極めて小さく、依存関係を増やしたくないモダンなプロジェクトに最適化されています。 セットアップや使い方の流れ npm install zcf で導入後、プロジェクトルートに config.json や app.config.ts などを置くだけで準備完了です。コード内で await loadConfig() を呼び出すと、適切なファイルが自動で見つかります。 どんな人向けか 設定ファイルの読み込みロジックを自作するのに飽きた開発者や、複数の設定形式を柔軟に受け入れたいツール作成者に最適です。 注意点 自動探索に頼りすぎると、意図しない場所にある古い設定ファイルを拾ってしまう可能性があるため、プロジェクト内の構成は整理しておく必要があります。 まとめ zcf は、地味ながらも開発の「初動」を確実にスムーズにしてくれる、エレガントなユーティリティです。 参照リンク https://github.com/UfoMiao/zcf Shared GitHub Serial: #554"
+    },
     {
       "slug": null,
       "category": "github-pickup",

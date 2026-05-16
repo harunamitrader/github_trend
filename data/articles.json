@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "zcf",
+      "repoName": "UfoMiao/zcf",
+      "repoUrl": "https://github.com/UfoMiao/zcf",
+      "summary": "Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "starCount": 28,
+      "serial": 554,
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-16T18:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-16-ufomiao-zcf.html"
+    },
+    {
       "title": "Dayflow",
       "repoName": "JerryZLiu/Dayflow",
       "repoUrl": "https://github.com/JerryZLiu/Dayflow",

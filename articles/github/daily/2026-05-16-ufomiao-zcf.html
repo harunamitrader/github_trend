@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="zcf: Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>zcf</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">zcf</h1>
+      <p class="article-dek">「設定ファイルどこ？」を過去にする、Node.js 向けの洗練されたゼロ設定コンフィグ・ローダー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-05-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/UfoMiao/zcf" target="_blank" rel="noreferrer">
+              UfoMiao/zcf
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>28</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Node.js アプリケーションにおいて、設定ファイルを自動的に探索・読み込みするためのライブラリです。プロジェクトルートにある <code>.json</code>, <code>.yaml</code>, <code>.js</code>, <code>.ts</code> などの様々な形式の設定ファイルを、開発者がパスを指定することなく「いい感じに」読み込んでくれます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          <code>import { loadConfig } from 'zcf'</code> とするだけで、プロジェクトに散らばる設定（config）を一つのオブジェクトとして取得できます。TypeScript のネイティブサポートに加え、JSONC（コメント付きJSON）や、ES モジュール形式の読み込みにも対応しています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          「ゼロ設定（Zero Configuration）」という名の通り、ライブラリ自体の設定がほぼ不要である点が最大のメリットです。また、ライブラリサイズが極めて小さく、依存関係を増やしたくないモダンなプロジェクトに最適化されています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <code>npm install zcf</code> で導入後、プロジェクトルートに <code>config.json</code> や <code>app.config.ts</code> などを置くだけで準備完了です。コード内で <code>await loadConfig()</code> を呼び出すと、適切なファイルが自動で見つかります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          設定ファイルの読み込みロジックを自作するのに飽きた開発者や、複数の設定形式を柔軟に受け入れたいツール作成者に最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          自動探索に頼りすぎると、意図しない場所にある古い設定ファイルを拾ってしまう可能性があるため、プロジェクト内の構成は整理しておく必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          zcf は、地味ながらも開発の「初動」を確実にスムーズにしてくれる、エレガントなユーティリティです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/UfoMiao/zcf" target="_blank" rel="noreferrer">https://github.com/UfoMiao/zcf</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #554</p>
+      </div>
+    </article>
+  </body>
+</html>
