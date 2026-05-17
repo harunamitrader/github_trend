@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T10:44:00.801509+00:00",
-  "count": 603,
+  "generatedAt": "2026-05-17T19:36:08.504842+00:00",
+  "count": 604,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "12-factor-agents",
+      "dek": "",
+      "summary": "LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。",
+      "repoName": "humanlayer/12-factor-agents",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T04:33:57+09:00",
+      "articleUrl": "./articles/github/daily/12-factor-agents.html",
+      "serial": 569,
+      "searchText": "12-factor-agents LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。 humanlayer/12-factor-agents 学習ガイド・開発アセット 12-factor-agents ← 記事一覧へ戻る GitHub Watcher 12-factor-agents LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。 記事作成日 2026-05-18 種別 Pickup 対象 repo humanlayer/12-factor-agents Star数 19,922 これは何か 従来のWebアプリ開発における「The Twelve-Factor App」にインスパイアされ、LLM（大規模言語モデル）を搭載したエージェント型アプリケーションを本番環境に耐えうる品質で構築するための「設計原則」を提示するプロジェクトおよびワークショップ教材です。 何ができるか TypeScript や Python、BAML（プロンプトを型安全に管理する言語）などを用い、自律エージェントの作成、ツール呼び出し（Tool Calling）の実装、そして「Human-in-the-loop（人間の承認プロセス）」をWebhook等で安全に組み込む手法を、段階的なコードを通して学ぶことができます。 目立つポイント エージェント設計の原則化 : 状態管理やツール呼び出しの境界を明確にするベストプラクティスを提示。 Human-in-the-loop の実践 : 自律エージェントが暴走しないよう、重要なアクション（メール送信や本番データ更新など）の前に人間の承認（Approval）を挟むパターンを実装。 多言語対応のワークショップ : TypeScript だけでなく、近年では Python 向けの拡張も含んでおり、幅広い開発者が実践的に学べる構成。 セットアップや使い方の流れ 各ワークショップ用のディレクトリ（例: workshops/2025-05/ や workshops/2025-07-16/ ）が用意されており、ステップバイステップの walkthrough フォルダ内のコードを順に実行していくことで、状態管理からWebhookベースの人間介入プロセスまでを体験できます。依存パッケージのインストールを行い、手順に従って動作を確認します。 どんな人向けか 単なるプロンプトエンジニアリングを越えて、LLMエージェントを本番環境のプロダクトに統合しようとしているソフトウェアエンジニアやアーキテクト、およびエージェントの安全性（制御可能性）に課題を感じている開発者に最適です。 注意点 本リポジトリはプロダクションレディなライブラリそのものというよりは、「設計原則を学ぶための教育用コード・概念実証（PoC）」の側面が強いため、実際のプロダクトに適用する際は、自身の技術スタックに合わせて概念を翻訳して実装する必要があります。 まとめ 12-factor-agents は、AIエージェント開発における「お作法」を体系化し、安全かつ堅牢なシステムを構築するための優れたガイドです。特に人間による承認フローの組み込みは、エンタープライズ領域でLLMを活用する上で必須の知識となるでしょう。 参照リンク https://github.com/humanlayer/12-factor-agents Shared GitHub Serial: #569"
+    },
     {
       "slug": null,
       "category": "github-pickup",

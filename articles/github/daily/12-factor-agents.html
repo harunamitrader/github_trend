@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>12-factor-agents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">12-factor-agents</h1>
+      <p class="article-dek">LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-18 -->
+          <strong>2026-05-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/humanlayer/12-factor-agents" target="_blank" rel="noreferrer">
+              humanlayer/12-factor-agents
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>19,922</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>従来のWebアプリ開発における「The Twelve-Factor App」にインスパイアされ、LLM（大規模言語モデル）を搭載したエージェント型アプリケーションを本番環境に耐えうる品質で構築するための「設計原則」を提示するプロジェクトおよびワークショップ教材です。</p>
+
+        <h2>何ができるか</h2>
+        <p>TypeScript や Python、BAML（プロンプトを型安全に管理する言語）などを用い、自律エージェントの作成、ツール呼び出し（Tool Calling）の実装、そして「Human-in-the-loop（人間の承認プロセス）」をWebhook等で安全に組み込む手法を、段階的なコードを通して学ぶことができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          <ul>
+            <li><strong>エージェント設計の原則化</strong>: 状態管理やツール呼び出しの境界を明確にするベストプラクティスを提示。</li>
+            <li><strong>Human-in-the-loop の実践</strong>: 自律エージェントが暴走しないよう、重要なアクション（メール送信や本番データ更新など）の前に人間の承認（Approval）を挟むパターンを実装。</li>
+            <li><strong>多言語対応のワークショップ</strong>: TypeScript だけでなく、近年では Python 向けの拡張も含んでおり、幅広い開発者が実践的に学べる構成。</li>
+          </ul>
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各ワークショップ用のディレクトリ（例: <code>workshops/2025-05/</code> や <code>workshops/2025-07-16/</code>）が用意されており、ステップバイステップの <code>walkthrough</code> フォルダ内のコードを順に実行していくことで、状態管理からWebhookベースの人間介入プロセスまでを体験できます。依存パッケージのインストールを行い、手順に従って動作を確認します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>単なるプロンプトエンジニアリングを越えて、LLMエージェントを本番環境のプロダクトに統合しようとしているソフトウェアエンジニアやアーキテクト、およびエージェントの安全性（制御可能性）に課題を感じている開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>本リポジトリはプロダクションレディなライブラリそのものというよりは、「設計原則を学ぶための教育用コード・概念実証（PoC）」の側面が強いため、実際のプロダクトに適用する際は、自身の技術スタックに合わせて概念を翻訳して実装する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>12-factor-agents</code> は、AIエージェント開発における「お作法」を体系化し、安全かつ堅牢なシステムを構築するための優れたガイドです。特に人間による承認フローの組み込みは、エンタープライズ領域でLLMを活用する上で必須の知識となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/humanlayer/12-factor-agents" target="_blank" rel="noreferrer">https://github.com/humanlayer/12-factor-agents</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #569</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 10:44:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 04:36:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[12-factor-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/12-factor-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/12-factor-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-workflow-automation]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/awesome-workflow-automation.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI がタスクと優先順位を分析し、最適な一日のスケジュールを自動生成するスマート・プランナー。意思決定を AI がサポートし、生産性を最大化します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[articraft]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mattzh72-articraft.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mattzh72-articraft.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[技術トピックから AI が構造化された高品質な記事を自動生成するツール。リサーチ、構成、執筆を一気通貫で自動化し、技術発信を強力に支援します。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "12-factor-agents",
+      "summary": "LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "serial": 569,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T04:33:57+09:00",
+      "repoName": "humanlayer/12-factor-agents",
+      "repoUrl": "https://github.com/humanlayer/12-factor-agents",
+      "articleUrl": "./articles/github/daily/12-factor-agents.html",
+      "starCount": 19922
+    },
+    {
       "title": "awesome-workflow-automation",
       "summary": "ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。",
       "category": "github-pickup",
