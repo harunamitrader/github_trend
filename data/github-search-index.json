@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T07:32:23.605921+00:00",
-  "count": 599,
+  "generatedAt": "2026-05-17T07:34:04.564723+00:00",
+  "count": 600,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "skills",
+      "dek": "",
+      "summary": "Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。",
+      "repoName": "browserbase/skills",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T16:38:00+09:00",
+      "articleUrl": "./articles/github/daily/browserbase-skills.html",
+      "serial": 565,
+      "searchText": "skills Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。 browserbase/skills AIエージェント (自律基盤・特化アプリ) skills ← 記事一覧へ戻る GitHub Watcher skills Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。 記事作成日 2026-05-17 種別 Pickup 対象 repo browserbase/skills Star数 3,286 これは何か Browserbase が提供する公式のエージェント用スキル・プラグイン集です。主に Claude Code 向けに設計されており、エージェントに自律的なブラウザ操作、ローカル Chrome のセッション同期、Web UI テスト、トレース取得などの能力を付与します。 何ができるか ブラウザ操作 : 対ボット回避やプロキシを備えたリモートブラウザセッションの自律操作。 UI テスト : AI 主導による探索的バグ発見や Git Diff に基づく UI テストの実行。 デバッグ＆トレース : セレクタやタイミングの問題を診断し修正案を出す site-debugger や、CDP を介してブラウザ操作のトレースを記録する browser-trace 。 Cookie 同期 : ローカルの Chrome プロファイルから認証情報（Cookie）を同期し、ログイン済みサイトをエージェントに操作させる機能。 目立つポイント Claude Code のプラグインシステム（ /plugin コマンド）に完全統合されている点です。これにより、単なる「ブラウザの操作」にとどまらず、「ローカル環境でのバグ再現・修正」や「Cloud 上へのサーバーレス関数のデプロイ（ bb functions ）」など、開発ワークフロー全体を AI に委譲できるようになります。 セットアップや使い方の流れ Claude Code のコマンドラインで以下を入力し、マーケットプレイスを追加してインストールします。 /plugin marketplace add browserbase/skills /plugin install browse@browserbase あるいは npx コマンドで一括インストールすることも可能です。 npx skills add browserbase/skills どんな人向けか Web アプリケーションの E2E テストやスクレイピングを AI に自動化させたいフロントエンド開発者、QA エンジニア、および Claude Code の拡張性を最大限に引き出したいユーザー向けです。 注意点 ローカル環境の Chrome セッションや Cookie を AI に直接操作させる強力な機能（ cookie-sync など）が含まれるため、セキュリティやプライバシーの観点から、実行するプロファイルやアクセス権限の管理には十分注意してください。 まとめ browserbase/skills は、テキストベースの AI エージェントを「ブラウザ環境を自在に動き回る自律的テスター・デバッガー」へと進化させる必須級のプラグイン群です。特に Claude Code ユーザーにとっては、Web 開発の生産性を劇的に向上させる可能性を秘めています。 参照リンク https://github.com/browserbase/skills Shared GitHub Serial: #565"
+    },
     {
       "slug": null,
       "category": "github-pickup",

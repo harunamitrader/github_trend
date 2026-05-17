@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">skills</h1>
+      <p class="article-dek">Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browserbase/skills" target="_blank" rel="noreferrer">
+              browserbase/skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,286</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Browserbase が提供する公式のエージェント用スキル・プラグイン集です。主に Claude Code 向けに設計されており、エージェントに自律的なブラウザ操作、ローカル Chrome のセッション同期、Web UI テスト、トレース取得などの能力を付与します。</p>
+
+        <h2>何ができるか</h2>
+        <p><ul>
+  <li><strong>ブラウザ操作</strong>: 対ボット回避やプロキシを備えたリモートブラウザセッションの自律操作。</li>
+  <li><strong>UI テスト</strong>: AI 主導による探索的バグ発見や Git Diff に基づく UI テストの実行。</li>
+  <li><strong>デバッグ＆トレース</strong>: セレクタやタイミングの問題を診断し修正案を出す <code>site-debugger</code> や、CDP を介してブラウザ操作のトレースを記録する <code>browser-trace</code>。</li>
+  <li><strong>Cookie 同期</strong>: ローカルの Chrome プロファイルから認証情報（Cookie）を同期し、ログイン済みサイトをエージェントに操作させる機能。</li>
+</ul></p>
+
+        <h2>目立つポイント</h2>
+        <p>Claude Code のプラグインシステム（<code>/plugin</code> コマンド）に完全統合されている点です。これにより、単なる「ブラウザの操作」にとどまらず、「ローカル環境でのバグ再現・修正」や「Cloud 上へのサーバーレス関数のデプロイ（<code>bb functions</code>）」など、開発ワークフロー全体を AI に委譲できるようになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code のコマンドラインで以下を入力し、マーケットプレイスを追加してインストールします。
+<pre><code class="language-bash">/plugin marketplace add browserbase/skills
+/plugin install browse@browserbase</code></pre>
+あるいは npx コマンドで一括インストールすることも可能です。
+<pre><code class="language-bash">npx skills add browserbase/skills</code></pre></p>
+
+        <h2>どんな人向けか</h2>
+        <p>Web アプリケーションの E2E テストやスクレイピングを AI に自動化させたいフロントエンド開発者、QA エンジニア、および Claude Code の拡張性を最大限に引き出したいユーザー向けです。</p>
+
+        <h2>注意点</h2>
+        <p>ローカル環境の Chrome セッションや Cookie を AI に直接操作させる強力な機能（<code>cookie-sync</code> など）が含まれるため、セキュリティやプライバシーの観点から、実行するプロファイルやアクセス権限の管理には十分注意してください。</p>
+
+        <h2>まとめ</h2>
+        <p>browserbase/skills は、テキストベースの AI エージェントを「ブラウザ環境を自在に動き回る自律的テスター・デバッガー」へと進化させる必須級のプラグイン群です。特に Claude Code ユーザーにとっては、Web 開発の生産性を劇的に向上させる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/browserbase/skills" target="_blank" rel="noreferrer">https://github.com/browserbase/skills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #565</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 07:32:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 16:34:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/browserbase-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/browserbase-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。]]></description>
+    </item>
     <item>
       <title><![CDATA[mcp-server-browserbase]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/mcp-server-browserbase.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vercel が提供するフルスタックな AI チャットボット・テンプレート。Next.js と Vercel AI SDK を活用した、モダンな AI アプリ開発のベストプラクティスを網羅しています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-google-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-google-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。]]></description>
     </item>
   </channel>
 </rss>
