@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T21:42:01.175556+00:00",
-  "count": 610,
+  "generatedAt": "2026-05-17T22:27:35.404252+00:00",
+  "count": 611,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "PhotoGIMP",
+      "dek": "",
+      "summary": "オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。",
+      "repoName": "Diolinux/PhotoGIMP",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T07:26:31+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-18-PhotoGIMP.html",
+      "serial": 561,
+      "searchText": "PhotoGIMP オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。 Diolinux/PhotoGIMP メディア作成・マルチモーダル・UI PhotoGIMP ← 記事一覧へ戻る GitHub Watcher PhotoGIMP オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。 記事作成日 2026-05-18 種別 Pickup 対象 repo Diolinux/PhotoGIMP Star数 9,279 これは何か オープンソースの強力な画像編集ソフトウェアである「GIMP」のユーザーインターフェース、キーボードショートカット、および初期設定を、Adobe Photoshop とほぼ同じ感覚で使えるようにカスタマイズするパッチ（設定ファイルのセット）です。 何ができるか GIMP のデフォルト設定を上書きし、Photoshop に慣れ親しんだユーザーが違和感なく GIMP に移行できるようにします。ツールボックスの配置、キャンバスの挙動、そして何よりも「Photoshop と全く同じショートカットキー」が提供されるため、学習コストを大幅に削減できます。 目立つポイント Photoshop互換のショートカット : 最も重要な機能。指が覚えているPhotoshopのキーバインドがそのままGIMPで機能します。 洗練されたUI/UX : 新たなスプラッシュスクリーンや、Photoshopライクなツールボックスのレイアウト、ワークスペースの整理が行われます。 GIMP 3+ 対応 : 最新のメジャーアップデートである GIMP 3.0 以降の環境に向けたパッチが提供されています。 セットアップや使い方の流れ 各OS（Linux, Windows, macOS）向けに用意された設定ファイル群を、自身のPCのGIMP設定フォルダ（例: LinuxのFlatpak版であれば ~/.var/app/org.gimp.GIMP/config/GIMP/3.0/ など）に上書きコピーするだけで適用が完了します。 どんな人向けか Photoshopのサブスクリプションから無料のオープンソースツールへの移行を検討しているデザイナーやクリエイター、およびGIMPをより使いやすくカスタマイズしたいすべてのユーザー。 注意点 パッチを適用すると既存のGIMPのカスタム設定が上書きされるため、事前に元の設定フォルダのバックアップを取っておくことが強く推奨されます。また、GIMP自体の仕様によりPhotoshopのすべての機能（高度なAI生成塗りつぶし等）が完全に再現されるわけではありません。 まとめ PhotoGIMP は、強力でありながら独特の操作感を持つGIMPに対する「最高の翻訳機」です。PhotoshopユーザーがOSSの世界に足を踏み入れる際の最大の障壁である「操作感の違い」を見事に解消してくれる画期的なプロジェクトです。 参照リンク https://github.com/Diolinux/PhotoGIMP Shared GitHub Serial: #561"
+    },
     {
       "slug": null,
       "category": "github-pickup",

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "PhotoGIMP",
+      "summary": "オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 561,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T07:26:31+09:00",
+      "repoName": "Diolinux/PhotoGIMP",
+      "repoUrl": "https://github.com/Diolinux/PhotoGIMP",
+      "articleUrl": "./articles/github/daily/2026-05-18-PhotoGIMP.html",
+      "starCount": 9279
+    },
+    {
       "title": "Hydro0x01",
       "summary": "ESP32とMQTTを活用した、本番環境レベルの堅牢性を持つオープンソースのIoT水耕栽培自動化システム。",
       "category": "github-pickup",
