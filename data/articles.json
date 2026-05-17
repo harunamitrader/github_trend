@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "Hydro0x01",
+      "summary": "ESP32とMQTTを活用した、本番環境レベルの堅牢性を持つオープンソースのIoT水耕栽培自動化システム。",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "serial": 560,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T06:40:51+09:00",
+      "repoName": "40rbidd3n/Hydro0x01",
+      "repoUrl": "https://github.com/40rbidd3n/Hydro0x01",
+      "articleUrl": "./articles/github/daily/2026-05-18-Hydro0x01.html",
+      "starCount": 236
+    },
+    {
       "title": "academic-research-skills-codex",
       "summary": "Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。",
       "category": "github-pickup",

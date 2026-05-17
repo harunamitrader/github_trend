@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 05:02:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:42:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Hydro0x01]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Hydro0x01.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Hydro0x01.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ESP32とMQTTを活用した、本番環境レベルの堅牢性を持つオープンソースのIoT水耕栽培自動化システム。]]></description>
+    </item>
     <item>
       <title><![CDATA[academic-research-skills-codex]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-academic-research-skills-codex.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[YAMLベースのテンプレートを使用して、大規模なインフラストラクチャに対して脆弱性スキャンを実行する強力なセキュリティツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[gyroflow]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-gyroflow-gyroflow.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-gyroflow-gyroflow.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ジャイロスコープデータを使用して、驚異的な精度でビデオを安定化させるオープンソースソフトウェア。]]></description>
     </item>
   </channel>
 </rss>
