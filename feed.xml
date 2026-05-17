@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 19:36:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 04:48:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-18 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cal.diy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-cal.diy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-cal.diy.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「絶対的に誰でも」使えることを目指した、超シンプルでセルフホスト可能な日程調整インフラストラクチャ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Shadowbroker]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Shadowbroker.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Shadowbroker.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プライベートジェット、人工衛星、地震データなどを統合し、AIエージェントによる解析を可能にするオープンソースOSINTプラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agent-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agent-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code や Cursor 等のAIコーディングエージェント向け、検証済みの拡張スキル（ツール）レジストリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agents-towards-production]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agents-towards-production.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agents-towards-production.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロトタイプから本番環境まで、生成AIエージェントを構築するためのエンドツーエンドのチュートリアル集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dograh]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-dograh.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-dograh.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[完全にオープンソースで提供される、リアルタイムな音声エージェント構築プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[12-factor-agents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/12-factor-agents.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[400以上の統合機能と強力なAI機能を備えた、セルフホスト可能なワークフロー自動化プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[warp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-nvidia-warp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-nvidia-warp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NVIDIAが提供する、GPU加速されたシミュレーション、ロボティクス、機械学習のためのPythonフレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-matlab-robotics]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mathworks-robotics-awesome-matlab-robotics.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[MATLAB / Simulink を使用したロボティクス開発のための厳選リソース集。自律走行、制御、シミュレーションなどの高度なアルゴリズム実装と学習用資産を網羅しています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Pixal3D]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-tencentarc-pixal3d.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-tencentarc-pixal3d.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[たった一枚の画像から、ピクセルレベルで整合性の取れた高品質な 3D モデルを生成する AI。テクスチャや形状の細部まで忠実に再現する次世代の 3D 生成技術です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[terminator]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mediar-ai-terminator.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-mediar-ai-terminator.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語で指示するだけで最適なシェルコマンドを生成・実行してくれる AI ターミナルアシスタント。コマンドを「思い出す」手間をゼロにします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[zcf]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-ufomiao-zcf.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-ufomiao-zcf.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Node.js プロジェクトにおける設定ファイル読み込みの煩わしさをゼロにする、超軽量かつ多機能な設定ローダー。JSON, YAML, TypeScript など多様な形式をゼロ設定でサポートします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Dayflow]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-jerryzliu-dayflow.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-jerryzliu-dayflow.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI がタスクと優先順位を分析し、最適な一日のスケジュールを自動生成するスマート・プランナー。意思決定を AI がサポートし、生産性を最大化します。]]></description>
     </item>
   </channel>
 </rss>
