@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T10:14:33.353383+00:00",
-  "count": 602,
+  "generatedAt": "2026-05-17T10:44:00.801509+00:00",
+  "count": 603,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-workflow-automation",
+      "dek": "",
+      "summary": "ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。",
+      "repoName": "dariubs/awesome-workflow-automation",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T19:48:00+09:00",
+      "articleUrl": "./articles/github/daily/awesome-workflow-automation.html",
+      "serial": 568,
+      "searchText": "awesome-workflow-automation ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。 dariubs/awesome-workflow-automation 学習ガイド・開発アセット awesome-workflow-automation ← 記事一覧へ戻る GitHub Watcher awesome-workflow-automation ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。 記事作成日 2026-05-17 種別 Pickup 対象 repo dariubs/awesome-workflow-automation Star数 970 これは何か Zapier や n8n などの従来型 iPaaS（統合プラットフォーム）から、最新の AI エージェント（OpenClaw、CrewAIなど）や MCP（Model Context Protocol）サーバーまで、ワークフロー自動化に関するあらゆるソフトウェアやツールを網羅した「Awesome 系」のキュレーションリストです。 何ができるか ツールの比較検討 : ノーコード / ローコードの自動化ツール、自律型 AI エージェント、ブラウザ操作特化型エージェントなど、カテゴリ別に最適なツールを探すことができます。 学習リソースへのアクセス : プラットフォームごとのチュートリアル動画、関連書籍、トレンドを解説するブログ記事など、学ぶためのリソースが豊富にまとめられています。 コミュニティの発見 : Reddit や Discord などの関連コミュニティへのリンクがあり、自動化に関する情報交換の場を見つけることができます。 目立つポイント 単なるツールの羅列ではなく、RPA と AI ワークフローの違いを解説する記事や、最新の AI コーディングエージェント（Claude Code, Cursorなど）のベンチマーク情報まで、最前線の動向をしっかりとカバーしている点が非常に有用です。 セットアップや使い方の流れ インストール等は不要で、GitHub の README 上で目次（Table of Contents）から興味のあるカテゴリをクリックして読み進めるだけで活用できます。 # 主なカテゴリ例 - Automation Platforms (n8n, Make, etc.) - AI Agents & Frameworks (CrewAI, LangGraph, etc.) - Browser Automation (Browser-use, Stagehand, etc.) - MCP (Model Context Protocol) 関連リソース どんな人向けか 社内業務の自動化を推進したい情シス担当者、AI エージェントを組み込んだアプリを開発したいエンジニア、および最新の生産性向上ツールを探しているすべてのユーザー向けです。 注意点 このような Awesome リストは情報が古くなることがあるため、実際のツール導入時には各ツールの公式ドキュメントで最新の機能アップデートや料金体系を確認することを推奨します。 まとめ awesome-workflow-automation は、急速に進化する「AI 時代の自動化ツールエコシステム」の全体像を俯瞰するのに最適なブックマーク必須のリポジトリです。自動化において何から手をつければいいか迷ったときの最初のインデックスとして非常に役立ちます。 参照リンク https://github.com/dariubs/awesome-workflow-automation Shared GitHub Serial: #568"
+    },
     {
       "slug": null,
       "category": "github-pickup",

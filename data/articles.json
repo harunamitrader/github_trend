@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "awesome-workflow-automation",
+      "summary": "ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。",
+      "category": "github-pickup",
+      "genre": "学習ガイド・開発アセット",
+      "originType": "pickup",
+      "serial": 568,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T19:48:00+09:00",
+      "repoName": "dariubs/awesome-workflow-automation",
+      "repoUrl": "https://github.com/dariubs/awesome-workflow-automation",
+      "articleUrl": "./articles/github/daily/awesome-workflow-automation.html",
+      "starCount": 970
+    },
+    {
       "title": "MeiGen-AI-Design-MCP",
       "summary": "AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。",
       "category": "github-pickup",
