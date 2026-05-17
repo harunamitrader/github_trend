@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T02:22:39.426890+00:00",
-  "count": 598,
+  "generatedAt": "2026-05-17T07:32:05.543414+00:00",
+  "count": 599,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "mcp-server-browserbase",
+      "dek": "",
+      "summary": "AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。",
+      "repoName": "browserbase/mcp-server-browserbase",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T16:35:00+09:00",
+      "articleUrl": "./articles/github/daily/mcp-server-browserbase.html",
+      "serial": 564,
+      "searchText": "mcp-server-browserbase AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。 browserbase/mcp-server-browserbase AIエージェント (自律基盤・特化アプリ) mcp-server-browserbase ← 記事一覧へ戻る GitHub Watcher mcp-server-browserbase AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。 記事作成日 2026-05-17 種別 Pickup 対象 repo browserbase/mcp-server-browserbase Star数 3,342 これは何か Browserbase と Stagehand を活用し、LLM（大規模言語モデル）や AI エージェントに対してクラウドブラウザの自動操作機能を提供する公式の MCP (Model Context Protocol) サーバーです。 何ができるか LLM に対して、以下の6つのツール（操作能力）を公開します。 navigate : 指定した URL への遷移 act : 自然言語の指示に基づくページ内のアクション（クリックや入力など） observe : ページ内の操作可能な要素の検出と観察 extract : ページからのデータ抽出 start / end : Browserbase セッションの開始と終了 目立つポイント AI によるブラウザ操作を前提として設計された Stagehand フレームワークを内部で利用しているため、自然言語の指示で堅牢に動く点が特徴です。また、ホスト型（SHTTP）とセルフホスト型（STDIO）の両方に対応しており、セットアップの手間を省きたい場合はホスト型を利用することも可能です。 セットアップや使い方の流れ Cursor や Claude Desktop などの MCP クライアントの設定ファイルに以下を追記するだけで、セルフホスト版を利用できます（要 API キー）。 { \"mcpServers\": { \"browserbase\": { \"command\": \"npx\", \"args\": [\"@browserbasehq/mcp\"], \"env\": { \"BROWSERBASE_API_KEY\": \"YOUR_KEY\", \"BROWSERBASE_PROJECT_ID\": \"YOUR_PROJECT\", \"GEMINI_API_KEY\": \"YOUR_GEMINI_KEY\" } } } } どんな人向けか Web 上のリサーチ、データ収集、定期的なタスク実行などを AI エージェントに自動化させたい開発者や、自作の AI アプリケーションにブラウザ操作能力を統合したいエンジニア向けです。 注意点 デフォルトでは推論モデルとして Google の Gemini 2.5 Flash Lite が Stagehand 側で使用されます。別のモデル（GPT-4o や Claude 3.5 Sonnet など）を利用する場合は、 --modelName と --modelApiKey オプションを追加で設定する必要があります。 まとめ mcp-server-browserbase は、AI エージェントに「手足と目」を与える強力な拡張機能です。MCP という標準プロトコルを通じて、どの LLM クライアントからでも統一された方法でブラウザ操作を依頼できるようになるため、AI 主導の Web オートメーション構築において非常に重要なピースとなります。 参照リンク https://github.com/browserbase/mcp-server-browserbase Shared GitHub Serial: #564"
+    },
     {
       "slug": null,
       "category": "github-pickup",

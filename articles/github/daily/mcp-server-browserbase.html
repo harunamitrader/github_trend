@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>mcp-server-browserbase</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">mcp-server-browserbase</h1>
+      <p class="article-dek">AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browserbase/mcp-server-browserbase" target="_blank" rel="noreferrer">
+              browserbase/mcp-server-browserbase
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,342</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Browserbase と Stagehand を活用し、LLM（大規模言語モデル）や AI エージェントに対してクラウドブラウザの自動操作機能を提供する公式の MCP (Model Context Protocol) サーバーです。</p>
+
+        <h2>何ができるか</h2>
+        <p>LLM に対して、以下の6つのツール（操作能力）を公開します。
+<ul>
+  <li><code>navigate</code>: 指定した URL への遷移</li>
+  <li><code>act</code>: 自然言語の指示に基づくページ内のアクション（クリックや入力など）</li>
+  <li><code>observe</code>: ページ内の操作可能な要素の検出と観察</li>
+  <li><code>extract</code>: ページからのデータ抽出</li>
+  <li><code>start</code> / <code>end</code>: Browserbase セッションの開始と終了</li>
+</ul></p>
+
+        <h2>目立つポイント</h2>
+        <p>AI によるブラウザ操作を前提として設計された Stagehand フレームワークを内部で利用しているため、自然言語の指示で堅牢に動く点が特徴です。また、ホスト型（SHTTP）とセルフホスト型（STDIO）の両方に対応しており、セットアップの手間を省きたい場合はホスト型を利用することも可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Cursor や Claude Desktop などの MCP クライアントの設定ファイルに以下を追記するだけで、セルフホスト版を利用できます（要 API キー）。
+<pre><code class="language-json">{
+  "mcpServers": {
+    "browserbase": {
+      "command": "npx",
+      "args": ["@browserbasehq/mcp"],
+      "env": {
+        "BROWSERBASE_API_KEY": "YOUR_KEY",
+        "BROWSERBASE_PROJECT_ID": "YOUR_PROJECT",
+        "GEMINI_API_KEY": "YOUR_GEMINI_KEY"
+      }
+    }
+  }
+}</code></pre></p>
+
+        <h2>どんな人向けか</h2>
+        <p>Web 上のリサーチ、データ収集、定期的なタスク実行などを AI エージェントに自動化させたい開発者や、自作の AI アプリケーションにブラウザ操作能力を統合したいエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>デフォルトでは推論モデルとして Google の Gemini 2.5 Flash Lite が Stagehand 側で使用されます。別のモデル（GPT-4o や Claude 3.5 Sonnet など）を利用する場合は、<code>--modelName</code> と <code>--modelApiKey</code> オプションを追加で設定する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>mcp-server-browserbase は、AI エージェントに「手足と目」を与える強力な拡張機能です。MCP という標準プロトコルを通じて、どの LLM クライアントからでも統一された方法でブラウザ操作を依頼できるようになるため、AI 主導の Web オートメーション構築において非常に重要なピースとなります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/browserbase/mcp-server-browserbase" target="_blank" rel="noreferrer">https://github.com/browserbase/mcp-server-browserbase</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #564</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 11:22:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 16:31:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[mcp-server-browserbase]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/mcp-server-browserbase.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/mcp-server-browserbase.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[finance-skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/finance-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google Cloud のベストプラクティスや設計原則を「スキル」として体系化した公式アセット集。セキュリティや信頼性の高いシステム設計指針を学べます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[site2cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-lonexreb-site2cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-16-lonexreb-site2cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Web ページを Markdown に変換してターミナルで読むための、シンプルかつ高速な CLI ツール。AI エージェントへのコンテキスト投入用ソース作成にも最適です。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "mcp-server-browserbase",
+      "summary": "AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 564,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T16:35:00+09:00",
+      "repoName": "browserbase/mcp-server-browserbase",
+      "repoUrl": "https://github.com/browserbase/mcp-server-browserbase",
+      "articleUrl": "./articles/github/daily/mcp-server-browserbase.html",
+      "starCount": 3342
+    },
+    {
       "title": "finance-skills",
       "summary": "AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。",
       "category": "github-pickup",
