@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-16T21:08:50.857629+00:00",
-  "count": 597,
+  "generatedAt": "2026-05-17T02:22:18.547867+00:00",
+  "count": 598,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "finance-skills",
+      "dek": "",
+      "summary": "AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。",
+      "repoName": "himself65/finance-skills",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T11:25:00+09:00",
+      "articleUrl": "./articles/github/daily/finance-skills.html",
+      "serial": 563,
+      "searchText": "finance-skills AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。 himself65/finance-skills 金融・トレード分析 finance-skills ← 記事一覧へ戻る GitHub Watcher finance-skills AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。 記事作成日 2026-05-17 種別 Pickup 対象 repo himself65/finance-skills Star数 2,006 これは何か Agent Skills の標準規格に準拠した、AIエージェント向けの金融・トレード分析スキルおよびプラグインのコレクションです。Claude Code やその他のエージェントに直接読み込ませることで、株価分析、SNSやニュースのフィード収集、外部データ連携などを自律的に実行させることができます。 何ができるか 市場分析 : 企業価値評価（DCF法など）、決算プレビュー＆サマリー、アナリスト予想の深掘り、ETFプレミアム分析、オプションのペイオフチャート作成など。 ソーシャルリーダー : Twitter/X、Discord、LinkedIn、Telegram などからの読み取り専用フィードの取得。 データプロバイダー : Adanos APIによるセンチメント分析、Funda AIによるファンダメンタル分析、ホルムズ海峡の監視、TradingViewデスクトップアプリからのデータ取得。 その他のツール : マルチ視点でのスタートアップ分析、Claudeの show_widget を利用した対話型UIコンポーネントの生成など。 目立つポイント npx plugins add または npx skills add コマンドを実行するだけで、Claude Code をはじめとする様々なエージェント環境へシームレスに機能拡張できる点が最大の魅力です。金融特化の複雑なデータフロー（例えば、yfinanceを通じた価格や財務諸表の取得と分析）をエージェントに直接委譲できるようになります。 セットアップや使い方の流れ Claude Code で全プラグインを一括導入する場合は、ターミナルで以下のコマンドを実行します。 npx plugins add himself65/finance-skills 特定のプラグイン（例：市場分析のみ）を導入する場合は、 --plugin フラグを指定します。 npx plugins add himself65/finance-skills --plugin finance-market-analysis どんな人向けか AIを活用して金融市場の分析やリサーチを自動化・効率化したい投資家やアナリスト、およびAIエージェントの金融分野への拡張性を模索している開発者向けです。 注意点 このプロジェクトは教育および情報提供のみを目的としており、投資助言を構成するものではありません。実際の投資判断を下す前に、必ず自身でのリサーチや専門家への相談を行ってください。 まとめ finance-skills は、AIエージェントに「高度な金融リサーチ能力」という専門的な武器を授ける強力なプラグイン群です。コマンド一つで導入でき、ファンダメンタル分析からソーシャルセンチメントの把握まで、投資に関わる幅広い情報収集を自動化できるため、AI駆動のリサーチワークフロー構築に大きく貢献します。 参照リンク https://github.com/himself65/finance-skills Shared GitHub Serial: #563"
+    },
     {
       "slug": null,
       "category": "github-update-report",

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>finance-skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">finance-skills</h1>
+      <p class="article-dek">AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/himself65/finance-skills" target="_blank" rel="noreferrer">
+              himself65/finance-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,006</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><a href="https://agentskills.io" target="_blank" rel="noreferrer">Agent Skills</a> の標準規格に準拠した、AIエージェント向けの金融・トレード分析スキルおよびプラグインのコレクションです。Claude Code やその他のエージェントに直接読み込ませることで、株価分析、SNSやニュースのフィード収集、外部データ連携などを自律的に実行させることができます。</p>
+
+        <h2>何ができるか</h2>
+        <p><ul>
+<li><strong>市場分析</strong>: 企業価値評価（DCF法など）、決算プレビュー＆サマリー、アナリスト予想の深掘り、ETFプレミアム分析、オプションのペイオフチャート作成など。</li>
+<li><strong>ソーシャルリーダー</strong>: Twitter/X、Discord、LinkedIn、Telegram などからの読み取り専用フィードの取得。</li>
+<li><strong>データプロバイダー</strong>: Adanos APIによるセンチメント分析、Funda AIによるファンダメンタル分析、ホルムズ海峡の監視、TradingViewデスクトップアプリからのデータ取得。</li>
+<li><strong>その他のツール</strong>: マルチ視点でのスタートアップ分析、Claudeの <code>show_widget</code> を利用した対話型UIコンポーネントの生成など。</li>
+</ul></p>
+
+        <h2>目立つポイント</h2>
+        <p><code>npx plugins add</code> または <code>npx skills add</code> コマンドを実行するだけで、Claude Code をはじめとする様々なエージェント環境へシームレスに機能拡張できる点が最大の魅力です。金融特化の複雑なデータフロー（例えば、yfinanceを通じた価格や財務諸表の取得と分析）をエージェントに直接委譲できるようになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code で全プラグインを一括導入する場合は、ターミナルで以下のコマンドを実行します。
+<pre><code class="language-bash">npx plugins add himself65/finance-skills</code></pre>
+特定のプラグイン（例：市場分析のみ）を導入する場合は、<code>--plugin</code> フラグを指定します。
+<pre><code class="language-bash">npx plugins add himself65/finance-skills --plugin finance-market-analysis</code></pre></p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIを活用して金融市場の分析やリサーチを自動化・効率化したい投資家やアナリスト、およびAIエージェントの金融分野への拡張性を模索している開発者向けです。</p>
+
+        <h2>注意点</h2>
+        <p>このプロジェクトは教育および情報提供のみを目的としており、投資助言を構成するものではありません。実際の投資判断を下す前に、必ず自身でのリサーチや専門家への相談を行ってください。</p>
+
+        <h2>まとめ</h2>
+        <p>finance-skills は、AIエージェントに「高度な金融リサーチ能力」という専門的な武器を授ける強力なプラグイン群です。コマンド一つで導入でき、ファンダメンタル分析からソーシャルセンチメントの把握まで、投資に関わる幅広い情報収集を自動化できるため、AI駆動のリサーチワークフロー構築に大きく貢献します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/himself65/finance-skills" target="_blank" rel="noreferrer">https://github.com/himself65/finance-skills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #563</p>
+      </div>
+    </article>
+  </body>
+</html>

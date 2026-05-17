@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "finance-skills",
+      "summary": "AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "serial": 563,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T11:25:00+09:00",
+      "repoName": "himself65/finance-skills",
+      "repoUrl": "https://github.com/himself65/finance-skills",
+      "articleUrl": "./articles/github/daily/finance-skills.html",
+      "starCount": 2006
+    },
+    {
       "title": "AI Others Tools Update: OpenClaw v2026.5.16-beta.3",
       "summary": "OpenClaw v2026.5.16-beta.3 がリリース。xAI Grok OAuthログインや cron ポーリング制御、多言語セットアップウィザードを搭載。2026-05-17 の更新情報まとめ。",
       "category": "ai-tool-log",
