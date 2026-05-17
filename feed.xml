@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 19:51:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 05:02:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[academic-research-skills-codex]]></title>
@@ -14,14 +14,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-18 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[cal.diy]]></title>
@@ -62,6 +54,14 @@
       <category>github-trending</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[完全にオープンソースで提供される、リアルタイムな音声エージェント構築プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-18 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[12-factor-agents]]></title>
