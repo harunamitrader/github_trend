@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T07:34:04.564723+00:00",
-  "count": 600,
+  "generatedAt": "2026-05-17T07:35:54.320233+00:00",
+  "count": 601,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "zerostack",
+      "dek": "",
+      "summary": "Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。",
+      "repoName": "gi-dellav/zerostack",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T16:45:00+09:00",
+      "articleUrl": "./articles/github/daily/zerostack.html",
+      "serial": 566,
+      "searchText": "zerostack Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。 gi-dellav/zerostack AIコーディング (CLI本体・拡張機能) zerostack ← 記事一覧へ戻る GitHub Watcher zerostack Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。 記事作成日 2026-05-17 種別 Pickup 対象 repo gi-dellav/zerostack Star数 238 これは何か Rust 製の極めて軽量で高速な、ターミナルベースの AI コーディングエージェントです。Node.js ベースのエージェントが数百 MB のメモリを消費するのに対し、わずか 10 MB 前後の RAM フットプリントで動作し、CPU リソースもほとんど消費しません。 何ができるか コード作成からリファクタまで : デフォルトの code モードのほか、 plan 、 review 、 debug 、 frontend-design といった多様な組み込みプロンプト（モード）を切り替えて作業可能。 ループ実行 : /loop コマンドによる、長期的なタスクの自律的な反復実行。 Git ワークツリー連携 : /worktree コマンドを用いて、チャット UI から直接機能ブランチとワークツリーを作成・移動・マージする機能。 安全なコマンド実行 : sandbox モード（bubblewrap）による隔離実行や、4段階のパーミッション設定（yolo から restrictive まで）をサポート。 目立つポイント なんといってもその「軽さ」と「速さ」が最大の特徴です。バイナリサイズは約 9 MB で、アイドル時の CPU 使用率はほぼ 0%。リソースの限られた環境や、常にバックグラウンドでエージェントを待機させておきたい開発者にとって理想的な設計です。また、MCP（Model Context Protocol）や Exa 検索の統合も可能です。 セットアップや使い方の流れ Rust ツールチェーン（Cargo）を使用してインストールします。 cargo install zerostack インストール後、環境変数に API キー（デフォルトは OpenRouter）を設定して起動します。 export OPENROUTER_API_KEY=\"[api_key]\" zerostack どんな人向けか 開発マシンを重くしたくないプログラマー、ターミナル中心のワークフローを好む開発者、および高速に起動してすぐに消せる軽量な AI ツールを探しているユーザー向けです。 注意点 現在 Windows 環境での動作テストは行われていないため、予期せぬバグに遭遇する可能性があります（Linux および macOS での利用が推奨されます）。また、ループ機能や Git ワークツリー統合は実験的な機能として位置づけられています。 まとめ zerostack は「コーディングエージェントは重いもの」という常識を覆す、Rust ならではのパフォーマンスを活かした意欲的なプロジェクトです。機能面でも妥協はなく、マルチモードのプロンプトシステムや高度な権限管理を備えており、今後の CLI エージェントの新たな有力な選択肢として注目されます。 参照リンク https://github.com/gi-dellav/zerostack Shared GitHub Serial: #566"
+    },
     {
       "slug": null,
       "category": "github-pickup",

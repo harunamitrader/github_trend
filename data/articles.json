@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "zerostack",
+      "summary": "Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "pickup",
+      "serial": 566,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T16:45:00+09:00",
+      "repoName": "gi-dellav/zerostack",
+      "repoUrl": "https://github.com/gi-dellav/zerostack",
+      "articleUrl": "./articles/github/daily/zerostack.html",
+      "starCount": 238
+    },
+    {
       "title": "skills",
       "summary": "Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。",
       "category": "github-pickup",
