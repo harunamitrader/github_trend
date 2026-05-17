@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "academic-research-skills-codex",
+      "summary": "Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 575,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T04:49:50+09:00",
+      "repoName": "Imbad0202/academic-research-skills-codex",
+      "repoUrl": "https://github.com/Imbad0202/academic-research-skills-codex",
+      "articleUrl": "./articles/github/daily/2026-05-18-academic-research-skills-codex.html",
+      "starCount": 355
+    },
+    {
       "title": "2026-05-18 アップデートレポート",
       "summary": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "category": "github-update-report",

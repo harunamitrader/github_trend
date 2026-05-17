@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 May 2026 19:48:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 04:51:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[academic-research-skills-codex]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-academic-research-skills-codex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-academic-research-skills-codex.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-18 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ジャイロスコープデータを使用して、驚異的な精度でビデオを安定化させるオープンソースソフトウェア。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[n8n]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-n8n-io-n8n.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-17-n8n-io-n8n.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[400以上の統合機能と強力なAI機能を備えた、セルフホスト可能なワークフロー自動化プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

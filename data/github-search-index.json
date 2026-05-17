@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T19:47:37.768593+00:00",
-  "count": 610,
+  "generatedAt": "2026-05-17T19:51:03.661691+00:00",
+  "count": 611,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "academic-research-skills-codex",
+      "dek": "",
+      "summary": "Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。",
+      "repoName": "Imbad0202/academic-research-skills-codex",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T04:49:50+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-18-academic-research-skills-codex.html",
+      "serial": 575,
+      "searchText": "academic-research-skills-codex Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。 Imbad0202/academic-research-skills-codex AIコーディング (ワークフロー・プロンプト・開発補助ツール) academic-research-skills-codex ← 記事一覧へ戻る GitHub Watcher academic-research-skills-codex Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。 記事作成日 2026-05-18 種別 Pickup 対象 repo Imbad0202/academic-research-skills-codex Star数 355 これは何か Claude Code 向けに開発された「Academic Research Skills (ARS)」スイートを、Codex 環境向けにネイティブ移植したリポジトリです。研究の構想段階から論文の執筆、さらには査読プロセスまで、学術研究ワークフロー全体を AI とともに進めるためのスキルセットを提供します。 何ができるか $academic-research-suite コマンドを通じて、文献のディープリサーチ、論文のアウトライン作成や執筆支援、擬似的な査読（ピアレビュー）の実行、実験計画の立案などを対話型で行うことができます。 目立つポイント 5つのコアワークフロー : deep-research 、 academic-paper 、 academic-paper-reviewer 、 academic-pipeline 、 experiment-agent という研究の各フェーズに対応した専門的なプロセスを内包。 Codex ネイティブなルーティング : 単一のスキルとしてインストールされ、ユーザーのプロンプト意図を解釈して適切なワークフローへ自動でルーティングします。 クロスモデル検証のサポート : オプションで Anthropic API キーを設定することで、Codexによる出力結果を Claude Opus 4.7 など別モデルでレビューさせることが可能です。 セットアップや使い方の流れ 提供されている install-skill-from-github.py スクリプトを使用してローカルの Codex 環境にインストールします。その後、Codex のセッションで $academic-research-suite と呼び出し、「品質保証における AI 導入についてのシステマティックレビューのプロトコルを作成して」などと指示するだけで機能し始めます。 どんな人向けか 日常的に論文執筆や文献調査を行う研究者、大学院生、または高度なリサーチ業務を効率化したいデータサイエンティスト。 注意点 本スキルはあくまで人間の研究を補助する（Human-in-the-loop）ものであり、生成された引用や統計データ、ジャーナル・ポリシーについては、必ず人間の目でファクトチェックを行うことが強く推奨されています。 まとめ academic-research-skills-codex は、AIを単なる文章生成ツールではなく、壁打ち相手や査読者といった「研究パートナー」として活用するための強力なフレームワークです。クロスモデル検証などの高度な機能も備えており、研究の質と速度を同時に引き上げることが期待できます。 参照リンク https://github.com/Imbad0202/academic-research-skills-codex Shared GitHub Serial: #575"
+    },
     {
       "slug": null,
       "category": "github-update-report",
