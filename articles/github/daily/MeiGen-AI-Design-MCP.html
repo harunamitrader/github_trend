@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>MeiGen-AI-Design-MCP</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">MeiGen-AI-Design-MCP</h1>
+      <p class="article-dek">AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-17 -->
+          <strong>2026-05-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jau123/MeiGen-AI-Design-MCP" target="_blank" rel="noreferrer">
+              jau123/MeiGen-AI-Design-MCP
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,116</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェントに画像・動画生成やデザインプロンプトの管理機能を提供する MCP (Model Context Protocol) サーバーです。GPT Image 2、Nanobanana などのクラウドモデルに加え、ローカルの ComfyUI とも連携可能な強力なマルチタスク設計となっています。</p>
+
+        <h2>何ができるか</h2>
+        <p><ul>
+  <li><strong>画像・動画生成ツール</strong>: クラウド（MeiGen Cloud、OpenAI互換API）やローカル（ComfyUI）の最適なモデルを自動選択して生成を実行（<code>generate_image</code> / <code>generate_video</code>）。</li>
+  <li><strong>プロンプト支援ツール</strong>: 1,400以上のトレンドプロンプトライブラリからプレビュー付きで検索したり（<code>search_gallery</code>）、短いアイデアをプロ品質のプロンプトに拡張（<code>enhance_prompt</code>）したりすることが可能。</li>
+  <li><strong>スマートエージェント連携</strong>: 画像生成、プロンプト作成、ギャラリー検索などのタスクを専門のサブエージェント（<code>image-generator</code> 等）に分離し、メインの会話を妨げず並列に実行可能。</li>
+</ul></p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる画像生成APIのラッパーではなく、Claude Code などの環境に完全に統合される「デザインオーケストレーションシステム」である点です。ローカルの参照画像を自動圧縮してアップロードする機能や、<code>/meigen:gen</code> などの便利なスラッシュコマンド、生成完了時にMacのプレビューを自動で開く自動化フックなど、実践的なクリエイティブワークフローに最適化されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>MCP クライアント内でインタラクティブなセットアップウィザードを呼び出して設定できます。
+<pre><code>/meigen:setup</code></pre>
+また、スタンドアロンのCLIとしても利用可能で、MCP ホストがなくてもスクリプトなどから直接呼び出せます。
+<pre><code class="language-bash">export MEIGEN_API_TOKEN=meigen_sk_...
+npx meigen gen --prompt "a calico cat in a sunlit kitchen"</code></pre></p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code やローカルエージェントを通じて、チャットベースの対話から高品質な画像や動画を直接生成・管理したいクリエイター、デザイナー、および開発者向けです。</p>
+
+        <h2>注意点</h2>
+        <p>MeiGen Cloud やその他の OpenAI 互換 API を使用する場合、プロンプトと参照画像が外部サーバーに送信される点にご注意ください。完全にローカルで完結させたい場合は、ComfyUI バックエンドを利用し、ローカルファイルパスを直接渡す設定にしてください。</p>
+
+        <h2>まとめ</h2>
+        <p>MeiGen-AI-Design-MCP は、AI エージェントを「クリエイティブディレクター」へと昇華させるための強力なツール群です。豊富なプロンプトライブラリと、ローカル（ComfyUI）とクラウドのハイブリッドな生成環境をシームレスに使い分ける能力により、チャットUIを抜けることなくプロレベルのデザイン作業を完結できます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jau123/MeiGen-AI-Design-MCP" target="_blank" rel="noreferrer">https://github.com/jau123/MeiGen-AI-Design-MCP</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #567</p>
+      </div>
+    </article>
+  </body>
+</html>

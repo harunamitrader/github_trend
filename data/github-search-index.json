@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T07:35:54.320233+00:00",
-  "count": 601,
+  "generatedAt": "2026-05-17T10:14:33.353383+00:00",
+  "count": 602,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "MeiGen-AI-Design-MCP",
+      "dek": "",
+      "summary": "AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。",
+      "repoName": "jau123/MeiGen-AI-Design-MCP",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T19:20:00+09:00",
+      "articleUrl": "./articles/github/daily/MeiGen-AI-Design-MCP.html",
+      "serial": 567,
+      "searchText": "MeiGen-AI-Design-MCP AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。 jau123/MeiGen-AI-Design-MCP メディア作成・マルチモーダル・UI MeiGen-AI-Design-MCP ← 記事一覧へ戻る GitHub Watcher MeiGen-AI-Design-MCP AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。 記事作成日 2026-05-17 種別 Pickup 対象 repo jau123/MeiGen-AI-Design-MCP Star数 1,116 これは何か AIエージェントに画像・動画生成やデザインプロンプトの管理機能を提供する MCP (Model Context Protocol) サーバーです。GPT Image 2、Nanobanana などのクラウドモデルに加え、ローカルの ComfyUI とも連携可能な強力なマルチタスク設計となっています。 何ができるか 画像・動画生成ツール : クラウド（MeiGen Cloud、OpenAI互換API）やローカル（ComfyUI）の最適なモデルを自動選択して生成を実行（ generate_image / generate_video ）。 プロンプト支援ツール : 1,400以上のトレンドプロンプトライブラリからプレビュー付きで検索したり（ search_gallery ）、短いアイデアをプロ品質のプロンプトに拡張（ enhance_prompt ）したりすることが可能。 スマートエージェント連携 : 画像生成、プロンプト作成、ギャラリー検索などのタスクを専門のサブエージェント（ image-generator 等）に分離し、メインの会話を妨げず並列に実行可能。 目立つポイント 単なる画像生成APIのラッパーではなく、Claude Code などの環境に完全に統合される「デザインオーケストレーションシステム」である点です。ローカルの参照画像を自動圧縮してアップロードする機能や、 /meigen:gen などの便利なスラッシュコマンド、生成完了時にMacのプレビューを自動で開く自動化フックなど、実践的なクリエイティブワークフローに最適化されています。 セットアップや使い方の流れ MCP クライアント内でインタラクティブなセットアップウィザードを呼び出して設定できます。 /meigen:setup また、スタンドアロンのCLIとしても利用可能で、MCP ホストがなくてもスクリプトなどから直接呼び出せます。 export MEIGEN_API_TOKEN=meigen_sk_... npx meigen gen --prompt \"a calico cat in a sunlit kitchen\" どんな人向けか Claude Code やローカルエージェントを通じて、チャットベースの対話から高品質な画像や動画を直接生成・管理したいクリエイター、デザイナー、および開発者向けです。 注意点 MeiGen Cloud やその他の OpenAI 互換 API を使用する場合、プロンプトと参照画像が外部サーバーに送信される点にご注意ください。完全にローカルで完結させたい場合は、ComfyUI バックエンドを利用し、ローカルファイルパスを直接渡す設定にしてください。 まとめ MeiGen-AI-Design-MCP は、AI エージェントを「クリエイティブディレクター」へと昇華させるための強力なツール群です。豊富なプロンプトライブラリと、ローカル（ComfyUI）とクラウドのハイブリッドな生成環境をシームレスに使い分ける能力により、チャットUIを抜けることなくプロレベルのデザイン作業を完結できます。 参照リンク https://github.com/jau123/MeiGen-AI-Design-MCP Shared GitHub Serial: #567"
+    },
     {
       "slug": null,
       "category": "github-pickup",

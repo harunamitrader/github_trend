@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "MeiGen-AI-Design-MCP",
+      "summary": "AIエージェントに高度な画像・動画生成とプロンプト管理能力を追加するデザイン特化型 MCP サーバー。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 567,
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-17T19:20:00+09:00",
+      "repoName": "jau123/MeiGen-AI-Design-MCP",
+      "repoUrl": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+      "articleUrl": "./articles/github/daily/MeiGen-AI-Design-MCP.html",
+      "starCount": 1116
+    },
+    {
       "title": "zerostack",
       "summary": "Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。",
       "category": "github-pickup",
