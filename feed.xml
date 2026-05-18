@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 12:12:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 04:04:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI Coding Tools Update: Cursor Composer 2.5 & Windsurf v2.3.9]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor Composer 2.5 リリースによる長時間タスク能力向上と、Windsurf v2.3.9 での WSL パス解決修正。2026-05-19 の更新まとめ。]]></description>
+    </item>
     <item>
       <title><![CDATA[ViMax]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-ViMax.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Rust で書かれた、超軽量かつ高パフォーマンスな CLI 向けコーディング AI エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/browserbase-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/browserbase-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。]]></description>
     </item>
   </channel>
 </rss>

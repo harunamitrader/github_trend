@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Coding Tools Update: Cursor Composer 2.5 & Windsurf v2.3.9",
+      "summary": "Cursor Composer 2.5 リリースによる長時間タスク能力向上と、Windsurf v2.3.9 での WSL パス解決修正。2026-05-19 の更新まとめ。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "update",
+      "serial": 568,
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T04:00:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-19-ai-coding-tools-update.html"
+    },
+    {
       "title": "ViMax",
       "summary": "アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。",
       "category": "github-pickup",
