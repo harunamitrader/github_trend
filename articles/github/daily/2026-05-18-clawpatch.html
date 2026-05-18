@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="コードベースを機能スライスに分解し、AIエージェントと連携して自律的なコードレビューからバグ修正・PR作成まで行うCLIツール。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>clawpatch</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">clawpatch</h1>
+      <p class="article-dek">コードベースを機能スライスに分解し、AIエージェントと連携して自律的なコードレビューからバグ修正・PR作成まで行うCLIツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-18 -->
+          <strong>2026-05-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openclaw/clawpatch" target="_blank" rel="noreferrer">
+              openclaw/clawpatch
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>494</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>リポジトリ内のソースコードをセマンティックな「機能スライス（Feature Slices）」に分解し、ローカルのAIエージェント（Codexや各種ACP対応AIなど）と連携して自動コードレビューやバグの修正、最終的なプルリクエスト（PR）の作成までを一貫して行うことができる自律型開発CLIツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>clawpatch</code>を実行すると、プロジェクトのビルド設定やコード構造を静的にマッピングし、AIを使って安全にコードを検証（レビュー）します。発見された問題点（Finding）に対しては、専用のコマンドを使ってAIが自動で修正パッチを当て、ローカルの検証コマンドをパスした後にGitHubへ直接下書きPRを作成することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>マルチ言語・マルチフレームワーク対応</strong>: TypeScript/Node.js、Go、Rust、Python、Java、Kotlin、C#、Ruby、PHPなど、極めて広範な言語に対応したマッピングエンジンを搭載。</li><li><strong>安全な自律修正（Fix Loop）</strong>: レビュー自体はファイルの変更を行わず、明示的に指定した問題に対してのみAIが修正を実行。検証コマンド（テストなど）を実行して正常動作を確認する安全志向の設計。</li><li><strong>多様なAIプロバイダー対応</strong>: ローカルのCodex CLIをはじめ、ACP（Agent Connection Protocol）互換のAIエージェント、Grok、OpenCodeなど、多様なローカル/リモートプロバイダーをバックエンドに選択可能。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pnpm add -g clawpatch</code> でインストールできます。その後、対象のプロジェクトルートで <code>clawpatch init</code> を実行して初期化し、<code>clawpatch map</code> で構造を解析させ、<code>clawpatch review</code> でAIレビューを開始します。発見された不具合は <code>clawpatch fix --finding &lt;id&gt;</code> で自動修正を試行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントを活用してリポジトリ全体の自律的なバグハントやコード品質維持を行いたい開発者、またはローカルLLMを用いたセキュアな静的解析と自動修正のパイプラインを構築したいプラットフォームエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>現在は早期のCLIフェーズであり、自動修正（fix）コマンドの適用後はワークツリーの変更点やテスト結果を手動でダブルチェックすることが推奨されます。また、デフォルトではローカルのCodex CLIなどの外部エージェントプロバイダーがセットアップされている必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>clawpatch</code>は、開発者が日常的に行う「コードレビュー、バグ修正、テスト検証、PR作成」という一連のサイクルを、AIエージェントを使って完全に自動化・構造化することを目指す意欲的なプロジェクトです。ローカルかつ安全性を重視した設計となっており、AI時代のCI/CDや個人開発の強力な相棒になる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/clawpatch" target="_blank" rel="noreferrer">https://github.com/openclaw/clawpatch</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #566</p>
+      </div>
+    </article>
+  </body>
+</html>
