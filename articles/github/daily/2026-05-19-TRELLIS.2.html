@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="画期的な「O-Voxel」構造を採用し、複雑なトポロジーや透明度を含むPBR質感に対応した40億パラメータの超大型3D生成モデル"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TRELLIS.2</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TRELLIS.2</h1>
+      <p class="article-dek">画期的な「O-Voxel」構造を採用し、複雑なトポロジーや透明度を含むPBR質感に対応した40億パラメータの超大型3D生成モデル</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/TRELLIS.2" target="_blank" rel="noreferrer">
+              microsoft/TRELLIS.2
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,984</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>TRELLIS.2は、Microsoft Researchが開発した、高品質な画像から3D資産（Image-to-3D）を自律生成するための40億パラメータ（4B）からなる最先端の超大型3D生成AIモデルです。前作のTRELLISを大幅に強化し、従来の等値面（Iso-surface）表現の制約を打破する「O-Voxel」と呼ばれる新しい疎構造グリッド表現を採用しているのが最大の特徴です。これによって、衣服や木の葉のような極めて薄いオープンサーフェス構造や、非マニホールド形状、内包された中空の二重構造などを欠損することなく忠実に再現できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>入力された1枚の画像（PIL Imageなど）から、極めて高品質でディテールの細かい3Dアセット（ポリゴンメッシュおよびGLBフォーマット）をわずか数秒〜1分程度で生成できます。単に形状とテクスチャ（色）を貼るだけでなく、PBR（物理ベースレンダリング）に必要なBase Color、Roughness（粗さ）、Metallic（金属度）、そしてOpacity（不透明度・透明性）の各属性を完全に出力できます。生成されたモデルは、Remesh処理やUVアンラップ、ポリゴン削減（Decimation）などのポストプロセスがCUDAアクセラレーション（CuMesh/O-Voxelパッケージ）によりミリ秒単位で適用され、PBR対応のGLBとしてエクスポート可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul>
+<li><strong>4B大型DiTによる高品質生成:</strong> Vanilla Diffusion Transformer（DiT）と16倍の空間ダウンサンプリングを特徴とするSparse 3D VAEを組み合わせ、高品質かつ高解像度な3D空間（512³〜1536³）を効率的にモデリングします。</li>
+<li><strong>O-Voxelによる任意のトポロジー再現:</strong> 従来のポリゴン生成技術が苦手とした、メッシュの隙間や開放面（木の葉、衣服のひだ）、自己交差を含む複雑な幾何形状を崩さずに表現できます。</li>
+<li><strong>高速なインファレンスと最適化フリー:</strong> 3D復元や微分可能レンダラーによる長時間の反復最適化（Optimization-free）を必要とせず、512³解像度であればNVIDIA H100環境にて約3秒、1024³解像度でもわずか約17秒でPBRテクスチャ付きモデルの生成が完了します。</li>
+<li><strong>透明度（Opacity）モデリング:</strong> アルファチャンネルを含めた不透明度マップを統合して出力できるため、ガラスや半透明な衣服などを含んだ実用的な3Dアセットを構築可能です。</li>
+</ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Linux環境でCUDA Toolkit（推奨12.4）とCondaを用意し、リポジトリをサブモジュール込みで再帰的にクローンします。その後、公式が提供する統合インストールスクリプト<code>. ./setup.sh --new-env --basic --flash-attn --nvdiffrast --nvdiffrec --cumesh --o-voxel --flexgemm</code>を実行することで、疎共役畳み込みライブラリFlexGEMMや高速メッシュ処理モジュールCuMeshなど、TritonおよびCUDAで記述された依存パッケージを一括コンパイル・セットアップできます。
+実行時は、<code>Trellis2ImageTo3DPipeline.from_pretrained("microsoft/TRELLIS.2-4B")</code>を呼び出してパイプラインを構築し、画像をインプットするだけでPBRテクスチャボリューム付きメッシュが出力されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ゲーム開発者、3Dアーティスト、VR/ARコンテンツクリエイター、メタバースアセット制作者、および生成AIを活用した3Dモデリングの効率化を求めるリサーチャーやパイプラインエンジニアに最適です。特に、従来の3D生成モデルでは衣服の裏地や葉っぱなどの極薄メッシュが破綻して使えなかったプロジェクトにおいて、その高いトポロジー再現性が大きなメリットをもたらします。</p>
+
+        <h2>注意点</h2>
+        <p>前提システムとして<strong>Linux環境のみ</strong>（Windowsは現在テスト対象外）が正式にサポートされており、依存パッケージ（flash-attention, nvdiffrast, nvdiffrec, cumeshなど）のコンパイルが必須なためセットアップ難易度は高めです。また、動作には<strong>VRAM 24GB以上のNVIDIA製GPU</strong>（A100やH100などのハイエンド環境）が強く推奨されます。GLBの透明度表現に関しては、エクスポート時はデフォルトでOPAQUE（不透明）モードとなるため、半透明アセットとして描画するには3D編集ソフト（BlenderやUnityなど）にインポートした後にテクスチャのアルファチャンネルをマテリアルのOpacityやAlpha入力に手動で接続する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>TRELLIS.2は、40億パラメータという圧倒的なスケールと新提案の「O-Voxel」表現によって、画像からの3D生成における形状の歪みやオープンサーフェス再現の限界を打ち破った画期的なモデルです。ミリ秒単位のRemesh処理や、実用的なPBR（金属度・粗さ・透明度）テクスチャ出力など、研究の枠を超えて実プロダクションで即使えるポテンシャルを秘めており、今後の画像・動画から3Dアセットを瞬時に生み出す自動化ワークフローの強力な中核基盤となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/TRELLIS.2" target="_blank" rel="noreferrer">https://github.com/microsoft/TRELLIS.2</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #568</p>
+      </div>
+    </article>
+  </body>
+</html>

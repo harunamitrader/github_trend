@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "TRELLIS.2",
+      "summary": "40億パラメータの超大型3D生成AIモデル。画期的な「O-Voxel」構造により、衣服の隙間や葉っぱなどのオープンサーフェス、複雑なトポロジー、透明度を含むPBR質感を数秒〜1分で高品質に自律生成。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 568,
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T04:40:00+09:00",
+      "repoName": "microsoft/TRELLIS.2",
+      "repoUrl": "https://github.com/microsoft/TRELLIS.2",
+      "articleUrl": "./articles/github/daily/2026-05-19-TRELLIS.2.html",
+      "starCount": 6984
+    },
+    {
       "title": "AI Others Tools Update: Gemini Intelligence, ChatGPT Malta Partnership & OpenClaw v2026.5.16-beta.5",
       "summary": "Google I/O 2026 プレビューとしての Gemini Intelligence 発表、ChatGPT のマルタ共和国全市民向け Plus 無償提供、および OpenClaw v2026.5.16-beta.5 のリリース。2026-05-19 の更新まとめ。",
       "category": "ai-tool-log",
