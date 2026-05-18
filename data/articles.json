@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "title": "AI Tools Others Update: Gemini Intelligence, ChatGPT Malta Partnership & OpenClaw v2026.5.16-beta.5",
+      "summary": "Google I/O 2026 プレビューとしての Gemini Intelligence 発表、ChatGPT のマルタ共和国全市民向け Plus 無償提供、および OpenClaw v2026.5.16-beta.5 のリリース。2026-05-19 の更新まとめ。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "update",
+      "serial": 569,
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T04:10:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-19-ai-others-tools-update.html"
+    },
+    {
       "title": "AI Coding Tools Update: Cursor Composer 2.5 & Windsurf v2.3.9",
       "summary": "Cursor Composer 2.5 リリースによる長時間タスク能力向上と、Windsurf v2.3.9 での WSL パス解決修正。2026-05-19 の更新まとめ。",
       "category": "ai-tool-log",
