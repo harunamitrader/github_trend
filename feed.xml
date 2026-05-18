@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 19:36:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 04:49:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-19 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-19-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-19-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[academic-research-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-academic-research-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-academic-research-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[論文構想から文献レビュー、執筆、模擬査読、整合性検証までカバーする、Claude Code専用の超強力な学術研究支援プラグインスイート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[llama.cpp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-llama.cpp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-llama.cpp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[純粋なC/C++のみで記述され、最小限のセットアップと超軽量な動作でローカルLLM推論を極限まで加速する世界最高峰のオープンソースエンジン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Sana]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-Sana.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-Sana.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Linear AttentionとDC-AEを駆使し、超高速かつ極めて効率的な画像・動画生成を実現するオープンソースの次世代モデルファミリー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[analytics]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-analytics.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-analytics.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Analyticsの代替となる、クッキーフリーでプライバシー優先のオープンソース超軽量Web解析ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[TRELLIS.2]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-TRELLIS.2.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code や Cursor 等のAIコーディングエージェント向け、検証済みの拡張スキル（ツール）レジストリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agents-towards-production]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agents-towards-production.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-agents-towards-production.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロトタイプから本番環境まで、生成AIエージェントを構築するためのエンドツーエンドのチュートリアル集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dograh]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-dograh.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-dograh.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[完全にオープンソースで提供される、リアルタイムな音声エージェント構築プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-18 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-18-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[12-factor-agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/12-factor-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/12-factor-agents.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM搭載ソフトウェアを本番環境へ安全に導入するための設計原則と実装パターン（Human-in-the-loopなど）を学ぶワークショップ教材。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-workflow-automation]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/awesome-workflow-automation.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/awesome-workflow-automation.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ワークフロー自動化ツール、AIエージェント、MCPサーバーなどのリソースをまとめたキュレーションリスト。]]></description>
     </item>
   </channel>
 </rss>
