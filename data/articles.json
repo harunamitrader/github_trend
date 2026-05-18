@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "opcode",
+      "summary": "Claude CodeをGUIで管理・拡張できる強力なツールキット。カスタムエージェントの作成やバックグラウンド実行をサポート。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 563,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T20:06:37+09:00",
+      "repoName": "winfunc/opcode",
+      "repoUrl": "https://github.com/winfunc/opcode",
+      "articleUrl": "./articles/github/daily/2026-05-18-opcode.html",
+      "starCount": 21873
+    },
+    {
       "title": "kooky",
       "summary": "AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。",
       "category": "github-pickup",

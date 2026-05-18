@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 10:16:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 20:08:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[opcode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-opcode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-opcode.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CodeをGUIで管理・拡張できる強力なツールキット。カスタムエージェントの作成やバックグラウンド実行をサポート。]]></description>
+    </item>
     <item>
       <title><![CDATA[kooky]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-kooky.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.143 でプラグインコスト表示を強化。GitHub Copilot Memory のユーザー設定対応や Gemini CLI の機能改善。2026-05-17 の更新情報まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-17 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-17-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-17-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日（2026-05-17）の GitHub Trending 全 25 リポジトリの調査結果と、新規追加された 5 件の記事（n8n, Warp 等）のまとめ。]]></description>
     </item>
   </channel>
 </rss>
