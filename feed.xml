@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 11:29:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 20:45:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[x-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-x-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-x-cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。]]></description>
+    </item>
     <item>
       <title><![CDATA[TranslateBooksWithLLMs]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-TranslateBooksWithLLMs.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェント向けに設計された、金融分析とトレード戦略のためのオープンなスキル・プラグイン集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update: OpenClaw v2026.5.16-beta.3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-17-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw v2026.5.16-beta.3 がリリース。xAI Grok OAuthログインや cron ポーリング制御、多言語セットアップウィザードを搭載。2026-05-17 の更新情報まとめ。]]></description>
     </item>
   </channel>
 </rss>

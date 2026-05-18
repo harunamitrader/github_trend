@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>x-cli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">x-cli</h1>
+      <p class="article-dek">AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-18 -->
+          <strong>2026-05-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/better-world-ai/x-cli" target="_blank" rel="noreferrer">
+              better-world-ai/x-cli
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>187</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「Webブラウザ上で繰り返し行う作業」を、AIエージェントに一言指示するだけで自動的にCLI（コマンドラインツール）化してくれるフレームワークと実例集です。</p>
+
+        <h2>何ができるか</h2>
+        <p>ユーザーが普段使っているChromeのログイン状態（セッション）を直接利用してWebサイトを操作するCLIを作成します。これにより、公式APIが提供されていないサービスや、複雑なToken管理が必要なサイトであっても、ブラウザを介してエージェントから安全かつ簡単に自動操作できるようになります。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>APIキー・Token不要</strong>: <code>kimi-webbridge</code> 拡張機能と連携し、アクティブなブラウザのログイン状態をそのまま流用するため、面倒な認証処理の実装が不要です。</li><li><strong>AIによるCLI自動生成</strong>: 「example.com の情報取得CLIを作って」と指示するだけで、エージェントがサイトを分析し、Go言語等でCLIのコードを書き上げてくれます。</li><li><strong>実用的なサンプル同梱</strong>: 百度検索、Google検索、Gemini/ChatGPTを用いた画像生成など、即戦力となるCLIが複数プレインストールされています。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずブラウザに <code>kimi-webbridge</code> をインストールします。次に、提供されているエージェント用スキルを読み込ませるだけで準備完了です。あとは「○○のCLIを作って」とエージェントにチャットするだけで、自動的に実装が進みます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>毎日の単純なブラウザ作業（データ入力やスクレイピング、AIツールへの定型プロンプト送信など）をCLI化して自動化したい開発者や、AIエージェントの可能性を広げたいハッカー。</p>
+
+        <h2>注意点</h2>
+        <p>CLIは実際のブラウザ（Chrome）をバックグラウンドで操作するため、ブラウザを開いておく必要があり、大量の並行処理や完全なヘッドレスサーバー環境での運用には向かない場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>x-cli</code> は、「ブラウザのRPA（Robotic Process Automation）」と「LLMによるコード生成」を最も手軽に融合させたプロジェクトです。公式APIの制限に縛られず、人間ができるWeb操作なら何でもAIエージェント経由のCLIコマンドにできるという点で、自動化の幅を劇的に広げてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/better-world-ai/x-cli" target="_blank" rel="noreferrer">https://github.com/better-world-ai/x-cli</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #565</p>
+      </div>
+    </article>
+  </body>
+</html>

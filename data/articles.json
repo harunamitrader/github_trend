@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "x-cli",
+      "summary": "AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 565,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T20:42:50+09:00",
+      "repoName": "better-world-ai/x-cli",
+      "repoUrl": "https://github.com/better-world-ai/x-cli",
+      "articleUrl": "./articles/github/daily/2026-05-18-x-cli.html",
+      "starCount": 187
+    },
+    {
       "title": "TranslateBooksWithLLMs",
       "summary": "OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。",
       "category": "github-pickup",

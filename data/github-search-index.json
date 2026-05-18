@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-18T11:29:15.021997+00:00",
-  "count": 614,
+  "generatedAt": "2026-05-18T11:44:38.702562+00:00",
+  "count": 615,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "x-cli",
+      "dek": "",
+      "summary": "AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。",
+      "repoName": "better-world-ai/x-cli",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T20:42:50+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-18-x-cli.html",
+      "serial": 565,
+      "searchText": "x-cli AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。 better-world-ai/x-cli AIコーディング (ワークフロー・プロンプト・開発補助ツール) x-cli ← 記事一覧へ戻る GitHub Watcher x-cli AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。 記事作成日 2026-05-18 種別 Pickup 対象 repo better-world-ai/x-cli Star数 187 これは何か 「Webブラウザ上で繰り返し行う作業」を、AIエージェントに一言指示するだけで自動的にCLI（コマンドラインツール）化してくれるフレームワークと実例集です。 何ができるか ユーザーが普段使っているChromeのログイン状態（セッション）を直接利用してWebサイトを操作するCLIを作成します。これにより、公式APIが提供されていないサービスや、複雑なToken管理が必要なサイトであっても、ブラウザを介してエージェントから安全かつ簡単に自動操作できるようになります。 目立つポイント APIキー・Token不要 : kimi-webbridge 拡張機能と連携し、アクティブなブラウザのログイン状態をそのまま流用するため、面倒な認証処理の実装が不要です。 AIによるCLI自動生成 : 「example.com の情報取得CLIを作って」と指示するだけで、エージェントがサイトを分析し、Go言語等でCLIのコードを書き上げてくれます。 実用的なサンプル同梱 : 百度検索、Google検索、Gemini/ChatGPTを用いた画像生成など、即戦力となるCLIが複数プレインストールされています。 セットアップや使い方の流れ まずブラウザに kimi-webbridge をインストールします。次に、提供されているエージェント用スキルを読み込ませるだけで準備完了です。あとは「○○のCLIを作って」とエージェントにチャットするだけで、自動的に実装が進みます。 どんな人向けか 毎日の単純なブラウザ作業（データ入力やスクレイピング、AIツールへの定型プロンプト送信など）をCLI化して自動化したい開発者や、AIエージェントの可能性を広げたいハッカー。 注意点 CLIは実際のブラウザ（Chrome）をバックグラウンドで操作するため、ブラウザを開いておく必要があり、大量の並行処理や完全なヘッドレスサーバー環境での運用には向かない場合があります。 まとめ x-cli は、「ブラウザのRPA（Robotic Process Automation）」と「LLMによるコード生成」を最も手軽に融合させたプロジェクトです。公式APIの制限に縛られず、人間ができるWeb操作なら何でもAIエージェント経由のCLIコマンドにできるという点で、自動化の幅を劇的に広げてくれます。 参照リンク https://github.com/better-world-ai/x-cli Shared GitHub Serial: #565"
+    },
     {
       "slug": null,
       "category": "github-pickup",
