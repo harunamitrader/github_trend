@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ViMax",
+      "summary": "アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 567,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T21:11:14+09:00",
+      "repoName": "HKUDS/ViMax",
+      "repoUrl": "https://github.com/HKUDS/ViMax",
+      "articleUrl": "./articles/github/daily/2026-05-18-ViMax.html",
+      "starCount": 4581
+    },
+    {
       "title": "clawpatch",
       "summary": "コードベースを機能スライスに分解し、AIエージェントと連携して自律的なコードレビューからバグ修正・PR作成まで行うCLIツール。",
       "category": "github-pickup",

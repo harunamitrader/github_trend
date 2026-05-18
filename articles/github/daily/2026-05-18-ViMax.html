@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ViMax</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ViMax</h1>
+      <p class="article-dek">アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-18 -->
+          <strong>2026-05-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HKUDS/ViMax" target="_blank" rel="noreferrer">
+              HKUDS/ViMax
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,581</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>アイディア、小説、脚本といったテキスト情報を、監督、脚本家、プロデューサー、動画生成といった役割を持つ複数のAIエージェントの連携ワークフローを自動実行することで、キャラクターデザインや演出、制作までを一貫してカバーした完全な映像ストーリーとして自律生成するエージェント型動画生成（Agentic Video Generation）プラットフォームです。</p>
+
+        <h2>何ができるか</h2>
+        <p>4つの主要機能を提供します。<ul><li><strong>Idea2Video</strong>: 短いアイディアのひらめきから、完全なストーリー映像を制作。</li><li><strong>Novel2Video</strong>: 長編小説を、知的なナラティブ圧縮、キャラクター追跡、シーンごとの映像アダプテーションを通じてエピソード形式の映像に変換。</li><li><strong>Script2Video</strong>: 自作のシナリオから、ビジュアル表現のすべてを制御して制限なく映像作品を作成。</li><li><strong>AutoCameo</strong>: 自身やペットの顔写真からカメオ出演映像を生成し、任意のシナリオやシネマティックな映像に登場させることが可能。</li></ul></p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>マルチエージェント設計 (All-in-One)</strong>: 監督やプロデューサーなどの役割を担うAIエージェントが協調動作し、単なるコマ切れの動画生成にとどまらない、一貫性のある映像制作パイプラインを構築します。</li><li><strong>ストーリー・キャラクターの一貫性</strong>: 長文小説やシナリオのコンテキスト情報を維持しながら、登場キャラクターの顔や服装などのビジュアル設定が破綻しないよう追跡し続けます。</li><li><strong>多角的なインプットソース</strong>: アイディアの一文から、本格的な脚本、顔写真を用いたカメオ出演まで、多様な制作アプローチを統合しています。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンし、必要なAIモデル環境やAPI設定、依存ライブラリをセットアップします。その後、Web GUIまたはコマンドラインツールを起動し、テキストや画像（カメオ用）を入力してエージェントワークフローを開始させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>小説や脚本をビジュアル映像化したいクリエイター、インディーの映像制作者、AIエージェントによる次世代のクリエイティブ・コンテンツ生成（AIGC）に関心のある技術者・デザイナー。</p>
+
+        <h2>注意点</h2>
+        <p>協調型マルチエージェントと高性能な動画生成モデルのパイプラインを回すため、実行には非常に高度なGPUリソース（またはAPI利用コスト）が必要となる場合があります。また、生成される映像のクオリティは使用する基盤モデル（Sora互換や各種動画生成モデルなど）の性能に依存します。</p>
+
+        <h2>まとめ</h2>
+        <p><code>ViMax</code>は、ただプロンプトから数秒の動画を生成する段階から、AIエージェントが「意思決定し、ストーリーを紡ぎ、キャラクターを統一して映像を統合する」という「自律的映像制作」の段階へと大きく舵を切る最先端のプロジェクトです。クリエイティブ領域のAI活用を完全に次の次元へ引き上げる可能性を持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/HKUDS/ViMax" target="_blank" rel="noreferrer">https://github.com/HKUDS/ViMax</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #567</p>
+      </div>
+    </article>
+  </body>
+</html>

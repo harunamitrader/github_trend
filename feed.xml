@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 May 2026 12:08:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 21:11:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ViMax]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-ViMax.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-ViMax.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawpatch]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-clawpatch.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code などの AI エージェントに高度なブラウザ自動化や UI テスト能力を追加する公式スキル集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mcp-server-browserbase]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/mcp-server-browserbase.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/mcp-server-browserbase.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントにブラウザの自動操作・データ抽出機能を提供する MCP サーバー。]]></description>
     </item>
   </channel>
 </rss>
