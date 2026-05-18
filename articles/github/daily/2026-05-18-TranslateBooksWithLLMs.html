@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TranslateBooksWithLLMs</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TranslateBooksWithLLMs</h1>
+      <p class="article-dek">OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-18 -->
+          <strong>2026-05-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/hydropix/TranslateBooksWithLLMs" target="_blank" rel="noreferrer">
+              hydropix/TranslateBooksWithLLMs
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,650</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ページ数の多い長編書籍や巨大な文書ファイルを、Ollama、OpenAI、Gemini、Mistral、OpenRouterなどの強力なLLM（大規模言語モデル） API を使って丸ごと翻訳するためのツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>対象となる書籍・文書ファイルをアップロードすることで、指定したLLMを用いた高精度な翻訳を一括で実行できます。最大の特徴は「ファイルサイズの制限がない」ことと、「元のフォーマットを保持したまま翻訳される」点です。また、途中でエラーが起きても停止した箇所からレジューム（再開）する機能を備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>マルチLLM対応</strong>: Ollamaによる完全なローカルモデルでの翻訳から、OpenAI（互換API含む）やGeminiなど主要なクラウドAIまで幅広く選択可能です。</li><li><strong>レジューム機能</strong>: 長時間の翻訳処理においてAPIエラーなどが発生しても、最初からやり直すことなく途中から翻訳を再開できます。</li><li><strong>フォーマットの維持</strong>: 書籍やドキュメント特有のマークダウンやタグなどの構造を崩さずに翻訳を適用します。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンし、必要なPython依存関係をインストールします。その後、利用したいLLMプロバイダのAPIキーを設定（Ollamaの場合はローカルにモデルを用意）し、スクリプトに翻訳したい対象ファイルを渡して実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>英語（または多言語）の技術書、小説、長大なドキュメントを自分の母国語で読みたいユーザーや、機械翻訳より自然で文脈に沿ったLLMベースの高精度翻訳を必要としている読書家。</p>
+
+        <h2>注意点</h2>
+        <p>LLM APIを使用する場合、長編書籍の翻訳には膨大なトークン数を消費するため、OpenAIやOpenRouter等のクラウドプロバイダを利用する際はAPIの利用料金（コスト）に注意する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>TranslateBooksWithLLMs</code>は、ファイルサイズの制限やAPIのタイムアウトといった、LLMでの長文翻訳における「あるある」の課題をエレガントに解決してくれる実用的なスクリプトです。ローカルLLMと組み合わせれば、完全にプライベートかつ無料で分厚い洋書を翻訳し放題になる強力な武器となります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/hydropix/TranslateBooksWithLLMs" target="_blank" rel="noreferrer">https://github.com/hydropix/TranslateBooksWithLLMs</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #564</p>
+      </div>
+    </article>
+  </body>
+</html>

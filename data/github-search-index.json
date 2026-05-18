@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-18T11:08:11.869564+00:00",
-  "count": 613,
+  "generatedAt": "2026-05-18T11:29:15.021997+00:00",
+  "count": 614,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "TranslateBooksWithLLMs",
+      "dek": "",
+      "summary": "OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。",
+      "repoName": "hydropix/TranslateBooksWithLLMs",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T20:27:08+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-18-TranslateBooksWithLLMs.html",
+      "serial": 564,
+      "searchText": "TranslateBooksWithLLMs OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。 hydropix/TranslateBooksWithLLMs AI基盤・データ基盤・業務アプリ TranslateBooksWithLLMs ← 記事一覧へ戻る GitHub Watcher TranslateBooksWithLLMs OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。 記事作成日 2026-05-18 種別 Pickup 対象 repo hydropix/TranslateBooksWithLLMs Star数 1,650 これは何か ページ数の多い長編書籍や巨大な文書ファイルを、Ollama、OpenAI、Gemini、Mistral、OpenRouterなどの強力なLLM（大規模言語モデル） API を使って丸ごと翻訳するためのツールです。 何ができるか 対象となる書籍・文書ファイルをアップロードすることで、指定したLLMを用いた高精度な翻訳を一括で実行できます。最大の特徴は「ファイルサイズの制限がない」ことと、「元のフォーマットを保持したまま翻訳される」点です。また、途中でエラーが起きても停止した箇所からレジューム（再開）する機能を備えています。 目立つポイント マルチLLM対応 : Ollamaによる完全なローカルモデルでの翻訳から、OpenAI（互換API含む）やGeminiなど主要なクラウドAIまで幅広く選択可能です。 レジューム機能 : 長時間の翻訳処理においてAPIエラーなどが発生しても、最初からやり直すことなく途中から翻訳を再開できます。 フォーマットの維持 : 書籍やドキュメント特有のマークダウンやタグなどの構造を崩さずに翻訳を適用します。 セットアップや使い方の流れ リポジトリをクローンし、必要なPython依存関係をインストールします。その後、利用したいLLMプロバイダのAPIキーを設定（Ollamaの場合はローカルにモデルを用意）し、スクリプトに翻訳したい対象ファイルを渡して実行します。 どんな人向けか 英語（または多言語）の技術書、小説、長大なドキュメントを自分の母国語で読みたいユーザーや、機械翻訳より自然で文脈に沿ったLLMベースの高精度翻訳を必要としている読書家。 注意点 LLM APIを使用する場合、長編書籍の翻訳には膨大なトークン数を消費するため、OpenAIやOpenRouter等のクラウドプロバイダを利用する際はAPIの利用料金（コスト）に注意する必要があります。 まとめ TranslateBooksWithLLMs は、ファイルサイズの制限やAPIのタイムアウトといった、LLMでの長文翻訳における「あるある」の課題をエレガントに解決してくれる実用的なスクリプトです。ローカルLLMと組み合わせれば、完全にプライベートかつ無料で分厚い洋書を翻訳し放題になる強力な武器となります。 参照リンク https://github.com/hydropix/TranslateBooksWithLLMs Shared GitHub Serial: #564"
+    },
     {
       "slug": null,
       "category": "github-pickup",

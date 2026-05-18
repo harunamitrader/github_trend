@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "TranslateBooksWithLLMs",
+      "summary": "OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "serial": 564,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T20:27:08+09:00",
+      "repoName": "hydropix/TranslateBooksWithLLMs",
+      "repoUrl": "https://github.com/hydropix/TranslateBooksWithLLMs",
+      "articleUrl": "./articles/github/daily/2026-05-18-TranslateBooksWithLLMs.html",
+      "starCount": 1650
+    },
+    {
       "title": "opcode",
       "summary": "Claude CodeをGUIで管理・拡張できる強力なツールキット。カスタムエージェントの作成やバックグラウンド実行をサポート。",
       "category": "github-pickup",
