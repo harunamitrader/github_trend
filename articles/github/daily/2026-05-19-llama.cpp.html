@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="純粋なC/C++のみで記述され、最小限のセットアップと超軽量な動作でローカルLLM推論を極限まで加速する世界最高峰のオープンソースエンジン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>llama.cpp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">llama.cpp</h1>
+      <p class="article-dek">純粋なC/C++のみで記述され、最小限のセットアップと超軽量な動作でローカルLLM推論を極限まで加速する世界最高峰のオープンソースエンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noreferrer">
+              ggml-org/llama.cpp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>110,937</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>依存ライブラリなしのピュアなC/C++のみで実装された、世界で最も広く利用されている大規模言語モデル（LLM）のローカル推論エンジンです。開発者のGeorgi Gerganov氏が開発するテンソル演算ライブラリ「ggml」を基盤に構築されており、コンシューマーハードウェア（一般的なPCやスマートフォン、Apple Silicon搭載Macなど）からクラウドサーバーまで、あらゆる環境においてLLMを最小のオーバーヘッドで高速実行することを可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>GGUF（GGML Universal File）と呼ばれる最適化された形式のモデルを読み込み、テキスト補完、対話（チャット）、JSON出力を拘束するカスタム文法（Grammar-based constrain）、および多重リクエストを処理する並列デコーディングなどが実行可能です。さらに、OpenAI互換の軽量なHTTP REST APIサーバー（`llama-server`）機能や、画像を含むマルチモーダルモデル（LLaVAやQwen-VLなど）のロード、コード生成を支援するFIM（Fill-in-the-Middle）機能なども提供します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Apple Silicon（MシリーズMac）を「第一級市民」として優遇し、ARM NEONやMetal APIによる極めて強力な最適化を実現しています。また、x86におけるAVX/AVX512/AMXや、NVIDIA GPU用のカスタムCUDAカーネル、AMD GPU用のHIP、Vulkanなど幅広いバックエンドに対応。さらに、1.5ビットから8ビットまでの高度な整数量子化をサポートし、モデルのメモリフットプリントを極限まで減らしてGPU/CPUで高速駆動させます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>主要なOS（macOS, Linux, Windows）用のプリコンパイル済みバイナリが配布されており、HomebrewやNix、Wingetなどを介して即座にインストールできます。モデルの実行は極めてシンプルで、Hugging Face等からGGUFファイルをダウンロード後、`llama-cli -m model.gguf` を実行するか、`llama-server -hf ggml-org/gemma-3-1b-it-GGUF` のようにHugging Faceからモデルを直接ダウンロードしてOpenAI互換サーバーを即時にローカル起動させることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>クラウドAPI（OpenAIやAnthropicなど）に頼らず、自身のローカルPCや社内のプライベートなオンプレミスサーバーでLLMを完全オフラインかつセキュアに動かしたい開発者、エッジデバイスや組み込みデバイス向けにAI機能を組み込みたいシステム設計者、そしてゲーム開発や自作アプリに軽量な会話エンジンをデプロイしたいクリエイターに必須のツールです。</p>
+
+        <h2>注意点</h2>
+        <p>オリジナルのPyTorch形式（safetensors等）のウェイトをそのままロードすることはできません。あらかじめ付属の変換スクリプト（`convert_*.py`）を使用してGGUF形式に変換し、必要に応じて量子化を施す必要があります（今日ではHugging Face上に多数の有志や公式が変換済みのGGUFを公開しています）。</p>
+
+        <h2>まとめ</h2>
+        <p><code>ggml-org/llama.cpp</code>は、巨大なAI企業によるクローズドなモデル提供モデルに対して、「コモディティハードウェアによるローカル推論」という強力なオープンソースカウンターを提示し、現在のAI開発環境を激変させた歴史的な超重要プロジェクトです。10万スターを超える巨大なコミュニティによる怒涛の開発スピードと絶え間ない最適化は、ローカルAIの未来を最前線で切り拓き続けています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noreferrer">https://github.com/ggml-org/llama.cpp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #571</p>
+      </div>
+    </article>
+  </body>
+</html>

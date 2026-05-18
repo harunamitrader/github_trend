@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="論文構想から文献レビュー、執筆、模擬査読、整合性検証までカバーする、Claude Code専用の超強力な学術研究支援プラグインスイート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>academic-research-skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">academic-research-skills</h1>
+      <p class="article-dek">論文構想から文献レビュー、執筆、模擬査読、整合性検証までカバーする、Claude Code専用の超強力な学術研究支援プラグインスイート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank" rel="noreferrer">
+              Imbad0202/academic-research-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,583</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic社のターミナル用AIコーディングアシスタント「Claude Code」向けに開発された、包括的な学術論文・研究支援（Academic Research）用のプラグイン＆カスタムスキルパッケージです。単にテキストを生成するだけのAIツールとは一線を画し、論文の整合性チェック、文献情報のAPI検証、マルチ視点での模擬査読など、研究プロセスの最初から最後までのパイプラインを「人間が主導し、AIがコパイロットとして支える（Human-in-the-loop）」設計思想で自動化・支援します。</p>
+
+        <h2>何ができるか</h2>
+        <p>4つの主要スキルから構成され、様々な学術タスクを実行します。<ul><li><strong>Deep Research (深層研究)</strong>: 13のエージェントが協調し、ソクラテス式対話での論文構造決定、Semantic Scholar等を通じた文献照合、PRISMA準拠の系統的レビューを行います。</li><li><strong>Academic Paper (論文執筆)</strong>: ユーザーの過去の執筆スタイルを学習して再現する「Style Calibration」や、AI特有の頻出表現を徹底的にチェック・排除する「Writing Quality Check」などを駆使して論文の原稿を作成。LaTeX変換や図表ビジュアル化も可能です。</li><li><strong>Academic Paper Reviewer (論文査読)</strong>: 編集長、3名のダイナミックな査読者、および意図的に批判的な視点を提供する「デビルズ・アドボケイト（悪魔の代弁者）」のマルチエージェントにより、0〜100点の厳格な査読レポートを模擬生成します。</li><li><strong>Academic Pipeline (オーケストレーター)</strong>: 上記のフェーズを10段階のフローで統括し、マテリアルパスポートの自動更新や、査読指摘に対する修正履歴の追跡を行います。</li></ul></p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる執筆の自動化ではなく、AI固有の失敗（ハルシネーションや媚び売りなど）を防御する厳格なガードレールが敷かれています。引用された文脈が元の論文で本当にサポートされているかを検証する自動監査プロセス（`ARS_CLAIM_AUDIT`）や、S2・OpenAlex・Crossrefの3つの索引データベースによる交差照合、さらに「デビルズ・アドボケイト」エージェントがユーザーから反論されても簡単には自説を曲げずに持論を正当化する「Concession Threshold Protocol（妥協閾値プロトコル）」など、AI特有の限界を可視化し克服する高度な機能が満載です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Codeの最新CLI環境が導入されている前提で、以下のわずか2コマンド（約30秒）でプラグインマーケットプレイスから直接インストールできます。インストール後は、ターミナル上で `/ars-plan` や `/ars-lit-review "論文のテーマ"` を実行し、インタラクティブに対話を開始します。セルフホストで論文をコンパイルする場合は、Pandocやtectonicといった外部のPDFレンダリング依存を追加で準備することで、美しいLaTeX形式の論文が出力されます。<ul><li><code>/plugin marketplace add Imbad0202/academic-research-skills</code></li><li><code>/plugin install academic-research-skills</code></li></ul></p>
+
+        <h2>どんな人向けか</h2>
+        <p>論文執筆の退屈な作業（引用フォーマット調整、論理的整合性の検証、先行文献のファクトチェック、模擬査読を通じた原稿改善など）を徹底的に効率化し、人間としての「核心的な問いの考察と議論の決定」に100%集中したい大学院生、大学教授、独立した学術研究者や、AIエージェントの極めて高度な実装・応用事例に関心のあるテックスペシャリスト。</p>
+
+        <h2>注意点</h2>
+        <p>本ツールは「論文を全自動で書いてくれる道具」ではありません。AIが作成した文章には査読エージェントによる厳しいファクトチェックと整合性監査が入り、ハルシネーションや不合理な統計記述が見つかった場合は進捗が強制ロック（Integrity Gate）されます。また、全パイプライン（15k単語の長文論文など）を実行するには、多量のエージェントを稼働させるため4〜6ドル程度のAPIコストが発生します。</p>
+
+        <h2>まとめ</h2>
+        <p><code>academic-research-skills</code>は、AIがもたらす「論文執筆の自動化」という誘惑に対して、どのように「研究の整合性と誠実性」を担保しつつ知的な生産性を極限まで高めることができるか、という問いへの完璧な回答です。Claude Codeの先進的なプラグインシステムを最大限に活用し、研究者が直面するすべての工程に専門的なエージェントを配置した、現時点で世界最高峰の学術コパイロット環境と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank" rel="noreferrer">https://github.com/Imbad0202/academic-research-skills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #572</p>
+      </div>
+    </article>
+  </body>
+</html>

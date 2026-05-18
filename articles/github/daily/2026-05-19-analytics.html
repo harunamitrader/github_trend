@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Google Analyticsの代替となる、クッキーフリーでプライバシー優先のオープンソース超軽量Web解析ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>analytics</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">analytics</h1>
+      <p class="article-dek">Google Analyticsの代替となる、クッキーフリーでプライバシー優先のオープンソース超軽量Web解析ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank #15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/plausible/analytics" target="_blank" rel="noreferrer">
+              plausible/analytics
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>25,873</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google Analytics（GA）のプライバシー上の懸念や複雑さに対抗するために開発された、オープンソースでプライバシー第一（Privacy-first）のWeb解析（Web Analytics）ツールです。クッキーを使用せず、個人データを一切収集しない設計でありながら、ウェブサイトの主要なトラフィック指標を単一ページのクリーンなダッシュボードで高速かつシンプルに可視化します。</p>
+
+        <h2>何ができるか</h2>
+        <p>ウェブサイトのリアルタイムビジター数、ユニークビジター数、総ページビュー数、直帰率、平均滞在時間、参照元（リファラー）、使用デバイス、国別トラフィックといった必須データをリアルタイムで追跡できます。さらに、カスタムイベントやコンバージョン目標の設定、アウトバウンドリンククリックやファイルダウンロードの自動追跡、Google Search Consoleとの連携によるキーワード解析もサポートしています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>JavaScriptトラッカーのサイズが1KB未満と極めて軽量であり、重厚なGoogle Analyticsスクリプトと比較してWebサイトのロード速度向上に寄与します。また、Elixir + Phoenixによる堅牢なバックエンドと、大量のアクセスデータを瞬時に処理できるClickHouseデータベースを組み合わせたスケーラブルな技術スタックを採用しているため、非常に高いパフォーマンスを誇ります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最も手軽な方法は公式のマネージドクラウド（Plausible Cloud）への登録ですが、オープンソースのPlausible CE（Community Edition）をDocker Compose経由でセルフホストして完全無料で運用することも可能です。ClickHouseやPostgreSQLを搭載したコンテナ群を起動後、ダッシュボードでサイトを登録し、生成されたトラッカー用の軽量スクリプトをウェブサイトのHTMLに追加するだけで解析がスタートします。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>GDPR、CCPA、PECRなどのプライバシー規制をクッキーバナーなしで完全にクリアしたいサイト運営者、Webサイトの表示速度を極限まで高めたい開発者、複雑なGA4のメニューに疲弊し、直感的で美しい1画面のダッシュボードでトラフィックの要約を把握したいマーケターやブログオーナーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>オープンソースのCommunity Edition（CE）は年2回の長期リリースサイクルであり、最新のプレミアム機能（マーケティングファンネルやEcommerce売上目標など）や高度な機械学習ベースのボットフィルタリング機能は提供されません。また、セルフホストの際はClickHouseなどのインフラ管理とサーバー運用の知識が一定程度必要となります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>plausible/analytics</code>は、監視資本主義的なアドテクモデルに頼らず、ユーザーデータを追跡・販売することのない「独立したプライバシー志向のWeb」を目指すシンボル的な存在です。優れたUIデザインと高速な動作、そして強力なElixir/ClickHouseスタックの組み合わせにより、現代のWeb開発においてGoogle Analyticsからの移行先として最も有力な選択肢の一つとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/plausible/analytics" target="_blank" rel="noreferrer">https://github.com/plausible/analytics</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #569</p>
+      </div>
+    </article>
+  </body>
+</html>
