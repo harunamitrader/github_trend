@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "kooky",
+      "summary": "AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 562,
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T19:13:47+09:00",
+      "repoName": "iAmCorey/kooky",
+      "repoUrl": "https://github.com/iAmCorey/kooky",
+      "articleUrl": "./articles/github/daily/2026-05-18-kooky.html",
+      "starCount": 170
+    },
+    {
       "title": "PhotoGIMP",
       "summary": "オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。",
       "category": "github-pickup",

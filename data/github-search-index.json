@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-17T22:27:35.404252+00:00",
-  "count": 611,
+  "generatedAt": "2026-05-18T10:15:51.264653+00:00",
+  "count": 612,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "kooky",
+      "dek": "",
+      "summary": "AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。",
+      "repoName": "iAmCorey/kooky",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-18",
+      "createdAt": "2026-05-18T19:13:47+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-18-kooky.html",
+      "serial": 562,
+      "searchText": "kooky AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。 iAmCorey/kooky AIコーディング (ワークフロー・プロンプト・開発補助ツール) kooky ← 記事一覧へ戻る GitHub Watcher kooky AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。 記事作成日 2026-05-18 種別 Pickup 対象 repo iAmCorey/kooky Star数 170 これは何か AIコーディングエージェント（Claude Code、Codex、Gemini CLI、Cursor CLIなど）との対話に最適化された、macOS向けのモダンなターミナルアプリケーションです。高速なレンダリングエンジンである libghostty を採用しています。 何ができるか ターミナル上で動作するAIエージェントをワンクリックで起動し、エージェントの稼働状態（実行中・待機中など）をサイドバーでリアルタイムに監視できます。また、Gitのブランチ状態、Nodeバージョン、Python仮想環境などをステータスバーにライブ表示し、GUIから直接切り替えることも可能です。 目立つポイント AIエージェントの統合 : 選択したテキストを右クリックして「エージェントに質問する」機能や、セッションの自動レジューム機能を備えています。 Ghosttyエンジン採用 : GPUアクセラレーションによる高速なセルレンダリングを実現し、ネイティブ（SwiftUI）で軽量に動作します。 ワークスペースの可視化 : ターミナルでありながら、ブランチの変更やエージェントのステータス（実行・待機）がインジケーターで直感的に把握できます。 セットアップや使い方の流れ リリースページから最新の .dmg ファイルをダウンロードし、macOSの「アプリケーション」フォルダに配置するだけで利用可能です。初回起動時はGatekeeperの警告が出るため、システム設定から許可する必要があります。 どんな人向けか CLIベースのAIコーディングエージェント（Claude CodeやCopilot CLIなど）を日常的に使用しており、より統合された使いやすいターミナル環境を求めているmacOSユーザー。 注意点 現状はmacOS専用アプリ（SwiftUI構築）であり、WindowsやLinuxには対応していません。また、テレメトリーやアカウント登録は一切不要で完全にローカルで動作します。 まとめ kooky は、単なるターミナルエミュレータにとどまらず、「AIエージェントのホスト環境」としてのターミナルの新しい形を提案するプロジェクトです。CLIエージェントを多用する開発者にとって、生産性を劇的に向上させる可能性を秘めています。 参照リンク https://github.com/iAmCorey/kooky Shared GitHub Serial: #562"
+    },
     {
       "slug": null,
       "category": "github-pickup",
