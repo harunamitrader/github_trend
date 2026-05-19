@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "title": "2026-05-20 AI一般ツール アップデート",
+      "summary": "Google I/O 2026で発表された Gemini 3.5 Flash や Gemini Spark などの最新AIエージェント情報に加え、ChatGPT の金融機関アカウント連携プレビュー、NotebookLM のマインドマッププロンプト制御機能、OpenClaw のバージョン更新情報をまとめてお届けします。",
+      "category": "ai-tool-log",
+      "genre": "AI一般ツール",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-20T04:15:00+09:00",
+      "repoName": "",
+      "repoUrl": "",
+      "articleUrl": "./articles/tools/2026-05-20-ai-others-tools-update.html",
+      "starCount": 0
+    },
+    {
       "title": "2026-05-20 AIコーディングツール アップデート",
       "summary": "Claude Code (v2.1.144)、Cline (v3.84.0)、OpenAI Codex (v0.18.0) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilotの大規模なアップデートや料金プラン改定の発表をまとめてお届けします。",
       "category": "ai-tool-log",

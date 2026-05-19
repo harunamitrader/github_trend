@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 19 May 2026 19:03:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 04:16:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-20 AI一般ツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google I/O 2026で発表された Gemini 3.5 Flash や Gemini Spark などの最新AIエージェント情報に加え、ChatGPT の金融機関アカウント連携プレビュー、NotebookLM のマインドマッププロンプト制御機能、OpenClaw のバージョン更新情報をまとめてお届けします。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-20 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ESP32とMQTTを活用した、本番環境レベルの堅牢性を持つオープンソースのIoT水耕栽培自動化システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[academic-research-skills-codex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-academic-research-skills-codex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-academic-research-skills-codex.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。]]></description>
     </item>
   </channel>
 </rss>
