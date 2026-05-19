@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "NextTrade",
+      "summary": "ノーコードでの複雑な条件構築、遺伝的アルゴリズムによる最適化、および過去データによる検証から本番デプロイまでをカバーする、オープンソースの自律型アルゴリズム自動取引プラットフォーム。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "serial": 574,
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T20:50:00+09:00",
+      "repoName": "austin-starks/NextTrade",
+      "repoUrl": "https://github.com/austin-starks/NextTrade",
+      "articleUrl": "./articles/github/daily/2026-05-19-NextTrade.html",
+      "starCount": 1734
+    },
+    {
       "title": "codex-complexity-optimizer",
       "summary": "OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。",
       "category": "github-pickup",

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NextTrade は、ノーコードでの複雑な条件構築、遺伝的アルゴリズムによる最適化、および過去データによる検証から本番デプロイまでをカバーする、オープンソースの自律型アルゴリズム自動取引プラットフォームです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>NextTrade</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">NextTrade</h1>
+      <p class="article-dek">ノーコードでの複雑な条件構築、遺伝的アルゴリズムによる最適化、および過去データによる検証から本番デプロイまでをカバーする、オープンソースの自律型アルゴリズム自動取引プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/austin-starks/NextTrade" target="_blank" rel="noreferrer">
+              austin-starks/NextTrade
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,734</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>プログラミングの知識がなくても、独自のルールや条件を直感的に組み合わせて自動取引（アルゴリズムトレーディング）戦略を構築・テスト・最適化し、実際の市場環境にデプロイできる自律型のオープンソース・トレーディングプラットフォームです。主にフロントエンドはReact/TypeScript、バックエンドはNode.js/MongoDBで構築されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>UI上で「テクニカル指標」や「購買力などの資金状態」を組み合わせた複雑な取引ルールを作成し、それらの戦略をポートフォリオとして管理できます。さらに、過去のヒストリカルデータを用いたバックテスト、遺伝的アルゴリズム（Genetic Algorithms）を活用したパラメータの自動チューニング、そしてTradier等のAPIを通じたリアルタイム市場での実取引（またはペーパートレード）の運用までを実行可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>柔軟な複合条件（Compound Conditions）</strong>: 「QQQが5日移動平均より1標準偏差下回っている」かつ「利用可能な資金が8,000ドル以上」のような、論理演算（AND/ORなど）を駆使した高度なストラテジーをコードなしで構築できます。</li><li><strong>遺伝的アルゴリズムによる最適化</strong>: 個別の戦略パラメータ（突然変異率や世代数）を設定し、シャープレシオ、ソルティノレシオ、最大ドローダウン（MDD）、純利益率などの任意の評価指標を最大化するよう自動的に最適化パラメータを探索できます。</li><li><strong>強固な拡張性</strong>: 現在は主に株式が対象ですが、ビットコインなどの仮想通貨やオプション取引のサポートが設計段階からアーキテクチャに組み込まれています。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>動作にはWSL2、Linux、またはmacOS環境とMongoDBが必要です。リポジトリをクローンした後、プロジェクトルートで <code>npm run install-all</code> を実行して依存パッケージをインストールします。Tradier API（無料のサンドボックスアカウントを含む）のトークン情報を <code>.env</code> に設定し、サーバー用（<code>/app</code>）とクライアント用（<code>/client</code>）の各ディレクトリで <code>npm start</code> を実行してローカルサーバー（localhost:3000）を起動させます。PM2を使用したデーモン起動も公式にサポートされています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自分の直感やアイディアに基づく投資ロジックが過去の市場データに対して有効かどうかを検証したい個人投資家、高価なクローズド自動取引ツールに頼らず完全にセルフホストして自前の取引ボットを運用したいエンジニア、あるいはAI/遺伝的アルゴリズムを利用したアルゴリズム取引システムの内部実装コードを学習したい金融技術の探求者。</p>
+
+        <h2>注意点</h2>
+        <p>本プロジェクトは現在、後継かつAI機能（自然言語対話での会社分析、高度なスクリーニング、AIチャットアシスタント等）を強化したクラウド版プラットフォーム「NexusTrade (nexustrade.io)」の立ち上げに伴い、オープンソース版としての開発は落ち着いています。また、ローカルで実行する場合はMongoDBサーバーの安定した管理と、実取引におけるブローカーAPIキーのセキュアな保管が必須です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>NextTrade</code> は、従来は機関投資家や高度なプログラマーに限定されていた「バックテストによる投資戦略の検証と最適化」というインフラを、ノーコードのUIと遺伝的アルゴリズムによって誰もが使える形でオープンソース化した先駆的なプロジェクトです。現在提供されている後継SaaS（NexusTrade）の原点であり、アルゴリズム取引システムの構成要素を体系的に学ぶための最良のコードベースの一つと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/austin-starks/NextTrade" target="_blank" rel="noreferrer">https://github.com/austin-starks/NextTrade</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #574</p>
+      </div>
+    </article>
+  </body>
+</html>
