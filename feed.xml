@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 19 May 2026 11:52:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 04:02:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-20 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code (v2.1.144)、Cline (v3.84.0)、OpenAI Codex (v0.18.0) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilotの大規模なアップデートや料金プラン改定の発表をまとめてお届けします。]]></description>
+    </item>
     <item>
       <title><![CDATA[NextTrade]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-NextTrade.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex向けに最適化された学術研究支援スキル群。文献調査から論文執筆、査読シミュレーションまでをカバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cal.diy]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-cal.diy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-cal.diy.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「絶対的に誰でも」使えることを目指した、超シンプルでセルフホスト可能な日程調整インフラストラクチャ。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code (v2.1.144)、Cline (v3.84.0)、OpenAI Codex (v0.18.0) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilotの大規模なアップデートや料金プラン改定の発表をまとめてお届けします。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-05-20 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-05-20 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code (v2.1.144)、Cline (v3.84.0)、OpenAI Codex (v0.18.0) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilotの大規模なアップデートや料金プラン改定の発表をまとめてお届けします。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-20 -->
+          <strong>2026-05-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cline, Codex, Gemini CLI, GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年5月20日に確認された、各AIコーディングツールの主なアップデートは以下の通りです。</p>
+        <ul>
+            <li><strong>Claude Code (v2.1.144):</strong> バックグラウンドセッション（<code>claude --bg</code> やエージェントビュー経由）の <code>/resume</code> サポートと「bg」マーク表示、サブエージェント完了通知への経過時間追加（例: "Agent completed · 3h 2m 5s"）、および <code>/model</code> 選択のセッション限定適用などを実装。</li>
+            <li><strong>Cline (v3.84.0):</strong> SAP AI Core 経由でのホスト型モデルのサポートを追加。トグルオフにされた MCP サーバーの「Restart Server」ボタン無効化や起動時の Cline Kanban デモの削除などを実施。</li>
+            <li><strong>OpenAI Codex (v0.18.0):</strong> ローカルAPIゲートウェイコマンド（<code>omx api</code>）の公開、SparkShell における要約プロンプトからのシークレット自動除外、Stop/完了後の無限ループバグ修正、tmux・HUD・Windows MCP の安定性向上。</li>
+            <li><strong>Gemini CLI (v0.44.0-nightly):</strong> セッションサブエージェントを制御する <code>adk.agentSessionSubagentEnabled</code> フラグを追加。</li>
+            <li><strong>GitHub Copilot (2026-05-18 Update):</strong> Copilot Spaces API や CLI のリモートコントロール機能を一般提供 (GA)。さらに Cloud Agent での Claude Haiku 4.5 などの軽量モデルのサポートを追加、および6月より AI Credits を使った従量課金制への移行を発表。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回のアップデートで最も注目すべきは、GitHub Copilot が6月1日から従量課金制へと段階的に移行する発表を行った点です。AI エージェント機能による大量のトークン消費に対応するため、定額制から実消費量（AI Credits）に基づく形になります。また、OpenAI Codex の v0.18.0 ではローカルゲートウェイ API 経由のフローが整備され、ローカル環境で自律エージェントを安全に稼働しやすくなりました。Claude Code では長時間バックグラウンドで走らせたエージェントの作業状況を簡単にレジュームして追えるようになり、より「自律エージェントとの非同期な連携開発」の実用度が向上しています。</p>
+
+        <h2>まとめ</h2>
+        <p>AIコーディングエージェントの利用シーンが「チャットで対話する」から「バックグラウンドで自律的に動かす」へとシフトしていることが、今回の各ツールの更新（Claude Code の /resume bg 機能や Codex のランタイムバグ修正など）から強く伺えます。その一方、それに伴う膨大なコンピュートコストに対処するための GitHub Copilot の従量課金移行など、開発プロセスと費用の両面でエージェント特化の再構築が進んでいます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">各開発元公式リリースノート</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
