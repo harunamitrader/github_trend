@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 19 May 2026 19:16:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 04:47:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-plugins-official]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Anthropicが公式に管理する、ターミナル型AIコーディングアシスタント「Claude Code」専用の検証済み高品質プラグインディレクトリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[andrej-karpathy-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-multica-ai-andrej-karpathy-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-multica-ai-andrej-karpathy-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Andrej Karpathy氏のLLMコーディング行動に関する指摘に基づき、不要な書き換えやボイラープレートの肥大化を防ぐために設計されたClaude Code / Cursor向けの最適化ルールセット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[erpnext]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-frappe-erpnext.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-frappe-erpnext.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[会計、在庫、製造、プロジェクト管理など、企業活動に必要な機能が一つに統合された、PythonとJavaScript/Vueで動作する強力なオープンソースERPシステム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-20 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-20 AI一般ツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-others-tools-update.html</link>
@@ -134,38 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opcode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-opcode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-opcode.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeをGUIで管理・拡張できる強力なツールキット。カスタムエージェントの作成やバックグラウンド実行をサポート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[kooky]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-kooky.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-kooky.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングに特化した、Ghosttyエンジン搭載のミニマルでモダンなターミナルアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PhotoGIMP]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-PhotoGIMP.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-PhotoGIMP.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オープンソースの画像編集ソフト「GIMP」のUIやショートカットをAdobe Photoshop風に最適化するパッチ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Hydro0x01]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Hydro0x01.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-Hydro0x01.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ESP32とMQTTを活用した、本番環境レベルの堅牢性を持つオープンソースのIoT水耕栽培自動化システム。]]></description>
     </item>
   </channel>
 </rss>

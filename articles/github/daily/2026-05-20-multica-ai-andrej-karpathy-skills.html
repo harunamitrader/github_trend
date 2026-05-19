@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrej Karpathy氏の指摘に基づく、LLMの不注意や過度な抽象化、不要なコード変更を防ぐためのClaude Code / Cursor向け動作最適化ルール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>andrej-karpathy-skills</title>
+    <link class="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">andrej-karpathy-skills</h1>
+      <p class="article-dek">Andrej Karpathy氏の指摘に基づく、LLMの不注意や過度な抽象化、不要なコード変更を防ぐためのClaude Code / Cursor向け動作最適化ルール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-20 -->
+          <strong>2026-05-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noreferrer">
+              multica-ai/andrej-karpathy-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>137,731</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>元OpenAI/Teslaの著名研究者Andrej Karpathy氏が観察した「LLMコーディングの典型的な失敗パターン」を回避するため、Claude Code（CLAUDE.md）やCursorのルール定義ファイルとして機能するよう最適化されたシステムプロンプト・行動指針リポジトリです。</p>
+
+        <h2>何ができるか</h2>
+        <p>LLMが勝手に不確実な前提でコードを書き進めるのを防ぎ、実装前に確認を求めさせます。また、1回しか使わない無駄な抽象化や過度な複雑化を禁止し、元のコードベースの無関係な部分やフォーマット・コメントを破壊せずに「外科手術的」に最小限の変更を加えるよう指示することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「実装前の思考と確認」「シンプルさの追求」「外科手術的な変更」「ゴール定義と検証（テストファースト・検証ループの構築）」という4つの極めて実践的な原則を1つのファイルに統合しています。Claude Codeプラグインとしてワンクリックでグローバル導入できるほか、プロジェクトごとの 'CLAUDE.md' や Cursor のルールファイル（.mdc）としても利用可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Codeにプラグインとしてインストールする場合は、ターミナル上で '/plugin marketplace add forrestchang/andrej-karpathy-skills' に続いて '/plugin install andrej-karpathy-skills@karpathy-skills' を実行します。個別のプロジェクトで使う場合は、リポジトリから 'CLAUDE.md' をダウンロードしてプロジェクトルートに配置するだけで即座に効果を発揮します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude CodeやCursorなどのAIコーディングツールを日常的に活用しつつも、AIによる不要なリファクタリング、隣接コードの破壊、不要なボイラープレートの肥大化などに悩んでいるエンジニアや開発チームに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>このルールはAIの動作において「スピードよりも確実性と慎重さ」を優先するように設計されています。そのため、タイポの修正や単純な1行の修正といった極めて軽微な作業であっても、AIが慎重になりすぎてややオーバーヘッドが発生する場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>andrej-karpathy-skillsは、AIエージェントのパフォーマンスを引き出しつつ、人間の意図しない暴走を制限する極めて知的な設定集です。AIを単なる指示待ちから、目標駆動で確実性の高い開発パートナーへと変貌させる実用的なガイドラインとして高く評価できます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noreferrer">https://github.com/multica-ai/andrej-karpathy-skills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #576</p>
+      </div>
+    </article>
+  </body>
+</html>
