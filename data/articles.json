@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "codex-complexity-optimizer",
+      "summary": "OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 573,
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T10:40:00+09:00",
+      "repoName": "Kappaemme-git/codex-complexity-optimizer",
+      "repoUrl": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
+      "articleUrl": "./articles/github/daily/2026-05-19-codex-complexity-optimizer.html",
+      "starCount": 749
+    },
+    {
       "title": "2026-05-19 アップデートレポート",
       "summary": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "category": "github-update-report",

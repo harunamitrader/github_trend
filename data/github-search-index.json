@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-18T20:01:35.925863+00:00",
-  "count": 623,
+  "generatedAt": "2026-05-19T01:42:16.113234+00:00",
+  "count": 624,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "codex-complexity-optimizer",
+      "dek": "",
+      "summary": "OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。",
+      "repoName": "Kappaemme-git/codex-complexity-optimizer",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-19T10:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-19-codex-complexity-optimizer.html",
+      "serial": 573,
+      "searchText": "codex-complexity-optimizer OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。 Kappaemme-git/codex-complexity-optimizer AIコーディング (ワークフロー・プロンプト・開発補助ツール) codex-complexity-optimizer ← 記事一覧へ戻る GitHub Watcher codex-complexity-optimizer OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。 記事作成日 2026-05-19 種別 Pickup 対象 repo Kappaemme-git/codex-complexity-optimizer Star数 749 これは何か Kappaemme-git/codex-complexity-optimizer は、開発アシスタントツールである「OpenAI Codex」の拡張スキル（Codex Skill）として作られた、コードベースのアルゴリズム計算量（時間複雑度・空間複雑度）分析とパフォーマンス改善案の生成を自動化する強力な開発支援ユーティリティです。 何ができるか プロジェクトのコードベース全体をスキャンし、計算量の大きいアルゴリズムやパフォーマンスのボトルネック（ホットスポット）を特定します。その上で、「どのファイルのどの行」に「どのような問題」があり、「どう書き換えるべきか」を安全性を最優先した詳細なマークダウンレポートとして出力してくれます。 目立つポイント 安全第一のレポート出力 : デフォルトではソースコードを直接改変せず、現状の計算量、推奨される改善コード、改善後の予測計算量、リスクレベル（High/Medium/Low）、および必要となるベンチマークやテスト内容をレポート化します。 Codexとのシームレスな統合 : Codexのインタラクティブなチャットセッション内で $complexity-optimizer という固有コマンドを介して簡単に呼び出すことが可能です。 ワンコマンドでの自動適用 : 提示された改善策のうち「最もリスクの低い最適化」を明示的にCodexに指示するだけで、コードの修正適用から関連テストの自動実行までを一気通貫で完結させられます。 セットアップや使い方の流れ Node.js環境から npm install -g codex-complexity-optimizer または npx codex-complexity-optimizer を実行するだけで、Codexのホームディレクトリ（ ~/.codex/skills/complexity-optimizer ）へスキルが自動でインストール・配備されます。インストール後は、Codex上で Use $complexity-optimizer to analyze this codebase and give me a report. と指示するだけで解析レポートが作成されます。 どんな人向けか コードの可読性を保ちつつアルゴリズムの実行速度やメモリ消費を改善したいソフトウェアエンジニア、技術的負債や計算量（O-Notation）の改善余地をコードベース全体から自動検出したい開発チーム、およびOpenAI Codexをフル活用して自律的なリファクタリングパイプラインを構築したいテックリード。 注意点 最適化の適用にあたってはリスクレベル（Risk Level）が提示されますが、特に「High/Medium Risk」とされるアルゴリズムの書き換え（例: 再帰から動的計画法への変更や複雑なデータ構造の導入）を行う際は、必ず自動生成されたテストやベンチマークを実行し、ビジネスロジックの整合性が壊れていないかを厳格に確認する必要があります。 まとめ codex-complexity-optimizer は、単にコードのバグを修正するだけでなく、「アルゴリズムの効率性」という一段高い次元でのリファクタリングをAIとの対話によって強力に推し進める画期的なスキルです。AIによるコード生成時代において、安全性と高いパフォーマンスを両立させるための必須級のアシスタントと言えるでしょう。 参照リンク https://github.com/Kappaemme-git/codex-complexity-optimizer Shared GitHub Serial: #573"
+    },
     {
       "slug": null,
       "category": "github-update-report",

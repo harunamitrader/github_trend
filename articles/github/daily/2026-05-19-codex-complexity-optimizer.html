@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kappaemme-git/codex-complexity-optimizer は、OpenAI Codexとシームレスに連携し、コードの複雑度を静的・動的解析で特定して低リスクな最適化案をレポート化・自動適用する画期的な開発補助ツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>codex-complexity-optimizer</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">codex-complexity-optimizer</h1>
+      <p class="article-dek">OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-19 -->
+          <strong>2026-05-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Kappaemme-git/codex-complexity-optimizer" target="_blank" rel="noreferrer">
+              Kappaemme-git/codex-complexity-optimizer
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>749</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Kappaemme-git/codex-complexity-optimizer</code> は、開発アシスタントツールである「OpenAI Codex」の拡張スキル（Codex Skill）として作られた、コードベースのアルゴリズム計算量（時間複雑度・空間複雑度）分析とパフォーマンス改善案の生成を自動化する強力な開発支援ユーティリティです。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロジェクトのコードベース全体をスキャンし、計算量の大きいアルゴリズムやパフォーマンスのボトルネック（ホットスポット）を特定します。その上で、「どのファイルのどの行」に「どのような問題」があり、「どう書き換えるべきか」を安全性を最優先した詳細なマークダウンレポートとして出力してくれます。</p>
+
+        <h2>目立つポイント</h2>
+        <p><ul><li><strong>安全第一のレポート出力</strong>: デフォルトではソースコードを直接改変せず、現状の計算量、推奨される改善コード、改善後の予測計算量、リスクレベル（High/Medium/Low）、および必要となるベンチマークやテスト内容をレポート化します。</li><li><strong>Codexとのシームレスな統合</strong>: Codexのインタラクティブなチャットセッション内で <code>$complexity-optimizer</code> という固有コマンドを介して簡単に呼び出すことが可能です。</li><li><strong>ワンコマンドでの自動適用</strong>: 提示された改善策のうち「最もリスクの低い最適化」を明示的にCodexに指示するだけで、コードの修正適用から関連テストの自動実行までを一気通貫で完結させられます。</li></ul></p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js環境から <code>npm install -g codex-complexity-optimizer</code> または <code>npx codex-complexity-optimizer</code> を実行するだけで、Codexのホームディレクトリ（<code>~/.codex/skills/complexity-optimizer</code>）へスキルが自動でインストール・配備されます。インストール後は、Codex上で <code>Use $complexity-optimizer to analyze this codebase and give me a report.</code> と指示するだけで解析レポートが作成されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>コードの可読性を保ちつつアルゴリズムの実行速度やメモリ消費を改善したいソフトウェアエンジニア、技術的負債や計算量（O-Notation）の改善余地をコードベース全体から自動検出したい開発チーム、およびOpenAI Codexをフル活用して自律的なリファクタリングパイプラインを構築したいテックリード。</p>
+
+        <h2>注意点</h2>
+        <p>最適化の適用にあたってはリスクレベル（Risk Level）が提示されますが、特に「High/Medium Risk」とされるアルゴリズムの書き換え（例: 再帰から動的計画法への変更や複雑なデータ構造の導入）を行う際は、必ず自動生成されたテストやベンチマークを実行し、ビジネスロジックの整合性が壊れていないかを厳格に確認する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>codex-complexity-optimizer</code> は、単にコードのバグを修正するだけでなく、「アルゴリズムの効率性」という一段高い次元でのリファクタリングをAIとの対話によって強力に推し進める画期的なスキルです。AIによるコード生成時代において、安全性と高いパフォーマンスを両立させるための必須級のアシスタントと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Kappaemme-git/codex-complexity-optimizer" target="_blank" rel="noreferrer">https://github.com/Kappaemme-git/codex-complexity-optimizer</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #573</p>
+      </div>
+    </article>
+  </body>
+</html>
