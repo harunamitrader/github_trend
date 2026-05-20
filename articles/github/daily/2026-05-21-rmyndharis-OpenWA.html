@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="セルフホスト可能で、データベースやストレージを自在に差し替えられる強力なオープンソースのWhatsApp APIゲートウェイ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenWA</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenWA</h1>
+      <p class="article-dek">セルフホスト可能で、データベースやストレージを自在に差し替えられる強力なオープンソースのWhatsApp APIゲートウェイ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-21 -->
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 第11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rmyndharis/OpenWA" target="_blank" rel="noreferrer">
+              rmyndharis/OpenWA
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,720</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>開発者が独自のインフラでWhatsAppの送受信APIを構築できる、無料かつオープンソースのセルフホスト型APIゲートウェイです。NestJSとTypeScriptで記述されており、特定のクラウドベンダーや有料サービスにロックインされることなく、独自のコントロール下でチャットメッセージング環境を運用できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>HTTPエンドポイントを介してテキストや画像、動画、ドキュメントなどの各種メディアメッセージを送信できます。また、Webhooksによるリアルタイムな受信イベント（HMAC署名付き）のハンドリング、複数セッションの並行管理、グループや配信チャネル（Newsletter）の操作、メッセージの配信・既読ステータスのトラッキングなどが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>完全にプラグイン化されたアーキテクチャ（Pluggable Architecture）を採用している点です。データベースはSQLiteやPostgreSQL、ストレージはローカルやAmazon S3、キャッシュはメモリやRedisといったアダプターを、アプリケーションコードを1行も書き換えることなく設定ファイルだけで切り替えることができます。さらに、モダンなReact製のダッシュボードやn8nなどの自動化ツールとの連携ノードも標準で提供されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Dockerコンテナとしてデプロイするのが最も簡単です。Dockerイメージが用意されており、Docker Compose等を利用してワンコマンドでデータベースやRedisも含めた本番環境を構築できます。起動後はSwaggerによる対話型のAPIドキュメントを参照しながらAPIキーの認証をセットアップし、ダッシュボードからWhatsAppのアカウント連携を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自社アプリにWhatsApp送信機能を組み込みたいシステム開発者や、セキュリティ・コンプライアンスの観点からメッセージングデータを自社サーバーで完結させたいエンタープライズ企業、およびn8nなどを活用して顧客対応の自動化フローを作りたいマーケター・運用エンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>WhatsAppの自動メッセージ送信やバルク送信は、WhatsApp公式のスパム防止ポリシーに抵触してアカウントが凍結（BAN）されるリスクが常に伴います。本ツールを使用する際は、送信頻度や内容について利用規約に厳密に従い、かつ自己責任で運用する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenWAは、高い拡張性と管理の自由度を誇る優れたAPIゲートウェイソリューションです。オープンソースならではの柔軟性と、Docker・各種アダプターによる実用的な構成能力を備えており、WhatsAppを活用したシステム連携や自動化をセキュアに推進したい開発者にとって不可欠なプラットフォームとなるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rmyndharis/OpenWA" target="_blank" rel="noreferrer">https://github.com/rmyndharis/OpenWA</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #580</p>
+      </div>
+    </article>
+  </body>
+</html>

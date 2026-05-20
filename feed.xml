@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 20 May 2026 05:00:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 05:18:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ai-engineering-from-scratch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rohitg00-ai-engineering-from-scratch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rohitg00-ai-engineering-from-scratch.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[数学・基礎からAIエージェント、マルチエージェント、自律システムまでをスクラッチで実装しながら学習する、無料のAIエンジニアリング向けロードマップ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[oh-my-pi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-can1357-oh-my-pi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-can1357-oh-my-pi.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ハッシュアンカー編集、最適化されたツールハーネス、LSP・Python・ブラウザ自動化を備えたターミナル用超強力AIコーディングエージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenWA]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rmyndharis-OpenWA.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rmyndharis-OpenWA.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[セルフホスト可能で、データベースやストレージを自在に差し替えられる強力なオープンソースのWhatsApp APIゲートウェイ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[streambert]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-truelockmc-streambert.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-truelockmc-streambert.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[広告や追跡を一切排除した、軽量・高速なオープンソースの映画・アニメ・TV番組ストリーミング＆ダウンロード用デスクトップアプリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[opentoonz]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-opentoonz-opentoonz.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-opentoonz-opentoonz.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[オープンソースで提供される、プロ品質の高度な2Dアニメーション制作ソフトウェア。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-21 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-plugins-official]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[40億パラメータの超大型3D生成AIモデル。画期的な「O-Voxel」構造により、衣服の隙間や葉っぱなどのオープンサーフェス、複雑なトポロジー、透明度を含むPBR質感を数秒〜1分で高品質に自律生成。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Others Tools Update: Gemini Intelligence, ChatGPT Malta Partnership & OpenClaw v2026.5.16-beta.5]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google I/O 2026 プレビューとしての Gemini Intelligence 発表、ChatGPT のマルタ共和国全市民向け Plus 無償提供、および OpenClaw v2026.5.16-beta.5 のリリース。2026-05-19 の更新まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI Coding Tools Update: Cursor Composer 2.5 & Windsurf v2.3.9]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-19-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor Composer 2.5 リリースによる長時間タスク能力向上と、Windsurf v2.3.9 での WSL パス解決修正。2026-05-19 の更新まとめ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ViMax]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-ViMax.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-ViMax.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[アイディアや小説、脚本から、マルチエージェント連携（監督、脚本、制作、映像生成）によって一貫した物語動画を自律生成するAI映像制作プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[clawpatch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-clawpatch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-clawpatch.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コードベースを機能スライスに分解し、AIエージェントと連携して自律的なコードレビューからバグ修正・PR作成まで行うCLIツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[x-cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-x-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-x-cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに指示するだけで、APIやToken不要でWebサイトを操作する自作CLIを生成・実行できる画期的なツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TranslateBooksWithLLMs]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-TranslateBooksWithLLMs.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-18-TranslateBooksWithLLMs.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OllamaやOpenAIなど多彩なLLMを活用して、長編書籍や文書をフォーマットを維持したまま丸ごと翻訳するツール。]]></description>
     </item>
   </channel>
 </rss>
