@@ -120,6 +120,19 @@
       ]
     },
     {
+      "title": "Gemini CLI v0.44.0-nightly.20260521: agent-tui と session invocation を強化",
+      "dek": "Gemini CLI の nightly 更新で、agent-tui 系スキルと Local/RemoteSessionInvocation を追加し、Windows と長時間セッションの安定性を高めました。",
+      "articleUrl": "articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html",
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-22T05:34:00+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Gemini CLI",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
       "title": "2026-05-21 AIコーディングツール アップデート",
       "summary": "Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。",
       "category": "ai-tool-log",
@@ -305,6 +318,19 @@
       "repoUrl": "",
       "articleUrl": "./articles/tools/2026-05-20-ai-coding-tools-update.html",
       "starCount": 0
+    },
+    {
+      "title": "Cursor 3.5: Automations の Agents Window 統合とマルチリポジトリ対応",
+      "dek": "Cursor 3.5 は Automations を Agents Window に統合し、複数リポジトリやノーリポジトリの自動化テンプレートを扱えるようにした更新です。",
+      "articleUrl": "articles/tools/2026-05-20-cursor-3-5-automations.html",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-22T05:34:00+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Cursor",
+        "AI Tools",
+        "Coding"
+      ]
     },
     {
       "title": "NextTrade",

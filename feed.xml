@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 20:00:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 05:40:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[skills]]></title>
@@ -70,6 +70,14 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.146がリリース。プラグインの依存関係解決、/code-reviewコマンドの導入、およびバックグラウンドセッションの/resume対応が含まれています。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.44.0-nightly.20260521: agent-tui と session invocation を強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI の nightly 更新で、agent-tui 系スキルと Local/RemoteSessionInvocation を追加し、Windows と長時間セッションの安定性を高めました。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-05-21 AIコーディングツール アップデート]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[会計、在庫、製造、プロジェクト管理など、企業活動に必要な機能が一つに統合された、PythonとJavaScript/Vueで動作する強力なオープンソースERPシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-20 AI一般ツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google I/O 2026で発表された Gemini 3.5 Flash や Gemini Spark などの最新AIエージェント情報に加え、ChatGPT の金融機関アカウント連携プレビュー、NotebookLM のマインドマッププロンプト制御機能、OpenClaw のバージョン更新情報をまとめてお届けします。]]></description>
     </item>
   </channel>
 </rss>
