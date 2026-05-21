@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 19:49:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 05:00:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集]]></description>
+    </item>
+    <item>
+      <title><![CDATA[forge]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-forge.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-forge.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[s-ui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-s-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-s-ui.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Trending Updates for 2026-05-22]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-22-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-22-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026-05-22 の GitHub Trending 更新レポートです。]]></description>
+    </item>
     <item>
       <title><![CDATA[ART]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-openpipe-art.html</link>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google I/O 2026で発表された Gemini 3.5 Flash や Gemini Spark などの最新AIエージェント情報に加え、ChatGPT の金融機関アカウント連携プレビュー、NotebookLM のマインドマッププロンプト制御機能、OpenClaw のバージョン更新情報をまとめてお届けします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-20 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-20-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code (v2.1.144)、Cline (v3.84.0)、OpenAI Codex (v0.18.0) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilotの大規模なアップデートや料金プラン改定の発表をまとめてお届けします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NextTrade]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-NextTrade.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-NextTrade.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ノーコードでの複雑な条件構築、遺伝的アルゴリズムによる最適化、および過去データによる検証から本番デプロイまでをカバーする、オープンソースの自律型アルゴリズム自動取引プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[codex-complexity-optimizer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-codex-complexity-optimizer.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-codex-complexity-optimizer.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codexと連携し、コードベースのアルゴリズム計算量分析と安全なパフォーマンス最適化レポート生成を自動化する拡張スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-19 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-19-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-19-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
