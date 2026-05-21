@@ -64,6 +64,22 @@
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html"
     },
     {
+      "title": "2026-05-22 AI一般ツール アップデート",
+      "dek": "ChatGPT の Codex 更新、Claude の企業向け連続発表、Grok Skills の公開を横断して整理した 2026-05-22 の Others 監視ログ。",
+      "summary": "OpenAI / Anthropic / xAI の直近アナウンスをまとめ、作業補助・企業導入・成果物生成の動きを整理した 2026-05-22 の更新レポート。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T06:37:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-22-ai-others-tools-update.html",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "Grok"
+      ]
+    },
+    {
       "title": "ART",
       "summary": "GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク",
       "category": "github-pickup",

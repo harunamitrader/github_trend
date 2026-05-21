@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 20:53:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 06:39:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[skills]]></title>
@@ -38,6 +38,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026-05-22 の GitHub Trending 更新レポートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-22 AI一般ツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChatGPT の Codex 更新、Claude の企業向け連続発表、Grok Skills の公開を横断して整理した 2026-05-22 の Others 監視ログ。]]></description>
     </item>
     <item>
       <title><![CDATA[ART]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Andrej Karpathy氏のLLMコーディング行動に関する指摘に基づき、不要な書き換えやボイラープレートの肥大化を防ぐために設計されたClaude Code / Cursor向けの最適化ルールセット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[erpnext]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-frappe-erpnext.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-frappe-erpnext.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[会計、在庫、製造、プロジェクト管理など、企業活動に必要な機能が一つに統合された、PythonとJavaScript/Vueで動作する強力なオープンソースERPシステム。]]></description>
     </item>
   </channel>
 </rss>
