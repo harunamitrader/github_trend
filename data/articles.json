@@ -94,8 +94,8 @@
       "starCount": 226
     },
     {
-      "title": "Codex v0.18.1: プラグインと状態管理の安定化パッチ",
-      "dek": "Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。",
+      "title": "Codex 26.519: Appshots と Goal mode、browser use の強化",
+      "dek": "OpenAI Codex の 2026-05-21 更新を整理。Appshots、Goal mode の正式提供、リモートコンピュータ利用、ブラウザ注釈改善をまとめます。",
       "articleUrl": "articles/tools/2026-05-21-codex-v0-18-1-patch.html",
       "publishedAt": "2026-05-21",
       "createdAt": "2026-05-21T09:05:00Z",

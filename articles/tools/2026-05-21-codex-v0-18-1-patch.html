@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。"
+      content="OpenAI Codex の 2026-05-21 更新を整理。Appshots、Goal mode の正式提供、リモートコンピュータ利用、ブラウザ注釈改善をまとめます。"
     />
     <meta name="theme-color" content="#f7fbff" />
-    <title>Codex v0.18.1: プラグインと状態管理の安定化パッチ | harunami AI base</title>
+    <title>Codex 26.519: Appshots と Goal mode、browser use の強化 | harunami AI base</title>
     <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,8 +25,8 @@
         <p class="eyebrow">AI Tools / Coding</p>
       </div>
 
-      <h1 class="article-title">Codex v0.18.1: プラグインと状態管理の安定化パッチ</h1>
-      <p class="article-dek">Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。</p>
+      <h1 class="article-title">Codex 26.519: Appshots と Goal mode、browser use の強化</h1>
+      <p class="article-dek">OpenAI Codex の 2026-05-21 更新を整理。Appshots、Goal mode の正式提供、リモートコンピュータ利用、ブラウザ注釈改善をまとめます。</p>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
@@ -34,8 +34,8 @@
           <strong>2026-05-21</strong>
         </div>
         <div class="article-meta-item">
-          <span class="meta-label">バージョン</span>
-          <strong>v0.18.1</strong>
+          <span class="meta-label">Changelog</span>
+          <strong>26.519</strong>
         </div>
         <div class="article-meta-item">
           <span class="meta-label">ツール</span>
@@ -45,23 +45,23 @@
 
       <div class="article-body">
         <h2>主な変更点</h2>
-        <p>oh-my-codex (Codex) v0.18.1 がリリースされました。これは v0.18.x ラインのリリース準備用パッチであり、APIやSparkShellの基盤を維持しつつ、致命的なブロッカーを解消した安定化アップデートです。</p>
+        <p>OpenAI の Codex changelog では、2026-05-21 に「Appshots, goal mode, and more 26.519」が公開されました。Codex を単なるコード生成ツールではなく、別アプリやブラウザをまたいで作業を進めるワークスペースとして扱う方向の更新です。</p>
         <ul>
-            <li><strong>プラグインの OMX ランチャー固定化:</strong> インストールされたプラグインのフックは、システムの環境変数PATHに依存せず、インストール時の `omx` ランチャーをピン留めして安全に呼び出すようになりました。</li>
-            <li><strong>Ultragoal の状態変更を直列化:</strong> 目標（ゴール）の作成やステアリング、チェックポイント記録がミューテーションロックによって直列化され、データの競合や破損リスクが低減されました。</li>
-            <li><strong>パッケージのクリーン化:</strong> npmパッケージ内にローカルの `.omx` ランタイムキャッシュが混入しないよう除外され、リリースパッケージが軽量・クリーンになりました。</li>
-            <li><strong>その他の改善:</strong> Loreの共同執筆強制をオプトイン化、Windows環境における SparkShell 実行やネイティブフックの文字化け（UTF-8フォワード）修正、UI/tmux連携の安定化などが盛り込まれています。</li>
+            <li><strong>Appshots:</strong> macOS 上で前面ウィンドウのスクリーンショットとテキストを Codex に送れるようになり、手入力なしで別アプリの文脈を渡せます。</li>
+            <li><strong>Goal mode:</strong> 目標駆動の作業モードが実験扱いではなく正式提供になり、CLI・IDE extension・Codex app で長時間のタスクを回しやすくなりました。</li>
+            <li><strong>Remote computer use:</strong> Mac がロックされていてもデスクトップアプリを扱えるようになり、Codex Mobile からの遠隔利用も可能になりました。</li>
+            <li><strong>Plugin sharing と browser use:</strong> Marketplace 経由の plugin sharing、in-app browser の注釈強化、Chrome / browser use の安定性向上が含まれています。</li>
         </ul>
 
         <h2>影響や使いどころ</h2>
-        <p>v0.18.x系での自動化や長時間実行において、状態の不整合や意図せぬランタイムの誤爆を防ぐ堅実な改善が行われました。Ultragoal を活用した自律エージェント運用や、複雑なプラグイン連携を構築しているユーザーは、本パッチによりワークフローの信頼性が向上します。</p>
+        <p>今回の更新は、Codex を「コードを書く CLI」から「複数アプリをまたいで仕事を続けるエージェント」へ寄せる内容です。長時間の検証、UI 修正、別ツールを見ながらの実装確認、リモート環境での継続作業に効きます。</p>
 
         <h2>まとめ</h2>
-        <p>v0.18.1は目立つ新機能の追加ではなく、本番環境での安全なエージェント稼働とパッケージ配布のクリーンアップに焦点を当てた重要な品質向上リリースです。</p>
+        <p>前回の記事で参照していた `oh-my-codex` は非公式 OSS だったため、このページは OpenAI 公式の Codex changelog に差し替えました。Codex の現在の実装状況を追うなら、公式 changelog を基準に見るのが正しいです。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
-          <a href="https://github.com/Yeachan-Heo/oh-my-codex/releases" target="_blank" rel="noreferrer">Codex GitHub Releases</a>
+          <a href="https://developers.openai.com/codex/changelog" target="_blank" rel="noreferrer">Codex Changelog | OpenAI Developers</a>
         </div>
       </div>
     </article>
