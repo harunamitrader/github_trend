@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.146がリリース。プラグインの依存関係解決、/code-reviewコマンドの導入、およびバックグラウンドセッションの/resume対応が含まれています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.146: プラグイン依存関係解決と /code-review コマンド | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools / Coding</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.146: プラグイン依存関係解決と /code-review コマンド</h1>
+      <p class="article-dek">Claude Code v2.1.146がリリース。プラグインの依存関係解決、/code-reviewコマンドの導入、およびバックグラウンドセッションの/resume対応が含まれています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.146</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic から Claude Code v2.1.146 が公開されました。今回のアップデートはプラグイン管理の強化とコマンド体験の改善が中心です。</p>
+        <ul>
+            <li><strong>プラグイン依存関係の強制:</strong> `claude plugin disable` 時に依存する他プラグインがある場合は無効化を防ぎ、`enable` 時には推移的依存も強制的に有効化されるようになりました。</li>
+            <li><strong>/code-review コマンド:</strong> 従来の `/simplify` がリネームされ、`/code-review high` のようにエフォートレベル（労力）を指定可能になりました。</li>
+            <li><strong>バックグラウンドセッションの /resume:</strong> `claude --bg` やエージェントビューで開始されたバックグラウンドセッションがインタラクティブセッションと並んで表示され（bgマーク付）、途中復帰が可能になりました。</li>
+            <li><strong>Windows PowerShell ツール:</strong> `-ExecutionPolicy Bypass` が付与され、Bedrock, Vertex, Foundry ユーザー向けにデフォルトで有効化。コマンドライン無効エラーも修正されました。</li>
+            <li><strong>コスト見積もり表示:</strong> `/plugin marketplace` 画面にて、ターンごとおよび呼び出しごとのコンテキストコスト見積もりが表示されるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>サードパーティ製プラグインのエコシステムが拡大する中、依存関係の破壊を防ぐ安全策が導入されたことで、より安定して拡張機能を活用できるようになります。また、Windows 環境での PowerShell 実行エラーの解消や、バックグラウンド実行後のセッション再開（/resume）など、日常的な開発ワークフローの堅牢性が着実に高まっています。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.146 は、プラグイン管理の成熟と PowerShell 対応の修正、ならびにバックグラウンド実行をより扱いやすくするための実用的なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

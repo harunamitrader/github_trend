@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Codex v0.18.1: プラグインと状態管理の安定化パッチ | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools / Coding</p>
+      </div>
+
+      <h1 class="article-title">Codex v0.18.1: プラグインと状態管理の安定化パッチ</h1>
+      <p class="article-dek">Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.18.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>oh-my-codex (Codex) v0.18.1 がリリースされました。これは v0.18.x ラインのリリース準備用パッチであり、APIやSparkShellの基盤を維持しつつ、致命的なブロッカーを解消した安定化アップデートです。</p>
+        <ul>
+            <li><strong>プラグインの OMX ランチャー固定化:</strong> インストールされたプラグインのフックは、システムの環境変数PATHに依存せず、インストール時の `omx` ランチャーをピン留めして安全に呼び出すようになりました。</li>
+            <li><strong>Ultragoal の状態変更を直列化:</strong> 目標（ゴール）の作成やステアリング、チェックポイント記録がミューテーションロックによって直列化され、データの競合や破損リスクが低減されました。</li>
+            <li><strong>パッケージのクリーン化:</strong> npmパッケージ内にローカルの `.omx` ランタイムキャッシュが混入しないよう除外され、リリースパッケージが軽量・クリーンになりました。</li>
+            <li><strong>その他の改善:</strong> Loreの共同執筆強制をオプトイン化、Windows環境における SparkShell 実行やネイティブフックの文字化け（UTF-8フォワード）修正、UI/tmux連携の安定化などが盛り込まれています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>v0.18.x系での自動化や長時間実行において、状態の不整合や意図せぬランタイムの誤爆を防ぐ堅実な改善が行われました。Ultragoal を活用した自律エージェント運用や、複雑なプラグイン連携を構築しているユーザーは、本パッチによりワークフローの信頼性が向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.18.1は目立つ新機能の追加ではなく、本番環境での安全なエージェント稼働とパッケージ配布のクリーンアップに焦点を当てた重要な品質向上リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-codex/releases" target="_blank" rel="noreferrer">Codex GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

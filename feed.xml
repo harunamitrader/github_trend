@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 12:26:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 04:05:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[ART]]></title>
@@ -16,12 +16,44 @@
       <description><![CDATA[GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク]]></description>
     </item>
     <item>
+      <title><![CDATA[envoy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Codex v0.18.1: プラグインと状態管理の安定化パッチ]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-codex-v0-18-1-patch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-codex-v0-18-1-patch.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex v0.18.1がリリース。プラグイン実行環境の安全性向上と、Ultragoal状態管理における競合状態の修正が含まれるパッチリリースです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.146: プラグイン依存関係解決と /code-review コマンド]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-claude-code-v2-1-146-plugin-deps.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-claude-code-v2-1-146-plugin-deps.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.146がリリース。プラグインの依存関係解決、/code-reviewコマンドの導入、およびバックグラウンドセッションの/resume対応が含まれています。]]></description>
+    </item>
+    <item>
       <title><![CDATA[2026-05-21 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-ai-coding-tools-update.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-ai-coding-tools-update.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-21 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[ai-engineering-from-scratch]]></title>
@@ -64,20 +96,12 @@
       <description><![CDATA[オープンソースで提供される、プロ品質の高度な2Dアニメーション制作ソフトウェア。]]></description>
     </item>
     <item>
-      <title><![CDATA[2026-05-21 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-21-update-report.html</guid>
+      <title><![CDATA[2026-05-20 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</guid>
       <category>github-update-report</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[envoy]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー]]></description>
     </item>
     <item>
       <title><![CDATA[claude-plugins-official]]></title>
@@ -102,14 +126,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[会計、在庫、製造、プロジェクト管理など、企業活動に必要な機能が一つに統合された、PythonとJavaScript/Vueで動作する強力なオープンソースERPシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-20 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[2026-05-20 AI一般ツール アップデート]]></title>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[academic-research-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-academic-research-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-academic-research-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[論文構想から文献レビュー、執筆、模擬査読、整合性検証までカバーする、Claude Code専用の超強力な学術研究支援プラグインスイート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[llama.cpp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-llama.cpp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-llama.cpp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[純粋なC/C++のみで記述され、最小限のセットアップと超軽量な動作でローカルLLM推論を極限まで加速する世界最高峰のオープンソースエンジン。]]></description>
     </item>
   </channel>
 </rss>
