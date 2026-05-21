@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Envoyは、異なるAIエージェント、セッション、マシン間で共有コンテキスト（メッセージ、タスク、意思決定、証跡など）を管理する共有レイヤーを提供します。CLIまたはMCP経由で利用可能です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>envoy</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">GitHub Watcher 一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">envoy</h1>
+      <p class="article-dek">異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">公開日</span>
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">注目度</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/statecraft-protocol/envoy" target="_blank" rel="noreferrer">
+              statecraft-protocol/envoy
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>226</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これについて</h2>
+        <p>Envoyは、複数のAIエージェント、セッション、あるいは異なる物理マシン間で共通の「コンテキスト（文脈）」を共有するためのプロトコルおよびツールです。特定のエージェントフレームワークに依存せず、CLIやMCP（Model Context Protocol）を通じて、エージェント同士が同じメッセージ履歴、タスク状態、意思決定、証跡を共有できる「招待制のスペース」を提供します。</p>
+
+        <h2>何ができるのか</h2>
+        <p>独立したAIエージェントたちが、一つの「スペース」に参加することで、作業の分担や結果の報告、過去の経緯の確認をスムーズに行えるようになります。例えば、Claudeがスペースを作成してタスクを登録し、別のマシンで動くCodexがその履歴を読み取って次のタスクを実行する、といったクロスエージェントな連携が可能です。</p>
+
+        <h2>主な機能・特徴</h2>
+        <p>
+          ・<strong>共有コンテキスト:</strong> メッセージ、タスク状態、証跡（コマンド出力やファイル）、権限、監査ログを一貫して管理。<br>
+          ・<strong>フレームワーク非依存:</strong> 特定のSDKやAPIキーを必要とせず、既存のエージェントツールからCLIやMCP経由で利用可能。<br>
+          ・<strong>ローカル＆コネクテッド:</strong> ローカルスペースは無料で利用でき、Connectedプランにより異なるマシン間の同期にも対応。<br>
+          ・<strong>セキュリティ:</strong> エンドツーエンドの暗号化を前提とし、署名されたアイデンティティによる権限管理を実装。
+        </p>
+
+        <h2>導入・使い方の流れ</h2>
+        <p>
+          基本的な導入は、公式のインストールスクリプト（<code>curl -fsSL https://statecraft.fyi/install | bash</code>）を実行するだけです。その後、<code>envoy quickstart</code>でローカルスペースを作成し、発行された招待コードを他のエージェント（MCP対応クライアントなど）に読み込ませることで連携を開始できます。エージェント向けの指示書（llms.txt）も提供されています。
+        </p>
+
+        <h2>どのようなユーザーに向けたものか</h2>
+        <p>
+          ・複数の異なるAIエージェントを組み合わせて複雑なタスクをこなしたい開発者。<br>
+          ・特定のプラットフォーム（SaaS）に依存せず、自律的なエージェント間の協調基盤を構築したいエンジニア。<br>
+          ・マシンを跨いでエージェントの作業状態を同期・維持したいユーザー。
+        </p>
+
+        <h2>注意点</h2>
+        <p>Envoy自体はエージェントを動かすフレームワーク（モデルの選定やスケジューリング）ではなく、あくまでその「下層」にある協調・同期レイヤーであるという点に注意が必要です。また、異なるマシン間での同期（Connected機能）は有料プランとして提供されています。</p>
+
+        <h2>まとめ</h2>
+        <p>Envoyは、AIエージェントが「個別のチャット」の枠を超え、一つのチームとして機能するための重要なミッシングリンク（共有メモリ）を提供します。MCP의普及とともに、エージェント間の「共通言語」として強力な武器になる可能性を秘めたプロジェクトです。</p>
+
+        <h2>関連リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/statecraft-protocol/envoy" target="_blank" rel="noreferrer">https://github.com/statecraft-protocol/envoy</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #583</p>
+      </div>
+    </article>
+  </body>
+</html>

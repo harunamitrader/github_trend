@@ -12100,6 +12100,22 @@
       "repoUrl": "https://codeium.com/windsurf",
       "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html",
       "rank": 999
+    },
+    {
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 583,
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-21T12:00:00+09:00",
+      "slug": "2026-05-21-envoy",
+      "title": "envoy",
+      "dek": "異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー",
+      "summary": "Envoyは、独立したAIエージェント、セッション、物理マシンを跨いでメッセージやタスク状態を共有できる共有コンテキストレイヤーです。CLIやMCP経由で利用でき、特定のエージェントフレームワークに縛られずに高度な連携を可能にします。",
+      "repoName": "statecraft-protocol/envoy",
+      "repoUrl": "https://github.com/statecraft-protocol/envoy",
+      "articleUrl": "./articles/github/daily/2026-05-21-envoy.html",
+      "starCount": 226
     }
   ]
 }
