@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-05-21 AIコーディングツール アップデート | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-05-21 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-21 -->
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>AIコーディングツール</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Multi-Tools</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年5月21日現在の主要なAIコーディングツールのアップデート情報は以下の通りです。</p>
+        <ul>
+            <li><strong>Claude Code (v2.1.145):</strong> 実行中のセッションをJSON出力する <code>agents --json</code> コマンドが追加。OTELトレースのネスト修正や、Windows (PowerShell) 環境での安定性が向上しました。</li>
+            <li><strong>Cline (v3.84.0):</strong> SAP AI Core の追加モデルをサポート。MCPサーバーがオフの際に「Restart Server」ボタンを無効化する制御が導入されました。</li>
+            <li><strong>Gemini CLI (v0.44.1-nightly):</strong> 2026年6月の Antigravity CLI への統合が発表。RAGスニペットのデバッグ露出や、<code>NO_PROXY</code> 設定の尊重など安定性向上のパッチが含まれています。</li>
+            <li><strong>GitHub Copilot:</strong> VS Code においてタスクに応じたモデルの自動選択機能が導入。自動選択を利用するとトークン倍率が10%割引される特典も発表されました。</li>
+            <li><strong>Windsurf (v2.3.10):</strong> エディタ本体の最新マイナーパッチがリリース。</li>
+            <li><strong>Antigravity (v4.3.5):</strong> スキルやルールの追加時に README 等を自動更新する統計トラッキング機能が強化。</li>
+            <li><strong>OpenAI Codex (v0.18.0):</strong> ローカル生成フロー用の <code>omx api</code> 公開や、SparkShell の可観測性向上が行われました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回のアップデートでは、特に Claude Code や Gemini CLI のように「ツール間の連携」や「外部スクリプトからの制御」を意識した機能強化が目立ちます。GitHub Copilot のモデル自動選択は、ユーザーが最適なモデルを悩む手間を減らしつつ、コスト効率も高める実用的な更新です。Gemini CLI ユーザーは、来月の Antigravity CLI への完全移行に向けた準備が必要となります。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェント型ツールの主流化に伴い、セッション管理の自動化や、モデルの動的切り替えといった「運用の高度化」が進んでいます。各ツールの最新バージョンを適用し、より安定した開発環境を構築しましょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noreferrer">Claude Code Releases</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noreferrer">GitHub Copilot Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

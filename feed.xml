@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 05:18:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 15:45:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-21 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。]]></description>
+    </item>
     <item>
       <title><![CDATA[ai-engineering-from-scratch]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rohitg00-ai-engineering-from-scratch.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google Analyticsの代替となる、クッキーフリーでプライバシー優先のオープンソース超軽量Web解析ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TRELLIS.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-TRELLIS.2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-TRELLIS.2.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[40億パラメータの超大型3D生成AIモデル。画期的な「O-Voxel」構造により、衣服の隙間や葉っぱなどのオープンサーフェス、複雑なトポロジー、透明度を含むPBR質感を数秒〜1分で高品質に自律生成。]]></description>
     </item>
   </channel>
 </rss>
