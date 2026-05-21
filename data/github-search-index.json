@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-21T12:00:57.973360+00:00",
-  "count": 636,
+  "generatedAt": "2026-05-21T12:26:30.218921+00:00",
+  "count": 637,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ART",
+      "dek": "",
+      "summary": "GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク",
+      "repoName": "OpenPipe/ART",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-21T20:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-21-openpipe-art.html",
+      "serial": 583,
+      "searchText": "ART GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク OpenPipe/ART AIエージェント (自律基盤・特化アプリ) ART ← 記事一覧へ戻る GitHub Watcher ART GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク 記事作成日 2026-05-21 種別 Pickup 対象 repo OpenPipe/ART Star数 9,514 これは何か ART （Agent Reinforcement Trainer）は、OpenPipe社によって開発された、LLMベースの自律型エージェントを強化学習（RL）で訓練するためのオープンソースフレームワークです。特にDeepSeek-R1の学習でも用いられた「GRPO（Group Relative Policy Optimization）」と呼ばれる、メモリと計算効率に優れた強化学習手法をPythonのエージェントアプリケーションに人間工学的に統合できる仕組みを提供します。 何ができるか 主に以下のような機能を提供し、エージェントの能力向上をサポートします。 マルチステップ・エージェントの訓練: 単一ステップのテキスト生成タスクだけでなく、LLMが思考し、ツールを使用し、複数ターンの対話を経てゴールに到達する自律型エージェントの強化学習をサポートします。 サーバーレス強化学習の実行: Weights & Biases（W&B）のインフラを活用した「Serverless RL」により、ローカル環境でエージェントを動かして報酬を計算し、重いLLM推論とポリシー更新の訓練はクラウド上のGPU群（最大2000以上の同時リクエスト）にスケールさせて並列実行できます。 自動化された報酬関数の適用: RULER（Relative Universal LLM-Elicited Rewards）と統合されており、正解データ（Ground Truth）がないタスクでも「LLM-as-a-judge（LLMによる相対評価）」をベースに自動で報酬を計算させることが可能です。 目立つポイント 従来の強化学習アプローチと比較して、以下の強みを持っています。 GRPOによる驚異的なリソース効率: 従来のPPO（Proximal Policy Optimization）と異なり、巨大なCriticモデルをメモリ上に保持する必要がありません。出力された複数（グループ内）の回答候補の相対ランキングによってポリシーを更新するため、VRAMを節約し、QwenやLlama等のオープンモデルを高速に最適化できます。 実用的な検証結果（フロンティアモデル超え）: メールデータ検索を行うエージェント（ART-E）にARTを適用したところ、OpenAIのo3などの大規模なフロンティアモデルを上回る精度・速度・低コストを達成した実績があります。 セットアップや使い方の流れ まず、 pip install openpipe-art 等でライブラリを導入します。その後、 art.TrainableModel でベースモデル（例: OpenPipe/Qwen3-14B-Instruct ）とプロジェクトを設定し、 ServerlessBackend などのバックエンドに登録します。コード内でエージェントの実行ループ（ロールアウト）と報酬（Reward）関数の定義を記述し、W&B API等を通じて訓練を実行します。 どんな人向けか LLMエージェントの信頼性やツール使用精度を向上させたい開発者、プロンプトエンジニアリングや教師あり微調整（SFT）だけでは限界を感じているAIエンジニア、少ないGPUインフラ予算で強化学習（RL）をプロダクションに組み込みたいチームに適しています。 注意点 高度な強化学習のセットアップや大規模な並列リクエストの送信には、Weights & Biases (W&B) の適切なAPIキー設定やクラウドインフラ（あるいは自前のGPUクラスタ）が必要です。また、報酬設計（Reward Design）が適切でない場合、意図しないハック（Loophole）が発生しやすいため、段階的な評価設計が重要となります。 まとめ ARTは、DeepSeek-R1で実証されたGRPO強化学習の強力な力を、一般的なPython開発者がエージェント開発に手軽に取り入れられるようにする画期的なフレームワークです。サーバーレスな訓練環境と強固な報酬設計サポートにより、エージェントが「仕事を通じて自律的に学習し、成長する」ワークフローを身近なものにしてくれます。 参照リンク https://github.com/OpenPipe/ART Shared GitHub Serial: #583"
+    },
     {
       "slug": "2026-05-21-envoy",
       "category": "github-pickup",

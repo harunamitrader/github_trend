@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 12:01:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 21:26:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ART]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-openpipe-art.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-openpipe-art.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-21 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[純粋なC/C++のみで記述され、最小限のセットアップと超軽量な動作でローカルLLM推論を極限まで加速する世界最高峰のオープンソースエンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Sana]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-Sana.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-19-Sana.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Linear AttentionとDC-AEを駆使し、超高速かつ極めて効率的な画像・動画生成を実現するオープンソースの次世代モデルファミリー。]]></description>
     </item>
   </channel>
 </rss>

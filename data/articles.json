@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "title": "ART",
+      "summary": "GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 583,
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-21T20:55:00+09:00",
+      "repoName": "OpenPipe/ART",
+      "repoUrl": "https://github.com/OpenPipe/ART",
+      "articleUrl": "./articles/github/daily/2026-05-21-openpipe-art.html",
+      "starCount": 9514
+    },
+    {
       "title": "2026-05-21 AIコーディングツール アップデート",
       "summary": "Claude Code (v2.1.145), Cline (v3.84.0), Gemini CLI (v0.44.1-nightly) などの主要AIコーディングツールの新バージョンリリース情報と、GitHub Copilot のモデル自動選択機能の発表をまとめてお届けします。",
       "category": "ai-tool-log",

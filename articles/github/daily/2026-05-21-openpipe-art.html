@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ART</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ART</h1>
+      <p class="article-dek">GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-21 -->
+          <strong>2026-05-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/OpenPipe/ART" target="_blank" rel="noreferrer">
+              OpenPipe/ART
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9,514</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>ART</strong>（Agent Reinforcement Trainer）は、OpenPipe社によって開発された、LLMベースの自律型エージェントを強化学習（RL）で訓練するためのオープンソースフレームワークです。特にDeepSeek-R1の学習でも用いられた「GRPO（Group Relative Policy Optimization）」と呼ばれる、メモリと計算効率に優れた強化学習手法をPythonのエージェントアプリケーションに人間工学的に統合できる仕組みを提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>主に以下のような機能を提供し、エージェントの能力向上をサポートします。</p>
+        <ul>
+          <li><strong>マルチステップ・エージェントの訓練:</strong> 単一ステップのテキスト生成タスクだけでなく、LLMが思考し、ツールを使用し、複数ターンの対話を経てゴールに到達する自律型エージェントの強化学習をサポートします。</li>
+          <li><strong>サーバーレス強化学習の実行:</strong> Weights & Biases（W&B）のインフラを活用した「Serverless RL」により、ローカル環境でエージェントを動かして報酬を計算し、重いLLM推論とポリシー更新の訓練はクラウド上のGPU群（最大2000以上の同時リクエスト）にスケールさせて並列実行できます。</li>
+          <li><strong>自動化された報酬関数の適用:</strong> RULER（Relative Universal LLM-Elicited Rewards）と統合されており、正解データ（Ground Truth）がないタスクでも「LLM-as-a-judge（LLMによる相対評価）」をベースに自動で報酬を計算させることが可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>従来の強化学習アプローチと比較して、以下の強みを持っています。</p>
+        <ul>
+          <li><strong>GRPOによる驚異的なリソース効率:</strong> 従来のPPO（Proximal Policy Optimization）と異なり、巨大なCriticモデルをメモリ上に保持する必要がありません。出力された複数（グループ内）の回答候補の相対ランキングによってポリシーを更新するため、VRAMを節約し、QwenやLlama等のオープンモデルを高速に最適化できます。</li>
+          <li><strong>実用的な検証結果（フロンティアモデル超え）:</strong> メールデータ検索を行うエージェント（ART-E）にARTを適用したところ、OpenAIのo3などの大規模なフロンティアモデルを上回る精度・速度・低コストを達成した実績があります。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず、<code>pip install openpipe-art</code> 等でライブラリを導入します。その後、<code>art.TrainableModel</code> でベースモデル（例: <code>OpenPipe/Qwen3-14B-Instruct</code>）とプロジェクトを設定し、<code>ServerlessBackend</code> などのバックエンドに登録します。コード内でエージェントの実行ループ（ロールアウト）と報酬（Reward）関数の定義を記述し、W&B API等を通じて訓練を実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>LLMエージェントの信頼性やツール使用精度を向上させたい開発者、プロンプトエンジニアリングや教師あり微調整（SFT）だけでは限界を感じているAIエンジニア、少ないGPUインフラ予算で強化学習（RL）をプロダクションに組み込みたいチームに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>高度な強化学習のセットアップや大規模な並列リクエストの送信には、Weights & Biases (W&B) の適切なAPIキー設定やクラウドインフラ（あるいは自前のGPUクラスタ）が必要です。また、報酬設計（Reward Design）が適切でない場合、意図しないハック（Loophole）が発生しやすいため、段階的な評価設計が重要となります。</p>
+
+        <h2>まとめ</h2>
+        <p>ARTは、DeepSeek-R1で実証されたGRPO強化学習の強力な力を、一般的なPython開発者がエージェント開発に手軽に取り入れられるようにする画期的なフレームワークです。サーバーレスな訓練環境と強固な報酬設計サポートにより、エージェントが「仕事を通じて自律的に学習し、成長する」ワークフローを身近なものにしてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OpenPipe/ART" target="_blank" rel="noreferrer">https://github.com/OpenPipe/ART</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #583</p>
+      </div>
+    </article>
+  </body>
+</html>
