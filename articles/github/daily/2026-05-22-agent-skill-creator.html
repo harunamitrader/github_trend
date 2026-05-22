@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-skill-creator</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-skill-creator</h1>
+      <p class="article-dek">AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-22 -->
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/FrancyJGLisboa/agent-skill-creator" target="_blank" rel="noreferrer">
+              FrancyJGLisboa/agent-skill-creator
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>977</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>agent-skill-creator</strong> は、散在した手順書やドキュメントを、再利用可能な AI エージェント用スキルに変換するためのオープンソース基盤です。README では、`SKILL.md` を軸にして Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini など 14 以上のツールへ同じスキルを配布できる点を前面に出しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>入力として受け取るのは、手順書、リンク、既存コード、PDF、文字起こしなどの雑多な材料です。そこから、検証済みのスキルを生成し、必要に応じてインストール用スクリプトや各ツール向けの形式に合わせたファイルまで整えます。</p>
+        <ul>
+          <li><strong>共通スキルの生成:</strong> 1 つの `SKILL.md` から複数ツールで使えるスキルを作成します。</li>
+          <li><strong>自動インストール:</strong> `bootstrap.sh` や `install.sh` で、各プラットフォーム向けの配置を自動化します。</li>
+          <li><strong>品質チェック:</strong> 構造検証、セキュリティスキャン、更新の古さ確認を通して、配布前の品質を確認します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>この repo の強みは、単なるテンプレート集ではなく、スキルの「生成」「検証」「配布」「共有」までを一本化している点です。個人の作業メモを、そのままチームで再利用できる運用資産に変えやすくなります。</p>
+        <ul>
+          <li><strong>14+ ツール対応:</strong> Claude Code、Copilot、Codex CLI、Gemini CLI、Cursor、Windsurf などをまとめて扱えます。</li>
+          <li><strong>レジストリ機能:</strong> チーム内でスキルを一覧・検索・公開できる共有リポジトリ運用を想定しています。</li>
+          <li><strong>形式の自動変換:</strong> Cursor や Windsurf など、ツールごとのフォーマット差を吸収します。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず repo を clone し、README にある `bootstrap.sh` か `install.sh` を実行します。その後、作りたいワークフローの説明を与えると、スキル一式が生成されます。生成されたスキルは、各ツールの規約に合わせてそのまま配布できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>同じ作業手順を何度も説明しているチーム、複数の AI ツールを併用していて設定を揃えたい人、社内の暗黙知を再利用可能な資産にしたい人に向いています。特に、業務フローを定型化したい開発チームや、導入支援を行うコンサルタントと相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>便利ですが、生成されたスキルをそのまま本番投入するより、内容の妥当性と安全性を一度確認したほうがいいです。外部 API や社内規程に依存するスキルは、更新切れや権限のズレが起きやすいので、レビューと再検証の流れを残しておくのが実用的です。</p>
+
+        <h2>まとめ</h2>
+        <p>agent-skill-creator は、AI に渡す手順を「使い回せる技能」に変えるための実務寄りの基盤です。スキルの作成・検証・配布をまとめて扱えるので、個人の工夫をチームの共通資産にしやすい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/FrancyJGLisboa/agent-skill-creator" target="_blank" rel="noreferrer">https://github.com/FrancyJGLisboa/agent-skill-creator</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/FrancyJGLisboa/agent-skill-creator/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #588</p>
+      </div>
+    </article>
+  </body>
+</html>

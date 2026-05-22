@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "agent-skill-creator",
+      "summary": "AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 588,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:01:46+09:00",
+      "slug": "2026-05-22-agent-skill-creator",
+      "repoName": "FrancyJGLisboa/agent-skill-creator",
+      "repoUrl": "https://github.com/FrancyJGLisboa/agent-skill-creator",
+      "articleUrl": "./articles/github/daily/2026-05-22-agent-skill-creator.html",
+      "starCount": 977
+    },
+    {
       "title": "skills",
       "dek": "AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集",
       "summary": "AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集",

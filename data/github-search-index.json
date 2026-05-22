@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-21T20:00:03.042771+00:00",
-  "count": 641,
+  "generatedAt": "2026-05-22T01:03:15.010197+00:00",
+  "count": 642,
   "articles": [
+    {
+      "slug": "2026-05-22-agent-skill-creator",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agent-skill-creator",
+      "dek": "",
+      "summary": "AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。",
+      "repoName": "FrancyJGLisboa/agent-skill-creator",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:01:46+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-22-agent-skill-creator.html",
+      "serial": 588,
+      "searchText": "agent-skill-creator AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。 FrancyJGLisboa/agent-skill-creator AIコーディング (ワークフロー・プロンプト・開発補助ツール) agent-skill-creator ← 記事一覧へ戻る GitHub Watcher agent-skill-creator AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。 記事作成日 2026-05-22 種別 Pickup 対象 repo FrancyJGLisboa/agent-skill-creator Star数 977 これは何か agent-skill-creator は、散在した手順書やドキュメントを、再利用可能な AI エージェント用スキルに変換するためのオープンソース基盤です。README では、`SKILL.md` を軸にして Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini など 14 以上のツールへ同じスキルを配布できる点を前面に出しています。 何ができるか 入力として受け取るのは、手順書、リンク、既存コード、PDF、文字起こしなどの雑多な材料です。そこから、検証済みのスキルを生成し、必要に応じてインストール用スクリプトや各ツール向けの形式に合わせたファイルまで整えます。 共通スキルの生成: 1 つの `SKILL.md` から複数ツールで使えるスキルを作成します。 自動インストール: `bootstrap.sh` や `install.sh` で、各プラットフォーム向けの配置を自動化します。 品質チェック: 構造検証、セキュリティスキャン、更新の古さ確認を通して、配布前の品質を確認します。 目立つポイント この repo の強みは、単なるテンプレート集ではなく、スキルの「生成」「検証」「配布」「共有」までを一本化している点です。個人の作業メモを、そのままチームで再利用できる運用資産に変えやすくなります。 14+ ツール対応: Claude Code、Copilot、Codex CLI、Gemini CLI、Cursor、Windsurf などをまとめて扱えます。 レジストリ機能: チーム内でスキルを一覧・検索・公開できる共有リポジトリ運用を想定しています。 形式の自動変換: Cursor や Windsurf など、ツールごとのフォーマット差を吸収します。 セットアップや使い方の流れ まず repo を clone し、README にある `bootstrap.sh` か `install.sh` を実行します。その後、作りたいワークフローの説明を与えると、スキル一式が生成されます。生成されたスキルは、各ツールの規約に合わせてそのまま配布できます。 どんな人向けか 同じ作業手順を何度も説明しているチーム、複数の AI ツールを併用していて設定を揃えたい人、社内の暗黙知を再利用可能な資産にしたい人に向いています。特に、業務フローを定型化したい開発チームや、導入支援を行うコンサルタントと相性が良いです。 注意点 便利ですが、生成されたスキルをそのまま本番投入するより、内容の妥当性と安全性を一度確認したほうがいいです。外部 API や社内規程に依存するスキルは、更新切れや権限のズレが起きやすいので、レビューと再検証の流れを残しておくのが実用的です。 まとめ agent-skill-creator は、AI に渡す手順を「使い回せる技能」に変えるための実務寄りの基盤です。スキルの作成・検証・配布をまとめて扱えるので、個人の工夫をチームの共通資産にしやすい repo です。 参照リンク https://github.com/FrancyJGLisboa/agent-skill-creator README.md Shared GitHub Serial: #588"
+    },
     {
       "slug": null,
       "category": "github-trending",
@@ -15,7 +30,7 @@
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/daily/2026-05-22-skills.html",
       "serial": 587,
-      "searchText": "skills AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集 AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集 dotnet/skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Rank 4 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "skills AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集 AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集 dotnet/skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) skills ← 記事一覧へ戻る GitHub Watcher skills AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集 記事作成日 2026-05-22 種別 Rank 4 対象 repo dotnet/skills Star数 2,142 これは何か AIコーディングエージェント（GitHub Copilot CLI、Cursor、Claude Codeなど）が .NET や C# で開発を行う際に、最適なコードを出力できるようにするための専用スキルセット（プロンプト・コンテキスト集）です。 何ができるか プロジェクトにこれらのスキル（プロンプトファイル等）を組み込むことで、AIエージェントが .NET のベストプラクティス、最新の C# 構文、プロジェクト特有のアーキテクチャ規約を遵守したコードを生成するようになります。 目立つポイント .NET特化 : C# 12や.NET 8などの最新機能に最適化されたコンテキストを提供。 プラグ＆プレイ : 既存のプロジェクトリポジトリの特定ディレクトリ（例: .cursorrulesや.github/copilot-instructions.md）に配置するだけですぐに効果を発揮。 コミュニティ主導 : 多くの開発者による知見が集約された実践的なプロンプト集。 セットアップや使い方の流れ リポジトリから自分の利用しているAIツール（Cursor、Copilotなど）に合わせた設定ファイルやMarkdownファイルをコピーし、自身のプロジェクトのルートディレクトリに配置します。 どんな人向けか .NETやC#で開発を行っており、AIコーディングアシスタントの出力品質を向上させたい、または社内のコーディング規約をAIに守らせたいC#開発チーム。 注意点 スキル（プロンプト）はあくまでAIへの「指示」であり、常に意図した通りに動作するとは限りません。出力されたコードのレビューとテストは依然として必要です。 まとめ dotnet/skillsは、汎用的なAIエージェントを熟練の.NETエンジニアに変身させるための、実践的で不可欠なコンテキスト・リソース集です。 参照リンク https://github.com/dotnet/skills Shared GitHub Serial: #587"
     },
     {
       "slug": null,
@@ -30,7 +45,7 @@
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/daily/2026-05-22-forge.html",
       "serial": 586,
-      "searchText": "forge LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク antoinezambelli/forge AIエージェント (自律基盤・特化アプリ) {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Rank 12 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "forge LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク antoinezambelli/forge AIエージェント (自律基盤・特化アプリ) forge ← 記事一覧へ戻る GitHub Watcher forge LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク 記事作成日 2026-05-22 種別 Rank 12 対象 repo antoinezambelli/forge Star数 1,438 これは何か 大規模言語モデル（LLM）向けのツール呼び出し（Tool-calling）およびマルチステップの自律エージェントワークフローを構築するための、軽量なPythonフレームワークです。 何ができるか 開発者は独自のツール（Python関数）を定義し、LLMにそれを呼び出させることができます。また、複数ステップにわたるタスクの実行と状態（ステート）の管理を自動化できます。 目立つポイント セルフホスト対応 : 外部のプロプライエタリなクラウドに依存せず、ローカルまたは自社環境で完全に動作します。 柔軟なツール統合 : 既存のPythonコードを数行のデコレータでLLM対応ツールに変換できます。 マルチステップ管理 : 複雑なタスクを細かいステップに分割し、LLMが順次実行していく過程をトラッキングできます。 セットアップや使い方の流れ pipでパッケージをインストール後、APIキー（OpenAIなど）またはローカルLLMのエンドポイントを設定し、Pythonスクリプト内でエージェントのインスタンスを作成してタスクを渡します。 どんな人向けか 独自のツールチェーンや社内APIをLLMエージェントに統合したい開発者や、データプライバシーの観点からセルフホスト環境でエージェントを動かしたい研究者。 注意点 LLMによる自動ツール呼び出しは、予期せぬ破壊的操作（データベースの削除など）を引き起こす可能性があるため、本番環境での権限設定やサンドボックス化が必須です。 まとめ Forgeは、自律型LLMエージェントの構築をローカル環境でセキュアかつ簡潔に行うための強力な基盤を提供します。 参照リンク https://github.com/antoinezambelli/forge Shared GitHub Serial: #586"
     },
     {
       "slug": null,
@@ -45,7 +60,7 @@
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/daily/2026-05-22-s-ui.html",
       "serial": 585,
-      "searchText": "s-ui SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース alireza0/s-ui スクレイピング・情報収集・セキュリティ {{REPO_SLUG}} ← 記事一覧へ戻る GitHub Watcher {{REPO_SLUG}} {{DEK_DESCRIPTION}} 記事作成日 {{YYYY_MM_DD}} 種別 Rank 18 対象 repo {{OWNER_REPO}} Star数 {{STAR_COUNT_COMMA}} これは何か {{WHAT_IS_THIS}} 何ができるか {{WHAT_CAN_IT_DO}} 目立つポイント {{KEY_FEATURES}} セットアップや使い方の流れ {{SETUP_USAGE}} どんな人向けか {{TARGET_AUDIENCE}} 注意点 {{CAUTIONS}} まとめ {{SUMMARY}} 参照リンク {{REPO_URL}} Shared GitHub Serial: #{{SERIAL_NUMBER}}"
+      "searchText": "s-ui SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース alireza0/s-ui スクレイピング・情報収集・セキュリティ s-ui ← 記事一覧へ戻る GitHub Watcher s-ui SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース 記事作成日 2026-05-22 種別 Rank 18 対象 repo alireza0/s-ui Star数 8,910 これは何か SagerNetおよびSing-Boxプロキシサーバーを管理するための高度なWebパネルインターフェースです。 何ができるか ブラウザからGUIベースでプロキシノードの追加・削除・ルーティングルールの設定、トラフィックのモニタリングなどが直感的に行えます。 目立つポイント 直感的なUI : 複雑なJSON設定を意識することなく操作可能。 Sing-Box対応 : 最新の強力なプロキシコアであるSing-Boxをネイティブサポート。 リアルタイム監視 : トラフィック状況や接続クライアント数を可視化。 セットアップや使い方の流れ インストールスクリプト（bashコマンド）を実行するだけで、必要なパッケージやDockerコンテナが自動的にセットアップされます。その後、ブラウザで指定ポートにアクセスして初期設定を行います。 どんな人向けか VPSなどでSagerNetやSing-Boxベースのプロキシサーバーを構築・運用しており、ターミナルでの設定ファイル編集から解放されたいサーバー管理者。 注意点 プロキシサーバーの運用にはセキュリティ（ポート開放やパスワード設定）に十分注意する必要があります。 まとめ s-uiは、Sing-Boxという強力だが設定が複雑なコアを、誰でも簡単に扱えるようにする画期的なWeb管理パネルです。 参照リンク https://github.com/alireza0/s-ui Shared GitHub Serial: #585"
     },
     {
       "slug": null,
@@ -60,7 +75,7 @@
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html",
       "serial": 51,
-      "searchText": "GitHub Trending Updates for 2026-05-22 2026-05-22 の GitHub Trending 更新レポートです。 {{YYYY_MM_DD}} アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report {{YYYY_MM_DD}} アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 {{YYYY_MM_DD}} 調査件数 全 {{TOTAL_COUNT}} 件 新規作成 {{NEW_COUNT}} 件 本日の調査ランキング（全件） 本日（{{YYYY_MM_DD}}）の GitHub Trending にランクインしていた全 {{TOTAL_COUNT}} リポジトリの調査結果です。 {{RANKING_LIST_ITEMS}} 今後の展望 {{FUTURE_OUTLOOK}}"
+      "searchText": "GitHub Trending Updates for 2026-05-22 2026-05-22 の GitHub Trending 更新レポートです。 2026-05-22 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-22 調査件数 全 19 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-05-22）の GitHub Trending にランクインしていた全 19 リポジトリの調査結果です。 anthropics/claude-plugins-official ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✅ 記事作成済み dotnet/skills ✨ 新規追加 obra/superpowers ✅ 記事作成済み HKUDS/CLI-Anything ✅ 記事作成済み rmyndharis/OpenWA ✅ 記事作成済み ChromeDevTools/chrome-devtools-mcp ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み teng-lin/notebooklm-py ✅ 記事作成済み can1357/oh-my-pi ✅ 記事作成済み antoinezambelli/forge ✨ 新規追加 multica-ai/multica ✅ 記事作成済み Imbad0202/academic-research-skills ✅ 記事作成済み trimstray/the-book-of-secret-knowledge ✅ 記事作成済み truelockmc/streambert ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み alireza0/s-ui ✨ 新規追加 Lum1104/Understand-Anything ✅ 記事作成済み 今後の展望 引き続き、AI、開発ツールを中心としたトレンドを追跡します。"
     },
     {
       "slug": null,

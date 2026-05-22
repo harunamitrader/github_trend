@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 May 2026 21:41:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 10:03:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agent-skill-creator]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-skill-creator.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-skill-creator.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Anthropicが公式に管理する、ターミナル型AIコーディングアシスタント「Claude Code」専用の検証済み高品質プラグインディレクトリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[andrej-karpathy-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-multica-ai-andrej-karpathy-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-multica-ai-andrej-karpathy-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Andrej Karpathy氏のLLMコーディング行動に関する指摘に基づき、不要な書き換えやボイラープレートの肥大化を防ぐために設計されたClaude Code / Cursor向けの最適化ルールセット。]]></description>
     </item>
   </channel>
 </rss>
