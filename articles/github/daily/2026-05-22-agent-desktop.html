@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OS のアクセシビリティツリーを使って、AI エージェントがアプリを構造的に操作できるデスクトップ自動化 CLI です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-desktop</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-desktop</h1>
+      <p class="article-dek">OS のアクセシビリティツリーを使って、AI エージェントがアプリを構造的に操作できるデスクトップ自動化 CLI です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-22 -->
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/lahfir/agent-desktop" target="_blank" rel="noreferrer">
+              lahfir/agent-desktop
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>766</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>agent-desktop</strong> は、AI エージェント向けに作られたデスクトップ自動化 CLI です。画面を画像で見て操作するのではなく、macOS のアクセシビリティ情報を使ってアプリの構造を読み取り、ボタンや入力欄を安定して扱えるようにしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>アプリの一覧やウィンドウ、要素ツリーを取得し、`click`、`type`、`press`、`scroll` などの操作を構造化 JSON で実行できます。`snapshot` と `@e1` のような deterministic な参照を使えるので、複雑な画面でも対象要素を追いやすいです。</p>
+        <ul>
+          <li><strong>アクセシビリティベースの操作:</strong> スクリーンショット依存を避け、構造を優先して操作します。</li>
+          <li><strong>順序立てた観測:</strong> snapshot と ref を使って、観察→判断→実行のループを回せます。</li>
+          <li><strong>FFI 対応:</strong> CLI だけでなく C-ABI cdylib でも呼び出せます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>この repo の強みは、AI が画面を「見る」のではなく、OS が持つ構造情報をそのまま利用する点です。Token 消費を抑えやすく、要素参照も安定しやすいため、Slack や Finder のような密な UI でも扱いやすい設計になっています。</p>
+        <ul>
+          <li><strong>Structured JSON output:</strong> エラーコードや復帰ヒントまで機械的に返します。</li>
+          <li><strong>Headless-by-default:</strong> 余計な副作用を抑えた操作設計です。</li>
+          <li><strong>Permissions 管理:</strong> Accessibility や Screen Recording の許可状態を明示的に確認できます。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `npm install -g agent-desktop` で導入し、macOS のアクセシビリティ権限を付与します。実行後は `snapshot --app <app>` で UI 構造を確認し、`click` や `type` を ref 指定で呼び出していく流れです。必要に応じて `npx agent-desktop ...` でも試せます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ブラウザではなくローカルアプリを AI に操作させたい人、スクリーンショット中心の自動化で不安定さを感じている人、CLI とアプリ操作をひとつのワークフローにしたい人に向いています。特に macOS の GUI 操作を安全寄りに扱いたいケースと相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>macOS 前提で、Accessibility と Screen Recording の権限が必要です。使える操作は OS のアクセシビリティツリーに依存するため、アプリ側が適切な情報を公開していないと十分に扱えない場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>agent-desktop は、AI エージェントにデスクトップの「構造」を渡すための実用的な CLI です。画像認識ベースよりも安定した GUI 操作を求める場面で、かなり相性のよい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/lahfir/agent-desktop" target="_blank" rel="noreferrer">https://github.com/lahfir/agent-desktop</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/lahfir/agent-desktop/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #590</p>
+      </div>
+    </article>
+  </body>
+</html>

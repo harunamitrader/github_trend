@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "agent-desktop",
+      "summary": "OS のアクセシビリティツリーを使って、AI エージェントがアプリを構造的に操作できるデスクトップ自動化 CLI です。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 590,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T12:40:56+09:00",
+      "slug": "2026-05-22-agent-desktop",
+      "repoName": "lahfir/agent-desktop",
+      "repoUrl": "https://github.com/lahfir/agent-desktop",
+      "articleUrl": "./articles/github/daily/2026-05-22-agent-desktop.html",
+      "starCount": 766
+    },
+    {
       "title": "hive",
       "summary": "ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。",
       "category": "github-pickup",

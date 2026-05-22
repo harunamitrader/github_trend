@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 01:09:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 12:41:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agent-desktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-desktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-desktop.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OS のアクセシビリティツリーを使って、AI エージェントがアプリを構造的に操作できるデスクトップ自動化 CLI です。]]></description>
+    </item>
     <item>
       <title><![CDATA[hive]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hive.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[オープンソースで提供される、プロ品質の高度な2Dアニメーション制作ソフトウェア。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-20 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-20-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
