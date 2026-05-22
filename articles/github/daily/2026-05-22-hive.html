@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hive</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hive</h1>
+      <p class="article-dek">ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-22 -->
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tt-a1i/hive" target="_blank" rel="noreferrer">
+              tt-a1i/hive
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>122</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>hive</strong> は、Claude Code、Codex、Gemini、OpenCode などの CLI Agent を、ブラウザ上のワークスペースからまとめて扱う協調実行基盤です。各 Agent はシミュレーションではなく本機の PTY プロセスとして動き、Hive はその間に入って役割分担と進捗整理を行います。</p>
+
+        <h2>何ができるか</h2>
+        <p>Orchestrator がタスクを配り、Worker が実作業を進め、`<workspace>/.hive/tasks.md` に進行状況を共有します。コード作業だけでなく、調査、下書き、翻訳、レビューのような分業にも向いています。</p>
+        <ul>
+          <li><strong>実プロセス連携:</strong> 各 Agent をローカルの CLI として起動し、そのまま制御します。</li>
+          <li><strong>役割分担:</strong> Orchestrator と Worker を分けて、複数 Agent の流れを整理できます。</li>
+          <li><strong>タスク共有:</strong> workspace 配下の markdown を共通のタスク図として扱えます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なるマルチチャット UI ではなく、ローカルの CLI 実行を前提にしているのが特徴です。ブラウザ UI は操作の窓口で、実作業は手元のプロセスが担うため、長時間タスクでも状態を追いやすくなっています。</p>
+        <ul>
+          <li><strong>PTY ベース:</strong> 端末のスクロールやセッション状態をそのまま保持できます。</li>
+          <li><strong>Demo モード:</strong> 実 CLI がなくても、導入前に動作イメージを確認できます。</li>
+          <li><strong>PWA 対応:</strong> ブラウザから独立したアプリ風の使い方にも寄せられます。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 22 以上を用意し、`npm install -g @tt-a1i/hive` で入れます。起動後に表示される `127.0.0.1` の URL を開き、ワークスペースを選んで Orchestrator と Worker を追加すれば、`team send` と `team report` を使った協調実行を始められます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の CLI Agent を同時に使いたい開発者、タスクを分業して進めたいチーム、レビューや調査を含む長い作業を可視化したい人に向いています。1 人で複数端末を行き来していた作業を、1 つの画面に集約したい場面で効きます。</p>
+
+        <h2>注意点</h2>
+        <p>Hive はローカル実行前提のツールで、サンドボックスや権限分離を提供しません。Worker はあなたの端末上で動く本物の CLI なので、信頼できる workspace だけで使うのが前提です。</p>
+
+        <h2>まとめ</h2>
+        <p>hive は、CLI Agent を「単体の会話相手」ではなく「チームとして動く実行基盤」に変える repo です。複数 Agent の役割分担と進捗管理を、ローカルの実プロセスで扱いたい人に向いています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tt-a1i/hive" target="_blank" rel="noreferrer">https://github.com/tt-a1i/hive</a>
+        </div>
+        <div class="source-item">
+          <a href="https://hivehq.dev/" target="_blank" rel="noreferrer">https://hivehq.dev/</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #589</p>
+      </div>
+    </article>
+  </body>
+</html>

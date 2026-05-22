@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T01:03:15.010197+00:00",
-  "count": 642,
+  "generatedAt": "2026-05-22T01:08:30.921655+00:00",
+  "count": 643,
   "articles": [
+    {
+      "slug": "2026-05-22-hive",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hive",
+      "dek": "",
+      "summary": "ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。",
+      "repoName": "tt-a1i/hive",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:08:03+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-22-hive.html",
+      "serial": 589,
+      "searchText": "hive ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。 tt-a1i/hive AIエージェント (自律基盤・特化アプリ) hive ← 記事一覧へ戻る GitHub Watcher hive ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。 記事作成日 2026-05-22 種別 Pickup 対象 repo tt-a1i/hive Star数 122 これは何か hive は、Claude Code、Codex、Gemini、OpenCode などの CLI Agent を、ブラウザ上のワークスペースからまとめて扱う協調実行基盤です。各 Agent はシミュレーションではなく本機の PTY プロセスとして動き、Hive はその間に入って役割分担と進捗整理を行います。 何ができるか Orchestrator がタスクを配り、Worker が実作業を進め、` /.hive/tasks.md` に進行状況を共有します。コード作業だけでなく、調査、下書き、翻訳、レビューのような分業にも向いています。 実プロセス連携: 各 Agent をローカルの CLI として起動し、そのまま制御します。 役割分担: Orchestrator と Worker を分けて、複数 Agent の流れを整理できます。 タスク共有: workspace 配下の markdown を共通のタスク図として扱えます。 目立つポイント 単なるマルチチャット UI ではなく、ローカルの CLI 実行を前提にしているのが特徴です。ブラウザ UI は操作の窓口で、実作業は手元のプロセスが担うため、長時間タスクでも状態を追いやすくなっています。 PTY ベース: 端末のスクロールやセッション状態をそのまま保持できます。 Demo モード: 実 CLI がなくても、導入前に動作イメージを確認できます。 PWA 対応: ブラウザから独立したアプリ風の使い方にも寄せられます。 セットアップや使い方の流れ Node.js 22 以上を用意し、`npm install -g @tt-a1i/hive` で入れます。起動後に表示される `127.0.0.1` の URL を開き、ワークスペースを選んで Orchestrator と Worker を追加すれば、`team send` と `team report` を使った協調実行を始められます。 どんな人向けか 複数の CLI Agent を同時に使いたい開発者、タスクを分業して進めたいチーム、レビューや調査を含む長い作業を可視化したい人に向いています。1 人で複数端末を行き来していた作業を、1 つの画面に集約したい場面で効きます。 注意点 Hive はローカル実行前提のツールで、サンドボックスや権限分離を提供しません。Worker はあなたの端末上で動く本物の CLI なので、信頼できる workspace だけで使うのが前提です。 まとめ hive は、CLI Agent を「単体の会話相手」ではなく「チームとして動く実行基盤」に変える repo です。複数 Agent の役割分担と進捗管理を、ローカルの実プロセスで扱いたい人に向いています。 参照リンク https://github.com/tt-a1i/hive https://hivehq.dev/ Shared GitHub Serial: #589"
+    },
     {
       "slug": "2026-05-22-agent-skill-creator",
       "category": "github-pickup",

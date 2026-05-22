@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "hive",
+      "summary": "ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 589,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:08:03+09:00",
+      "slug": "2026-05-22-hive",
+      "repoName": "tt-a1i/hive",
+      "repoUrl": "https://github.com/tt-a1i/hive",
+      "articleUrl": "./articles/github/daily/2026-05-22-hive.html",
+      "starCount": 122
+    },
+    {
       "title": "agent-skill-creator",
       "summary": "AI の作業手順を SKILL.md に落とし込み、14 以上のツールへ配布できるスキル生成・配布基盤です。",
       "category": "github-pickup",

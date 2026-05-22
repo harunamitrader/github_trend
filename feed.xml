@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 01:04:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 10:08:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hive]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hive.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hive.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザから複数の CLI Agent を実プロセスとして束ね、Orchestrator と Worker で協調実行できる本機優先のワーク台です。]]></description>
+    </item>
     <item>
       <title><![CDATA[agent-skill-creator]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-skill-creator.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-plugins-official]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Anthropicが公式に管理する、ターミナル型AIコーディングアシスタント「Claude Code」専用の検証済み高品質プラグインディレクトリ。]]></description>
     </item>
   </channel>
 </rss>
