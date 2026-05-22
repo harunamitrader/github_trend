@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 21:43:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:53:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-23 AI一般ツール アップデート]]></title>
@@ -14,6 +14,14 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-browser]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-agent-browser.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-agent-browser.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。]]></description>
     </item>
     <item>
       <title><![CDATA[mirage]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.148 は Bash ツールの exit code 127 回帰を修正した小規模パッチです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline CLI v3.0.10: file:// プラグインとセッション維持を改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-cline-cli-v3-0-10.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-cline-cli-v3-0-10.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cline CLI v3.0.10 は file:// プラグイン導入、セッション維持、Bedrock 認証修正をまとめた更新です。]]></description>
     </item>
   </channel>
 </rss>

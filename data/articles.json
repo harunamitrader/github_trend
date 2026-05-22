@@ -22,6 +22,22 @@
       ]
     },
     {
+      "title": "agent-browser",
+      "dek": "AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。",
+      "summary": "Browser automation CLI for AI agents の agent-browser を、導入のしやすさと実務での使いどころに絞って整理した記事。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 599,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T06:52:23+09:00",
+      "slug": "2026-05-23-agent-browser",
+      "repoName": "vercel-labs/agent-browser",
+      "repoUrl": "https://github.com/vercel-labs/agent-browser",
+      "articleUrl": "./articles/github/daily/2026-05-23-agent-browser.html",
+      "starCount": 34000
+    },
+    {
       "title": "mirage",
       "dek": "AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。",
       "summary": "Mirage は、S3、Slack、GDrive などを単一の VFS にマウントして、bash だけで横断操作できる AI エージェント向け基盤です。",

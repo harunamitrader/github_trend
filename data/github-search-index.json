@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T21:37:55.807956+00:00",
-  "count": 653,
+  "generatedAt": "2026-05-22T21:53:00.729446+00:00",
+  "count": 654,
   "articles": [
+    {
+      "slug": "2026-05-23-agent-browser",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agent-browser",
+      "dek": "AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。",
+      "summary": "Browser automation CLI for AI agents の agent-browser を、導入のしやすさと実務での使いどころに絞って整理した記事。",
+      "repoName": "vercel-labs/agent-browser",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T06:52:23+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-agent-browser.html",
+      "serial": 599,
+      "searchText": "agent-browser AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。 Browser automation CLI for AI agents の agent-browser を、導入のしやすさと実務での使いどころに絞って整理した記事。 vercel-labs/agent-browser AIエージェント (自律基盤・特化アプリ) agent-browser ← 記事一覧へ戻る GitHub Watcher agent-browser AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。 記事作成日 2026-05-23 種別 Pickup 対象 repo vercel-labs/agent-browser Star数 34,000 これは何か agent-browser は、AI エージェント向けに作られたブラウザ自動化 CLI です。README では 「Fast native Rust CLI」として案内されており、ブラウザを開く、画面をスナップショット化する、 DOM やアクセシビリティ情報を参照する、といった作業をコマンドで扱えます。 何ができるか `open`、`snapshot`、`click`、`fill`、`keyboard`、`screenshot` などの基本操作を CLI でまとめて扱えます。 フォーム入力や簡単な E2E 確認、画面からの情報抽出を、LLM から呼び出しやすい形に揃えているのが強みです。 ローカルブラウザだけでなく、Browserless や Browserbase、Browser Use、Kernel、AWS Bedrock AgentCore などの 実行基盤にも接続できるため、手元の検証からクラウド実行までつなげやすい設計です。 目立つポイント 一番わかりやすい価値は、AI エージェントが扱いやすい形でブラウザ操作を抽象化していることです。 ページの要素を直接いじるよりも、`snapshot` で状況を把握し、`click` や `fill` で進める流れは、 エージェントの行動モデルと相性が良いです。 セットアップや使い方の流れ まずは `npm install -g agent-browser` で導入し、初回実行時に Chrome for Testing を取得します。 ローカル開発では `agent-browser snapshot -i` で操作対象を把握し、`agent-browser click @e2` のように ref 指定で操作するのが基本です。 どんな人向けか ブラウザ経由の検証を AI エージェントに任せたい人、UI 操作を CLI から自動化したい人、CI で ブラウザベースの確認を回したいチームに向いています。 注意点 README では、ソースからビルドする場合に Node.js 24 以上、pnpm 11 以上、Rust が必要と案内されています。 また、初回は Chrome の取得が入るため、導入直後は少し時間がかかります。 まとめ agent-browser は、AI エージェント向けのブラウザ操作を CLI に落とし込んだ実用寄りのツールです。 「ブラウザを読ませて、クリックさせて、結果を拾う」を素直に回したい場面で使いやすい構成です。 参照リンク https://github.com/vercel-labs/agent-browser README.md Shared GitHub Serial: #599"
+    },
     {
       "slug": "2026-05-23-mirage",
       "category": "github-pickup",
