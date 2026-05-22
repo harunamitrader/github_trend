@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T21:19:24.962120+00:00",
+  "generatedAt": "2026-05-22T21:37:55.807956+00:00",
   "count": 653,
   "articles": [
     {
@@ -1656,16 +1656,16 @@
       "slug": null,
       "category": "github-pickup",
       "originType": "pickup",
-      "title": "powershell-discord-bridge",
+      "title": "multicli-discord-bridge",
       "dek": "",
-      "summary": "Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。",
-      "repoName": "harunamitrader/powershell-discord-bridge",
+      "summary": "複数のAI CLIを6つのslotに並べ、Discordから遠隔操作と進行監視を行えるWindows向けローカルデスクトップアプリ。",
+      "repoName": "harunamitrader/multicli-discord-bridge",
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "publishedAt": "2026-05-13",
       "createdAt": "2026-05-13T09:44:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-13-harunamitrader-powershell-discord-bridge.html",
       "serial": 498,
-      "searchText": "powershell-discord-bridge Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。 harunamitrader/powershell-discord-bridge AIエージェント (自律基盤・特化アプリ) powershell-discord-bridge ← 記事一覧へ戻る GitHub Watcher powershell-discord-bridge Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。 記事作成日 2026-05-13 種別 Pickup 対象 repo harunamitrader/powershell-discord-bridge Star数 0 これは何か Discordをユーザーインターフェースとして使用し、自宅やオフィスのPCでPowerShellスクリプトやコマンドを実行するためのブリッジツールです。Node.jsとDiscord.jsを使用して構築されており、チャット画面からPCをリモート操作することを目的としています。 何ができるか Discordの特定のチャンネルにメッセージを投稿することで、連携したPC上でPowerShell 7を実行します。コマンドの標準出力やエラー出力をDiscordに返送できるため、実行結果をリアルタイムで確認可能です。また、特定のユーザーIDやサーバーIDによる実行制限など、セキュリティ設定も備えています。 目立つポイント 環境変数（.env）による柔軟な設定管理と、TypeScriptによる型安全な実装が特徴です。複雑なVPN環境を構築することなく、Discordという既存のプラットフォームを通じてセキュアにリモート実行環境を構築できる点が実用的です。 セットアップや使い方の流れ Discord Developer PortalでBotを作成し、トークンを取得します。プロジェクトをクローンした後、 npm install で依存関係を解決し、 .env ファイルにトークンや許可するユーザーIDを記述します。 npm run dev またはビルド後の npm start でBotを起動すれば準備完了です。 どんな人向けか 外出先から自宅PCのメンテナンスを行いたいインフラエンジニア、特定のルーチンワークをDiscordからトリガーしたい自動化愛好家、またはAIエージェントにPC操作権限を与えるためのプロキシ基盤を構築したい開発者。 注意点 本ツールは許可されたメッセージをPC上で直接実行するため、公開サーバーでの運用は避けるべきです。必ず ALLOW_USER_IDS 等を使用して、信頼できるユーザーのみが実行できるように厳格に設定を制限して運用してください。 まとめ powershell-discord-bridgeは、Discordという身近なツールを「リモートターミナル」へと変貌させる便利なユーティリティです。シンプルながらも拡張性が高く、パーソナルな自動化環境の核として活用できるポテンシャルを持っています。 参考画像 powershell-discord-bridge の概要図 参照リンク https://github.com/harunamitrader/powershell-discord-bridge Shared GitHub Serial: #498"
+      "searchText": "multicli-discord-bridge 複数のAI CLIを6つのslotに並べ、Discordから遠隔操作と進行監視を行えるWindows向けローカルデスクトップアプリ。 harunamitrader/multicli-discord-bridge AIエージェント (自律基盤・特化アプリ) multicli-discord-bridge ← 記事一覧へ戻る GitHub Watcher multicli-discord-bridge 複数のAI CLIを6つのslotに並べ、Discordから遠隔操作と進行監視を行えるWindows向けローカルデスクトップアプリ。 記事作成日 2026-05-13 種別 Pickup 対象 repo harunamitrader/multicli-discord-bridge Star数 0 これは何か multicli-discord-bridge は、Windows PC 上で動く Electron 製のローカルデスクトップアプリです。6 つの固定 slot に Claude Code、Codex CLI、Gemini CLI など複数の AI CLI や PowerShell ターミナルを並べ、Discord を操作面として各 slot に指示を送り、返答や進行状況を追跡できるようにします。 何ができるか 1 Discord チャンネルを 1 slot に対応づけ、通常メッセージをそのまま対象 terminal に流し込めます。スクリーンショット返送、表示テキスト末尾の取得、slot 間テキスト送信、artifact フォルダ監視、Cron による定期投入まで備えており、離れた場所からでも複数の CLI 作業を同時進行で監視・介入できます。 目立つポイント 単なる Discord 経由の PowerShell 実行ではなく、複数 CLI を 1 画面に可視化した orchestration 寄りの設計が特徴です。React 19 + Electron + TypeScript で構成され、6 slot 固定レイアウト、アプリ全体のスクリーンショット返送、ローカル automation endpoint、`mcron` によるジョブ管理など、AI CLI の平行運用に必要な部品が一通り揃っています。 セットアップや使い方の流れ まず Discord Bot を作成し、`DISCORD_BOT_TOKEN`、`ALLOW_USER_IDS`、`ALLOW_GUILD_ID` を `.env` に設定します。その後 `npm install`、`npm run build`、`npm start` の順でアプリを起動するか、同梱の `launch-multicli-discord-bridge.ps1` を使います。起動すると 6 つの slot と artifact チャンネル運用の前提が整い、各 slot に Discord チャンネルをひも付けて運用を始められます。 どんな人向けか 複数の AI CLI を役割分担させて並行運用したい開発者、自宅 Windows マシン上の作業を外出先から Discord 経由で追いたい個人運用者、または手元の CLI 群を 1 つの監視 UI に統合したいユーザーに向いています。公開 bot というより、自分用または小規模チーム向けの運用が前提です。 注意点 Discord から送られた内容がローカル PC 上の terminal に到達するため、公開サーバーや不特定多数が書き込める環境には向きません。README でも `ALLOW_USER_IDS` と単一 `ALLOW_GUILD_ID` による制限を強く前提としており、Windows 専用・PowerShell 中心の運用である点も受け入れる必要があります。 まとめ multicli-discord-bridge は、Discord を入口にしつつ、実体は複数の AI CLI セッションを束ねるローカル orchestration ワークベンチです。1 本の terminal を遠隔操作する段階を超えて、複数 slot の進行管理や役割分担まで視野に入れた実務向けツールとして整理されています。 参照リンク https://github.com/harunamitrader/multicli-discord-bridge Shared GitHub Serial: #498"
     },
     {
       "slug": null,

@@ -1962,10 +1962,10 @@
       ]
     },
     {
-      "title": "powershell-discord-bridge",
-      "repoName": "harunamitrader/powershell-discord-bridge",
-      "repoUrl": "https://github.com/harunamitrader/powershell-discord-bridge",
-      "summary": "Discord経由でリモートPCのPowerShellを安全に実行し、PC操作や自動化を可能にするNode.jsベースのブリッジツール。",
+      "title": "multicli-discord-bridge",
+      "repoName": "harunamitrader/multicli-discord-bridge",
+      "repoUrl": "https://github.com/harunamitrader/multicli-discord-bridge",
+      "summary": "複数のAI CLIを6つのslotに並べ、Discordから遠隔操作と進行監視を行えるWindows向けローカルデスクトップアプリ。",
       "category": "github-pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)",
       "originType": "pickup",
@@ -1975,9 +1975,10 @@
       "createdAt": "2026-05-13T09:44:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-13-harunamitrader-powershell-discord-bridge.html",
       "tags": [
-        "PowerShell",
+        "Electron",
         "Discord",
-        "Automation",
+        "AI CLI",
+        "Windows",
         "TypeScript"
       ]
     },
