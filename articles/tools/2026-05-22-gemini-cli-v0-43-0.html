@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.43.0 は、編集ツールの使い分け、/resume の挙動、セッション入出力、モデルルーティングを広く修正した安定化リリースです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.43.0: edit ツール誘導と /resume 周りを修正 | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools / Coding</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.43.0: edit ツール誘導と /resume 周りを修正</h1>
+      <p class="article-dek">Gemini CLI v0.43.0 は、編集ツールの使い分け、/resume の挙動、セッション入出力、モデルルーティングを広く修正した安定化リリースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.43.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>このリリースは、編集精度とセッションの復帰性を中心に、実務で気になる細部をまとめて整えています。</p>
+        <ul>
+          <li><strong>編集ツールの誘導:</strong> モデルが surgical edit の場面で edit tool を使うように steering が追加されました。</li>
+          <li><strong>Auto Memory の説明改善:</strong> memory updates と skills の提案がどう扱われるかを明確化しました。</li>
+          <li><strong>セッションと /resume の修正:</strong> AgentExecutionStopped の JSON 出力、session の export/import、legacy session の resume 復元、chat corruption の修正が入っています。</li>
+          <li><strong>モデル選択とルーティング:</strong> Flash quota 枯渇後の明示的なモデル選択、adaptive token calculator、NumericalRouter の有効化などが改善されました。</li>
+          <li><strong>実行と安全性:</strong> YOLO / AUTO_EDIT での redirection 許可、numeric project ID の拒否、invalid custom plans の扱い改善、macOS 向け unsigned binary の添付などが含まれます。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Gemini CLI を非対話の自動化や長時間セッションで使う場合、途中復帰と出力の安定性が上がるのが実用的です。編集ツールの使い分けも改善されているので、単純な実行 CLI から少し複雑なエージェント基盤へ寄せたいときに効きます。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.43.0 は、派手な機能追加よりも、編集・復帰・ルーティングの修正を積み上げた安定化リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0" target="_blank" rel="noreferrer">Gemini CLI v0.43.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

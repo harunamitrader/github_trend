@@ -154,6 +154,58 @@
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html"
     },
     {
+      "title": "2026-05-23 AIコーディングツール アップデート",
+      "summary": "Claude Code v2.1.148、Cline CLI v3.0.10、Gemini CLI v0.43.0 の3件をまとめた 2026-05-23 の AIコーディングツール監視ログ。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディングツール",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T04:03:00+09:00",
+      "repoName": "",
+      "repoUrl": "",
+      "articleUrl": "./articles/tools/2026-05-23-ai-coding-tools-update.html",
+      "starCount": 0
+    },
+    {
+      "title": "Claude Code v2.1.148: Bash ツールの exit code 127 回帰を修正",
+      "dek": "Claude Code v2.1.148 は Bash ツールの exit code 127 回帰を修正した小規模パッチです。",
+      "articleUrl": "articles/tools/2026-05-22-claude-code-v2-1-148.html",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:16:52+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Claude Code",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
+      "title": "Cline CLI v3.0.10: file:// プラグインとセッション維持を改善",
+      "dek": "Cline CLI v3.0.10 は file:// プラグイン導入、セッション維持、Bedrock 認証修正をまとめた更新です。",
+      "articleUrl": "articles/tools/2026-05-22-cline-cli-v3-0-10.html",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T12:29:31+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Cline",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
+      "title": "Gemini CLI v0.43.0: edit ツール誘導と /resume 周りを修正",
+      "dek": "Gemini CLI v0.43.0 は編集ツールの使い分けと /resume 周りを広く修正した安定化リリースです。",
+      "articleUrl": "articles/tools/2026-05-22-gemini-cli-v0-43-0.html",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T10:01:44+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Gemini CLI",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
       "title": "2026-05-22 AI一般ツール アップデート",
       "dek": "ChatGPT の Codex 更新、Claude の企業向け連続発表、Grok Skills の公開を横断して整理した 2026-05-22 の Others 監視ログ。",
       "summary": "OpenAI / Anthropic / xAI の直近アナウンスをまとめ、作業補助・企業導入・成果物生成の動きを整理した 2026-05-22 の更新レポート。",

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.148、Cline CLI v3.0.10、Gemini CLI v0.43.0 の3件をまとめた 2026-05-23 の AIコーディングツール監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-05-23 AIコーディングツール アップデート | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-05-23 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code v2.1.148、Cline CLI v3.0.10、Gemini CLI v0.43.0 の3件をまとめた 2026-05-23 の AIコーディングツール監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cline, Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年5月22日に確認された、主要なAIコーディングツールの更新は以下の3件です。</p>
+        <ul>
+          <li><strong>Claude Code (v2.1.148):</strong> 一部環境で Bash tool が exit code 127 を返し続ける回帰を修正しました。</li>
+          <li><strong>Cline CLI (v3.0.10):</strong> file:// 経由のプラグイン導入、アイドル中のセッション維持、Bedrock の profile 認証復元などをまとめて改善しました。</li>
+          <li><strong>Gemini CLI (v0.43.0):</strong> edit tool の使い分け、/resume の復帰、非対話セッションの出力、モデルルーティング周りを広く修正しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回は新機能の大幅追加というより、既存の自動化や長時間セッションを壊さないための安定化が中心です。Claude Code は実行系の回帰修正、Cline はプラグインとセッション運用の改善、Gemini CLI は編集精度と復帰性の改善がそれぞれ効いています。</p>
+
+        <h2>まとめ</h2>
+        <p>3つとも「実務で止まりやすい場所」を埋める更新でした。細部の修正ですが、日々の開発フローではこうした安定化が最も効きます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.148" target="_blank" rel="noreferrer">Claude Code v2.1.148 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/cli-v3.0.10" target="_blank" rel="noreferrer">Cline CLI v3.0.10 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0" target="_blank" rel="noreferrer">Gemini CLI v0.43.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

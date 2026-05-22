@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline CLI v3.0.10 は file:// プラグイン導入、セッション維持、プロバイダ追加、Bedrock 認証修正をまとめた更新です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline CLI v3.0.10: file:// プラグインとセッション維持を改善 | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools / Coding</p>
+      </div>
+
+      <h1 class="article-title">Cline CLI v3.0.10: file:// プラグインとセッション維持を改善</h1>
+      <p class="article-dek">Cline CLI v3.0.10 は、file:// 経由のプラグイン導入、アイドル中のセッション維持、TUI の案内改善などをまとめた更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>CLI v3.0.10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回は、プラグイン導入経路と長時間セッションの扱いを中心に、実務で効く改善がまとめて入っています。</p>
+        <ul>
+          <li><strong>file:// プラグイン対応:</strong> npm と git に加えて、file:// URL からもプラグインをインストールできるようになりました。</li>
+          <li><strong>セッション維持:</strong> 何もしない待機中や承認待ちのセッションを終了扱いしないようにし、`hydrate: false` のセッションで毎回メッセージファイルを読み直さないようにしました。</li>
+          <li><strong>TUI と接続先の改善:</strong> Ollama API key の案内、Poolside プロバイダ追加、Gemini 3.5 Flash のモデル一覧追加、Telegram bot username の自動検出などが入っています。</li>
+          <li><strong>運用と設定の修正:</strong> スケジュール実行失敗時の通知、OTEL 変数のビルド時埋め込み、Bedrock の profile ベース認証の復元、グローバル設定読み取りのキャッシュ化が行われました。</li>
+          <li><strong>表示とプロンプトの微調整:</strong> 拒否された tool call の見た目を弱め、skills 無効時は system prompt から該当ツールを隠すようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>プラグイン配布の柔軟性が増し、アイドル中の長時間セッションも切れにくくなったので、Cline を常時稼働させるワークフローに向いています。プロバイダ追加や認証まわりの修正も含まれるため、設定変更が多い環境ほど恩恵が大きい更新です。</p>
+
+        <h2>まとめ</h2>
+        <p>v3.0.10 は派手な機能追加よりも、導入経路の拡張とセッション運用の安定化を進めた実務寄りのリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/cli-v3.0.10" target="_blank" rel="noreferrer">Cline CLI v3.0.10 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
