@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hunk</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hunk</h1>
+      <p class="article-dek">AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-22 -->
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/modem-dev/hunk" target="_blank" rel="noreferrer">
+              modem-dev/hunk
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,274</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>hunk</strong> は、エージェントが生成した変更差分を読むためのレビュー優先型ターミナルビューアです。Git の diff をそのまま文字列として眺めるのではなく、サイドバー、分割表示、stack 表示、注釈付きのコードビューで「確認しやすい形」に整えます。</p>
+
+        <h2>何ができるか</h2>
+        <p>Git の working tree や commit、raw patch を開き、複数ファイルの差分をまとめて追えます。`hunk diff` や `hunk show` に加えて、watch モードで変更を追従したり、Jujutsu checkout にも対応したりと、変更レビューを中心に据えた操作がそろっています。</p>
+        <ul>
+          <li><strong>multi-file review:</strong> 複数ファイルの差分をサイドバーで切り替えながら確認できます。</li>
+          <li><strong>inline notes:</strong> AI やエージェントの注釈をコード横に表示できます。</li>
+          <li><strong>layout 切替:</strong> split / stack / auto の表示を用途に応じて使い分けられます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>この repo の特徴は、レビュー時の「読む負荷」を落とすことに全振りしている点です。差分を読む人が迷いやすいナビゲーション、複数ファイルの流れ、注釈の見通しを最初から UI に組み込んでいます。</p>
+        <ul>
+          <li><strong>review-first:</strong> 編集ツールではなく、差分確認ツールとして設計されています。</li>
+          <li><strong>agent-aware:</strong> agent-authored changesets と相性がよい構成です。</li>
+          <li><strong>Git difftool 対応:</strong> 既存の Git / jj ワークフローに自然に差し込めます。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>`npm i -g hunkdiff` で導入し、`hunk diff` で現在の変更を開きます。Git の pager に設定すれば `git diff` や `git show` を Hunk で確認でき、必要なら `watch` や raw file 比較もそのまま使えます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI が書いた差分を人間がレビューする場面が多い人、CLI で完結する差分ビューアが欲しい人、複数ファイルの変更を速く追いたい人に向いています。特に agent 開発で「生成されたコードをまず確認したい」というワークフローと相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>Hunk は万能なエディタではなく、レビュー中心の UI です。構造差分そのものを深く解析したいなら別のツールが必要になる場合があります。また、Git の pager 経由では untracked files の扱いが通常の Hunk diff と少し異なります。</p>
+
+        <h2>まとめ</h2>
+        <p>hunk は、AI 時代の差分レビューをやりやすくするための実務寄りビューアです。人間が読む前提の見やすさを優先しているので、agent が出した変更を落ち着いて確認したい人に向いています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/modem-dev/hunk" target="_blank" rel="noreferrer">https://github.com/modem-dev/hunk</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/modem-dev/hunk/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #591</p>
+      </div>
+    </article>
+  </body>
+</html>

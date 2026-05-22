@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "hunk",
+      "summary": "AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 591,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T15:03:28+09:00",
+      "slug": "2026-05-22-hunk",
+      "repoName": "modem-dev/hunk",
+      "repoUrl": "https://github.com/modem-dev/hunk",
+      "articleUrl": "./articles/github/daily/2026-05-22-hunk.html",
+      "starCount": 4274
+    },
+    {
       "title": "agent-desktop",
       "summary": "OS のアクセシビリティツリーを使って、AI エージェントがアプリを構造的に操作できるデスクトップ自動化 CLI です。",
       "category": "github-pickup",

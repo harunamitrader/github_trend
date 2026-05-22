@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 03:42:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 15:03:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hunk]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hunk.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hunk.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。]]></description>
+    </item>
     <item>
       <title><![CDATA[agent-desktop]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-agent-desktop.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[広告や追跡を一切排除した、軽量・高速なオープンソースの映画・アニメ・TV番組ストリーミング＆ダウンロード用デスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opentoonz]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-opentoonz-opentoonz.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-opentoonz-opentoonz.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オープンソースで提供される、プロ品質の高度な2Dアニメーション制作ソフトウェア。]]></description>
     </item>
   </channel>
 </rss>

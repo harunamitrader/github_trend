@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T03:41:53.249550+00:00",
-  "count": 644,
+  "generatedAt": "2026-05-22T06:03:38.372395+00:00",
+  "count": 645,
   "articles": [
+    {
+      "slug": "2026-05-22-hunk",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hunk",
+      "dek": "",
+      "summary": "AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。",
+      "repoName": "modem-dev/hunk",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T15:03:28+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-22-hunk.html",
+      "serial": 591,
+      "searchText": "hunk AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。 modem-dev/hunk AIコーディング (ワークフロー・プロンプト・開発補助ツール) hunk ← 記事一覧へ戻る GitHub Watcher hunk AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。 記事作成日 2026-05-22 種別 Pickup 対象 repo modem-dev/hunk Star数 4,274 これは何か hunk は、エージェントが生成した変更差分を読むためのレビュー優先型ターミナルビューアです。Git の diff をそのまま文字列として眺めるのではなく、サイドバー、分割表示、stack 表示、注釈付きのコードビューで「確認しやすい形」に整えます。 何ができるか Git の working tree や commit、raw patch を開き、複数ファイルの差分をまとめて追えます。`hunk diff` や `hunk show` に加えて、watch モードで変更を追従したり、Jujutsu checkout にも対応したりと、変更レビューを中心に据えた操作がそろっています。 multi-file review: 複数ファイルの差分をサイドバーで切り替えながら確認できます。 inline notes: AI やエージェントの注釈をコード横に表示できます。 layout 切替: split / stack / auto の表示を用途に応じて使い分けられます。 目立つポイント この repo の特徴は、レビュー時の「読む負荷」を落とすことに全振りしている点です。差分を読む人が迷いやすいナビゲーション、複数ファイルの流れ、注釈の見通しを最初から UI に組み込んでいます。 review-first: 編集ツールではなく、差分確認ツールとして設計されています。 agent-aware: agent-authored changesets と相性がよい構成です。 Git difftool 対応: 既存の Git / jj ワークフローに自然に差し込めます。 セットアップや使い方の流れ `npm i -g hunkdiff` で導入し、`hunk diff` で現在の変更を開きます。Git の pager に設定すれば `git diff` や `git show` を Hunk で確認でき、必要なら `watch` や raw file 比較もそのまま使えます。 どんな人向けか AI が書いた差分を人間がレビューする場面が多い人、CLI で完結する差分ビューアが欲しい人、複数ファイルの変更を速く追いたい人に向いています。特に agent 開発で「生成されたコードをまず確認したい」というワークフローと相性が良いです。 注意点 Hunk は万能なエディタではなく、レビュー中心の UI です。構造差分そのものを深く解析したいなら別のツールが必要になる場合があります。また、Git の pager 経由では untracked files の扱いが通常の Hunk diff と少し異なります。 まとめ hunk は、AI 時代の差分レビューをやりやすくするための実務寄りビューアです。人間が読む前提の見やすさを優先しているので、agent が出した変更を落ち着いて確認したい人に向いています。 参照リンク https://github.com/modem-dev/hunk README.md Shared GitHub Serial: #591"
+    },
     {
       "slug": "2026-05-22-agent-desktop",
       "category": "github-pickup",
