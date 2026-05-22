@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "2026-05-23 AI一般ツール アップデート",
+      "dek": "Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。",
+      "summary": "Perplexity の 5/23 更新と Obsidian Community の公開をまとめた 2026-05-23 の Others 監視ログ。検索・研究体験の拡張と、知識基盤の安全性強化を整理しています。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T06:37:00+09:00",
+      "articleUrl": "./articles/tools/2026-05-23-ai-others-tools-update.html",
+      "tags": [
+        "Perplexity",
+        "Obsidian"
+      ]
+    },
+    {
       "title": "mirage",
       "dek": "AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。",
       "summary": "Mirage は、S3、Slack、GDrive などを単一の VFS にマウントして、bash だけで横断操作できる AI エージェント向け基盤です。",

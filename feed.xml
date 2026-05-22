@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 21:38:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:41:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-23 AI一般ツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[mirage]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-mirage.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Cline CLI v3.0.10 は file:// プラグイン導入、セッション維持、Bedrock 認証修正をまとめた更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.43.0: edit ツール誘導と /resume 周りを修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-gemini-cli-v0-43-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-gemini-cli-v0-43-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI v0.43.0 は編集ツールの使い分けと /resume 周りを広く修正した安定化リリースです。]]></description>
     </item>
   </channel>
 </rss>
