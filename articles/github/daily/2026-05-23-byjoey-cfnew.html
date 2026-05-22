@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cloudflare Workers / Pages で動く、プロキシ設定と配布をまとめた管理基盤。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cfnew</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cfnew</h1>
+      <p class="article-dek">Cloudflare Workers / Pages で動く、プロキシ設定と配布をまとめた管理基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/byJoey/cfnew" target="_blank" rel="noreferrer">
+              byJoey/cfnew
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>13,281</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>cfnew は、Cloudflare Workers / Pages 上で動かすプロキシ管理インターフェースで、VLESS、Trojan、xhttp などの複数プロトコルをまとめて扱えるようにしたリポジトリです。配布、設定、クライアント向けの出し分けを 1 つの Worker に寄せています。</p>
+
+        <h2>何ができるか</h2>
+        <p>自動的なクライアント判定、地区別の返し分け、延長線上の延滞テスト、API ベースのノード管理、GUI での KV 設定などをまとめて提供します。Cloudflare のランタイムに載せることで、デプロイ後にそのまま設定変更へ進める運用を狙っています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>多言語対応、ALPN 指定、ECH 対応、自動優選、Cloudflare Pages / Workers の両対応が目立ちます。README がかなり詳細で、導入から運用までをそのまま手順化しているのも強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Cloudflare 側で Pages か Worker を作成し、compatibility date を README 指定値に合わせてからデプロイします。次に KV をバインドし、UUID や path、各種フラグを設定して、GUI から優選やクライアント配布の条件を調整します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Cloudflare 上で自前のプロキシ配布やノード管理をしたい人、複数クライアントを一括で扱いたい人、運用を GUI と API で切り替えたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>Cloudflare の runtime と compatibility date に依存するため、設定の違いで挙動が変わりやすいです。README の分量が多いので、最初から全部を入れず、必要な機能だけ段階的に有効化した方が事故を減らせます。</p>
+
+        <h2>まとめ</h2>
+        <p>cfnew は、Cloudflare 上で複数プロトコルの配布と管理をまとめる実務寄りの基盤です。KV と GUI を使った運用がしやすいのが特徴です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/byJoey/cfnew" target="_blank" rel="noreferrer">https://github.com/byJoey/cfnew</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #596</p>
+      </div>
+    </article>
+  </body>
+</html>

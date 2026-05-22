@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 19:09:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 04:51:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nn-zero-to-hero]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-karpathy-nn-zero-to-hero.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-karpathy-nn-zero-to-hero.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[神経回路網を基礎から GPT まで順番に学べる講義ノート集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[yt-dlp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-yt-dlp-yt-dlp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-yt-dlp-yt-dlp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[多数の動画サイトに対応する高機能 CLI ダウンローダー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cfnew]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-byjoey-cfnew.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-byjoey-cfnew.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cloudflare Workers / Pages で動く、プロキシ設定と配布をまとめた管理基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[odoo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-odoo-odoo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-odoo-odoo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CRM から会計までを束ねるオープンソース ERP の中核。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Trending Updates for 2026-05-23]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-23-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-23-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026-05-23 の GitHub Trending 更新レポートです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-23 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-coding-tools-update.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT の Codex 更新、Claude の企業向け連続発表、Grok Skills の公開を横断して整理した 2026-05-22 の Others 監視ログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ART]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-openpipe-art.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-openpipe-art.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[envoy]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-envoy.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Codex 26.519: Appshots と Goal mode、browser use の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-codex-v0-18-1-patch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-codex-v0-18-1-patch.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codex の 2026-05-21 更新を整理。Appshots、Goal mode の正式提供、リモートコンピュータ利用、ブラウザ注釈改善をまとめます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.146: プラグイン依存関係解決と /code-review コマンド]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-claude-code-v2-1-146-plugin-deps.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-claude-code-v2-1-146-plugin-deps.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.146がリリース。プラグインの依存関係解決、/code-reviewコマンドの導入、およびバックグラウンドセッションの/resume対応が含まれています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.44.0-nightly.20260521: agent-tui と session invocation を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI の nightly 更新で、agent-tui 系スキルと Local/RemoteSessionInvocation を追加し、Windows と長時間セッションの安定性を高めました。]]></description>
     </item>
   </channel>
 </rss>
