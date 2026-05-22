@@ -356,7 +356,7 @@
     },
     {
       "title": "claude-plugins-official",
-      "summary": "Anthropicが公式に管理する、ターミナル型AIコーディングアシスタント「Claude Code」専用の検証済み高品質プラグインディレクトリ。",
+      "summary": "Anthropicが管理する、Claude Code向けの高品質プラグイン公式ディレクトリ。",
       "category": "github-trending",
       "genre": "AIコーディング (CLI本体・拡張機能)",
       "originType": "trending",
@@ -367,7 +367,7 @@
       "repoName": "anthropics/claude-plugins-official",
       "repoUrl": "https://github.com/anthropics/claude-plugins-official",
       "articleUrl": "./articles/github/daily/2026-05-20-anthropics-claude-plugins-official.html",
-      "starCount": 20068
+      "starCount": 23722
     },
     {
       "title": "andrej-karpathy-skills",

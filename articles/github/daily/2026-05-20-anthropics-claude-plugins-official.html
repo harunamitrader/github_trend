@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Anthropic公式が管理・運営する、Claude Code専用の高品質プラグインディレクトリ。"
+      content="Anthropicが管理する、Claude Code向けの高品質プラグイン公式ディレクトリ。"
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>claude-plugins-official</title>
@@ -26,7 +26,7 @@
       </div>
 
       <h1 class="article-title">claude-plugins-official</h1>
-      <p class="article-dek">Anthropic公式が管理・運営する、Claude Code専用の高品質プラグインディレクトリ。</p>
+      <p class="article-dek">Anthropicが管理する、Claude Code向けの高品質プラグイン公式ディレクトリ。</p>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
@@ -48,31 +48,35 @@
         </div>
         <div class="article-meta-item">
           <span class="meta-label">Star数</span>
-          <strong>20,068</strong>
+          <strong>23,722</strong>
         </div>
       </div>
 
+      <figure class="article-diagram">
+        <img src="images/2026-05-20-anthropics-claude-plugins-official.png" alt="anthropics-claude-plugins-official 図解" loading="lazy" />
+      </figure>
+
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>Anthropicのターミナル型AIコーディングアシスタント「Claude Code」に向けて、公式またはサードパーティの高品質プラグインを一覧化・配信するための公式プラグインディレクトリ（マーケットプレイス）リポジトリです。</p>
+        <p>Anthropicが管理する、Claude Code向けの公式プラグインディレクトリです。内部プラグインと、パートナーやコミュニティが提供する外部プラグインをまとめて扱います。</p>
 
         <h2>何ができるか</h2>
-        <p>リポジトリにはAnthropicが自らメンテナンスする内部プラグインのほか、パートナーやコミュニティから提供された検証済みの外部プラグインが登録されています。ユーザーはClaude Code内から直接、指定コマンドを実行して各種拡張機能（カスタムスラッシュコマンド、自律型エージェント定義、特殊スキル）をインストールして動作を拡張できます。</p>
+        <p>Claude Code内で <code>/plugin install {plugin-name}@claude-plugins-official</code> を実行して導入でき、<code>/plugin &gt; Discover</code> から一覧を探せます。READMEでは内部プラグイン用の <code>/plugins</code> と外部プラグイン用の <code>/external_plugins</code> が分かれています。</p>
 
         <h2>目立つポイント</h2>
-        <p>プラグインは統一された標準構造を持ち、メタデータを記述する '.claude-plugin/plugin.json' やMCPサーバー設定用の '.mcp.json'、拡張用ディレクトリ群（commands/、agents/、skills/）で構成されます。これにより、高度なスキル定義や外部API/ツールのインテグレーションが非常にクリーンかつ標準化された方法で提供されます。</p>
+        <p>各プラグインは <code>.claude-plugin/plugin.json</code>、<code>.mcp.json</code>、<code>commands/</code>、<code>agents/</code>、<code>skills/</code>、<code>README.md</code> という標準構成でまとまっています。スラッシュコマンド、エージェント、スキル、MCPサーバー設定をひとつの形で配布できるのが特徴です。</p>
 
         <h2>セットアップや使い方の流れ</h2>
-        <p>Claude Code上でプラグインをインストールするには、'/plugin install {plugin-name}@claude-plugins-official' コマンドを実行するか、コマンド '/plugin' からブラウズ（Discover）画面を開いて目的のプラグインを探します。サードパーティが新たなプラグインを公開申請するための提出フォームへのリンクも公開されています。</p>
+        <p>まずは公式ドキュメント <a href="https://code.claude.com/docs/en/plugins" target="_blank" rel="noreferrer">code.claude.com/docs/en/plugins</a> を確認し、必要なプラグインを <code>/plugin install</code> で入れます。外部プラグインを公開したい場合は、READMEにある提出フォームから申請できます。</p>
 
         <h2>どんな人向けか</h2>
-        <p>Claude Codeのコア機能を拡張し、特定のフレームワーク向けの自動化タスクを追加したり、開発用MCPサーバーをシームレスに統合して自身の生産性を向上させたい開発者に最適です。</p>
+        <p>Claude Codeを特定のワークフローやフレームワークに合わせて拡張したい開発者、またはMCPやスキルを配布・利用したいチームに向いています。</p>
 
         <h2>注意点</h2>
-        <p>公式ディレクトリに登録されているとはいえ、外部パートナーやコミュニティが開発したサードパーティプラグインを導入する際は、悪意のあるコードやMCPサーバーの挙動など、セキュリティ面において自身での信頼性検証（Trust check）が必要であると公式READMEでも強調されています。</p>
+        <p>READMEでも、プラグインに含まれるMCPサーバーやファイルについてAnthropicが内容を完全には管理できないと明記されています。導入前に、各プラグインのホームページや内容を確認してから使うのが前提です。</p>
 
         <h2>まとめ</h2>
-        <p>claude-plugins-officialは、Claude Codeを中心とする開発エコシステムの拡大を決定づける最重要リポジトリです。今後コミュニティの手によって多彩なプラグインが追加されることで、Claude Codeの機能は急速にパワーアップしていくものと考えられます。</p>
+        <p>claude-plugins-officialは、Claude Codeの拡張を配布・発見・導入するための公式基盤です。標準化された構造で、Claude Code周辺の拡張を整理して扱えるのが強みです。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
