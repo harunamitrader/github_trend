@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "design-extract",
+      "summary": "任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。",
+      "category": "github-pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "originType": "pickup",
+      "serial": 592,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T18:52:22+09:00",
+      "slug": "2026-05-22-design-extract",
+      "repoName": "Manavarya09/design-extract",
+      "repoUrl": "https://github.com/Manavarya09/design-extract",
+      "articleUrl": "./articles/github/daily/2026-05-22-design-extract.html",
+      "starCount": 2862
+    },
+    {
       "title": "hunk",
       "summary": "AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。",
       "category": "github-pickup",

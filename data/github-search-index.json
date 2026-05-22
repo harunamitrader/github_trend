@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T06:03:38.372395+00:00",
-  "count": 645,
+  "generatedAt": "2026-05-22T09:53:00.562620+00:00",
+  "count": 646,
   "articles": [
+    {
+      "slug": "2026-05-22-design-extract",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "design-extract",
+      "dek": "",
+      "summary": "任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。",
+      "repoName": "Manavarya09/design-extract",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T18:52:22+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-22-design-extract.html",
+      "serial": 592,
+      "searchText": "design-extract 任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。 Manavarya09/design-extract AIコーディング (ワークフロー・プロンプト・開発補助ツール) design-extract ← 記事一覧へ戻る GitHub Watcher design-extract 任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。 記事作成日 2026-05-22 種別 Pickup 対象 repo Manavarya09/design-extract Star数 2,862 これは何か design-extract は、ライブサイトからデザインシステムを読み取り、再利用可能な設計資産として書き出すための CLI です。単なるトークン抽出ではなく、レイアウト、レスポンシブ挙動、状態遷移、WCAG まで含めて設計を丸ごと扱えるのが特徴です。 何ができるか URL を 1 つ渡すだけで、DTCG tokens、Tailwind 設定、shadcn/ui 用 CSS、Figma variables、React の anatomy、ブランドボイス、MCP 用データなどをまとめて出力できます。`--full` や `--responsive`、`--interactions` を付けると、画面幅差分や hover / focus まで拾えます。 design system の抽出: 色、余白、タイポグラフィ、影、角丸、レイアウトをまとめて取得します。 マルチ出力: Web だけでなく iOS、Android、Flutter、WordPress 向けの成果物も出せます。 エージェント連携: MCP や agent rules を通して Claude Code や Cursor に渡せます。 目立つポイント この repo は「見た目を真似る」よりも、「設計のルールを機械が読める形にする」ことに振っています。visual diff だけでなく、CSS health、AA/AAA の色差評価、multi-page consistency、brand voice まで扱えるので、実運用のデザイン資産化に寄っています。 design language 化: 19 セクションの markdown と各種 token ファイルに変換します。 品質評価: shareable report card や badge で抽出結果を評価できます。 設計の再利用: clone / apply / pack でそのまま新規実装に流し込みやすいです。 セットアップや使い方の流れ まず `npx designlang <url>` で抽出し、必要なら `designlang pack` で設計資産一式をまとめます。プロジェクトへ反映したい場合は `designlang apply`、品質確認だけなら `grade` や `drift` を使う流れが実務的です。 どんな人向けか 既存サイトの UI をコードに落とし込みたい開発者、デザインシステムを手作業で転記するのをやめたいチーム、AI エージェントにブランドルールを読ませたい人に向いています。特に、デザインの再実装やリファクタを高速化したい場面で効きます。 注意点 対象サイトの構造やアクセシビリティ情報に依存するため、抽出結果の品質は元サイトの作りに左右されます。また、認証が必要なページや動的 UI を扱うときは、cookie や header の指定が必要です。 まとめ design-extract は、Web の見た目を設計言語として切り出し、再利用可能な資産へ変換するための実用的な基盤です。UI を読むだけでなく、次の実装やエージェント連携まで視野に入れている点が強いです。 参照リンク https://github.com/Manavarya09/design-extract https://designlang.manavaryasingh.com/ Shared GitHub Serial: #592"
+    },
     {
       "slug": "2026-05-22-hunk",
       "category": "github-pickup",
