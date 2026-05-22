@@ -385,6 +385,20 @@ p {
   color: var(--heading);
 }
 
+.article-diagram {
+  margin: 24px 0 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-strong);
+}
+
+.article-diagram img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
 .article-body {
   margin-top: 28px;
 }
