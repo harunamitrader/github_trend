@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ax</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ax</h1>
+      <p class="article-dek">分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-22 -->
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google/ax" target="_blank" rel="noreferrer">
+              google/ax
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>314</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>AX</strong> は、エージェントの実行ループを分散環境で扱うためのランタイムです。controller が実行を調停し、skills、tools、agents を分離して扱えるので、単体のエージェントフレームワークよりも「運用層」に近い作りになっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>イベントログを残しながら agentic loop を回し、途中で止まっても復帰できるように設計されています。ローカル実行とリモート実行の両方を扱え、会話の継続、fork、trace、serve といった操作を通じて、長時間タスクの管理をまとめて行えます。</p>
+        <ul>
+          <li><strong>分散実行:</strong> controller、agent、tool を分離して実行できます。</li>
+          <li><strong>復帰機能:</strong> conversation と sequence を使って中断後に再開できます。</li>
+          <li><strong>監査性:</strong> すべての呼び出しを event log で追跡できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>この repo の中心は、エージェントを「長く走る分散ワーカー」として扱う前提です。単発の CLI ツールではなく、Kubernetes も視野に入れた実行基盤として作られているため、失敗時の復帰や状態管理を初めから重視しています。</p>
+        <ul>
+          <li><strong>resumption first:</strong> 中断や切断を前提にした設計です。</li>
+          <li><strong>single-writer:</strong> 状態管理の一貫性を取りやすい構成です。</li>
+          <li><strong>framework agnostic:</strong> 特定のエージェント実装に固定されません。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `go install github.com/google/ax/cmd/ax@latest` で CLI を入れます。そこから `ax exec` で実行を開始し、必要に応じて `ax serve` で controller を立て、`ax trace` で実行の流れを確認する運用になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>長時間動く agent system を組みたい人、復帰や監査を最初から考慮した基盤が欲しい人、個別の agent 実装ではなく実行レイヤーを整えたい人に向いています。特に、複数 agent や remote agent をまたいで仕事をさせたい場面に合っています。</p>
+
+        <h2>注意点</h2>
+        <p>README にもある通り、AX はまだ early active development です。実装や resumption protocol は今後変わる前提なので、本番導入では API 変更と設計変更の追従を見込む必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AX は、エージェントを個別ツールではなく「分散して復帰可能な実行系」として扱うための基盤です。長時間タスクや監査要件がある agentic system を作るときに、土台として見ておきたい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google/ax" target="_blank" rel="noreferrer">https://github.com/google/ax</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google/ax/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #593</p>
+      </div>
+    </article>
+  </body>
+</html>

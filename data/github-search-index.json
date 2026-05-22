@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T09:53:00.562620+00:00",
-  "count": 646,
+  "generatedAt": "2026-05-22T10:50:16.303150+00:00",
+  "count": 647,
   "articles": [
+    {
+      "slug": "2026-05-22-ax",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ax",
+      "dek": "",
+      "summary": "分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。",
+      "repoName": "google/ax",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T19:50:09+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-22-ax.html",
+      "serial": 593,
+      "searchText": "ax 分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。 google/ax AIエージェント (自律基盤・特化アプリ) ax ← 記事一覧へ戻る GitHub Watcher ax 分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。 記事作成日 2026-05-22 種別 Pickup 対象 repo google/ax Star数 314 これは何か AX は、エージェントの実行ループを分散環境で扱うためのランタイムです。controller が実行を調停し、skills、tools、agents を分離して扱えるので、単体のエージェントフレームワークよりも「運用層」に近い作りになっています。 何ができるか イベントログを残しながら agentic loop を回し、途中で止まっても復帰できるように設計されています。ローカル実行とリモート実行の両方を扱え、会話の継続、fork、trace、serve といった操作を通じて、長時間タスクの管理をまとめて行えます。 分散実行: controller、agent、tool を分離して実行できます。 復帰機能: conversation と sequence を使って中断後に再開できます。 監査性: すべての呼び出しを event log で追跡できます。 目立つポイント この repo の中心は、エージェントを「長く走る分散ワーカー」として扱う前提です。単発の CLI ツールではなく、Kubernetes も視野に入れた実行基盤として作られているため、失敗時の復帰や状態管理を初めから重視しています。 resumption first: 中断や切断を前提にした設計です。 single-writer: 状態管理の一貫性を取りやすい構成です。 framework agnostic: 特定のエージェント実装に固定されません。 セットアップや使い方の流れ まず `go install github.com/google/ax/cmd/ax@latest` で CLI を入れます。そこから `ax exec` で実行を開始し、必要に応じて `ax serve` で controller を立て、`ax trace` で実行の流れを確認する運用になります。 どんな人向けか 長時間動く agent system を組みたい人、復帰や監査を最初から考慮した基盤が欲しい人、個別の agent 実装ではなく実行レイヤーを整えたい人に向いています。特に、複数 agent や remote agent をまたいで仕事をさせたい場面に合っています。 注意点 README にもある通り、AX はまだ early active development です。実装や resumption protocol は今後変わる前提なので、本番導入では API 変更と設計変更の追従を見込む必要があります。 まとめ AX は、エージェントを個別ツールではなく「分散して復帰可能な実行系」として扱うための基盤です。長時間タスクや監査要件がある agentic system を作るときに、土台として見ておきたい repo です。 参照リンク https://github.com/google/ax README.md Shared GitHub Serial: #593"
+    },
     {
       "slug": "2026-05-22-design-extract",
       "category": "github-pickup",
@@ -787,15 +802,15 @@
       "category": "github-trending",
       "originType": "trending",
       "title": "codegraph",
-      "dek": "Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。",
-      "summary": "Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。",
+      "dek": "Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。",
+      "summary": "Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。",
       "repoName": "colbymchenry/codegraph",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "publishedAt": "2026-05-17",
       "createdAt": "2026-05-17T05:04:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-17-colbymchenry-codegraph.html",
       "serial": 546,
-      "searchText": "codegraph Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。 Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。 colbymchenry/codegraph AIコーディング (ワークフロー・プロンプト・開発補助ツール) codegraph ← 記事一覧へ戻る GitHub Watcher codegraph Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。 記事作成日 2026-05-17 種別 Trending Rank #7 対象 repo colbymchenry/codegraph Star数 2,383 これは何か Codegraph は、Anthropic の CLI ツール「Claude Code」などの AI コーディングエージェントをよりスマートにするための補助ツールです。プロジェクトのソースコードを解析し、関数やクラスの依存関係を「知識グラフ」として事前インデックス化することで、AI がコードの構造を即座に把握できるようにします。 何ができるか 大規模なコードベースにおいて、AI が「どのファイルがどの関数を参照しているか」といった複雑な関係性を、トークンを浪費する大規模な全ファイル読み込みなしで理解できるようになります。これにより、より正確な修正案の提示や、バグの原因特定が高速化されます。 目立つポイント 100% ローカルで動作し、インデックス作成プロセスも透過的である点です。AI エージェントが個別のツールを呼び出す手間（ツールコール）を減らし、コンテキストウィンドウの利用効率を最大化するように設計されています。また、TypeScript や Python など主要な言語の解析をサポートしています。 セットアップや使い方の流れ npm などのパッケージマネージャを通じてインストール可能です。プロジェクトのルートディレクトリでコマンドを実行すると、コードの静的解析が始まり、エージェントが読み取り可能な形式のインデックスファイルが生成されます。その後は、Claude Code 等からこのインデックスを参照させることで、強力なコンテキスト補助が受けられます。 どんな人向けか Claude Code などの AI IDE をヘビーに活用しており、大規模なプロジェクトで AI が「迷子」になることに不満を感じている開発者、あるいは API コストを抑えつつ AI の推論精度を向上させたいエンジニアに最適です。 注意点 コードの静的解析に基づいているため、動的なメタプログラミングを多用しているコードベースでは、一部の依存関係が正確にグラフ化されない場合があります。また、大規模プロジェクトでは初期インデックス作成に一定の時間がかかります。 まとめ Codegraph は、AI エージェントと人間のエンジニアをつなぐ「地図」のような存在です。AI がコードの全体像を正確に把握するためのインフラを提供することで、AI による開発体験を次のレベルへと引き上げてくれるでしょう。 参照リンク https://github.com/colbymchenry/codegraph Shared GitHub Serial: #546"
+      "searchText": "codegraph Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。 Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。 colbymchenry/codegraph AIコーディング (ワークフロー・プロンプト・開発補助ツール) codegraph ← 記事一覧へ戻る GitHub Watcher codegraph Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。 記事作成日 2026-05-17 種別 Trending Rank #7 対象 repo colbymchenry/codegraph Star数 15,306 これは何か CodeGraph は、Claude Code、Codex、Cursor、OpenCode などの AI コーディングエージェント向けに、コードベースを事前解析してローカルの知識グラフへ落とし込む CLI です。関数、クラス、呼び出し関係、ルート定義までを SQLite ベースのインデックスとして保持し、エージェントが毎回ファイル探索から始めなくても全体像をつかめるようにします。 何ができるか エージェントは `grep` や全文読みに何度も頼らず、シンボル検索、call graph、影響範囲、関連コードの即時取得を行えます。README のベンチマークでは、7 つの実コードベースで中央値比較した結果として平均 35% 安価、59% 少ないトークン、49% 高速、70% 少ないツールコールをうたっており、特に大規模リポジトリほど効果が出やすい設計です。 目立つポイント 100% ローカル動作で、外部サービスや API キーを前提にしない点がまず大きい特徴です。さらに、自己完結したランタイム付きインストーラで Node.js なしでも導入でき、Claude Code、Cursor、Codex CLI、opencode、Hermes Agent の設定まで自動化します。対応言語は 19 以上あり、直近のリリースでは Hermes Agent 対応と Drupal のルート・フック解析が追加され、Web フレームワークの経路把握も強化されています。 セットアップや使い方の流れ 導入は `npx @colbymchenry/codegraph`、または OS 別のインストールスクリプトから始めます。セットアップ後に対象プロジェクトで `codegraph init -i` を実行すると `.codegraph` 配下にインデックスが生成され、以後はエージェント再起動後に MCP ツールとして参照できます。ファイル変更はウォッチャーで追従するため、初回インデックス後は継続運用しやすい構成です。 どんな人向けか Claude Code や Codex CLI を日常的に使っていて、巨大なリポジトリで探索コストやトークン消費が膨らむことに悩んでいる開発者向けです。コードレビュー、影響調査、既存構造の理解を AI に任せたいが、外部送信は避けたいチームにも相性があります。 注意点 前提は静的解析なので、強い動的メタプログラミングや実行時生成コードでは取りこぼしがありえます。また、恩恵を得るには最初にインデックス生成が必要です。最近の変更で除外対象は `.gitignore` ベースへ寄ったため、コミット済みの `vendor` や `dist` を解析させたくない場合は `.gitignore` の整備も必要です。 まとめ CodeGraph は、AI エージェントにコードベースの地図を先に渡しておくための基盤です。大規模開発での探索回数とトークン浪費を減らしつつ、ローカル完結のまま理解精度を上げたい場合、かなり実務寄りの選択肢です。 参照リンク https://github.com/colbymchenry/codegraph Shared GitHub Serial: #546"
     },
     {
       "slug": null,

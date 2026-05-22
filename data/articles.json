@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "title": "ax",
+      "summary": "分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 593,
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-22T19:50:09+09:00",
+      "slug": "2026-05-22-ax",
+      "repoName": "google/ax",
+      "repoUrl": "https://github.com/google/ax",
+      "articleUrl": "./articles/github/daily/2026-05-22-ax.html",
+      "starCount": 314
+    },
+    {
       "title": "design-extract",
       "summary": "任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。",
       "category": "github-pickup",
@@ -909,17 +924,17 @@
       "title": "codegraph",
       "repoName": "colbymchenry/codegraph",
       "repoUrl": "https://github.com/colbymchenry/codegraph",
-      "summary": "Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。",
+      "summary": "Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。",
       "category": "github-trending",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
       "originType": "trending",
       "rank": 7,
-      "starCount": 2383,
+      "starCount": 15306,
       "serial": 546,
       "publishedAt": "2026-05-17",
       "createdAt": "2026-05-17T05:04:00+09:00",
       "articleUrl": "./articles/github/daily/2026-05-17-colbymchenry-codegraph.html",
-      "dek": "Claude Code向けにコードベースを事前インデックス化し、トークン消費を抑えつつ高速な理解を支援するローカル知識グラフ。"
+      "dek": "Claude Code、Codex、Cursor 向けにコードベースを事前インデックス化し、探索コストを減らすローカル知識グラフ。"
     },
     {
       "title": "nuclei",

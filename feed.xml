@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 09:53:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 19:50:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ax]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-ax.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-ax.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[design-extract]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-design-extract.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ハッシュアンカー編集、最適化されたツールハーネス、LSP・Python・ブラウザ自動化を備えたターミナル用超強力AIコーディングエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenWA]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rmyndharis-OpenWA.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-21-rmyndharis-OpenWA.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[セルフホスト可能で、データベースやストレージを自在に差し替えられる強力なオープンソースのWhatsApp APIゲートウェイ。]]></description>
     </item>
   </channel>
 </rss>
