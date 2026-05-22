@@ -15,20 +15,26 @@ for match in matches:
 
 print(f'Found {len(repos)} trending repos.')
 
-existing_repos = set()
+existing_repo_names = set()
+existing_repo_urls = set()
 try:
     with open('data/articles.json', 'r', encoding='utf-8') as f:
-        for line in f:
-            m = re.search(r'"repoName":\s*"([^"]+)"', line)
-            if m:
-                existing_repos.add(m.group(1).lower())
+        db = json.load(f)
+        for art in db.get('articles', []):
+            repo_name = art.get('repoName', '').strip().lower()
+            repo_url = art.get('repoUrl', '').strip().lower()
+            if repo_name:
+                existing_repo_names.add(repo_name)
+            if repo_url:
+                existing_repo_urls.add(repo_url)
 except Exception as e:
     pass
 
 results = []
 rank = 1
 for repo in repos:
-    if repo.lower() not in existing_repos:
+    repo_url = f'https://github.com/{repo}'.lower()
+    if repo.lower() not in existing_repo_names and repo_url not in existing_repo_urls:
         results.append({'rank': rank, 'repo': repo})
     rank += 1
 

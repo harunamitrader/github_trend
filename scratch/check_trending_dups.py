@@ -4,11 +4,15 @@ path = r"C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\
 with open(path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-existing_repos = set()
+existing_repo_names = set()
+existing_repo_urls = set()
 for art in data["articles"]:
     rn = art.get("repoName")
     if rn:
-        existing_repos.add(rn.lower())
+        existing_repo_names.add(rn.lower())
+    ru = art.get("repoUrl")
+    if ru:
+        existing_repo_urls.add(ru.lower())
 
 trending_repos = [
     "tinyhumansai/openhuman",
@@ -30,5 +34,6 @@ trending_repos = [
 
 print("Duplicate check results:")
 for rank, repo in enumerate(trending_repos, 1):
-    status = "EXISTING" if repo.lower() in existing_repos else "NEW"
+    repo_url = f"https://github.com/{repo}".lower()
+    status = "EXISTING" if repo.lower() in existing_repo_names or repo_url in existing_repo_urls else "NEW"
     print(f"Rank {rank}: {repo} -> {status}")
