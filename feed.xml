@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 19:52:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:19:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[mirage]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-mirage.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-mirage.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[nn-zero-to-hero]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-karpathy-nn-zero-to-hero.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini CLI v0.43.0 は編集ツールの使い分けと /resume 周りを広く修正した安定化リリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-22 AI一般ツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT の Codex 更新、Claude の企業向け連続発表、Grok Skills の公開を横断して整理した 2026-05-22 の Others 監視ログ。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる Mirage を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>mirage</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">mirage</h1>
+      <p class="article-dek">AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/strukto-ai/mirage" target="_blank" rel="noreferrer">
+              strukto-ai/mirage
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,559</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Mirage は、AI エージェントが扱う複数の外部サービスを、1 つの仮想ファイルシステムとして見せる基盤です。
+          RAM、S3、Slack、Gmail、Google Drive、GitHub などを同じツリーに並べ、bash に近い操作感で扱えるようにします。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          エージェントは `ls`、`cat`、`grep`、`cp` のような Unix 風コマンドを使って、サービスをまたいで読み書きできます。
+          Python と TypeScript の SDK もあり、FastAPI や Express、各種エージェントフレームワークに組み込みやすい構成です。
+        </p>
+        <p>
+          さらに、コマンドを拡張したり、ファイル種別ごとに挙動を差し替えたりできるため、単なる接続集ではなく
+          「AI が理解しやすい作業環境」を作れるのが強みです。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          強いのは、サービスごとに個別 API を覚えさせるのではなく、ファイルシステムという共通言語に寄せている点です。
+          これで LLM が慣れている bash の文法をそのまま使いやすくなり、マウント先が増えても操作モデルが増えにくくなります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python なら `uv add mirage-ai`、TypeScript なら用途に応じて `@struktoai/mirage-node` や
+          `@struktoai/mirage-browser` を入れます。CLI はインストールスクリプトや `npm`、`uvx` から起動でき、
+          まずは Workspace を作ってリソースを mount し、`execute()` でコマンドを投げる流れです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          SaaS を横断する AI ワークフローを作りたい人、エージェントに「1 つの作業台」を渡したい人、
+          複数のバックエンドを同じ操作感で扱いたいチームに向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          README では macOS / Linux 前提の FUSE 利用や、Python 3.12、Node.js 20 以上などの条件が案内されています。
+          連携先ごとの認証や権限設定も必要なので、導入前に対象サービスの前提条件を揃えておくのが安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Mirage は、AI エージェント向けに外部サービスを 1 つの仮想ファイルシステムへまとめる実用的な基盤です。
+          API を増やすよりも、LLM に馴染みのあるファイル操作へ寄せたい場面でかなり相性が良いです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/strukto-ai/mirage" target="_blank" rel="noreferrer">https://github.com/strukto-ai/mirage</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.mirage.strukto.ai" target="_blank" rel="noreferrer">https://docs.mirage.strukto.ai</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #598</p>
+      </div>
+    </article>
+  </body>
+</html>

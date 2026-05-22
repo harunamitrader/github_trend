@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-22T19:50:50.779278+00:00",
-  "count": 652,
+  "generatedAt": "2026-05-22T21:19:24.962120+00:00",
+  "count": 653,
   "articles": [
+    {
+      "slug": "2026-05-23-mirage",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "mirage",
+      "dek": "AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。",
+      "summary": "Mirage は、S3、Slack、GDrive などを単一の VFS にマウントして、bash だけで横断操作できる AI エージェント向け基盤です。",
+      "repoName": "strukto-ai/mirage",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T06:19:16+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-mirage.html",
+      "serial": 598,
+      "searchText": "mirage AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。 Mirage は、S3、Slack、GDrive などを単一の VFS にマウントして、bash だけで横断操作できる AI エージェント向け基盤です。 strukto-ai/mirage AIエージェント (自律基盤・特化アプリ) mirage ← 記事一覧へ戻る GitHub Watcher mirage AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。 記事作成日 2026-05-23 種別 Pickup 対象 repo strukto-ai/mirage Star数 2,559 これは何か Mirage は、AI エージェントが扱う複数の外部サービスを、1 つの仮想ファイルシステムとして見せる基盤です。 RAM、S3、Slack、Gmail、Google Drive、GitHub などを同じツリーに並べ、bash に近い操作感で扱えるようにします。 何ができるか エージェントは `ls`、`cat`、`grep`、`cp` のような Unix 風コマンドを使って、サービスをまたいで読み書きできます。 Python と TypeScript の SDK もあり、FastAPI や Express、各種エージェントフレームワークに組み込みやすい構成です。 さらに、コマンドを拡張したり、ファイル種別ごとに挙動を差し替えたりできるため、単なる接続集ではなく 「AI が理解しやすい作業環境」を作れるのが強みです。 目立つポイント 強いのは、サービスごとに個別 API を覚えさせるのではなく、ファイルシステムという共通言語に寄せている点です。 これで LLM が慣れている bash の文法をそのまま使いやすくなり、マウント先が増えても操作モデルが増えにくくなります。 セットアップや使い方の流れ Python なら `uv add mirage-ai`、TypeScript なら用途に応じて `@struktoai/mirage-node` や `@struktoai/mirage-browser` を入れます。CLI はインストールスクリプトや `npm`、`uvx` から起動でき、 まずは Workspace を作ってリソースを mount し、`execute()` でコマンドを投げる流れです。 どんな人向けか SaaS を横断する AI ワークフローを作りたい人、エージェントに「1 つの作業台」を渡したい人、 複数のバックエンドを同じ操作感で扱いたいチームに向いています。 注意点 README では macOS / Linux 前提の FUSE 利用や、Python 3.12、Node.js 20 以上などの条件が案内されています。 連携先ごとの認証や権限設定も必要なので、導入前に対象サービスの前提条件を揃えておくのが安全です。 まとめ Mirage は、AI エージェント向けに外部サービスを 1 つの仮想ファイルシステムへまとめる実用的な基盤です。 API を増やすよりも、LLM に馴染みのあるファイル操作へ寄せたい場面でかなり相性が良いです。 参照リンク https://github.com/strukto-ai/mirage https://docs.mirage.strukto.ai Shared GitHub Serial: #598"
+    },
     {
       "slug": "2026-05-23-yt-dlp-yt-dlp",
       "category": "github-trending",

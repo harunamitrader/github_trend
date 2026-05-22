@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "mirage",
+      "dek": "AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。",
+      "summary": "Mirage は、S3、Slack、GDrive などを単一の VFS にマウントして、bash だけで横断操作できる AI エージェント向け基盤です。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 598,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T06:19:16+09:00",
+      "slug": "2026-05-23-mirage",
+      "repoName": "strukto-ai/mirage",
+      "repoUrl": "https://github.com/strukto-ai/mirage",
+      "articleUrl": "./articles/github/daily/2026-05-23-mirage.html",
+      "starCount": 2559
+    },
+    {
       "title": "nn-zero-to-hero",
       "dek": "神経回路網を基礎から GPT まで順番に学べる講義ノート集。",
       "summary": "Karpathy の Neural Networks: Zero to Hero は、基礎から GPT までを Notebook で追える学習リポジトリです。動画と実装が揃っていて、LLM の土台を順番に理解したい人に向いています。",
