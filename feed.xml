@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 02:46:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 12:02:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-gpt-image-2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-awesome-gpt-image-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-awesome-gpt-image-2.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。]]></description>
+    </item>
     <item>
       <title><![CDATA[WeKnora]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-WeKnora.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Trending Updates for 2026-05-22]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-22-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-22-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026-05-22 の GitHub Trending 更新レポートです。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "awesome-gpt-image-2",
+      "dek": "GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。",
+      "summary": "freestylefly/awesome-gpt-image-2 を、GPT-Image 2 のプロンプト体系とケース集として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 601,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T12:02:12+09:00",
+      "slug": "2026-05-23-awesome-gpt-image-2",
+      "repoName": "freestylefly/awesome-gpt-image-2",
+      "repoUrl": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "articleUrl": "./articles/github/daily/2026-05-23-awesome-gpt-image-2.html",
+      "starCount": 5871
+    },
+    {
       "title": "WeKnora",
       "dek": "文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。",
       "summary": "Tencent/WeKnora を、RAG、エージェント、Wiki をつなぐ知識基盤として整理した GitHub Pickup 記事。",

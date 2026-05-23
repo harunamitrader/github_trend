@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T02:44:59.568965+00:00",
-  "count": 655,
+  "generatedAt": "2026-05-23T03:02:40.670905+00:00",
+  "count": 656,
   "articles": [
+    {
+      "slug": "2026-05-23-awesome-gpt-image-2",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-gpt-image-2",
+      "dek": "GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。",
+      "summary": "freestylefly/awesome-gpt-image-2 を、GPT-Image 2 のプロンプト体系とケース集として整理した GitHub Pickup 記事。",
+      "repoName": "freestylefly/awesome-gpt-image-2",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T12:02:12+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-awesome-gpt-image-2.html",
+      "serial": 601,
+      "searchText": "awesome-gpt-image-2 GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。 freestylefly/awesome-gpt-image-2 を、GPT-Image 2 のプロンプト体系とケース集として整理した GitHub Pickup 記事。 freestylefly/awesome-gpt-image-2 メディア作成・マルチモーダル・UI awesome-gpt-image-2 ← 記事一覧へ戻る GitHub Watcher awesome-gpt-image-2 GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。 記事作成日 2026-05-23 種別 Pickup 対象 repo freestylefly/awesome-gpt-image-2 Star数 5,871 これは何か awesome-gpt-image-2 は、GPT-Image 2 向けのプロンプト資産とケースを整理したリポジトリです。README では 「Prompt as Code」として、工業級のテンプレートと逆向きに抽出した大量の事例をまとめていると説明されています。 何ができるか カテゴリ別のケース集から、UI、ポスター、商品、建築、写真、イラスト、ストーリーテリングなどの 方向性を素早く拾えます。単に画像を見るだけでなく、どんな制約や構図が使われているかを、再利用しやすい プロンプトとして確認できるのが強みです。 さらに、テンプレートライブラリとスタイルライブラリが分離されているため、プロンプトの骨格と表現を 別々に扱いやすく、エージェントや自動化フローに組み込みやすい構造になっています。 目立つポイント 目立つのは、例示集ではなく「プロンプトを部品化して使い回す」設計です。カテゴリ単位で見ても、 UI、インフォグラフィック、ポスター、商品ビジュアルのように出力目的ごとの分解がされており、 そのまま制作の型として流用しやすくなっています。 また、Web サイト側にはギャラリーや最新追加ケースがあり、視覚的に探しやすいのに加えて、Claude Code 向けの skill まで用意されています。画像生成の資料集を、そのまま開発ワークフローへ持ち込めるのが かなり実務的です。 セットアップや使い方の流れ README では、まずギャラリーから方向性を決め、近いケースを開いて構造をコピーし、テンプレートへ自分の 変数を入れる流れが案内されています。Claude Code では skill として導入し、`/plugin marketplace add` や `npx skills add` などの導線も用意されています。 どんな人向けか 画像生成の試行錯誤を型にしたい人、デザイナーとエージェントの両方で再利用できるテンプレートを探している人、 GPT-Image 2 を実務の制作フローに載せたい人に向いています。 注意点 公式 README でも、これはコミュニティ由来のプロンプト資産であり、商用利用や第三者コンテンツの扱いには 注意が必要と明記されています。画像や生成物の権利、元ソースの扱いは導入前に確認した方が安全です。 まとめ awesome-gpt-image-2 は、GPT-Image 2 の出力をケース化して再利用しやすくする、かなり実践寄りの プロンプトライブラリです。単発の生成より、継続運用する画像生成ワークフローで価値が出やすいリポジトリです。 参照リンク https://github.com/freestylefly/awesome-gpt-image-2 README.md Visual Website Shared GitHub Serial: #601"
+    },
     {
       "slug": "2026-05-23-WeKnora",
       "category": "github-pickup",
