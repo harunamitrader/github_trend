@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "title": "Claude Code v2.1.150: 内部インフラ改善のメンテナンス更新",
+      "dek": "Claude Code v2.1.150 は、ユーザー向け変更のない内部インフラ改善パッチです。",
+      "summary": "Claude Code v2.1.150 の release note を読み、内部インフラ改善のみが入ったメンテナンス更新として整理した AI コーディングツール記事。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-24T04:01:02+09:00",
+      "articleUrl": "./articles/tools/2026-05-23-claude-code-v2-1-150.html"
+    },
+    {
+      "title": "Cline CLI v3.0.13: セッション復帰表示と /clear 高速化",
+      "dek": "Cline CLI v3.0.13 は、履歴からのセッション復帰と /clear の待ち時間を改善した小規模更新です。",
+      "summary": "Cline CLI v3.0.13 の release note を読み、履歴からのセッション復元表示と /clear の高速化を中心に整理した AI コーディングツール記事。",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-24T04:01:01+09:00",
+      "articleUrl": "./articles/tools/2026-05-23-cline-cli-v3-0-13.html"
+    },
+    {
       "title": "Winhance",
       "dek": "Windows の最適化、アプリ管理、カスタマイズをまとめて扱える改善ユーティリティです。",
       "summary": "memstechtips/Winhance を、Windows 10/11 の最適化やアプリ管理を一体化した改善ユーティリティとして整理した GitHub Pickup 記事。",
