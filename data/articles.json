@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "app-store-screenshots",
+      "dek": "App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。",
+      "summary": "ParthJadhav/app-store-screenshots を、アプリ紹介用のマーケティング画像を AI で作る制作スキルとして整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 604,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T18:28:10+09:00",
+      "slug": "2026-05-23-app-store-screenshots",
+      "repoName": "ParthJadhav/app-store-screenshots",
+      "repoUrl": "https://github.com/ParthJadhav/app-store-screenshots",
+      "articleUrl": "./articles/github/daily/2026-05-23-app-store-screenshots.html",
+      "starCount": 5086
+    },
+    {
       "title": "LibreChat",
       "dek": "複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。",
       "summary": "danny-avila/LibreChat を、Agents、MCP、Code Interpreter、マルチプロバイダー対応を備えた self-hosted AI 基盤として整理した GitHub Pickup 記事。",

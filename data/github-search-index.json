@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T08:10:14.769393+00:00",
-  "count": 658,
+  "generatedAt": "2026-05-23T09:28:59.935012+00:00",
+  "count": 659,
   "articles": [
+    {
+      "slug": "2026-05-23-app-store-screenshots",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "app-store-screenshots",
+      "dek": "App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。",
+      "summary": "ParthJadhav/app-store-screenshots を、アプリ紹介用のマーケティング画像を AI で作る制作スキルとして整理した GitHub Pickup 記事。",
+      "repoName": "ParthJadhav/app-store-screenshots",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T18:28:10+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-app-store-screenshots.html",
+      "serial": 604,
+      "searchText": "app-store-screenshots App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。 ParthJadhav/app-store-screenshots を、アプリ紹介用のマーケティング画像を AI で作る制作スキルとして整理した GitHub Pickup 記事。 ParthJadhav/app-store-screenshots メディア作成・マルチモーダル・UI app-store-screenshots ← 記事一覧へ戻る GitHub Watcher app-store-screenshots App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。 記事作成日 2026-05-23 種別 Pickup 対象 repo ParthJadhav/app-store-screenshots Star数 5,086 これは何か app-store-screenshots は、AI を使って App Store と Google Play 向けのマーケティング用スクリーンショットを 生成するためのスキルです。README では、Next.js の雛形を用意し、広告として見せる前提のビジュアルを 組み立てる流れが案内されています。 何ができるか アプリのブランド、機能、見せ方を聞き取り、それに合わせたコピーとレイアウトを作れます。iPhone 風の モックや Android のフレームを使って、必要な解像度の PNG を出力できるため、配信用の素材づくりに向いています。 端末向けの縦横レイアウト、ローカライズ、テーマ切り替え、RTL 対応まで意識されているので、単発の画像生成ではなく 量産用の制作フローとして使いやすいです。 目立つポイント 一番の特徴は、スクリーンショットを「画面の記録」ではなく「広告クリエイティブ」として扱っている点です。 1 枚ごとに 1 メッセージを通す設計なので、ストア一覧で見たときの訴求力を作りやすいです。 もう一つは、iOS と Android の両方に必要な解像度をまとめて考えられることです。個別に画像を作るのではなく、 同じデザイン方針を横展開できるのが実務では効きます。 セットアップや使い方の流れ まずは `npx skills add ParthJadhav/app-store-screenshots` で導入するか、リポジトリをクローンして 手元で使います。README では、6.1 インチのシミュレータを起点に始めると後工程の調整が楽だと案内されています。 その後はアプリの説明、重要機能、配色、雰囲気、枚数を決めて、スライドを出力していく流れです。 最後に必要サイズへエクスポートして、各ストアへそのまま持っていけます。 どんな人向けか iOS / Android アプリの公開素材をまとめて整えたい開発者、App Store の見せ方を素早く試したい プロダクトチーム、広告っぽい訴求の画像をテンプレート化したい人に向いています。 注意点 画像生成そのものよりも、見せるべき価値をきちんと決める作業が重要です。入力が曖昧だと、見た目は整っても 訴求の弱い素材になりやすいです。Node.js 18 以上も前提です。 まとめ app-store-screenshots は、アプリ紹介画像を AI で安定して量産したいときに使いやすいスキルです。 クリエイティブ制作をコードベースで回したいチームに、かなり相性がいいです。 参照リンク https://github.com/ParthJadhav/app-store-screenshots README.md Source URL Shared GitHub Serial: #604"
+    },
     {
       "slug": "2026-05-23-LibreChat",
       "category": "github-pickup",
