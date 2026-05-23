@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 22:03:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 07:15:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[reclip]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-reclip.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-reclip.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。]]></description>
     </item>
     <item>
       <title><![CDATA[ForgeCAD]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-23 AI一般ツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。]]></description>
     </item>
   </channel>
 </rss>

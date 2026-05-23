@@ -40,6 +40,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-reclip",
+      "title": "reclip",
+      "dek": "YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。",
+      "summary": "averygan/reclip を、1000+ サイト対応の self-hosted 動画・音声ダウンローダーとして整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "averygan/reclip",
+      "repoUrl": "https://github.com/averygan/reclip",
+      "starCount": 5379,
+      "articleUrl": "./articles/github/daily/2026-05-24-reclip.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T07:14:30+09:00",
+      "serial": 615,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",

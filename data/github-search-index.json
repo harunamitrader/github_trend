@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T22:02:50.093976+00:00",
-  "count": 670,
+  "generatedAt": "2026-05-23T22:15:06.430562+00:00",
+  "count": 671,
   "articles": [
+    {
+      "slug": "2026-05-24-reclip",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "reclip",
+      "dek": "YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。",
+      "summary": "averygan/reclip を、1000+ サイト対応の self-hosted 動画・音声ダウンローダーとして整理した GitHub Watcher 記事。",
+      "repoName": "averygan/reclip",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T07:14:30+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-reclip.html",
+      "serial": 615,
+      "searchText": "reclip YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。 averygan/reclip を、1000+ サイト対応の self-hosted 動画・音声ダウンローダーとして整理した GitHub Watcher 記事。 averygan/reclip スクレイピング・情報収集・セキュリティ reclip ← 記事一覧へ戻る GitHub Watcher reclip YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。 記事作成日 2026-05-24 種別 Pickup 対象 repo averygan/reclip Star数 5,379 これは何か ReClip は、動画と音声をローカルでダウンロードするための self-hosted なオープンソースツールです。 README では、YouTube、TikTok、Instagram、X など 1000+ のサイトから MP4 または MP3 を取得できる 軽量な web UI として説明されています。 何ができるか URL を貼り付けるだけで動画情報とサムネイルを取得し、MP4 か MP3 を選んで保存できます。 複数 URL の一括投入、品質選択、URL の自動重複排除にも対応しており、単発のダウンロード作業をまとめて処理しやすいです。 バックエンドは Flask と yt-dlp、音声・動画変換には ffmpeg を使います。UI は単一ファイル構成で、ビルド工程を挟まずに そのまま立ち上げられるのが特徴です。 目立つポイント 一番わかりやすいのは、機能を絞っていることです。高機能なメディア管理ソフトというより、貼る・選ぶ・落とすを 速く済ませる実用ツールとしてまとまっています。 もう一つは、対応サイト数が yt-dlp に依存する設計である点です。個別サイト対応を自前で抱え込まず、既存の ダウンロードエンジンを活用して保守コストを抑えています。 セットアップや使い方の流れ README では、`yt-dlp` と `ffmpeg` を入れてからリポジトリを clone し、`./reclip.sh` で起動する流れが案内されています。 Docker でも立ち上げられるので、ローカル環境に依存しすぎない使い方も可能です。 実際の操作は、URL を貼る、MP4 か MP3 を選ぶ、Fetch で情報を読み込む、品質を決める、Download を押す、という順です。 反復的に動画を収集する作業と相性がいいです。 どんな人向けか 自分用のメディア収集環境をローカルに置きたい人、配布サイトや SNS の動画を手早く保存したい人、 GUI 付きの軽い downloader を探している人に向いています。 注意点 利用は著作権や各プラットフォームの利用規約に従う必要があります。加えて、対応サイトは yt-dlp 側の更新に依存するため、 長期運用では依存関係の追従が前提になります。 まとめ ReClip は、Web 上の動画や音声をローカルに素早く取り込みたいときの実用ツールです。 大規模なメディア基盤ではなく、軽量で扱いやすい収集用フロントエンドとして使いやすいです。 参照リンク https://github.com/averygan/reclip README.md yt-dlp supported sites Shared GitHub Serial: #615"
+    },
     {
       "slug": "2026-05-24-ForgeCAD",
       "category": "github-pickup",

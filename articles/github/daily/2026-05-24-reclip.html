@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダー ReClip を整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>reclip</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">reclip</h1>
+      <p class="article-dek">YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/averygan/reclip" target="_blank" rel="noreferrer">
+              averygan/reclip
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,379</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          ReClip は、動画と音声をローカルでダウンロードするための self-hosted なオープンソースツールです。
+          README では、YouTube、TikTok、Instagram、X など 1000+ のサイトから MP4 または MP3 を取得できる
+          軽量な web UI として説明されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          URL を貼り付けるだけで動画情報とサムネイルを取得し、MP4 か MP3 を選んで保存できます。
+          複数 URL の一括投入、品質選択、URL の自動重複排除にも対応しており、単発のダウンロード作業をまとめて処理しやすいです。
+        </p>
+        <p>
+          バックエンドは Flask と yt-dlp、音声・動画変換には ffmpeg を使います。UI は単一ファイル構成で、ビルド工程を挟まずに
+          そのまま立ち上げられるのが特徴です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番わかりやすいのは、機能を絞っていることです。高機能なメディア管理ソフトというより、貼る・選ぶ・落とすを
+          速く済ませる実用ツールとしてまとまっています。
+        </p>
+        <p>
+          もう一つは、対応サイト数が yt-dlp に依存する設計である点です。個別サイト対応を自前で抱え込まず、既存の
+          ダウンロードエンジンを活用して保守コストを抑えています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、`yt-dlp` と `ffmpeg` を入れてからリポジトリを clone し、`./reclip.sh` で起動する流れが案内されています。
+          Docker でも立ち上げられるので、ローカル環境に依存しすぎない使い方も可能です。
+        </p>
+        <p>
+          実際の操作は、URL を貼る、MP4 か MP3 を選ぶ、Fetch で情報を読み込む、品質を決める、Download を押す、という順です。
+          反復的に動画を収集する作業と相性がいいです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          自分用のメディア収集環境をローカルに置きたい人、配布サイトや SNS の動画を手早く保存したい人、
+          GUI 付きの軽い downloader を探している人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          利用は著作権や各プラットフォームの利用規約に従う必要があります。加えて、対応サイトは yt-dlp 側の更新に依存するため、
+          長期運用では依存関係の追従が前提になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          ReClip は、Web 上の動画や音声をローカルに素早く取り込みたいときの実用ツールです。
+          大規模なメディア基盤ではなく、軽量で扱いやすい収集用フロントエンドとして使いやすいです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/averygan/reclip" target="_blank" rel="noreferrer">https://github.com/averygan/reclip</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/averygan/reclip/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md" target="_blank" rel="noreferrer">yt-dlp supported sites</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #615</p>
+      </div>
+    </article>
+  </body>
+</html>
