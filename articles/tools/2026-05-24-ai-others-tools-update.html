@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude の Project Glasswing 初期更新と OpenClaw v2026.5.22-beta.1 をまとめた 2026-05-24 の Others 監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-05-24 AI一般ツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-05-24 AI一般ツール アップデート</h1>
+      <p class="article-dek">Claude の Project Glasswing 初期更新と OpenClaw v2026.5.22-beta.1 を横断して整理した 2026-05-24 の Others 監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Others</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude, OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回の Others 監視では、企業向けセキュリティの強化と、AI エージェント基盤の運用安定化が同時に進んでいました。</p>
+        <ul>
+          <li><strong>Claude:</strong> Anthropic は 5/22 に Project Glasswing の初期アップデートを公開。Claude Mythos Preview を使って、提携先やオープンソースのコードベースから高・重大度の脆弱性を大量に検出していること、さらに Claude Security の public beta や Cyber Verification Program、skills / harness / threat model builder などの防御向けツール群を拡張していることを示しました。</li>
+          <li><strong>OpenClaw:</strong> 5/23 に v2026.5.22-beta.1 をリリース。README や Gateway 起動経路、cron の出力言語、skill の扱い、サブエージェントの初期コンテキスト、プロバイダー設定、Windows installer、セッション周りの挙動など、実運用に直結する部分を広く整理・補強しています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude 側は、単なるモデル提供ではなく「脆弱性の発見から triage、修正支援まで」を含むセキュリティ運用基盤へ踏み込んでいます。OpenClaw 側は、エージェント実行環境を支える起動・更新・診断の安定化が中心で、長時間稼働するワークフローを支える基盤づくりが進んでいると読めます。</p>
+
+        <h2>まとめ</h2>
+        <p>今回の更新は、AI ツールが前面の対話機能だけでなく、企業の防御運用やエージェント実行基盤の裏側まで入り込んでいることを示しています。Claude はセキュリティ実務、OpenClaw はオーケストレーションの安定性という、それぞれ別の方向から実務用途を押し広げています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.anthropic.com/research/glasswing-initial-update" target="_blank" rel="noreferrer">Project Glasswing: An initial update</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.anthropic.com/glasswing" target="_blank" rel="noreferrer">Project Glasswing: Securing critical software for the AI era</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.5.22-beta.1" target="_blank" rel="noreferrer">openclaw 2026.5.22-beta.1</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

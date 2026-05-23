@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 19:52:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:40:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -46,6 +46,14 @@
       <category>github-trending</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プロセスの動きを高解像度で追跡して性能問題を見つけやすくするトレース基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-24 AI一般ツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-24-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-24-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude の Project Glasswing 初期更新と OpenClaw v2026.5.22-beta.1 をまとめた 2026-05-24 の Others 監視ログ。]]></description>
     </item>
     <item>
       <title><![CDATA[Claude Code v2.1.150: 内部インフラ改善のメンテナンス更新]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nn-zero-to-hero]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-karpathy-nn-zero-to-hero.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-karpathy-nn-zero-to-hero.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[神経回路網を基礎から GPT まで順番に学べる講義ノート集。]]></description>
     </item>
   </channel>
 </rss>

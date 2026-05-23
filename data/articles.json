@@ -271,6 +271,21 @@
       ]
     },
     {
+      "title": "2026-05-24 AI一般ツール アップデート",
+      "dek": "Claude の Project Glasswing 初期更新と OpenClaw v2026.5.22-beta.1 をまとめた 2026-05-24 の Others 監視ログ。",
+      "summary": "Claude の Project Glasswing 初期更新と OpenClaw v2026.5.22-beta.1 をまとめた 2026-05-24 の Others 監視ログ。セキュリティ運用とエージェント基盤の安定化を整理しています。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T06:39:25+09:00",
+      "articleUrl": "./articles/tools/2026-05-24-ai-others-tools-update.html",
+      "tags": [
+        "Claude",
+        "OpenClaw"
+      ]
+    },
+    {
       "title": "agent-browser",
       "dek": "AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。",
       "summary": "Browser automation CLI for AI agents の agent-browser を、導入のしやすさと実務での使いどころに絞って整理した記事。",
