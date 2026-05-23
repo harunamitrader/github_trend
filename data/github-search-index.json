@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T09:50:54.658979+00:00",
-  "count": 660,
+  "generatedAt": "2026-05-23T10:39:47.381610+00:00",
+  "count": 661,
   "articles": [
+    {
+      "slug": "2026-05-23-model-trader",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "model-trader",
+      "dek": "トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。",
+      "summary": "tonbistudio/model-trader を、トレーダーの思考を strategy doc と gates に落として検証する金融トレード基盤として整理した GitHub Pickup 記事。",
+      "repoName": "tonbistudio/model-trader",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T19:39:02+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-model-trader.html",
+      "serial": 606,
+      "searchText": "model-trader トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。 tonbistudio/model-trader を、トレーダーの思考を strategy doc と gates に落として検証する金融トレード基盤として整理した GitHub Pickup 記事。 tonbistudio/model-trader 金融・トレード分析 model-trader ← 記事一覧へ戻る GitHub Watcher model-trader トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。 記事作成日 2026-05-23 種別 Pickup 対象 repo tonbistudio/model-trader Star数 33 これは何か model-trader は、実際のトレーダーの発信内容をもとに、売買判断を pass / fail のゲートへ落とし込むための フレームワークです。動画、記事、SNS の内容を strategy doc にまとめ、それをスクリーナーと ペーパートレーダーに接続する構成になっています。 何ができるか ルールベースのスキャナーでセットアップを判定し、Hyperliquid 上のペーパートレードへ流せます。 さらに必要なら、トレーダーの哲学文書を参照する LLM エージェントを重ねて、各セットアップを追加レビューできます。 リポジトリには detector、gates、paper_trader、backtest、monitor などがまとまっており、 収集、判定、検証、監視の流れが一通り揃っています。 目立つポイント 一番のポイントは、「戦略そのもの」ではなく「判断の構造」をコードに変えるところです。価格予想を作るのではなく、 どの条件なら入るか、何が来たら見送るかを明文化して運用する設計です。 もう一つは、Claude ベースの抽象化に寄りすぎず、まずはゲートとバックテストで機械的に回す設計です。 人の裁量を残すにしても、初手は再現可能なルールに寄せているのが実務的です。 セットアップや使い方の流れ README では、まずトレーダーごとのフォルダを scaffold し、YouTube の transcript を取り込み、 strategy doc を抽出してから scanner を実装する流れが案内されています。動かす前に backtest で ルールの妥当性を確認できるのも重要です。 本番に近い運用では、ライブ monitor を回して scan -> filter -> execute -> dashboard の流れを 監視します。ペーパートレードがデフォルトなので、いきなり実弾に行かない設計になっています。 どんな人向けか トレーダーの思考を定量化したい人、裁量を残しつつ自動監視したい人、ペーパートレードで戦略検証を進めたい人に 向いています。特に、発信内容の多いトレーダーをそのまま再現可能なルールへ落としたいときに使いやすいです。 注意点 実運用の利益を約束するツールではありません。strategy doc の設計が甘いとスキャナーも弱くなるので、 入力するトレーダーの記録や解釈の質がそのまま結果に出ます。Python 3.11 以上も前提です。 まとめ model-trader は、トレーディングの判断を「読んで真似する」から「ルールとして走らせる」へ変えるための基盤です。 裁量の記述を自動売買の前段に落としたい人に向いたリポジトリです。 参照リンク https://github.com/tonbistudio/model-trader README.md docs/pipeline.md Shared GitHub Serial: #606"
+    },
     {
       "slug": "2026-05-23-hol-guard",
       "category": "github-pickup",

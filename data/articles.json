@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "model-trader",
+      "dek": "トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。",
+      "summary": "tonbistudio/model-trader を、トレーダーの思考を strategy doc と gates に落として検証する金融トレード基盤として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "金融・トレード分析",
+      "originType": "pickup",
+      "serial": 606,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T19:39:02+09:00",
+      "slug": "2026-05-23-model-trader",
+      "repoName": "tonbistudio/model-trader",
+      "repoUrl": "https://github.com/tonbistudio/model-trader",
+      "articleUrl": "./articles/github/daily/2026-05-23-model-trader.html",
+      "starCount": 33
+    },
+    {
       "title": "hol-guard",
       "dek": "Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。",
       "summary": "hashgraph-online/hol-guard を、AI ハーネスを実行前に保護するローカルガード基盤として整理した GitHub Pickup 記事。",

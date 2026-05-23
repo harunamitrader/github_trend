@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>model-trader</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">model-trader</h1>
+      <p class="article-dek">トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tonbistudio/model-trader" target="_blank" rel="noreferrer">
+              tonbistudio/model-trader
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>33</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          model-trader は、実際のトレーダーの発信内容をもとに、売買判断を pass / fail のゲートへ落とし込むための
+          フレームワークです。動画、記事、SNS の内容を strategy doc にまとめ、それをスクリーナーと
+          ペーパートレーダーに接続する構成になっています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          ルールベースのスキャナーでセットアップを判定し、Hyperliquid 上のペーパートレードへ流せます。
+          さらに必要なら、トレーダーの哲学文書を参照する LLM エージェントを重ねて、各セットアップを追加レビューできます。
+        </p>
+        <p>
+          リポジトリには detector、gates、paper_trader、backtest、monitor などがまとまっており、
+          収集、判定、検証、監視の流れが一通り揃っています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番のポイントは、「戦略そのもの」ではなく「判断の構造」をコードに変えるところです。価格予想を作るのではなく、
+          どの条件なら入るか、何が来たら見送るかを明文化して運用する設計です。
+        </p>
+        <p>
+          もう一つは、Claude ベースの抽象化に寄りすぎず、まずはゲートとバックテストで機械的に回す設計です。
+          人の裁量を残すにしても、初手は再現可能なルールに寄せているのが実務的です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、まずトレーダーごとのフォルダを scaffold し、YouTube の transcript を取り込み、
+          strategy doc を抽出してから scanner を実装する流れが案内されています。動かす前に backtest で
+          ルールの妥当性を確認できるのも重要です。
+        </p>
+        <p>
+          本番に近い運用では、ライブ monitor を回して scan -> filter -> execute -> dashboard の流れを
+          監視します。ペーパートレードがデフォルトなので、いきなり実弾に行かない設計になっています。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          トレーダーの思考を定量化したい人、裁量を残しつつ自動監視したい人、ペーパートレードで戦略検証を進めたい人に
+          向いています。特に、発信内容の多いトレーダーをそのまま再現可能なルールへ落としたいときに使いやすいです。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          実運用の利益を約束するツールではありません。strategy doc の設計が甘いとスキャナーも弱くなるので、
+          入力するトレーダーの記録や解釈の質がそのまま結果に出ます。Python 3.11 以上も前提です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          model-trader は、トレーディングの判断を「読んで真似する」から「ルールとして走らせる」へ変えるための基盤です。
+          裁量の記述を自動売買の前段に落としたい人に向いたリポジトリです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tonbistudio/model-trader" target="_blank" rel="noreferrer">https://github.com/tonbistudio/model-trader</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/tonbistudio/model-trader/blob/master/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/tonbistudio/model-trader/blob/master/docs/pipeline.md" target="_blank" rel="noreferrer">docs/pipeline.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #606</p>
+      </div>
+    </article>
+  </body>
+</html>
