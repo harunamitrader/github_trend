@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="magic-trace は、プロセスの動きを高解像度で追跡して性能問題を見つけやすくするトレース基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>magic-trace</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">magic-trace</h1>
+      <p class="article-dek">プロセスの動きを高解像度で追跡して性能問題を見つけやすくするトレース基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/janestreet/magic-trace" target="_blank" rel="noreferrer">
+              janestreet/magic-trace
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,783</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          magic-trace は、実行中プロセスの高解像度トレースを収集して表示するツールです。README では、
+          遅いリクエストの原因追跡や、クラッシュ前の挙動確認に使われていると説明されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          低オーバーヘッドでプロセスの動作履歴を残し、Stacktrace だけでは見えない前後の流れを確認できます。
+          本番環境で「何が起きていたか」をあとから辿りたいときに役立ちます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          アプリケーション側の大きな変更を入れずに使えること、そして 2%〜10% 程度のオーバーヘッドを目安に
+          高精度トレースを扱えることが強みです。性能解析用の道具として、導入のしやすさと観察精度の両方を狙っています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、まずサンプル C プログラムをビルドして動かし、そのプロセスに対して magic-trace を
+          当てる流れが案内されています。詳細なビルド手順や調査ノウハウは wiki で補完する構成です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          本番の遅延調査を素早く進めたいバックエンドエンジニア、低レベルの実行状態を見たい性能解析担当、
+          OS やランタイムの挙動を深掘りしたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          トレース環境の準備や権限まわりは事前確認が必要です。サンプルで動作を掴んでから、本番のプロセスに
+          適用する方が安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          magic-trace は、プロセスの実際の動きをあとから丁寧に読むための解析基盤です。
+          「なぜ遅いのか」を Stacktrace 以上の粒度で追いたい場面に強いです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/janestreet/magic-trace" target="_blank" rel="noreferrer">https://github.com/janestreet/magic-trace</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/janestreet/magic-trace/blob/master/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/janestreet/magic-trace/wiki" target="_blank" rel="noreferrer">Wiki</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #609</p>
+      </div>
+    </article>
+  </body>
+</html>

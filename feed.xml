@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 19:05:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 04:51:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-24 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-24-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-24-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026-05-24 の GitHub Trending 更新レポートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Anthropic-Cybersecurity-Skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-mukul975-Anthropic-Cybersecurity-Skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-mukul975-Anthropic-Cybersecurity-Skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けのサイバーセキュリティ技能をまとめた大規模ライブラリです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[presenton]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-presenton-presenton.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-presenton-presenton.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI でプレゼン資料を作成し、PPTX や PDF に出力できるオープンソース基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[LongLive]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-NVlabs-LongLive.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-NVlabs-LongLive.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長尺動画生成の学習と推論を NVFP4 と並列化で支える研究基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[magic-trace]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-janestreet-magic-trace.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-janestreet-magic-trace.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロセスの動きを高解像度で追跡して性能問題を見つけやすくするトレース基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.150: 内部インフラ改善のメンテナンス更新]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-claude-code-v2-1-150.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[神経回路網を基礎から GPT まで順番に学べる講義ノート集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[yt-dlp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-yt-dlp-yt-dlp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-yt-dlp-yt-dlp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[多数の動画サイトに対応する高機能 CLI ダウンローダー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cfnew]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-byjoey-cfnew.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-byjoey-cfnew.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cloudflare Workers / Pages で動く、プロキシ設定と配布をまとめた管理基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[odoo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-odoo-odoo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-odoo-odoo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CRM から会計までを束ねるオープンソース ERP の中核。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Trending Updates for 2026-05-23]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-23-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-23-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026-05-23 の GitHub Trending 更新レポートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-23 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.148、Cline CLI v3.0.10、Gemini CLI v0.43.0 の3件をまとめた 2026-05-23 の AIコーディングツール監視ログ。]]></description>
     </item>
   </channel>
 </rss>
