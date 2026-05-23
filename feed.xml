@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 22:00:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 07:03:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ForgeCAD]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ForgeCAD.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ForgeCAD.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。]]></description>
     </item>
     <item>
       <title><![CDATA[Anthropic-Cybersecurity-Skills]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-browser]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-agent-browser.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-agent-browser.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。]]></description>
     </item>
   </channel>
 </rss>

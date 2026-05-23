@@ -39,6 +39,23 @@
       "genre": "学習ガイド・開発アセット"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-05-24-ForgeCAD",
+      "title": "ForgeCAD",
+      "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",
+      "summary": "KoStard/ForgeCAD を、JavaScript/TypeScript で CAD をコード駆動管理する parametric CAD 基盤として整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "KoStard/ForgeCAD",
+      "repoUrl": "https://github.com/KoStard/ForgeCAD",
+      "starCount": 746,
+      "articleUrl": "./articles/github/daily/2026-05-24-ForgeCAD.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T07:02:08+09:00",
+      "serial": 614,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "title": "Anthropic-Cybersecurity-Skills",
       "dek": "AI エージェント向けのサイバーセキュリティ技能をまとめた大規模ライブラリです。",
       "summary": "mukul975/Anthropic-Cybersecurity-Skills を、AI エージェント向けのサイバーセキュリティ技能集として整理した GitHub Watcher 記事。",

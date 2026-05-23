@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T21:59:07.361696+00:00",
-  "count": 669,
+  "generatedAt": "2026-05-23T22:02:50.093976+00:00",
+  "count": 670,
   "articles": [
+    {
+      "slug": "2026-05-24-ForgeCAD",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ForgeCAD",
+      "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",
+      "summary": "KoStard/ForgeCAD を、JavaScript/TypeScript で CAD をコード駆動管理する parametric CAD 基盤として整理した GitHub Watcher 記事。",
+      "repoName": "KoStard/ForgeCAD",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T07:02:08+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-ForgeCAD.html",
+      "serial": 614,
+      "searchText": "ForgeCAD JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。 KoStard/ForgeCAD を、JavaScript/TypeScript で CAD をコード駆動管理する parametric CAD 基盤として整理した GitHub Watcher 記事。 KoStard/ForgeCAD AIコーディング (ワークフロー・プロンプト・開発補助ツール) ForgeCAD ← 記事一覧へ戻る GitHub Watcher ForgeCAD JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。 記事作成日 2026-05-24 種別 Pickup 対象 repo KoStard/ForgeCAD Star数 746 これは何か ForgeCAD は、JavaScript / TypeScript で書く code-first parametric CAD の公開プロジェクトです。 README では、ライブパラメータ、制約、アセンブリ、精密な STEP / BREP 出力までをひとつの作業流れで扱える CAD システムとして説明されています。 何ができるか `.forge.js` のスクリプトを起点に、パラメータをスライダーとして調整し、形状やアセンブリを返してそのまま検証できます。 CLI からは validate、render、inspect、export ができ、ブラウザ側では workbench 上でモデルを直接確認できます。 生成対象は単純な 3D 形状だけではなく、複数部品のアセンブリ、拘束付きスケッチ、精密な STEP 出力まで含みます。 つまり「スクリプトを書く」「確認する」「出力する」を分断せずに回せます。 目立つポイント 一番の強みは、TypeScript を事実上の CAD 記述言語として扱う設計です。パラメトリックな形状変更がコード差分として残るので、 設計意図と結果を追いやすいです。 もう一つは、AI agent 向けの modeling workflow が最初から意識されていることです。人手での CAD 操作を そのまま置き換えるより、コード編集と検証を短いループで回す方向に寄せています。 セットアップや使い方の流れ README では `npm install -g forgecad` から始め、`forgecad login`、`forgecad project clone start-here`、 `forgecad studio .` の順で hosted project を開く流れが案内されています。ローカル新規作成も `forgecad project init` から始められます。 実務では、まず `.forge.js` で形を定義し、`forgecad run` や `forgecad render 3d` で確認してから、 必要な形式に `forgecad export step` などで落とし込むのが自然です。 どんな人向けか CAD モデルをコードで管理したい人、ブラウザでの確認と CLI の検証を行き来したい人、設計変更を差分で追いたい人に向いています。 機械設計やハードウェア設計を agent と一緒に回したい人にも相性がいいです。 注意点 公開リポジトリは public examples と skills が中心で、実開発の本体は private repository 側にあると明記されています。 そのため、公開側だけ見て全機能を判断せず、Docs と AI Usage guide まで読んで運用前提を確認した方が安全です。 まとめ ForgeCAD は、CAD を「画面で作る作業」から「コードで管理して検証する作業」へ寄せるための基盤です。 parametric CAD を agent workflow に載せたい場合の実践的な入口になります。 参照リンク https://github.com/KoStard/ForgeCAD README.md Docs Try it in the browser Shared GitHub Serial: #614"
+    },
     {
       "slug": "2026-05-24-text-to-cad",
       "category": "github-pickup",
