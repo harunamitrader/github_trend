@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 10:58:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 20:03:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Winhance]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-Winhance.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-Winhance.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows の最適化、アプリ管理、カスタマイズをまとめて扱える改善ユーティリティです。]]></description>
+    </item>
     <item>
       <title><![CDATA[AutoFigure-Edit]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-AutoFigure-Edit.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[任意のサイトから DTCG tokens、Tailwind、Figma variables などを一括抽出して設計資産化できる designlang の基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hunk]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hunk.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-hunk.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI が作成した差分を、サイドバー付きのレビュー UI と inline 注釈で見やすく確認できるターミナル diff viewer です。]]></description>
     </item>
   </channel>
 </rss>

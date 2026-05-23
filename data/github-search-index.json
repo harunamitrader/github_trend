@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T10:57:59.087316+00:00",
-  "count": 662,
+  "generatedAt": "2026-05-23T11:03:18.230443+00:00",
+  "count": 663,
   "articles": [
+    {
+      "slug": "2026-05-23-Winhance",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Winhance",
+      "dek": "Windows の最適化、アプリ管理、カスタマイズをまとめて扱える改善ユーティリティです。",
+      "summary": "memstechtips/Winhance を、Windows 10/11 の最適化やアプリ管理を一体化した改善ユーティリティとして整理した GitHub Pickup 記事。",
+      "repoName": "memstechtips/Winhance",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T20:02:30+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-Winhance.html",
+      "serial": 608,
+      "searchText": "Winhance Windows の最適化、アプリ管理、カスタマイズをまとめて扱える改善ユーティリティです。 memstechtips/Winhance を、Windows 10/11 の最適化やアプリ管理を一体化した改善ユーティリティとして整理した GitHub Pickup 記事。 memstechtips/Winhance AI基盤・データ基盤・業務アプリ Winhance ← 記事一覧へ戻る GitHub Watcher Winhance Windows の最適化、アプリ管理、カスタマイズをまとめて扱える改善ユーティリティです。 記事作成日 2026-05-23 種別 Pickup 対象 repo memstechtips/Winhance Star数 10,191 これは何か Winhance は、Windows 10/11 向けの C# 製ユーティリティです。README では、アプリの追加・削除、 最適化、外観や動作のカスタマイズをまとめて扱える Windows 改善ツールとして案内されています。 何ができるか Windows Apps や Optional Features の管理、WinGet を使った外部アプリの導入、UAC やプライバシー、 電源設定、通知、テーマ、タスクバー、スタートメニュー、エクスプローラーの調整などを一つに集約しています。 さらに、WIMUtil を使ったカスタム Windows ISO の作成や、autounattend.xml の生成にも対応しているため、 初期セットアップや再展開の手間も減らしやすいです。 目立つポイント 目立つのは、単なる設定変更ツールではなく「最適化 + カスタマイズ + 導入支援」を一体化している点です。 一通りの調整を個別の設定画面に散らさず、Winhance だけで整理しやすい構成になっています。 もう一つは、標準の Windows UI に近い見た目でまとめられていることです。社内 PC の整備や 個人 PC の再セットアップで、手順を減らしたいときに扱いやすいです。 セットアップや使い方の流れ README では、PowerShell から `irm \"https://get.winhance.net\" | iex` を実行する簡易導入が案内されています。 その後はアプリ管理、最適化、外観カスタマイズ、ISO 作成の順に必要な機能を使っていく流れです。 公式配布にはインストーラ版があり、Portable も含めて導入しやすい設計です。まずは 1 台で試してから、 設定の保存・再利用を進めるのが現実的です。 どんな人向けか Windows の初期セットアップや再構築を短くしたい人、社内端末の見た目と設定を揃えたい人、 余計なアプリや設定をまとめて管理したい人に向いています。 注意点 対象は Windows 10/11 に限定されます。また、設定変更の範囲が広いので、最初は少数の項目から試し、 どこまでを自動化するかを決めてから使うのが安全です。 まとめ Winhance は、Windows の整備を手作業で追いかけずに済ませたいときの実務向けユーティリティです。 最適化、カスタマイズ、再展開までをまとめて扱いたい人に向いています。 参照リンク https://github.com/memstechtips/Winhance README.md winhance.net Shared GitHub Serial: #608"
+    },
     {
       "slug": "2026-05-23-AutoFigure-Edit",
       "category": "github-pickup",
