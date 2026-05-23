@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AutoFigure-Edit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AutoFigure-Edit</h1>
+      <p class="article-dek">論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ResearAI/AutoFigure-Edit" target="_blank" rel="noreferrer">
+              ResearAI/AutoFigure-Edit
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,308</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          AutoFigure-Edit は、論文の method section から編集可能な SVG 図を生成するプロジェクトです。
+          ラスター画像をそのまま出すのではなく、後からレイアウトや文字を直しやすいベクター図として仕上げるのが狙いです。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          テキストから図の下書きを作り、SAM3 で領域を分割し、SVG テンプレートへ落として、最終的に編集可能な図として
+          組み立てます。必要なら埋め込みの SVG エディタでそのまま細部を調整できます。
+        </p>
+        <p>
+          v1.1 では、ユーザーが用意した stage-1 の図を取り込んで続きから編集したり、`gpt-image-2` や `gpt-5.5`
+          などの公式 OpenAI 系ルートを使ったりできるようになっています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の強みは、生成結果が「直せること」です。生成物を一回で完成品にするのではなく、SVG として構造化しておくので、
+          論文図でありがちな細かい修正やスタイル差し替えに強いです。
+        </p>
+        <p>
+          もう一つは、図の見た目だけでなく、再編集の工程まで含めて設計されていることです。研究室や論文執筆の現場では、
+          「生成できる」より「後から直せる」ほうが価値になります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README の流れは、まず Python 3.10 以上の環境を用意し、Quick Start から Web Interface か CLI のどちらかで
+          図生成を始める形です。論文や方法文を入力して、figure -> segmentation -> template -> final の順で進めます。
+        </p>
+        <p>
+          画像参照やスタイル転写も扱えるので、論文図を一から起こす場合だけでなく、既存図の見た目をベクトル化して
+          保守したい場面にも向いています。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          論文図を何度も直す研究者、プレゼンや論文の図版をコードベースで扱いたい人、編集可能な SVG を前提に
+          図解を量産したい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          図の品質は、入力する方法文や参照スタイルの質に左右されます。自動生成だけで完結せず、最終的には
+          図としての読みやすさを人間が確認する前提で使うのが安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          AutoFigure-Edit は、論文図を「生成して終わり」ではなく「編集できる形で持つ」ための実用的な基盤です。
+          研究資料や論文執筆で、図の修正コストを下げたいときにかなり使いやすいです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ResearAI/AutoFigure-Edit" target="_blank" rel="noreferrer">https://github.com/ResearAI/AutoFigure-Edit</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/ResearAI/AutoFigure-Edit/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://arxiv.org/abs/2603.06674" target="_blank" rel="noreferrer">arXiv:2603.06674</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #607</p>
+      </div>
+    </article>
+  </body>
+</html>

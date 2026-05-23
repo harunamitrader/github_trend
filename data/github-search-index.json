@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T10:39:47.381610+00:00",
-  "count": 661,
+  "generatedAt": "2026-05-23T10:57:59.087316+00:00",
+  "count": 662,
   "articles": [
+    {
+      "slug": "2026-05-23-AutoFigure-Edit",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "AutoFigure-Edit",
+      "dek": "論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。",
+      "summary": "ResearAI/AutoFigure-Edit を、論文図を編集可能な SVG に変換して保守しやすくする図解生成基盤として整理した GitHub Pickup 記事。",
+      "repoName": "ResearAI/AutoFigure-Edit",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T19:57:30+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-AutoFigure-Edit.html",
+      "serial": 607,
+      "searchText": "AutoFigure-Edit 論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。 ResearAI/AutoFigure-Edit を、論文図を編集可能な SVG に変換して保守しやすくする図解生成基盤として整理した GitHub Pickup 記事。 ResearAI/AutoFigure-Edit メディア作成・マルチモーダル・UI AutoFigure-Edit ← 記事一覧へ戻る GitHub Watcher AutoFigure-Edit 論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。 記事作成日 2026-05-23 種別 Pickup 対象 repo ResearAI/AutoFigure-Edit Star数 3,308 これは何か AutoFigure-Edit は、論文の method section から編集可能な SVG 図を生成するプロジェクトです。 ラスター画像をそのまま出すのではなく、後からレイアウトや文字を直しやすいベクター図として仕上げるのが狙いです。 何ができるか テキストから図の下書きを作り、SAM3 で領域を分割し、SVG テンプレートへ落として、最終的に編集可能な図として 組み立てます。必要なら埋め込みの SVG エディタでそのまま細部を調整できます。 v1.1 では、ユーザーが用意した stage-1 の図を取り込んで続きから編集したり、`gpt-image-2` や `gpt-5.5` などの公式 OpenAI 系ルートを使ったりできるようになっています。 目立つポイント 一番の強みは、生成結果が「直せること」です。生成物を一回で完成品にするのではなく、SVG として構造化しておくので、 論文図でありがちな細かい修正やスタイル差し替えに強いです。 もう一つは、図の見た目だけでなく、再編集の工程まで含めて設計されていることです。研究室や論文執筆の現場では、 「生成できる」より「後から直せる」ほうが価値になります。 セットアップや使い方の流れ README の流れは、まず Python 3.10 以上の環境を用意し、Quick Start から Web Interface か CLI のどちらかで 図生成を始める形です。論文や方法文を入力して、figure -> segmentation -> template -> final の順で進めます。 画像参照やスタイル転写も扱えるので、論文図を一から起こす場合だけでなく、既存図の見た目をベクトル化して 保守したい場面にも向いています。 どんな人向けか 論文図を何度も直す研究者、プレゼンや論文の図版をコードベースで扱いたい人、編集可能な SVG を前提に 図解を量産したい人に向いています。 注意点 図の品質は、入力する方法文や参照スタイルの質に左右されます。自動生成だけで完結せず、最終的には 図としての読みやすさを人間が確認する前提で使うのが安全です。 まとめ AutoFigure-Edit は、論文図を「生成して終わり」ではなく「編集できる形で持つ」ための実用的な基盤です。 研究資料や論文執筆で、図の修正コストを下げたいときにかなり使いやすいです。 参照リンク https://github.com/ResearAI/AutoFigure-Edit README.md arXiv:2603.06674 Shared GitHub Serial: #607"
+    },
     {
       "slug": "2026-05-23-model-trader",
       "category": "github-pickup",

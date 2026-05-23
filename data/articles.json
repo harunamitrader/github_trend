@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "AutoFigure-Edit",
+      "dek": "論文の方法説明を編集可能な SVG 図に変換して、後から細かく直せる図解生成基盤です。",
+      "summary": "ResearAI/AutoFigure-Edit を、論文図を編集可能な SVG に変換して保守しやすくする図解生成基盤として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "originType": "pickup",
+      "serial": 607,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T19:57:30+09:00",
+      "slug": "2026-05-23-AutoFigure-Edit",
+      "repoName": "ResearAI/AutoFigure-Edit",
+      "repoUrl": "https://github.com/ResearAI/AutoFigure-Edit",
+      "articleUrl": "./articles/github/daily/2026-05-23-AutoFigure-Edit.html",
+      "starCount": 3308
+    },
+    {
       "title": "model-trader",
       "dek": "トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。",
       "summary": "tonbistudio/model-trader を、トレーダーの思考を strategy doc と gates に落として検証する金融トレード基盤として整理した GitHub Pickup 記事。",
