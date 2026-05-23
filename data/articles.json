@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "hades-agent",
+      "dek": "ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。",
+      "summary": "euvictorldev/hades-agent を、Electron と Gemini Live API で構成された常駐型デスクトップ AI として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 602,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T12:28:26+09:00",
+      "slug": "2026-05-23-hades-agent",
+      "repoName": "euvictorldev/hades-agent",
+      "repoUrl": "https://github.com/euvictorldev/hades-agent",
+      "articleUrl": "./articles/github/daily/2026-05-23-hades-agent.html",
+      "starCount": 30
+    },
+    {
       "title": "awesome-gpt-image-2",
       "dek": "GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。",
       "summary": "freestylefly/awesome-gpt-image-2 を、GPT-Image 2 のプロンプト体系とケース集として整理した GitHub Pickup 記事。",

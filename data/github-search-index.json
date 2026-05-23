@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T03:02:40.670905+00:00",
-  "count": 656,
+  "generatedAt": "2026-05-23T03:29:18.151272+00:00",
+  "count": 657,
   "articles": [
+    {
+      "slug": "2026-05-23-hades-agent",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hades-agent",
+      "dek": "ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。",
+      "summary": "euvictorldev/hades-agent を、Electron と Gemini Live API で構成された常駐型デスクトップ AI として整理した GitHub Pickup 記事。",
+      "repoName": "euvictorldev/hades-agent",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T12:28:26+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-hades-agent.html",
+      "serial": 602,
+      "searchText": "hades-agent ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。 euvictorldev/hades-agent を、Electron と Gemini Live API で構成された常駐型デスクトップ AI として整理した GitHub Pickup 記事。 euvictorldev/hades-agent AIエージェント (自律基盤・特化アプリ) hades-agent ← 記事一覧へ戻る GitHub Watcher hades-agent ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。 記事作成日 2026-05-23 種別 Pickup 対象 repo euvictorldev/hades-agent Star数 30 これは何か Hades Agent は、Electron と Gemini Live API で作られたデスクトップ AI コンパニオンです。README では 「invisible, ultra-fast desktop companion」と説明されており、画面上に常駐しながら音声、検索、記憶を まとめて扱う用途に寄せられています。 何ができるか Alt+D で出る Spotlight Command Bar から、リアルタイムのインターネット参照付き回答を呼び出せます。 Alt+B では PC 内部音声を 16 kHz PCM で Gemini Live API に流し、会議や動画の文字起こしをすばやく 行えます。 さらに、Session MiniChat で現在のモデルやトークン消費を見ながら会話でき、バックグラウンドでは Dream Memory Consolidation が会話ログを要約して `learnings.json` に圧縮します。 予定管理も Safe Task Scheduler で分離されているため、UI とバックグラウンド処理の役割分担が明確です。 目立つポイント 一番の特徴は、`setContentProtection` を使った Anti-Recording Shield です。README 上では OBS、 Discord、Teams、Zoom などの画面キャプチャから見えない設計とされており、プライバシー重視の常駐 AI として 独自性があります。 もう一つは、見えている UI を薄く保ちながら、裏側でメモリ整理とタスク予約を進める構成です。 単なるチャットアプリではなく、常駐型の作業補助に寄せている点が分かりやすいです。 セットアップや使い方の流れ ユーザー向けには Releases から Windows 用インストーラを入れて起動し、Alt+S で API キーを入力する流れが 案内されています。開発者向けには `git clone` の後に `npm install`、`npm run dev` で Electron と Vite を同時に立ち上げます。 使う前提として Google Gemini API Key と Tavily Search API Key が必要です。検索と推論の両方を外部 API に 依存するので、導入時はこの 2 つを先に用意しておくのが前提です。 どんな人向けか 会議音声の文字起こし、画面を見せずに使う AI 補助、常駐型の検索バーをまとめて使いたい人に向いています。 とくに、業務画面の共有中でも見せたくない情報を扱う人には、設計意図がはっきりしています。 注意点 README では Windows 10 での検証のみが案内されており、Windows 11 は未検証、macOS と Linux は非対応です。 また、動作には Gemini と Tavily の API キーが必要で、完全ローカル完結のツールではありません。 まとめ Hades Agent は、常駐型デスクトップ AI を「見えないこと」と「音声・検索・記憶の分離設計」でまとめた ツールです。画面共有や会議補助を含む実務で、プライバシーを意識しながら使いたい場合に検討しやすい リポジトリです。 参照リンク https://github.com/euvictorldev/hades-agent README.md Releases Shared GitHub Serial: #602"
+    },
     {
       "slug": "2026-05-23-awesome-gpt-image-2",
       "category": "github-pickup",

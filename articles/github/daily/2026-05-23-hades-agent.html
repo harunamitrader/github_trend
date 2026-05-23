@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hades Agent は、ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hades-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hades-agent</h1>
+      <p class="article-dek">ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/euvictorldev/hades-agent" target="_blank" rel="noreferrer">
+              euvictorldev/hades-agent
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>30</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Hades Agent は、Electron と Gemini Live API で作られたデスクトップ AI コンパニオンです。README では
+          「invisible, ultra-fast desktop companion」と説明されており、画面上に常駐しながら音声、検索、記憶を
+          まとめて扱う用途に寄せられています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Alt+D で出る Spotlight Command Bar から、リアルタイムのインターネット参照付き回答を呼び出せます。
+          Alt+B では PC 内部音声を 16 kHz PCM で Gemini Live API に流し、会議や動画の文字起こしをすばやく
+          行えます。
+        </p>
+        <p>
+          さらに、Session MiniChat で現在のモデルやトークン消費を見ながら会話でき、バックグラウンドでは
+          Dream Memory Consolidation が会話ログを要約して `learnings.json` に圧縮します。
+          予定管理も Safe Task Scheduler で分離されているため、UI とバックグラウンド処理の役割分担が明確です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の特徴は、`setContentProtection` を使った Anti-Recording Shield です。README 上では OBS、
+          Discord、Teams、Zoom などの画面キャプチャから見えない設計とされており、プライバシー重視の常駐 AI として
+          独自性があります。
+        </p>
+        <p>
+          もう一つは、見えている UI を薄く保ちながら、裏側でメモリ整理とタスク予約を進める構成です。
+          単なるチャットアプリではなく、常駐型の作業補助に寄せている点が分かりやすいです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ユーザー向けには Releases から Windows 用インストーラを入れて起動し、Alt+S で API キーを入力する流れが
+          案内されています。開発者向けには `git clone` の後に `npm install`、`npm run dev` で
+          Electron と Vite を同時に立ち上げます。
+        </p>
+        <p>
+          使う前提として Google Gemini API Key と Tavily Search API Key が必要です。検索と推論の両方を外部 API に
+          依存するので、導入時はこの 2 つを先に用意しておくのが前提です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          会議音声の文字起こし、画面を見せずに使う AI 補助、常駐型の検索バーをまとめて使いたい人に向いています。
+          とくに、業務画面の共有中でも見せたくない情報を扱う人には、設計意図がはっきりしています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          README では Windows 10 での検証のみが案内されており、Windows 11 は未検証、macOS と Linux は非対応です。
+          また、動作には Gemini と Tavily の API キーが必要で、完全ローカル完結のツールではありません。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Hades Agent は、常駐型デスクトップ AI を「見えないこと」と「音声・検索・記憶の分離設計」でまとめた
+          ツールです。画面共有や会議補助を含む実務で、プライバシーを意識しながら使いたい場合に検討しやすい
+          リポジトリです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/euvictorldev/hades-agent" target="_blank" rel="noreferrer">https://github.com/euvictorldev/hades-agent</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/euvictorldev/hades-agent/blob/master/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/euvictorldev/hades-agent/releases" target="_blank" rel="noreferrer">Releases</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #602</p>
+      </div>
+    </article>
+  </body>
+</html>

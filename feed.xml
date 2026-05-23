@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 03:03:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 12:29:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hades-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hades-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hades-agent.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-gpt-image-2]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-awesome-gpt-image-2.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLMのツール呼び出しとマルチステップの自律エージェントワークフローを構築するためのPythonフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[s-ui]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-s-ui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-22-s-ui.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SagerNet / Sing-Box 向けの高度な Web パネルを提供するプロキシ管理インターフェース]]></description>
     </item>
   </channel>
 </rss>
