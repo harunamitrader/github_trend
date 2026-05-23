@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 21:53:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 11:44:59 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[WeKnora]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-WeKnora.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-WeKnora.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-23 AI一般ツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-23-ai-others-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026-05-22 の GitHub Trending 更新レポートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.148: Bash ツールの exit code 127 回帰を修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-claude-code-v2-1-148.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-22-claude-code-v2-1-148.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.148 は Bash ツールの exit code 127 回帰を修正した小規模パッチです。]]></description>
     </item>
   </channel>
 </rss>

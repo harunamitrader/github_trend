@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "WeKnora",
+      "dek": "文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。",
+      "summary": "Tencent/WeKnora を、RAG、エージェント、Wiki をつなぐ知識基盤として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "originType": "pickup",
+      "serial": 600,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T11:44:11+09:00",
+      "slug": "2026-05-23-WeKnora",
+      "repoName": "Tencent/WeKnora",
+      "repoUrl": "https://github.com/Tencent/WeKnora",
+      "articleUrl": "./articles/github/daily/2026-05-23-WeKnora.html",
+      "starCount": 15371
+    },
+    {
       "title": "2026-05-23 AI一般ツール アップデート",
       "dek": "Perplexity の Pro Perks、Academic / Finance ホーム、Audio & Video File Search と、Obsidian Community の公開を横断して整理した 2026-05-23 の Others 監視ログ。",
       "summary": "Perplexity の 5/23 更新と Obsidian Community の公開をまとめた 2026-05-23 の Others 監視ログ。検索・研究体験の拡張と、知識基盤の安全性強化を整理しています。",

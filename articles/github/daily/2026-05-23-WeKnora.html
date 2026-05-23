@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tencent/WeKnora を、RAG、エージェント、Wiki をつなぐ知識基盤として整理した GitHub Pickup 記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>WeKnora</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">WeKnora</h1>
+      <p class="article-dek">文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Tencent/WeKnora" target="_blank" rel="noreferrer">
+              Tencent/WeKnora
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,371</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          WeKnora は、公開 README で「Open-source LLM knowledge platform」と説明されている知識基盤です。
+          生の文書を、そのまま問い合わせ可能な RAG、複雑な手順を進める ReAct Agent、そして維持しやすい Wiki に
+          変換することを狙っています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          ふだんの問い合わせには RAG ベースの Quick Q&A を使い、複数ステップの処理では Agent が検索・ツール利用・
+          Web 検索をまとめて回します。さらに Wiki Mode では、元文書から相互リンク付きの Markdown Wiki を
+          自動生成し、ナレッジを保守しやすい形に整えます。
+        </p>
+        <p>
+          取り込み元は Feishu、Notion、Yuque などで、今後のソース追加も案内されています。文書形式も PDF、Word、
+          画像、Excel、PPT、JSON まで幅広く、問い合わせチャネルは WeCom、Feishu、Slack、Telegram などに広がっています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          目立つのは、単なる検索エンジンではなく「知識を作り直す」方向に寄っている点です。単発の Q&amp;A だけでなく、
+          Wiki 化と長期保守を含めて設計されているため、社内ナレッジの再利用性が高い構成になっています。
+        </p>
+        <p>
+          もう一つの強みは、20 以上の LLM プロバイダー対応と Langfuse による可観測性です。モデル選択と追跡が見えるので、
+          企業利用で気になりやすい監査性と運用性を両立しやすくしています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、まず Docker Compose で core services を起動し、その後に Web UI へアクセスする流れが案内されています。
+          開発時は `just setup` で環境を整え、`just dev` で backend と frontend を分けて立ち上げる形です。
+        </p>
+        <p>
+          さらに、`weknora` という CLI が用意されており、知識ベースのリンク、アップロード、チャットなどをターミナルから
+          操作できます。MCP サーバーも備わっているので、Claude Code などの AI エージェントからの呼び出しにもつなげやすいです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          社内文書を RAG で検索したいチーム、問い合わせ対応を半自動化したい運用担当、Wiki と QA を一体で整えたい
+          ナレッジ管理チームに向いています。特に、データを外部 SaaS に閉じ込めずに自前で運用したいケースと相性が良いです。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          README には、v0.1.3 以降でログイン認証が入ること、公開ネットワークに直接さらすより内部・プライベート環境で
+          運用することが推奨されていることが書かれています。RBAC、ソース接続、モデル設定まで含めると、
+          立ち上げ時の設計はやや重めです。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          WeKnora は、文書検索を超えて、RAG、Agent、Wiki をひとつの知識運用基盤にまとめたプロジェクトです。
+          企業内の散在した情報を実用的なナレッジ資産に変えたい場面で、かなり筋の良い選択肢です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Tencent/WeKnora" target="_blank" rel="noreferrer">https://github.com/Tencent/WeKnora</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Tencent/WeKnora/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://weknora.weixin.qq.com" target="_blank" rel="noreferrer">WeKnora 公式サイト</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #600</p>
+      </div>
+    </article>
+  </body>
+</html>
