@@ -57,6 +57,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-awaek",
+      "title": "awaek",
+      "dek": "X の保存済みブックマークをローカル知識ベースに変える基盤です。",
+      "summary": "1lystore/awaek を、X の保存済みブックマークを質問・要約・下書きに再利用するローカル知識基盤として整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "1lystore/awaek",
+      "repoUrl": "https://github.com/1lystore/awaek",
+      "starCount": 24,
+      "articleUrl": "./articles/github/daily/2026-05-24-awaek.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T07:20:31+09:00",
+      "serial": 616,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",

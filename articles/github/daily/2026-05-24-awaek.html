@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="X の保存済みブックマークをローカル知識ベースに変える Awaek を、実務の使いどころに絞って整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>awaek</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">awaek</h1>
+      <p class="article-dek">X の保存済みブックマークをローカル知識ベースに変える基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/1lystore/awaek" target="_blank" rel="noreferrer">
+              1lystore/awaek
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>24</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Awaek は、保存済みの X ブックマークを使って質問に答えたり、要約や下書きを作ったりするローカル前提の
+          AI ツールです。Hermes Agent の中で動き、保存した投稿をそのまま知識源として扱います。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          ブックマークを SQLite に保持し、検索しやすい evidence chunks に分割して、質問応答や文章生成に使えます。
+          たとえば、保存した投稿からテーマを要約したり、ローンチ計画や X 投稿の下書きを作ったりできます。
+        </p>
+        <p>
+          さらに、長文ポストの中から重要なリンクや主張を拾い、複数の保存済み投稿をまたいで「何を繰り返し見ているか」を
+          把握しやすくしています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の強みは、X の保存済み投稿を「あとで読む」状態から「今すぐ使える材料」に変える点です。
+          単純なブックマーク一覧ではなく、回答や下書きの根拠として再利用できるように設計されています。
+        </p>
+        <p>
+          もう一つは、データがローカルに閉じることです。No hosted backend の方針なので、保存したリンクや検索対象を
+          自分の環境の中で完結させやすいです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、Hermes に Awaek の skill を入れ、`xurl` の認証を済ませてから `Awaek sync` でブックマークを
+          取り込みます。取り込み後は `Awaek status` や通常の対話で、保存済み投稿を材料に質問できます。
+        </p>
+        <p>
+          先にブックマークを同期し、その後に「自分の保存履歴は何に偏っているか」「この保存群から何が言えるか」を
+          聞く流れがわかりやすいです。読み返しではなく、分析用の入口として使うのが自然です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          X の保存機能を情報収集の本棚として使っている人、保存した投稿から文章や企画を起こしたい人、
+          ローカルに閉じた知識ベースを持ちたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          Hermes Agent と `xurl` のセットアップが前提なので、単体の軽量ツールとしては始めにくいです。
+          また、X の利用規約や認証まわりの運用条件は確認しておく必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Awaek は、X の保存済みブックマークを単なる保存箱ではなく、質問・要約・下書きの材料に変えるための基盤です。
+          ブックマークを知識資産として使いたい人に向いたリポジトリです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/1lystore/awaek" target="_blank" rel="noreferrer">https://github.com/1lystore/awaek</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/1lystore/awaek/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #616</p>
+      </div>
+    </article>
+  </body>
+</html>

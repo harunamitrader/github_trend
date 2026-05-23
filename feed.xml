@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 22:15:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 07:21:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -30,6 +30,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awaek]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-awaek.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-awaek.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[X の保存済みブックマークをローカル知識ベースに変える基盤です。]]></description>
     </item>
     <item>
       <title><![CDATA[ForgeCAD]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GPT-Image 2 のプロンプトをケース集として整理したリポジトリです。画像生成の再利用性を高めたい人向けです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[WeKnora]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-WeKnora.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-WeKnora.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[文書を RAG、エージェント、Wiki に変換する知識基盤です。社内ドキュメントをそのまま実用検索に乗せやすい構成です。]]></description>
     </item>
   </channel>
 </rss>
