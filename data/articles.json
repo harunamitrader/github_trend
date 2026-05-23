@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "hol-guard",
+      "dek": "Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。",
+      "summary": "hashgraph-online/hol-guard を、AI ハーネスを実行前に保護するローカルガード基盤として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "originType": "pickup",
+      "serial": 605,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T18:50:13+09:00",
+      "slug": "2026-05-23-hol-guard",
+      "repoName": "hashgraph-online/hol-guard",
+      "repoUrl": "https://github.com/hashgraph-online/hol-guard",
+      "articleUrl": "./articles/github/daily/2026-05-23-hol-guard.html",
+      "starCount": 338
+    },
+    {
       "title": "app-store-screenshots",
       "dek": "App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。",
       "summary": "ParthJadhav/app-store-screenshots を、アプリ紹介用のマーケティング画像を AI で作る制作スキルとして整理した GitHub Pickup 記事。",

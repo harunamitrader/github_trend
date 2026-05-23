@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hol-guard</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hol-guard</h1>
+      <p class="article-dek">Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/hashgraph-online/hol-guard" target="_blank" rel="noreferrer">
+              hashgraph-online/hol-guard
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>338</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          hol-guard は、AI エージェント向けの「ローカルな antivirus / guard」ツールです。README では
+          Codex、Claude Code、Cursor、Gemini、OpenCode、plugin、skills、MCP server などを
+          ツール実行前に保護する位置づけで説明されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          初回セットアップでは、ローカル環境の把握、保護対象の登録、Cloud 接続や通知の有無を段階的に確認します。
+          その後は `hol-guard start` や `hol-guard run &lt;harness&gt;` で、実行前に状態を見て、怪しい変更や新規アーティファクトを
+          先に止められます。
+        </p>
+        <p>
+          `hol-guard receipts` で判断履歴を残し、`hol-guard approvals` で保留中の承認を整理できます。
+          単なるブロック装置ではなく、あとから見返せる運用証跡を残す設計です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          目立つのは、AI ハーネスの実行を「いきなり通さない」点です。先にベースラインを取り、変更点を確認してから
+          進めるので、プラグインや MCP 周りの信頼性を上げやすいです。
+        </p>
+        <p>
+          もう一つは、`hol-guard` 本体と `plugin-scanner` を役割分担していることです。ローカル保護と CI の検査を分けると、
+          日常運用とリリース前チェックの境界が明確になります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README の導線は比較的明確で、まず `pipx install hol-guard` で導入し、`hol-guard init` で初回設定を進めます。
+          必要に応じて `hol-guard bootstrap` や `hol-guard run codex --dry-run` を使い、実行前の状態を確認します。
+        </p>
+        <p>
+          仕組みは「先に見る、次に許可する」が基本です。デスクトップや CLI に触る前に、承認センターや receipt を通すので、
+          安全確認を挟みたいチームに向いています。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          AI ツールを業務で使うが、MCP や plugin まわりの安全性を気にしたい人、自前ハーネスを保護したい人、
+          リリース前に CI とローカル両方でガードをかけたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          初期導線が丁寧なぶん、最初の設定は少し重めです。`Balanced` 以上の保護では止まる場面もあるので、
+          最初はどのレベルが自分の運用に合うかを決めてから入るのが現実的です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          hol-guard は、AI ハーネスやプラグイン基盤を使う前に安全確認を挟みたいときの実務向けツールです。
+          乱暴に止めるのではなく、承認と履歴を残しながら守る設計が分かりやすいです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/hashgraph-online/hol-guard" target="_blank" rel="noreferrer">https://github.com/hashgraph-online/hol-guard</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/hashgraph-online/hol-guard/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://hol.org/registry/plugins" target="_blank" rel="noreferrer">HOL Plugin Registry</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #605</p>
+      </div>
+    </article>
+  </body>
+</html>

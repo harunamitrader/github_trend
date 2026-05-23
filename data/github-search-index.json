@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T09:28:59.935012+00:00",
-  "count": 659,
+  "generatedAt": "2026-05-23T09:50:54.658979+00:00",
+  "count": 660,
   "articles": [
+    {
+      "slug": "2026-05-23-hol-guard",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hol-guard",
+      "dek": "Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。",
+      "summary": "hashgraph-online/hol-guard を、AI ハーネスを実行前に保護するローカルガード基盤として整理した GitHub Pickup 記事。",
+      "repoName": "hashgraph-online/hol-guard",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T18:50:13+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-hol-guard.html",
+      "serial": 605,
+      "searchText": "hol-guard Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。 hashgraph-online/hol-guard を、AI ハーネスを実行前に保護するローカルガード基盤として整理した GitHub Pickup 記事。 hashgraph-online/hol-guard スクレイピング・情報収集・セキュリティ hol-guard ← 記事一覧へ戻る GitHub Watcher hol-guard Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。 記事作成日 2026-05-23 種別 Pickup 対象 repo hashgraph-online/hol-guard Star数 338 これは何か hol-guard は、AI エージェント向けの「ローカルな antivirus / guard」ツールです。README では Codex、Claude Code、Cursor、Gemini、OpenCode、plugin、skills、MCP server などを ツール実行前に保護する位置づけで説明されています。 何ができるか 初回セットアップでは、ローカル環境の把握、保護対象の登録、Cloud 接続や通知の有無を段階的に確認します。 その後は `hol-guard start` や `hol-guard run <harness>` で、実行前に状態を見て、怪しい変更や新規アーティファクトを 先に止められます。 `hol-guard receipts` で判断履歴を残し、`hol-guard approvals` で保留中の承認を整理できます。 単なるブロック装置ではなく、あとから見返せる運用証跡を残す設計です。 目立つポイント 目立つのは、AI ハーネスの実行を「いきなり通さない」点です。先にベースラインを取り、変更点を確認してから 進めるので、プラグインや MCP 周りの信頼性を上げやすいです。 もう一つは、`hol-guard` 本体と `plugin-scanner` を役割分担していることです。ローカル保護と CI の検査を分けると、 日常運用とリリース前チェックの境界が明確になります。 セットアップや使い方の流れ README の導線は比較的明確で、まず `pipx install hol-guard` で導入し、`hol-guard init` で初回設定を進めます。 必要に応じて `hol-guard bootstrap` や `hol-guard run codex --dry-run` を使い、実行前の状態を確認します。 仕組みは「先に見る、次に許可する」が基本です。デスクトップや CLI に触る前に、承認センターや receipt を通すので、 安全確認を挟みたいチームに向いています。 どんな人向けか AI ツールを業務で使うが、MCP や plugin まわりの安全性を気にしたい人、自前ハーネスを保護したい人、 リリース前に CI とローカル両方でガードをかけたい人に向いています。 注意点 初期導線が丁寧なぶん、最初の設定は少し重めです。`Balanced` 以上の保護では止まる場面もあるので、 最初はどのレベルが自分の運用に合うかを決めてから入るのが現実的です。 まとめ hol-guard は、AI ハーネスやプラグイン基盤を使う前に安全確認を挟みたいときの実務向けツールです。 乱暴に止めるのではなく、承認と履歴を残しながら守る設計が分かりやすいです。 参照リンク https://github.com/hashgraph-online/hol-guard README.md HOL Plugin Registry Shared GitHub Serial: #605"
+    },
     {
       "slug": "2026-05-23-app-store-screenshots",
       "category": "github-pickup",
