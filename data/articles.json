@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "LibreChat",
+      "dek": "複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。",
+      "summary": "danny-avila/LibreChat を、Agents、MCP、Code Interpreter、マルチプロバイダー対応を備えた self-hosted AI 基盤として整理した GitHub Pickup 記事。",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "serial": 603,
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T17:09:46+09:00",
+      "slug": "2026-05-23-LibreChat",
+      "repoName": "danny-avila/LibreChat",
+      "repoUrl": "https://github.com/danny-avila/LibreChat",
+      "articleUrl": "./articles/github/daily/2026-05-23-LibreChat.html",
+      "starCount": 37359
+    },
+    {
       "title": "hades-agent",
       "dek": "ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。",
       "summary": "euvictorldev/hades-agent を、Electron と Gemini Live API で構成された常駐型デスクトップ AI として整理した GitHub Pickup 記事。",

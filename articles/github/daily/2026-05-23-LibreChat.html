@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LibreChat</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LibreChat</h1>
+      <p class="article-dek">複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-23 -->
+          <strong>2026-05-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/danny-avila/LibreChat" target="_blank" rel="noreferrer">
+              danny-avila/LibreChat
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>37,359</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          LibreChat は、ChatGPT 風の UI をベースにした self-hosted の AI チャット基盤です。OpenAI、
+          Anthropic、Azure、Google、ローカル LLM などを 1 つの会話体験にまとめて扱えるのが特徴です。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          モデル切り替え、Agents、MCP、Web Search、Code Interpreter、画像生成、ファイル会話、会話検索、
+          多言語 UI までを一通り備えています。日常のチャットだけでなく、調査、実行、共有までを同じ画面で
+          回しやすい構成です。
+        </p>
+        <p>
+          プリセットや会話の分岐、インポート / エクスポートもあるので、個人の試用環境からチーム運用まで
+          持っていきやすいです。自前でホストできるため、プロバイダーをまたいだ検証もしやすくなります。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          目立つのは、単なるチャットフロントではなく、AI の実行基盤として広く機能を束ねている点です。
+          Agents、MCP、Code Interpreter、Artifacts などが同居しており、会話アプリと作業アプリの境目が薄いです。
+        </p>
+        <p>
+          もう一つは、ベンダー依存を減らしやすいことです。特定のモデルや特定の SaaS に閉じず、
+          複数の API をまとめて使い分けたいときに向いています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README と公式サイトでは、Docker ベースでの導入が主な案内になっています。まずは環境変数と
+          `librechat.yaml` を用意し、使いたいプロバイダーや機能を有効化して立ち上げる流れです。
+        </p>
+        <p>
+          運用時は、必要なモデルだけを有効にして始めるのが現実的です。機能が多いので、最初から全部を
+          使うより、チャット、検索、ファイル処理の順で広げると把握しやすいです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          複数 AI プロバイダーを横断して試したい人、自前で安全に運用できるチャット基盤が欲しい人、
+          研究や社内利用のために会話・検索・実行を一体化したい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          機能が非常に多いため、設定項目も多くなります。使いたい機能の範囲を先に決めておかないと、
+          初回セットアップで迷いやすいです。商用利用やチーム運用では、認証や権限設計も先に固めておくと安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          LibreChat は、複数の AI サービスを 1 つの self-hosted 環境に集約したいときに強い基盤です。
+          チャットの見た目だけでなく、Agents や MCP まで含めて使いたい人に向いたリポジトリです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/danny-avila/LibreChat" target="_blank" rel="noreferrer">https://github.com/danny-avila/LibreChat</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/danny-avila/LibreChat/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://librechat.ai" target="_blank" rel="noreferrer">librechat.ai</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #603</p>
+      </div>
+    </article>
+  </body>
+</html>

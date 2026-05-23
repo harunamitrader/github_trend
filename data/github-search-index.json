@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T03:29:18.151272+00:00",
-  "count": 657,
+  "generatedAt": "2026-05-23T08:10:14.769393+00:00",
+  "count": 658,
   "articles": [
+    {
+      "slug": "2026-05-23-LibreChat",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "LibreChat",
+      "dek": "複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。",
+      "summary": "danny-avila/LibreChat を、Agents、MCP、Code Interpreter、マルチプロバイダー対応を備えた self-hosted AI 基盤として整理した GitHub Pickup 記事。",
+      "repoName": "danny-avila/LibreChat",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-23T17:09:46+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-23-LibreChat.html",
+      "serial": 603,
+      "searchText": "LibreChat 複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。 danny-avila/LibreChat を、Agents、MCP、Code Interpreter、マルチプロバイダー対応を備えた self-hosted AI 基盤として整理した GitHub Pickup 記事。 danny-avila/LibreChat AI基盤・データ基盤・業務アプリ LibreChat ← 記事一覧へ戻る GitHub Watcher LibreChat 複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。 記事作成日 2026-05-23 種別 Pickup 対象 repo danny-avila/LibreChat Star数 37,359 これは何か LibreChat は、ChatGPT 風の UI をベースにした self-hosted の AI チャット基盤です。OpenAI、 Anthropic、Azure、Google、ローカル LLM などを 1 つの会話体験にまとめて扱えるのが特徴です。 何ができるか モデル切り替え、Agents、MCP、Web Search、Code Interpreter、画像生成、ファイル会話、会話検索、 多言語 UI までを一通り備えています。日常のチャットだけでなく、調査、実行、共有までを同じ画面で 回しやすい構成です。 プリセットや会話の分岐、インポート / エクスポートもあるので、個人の試用環境からチーム運用まで 持っていきやすいです。自前でホストできるため、プロバイダーをまたいだ検証もしやすくなります。 目立つポイント 目立つのは、単なるチャットフロントではなく、AI の実行基盤として広く機能を束ねている点です。 Agents、MCP、Code Interpreter、Artifacts などが同居しており、会話アプリと作業アプリの境目が薄いです。 もう一つは、ベンダー依存を減らしやすいことです。特定のモデルや特定の SaaS に閉じず、 複数の API をまとめて使い分けたいときに向いています。 セットアップや使い方の流れ README と公式サイトでは、Docker ベースでの導入が主な案内になっています。まずは環境変数と `librechat.yaml` を用意し、使いたいプロバイダーや機能を有効化して立ち上げる流れです。 運用時は、必要なモデルだけを有効にして始めるのが現実的です。機能が多いので、最初から全部を 使うより、チャット、検索、ファイル処理の順で広げると把握しやすいです。 どんな人向けか 複数 AI プロバイダーを横断して試したい人、自前で安全に運用できるチャット基盤が欲しい人、 研究や社内利用のために会話・検索・実行を一体化したい人に向いています。 注意点 機能が非常に多いため、設定項目も多くなります。使いたい機能の範囲を先に決めておかないと、 初回セットアップで迷いやすいです。商用利用やチーム運用では、認証や権限設計も先に固めておくと安全です。 まとめ LibreChat は、複数の AI サービスを 1 つの self-hosted 環境に集約したいときに強い基盤です。 チャットの見た目だけでなく、Agents や MCP まで含めて使いたい人に向いたリポジトリです。 参照リンク https://github.com/danny-avila/LibreChat README.md librechat.ai Shared GitHub Serial: #603"
+    },
     {
       "slug": "2026-05-23-hades-agent",
       "category": "github-pickup",
