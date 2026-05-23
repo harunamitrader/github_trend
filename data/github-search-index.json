@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T19:51:03.823601+00:00",
-  "count": 668,
+  "generatedAt": "2026-05-23T21:59:07.361696+00:00",
+  "count": 669,
   "articles": [
+    {
+      "slug": "2026-05-24-text-to-cad",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "text-to-cad",
+      "dek": "CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。",
+      "summary": "earthtojake/text-to-cad を、CAD・ロボティクス・ハードウェア設計向けの agent skills 集として整理した GitHub Watcher 記事。",
+      "repoName": "earthtojake/text-to-cad",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T06:58:12+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-text-to-cad.html",
+      "serial": 613,
+      "searchText": "text-to-cad CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。 earthtojake/text-to-cad を、CAD・ロボティクス・ハードウェア設計向けの agent skills 集として整理した GitHub Watcher 記事。 earthtojake/text-to-cad 学習ガイド・開発アセット text-to-cad ← 記事一覧へ戻る GitHub Watcher text-to-cad CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。 記事作成日 2026-05-24 種別 Pickup 対象 repo earthtojake/text-to-cad Star数 4,444 これは何か text-to-cad は、CAD・ロボティクス・ハードウェア設計に使う agent skills をまとめたリポジトリです。 README では、Codex や Claude Code のような coding agent から、source-controlled な CAD モデルを作るための 土台として説明されています。 何ができるか CAD skills で STEP、STL、3MF、DXF、GLB、topology data、URDF / SRDF / SDF を出力できます。 さらに CAD Explorer で生成物を確認し、`@cad[...]` の参照で geometry を保ったまま追編集できます。 仕上げ段階では `render`、`step.parts`、`sendcutsend` などの skills を使って、部品選定やレビュー、製造前確認まで ひと続きにできます。 目立つポイント 一番の特徴は、自然言語で CAD を出すだけで終わらず、「ソースを編集してから明示的な生成物を再作成する」流れを 標準化していることです。設計変更の追跡がしやすく、後から再現しやすい運用に向いています。 もう一つは、CAD だけでなくロボット記述や製造前チェックまで含めている点です。単発の生成ツールではなく、 設計・確認・出力の作業面をまとめて扱えるのが強みです。 セットアップや使い方の流れ README の導線はシンプルで、まず `npx skills add earthtojake/text-to-cad` で導入し、必要な skill を選んで使います。 ローカルで作業する場合は Python 3.11 以上と CAD 関連依存関係が前提になります。 実務では、部品や治具の要件を伝えるところから始めて、source ファイルを更新し、その後に STEP や URDF などの 生成物を再出力して CAD Explorer で確認する流れが扱いやすいです。 どんな人向けか コードで CAD を管理したい人、ロボットの構成要素を URDF / SRDF / SDF まで一気通貫で扱いたい人、 CAD と製造前確認を同じ作業線で回したい人に向いています。 注意点 GitHub 上では skills とハーネスが多く、初見では守備範囲が広く見えます。実際には、必要な skill を絞って使う方が 運用しやすいです。生成物は LFS を含む大きめの資産を伴う前提なので、ローカル環境の準備も必要です。 まとめ text-to-cad は、AI で CAD を「作る」だけでなく、設計ソース・生成物・確認作業をつなげて扱うための基盤です。 CAD、ロボティクス、ハードウェア設計を coding agent で回したい人にかなり相性がいいリポジトリです。 参照リンク https://github.com/earthtojake/text-to-cad README.md Docs Demo Shared GitHub Serial: #613"
+    },
     {
       "slug": "2026-05-24-update-report",
       "category": "github-update-report",

@@ -22,6 +22,23 @@
       "starCount": 0
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-05-24-text-to-cad",
+      "title": "text-to-cad",
+      "dek": "CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。",
+      "summary": "earthtojake/text-to-cad を、CAD・ロボティクス・ハードウェア設計向けの agent skills 集として整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "earthtojake/text-to-cad",
+      "repoUrl": "https://github.com/earthtojake/text-to-cad",
+      "starCount": 4444,
+      "articleUrl": "./articles/github/daily/2026-05-24-text-to-cad.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T06:58:12+09:00",
+      "serial": 613,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
       "title": "Anthropic-Cybersecurity-Skills",
       "dek": "AI エージェント向けのサイバーセキュリティ技能をまとめた大規模ライブラリです。",
       "summary": "mukul975/Anthropic-Cybersecurity-Skills を、AI エージェント向けのサイバーセキュリティ技能集として整理した GitHub Watcher 記事。",

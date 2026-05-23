@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 21:41:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:59:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026-05-24 の GitHub Trending 更新レポートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[text-to-cad]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-text-to-cad.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-text-to-cad.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。]]></description>
     </item>
     <item>
       <title><![CDATA[Anthropic-Cybersecurity-Skills]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェント向けのブラウザ自動化 CLI。スナップショット、クリック、入力を軽い操作感で回せます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mirage]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-mirage.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-mirage.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けに S3、Slack、GDrive などを 1 つの仮想ファイルシステムへ束ねる基盤。]]></description>
     </item>
   </channel>
 </rss>
