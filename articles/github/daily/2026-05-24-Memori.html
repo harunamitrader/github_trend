@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLM 非依存でエージェントの会話や実行結果を永続メモリに変える Memori を整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Memori</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Memori</h1>
+      <p class="article-dek">LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MemoriLabs/Memori" target="_blank" rel="noreferrer">
+              MemoriLabs/Memori
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>14,853</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Memori は、エージェントの会話や tool call、決定内容を構造化して永続化する memory infrastructure です。
+          README では、単なる会話履歴ではなく、エージェントの実行から意味のある状態を作るレイヤーとして説明されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          TypeScript と Python の SDK から使え、OpenAI、Anthropic、Gemini、Grok など複数 LLM に対応しています。
+          Memori Cloud、BYODB、OpenClaw プラグイン、Hermes provider、MCP まで用意されていて、既存の agent stack に
+          後付けしやすいです。
+        </p>
+        <p>
+          entity、process、session の3層で記憶を扱い、preferences、skills、rules、events、facts などを背景で補強します。
+          長い会話をそのまま詰め込まずに、要点を再利用可能な状態へ整理できるのがポイントです。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の特徴は、会話内容だけでなく agent の実行結果も memory 化する点です。これにより、
+          「何を言ったか」だけでなく「何をしたか」を次回以降の文脈に使えます。
+        </p>
+        <p>
+          もう一つは、LLM やデータストア、framework に依存しにくい設計です。既存のアプリやエージェントを
+          大きく作り替えずに、持続的な状態管理を足しやすいです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、SDK を入れて `MEMORI_API_KEY` と LLM の API キーを設定し、`Memori().llm.register(...)`
+          で組み込みます。OpenClaw や Hermes、MCP の場合は、各プラットフォーム向けの導入手順に沿って接続します。
+        </p>
+        <p>
+          まずは entity と process を決め、会話や実行をひとつの session にまとめるのが基本です。
+          そこから recall や summary を使って、次のターンに必要な文脈だけを引き出します。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          エージェントに継続的な記憶を持たせたい人、会話履歴をそのままではなく構造化して再利用したい人、
+          複数の LLM や実行基盤をまたいで共通の memory layer を使いたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          メモリは自動で価値を生むわけではなく、entity/process の設計が悪いとノイズが増えます。
+          また、API key や quota 管理があるので、開発環境と本番環境の境界ははっきり分けた方が安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Memori は、エージェントを「会話するだけの存在」から「継続的に学習した状態を持つ存在」に近づけるための基盤です。
+          実運用の agent memory を作りたい人に向いたプロダクトです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MemoriLabs/Memori" target="_blank" rel="noreferrer">https://github.com/MemoriLabs/Memori</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/MemoriLabs/Memori/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://app.memorilabs.ai/" target="_blank" rel="noreferrer">Memori Dashboard</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #621</p>
+      </div>
+    </article>
+  </body>
+</html>

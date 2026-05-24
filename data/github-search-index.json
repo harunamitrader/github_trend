@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T09:48:20.963755+00:00",
-  "count": 676,
+  "generatedAt": "2026-05-24T11:59:46.918684+00:00",
+  "count": 677,
   "articles": [
+    {
+      "slug": "2026-05-24-Memori",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Memori",
+      "dek": "LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。",
+      "summary": "MemoriLabs/Memori を、エージェントの会話や実行結果を構造化して永続化する memory infrastructure として整理した GitHub Watcher 記事。",
+      "repoName": "MemoriLabs/Memori",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T20:58:47+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-Memori.html",
+      "serial": 621,
+      "searchText": "Memori LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。 MemoriLabs/Memori を、エージェントの会話や実行結果を構造化して永続化する memory infrastructure として整理した GitHub Watcher 記事。 MemoriLabs/Memori AI基盤・データ基盤・業務アプリ Memori ← 記事一覧へ戻る GitHub Watcher Memori LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。 記事作成日 2026-05-24 種別 Pickup 対象 repo MemoriLabs/Memori Star数 14,853 これは何か Memori は、エージェントの会話や tool call、決定内容を構造化して永続化する memory infrastructure です。 README では、単なる会話履歴ではなく、エージェントの実行から意味のある状態を作るレイヤーとして説明されています。 何ができるか TypeScript と Python の SDK から使え、OpenAI、Anthropic、Gemini、Grok など複数 LLM に対応しています。 Memori Cloud、BYODB、OpenClaw プラグイン、Hermes provider、MCP まで用意されていて、既存の agent stack に 後付けしやすいです。 entity、process、session の3層で記憶を扱い、preferences、skills、rules、events、facts などを背景で補強します。 長い会話をそのまま詰め込まずに、要点を再利用可能な状態へ整理できるのがポイントです。 目立つポイント 一番の特徴は、会話内容だけでなく agent の実行結果も memory 化する点です。これにより、 「何を言ったか」だけでなく「何をしたか」を次回以降の文脈に使えます。 もう一つは、LLM やデータストア、framework に依存しにくい設計です。既存のアプリやエージェントを 大きく作り替えずに、持続的な状態管理を足しやすいです。 セットアップや使い方の流れ README では、SDK を入れて `MEMORI_API_KEY` と LLM の API キーを設定し、`Memori().llm.register(...)` で組み込みます。OpenClaw や Hermes、MCP の場合は、各プラットフォーム向けの導入手順に沿って接続します。 まずは entity と process を決め、会話や実行をひとつの session にまとめるのが基本です。 そこから recall や summary を使って、次のターンに必要な文脈だけを引き出します。 どんな人向けか エージェントに継続的な記憶を持たせたい人、会話履歴をそのままではなく構造化して再利用したい人、 複数の LLM や実行基盤をまたいで共通の memory layer を使いたい人に向いています。 注意点 メモリは自動で価値を生むわけではなく、entity/process の設計が悪いとノイズが増えます。 また、API key や quota 管理があるので、開発環境と本番環境の境界ははっきり分けた方が安全です。 まとめ Memori は、エージェントを「会話するだけの存在」から「継続的に学習した状態を持つ存在」に近づけるための基盤です。 実運用の agent memory を作りたい人に向いたプロダクトです。 参照リンク https://github.com/MemoriLabs/Memori README.md Memori Dashboard Shared GitHub Serial: #621"
+    },
     {
       "slug": "2026-05-24-zellij",
       "category": "github-pickup",

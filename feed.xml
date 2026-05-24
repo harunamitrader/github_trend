@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 24 May 2026 09:49:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 21:00:12 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -70,6 +70,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Memori]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-Memori.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-Memori.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。]]></description>
     </item>
     <item>
       <title><![CDATA[ForgeCAD]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[トレーダーの判断をゲート化して、スクリーナーとペーパートレーダーに落とし込む基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hol-guard]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hol-guard.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hol-guard.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。]]></description>
     </item>
   </channel>
 </rss>

@@ -142,6 +142,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-Memori",
+      "title": "Memori",
+      "dek": "LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。",
+      "summary": "MemoriLabs/Memori を、エージェントの会話や実行結果を構造化して永続化する memory infrastructure として整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "MemoriLabs/Memori",
+      "repoUrl": "https://github.com/MemoriLabs/Memori",
+      "starCount": 14853,
+      "articleUrl": "./articles/github/daily/2026-05-24-Memori.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T20:58:47+09:00",
+      "serial": 621,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",
