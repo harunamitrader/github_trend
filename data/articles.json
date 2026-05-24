@@ -108,6 +108,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-follow-builders",
+      "title": "follow-builders",
+      "dek": "AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。",
+      "summary": "zarazhangrui/follow-builders を、AI ビルダーの発信を日次・週次ダイジェストに変える配信ワークフローとして整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "zarazhangrui/follow-builders",
+      "repoUrl": "https://github.com/zarazhangrui/follow-builders",
+      "starCount": 4701,
+      "articleUrl": "./articles/github/daily/2026-05-24-follow-builders.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T13:14:44+09:00",
+      "serial": 619,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",

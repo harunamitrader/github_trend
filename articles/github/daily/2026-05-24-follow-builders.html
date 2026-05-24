@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI ビルダーの発信を集めて日次・週次ダイジェストに変える follow-builders を、実務の使いどころに絞って整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>follow-builders</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">follow-builders</h1>
+      <p class="article-dek">AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noreferrer">
+              zarazhangrui/follow-builders
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,701</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          follow-builders は、AI のビルダー層や公式ブログ、ポッドキャストの内容を集めて、日次または週次の digest として
+          配信する仕組みです。README では「Builds を追う人向けの要約フィード」として設計されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Anthropic Engineering や Claude Blog の記事、X 上の AI ビルダー投稿、ポッドキャストの要点をまとめて、
+          Telegram、Discord、WhatsApp などに届けられます。英語、中国語、バイリンガルにも対応しており、
+          受け手に合わせた要約の出し分けがしやすいです。
+        </p>
+        <p>
+          内容の集約は中央で行われるため、利用者側は複雑な収集処理や API キー管理をほぼ気にせずに済みます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の特徴は、「誰をフォローするか」を人ではなくビルダーの実績で選ぶ方針です。SNS の雑音を減らし、
+          実際に物を作っている人の発信だけを digest に載せる設計になっています。
+        </p>
+        <p>
+          もう一つは、要約のスタイルをプロンプトファイルで細かく調整できることです。短くする、実行可能な示唆を重視する、
+          口調を変えるといった調整を、会話またはファイル編集の両方で扱えます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README の導線はシンプルで、まず agent に skill を入れ、そのまま「set up follow builders」や
+          `/follow-builders` を実行します。すると配信頻度、時間、言語、届け先を会話で決められます。
+        </p>
+        <p>
+          以後は、daily か weekly の digest が自動で届きます。利用者側は source list の更新や収集ロジックを触らずに、
+          受け取る側の体裁だけを調整できます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          AI 会社の動向を日常的に追いたい人、X やポッドキャストを毎回自分で拾うのがつらい人、ビルダーの実務的な発信だけを
+          まとめて読みたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          利用者側に API キーは少なくて済みますが、配信先の設定や中央収集の前提は理解しておく必要があります。
+          また、要約の品質は prompt 設計に強く依存するため、雑に入れると digest の価値が落ちます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          follow-builders は、AI 業界の「誰を追うか」を整理して、毎日読める形に落とし込むための基盤です。
+          情報収集を継続運用したい人にとって、かなり実用的な配信ワークフローです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noreferrer">https://github.com/zarazhangrui/follow-builders</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/zarazhangrui/follow-builders/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #619</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T00:36:34.999916+00:00",
-  "count": 674,
+  "generatedAt": "2026-05-24T04:15:40.590199+00:00",
+  "count": 675,
   "articles": [
+    {
+      "slug": "2026-05-24-follow-builders",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "follow-builders",
+      "dek": "AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。",
+      "summary": "zarazhangrui/follow-builders を、AI ビルダーの発信を日次・週次ダイジェストに変える配信ワークフローとして整理した GitHub Watcher 記事。",
+      "repoName": "zarazhangrui/follow-builders",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T13:14:44+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-follow-builders.html",
+      "serial": 619,
+      "searchText": "follow-builders AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。 zarazhangrui/follow-builders を、AI ビルダーの発信を日次・週次ダイジェストに変える配信ワークフローとして整理した GitHub Watcher 記事。 zarazhangrui/follow-builders AIコーディング (ワークフロー・プロンプト・開発補助ツール) follow-builders ← 記事一覧へ戻る GitHub Watcher follow-builders AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。 記事作成日 2026-05-24 種別 Pickup 対象 repo zarazhangrui/follow-builders Star数 4,701 これは何か follow-builders は、AI のビルダー層や公式ブログ、ポッドキャストの内容を集めて、日次または週次の digest として 配信する仕組みです。README では「Builds を追う人向けの要約フィード」として設計されています。 何ができるか Anthropic Engineering や Claude Blog の記事、X 上の AI ビルダー投稿、ポッドキャストの要点をまとめて、 Telegram、Discord、WhatsApp などに届けられます。英語、中国語、バイリンガルにも対応しており、 受け手に合わせた要約の出し分けがしやすいです。 内容の集約は中央で行われるため、利用者側は複雑な収集処理や API キー管理をほぼ気にせずに済みます。 目立つポイント 一番の特徴は、「誰をフォローするか」を人ではなくビルダーの実績で選ぶ方針です。SNS の雑音を減らし、 実際に物を作っている人の発信だけを digest に載せる設計になっています。 もう一つは、要約のスタイルをプロンプトファイルで細かく調整できることです。短くする、実行可能な示唆を重視する、 口調を変えるといった調整を、会話またはファイル編集の両方で扱えます。 セットアップや使い方の流れ README の導線はシンプルで、まず agent に skill を入れ、そのまま「set up follow builders」や `/follow-builders` を実行します。すると配信頻度、時間、言語、届け先を会話で決められます。 以後は、daily か weekly の digest が自動で届きます。利用者側は source list の更新や収集ロジックを触らずに、 受け取る側の体裁だけを調整できます。 どんな人向けか AI 会社の動向を日常的に追いたい人、X やポッドキャストを毎回自分で拾うのがつらい人、ビルダーの実務的な発信だけを まとめて読みたい人に向いています。 注意点 利用者側に API キーは少なくて済みますが、配信先の設定や中央収集の前提は理解しておく必要があります。 また、要約の品質は prompt 設計に強く依存するため、雑に入れると digest の価値が落ちます。 まとめ follow-builders は、AI 業界の「誰を追うか」を整理して、毎日読める形に落とし込むための基盤です。 情報収集を継続運用したい人にとって、かなり実用的な配信ワークフローです。 参照リンク https://github.com/zarazhangrui/follow-builders README.md Shared GitHub Serial: #619"
+    },
     {
       "slug": "2026-05-24-ccglass",
       "category": "github-pickup",
