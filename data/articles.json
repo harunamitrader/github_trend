@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-25-ai-coding-tools-update",
+      "title": "2026-05-25 AIコーディングツール アップデート",
+      "dek": "Google Antigravity 2.0 / CLI / SDK の公開と GitHub Copilot for Eclipse のオープンソース化をまとめた 2026-05-25 の AIコーディングツール監視ログです。",
+      "summary": "Google Antigravity の 2.0 / CLI / SDK 公開と、GitHub Copilot for Eclipse のオープンソース化をまとめた 2026-05-25 の AIコーディングツール更新まとめです。",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T04:03:00+09:00",
+      "toolName": "Antigravity, GitHub Copilot",
+      "articleUrl": "./articles/tools/2026-05-25-ai-coding-tools-update.html",
+      "serial": 622,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "title": "2026-05-24 アップデートレポート",
       "summary": "2026-05-24 の GitHub Trending 更新レポートです。",
       "category": "github-update-report",
