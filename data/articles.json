@@ -91,6 +91,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-ccglass",
+      "title": "ccglass",
+      "dek": "Claude Code や Codex などの送信内容をローカルで可視化する基盤です。",
+      "summary": "jianshuo/ccglass を、Claude Code や Codex の送信内容をローカルで可視化する proxy/dashboard として整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "jianshuo/ccglass",
+      "repoUrl": "https://github.com/jianshuo/ccglass",
+      "starCount": 134,
+      "articleUrl": "./articles/github/daily/2026-05-24-ccglass.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T09:36:03+09:00",
+      "serial": 618,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",

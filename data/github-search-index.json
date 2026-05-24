@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T00:17:54.136391+00:00",
-  "count": 673,
+  "generatedAt": "2026-05-24T00:36:34.999916+00:00",
+  "count": 674,
   "articles": [
+    {
+      "slug": "2026-05-24-ccglass",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ccglass",
+      "dek": "Claude Code や Codex などの送信内容をローカルで可視化する基盤です。",
+      "summary": "jianshuo/ccglass を、Claude Code や Codex の送信内容をローカルで可視化する proxy/dashboard として整理した GitHub Watcher 記事。",
+      "repoName": "jianshuo/ccglass",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T09:36:03+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-ccglass.html",
+      "serial": 618,
+      "searchText": "ccglass Claude Code や Codex などの送信内容をローカルで可視化する基盤です。 jianshuo/ccglass を、Claude Code や Codex の送信内容をローカルで可視化する proxy/dashboard として整理した GitHub Watcher 記事。 jianshuo/ccglass AIコーディング (CLI本体・拡張機能) ccglass ← 記事一覧へ戻る GitHub Watcher ccglass Claude Code や Codex などの送信内容をローカルで可視化する基盤です。 記事作成日 2026-05-24 種別 Pickup 対象 repo jianshuo/ccglass Star数 134 これは何か ccglass は、Claude Code、Codex、DeepSeek-TUI、Kimi などの coding agent がモデルに送るリクエストを その場で見える化するローカル proxy と dashboard です。README では、何を送ったか、どの tool schema が 使われたか、どれだけ token や cost がかかったかを確認できる仕組みとして説明されています。 何ができるか client の通信を local proxy に通し、live request stream、conversation flow、turn-to-turn diff、token / cache / cost、 raw transcript や Markdown / JSON / HAR への export まで扱えます。単なるログ収集ではなく、agent の挙動を 振り返るための観測点が揃っています。 `ccglass claude` のように対象を指定して起動することも、`ccglass run --provider ... -- ` で 任意のクライアントを包むこともできます。 目立つポイント 一番の強みは、HTTP proxy を介さずに各 client の送信内容を掴む設計です。Node 系クライアントが `HTTP_PROXY` や `HTTPS_PROXY` を無視する問題を前提にしており、通信の可視化を後付けで安定して行えます。 もう一つは、モデルへの送信内容を「見られる」だけでなく、turn ごとの差分まで追えることです。 プロンプトが膨らんだ理由や、どの context が cache breakpoint になっているかを確認しやすいです。 セットアップや使い方の流れ README の最短導線は `npm install -g ccglass` のあとに `ccglass` を実行する形です。すると対象 client を 選ぶ UI が出て、proxy 起動と dashboard 表示までまとめて進みます。 まずは通常どおり coding agent を動かし、送信内容・tool call・usage を確認するのが基本です。 必要に応じて保存されたログを `ccglass view` で開き直したり、`ccglass export` で他者共有しやすい形に 書き出したりできます。 どんな人向けか Claude Code や Codex の挙動を詳しく見たい人、プロンプトの肥大化や tool call の流れを検証したい人、 agent の問題を再現可能な形で残したい人に向いています。 注意点 ログには認証情報や会話内容が含まれうるため、`--no-redact` の扱いは慎重にする必要があります。 また、self-inspection を使う場合は MCP の追加ツールが入るので、使い方をチーム内で揃えた方が安全です。 まとめ ccglass は、coding agent の「中身を確認したい」というニーズに直接応えるツールです。 実装よりも可観測性を重視したい場面で、かなり実用的な選択肢になります。 参照リンク https://github.com/jianshuo/ccglass README.md Shared GitHub Serial: #618"
+    },
     {
       "slug": "2026-05-24-clarity-agent",
       "category": "github-pickup",

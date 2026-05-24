@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 24 May 2026 00:18:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 09:36:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -46,6 +46,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ccglass]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ccglass.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ccglass.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code や Codex などの送信内容をローカルで可視化する基盤です。]]></description>
     </item>
     <item>
       <title><![CDATA[ForgeCAD]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数の AI プロバイダーを 1 つの UI にまとめる self-hosted チャット基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hades-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hades-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-hades-agent.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ステルス表示、リアルタイム音声、背景記憶を備えたデスクトップ AI コンパニオンです。]]></description>
     </item>
   </channel>
 </rss>
