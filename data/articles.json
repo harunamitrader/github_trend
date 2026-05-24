@@ -125,6 +125,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-zellij",
+      "title": "zellij",
+      "dek": "複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。",
+      "summary": "zellij-org/zellij を、複数ペイン・レイアウト・プラグインを備えたターミナルワークスペースとして整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "zellij-org/zellij",
+      "repoUrl": "https://github.com/zellij-org/zellij",
+      "starCount": 32935,
+      "articleUrl": "./articles/github/daily/2026-05-24-zellij.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T18:47:56+09:00",
+      "serial": 620,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",

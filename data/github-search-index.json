@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T04:15:40.590199+00:00",
-  "count": 675,
+  "generatedAt": "2026-05-24T09:48:20.963755+00:00",
+  "count": 676,
   "articles": [
+    {
+      "slug": "2026-05-24-zellij",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "zellij",
+      "dek": "複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。",
+      "summary": "zellij-org/zellij を、複数ペイン・レイアウト・プラグインを備えたターミナルワークスペースとして整理した GitHub Watcher 記事。",
+      "repoName": "zellij-org/zellij",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T18:47:56+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-zellij.html",
+      "serial": 620,
+      "searchText": "zellij 複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。 zellij-org/zellij を、複数ペイン・レイアウト・プラグインを備えたターミナルワークスペースとして整理した GitHub Watcher 記事。 zellij-org/zellij AIコーディング (CLI本体・拡張機能) zellij ← 記事一覧へ戻る GitHub Watcher zellij 複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。 記事作成日 2026-05-24 種別 Pickup 対象 repo zellij-org/zellij Star数 32,935 これは何か Zellij は、開発者や ops 寄りのユーザー向けに作られたターミナルワークスペースです。README では、 terminal multiplexer の枠を超えて、レイアウト、共有作業、プラグイン、web-client まで備えた環境として説明されています。 何ができるか 画面を複数ペインに分けて作業を並行し、layout を保存して再利用できます。さらに true multiplayer collaboration や floating / stacked panes、任意言語で書ける Wasm プラグインを使って、ターミナル内の作業を拡張できます。 web-client が built-in なので、ターミナルがなくてもブラウザから触れます。開発・運用・レビューのいずれでも 画面の使い方を統一しやすいのが特徴です。 目立つポイント 一番の強みは、最初から「シンプルさを捨てずにパワーを足す」設計に振っていることです。初期体験が軽く、 そのうえでレイアウトやプラグインで深く拡張できます。 もう一つは、プラグインを WebAssembly ベースで扱える点です。言語に縛られず、ターミナル体験そのものを アプリとして拡張しやすいです。 セットアップや使い方の流れ README では、配布パッケージや prebuilt binary の利用、もしくは `cargo install --locked zellij` が案内されています。 起動後は screencasts や documentation を見ながら、自分の作業に合う layout を整える流れです。 日常運用では、`cargo xtask run` で開発環境を立ち上げたり、`cargo xtask test` で検証したりできます。 まずは自分のタスクに合う pane 分割を決めるのが使い始めのコツです。 どんな人向けか ターミナルを長時間使う開発者、複数サービスを同時に監視したい ops 寄りの人、共有可能な作業レイアウトを 欲しいチームに向いています。CLI の見た目と操作感を揃えたい人にも相性がいいです。 注意点 機能は多いので、最初から全部使おうとすると重く感じます。まずは pane と layout だけに絞って入り、 必要になってから plugin や multiplayer を足す方が定着しやすいです。 まとめ Zellij は、ただの tmux 代替ではなく、ターミナルを作業ワークスペースとして再設計した基盤です。 開発と運用の両方で、ターミナル中心の作業を整理したい人に向いています。 参照リンク https://github.com/zellij-org/zellij README.md Documentation Shared GitHub Serial: #620"
+    },
     {
       "slug": "2026-05-24-follow-builders",
       "category": "github-pickup",

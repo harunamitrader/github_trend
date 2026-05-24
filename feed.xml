@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 24 May 2026 04:16:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 18:48:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-24 アップデートレポート]]></title>
@@ -62,6 +62,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[zellij]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-zellij.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-zellij.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。]]></description>
     </item>
     <item>
       <title><![CDATA[ForgeCAD]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex や Claude Code などの AI ハーネスを先に点検して守るローカル防御基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[app-store-screenshots]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-app-store-screenshots.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-23-app-store-screenshots.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[App Store と Google Play 向けのスクリーンショットを AI で量産する制作スキルです。]]></description>
     </item>
   </channel>
 </rss>
