@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-23T22:20:58.510844+00:00",
-  "count": 672,
+  "generatedAt": "2026-05-24T00:17:54.136391+00:00",
+  "count": 673,
   "articles": [
+    {
+      "slug": "2026-05-24-clarity-agent",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "clarity-agent",
+      "dek": "AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。",
+      "summary": "microsoft/clarity-agent を、問題定義と失敗モードを先に文書化する AI 思考パートナーとして整理した GitHub Watcher 記事。",
+      "repoName": "microsoft/clarity-agent",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-24T09:17:18+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-24-clarity-agent.html",
+      "serial": 617,
+      "searchText": "clarity-agent AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。 microsoft/clarity-agent を、問題定義と失敗モードを先に文書化する AI 思考パートナーとして整理した GitHub Watcher 記事。 microsoft/clarity-agent AIコーディング (ワークフロー・プロンプト・開発補助ツール) clarity-agent ← 記事一覧へ戻る GitHub Watcher clarity-agent AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。 記事作成日 2026-05-24 種別 Pickup 対象 repo microsoft/clarity-agent Star数 97 これは何か Clarity Agent は、AI に「何を作るべきか」を先に考えさせるための思考パートナーです。README では、実装を急ぐ前に 問題設定、解決策、失敗モード、意思決定を整理し、会話の内容を人が読める文書として残す仕組みとして説明されています。 何ができるか desktop app、web UI、coding agent への埋め込みのいずれでも使えます。`.clarity-protocol/` 配下に goal、solution、failures、decisions などの markdown を出力し、プロジェクトの判断材料をファイルとして保持します。 そのため、単発のチャットで終わらず、要件の曖昧さ、ステークホルダー、代替案、リスクを追跡しながら プロジェクトを進められます。 目立つポイント 一番の特徴は、AI が答えを出す前に問い返してくることです。これにより、要件が曖昧なまま実装を始める失敗を 減らしやすくなります。 もう一つは、分析結果を会話の中に閉じず、ファイルとして残すことです。後から見返せるので、チーム共有やレビュー、 仕様変更時の再検討にも使いやすいです。 セットアップや使い方の流れ README では、インストーラでデスクトップアプリを入れるか、スクリプトで `clarity` CLI を入れる流れが示されています。 その後、プロジェクトを開くと Clarity が質問を投げ、問題整理から始められます。 既存リポジトリに対しては `clarity embed /path/to/your-project` で導入し、coding agent が `.clarity-protocol/` を読む運用にできます。設計文書をコードと同じ感覚で扱えるのが便利です。 どんな人向けか 仕様の曖昧さで手戻りしやすい人、設計の失敗モードを早めに洗い出したい人、AI を単なる実装補助ではなく 思考整理の補助として使いたい人に向いています。 注意点 これは自動実装ツールではありません。問題を明確にしないまま入れると価値が出にくく、frontier model を使う前提や 人のレビューも必要です。成果は `.clarity-protocol/` の文書管理に依存します。 まとめ Clarity Agent は、AI に実装の前段を任せるのではなく、何を作るべきかを一緒に定義するための基盤です。 思いつきの開発を減らし、判断の根拠を残したいときに向いています。 参照リンク https://github.com/microsoft/clarity-agent README.md GitHub Releases Shared GitHub Serial: #617"
+    },
     {
       "slug": "2026-05-24-awaek",
       "category": "github-pickup",

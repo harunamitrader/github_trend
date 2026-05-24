@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する Clarity Agent を整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>clarity-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">clarity-agent</h1>
+      <p class="article-dek">AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-24 -->
+          <strong>2026-05-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/clarity-agent" target="_blank" rel="noreferrer">
+              microsoft/clarity-agent
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>97</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Clarity Agent は、AI に「何を作るべきか」を先に考えさせるための思考パートナーです。README では、実装を急ぐ前に
+          問題設定、解決策、失敗モード、意思決定を整理し、会話の内容を人が読める文書として残す仕組みとして説明されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          desktop app、web UI、coding agent への埋め込みのいずれでも使えます。`.clarity-protocol/` 配下に
+          goal、solution、failures、decisions などの markdown を出力し、プロジェクトの判断材料をファイルとして保持します。
+        </p>
+        <p>
+          そのため、単発のチャットで終わらず、要件の曖昧さ、ステークホルダー、代替案、リスクを追跡しながら
+          プロジェクトを進められます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          一番の特徴は、AI が答えを出す前に問い返してくることです。これにより、要件が曖昧なまま実装を始める失敗を
+          減らしやすくなります。
+        </p>
+        <p>
+          もう一つは、分析結果を会話の中に閉じず、ファイルとして残すことです。後から見返せるので、チーム共有やレビュー、
+          仕様変更時の再検討にも使いやすいです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          README では、インストーラでデスクトップアプリを入れるか、スクリプトで `clarity` CLI を入れる流れが示されています。
+          その後、プロジェクトを開くと Clarity が質問を投げ、問題整理から始められます。
+        </p>
+        <p>
+          既存リポジトリに対しては `clarity embed /path/to/your-project` で導入し、coding agent が
+          `.clarity-protocol/` を読む運用にできます。設計文書をコードと同じ感覚で扱えるのが便利です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          仕様の曖昧さで手戻りしやすい人、設計の失敗モードを早めに洗い出したい人、AI を単なる実装補助ではなく
+          思考整理の補助として使いたい人に向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          これは自動実装ツールではありません。問題を明確にしないまま入れると価値が出にくく、frontier model を使う前提や
+          人のレビューも必要です。成果は `.clarity-protocol/` の文書管理に依存します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Clarity Agent は、AI に実装の前段を任せるのではなく、何を作るべきかを一緒に定義するための基盤です。
+          思いつきの開発を減らし、判断の根拠を残したいときに向いています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/clarity-agent" target="_blank" rel="noreferrer">https://github.com/microsoft/clarity-agent</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/clarity-agent/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/clarity-agent/releases/latest" target="_blank" rel="noreferrer">GitHub Releases</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #617</p>
+      </div>
+    </article>
+  </body>
+</html>

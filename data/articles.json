@@ -74,6 +74,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-24-clarity-agent",
+      "title": "clarity-agent",
+      "dek": "AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。",
+      "summary": "microsoft/clarity-agent を、問題定義と失敗モードを先に文書化する AI 思考パートナーとして整理した GitHub Watcher 記事。",
+      "publishedAt": "2026-05-24",
+      "repoName": "microsoft/clarity-agent",
+      "repoUrl": "https://github.com/microsoft/clarity-agent",
+      "starCount": 97,
+      "articleUrl": "./articles/github/daily/2026-05-24-clarity-agent.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-24T09:17:18+09:00",
+      "serial": 617,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-ForgeCAD",
       "title": "ForgeCAD",
       "dek": "JavaScript/TypeScript で CAD をコード駆動管理し、ブラウザと CLI で検証できる基盤です。",
