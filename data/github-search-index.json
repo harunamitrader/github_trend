@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T19:55:55.442177+00:00",
-  "count": 683,
+  "generatedAt": "2026-05-24T21:04:17.496018+00:00",
+  "count": 684,
   "articles": [
+    {
+      "slug": "2026-05-25-mehanix-arcada",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "arcada",
+      "dek": "React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。",
+      "summary": "ブラウザ上で壁・家具・ドア窓を扱える、React と Pixi.js ベースの間取り作成ツール。",
+      "repoName": "mehanix/arcada",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T06:03:44+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-25-mehanix-arcada.html",
+      "serial": 628,
+      "searchText": "arcada React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。 ブラウザ上で壁・家具・ドア窓を扱える、React と Pixi.js ベースの間取り作成ツール。 mehanix/arcada メディア作成・マルチモーダル・UI arcada ← 記事一覧へ戻る GitHub Watcher arcada React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。 記事作成日 2026-05-25 種別 Pickup 対象 repo mehanix/arcada Star数 271 これは何か React と Pixi.js で作られた、部屋や家全体の間取りをブラウザ上で描けるオープンソースのフロアプラン作成ソフトです。 何ができるか 壁の追加・編集、家具の配置、ドアや窓の追加、寸法測定、複数階の扱い、保存と読み込み、印刷までをひと通りカバーします。 目立つポイント 図面を描くだけでなく、編集と表示の流れが実務向けにまとまっていて、住宅設計で必要な操作を一画面で追いやすい構成です。UI は Mantine、サーバー側は Express.js と MongoDB を使っています。 セットアップや使い方の流れ README では Docker 構成が最短ルートとして案内されており、ローカルで動かす場合は本体リポジトリに加えて backend 側も用意して依存を入れ、フロントエンドとサーバーを順に起動します。 どんな人向けか 内装のたたき台を素早く作りたい人、リノベーションやDIYの間取り確認をしたい人、ブラウザベースの図面ツールを試したい人に向いています。 注意点 単体のフロントエンドだけでは完結しないため、動作確認には README にある backend の手順も必要です。まずはドキュメントの流れをそのまま追うのが安全です。 まとめ 部屋の配置や家具の配置を視覚的に組み立てたい場面で、実用性のある OSS フロアプラン作成ツールとして把握しやすいリポジトリです。 参照リンク https://github.com/mehanix/arcada Shared GitHub Serial: #628"
+    },
     {
       "slug": "2026-05-25-update-report",
       "category": "github-update-report",
@@ -15,7 +30,7 @@
       "createdAt": "2026-05-25T05:30:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-25-update-report.html",
       "serial": 54,
-      "searchText": "2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-25 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-25 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-25 調査件数 全 16 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-25）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 `r`n Lum1104/Understand-Anything `r`n ✅ 記事作成済み `r`n `r`n `r`n rohitg00/ai-engineering-from-scratch `r`n ✅ 記事作成済み `r`n `r`n `r`n anthropics/claude-plugins-official `r`n ✅ 記事作成済み `r`n `r`n `r`n anthropics/knowledge-work-plugins `r`n ✨ 新規追加 `r`n `r`n `r`n multica-ai/andrej-karpathy-skills `r`n ✅ 記事作成済み `r`n `r`n `r`n earendil-works/pi `r`n ✨ 新規追加 `r`n `r`n `r`n Alishahryar1/free-claude-code `r`n ✅ 記事作成済み `r`n `r`n `r`n colbymchenry/codegraph `r`n ✅ 記事作成済み `r`n `r`n `r`n multica-ai/multica `r`n ✅ 記事作成済み `r`n `r`n `r`n shiyu-coder/Kronos `r`n ✅ 記事作成済み `r`n `r`n `r`n manaflow-ai/cmux `r`n ✨ 新規追加 `r`n `r`n `r`n 666ghj/MiroFish `r`n ✨ 新規追加 `r`n `r`n `r`n codecrafters-io/build-your-own-x `r`n ✅ 記事作成済み `r`n `r`n `r`n dotnet/skills `r`n ✅ 記事作成済み `r`n `r`n `r`n blakeblackshear/frigate `r`n ✨ 新規追加 `r`n `r`n `r`n mukul975/Anthropic-Cybersecurity-Skills `r`n ✅ 記事作成済み `r`n `r`n 今後の展望 次回も未作成の新着を優先しつつ、AI エージェント周辺の CLI、プラグイン、ローカル運用系、セキュリティ系、予測シミュレーション系の repo を重点監視します。特にコーディング補助、役割別プラグイン、macOS ターミナル、ローカル映像監視は変化が速いので継続観測が有効です。"
+      "searchText": "2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-25 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-25 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-25 調査件数 全 16 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-25）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 Lum1104/Understand-Anything ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み anthropics/claude-plugins-official ✅ 記事作成済み anthropics/knowledge-work-plugins ✨ 新規追加 multica-ai/andrej-karpathy-skills ✅ 記事作成済み earendil-works/pi ✨ 新規追加 Alishahryar1/free-claude-code ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み multica-ai/multica ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み manaflow-ai/cmux ✨ 新規追加 666ghj/MiroFish ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み dotnet/skills ✅ 記事作成済み blakeblackshear/frigate ✨ 新規追加 mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み 今後の展望 次回も未作成の新着を優先しつつ、AI エージェント周辺の CLI、プラグイン、ローカル運用系、セキュリティ系、予測シミュレーション系の repo を重点監視します。特にコーディング補助、役割別プラグイン、macOS ターミナル、ローカル映像監視は変化が速いので継続観測が有効です。"
     },
     {
       "slug": "2026-05-25-anthropics-knowledge-work-plugins",

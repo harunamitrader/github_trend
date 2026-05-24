@@ -138,6 +138,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-25-mehanix-arcada",
+      "title": "arcada",
+      "dek": "React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。",
+      "summary": "ブラウザ上で壁・家具・ドア窓を扱える、React と Pixi.js ベースの間取り作成ツール。",
+      "publishedAt": "2026-05-25",
+      "repoName": "mehanix/arcada",
+      "repoUrl": "https://github.com/mehanix/arcada",
+      "starCount": 271,
+      "articleUrl": "./articles/github/daily/2026-05-25-mehanix-arcada.html",
+      "rank": "ピックアップ",
+      "createdAt": "2026-05-25T06:03:44+09:00",
+      "serial": 628,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-24-text-to-cad",
       "title": "text-to-cad",
       "dek": "CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。",
