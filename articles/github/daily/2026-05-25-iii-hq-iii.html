@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="iii-hq/iii を、サービスをリアルタイムに組み立てて観測できる shared runtime として整理します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>iii</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">iii</h1>
+      <p class="article-dek">サービスを追加しながら観測と実行をひとつにまとめる shared runtime です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-25 -->
+          <strong>2026-05-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/iii-hq/iii" target="_blank" rel="noreferrer">
+              iii-hq/iii
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,986</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>iii は、stack 内のサービスをリアルタイムで compose・extend・observe するための基盤です。worker を登録し、trigger と function を同じ見取り図で扱うことで、分散した実行環境を 1 つの live catalog にまとめます。</p>
+
+        <h2>何ができるか</h2>
+        <p>iii worker add queue のように機能を追加すると、他の worker からすぐ呼び出せる状態になります。queue、cron、HTTP、state、agents、sandbox をひとつの interface で扱えるので、開発だけでなく運用や観測も同じ流れで回せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>iii の核は Worker / Function / Trigger の 3 つだけです。構成要素が少ないぶん、何がどこで動いていて、どこから呼ばれているかを追いやすく、workers.iii.dev の catalog と実行トレースを前提にした設計が分かりやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず iii project init myapp でプロジェクトを作り、iii を起動してエンジンを立ち上げます。その後は worker を足し、function を登録し、必要な trigger を宣言していく流れです。README の quick start と SDK 一覧も、その導線に沿って整理されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>サービスを増やすたびに個別の接続や監視設定を増やしたくないチーム向けです。AI agent を含む複数の実行主体を、同じ catalog と trace で見たい場合にも相性がいいです。</p>
+
+        <h2>注意点</h2>
+        <p>自由度が高いぶん、最初から何でも自動化するより、まず worker 単位で責務を分ける方が運用しやすいです。エンジン、SDK、console の役割を分けて把握しないと、機能が多いだけの基盤になりやすい点には注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>iii は、service composition と observability を同じ操作面に乗せるための基盤です。AI や自動化を含むシステムを増やしていくほど、worker 中心の設計の価値が出やすい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/iii-hq/iii" target="_blank" rel="noreferrer">https://github.com/iii-hq/iii</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #631</p>
+      </div>
+    </article>
+  </body>
+</html>

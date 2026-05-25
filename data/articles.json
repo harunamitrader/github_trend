@@ -7,6 +7,23 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-25-iii-hq-iii",
+      "title": "iii",
+      "dek": "サービスを追加しながら観測と実行をひとつにまとめる shared runtime です。",
+      "summary": "iii-hq/iii を、worker 中心でサービスを compose・extend・observe できる shared runtime として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T14:58:49+09:00",
+      "repoName": "iii-hq/iii",
+      "repoUrl": "https://github.com/iii-hq/iii",
+      "starCount": 15986,
+      "articleUrl": "./articles/github/daily/2026-05-25-iii-hq-iii.html",
+      "rank": "ピックアップ",
+      "serial": 631,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-05-25-anthropics-knowledge-work-plugins",
       "title": "knowledge-work-plugins",
