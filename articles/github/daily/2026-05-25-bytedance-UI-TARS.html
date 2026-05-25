@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ByteDance の UI 操作向けマルチモーダルエージェント UI-TARS を整理し、UI-TARS-2 と UI-TARS-desktop への導線をまとめます。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>UI-TARS</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">UI-TARS</h1>
+      <p class="article-dek">画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-25 -->
+          <strong>2026-05-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/bytedance/UI-TARS" target="_blank" rel="noreferrer">
+              bytedance/UI-TARS
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,718</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ByteDance の UI-TARS は、視覚情報を手がかりに GUI を操作するマルチモーダルエージェントです。README では 2025-09-04 公開の UI-TARS-2 を major upgrade として案内しており、GUI、Game、Code、Tool Use を 1 つの系統にまとめています。</p>
+
+        <h2>何ができるか</h2>
+        <p>画面上の要素を見てクリックや入力を進めるだけでなく、ゲームやコード、外部ツールの利用まで同じ枠組みで扱えます。ローカル端末向けには UI-TARS-desktop も用意されていて、用途に応じて本体とデスクトップ版を分けて使えます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>公式サイト、Hugging Face モデル、論文、デプロイ手順、座標ガイド、デモ動画への導線が README からまとまっている点が実用的です。研究用の repo ですが、UI 操作を中心に据えたエージェント設計を一通り追える構成になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず README_deploy.md で環境とモデルの前提を確認し、必要な重みを取得してから推論や検証を進めます。絶対座標まわりの扱いが必要なケースは README_coordinates.md を先に見ておくと安全です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>GUI 自動化、デスクトップ agent、マルチモーダル推論の評価を試したい研究者や実装者向けです。Web 操作や画面ベースのタスクを含むベンチマークを触りたい人にも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>研究コード色が強く、モデルの入手や実行環境の準備が前提になります。Qwen 2.5VL 系の座標処理に関する注意もあるので、画面座標に依存するタスクでは README のガイドを先に確認した方がよいです。</p>
+
+        <h2>まとめ</h2>
+        <p>UI-TARS は、画面操作をマルチモーダルエージェントの中心課題として扱う repo です。UI-TARS-2 と desktop 版の導線まで含めて、研究と実装の両方を追いやすい構成になっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/bytedance/UI-TARS" target="_blank" rel="noreferrer">https://github.com/bytedance/UI-TARS</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #629</p>
+      </div>
+    </article>
+  </body>
+</html>

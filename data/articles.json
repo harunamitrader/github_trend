@@ -138,6 +138,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-25-bytedance-UI-TARS",
+      "title": "UI-TARS",
+      "dek": "画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。",
+      "summary": "ByteDance の UI-TARS を、GUI 操作を軸にしたマルチモーダルエージェントとして整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T12:27:55+09:00",
+      "repoName": "bytedance/UI-TARS",
+      "repoUrl": "https://github.com/bytedance/UI-TARS",
+      "starCount": 10718,
+      "articleUrl": "./articles/github/daily/2026-05-25-bytedance-UI-TARS.html",
+      "rank": "ピックアップ",
+      "serial": 629,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-25-mehanix-arcada",
       "title": "arcada",
       "dek": "React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。",

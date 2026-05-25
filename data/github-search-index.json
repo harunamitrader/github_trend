@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-24T21:04:17.496018+00:00",
-  "count": 684,
+  "generatedAt": "2026-05-25T03:29:38.762480+00:00",
+  "count": 685,
   "articles": [
+    {
+      "slug": "2026-05-25-bytedance-UI-TARS",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "UI-TARS",
+      "dek": "画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。",
+      "summary": "ByteDance の UI-TARS を、GUI 操作を軸にしたマルチモーダルエージェントとして整理した GitHub Pickup 記事。",
+      "repoName": "bytedance/UI-TARS",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T12:27:55+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-25-bytedance-UI-TARS.html",
+      "serial": 629,
+      "searchText": "UI-TARS 画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。 ByteDance の UI-TARS を、GUI 操作を軸にしたマルチモーダルエージェントとして整理した GitHub Pickup 記事。 bytedance/UI-TARS AIエージェント (自律基盤・特化アプリ) UI-TARS ← 記事一覧へ戻る GitHub Watcher UI-TARS 画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。 記事作成日 2026-05-25 種別 Pickup 対象 repo bytedance/UI-TARS Star数 10,718 これは何か ByteDance の UI-TARS は、視覚情報を手がかりに GUI を操作するマルチモーダルエージェントです。README では 2025-09-04 公開の UI-TARS-2 を major upgrade として案内しており、GUI、Game、Code、Tool Use を 1 つの系統にまとめています。 何ができるか 画面上の要素を見てクリックや入力を進めるだけでなく、ゲームやコード、外部ツールの利用まで同じ枠組みで扱えます。ローカル端末向けには UI-TARS-desktop も用意されていて、用途に応じて本体とデスクトップ版を分けて使えます。 目立つポイント 公式サイト、Hugging Face モデル、論文、デプロイ手順、座標ガイド、デモ動画への導線が README からまとまっている点が実用的です。研究用の repo ですが、UI 操作を中心に据えたエージェント設計を一通り追える構成になっています。 セットアップや使い方の流れ まず README_deploy.md で環境とモデルの前提を確認し、必要な重みを取得してから推論や検証を進めます。絶対座標まわりの扱いが必要なケースは README_coordinates.md を先に見ておくと安全です。 どんな人向けか GUI 自動化、デスクトップ agent、マルチモーダル推論の評価を試したい研究者や実装者向けです。Web 操作や画面ベースのタスクを含むベンチマークを触りたい人にも向いています。 注意点 研究コード色が強く、モデルの入手や実行環境の準備が前提になります。Qwen 2.5VL 系の座標処理に関する注意もあるので、画面座標に依存するタスクでは README のガイドを先に確認した方がよいです。 まとめ UI-TARS は、画面操作をマルチモーダルエージェントの中心課題として扱う repo です。UI-TARS-2 と desktop 版の導線まで含めて、研究と実装の両方を追いやすい構成になっています。 参照リンク https://github.com/bytedance/UI-TARS Shared GitHub Serial: #629"
+    },
     {
       "slug": "2026-05-25-mehanix-arcada",
       "category": "github-pickup",
