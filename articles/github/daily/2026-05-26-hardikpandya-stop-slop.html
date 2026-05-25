@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stop Slop は、AI っぽい文体を削って自然な prose に整えるための skill file です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>stop-slop</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">stop-slop</h1>
+      <p class="article-dek">Stop Slop は、AI っぽい文体を削って自然な prose に整えるための skill file です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-26 -->
+          <strong>2026-05-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">
+              hardikpandya/stop-slop
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,323</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Stop Slop は、AI が書きがちな「それっぽいけれど中身が薄い文章」を見つけて直すための skill file です。生成そのものではなく、仕上げ工程に置く前提で作られています。</p>
+
+        <h2>何ができるか</h2>
+        <p>曖昧な前置き、過剰に整った構文、同じ意味の言い換えの連発といった AI の癖を捕まえ、より自然で読みやすい prose に寄せるための指示を与えます。Claude だけでなく、他の LLM にも転用しやすい構造です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Skill Structure がはっきりしていて、`SKILL.md` に加えて `references/phrases.md`、`references/structures.md`、`references/examples.md` を分けて持っています。Quick start と Scoring もあり、修正前後を機械的に比較しやすいのが実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリを skill として配置し、`SKILL.md` から参照資料を読ませます。そのうえで、下書きや生成文を通して「AI らしさの除去」を依頼する流れです。最初から完璧な文章を狙うというより、粗い草案を最後に磨く用途に向きます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI で文章を書く機会が多く、見た目の整いすぎを減らしたい人向けです。プロンプト設計、編集支援、社内文章の整形など、文体を一定以上に保ちたい場面で役に立ちます。</p>
+
+        <h2>注意点</h2>
+        <p>文体を均す力が強い分、個性のあるトーンまで削りすぎる可能性があります。自動整形の結果をそのまま採用せず、最終的には人間の読みで温度感を戻すほうが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>Stop Slop は、生成よりも編集に価値を置いた skill file です。AI の癖を薄めて、読み手が自然に読める文章へ寄せたいときに、そのまま組み込める小さな実務ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">https://github.com/hardikpandya/stop-slop</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #632</p>
+      </div>
+    </article>
+  </body>
+</html>

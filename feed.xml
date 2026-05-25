@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 25 May 2026 19:06:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 04:49:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ECC]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-affaan-m-ECC.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-affaan-m-ECC.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code や Codex など複数のエージェントをまとめて運用するためのハーネス型オペレータ基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[airi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-moeru-ai-airi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-moeru-ai-airi.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Grok Companion を自前でホストし、音声会話やゲーム連携まで見据えたキャラクター基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-free-apps]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Axorax-awesome-free-apps.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Axorax-awesome-free-apps.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PC とモバイルの無料アプリを OS 別に整理した、実用本位のキュレーションリストです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[stop-slop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-hardikpandya-stop-slop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-hardikpandya-stop-slop.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI っぽい文体を削って自然な prose に整えるための skill file です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-26 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-26-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-26-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[iii]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-iii-hq-iii.html</link>
@@ -126,46 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[X の保存済みブックマークをローカル知識ベースに変える基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[clarity-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-clarity-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-clarity-agent.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI に設計前の問いを投げさせ、問題定義と失敗モードを文書化する基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ccglass]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ccglass.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-ccglass.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や Codex などの送信内容をローカルで可視化する基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[follow-builders]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-follow-builders.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-follow-builders.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI ビルダーの発信を集めて日次・週次ダイジェストに変える基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[zellij]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-zellij.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-zellij.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数ペイン、レイアウト、プラグイン、共同作業まで備えたターミナルワークスペースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Memori]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-Memori.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-Memori.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM 非依存でエージェントの会話や実行結果を永続メモリに変える基盤です。]]></description>
     </item>
   </channel>
 </rss>
