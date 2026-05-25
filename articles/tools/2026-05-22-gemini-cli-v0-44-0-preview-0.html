@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.44.0-preview.0 は、Auto モード統合、セッション安定化、新しい skills 追加を含む preview 更新です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.44.0-preview.0: Auto モード統合と agent-tui スキル追加 | harunami AI base</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools / Coding</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.44.0-preview.0: Auto モード統合と agent-tui スキル追加</h1>
+      <p class="article-dek">Gemini CLI v0.44.0-preview.0 は、Auto モード統合、セッション安定化、新しい skills 追加を含む preview 更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-05-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.44.0-preview.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>preview 系の積み上げをまとめながら、操作体験とセッション管理を整えた更新です。見た目の派手さより、長く使うと効いてくる安定化が中心です。</p>
+        <ul>
+          <li><strong>Auto モードの統合:</strong> 既存の Auto 系が 1 つにまとまり、モード選択の複雑さが減りました。</li>
+          <li><strong>エージェント登録の優先順位変更:</strong> project 側を優先する first-wins の振る舞いになり、複数定義の扱いが明確になりました。</li>
+          <li><strong>認証まわりの修正:</strong> OAuth refresh token の保存・更新と、`--list-sessions` の非対話実行での keychain 認証が安定しました。</li>
+          <li><strong>新しい skills:</strong> `agent-tui` と `tui-tester` が追加され、TUI 系の作業や検証をスキルとして回しやすくなりました。</li>
+          <li><strong>実行基盤の改善:</strong> `LocalSessionInvocation` / `RemoteSessionInvocation` の追加、Windows での `pwsh.exe` 優先、virtual drive の memory discovery 修正などが入っています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Gemini CLI を長時間セッションや自動化に使う場合、今回の更新は「途中で崩れにくいこと」に効きます。Auto モードの整理とスキル追加で、対話・実行・検証の導線を少しずつ揃えたいときに扱いやすくなります。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.44.0-preview.0 は、preview 版ながら運用面の安定化がはっきり進んだ更新です。Gemini CLI をエージェント寄りに使っているなら、次の検証候補に入れてよい内容です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-preview.0" target="_blank" rel="noreferrer">Gemini CLI v0.44.0-preview.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
