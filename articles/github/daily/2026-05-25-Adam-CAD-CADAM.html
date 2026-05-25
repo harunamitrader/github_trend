@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Text-to-CAD Web App CADAM を、自然言語と画像から3Dモデルを作るブラウザ型基盤として整理します。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>CADAM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">CADAM</h1>
+      <p class="article-dek">自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-25 -->
+          <strong>2026-05-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Adam-CAD/CADAM" target="_blank" rel="noreferrer">
+              Adam-CAD/CADAM
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,562</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>CADAM は、自然言語や画像から3Dモデルを生成するオープンソースの text-to-CAD Web アプリです。OpenSCAD を WASM で動かし、ブラウザ上で CAD の生成とプレビューを完結させる設計になっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>テキスト指示からモデルを起こし、寸法はスライダーで後から調整できます。出力は STL、SCAD、DXF に対応しており、3D プリンタ向けの試作や parametric design の検証に使いやすい構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>リアルタイムプレビュー、画像参照入力、カスタムフォント対応、BOSL/BOSL2/MCAD のライブラリ利用がまとまっている点が強みです。単なる生成デモではなく、モデルの再調整と再出力までを同じ画面で扱えるのが実務向きです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の手順どおりにクローンし、npm install の後に Supabase を立ち上げ、ローカル開発サーバーを起動します。サーバー側には OpenAI、Anthropic、OpenRouter、Google、FAL などのキー設定が必要なので、先に環境変数を揃えるのが前提です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>3D プリント用の試作、パラメトリック CAD の検証、AI による形状生成を Web で回したい人向けです。GUI ベースで CAD を触りたいが、ローカルアプリより軽い導線を求める用途にも合います。</p>
+
+        <h2>注意点</h2>
+        <p>ブラウザだけで完結する一方、実際の運用には Supabase CLI や外部 API キーが必要です。生成品質は指示の書き方に左右されるので、最初は単純な形状から試して寸法調整を詰める方が安定します。</p>
+
+        <h2>まとめ</h2>
+        <p>CADAM は、text-to-CAD を「試す」だけでなく、調整して書き出すところまで繋いだ実用寄りの Web アプリです。生成 UI と parametric control の両方を見たい人に向いています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Adam-CAD/CADAM" target="_blank" rel="noreferrer">https://github.com/Adam-CAD/CADAM</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #630</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-25T03:29:38.762480+00:00",
-  "count": 685,
+  "generatedAt": "2026-05-25T04:40:03.346486+00:00",
+  "count": 686,
   "articles": [
+    {
+      "slug": "2026-05-25-Adam-CAD-CADAM",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CADAM",
+      "dek": "自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。",
+      "summary": "Adam-CAD/CADAM を、自然言語と画像から3Dモデルを作るブラウザ型 text-to-CAD アプリとして整理した GitHub Pickup 記事。",
+      "repoName": "Adam-CAD/CADAM",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T13:39:33+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-25-Adam-CAD-CADAM.html",
+      "serial": 630,
+      "searchText": "CADAM 自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。 Adam-CAD/CADAM を、自然言語と画像から3Dモデルを作るブラウザ型 text-to-CAD アプリとして整理した GitHub Pickup 記事。 Adam-CAD/CADAM メディア作成・マルチモーダル・UI CADAM ← 記事一覧へ戻る GitHub Watcher CADAM 自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。 記事作成日 2026-05-25 種別 Pickup 対象 repo Adam-CAD/CADAM Star数 3,562 これは何か CADAM は、自然言語や画像から3Dモデルを生成するオープンソースの text-to-CAD Web アプリです。OpenSCAD を WASM で動かし、ブラウザ上で CAD の生成とプレビューを完結させる設計になっています。 何ができるか テキスト指示からモデルを起こし、寸法はスライダーで後から調整できます。出力は STL、SCAD、DXF に対応しており、3D プリンタ向けの試作や parametric design の検証に使いやすい構成です。 目立つポイント リアルタイムプレビュー、画像参照入力、カスタムフォント対応、BOSL/BOSL2/MCAD のライブラリ利用がまとまっている点が強みです。単なる生成デモではなく、モデルの再調整と再出力までを同じ画面で扱えるのが実務向きです。 セットアップや使い方の流れ README の手順どおりにクローンし、npm install の後に Supabase を立ち上げ、ローカル開発サーバーを起動します。サーバー側には OpenAI、Anthropic、OpenRouter、Google、FAL などのキー設定が必要なので、先に環境変数を揃えるのが前提です。 どんな人向けか 3D プリント用の試作、パラメトリック CAD の検証、AI による形状生成を Web で回したい人向けです。GUI ベースで CAD を触りたいが、ローカルアプリより軽い導線を求める用途にも合います。 注意点 ブラウザだけで完結する一方、実際の運用には Supabase CLI や外部 API キーが必要です。生成品質は指示の書き方に左右されるので、最初は単純な形状から試して寸法調整を詰める方が安定します。 まとめ CADAM は、text-to-CAD を「試す」だけでなく、調整して書き出すところまで繋いだ実用寄りの Web アプリです。生成 UI と parametric control の両方を見たい人に向いています。 参照リンク https://github.com/Adam-CAD/CADAM Shared GitHub Serial: #630"
+    },
     {
       "slug": "2026-05-25-bytedance-UI-TARS",
       "category": "github-pickup",

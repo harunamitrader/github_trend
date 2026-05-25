@@ -138,6 +138,23 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-05-25-Adam-CAD-CADAM",
+      "title": "CADAM",
+      "dek": "自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。",
+      "summary": "Adam-CAD/CADAM を、自然言語と画像から3Dモデルを作るブラウザ型 text-to-CAD アプリとして整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T13:39:33+09:00",
+      "repoName": "Adam-CAD/CADAM",
+      "repoUrl": "https://github.com/Adam-CAD/CADAM",
+      "starCount": 3562,
+      "articleUrl": "./articles/github/daily/2026-05-25-Adam-CAD-CADAM.html",
+      "rank": "ピックアップ",
+      "serial": 630,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-25-bytedance-UI-TARS",
       "title": "UI-TARS",
       "dek": "画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。",
