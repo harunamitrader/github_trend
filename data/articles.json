@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-26-microsoft-Webwright",
+      "title": "Webwright",
+      "dek": "長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。",
+      "summary": "microsoft/Webwright を、長時間の web tasks に強い browser agent framework として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T11:17:13+09:00",
+      "repoName": "microsoft/Webwright",
+      "repoUrl": "https://github.com/microsoft/Webwright",
+      "starCount": 233,
+      "articleUrl": "./articles/github/daily/2026-05-26-microsoft-Webwright.html",
+      "serial": 636,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-05-26-affaan-m-ECC",
       "title": "ECC",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-25T19:49:57.595727+00:00",
-  "count": 692,
+  "generatedAt": "2026-05-26T02:18:14.407565+00:00",
+  "count": 693,
   "articles": [
+    {
+      "slug": "2026-05-26-microsoft-Webwright",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Webwright",
+      "dek": "長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。",
+      "summary": "microsoft/Webwright を、長時間の web tasks に強い browser agent framework として整理した GitHub Pickup 記事。",
+      "repoName": "microsoft/Webwright",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T11:17:13+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-26-microsoft-Webwright.html",
+      "serial": 636,
+      "searchText": "Webwright 長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。 microsoft/Webwright を、長時間の web tasks に強い browser agent framework として整理した GitHub Pickup 記事。 microsoft/Webwright AIエージェント (自律基盤・特化アプリ) Webwright ← 記事一覧へ戻る GitHub Watcher Webwright Webwright は、長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。 記事作成日 2026-05-26 種別 Pickup 対象 repo microsoft/Webwright Star数 233 これは何か Webwright は、長い Web タスクを前提にした browser agent framework です。README では SWE style を掲げていて、Web 上の作業をエージェントに段階的に進めさせる用途を想定しています。 何ができるか ブラウザ操作を伴うタスクをエージェント化し、デモやタスクショーケースのような形で繰り返し実行できます。Claude Code や Codex から plugin として使う導線もあり、既存のエージェント実行環境に組み込みやすい設計です。 目立つポイント News、Demo、Performance、Project Map、Task Showcase が並んでいて、研究プロジェクトというより実験結果を見せる構成になっています。Quick Start と Flags も用意されているので、すぐ試して挙動を見たい人に向いています。 セットアップや使い方の流れ README の流れは、前提条件を確認してからインストールし、起動してフラグを調整する形です。さらに Claude Code 用と Codex 用の plugin marketplace 連携手順も案内されており、ローカル実行と拡張導入の両方を想定しています。 どんな人向けか Web 上の反復作業を自律エージェント化したい人、あるいはブラウザ操作を含む長時間タスクの基盤を試したい人向けです。SWE 風の評価や plugin 連携に関心がある開発者にも合います。 注意点 README からは研究・実験寄りの色合いが強く、実運用では対象サイトやタスクに合わせた調整が必要です。ブラウザ操作は壊れやすいので、繰り返し実行前提なら対象ページの変化に注意したほうがよさそうです。 まとめ Webwright は、ブラウザ作業をそのままエージェントの仕事に落とし込むための基盤です。Web タスクを再現性のある形で回したいときに、試す価値のある小さな実験台になっています。 参照リンク https://github.com/microsoft/Webwright Shared GitHub Serial: #636"
+    },
     {
       "slug": "2026-05-26-update-report",
       "category": "github-update-report",
