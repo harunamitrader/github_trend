@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-26-linagora-twake-drive",
+      "title": "twake-drive",
+      "dek": "ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。",
+      "summary": "linagora/twake-drive を、ファイル共有と Web ドライブ運用を担う業務向け Web アプリとして整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T19:30:58+09:00",
+      "repoName": "linagora/twake-drive",
+      "repoUrl": "https://github.com/linagora/twake-drive",
+      "starCount": 873,
+      "articleUrl": "./articles/github/daily/2026-05-26-linagora-twake-drive.html",
+      "serial": 638,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-26-steipete-agent-scripts",
       "title": "agent-scripts",
       "dek": "複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。",

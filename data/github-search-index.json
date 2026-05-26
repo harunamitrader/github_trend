@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-26T02:25:37.839581+00:00",
-  "count": 694,
+  "generatedAt": "2026-05-26T10:31:38.454711+00:00",
+  "count": 695,
   "articles": [
+    {
+      "slug": "2026-05-26-linagora-twake-drive",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "twake-drive",
+      "dek": "ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。",
+      "summary": "linagora/twake-drive を、ファイル共有と Web ドライブ運用を担う業務向け Web アプリとして整理した GitHub Pickup 記事。",
+      "repoName": "linagora/twake-drive",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T19:30:58+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-26-linagora-twake-drive.html",
+      "serial": 638,
+      "searchText": "twake-drive ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。 linagora/twake-drive を、ファイル共有と Web ドライブ運用を担う業務向け Web アプリとして整理した GitHub Pickup 記事。 linagora/twake-drive AI基盤・データ基盤・業務アプリ twake-drive ← 記事一覧へ戻る GitHub Watcher twake-drive Twake Drive は、ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。 記事作成日 2026-05-26 種別 Pickup 対象 repo linagora/twake-drive Star数 873 これは何か Twake Drive は、Twake の Web アプリとして提供されているドライブ系プロジェクトです。README では「About」「What's Drive?」が分かれていて、ファイル共有やドキュメント運用を Web で扱う用途が中心だと分かります。 何ができるか Getting Started から install、dev mode、VM 上での起動まで案内があり、開発環境で動かしながら機能確認できます。Advanced case では共有やメール送信の開発時シナリオも触れており、実務寄りの利用を意識した構成です。 目立つポイント ローカル開発、VM 実行、Docker を含む起動導線が揃っていて、単なるデモではなく実装と検証の両方に使いやすいです。Localization と Tests の項目もあり、運用・多言語・品質確認の入口が見えます。 セットアップや使い方の流れ まずはインストールして dev mode で起動し、必要に応じて VM や Docker 側の流れに進めます。開発中の共有やメール送信を試す場合は Advanced case を参照すると、機能確認の順序が追いやすいです。 どんな人向けか 社内ドライブ、ファイル共有、Web ベースの業務アプリを自前で構築したい人向けです。ローカル開発しながら UI と運用フローを確認したいチームにも向いています。 注意点 README の案内は開発・検証寄りなので、実運用には認証、権限、同期、共有の細部を別途詰める必要があります。まずは開発環境での動作確認から始めるのが安全です。 まとめ Twake Drive は、ファイル共有と Web ドライブ運用をひとまとめにした実務向け Web アプリです。ドキュメント管理や社内共有の土台を探しているなら、方向性を掴みやすいリポジトリです。 参照リンク https://github.com/linagora/twake-drive Shared GitHub Serial: #638"
+    },
     {
       "slug": "2026-05-26-steipete-agent-scripts",
       "category": "github-pickup",

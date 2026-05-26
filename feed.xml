@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 26 May 2026 02:26:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 19:31:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[twake-drive]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-linagora-twake-drive.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-linagora-twake-drive.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。]]></description>
+    </item>
     <item>
       <title><![CDATA[agent-scripts]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-steipete-agent-scripts.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026-05-24 の GitHub Trending 更新レポートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[text-to-cad]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-text-to-cad.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-text-to-cad.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。]]></description>
     </item>
   </channel>
 </rss>
