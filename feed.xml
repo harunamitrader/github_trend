@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 26 May 2026 20:19:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 04:05:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Antigravity 2.0.6: IDE 連携を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Antigravity 2.0.6 は、Antigravity IDE との往復をしやすくする導線を追加した小規模更新です。]]></description>
+    </item>
     <item>
       <title><![CDATA[omniparse]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-adithya-s-k-omniparse.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[UI-TARS]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-bytedance-UI-TARS.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-bytedance-UI-TARS.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画面を見て操作するマルチモーダルエージェントの本体で、UI-TARS-2 と UI-TARS-desktop への導線もまとまっています。]]></description>
     </item>
   </channel>
 </rss>

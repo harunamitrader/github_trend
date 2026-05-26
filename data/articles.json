@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-27-antigravity-2-0-6-ide-integration",
+      "title": "Antigravity 2.0.6: IDE 連携を追加",
+      "dek": "Antigravity 2.0.6 は、Antigravity IDE との往復をしやすくする導線を追加した小規模更新です。",
+      "summary": "Antigravity 2.0.6 の公式 changelog を読み、Antigravity IDE との連携追加やプロジェクトを IDE で開く導線の改善を整理した AIコーディングツール記事。",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T04:03:00+09:00",
+      "toolName": "Antigravity",
+      "articleUrl": "./articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html",
+      "serial": 623,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-05-26-adithya-s-k-omniparse",
       "title": "omniparse",
