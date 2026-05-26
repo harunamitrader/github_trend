@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-26T10:41:57.788120+00:00",
-  "count": 696,
+  "generatedAt": "2026-05-26T11:19:24.118608+00:00",
+  "count": 697,
   "articles": [
+    {
+      "slug": "2026-05-26-adithya-s-k-omniparse",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "omniparse",
+      "dek": "文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。",
+      "summary": "adithya-s-k/omniparse を、文書・メディア・Web をまとめて前処理する GenAI 向け基盤として整理した GitHub Pickup 記事。",
+      "repoName": "adithya-s-k/omniparse",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T20:18:53+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-26-adithya-s-k-omniparse.html",
+      "serial": 640,
+      "searchText": "omniparse 文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。 adithya-s-k/omniparse を、文書・メディア・Web をまとめて前処理する GenAI 向け基盤として整理した GitHub Pickup 記事。 adithya-s-k/omniparse ナレッジ管理・RAG解析 omniparse ← 記事一覧へ戻る GitHub Watcher omniparse OmniParse は、文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。 記事作成日 2026-05-26 種別 Pickup 対象 repo adithya-s-k/omniparse Star数 6,934 これは何か OmniParse は、さまざまなデータ形式を取り込み、GenAI フレームワークに渡しやすい形へ整えるための基盤です。README では document / media / website parsing をまとめて扱っていて、入力の前処理に焦点があります。 何ができるか 文書の解析、メディアの解析、Web ページの解析を通して、モデルが扱いやすいデータへ変換できます。Markdown への変換や parser の初期化手順も案内されていて、RAG や検索前処理にそのまま繋げやすいです。 目立つポイント Supported Data Types がはっきりしていて、対象がドキュメントだけに閉じていません。Docker や GPU 前提の導線もあり、開発環境に応じて導入方法を切り替えやすいのが実用的です。 セットアップや使い方の流れ Installation で環境を整えたあと、用途に応じて parser を初期化し、document を parse したり markdown へ変換したりします。サイト側やメディア側の入力も同じ考え方で扱えるので、前処理を一本化しやすいです。 どんな人向けか RAG パイプラインや検索基盤の前処理を整えたい人、文書・動画・Web を一つの入口で扱いたい人向けです。データの取り込みと整形を別々に作りたくない場合に向いています。 注意点 README では Limitations も明示されているので、万能な抽出器として使うより、対象データに合わせて検証しながら入れるほうが安全です。特に動画や複雑な文書は期待値の調整が必要です。 まとめ OmniParse は、GenAI 向けの前処理を一箇所に寄せるための実務的な基盤です。RAG や検索インデックスの前段をまとめたいときに、候補に入れやすいリポジトリです。 参照リンク https://github.com/adithya-s-k/omniparse Shared GitHub Serial: #640"
+    },
     {
       "slug": "2026-05-26-Cranot-super-hermes",
       "category": "github-pickup",

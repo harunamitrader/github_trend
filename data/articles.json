@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-26-adithya-s-k-omniparse",
+      "title": "omniparse",
+      "dek": "文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。",
+      "summary": "adithya-s-k/omniparse を、文書・メディア・Web をまとめて前処理する GenAI 向け基盤として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T20:18:53+09:00",
+      "repoName": "adithya-s-k/omniparse",
+      "repoUrl": "https://github.com/adithya-s-k/omniparse",
+      "starCount": 6934,
+      "articleUrl": "./articles/github/daily/2026-05-26-adithya-s-k-omniparse.html",
+      "serial": 640,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-26-Cranot-super-hermes",
       "title": "super-hermes",
       "dek": "Hermes Agent に分析用プロンプトを自作させるための skills 集です。",
