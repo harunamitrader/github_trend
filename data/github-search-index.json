@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-26T10:31:38.454711+00:00",
-  "count": 695,
+  "generatedAt": "2026-05-26T10:41:57.788120+00:00",
+  "count": 696,
   "articles": [
+    {
+      "slug": "2026-05-26-Cranot-super-hermes",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "super-hermes",
+      "dek": "Hermes Agent に分析用プロンプトを自作させるための skills 集です。",
+      "summary": "Cranot/super-hermes を、Hermes Agent の分析プロンプト設計を拡張する skills 集として整理した GitHub Pickup 記事。",
+      "repoName": "Cranot/super-hermes",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T19:41:21+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-26-Cranot-super-hermes.html",
+      "serial": 639,
+      "searchText": "super-hermes Hermes Agent に分析用プロンプトを自作させるための skills 集です。 Cranot/super-hermes を、Hermes Agent の分析プロンプト設計を拡張する skills 集として整理した GitHub Pickup 記事。 Cranot/super-hermes AIコーディング (ワークフロー・プロンプト・開発補助ツール) super-hermes ← 記事一覧へ戻る GitHub Watcher super-hermes Super Hermes は、Hermes Agent に分析用プロンプトを自作させるための skills 集です。 記事作成日 2026-05-26 種別 Pickup 対象 repo Cranot/super-hermes Star数 194 これは何か Super Hermes は、Hermes Agent に「どう考えるか」を教えるための skills 集です。README では、エージェント自身が分析用のプロンプトを組み立てる前提になっていて、受け身の補助ではなく思考手順の拡張に近い設計です。 何ができるか `/prism-3way` のような複数視点分析や、`/prism-reflect` のような差分を浮かび上がらせる処理を通じて、対象を多角的に見られるようにします。単に文章を出すのではなく、分析の質を揃えるところに価値があります。 目立つポイント 「Proven Prisms」が同梱されていて、すぐ試せるのが強みです。Try it now と Try it with Hermes の両方があるので、実際の Hermes 環境がなくても挙動を確認しやすくなっています。 セットアップや使い方の流れ まずは同梱された prism を試し、必要なら Hermes 本体に入れて動かします。README の流れは短く、スキルを読み込んでから分析対象を渡すだけなので、導入のハードルは低めです。 どんな人向けか エージェントに一段深い分析をさせたい人、あるいは自分のプロンプト設計を再利用可能な形にまとめたい人向けです。要件分解や比較検討のような、視点の抜け漏れを減らしたい場面に合います。 注意点 分析を多角化できるぶん、出力が増えすぎることがあります。使う場面を決めずに広く入れると、逆に判断が遅くなるので、対象タスクを絞って使うほうが実用的です。 まとめ Super Hermes は、エージェントに分析の型を渡すための軽量な skills 集です。複雑なテーマを、複数視点でさばきたいときに効くタイプの拡張です。 参照リンク https://github.com/Cranot/super-hermes Shared GitHub Serial: #639"
+    },
     {
       "slug": "2026-05-26-linagora-twake-drive",
       "category": "github-pickup",

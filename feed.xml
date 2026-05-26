@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 26 May 2026 10:32:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 19:41:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[super-hermes]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Cranot-super-hermes.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Cranot-super-hermes.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Hermes Agent に分析用プロンプトを自作させるための skills 集です。]]></description>
+    </item>
     <item>
       <title><![CDATA[twake-drive]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-linagora-twake-drive.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[React と Pixi.js で部屋や壁、家具を配置しながら間取りを描けるオープンソースのフロアプラン作成ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-24 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-24-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-24-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026-05-24 の GitHub Trending 更新レポートです。]]></description>
     </item>
   </channel>
 </rss>

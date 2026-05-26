@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-26-Cranot-super-hermes",
+      "title": "super-hermes",
+      "dek": "Hermes Agent に分析用プロンプトを自作させるための skills 集です。",
+      "summary": "Cranot/super-hermes を、Hermes Agent の分析プロンプト設計を拡張する skills 集として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T19:41:21+09:00",
+      "repoName": "Cranot/super-hermes",
+      "repoUrl": "https://github.com/Cranot/super-hermes",
+      "starCount": 194,
+      "articleUrl": "./articles/github/daily/2026-05-26-Cranot-super-hermes.html",
+      "serial": 639,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-26-linagora-twake-drive",
       "title": "twake-drive",
       "dek": "ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。",
