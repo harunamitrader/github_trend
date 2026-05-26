@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-26T02:18:14.407565+00:00",
-  "count": 693,
+  "generatedAt": "2026-05-26T02:25:37.839581+00:00",
+  "count": 694,
   "articles": [
+    {
+      "slug": "2026-05-26-steipete-agent-scripts",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agent-scripts",
+      "dek": "複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。",
+      "summary": "steipete/agent-scripts を、複数のエージェント環境で再利用する指示・スクリプト共有基盤として整理した GitHub Pickup 記事。",
+      "repoName": "steipete/agent-scripts",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T11:24:47+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-26-steipete-agent-scripts.html",
+      "serial": 637,
+      "searchText": "agent-scripts 複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。 steipete/agent-scripts を、複数のエージェント環境で再利用する指示・スクリプト共有基盤として整理した GitHub Pickup 記事。 steipete/agent-scripts AIエージェント (自律基盤・特化アプリ) agent-scripts ← 記事一覧へ戻る GitHub Watcher agent-scripts Agent Scripts は、複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。 記事作成日 2026-05-26 種別 Pickup 対象 repo steipete/agent-scripts Star数 3,341 これは何か Agent Scripts は、エージェントが使うスクリプトや指示を共通化するためのリポジトリです。README では Skills、Agent Instructions、Helpers、Syncing が分かれていて、複数の作業場で同じルールを使い回す前提が見えます。 何ができるか Claude Code や Codex のようなエージェント環境に、再利用可能な指示や補助スクリプトを配れます。単発のプロンプト集ではなく、作業の流れそのものを揃える用途に向いています。 目立つポイント README の構成がかなり絞られていて、迷わず必要な要素に辿り着けます。特に Syncing があるため、ローカルだけで終わらせず、複数リポジトリ間での整合を保つ発想が明確です。 セットアップや使い方の流れ まずは Skills や Instructions を読み込み、必要な helper を使う形で組み込みます。共有したい指示や手順をこのリポジトリに寄せておくと、別のプロジェクトでも同じ運用を再現しやすくなります。 どんな人向けか 複数の AI エージェント環境を並行運用していて、手順や前提条件を揃えたい人向けです。個別のモデル機能よりも、作業の再現性や保守性を重視するチームに合います。 注意点 共有基盤として便利な一方で、ルールを集約しすぎると肥大化しやすいです。運用を始めたら、どのスクリプトが本当に必要かを定期的に整理したほうがよさそうです。 まとめ Agent Scripts は、エージェント向けの共通土台を小さくまとめた実用リポジトリです。複数のプロジェクトで同じ動きを再現したいときに、ちょうどよく効くタイプの共有資産です。 参照リンク https://github.com/steipete/agent-scripts Shared GitHub Serial: #637"
+    },
     {
       "slug": "2026-05-26-microsoft-Webwright",
       "category": "github-pickup",

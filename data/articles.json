@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-26-steipete-agent-scripts",
+      "title": "agent-scripts",
+      "dek": "複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。",
+      "summary": "steipete/agent-scripts を、複数のエージェント環境で再利用する指示・スクリプト共有基盤として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-26",
+      "createdAt": "2026-05-26T11:24:47+09:00",
+      "repoName": "steipete/agent-scripts",
+      "repoUrl": "https://github.com/steipete/agent-scripts",
+      "starCount": 3341,
+      "articleUrl": "./articles/github/daily/2026-05-26-steipete-agent-scripts.html",
+      "serial": 637,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-26-microsoft-Webwright",
       "title": "Webwright",
       "dek": "長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。",

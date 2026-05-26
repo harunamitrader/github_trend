@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Agent Scripts は、複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-scripts</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-scripts</h1>
+      <p class="article-dek">Agent Scripts は、複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-26 -->
+          <strong>2026-05-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/steipete/agent-scripts" target="_blank" rel="noreferrer">
+              steipete/agent-scripts
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,341</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Agent Scripts は、エージェントが使うスクリプトや指示を共通化するためのリポジトリです。README では Skills、Agent Instructions、Helpers、Syncing が分かれていて、複数の作業場で同じルールを使い回す前提が見えます。</p>
+
+        <h2>何ができるか</h2>
+        <p>Claude Code や Codex のようなエージェント環境に、再利用可能な指示や補助スクリプトを配れます。単発のプロンプト集ではなく、作業の流れそのものを揃える用途に向いています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README の構成がかなり絞られていて、迷わず必要な要素に辿り着けます。特に Syncing があるため、ローカルだけで終わらせず、複数リポジトリ間での整合を保つ発想が明確です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは Skills や Instructions を読み込み、必要な helper を使う形で組み込みます。共有したい指示や手順をこのリポジトリに寄せておくと、別のプロジェクトでも同じ運用を再現しやすくなります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の AI エージェント環境を並行運用していて、手順や前提条件を揃えたい人向けです。個別のモデル機能よりも、作業の再現性や保守性を重視するチームに合います。</p>
+
+        <h2>注意点</h2>
+        <p>共有基盤として便利な一方で、ルールを集約しすぎると肥大化しやすいです。運用を始めたら、どのスクリプトが本当に必要かを定期的に整理したほうがよさそうです。</p>
+
+        <h2>まとめ</h2>
+        <p>Agent Scripts は、エージェント向けの共通土台を小さくまとめた実用リポジトリです。複数のプロジェクトで同じ動きを再現したいときに、ちょうどよく効くタイプの共有資産です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/steipete/agent-scripts" target="_blank" rel="noreferrer">https://github.com/steipete/agent-scripts</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #637</p>
+      </div>
+    </article>
+  </body>
+</html>

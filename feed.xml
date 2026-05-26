@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 26 May 2026 02:19:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 11:25:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agent-scripts]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-steipete-agent-scripts.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-steipete-agent-scripts.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Webwright]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-microsoft-Webwright.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CAD、ロボティクス、ハードウェア設計向けの agent skills 集を実務導線で整理します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[reclip]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-reclip.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-24-reclip.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[YouTube や X など 1000+ サイトに対応する self-hosted な動画・音声ダウンローダーです。]]></description>
     </item>
   </channel>
 </rss>
