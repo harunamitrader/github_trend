@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 26 May 2026 19:06:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 10:05:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-27 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-27-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-27-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[FreeDomain]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-DigitalPlatDev-FreeDomain.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-DigitalPlatDev-FreeDomain.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[無料ドメイン発行と DNS 接続をまとめた、個人向けの公開インフラです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ppf-contact-solver]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-st-tech-ppf-contact-solver.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-st-tech-ppf-contact-solver.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Blender と JupyterLab から使える、高精度な接触シミュレーション基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Antigravity 2.0.6: IDE 連携を追加]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[IP カメラ向けのローカル NVR と物体検出をまとめた監視基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-25 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-25-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-25-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-25 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-25-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-25-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Antigravity 2.0 / CLI / SDK の公開と GitHub Copilot for Eclipse のオープンソース化をまとめた 2026-05-25 の AIコーディングツール監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CADAM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-Adam-CAD-CADAM.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-Adam-CAD-CADAM.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語と画像から3Dモデルを作る text-to-CAD のブラウザ基盤です。]]></description>
     </item>
   </channel>
 </rss>

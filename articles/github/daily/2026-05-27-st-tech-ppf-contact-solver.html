@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blender と JupyterLab から使える、高精度な接触シミュレーション基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ppf-contact-solver</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ppf-contact-solver</h1>
+      <p class="article-dek">Blender と JupyterLab から使える、高精度な接触シミュレーション基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-27 -->
+          <strong>2026-05-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/st-tech/ppf-contact-solver" target="_blank" rel="noreferrer">
+              st-tech/ppf-contact-solver
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,492</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ppf-contact-solver は、ZOZO が公開している接触ソルバです。README では、shells、solids、rods を含む物理シミュレーション向けの solver として位置づけられており、Blender から扱えることが大きな特徴です。</p>
+
+        <h2>何ができるか</h2>
+        <p>布やロープ、剛体を含む 3D シーンの接触計算を高精度に扱えます。Blender add-on から遠隔実行したり、JupyterLab で Python から試したり、Windows の単体実行ファイルや Docker 経由で動かしたりできます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README では、penetration-free、180M 以上の接触まで見据えたスケール、GPU 上での並列実行、Blender 連携、MCP サポートなどが前面に出ています。ドキュメントやデモも豊富で、研究用途と実務寄りの運用をまたいで使いやすい構成です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは Windows native か Docker のどちらかで solver 本体を起動します。NVIDIA driver を入れたうえで、Windows なら `start.bat`、Docker なら README の手順に従って起動し、JupyterLab は `http://localhost:8080` で開きます。その後、Blender add-on か Python API からシミュレーションを流します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>3D アーティスト、テクニカルアーティスト、シミュレーション研究者、GPU を使う物理ベース表現の開発者に向いています。特に Blender を中心にした制作フローと相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>高機能ですが、NVIDIA GPU 前提の運用が基本で、arm64 は対象外です。README でも `warmup.py` をローカルで実行しないよう注意があり、環境構築は手順どおりに進める必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>ppf-contact-solver は、視覚的な制作フローにそのまま接続できる高精度接触ソルバです。Blender と Python の両方から扱えるので、研究と制作の間をつなぐ土台としてかなり実用的です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/st-tech/ppf-contact-solver" target="_blank" rel="noreferrer">https://github.com/st-tech/ppf-contact-solver</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #641</p>
+      </div>
+    </article>
+  </body>
+</html>
