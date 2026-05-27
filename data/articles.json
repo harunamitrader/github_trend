@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-27-google-agents-cli",
+      "title": "agents-cli",
+      "dek": "Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。",
+      "summary": "google/agents-cli を、Google Cloud 上のエージェント開発・評価・デプロイを支える CLI と skills 集として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T14:00:45+09:00",
+      "repoName": "google/agents-cli",
+      "repoUrl": "https://github.com/google/agents-cli",
+      "starCount": 2590,
+      "articleUrl": "./articles/github/daily/2026-05-27-google-agents-cli.html",
+      "serial": 645,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-27-stack-chan-stack-chan",
       "title": "stack-chan",
       "dek": "M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。",

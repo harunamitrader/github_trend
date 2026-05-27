@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agents-cli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agents-cli</h1>
+      <p class="article-dek">Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-27 -->
+          <strong>2026-05-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google/agents-cli" target="_blank" rel="noreferrer">
+              google/agents-cli
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,590</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>agents-cli は、Gemini Enterprise Agent Platform 上で動くエージェントを、coding assistant から扱いやすくするための CLI と skills 集です。単なる補助ツールではなく、エージェント開発の標準手順を渡す役割があります。</p>
+
+        <h2>何ができるか</h2>
+        <p>scaffold、eval、deploy、publish、observability までを一通りカバーします。Gemini CLI、Claude Code、Codex、Antigravity などに skills を追加し、エージェントの作成から評価、Google Cloud への配置までをつなげます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README で「coding assistant を expert にする」と明言されているのが特徴です。ADK のコードパターン、プロジェクトの雛形生成、評価、デプロイ、可観測性まで、実務で必要な流れが切り出されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `uvx google-agents-cli setup` で CLI と skills を入れ、必要なら `npx skills add google/agents-cli` でエージェント側に skills を追加します。その後、coding assistant に `agents-cli scaffold` や `agents-cli deploy` を指示して使い始めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Google Cloud 上で ADK ベースのエージェントを作る人、評価とデプロイまで含めて作業を定型化したい人、複数の coding assistant で同じ流れを使いたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>デプロイや publish では Google Cloud のリソース管理が発生します。ローカルで触れる範囲と、本番向けの操作を分けて扱わないと、課金や権限設定で詰まりやすいです。</p>
+
+        <h2>まとめ</h2>
+        <p>agents-cli は、エージェント開発を「個別の手作業」から「再現できる CLI フロー」に寄せるための土台です。Google Cloud 系のエージェントを継続運用したいなら、かなり筋の良い入口です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google/agents-cli" target="_blank" rel="noreferrer">https://github.com/google/agents-cli</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google/agents-cli" target="_blank" rel="noreferrer">依頼元URL: https://github.com/google/agents-cli</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #645</p>
+      </div>
+    </article>
+  </body>
+</html>

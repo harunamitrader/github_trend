@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 03:07:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 14:01:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agents-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-google-agents-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-google-agents-cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。]]></description>
+    </item>
     <item>
       <title><![CDATA[stack-chan]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-stack-chan-stack-chan.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自分で拡張できる coding agent ハーネスと CLI、LLM API をまとめた mono repo です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cmux]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-manaflow-ai-cmux.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-manaflow-ai-cmux.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI コーディング用の macOS ターミナルに通知・タブ・ブラウザを統合する基盤です。]]></description>
     </item>
   </channel>
 </rss>

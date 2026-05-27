@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T03:06:18.205589+00:00",
-  "count": 702,
+  "generatedAt": "2026-05-27T05:01:10.842141+00:00",
+  "count": 703,
   "articles": [
+    {
+      "slug": "2026-05-27-google-agents-cli",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agents-cli",
+      "dek": "Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。",
+      "summary": "google/agents-cli を、Google Cloud 上のエージェント開発・評価・デプロイを支える CLI と skills 集として整理した GitHub Pickup 記事。",
+      "repoName": "google/agents-cli",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T14:00:45+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-27-google-agents-cli.html",
+      "serial": 645,
+      "searchText": "agents-cli Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。 google/agents-cli を、Google Cloud 上のエージェント開発・評価・デプロイを支える CLI と skills 集として整理した GitHub Pickup 記事。 google/agents-cli AIコーディング (CLI本体・拡張機能) agents-cli ← 記事一覧へ戻る GitHub Watcher agents-cli Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。 記事作成日 2026-05-27 種別 Pickup 対象 repo google/agents-cli Star数 2,590 これは何か agents-cli は、Gemini Enterprise Agent Platform 上で動くエージェントを、coding assistant から扱いやすくするための CLI と skills 集です。単なる補助ツールではなく、エージェント開発の標準手順を渡す役割があります。 何ができるか scaffold、eval、deploy、publish、observability までを一通りカバーします。Gemini CLI、Claude Code、Codex、Antigravity などに skills を追加し、エージェントの作成から評価、Google Cloud への配置までをつなげます。 目立つポイント README で「coding assistant を expert にする」と明言されているのが特徴です。ADK のコードパターン、プロジェクトの雛形生成、評価、デプロイ、可観測性まで、実務で必要な流れが切り出されています。 セットアップや使い方の流れ まず `uvx google-agents-cli setup` で CLI と skills を入れ、必要なら `npx skills add google/agents-cli` でエージェント側に skills を追加します。その後、coding assistant に `agents-cli scaffold` や `agents-cli deploy` を指示して使い始めます。 どんな人向けか Google Cloud 上で ADK ベースのエージェントを作る人、評価とデプロイまで含めて作業を定型化したい人、複数の coding assistant で同じ流れを使いたい人に向いています。 注意点 デプロイや publish では Google Cloud のリソース管理が発生します。ローカルで触れる範囲と、本番向けの操作を分けて扱わないと、課金や権限設定で詰まりやすいです。 まとめ agents-cli は、エージェント開発を「個別の手作業」から「再現できる CLI フロー」に寄せるための土台です。Google Cloud 系のエージェントを継続運用したいなら、かなり筋の良い入口です。 参照リンク https://github.com/google/agents-cli 依頼元URL: https://github.com/google/agents-cli Shared GitHub Serial: #645"
+    },
     {
       "slug": "2026-05-27-stack-chan-stack-chan",
       "category": "github-pickup",
