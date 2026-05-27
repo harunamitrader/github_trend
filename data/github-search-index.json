@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T01:28:34.152241+00:00",
-  "count": 701,
+  "generatedAt": "2026-05-27T03:06:18.205589+00:00",
+  "count": 702,
   "articles": [
+    {
+      "slug": "2026-05-27-stack-chan-stack-chan",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "stack-chan",
+      "dek": "M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。",
+      "summary": "stack-chan/stack-chan を、M5Stack 上で動く JavaScript ベースのロボット開発基盤として整理した GitHub Pickup 記事。",
+      "repoName": "stack-chan/stack-chan",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T12:05:52+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-27-stack-chan-stack-chan.html",
+      "serial": 644,
+      "searchText": "stack-chan M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。 stack-chan/stack-chan を、M5Stack 上で動く JavaScript ベースのロボット開発基盤として整理した GitHub Pickup 記事。 stack-chan/stack-chan AIエージェント (自律基盤・特化アプリ) stack-chan ← 記事一覧へ戻る GitHub Watcher stack-chan M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。 記事作成日 2026-05-27 種別 Pickup 対象 repo stack-chan/stack-chan Star数 1,493 これは何か stack-chan は、M5Stack を土台にした JavaScript 駆動のロボットです。見た目のかわいさと、会話・表情・動作をまとめて扱える開発しやすさを両立しています。 何ができるか 顔の表情表示、まばたきや視線の演出、音声発話、外部ユニット連携、サーボ駆動などを扱えます。firmware、case、schematics が分かれているので、ソフトだけでなく本体組み立てまで追いやすい構成です。 目立つポイント README の時点で、ロボット本体・ファームウェア・筐体・基板が一体で整理されています。単なるライブラリではなく、実際に組んで動かすことを前提にしたオープンハードウェア寄りのプロジェクトです。 セットアップや使い方の流れ まずは `firmware` の手順に沿って環境を整え、必要なら `schematics` と `case` を見ながら組み立てます。開発側は `npm run setup`、`npm run doctor`、`npm run test`、`npm run build` の順で進めるのが基本です。 どんな人向けか デスクトップ上で動くロボットを作りたい人、JavaScript でハードウェアを動かしたい人、表情や会話を含む実機デモを作りたい人に向いています。教育用途やコミュニティ展示にも相性が良いです。 注意点 この repo はソフトウェア単体では完結せず、実機や部品が前提です。さらに gh-pages に出てくる web assets はビルド成果物なので、ソースとして直接いじるより再生成する前提で扱うべきです。 まとめ stack-chan は、かわいさとロボット開発の実用性をそのまま結びつけたプロジェクトです。M5Stack を使って、会話する小型ロボットを作りたい人に分かりやすい入口になります。 参照リンク https://github.com/stack-chan/stack-chan 依頼元URL: https://github.com/stack-chan/stack-chan Shared GitHub Serial: #644"
+    },
     {
       "slug": "2026-05-27-Grigorij-Dudnik-RoboCrew",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 01:29:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 12:06:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[stack-chan]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-stack-chan-stack-chan.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-stack-chan-stack-chan.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[RoboCrew]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-Grigorij-Dudnik-RoboCrew.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI コーディング用の macOS ターミナルに通知・タブ・ブラウザを統合する基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MiroFish]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-666ghj-MiroFish.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-666ghj-MiroFish.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[マルチエージェントで未来シナリオを推演する予測エンジンです。]]></description>
     </item>
   </channel>
 </rss>

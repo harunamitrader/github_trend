@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-27-stack-chan-stack-chan",
+      "title": "stack-chan",
+      "dek": "M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。",
+      "summary": "stack-chan/stack-chan を、M5Stack 上で動く JavaScript ベースのロボット開発基盤として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T12:05:52+09:00",
+      "repoName": "stack-chan/stack-chan",
+      "repoUrl": "https://github.com/stack-chan/stack-chan",
+      "starCount": 1493,
+      "articleUrl": "./articles/github/daily/2026-05-27-stack-chan-stack-chan.html",
+      "serial": 644,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-27-Grigorij-Dudnik-RoboCrew",
       "title": "RoboCrew",
       "dek": "LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。",
