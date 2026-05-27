@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T19:49:22.933131+00:00",
-  "count": 707,
+  "generatedAt": "2026-05-27T22:57:06.009336+00:00",
+  "count": 708,
   "articles": [
+    {
+      "slug": "2026-05-28-xiaochong-hi-kid",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "hi-kid",
+      "dek": "子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。",
+      "summary": "xiaochong/hi-kid を、子ども向けの英会話練習を完全ローカルで支えるデスクトップ AI アプリとして整理した GitHub Pickup 記事。",
+      "repoName": "xiaochong/hi-kid",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T07:55:42+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-28-xiaochong-hi-kid.html",
+      "serial": 649,
+      "searchText": "hi-kid 子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。 xiaochong/hi-kid を、子ども向けの英会話練習を完全ローカルで支えるデスクトップ AI アプリとして整理した GitHub Pickup 記事。 xiaochong/hi-kid メディア作成・マルチモーダル・UI hi-kid ← 記事一覧へ戻る GitHub Watcher hi-kid 子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。 記事作成日 2026-05-28 種別 Pickup 対象 repo xiaochong/hi-kid Star数 732 これは何か HiKid は、英語圏以外の子どもが英語の会話とリスニングを練習するための無料デスクトップアプリです。Electron、React、TypeScript で構成されていて、会話データをクラウドへ送らずローカルで処理するのが前提です。 何ができるか マイクに向かって話すだけで、英会話、物語、単語ゲームの流れに入れます。SoX、ASR サーバー、TTS サーバー、Ollama をつないだローカルパイプラインで、音声入力から応答までをひとつの体験にまとめています。 目立つポイント 完全ローカルで動くので、会話内容や音声を外部サービスに送らない設計です。見た目も子ども向けのカートゥーン調で、学習用の専用アプリとして迷いにくい構成になっています。現時点では macOS 限定で、Windows と Linux は今後対応予定です。 セットアップや使い方の流れ README の流れでは、macOS 12 以上と Node.js 20 以上を用意し、リポジトリを clone して `npm install` を実行します。その後、SoX、ASR/TTS サーバー、Ollama などの依存を整えてから `npm run dev` で起動する形です。 どんな人向けか 子どもの英語練習環境を家の中で作りたい人、ローカル完結の教育向け AI アプリを試したい人、音声会話 UI の実装を参考にしたい人に向いています。 注意点 ローカル音声スタックを組むので、SoX・ASR・TTS・Ollama まわりの準備は軽くありません。README には非商用利用に関する注意書きもあるため、使い方は先に確認したほうが安全です。 まとめ HiKid は、子ども向け英会話をクラウドなしで回すためのローカル音声 AI アプリです。学習用途に寄せた専用設計と、完全ローカルの構成がこの repo の価値です。 参照リンク https://github.com/xiaochong/hi-kid 依頼元URL Shared GitHub Serial: #649"
+    },
     {
       "slug": "2026-05-28-update-report",
       "category": "github-update-report",

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="子どもの英会話練習を、音声認識・TTS・LLM でローカル完結させる HiKid の紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hi-kid</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hi-kid</h1>
+      <p class="article-dek">子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/xiaochong/hi-kid" target="_blank" rel="noreferrer">
+              xiaochong/hi-kid
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>732</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>HiKid は、英語圏以外の子どもが英語の会話とリスニングを練習するための無料デスクトップアプリです。Electron、React、TypeScript で構成されていて、会話データをクラウドへ送らずローカルで処理するのが前提です。</p>
+
+        <h2>何ができるか</h2>
+        <p>マイクに向かって話すだけで、英会話、物語、単語ゲームの流れに入れます。SoX、ASR サーバー、TTS サーバー、Ollama をつないだローカルパイプラインで、音声入力から応答までをひとつの体験にまとめています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>完全ローカルで動くので、会話内容や音声を外部サービスに送らない設計です。見た目も子ども向けのカートゥーン調で、学習用の専用アプリとして迷いにくい構成になっています。現時点では macOS 限定で、Windows と Linux は今後対応予定です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の流れでは、macOS 12 以上と Node.js 20 以上を用意し、リポジトリを clone して `npm install` を実行します。その後、SoX、ASR/TTS サーバー、Ollama などの依存を整えてから `npm run dev` で起動する形です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>子どもの英語練習環境を家の中で作りたい人、ローカル完結の教育向け AI アプリを試したい人、音声会話 UI の実装を参考にしたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>ローカル音声スタックを組むので、SoX・ASR・TTS・Ollama まわりの準備は軽くありません。README には非商用利用に関する注意書きもあるため、使い方は先に確認したほうが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>HiKid は、子ども向け英会話をクラウドなしで回すためのローカル音声 AI アプリです。学習用途に寄せた専用設計と、完全ローカルの構成がこの repo の価値です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/xiaochong/hi-kid" target="_blank" rel="noreferrer">https://github.com/xiaochong/hi-kid</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/xiaochong/hi-kid" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #649</p>
+      </div>
+    </article>
+  </body>
+</html>

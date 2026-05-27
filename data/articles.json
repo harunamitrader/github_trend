@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-28-xiaochong-hi-kid",
+      "title": "hi-kid",
+      "dek": "子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。",
+      "summary": "xiaochong/hi-kid を、子ども向けの英会話練習を完全ローカルで支えるデスクトップ AI アプリとして整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T07:55:42+09:00",
+      "repoName": "xiaochong/hi-kid",
+      "repoUrl": "https://github.com/xiaochong/hi-kid",
+      "starCount": 732,
+      "articleUrl": "./articles/github/daily/2026-05-28-xiaochong-hi-kid.html",
+      "serial": 649,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "title": "2026-05-28 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "summary": "2026-05-28 の GitHub Trending 更新レポートです。",
