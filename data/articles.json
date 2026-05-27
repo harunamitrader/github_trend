@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-05-28-ai-coding-tools-update",
+      "title": "2026-05-28 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.152、Cline v3.85.0、Gemini CLI v0.45.0-nightly.20260527、GitHub Copilot の 5/26 更新をまとめた 2026-05-28 の監視ログです。",
+      "summary": "Claude Code v2.1.152、Cline v3.85.0、Gemini CLI v0.45.0-nightly.20260527、GitHub Copilot の 5/26 更新をまとめた 2026-05-28 の AIコーディングツール更新まとめです。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T04:02:34+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Cline, Gemini CLI, GitHub Copilot",
+      "articleUrl": "./articles/tools/2026-05-28-ai-coding-tools-update.html",
+      "serial": 624,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-05-27-google-antigravity-antigravity-sdk-python",
       "title": "antigravity-sdk-python",
