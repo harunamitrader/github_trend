@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T05:01:10.842141+00:00",
-  "count": 703,
+  "generatedAt": "2026-05-27T09:05:08.062927+00:00",
+  "count": 704,
   "articles": [
+    {
+      "slug": "2026-05-27-google-antigravity-antigravity-sdk-python",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "antigravity-sdk-python",
+      "dek": "Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK。",
+      "summary": "google-antigravity/antigravity-sdk-python を、Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK として整理した GitHub Pickup 記事。",
+      "repoName": "google-antigravity/antigravity-sdk-python",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T18:04:12+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-27-google-antigravity-antigravity-sdk-python.html",
+      "serial": 646,
+      "searchText": "antigravity-sdk-python Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK。 google-antigravity/antigravity-sdk-python を、Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK として整理した GitHub Pickup 記事。 google-antigravity/antigravity-sdk-python AIエージェント (自律基盤・特化アプリ) antigravity-sdk-python ← 記事一覧へ戻る GitHub Watcher antigravity-sdk-python Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK。 記事作成日 2026-05-27 種別 Pickup 対象 repo google-antigravity/antigravity-sdk-python Star数 1110 これは何か Google Antigravity と Gemini を土台に、Python から AI エージェントを組み立てるための SDK です。`Agent` を中心に、実行ループや状態管理、ツール連携をまとめて扱えるようにしています。 何ができるか ストリーミング応答の受信、`Conversation` による状態保持、Python 関数のツール登録、MCP サーバー接続、画像・音声・文書を含むマルチモーダル入力に対応します。 目立つポイント 既定では read-only モードで、安全側に寄せた設計です。書き込み系の機能は `CapabilitiesConfig()` で明示的に有効化します。また、実行に必要な compiled runtime binary は PyPI の platform-specific wheel に含まれるため、リポジトリを clone しただけでは動きません。 セットアップや使い方の流れ まず `pip install google-antigravity` を入れ、`GEMINI_API_KEY` を設定します。そのうえで `examples/getting_started/hello_world.py` を動かすか、README の `Agent` 例を起点に自分のツールやプロンプトを差し替えるのが最短です。 どんな人向けか Python で自律エージェントや社内アシスタントを作りたい人、MCP 連携や状態付き会話を前提にした実装を組みたい人向けです。小さな試作品よりも、実運用を見据えた構成に向いています。 注意点 リポジトリのソースだけでは実行できず、PyPI の配布 wheel が前提です。README でもこの点が強調されているので、ビルドや配布の導線は先に確認しておくべきです。 まとめ antigravity-sdk-python は、Antigravity を Python から使うための実用的な入口です。`Agent`、`Conversation`、MCP、ストリーミングを一通り押さえられるので、エージェント実装の土台をまとめて整えたい場合に向いています。 参照リンク https://github.com/google-antigravity/antigravity-sdk-python Shared GitHub Serial: #646"
+    },
     {
       "slug": "2026-05-27-google-agents-cli",
       "category": "github-pickup",

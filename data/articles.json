@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-27-google-antigravity-antigravity-sdk-python",
+      "title": "antigravity-sdk-python",
+      "dek": "Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK。",
+      "summary": "google-antigravity/antigravity-sdk-python を、Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T18:04:12+09:00",
+      "repoName": "google-antigravity/antigravity-sdk-python",
+      "repoUrl": "https://github.com/google-antigravity/antigravity-sdk-python",
+      "starCount": 1110,
+      "articleUrl": "./articles/github/daily/2026-05-27-google-antigravity-antigravity-sdk-python.html",
+      "serial": 646,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-27-google-agents-cli",
       "title": "agents-cli",
       "dek": "Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。",
