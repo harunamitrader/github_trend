@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 01:06:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 10:28:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[RoboCrew]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-Grigorij-Dudnik-RoboCrew.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-Grigorij-Dudnik-RoboCrew.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-27 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-27-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[マルチエージェントで未来シナリオを推演する予測エンジンです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[frigate]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-blakeblackshear-frigate.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-blakeblackshear-frigate.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[IP カメラ向けのローカル NVR と物体検出をまとめた監視基盤です。]]></description>
     </item>
   </channel>
 </rss>

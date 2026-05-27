@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-27-Grigorij-Dudnik-RoboCrew",
+      "title": "RoboCrew",
+      "dek": "LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。",
+      "summary": "Grigorij-Dudnik/RoboCrew を、LLM でロボットを自律化するスキル集として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T10:27:50+09:00",
+      "repoName": "Grigorij-Dudnik/RoboCrew",
+      "repoUrl": "https://github.com/Grigorij-Dudnik/RoboCrew",
+      "starCount": 94,
+      "articleUrl": "./articles/github/daily/2026-05-27-Grigorij-Dudnik-RoboCrew.html",
+      "serial": 643,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "title": "2026-05-27 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "summary": "2026-05-27 の GitHub Trending 更新レポートです。",

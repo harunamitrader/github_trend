@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T01:05:14.313644+00:00",
-  "count": 700,
+  "generatedAt": "2026-05-27T01:28:34.152241+00:00",
+  "count": 701,
   "articles": [
+    {
+      "slug": "2026-05-27-Grigorij-Dudnik-RoboCrew",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "RoboCrew",
+      "dek": "LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。",
+      "summary": "Grigorij-Dudnik/RoboCrew を、LLM でロボットを自律化するスキル集として整理した GitHub Pickup 記事。",
+      "repoName": "Grigorij-Dudnik/RoboCrew",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-27",
+      "createdAt": "2026-05-27T10:27:50+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-27-Grigorij-Dudnik-RoboCrew.html",
+      "serial": 643,
+      "searchText": "RoboCrew LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。 Grigorij-Dudnik/RoboCrew を、LLM でロボットを自律化するスキル集として整理した GitHub Pickup 記事。 Grigorij-Dudnik/RoboCrew AIエージェント (自律基盤・特化アプリ) RoboCrew ← 記事一覧へ戻る GitHub Watcher RoboCrew LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。 記事作成日 2026-05-27 種別 Pickup 対象 repo Grigorij-Dudnik/RoboCrew Star数 94 これは何か RoboCrew は、ロボットを LLM エージェントで自律化するためのプロジェクトです。README では、CrewAI や AutoGen に近い導入感で、ロボット向けの agent を組めることが強調されています。 何ができるか 移動、アーム操作、カメラ入力、音声応答、LiDAR マッピング、多エージェント連携をひとまとめに扱えます。XLeRobot や LeKiwi、Earth Rover mini plus に対応しており、ハードウェア側のツールを差し替えながら使う想定です。 目立つポイント 単なるロボット制御ライブラリではなく、LLM が入力を解釈して、適切なツールを選び、ロボット動作に落とし込む流れが明確です。デモ GIF と docs も揃っていて、動作のイメージを掴みやすい構成になっています。 セットアップや使い方の流れ まず pip で `robocrew` を入れ、必要なら `robocrew-gui` を起動します。その後、カメラやサーボ、移動系ツールを組み込み、`LLMAgent` にタスクを与えて実行する流れです。詳細は公式 docs と README を併用するのが早いです。 どんな人向けか ロボットを自然言語で操作したい人、視覚や音声を含む実機デモを作りたい人、LLM をロボティクスの制御層に置きたい人に向いています。研究デモだけでなく、小さめの実装検証にも使いやすいです。 注意点 実機制御を前提にしているため、対象ロボットや接続デバイスに依存します。README 上の例もハードウェア前提なので、まずは対応機体と必要なポート設定を確認してから入るのが安全です。 まとめ RoboCrew は、LLM をロボット運用の中枢に置くための実践的なスキル集です。ロボット制御を対話型に持ち込みたいときの出発点として、かなり分かりやすい構成です。 参照リンク https://github.com/Grigorij-Dudnik/RoboCrew Shared GitHub Serial: #643"
+    },
     {
       "slug": "2026-05-27-update-report",
       "category": "github-update-report",
