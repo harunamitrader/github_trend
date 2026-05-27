@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 19:06:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 04:49:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-28 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-28-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-28-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[MoneyPrinterTurbo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-harry0703-MoneyPrinterTurbo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-harry0703-MoneyPrinterTurbo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI 大模型で短尺動画を自動生成する、WebUI と API 対応の動画生成基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[English-level-up-tips]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-byoungd-English-level-up-tips.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-byoungd-English-level-up-tips.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[英語学習のロードマップ、レベル別の章立て、実践リソースをまとめた大規模ガイド。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-28 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-coding-tools-update.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PC とモバイルの無料アプリを OS 別に整理した、実用本位のキュレーションリストです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stop-slop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-hardikpandya-stop-slop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-hardikpandya-stop-slop.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI っぽい文体を削って自然な prose に整えるための skill file です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-26 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-26-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-26-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[iii]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-iii-hq-iii.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-25-iii-hq-iii.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サービスを追加しながら観測と実行をひとつにまとめる shared runtime です。]]></description>
     </item>
   </channel>
 </rss>
