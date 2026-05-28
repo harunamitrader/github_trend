@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 10:06:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 19:15:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AgentHub]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-Stanshy-AgentHub.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-Stanshy-AgentHub.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を中核に、複数の AI エージェントと Hook / Skill / FileWatcher をまとめて運用する Electron アプリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[MemMachine]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-MemMachine-MemMachine.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[super-hermes]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Cranot-super-hermes.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-Cranot-super-hermes.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Hermes Agent に分析用プロンプトを自作させるための skills 集です。]]></description>
     </item>
   </channel>
 </rss>

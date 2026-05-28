@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code を中核に、複数の AI エージェントと Hook / Skill / FileWatcher をまとめて運用する Electron アプリ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AgentHub</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AgentHub</h1>
+      <p class="article-dek">Claude Code を中核に、複数の AI エージェントと Hook / Skill / FileWatcher をまとめて運用する Electron アプリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Stanshy/AgentHub" target="_blank" rel="noreferrer">
+              Stanshy/AgentHub
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>126</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AgentHub は、1 人でソフトウェア会社のように動くためのハーネス型管理アプリです。README では、47 の AI エージェントを 1 つの Electron アプリから運用し、Claude Code を中心に役割分担と制御を行う構成として説明されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>プロダクト管理、エンジニアリング、デザイン、マーケティング、テスト、プロジェクト管理、スタジオ運用までを、役割ごとの Agent として整理できます。Task Board、Sessions、Projects、Agents の画面があり、進行状況や担当を GUI で追えるのが実務向きです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Hooks で危険操作や品質ゲートをブロックし、Skills で手順を標準化し、FileWatcher で Markdown の変更を即時同期する設計が核です。README では 24 の built-in Skills、6 の Hook templates、G0 から G6 までの quality checkpoints が示されていて、AI を自由に暴れさせるのではなく制約で安定化させる思想がはっきりしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入には Node.js 18 以上、npm、Claude Code、Git、Python、各種ビルドツールが必要です。`git clone` のあと `npm install`、続けて `bash scripts/install-skills.sh` を実行し、最後に `npm run dev` で起動します。README では、Claude Code の認証とネイティブ依存の準備が最初の関門として明示されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の Claude Code セッションを役割分担させたい人、AI の作業をプロジェクト単位で管理したい人、危険なコマンドや手順逸脱を Hook で止めたい人に向いています。単なる AI チャットではなく、運用の型まで含めて整えたい人向けです。</p>
+
+        <h2>注意点</h2>
+        <p>このプロジェクトは GUI アプリですが、実際の作業は Claude Code CLI に依存します。さらに、Windows では C++ build tools が必要になるなど、初期セットアップのハードルは低くありません。</p>
+
+        <h2>まとめ</h2>
+        <p>AgentHub は、AI エージェントを「増やす」だけでなく「統制する」ための基盤です。プロンプトの工夫よりも、ルール・検証・同期を先に置きたい運用に合っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Stanshy/AgentHub" target="_blank" rel="noreferrer">https://github.com/Stanshy/AgentHub</a>
+        </div>
+        <div class="source-item">
+          <a href="https://agenthub.stanshy.com/" target="_blank" rel="noreferrer">https://agenthub.stanshy.com/</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Stanshy/AgentHub" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #654</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-28-Stanshy-AgentHub",
+      "title": "AgentHub",
+      "dek": "Claude Code を中核に、複数の AI エージェントと Hook / Skill / FileWatcher をまとめて運用する Electron アプリ。",
+      "summary": "Stanshy/AgentHub を、Claude Code ベースのハーネス型エージェント管理アプリとして整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T19:08:00+09:00",
+      "repoName": "Stanshy/AgentHub",
+      "repoUrl": "https://github.com/Stanshy/AgentHub",
+      "starCount": 126,
+      "articleUrl": "./articles/github/daily/2026-05-28-Stanshy-AgentHub.html",
+      "serial": 654,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-28-MemMachine-MemMachine",
       "title": "MemMachine",
       "dek": "AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。",
