@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 03:43:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 14:16:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenAlice]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-28 AI一般ツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-others-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ECC]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-affaan-m-ECC.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-affaan-m-ECC.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や Codex など複数のエージェントをまとめて運用するためのハーネス型オペレータ基盤です。]]></description>
     </item>
   </channel>
 </rss>

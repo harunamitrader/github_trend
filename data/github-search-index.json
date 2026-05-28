@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-27T22:57:06.009336+00:00",
-  "count": 708,
+  "generatedAt": "2026-05-28T05:16:55.372304+00:00",
+  "count": 709,
   "articles": [
+    {
+      "slug": "2026-05-28-TraderAlice-OpenAlice",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenAlice",
+      "dek": "自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。",
+      "summary": "TraderAlice/OpenAlice を、調査・発注・監視・手仕舞いまでを一体で扱うローカルファーストの AI trading agent 基盤として整理した GitHub Pickup 記事。",
+      "repoName": "TraderAlice/OpenAlice",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T14:15:51+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html",
+      "serial": 650,
+      "searchText": "OpenAlice 自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。 TraderAlice/OpenAlice を、調査・発注・監視・手仕舞いまでを一体で扱うローカルファーストの AI trading agent 基盤として整理した GitHub Pickup 記事。 TraderAlice/OpenAlice 金融・トレード分析 OpenAlice ← 記事一覧へ戻る GitHub Watcher OpenAlice 自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。 記事作成日 2026-05-28 種別 Pickup 対象 repo TraderAlice/OpenAlice Star数 4,310 これは何か OpenAlice は、株式・暗号資産・コモディティ・FX・マクロまでを横断して扱う、自己ホスト型の AI trading agent です。README では「Your one-person Wall Street」として位置づけられていて、調査だけでなく売買実行まで見据えた構成になっています。 何ができるか Unified Trading Account を中心に、複数ブローカーの口座を統合し、Research、position sizing、監視、risk management、exit decision を一続きの流れで扱えます。Market data と news の収集も含まれるので、単発の売買 bot ではなく運用全体を回すための土台として使えます。 目立つポイント Trading-as-Git で注文を stage / commit / push する設計がわかりやすいです。さらに、Workspace、Inbox、Telegram、MCP server まで揃っていて、AI の実行場所とユーザーへの通知経路を分けているのが実務向きです。自分のマシンで動かす前提なので、秘密鍵と資金管理の境界も明確です。 セットアップや使い方の流れ README の流れでは、Node.js 22+ と pnpm を用意して `git clone`、`pnpm install`、`pnpm dev` の順で起動します。初回はローカルの Claude Code 認証や依存サービスの準備が必要で、開いた UI から Workspace や Chat、Market、News を使う流れです。 どんな人向けか 自分の環境で AI に調査と売買判断の一部を任せたい人、マルチブローカーをまとめて扱う運用基盤を探している人、Trading UI と agent runtime を一体で設計したい人に向いています。 注意点 README でも experimental software と明記されていて、実運用やライブ取引は十分な理解なしに行うべきではありません。特に、ブローカー接続と資金を扱うので、テスト環境での検証を挟まずに本番投入するのは危険です。 まとめ OpenAlice は、研究・実行・監査をひとつのローカル基盤でつなぐ AI trading agent の実装例です。売買 bot というより、意思決定と実行の両方を扱う運用基盤として見ると価値がわかりやすいです。 参照リンク https://github.com/TraderAlice/OpenAlice https://openalice.ai 依頼元URL Shared GitHub Serial: #650"
+    },
     {
       "slug": "2026-05-28-xiaochong-hi-kid",
       "category": "github-pickup",

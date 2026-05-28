@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-28-TraderAlice-OpenAlice",
+      "title": "OpenAlice",
+      "dek": "自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。",
+      "summary": "TraderAlice/OpenAlice を、調査・発注・監視・手仕舞いまでを一体で扱うローカルファーストの AI trading agent 基盤として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T14:15:51+09:00",
+      "repoName": "TraderAlice/OpenAlice",
+      "repoUrl": "https://github.com/TraderAlice/OpenAlice",
+      "starCount": 4310,
+      "articleUrl": "./articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html",
+      "serial": 650,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
       "title": "2026-05-28 AI一般ツール アップデート",
       "dek": "Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と、OpenClaw v2026.5.26 を横断して整理した 2026-05-28 の Others 監視ログ。",
       "summary": "Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と OpenClaw v2026.5.26 の更新をまとめた 2026-05-28 の Others 監視ログです。Grok は外部 agentic platform への統合が進み、OpenClaw は実行基盤の安定化が進んでいます。",

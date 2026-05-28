@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenAlice は、自機上で動く AI trading agent で、調査・建玉管理・リスク制御・出口判断まで統合する基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAlice</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenAlice</h1>
+      <p class="article-dek">自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TraderAlice/OpenAlice" target="_blank" rel="noreferrer">
+              TraderAlice/OpenAlice
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,310</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenAlice は、株式・暗号資産・コモディティ・FX・マクロまでを横断して扱う、自己ホスト型の AI trading agent です。README では「Your one-person Wall Street」として位置づけられていて、調査だけでなく売買実行まで見据えた構成になっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>Unified Trading Account を中心に、複数ブローカーの口座を統合し、Research、position sizing、監視、risk management、exit decision を一続きの流れで扱えます。Market data と news の収集も含まれるので、単発の売買 bot ではなく運用全体を回すための土台として使えます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Trading-as-Git で注文を stage / commit / push する設計がわかりやすいです。さらに、Workspace、Inbox、Telegram、MCP server まで揃っていて、AI の実行場所とユーザーへの通知経路を分けているのが実務向きです。自分のマシンで動かす前提なので、秘密鍵と資金管理の境界も明確です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の流れでは、Node.js 22+ と pnpm を用意して `git clone`、`pnpm install`、`pnpm dev` の順で起動します。初回はローカルの Claude Code 認証や依存サービスの準備が必要で、開いた UI から Workspace や Chat、Market、News を使う流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自分の環境で AI に調査と売買判断の一部を任せたい人、マルチブローカーをまとめて扱う運用基盤を探している人、Trading UI と agent runtime を一体で設計したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>README でも experimental software と明記されていて、実運用やライブ取引は十分な理解なしに行うべきではありません。特に、ブローカー接続と資金を扱うので、テスト環境での検証を挟まずに本番投入するのは危険です。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenAlice は、研究・実行・監査をひとつのローカル基盤でつなぐ AI trading agent の実装例です。売買 bot というより、意思決定と実行の両方を扱う運用基盤として見ると価値がわかりやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/TraderAlice/OpenAlice" target="_blank" rel="noreferrer">https://github.com/TraderAlice/OpenAlice</a>
+        </div>
+        <div class="source-item">
+          <a href="https://openalice.ai" target="_blank" rel="noreferrer">https://openalice.ai</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/TraderAlice/OpenAlice" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #650</p>
+      </div>
+    </article>
+  </body>
+</html>
