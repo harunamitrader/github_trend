@@ -8,6 +8,24 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-05-29-ai-others-tools-update",
+      "title": "2026-05-29 AI一般ツール アップデート",
+      "dek": "Claude Opus 4.8 と Obsidian 1.13.0 Mobile の更新をまとめた 2026-05-29 の監視ログです。",
+      "summary": "Claude Opus 4.8 と Obsidian 1.13.0 Mobile の更新をまとめた 2026-05-29 の Others 監視ログです。",
+      "publishedAt": "2026-05-29",
+      "createdAt": "2026-05-29T06:46:05+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude, Obsidian",
+      "articleUrl": "./articles/tools/2026-05-29-ai-others-tools-update.html",
+      "serial": 627,
+      "genre": "Others",
+      "tags": [
+        "Claude",
+        "Obsidian"
+      ]
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-05-29-ai-coding-tools-update",
       "title": "2026-05-29 AIコーディングツール アップデート",
       "dek": "Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の監視ログです。",
