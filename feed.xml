@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 08:35:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 18:50:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenViking]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-volcengine-OpenViking.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-volcengine-OpenViking.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[sample-multi-agent-orchestration-chat-on-agentcore]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ファイル共有と Web ベースのドライブ運用をまとめた業務向け Web アプリです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-scripts]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-steipete-agent-scripts.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-steipete-agent-scripts.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。]]></description>
     </item>
   </channel>
 </rss>

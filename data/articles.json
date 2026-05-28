@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-28-volcengine-OpenViking",
+      "title": "OpenViking",
+      "dek": "AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。",
+      "summary": "volcengine/OpenViking を、memory・resources・skills を file system 風に束ねる AI エージェント向け context database として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T18:48:06+09:00",
+      "repoName": "volcengine/OpenViking",
+      "repoUrl": "https://github.com/volcengine/OpenViking",
+      "starCount": 24811,
+      "articleUrl": "./articles/github/daily/2026-05-28-volcengine-OpenViking.html",
+      "serial": 652,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore",
       "title": "sample-multi-agent-orchestration-chat-on-agentcore",
       "dek": "AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。",

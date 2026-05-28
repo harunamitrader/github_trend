@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-28T08:33:32.631374+00:00",
-  "count": 710,
+  "generatedAt": "2026-05-28T09:49:05.604037+00:00",
+  "count": 711,
   "articles": [
+    {
+      "slug": "2026-05-28-volcengine-OpenViking",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenViking",
+      "dek": "AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。",
+      "summary": "volcengine/OpenViking を、memory・resources・skills を file system 風に束ねる AI エージェント向け context database として整理した GitHub Pickup 記事。",
+      "repoName": "volcengine/OpenViking",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T18:48:06+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-28-volcengine-OpenViking.html",
+      "serial": 652,
+      "searchText": "OpenViking AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。 volcengine/OpenViking を、memory・resources・skills を file system 風に束ねる AI エージェント向け context database として整理した GitHub Pickup 記事。 volcengine/OpenViking AIエージェント (自律基盤・特化アプリ) OpenViking ← 記事一覧へ戻る GitHub Watcher OpenViking AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。 記事作成日 2026-05-28 種別 Pickup 対象 repo volcengine/OpenViking Star数 24,811 これは何か OpenViking は、AI Agents 向けに設計された open-source の context database です。memory、resources、skills をファイルシステムのように束ねて扱い、エージェントが必要な文脈を階層的に取り出せるようにしています。 何ができるか `viking://` の仮想ファイルシステム上でコンテキストを管理し、ディレクトリ単位の再帰取得や検索を通じて、文脈の持ち越しと再利用をしやすくします。CLI と server を組み合わせることで、追加、探索、確認までを一通り回せます。 目立つポイント L0 / L1 / L2 の tiered context loading、retrieval trajectory の可視化、session management、self-iterating な context workflow が核です。README では OpenAI Codex、Kimi、GLM などの provider も案内されていて、単なる保存庫ではなく、エージェント運用の前提として作られていることがわかります。 セットアップや使い方の流れ README の流れでは、まず `pip install openviking --upgrade --force-reinstall` で本体を入れます。必要に応じて `npm i -g @openviking/cli` か `cargo install --git https://github.com/volcengine/OpenViking ov_cli` を使い、`openviking-server init` と `openviking-server doctor` で準備を確認してから `openviking-server` を起動します。操作は `ov status`、`ov add-resource`、`ov tree`、`ov find`、`ov grep` のようなコマンドで進めます。 どんな人向けか AI エージェントの memory、RAG、skills を散らさず管理したい人や、複数セッションで文脈を持ち越したい人に向いています。エージェント基盤をファイルシステムの考え方で整理したい場合にも相性がいいです。 注意点 基盤そのものは便利でも、context の設計が甘いと効果は出ません。実運用に入れる前に、分類ルールと命名を先に固めて、テスト環境で挙動を確認しておくのが安全です。 まとめ OpenViking は、AI エージェントの文脈管理を専用 DB として扱うための土台です。エージェントの記憶をファイルのように整理したいなら、方向性はかなりわかりやすいプロジェクトです。 参照リンク https://github.com/volcengine/OpenViking https://openviking.ai 依頼元URL Shared GitHub Serial: #652"
+    },
     {
       "slug": "2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore",
       "category": "github-pickup",

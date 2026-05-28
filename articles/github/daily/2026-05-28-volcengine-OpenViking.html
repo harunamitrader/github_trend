@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenViking</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenViking</h1>
+      <p class="article-dek">AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/volcengine/OpenViking" target="_blank" rel="noreferrer">
+              volcengine/OpenViking
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>24,811</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenViking は、AI Agents 向けに設計された open-source の context database です。memory、resources、skills をファイルシステムのように束ねて扱い、エージェントが必要な文脈を階層的に取り出せるようにしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>`viking://` の仮想ファイルシステム上でコンテキストを管理し、ディレクトリ単位の再帰取得や検索を通じて、文脈の持ち越しと再利用をしやすくします。CLI と server を組み合わせることで、追加、探索、確認までを一通り回せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>L0 / L1 / L2 の tiered context loading、retrieval trajectory の可視化、session management、self-iterating な context workflow が核です。README では OpenAI Codex、Kimi、GLM などの provider も案内されていて、単なる保存庫ではなく、エージェント運用の前提として作られていることがわかります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の流れでは、まず `pip install openviking --upgrade --force-reinstall` で本体を入れます。必要に応じて `npm i -g @openviking/cli` か `cargo install --git https://github.com/volcengine/OpenViking ov_cli` を使い、`openviking-server init` と `openviking-server doctor` で準備を確認してから `openviking-server` を起動します。操作は `ov status`、`ov add-resource`、`ov tree`、`ov find`、`ov grep` のようなコマンドで進めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェントの memory、RAG、skills を散らさず管理したい人や、複数セッションで文脈を持ち越したい人に向いています。エージェント基盤をファイルシステムの考え方で整理したい場合にも相性がいいです。</p>
+
+        <h2>注意点</h2>
+        <p>基盤そのものは便利でも、context の設計が甘いと効果は出ません。実運用に入れる前に、分類ルールと命名を先に固めて、テスト環境で挙動を確認しておくのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenViking は、AI エージェントの文脈管理を専用 DB として扱うための土台です。エージェントの記憶をファイルのように整理したいなら、方向性はかなりわかりやすいプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/volcengine/OpenViking" target="_blank" rel="noreferrer">https://github.com/volcengine/OpenViking</a>
+        </div>
+        <div class="source-item">
+          <a href="https://openviking.ai" target="_blank" rel="noreferrer">https://openviking.ai</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/volcengine/OpenViking" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #652</p>
+      </div>
+    </article>
+  </body>
+</html>
