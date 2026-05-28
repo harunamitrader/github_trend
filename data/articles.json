@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-29-microsoft-SkillOpt-pickup",
+      "title": "SkillOpt",
+      "dek": "Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。",
+      "summary": "Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。",
+      "publishedAt": "2026-05-29",
+      "createdAt": "2026-05-29T07:38:23+09:00",
+      "repoName": "microsoft/SkillOpt",
+      "repoUrl": "https://github.com/microsoft/SkillOpt",
+      "starCount": 2029,
+      "articleUrl": "./articles/github/daily/2026-05-29-microsoft-SkillOpt-pickup.html",
+      "serial": 658,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-05-29-ai-others-tools-update",
       "title": "2026-05-29 AI一般ツール アップデート",

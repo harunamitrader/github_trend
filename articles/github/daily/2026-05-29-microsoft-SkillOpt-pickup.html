@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>SkillOpt</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">SkillOpt</h1>
+      <p class="article-dek">Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-29 -->
+          <strong>2026-05-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/SkillOpt" target="_blank" rel="noreferrer">
+              microsoft/SkillOpt
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,029</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          SkillOpt は、モデル重みをいじらずに、エージェントに持たせる自然言語スキル自体を最適化するための基盤です。
+          公式 README では、trajectory-driven edits と validation-gated updates を通じて、再利用可能な skill を磨き込み、最終的に deployable な <code>best_skill.md</code> を出力する設計になっています。
+          要するに、「プロンプトを毎回手で直す」のではなく、「改善されたスキルを成果物として配る」方向に寄せた repo です。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>スキルを反復改善</strong>: 失敗した trajectory を使って、自然言語の指示や手順を更新できる。</li>
+          <li><strong>検証で足切り</strong>: validation gate を通らない変更は採用しない運用にできる。</li>
+          <li><strong>配布しやすい成果物</strong>: 最終的な skill を <code>best_skill.md</code> として持ち出せる。</li>
+          <li><strong>複数ベンチに対応</strong>: SearchQA、ALFWorld、DocVQA、SpreadsheetBench、OfficeQA などの split ベースのデータで評価しやすい。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          この repo のユニークさは、学習の単位を「モデル」ではなく「スキル文書」に置いている点です。
+          epochs、mini-batchsize、learning rate のような発想を、LLM の重み更新ではなく、スキル改善の反復にそのまま持ち込んでいます。
+          frozen LLM を前提にしているので、モデル再学習よりも軽く、運用しやすい改善ループを作りやすいのが強みです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><strong>リポジトリを clone</strong> して <code>pip install -e .</code> で開発環境を入れる。</li>
+          <li><strong>API 認証情報を設定</strong> する。README では Azure OpenAI、OpenAI、Anthropic Claude、Qwen などを想定している。</li>
+          <li><strong>データを split 形式で準備</strong> する。<code>train</code> / <code>val</code> / <code>test</code> に分けた JSON を置く。</li>
+          <li><strong>学習を実行</strong> する。たとえば <code>python scripts/train.py --config ... --split_dir ...</code> の形で回す。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>固定済み LLM を前提に、プロンプトや skill を継続改善したい人。</li>
+          <li>エージェントの振る舞いを、検証付きのワークフローとして管理したいチーム。</li>
+          <li>研究用の試行錯誤を、配布可能な <code>best_skill.md</code> に落とし込みたい開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <ul>
+          <li><strong>Python 3.10+ が必要</strong>: README 上の前提環境を満たしていないと動かしにくい。</li>
+          <li><strong>データは自前で用意する</strong>: benchmark データセットは同梱されていないため、split 形式で準備する必要がある。</li>
+          <li><strong>API キー前提</strong>: Azure OpenAI などの LLM 接続先を設定しないと、学習ループが回らない。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>
+          SkillOpt は、LLM の中身を再学習するのではなく、エージェントに与えるスキルを訓練・検証・配布するための実装です。
+          自動化したいのは「モデル重み」ではなく「運用できる skill の質」だ、というチームにはかなり相性がよいです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/SkillOpt" target="_blank" rel="noreferrer">microsoft/SkillOpt</a>
+        </div>
+        <div class="source-item">
+          <a href="https://microsoft.github.io/SkillOpt/" target="_blank" rel="noreferrer">Project Page</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #658</p>
+      </div>
+    </article>
+  </body>
+</html>

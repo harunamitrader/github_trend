@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 21:47:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 07:40:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[SkillOpt]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-microsoft-SkillOpt-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-microsoft-SkillOpt-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-29 AI一般ツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-others-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Google Cloud 上のエージェント開発・評価・デプロイを coding assistant に任せやすくする CLI と skills 集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stack-chan]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-stack-chan-stack-chan.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-stack-chan-stack-chan.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[M5Stack 上で動く、JavaScript ベースのかわいいロボット本体と開発基盤です。]]></description>
     </item>
   </channel>
 </rss>
