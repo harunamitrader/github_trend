@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 10:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 05:23:21 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[harness]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-revfactory-harness.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-revfactory-harness.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 向けに、ドメイン説明からエージェントチームと skills を生成する設計ファクトリー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[MOSS-TTS]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-OpenMOSS-MOSS-TTS.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-OpenMOSS-MOSS-TTS.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[高忠実度の音声合成、声質制御、環境音生成、リアルタイム TTS をまとめた音声モデルファミリー。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[compound-engineering-plugin]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-EveryInc-compound-engineering-plugin.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-EveryInc-compound-engineering-plugin.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[計画・レビュー・知見の再利用をまとめた Claude Code / Codex / Cursor 向けの開発ワークフロー拡張。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-29 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-29-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-29-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[AgentHub]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-Stanshy-AgentHub.html</link>
@@ -134,38 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FreeDomain]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-DigitalPlatDev-FreeDomain.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-DigitalPlatDev-FreeDomain.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[無料ドメイン発行と DNS 接続をまとめた、個人向けの公開インフラです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ppf-contact-solver]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-st-tech-ppf-contact-solver.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-st-tech-ppf-contact-solver.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Blender と JupyterLab から使える、高精度な接触シミュレーション基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity 2.0.6: IDE 連携を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-27-antigravity-2-0-6-ide-integration.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Antigravity 2.0.6 は、Antigravity IDE との往復をしやすくする導線を追加した小規模更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[omniparse]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-adithya-s-k-omniparse.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-adithya-s-k-omniparse.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[文書・メディア・Web を取り込んで GenAI フレームワーク向けに整形するデータ前処理基盤です。]]></description>
     </item>
   </channel>
 </rss>
