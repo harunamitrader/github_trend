@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と、OpenClaw v2026.5.26 をまとめた 2026-05-28 の Others 監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-05-28 AI一般ツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-05-28 AI一般ツール アップデート</h1>
+      <p class="article-dek">Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と OpenClaw v2026.5.26 を横断して整理した 2026-05-28 の Others 監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Others</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok, OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回は、xAI の Grok が複数の外部 agentic platform に広がり、OpenClaw が本体リリースで実行基盤を固めていました。</p>
+        <ul>
+          <li><strong>Grok:</strong> xAI は 5/15 の Hermes Agent 連携、5/19 の OpenClaw 連携、5/21 の OpenCode 連携、5/27 の Kilo Code 連携を続けて公開しました。Grok Build を土台に、Grok subscription を外部の personal assistant / agentic coding surface へそのまま持ち込める導線が一気に広がっています。</li>
+          <li><strong>OpenClaw:</strong> v2026.5.26 では、Gateway と replies の高速化、transcript ベースの経路統一、channels と voice / talk の改善、content boundary の安全強化、install / update / release path の堅牢化がまとまって入りました。運用時に効く改善がかなり厚いです。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Grok 側は、単独のアシスタント機能から「既存の agent platform に Grok を接続する」方向へ明確に広がっています。OpenClaw 側は、長時間稼働の runtime とメッセージング、音声、更新の土台を固める段階に入っており、実運用の安定性が上がっています。</p>
+
+        <h2>まとめ</h2>
+        <p>今回の更新で、Others はモデル単体の話から、どの実行環境でも同じ Grok を呼び出せる連携層と、その上で動く runtime の安定化へ軸足が移りました。実務では、Grok は接続先の増加、OpenClaw は中核基盤の信頼性向上として読むのが実用的です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://x.ai/news/grok-hermes" target="_blank" rel="noreferrer">Connect Grok to Hermes Agent</a>
+        </div>
+        <div class="source-item">
+          <a href="https://x.ai/news/grok-openclaw" target="_blank" rel="noreferrer">Use Grok in OpenClaw</a>
+        </div>
+        <div class="source-item">
+          <a href="https://x.ai/news/grok-opencode" target="_blank" rel="noreferrer">Use Grok in OpenCode</a>
+        </div>
+        <div class="source-item">
+          <a href="https://x.ai/news/grok-kilocode" target="_blank" rel="noreferrer">Use Grok in Kilo Code</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.5.26" target="_blank" rel="noreferrer">openclaw 2026.5.26</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

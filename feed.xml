@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 27 May 2026 22:58:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 12:41:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-28 AI一般ツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-others-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-others-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と、OpenClaw v2026.5.26 を横断して整理した 2026-05-28 の Others 監視ログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[hi-kid]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-xiaochong-hi-kid.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code や Codex など複数のエージェントをまとめて運用するためのハーネス型オペレータ基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[airi]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-moeru-ai-airi.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-moeru-ai-airi.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Grok Companion を自前でホストし、音声会話やゲーム連携まで見据えたキャラクター基盤です。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "title": "2026-05-28 AI一般ツール アップデート",
+      "dek": "Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と、OpenClaw v2026.5.26 を横断して整理した 2026-05-28 の Others 監視ログ。",
+      "summary": "Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と OpenClaw v2026.5.26 の更新をまとめた 2026-05-28 の Others 監視ログです。Grok は外部 agentic platform への統合が進み、OpenClaw は実行基盤の安定化が進んでいます。",
+      "category": "ai-tool-log",
+      "genre": "Others",
+      "originType": "tool-log",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T12:36:56+09:00",
+      "articleUrl": "./articles/tools/2026-05-28-ai-others-tools-update.html",
+      "serial": 625,
+      "tags": [
+        "Grok",
+        "OpenClaw"
+      ]
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-05-28-xiaochong-hi-kid",
       "title": "hi-kid",
