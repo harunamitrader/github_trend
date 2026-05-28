@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>MemMachine</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">MemMachine</h1>
+      <p class="article-dek">AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MemMachine/MemMachine" target="_blank" rel="noreferrer">
+              MemMachine/MemMachine
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,082</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>MemMachine は、AI agents と LLM-powered applications 向けの long-term memory layer です。会話やイベントの履歴をただ保存するのではなく、エージェントが学習し直せる形で記憶を残し、状態を持つアシスタントへ寄せる設計になっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>README では、Episodic Memory、Profile Memory、Working Memory の 3 層が説明されています。会話文脈を graph ベースで持ち、ユーザーの好みや属性は SQL に分けて保存できるので、検索と再利用を両立しやすい構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>LangChain、LangGraph、CrewAI、LlamaIndex、AWS Strands などのフレームワークに加えて、n8n、Dify、FastGPT ともつながるのが強みです。さらに MCP server を用意しているので、Claude Desktop や Cursor などの MCP 対応クライアントにも載せやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の導入例では、まず `pip install memmachine-client` を入れ、`MemMachineClient(base_url="http://localhost:8080")` で接続します。次に project を作成し、memory instance を用意してから `add` や `search` を呼ぶ流れです。サーバーはローカル起動か、管理サービスを使う前提になっています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>チャットの履歴を積むだけでなく、ユーザーごとの記憶や文脈を再利用したい人向けです。エージェントの state management をアプリ側から切り離して整理したい場合にも使いやすいです。</p>
+
+        <h2>注意点</h2>
+        <p>メモリ基盤は入れるだけでは効かず、何を episodic にし、何を profile に分けるかの設計が重要です。導入前に保存ポリシーと検索条件を決めておかないと、記憶が増えるほどノイズも増えます。</p>
+
+        <h2>まとめ</h2>
+        <p>MemMachine は、AI エージェントに持続的な記憶を与えるための実装寄りの基盤です。単なるベクトル検索ではなく、状態を分けて運ぶメモリ層が欲しいなら候補になります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MemMachine/MemMachine" target="_blank" rel="noreferrer">https://github.com/MemMachine/MemMachine</a>
+        </div>
+        <div class="source-item">
+          <a href="https://memmachine.ai" target="_blank" rel="noreferrer">https://memmachine.ai</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/MemMachine/MemMachine" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #653</p>
+      </div>
+    </article>
+  </body>
+</html>

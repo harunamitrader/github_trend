@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-28T09:49:05.604037+00:00",
-  "count": 711,
+  "generatedAt": "2026-05-28T10:05:15.168720+00:00",
+  "count": 712,
   "articles": [
+    {
+      "slug": "2026-05-28-MemMachine-MemMachine",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "MemMachine",
+      "dek": "AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。",
+      "summary": "MemMachine/MemMachine を、AI エージェントの long-term memory layer として整理した GitHub Pickup 記事。",
+      "repoName": "MemMachine/MemMachine",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T19:04:41+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-28-MemMachine-MemMachine.html",
+      "serial": 653,
+      "searchText": "MemMachine AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。 MemMachine/MemMachine を、AI エージェントの long-term memory layer として整理した GitHub Pickup 記事。 MemMachine/MemMachine AIエージェント (自律基盤・特化アプリ) MemMachine ← 記事一覧へ戻る GitHub Watcher MemMachine AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。 記事作成日 2026-05-28 種別 Pickup 対象 repo MemMachine/MemMachine Star数 3,082 これは何か MemMachine は、AI agents と LLM-powered applications 向けの long-term memory layer です。会話やイベントの履歴をただ保存するのではなく、エージェントが学習し直せる形で記憶を残し、状態を持つアシスタントへ寄せる設計になっています。 何ができるか README では、Episodic Memory、Profile Memory、Working Memory の 3 層が説明されています。会話文脈を graph ベースで持ち、ユーザーの好みや属性は SQL に分けて保存できるので、検索と再利用を両立しやすい構成です。 目立つポイント LangChain、LangGraph、CrewAI、LlamaIndex、AWS Strands などのフレームワークに加えて、n8n、Dify、FastGPT ともつながるのが強みです。さらに MCP server を用意しているので、Claude Desktop や Cursor などの MCP 対応クライアントにも載せやすいです。 セットアップや使い方の流れ README の導入例では、まず `pip install memmachine-client` を入れ、`MemMachineClient(base_url=\"http://localhost:8080\")` で接続します。次に project を作成し、memory instance を用意してから `add` や `search` を呼ぶ流れです。サーバーはローカル起動か、管理サービスを使う前提になっています。 どんな人向けか チャットの履歴を積むだけでなく、ユーザーごとの記憶や文脈を再利用したい人向けです。エージェントの state management をアプリ側から切り離して整理したい場合にも使いやすいです。 注意点 メモリ基盤は入れるだけでは効かず、何を episodic にし、何を profile に分けるかの設計が重要です。導入前に保存ポリシーと検索条件を決めておかないと、記憶が増えるほどノイズも増えます。 まとめ MemMachine は、AI エージェントに持続的な記憶を与えるための実装寄りの基盤です。単なるベクトル検索ではなく、状態を分けて運ぶメモリ層が欲しいなら候補になります。 参照リンク https://github.com/MemMachine/MemMachine https://memmachine.ai 依頼元URL Shared GitHub Serial: #653"
+    },
     {
       "slug": "2026-05-28-volcengine-OpenViking",
       "category": "github-pickup",

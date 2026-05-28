@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-28-MemMachine-MemMachine",
+      "title": "MemMachine",
+      "dek": "AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。",
+      "summary": "MemMachine/MemMachine を、AI エージェントの long-term memory layer として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T19:04:41+09:00",
+      "repoName": "MemMachine/MemMachine",
+      "repoUrl": "https://github.com/MemMachine/MemMachine",
+      "starCount": 3082,
+      "articleUrl": "./articles/github/daily/2026-05-28-MemMachine-MemMachine.html",
+      "serial": 653,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-28-volcengine-OpenViking",
       "title": "OpenViking",
       "dek": "AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。",
