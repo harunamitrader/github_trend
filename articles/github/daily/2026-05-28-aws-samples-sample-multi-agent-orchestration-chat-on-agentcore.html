@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Amazon Bedrock AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットのサンプルです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>sample-multi-agent-orchestration-chat-on-agentcore</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">sample-multi-agent-orchestration-chat-on-agentcore</h1>
+      <p class="article-dek">AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-28 -->
+          <strong>2026-05-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore" target="_blank" rel="noreferrer">
+              aws-samples/sample-multi-agent-orchestration-chat-on-agentcore
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>20</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>この repo は、Amazon Bedrock AgentCore を土台にしたマルチエージェントチャットのサンプルです。React フロントエンド、Cognito 認証、AgentCore Runtime / Gateway を組み合わせて、チーム内で使える AI エージェント基盤を作る流れを示しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>カスタムエージェントを作成して共有し、ソフトウェア開発、データ分析、コンテンツ制作などの用途ごとに使い分けられます。さらに、スケジュールや外部イベントでエージェントを起動するイベント駆動の自動化にも対応しています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ファイル保管、会話の継続コンテキスト、JWT 認証、セッション管理、AWS Cognito 連携まで含めた「実運用を意識したサンプル」になっている点が強いです。単なるデモではなく、組織内でエージェントを配る前提の設計が見えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の手順は、`npm ci` で依存を入れ、必要なら Secrets Manager に API キーを置き、`cdk bootstrap` の後に `npm run deploy` で AWS へ展開する流れです。デプロイ後は Cognito ユーザーを作成して、フロントエンド URL からチャット画面に入ります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AWS 上で社内向けのエージェントハブを作りたい人、AgentCore の構成要素をひと通り掴みたい人、マルチエージェントの共有と運用をセットで設計したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>README でも明言されている通り、これは production 向け完成品ではなく PoC / sample です。認証、保存データ、コスト、バックエンドの責務分界を理解したうえで触るのが前提になります。</p>
+
+        <h2>まとめ</h2>
+        <p>sample-multi-agent-orchestration-chat-on-agentcore は、AgentCore を使ったマルチエージェント共有チャットの実装手順をそのまま追えるサンプルです。エージェントの作成、共有、実行、自動化を AWS 上でまとめて試したいときの起点になります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore" target="_blank" rel="noreferrer">https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #651</p>
+      </div>
+    </article>
+  </body>
+</html>

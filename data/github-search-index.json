@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-28T05:16:55.372304+00:00",
-  "count": 709,
+  "generatedAt": "2026-05-28T08:33:32.631374+00:00",
+  "count": 710,
   "articles": [
+    {
+      "slug": "2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "sample-multi-agent-orchestration-chat-on-agentcore",
+      "dek": "AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。",
+      "summary": "aws-samples/sample-multi-agent-orchestration-chat-on-agentcore を、AgentCore 上で共有・自動化できるマルチエージェントチャット基盤として整理した GitHub Pickup 記事。",
+      "repoName": "aws-samples/sample-multi-agent-orchestration-chat-on-agentcore",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T14:15:51+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html",
+      "serial": 651,
+      "searchText": "sample-multi-agent-orchestration-chat-on-agentcore AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。 aws-samples/sample-multi-agent-orchestration-chat-on-agentcore を、AgentCore 上で共有・自動化できるマルチエージェントチャット基盤として整理した GitHub Pickup 記事。 aws-samples/sample-multi-agent-orchestration-chat-on-agentcore AIエージェント (自律基盤・特化アプリ) sample-multi-agent-orchestration-chat-on-agentcore ← 記事一覧へ戻る GitHub Watcher sample-multi-agent-orchestration-chat-on-agentcore AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。 記事作成日 2026-05-28 種別 Pickup 対象 repo aws-samples/sample-multi-agent-orchestration-chat-on-agentcore Star数 20 これは何か この repo は、Amazon Bedrock AgentCore を土台にしたマルチエージェントチャットのサンプルです。React フロントエンド、Cognito 認証、AgentCore Runtime / Gateway を組み合わせて、チーム内で使える AI エージェント基盤を作る流れを示しています。 何ができるか カスタムエージェントを作成して共有し、ソフトウェア開発、データ分析、コンテンツ制作などの用途ごとに使い分けられます。さらに、スケジュールや外部イベントでエージェントを起動するイベント駆動の自動化にも対応しています。 目立つポイント ファイル保管、会話の継続コンテキスト、JWT 認証、セッション管理、AWS Cognito 連携まで含めた「実運用を意識したサンプル」になっている点が強いです。単なるデモではなく、組織内でエージェントを配る前提の設計が見えます。 セットアップや使い方の流れ README の手順は、`npm ci` で依存を入れ、必要なら Secrets Manager に API キーを置き、`cdk bootstrap` の後に `npm run deploy` で AWS へ展開する流れです。デプロイ後は Cognito ユーザーを作成して、フロントエンド URL からチャット画面に入ります。 どんな人向けか AWS 上で社内向けのエージェントハブを作りたい人、AgentCore の構成要素をひと通り掴みたい人、マルチエージェントの共有と運用をセットで設計したい人に向いています。 注意点 README でも明言されている通り、これは production 向け完成品ではなく PoC / sample です。認証、保存データ、コスト、バックエンドの責務分界を理解したうえで触るのが前提になります。 まとめ sample-multi-agent-orchestration-chat-on-agentcore は、AgentCore を使ったマルチエージェント共有チャットの実装手順をそのまま追えるサンプルです。エージェントの作成、共有、実行、自動化を AWS 上でまとめて試したいときの起点になります。 参照リンク https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore 依頼元URL Shared GitHub Serial: #651"
+    },
     {
       "slug": "2026-05-28-TraderAlice-OpenAlice",
       "category": "github-pickup",

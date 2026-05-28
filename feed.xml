@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 05:18:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 17:33:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[sample-multi-agent-orchestration-chat-on-agentcore]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAlice]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数リポジトリで再利用するためのエージェント用スクリプト、指示、ヘルパーをまとめた共有基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Webwright]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-microsoft-Webwright.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-26-microsoft-Webwright.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[長時間の Web タスクに強い SWE 風ブラウザエージェント基盤です。]]></description>
     </item>
   </channel>
 </rss>

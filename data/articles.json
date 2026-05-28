@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore",
+      "title": "sample-multi-agent-orchestration-chat-on-agentcore",
+      "dek": "AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。",
+      "summary": "aws-samples/sample-multi-agent-orchestration-chat-on-agentcore を、AgentCore 上で共有・自動化できるマルチエージェントチャット基盤として整理した GitHub Pickup 記事。",
+      "publishedAt": "2026-05-28",
+      "createdAt": "2026-05-28T14:15:51+09:00",
+      "repoName": "aws-samples/sample-multi-agent-orchestration-chat-on-agentcore",
+      "repoUrl": "https://github.com/aws-samples/sample-multi-agent-orchestration-chat-on-agentcore",
+      "starCount": 20,
+      "articleUrl": "./articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html",
+      "serial": 651,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-28-TraderAlice-OpenAlice",
       "title": "OpenAlice",
       "dek": "自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。",
