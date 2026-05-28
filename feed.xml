@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 28 May 2026 20:24:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 05:45:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-29 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[harness]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-revfactory-harness.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLM でロボットの移動・視覚・音声・マニピュレーションをまとめて扱う自律制御スキル集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-27 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-27-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-27-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>

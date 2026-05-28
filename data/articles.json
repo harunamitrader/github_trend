@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-05-29-ai-coding-tools-update",
+      "title": "2026-05-29 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の監視ログです。",
+      "summary": "Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の AIコーディングツール更新まとめです。",
+      "publishedAt": "2026-05-29",
+      "createdAt": "2026-05-29T05:44:20+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Cline, Gemini CLI",
+      "articleUrl": "./articles/tools/2026-05-29-ai-coding-tools-update.html",
+      "serial": 626,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-05-29-revfactory-harness",
       "title": "harness",
