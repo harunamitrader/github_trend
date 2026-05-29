@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-29-guokaigdg-animal-island-ui-pickup",
+      "title": "animal-island-ui",
+      "dek": "Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。",
+      "summary": "Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。",
+      "publishedAt": "2026-05-29",
+      "createdAt": "2026-05-29T09:41:25+09:00",
+      "repoName": "guokaigdg/animal-island-ui",
+      "repoUrl": "https://github.com/guokaigdg/animal-island-ui",
+      "starCount": 2673,
+      "articleUrl": "./articles/github/daily/2026-05-29-guokaigdg-animal-island-ui-pickup.html",
+      "serial": 659,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-29-microsoft-SkillOpt-pickup",
       "title": "SkillOpt",
       "dek": "Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-28T22:38:59.517960+00:00",
-  "count": 718,
+  "generatedAt": "2026-05-29T00:41:59.275310+00:00",
+  "count": 719,
   "articles": [
+    {
+      "slug": "2026-05-29-guokaigdg-animal-island-ui-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "animal-island-ui",
+      "dek": "Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。",
+      "summary": "Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。",
+      "repoName": "guokaigdg/animal-island-ui",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-05-29",
+      "createdAt": "2026-05-29T09:41:25+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-29-guokaigdg-animal-island-ui-pickup.html",
+      "serial": 659,
+      "searchText": "animal-island-ui Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。 Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。 guokaigdg/animal-island-ui メディア作成・マルチモーダル・UI animal-island-ui ← 記事一覧へ戻る GitHub Watcher animal-island-ui Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。 記事作成日 2026-05-29 種別 Pickup 対象 repo guokaigdg/animal-island-ui Star数 2,673 これは何か animal-island-ui は、React + TypeScript で作られた軽量な UI コンポーネントライブラリです。 Nintendo の Animal Crossing: New Horizons を思わせる、丸みと遊び心のある見た目を前提にしていて、単なる部品集というより「世界観ごと持ち込む」ための UI 基盤として作られています。 README では、公式素材を流用せず、独自にデザイン・実装したことも明記されています。 何ができるか React アプリにそのまま導入 : npm install animal-island-ui で組み込める。 スタイル込みで使える : コンポーネント本体だけでなく、 import 'animal-island-ui/style' の前提がはっきりしている。 見た目の再現性を上げる : 公式のデザイン tokens と CSS 仕様を参照しながら、同じトーンの UI を作りやすい。 実装ガイドが充実 : AI_USAGE.md 、 DESIGN_PROMPT.md 、 skill/SKILL.md まで揃っている。 目立つポイント 一番の特徴は、コンポーネントライブラリ本体だけで終わらず、AI アシスタント向けの指示書やデザイン再現用のプロンプトまで一式で整備していることです。 つまり「UI を配る」だけでなく、「その UI を壊さずに増やす方法」までまとめている repo です。 デモサイト、ドキュメント、開発手順も明確なので、導入後に迷いにくい構成になっています。 セットアップや使い方の流れ npm でインストール して、React プロジェクトに追加する。 スタイルを読み込む 。README の通り、 animal-island-ui/style を忘れない。 Button や Card などから使い始める 。見た目のトーンを確認しながら、既存 UI を置き換える。 必要に応じて docs を参照 して、Design Prompt や Skill 仕様を使い分ける。 どんな人向けか プロダクトの見た目に、明確なテーマ性や個性を持たせたいフロントエンド開発者。 React ベースで、コンポーネントとドキュメントが揃った UI 基盤を探している人。 デザイン再現や AI 補助のために、構造化された仕様書まで欲しいチーム。 注意点 世界観が強い : 汎用 UI としては個性が強めなので、製品のトーンに合うか先に確認したほうがよい。 スタイルの読み込み必須 : CSS を入れ忘れると、コンポーネントが意図した見た目にならない。 ガイドが多い : ドキュメントは豊富だが、最初に読む順番を決めたほうが導入は速い。 まとめ animal-island-ui は、見た目の完成度だけでなく、設計・実装・再現・拡張の導線まで含めて整えた UI ライブラリです。 ゲーム風の明確なテーマを持つフロントエンドを作りたいときに、実務でも試しやすい選択肢です。 参照リンク guokaigdg/animal-island-ui Source URL Shared GitHub Serial: #659"
+    },
     {
       "slug": "2026-05-29-microsoft-SkillOpt-pickup",
       "category": "github-pickup",
