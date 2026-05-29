@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 29 May 2026 19:07:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 04:58:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,54 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[plugins]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-cursor-plugins.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-cursor-plugins.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cursor の公式プラグイン仕様と公式プラグイン群を整理した拡張基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[liteparse]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-run-llama-liteparse.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-run-llama-liteparse.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[高速なドキュメント解析と OCR で、PDF や文書を RAG 向けに整える Rust 製 parser。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[stable-worldmodel]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-galilai-group-stable-worldmodel.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-galilai-group-stable-worldmodel.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[再現性のある world model 研究と評価をまとめた実験プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[esm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-Biohub-esm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-Biohub-esm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ESMC、ESMFold2、ESM Atlas を束ねるタンパク質生物学の world model 研究基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[data-engineering-zoomcamp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-DataTalksClub-data-engineering-zoomcamp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-DataTalksClub-data-engineering-zoomcamp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[9週間の無料データエンジニアリング講座をまとめた学習リソース。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-30 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-30-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-30-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[animal-island-ui]]></title>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-28 AI一般ツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Grok の Hermes / OpenClaw / OpenCode / Kilo Code 連携と、OpenClaw v2026.5.26 を横断して整理した 2026-05-28 の Others 監視ログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hi-kid]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-xiaochong-hi-kid.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-xiaochong-hi-kid.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[子ども向けの英会話練習を、音声認識・TTS・LLM まで完全ローカルで回すデスクトップアプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-28 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-28-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-28-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MoneyPrinterTurbo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-harry0703-MoneyPrinterTurbo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-harry0703-MoneyPrinterTurbo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI 大模型で短尺動画を自動生成する、WebUI と API 対応の動画生成基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[English-level-up-tips]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-byoungd-English-level-up-tips.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-byoungd-English-level-up-tips.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[英語学習のロードマップ、レベル別の章立て、実践リソースをまとめた大規模ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-28 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-28-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.152、Cline v3.85.0、Gemini CLI v0.45.0-nightly.20260527、GitHub Copilot の 5/26 更新をまとめた 2026-05-28 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>

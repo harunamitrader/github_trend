@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="高速なドキュメント解析と OCR で、PDF や文書を RAG 向けに整える Rust 製 parser。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>liteparse</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">liteparse</h1>
+      <p class="article-dek">高速なドキュメント解析と OCR で、PDF や文書を RAG 向けに整える Rust 製 parser。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-30 -->
+          <strong>2026-05-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #8</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/run-llama/liteparse" target="_blank" rel="noreferrer">
+              run-llama/liteparse
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,131</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>run-llama が公開している、文書を速く扱うための open-source document parser です。README では Rust ベースの実装として、解析・OCR・CLI 利用をまとめて案内しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>PDF や各種文書の解析、バッチ処理、スクリーンショット生成、OCR を含む取り込み前処理に使えます。RAG の前段で、検索しやすい形へ文書を整える用途に向いています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>高速さを前提にしつつ、CLI と OCR setup、batch parsing、screenshot generation までひとまとめになっているのが強みです。README に Agent Skill の案内があるため、エージェント系ワークフローへ組み込みやすい点も見えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の Installation に従って Rust 環境または配布バイナリを用意し、CLI で個別解析やバッチ解析を試します。OCR が必要な場合は、先に OCR Setup を確認してから本処理に入ると安定します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>RAG の文書取り込みを作る人、PDF から構造化データを抜きたい人、OCR を含む前処理を軽くしたい人向けです。研究用途よりも、実務の ingestion front-end に寄った印象です。</p>
+
+        <h2>注意点</h2>
+        <p>解析精度は入力品質や OCR の設定にかなり左右されます。大量文書を扱うときは、速度だけでなく失敗時の再実行や出力形式も先に決めておくと扱いやすいです。</p>
+
+        <h2>まとめ</h2>
+        <p>LiteParse は、文書を壊さず速く吸い上げる前処理層として使うのが向いています。RAG や文書検索の入口を整理したい人には、かなり実用的な候補です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/run-llama/liteparse" target="_blank" rel="noreferrer">https://github.com/run-llama/liteparse</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #663</p>
+      </div>
+    </article>
+  </body>
+</html>
