@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 29 May 2026 00:43:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 04:06:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-30-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-30-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[animal-island-ui]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-guokaigdg-animal-island-ui-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.152、Cline v3.85.0、Gemini CLI v0.45.0-nightly.20260527、GitHub Copilot の 5/26 更新をまとめた 2026-05-28 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[antigravity-sdk-python]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-google-antigravity-antigravity-sdk-python.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-27-google-antigravity-antigravity-sdk-python.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Antigravity と Gemini を使って Python で状態付きエージェントを組むための SDK。]]></description>
     </item>
   </channel>
 </rss>

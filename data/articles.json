@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-05-30-ai-coding-tools-update",
+      "title": "2026-05-30 AIコーディングツール アップデート",
+      "dek": "GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。",
+      "summary": "GitHub Copilot と Codex の新着更新をまとめた 2026-05-30 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-05-30",
+      "createdAt": "2026-05-30T04:04:02+09:00",
+      "originType": "tool-log",
+      "toolName": "GitHub Copilot, Codex",
+      "articleUrl": "./articles/tools/2026-05-30-ai-coding-tools-update.html",
+      "serial": 628,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-05-29-guokaigdg-animal-island-ui-pickup",
       "title": "animal-island-ui",
