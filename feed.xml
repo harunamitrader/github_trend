@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 19:07:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 04:51:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-31 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,38 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.158 の Auto mode 拡張と、Cline CLI v3.0.15 の Cline Hub / AGENTS rules 追加をまとめた 2026-05-31 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[FlClash]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-chen08209-FlClash.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-chen08209-FlClash.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ClashMeta ベースのクロスプラットフォーム proxy client。WebDAV 同期と Material You 対応を備えた実用派です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[train-llm-from-scratch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-FareedKhan-dev-train-llm-from-scratch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-FareedKhan-dev-train-llm-from-scratch.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Transformer を一から実装し、PyTorch と Jupyter Notebook で LLM 学習の流れを追える教材です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[social-auto-upload]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-dreammis-social-auto-upload.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-dreammis-social-auto-upload.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数 SNS への動画投稿と予約配信をまとめて自動化する、動画配信オペレーション向けのツールです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-05-31 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-31-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-31-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[計画・レビュー・知見の再利用をまとめた Claude Code / Codex / Cursor 向けの開発ワークフロー拡張。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-29 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-29-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-29-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AgentHub]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-Stanshy-AgentHub.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-Stanshy-AgentHub.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code を中核に、複数の AI エージェントと Hook / Skill / FileWatcher をまとめて運用する Electron アプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MemMachine]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-MemMachine-MemMachine.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-MemMachine-MemMachine.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントの長期記憶を、エピソード記憶とプロフィール記憶で分けて扱うメモリレイヤー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenViking]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-volcengine-OpenViking.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-volcengine-OpenViking.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。]]></description>
     </item>
   </channel>
 </rss>
