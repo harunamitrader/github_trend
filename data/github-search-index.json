@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-29T19:57:15.822146+00:00",
-  "count": 725,
+  "generatedAt": "2026-05-30T07:11:19.573573+00:00",
+  "count": 726,
   "articles": [
+    {
+      "slug": "2026-05-30-hexo-ai-sia-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "sia",
+      "dek": "メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。",
+      "summary": "SIA の自己改善ループ、4つの built-in tasks、Claude/OpenHands バックエンドの使い分けを短くまとめた記事。",
+      "repoName": "hexo-ai/sia",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-05-30",
+      "createdAt": "2026-05-30T16:08:59+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html",
+      "serial": 665,
+      "searchText": "sia メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。 SIA の自己改善ループ、4つの built-in tasks、Claude/OpenHands バックエンドの使い分けを短くまとめた記事。 hexo-ai/sia AIエージェント (自律基盤・特化アプリ) sia ← 記事一覧へ戻る GitHub Watcher sia メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。 記事作成日 2026-05-30 種別 Pickup 対象 repo hexo-ai/sia Star数 347 これは何か SIA は、AI システムをベンチマーク課題に合わせて自律的に改善していく Self-Improving AI framework です。Meta-Agent が課題を読み、Target Agent が実行し、Feedback/Improvement Agent が結果を見て更新する流れで、タスク特化の性能を少しずつ上げていきます。 何ができるか README には `gpqa`、`lawbench`、`longcot-chess`、`spaceship-titanic` の 4 つの built-in tasks が用意されています。Claude backend と OpenHands backend を切り替えられるので、使いたいモデル基盤に合わせて同じ改善ループを回せます。 目立つポイント ベンチマーク結果が具体的で、LawBench では 56.6% の改善、GPU kernels では 91.9% の実行時間削減、single-cell RNA denoising では 502% の改善が示されています。単なるエージェント実行基盤ではなく、評価結果を反映してハーネスと重みを更新する点が主役です。 セットアップや使い方の流れ まず Python の仮想環境を作り、`pip install 'sia-agent[claude]'` か `pip install 'sia-agent[openhands]'` を入れます。その後、必要な API key を設定して `sia --task gpqa --max_gen 5 --run_id 1` のように実行し、task 名を差し替えながら評価します。 どんな人向けか タスク特化エージェントを研究用途で鍛えたい人、ベンチマークの改善ループを自動化したい人、評価と更新を一体で回したい人向けです。汎用チャットよりも、明確な課題設定と反復評価がある場面で価値が出ます。 注意点 一般向けの完成済みアプリではなく、実験と検証のためのフレームワークです。API key、評価データ、バックエンドの選定が前提になるので、まずは小さめの task で動作確認してから広げるのが安全です。 まとめ SIA は、AI を一度作って終わりにせず、評価ループで継続改善したいときの実験土台になります。ベンチマーク性能を伸ばす研究や検証を回したいなら、まず押さえておきたいリポジトリです。 参照リンク hexo-ai/sia 入力元 URL Shared GitHub Serial: #665"
+    },
     {
       "slug": "2026-05-30-update-report",
       "category": "github-update-report",

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SIA の自己改善ループ、4つの built-in tasks、Claude/OpenHands バックエンドの使い分けを短くまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>sia</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">sia</h1>
+      <p class="article-dek">メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-30 -->
+          <strong>2026-05-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/hexo-ai/sia" target="_blank" rel="noreferrer">
+              hexo-ai/sia
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>347</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>SIA は、AI システムをベンチマーク課題に合わせて自律的に改善していく Self-Improving AI framework です。Meta-Agent が課題を読み、Target Agent が実行し、Feedback/Improvement Agent が結果を見て更新する流れで、タスク特化の性能を少しずつ上げていきます。</p>
+
+        <h2>何ができるか</h2>
+        <p>README には `gpqa`、`lawbench`、`longcot-chess`、`spaceship-titanic` の 4 つの built-in tasks が用意されています。Claude backend と OpenHands backend を切り替えられるので、使いたいモデル基盤に合わせて同じ改善ループを回せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ベンチマーク結果が具体的で、LawBench では 56.6% の改善、GPU kernels では 91.9% の実行時間削減、single-cell RNA denoising では 502% の改善が示されています。単なるエージェント実行基盤ではなく、評価結果を反映してハーネスと重みを更新する点が主役です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず Python の仮想環境を作り、`pip install 'sia-agent[claude]'` か `pip install 'sia-agent[openhands]'` を入れます。その後、必要な API key を設定して `sia --task gpqa --max_gen 5 --run_id 1` のように実行し、task 名を差し替えながら評価します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>タスク特化エージェントを研究用途で鍛えたい人、ベンチマークの改善ループを自動化したい人、評価と更新を一体で回したい人向けです。汎用チャットよりも、明確な課題設定と反復評価がある場面で価値が出ます。</p>
+
+        <h2>注意点</h2>
+        <p>一般向けの完成済みアプリではなく、実験と検証のためのフレームワークです。API key、評価データ、バックエンドの選定が前提になるので、まずは小さめの task で動作確認してから広げるのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>SIA は、AI を一度作って終わりにせず、評価ループで継続改善したいときの実験土台になります。ベンチマーク性能を伸ばす研究や検証を回したいなら、まず押さえておきたいリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/hexo-ai/sia" target="_blank" rel="noreferrer">hexo-ai/sia</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/hexo-ai/sia" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #665</p>
+      </div>
+    </article>
+  </body>
+</html>

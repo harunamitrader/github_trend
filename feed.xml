@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 29 May 2026 19:59:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 16:11:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,14 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[sia]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。]]></description>
     </item>
     <item>
       <title><![CDATA[plugins]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAlice]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-TraderAlice-OpenAlice.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自機上で動く AI trading agent を、調査・発注・監視・手仕舞いまでまとめて扱うローカルファースト基盤。]]></description>
     </item>
   </channel>
 </rss>

@@ -21,6 +21,22 @@
       "genre": "AIコーディング (CLI本体・拡張機能)"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-05-30-hexo-ai-sia-pickup",
+      "title": "sia",
+      "dek": "メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。",
+      "summary": "SIA の自己改善ループ、4つの built-in tasks、Claude/OpenHands バックエンドの使い分けを短くまとめた記事。",
+      "publishedAt": "2026-05-30",
+      "createdAt": "2026-05-30T16:08:59+09:00",
+      "repoName": "hexo-ai/sia",
+      "repoUrl": "https://github.com/hexo-ai/sia",
+      "starCount": 347,
+      "articleUrl": "./articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html",
+      "serial": 665,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-05-30-cursor-plugins",
       "title": "plugins",
