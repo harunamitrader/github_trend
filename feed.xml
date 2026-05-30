@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 19:53:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 07:43:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[HY-World-2.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-31 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-31-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高忠実度の音声合成、声質制御、環境音生成、リアルタイム TTS をまとめた音声モデルファミリー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[compound-engineering-plugin]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-EveryInc-compound-engineering-plugin.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-EveryInc-compound-engineering-plugin.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[計画・レビュー・知見の再利用をまとめた Claude Code / Codex / Cursor 向けの開発ワークフロー拡張。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup",
+      "title": "HY-World-2.0",
+      "dek": "テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。",
+      "summary": "HY-World-2.0 の入力モダリティ、3D 生成/再構成の流れ、導入時の注意点を短く整理した pickup 記事です。",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T07:43:05+09:00",
+      "repoName": "Tencent-Hunyuan/HY-World-2.0",
+      "repoUrl": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "starCount": 2144,
+      "articleUrl": "./articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html",
+      "serial": 669,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-05-31-ai-coding-tools-update",
       "title": "2026-05-31 AIコーディングツール アップデート",

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>HY-World-2.0</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">HY-World-2.0</h1>
+      <p class="article-dek">テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-31 -->
+          <strong>2026-05-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Tencent-Hunyuan/HY-World-2.0" target="_blank" rel="noreferrer">
+              Tencent-Hunyuan/HY-World-2.0
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,144</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>HY-World-2.0 は、テキスト、単一画像、多視点画像、動画を入力にして、編集可能な 3D world を作る Tencent Hunyuan の world model です。README では、再構成は WorldMirror 2.0、生成は HY-Pano 2.0 と WorldStereo 2.0、移動計画は WorldNav という役割分担で整理されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>単一画像やテキストからナビゲーション可能な 3D 空間を作り、multi-view / video から depth、normal、camera、point cloud、3DGS をまとめて推定できます。Blender、Unity、Unreal Engine、Isaac Sim に持ち込みやすいのが実用面の強みです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>動画を生成して終わるのではなく、実際に編集・再利用できる 3D 資産を出力する点が大きいです。公式サイト、Hugging Face モデル、技術レポート、デモが揃っているので、研究用途でも追いやすい構成です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず repo を clone して、README 推奨の CUDA 12.8 / Python 3.11+ で conda 環境を作ります。再構成だけ試すなら <code>pip install -r requirements.txt</code> から <code>python -m hyworld2.worldrecon.pipeline --input_path ...</code>、生成まで試すなら <code>requirements_git.txt</code>、submodule、navmesh などの追加依存を順に入れて <code>traj_generate.py</code> から <code>world_gs_trainer.py</code> まで進めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>3D world generation / reconstruction の研究者、デモを早く作りたい人、3D 生成の実装をそのまま追いたい人向けです。まずは WorldMirror 2.0 で再構成を動かし、その後に worldgen を足すと理解しやすいです。</p>
+
+        <h2>注意点</h2>
+        <p>worldgen まで含めると依存が重く、GPU とディスク容量が必要です。README でも段階的導入を勧めているので、いきなり全部を入れるより、用途を絞って試す方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>HY-World-2.0 は、3D world を生成・再構成・シミュレートまで一続きで扱えるのが魅力です。まずは WorldMirror 2.0 を動かして、必要に応じて WorldStereo 2.0 と WorldNav に広げるのが取り組みやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Tencent-Hunyuan/HY-World-2.0" target="_blank" rel="noreferrer">Tencent-Hunyuan/HY-World-2.0</a>
+        </div>
+        <div class="source-item">
+          <a href="https://3d.hunyuan.tencent.com/sceneTo3D" target="_blank" rel="noreferrer">Official Site</a>
+        </div>
+        <div class="source-item">
+          <a href="https://arxiv.org/abs/2604.14268" target="_blank" rel="noreferrer">Technical Report</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Tencent-Hunyuan/HY-World-2.0" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #669</p>
+      </div>
+    </article>
+  </body>
+</html>
