@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 07:12:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 04:06:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-05-31 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-31-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-31-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.158 の Auto mode 拡張と、Cline CLI v3.0.15 の Cline Hub / AGENTS rules 追加をまとめた 2026-05-31 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-30-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェント向けのコンテキストを、ファイルシステム感覚で階層管理するオープンソース基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[sample-multi-agent-orchestration-chat-on-agentcore]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-28-aws-samples-sample-multi-agent-orchestration-chat-on-agentcore.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AgentCore 上で、共有可能な AI エージェントを作成・配布できるマルチエージェントチャットの AWS サンプル。]]></description>
     </item>
   </channel>
 </rss>

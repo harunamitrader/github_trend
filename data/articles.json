@@ -8,6 +8,20 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-05-31-ai-coding-tools-update",
+      "title": "2026-05-31 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.158 の Auto mode 拡張と、Cline CLI v3.0.15 の Cline Hub / AGENTS rules 追加をまとめた 2026-05-31 の監視ログです。",
+      "summary": "Claude Code v2.1.158 と Cline CLI v3.0.15 の更新をまとめた 2026-05-31 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T04:04:56+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Cline",
+      "articleUrl": "./articles/tools/2026-05-31-ai-coding-tools-update.html",
+      "serial": 629,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-05-30-ai-coding-tools-update",
       "title": "2026-05-30 AIコーディングツール アップデート",
       "dek": "GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。",
