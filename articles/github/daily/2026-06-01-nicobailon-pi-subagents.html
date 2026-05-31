@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>pi-subagents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">pi-subagents</h1>
+      <p class="article-dek">Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-01 -->
+          <strong>2026-06-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #13</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/nicobailon/pi-subagents" target="_blank" rel="noreferrer">
+              nicobailon/pi-subagents
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,802</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>pi-subagents は、Pi から子エージェントへ作業を委譲しやすくする拡張です。レビュー、調査、実装、並列確認のような役割を切り分けて回す前提で作られています。</p>
+
+        <h2>何ができるか</h2>
+        <p>コードレビューやスカウト、実装、並列監査、背景ジョブの振り分けを、短い指示で別エージェントに渡せます。大きいタスクを小さく分解して、戻り値をまとめやすくする使い方に向いています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>truncate、artifacts、session sharing を組み合わせて、子エージェントとのやり取りを扱いやすくしているのが特徴です。`pi install npm:pi-subagents` で導入でき、レビュー担当や scout などの役割例もREADMEで示されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず Pi に拡張を入れ、次に仕事の役割を明示して委譲します。並列で動かしたい確認作業や、結果を切り分けたい実装タスクから試すと、効果が見えやすいです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Pi を使っていて、1つの指示を複数の視点に分けて処理したい人向けです。レビュー品質を上げたい人、調査と実装を分けたい人、並列で安全確認したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>子エージェントを増やせば自動的に良くなるわけではなく、役割定義が曖昧だとむしろ混乱します。結果の統合と最終レビューは、利用側で明示的に設計しておく必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>pi-subagents は、Pi ベースの作業を分担型に寄せたいときに効く拡張です。複雑な仕事を並列化しつつ、後でまとめ直すワークフローを作りたい人に向いています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/nicobailon/pi-subagents" target="_blank" rel="noreferrer">https://github.com/nicobailon/pi-subagents</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #673</p>
+      </div>
+    </article>
+  </body>
+</html>

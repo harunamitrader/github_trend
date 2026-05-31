@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 May 2026 14:25:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 04:52:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-01 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-01-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-01-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hermes-webui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-nesquena-hermes-webui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-nesquena-hermes-webui.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Hermes Agent をブラウザとスマホから扱える、軽量な Web UI です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[docs]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-github-docs.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-github-docs.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[docs.github.com の公開運用と貢献導線を追える、GitHub Docs 本体です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pi-subagents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-nicobailon-pi-subagents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-nicobailon-pi-subagents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[developer-portfolios]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-emmabostian-developer-portfolios.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-emmabostian-developer-portfolios.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[開発者ポートフォリオの実例を大量に集めた、レイアウト検討用の参照集です。]]></description>
+    </item>
     <item>
       <title><![CDATA[gemini-web2api]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Sophomoresty-gemini-web2api-pickup.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[9週間の無料データエンジニアリング講座をまとめた学習リソース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-30 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-30-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-30-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[animal-island-ui]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-guokaigdg-animal-island-ui-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-guokaigdg-animal-island-ui-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Animal Crossing 風の React + TypeScript UI コンポーネントライブラリ。デザイン文書と実装ガイドまで揃った animal-island-ui の要点を整理した pickup 記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SkillOpt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-microsoft-SkillOpt-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-microsoft-SkillOpt-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Frozen LLM エージェント向けの自然言語スキルを、trajectory と validation gate で育てて best_skill.md に落とす SkillOpt の要点を整理した pickup 記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-29 AI一般ツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-others-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-others-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Opus 4.8 と Obsidian 1.13.0 Mobile の更新をまとめた 2026-05-29 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-29 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-29-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>
