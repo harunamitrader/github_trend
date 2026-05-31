@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup",
+      "title": "VL53L5CX-BNO08X-viewer",
+      "dek": "VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。",
+      "summary": "VL53L5CX と BNO08X を組み合わせて、3D 点群の可視化と環境のマッピングを試せる pickup 記事です。",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-01T07:06:15+09:00",
+      "repoName": "ferrolho/VL53L5CX-BNO08X-viewer",
+      "repoUrl": "https://github.com/ferrolho/VL53L5CX-BNO08X-viewer",
+      "starCount": 428,
+      "articleUrl": "./articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html",
+      "serial": 676,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-01-update-report",
       "title": "2026-06-01 アップデートレポート",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-31T19:52:06.472830+00:00",
-  "count": 738,
+  "generatedAt": "2026-05-31T22:06:40.940258+00:00",
+  "count": 739,
   "articles": [
+    {
+      "slug": "2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "VL53L5CX-BNO08X-viewer",
+      "dek": "VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。",
+      "summary": "VL53L5CX と BNO08X を組み合わせて、3D 点群の可視化と環境のマッピングを試せる pickup 記事です。",
+      "repoName": "ferrolho/VL53L5CX-BNO08X-viewer",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-01T07:06:15+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html",
+      "serial": 676,
+      "searchText": "VL53L5CX-BNO08X-viewer VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。 VL53L5CX と BNO08X を組み合わせて、3D 点群の可視化と環境のマッピングを試せる pickup 記事です。 ferrolho/VL53L5CX-BNO08X-viewer メディア作成・マルチモーダル・UI VL53L5CX-BNO08X-viewer ← 記事一覧へ戻る GitHub Watcher VL53L5CX-BNO08X-viewer VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。 記事作成日 2026-06-01 種別 Pickup 対象 repo ferrolho/VL53L5CX-BNO08X-viewer Star数 428 これは何か VL53L5CX-BNO08X-viewer は、VL53L5CX の 8x8 時間差測距センサーと BNO08X 系 IMU を組み合わせて、周囲の距離情報を 3D 点群として見せるリアルタイムビューアです。README では、センサーの測定値をそのまま眺めるだけでなく、姿勢追跡と合わせて空間の形を把握できる点が前面に出ています。 何ができるか 64 ゾーンの測距結果を 3D の ray として表示し、IMU の向きに合わせて視点を回せます。平面検出、ノイズ平滑化、マッピングモードもあり、単発の可視化だけでなく、環境の形を追いながら記録する用途にも使えます。 目立つポイント ESP32、VL53L5CX、BNO085 という比較的手に入りやすい構成で、約 30 ドル前後の部品費を想定しているのが実用的です。Python 側の viewer と Arduino ファームウェアが分かれているので、センサー処理と可視化を切り分けて理解しやすいです。 セットアップや使い方の流れ まず ESP32 側のファームウェアを Arduino CLI でビルドして書き込み、そのあと Python の依存を入れて viewer を起動します。起動後はブラウザでローカルの表示画面を開き、シリアル経由で届く距離データと姿勢情報を確認します。 どんな人向けか ToF センサーや IMU を使って空間計測を試したい人、3D 可視化のデモを短く作りたい人、ハードウェアと Python をまたいだ最小構成を参考にしたい人向けです。教育用のプロトタイプとしても扱いやすいです。 注意点 ハードウェア前提なので、配線、I2C バス、シリアルポート、書き込み環境の確認が必要です。測距精度や見え方は周囲の反射特性に左右されるため、ソフトだけでなく設置条件も調整しないと結果が安定しません。 まとめ VL53L5CX-BNO08X-viewer は、安価なセンサー構成で 3D 点群ビューを試せる実用的なサンプルです。距離計測と姿勢追跡を組み合わせて、環境の形をその場で確認したいときに向いています。 参照リンク https://github.com/ferrolho/VL53L5CX-BNO08X-viewer 入力元 URL Shared GitHub Serial: #676"
+    },
     {
       "slug": "2026-06-01-update-report",
       "category": "github-update-report",
@@ -30,7 +45,7 @@
       "createdAt": "2026-06-01T04:49:39+09:00",
       "articleUrl": "./articles/github/daily/2026-06-01-nicobailon-pi-subagents.html",
       "serial": 673,
-      "searchText": "pi-subagents Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。 Pi の作業を子エージェントへ分担し、レビューや調査を並列化しやすくする記事です。 nicobailon/pi-subagents AIコーディング (ワークフロー・プロンプト・開発補助ツール) pi-subagents ← 記事一覧へ戻る GitHub Watcher pi-subagents Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。 記事作成日 2026-06-01 種別 Trending #13 対象 repo nicobailon/pi-subagents Star数 1,802 これは何か pi-subagents は、Pi から子エージェントへ作業を委譲しやすくする拡張です。レビュー、調査、実装、並列確認のような役割を切り分けて回す前提で作られています。 何ができるか コードレビューやスカウト、実装、並列監査、背景ジョブの振り分けを、短い指示で別エージェントに渡せます。大きいタスクを小さく分解して、戻り値をまとめやすくする使い方に向いています。 目立つポイント truncate、artifacts、session sharing を組み合わせて、子エージェントとのやり取りを扱いやすくしているのが特徴です。`pi install npm:pi-subagents` で導入でき、レビュー担当や scout などの役割例もREADMEで示されています。 セットアップや使い方の流れ まず Pi に拡張を入れ、次に仕事の役割を明示して委譲します。並列で動かしたい確認作業や、結果を切り分けたい実装タスクから試すと、効果が見えやすいです。 どんな人向けか Pi を使っていて、1つの指示を複数の視点に分けて処理したい人向けです。レビュー品質を上げたい人、調査と実装を分けたい人、並列で安全確認したい人に向いています。 注意点 子エージェントを増やせば自動的に良くなるわけではなく、役割定義が曖昧だとむしろ混乱します。結果の統合と最終レビューは、利用側で明示的に設計しておく必要があります。 まとめ pi-subagents は、Pi ベースの作業を分担型に寄せたいときに効く拡張です。複雑な仕事を並列化しつつ、後でまとめ直すワークフローを作りたい人に向いています。 参照リンク https://github.com/nicobailon/pi-subagents Shared GitHub Serial: #673"
+      "searchText": "pi-subagents Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。 Pi の作業を子エージェントへ分担し、レビューや調査を並列化しやすくする記事です。 nicobailon/pi-subagents AIコーディング (ワークフロー・プロンプト・開発補助ツール) pi-subagents ← 記事一覧へ戻る GitHub Watcher pi-subagents Pi から子エージェントへ仕事を分担しやすくする、非同期 delegation 拡張です。 記事作成日 2026-06-01 種別 Trending #13 対象 repo nicobailon/pi-subagents Star数 1,802 これは何か pi-subagents は、Pi から子エージェントへ作業を委譲しやすくする拡張です。レビュー、調査、実装、並列確認のような役割を切り分けて回す前提で作られています。 何ができるか コードレビューやスカウト、実装、並列監査、背景ジョブの振り分けを、短い指示で別エージェントに渡せます。大きいタスクを小さく分解して、戻り値をまとめやすくする使い方に向いています。 目立つポイント truncate、artifacts、session sharing を組み合わせて、子エージェントとのやり取りを扱いやすくしているのが特徴です。 pi install npm:pi-subagents で導入でき、レビュー担当や scout などの役割例もREADMEで示されています。 セットアップや使い方の流れ まず Pi に拡張を入れ、次に仕事の役割を明示して委譲します。並列で動かしたい確認作業や、結果を切り分けたい実装タスクから試すと、効果が見えやすいです。 どんな人向けか Pi を使っていて、1つの指示を複数の視点に分けて処理したい人向けです。レビュー品質を上げたい人、調査と実装を分けたい人、並列で安全確認したい人に向いています。 注意点 子エージェントを増やせば自動的に良くなるわけではなく、役割定義が曖昧だとむしろ混乱します。結果の統合と最終レビューは、利用側で明示的に設計しておく必要があります。 まとめ pi-subagents は、Pi ベースの作業を分担型に寄せたいときに効く拡張です。複雑な仕事を並列化しつつ、後でまとめ直すワークフローを作りたい人に向いています。 参照リンク https://github.com/nicobailon/pi-subagents Shared GitHub Serial: #673"
     },
     {
       "slug": "2026-06-01-nesquena-hermes-webui",
@@ -45,7 +60,7 @@
       "createdAt": "2026-06-01T04:49:39+09:00",
       "articleUrl": "./articles/github/daily/2026-06-01-nesquena-hermes-webui.html",
       "serial": 675,
-      "searchText": "hermes-webui Hermes Agent をブラウザとスマホから扱える、軽量な Web UI です。 Hermes Agent をブラウザとスマホから扱える軽量 UI の使いどころと導入の流れを整理した記事です。 nesquena/hermes-webui AIエージェント (自律基盤・特化アプリ) hermes-webui ← 記事一覧へ戻る GitHub Watcher hermes-webui Hermes Agent をブラウザとスマホから扱える、軽量な Web UI です。 記事作成日 2026-06-01 種別 Trending #4 対象 repo nesquena/hermes-webui Star数 9,839 これは何か hermes-webui は、Hermes Agent をブラウザから使えるようにする軽量な Web インターフェースです。README では、暗めの見た目の三分割レイアウトを前提に、サーバー上のエージェントを見通しよく操作する用途が示されています。 何ができるか ブラウザやスマホから Hermes Agent の状態を確認しながら、対話や操作を進められます。ターミナル中心の作業を、視覚的な UI に寄せたいときの入口になります。 目立つポイント ビルドステップやバンドラに依存しない軽量構成で、Python と vanilla JS を中心に作られているのが特徴です。`python3 bootstrap.py` で始めやすく、Windows ネイティブや Docker の導線も用意されています。 セットアップや使い方の流れ まずリポジトリを取得し、bootstrap スクリプトで必要なものを整えます。その後は Hermes Agent の環境に接続し、ブラウザ上の操作画面から対話と確認を進める形です。 どんな人向けか Hermes Agent を普段から使っていて、端末だけでなく Web 画面でも扱いたい人向けです。スマホからの確認や、複数ペインでの見通しを重視する人にも向いています。 注意点 UI 自体は軽量でも、実体は Hermes Agent の運用環境に依存します。単体で完結する道具ではないため、接続先や認証、ホスト側の起動条件は先に確認しておく必要があります。 まとめ hermes-webui は、Hermes Agent をブラウザから扱うための実用的なフロントエンドです。端末中心の作業を少し見やすくしたいときに、ちょうどよい薄さがあります。 参照リンク https://github.com/nesquena/hermes-webui Shared GitHub Serial: #675"
+      "searchText": "hermes-webui Hermes Agent をブラウザとスマホから扱える、軽量な Web UI です。 Hermes Agent をブラウザとスマホから扱える軽量 UI の使いどころと導入の流れを整理した記事です。 nesquena/hermes-webui AIエージェント (自律基盤・特化アプリ) hermes-webui ← 記事一覧へ戻る GitHub Watcher hermes-webui Hermes Agent をブラウザとスマホから扱える、軽量な Web UI です。 記事作成日 2026-06-01 種別 Trending #4 対象 repo nesquena/hermes-webui Star数 9,839 これは何か hermes-webui は、Hermes Agent をブラウザから使えるようにする軽量な Web インターフェースです。README では、暗めの見た目の三分割レイアウトを前提に、サーバー上のエージェントを見通しよく操作する用途が示されています。 何ができるか ブラウザやスマホから Hermes Agent の状態を確認しながら、対話や操作を進められます。ターミナル中心の作業を、視覚的な UI に寄せたいときの入口になります。 目立つポイント ビルドステップやバンドラに依存しない軽量構成で、Python と vanilla JS を中心に作られているのが特徴です。 python3 bootstrap.py で始めやすく、Windows ネイティブや Docker の導線も用意されています。 セットアップや使い方の流れ まずリポジトリを取得し、bootstrap スクリプトで必要なものを整えます。その後は Hermes Agent の環境に接続し、ブラウザ上の操作画面から対話と確認を進める形です。 どんな人向けか Hermes Agent を普段から使っていて、端末だけでなく Web 画面でも扱いたい人向けです。スマホからの確認や、複数ペインでの見通しを重視する人にも向いています。 注意点 UI 自体は軽量でも、実体は Hermes Agent の運用環境に依存します。単体で完結する道具ではないため、接続先や認証、ホスト側の起動条件は先に確認しておく必要があります。 まとめ hermes-webui は、Hermes Agent をブラウザから扱うための実用的なフロントエンドです。端末中心の作業を少し見やすくしたいときに、ちょうどよい薄さがあります。 参照リンク https://github.com/nesquena/hermes-webui Shared GitHub Serial: #675"
     },
     {
       "slug": "2026-06-01-github-docs",

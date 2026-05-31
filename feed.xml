@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 May 2026 19:53:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 07:06:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[VL53L5CX-BNO08X-viewer]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-01 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-01-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ESMC、ESMFold2、ESM Atlas を束ねるタンパク質生物学の world model 研究基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[data-engineering-zoomcamp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-DataTalksClub-data-engineering-zoomcamp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-DataTalksClub-data-engineering-zoomcamp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[9週間の無料データエンジニアリング講座をまとめた学習リソース。]]></description>
     </item>
   </channel>
 </rss>
