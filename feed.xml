@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 May 2026 14:05:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 23:23:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[gemini-web2api]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Sophomoresty-gemini-web2api-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Sophomoresty-gemini-web2api-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Awesome-Memory-for-Agents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.154、Cline v3.86.0、Gemini CLI v0.44.1 の更新をまとめた 2026-05-29 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[harness]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-revfactory-harness.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-revfactory-harness.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code 向けに、ドメイン説明からエージェントチームと skills を生成する設計ファクトリー。]]></description>
     </item>
   </channel>
 </rss>

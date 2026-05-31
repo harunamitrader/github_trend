@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-31-Sophomoresty-gemini-web2api-pickup",
+      "title": "gemini-web2api",
+      "dek": "Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。",
+      "summary": "Gemini Web を OpenAI 互換 API に変換して、CLI と GUI クライアントをつなぐ pickup 記事です。",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T23:23:27.7682497+09:00",
+      "repoName": "Sophomoresty/gemini-web2api",
+      "repoUrl": "https://github.com/Sophomoresty/gemini-web2api",
+      "starCount": 759,
+      "articleUrl": "./articles/github/daily/2026-05-31-Sophomoresty-gemini-web2api-pickup.html",
+      "serial": 671,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup",
       "title": "Awesome-Memory-for-Agents",
       "dek": "エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。",

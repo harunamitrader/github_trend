@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-31T14:04:28.943030+00:00",
-  "count": 732,
+  "generatedAt": "2026-05-31T14:23:48.091844+00:00",
+  "count": 733,
   "articles": [
+    {
+      "slug": "2026-05-31-Sophomoresty-gemini-web2api-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "gemini-web2api",
+      "dek": "Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。",
+      "summary": "Gemini Web を OpenAI 互換 API に変換して、CLI と GUI クライアントをつなぐ pickup 記事です。",
+      "repoName": "Sophomoresty/gemini-web2api",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T23:23:27.7682497+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-31-Sophomoresty-gemini-web2api-pickup.html",
+      "serial": 671,
+      "searchText": "gemini-web2api Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。 Gemini Web を OpenAI 互換 API に変換して、CLI と GUI クライアントをつなぐ pickup 記事です。 Sophomoresty/gemini-web2api AIコーディング (ワークフロー・プロンプト・開発補助ツール) gemini-web2api ← 記事一覧へ戻る GitHub Watcher gemini-web2api Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。 記事作成日 2026-05-31 種別 Pickup 対象 repo Sophomoresty/gemini-web2api Star数 759 これは何か gemini-web2api は、Google Gemini の Web インターフェースを OpenAI 互換 API に変換する Python 製の単一ファイルサーバーです。README では、認証なしの運用、クロスプラットフォーム対応、stdlib 以外の依存なし、という割り切った設計が前面に出ています。 何ができるか /v1/chat/completions や /v1/models を OpenAI 互換で受けられるので、Cherry Studio や ChatBox のようなクライアントにそのままつなげます。さらに /v1/responses の Codex CLI 向け連携や、 /v1beta/models の Gemini CLI 互換も用意されています。 目立つポイント api_keys を空にすると認証なしで使える点と、 @think=N で推論の深さを調整できる点が実用的です。Web search、tool calling、SSE streaming まで押さえているので、ただの変換器ではなく、日常の開発ツールに載せやすい構成です。 セットアップや使い方の流れ まず python gemini_web2api.py で起動すると、ローカルで http://localhost:8081/v1 を待ち受けます。あとはクライアント側の Base URL をその値に差し替え、必要なら config.json で api_keys を設定して運用します。 どんな人向けか 有料 API を使わずに Gemini を既存の OpenAI 系ツールへつなぎたい人、Codex CLI や GUI クライアントの接続先をローカルでまとめたい人向けです。開発環境の切り替えを減らしたい場合に効きます。 注意点 Gemini の Web 側仕様に依存するため、上流の UI 変更や挙動変更の影響は受けやすいです。安定運用を狙うなら、まず小さく試してから本番のワークフローに組み込む方が安全です。 まとめ gemini-web2api は、Gemini Web を既存の OpenAI エコシステムに素早く接続するための実用的な橋渡しです。CLI と GUI の両方を一つのローカル入口に寄せたい人には使いどころがあります。 参照リンク Sophomoresty/gemini-web2api 入力元 URL Shared GitHub Serial: #671"
+    },
     {
       "slug": "2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup",
       "category": "github-pickup",

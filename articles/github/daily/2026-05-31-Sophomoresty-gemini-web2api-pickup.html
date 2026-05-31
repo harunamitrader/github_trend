@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gemini-web2api</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gemini-web2api</h1>
+      <p class="article-dek">Gemini Web を OpenAI 互換 API に変換し、Codex CLI や各種 OpenAI クライアントからそのまま使えるローカルブリッジ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-05-31 -->
+          <strong>2026-05-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Sophomoresty/gemini-web2api" target="_blank" rel="noreferrer">
+              Sophomoresty/gemini-web2api
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>759</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>gemini-web2api は、Google Gemini の Web インターフェースを OpenAI 互換 API に変換する Python 製の単一ファイルサーバーです。README では、認証なしの運用、クロスプラットフォーム対応、stdlib 以外の依存なし、という割り切った設計が前面に出ています。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>/v1/chat/completions</code> や <code>/v1/models</code> を OpenAI 互換で受けられるので、Cherry Studio や ChatBox のようなクライアントにそのままつなげます。さらに <code>/v1/responses</code> の Codex CLI 向け連携や、<code>/v1beta/models</code> の Gemini CLI 互換も用意されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p><code>api_keys</code> を空にすると認証なしで使える点と、<code>@think=N</code> で推論の深さを調整できる点が実用的です。Web search、tool calling、SSE streaming まで押さえているので、ただの変換器ではなく、日常の開発ツールに載せやすい構成です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず <code>python gemini_web2api.py</code> で起動すると、ローカルで <code>http://localhost:8081/v1</code> を待ち受けます。あとはクライアント側の Base URL をその値に差し替え、必要なら <code>config.json</code> で <code>api_keys</code> を設定して運用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>有料 API を使わずに Gemini を既存の OpenAI 系ツールへつなぎたい人、Codex CLI や GUI クライアントの接続先をローカルでまとめたい人向けです。開発環境の切り替えを減らしたい場合に効きます。</p>
+
+        <h2>注意点</h2>
+        <p>Gemini の Web 側仕様に依存するため、上流の UI 変更や挙動変更の影響は受けやすいです。安定運用を狙うなら、まず小さく試してから本番のワークフローに組み込む方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>gemini-web2api は、Gemini Web を既存の OpenAI エコシステムに素早く接続するための実用的な橋渡しです。CLI と GUI の両方を一つのローカル入口に寄せたい人には使いどころがあります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Sophomoresty/gemini-web2api" target="_blank" rel="noreferrer">Sophomoresty/gemini-web2api</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Sophomoresty/gemini-web2api" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #671</p>
+      </div>
+    </article>
+  </body>
+</html>
