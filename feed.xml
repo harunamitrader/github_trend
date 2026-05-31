@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 22:45:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 23:04:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Awesome-Memory-for-Agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。]]></description>
+    </item>
     <item>
       <title><![CDATA[HY-World-2.0]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 向けに、ドメイン説明からエージェントチームと skills を生成する設計ファクトリー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MOSS-TTS]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-OpenMOSS-MOSS-TTS.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-29-OpenMOSS-MOSS-TTS.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高忠実度の音声合成、声質制御、環境音生成、リアルタイム TTS をまとめた音声モデルファミリー。]]></description>
     </item>
   </channel>
 </rss>

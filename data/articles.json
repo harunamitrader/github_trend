@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup",
+      "title": "Awesome-Memory-for-Agents",
+      "dek": "エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。",
+      "summary": "エージェントメモリの研究地図として、用途別に論文をたどりやすい pickup 記事です。",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T23:03:43.9666511+09:00",
+      "repoName": "TsinghuaC3I/Awesome-Memory-for-Agents",
+      "repoUrl": "https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents",
+      "starCount": 524,
+      "articleUrl": "./articles/github/daily/2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup.html",
+      "serial": 670,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup",
       "title": "HY-World-2.0",
       "dek": "テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。",

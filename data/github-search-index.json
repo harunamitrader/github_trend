@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-30T22:43:56.872548+00:00",
-  "count": 731,
+  "generatedAt": "2026-05-31T14:04:28.943030+00:00",
+  "count": 732,
   "articles": [
+    {
+      "slug": "2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Awesome-Memory-for-Agents",
+      "dek": "エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。",
+      "summary": "エージェントメモリの研究地図として、用途別に論文をたどりやすい pickup 記事です。",
+      "repoName": "TsinghuaC3I/Awesome-Memory-for-Agents",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-05-31T23:03:43.9666511+09:00",
+      "articleUrl": "./articles/github/daily/2026-05-31-TsinghuaC3I-Awesome-Memory-for-Agents-pickup.html",
+      "serial": 670,
+      "searchText": "Awesome-Memory-for-Agents エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。 エージェントメモリの研究地図として、用途別に論文をたどりやすい pickup 記事です。 TsinghuaC3I/Awesome-Memory-for-Agents 学習ガイド・開発アセット Awesome-Memory-for-Agents ← 記事一覧へ戻る GitHub Watcher Awesome-Memory-for-Agents エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。 記事作成日 2026-05-31 種別 Pickup 対象 repo TsinghuaC3I/Awesome-Memory-for-Agents Star数 524 これは何か Awesome-Memory-for-Agents は、エージェントのメモリ研究を集めた論文リストです。README では、Short-Term Memory と Long-Term Memory を分けたうえで、Long-Term 側を Experience と Memory に整理し、Application・Survey・Benchmark・Product & Project の 4 つに大きく分けています。 何ができるか 個別の論文を探すだけでなく、どの系統のメモリ設計を追うべきかを短時間で絞れます。Personalization、Learning from Experience、Long-horizon Agentic Task の各テーマを横断して見られるので、実装前の調査にも向いています。 目立つポイント 分類軸がはっきりしていて、単なるリンク集で終わらないのが強みです。メモリを「どれだけ持続するか」「タスク結果で経験化するか」で分けているため、似た研究の違いを比較しやすくなっています。 セットアップや使い方の流れ この repo 自体は実行環境を入れるものではなく、README と目次から論文をたどる使い方が中心です。まず Overview で分類を把握し、次に Application を見て、必要なら Benchmark や Product & Project に進むと全体像をつかみやすいです。 どんな人向けか エージェントの長期記憶を設計したい開発者、関連研究を素早く俯瞰したい研究者、レビュー用に論点を整理したい人向けです。最初の取っ掛かりとして、どのメモリ方式が自分の課題に近いかを見つけやすい構成です。 注意点 これは実装用ライブラリではなく、あくまで論文の整理リストです。再現実験や動作確認をしたい場合は、各論文や個別プロジェクトのリンク先まで追う必要があります。 まとめ Awesome-Memory-for-Agents は、エージェントメモリの研究地図として使いやすい repo です。設計の比較軸が明確なので、記憶機構を考える前の調査起点としてかなり実用的です。 参照リンク TsinghuaC3I/Awesome-Memory-for-Agents 入力元 URL Shared GitHub Serial: #670"
+    },
     {
       "slug": "2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup",
       "category": "github-pickup",
