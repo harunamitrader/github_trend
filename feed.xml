@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2026 19:12:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 04:51:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[impeccable]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pbakaus-impeccable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pbakaus-impeccable.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI にありがちな UI を避けるための frontend design スキル集です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[godot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-godotengine-godot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-godotengine-godot.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2D/3D のクロスプラットフォーム開発を支えるオープンソースゲームエンジンです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[machine-learning-for-trading]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-stefan-jansen-machine-learning-for-trading.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-stefan-jansen-machine-learning-for-trading.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[機械学習でアルゴリズム取引を実践するための書籍連動ノート群です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[fff]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-dmtrKovalenko-fff.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-dmtrKovalenko-fff.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けファイル検索を高速化する Rust 製ツールキットです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-02 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-02-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-02-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-02 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-02-ai-coding-tools-update.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数 SNS への動画投稿と予約配信をまとめて自動化する、動画配信オペレーション向けのツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-31 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-31-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-05-31-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-30 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-30-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-30-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHub Copilot の Claude Opus 4.8 GA と、Codex の Windows 対応・CLI 改善をまとめた 2026-05-30 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[sia]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-hexo-ai-sia-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[メタ・ターゲット・フィードバックの3エージェントで、ベンチマーク向けAIを反復改善する自己改善フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[plugins]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-cursor-plugins.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-cursor-plugins.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cursor の公式プラグイン仕様と公式プラグイン群を整理した拡張基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[liteparse]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-run-llama-liteparse.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-run-llama-liteparse.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高速なドキュメント解析と OCR で、PDF や文書を RAG 向けに整える Rust 製 parser。]]></description>
     </item>
   </channel>
 </rss>
