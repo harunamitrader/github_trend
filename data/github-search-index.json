@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-05-31T22:06:40.940258+00:00",
-  "count": 739,
+  "generatedAt": "2026-06-01T03:20:08.701475+00:00",
+  "count": 740,
   "articles": [
+    {
+      "slug": "2026-06-01-chopratejas-headroom-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "headroom",
+      "dek": "AI エージェント向けの出力・ログ・RAG を圧縮して、LLM に入るトークン量を減らすコンテキスト圧縮レイヤーです。",
+      "summary": "tool output や RAG のチャンクを圧縮して、LLM に渡す前のコンテキストを軽くする pickup 記事です。",
+      "repoName": "chopratejas/headroom",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-01T12:19:31+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-01-chopratejas-headroom-pickup.html",
+      "serial": 677,
+      "searchText": "headroom AI エージェント向けの出力・ログ・RAG を圧縮して、LLM に入るトークン量を減らすコンテキスト圧縮レイヤーです。 tool output や RAG のチャンクを圧縮して、LLM に渡す前のコンテキストを軽くする pickup 記事です。 chopratejas/headroom AIコーディング (ワークフロー・プロンプト・開発補助ツール) headroom ← 記事一覧へ戻る GitHub Watcher headroom AI エージェント向けの出力・ログ・RAG を圧縮して、LLM に入るトークン量を減らすコンテキスト圧縮レイヤーです。 記事作成日 2026-06-01 種別 Pickup 対象 repo chopratejas/headroom Star数 3,108 これは何か headroom は、ツール出力、ログ、ファイル、RAG のチャンクを LLM に渡す前に圧縮するためのレイヤーです。README では、60〜95% の token 削減を狙いながら、同じ答えを返すことを目標にした library / proxy / MCP server として説明されています。 何ができるか 長い出力をそのまま投げずに、要点を残したまま短く整えられます。エージェントの実行ログ、検索結果、ファイル断片を圧縮して、コンテキストの無駄を減らす用途に向いています。 目立つポイント 単なる要約ツールではなく、ライブラリ、プロキシ、MCP サーバーの 3 形態で扱えるのが特徴です。local-first かつ reversible をうたっているので、前処理だけでなく戻しやすさも意識されています。 セットアップや使い方の流れ まずは使いたい形に合わせて、Python ライブラリかプロキシ、MCP 経由のどれで入れるかを決めます。その後、圧縮したい出力ソースを headroom に通し、必要な情報だけを LLM に渡す流れにします。 どんな人向けか 長い tool output でコンテキストが圧迫されやすい人、RAG の取り込み量を抑えたい人、エージェントの応答コストを下げたい人向けです。複数の情報源を扱うワークフローほど効果が出やすいです。 注意点 圧縮は便利ですが、削りすぎると文脈の復元が難しくなります。何を残すかの基準を先に決めておかないと、精度よりも再現性のほうで問題が出やすいです。 まとめ headroom は、LLM に入る前の情報を小さく整える実務寄りの基盤です。エージェント運用で token を節約したいときに、かなり直接的に効くタイプの repo です。 参照リンク https://github.com/chopratejas/headroom 入力元 URL Shared GitHub Serial: #677"
+    },
     {
       "slug": "2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup",
       "category": "github-pickup",

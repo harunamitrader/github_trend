@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-01-chopratejas-headroom-pickup",
+      "title": "headroom",
+      "dek": "AI エージェント向けの出力・ログ・RAG を圧縮して、LLM に入るトークン量を減らすコンテキスト圧縮レイヤーです。",
+      "summary": "tool output や RAG のチャンクを圧縮して、LLM に渡す前のコンテキストを軽くする pickup 記事です。",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-01T12:19:31+09:00",
+      "repoName": "chopratejas/headroom",
+      "repoUrl": "https://github.com/chopratejas/headroom",
+      "starCount": 3108,
+      "articleUrl": "./articles/github/daily/2026-06-01-chopratejas-headroom-pickup.html",
+      "serial": 677,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup",
       "title": "VL53L5CX-BNO08X-viewer",
       "dek": "VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。",
