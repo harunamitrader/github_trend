@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:29:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 07:08:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[cc-switch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。]]></description>
+    </item>
     <item>
       <title><![CDATA[odysseus]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ClashMeta ベースのクロスプラットフォーム proxy client。WebDAV 同期と Material You 対応を備えた実用派です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[train-llm-from-scratch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-FareedKhan-dev-train-llm-from-scratch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-FareedKhan-dev-train-llm-from-scratch.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Transformer を一から実装し、PyTorch と Jupyter Notebook で LLM 学習の流れを追える教材です。]]></description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-02-farion1231-cc-switch-pickup",
+      "title": "cc-switch",
+      "dek": "Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。",
+      "summary": "Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブを整理した pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T07:08:12+09:00",
+      "repoName": "farion1231/cc-switch",
+      "repoUrl": "https://github.com/farion1231/cc-switch",
+      "starCount": 87871,
+      "articleUrl": "./articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html",
+      "serial": 683,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-02-pewdiepie-archdaemon-odysseus-pickup",
       "title": "odysseus",
       "dek": "自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。",

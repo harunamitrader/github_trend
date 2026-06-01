@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-01T21:28:36.755426+00:00",
-  "count": 746,
+  "generatedAt": "2026-06-01T22:08:37.881100+00:00",
+  "count": 747,
   "articles": [
+    {
+      "slug": "2026-06-02-farion1231-cc-switch-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cc-switch",
+      "dek": "Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。",
+      "summary": "Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブを整理した pickup 記事です。",
+      "repoName": "farion1231/cc-switch",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T07:08:12+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html",
+      "serial": 683,
+      "searchText": "cc-switch Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。 Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブを整理した pickup 記事です。 farion1231/cc-switch AIコーディング (CLI本体・拡張機能) cc-switch ← 記事一覧へ戻る GitHub Watcher cc-switch Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。 記事作成日 2026-06-02 種別 Pickup 対象 repo farion1231/cc-switch Star数 87,871 これは何か CC Switch は、Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw、Hermes Agent を一元管理するデスクトップアプリです。README では「All-in-One Manager」として案内されており、複数の AI アシスタントを同じ入口で扱えるのが前提になっています。 何ができるか プロバイダの切り替え、プロキシやフェイルオーバー、MCP / prompts / skills の管理、使用量とコストの追跡、セッションと workspace の整理までまとめて扱えます。複数の CLI を日常的に使う人には、そのまま運用面の差が出やすい構成です。 目立つポイント 単なるランチャーではなく、接続先の選択と運用管理を一体化している点が特徴です。Tauri ベースで Windows / macOS / Linux に対応しており、ローカルで完結する運用と相性が良いです。 セットアップや使い方の流れ まずは公式サイトか GitHub Releases から入手し、使いたい provider を登録します。その後、セッションや workspace をつなぎ、必要に応じて MCP や prompt、skill の設定を足していく流れが自然です。 どんな人向けか 複数の AI CLI を毎日切り替える人、プロバイダごとの挙動を見比べたい人、セッションやコストを横断して見たい人に向いています。個別のツールをバラバラに管理したくない場合に効きます。 注意点 統合アプリなので便利ですが、実際の認証や各 provider の挙動は元ツール側に依存します。公式サイトは ccswitch.io とされているため、導入時は配布元を確認してから使うのが安全です。 まとめ cc-switch は、複数の AI コーディング/エージェント CLI をまとめて運用するための実用ハブです。ツールを増やすほど管理が散らかりやすい人に、かなり刺さるタイプの repo です。 参照リンク https://github.com/farion1231/cc-switch https://ccswitch.io 入力元 URL Shared GitHub Serial: #683"
+    },
     {
       "slug": "2026-06-02-pewdiepie-archdaemon-odysseus-pickup",
       "category": "github-pickup",
