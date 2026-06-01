@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code、Cline、Cursor、Gemini CLI、GitHub Copilot の最新更新をまとめた 2026-06-02 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-02 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-02 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code、Cline、Cursor、Gemini CLI、GitHub Copilot の最新更新をまとめた 2026-06-02 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-02 -->
+          <strong>2026-06-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cline, Cursor, Gemini CLI, GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月2日 JST の再監視では、Coding 対象の公式更新が 5 ツールで 8 件ありました。Claude Code は内部改善、Cline は @file 参照の安定化、Cursor は Auto-review Run Mode、Gemini CLI は nightly の追従、GitHub Copilot は課金と利用統計の更新が中心です。</p>
+        <ul>
+          <li><strong>Claude Code v2.1.159:</strong> 内部インフラの改善のみで、ユーザー向けの変更はありません。土台の安定化が続いています。</li>
+          <li><strong>Cline v3.86.2:</strong> VS Code 1.122+ で <code>@</code> file mentions と workspace file search を修正し、新しい bundled ripgrep の配置に追従しました。</li>
+          <li><strong>Cline v3.86.1:</strong> 一部環境で失敗していた <code>@</code> file mentions を修正し、workspace index や bundled ripgrep が無い場合の fallback を維持しました。</li>
+          <li><strong>Cursor 3.6:</strong> Auto-review Run Mode を追加し、Shell / MCP / Fetch をより長く、少ない承認で安全に回せるようにしました。</li>
+          <li><strong>Gemini CLI v0.45.0-nightly.20260530:</strong> preferredEditor が不正なときのスパムループを抑え、引用追加と nightly 追従が進みました。</li>
+          <li><strong>Gemini CLI v0.45.0-nightly.20260529:</strong> PTY resize のネイティブクラッシュ耐性を上げ、preview 系の追従を進めました。</li>
+          <li><strong>GitHub Copilot billing / plans:</strong> usage-based billing が有効化され、Copilot code review は June 1 から GitHub Actions minutes も消費するようになりました。</li>
+          <li><strong>GitHub Copilot usage metrics:</strong> API に <code>ai_adoption_phase</code> と <code>totals_by_ai_adoption_phase</code> が増え、利用の成熟度を cohort で見やすくなりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回は、実行モード、ファイル検索、利用統計、課金の境界整理が目立ちました。開発現場では、エージェントの挙動を安全にする更新と、Copilot の請求・計測の見直しを同時に確認しておくと、運用差分を追いやすいです。</p>
+
+        <h2>まとめ</h2>
+        <p>大きな新機能よりも、運用のしやすさと計測の粒度を詰める更新が中心でした。CLI / IDE / 使用統計の三方向を並べて追うと、次に見るべき変更点が絞りやすくなります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.159" target="_blank" rel="noreferrer">Claude Code v2.1.159 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.86.2" target="_blank" rel="noreferrer">Cline v3.86.2 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260530.g013914071" target="_blank" rel="noreferrer">Gemini CLI nightly v0.45.0-nightly.20260530</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/month/05-2026/" target="_blank" rel="noreferrer">GitHub Changelog 05/2026</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption" target="_blank" rel="noreferrer">Copilot usage metrics API adds cohorts for AI adoption</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2026 03:21:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 04:11:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-02 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-02-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-02-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code、Cline、Cursor、Gemini CLI、GitHub Copilot の最新更新をまとめた 2026-06-02 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[headroom]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-chopratejas-headroom-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高速なドキュメント解析と OCR で、PDF や文書を RAG 向けに整える Rust 製 parser。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stable-worldmodel]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-galilai-group-stable-worldmodel.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-30-galilai-group-stable-worldmodel.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[再現性のある world model 研究と評価をまとめた実験プラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-02-ai-coding-tools-update",
+      "title": "2026-06-02 AIコーディングツール アップデート",
+      "dek": "Claude Code、Cline、Cursor、Gemini CLI、GitHub Copilot の最新更新をまとめた 2026-06-02 の監視ログです。",
+      "summary": "Claude Code v2.1.159、Cline v3.86.2/3.86.1、Cursor 3.6、Gemini CLI nightly、GitHub Copilot の 5 月 29 日更新を整理した 2026-06-02 の監視ログです。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T04:03:44+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Cline, Cursor, Gemini CLI, GitHub Copilot",
+      "articleUrl": "./articles/tools/2026-06-02-ai-coding-tools-update.html",
+      "serial": 630,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-01-chopratejas-headroom-pickup",
       "title": "headroom",
