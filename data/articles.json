@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-02-pewdiepie-archdaemon-odysseus-pickup",
+      "title": "odysseus",
+      "dek": "自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。",
+      "summary": "Chat、Agent、Deep Research を self-hosted で回せる AI workspace を整理した pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T06:28:04+09:00",
+      "repoName": "pewdiepie-archdaemon/odysseus",
+      "repoUrl": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "starCount": 19728,
+      "articleUrl": "./articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html",
+      "serial": 682,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-02-pbakaus-impeccable",
       "title": "impeccable",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-01T19:51:28.697837+00:00",
-  "count": 745,
+  "generatedAt": "2026-06-01T21:28:36.755426+00:00",
+  "count": 746,
   "articles": [
+    {
+      "slug": "2026-06-02-pewdiepie-archdaemon-odysseus-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "odysseus",
+      "dek": "自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。",
+      "summary": "Chat、Agent、Deep Research を self-hosted で回せる AI workspace を整理した pickup 記事です。",
+      "repoName": "pewdiepie-archdaemon/odysseus",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T06:28:04+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html",
+      "serial": 682,
+      "searchText": "odysseus 自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。 Chat、Agent、Deep Research を self-hosted で回せる AI workspace を整理した pickup 記事です。 pewdiepie-archdaemon/odysseus AIエージェント (自律基盤・特化アプリ) odysseus ← 記事一覧へ戻る GitHub Watcher odysseus 自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。 記事作成日 2026-06-02 種別 Pickup 対象 repo pewdiepie-archdaemon/odysseus Star数 19,728 これは何か odysseus は、ChatGPT や Claude に近い UI 体験を自分のハードウェア上で再現することを目指した self-hosted AI workspace です。README では local-first、privacy-first を前面に出し、手元のデータで動かす前提が明確です。 何ができるか Chat でローカルモデルや API と会話でき、Agent では MCP、web、files、shell、skills、memory を使って実作業を任せられます。Deep Research は複数ソースを集めて要約し、Compare ではモデル比較もできます。 目立つポイント Cookbook が付いていて、手元のハードウェアをスキャンしながら VRAM やモデルの適性を見て選びやすいのが特徴です。単なるチャット画面ではなく、モデル選定から実行、比較までをひとつの workspace にまとめています。 セットアップや使い方の流れ まずは公式サイトと README の install / quick start を見て、対応バックエンドをひとつ選びます。その後、Chat か Agent から始めて、必要に応じて Deep Research や Compare に広げるのが自然です。 どんな人向けか クラウド依存を減らして AI ワークスペースを自前で持ちたい人、複数のモデルを手元で使い分けたい人、作業の流れを Chat / Agent / Research に分けて整理したい人に向いています。 注意点 self-hosted なので、モデル性能だけでなく GPU、メモリ、接続先の整備がそのまま体験差になります。自由度は高い一方で、安定運用には環境づくりが必要です。 まとめ odysseus は、ローカル主体で AI workspace を組みたい人にとってかなり分かりやすい入り口です。Chat、Agent、Research を一体で回したいなら、実用候補として強い repo です。 参照リンク https://github.com/pewdiepie-archdaemon/odysseus 入力元 URL Shared GitHub Serial: #682"
+    },
     {
       "slug": "2026-06-02-update-report",
       "category": "github-update-report",

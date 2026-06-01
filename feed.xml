@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2026 19:52:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 06:28:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[odysseus]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。]]></description>
+    </item>
     <item>
       <title><![CDATA[impeccable]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pbakaus-impeccable.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Transformer を一から実装し、PyTorch と Jupyter Notebook で LLM 学習の流れを追える教材です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[social-auto-upload]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-dreammis-social-auto-upload.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-dreammis-social-auto-upload.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数 SNS への動画投稿と予約配信をまとめて自動化する、動画配信オペレーション向けのツールです。]]></description>
     </item>
   </channel>
 </rss>
