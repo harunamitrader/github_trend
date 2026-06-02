@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-02T10:08:04.299843+00:00",
-  "count": 750,
+  "generatedAt": "2026-06-02T10:56:04.068172+00:00",
+  "count": 751,
   "articles": [
+    {
+      "slug": "2026-06-02-synapseorch-ai-synapse-ai-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "synapse-ai",
+      "dek": "任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。",
+      "summary": "LLMやツールを組み合わせて、実行可能なAIワークフローを運用したい人向けの pickup 記事です。",
+      "repoName": "synapseorch-ai/synapse-ai",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T19:55:33.0937002+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-synapseorch-ai-synapse-ai-pickup.html",
+      "serial": 687,
+      "searchText": "synapse-ai 任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。 LLMやツールを組み合わせて、実行可能なAIワークフローを運用したい人向けの pickup 記事です。 synapseorch-ai/synapse-ai AIエージェント (自律基盤・特化アプリ) synapse-ai ← 記事一覧へ戻る GitHub Watcher synapse-ai 任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。 記事作成日 2026-06-02 種別 Pickup 対象 repo synapseorch-ai/synapse-ai Star数 164 これは何か Synapse AI は、AI エージェント、ツール、LLM をつないでワークフローとして実行するためのオープンソース基盤です。README では、local / cloud / CLI のモデルを横断して使える「Multi-Agent Orchestration Platform」として説明されています。 何ができるか エージェントを DAG として組み立て、分岐やループ、人手確認を含む実行フローにできます。MCP サーバー、Webhook、Python スクリプト、REST API、スケジューリング、メッセージングまでまとめて扱えるので、単体のチャットボットより運用向きです。 目立つポイント モデルを1つに固定せず、手順ごとに最適な LLM を割り当てられるのが強みです。さらに、AI Builder が自然言語から orchestration を起こせるので、設計の初速を上げやすい構成になっています。 セットアップや使い方の流れ まずは bash / PowerShell のセットアップスクリプト、npm、pip、Docker のいずれかで導入します。起動後は synapse start で UI とバックエンドを立ち上げ、必要なエージェントやツールをつないでワークフローを組みます。 どんな人向けか 複数の LLM やツールを組み合わせて、継続実行できる AI ワークフローを作りたい人に向いています。研究用途の試作だけでなく、通知や定期実行を含む業務フローにもつなげやすいです。 注意点 機能範囲が広いので、最初から全部を使うより小さい orchestration から始めた方が理解しやすいです。ライセンスは AGPL v3 なので、利用形態によっては確認が必要です。 まとめ Synapse AI は、AI エージェントの実行を「会話」ではなく「運用」に寄せたい人向けの基盤です。多様な LLM とツールを組み合わせる前提なら、かなり実用的な選択肢です。 参照リンク https://github.com/synapseorch-ai/synapse-ai https://synapseorch.com https://docs.synapseorch.com 入力元 URL Shared GitHub Serial: #687"
+    },
     {
       "slug": "2026-06-02-BUPT-GAMMA-MASFactory-pickup",
       "category": "github-pickup",

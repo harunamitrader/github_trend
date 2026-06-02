@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-02-synapseorch-ai-synapse-ai-pickup",
+      "title": "synapse-ai",
+      "dek": "任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。",
+      "summary": "LLMやツールを組み合わせて、実行可能なAIワークフローを運用したい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T19:55:33.0937002+09:00",
+      "repoName": "synapseorch-ai/synapse-ai",
+      "repoUrl": "https://github.com/synapseorch-ai/synapse-ai",
+      "starCount": 164,
+      "articleUrl": "./articles/github/daily/2026-06-02-synapseorch-ai-synapse-ai-pickup.html",
+      "serial": 687,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-02-BUPT-GAMMA-MASFactory-pickup",
       "title": "MASFactory",
       "dek": "自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。",

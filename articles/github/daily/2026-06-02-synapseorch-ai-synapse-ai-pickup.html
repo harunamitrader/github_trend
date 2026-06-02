@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>synapse-ai</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">synapse-ai</h1>
+      <p class="article-dek">任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-02 -->
+          <strong>2026-06-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/synapseorch-ai/synapse-ai" target="_blank" rel="noreferrer">
+              synapseorch-ai/synapse-ai
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>164</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Synapse AI は、AI エージェント、ツール、LLM をつないでワークフローとして実行するためのオープンソース基盤です。README では、local / cloud / CLI のモデルを横断して使える「Multi-Agent Orchestration Platform」として説明されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントを DAG として組み立て、分岐やループ、人手確認を含む実行フローにできます。MCP サーバー、Webhook、Python スクリプト、REST API、スケジューリング、メッセージングまでまとめて扱えるので、単体のチャットボットより運用向きです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>モデルを1つに固定せず、手順ごとに最適な LLM を割り当てられるのが強みです。さらに、AI Builder が自然言語から orchestration を起こせるので、設計の初速を上げやすい構成になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは bash / PowerShell のセットアップスクリプト、npm、pip、Docker のいずれかで導入します。起動後は <code>synapse start</code> で UI とバックエンドを立ち上げ、必要なエージェントやツールをつないでワークフローを組みます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の LLM やツールを組み合わせて、継続実行できる AI ワークフローを作りたい人に向いています。研究用途の試作だけでなく、通知や定期実行を含む業務フローにもつなげやすいです。</p>
+
+        <h2>注意点</h2>
+        <p>機能範囲が広いので、最初から全部を使うより小さい orchestration から始めた方が理解しやすいです。ライセンスは AGPL v3 なので、利用形態によっては確認が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>Synapse AI は、AI エージェントの実行を「会話」ではなく「運用」に寄せたい人向けの基盤です。多様な LLM とツールを組み合わせる前提なら、かなり実用的な選択肢です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/synapseorch-ai/synapse-ai" target="_blank" rel="noreferrer">https://github.com/synapseorch-ai/synapse-ai</a>
+        </div>
+        <div class="source-item">
+          <a href="https://synapseorch.com" target="_blank" rel="noreferrer">https://synapseorch.com</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.synapseorch.com" target="_blank" rel="noreferrer">https://docs.synapseorch.com</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/synapseorch-ai/synapse-ai" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #687</p>
+      </div>
+    </article>
+  </body>
+</html>
