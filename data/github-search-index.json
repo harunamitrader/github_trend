@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-02T10:03:17.969774+00:00",
-  "count": 749,
+  "generatedAt": "2026-06-02T10:08:04.299843+00:00",
+  "count": 750,
   "articles": [
+    {
+      "slug": "2026-06-02-BUPT-GAMMA-MASFactory-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "MASFactory",
+      "dek": "自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。",
+      "summary": "マルチエージェントの設計・可視化・実行を一つにまとめたい人向けの pickup 記事です。",
+      "repoName": "BUPT-GAMMA/MASFactory",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T19:07:33.6645140+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html",
+      "serial": 686,
+      "searchText": "MASFactory 自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。 マルチエージェントの設計・可視化・実行を一つにまとめたい人向けの pickup 記事です。 BUPT-GAMMA/MASFactory AIエージェント (自律基盤・特化アプリ) MASFactory ← 記事一覧へ戻る GitHub Watcher MASFactory 自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。 記事作成日 2026-06-02 種別 Pickup 対象 repo BUPT-GAMMA/MASFactory Star数 406 これは何か MASFactory は、マルチエージェントシステムをグラフ中心で組み立てるためのフレームワークです。README では「Vibe Graphing」を前面に出していて、意図を自然言語で伝え、グラフ設計を起こし、実行可能なワークフローへつなぐ流れが中核になっています。 何ができるか ノードとエッジで構成されたワークフローを設計し、サブグラフ、ループ、分岐、人手確認を含む実行フローにできます。可視化、ランタイムのトレース、ContextBlock による Memory / RAG / MCP の整理も扱えるので、設計と運用を同じ枠で見やすいです。 目立つポイント コードで書く、ビジュアルで組む、自然言語から下書きする、という複数の入り口を同じシステムで扱えるのが強みです。単なるノーコードではなく、設計意図から実行グラフまでを一続きで扱う点に特徴があります。 セットアップや使い方の流れ まずは公式ドキュメントかプロジェクトサイトを見て、どの開発スタイルで入るかを決めます。自然言語で構造を起こすか、宣言的/命令的なコードで書くか、Visualizer でドラッグ操作するかを選び、最後に実行用のグラフへ落とし込む流れが素直です。 どんな人向けか マルチエージェントの構成を何度も作り直している人、RAG や MCP を含む実行環境を可視的に管理したい人、実験用のワークフローを再利用したい人に向いています。研究寄りの試作から実運用の設計まで、幅広く使いやすいタイプです。 注意点 機能が広いぶん、最初から全部を使おうとすると重くなります。まずは小さなグラフで挙動を確認し、公式の文書やデモ動画で想定する開発フローを掴んでから広げるのが安全です。 まとめ MASFactory は、マルチエージェントの設計・可視化・実行を一本化したい人向けの基盤です。エージェントワークフローを丁寧に組みたい場面で、かなり筋の良い repo です。 参照リンク https://github.com/BUPT-GAMMA/MASFactory https://masfactory.dev https://docs.masfactory.dev/ https://arxiv.org/abs/2603.06007 入力元 URL Shared GitHub Serial: #686"
+    },
     {
       "slug": "2026-06-02-DannyMac180-skills-pickup",
       "category": "github-pickup",

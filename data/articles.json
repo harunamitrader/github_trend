@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-02-BUPT-GAMMA-MASFactory-pickup",
+      "title": "MASFactory",
+      "dek": "自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。",
+      "summary": "マルチエージェントの設計・可視化・実行を一つにまとめたい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T19:07:33.6645140+09:00",
+      "repoName": "BUPT-GAMMA/MASFactory",
+      "repoUrl": "https://github.com/BUPT-GAMMA/MASFactory",
+      "starCount": 406,
+      "articleUrl": "./articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html",
+      "serial": 686,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-02-DannyMac180-skills-pickup",
       "title": "skills",
       "dek": "AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Jun 2026 10:04:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:08:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[MASFactory]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[エージェントのメモリ研究を Short-Term / Long-Term / Experience / Memory の軸で整理した論文カタログ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[HY-World-2.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-Tencent-Hunyuan-HY-World-2.0-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。]]></description>
     </item>
   </channel>
 </rss>
