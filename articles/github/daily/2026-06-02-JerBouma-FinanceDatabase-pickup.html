@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>FinanceDatabase</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">FinanceDatabase</h1>
+      <p class="article-dek">300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-02 -->
+          <strong>2026-06-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/JerBouma/FinanceDatabase" target="_blank" rel="noreferrer">
+              JerBouma/FinanceDatabase
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,735</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>FinanceDatabase は、株式、ETF、投資信託、指数、通貨、暗号資産、マネーマーケットを横断してまとめた金融商品データベースです。README では 30 万件超のシンボルを扱うと案内されており、まず「市場に何が存在するか」を広く把握するための土台になります。</p>
+
+        <h2>何ができるか</h2>
+        <p>銘柄の分類や探索をしやすくし、地域や商品種別ごとのユニバースを作るときに使えます。個別銘柄の最新価格やファンダメンタルズを持つ道具ではなく、分析の前段で対象を絞り込むための参照データとして働きます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>CSV を中心に管理されていて、コミュニティが手で更新しやすい設計なのが特徴です。FinanceToolkit と組み合わせる前提が明確なので、データの整理と実分析を分担しやすい構成になっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは <code>pip install financedatabase -U</code> で導入し、Python から <code>import financedatabase as fd</code> します。その後、必要な資産クラスを初期化して、業種・国・取引所などの条件で対象を絞り込む流れが自然です。詳細な出力例は README の Usage と公式ドキュメントで確認できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>投資ユニバースを整えたい個人投資家、銘柄マスタを作りたいクオンツ、金融系の検索や分類機能を実装するデータエンジニアに向いています。銘柄の母集団をきれいに扱いたい場面で役立ちます。</p>
+
+        <h2>注意点</h2>
+        <p>この repo はリアルタイム配信や指標更新を狙ったものではありません。データの新しさや網羅性はコミュニティ更新に依存するため、運用前にライセンスと更新方針を確認しておくのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>FinanceDatabase は、金融商品の「一覧性」と「分類」を強くしたい人向けの基盤データです。分析の入口を整える用途ではかなり使いやすい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/JerBouma/FinanceDatabase" target="_blank" rel="noreferrer">https://github.com/JerBouma/FinanceDatabase</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.jeroenbouma.com/projects/financedatabase" target="_blank" rel="noreferrer">https://www.jeroenbouma.com/projects/financedatabase</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/JerBouma/FinanceToolkit" target="_blank" rel="noreferrer">https://github.com/JerBouma/FinanceToolkit</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/JerBouma/FinanceDatabase" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #684</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-02-JerBouma-FinanceDatabase-pickup",
+      "title": "FinanceDatabase",
+      "dek": "300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。",
+      "summary": "金融商品の一覧性と分類を強め、分析の入口を整えたい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T15:40:37.0394458+09:00",
+      "repoName": "JerBouma/FinanceDatabase",
+      "repoUrl": "https://github.com/JerBouma/FinanceDatabase",
+      "starCount": 7735,
+      "articleUrl": "./articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html",
+      "serial": 684,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-02-farion1231-cc-switch-pickup",
       "title": "cc-switch",
       "dek": "Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。",

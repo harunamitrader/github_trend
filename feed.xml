@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2026 22:09:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 15:42:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[FinanceDatabase]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。]]></description>
+    </item>
     <item>
       <title><![CDATA[cc-switch]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.158 の Auto mode 拡張と、Cline CLI v3.0.15 の Cline Hub / AGENTS rules 追加をまとめた 2026-05-31 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FlClash]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-chen08209-FlClash.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-05-31-chen08209-FlClash.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ClashMeta ベースのクロスプラットフォーム proxy client。WebDAV 同期と Material You 対応を備えた実用派です。]]></description>
     </item>
   </channel>
 </rss>

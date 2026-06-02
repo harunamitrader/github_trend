@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-01T22:08:37.881100+00:00",
-  "count": 747,
+  "generatedAt": "2026-06-02T06:41:32.150051+00:00",
+  "count": 748,
   "articles": [
+    {
+      "slug": "2026-06-02-JerBouma-FinanceDatabase-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "FinanceDatabase",
+      "dek": "300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。",
+      "summary": "金融商品の一覧性と分類を強め、分析の入口を整えたい人向けの pickup 記事です。",
+      "repoName": "JerBouma/FinanceDatabase",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T15:40:37.0394458+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html",
+      "serial": 684,
+      "searchText": "FinanceDatabase 300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。 金融商品の一覧性と分類を強め、分析の入口を整えたい人向けの pickup 記事です。 JerBouma/FinanceDatabase 金融・トレード分析 FinanceDatabase ← 記事一覧へ戻る GitHub Watcher FinanceDatabase 300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。 記事作成日 2026-06-02 種別 Pickup 対象 repo JerBouma/FinanceDatabase Star数 7,735 これは何か FinanceDatabase は、株式、ETF、投資信託、指数、通貨、暗号資産、マネーマーケットを横断してまとめた金融商品データベースです。README では 30 万件超のシンボルを扱うと案内されており、まず「市場に何が存在するか」を広く把握するための土台になります。 何ができるか 銘柄の分類や探索をしやすくし、地域や商品種別ごとのユニバースを作るときに使えます。個別銘柄の最新価格やファンダメンタルズを持つ道具ではなく、分析の前段で対象を絞り込むための参照データとして働きます。 目立つポイント CSV を中心に管理されていて、コミュニティが手で更新しやすい設計なのが特徴です。FinanceToolkit と組み合わせる前提が明確なので、データの整理と実分析を分担しやすい構成になっています。 セットアップや使い方の流れ まずは pip install financedatabase -U で導入し、Python から import financedatabase as fd します。その後、必要な資産クラスを初期化して、業種・国・取引所などの条件で対象を絞り込む流れが自然です。詳細な出力例は README の Usage と公式ドキュメントで確認できます。 どんな人向けか 投資ユニバースを整えたい個人投資家、銘柄マスタを作りたいクオンツ、金融系の検索や分類機能を実装するデータエンジニアに向いています。銘柄の母集団をきれいに扱いたい場面で役立ちます。 注意点 この repo はリアルタイム配信や指標更新を狙ったものではありません。データの新しさや網羅性はコミュニティ更新に依存するため、運用前にライセンスと更新方針を確認しておくのが安全です。 まとめ FinanceDatabase は、金融商品の「一覧性」と「分類」を強くしたい人向けの基盤データです。分析の入口を整える用途ではかなり使いやすい repo です。 参照リンク https://github.com/JerBouma/FinanceDatabase https://www.jeroenbouma.com/projects/financedatabase https://github.com/JerBouma/FinanceToolkit 入力元 URL Shared GitHub Serial: #684"
+    },
     {
       "slug": "2026-06-02-farion1231-cc-switch-pickup",
       "category": "github-pickup",
