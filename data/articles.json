@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-03-ai-coding-tools-update",
+      "title": "2026-06-03 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.160、Gemini CLI nightly、Codex Sites の新着をまとめた 2026-06-03 の監視ログです。",
+      "summary": "Claude Code、Gemini CLI、Codex の新しい公式更新を整理した 2026-06-03 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T04:04:46.9912207+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Gemini CLI, Codex",
+      "articleUrl": "./articles/tools/2026-06-03-ai-coding-tools-update.html",
+      "serial": 631,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-02-synapseorch-ai-synapse-ai-pickup",
       "title": "synapse-ai",
