@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-02-DannyMac180-skills-pickup",
+      "title": "skills",
+      "dek": "AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。",
+      "summary": "AI エージェントの作業手順をスキルとして再利用したい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T15:47:12+09:00",
+      "repoName": "DannyMac180/skills",
+      "repoUrl": "https://github.com/DannyMac180/skills",
+      "starCount": 351,
+      "articleUrl": "./articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html",
+      "serial": 685,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-02-JerBouma-FinanceDatabase-pickup",
       "title": "FinanceDatabase",
       "dek": "300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Jun 2026 06:43:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 19:03:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。]]></description>
+    </item>
     <item>
       <title><![CDATA[FinanceDatabase]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[テキスト・画像・動画から 3D 世界を生成・再構成し、WorldMirror 2.0 と WorldStereo 2.0 で 3D 資産まで扱える Tencent の world model。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-05-31 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-31-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-05-31-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.158 の Auto mode 拡張と、Cline CLI v3.0.15 の Cline Hub / AGENTS rules 追加をまとめた 2026-05-31 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>

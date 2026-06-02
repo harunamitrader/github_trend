@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-02T06:41:32.150051+00:00",
-  "count": 748,
+  "generatedAt": "2026-06-02T10:03:17.969774+00:00",
+  "count": 749,
   "articles": [
+    {
+      "slug": "2026-06-02-DannyMac180-skills-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "skills",
+      "dek": "AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。",
+      "summary": "AI エージェントの作業手順をスキルとして再利用したい人向けの pickup 記事です。",
+      "repoName": "DannyMac180/skills",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T15:47:12+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html",
+      "serial": 685,
+      "searchText": "skills AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。 AI エージェントの作業手順をスキルとして再利用したい人向けの pickup 記事です。 DannyMac180/skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) skills ← 記事一覧へ戻る GitHub Watcher skills AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。 記事作成日 2026-06-02 種別 Pickup 対象 repo DannyMac180/skills Star数 351 これは何か skills は、DannyMac180 が公開している AI agent skills の配布 repo です。README では、現時点で `codex-dynamic-workflows` が案内されており、Codex のようなスキル対応エージェントにそのまま導入する前提がはっきりしています。 何ができるか 外部のスキル定義をそのまま取り込み、計画付きのワークフローや承認ゲートを持つ作業を回しやすくします。エージェント本体の機能を増やすというより、作業の進め方そのものを拡張する用途に向いています。 目立つポイント repo 全体が軽く、導入手順が README にまとまっているので試しやすいです。インストール例も `https://github.com/DannyMac180/skills/tree/main/codex-dynamic-workflows` のように具体的で、どのスキルを入れるかをそのまま指定できます。 セットアップや使い方の流れ GitHub URL を使って対象のスキルをインストールし、新しいセッションで呼び出します。README にあるように、Codex では `Use $codex-dynamic-workflows ...` の形で指示を始める流れが想定されています。 どんな人向けか AI エージェントの動き方を標準化したい人、計画と検証を含む手順を再利用したい人、スキル配布の実例を探している人に向いています。単発の便利ツールというより、運用テンプレートを増やしたい場面で効きます。 注意点 repo 自体はスキル置き場なので、導入後の挙動は使うエージェント側の実装に依存します。README に書かれた手順と対応環境を確認してから使うのが安全です。 まとめ skills は、AI エージェント向けの再利用可能な作業手順を配る repo です。スキルベースで作業を組みたい人には、入口として見ておく価値があります。 参照リンク https://github.com/DannyMac180/skills https://github.com/DannyMac180/skills/tree/main/codex-dynamic-workflows 入力元 URL Shared GitHub Serial: #685"
+    },
     {
       "slug": "2026-06-02-JerBouma-FinanceDatabase-pickup",
       "category": "github-pickup",
