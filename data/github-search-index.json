@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-02T10:56:04.068172+00:00",
-  "count": 751,
+  "generatedAt": "2026-06-02T22:36:02.641635+00:00",
+  "count": 752,
   "articles": [
+    {
+      "slug": "2026-06-03-zakirullin-files.md-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "files.md",
+      "dek": "files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。",
+      "summary": "Markdown を主軸に、記録と思考を軽くつなぎたい人向けの pickup 記事です。",
+      "repoName": "zakirullin/files.md",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T07:35:10.4472581+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-03-zakirullin-files.md-pickup.html",
+      "serial": 688,
+      "searchText": "files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 Markdown を主軸に、記録と思考を軽くつなぎたい人向けの pickup 記事です。 zakirullin/files.md ナレッジ管理・RAG解析 files.md ← 記事一覧へ戻る GitHub Watcher files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 記事作成日 2026-06-03 種別 Pickup 対象 repo zakirullin/files.md Star数 3,219 これは何か files.md は、`web/index.html` から開けるブラウザベースのローカルファーストな Markdown アプリです。README では、メモ、ドキュメント、日記、チェックリストを「端末の上の plain `.md` ファイル」として扱う設計だと説明されています。 何ができるか チャット入力から思考をそのまま書き込み、あとで Note、Journal、Tasks、Checklists に振り分けられます。さらに、ローカルフォルダ、iCloud / Dropbox / Google Drive、セルフホストの同期サーバー、ホスト型サーバーという複数の同期方法を選べます。 目立つポイント インストール不要で、オフラインでも使える点が大きいです。コードベースを小さく保ち、「一人か LLM で全体を把握できる」ことを強く意識しているので、重たい PKM ツールよりも軽い思考補助として使いやすい作りです。 セットアップや使い方の流れ まず app.files.md を開き、右側の \"Install files.md\" を押します。次に保存先のローカルフォルダを開き、必要なら同期方式を選びます。入力は `Cmd+Enter` の chat から始めるのが一番わかりやすいです。 どんな人向けか データを手元に置いたまま、Markdown で軽く記録したい人に向いています。Second Brain を盛りすぎず、ノート、タスク、日記を最小限の導線で回したい人とは相性が良いです。 注意点 README でも触れられている通り、Chrome 系ブラウザの File System API が一番扱いやすいです。機能はシンプルですが、同期方式やファイルの置き方を理解して使う前提なので、最初から複雑な構成にしすぎない方が運用しやすいです。 まとめ files.md は、Markdown ファイルを中心に「記録」と「思考」をつなぐための軽い基盤です。データをローカルに置きつつ、必要なら同期や bot 連携も使いたい人に合います。 参照リンク https://github.com/zakirullin/files.md https://app.files.md https://files.md 入力元 URL Shared GitHub Serial: #688"
+    },
     {
       "slug": "2026-06-02-synapseorch-ai-synapse-ai-pickup",
       "category": "github-pickup",

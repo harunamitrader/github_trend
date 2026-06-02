@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-03-zakirullin-files.md-pickup",
+      "title": "files.md",
+      "dek": "files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。",
+      "summary": "Markdown を主軸に、記録と思考を軽くつなぎたい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T07:35:10.4472581+09:00",
+      "repoName": "zakirullin/files.md",
+      "repoUrl": "https://github.com/zakirullin/files.md",
+      "starCount": 3219,
+      "articleUrl": "./articles/github/daily/2026-06-03-zakirullin-files.md-pickup.html",
+      "serial": 688,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-03-ai-coding-tools-update",
       "title": "2026-06-03 AIコーディングツール アップデート",
