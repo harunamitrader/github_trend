@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T19:50:01.499166+00:00",
-  "count": 757,
+  "generatedAt": "2026-06-03T21:06:42.173779+00:00",
+  "count": 758,
   "articles": [
+    {
+      "slug": "2026-06-04-MaxMiksa-Auto-Company",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Auto-Company",
+      "dek": "14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。",
+      "summary": "企画から実装、公開までを AI エージェント群で回す実験的な Auto-Company を紹介する記事です。",
+      "repoName": "MaxMiksa/Auto-Company",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T06:05:54+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-MaxMiksa-Auto-Company.html",
+      "serial": 693,
+      "searchText": "Auto-Company 14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。 企画から実装、公開までを AI エージェント群で回す実験的な Auto-Company を紹介する記事です。 MaxMiksa/Auto-Company AIエージェント (自律基盤・特化アプリ) Auto-Company ← 記事一覧へ戻る GitHub Watcher Auto-Company 14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。 記事作成日 2026-06-04 種別 Pickup 対象 repo MaxMiksa/Auto-Company Star数 965 これは何か Auto-Company は、個人の PC 上で 24/7 に動く自律型の AI 会社を目指す実験的な repo です。README では、14 人の専門役割を持つ AI エージェントが連携し、macOS、Windows、Linux の各環境で動かす構成が説明されています。 何ができるか 企画の立案、意思決定、コード作成、デプロイ、マーケティングまでを分担させ、少人数では回しにくい作業を連続して進められるようにします。人が毎回細かく指示しなくても、会社運営に必要な流れを自動で回すのが主眼です。 目立つポイント Agentic Workflows を前提にした多層構造で、エージェントの役割分担がかなり明確です。ダッシュボードや共有メモを中心に進行を追えるため、完全なブラックボックスではなく、運用状態を確認しながら使える設計になっています。 セットアップや使い方の流れ まずは repo を clone し、README にある起動手順に従って foreground で試します。Windows では `scripts/windows/start-win.ps1` 系の起動スクリプト、macOS や WSL では `make start` といった流れで、まずは短いサイクルで挙動を確認するのが現実的です。 どんな人向けか 自律エージェントの運用設計を試したい人、マルチエージェントの分業構造を学びたい人、実験的でも実際に動く AI 会社の構成を見たい人に向いています。単体の便利ツールというより、運用システムの雛形を探すときに価値があります。 注意点 README でも実験的な性格が強く、モデル利用コストや権限管理は無視できません。完全自動で任せる前に、どこまでを自動化し、どこを人が確認するかを決めておく必要があります。 まとめ Auto-Company は、AI エージェントを会社のように分業させる発想をそのまま形にした repo です。自律基盤の実例として、設計の考え方をつかむ用途に向いています。 参照リンク https://github.com/MaxMiksa/Auto-Company 入力元 URL Shared GitHub Serial: #693"
+    },
     {
       "slug": "2026-06-04-update-report",
       "category": "github-update-report",

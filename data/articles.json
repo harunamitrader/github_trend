@@ -3,9 +3,25 @@
     "title": "harunami AI base",
     "description": "AI・開発・投資・GitHubトレンド・ツールの情報を発信する個人ベースキャンプ",
     "trendingUrl": "https://github.com/trending",
-    "repoUrl": "https://github.com/harunamitrader/harunami_AI_base"
+  "repoUrl": "https://github.com/harunamitrader/harunami_AI_base"
   },
   "articles": [
+    {
+      "category": "github-pickup",
+      "slug": "2026-06-04-MaxMiksa-Auto-Company",
+      "title": "Auto-Company",
+      "dek": "14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。",
+      "summary": "企画から実装、公開までを AI エージェント群で回す実験的な Auto-Company を紹介する記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T06:05:54+09:00",
+      "repoName": "MaxMiksa/Auto-Company",
+      "repoUrl": "https://github.com/MaxMiksa/Auto-Company",
+      "starCount": 965,
+      "articleUrl": "./articles/github/daily/2026-06-04-MaxMiksa-Auto-Company.html",
+      "serial": 693,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
     {
       "category": "github-update-report",
       "slug": "2026-06-04-update-report",
