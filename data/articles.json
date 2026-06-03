@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-03-microsoft-intelligent-terminal-pickup",
+      "title": "intelligent-terminal",
+      "dek": "intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。",
+      "summary": "ターミナル中心で AI エージェントを使いたい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T19:56:16.0817276+09:00",
+      "repoName": "microsoft/intelligent-terminal",
+      "repoUrl": "https://github.com/microsoft/intelligent-terminal",
+      "starCount": 203,
+      "articleUrl": "./articles/github/daily/2026-06-03-microsoft-intelligent-terminal-pickup.html",
+      "serial": 691,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-03-DenisSergeevitch-agents-best-practices-pickup",
       "title": "agents-best-practices",
       "dek": "agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。",

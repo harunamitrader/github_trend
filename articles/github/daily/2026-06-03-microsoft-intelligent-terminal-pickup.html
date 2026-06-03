@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>intelligent-terminal</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">intelligent-terminal</h1>
+      <p class="article-dek">intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-03 -->
+          <strong>2026-06-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/intelligent-terminal" target="_blank" rel="noreferrer">
+              microsoft/intelligent-terminal
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>203</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>intelligent-terminal は、Windows Terminal の実験的な fork で、ネイティブにエージェント統合を入れたプロジェクトです。README では、ACP 互換の agent CLI を既存のターミナル体験にそのまま差し込む構成として説明されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>タブ、プロファイル、テーマ、ショートカットといった Windows Terminal の基本機能を保ったまま、エージェントパネル、ステータスバー、エラー検出、エージェント管理を扱えます。コマンドを投げるだけでなく、会話しながら作業の流れを保てるのが特徴です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最初の起動で使う agent CLI を選べる設計がわかりやすいです。既定は GitHub Copilot CLI ですが、Copilot / Claude / Codex / Gemini などの ACP 対応 CLI を前提にしており、Microsoft 側の専用クラウド API には寄せていません。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Windows 11 22H2 以降で、Microsoft Store、winget、または配布バイナリから導入します。起動後はエージェントを選び、必要なら認証を済ませて、<code>Ctrl+Shift+.</code> でパネルを開きながら質問や指示を投げます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ターミナルを中心に AI エージェント作業を回したい人に向いています。専用チャットを別に開くより、シェルの文脈を見ながら agent と往復したい人にはかなり相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>実験版なので、導入条件や挙動は今後変わる前提で見た方が安全です。README にある通り、選ぶ agent CLI によってデータの扱い方やプライバシー条件も変わるため、実運用では自分の CLI 側の設定確認が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>intelligent-terminal は、Windows Terminal を「AI エージェント付きの作業台」に寄せる試みです。ターミナル主導でエージェントを使いたい人にとって、今後のベースになりそうな repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/intelligent-terminal" target="_blank" rel="noreferrer">https://github.com/microsoft/intelligent-terminal</a>
+        </div>
+        <div class="source-item">
+          <a href="https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1/" target="_blank" rel="noreferrer">https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1/</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/intelligent-terminal/blob/main/README.md" target="_blank" rel="noreferrer">https://github.com/microsoft/intelligent-terminal/blob/main/README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/intelligent-terminal" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #691</p>
+      </div>
+    </article>
+  </body>
+</html>

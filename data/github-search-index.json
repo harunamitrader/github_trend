@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T06:33:03.575198+00:00",
-  "count": 754,
+  "generatedAt": "2026-06-03T10:56:55.928226+00:00",
+  "count": 755,
   "articles": [
+    {
+      "slug": "2026-06-03-microsoft-intelligent-terminal-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "intelligent-terminal",
+      "dek": "intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。",
+      "summary": "ターミナル中心で AI エージェントを使いたい人向けの pickup 記事です。",
+      "repoName": "microsoft/intelligent-terminal",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T19:56:16.0817276+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-03-microsoft-intelligent-terminal-pickup.html",
+      "serial": 691,
+      "searchText": "intelligent-terminal intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。 ターミナル中心で AI エージェントを使いたい人向けの pickup 記事です。 microsoft/intelligent-terminal AIコーディング (CLI本体・拡張機能) intelligent-terminal ← 記事一覧へ戻る GitHub Watcher intelligent-terminal intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。 記事作成日 2026-06-03 種別 Pickup 対象 repo microsoft/intelligent-terminal Star数 203 これは何か intelligent-terminal は、Windows Terminal の実験的な fork で、ネイティブにエージェント統合を入れたプロジェクトです。README では、ACP 互換の agent CLI を既存のターミナル体験にそのまま差し込む構成として説明されています。 何ができるか タブ、プロファイル、テーマ、ショートカットといった Windows Terminal の基本機能を保ったまま、エージェントパネル、ステータスバー、エラー検出、エージェント管理を扱えます。コマンドを投げるだけでなく、会話しながら作業の流れを保てるのが特徴です。 目立つポイント 最初の起動で使う agent CLI を選べる設計がわかりやすいです。既定は GitHub Copilot CLI ですが、Copilot / Claude / Codex / Gemini などの ACP 対応 CLI を前提にしており、Microsoft 側の専用クラウド API には寄せていません。 セットアップや使い方の流れ Windows 11 22H2 以降で、Microsoft Store、winget、または配布バイナリから導入します。起動後はエージェントを選び、必要なら認証を済ませて、 Ctrl+Shift+. でパネルを開きながら質問や指示を投げます。 どんな人向けか ターミナルを中心に AI エージェント作業を回したい人に向いています。専用チャットを別に開くより、シェルの文脈を見ながら agent と往復したい人にはかなり相性が良いです。 注意点 実験版なので、導入条件や挙動は今後変わる前提で見た方が安全です。README にある通り、選ぶ agent CLI によってデータの扱い方やプライバシー条件も変わるため、実運用では自分の CLI 側の設定確認が必要です。 まとめ intelligent-terminal は、Windows Terminal を「AI エージェント付きの作業台」に寄せる試みです。ターミナル主導でエージェントを使いたい人にとって、今後のベースになりそうな repo です。 参照リンク https://github.com/microsoft/intelligent-terminal https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1/ https://github.com/microsoft/intelligent-terminal/blob/main/README.md 入力元 URL Shared GitHub Serial: #691"
+    },
     {
       "slug": "2026-06-03-DenisSergeevitch-agents-best-practices-pickup",
       "category": "github-pickup",
