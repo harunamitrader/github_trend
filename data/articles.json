@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-03-actualbudget-actual-pickup",
+      "title": "actual",
+      "dek": "actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。",
+      "summary": "家計管理をクラウドに預けたくない人向けの pickup 記事です。",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T12:04:46.4108331+09:00",
+      "repoName": "actualbudget/actual",
+      "repoUrl": "https://github.com/actualbudget/actual",
+      "starCount": 26790,
+      "articleUrl": "./articles/github/daily/2026-06-03-actualbudget-actual-pickup.html",
+      "serial": 689,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-03-zakirullin-files.md-pickup",
       "title": "files.md",
       "dek": "files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。",

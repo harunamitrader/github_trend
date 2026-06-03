@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-02T22:36:02.641635+00:00",
-  "count": 752,
+  "generatedAt": "2026-06-03T03:05:09.439270+00:00",
+  "count": 753,
   "articles": [
+    {
+      "slug": "2026-06-03-actualbudget-actual-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "actual",
+      "dek": "actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。",
+      "summary": "家計管理をクラウドに預けたくない人向けの pickup 記事です。",
+      "repoName": "actualbudget/actual",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T12:04:46.4108331+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-03-actualbudget-actual-pickup.html",
+      "serial": 689,
+      "searchText": "actual actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。 家計管理をクラウドに預けたくない人向けの pickup 記事です。 actualbudget/actual 金融・トレード分析 actual ← 記事一覧へ戻る GitHub Watcher actual actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。 記事作成日 2026-06-03 種別 Pickup 対象 repo actualbudget/actual Star数 26,790 これは何か Actual は、家計や予算をローカルファーストで扱えるパーソナルファイナンスアプリです。README では、Node.js で書かれた 100% 無料・オープンソースのツールとして紹介されており、データを手元に置いたまま使える点が強調されています。 何ができるか 予算管理、口座管理、日々の支出の整理を一つのアプリで回せます。さらに、デバイス間同期を前提にした構成も用意されているので、単なるローカル家計簿ではなく、複数端末で継続運用しやすいのが特徴です。 目立つポイント ホスティング方法が複数あり、PikaPods、Fly.io、Docker、自分の端末だけで動かすローカル版まで選べます。README の導線も「まず試す」「次に移行する」が分かりやすく、導入の心理的ハードルが低いです。 セットアップや使い方の流れ まずは公式サイトの actualbudget.org か、README にある導入手順から始めます。非技術者なら PikaPods のワンクリック導入、技術寄りなら Docker かローカルアプリを選ぶのが現実的です。 どんな人向けか 家計や支出を、クラウド依存を抑えながら管理したい人に向いています。既存の家計簿アプリに物足りなさがあり、データの所有権や移行性を重視する人とは相性が良いです。 注意点 選べる導入経路が多いぶん、最初に「ローカルのみで使うのか」「同期まで使うのか」を決めておくと迷いにくいです。情報は英語中心なので、README と docs を軽く追う前提で見ると使いやすくなります。 まとめ actual は、家計管理をクラウドの都合に合わせたくない人向けの実用的な選択肢です。ローカルファーストと同期の両立を求めるなら、かなり筋の良いプロジェクトです。 参照リンク https://github.com/actualbudget/actual https://actualbudget.org https://actualbudget.org/docs 入力元 URL Shared GitHub Serial: #689"
+    },
     {
       "slug": "2026-06-03-zakirullin-files.md-pickup",
       "category": "github-pickup",
@@ -15,7 +30,7 @@
       "createdAt": "2026-06-03T07:35:10.4472581+09:00",
       "articleUrl": "./articles/github/daily/2026-06-03-zakirullin-files.md-pickup.html",
       "serial": 688,
-      "searchText": "files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 Markdown を主軸に、記録と思考を軽くつなぎたい人向けの pickup 記事です。 zakirullin/files.md ナレッジ管理・RAG解析 files.md ← 記事一覧へ戻る GitHub Watcher files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 記事作成日 2026-06-03 種別 Pickup 対象 repo zakirullin/files.md Star数 3,219 これは何か files.md は、`web/index.html` から開けるブラウザベースのローカルファーストな Markdown アプリです。README では、メモ、ドキュメント、日記、チェックリストを「端末の上の plain `.md` ファイル」として扱う設計だと説明されています。 何ができるか チャット入力から思考をそのまま書き込み、あとで Note、Journal、Tasks、Checklists に振り分けられます。さらに、ローカルフォルダ、iCloud / Dropbox / Google Drive、セルフホストの同期サーバー、ホスト型サーバーという複数の同期方法を選べます。 目立つポイント インストール不要で、オフラインでも使える点が大きいです。コードベースを小さく保ち、「一人か LLM で全体を把握できる」ことを強く意識しているので、重たい PKM ツールよりも軽い思考補助として使いやすい作りです。 セットアップや使い方の流れ まず app.files.md を開き、右側の \"Install files.md\" を押します。次に保存先のローカルフォルダを開き、必要なら同期方式を選びます。入力は `Cmd+Enter` の chat から始めるのが一番わかりやすいです。 どんな人向けか データを手元に置いたまま、Markdown で軽く記録したい人に向いています。Second Brain を盛りすぎず、ノート、タスク、日記を最小限の導線で回したい人とは相性が良いです。 注意点 README でも触れられている通り、Chrome 系ブラウザの File System API が一番扱いやすいです。機能はシンプルですが、同期方式やファイルの置き方を理解して使う前提なので、最初から複雑な構成にしすぎない方が運用しやすいです。 まとめ files.md は、Markdown ファイルを中心に「記録」と「思考」をつなぐための軽い基盤です。データをローカルに置きつつ、必要なら同期や bot 連携も使いたい人に合います。 参照リンク https://github.com/zakirullin/files.md https://app.files.md https://files.md 入力元 URL Shared GitHub Serial: #688"
+      "searchText": "files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 Markdown を主軸に、記録と思考を軽くつなぎたい人向けの pickup 記事です。 zakirullin/files.md ナレッジ管理・RAG解析 files.md ← 記事一覧へ戻る GitHub Watcher files.md files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。 記事作成日 2026-06-03 種別 Pickup 対象 repo zakirullin/files.md Star数 3,219 これは何か files.md は、 web/index.html から開けるブラウザベースのローカルファーストな Markdown アプリです。README では、メモ、ドキュメント、日記、チェックリストを「端末の上の plain .md ファイル」として扱う設計だと説明されています。 何ができるか チャット入力から思考をそのまま書き込み、あとで Note、Journal、Tasks、Checklists に振り分けられます。さらに、ローカルフォルダ、iCloud / Dropbox / Google Drive、セルフホストの同期サーバー、ホスト型サーバーという複数の同期方法を選べます。 目立つポイント インストール不要で、オフラインでも使える点が大きいです。コードベースを小さく保ち、「一人か LLM で全体を把握できる」ことを強く意識しているので、重たい PKM ツールよりも軽い思考補助として使いやすい作りです。 セットアップや使い方の流れ まず app.files.md を開き、右側の \"Install files.md\" を押します。次に保存先のローカルフォルダを開き、必要なら同期方式を選びます。入力は Cmd+Enter の chat から始めるのが一番わかりやすいです。 どんな人向けか データを手元に置いたまま、Markdown で軽く記録したい人に向いています。Second Brain を盛りすぎず、ノート、タスク、日記を最小限の導線で回したい人とは相性が良いです。 注意点 README でも触れられている通り、Chrome 系ブラウザの File System API が一番扱いやすいです。機能はシンプルですが、同期方式やファイルの置き方を理解して使う前提なので、最初から複雑な構成にしすぎない方が運用しやすいです。 まとめ files.md は、Markdown ファイルを中心に「記録」と「思考」をつなぐための軽い基盤です。データをローカルに置きつつ、必要なら同期や bot 連携も使いたい人に合います。 参照リンク https://github.com/zakirullin/files.md https://app.files.md https://files.md 入力元 URL Shared GitHub Serial: #688"
     },
     {
       "slug": "2026-06-02-synapseorch-ai-synapse-ai-pickup",
