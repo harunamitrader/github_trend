@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T21:45:36.238462+00:00",
-  "count": 759,
+  "generatedAt": "2026-06-03T22:10:54.834768+00:00",
+  "count": 760,
   "articles": [
+    {
+      "slug": "2026-06-04-openclaw-openclaw-windows-node",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "openclaw-windows-node",
+      "dek": "OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。",
+      "summary": "OpenClaw を Windows で運用するときのトレイ UI、ノード接続、権限管理を整理した pickup 記事です。",
+      "repoName": "openclaw/openclaw-windows-node",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T07:10:14+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html",
+      "serial": 695,
+      "searchText": "openclaw-windows-node OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。 OpenClaw を Windows で運用するときのトレイ UI、ノード接続、権限管理を整理した pickup 記事です。 openclaw/openclaw-windows-node AIエージェント (自律基盤・特化アプリ) openclaw-windows-node ← 記事一覧へ戻る GitHub Watcher openclaw-windows-node OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。 記事作成日 2026-06-04 種別 Pickup 対象 repo openclaw/openclaw-windows-node Star数 970 これは何か openclaw-windows-node は、OpenClaw の Windows companion suite です。README では、システムトレイアプリ、共有ライブラリ、CLI、PowerToys Command Palette 拡張をまとめた構成になっていて、Windows から OpenClaw を扱いやすくする役割が明確です。 何ができるか トレイから接続状態や各種ページを開けるほか、Quick Send、Activity、Command Center、Settings などへすばやく移動できます。Node Mode を有効にすると、Windows PC を OpenClaw エージェントが操作する対象として使える点が特徴です。 目立つポイント 単なる補助アプリではなく、Node Mode と Gateway の橋渡しを担う構成になっています。WebView2、通知、トレイ、深いリンクを組み合わせて、Windows 側の操作を一つの入口に集約しているのが分かりやすいです。 セットアップや使い方の流れ README どおり、まずは docs/SETUP.md を見て前提条件をそろえます。Windows 10/11、.NET 10 SDK、WebView2 Runtime を用意し、必要なら build.ps1 でビルドして、OpenClaw Gateway への接続を設定する流れです。 どんな人向けか OpenClaw を Windows で常用したい人、ローカルのエージェント操作をトレイ中心で回したい人、Node Mode の導線を確認したい人に向いています。開発者だけでなく、実運用で使う側の入り口としても分かりやすい repo です。 注意点 Windows 前提の機能が多く、WebView2 や権限設定、Gateway 側の許可設定に依存します。Node Mode の便利さは大きい一方で、許可範囲を曖昧にしたまま使うと安全性が落ちるので、allowCommands の整理は先に必要です。 まとめ openclaw-windows-node は、OpenClaw を Windows で実用化するための接続ハブです。AI エージェントを PC に接続して扱う導線を確認したいなら、入口として押さえる価値があります。 参照リンク https://github.com/openclaw/openclaw-windows-node https://github.com/openclaw/openclaw-windows-node/blob/master/docs/SETUP.md 入力元 URL Shared GitHub Serial: #695"
+    },
     {
       "slug": "2026-06-04-pmorissette-ffn",
       "category": "github-pickup",

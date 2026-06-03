@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 21:46:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 07:10:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openclaw-windows-node]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。]]></description>
+    </item>
     <item>
       <title><![CDATA[ffn]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-pmorissette-ffn.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[機械学習でアルゴリズム取引を実践するための書籍連動ノート群です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[fff]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-dmtrKovalenko-fff.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-dmtrKovalenko-fff.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けファイル検索を高速化する Rust 製ツールキットです。]]></description>
     </item>
   </channel>
 </rss>

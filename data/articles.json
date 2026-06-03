@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-04-openclaw-openclaw-windows-node",
+      "title": "openclaw-windows-node",
+      "dek": "OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。",
+      "summary": "OpenClaw を Windows で運用するときのトレイ UI、ノード接続、権限管理を整理した pickup 記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T07:10:14+09:00",
+      "repoName": "openclaw/openclaw-windows-node",
+      "repoUrl": "https://github.com/openclaw/openclaw-windows-node",
+      "starCount": 970,
+      "articleUrl": "./articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html",
+      "serial": 695,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-04-pmorissette-ffn",
       "title": "ffn",
       "dek": "Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。",

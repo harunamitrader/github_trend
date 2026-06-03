@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openclaw-windows-node</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openclaw-windows-node</h1>
+      <p class="article-dek">OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-04 -->
+          <strong>2026-06-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openclaw/openclaw-windows-node" target="_blank" rel="noreferrer">
+              openclaw/openclaw-windows-node
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>970</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>openclaw-windows-node は、OpenClaw の Windows companion suite です。README では、システムトレイアプリ、共有ライブラリ、CLI、PowerToys Command Palette 拡張をまとめた構成になっていて、Windows から OpenClaw を扱いやすくする役割が明確です。</p>
+
+        <h2>何ができるか</h2>
+        <p>トレイから接続状態や各種ページを開けるほか、Quick Send、Activity、Command Center、Settings などへすばやく移動できます。Node Mode を有効にすると、Windows PC を OpenClaw エージェントが操作する対象として使える点が特徴です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる補助アプリではなく、Node Mode と Gateway の橋渡しを担う構成になっています。WebView2、通知、トレイ、深いリンクを組み合わせて、Windows 側の操作を一つの入口に集約しているのが分かりやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README どおり、まずは docs/SETUP.md を見て前提条件をそろえます。Windows 10/11、.NET 10 SDK、WebView2 Runtime を用意し、必要なら build.ps1 でビルドして、OpenClaw Gateway への接続を設定する流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>OpenClaw を Windows で常用したい人、ローカルのエージェント操作をトレイ中心で回したい人、Node Mode の導線を確認したい人に向いています。開発者だけでなく、実運用で使う側の入り口としても分かりやすい repo です。</p>
+
+        <h2>注意点</h2>
+        <p>Windows 前提の機能が多く、WebView2 や権限設定、Gateway 側の許可設定に依存します。Node Mode の便利さは大きい一方で、許可範囲を曖昧にしたまま使うと安全性が落ちるので、allowCommands の整理は先に必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>openclaw-windows-node は、OpenClaw を Windows で実用化するための接続ハブです。AI エージェントを PC に接続して扱う導線を確認したいなら、入口として押さえる価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw-windows-node" target="_blank" rel="noreferrer">https://github.com/openclaw/openclaw-windows-node</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw-windows-node/blob/master/docs/SETUP.md" target="_blank" rel="noreferrer">https://github.com/openclaw/openclaw-windows-node/blob/master/docs/SETUP.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw-windows-node" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #695</p>
+      </div>
+    </article>
+  </body>
+</html>
