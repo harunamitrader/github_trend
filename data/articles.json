@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-04-pmorissette-ffn",
+      "title": "ffn",
+      "dek": "Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。",
+      "summary": "quantitative finance の基本指標や可視化を手早く扱える ffn を紹介する記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T06:45:09+09:00",
+      "repoName": "pmorissette/ffn",
+      "repoUrl": "https://github.com/pmorissette/ffn",
+      "starCount": 2581,
+      "articleUrl": "./articles/github/daily/2026-06-04-pmorissette-ffn.html",
+      "serial": 694,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-04-MaxMiksa-Auto-Company",
       "title": "Auto-Company",
       "dek": "14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T21:06:42.173779+00:00",
-  "count": 758,
+  "generatedAt": "2026-06-03T21:45:36.238462+00:00",
+  "count": 759,
   "articles": [
+    {
+      "slug": "2026-06-04-pmorissette-ffn",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ffn",
+      "dek": "Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。",
+      "summary": "quantitative finance の基本指標や可視化を手早く扱える ffn を紹介する記事です。",
+      "repoName": "pmorissette/ffn",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T06:45:09+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-pmorissette-ffn.html",
+      "serial": 694,
+      "searchText": "ffn Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。 quantitative finance の基本指標や可視化を手早く扱える ffn を紹介する記事です。 pmorissette/ffn 金融・トレード分析 ffn ← 記事一覧へ戻る GitHub Watcher ffn Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。 記事作成日 2026-06-04 種別 Pickup 対象 repo pmorissette/ffn Star数 2,581 これは何か ffn は、Python で金融データの分析を進めるための function library です。README では、量的金融でよく使う指標や処理をまとめて扱えるようにしており、簡単に読み込んで使い始められることが示されています。 何ができるか 価格データからリターンを計算し、パフォーマンス指標やポートフォリオ評価をまとめて確認できます。backtest の補助や、比較対象の成績を素早く眺める用途に向いています。 目立つポイント 単体の指標計算だけでなく、quantitative finance の定番作業をひとまとめにしているのが便利です。README のサンプルでも、取得した銘柄群に対してリターンや重み付けの評価をそのまま行う流れがわかりやすく示されています。 セットアップや使い方の流れ まずは `pip install ffn` で入れ、Pandas の DataFrame に価格やリターンを載せて使います。README にある通り、分析用のデータを取得してから `to_returns()` や各種評価関数につなぐ流れが基本です。 どんな人向けか 投資検証を Python で素早く回したい人、金融データの基本指標を手元で見たい人、バックテスト前の下調べを簡潔に済ませたい人に向いています。重いフレームワークより、まずは手早い分析をしたい場面で役立ちます。 注意点 金融ライブラリなので、入力データの品質がそのまま結果に反映されます。用途によっては別のバックテスト基盤やデータ前処理を組み合わせないと、実運用レベルの検証には足りません。 まとめ ffn は、Python で金融分析の初速を上げるための実用的なライブラリです。個別の指標計算をまとめて扱いたいときに、まず確認したい repo です。 参照リンク https://github.com/pmorissette/ffn http://pmorissette.github.io/ffn/ 入力元 URL Shared GitHub Serial: #694"
+    },
     {
       "slug": "2026-06-04-MaxMiksa-Auto-Company",
       "category": "github-pickup",

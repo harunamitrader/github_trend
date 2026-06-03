@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ffn</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ffn</h1>
+      <p class="article-dek">Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-04 -->
+          <strong>2026-06-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/pmorissette/ffn" target="_blank" rel="noreferrer">
+              pmorissette/ffn
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,581</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ffn は、Python で金融データの分析を進めるための function library です。README では、量的金融でよく使う指標や処理をまとめて扱えるようにしており、簡単に読み込んで使い始められることが示されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>価格データからリターンを計算し、パフォーマンス指標やポートフォリオ評価をまとめて確認できます。backtest の補助や、比較対象の成績を素早く眺める用途に向いています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単体の指標計算だけでなく、quantitative finance の定番作業をひとまとめにしているのが便利です。README のサンプルでも、取得した銘柄群に対してリターンや重み付けの評価をそのまま行う流れがわかりやすく示されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `pip install ffn` で入れ、Pandas の DataFrame に価格やリターンを載せて使います。README にある通り、分析用のデータを取得してから `to_returns()` や各種評価関数につなぐ流れが基本です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>投資検証を Python で素早く回したい人、金融データの基本指標を手元で見たい人、バックテスト前の下調べを簡潔に済ませたい人に向いています。重いフレームワークより、まずは手早い分析をしたい場面で役立ちます。</p>
+
+        <h2>注意点</h2>
+        <p>金融ライブラリなので、入力データの品質がそのまま結果に反映されます。用途によっては別のバックテスト基盤やデータ前処理を組み合わせないと、実運用レベルの検証には足りません。</p>
+
+        <h2>まとめ</h2>
+        <p>ffn は、Python で金融分析の初速を上げるための実用的なライブラリです。個別の指標計算をまとめて扱いたいときに、まず確認したい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/pmorissette/ffn" target="_blank" rel="noreferrer">https://github.com/pmorissette/ffn</a>
+        </div>
+        <div class="source-item">
+          <a href="http://pmorissette.github.io/ffn/" target="_blank" rel="noreferrer">http://pmorissette.github.io/ffn/</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/pmorissette/ffn" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #694</p>
+      </div>
+    </article>
+  </body>
+</html>
