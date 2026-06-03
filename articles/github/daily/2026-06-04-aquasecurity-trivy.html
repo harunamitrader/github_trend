@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>trivy</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">trivy</h1>
+      <p class="article-dek">Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-04 -->
+          <strong>2026-06-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #3</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/aquasecurity/trivy" target="_blank" rel="noreferrer">
+              aquasecurity/trivy
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>35,335</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Trivy は、Aqua Security が公開している総合セキュリティスキャナです。コンテナイメージ、ファイルシステム、Git リポジトリ、仮想マシンイメージ、Kubernetes を対象に、脆弱性や設定不備をまとめて確認できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>OS パッケージや依存関係の SBOM、既知の CVE、IaC の設定ミス、秘密情報、ライセンスを一つの流れで見つけられます。セキュリティの入口をバラさずに、開発中の資産を横断的に点検できるのが強みです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>導入経路が広く、brew、Docker、バイナリ配布のどれでも始めやすいです。GitHub Actions、Kubernetes operator、VS Code plugin などとの統合も用意されていて、最新の release は v0.71.0 です。main 追従の canary build もありますが、README でも production では推奨されていません。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `brew install trivy` か `docker run aquasec/trivy` で入れます。その後、`trivy image python:3.4-alpine` でイメージを、`trivy fs --scanners vuln,secret,misconfig myproject/` でローカルファイルを、`trivy k8s --report summary cluster` で Kubernetes を点検する流れがわかりやすいです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>DevSecOps を前提にしたチーム、CI でのセキュリティゲートを整えたい人、コンテナや IaC を扱う開発者に向いています。スキャン対象が広いので、単発の脆弱性確認だけでなく、継続運用の土台として使いやすいです。</p>
+
+        <h2>注意点</h2>
+        <p>canary build は毎回 main の push から生成されるため、安定運用では release 版を優先した方が安全です。また、スキャン対象が広いぶん検出結果も多くなりやすいので、CI に入れるならアラートの扱い方を先に決めておく必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Trivy は、開発の早い段階に置きやすい実務向けのセキュリティスキャナです。コンテナ、Kubernetes、コード、設定ファイルを一つにまとめて見たいなら、まず候補に入る repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/aquasecurity/trivy" target="_blank" rel="noreferrer">https://github.com/aquasecurity/trivy</a>
+        </div>
+        <div class="source-item">
+          <a href="https://trivy.dev/" target="_blank" rel="noreferrer">https://trivy.dev/</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/aquasecurity/trivy/releases" target="_blank" rel="noreferrer">https://github.com/aquasecurity/trivy/releases</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #692</p>
+      </div>
+    </article>
+  </body>
+</html>

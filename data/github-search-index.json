@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-03T10:56:55.928226+00:00",
-  "count": 755,
+  "generatedAt": "2026-06-03T19:50:01.499166+00:00",
+  "count": 757,
   "articles": [
+    {
+      "slug": "2026-06-04-update-report",
+      "category": "github-update-report",
+      "originType": "report",
+      "title": "2026-06-04 アップデートレポート",
+      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+      "summary": "2026-06-04 の GitHub Trending 更新レポートです。新規記事を 1 件作成しました。",
+      "repoName": "",
+      "genre": "アップデートレポート",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T04:47:40+09:00",
+      "articleUrl": "./articles/github/reports/2026-06-04-update-report.html",
+      "serial": 412,
+      "searchText": "2026-06-04 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-04 の GitHub Trending 更新レポートです。新規記事を 1 件作成しました。 アップデートレポート 2026-06-04 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-04 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-04 調査件数 全 10 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-06-04）の GitHub Trending にランクインしていた全 10 リポジトリの調査結果です。 chopratejas/headroom ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み aquasecurity/trivy ✨ 新規追加 NousResearch/hermes-agent ✅ 記事作成済み microsoft/markitdown ✅ 記事作成済み nesquena/hermes-webui ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み opendataloader-project/opendataloader-pdf ✅ 記事作成済み odoo/odoo ✅ 記事作成済み Open-LLM-VTuber/Open-LLM-VTuber ✅ 記事作成済み 今後の展望 今回は、セキュリティスキャンとエージェント系の実務ツールが強く、残りは既存の定番が並びました。次回は、実運用に直結する安全系ツールと、日常的に再利用しやすいエージェント周辺の更新を優先すると変化を拾いやすいです。"
+    },
+    {
+      "slug": "2026-06-04-aquasecurity-trivy",
+      "category": "github-trending",
+      "originType": "trending",
+      "title": "trivy",
+      "dek": "Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。",
+      "summary": "コンテナ、Kubernetes、コードベースを横断して見られる Trivy の使いどころを整理した GitHub Watcher 記事です。",
+      "repoName": "aquasecurity/trivy",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T04:46:40+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-aquasecurity-trivy.html",
+      "serial": 692,
+      "searchText": "trivy Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。 コンテナ、Kubernetes、コードベースを横断して見られる Trivy の使いどころを整理した GitHub Watcher 記事です。 aquasecurity/trivy スクレイピング・情報収集・セキュリティ trivy ← 記事一覧へ戻る GitHub Watcher trivy Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。 記事作成日 2026-06-04 種別 Trending #3 対象 repo aquasecurity/trivy Star数 35,335 これは何か Trivy は、Aqua Security が公開している総合セキュリティスキャナです。コンテナイメージ、ファイルシステム、Git リポジトリ、仮想マシンイメージ、Kubernetes を対象に、脆弱性や設定不備をまとめて確認できます。 何ができるか OS パッケージや依存関係の SBOM、既知の CVE、IaC の設定ミス、秘密情報、ライセンスを一つの流れで見つけられます。セキュリティの入口をバラさずに、開発中の資産を横断的に点検できるのが強みです。 目立つポイント 導入経路が広く、brew、Docker、バイナリ配布のどれでも始めやすいです。GitHub Actions、Kubernetes operator、VS Code plugin などとの統合も用意されていて、最新の release は v0.71.0 です。main 追従の canary build もありますが、README でも production では推奨されていません。 セットアップや使い方の流れ まずは `brew install trivy` か `docker run aquasec/trivy` で入れます。その後、`trivy image python:3.4-alpine` でイメージを、`trivy fs --scanners vuln,secret,misconfig myproject/` でローカルファイルを、`trivy k8s --report summary cluster` で Kubernetes を点検する流れがわかりやすいです。 どんな人向けか DevSecOps を前提にしたチーム、CI でのセキュリティゲートを整えたい人、コンテナや IaC を扱う開発者に向いています。スキャン対象が広いので、単発の脆弱性確認だけでなく、継続運用の土台として使いやすいです。 注意点 canary build は毎回 main の push から生成されるため、安定運用では release 版を優先した方が安全です。また、スキャン対象が広いぶん検出結果も多くなりやすいので、CI に入れるならアラートの扱い方を先に決めておく必要があります。 まとめ Trivy は、開発の早い段階に置きやすい実務向けのセキュリティスキャナです。コンテナ、Kubernetes、コード、設定ファイルを一つにまとめて見たいなら、まず候補に入る repo です。 参照リンク https://github.com/aquasecurity/trivy https://trivy.dev/ https://github.com/aquasecurity/trivy/releases Shared GitHub Serial: #692"
+    },
     {
       "slug": "2026-06-03-microsoft-intelligent-terminal-pickup",
       "category": "github-pickup",

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 19:06:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 04:50:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-04 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-04-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-04-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[trivy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-aquasecurity-trivy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-aquasecurity-trivy.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Trivy は、コンテナやリポジトリを横断して脆弱性と設定不備を検出するセキュリティスキャナです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-04 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-04-ai-coding-tools-update.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code、Cline、Cursor、Gemini CLI、GitHub Copilot の最新更新をまとめた 2026-06-02 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[headroom]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-chopratejas-headroom-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-chopratejas-headroom-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けの出力・ログ・RAG を圧縮して、LLM に入るトークン量を減らすコンテキスト圧縮レイヤーです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[VL53L5CX-BNO08X-viewer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-01-ferrolho-VL53L5CX-BNO08X-viewer-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[VL53L5CX と BNO08X で 3D 点群を可視化し、リアルタイムで環境を確認できるビューアです。]]></description>
     </item>
   </channel>
 </rss>
