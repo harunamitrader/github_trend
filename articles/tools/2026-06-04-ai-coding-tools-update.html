@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.161 と Gemini CLI v0.45.0 をまとめた 2026-06-04 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-04 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-04 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code v2.1.161 と Gemini CLI v0.45.0 をまとめた 2026-06-04 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-04 -->
+          <strong>2026-06-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月4日 JST の監視では、Coding 対象の公式更新が 2 件ありました。Claude Code は計測メタデータとエージェント表示の改善、Gemini CLI は stable 版 0.45.0 の公開が中心です。</p>
+        <ul>
+          <li><strong>Claude Code v2.1.161:</strong> <code>OTEL_RESOURCE_ATTRIBUTES</code> をメトリクスのラベルとして使えるようになり、<code>claude agents</code> の一覧は <code>done/total</code> 表示に改善されました。<code>/mcp</code> の unused connectors 折りたたみ、parallel tool calls の失敗分離、Linux の fullscreen clipboard、<code>/usage-credits</code> や <code>--resume</code> まわりの修正も入っています。</li>
+          <li><strong>Gemini CLI v0.45.0:</strong> stable release として公開され、Termux の再起動・リサイズループ、A2A の usage metadata、context simplification、<code>update_topic</code> の逐次実行、PTY リサイズや履歴再開の安定化がまとまって入っています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Code は運用時の観測性が上がり、Gemini CLI は nightly で進んだ修正を stable で扱いやすくなりました。日常運用では、新機能よりもセッション継続性や監視のしやすさに効く更新です。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は大きな機能追加より、運用の見通しと安定性を底上げする更新でした。Claude Code はメトリクスと進捗表示、Gemini CLI は stable 化と実行安定性の改善が主なポイントです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.161" target="_blank" rel="noreferrer">Claude Code v2.1.161 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0" target="_blank" rel="noreferrer">Gemini CLI v0.45.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

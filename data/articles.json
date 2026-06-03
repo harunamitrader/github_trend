@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-04-ai-coding-tools-update",
+      "title": "2026-06-04 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.161 と Gemini CLI v0.45.0 をまとめた 2026-06-04 の監視ログです。",
+      "summary": "Claude Code と Gemini CLI の新しい公式更新を整理した 2026-06-04 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T04:02:00+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Gemini CLI",
+      "articleUrl": "./articles/tools/2026-06-04-ai-coding-tools-update.html",
+      "serial": 632,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-03-microsoft-intelligent-terminal-pickup",
       "title": "intelligent-terminal",
