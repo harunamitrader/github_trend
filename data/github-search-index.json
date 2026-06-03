@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T03:05:09.439270+00:00",
-  "count": 753,
+  "generatedAt": "2026-06-03T06:33:03.575198+00:00",
+  "count": 754,
   "articles": [
+    {
+      "slug": "2026-06-03-DenisSergeevitch-agents-best-practices-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agents-best-practices",
+      "dek": "agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。",
+      "summary": "エージェントを安全に設計し、運用しやすい形に整えたい人向けの pickup 記事です。",
+      "repoName": "DenisSergeevitch/agents-best-practices",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T15:32:13.6126953+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-03-DenisSergeevitch-agents-best-practices-pickup.html",
+      "serial": 690,
+      "searchText": "agents-best-practices agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。 エージェントを安全に設計し、運用しやすい形に整えたい人向けの pickup 記事です。 DenisSergeevitch/agents-best-practices 学習ガイド・開発アセット agents-best-practices ← 記事一覧へ戻る GitHub Watcher agents-best-practices agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。 記事作成日 2026-06-03 種別 Pickup 対象 repo DenisSergeevitch/agents-best-practices Star数 1,717 これは何か agents-best-practices は、エージェントを安全に設計し、MVP から本番運用まで使える形に整えるための Agent Skill です。README では、Codex や Claude Code を含む複数の実行環境に依存しない、プロバイダ中立のガイドとして位置付けられています。 何ができるか エージェントの blueprint 作成、既存ハーネスの監査、tool / permission 設計、planning mode の導入、context と memory の整理までを一貫して扱えます。単なる手順書ではなく、実装・評価・運用の境界をはっきりさせるのが特徴です。 目立つポイント 「モデルではなくハーネスが動く」という考え方が明確です。読み取り、下書き、外部送信、破壊的操作、権限付き操作を分けて考えるので、雑に広いツールを生やすのではなく、用途ごとに狭い型を作る設計に寄っています。 セットアップや使い方の流れ README では、 SKILL.md と references/ を前提にして導入する形が示されています。まずは自分のエージェントに合わせて skill を配置し、次に blueprint、loop budget、approval gate、checklist を順に適用する流れが実用的です。 どんな人向けか AI エージェントを「動けばいい」ではなく、保守可能な runtime として設計したい人向けです。単発のプロンプトよりも、監査しやすいツール分割や権限管理を重視する人に向いています。 注意点 README 自体が強い設計思想を持っているので、まずは小さな loop で使うのが無難です。広い自動化を一気に入れるより、permission と observability を先に整えた方が破綻しにくいです。 まとめ agents-best-practices は、エージェント開発を「プロンプト作成」から「実行制御」へ引き上げるための実践集です。自律化を進めたいけれど、運用の秩序は崩したくない人に向いています。 参照リンク https://github.com/DenisSergeevitch/agents-best-practices https://github.com/DenisSergeevitch/agents-best-practices/blob/main/SKILL.md https://agentskills.io/specification 入力元 URL Shared GitHub Serial: #690"
+    },
     {
       "slug": "2026-06-03-actualbudget-actual-pickup",
       "category": "github-pickup",

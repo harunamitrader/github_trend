@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-03-DenisSergeevitch-agents-best-practices-pickup",
+      "title": "agents-best-practices",
+      "dek": "agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。",
+      "summary": "エージェントを安全に設計し、運用しやすい形に整えたい人向けの pickup 記事です。",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-03T15:32:13.6126953+09:00",
+      "repoName": "DenisSergeevitch/agents-best-practices",
+      "repoUrl": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "starCount": 1717,
+      "articleUrl": "./articles/github/daily/2026-06-03-DenisSergeevitch-agents-best-practices-pickup.html",
+      "serial": 690,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-03-actualbudget-actual-pickup",
       "title": "actual",
       "dek": "actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。",
