@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Jun 2026 03:47:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 20:26:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agmsg]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-fujibee-agmsg.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-fujibee-agmsg.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[notebooklm-mcp-cli]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-jacob-bd-notebooklm-mcp-cli.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[impeccable]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pbakaus-impeccable.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pbakaus-impeccable.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI にありがちな UI を避けるための frontend design スキル集です。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-04T03:45:59.741654+00:00",
-  "count": 762,
+  "generatedAt": "2026-06-04T11:26:13.670453+00:00",
+  "count": 763,
   "articles": [
+    {
+      "slug": "2026-06-04-fujibee-agmsg",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "agmsg",
+      "dek": "CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。",
+      "summary": "複数の CLI AI を同じチームとして扱い、レビュー依頼や相談をローカルで回せるメッセージ基盤を紹介する pickup 記事です。",
+      "repoName": "fujibee/agmsg",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T20:25:29.7306165+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-fujibee-agmsg.html",
+      "serial": 698,
+      "searchText": "agmsg CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。 複数の CLI AI を同じチームとして扱い、レビュー依頼や相談をローカルで回せるメッセージ基盤を紹介する pickup 記事です。 fujibee/agmsg AIコーディング (ワークフロー・プロンプト・開発補助ツール) agmsg ← 記事一覧へ戻る GitHub Watcher agmsg CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。 記事作成日 2026-06-04 種別 Pickup 対象 repo fujibee/agmsg Star数 333 これは何か agmsg は、Claude Code や Codex、Gemini CLI などの CLI エージェントが、同じチーム内でメッセージをやり取りするためのローカル基盤です。README では「daemon なし」「network なし」「SQLite 1 ファイル」で完結する点が強く打ち出されています。 何ができるか 別のエージェントにレビュー依頼を送ったり、Inbox を確認したり、チームメンバー一覧を見たりできます。monitor、turn、both、off の delivery mode を切り替えて、リアルタイム寄りにも、会話の合間チェック寄りにも運用できます。 目立つポイント エージェント間通信を外部サービスに逃がさず、SQLite の共有ストアに閉じているのが特徴です。Claude Code の monitor、Codex の turn など、ツールごとの制約を前提にした設計なので、複数エージェント運用の入口としてわかりやすいです。 セットアップや使い方の流れ まずは `setup.sh` か `install.sh` で skill を入れ、再起動後に `/agmsg` または `$agmsg` を実行します。初回は team 名と agent 名、delivery mode を決め、その後は `send` や `history`、`team` で日常運用します。 どんな人向けか 複数の CLI AI を同じ作業チームとして動かしたい人、レビューや相談をエージェント同士で回したい人、外部サーバーを挟まずローカルで閉じた運用をしたい人に向いています。 注意点 ローカル SQLite ベースなので、共有先や権限を雑に扱うと運用ルールが崩れます。monitor は Claude Code 向け、Codex は turn 前提など、ツールごとの得意な delivery mode を合わせて使う必要があります。 まとめ agmsg は、CLI エージェントを個別の作業者ではなく、同じチームのメンバーとして扱うための実用的なメッセージ基盤です。複数エージェントの連携をローカルで試したいなら、かなり筋の良い repo です。 参照リンク https://github.com/fujibee/agmsg https://github.com/fujibee/agmsg/blob/main/docs/design.md 入力元 URL Shared GitHub Serial: #698"
+    },
     {
       "slug": "2026-06-04-jacob-bd-notebooklm-mcp-cli",
       "category": "github-pickup",

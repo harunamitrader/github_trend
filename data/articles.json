@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-04-fujibee-agmsg",
+      "title": "agmsg",
+      "dek": "CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。",
+      "summary": "複数の CLI AI を同じチームとして扱い、レビュー依頼や相談をローカルで回せるメッセージ基盤を紹介する pickup 記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T20:25:29.7306165+09:00",
+      "repoName": "fujibee/agmsg",
+      "repoUrl": "https://github.com/fujibee/agmsg",
+      "starCount": 333,
+      "articleUrl": "./articles/github/daily/2026-06-04-fujibee-agmsg.html",
+      "serial": 698,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-04-jacob-bd-notebooklm-mcp-cli",
       "title": "notebooklm-mcp-cli",
       "dek": "NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。",
