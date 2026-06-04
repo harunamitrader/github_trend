@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-05-ai-coding-tools-update",
+      "title": "2026-06-05 AIコーディングツール アップデート",
+      "dek": "Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。",
+      "summary": "Cline はセッション復旧、GitHub Copilot は app と CLI の体験拡張、Codex は v0.137.0 の多機能化を整理した 2026-06-05 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-06-05",
+      "createdAt": "2026-06-05T04:02:30.2727783+09:00",
+      "originType": "tool-log",
+      "toolName": "Cline, GitHub Copilot, Codex",
+      "articleUrl": "./articles/tools/2026-06-05-ai-coding-tools-update.html",
+      "serial": 633,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-04-fujibee-agmsg",
       "title": "agmsg",

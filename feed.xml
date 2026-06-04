@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Jun 2026 11:27:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 04:05:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-05 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-05-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-05-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[agmsg]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-fujibee-agmsg.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[odysseus]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-pewdiepie-archdaemon-odysseus-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自分の環境で Chat、Agent、Deep Research をまとめて回せる self-hosted AI workspace です。]]></description>
     </item>
   </channel>
 </rss>

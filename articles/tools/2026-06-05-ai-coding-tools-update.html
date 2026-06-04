@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-05 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-05 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-05 -->
+          <strong>2026-06-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline, GitHub Copilot, Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月5日 JST の監視では、Coding 対象の公式更新が 3 系統ありました。Cline はセッション再開の安定化、GitHub Copilot は app と CLI の体験拡張、Codex は v0.137.0 で TUI と multi-agent 周りの整備が中心です。</p>
+        <ul>
+          <li><strong>Cline v3.0.17:</strong> Cline Hub の停止・再起動後に Escape でキャンセルすると固まる回帰を修正し、stale session の検出、pending message の復旧、`Ctrl+C` と Hub shutdown の race 修正、Telegram connector の `--allowed-user-id` 追加が入っています。</li>
+          <li><strong>GitHub Copilot app / CLI:</strong> Copilot app の technical preview が既存の有料ユーザー全体に広がり、Canvases、voice conversations、cloud sessions、cloud automations、Copilot CLI sessions の集約、agentic browsing、Rubber duck、`/chronicle` が追加されました。Copilot CLI 側も、新しい terminal UI、rubber duck、`/every` と `/after` の prompt scheduling、voice input をまとめて強化しています。</li>
+          <li><strong>Codex v0.137.0:</strong> F13-F24 のキーバインド、検索可能メニューへの paste、月次クレジット上限と cloud-managed config bundles、remote-control の pair/list/revoke、`codex plugin list --json`、hosted web/image tools、multi-agent v2 の runtime metadata など、操作性と運用面の機能が広がりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Cline は再起動後のセッション復旧が安定し、GitHub Copilot は app/CLI をまたいだ agent-native 作業導線が広がり、Codex はエンタープライズ運用とマルチエージェント制御の見通しが良くなりました。日常利用では、新機能そのものよりも、セッション継続と権限・配布設定の扱いやすさが効く更新です。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は派手な新機能だけでなく、再開時の安定性、チーム運用、マルチエージェント制御がそろって前進しました。Cline、GitHub Copilot、Codex を並行して使うなら、各ツールの session / automation / permission 周りを見直す価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/cli-v3.0.17" target="_blank" rel="noreferrer">Cline CLI v3.0.17 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app/" target="_blank" rel="noreferrer">Expanded technical preview availability for the GitHub Copilot app</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input/" target="_blank" rel="noreferrer">Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/releases/tag/rust-v0.137.0" target="_blank" rel="noreferrer">Codex v0.137.0 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
