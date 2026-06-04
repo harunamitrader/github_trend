@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-04-jacob-bd-notebooklm-mcp-cli",
+      "title": "notebooklm-mcp-cli",
+      "dek": "NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。",
+      "summary": "NotebookLM の CLI 操作と AI アシスタント接続を 1 つにまとめ、移行手順まで確認しやすい pickup 記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T12:45:12.2258803+09:00",
+      "repoName": "jacob-bd/notebooklm-mcp-cli",
+      "repoUrl": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "starCount": 4724,
+      "articleUrl": "./articles/github/daily/2026-06-04-jacob-bd-notebooklm-mcp-cli.html",
+      "serial": 697,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-04-PleasePrompto-notebooklm-skill",
       "title": "notebooklm-skill",
       "dek": "Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。",

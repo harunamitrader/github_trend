@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-04T03:23:00.941319+00:00",
-  "count": 761,
+  "generatedAt": "2026-06-04T03:45:59.741654+00:00",
+  "count": 762,
   "articles": [
+    {
+      "slug": "2026-06-04-jacob-bd-notebooklm-mcp-cli",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "notebooklm-mcp-cli",
+      "dek": "NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。",
+      "summary": "NotebookLM の CLI 操作と AI アシスタント接続を 1 つにまとめ、移行手順まで確認しやすい pickup 記事です。",
+      "repoName": "jacob-bd/notebooklm-mcp-cli",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T12:45:12.2258803+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-jacob-bd-notebooklm-mcp-cli.html",
+      "serial": 697,
+      "searchText": "notebooklm-mcp-cli NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。 NotebookLM の CLI 操作と AI アシスタント接続を 1 つにまとめ、移行手順まで確認しやすい pickup 記事です。 jacob-bd/notebooklm-mcp-cli ナレッジ管理・RAG解析 notebooklm-mcp-cli ← 記事一覧へ戻る GitHub Watcher notebooklm-mcp-cli NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。 記事作成日 2026-06-04 種別 Pickup 対象 repo jacob-bd/notebooklm-mcp-cli Star数 4,724 これは何か notebooklm-mcp-cli は、Google NotebookLM を CLI と MCP Server の両方から扱うための Python パッケージです。README では、旧 NotebookLM-MCP と NotebookLM-CLI を 1 つにまとめ、`nlm` と `notebooklm-mcp` を同時に提供する再編が強調されています。 何ができるか NotebookLM をコマンドラインから操作したり、Claude Desktop や Cursor、Gemini CLI などの AI ツールから接続したりできます。ノートブック管理、質問応答、周辺の運用をまとめて扱えるので、手作業の往復を減らしやすい構成です。 目立つポイント 単なる接続用ラッパーではなく、CLI、MCP、デスクトップ拡張をひとまとめにした統合版である点が特徴です。README には 35 個の MCP ツール、認証、アップグレード、旧パッケージからの移行までまとまっていて、実運用向けの情報が揃っています。 セットアップや使い方の流れ まずは `uv tool install notebooklm-mcp-cli` などで導入し、必要に応じて `pip` や `pipx` を選びます。その後は NotebookLM にログインし、`docs/CLI_GUIDE.md` と `docs/MCP_GUIDE.md` を参照しながら、AI アシスタント側の接続やコマンド確認を進める流れです。 どんな人向けか NotebookLM を日常の調査や資料整理に使っていて、同じ知識ベースを CLI からも AI アシスタントからも呼び出したい人向けです。複数の NotebookLM 関連パッケージをまとめて管理したい人にも向いています。 注意点 この repo は内部 API に依存しているため、仕様変更の影響を受けやすいです。認証や cookie 抽出、アカウント種別の制約もあるので、最初の導入では README の手順を順番に追う必要があります。 まとめ notebooklm-mcp-cli は、NotebookLM を手動操作だけでなくプログラムからも扱える形に整理した実用的な配布版です。NotebookLM を AI ツールの背後に置いて使いたいなら、まず確認したい repo です。 参照リンク https://github.com/jacob-bd/notebooklm-mcp-cli https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/CLI_GUIDE.md https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/MCP_GUIDE.md 入力元 URL Shared GitHub Serial: #697"
+    },
     {
       "slug": "2026-06-04-PleasePrompto-notebooklm-skill",
       "category": "github-pickup",

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>notebooklm-mcp-cli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">notebooklm-mcp-cli</h1>
+      <p class="article-dek">NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-04 -->
+          <strong>2026-06-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jacob-bd/notebooklm-mcp-cli" target="_blank" rel="noreferrer">
+              jacob-bd/notebooklm-mcp-cli
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,724</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>notebooklm-mcp-cli は、Google NotebookLM を CLI と MCP Server の両方から扱うための Python パッケージです。README では、旧 NotebookLM-MCP と NotebookLM-CLI を 1 つにまとめ、`nlm` と `notebooklm-mcp` を同時に提供する再編が強調されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>NotebookLM をコマンドラインから操作したり、Claude Desktop や Cursor、Gemini CLI などの AI ツールから接続したりできます。ノートブック管理、質問応答、周辺の運用をまとめて扱えるので、手作業の往復を減らしやすい構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる接続用ラッパーではなく、CLI、MCP、デスクトップ拡張をひとまとめにした統合版である点が特徴です。README には 35 個の MCP ツール、認証、アップグレード、旧パッケージからの移行までまとまっていて、実運用向けの情報が揃っています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `uv tool install notebooklm-mcp-cli` などで導入し、必要に応じて `pip` や `pipx` を選びます。その後は NotebookLM にログインし、`docs/CLI_GUIDE.md` と `docs/MCP_GUIDE.md` を参照しながら、AI アシスタント側の接続やコマンド確認を進める流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>NotebookLM を日常の調査や資料整理に使っていて、同じ知識ベースを CLI からも AI アシスタントからも呼び出したい人向けです。複数の NotebookLM 関連パッケージをまとめて管理したい人にも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>この repo は内部 API に依存しているため、仕様変更の影響を受けやすいです。認証や cookie 抽出、アカウント種別の制約もあるので、最初の導入では README の手順を順番に追う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>notebooklm-mcp-cli は、NotebookLM を手動操作だけでなくプログラムからも扱える形に整理した実用的な配布版です。NotebookLM を AI ツールの背後に置いて使いたいなら、まず確認したい repo です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jacob-bd/notebooklm-mcp-cli" target="_blank" rel="noreferrer">https://github.com/jacob-bd/notebooklm-mcp-cli</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/CLI_GUIDE.md" target="_blank" rel="noreferrer">https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/CLI_GUIDE.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/MCP_GUIDE.md" target="_blank" rel="noreferrer">https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/MCP_GUIDE.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/jacob-bd/notebooklm-mcp-cli" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #697</p>
+      </div>
+    </article>
+  </body>
+</html>
