@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-04-PleasePrompto-notebooklm-skill",
+      "title": "notebooklm-skill",
+      "dek": "Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。",
+      "summary": "NotebookLM のノートブックを Claude Code から使い、ソースに基づく回答を返す流れをまとめた pickup 記事です。",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T12:22:13+09:00",
+      "repoName": "PleasePrompto/notebooklm-skill",
+      "repoUrl": "https://github.com/PleasePrompto/notebooklm-skill",
+      "starCount": 6843,
+      "articleUrl": "./articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html",
+      "serial": 696,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-04-openclaw-openclaw-windows-node",
       "title": "openclaw-windows-node",
       "dek": "OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。",

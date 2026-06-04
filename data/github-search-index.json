@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-03T22:10:54.834768+00:00",
-  "count": 760,
+  "generatedAt": "2026-06-04T03:23:00.941319+00:00",
+  "count": 761,
   "articles": [
+    {
+      "slug": "2026-06-04-PleasePrompto-notebooklm-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "notebooklm-skill",
+      "dek": "Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。",
+      "summary": "NotebookLM のノートブックを Claude Code から使い、ソースに基づく回答を返す流れをまとめた pickup 記事です。",
+      "repoName": "PleasePrompto/notebooklm-skill",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-04T12:22:13+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html",
+      "serial": 696,
+      "searchText": "notebooklm-skill Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。 NotebookLM のノートブックを Claude Code から使い、ソースに基づく回答を返す流れをまとめた pickup 記事です。 PleasePrompto/notebooklm-skill ナレッジ管理・RAG解析 notebooklm-skill ← 記事一覧へ戻る GitHub Watcher notebooklm-skill Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。 記事作成日 2026-06-04 種別 Pickup 対象 repo PleasePrompto/notebooklm-skill Star数 6,843 これは何か notebooklm-skill は、Claude Code から Google NotebookLM を直接使うためのローカルスキルです。README では、ブラウザ操作、ライブラリ管理、永続的な認証をまとめて扱い、アップロードした資料だけを根拠に回答する用途が前面に出ています。 何ができるか NotebookLM のノートブックを開き、登録済みの文書をもとに質問できます。自分の資料だけに閉じたソースベースの回答を返せるので、調査や整理の途中で「根拠を明示した答え」が欲しいときに向いています。 目立つポイント 単なるリンク集ではなく、Claude Code 側に組み込んでそのまま使う前提で作られている点が特徴です。README では、Chrome を使った自動化、ノートブック管理、認証の保持まで含めており、手作業の往復をかなり減らせます。 セットアップや使い方の流れ まずは `~/.claude/skills` に clone し、案内に従って Google アカウントで認証します。その後、NotebookLM のノートブックをライブラリに追加して、Claude Code から質問を投げる流れです。初回にブラウザのセットアップを済ませておくと、以後の利用が速くなります。 どんな人向けか 社内文書やメモを根拠付きで引きたい人、NotebookLM を日常的に使っている人、Claude Code から知識ベース検索を自然に呼び出したい人に向いています。RAG を自前で構築するほどではないが、資料に強い回答が欲しい場合に扱いやすいです。 注意点 このスキルはローカルの Claude Code 前提で、Web UI の sandbox では動きません。Chrome 依存や Google 認証、NotebookLM 側の共有設定も絡むため、最初のセットアップはやや重めです。 まとめ notebooklm-skill は、NotebookLM を Claude Code の研究補助として使えるようにする実用的なスキルです。自分の資料を根拠にした回答を素早く引きたいなら、かなり相性がいい repo です。 参照リンク https://github.com/PleasePrompto/notebooklm-skill 入力元 URL Shared GitHub Serial: #696"
+    },
     {
       "slug": "2026-06-04-openclaw-openclaw-windows-node",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 22:11:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 12:23:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[notebooklm-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。]]></description>
+    </item>
     <item>
       <title><![CDATA[openclaw-windows-node]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2D/3D のクロスプラットフォーム開発を支えるオープンソースゲームエンジンです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[machine-learning-for-trading]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-stefan-jansen-machine-learning-for-trading.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-stefan-jansen-machine-learning-for-trading.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[機械学習でアルゴリズム取引を実践するための書籍連動ノート群です。]]></description>
     </item>
   </channel>
 </rss>
