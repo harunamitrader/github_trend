@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NVIDIA の world model 基盤を、生成・推論・評価まで一続きで触れるための総合パッケージです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cosmos</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cosmos</h1>
+      <p class="article-dek">NVIDIA の world model 基盤を、生成・推論・評価まで一続きで触れるための総合パッケージです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-05 -->
+          <strong>2026-06-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #6</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NVIDIA/cosmos" target="_blank" rel="noreferrer">
+              NVIDIA/cosmos
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>8,913</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Cosmos は、NVIDIA が公開している world models、datasets、tools のオープンプラットフォームです。README と公式サイトを見ると、ロボット、自動運転、スマートインフラのような Physical AI を扱うための土台として設計されていることが分かります。</p>
+
+        <h2>何ができるか</h2>
+        <p>画像や動画の生成だけでなく、Reasoner 側では captioning、grounding、temporal localization、action trajectory のような推論寄りの処理も扱えます。単発のデモではなく、生成と理解を同じ家系で試せるのが大きな価値です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Diffusers、vLLM-Omni、NIM、Cosmos Framework という複数の入口が用意されていて、研究用途と運用用途を分けて選びやすいです。Quickstart でも Hugging Face の認証から始まり、CUDA やコンテナの前提条件まで明示されていて、必要な土台がかなりはっきりしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `uvx hf@latest auth login` で Hugging Face の認証を済ませ、`HF_HOME` や CUDA の整合性を確認します。そのうえで、Diffusers で研究するか、vLLM-Omni で OpenAI 互換の推論 API を立てるか、NIM を使うか、目的に合わせて実行面を選ぶ流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Physical AI を研究している人、生成と推論の両方を見たい人、GPU 前提の最新基盤を比較したい人に向いています。ロボットや自律移動体まで含めて「世界モデル」を試したいチームには特に相性がいいです。</p>
+
+        <h2>注意点</h2>
+        <p>CUDA のバージョンとドライバの整合性が必要で、推奨環境の確認を飛ばすとすぐに詰まりやすいです。ローカル実行もコンテナ実行も前提が重めなので、まずはどの integration を使うかを先に決めた方が無駄がありません。</p>
+
+        <h2>まとめ</h2>
+        <p>cosmos は、NVIDIA の Physical AI 戦略をそのまま触れるようにした基盤です。生成モデルだけでなく、理解・推論・実行の一連をまとめて見たいなら、押さえておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NVIDIA/cosmos" target="_blank" rel="noreferrer">https://github.com/NVIDIA/cosmos</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.nvidia.com/en-us/ai/cosmos/" target="_blank" rel="noreferrer">https://www.nvidia.com/en-us/ai/cosmos/</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/NVIDIA/cosmos-framework" target="_blank" rel="noreferrer">https://github.com/NVIDIA/cosmos-framework</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #700</p>
+      </div>
+    </article>
+  </body>
+</html>

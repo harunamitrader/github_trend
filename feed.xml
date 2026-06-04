@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Jun 2026 19:06:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 04:53:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-05 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-05-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-05-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cosmos]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-NVIDIA-cosmos.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-NVIDIA-cosmos.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[NVIDIA の world model 基盤を、生成・推論・評価まで一続きで触れるための総合パッケージです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[flowsint]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-reconurge-flowsint.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-reconurge-flowsint.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OSINT の調査対象をグラフで追跡し、ドメイン・IP・ASN を横断確認できる調査基盤です。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-05 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-05-ai-coding-tools-update.html</link>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-DannyMac180-skills-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けの公開スキルを配布し、Codex のような環境へそのまま導入できる repo です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FinanceDatabase]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-JerBouma-FinanceDatabase-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[300,000件超の金融商品シンボルをまとめ、銘柄探索やユニバース把握をしやすくするデータベースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cc-switch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-farion1231-cc-switch-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code、Codex、Gemini CLI などを 1 つのデスクトップ UI で切り替えられる管理ハブです。]]></description>
     </item>
   </channel>
 </rss>
