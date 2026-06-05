@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.88.0、Cursor 3.7、Gemini CLI v0.45.1 をまとめた 2026-06-06 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-06 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-06 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Cline v3.88.0、Cursor 3.7、Gemini CLI v0.45.1 をまとめた 2026-06-06 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-06 -->
+          <strong>2026-06-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline, Cursor, Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月6日 JST の監視では、Coding 対象の公式更新が 3 件ありました。Cline はモデル選択と MCP 周りの修正、Cursor は Design Mode の UI 編集強化、Gemini CLI は v0.45.1 のパッチ反映です。</p>
+        <ul>
+          <li><strong>Cline v3.88.0:</strong> Fireworks AI の serverless models を追加し、既定の Fireworks モデルを Kimi K2.6 に更新しました。MCP server の delete/add フローで設定書き込みにより一覧が空になる不具合も修正しています。</li>
+          <li><strong>Cursor 3.7:</strong> Design Mode に multi-select elements と voice input が入り、ブラウザ上で複数要素をまとめて比較・修正しやすくなりました。前日の canvas 側の Design Mode と context usage report も含め、UI を agent に直させる導線が強化されています。</li>
+          <li><strong>Gemini CLI v0.45.1:</strong> v0.45.0 系のパッチリリースで、release/v0.45.0-pr-27570 への cherry-pick を反映しました。新機能追加というより、stable 系の修正を素早く取り込む更新です。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Cline はモデル選択と MCP サーバー管理の安定性、Cursor は画面上の UI 修正のやり取り、Gemini CLI は安定版パッチの追従が中心です。どれも派手な新機能より、実運用で触る部分の手間を減らす更新が目立ちます。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は 3 つとも、日々の作業を止めにくくする方向の更新でした。頻繁に使う人は、各ツールの最新版と既定設定の差分だけ先に確認しておくと扱いやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.88.0" target="_blank" rel="noreferrer">Cline v3.88.0 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor changelog</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.1" target="_blank" rel="noreferrer">Gemini CLI v0.45.1 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

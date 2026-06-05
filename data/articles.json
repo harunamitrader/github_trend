@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-06-ai-coding-tools-update",
+      "title": "2026-06-06 AIコーディングツール アップデート",
+      "dek": "Cline v3.88.0、Cursor 3.7、Gemini CLI v0.45.1 をまとめた 2026-06-06 の監視ログです。",
+      "summary": "Cline は Fireworks AI のモデル更新、Cursor は Design Mode 強化、Gemini CLI は v0.45.1 のパッチ反映を整理した 2026-06-06 の AIコーディングツール監視ログです。",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T04:03:34.6836582+09:00",
+      "originType": "tool-log",
+      "toolName": "Cline, Cursor, Gemini CLI",
+      "articleUrl": "./articles/tools/2026-06-06-ai-coding-tools-update.html",
+      "serial": 634,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-05-lasselian-prism-desktop",
       "title": "prism-desktop",
