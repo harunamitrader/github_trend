@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-05-lasselian-prism-desktop",
+      "title": "prism-desktop",
+      "dek": "Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。",
+      "summary": "Windows/Linux のデスクトップから Home Assistant を常駐操作できる Prism Desktop を紹介する pickup 記事です。",
+      "publishedAt": "2026-06-05",
+      "createdAt": "2026-06-05T22:30:55.7123710+09:00",
+      "repoName": "lasselian/prism-desktop",
+      "repoUrl": "https://github.com/lasselian/prism-desktop",
+      "starCount": 379,
+      "articleUrl": "./articles/github/daily/2026-06-05-lasselian-prism-desktop.html",
+      "serial": 701,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-05-update-report",
       "title": "2026-06-05 アップデートレポート",

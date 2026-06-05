@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-04T19:52:16.387940+00:00",
-  "count": 766,
+  "generatedAt": "2026-06-05T13:32:03.527397+00:00",
+  "count": 767,
   "articles": [
+    {
+      "slug": "2026-06-05-lasselian-prism-desktop",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "prism-desktop",
+      "dek": "Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。",
+      "summary": "Windows/Linux のデスクトップから Home Assistant を常駐操作できる Prism Desktop を紹介する pickup 記事です。",
+      "repoName": "lasselian/prism-desktop",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-06-05",
+      "createdAt": "2026-06-05T22:30:55.7123710+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-05-lasselian-prism-desktop.html",
+      "serial": 701,
+      "searchText": "prism-desktop Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。 Windows/Linux のデスクトップから Home Assistant を常駐操作できる Prism Desktop を紹介する pickup 記事です。 lasselian/prism-desktop AI基盤・データ基盤・業務アプリ prism-desktop ← 記事一覧へ戻る GitHub Watcher prism-desktop Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。 記事作成日 2026-06-05 種別 Pickup 対象 repo lasselian/prism-desktop Star数 379 これは何か Prism Desktop は、Home Assistant を Windows と Linux から扱うための軽量デスクトップクライアントです。ブラウザのタブではなく、システムトレイ常駐の画面としてスマートホーム操作をまとめられます。 何ができるか ライト、スイッチ、温度調整、メディア、カーテン、屋外機器、センサー、オートメーションまでを 1 つのダッシュボードに載せられます。WebSocket API によるリアルタイム同期と通知にも対応しているので、状態変化をすぐ追えます。 目立つポイント ドラッグ&ドロップでタイルを並べ替えられ、サイズ調整や外観のカスタマイズもしやすい作りです。グローバルショートカットやトレイ操作もあるため、「開いたらすぐ触れる」常駐パネルとして使いやすいです。 セットアップや使い方の流れ Windows では installer か standalone exe、Linux では AppImage を使います。初回起動時に Home Assistant の URL と Long-Lived Access Token を入れ、Ubuntu 22.04 では必要に応じて `libfuse2` を追加します。README と Releases を見れば、配布形態の違いも追いやすいです。 どんな人向けか Home Assistant を毎日触る人、PC から家の状態をすぐ確認したい人、ブラウザを開く手間を減らしたい人に向いています。ホームオートメーションの操作面をデスクトップに寄せたい場合に合います。 注意点 利用には Home Assistant の URL とトークンが必要で、OS ごとに配布ファイルの前提が少し違います。GNOME Wayland では per-entity ショートカットが使えないため、キーボード操作を重視するなら環境を先に確認した方が安全です。 まとめ Prism Desktop は、Home Assistant の操作をブラウザから切り離して常駐型のデスクトップに寄せたい人向けの実用アプリです。トレイ常駐とリアルタイム同期を両立したいなら、候補に入れておく価値があります。 参照リンク https://github.com/lasselian/prism-desktop https://github.com/lasselian/prism-desktop/releases Shared GitHub Serial: #701"
+    },
     {
       "slug": "2026-06-05-update-report",
       "category": "github-update-report",

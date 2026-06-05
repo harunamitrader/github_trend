@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Jun 2026 19:53:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:33:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[prism-desktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-lasselian-prism-desktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-lasselian-prism-desktop.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-05 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-05-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[任意のLLMや外部ツールを束ね、実行可能なDAGとしてAIエージェントを運用できるプラットフォームです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MASFactory]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-02-BUPT-GAMMA-MASFactory-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語からマルチエージェントのグラフ設計を起こし、可視化しながら実行できる基盤です。]]></description>
     </item>
   </channel>
 </rss>
