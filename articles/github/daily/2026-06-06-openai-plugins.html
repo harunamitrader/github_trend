@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex プラグインの構成例をまとめたサンプル集です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>plugins</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">plugins</h1>
+      <p class="article-dek">Codex プラグインの構成例をまとめたサンプル集です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-06 -->
+          <strong>2026-06-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #11</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openai/plugins" target="_blank" rel="noreferrer">
+              openai/plugins
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,494</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>openai/plugins は、Codex プラグインのサンプルを集めたキュレーション型リポジトリです。単一アプリではなく、プラグインの構成例と周辺ファイルの置き方を学ぶための教材として見るのが正確です。</p>
+
+        <h2>何ができるか</h2>
+        <p>Figma、Notion、iOS/macOS/Web アプリ、Expo、Netlify、Remotion、Google Slides など、用途別のプラグイン例を横断できます。`.codex-plugin/plugin.json` を中心に、skills や commands、hooks などの周辺サーフェスの組み合わせも確認できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>各プラグインが `plugins/<name>/` 配下にまとまっていて、どの例も manifest を起点に読み解けます。README で highlighted examples が整理されているので、構成差分を比較しながら自分の用途に近い雛形を選びやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `plugins/<name>/` を開いて `plugin.json` と companion ファイルを確認し、必要な surface だけを取り込みます。実運用では、ひとつの例をそのまま使うより、manifest の書き方とファイル配置を自分の Codex plugin に移植する流れが自然です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Codex プラグインを新規に作る人、既存の例から構成を学びたい人、スキルや MCP を含む周辺設計を比較したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>これは完成アプリではなく例の集合なので、各サンプルの前提や依存関係はばらばらです。README をそのまま自動化の手順書として読むより、構造の辞書として使う方が失敗しにくいです。</p>
+
+        <h2>まとめ</h2>
+        <p>Codex プラグインの雛形と周辺ファイルの組み方を、実例ベースで確認するための参照庫です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/plugins" target="_blank" rel="noreferrer">https://github.com/openai/plugins</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/plugins/tree/main/plugins" target="_blank" rel="noreferrer">https://github.com/openai/plugins/tree/main/plugins</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/plugins/tree/main/plugins/build-web-apps" target="_blank" rel="noreferrer">https://github.com/openai/plugins/tree/main/plugins/build-web-apps</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #703</p>
+      </div>
+    </article>
+  </body>
+</html>

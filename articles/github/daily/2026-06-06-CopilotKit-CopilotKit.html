@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="生成 UI と共有状態を軸に、エージェントをアプリへ埋め込むためのフレームワークです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>CopilotKit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">CopilotKit</h1>
+      <p class="article-dek">生成 UI と共有状態を軸に、エージェントをアプリへ埋め込むためのフレームワークです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-06 -->
+          <strong>2026-06-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #3</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/CopilotKit/CopilotKit" target="_blank" rel="noreferrer">
+              CopilotKit/CopilotKit
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>32,563</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>CopilotKit は、エージェントネイティブなアプリを組み立てるための SDK / フレームワークです。チャット UI だけでなく、生成 UI、共有状態、Human-in-the-loop を前提にした設計が中心にあります。</p>
+
+        <h2>何ができるか</h2>
+        <p>React / Next.js を起点に、Angular、Vue、React Native まで同じエージェントを広げられます。Slack や Microsoft Teams といったブラウザ外の面にも持ち出せるので、UI の見た目とエージェント挙動を一緒に設計しやすいです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Chat UI、Backend Tool Rendering、Generative UI、Shared State、Self-Learning Agents、AG-UI Protocol が README の主役です。`useAgent` フックで状態を操作でき、実装は UI 層とエージェント層を一本化する方向に寄っています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>新規なら `npx copilotkit@latest create -f <framework>`、既存なら `npx copilotkit@latest init` から入るのが README 通りです。そこから docs の quickstart を見ながら、AG-UI と `useAgent` の接続を詰める流れが自然です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>会話ボットより一段上の、UI とエージェントを一体で設計したいチームに向いています。既存の Web アプリに生成 UI を足したい人や、モバイル・チャット面まで同じ体験を広げたい人にも合います。</p>
+
+        <h2>注意点</h2>
+        <p>機能面は広いぶん、何をコアに採用するかを先に決めないと導入範囲が膨らみやすいです。README でも複数プラットフォームと早期アクセス要素が混在しているので、対象フレームワークと公開状況を見分けて進める必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェントの振る舞いと UI を分離せずに扱いたい場合の、かなり本格的な実装基盤です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/CopilotKit/CopilotKit" target="_blank" rel="noreferrer">https://github.com/CopilotKit/CopilotKit</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.copilotkit.ai/built-in-agent/quickstart" target="_blank" rel="noreferrer">https://docs.copilotkit.ai/built-in-agent/quickstart</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/ag-ui-protocol/ag-ui" target="_blank" rel="noreferrer">https://github.com/ag-ui-protocol/ag-ui</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #704</p>
+      </div>
+    </article>
+  </body>
+</html>

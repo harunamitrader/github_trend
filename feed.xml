@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Jun 2026 19:09:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 04:55:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-06-06 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,38 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Cline v3.88.0、Cursor 3.7、Gemini CLI v0.45.1 をまとめた 2026-06-06 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-06 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-06-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-06-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[mempalace]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-MemPalace-mempalace.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-MemPalace-mempalace.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[会話履歴を逐語で残し、ローカル検索で引ける AI メモリ基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[plugins]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-openai-plugins.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-openai-plugins.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex プラグインの構成例をまとめたサンプル集です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[CopilotKit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-CopilotKit-CopilotKit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-CopilotKit-CopilotKit.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[生成 UI と共有状態を軸に、エージェントをアプリへ埋め込むためのフレームワークです。]]></description>
     </item>
     <item>
       <title><![CDATA[prism-desktop]]></title>
@@ -134,38 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[intelligent-terminal は、Windows Terminal にエージェント統合を足した実験的な CLI/ターミナル拡張です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agents-best-practices]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-DenisSergeevitch-agents-best-practices-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-DenisSergeevitch-agents-best-practices-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[agents-best-practices は、エージェントの設計・監査・改善を provider-neutral に扱える実践的なスキル集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[actual]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-actualbudget-actual-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-actualbudget-actual-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[actual は、ローカルファーストで家計を管理できるオープンソースのパーソナルファイナンスアプリです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[files.md]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-zakirullin-files.md-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-03-zakirullin-files.md-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[files.md は、Markdown をそのまま使いながらローカル第一でメモ、タスク、日記を扱えるノート基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-03 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-03-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-03-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.160、Gemini CLI nightly、Codex Sites の新着をまとめた 2026-06-03 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>
