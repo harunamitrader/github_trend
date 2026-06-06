@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-06-domcyrus-rustnet",
+      "title": "rustnet",
+      "dek": "プロセス単位の接続追跡と深いパケット解析を行う、ターミナル向けネットワーク監視 TUI です。",
+      "summary": "プロセスの所有する通信を追跡しながら、DPI と接続状態の可視化をターミナルで行えるネットワーク監視ツールです。",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T17:14:09.5786321+09:00",
+      "repoName": "domcyrus/rustnet",
+      "repoUrl": "https://github.com/domcyrus/rustnet",
+      "starCount": 4230,
+      "articleUrl": "./articles/github/daily/2026-06-06-domcyrus-rustnet.html",
+      "serial": 707,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-06-schroneko-evictl",
       "title": "evictl",
       "dek": "複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-06T03:46:35.869947+00:00",
-  "count": 773,
+  "generatedAt": "2026-06-06T08:15:00.619683+00:00",
+  "count": 774,
   "articles": [
+    {
+      "slug": "2026-06-06-domcyrus-rustnet",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "rustnet",
+      "dek": "プロセス単位の接続追跡と深いパケット解析を行う、ターミナル向けネットワーク監視 TUI です。",
+      "summary": "プロセスの所有する通信を追跡しながら、DPI と接続状態の可視化をターミナルで行えるネットワーク監視ツールです。",
+      "repoName": "domcyrus/rustnet",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T17:14:09.5786321+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-06-domcyrus-rustnet.html",
+      "serial": 707,
+      "searchText": "rustnet プロセス単位の接続追跡と深いパケット解析を行う、ターミナル向けネットワーク監視 TUI です。 プロセスの所有する通信を追跡しながら、DPI と接続状態の可視化をターミナルで行えるネットワーク監視ツールです。 domcyrus/rustnet スクレイピング・情報収集・セキュリティ rustnet ← 記事一覧へ戻る GitHub Watcher rustnet プロセス単位の接続追跡と深いパケット解析を行う、ターミナル向けネットワーク監視 TUI です。 記事作成日 2026-06-06 種別 Pickup 対象 repo domcyrus/rustnet Star数 4,230 これは何か RustNet は、端末上で TCP / UDP / QUIC の接続をリアルタイムに観察するためのネットワーク監視ツールです。単なる netstat 置き換えではなく、どのプロセスがどの通信を持っているかまで追えるのが大きな特徴です。 何ができるか ライブ接続の一覧に加えて、深いパケット解析、DNS や HTTP/SNI の識別、接続状態の可視化、インターフェース統計の監視まで扱えます。フィルタやソートも TUI から素早く使えるので、気になる通信だけを絞って確認できます。 目立つポイント Linux では eBPF、macOS では PKTAP、Windows と FreeBSD では各 OS の API を使って、クロスプラットフォームで接続の主体を見分けます。さらに Landlock、Seatbelt、権限低下などのサンドボックス設計が入っているので、観測ツールとしての安全性も意識されています。 セットアップや使い方の流れ macOS と Linux は Homebrew、Ubuntu や Fedora、Arch などは各ディストリのパッケージ、Windows は Chocolatey で入れられます。Packet capture が必要なため権限調整が要り、Linux では `setcap`、Windows では Npcap の事前導入が前提になります。 どんな人向けか ローカルや SSH 越しに「誰がどこへつないでいるか」を即座に見たい人、Wireshark ほど重くなくプロセス視点で通信を追いたい人、運用・調査・セキュリティ確認を端末で完結させたい人に向いています。 注意点 deep packet inspection や packet capture を使うので、OS ごとの権限設定を飛ばすとすぐにつまずきます。eBPF も環境によっては使えないことがあるため、README の権限とトラブルシュートを先に見ておくのが安全です。 まとめ RustNet は、接続の主体と通信内容を同時に把握したいときに強い、端末向けの監視基盤です。netstat と Wireshark の間を埋めるツールとして、常備しておく価値があります。 参照リンク https://github.com/domcyrus/rustnet https://github.com/domcyrus/rustnet/blob/main/README.md https://github.com/domcyrus/rustnet/blob/main/INSTALL.md https://github.com/domcyrus/rustnet/blob/main/USAGE.md Shared GitHub Serial: #707"
+    },
     {
       "slug": "2026-06-06-schroneko-evictl",
       "category": "github-pickup",
