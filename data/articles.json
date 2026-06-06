@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-06-schroneko-evictl",
+      "title": "evictl",
+      "dek": "複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。",
+      "summary": "character と engine を分けて扱い、ローカルの runtime や memory をまとめて調停するための制御プレーンです。",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T12:45:54.4684958+09:00",
+      "repoName": "schroneko/evictl",
+      "repoUrl": "https://github.com/schroneko/evictl",
+      "starCount": 9,
+      "articleUrl": "./articles/github/daily/2026-06-06-schroneko-evictl.html",
+      "serial": 706,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-06-kisaragi-mochi-stackchan-mcp",
       "title": "stackchan-mcp",
       "dek": "M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。",

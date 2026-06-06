@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-06T03:36:55.310552+00:00",
-  "count": 772,
+  "generatedAt": "2026-06-06T03:46:35.869947+00:00",
+  "count": 773,
   "articles": [
+    {
+      "slug": "2026-06-06-schroneko-evictl",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "evictl",
+      "dek": "複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。",
+      "summary": "character と engine を分けて扱い、ローカルの runtime や memory をまとめて調停するための制御プレーンです。",
+      "repoName": "schroneko/evictl",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T12:45:54.4684958+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-06-schroneko-evictl.html",
+      "serial": 706,
+      "searchText": "evictl 複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。 character と engine を分けて扱い、ローカルの runtime や memory をまとめて調停するための制御プレーンです。 schroneko/evictl AIエージェント (自律基盤・特化アプリ) evictl ← 記事一覧へ戻る GitHub Watcher evictl 複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。 記事作成日 2026-06-06 種別 Pickup 対象 repo schroneko/evictl Star数 9 これは何か evictl は、常時稼働する AI キャラクターのためのローカル制御面です。キャラクターの外側にある見え方、チャネル、メモリを保ったまま、内側のエンジンだけを独立した agent session に切り替えられるように設計されています。 何ができるか README では、character の作成、既存 runtime の migration、engine の一覧と切り替え、稼働監視、フィードバック収集、memory sync まで一通りの流れが案内されています。1 つの人格に対して複数の runtime をぶら下げたいときに、その調停役を担えます。 目立つポイント character と engine を分けて扱うので、「同じ外見のまま中身だけ変える」運用をしやすいのが特徴です。OpenClaw、Hermes Agent、Claude Code Channels を初期エンジンとして扱い、ローカルの launchd、tmux、process、memory をまたいだ制御面としてまとまっています。 セットアップや使い方の流れ 開発では `bun install`、`bun test`、`bun run check`、`bun run build` を回します。実運用では `evictl create demo` で character を作り、`evictl migration --dry-run` で既存 runtime を確認してから `evictl migration`、その後 `evictl switch` や `evictl status` で日常運用に入るのが分かりやすいです。 どんな人向けか 複数の AI runtime を並行運用したい人、人格やチャネルを保ったまま engine を乗り換えたい人、ローカルで memory と route を整理したい人に向いています。チャットボット単体ではなく、運用の土台を作りたいチームと相性がいいです。 注意点 README では現状 macOS 対象で、公開 CLI も Bun shebang 前提とされています。migration は provider-native のファイルを消したり移したりせず、設定として取り込むだけなので、既存の memory をまとめて移したい前提で読むとずれます。 まとめ evictl は、AI キャラクターの外側と内側を分離して管理したいときの制御面です。runtime を切り替えながらも人格とメモリの軸を揃えたいなら、設計思想ごと押さえる価値があります。 参照リンク https://github.com/schroneko/evictl https://github.com/schroneko/evictl/blob/main/README.md https://github.com/schroneko/evictl/blob/main/docs/research-notes.md Shared GitHub Serial: #706"
+    },
     {
       "slug": "2026-06-06-kisaragi-mochi-stackchan-mcp",
       "category": "github-pickup",
