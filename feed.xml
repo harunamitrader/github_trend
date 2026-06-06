@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jun 2026 19:14:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 04:52:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-06-07 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,54 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 2.1.167、GitHub Copilot の 1M token context / reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[svelte]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-sveltejs-svelte.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-sveltejs-svelte.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Svelte のコンパイラ型フロントエンド本体を追える公式リポジトリです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[nginx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-nginx-nginx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-nginx-nginx.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[NGINX の公式ソースを追える、Web サーバーとリバースプロキシの中核です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[go]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-golang-go.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-golang-go.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Go 言語の公式リポジトリを追える、標準ツールチェーンの本体です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[career-ops]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-santifer-career-ops.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-santifer-career-ops.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を土台にした、AI 付きの求人探索・応募支援システムです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[whisper]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-openai-whisper.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-openai-whisper.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI の音声認識モデル Whisper の公式実装を追える、文字起こしと音声処理の基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-07 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-07-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-07-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンド18件のランキングと、5件の新規記事化をまとめたレポートです。]]></description>
     </item>
     <item>
       <title><![CDATA[rustnet]]></title>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agmsg]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-fujibee-agmsg.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-fujibee-agmsg.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CLI エージェント同士を SQLite でつなぎ、ローカルだけでメッセージをやり取りできる協調基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[notebooklm-mcp-cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-jacob-bd-notebooklm-mcp-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-jacob-bd-notebooklm-mcp-cli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NotebookLM を CLI と MCP Server で扱えるように統合した、プログラム操作向けの配布版です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[notebooklm-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-PleasePrompto-notebooklm-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code から NotebookLM を直接扱い、手元の文書だけを根拠に答えさせるためのスキルです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openclaw-windows-node]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-openclaw-openclaw-windows-node.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw の Windows 側コンパニオンとして、トレイ操作や Node Mode をまとめて扱える repo です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ffn]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-pmorissette-ffn.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-pmorissette-ffn.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Python でのポートフォリオ分析やリターン指標計算をまとめて扱える金融ライブラリです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Auto-Company]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-MaxMiksa-Auto-Company.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-04-MaxMiksa-Auto-Company.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。]]></description>
     </item>
   </channel>
 </rss>

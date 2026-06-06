@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Whisper の公式実装を追える、OpenAI の音声認識モデル基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>whisper</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">whisper</h1>
+      <p class="article-dek">OpenAI の音声認識モデル Whisper の公式実装を追える、文字起こしと音声処理の基盤リポジトリです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-07 -->
+          <strong>2026-06-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #14</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openai/whisper" target="_blank" rel="noreferrer">
+              openai/whisper
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>101,796</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Whisper は、OpenAI が公開している汎用の音声認識モデルです。多言語の文字起こし、音声翻訳、言語判定をひとつのモデル系で扱えるようにした実装として見れば分かりやすいです。</p>
+
+        <h2>何ができるか</h2>
+        <p>音声ファイルからテキストを起こすだけでなく、話されている言語を判定したり、翻訳タスクに回したりできます。モデルカードや Colab 例も揃っているので、研究用途からプロトタイピングまで導入しやすい構成です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単純な ASR ではなく、speech recognition・speech translation・language identification を同じシーケンスモデルでまとめている点が強みです。音声処理の前後を複数モデルでつなぐより、まず Whisper を基盤に置く方が設計を整理しやすくなります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の案内に従って依存関係を入れ、モデルを選んで実行します。まずは小さめのモデルで精度と速度のバランスを掴み、必要に応じて大きいモデルや追加の前処理を組み合わせるのが自然です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>音声の文字起こしを自動化したい人、会議ログや動画字幕を作りたい人、音声認識の基盤実装をそのまま読みたい人に向いています。音声 AI を自分のアプリに組み込みたい開発者にも相性が良いです。</p>
+
+        <h2>注意点</h2>
+        <p>音声品質やノイズ、言語の混在で結果がぶれやすいので、入力データの前処理は重要です。リアルタイム対話の代替というより、オフライン寄りの transcription / translation 基盤として扱う方が実用的です。</p>
+
+        <h2>まとめ</h2>
+        <p>Whisper は、音声をテキストに変換する実用基盤として今も強いリポジトリです。字幕生成や音声ログ解析の入り口として、公式実装を押さえておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/whisper" target="_blank" rel="noreferrer">https://github.com/openai/whisper</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/whisper/blob/main/README.md" target="_blank" rel="noreferrer">https://github.com/openai/whisper/blob/main/README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/whisper/blob/main/model-card.md" target="_blank" rel="noreferrer">https://github.com/openai/whisper/blob/main/model-card.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #708</p>
+      </div>
+    </article>
+  </body>
+</html>
