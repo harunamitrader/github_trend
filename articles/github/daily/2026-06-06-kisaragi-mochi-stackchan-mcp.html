@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>stackchan-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">stackchan-mcp</h1>
+      <p class="article-dek">M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-06 -->
+          <strong>2026-06-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kisaragi-mochi/stackchan-mcp" target="_blank" rel="noreferrer">
+              kisaragi-mochi/stackchan-mcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>45</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>stackchan-mcp は、M5Stack 公式 StackChan キットを任意の LLM / MCP クライアントから操作するための MCP ブリッジです。stdio 側の MCP クライアントと、ESP32 側の WebSocket gateway をつないで、実機ロボットを会話の延長で扱えるようにします。</p>
+
+        <h2>何ができるか</h2>
+        <p>README では、頭の移動、カメラ撮影、タッチ状態の取得、アバター表情の切り替えなどが明確に案内されています。加えて、音声の `say` と `listen` も用意されているので、対話と実機操作を同じ MCP 口からまとめやすいです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>対象ハードウェアが M5Stack 公式 StackChan に絞られていて、firmware / gateway / docs の役割分担がはっきりしています。リポジトリの README には、Linux / macOS / Windows の配布や、mDNS での gateway 発見、リモート接続の手順までまとまっているのが実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは Releases の事前ビルドを焼いて動作確認し、必要なら gateway を `uv` や `pipx` で入れて `stackchan-mcp` を起動します。そのうえで `~/.claude.json` などに MCP サーバーを登録し、WebSocket URL と token を合わせてから使う流れが最短です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code や Claude Desktop から実機を動かしたい人、StackChan をデモ端末や対話ロボットとして試したい人、MCP をハードウェア連携に広げたい人に向いています。ソフトだけで完結しない「触れる AI」を作りたいケースと相性がいいです。</p>
+
+        <h2>注意点</h2>
+        <p>対象は M5Stack 公式 StackChan キットが中心で、自作機では pin assignment や I2C アドレスの一致確認が必要です。既存デバイスは NVS に古い gateway URL が残っていることもあるので、初回は README 通りに firmware と gateway の前提を揃えてから試す方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>stackchan-mcp は、MCP クライアントと StackChan 実機をつなぐ実用的なブリッジです。まずは配布済み firmware で動作を確認し、その後に gateway や音声機能を足していくのが分かりやすい進め方です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kisaragi-mochi/stackchan-mcp" target="_blank" rel="noreferrer">https://github.com/kisaragi-mochi/stackchan-mcp</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.m5stack.com/ja/StackChan" target="_blank" rel="noreferrer">https://docs.m5stack.com/ja/StackChan</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/kisaragi-mochi/stackchan-mcp/releases" target="_blank" rel="noreferrer">https://github.com/kisaragi-mochi/stackchan-mcp/releases</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #705</p>
+      </div>
+    </article>
+  </body>
+</html>

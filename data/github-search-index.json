@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-05T19:54:40.587480+00:00",
-  "count": 771,
+  "generatedAt": "2026-06-06T03:36:55.310552+00:00",
+  "count": 772,
   "articles": [
+    {
+      "slug": "2026-06-06-kisaragi-mochi-stackchan-mcp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "stackchan-mcp",
+      "dek": "M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。",
+      "summary": "stdio MCP と WebSocket MCP をつないで、Claude Code などから StackChan の頭振り・撮影・表情切替を扱えるようにするブリッジです。",
+      "repoName": "kisaragi-mochi/stackchan-mcp",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-06T12:34:59.3374144+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-06-kisaragi-mochi-stackchan-mcp.html",
+      "serial": 705,
+      "searchText": "stackchan-mcp M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。 stdio MCP と WebSocket MCP をつないで、Claude Code などから StackChan の頭振り・撮影・表情切替を扱えるようにするブリッジです。 kisaragi-mochi/stackchan-mcp AIエージェント (自律基盤・特化アプリ) stackchan-mcp ← 記事一覧へ戻る GitHub Watcher stackchan-mcp M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。 記事作成日 2026-06-06 種別 Pickup 対象 repo kisaragi-mochi/stackchan-mcp Star数 45 これは何か stackchan-mcp は、M5Stack 公式 StackChan キットを任意の LLM / MCP クライアントから操作するための MCP ブリッジです。stdio 側の MCP クライアントと、ESP32 側の WebSocket gateway をつないで、実機ロボットを会話の延長で扱えるようにします。 何ができるか README では、頭の移動、カメラ撮影、タッチ状態の取得、アバター表情の切り替えなどが明確に案内されています。加えて、音声の `say` と `listen` も用意されているので、対話と実機操作を同じ MCP 口からまとめやすいです。 目立つポイント 対象ハードウェアが M5Stack 公式 StackChan に絞られていて、firmware / gateway / docs の役割分担がはっきりしています。リポジトリの README には、Linux / macOS / Windows の配布や、mDNS での gateway 発見、リモート接続の手順までまとまっているのが実用的です。 セットアップや使い方の流れ まずは Releases の事前ビルドを焼いて動作確認し、必要なら gateway を `uv` や `pipx` で入れて `stackchan-mcp` を起動します。そのうえで `~/.claude.json` などに MCP サーバーを登録し、WebSocket URL と token を合わせてから使う流れが最短です。 どんな人向けか Claude Code や Claude Desktop から実機を動かしたい人、StackChan をデモ端末や対話ロボットとして試したい人、MCP をハードウェア連携に広げたい人に向いています。ソフトだけで完結しない「触れる AI」を作りたいケースと相性がいいです。 注意点 対象は M5Stack 公式 StackChan キットが中心で、自作機では pin assignment や I2C アドレスの一致確認が必要です。既存デバイスは NVS に古い gateway URL が残っていることもあるので、初回は README 通りに firmware と gateway の前提を揃えてから試す方が安全です。 まとめ stackchan-mcp は、MCP クライアントと StackChan 実機をつなぐ実用的なブリッジです。まずは配布済み firmware で動作を確認し、その後に gateway や音声機能を足していくのが分かりやすい進め方です。 参照リンク https://github.com/kisaragi-mochi/stackchan-mcp https://docs.m5stack.com/ja/StackChan https://github.com/kisaragi-mochi/stackchan-mcp/releases Shared GitHub Serial: #705"
+    },
     {
       "slug": "2026-06-06-update-report",
       "category": "github-update-report",
