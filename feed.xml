@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jun 2026 08:16:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 04:12:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-07 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-07-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-07-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 2.1.167、GitHub Copilot の 1M token context / reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[rustnet]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-domcyrus-rustnet.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[14 人の AI エージェントで 24/7 に動く自律型の会社運用基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-04 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-04-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-04-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>

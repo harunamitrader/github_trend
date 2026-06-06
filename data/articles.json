@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-07-ai-coding-tools-update",
+      "title": "2026-06-07 AIコーディングツール アップデート",
+      "dek": "Claude Code 2.1.167、GitHub Copilot の 1M token context / reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。",
+      "summary": "Claude Code は fallbackModel と権限制御を強化し、GitHub Copilot は大規模コンテキストと reasoning の制御を広げ、Gemini CLI は nightly の更新、Codex は alpha.6 の基盤整理が中心でした。",
+      "publishedAt": "2026-06-07",
+      "createdAt": "2026-06-07T04:08:39+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Gemini CLI, GitHub Copilot, Codex",
+      "articleUrl": "./articles/tools/2026-06-07-ai-coding-tools-update.html",
+      "serial": 635,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-06-domcyrus-rustnet",
       "title": "rustnet",

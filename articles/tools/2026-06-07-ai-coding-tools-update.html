@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code 2.1.167、GitHub Copilot の 1M token context と reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-07 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-07 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code 2.1.167、GitHub Copilot の 1M token context と reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-07 -->
+          <strong>2026-06-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, GitHub Copilot, Gemini CLI, Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月7日 JST の監視では、Claude Code が 2.1.167 まで進み、GitHub Copilot は大規模コンテキストと reasoning の制御を広げ、Gemini CLI は nightly 更新、Codex は alpha.6 の更新が入りました。Cline / Cursor / Windsurf / Antigravity は前回ログから変化なしです。</p>
+        <ul>
+          <li><strong>Claude Code v2.1.167:</strong> `fallbackModel` 設定、deny ルールの glob 対応、cross-session messaging の権限切り離し、fallback モデルへの再試行追加など、障害時の逃げ道と権限制御を同時に固めています。直前の 2.1.166〜2.1.162 も、挙動安定化と長時間セッションの耐性改善が中心でした。</li>
+          <li><strong>GitHub Copilot:</strong> June 4 の changelog で 1M token context windows と configurable reasoning levels が公開され、VS Code の May releases と Visual Studio の May update も続けて出ました。長い文脈を扱う場面と、IDE ごとの agent 体験の差分が広がっています。</li>
+          <li><strong>Gemini CLI v0.47.0-nightly.20260605:</strong> 6/5 の nightly でタグが更新され、直前の nightly からは release chore の差分のみでした。0.46.0-preview.2 と 0.45.2 も同日に並んでおり、現時点では安定版より nightly / preview 系の追従が先に進んでいます。</li>
+          <li><strong>Codex v0.138.0-alpha.6:</strong> alpha.5 から alpha.6 への差分では、submission payload の serde 片付け、terminal turn error の goal blocking 化、legacy remote plugin startup sync の削除、Responses Lite の専用ツール化など、内部基盤の整理が進みました。公開向けの新機能より、実装面の再設計が目立つ回です。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Code と Copilot は実運用の境界条件を広げる更新、Gemini CLI と Codex は nightly / alpha 系の追跡と内部基盤の整理が中心です。特に Copilot の大規模コンテキスト、Claude Code の fallback モデル、Codex の goal blocking は、普段の使い方とエラー時の体験に直結します。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は 4 ツールが更新されました。日常利用の安定性を上げる修正と、長文コンテキストや reasoning の拡張が同時に進んでいるので、次回はそれぞれの既定設定と課金・権限の扱いを見直すと差分を追いやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer">Claude Code CHANGELOG.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases/" target="_blank" rel="noreferrer">GitHub Copilot in Visual Studio Code, May releases</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot/" target="_blank" rel="noreferrer">Larger context windows and configurable reasoning levels for GitHub Copilot</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update/" target="_blank" rel="noreferrer">GitHub Copilot in Visual Studio - May update</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-nightly.20260605.g4196596f7" target="_blank" rel="noreferrer">Gemini CLI v0.47.0-nightly.20260605 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/releases/tag/rust-v0.138.0-alpha.6" target="_blank" rel="noreferrer">Codex v0.138.0-alpha.6 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
