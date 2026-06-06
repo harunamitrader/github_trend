@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-06T19:52:54.198087+00:00",
-  "count": 780,
+  "generatedAt": "2026-06-06T23:06:28.651303+00:00",
+  "count": 781,
   "articles": [
+    {
+      "slug": "2026-06-07-KyrieCheungYep-ky-design-to-html-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ky-design-to-html-skill",
+      "dek": "UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。",
+      "summary": "スクリーンショットを前提に、画面構造の分解と HTML/CSS の再現、画像資産の分離、検証と修正を順番に回す skill です。",
+      "repoName": "KyrieCheungYep/ky-design-to-html-skill",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-07",
+      "createdAt": "2026-06-07T08:05:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html",
+      "serial": 713,
+      "searchText": "ky-design-to-html-skill UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。 スクリーンショットを前提に、画面構造の分解と HTML/CSS の再現、画像資産の分離、検証と修正を順番に回す skill です。 KyrieCheungYep/ky-design-to-html-skill AIコーディング (ワークフロー・プロンプト・開発補助ツール) ky-design-to-html-skill ← 記事一覧へ戻る GitHub Watcher ky-design-to-html-skill UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。 記事作成日 2026-06-07 種別 Pickup 対象 repo KyrieCheungYep/ky-design-to-html-skill Star数 112 これは何か この skill は、UI 画像をそのまま「描く」のではなく、既存のスクリーンショットやデザイン稿を HTML/CSS に正しく還元するための手順集です。Asset 分離、画布適合、スクリーンショット検証までを最初から織り込んでいます。 何ができるか Codex や Claude に対して、画面構造の分解、画像資産の切り出し、HTML/CSS の実装、仕上げの視覚誤差修正までを一連で回せます。landing page、SaaS 画面、管理画面、空状態ページの再現に向いています。 目立つポイント 「まず HTML を書く」のではなく、先にページマップを作ってからコード化する流れが明示されている点が強みです。スクリーンショットでの見た目確認を前提にしているので、比率崩れや素材の劣化を後戻りしやすくできます。 セットアップや使い方の流れ README の案内に従って skill を導入し、UI 画像を渡したうえで「構造の分解」「画像とコードの切り分け」「画布設定」「実装」「再撮影」を順に実行します。単発生成より、確認と修正を含む反復手順として使うのが自然です。 どんな人向けか デザインを静的 HTML に落としたいフロントエンド開発者、AI に UI 画像を渡して実装させたい人、見た目の再現精度を上げたい人に向いています。実装の「雑な自動化」を避けたい場面で役立ちます。 注意点 これは UI を自動生成する skill ではなく、既存の視覚情報を HTML/CSS に還元するための手順です。最終的な品質は、スクリーンショット比較と修正をどれだけ丁寧に回すかで決まります。 まとめ ky-design-to-html-skill は、UI の見た目をコードへ戻す作業を、手順として安定させるための実務向け skill です。画面再現の精度を上げたい人には、導入価値があります。 参照リンク https://github.com/KyrieCheungYep/ky-design-to-html-skill https://github.com/KyrieCheungYep/ky-design-to-html-skill/blob/main/README.md https://github.com/KyrieCheungYep/ky-design-to-html-skill/tree/main/ky-design-to-html Shared GitHub Serial: #713"
+    },
     {
       "slug": "2026-06-07-update-report",
       "category": "github-update-report",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Jun 2026 19:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 08:06:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ky-design-to-html-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-07 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-07-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OSINT の調査対象をグラフで追跡し、ドメイン・IP・ASN を横断確認できる調査基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-05 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-05-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-05-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cline v3.0.17、GitHub Copilot の app / CLI 更新、Codex v0.137.0 をまとめた 2026-06-05 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>

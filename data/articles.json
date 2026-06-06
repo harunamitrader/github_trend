@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-07-KyrieCheungYep-ky-design-to-html-skill",
+      "title": "ky-design-to-html-skill",
+      "dek": "UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。",
+      "summary": "スクリーンショットを前提に、画面構造の分解と HTML/CSS の再現、画像資産の分離、検証と修正を順番に回す skill です。",
+      "publishedAt": "2026-06-07",
+      "createdAt": "2026-06-07T08:05:00+09:00",
+      "repoName": "KyrieCheungYep/ky-design-to-html-skill",
+      "repoUrl": "https://github.com/KyrieCheungYep/ky-design-to-html-skill",
+      "starCount": 112,
+      "articleUrl": "./articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html",
+      "serial": 713,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-07-ai-coding-tools-update",
       "title": "2026-06-07 AIコーディングツール アップデート",
