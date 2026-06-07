@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-08-ai-coding-tools-update",
+      "title": "2026-06-08 AIコーディングツール アップデート",
+      "dek": "Claude Code 2.1.168、Antigravity 2.0.11、GitHub Copilot の GPT-5.2 / GPT-5.2-Codex deprecated、Cline v3.88.1 をまとめた 2026-06-08 の監視ログです。",
+      "summary": "Claude Code は 2.1.168 で安定化し、Antigravity は 2.0.11 で起動系を修正、GitHub Copilot は GPT-5.2 系の deprecated、Cline は 3.88.1 で初回導線を修正しました。",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T04:04:00+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Antigravity, GitHub Copilot, Cline",
+      "articleUrl": "./articles/tools/2026-06-08-ai-coding-tools-update.html",
+      "serial": 636,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-07-KyrieCheungYep-ky-design-to-html-skill",
       "title": "ky-design-to-html-skill",
