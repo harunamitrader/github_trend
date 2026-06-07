@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jun 2026 19:10:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 04:53:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-06-08 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,38 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 2.1.168、Antigravity 2.0.11、GitHub Copilot の GPT-5.2 / GPT-5.2-Codex deprecated、Cline v3.88.1 をまとめた 2026-06-08 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pg_durable]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-microsoft-pg_durable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-microsoft-pg_durable.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PostgreSQL の中で耐障害な長時間ワークフローを実行する durable execution 基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[tolaria]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-refactoringhq-tolaria.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-refactoringhq-tolaria.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Markdown ナレッジベースをデスクトップで管理し、AI コンテキストや個人メモを一元化するアプリです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[turbovec]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-RyanCodrai-turbovec.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-RyanCodrai-turbovec.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TurboQuant ベースの Rust vector index と Python bindings をまとめた、RAG 向け検索基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-08 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-08-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-08-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[ky-design-to-html-skill]]></title>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex プラグインの構成例をまとめたサンプル集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CopilotKit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-CopilotKit-CopilotKit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-CopilotKit-CopilotKit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[生成 UI と共有状態を軸に、エージェントをアプリへ埋め込むためのフレームワークです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[prism-desktop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-lasselian-prism-desktop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-lasselian-prism-desktop.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Home Assistant をブラウザなしで扱える Windows/Linux 向けデスクトップダッシュボードです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-05 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-05-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-05-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cosmos]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-NVIDIA-cosmos.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-05-NVIDIA-cosmos.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NVIDIA の world model 基盤を、生成・推論・評価まで一続きで触れるための総合パッケージです。]]></description>
     </item>
   </channel>
 </rss>

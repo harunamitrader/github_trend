@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TurboQuant ベースの Rust vector index と Python bindings をまとめた、RAG 向け検索基盤です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>turbovec</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">turbovec</h1>
+      <p class="article-dek">TurboQuant ベースの Rust vector index と Python bindings をまとめた、RAG 向け検索基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-08 -->
+          <strong>2026-06-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #7</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/RyanCodrai/turbovec" target="_blank" rel="noreferrer">
+              RyanCodrai/turbovec
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,883</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>turbovec は、Google Research の TurboQuant アルゴリズムを土台にした Rust 製 vector index です。README では Python bindings も用意されており、検索基盤としてそのまま使いやすい構成になっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>ベクトルをオンラインで追加しながら索引化できるので、巨大なコーパスを後から再学習せずに扱えます。LangChain、LlamaIndex、Haystack、Agno などの統合も用意されていて、RAG の接続先として使いやすいです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README では、1,000 万文書級のコーパスを 31 GB から 4 GB に圧縮できる例が示され、FAISS より速い検索も掲げています。`pip install turbovec` と `cargo add turbovec` の両方が見えるので、Python でも Rust でも入り口を選びやすいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `pip install turbovec` で触り、必要に応じて `turbovec[langchain]` などの extras を足していくのが分かりやすいです。Rust 側からは `cargo add turbovec` で組み込み、必要なら wheel を作って配布できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>検索性能とメモリ使用量の両立を重視する RAG 実装、Python から Rust 実装を使いたい人、Vector DB ではなく軽いインデックス層を組みたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>README では x86_64 のビルドが x86-64-v3 / AVX2 ベースであることが示されているので、実運用前に CPU 前提を確認したほうが安全です。FAISS の置き換えを急ぐより、まずは小さくベンチマークしたほうがいいです。</p>
+
+        <h2>まとめ</h2>
+        <p>turbovec は、RAG の検索面を軽くしたいときにかなり魅力的な選択肢です。メモリ効率と導入のしやすさを両立しやすく、Python 主体の開発でも扱いやすいのが強みです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/RyanCodrai/turbovec" target="_blank" rel="noreferrer">https://github.com/RyanCodrai/turbovec</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/RyanCodrai/turbovec/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://arxiv.org/abs/2504.19874" target="_blank" rel="noreferrer">TurboQuant paper</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #716</p>
+      </div>
+    </article>
+  </body>
+</html>
