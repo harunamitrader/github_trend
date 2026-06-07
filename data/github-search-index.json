@@ -1,21 +1,36 @@
 {
-  "generatedAt": "2026-06-07T19:52:26.686620+00:00",
-  "count": 785,
+  "generatedAt": "2026-06-07T20:03:58.878733+00:00",
+  "count": 786,
   "articles": [
+    {
+      "slug": "2026-06-08-opencv-opencv",
+      "category": "github-trending",
+      "originType": "trending",
+      "title": "opencv",
+      "dek": "OpenCV の公式リポジトリを追える、画像処理とコンピュータビジョンの基盤です。",
+      "summary": "画像処理とコンピュータビジョンの定番ライブラリ OpenCV の本体を、公式 README とサイト情報に基づいて整理した記事です。",
+      "repoName": "opencv/opencv",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T05:02:02+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-08-opencv-opencv.html",
+      "serial": 717,
+      "searchText": "opencv OpenCV の公式リポジトリを追える、画像処理とコンピュータビジョンの基盤です。 画像処理とコンピュータビジョンの定番ライブラリ OpenCV の本体を、公式 README とサイト情報に基づいて整理した記事です。 opencv/opencv メディア作成・マルチモーダル・UI opencv ← 記事一覧へ戻る GitHub Watcher opencv OpenCV の公式リポジトリを追える、画像処理とコンピュータビジョンの基盤です。 記事作成日 2026-06-08 種別 Trending #2 対象 repo opencv/opencv Star数 88,021 これは何か OpenCV は、画像処理とコンピュータビジョンの定番ライブラリです。カメラ入力、画像の前処理、特徴抽出、物体検出のような基礎機能を広くカバーしていて、多くの CV 系システムの土台になります。 何ができるか 画像や動画を読み込み、フィルタ処理、輪郭抽出、色空間変換、モーション解析などの処理をまとめて扱えます。Python だけでなく C++ でも使いやすく、研究試作から実運用までつなげやすいです。 目立つポイント README では OpenCV 本体に加えて公式サイト、Docs、Q&A フォーラム、opencv_contrib への導線が整理されています。ライブラリ本体だけでなく、周辺の学習と拡張の入口が明確なのが強みです。 セットアップや使い方の流れ まずは公式サイトの docs で、用途に応じたモジュールとビルド手順を確認します。Python なら pip 配布を、C++ ならソースビルドや既存のバイナリ導入を前提に進めると組み込みやすいです。 どんな人向けか 画像処理を素早く試したい研究者、カメラや検査系のアプリを作る開発者、CV の基礎を実装で押さえたい人に向いています。 注意点 機能が広いぶん、何でも OpenCV に寄せると設計が重くなりやすいです。用途ごとにモジュールを絞って、必要な範囲だけを組み込む方が保守しやすくなります。 まとめ OpenCV は、画像処理とコンピュータビジョンの土台として今も強い存在です。プロトタイピングから本番実装まで、CV を扱うならまず押さえておきたいライブラリです。 参照リンク https://github.com/opencv/opencv README.md https://opencv.org/ Shared GitHub Serial: #717"
+    },
     {
       "slug": "2026-06-08-update-report",
       "category": "github-update-report",
       "originType": "report",
       "title": "2026-06-08 アップデートレポート",
       "dek": "本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ",
-      "summary": "2026-06-08 の GitHub Trending 更新レポートです。RyanCodrai/turbovec、refactoringhq/tolaria、microsoft/pg_durable の 3 件を新規に記事化しました。",
+      "summary": "2026-06-08 の GitHub Trending 更新レポートです。opencv/opencv、RyanCodrai/turbovec、refactoringhq/tolaria、microsoft/pg_durable の 4 件を新規に記事化しました。",
       "repoName": "",
       "genre": "アップデートレポート",
       "publishedAt": "2026-06-08",
       "createdAt": "2026-06-08T04:47:20+09:00",
       "articleUrl": "./articles/github/reports/2026-06-08-update-report.html",
       "serial": 415,
-      "searchText": "2026-06-08 アップデートレポート 本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ 2026-06-08 の GitHub Trending 更新レポートです。RyanCodrai/turbovec、refactoringhq/tolaria、microsoft/pg_durable の 3 件を新規に記事化しました。 アップデートレポート 2026-06-08 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-08 アップデートレポート 本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ 記事作成日 2026-06-08 調査件数 全 12 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-08）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 NousResearch/hermes-agent ✅ 記事作成済み lfnovo/open-notebook ✅ 記事作成済み yikart/AiToEarn ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み Crosstalk-Solutions/project-nomad ✅ 記事作成済み ggml-org/llama.cpp ✅ 記事作成済み RyanCodrai/turbovec ✨ 新規追加 TapXWorld/ChinaTextbook ✅ 記事作成済み openai/plugins ✅ 記事作成済み refactoringhq/tolaria ✨ 新規追加 HunxByts/GhostTrack ✅ 記事作成済み microsoft/pg_durable ✨ 新規追加 今後の展望 今回は未作成の上位候補をすべて補完できました。次回も GitHub Trending の順位変動をそのまま追い、既存記事との重複を機械的に排除しながら、RAG・ナレッジ管理・データ基盤系の上位候補を優先すると追跡しやすいです。"
+      "searchText": "2026-06-08 アップデートレポート 本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ 2026-06-08 の GitHub Trending 更新レポートです。opencv/opencv、RyanCodrai/turbovec、refactoringhq/tolaria、microsoft/pg_durable の 4 件を新規に記事化しました。 アップデートレポート 2026-06-08 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-08 アップデートレポート 本日調査したGitHubトレンド15件のランキングと、新規作成された記事のまとめ 記事作成日 2026-06-08 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-08）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み opencv/opencv ✨ 新規追加 Leonxlnx/taste-skill ✅ 記事作成済み NousResearch/hermes-agent ✅ 記事作成済み lfnovo/open-notebook ✅ 記事作成済み yikart/AiToEarn ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み Crosstalk-Solutions/project-nomad ✅ 記事作成済み ggml-org/llama.cpp ✅ 記事作成済み RyanCodrai/turbovec ✨ 新規追加 TapXWorld/ChinaTextbook ✅ 記事作成済み openai/plugins ✅ 記事作成済み refactoringhq/tolaria ✨ 新規追加 HunxByts/GhostTrack ✅ 記事作成済み microsoft/pg_durable ✨ 新規追加 今後の展望 今回は未作成の上位候補をすべて補完できました。次回も GitHub Trending の順位変動をそのまま追い、既存記事との重複を機械的に排除しながら、画像処理・RAG・ナレッジ管理・データ基盤系の上位候補を優先すると追跡しやすいです。"
     },
     {
       "slug": "2026-06-08-RyanCodrai-turbovec",
