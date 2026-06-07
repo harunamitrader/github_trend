@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jun 2026 20:06:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 07:15:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[KohakuTerrarium]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-Kohaku-Lab-KohakuTerrarium.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-Kohaku-Lab-KohakuTerrarium.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-08 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-08-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mempalace]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-MemPalace-mempalace.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-MemPalace-mempalace.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[会話履歴を逐語で残し、ローカル検索で引ける AI メモリ基盤です。]]></description>
     </item>
   </channel>
 </rss>

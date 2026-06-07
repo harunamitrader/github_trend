@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-08-Kohaku-Lab-KohakuTerrarium",
+      "title": "KohakuTerrarium",
+      "dek": "self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。",
+      "summary": "AI エージェントの構築・実行・合成をまとめて扱える、完成度の高い土台を提供するフレームワークです。",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T07:13:45+09:00",
+      "repoName": "Kohaku-Lab/KohakuTerrarium",
+      "repoUrl": "https://github.com/Kohaku-Lab/KohakuTerrarium",
+      "starCount": 422,
+      "articleUrl": "./articles/github/daily/2026-06-08-Kohaku-Lab-KohakuTerrarium.html",
+      "serial": 718,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-08-ai-coding-tools-update",
       "title": "2026-06-08 AIコーディングツール アップデート",

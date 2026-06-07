@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-07T20:03:58.878733+00:00",
-  "count": 786,
+  "generatedAt": "2026-06-07T22:14:27.117618+00:00",
+  "count": 787,
   "articles": [
+    {
+      "slug": "2026-06-08-Kohaku-Lab-KohakuTerrarium",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "KohakuTerrarium",
+      "dek": "self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。",
+      "summary": "AI エージェントの構築・実行・合成をまとめて扱える、完成度の高い土台を提供するフレームワークです。",
+      "repoName": "Kohaku-Lab/KohakuTerrarium",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T07:13:45+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-08-Kohaku-Lab-KohakuTerrarium.html",
+      "serial": 718,
+      "searchText": "KohakuTerrarium self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。 AI エージェントの構築・実行・合成をまとめて扱える、完成度の高い土台を提供するフレームワークです。 Kohaku-Lab/KohakuTerrarium AIエージェント (自律基盤・特化アプリ) KohakuTerrarium ← 記事一覧へ戻る GitHub Watcher KohakuTerrarium self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。 記事作成日 2026-06-08 種別 Pickup 対象 repo Kohaku-Lab/KohakuTerrarium Star数 422 これは何か KohakuTerrarium は、単発のエージェントを作るための部品集ではなく、エージェントを作るための「機械」そのものをまとめたフレームワークです。README では self-contained agents と multi-agent teams の構築、実行、合成をまとめて扱う設計が前面に出ています。 何ができるか 組み込みツール、sub-agents、persistent sessions、TUI、web UI をまとめて使いながら、ローカルでエージェントを回せます。`kt login codex` や `kt run` のような導線があるので、コマンド主体でも扱いやすいです。 目立つポイント README の冒頭から、`pip install kohakuterrarium` で入れて `kt install @kt-biome` で OOTB の creature を入れる流れが示されています。実験用の土台ではなく、すぐ動かせる実用パッケージとして設計されているのが特徴です。 セットアップや使い方の流れ まず pip で入れ、ログインして marketplace から creature を取り込み、`kt run` でひとつ動かすのが一番分かりやすい始め方です。そこから自分の agent や team の構成を足していくと、機能を段階的に把握できます。 どんな人向けか 自分でエージェント群を組みたい人、複数エージェントをひとまとめで運用したい人、TUI と web UI を使い分けながら試したい人に向いています。単なる SDK よりも、完成済みの実行環境を求める人向けです。 注意点 機能が多いぶん、最初から全部を理解しようとすると入り口が重くなります。まずは README の 60 秒デモをそのまま通し、その後に sessions や runtime surfaces を追う順番が無難です。 まとめ KohakuTerrarium は、AI エージェント運用の土台を一式で揃えたい人に向いたフレームワークです。単体の agent づくりより、複数の agent を安定して組み合わせたいときに価値があります。 参照リンク https://github.com/Kohaku-Lab/KohakuTerrarium README.md Documentation Shared GitHub Serial: #718"
+    },
     {
       "slug": "2026-06-08-opencv-opencv",
       "category": "github-trending",
