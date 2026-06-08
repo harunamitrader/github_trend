@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-08T04:07:16.043836+00:00",
-  "count": 788,
+  "generatedAt": "2026-06-08T19:52:12.451537+00:00",
+  "count": 790,
   "articles": [
+    {
+      "slug": "2026-06-09-update-report",
+      "category": "github-update-report",
+      "originType": "report",
+      "title": "2026-06-09 アップデートレポート",
+      "dek": "本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ",
+      "summary": "2026-06-09 の GitHub Trending 更新レポートです。Andyyyy64/whichllm を新規に記事化しました。",
+      "repoName": "",
+      "genre": "アップデートレポート",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T04:49:30+09:00",
+      "articleUrl": "./articles/github/reports/2026-06-09-update-report.html",
+      "serial": 416,
+      "searchText": "2026-06-09 アップデートレポート 本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ 2026-06-09 の GitHub Trending 更新レポートです。Andyyyy64/whichllm を新規に記事化しました。 アップデートレポート 2026-06-09 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-09 アップデートレポート 本日調査した GitHub トレンド 16 件のランキングと、新規作成された 1 件の記事のまとめ 記事作成日 2026-06-09 調査件数 全 16 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-06-09）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み RyanCodrai/turbovec ✅ 記事作成済み google/skills ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み Panniantong/Agent-Reach ✅ 記事作成済み danielmiessler/Personal_AI_Infrastructure ✅ 記事作成済み santifer/career-ops ✅ 記事作成済み phuryn/pm-skills ✅ 記事作成済み openai/plugins ✅ 記事作成済み Andyyyy64/whichllm ✨ 新規追加 MemPalace/mempalace ✅ 記事作成済み roboflow/supervision ✅ 記事作成済み CopilotKit/CopilotKit ✅ 記事作成済み TapXWorld/ChinaTextbook ✅ 記事作成済み luongnv89/claude-howto ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み 今後の展望 今回はローカル LLM の選定支援ツールを新規補完できました。次回も Trending の順位変動をそのまま追い、未作成の repo が出たら上位から順に補完していくのが効率的です。"
+    },
+    {
+      "slug": "2026-06-09-Andyyyy64-whichllm",
+      "category": "github-trending",
+      "originType": "trending",
+      "title": "whichllm",
+      "dek": "ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。",
+      "summary": "Hugging Face のライブデータとベンチマークを使い、ローカル LLM の選定・見積もり・起動をまとめて扱える CLI を整理した記事です。",
+      "repoName": "Andyyyy64/whichllm",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T04:49:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-09-Andyyyy64-whichllm.html",
+      "serial": 720,
+      "searchText": "whichllm ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。 Hugging Face のライブデータとベンチマークを使い、ローカル LLM の選定・見積もり・起動をまとめて扱える CLI を整理した記事です。 Andyyyy64/whichllm AIコーディング (ワークフロー・プロンプト・開発補助ツール) whichllm ← 記事一覧へ戻る GitHub Watcher whichllm ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。 記事作成日 2026-06-09 種別 Trending #10 対象 repo Andyyyy64/whichllm Star数 3,359 これは何か whichllm は、GPU / CPU / RAM を自動判定して、その環境で実際に走るローカル LLM の候補を並べる CLI です。Hugging Face のモデル情報とベンチマークを組み合わせて、「入るか」ではなく「何を動かすべきか」を決めやすくします。 何ができるか `whichllm` をそのまま実行すると、現在のマシンに合う候補が順位付きで出ます。`--gpu` で RTX 4090 のような仮想構成を試したり、`plan` で必要な GPU を逆算したり、`run` や `snippet` でそのまま起動やコード出力につなげたりできます。`--json` もあるので、スクリプトからの利用にも向いています。 目立つポイント README では、LiveBench や Aider、Chatbot Arena、Open LLM Leaderboard などの評価をまとめ、古いスコアをそのまま信用しない設計が強調されています。モデルのサイズだけで決めず、更新時期や証拠の強さまで見て順位を調整するので、単純な「大きい方が上」になりにくいです。 セットアップや使い方の流れ まずは `uvx whichllm@latest` で試し、頻繁に使うなら `uv tool install whichllm` に切り替えるのが素直です。次に `whichllm --gpu \"RTX 4090\"` で手元の想定環境を確認し、結果を見ながら `whichllm run` や `whichllm --top 1 --json` に進むと、選定から実行までがつながります。 どんな人向けか ローカル LLM を本気で使いたい人、GPU を買う前に候補を見たい人、Ollama や llama.cpp につなぐ前の比較を自動化したい人に向いています。開発用の補助ツールというより、モデル選定の判断エンジンとして使う方が分かりやすいです。 注意点 結果は Hugging Face のライブデータとキャッシュに依存するので、同じ日でも候補や順位は変わります。Apple Silicon と CPU only は GGUF 前提になりやすく、速度も実測値ではなく推定なので、最終判断は自分のバックエンドとベンチで確認したほうが安全です。 まとめ whichllm は、ローカル LLM を「動くか」だけでなく「どれを動かすべきか」まで一気に判断しやすい CLI です。モデル選定の手戻りを減らしたいなら、かなり実用的な入り口になります。 参照リンク https://github.com/Andyyyy64/whichllm README.md docs/how-it-works.md docs/scoring.md Shared GitHub Serial: #720"
+    },
     {
       "slug": "2026-06-08-edinetdb-dexter-jp",
       "category": "github-pickup",

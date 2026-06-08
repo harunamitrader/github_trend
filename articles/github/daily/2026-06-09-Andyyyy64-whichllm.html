@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>whichllm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">whichllm</h1>
+      <p class="article-dek">ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-09 -->
+          <strong>2026-06-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Trending #10</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Andyyyy64/whichllm" target="_blank" rel="noreferrer">
+              Andyyyy64/whichllm
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,359</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>whichllm は、GPU / CPU / RAM を自動判定して、その環境で実際に走るローカル LLM の候補を並べる CLI です。Hugging Face のモデル情報とベンチマークを組み合わせて、「入るか」ではなく「何を動かすべきか」を決めやすくします。</p>
+
+        <h2>何ができるか</h2>
+        <p>`whichllm` をそのまま実行すると、現在のマシンに合う候補が順位付きで出ます。`--gpu` で RTX 4090 のような仮想構成を試したり、`plan` で必要な GPU を逆算したり、`run` や `snippet` でそのまま起動やコード出力につなげたりできます。`--json` もあるので、スクリプトからの利用にも向いています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>README では、LiveBench や Aider、Chatbot Arena、Open LLM Leaderboard などの評価をまとめ、古いスコアをそのまま信用しない設計が強調されています。モデルのサイズだけで決めず、更新時期や証拠の強さまで見て順位を調整するので、単純な「大きい方が上」になりにくいです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まずは `uvx whichllm@latest` で試し、頻繁に使うなら `uv tool install whichllm` に切り替えるのが素直です。次に `whichllm --gpu "RTX 4090"` で手元の想定環境を確認し、結果を見ながら `whichllm run` や `whichllm --top 1 --json` に進むと、選定から実行までがつながります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ローカル LLM を本気で使いたい人、GPU を買う前に候補を見たい人、Ollama や llama.cpp につなぐ前の比較を自動化したい人に向いています。開発用の補助ツールというより、モデル選定の判断エンジンとして使う方が分かりやすいです。</p>
+
+        <h2>注意点</h2>
+        <p>結果は Hugging Face のライブデータとキャッシュに依存するので、同じ日でも候補や順位は変わります。Apple Silicon と CPU only は GGUF 前提になりやすく、速度も実測値ではなく推定なので、最終判断は自分のバックエンドとベンチで確認したほうが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>whichllm は、ローカル LLM を「動くか」だけでなく「どれを動かすべきか」まで一気に判断しやすい CLI です。モデル選定の手戻りを減らしたいなら、かなり実用的な入り口になります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Andyyyy64/whichllm" target="_blank" rel="noreferrer">https://github.com/Andyyyy64/whichllm</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Andyyyy64/whichllm/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Andyyyy64/whichllm/blob/main/docs/how-it-works.md" target="_blank" rel="noreferrer">docs/how-it-works.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/Andyyyy64/whichllm/blob/main/docs/scoring.md" target="_blank" rel="noreferrer">docs/scoring.md</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #720</p>
+      </div>
+    </article>
+  </body>
+</html>

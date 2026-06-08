@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 08 Jun 2026 04:08:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 04:52:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[whichllm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-Andyyyy64-whichllm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-Andyyyy64-whichllm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-09 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-09-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-09-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[dexter-jp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-edinetdb-dexter-jp.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数のローカル AI runtime を、キャラクター単位で切り替えて運用するための制御面です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stackchan-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-kisaragi-mochi-stackchan-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-kisaragi-mochi-stackchan-mcp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[M5Stack 公式 StackChan を MCP クライアントから操るためのゲートウェイです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-06 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-06-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-06-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cline v3.88.0、Cursor 3.7、Gemini CLI v0.45.1 をまとめた 2026-06-06 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>
