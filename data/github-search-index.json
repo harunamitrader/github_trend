@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-07T22:14:27.117618+00:00",
-  "count": 787,
+  "generatedAt": "2026-06-08T04:07:16.043836+00:00",
+  "count": 788,
   "articles": [
+    {
+      "slug": "2026-06-08-edinetdb-dexter-jp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "dexter-jp",
+      "dek": "日本株の自律型リサーチを、EDINET DB と J-Quants で回す金融AIエージェントです。",
+      "summary": "日本株の比較・検証・レポート化を自律的に回せる金融リサーチ用エージェントを整理した記事です。",
+      "repoName": "edinetdb/dexter-jp",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T13:06:13+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-08-edinetdb-dexter-jp.html",
+      "serial": 719,
+      "searchText": "dexter-jp 日本株の自律型リサーチを、EDINET DB と J-Quants で回す金融AIエージェントです。 日本株の比較・検証・レポート化を自律的に回せる金融リサーチ用エージェントを整理した記事です。 edinetdb/dexter-jp 金融・トレード分析 dexter-jp ← 記事一覧へ戻る GitHub Watcher dexter-jp 日本株の自律型リサーチを、EDINET DB と J-Quants で回す金融AIエージェントです。 記事作成日 2026-06-08 種別 Pickup 対象 repo edinetdb/dexter-jp Star数 264 これは何か dexter-jp は、日本株に特化した自律型リサーチエージェントです。EDINET DB と J-Quants を使い、企業比較や財務・開示情報の確認を人手の代わりに進めます。 何ができるか 質問を投げると、必要な指標を自分で計画し、複数ソースからデータを集め、途中で検証しながらレポートまでまとめます。単なるスクリーニングではなく、比較と解釈までをひと続きで実行できるのが強みです。 目立つポイント README では、ソニーと任天堂を比較する例のように、指標選定から並列取得、矛盾チェック、構造化レポート出力までの流れが明示されています。米国株版 dexter を日本市場向けに全面改修している点も、用途がはっきりしています。 セットアップや使い方の流れ 必要なものは Bun、LLM API キー、EDINET DB API キーです。環境変数を用意して起動すれば、自然言語の依頼から分析計画の生成、データ取得、レポート作成までを一気に試せます。 どんな人向けか 日本株の銘柄比較を高速に回したい人、IR や財務の確認を毎回手で繰り返したくない人、金融分析をエージェント化したい人に向いています。 注意点 金融データを扱うので、出力結果はそのまま投資判断に使わず、元データとの突き合わせを前提にしたほうが安全です。API キーの設定やデータソースの制約も先に確認しておくべきです。 まとめ dexter-jp は、日本株の調査を自動化したいときにかなり実務寄りで使えるエージェントです。比較、検証、レポート化までを 1 つの流れで回せるのが魅力です。 参照リンク https://github.com/edinetdb/dexter-jp README.md EDINET DB Shared GitHub Serial: #719"
+    },
     {
       "slug": "2026-06-08-Kohaku-Lab-KohakuTerrarium",
       "category": "github-pickup",

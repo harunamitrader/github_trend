@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-08-edinetdb-dexter-jp",
+      "title": "dexter-jp",
+      "dek": "日本株の自律型リサーチを、EDINET DB と J-Quants で回す金融AIエージェントです。",
+      "summary": "日本株の比較・検証・レポート化を自律的に回せる金融リサーチ用エージェントを整理した記事です。",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-08T13:06:13+09:00",
+      "repoName": "edinetdb/dexter-jp",
+      "repoUrl": "https://github.com/edinetdb/dexter-jp",
+      "starCount": 264,
+      "articleUrl": "./articles/github/daily/2026-06-08-edinetdb-dexter-jp.html",
+      "serial": 719,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-08-Kohaku-Lab-KohakuTerrarium",
       "title": "KohakuTerrarium",
       "dek": "self-contained な AI エージェントと multi-agent team を組み立てるための、バッテリー同梱型フレームワークです。",
