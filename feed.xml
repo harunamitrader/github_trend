@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 09 Jun 2026 01:27:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 20:14:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[SkillSpector]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。]]></description>
+    </item>
     <item>
       <title><![CDATA[kimi-code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-MoonshotAI-kimi-code-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンド18件のランキングと、5件の新規記事化をまとめたレポートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[rustnet]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-domcyrus-rustnet.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-06-domcyrus-rustnet.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロセス単位の接続追跡と深いパケット解析を行う、ターミナル向けネットワーク監視 TUI です。]]></description>
     </item>
   </channel>
 </rss>

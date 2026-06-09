@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-09T01:25:54.498265+00:00",
-  "count": 791,
+  "generatedAt": "2026-06-09T11:14:53.218566+00:00",
+  "count": 792,
   "articles": [
+    {
+      "slug": "2026-06-09-NVIDIA-SkillSpector-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "SkillSpector",
+      "dek": "AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。",
+      "summary": "AI エージェント向けのスキルを導入前に点検し、危険なパターンや脆弱性を見つけやすくするセキュリティスキャナーを整理した記事です。",
+      "repoName": "NVIDIA/SkillSpector",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T20:13:42+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html",
+      "serial": 722,
+      "searchText": "SkillSpector AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。 AI エージェント向けのスキルを導入前に点検し、危険なパターンや脆弱性を見つけやすくするセキュリティスキャナーを整理した記事です。 NVIDIA/SkillSpector スクレイピング・情報収集・セキュリティ SkillSpector ← 記事一覧へ戻る GitHub Watcher SkillSpector AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。 記事作成日 2026-06-09 種別 Pickup 対象 repo NVIDIA/SkillSpector Star数 1,603 これは何か SkillSpector は、Claude Code や Codex CLI のような AI エージェント向けスキルを安全に入れてよいか確認するためのスキャナーです。Git リポジトリ、URL、zip、ディレクトリ、単体ファイルを対象に、危険なパターンや脆弱性を先に洗い出します。 何ができるか skillspector scan ./my-skill/ のように実行すると、リスクスコアと警告内容を確認できます。出力はターミナルだけでなく、JSON、Markdown、SARIF にも対応しているので、レビューや CI にもつなげやすいです。 目立つポイント 64 個のパターンを 16 分類で見ているため、単純な文字列検索よりも広く拾えます。静的解析に加えて LLM の意味解析も挟めるので、危険なスキルを導入前にふるいにかける用途に向いています。 セットアップや使い方の流れ README の手順どおりに仮想環境を作成し、 make install または make install-dev で入れます。その後は skillspector scan で対象を渡し、必要に応じて --format json や --no-llm を使い分けるのが分かりやすい流れです。 どんな人向けか 外部の skill を導入する前に安全性を確認したい人、AI エージェント向けの配布物を公開する人、レビュー基準を統一したいチームに向いています。インストール前のゲートとして使うと効果が出やすいです。 注意点 静的解析が中心なので、実行時の挙動までは見ません。非英語コンテンツは見落としやすく、LLM 分析を使う場合は provider やキー設定も必要になるので、そこは前提を揃えて使う必要があります。 まとめ SkillSpector は、AI エージェント向けスキルを入れる前の安全確認を自動化する実用的なツールです。導入前の確認を手作業で済ませたくないなら、かなり相性が良いです。 参照リンク NVIDIA/SkillSpector README.md docs/DEVELOPMENT.md 入力元 URL Shared GitHub Serial: #722"
+    },
     {
       "slug": "2026-06-09-MoonshotAI-kimi-code-pickup",
       "category": "github-pickup",

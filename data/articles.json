@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-09-NVIDIA-SkillSpector-pickup",
+      "title": "SkillSpector",
+      "dek": "AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。",
+      "summary": "AI エージェント向けのスキルを導入前に点検し、危険なパターンや脆弱性を見つけやすくするセキュリティスキャナーを整理した記事です。",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T20:13:42+09:00",
+      "repoName": "NVIDIA/SkillSpector",
+      "repoUrl": "https://github.com/NVIDIA/SkillSpector",
+      "starCount": 1603,
+      "articleUrl": "./articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html",
+      "serial": 722,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-09-MoonshotAI-kimi-code-pickup",
       "title": "kimi-code",
       "dek": "コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。",
