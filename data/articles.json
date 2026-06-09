@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-09-MoonshotAI-kimi-code-pickup",
+      "title": "kimi-code",
+      "dek": "コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。",
+      "summary": "Kimi Code CLI は、ターミナル中心でコード編集や実行を回せる AI コーディングエージェントとして、MCP や ACP 連携までまとめて扱える記事です。",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T10:25:02+09:00",
+      "repoName": "MoonshotAI/kimi-code",
+      "repoUrl": "https://github.com/MoonshotAI/kimi-code",
+      "starCount": 2099,
+      "articleUrl": "./articles/github/daily/2026-06-09-MoonshotAI-kimi-code-pickup.html",
+      "serial": 721,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-09-Andyyyy64-whichllm",
       "title": "whichllm",

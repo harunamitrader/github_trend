@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-08T19:52:12.451537+00:00",
-  "count": 790,
+  "generatedAt": "2026-06-09T01:25:54.498265+00:00",
+  "count": 791,
   "articles": [
+    {
+      "slug": "2026-06-09-MoonshotAI-kimi-code-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "kimi-code",
+      "dek": "コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。",
+      "summary": "Kimi Code CLI は、ターミナル中心でコード編集や実行を回せる AI コーディングエージェントとして、MCP や ACP 連携までまとめて扱える記事です。",
+      "repoName": "MoonshotAI/kimi-code",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-09T10:25:02+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-09-MoonshotAI-kimi-code-pickup.html",
+      "serial": 721,
+      "searchText": "kimi-code コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。 Kimi Code CLI は、ターミナル中心でコード編集や実行を回せる AI コーディングエージェントとして、MCP や ACP 連携までまとめて扱える記事です。 MoonshotAI/kimi-code AIコーディング (CLI本体・拡張機能) kimi-code ← 記事一覧へ戻る GitHub Watcher kimi-code コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。 記事作成日 2026-06-09 種別 Pickup 対象 repo MoonshotAI/kimi-code Star数 2,099 これは何か Kimi Code CLI は、ターミナル内で動く AI コーディングエージェントです。コードの読解、編集、シェル実行、ファイル検索、Web 参照をまとめて扱い、次に何をするかも対話のフィードバックから判断します。 何ができるか 公式のインストールスクリプトで素早く入れて、 kimi で対話セッションを開始できます。 /login で Kimi Code OAuth か Open Platform API key を設定し、 /mcp-config で MCP を追加・認証しながら、 kimi acp で Zed や JetBrains などの ACP 対応エディタともつなげられます。 目立つポイント Node.js 不要の単一バイナリ配布で、導入の摩擦が低いのが強みです。さらに、サブエージェント、ライフサイクルフック、スキルや MCP サーバーのマーケットプレイス、動画入力まで備えていて、単なる CLI 以上の作りになっています。 セットアップや使い方の流れ macOS / Linux なら curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash 、Windows なら PowerShell のインストールスクリプトを使い、その後 kimi --version で導入確認します。プロジェクトを開いたら cd your-project して kimi を起動し、最初に /login を済ませてから具体的な作業を依頼すると流れが作りやすいです。 どんな人向けか エディタを行き来せずに、ターミナル中心でコーディング支援を受けたい人に向いています。MCP や ACP を使った拡張、自動化フック、サブエージェントを組み合わせたい人にも相性が良いです。 注意点 Windows では Git for Windows が前提になるので、初回導入前に入れておく必要があります。カスタム配置の Git Bash を使う場合は KIMI_SHELL_PATH の設定も必要ですし、認証方式や対応機能は公式ドキュメントの更新に合わせて変わる可能性があります。 まとめ Kimi Code CLI は、ターミナルで完結するコーディングエージェントをそのまま使いたい人に向いた実装です。インストールから対話、拡張、IDE 接続までが一本につながっているので、日常の開発導線に組み込みやすいです。 参照リンク MoonshotAI/kimi-code README.md Documentation 入力元 URL Shared GitHub Serial: #721"
+    },
     {
       "slug": "2026-06-09-update-report",
       "category": "github-update-report",
