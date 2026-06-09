@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-10-ai-coding-tools-update",
+      "title": "2026-06-10 AIコーディングツール アップデート",
+      "dek": "Claude Code 2.1.170、Cline CLI v3.0.21、Gemini CLI nightly、GitHub Copilot の Claude Fable 5 GA / security validation、Codex CLI 0.138.0 をまとめた 2026-06-10 の監視ログです。",
+      "summary": "Claude Code は Fable 5 と `--resume` の保存修正、Cline は CLI 運用改善、Copilot は Claude Fable 5 の GA と第三者エージェントの検証強化、Codex は初期導線と UI を整えました。",
+      "publishedAt": "2026-06-10",
+      "createdAt": "2026-06-10T04:11:58+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Cline, Gemini CLI, GitHub Copilot, Codex",
+      "articleUrl": "./articles/tools/2026-06-10-ai-coding-tools-update.html",
+      "serial": 723,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-09-NVIDIA-SkillSpector-pickup",
       "title": "SkillSpector",

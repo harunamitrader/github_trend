@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code 2.1.170、Cline CLI v3.0.21、Gemini CLI nightly、GitHub Copilot の Claude Fable 5 GA と security validation、Codex CLI 0.138.0 をまとめた 2026-06-10 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-10 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-10 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code 2.1.170、Cline CLI v3.0.21、Gemini CLI nightly、GitHub Copilot の Claude Fable 5 GA と security validation、Codex CLI 0.138.0 をまとめた 2026-06-10 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-10 -->
+          <strong>2026-06-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, Cline, Gemini CLI, GitHub Copilot, Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月10日 JST の監視では、Claude Code / Cline / Gemini CLI / GitHub Copilot / Codex に新しい更新がありました。Cursor / Windsurf / Antigravity は前回ログから変化なしです。</p>
+        <ul>
+          <li><strong>Claude Code v2.1.170:</strong> Claude Fable 5 を取り込み、`--resume` 実行時に transcript が保存されない不具合を修正しました。直前の 2.1.169 では `--safe-mode`、`/cd`、`disableBundledSkills` など、実行制御まわりの整理も進んでいます。</li>
+          <li><strong>Cline CLI v3.0.21:</strong> CLI 起動時の global auto-update 設定、credits refill への導線、スクロール系の修正、connector thread session routing の修正、Vertex AI ADC 対応、Bedrock replay 修正、OpenAI Codex の model list 整理をまとめて反映しました。運用時の引っかかりを減らす更新です。</li>
+          <li><strong>Gemini CLI v0.47.0-nightly.20260609.g0567b25a2:</strong> Antigravity transition banner の表示回数制御を見直し、browser agent docs から experimental 表記を外しました。nightly らしく、案内文言と周辺導線を整える差分です。</li>
+          <li><strong>GitHub Copilot:</strong> Claude Fable 5 が一般提供になり、third-party coding agents 向けの security validation も追加されました。モデル拡張と外部エージェントの安全確認を同時に進める更新です。</li>
+          <li><strong>Codex CLI 0.138.0:</strong> browser / review UI の問題修正、onboarding の role options 拡張、performance improvements and bug fixes が入りました。初回導線と UI の扱いを詰めるメンテナンス更新です。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Code と Cline は、日常的に触る CLI の安定性と実行制御を固める更新です。Gemini CLI は nightly の追従、GitHub Copilot はモデル提供と第三者エージェントの安全性、Codex は初期設定と UI の使い勝手を改善する方向で効いています。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は 5 ツールが更新され、実運用の引っかかりを減らす修正が中心でした。残る 3 ツールは変化がなかったため、次回は Claude Code と Copilot の変更が実務に与える影響を優先して追うと見通しが立てやすいです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md" target="_blank" rel="noreferrer">Claude Code CHANGELOG.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/cli-v3.0.21" target="_blank" rel="noreferrer">Cline CLI v3.0.21 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-nightly.20260609.g0567b25a2" target="_blank" rel="noreferrer">Gemini CLI v0.47.0-nightly.20260609.g0567b25a2 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot" target="_blank" rel="noreferrer">Claude Fable 5 is generally available for GitHub Copilot</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents" target="_blank" rel="noreferrer">Security validation for third-party coding agents</a>
+        </div>
+        <div class="source-item">
+          <a href="https://developers.openai.com/codex/changelog" target="_blank" rel="noreferrer">Codex changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
