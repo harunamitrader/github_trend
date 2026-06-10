@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 09 Jun 2026 20:02:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 07:23:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[hivemind]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-activeloopai-hivemind.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-activeloopai-hivemind.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数エージェントの会話や作業痕跡を共有知に変えるメモリ基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[container]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-apple-container.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-apple-container.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Mac 上で Linux コンテナを軽量 VM として動かせる Swift 製ツールです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-11 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-11-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-11-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンド 17 件のランキングと、新規作成された 2 件の記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-10 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-10-ai-coding-tools-update.html</link>
@@ -142,30 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ky-design-to-html-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-KyrieCheungYep-ky-design-to-html-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[UI スクリーンショットや設計稿を HTML/CSS に還元する、Codex / Claude 向けの実務スキルです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-07 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-07-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-07-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code 2.1.167、GitHub Copilot の 1M token context / reasoning 更新、Gemini CLI v0.47.0-nightly.20260605、Codex v0.138.0-alpha.6 をまとめた 2026-06-07 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[svelte]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-sveltejs-svelte.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-07-sveltejs-svelte.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Svelte のコンパイラ型フロントエンド本体を追える公式リポジトリです。]]></description>
     </item>
   </channel>
 </rss>
