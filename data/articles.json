@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-12-ai-coding-tools-update",
+      "title": "2026-06-12 AIコーディングツール アップデート",
+      "dek": "Cline v3.89.2、Cursor の Bugbot 高速化、Gemini CLI preview、GitHub Copilot の /settings、Codex 0.140.0-alpha.10、Windsurf v3.1.7 をまとめた 2026-06-12 の監視ログです。",
+      "summary": "Cline は Node 24 対応の Anthropic SDK 修正、Cursor は Bugbot の高速化と /review 改善、Gemini CLI は preview.0、GitHub Copilot は /settings、Codex は 0.140.0-alpha.10、Windsurf は Devin Desktop への再編を反映しました。",
+      "publishedAt": "2026-06-12",
+      "createdAt": "2026-06-12T04:13:17.459817+09:00",
+      "originType": "tool-log",
+      "toolName": "Cline, Cursor, Gemini CLI, GitHub Copilot, Codex, Windsurf",
+      "articleUrl": "./articles/tools/2026-06-12-ai-coding-tools-update.html",
+      "serial": 728,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-11-activeloopai-hivemind",
       "title": "hivemind",

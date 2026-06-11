@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.89.2、Cursor の Bugbot 高速化、Gemini CLI preview、GitHub Copilot の /settings、Codex 0.140.0-alpha.10、Windsurf v3.1.7 をまとめた 2026-06-12 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-12 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-12 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Cline v3.89.2、Cursor の Bugbot 高速化、Gemini CLI preview、GitHub Copilot の /settings、Codex 0.140.0-alpha.10、Windsurf v3.1.7 をまとめた 2026-06-12 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-12 -->
+          <strong>2026-06-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline, Cursor, Gemini CLI, GitHub Copilot, Codex, Windsurf</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月12日 JST の監視では、Cline / Cursor / Gemini CLI / GitHub Copilot / Codex / Windsurf に新しい更新がありました。Claude Code と Antigravity は前回ログから変化なしです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+                      <li><strong>Cline v3.89.2:</strong> VS Code 1.123 以降での Anthropic provider 互換性を直し、バンドルされた Anthropic SDK を Node 24 対応の版へ更新しました。Vertex AI provider も追随しているので、アップグレード後の接続安定性を戻すホットフィックスです。</li>
+          <li><strong>Cursor:</strong> Bugbot が 3 倍以上速くなり、22% 安く、1 回あたりの検出件数も 10% 増えました。/review で Bugbot や Security Review を選べるようになり、すでにレビュー済みの差分は GitHub / GitLab 側でもスキップしやすくなっています。</li>
+          <li><strong>Gemini CLI v0.47.0-preview.0:</strong> 0.47 系の preview に入り、auto mode の 3.5 flash 既定化、MCP tool discovery の原子的な更新、Vertex AI の model mapping 修正、Antigravity 移行バナーの調整、browser agent docs の experimental 表記整理などが入りました。</li>
+          <li><strong>GitHub Copilot:</strong> /settings で Copilot CLI の設定を一元化できるようになり、Agentic Workflows の public preview と、PAT なしで動かせる導線の更新も同日に出ています。設定導線と自律ワークフローの入口がまとめて整理された回です。</li>
+          <li><strong>Codex 0.140.0-alpha.10:</strong> worktree の Git 読み込みで fsmonitor を維持し、remote plugin install の認証要件、workspace に入った plugin の返却、multi-agent v2 の activity tracking などが進みました。/review 関連の安定性も合わせて固める alpha です。</li>
+          <li><strong>Windsurf v3.1.7:</strong> Devin Desktop への再編が進み、collapsed sidebar の Agent/Editor 切り替え、Devin Local への名称変更、サインイン失敗通知、.devinignore 対応、設定/MCP ページのレイアウト改善、バンドルされた Devin Local agent の更新が入っています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回の更新は、レビュー、設定、プラグイン導入、ローカル実行の安定性に効くものが中心です。特に Cursor と GitHub Copilot は日々のレビュー導線に直結し、Cline と Codex は CLI ベースの実運用で詰まりやすいところを順に潰しています。</p>
+
+        <h2>まとめ</h2>
+        <p>派手な新機能より、日常で触る設定とレビューの摩擦を下げる更新が多い回でした。Claude Code と Antigravity は変化なしなので、次回は Copilot と Codex の続報を優先すると追跡しやすくなります。</p>
+
+        <h2>参照リンク</h2>
+                <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.89.2" target="_blank" rel="noreferrer">Cline v3.89.2 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor changelog</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0" target="_blank" rel="noreferrer">Gemini CLI v0.47.0-preview.0 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings" target="_blank" rel="noreferrer">Copilot CLI: Configure everything from one place with /settings</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview" target="_blank" rel="noreferrer">GitHub Agentic Workflows is now in public preview</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token" target="_blank" rel="noreferrer">Agentic workflows no longer need a personal access token</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.10" target="_blank" rel="noreferrer">Codex 0.140.0-alpha.10 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://windsurf.com/changelog" target="_blank" rel="noreferrer">Windsurf changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
