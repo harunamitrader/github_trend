@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="暗号化と重複排除を備えた Go 製バックアップツール restic を整理した記事です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>restic</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">restic</h1>
+      <p class="article-dek">暗号化と重複排除を備えた Go 製バックアップツール restic を整理した記事です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-12 -->
+          <strong>2026-06-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/restic/restic" target="_blank" rel="noreferrer">
+              restic/restic
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>34,109</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>restic は、暗号化・重複排除・検証を前提にした Go 製のバックアップツールです。README でも Quick start と Backends が早い段階で案内されていて、ローカルと各種ストレージをまたいだバックアップ基盤として設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>リポジトリを init して backup / restore / snapshots / forget / prune を回し、バックアップの作成と世代整理を CLI で完結できます。検証や再取得も同じ道筋で扱えるので、運用の手順を揃えやすいです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>暗号化、重複排除、複数 backend 対応、再現性を意識したビルド方針が柱です。README の Design Principles でも、無駄の少ないバックアップ運用を優先する姿勢がはっきりしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の Quick start に沿って backend を選び、restic init で保管先を初期化してから backup を実行します。日次運用では snapshots と restore の確認を挟み、必要に応じて forget と prune で保持ポリシーを調整します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>CLI で堅牢なバックアップ運用を回したい個人開発者、サーバー管理者、複数ストレージをまたいで保管先を選びたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>暗号化パスワードの管理と prune の運用ルールは事前に決めておく必要があります。バックエンドの特性差もあるので、本番投入前に restore の確認まで通すのが安全です。</p>
+
+        <h2>まとめ</h2>
+        <p>ローカルとクラウドを横断した軽量バックアップ基盤として、CLI 中心で安定運用しやすいのが強みです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/restic/restic" target="_blank" rel="noreferrer">https://github.com/restic/restic</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #728</p>
+      </div>
+    </article>
+  </body>
+</html>
