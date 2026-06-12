@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-12T19:55:05.634451+00:00",
-  "count": 811,
+  "generatedAt": "2026-06-12T23:12:18.163643+00:00",
+  "count": 812,
   "articles": [
+    {
+      "slug": "2026-06-13-tamg-mint-blender-addon-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "mint-blender-addon",
+      "dek": "Mint の生成資産を Blender に直接取り込めるアドオンです。",
+      "summary": "Mint の生成資産を Blender に直接取り込めるアドオンです。",
+      "repoName": "tamg/mint-blender-addon",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-13",
+      "createdAt": "2026-06-13T08:12:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-13-tamg-mint-blender-addon-pickup.html",
+      "serial": 738,
+      "searchText": "mint-blender-addon Mint の生成資産を Blender に直接取り込めるアドオンです。 Mint の生成資産を Blender に直接取り込めるアドオンです。 tamg/mint-blender-addon メディア作成・マルチモーダル・UI mint-blender-addon ← 記事一覧へ戻る GitHub Watcher mint-blender-addon Mint の生成資産を Blender に直接取り込めるアドオンです。 記事作成日 2026-06-13 種別 Pickup 対象 repo tamg/mint-blender-addon Star数 10 これは何か mint-blender-addon は、Mint AI で生成したモデルやワールド、アセットパックを Blender の 3D View から参照して取り込めるアドオンです。Mint 側で作った資産を、そのまま Blender の作業に繋げやすくします。 何ができるか Blender 内で Mint アカウントにサインインし、モデル一覧やワールド、パックを確認して、対応している資産を現在のシーンへインポートできます。GLB モデルは Kiri なしで扱え、ワールドのガウススプラット表示は Kiri Engine 3DGS Render と組み合わせる設計です。 目立つポイント 3D View のサイドバーに Mint パネルを追加するだけのシンプルな UI で、操作導線が分かりやすいのが特徴です。README にある通り、モデル、ワールド、パックを切り替えて使えるため、生成物を探して Blender に持ち込む流れが短くまとまっています。 セットアップや使い方の流れ Blender 4.2 以降に zip をインストールし、Add-ons で Mint Asset Browser を有効化します。その後 Mint タブで Log In を実行し、Refresh で一覧を更新してから、Models なら Import GLB、Worlds なら Kiri 環境がある場合に View Splat を使います。 どんな人向けか Mint で作った 3D 資産を Blender で仕上げたい人、生成 AI の出力をそのまま制作パイプラインに乗せたい人、アドオン型の連携 UI を探している人に向いています。 注意点 Blender 4.2 以上が前提で、Worlds の splat 表示には Kiri Engine 3DGS Render が必要です。サインイン失敗時や「No durable GLB yet」のような表示は、資産側の状態や連携条件を確認する必要があります。 まとめ Mint で生成した 3D 資産を Blender に持ち込む入口として、用途が明確で扱いやすいアドオンです。Mint と Blender を行き来する制作フローがあるなら、まず試しやすい構成です。 参照リンク https://github.com/tamg/mint-blender-addon Shared GitHub Serial: #738"
+    },
     {
       "slug": "2026-06-13-update-report",
       "category": "github-update-report",

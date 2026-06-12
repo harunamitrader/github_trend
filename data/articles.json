@@ -21,6 +21,22 @@
       "genre": "AIコーディング (CLI本体・諸機能)"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-06-13-tamg-mint-blender-addon-pickup",
+      "title": "mint-blender-addon",
+      "dek": "Mint の生成資産を Blender に直接取り込めるアドオンです。",
+      "summary": "Mint の生成資産を Blender に直接取り込めるアドオンです。",
+      "publishedAt": "2026-06-13",
+      "createdAt": "2026-06-13T08:12:00+09:00",
+      "repoName": "tamg/mint-blender-addon",
+      "repoUrl": "https://github.com/tamg/mint-blender-addon",
+      "starCount": 10,
+      "articleUrl": "./articles/github/daily/2026-06-13-tamg-mint-blender-addon-pickup.html",
+      "originType": "pickup",
+      "serial": 738,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-13-f-awesome-chatgpt-prompts",
       "title": "awesome-chatgpt-prompts",
