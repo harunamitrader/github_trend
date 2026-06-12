@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Jun 2026 19:55:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 04:09:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-13 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-13-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-13-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.175 と Codex v0.140.0-alpha.15 を中心に、2026-06-13 の監視結果をまとめた記事です。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-12 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-12-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dexter-jp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-edinetdb-dexter-jp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-08-edinetdb-dexter-jp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[日本株の自律型リサーチを、EDINET DB と J-Quants で回す金融AIエージェントです。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-13-ai-coding-tools-update",
+      "title": "2026-06-13 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.175 と Codex v0.140.0-alpha.15 を中心に、2026-06-13 の監視結果をまとめた記事です。",
+      "summary": "Claude Code は enforceAvailableModels の管理設定を追加し、Codex は alpha.13〜15 で Windows sandbox 依存の整理、plugin 管理、Bedrock auth の見直しを進めました。",
+      "publishedAt": "2026-06-13",
+      "createdAt": "2026-06-13T04:06:25.177915+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Codex",
+      "articleUrl": "./articles/tools/2026-06-13-ai-coding-tools-update.html",
+      "serial": 729,
+      "genre": "AIコーディング (CLI本体・諸機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-12-update-report",
       "title": "2026-06-12 アップデートレポート",
