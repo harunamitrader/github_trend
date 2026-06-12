@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Jun 2026 19:12:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 04:56:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-06-13 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,54 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.175 と Codex v0.140.0-alpha.15 を中心に、2026-06-13 の監視結果をまとめた記事です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-chatgpt-prompts]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-f-awesome-chatgpt-prompts.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-f-awesome-chatgpt-prompts.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[コミュニティ由来のプロンプト集を整理した、実用寄りの ChatGPT プロンプト資産です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dokploy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-dokploy-dokploy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-dokploy-dokploy.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Vercel や Heroku の代替として使える、セルフホスト PaaS の Dokploy です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[tidb]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-pingcap-tidb.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-pingcap-tidb.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[トランザクションと分析を両立しやすい分散 SQL データベース TiDB です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[iptv]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-iptv-org-iptv.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-iptv-org-iptv.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[世界中の公開 IPTV チャンネルを集めた、巨大なチャンネルカタログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[server]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-music-assistant-server.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-music-assistant-server.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ストリーミングサービスとスピーカーをまとめる Music Assistant Server です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-13 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-13-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-13-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンド 13 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[2026-06-12 アップデートレポート]]></title>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[臨床テキストを端末内で構造化し、PII も除去できるローカルファーストの医療 AI 基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[espectre]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-10-francescopace-espectre.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-10-francescopace-espectre.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Wi-Fi の CSI を使って動きを検知し、Home Assistant に接続するモーション検知プロジェクトです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-10 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-10-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-10-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 16 件のランキングと、新規作成された 3 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SkillSpector]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-NVIDIA-SkillSpector-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェント向けスキルを事前スキャンし、脆弱性や危険なパターンを見つけるセキュリティ査定ツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[kimi-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-MoonshotAI-kimi-code-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-MoonshotAI-kimi-code-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コード読解・編集・実行をターミナルで完結できる Moonshot AI のコーディングエージェント CLI です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[whichllm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-Andyyyy64-whichllm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-09-Andyyyy64-whichllm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカル LLM を実機条件で比較し、使える候補を 1 コマンドで選べる CLI です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-09 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-09-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-09-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
