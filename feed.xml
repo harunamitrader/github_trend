@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 13 Jun 2026 19:12:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 04:53:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-06-14 AIコーディングツール アップデート]]></title>
@@ -14,6 +14,46 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.177 と GitHub Copilot code review の設定強化をまとめた 2026-06-14 の監視ログです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[LMCache]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-LMCache-LMCache.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-LMCache-LMCache.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLM 推論の KV キャッシュを高速化する、実行基盤寄りのレイヤーです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[aisuite]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-andrewyng-aisuite.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-andrewyng-aisuite.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数の生成 AI プロバイダを同じ書き味で扱える統合レイヤーです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[fanqiang]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-bannedbook-fanqiang.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-bannedbook-fanqiang.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロキシや回線経路を扱うための資料とツールを集めた、ネットワーク系のリポジトリです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[swc]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-swc-project-swc.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-swc-project-swc.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JavaScript / TypeScript の変換を高速化する Rust 製コンパイラ基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-14 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-14-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-14-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンド 14 件のランキングと、新規作成された 4 件の記事のまとめ]]></description>
     </item>
     <item>
       <title><![CDATA[2026-06-13 AIコーディングツール アップデート]]></title>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[暗号化と重複排除を備えた Go 製バックアップツール restic を整理した記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-12 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-12-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-12-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cline v3.89.2、Cursor の Bugbot 高速化、Gemini CLI preview、GitHub Copilot の /settings、Codex 0.140.0-alpha.10、Windsurf v3.1.7 をまとめた 2026-06-12 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hivemind]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-activeloopai-hivemind.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-activeloopai-hivemind.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数エージェントの会話や作業痕跡を共有知に変えるメモリ基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[container]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-apple-container.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-11-apple-container.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mac 上で Linux コンテナを軽量 VM として動かせる Swift 製ツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-11 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-11-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-11-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 17 件のランキングと、新規作成された 2 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-10 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-10-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-10-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code 2.1.170、Cline CLI v3.0.21、Gemini CLI nightly、GitHub Copilot の Claude Fable 5 GA / security validation、Codex CLI 0.138.0 をまとめた 2026-06-10 の監視ログです。]]></description>
     </item>
   </channel>
 </rss>
