@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 12 Jun 2026 23:13:53 GMT</lastBuildDate>
-    <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Sun, 14 Jun 2026 04:10:09 GMT</lastBuildDate>
+      <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-14 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-14-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-14-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.177 と GitHub Copilot code review の設定強化をまとめた 2026-06-14 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-13 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-13-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code 2.1.170、Cline CLI v3.0.21、Gemini CLI nightly、GitHub Copilot の Claude Fable 5 GA / security validation、Codex CLI 0.138.0 をまとめた 2026-06-10 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[system-prompts-and-models-of-ai-tools]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-10-x1xhlol-system-prompts-and-models-of-ai-tools.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-10-x1xhlol-system-prompts-and-models-of-ai-tools.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[主要な AI ツールの system prompt とモデル情報を横断的に集めた参照リポジトリです。]]></description>
     </item>
   </channel>
 </rss>

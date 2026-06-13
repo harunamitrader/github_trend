@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.177 と GitHub Copilot code review の設定強化をまとめた 2026-06-14 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-14 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-14 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Claude Code v2.1.177 と GitHub Copilot code review の設定強化をまとめた 2026-06-14 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-14 -->
+          <strong>2026-06-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code, GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月14日 JST の監視では、Claude Code と GitHub Copilot に新しい更新がありました。Cursor / Windsurf / Cline / Gemini CLI / Codex / Antigravity は前回ログから変化なしです。</p>
+        <ul>
+          <li><strong>Claude Code v2.1.177:</strong> GitHub Releases では Latest タグが v2.1.177 に更新されました。公開 changelog 側では 2.1.176 の詳細が見えており、session titles の言語自動化、footerLinksRegexes、Bedrock credential caching、availableModels enforcement の修正など、管理設定と運用安定化が中心です。</li>
+          <li><strong>GitHub Copilot:</strong> Copilot code review に organization runner controls、content exclusion support、repository custom instructions の文字数制限撤廃が入りました。組織単位でレビュー実行環境を揃えやすくなり、除外対象や長いカスタム指示も扱いやすくなっています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Code は Latest タグの追従と managed setting の確認が重要で、GitHub Copilot は organization レベルの制御が効くようになったため、大きめのチームほど恩恵が出やすい更新です。特に code review の runner 設定と content exclusion は、社内ポリシーに合わせた運用へ直結します。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は 2 ツールだけが更新されました。Claude Code は最新タグと changelog の整合確認、GitHub Copilot は code review の統制強化が中心です。次回は Codex と Cursor の継続監視を見れば、実作業に効く差分を追いやすくなります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.177" target="_blank" rel="noreferrer">Claude Code v2.1.177 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md" target="_blank" rel="noreferrer">Claude Code CHANGELOG</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls" target="_blank" rel="noreferrer">Copilot code review: New configurations and controls</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
