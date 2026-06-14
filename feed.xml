@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 02:38:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 12:42:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[fusion-fable]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-duolahypercho-fusion-fable-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-duolahypercho-fusion-fable-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。]]></description>
+    </item>
     <item>
       <title><![CDATA[CL4R1T4S]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[coding agents のセッションを可視化するローカルファースト分析ツール agentsview を整理した記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[chatwoot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-chatwoot-chatwoot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-chatwoot-chatwoot.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オープンソースの顧客対応基盤 Chatwoot を整理した記事です。]]></description>
     </item>
   </channel>
 </rss>

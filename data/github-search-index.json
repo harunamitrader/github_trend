@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-14T02:36:42.785140+00:00",
-  "count": 818,
+  "generatedAt": "2026-06-14T03:42:55.429682+00:00",
+  "count": 819,
   "articles": [
+    {
+      "slug": "2026-06-14-duolahypercho-fusion-fable-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "fusion-fable",
+      "dek": "複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。",
+      "summary": "同じ問いを複数モデルへ独立に解かせ、その差分を Opus 4.8 で融合する Claude Code skill です。",
+      "repoName": "duolahypercho/fusion-fable",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T12:41:32.7305695+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-14-duolahypercho-fusion-fable-pickup.html",
+      "serial": 744,
+      "searchText": "fusion-fable 複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。 同じ問いを複数モデルへ独立に解かせ、その差分を Opus 4.8 で融合する Claude Code skill です。 duolahypercho/fusion-fable AIコーディング (ワークフロー・プロンプト・開発補助ツール) fusion-fable ← 記事一覧へ戻る GitHub Watcher fusion-fable 複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。 記事作成日 2026-06-14 種別 Pickup 対象 repo duolahypercho/fusion-fable Star数 25 これは何か fusion-fable は、Claude Code の skill として動く「panel → judge」型の回答合成フローです。1 つの質問を複数モデルへ同時に投げ、最後に Opus 4.8 が答えを比較してまとめることで、単独モデルの癖を減らしながら出力を作ります。 何ができるか 同じプロンプトを複数の frontier model に並列で実行し、consensus、contradictions、partial coverage、unique insights、blind spots を整理したうえで最終回答を生成できます。README では、Opus 4.8 同士の組み合わせや、Opus 4.8 と GPT-5.5 の組み合わせも想定されています。 目立つポイント persona を無理に作らず、独立実行した答えの差分をそのまま活かす設計が特徴です。web 検索と bash を各 panelist が独立に使えるため、同じ課題でも違う根拠や切り口が集まりやすい構成です。 セットアップや使い方の流れ Claude Code skill として配置し、質問を投げると panelist が複数走って、その後に Opus 4.8 が judge として統合します。基本は prompt をそのまま渡すだけで、panel の数や使うモデル構成を skill 側で切り替える流れです。 どんな人向けか 単発の回答よりも根拠の幅を重視したい人、Claude Code の skill を実戦向けに組みたい人、複数モデルの差分をそのまま活用したい人に向いています。 注意点 複数モデルを回すぶん、実行コストと待ち時間は増えます。panel の出力が増えるほど便利ですが、用途を絞らないとオーバーエンジニアリングになりやすいです。 まとめ 同じ問いを独立に解かせ、その差分を最後に融合する発想が明快な Claude Code skill です。複雑な問いほど、単独モデルより相性が出やすいタイプです。 参照リンク https://github.com/duolahypercho/fusion-fable README.md 入力元 URL Shared GitHub Serial: #744"
+    },
     {
       "slug": "2026-06-14-elder-plinius-CL4R1T4S-pickup",
       "category": "github-pickup",

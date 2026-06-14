@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>fusion-fable</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">fusion-fable</h1>
+      <p class="article-dek">複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-14 -->
+          <strong>2026-06-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/duolahypercho/fusion-fable" target="_blank" rel="noreferrer">
+              duolahypercho/fusion-fable
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>25</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>fusion-fable は、Claude Code の skill として動く「panel → judge」型の回答合成フローです。1 つの質問を複数モデルへ同時に投げ、最後に Opus 4.8 が答えを比較してまとめることで、単独モデルの癖を減らしながら出力を作ります。</p>
+
+        <h2>何ができるか</h2>
+        <p>同じプロンプトを複数の frontier model に並列で実行し、consensus、contradictions、partial coverage、unique insights、blind spots を整理したうえで最終回答を生成できます。README では、Opus 4.8 同士の組み合わせや、Opus 4.8 と GPT-5.5 の組み合わせも想定されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>persona を無理に作らず、独立実行した答えの差分をそのまま活かす設計が特徴です。web 検索と bash を各 panelist が独立に使えるため、同じ課題でも違う根拠や切り口が集まりやすい構成です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code skill として配置し、質問を投げると panelist が複数走って、その後に Opus 4.8 が judge として統合します。基本は prompt をそのまま渡すだけで、panel の数や使うモデル構成を skill 側で切り替える流れです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>単発の回答よりも根拠の幅を重視したい人、Claude Code の skill を実戦向けに組みたい人、複数モデルの差分をそのまま活用したい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>複数モデルを回すぶん、実行コストと待ち時間は増えます。panel の出力が増えるほど便利ですが、用途を絞らないとオーバーエンジニアリングになりやすいです。</p>
+
+        <h2>まとめ</h2>
+        <p>同じ問いを独立に解かせ、その差分を最後に融合する発想が明快な Claude Code skill です。複雑な問いほど、単独モデルより相性が出やすいタイプです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/duolahypercho/fusion-fable" target="_blank" rel="noreferrer">https://github.com/duolahypercho/fusion-fable</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/duolahypercho/fusion-fable/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/duolahypercho/fusion-fable/blob/main/skills/fusion/SKILL.md" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #744</p>
+      </div>
+    </article>
+  </body>
+</html>

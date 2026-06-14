@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-14-duolahypercho-fusion-fable-pickup",
+      "title": "fusion-fable",
+      "dek": "複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。",
+      "summary": "同じ問いを複数モデルへ独立に解かせ、その差分を Opus 4.8 で融合する Claude Code skill です。",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T12:41:32.7305695+09:00",
+      "repoName": "duolahypercho/fusion-fable",
+      "repoUrl": "https://github.com/duolahypercho/fusion-fable",
+      "starCount": 25,
+      "articleUrl": "./articles/github/daily/2026-06-14-duolahypercho-fusion-fable-pickup.html",
+      "originType": "pickup",
+      "serial": 744,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-14-elder-plinius-CL4R1T4S-pickup",
       "title": "CL4R1T4S",
       "dek": "主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。",
