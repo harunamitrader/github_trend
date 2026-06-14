@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 19:12:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 04:56:24 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[meshery]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-meshery-meshery.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-meshery-meshery.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kubernetes や service mesh をまとめて扱う、クラウドネイティブ管理の中核です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cypress]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-cypress-io-cypress.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-cypress-io-cypress.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザ上の動作を速く検証できる、E2E テストの定番です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Clone-Wars]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GorvGoyl-Clone-Wars.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GorvGoyl-Clone-Wars.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人気サービスの実装例を横断できる、学習用のクローン集です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Introduction-to-Autonomous-Robots]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-Introduction-to-Autonomous-Robots-Introduction-to-Autonomous-Robots.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-Introduction-to-Autonomous-Robots-Introduction-to-Autonomous-Robots.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律ロボットの考え方を体系的に学べる、公開テキストです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pytest]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-pytest-dev-pytest.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-pytest-dev-pytest.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Python のテストを小さく始めて大きく育てられる、定番の検証基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-15 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-15-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-15-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンド 15 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-15 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-15-ai-coding-tools-update.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vercel や Heroku の代替として使える、セルフホスト PaaS の Dokploy です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tidb]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-pingcap-tidb.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-pingcap-tidb.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[トランザクションと分析を両立しやすい分散 SQL データベース TiDB です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[iptv]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-iptv-org-iptv.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-iptv-org-iptv.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[世界中の公開 IPTV チャンネルを集めた、巨大なチャンネルカタログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[server]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-music-assistant-server.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-music-assistant-server.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ストリーミングサービスとスピーカーをまとめる Music Assistant Server です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-13 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-13-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-13-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 13 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-12 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-12-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-12-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 19 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mattermost]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-mattermost-mattermost.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-mattermost-mattermost.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[セキュアなチーム協業基盤 Mattermost を整理した記事です。]]></description>
     </item>
   </channel>
 </rss>
