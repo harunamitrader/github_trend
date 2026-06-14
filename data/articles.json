@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-15-ai-coding-tools-update",
+      "title": "2026-06-15 AIコーディングツール アップデート",
+      "dek": "Gemini CLI v0.48.0-nightly.20260613.g9e5599c32 と Codex 0.140.0-alpha.19 をまとめた 2026-06-15 の監視ログです。",
+      "summary": "Gemini CLI は MCP discovery と resume 保存を整理し、Codex は Windows ARM64 packaging と PathUri / plugin MCP の整備が入りました。",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-15T04:06:00+09:00",
+      "originType": "tool-log",
+      "toolName": "Gemini CLI, Codex",
+      "articleUrl": "./articles/tools/2026-06-15-ai-coding-tools-update.html",
+      "serial": 746,
+      "genre": "AIコーディング (CLI本体・諸機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-14-rotejin-tomari-guruguru-pickup",
       "title": "tomari-guruguru",

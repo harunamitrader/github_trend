@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 14:12:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 04:11:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-15 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-15-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-15-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI v0.48.0-nightly.20260613.g9e5599c32 と Codex 0.140.0-alpha.19 をまとめた 2026-06-15 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[tomari-guruguru]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-rotejin-tomari-guruguru-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[セキュアなチーム協業基盤 Mattermost を整理した記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[zhangxuefeng-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-alchaincyf-zhangxuefeng-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-alchaincyf-zhangxuefeng-skill.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高考・考研・進路相談を扱う認知フレームワーク skill リポジトリを整理した記事です。]]></description>
     </item>
   </channel>
 </rss>
