@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-14-elder-plinius-CL4R1T4S-pickup",
+      "title": "CL4R1T4S",
+      "dek": "主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。",
+      "summary": "AI の内部指示を横断的に読み比べたいときに役立つ、参照性の高い透明性アーカイブです。",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T05:10:00+09:00",
+      "repoName": "elder-plinius/CL4R1T4S",
+      "repoUrl": "https://github.com/elder-plinius/CL4R1T4S",
+      "starCount": 33478,
+      "articleUrl": "./articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html",
+      "originType": "pickup",
+      "serial": 743,
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-14-ai-coding-tools-update",
       "title": "2026-06-14 AIコーディングツール アップデート",

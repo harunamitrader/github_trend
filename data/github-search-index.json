@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-13T19:53:16.132855+00:00",
-  "count": 817,
+  "generatedAt": "2026-06-14T02:36:42.785140+00:00",
+  "count": 818,
   "articles": [
+    {
+      "slug": "2026-06-14-elder-plinius-CL4R1T4S-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CL4R1T4S",
+      "dek": "主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。",
+      "summary": "AI の内部指示を横断的に読み比べたいときに役立つ、参照性の高い透明性アーカイブです。",
+      "repoName": "elder-plinius/CL4R1T4S",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T05:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html",
+      "serial": 743,
+      "searchText": "CL4R1T4S 主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。 AI の内部指示を横断的に読み比べたいときに役立つ、参照性の高い透明性アーカイブです。 elder-plinius/CL4R1T4S 学習ガイド・開発アセット CL4R1T4S ← 記事一覧へ戻る GitHub Watcher CL4R1T4S 主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。 記事作成日 2026-06-14 種別 Pickup 対象 repo elder-plinius/CL4R1T4S Star数 33,478 これは何か CL4R1T4S は、Claude、ChatGPT、Gemini、Grok、Perplexity など複数の AI 製品に関する system prompt やガイドラインを集めた公開アーカイブです。指定ファイルの ANTHROPIC/CLAUDE-FABLE-5.md では、Claude Fable 5 の振る舞い方針や安全面の指示が整理されています。 何ができるか モデルごとの方針差や制約の入り方を比較しやすくなり、AI がどう振る舞うよう設計されているかを確認できます。プロンプト設計や安全性の調査、挙動比較の参考資料として使いやすい構成です。 目立つポイント 単独のモデル資料ではなく、複数ベンダーの内部指示を横断して集めている点が特徴です。透明性や観測を前面に出した編集方針なので、実装よりも「何が前提になっているか」を把握したいときに向いています。 セットアップや使い方の流れ まず README で収録対象と更新方針を確認し、次に目的のモデル別ファイルを開いて内容を読み比べます。今回のソースのように個別ファイルを起点にすると、必要な範囲だけ素早く追えます。 どんな人向けか AI の挙動設計を調べたい人、system prompt の違いを比較したい人、プロンプトや安全ポリシーの研究素材を探している人に向いています。 注意点 収録されている内容は、見つけた時点の断面です。実際の製品挙動や公開ポリシーは更新されるため、研究や比較では必ず元の公式情報も合わせて確認する必要があります。 まとめ AI の内部指示を横断的に読み比べたいときに役立つ、参照性の高い透明性アーカイブです。 参照リンク https://github.com/elder-plinius/CL4R1T4S README.md 入力元 URL Shared GitHub Serial: #743"
+    },
     {
       "slug": "2026-06-14-update-report",
       "category": "github-update-report",

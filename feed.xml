@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 13 Jun 2026 19:55:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:36:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[CL4R1T4S]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-14 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-14-ai-coding-tools-update.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[オープンソースの顧客対応基盤 Chatwoot を整理した記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[restic]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-restic-restic.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-restic-restic.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[暗号化と重複排除を備えた Go 製バックアップツール restic を整理した記事です。]]></description>
     </item>
   </channel>
 </rss>
