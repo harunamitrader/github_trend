@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 03:44:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 23:10:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[tomari-guruguru]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-rotejin-tomari-guruguru-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-rotejin-tomari-guruguru-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マウス追従の 25 方向表現と、音声連動の口パクを備えたトマリ用ブラウザアバターです。]]></description>
+    </item>
     <item>
       <title><![CDATA[fusion-fable]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-duolahypercho-fusion-fable-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高考・考研・進路相談を扱う認知フレームワーク skill リポジトリを整理した記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agentsview]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-kenn-io-agentsview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-12-kenn-io-agentsview.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[coding agents のセッションを可視化するローカルファースト分析ツール agentsview を整理した記事です。]]></description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-14-rotejin-tomari-guruguru-pickup",
+      "title": "tomari-guruguru",
+      "dek": "マウス追従の 25 方向表現と、音声連動の口パクを備えたトマリ用ブラウザアバターです。",
+      "summary": "マウス追従と口パクを分けて使える、トマリ用のブラウザアバターです。",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T23:10:06.8120799+09:00",
+      "repoName": "rotejin/tomari-guruguru",
+      "repoUrl": "https://github.com/rotejin/tomari-guruguru",
+      "starCount": 93,
+      "articleUrl": "./articles/github/daily/2026-06-14-rotejin-tomari-guruguru-pickup.html",
+      "originType": "pickup",
+      "serial": 745,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-14-duolahypercho-fusion-fable-pickup",
       "title": "fusion-fable",
       "dek": "複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。",

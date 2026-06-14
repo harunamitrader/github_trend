@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-14T03:42:55.429682+00:00",
-  "count": 819,
+  "generatedAt": "2026-06-14T14:11:04.933827+00:00",
+  "count": 820,
   "articles": [
+    {
+      "slug": "2026-06-14-rotejin-tomari-guruguru-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "tomari-guruguru",
+      "dek": "マウス追従の 25 方向表現と、音声連動の口パクを備えたトマリ用ブラウザアバターです。",
+      "summary": "マウス追従と口パクを分けて使える、トマリ用のブラウザアバターです。",
+      "repoName": "rotejin/tomari-guruguru",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-14T23:10:06.8120799+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-14-rotejin-tomari-guruguru-pickup.html",
+      "serial": 745,
+      "searchText": "tomari-guruguru マウス追従の 25 方向表現と、音声連動の口パクを備えたトマリ用ブラウザアバターです。 マウス追従と口パクを分けて使える、トマリ用のブラウザアバターです。 rotejin/tomari-guruguru メディア作成・マルチモーダル・UI tomari-guruguru ← 記事一覧へ戻る GitHub Watcher tomari-guruguru マウス追従の 25 方向表現と、音声連動の口パクを備えたトマリ用ブラウザアバターです。 記事作成日 2026-06-14 種別 Pickup 対象 repo rotejin/tomari-guruguru Star数 93 これは何か tomari-guruguru は、ブラウザ上で動くトマリ用アバターです。マウスの位置に合わせて 25 方向へ振り向き、トマリトーク側では音声に合わせた口パクやまばたきを扱えます。 何ができるか トマリぐるぐるでは、カーソルを追うキャラクター表示をシンプルに楽しめます。トマリトークでは、マイク入力や音声ファイルに合わせて口パクするため、配信やデモ、ブラウザ常駐の演出に使いやすいです。 目立つポイント 「ぐるぐる」と「トーク」を分けているので、見せたい動作に応じて使い分けやすいのが特徴です。Node.js 22 LTS 推奨、Vite 8 前提の構成で、Windows では start.bat からそのまま立ち上げられます。 セットアップや使い方の流れ まず npm install を実行し、Windows なら start.bat、手動なら npm run dev で起動します。トーク版は http://127.0.0.1:5173/talk.html、ぐるぐる版は http://127.0.0.1:5173/guruguru.html で開きます。 どんな人向けか 自分のキャラクターをブラウザで動かしたい人、配信やデモで軽いアバター表示を使いたい人、マウス追従や口パクの挙動を素早く試したい人に向いています。 注意点 マイク入力は localhost または HTTPS でしか使えません。Google Fonts を CDN から読むため、初回表示ではネット接続が必要です。 まとめ 見た目の動きが分かりやすく、導入も軽いブラウザアバターです。トマリの表示を手早く動かしたい用途に合っています。 参照リンク https://github.com/rotejin/tomari-guruguru README.md 入力元 URL Shared GitHub Serial: #745"
+    },
     {
       "slug": "2026-06-14-duolahypercho-fusion-fable-pickup",
       "category": "github-pickup",
