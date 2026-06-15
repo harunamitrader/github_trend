@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2026 19:11:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 04:55:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Self-Hosting-Guide]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-mikeroyal-Self-Hosting-Guide-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-mikeroyal-Self-Hosting-Guide-pickup.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[セルフホストの全体像を、クラウドから LLM まで広く追える実践ガイドです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Win11Debloat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Raphire-Win11Debloat-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Raphire-Win11Debloat-pickup.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows の不要機能やプリインストールアプリをまとめて整理する PowerShell スクリプトです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[IPTV]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Free-TV-IPTV-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Free-TV-IPTV-pickup.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[世界中の無料テレビチャンネルを M3U でまとめた公開プレイリスト集です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hello-algo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-krahets-hello-algo-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-krahets-hello-algo-pickup.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[図解と実装を往復しながら、データ構造とアルゴリズムを学べる教材です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[teslamate]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-teslamate-org-teslamate-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-teslamate-org-teslamate-pickup.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Tesla の走行・充電・位置情報をセルフホストで記録するデータロガーです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-16 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-16-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-16-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンド 18 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-16 AIコーディングツール アップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-16-ai-coding-tools-update.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLM 推論の KV キャッシュを高速化する、実行基盤寄りのレイヤーです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[aisuite]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-andrewyng-aisuite.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-andrewyng-aisuite.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数の生成 AI プロバイダを同じ書き味で扱える統合レイヤーです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[fanqiang]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-bannedbook-fanqiang.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-bannedbook-fanqiang.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロキシや回線経路を扱うための資料とツールを集めた、ネットワーク系のリポジトリです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[swc]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-swc-project-swc.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-swc-project-swc.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JavaScript / TypeScript の変換を高速化する Rust 製コンパイラ基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-14 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-14-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-14-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 14 件のランキングと、新規作成された 4 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-13 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-13-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-13-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.175 と Codex v0.140.0-alpha.15 を中心に、2026-06-13 の監視結果をまとめた記事です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mint-blender-addon]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-tamg-mint-blender-addon-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-13-tamg-mint-blender-addon-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mint の生成資産を Blender に直接取り込めるアドオンです。]]></description>
     </item>
   </channel>
 </rss>
