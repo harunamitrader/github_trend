@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup",
+      "title": "knowledge-catalog",
+      "dek": "OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。",
+      "summary": "OKF の directory 構造と frontmatter 設計を通して、知識管理と RAG 用のコンテキスト整備を学べる repo として整理する。",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-15T20:56:53+09:00",
+      "repoName": "GoogleCloudPlatform/knowledge-catalog",
+      "repoUrl": "https://github.com/GoogleCloudPlatform/knowledge-catalog",
+      "starCount": 1648,
+      "articleUrl": "./articles/github/daily/2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup.html",
+      "originType": "pickup",
+      "serial": 751,
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-15-meshery-meshery",
       "title": "meshery",

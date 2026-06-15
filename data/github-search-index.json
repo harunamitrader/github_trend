@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-14T19:55:23.667282+00:00",
-  "count": 826,
+  "generatedAt": "2026-06-15T11:57:54.488405+00:00",
+  "count": 827,
   "articles": [
+    {
+      "slug": "2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "knowledge-catalog",
+      "dek": "OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。",
+      "summary": "OKF の directory 構造と frontmatter 設計を通して、知識管理と RAG 用のコンテキスト整備を学べる repo として整理する。",
+      "repoName": "GoogleCloudPlatform/knowledge-catalog",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-15T20:56:53+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup.html",
+      "serial": 751,
+      "searchText": "knowledge-catalog OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。 OKF の directory 構造と frontmatter 設計を通して、知識管理と RAG 用のコンテキスト整備を学べる repo として整理する。 GoogleCloudPlatform/knowledge-catalog ナレッジ管理・RAG解析 knowledge-catalog ← 記事一覧へ戻る GitHub Watcher knowledge-catalog OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。 記事作成日 2026-06-15 種別 Pickup 対象 repo GoogleCloudPlatform/knowledge-catalog Star数 1,648 これは何か GoogleCloudPlatform/knowledge-catalog は、Google Cloud の Knowledge Catalog を中心に、ツール、エージェント、サンプルをまとめた repo です。今回の入力元である okf/SPEC.md では、Open Knowledge Format (OKF) の考え方と構成が整理されています。 何ができるか OKF のように、知識を Markdown + YAML frontmatter でどう束ねるかを具体的に確認できます。知識管理、RAG 用の参照資料、エージェント向けのコンテキスト設計を考えるときの実例として使えます。 目立つポイント README と spec が同じ repo にあり、製品の文脈とフォーマット仕様を行き来しやすいのが特徴です。`index.md` や `log.md`、bundle 構造まで明示されていて、機械にも人にも読みやすい設計になっています。 セットアップや使い方の流れ まず README で全体像をつかみ、次に okf/SPEC.md を読んで frontmatter と bundle 構造を確認します。そのあと、concept document を小さく作って、index や log の運用を重ねると理解しやすいです。 どんな人向けか ナレッジベースや RAG の設計者、AI エージェントに渡すコンテキストの持ち方を整理したい人、知識カタログの標準化を考える人に向いています。 注意点 OKF は v0.1 の draft で、完成品ではなく設計指針に近い位置づけです。実運用では、既存の分類体系や権限管理、検索基盤とどう接続するかを別途決める必要があります。 まとめ 知識を Markdown で構造化し、AI エージェントにも扱いやすくしたいときの参考になる repo です。 参照リンク https://github.com/GoogleCloudPlatform/knowledge-catalog README.md 入力元 URL Shared GitHub Serial: #751"
+    },
     {
       "slug": "2026-06-15-update-report",
       "category": "github-update-report",
