@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex 0.140.0-alpha.20 と 0.140.0-alpha.21 をまとめた 2026-06-16 の監視ログです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>2026-06-16 AIコーディングツール アップデート</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">2026-06-16 AIコーディングツール アップデート</h1>
+      <p class="article-dek">Codex 0.140.0-alpha.20 と 0.140.0-alpha.21 をまとめた 2026-06-16 の監視ログです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-16 -->
+          <strong>2026-06-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>Coding</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>2026年6月16日 JST の監視では、Codex に新しい更新がありました。Claude Code / Cursor / Windsurf / Cline / Gemini CLI / GitHub Copilot は前回ログから変化なしです。</p>
+        <ul>
+          <li><strong>Codex 0.140.0-alpha.20:</strong> alpha.19 から alpha.20 では、bundled SQLite の WAL-reset 回避、buildifier の `just fmt` 統合、Wine 環境での PowerShell テスト、PathUri の native path rendering、remote environment の cwd と shell 対応、selected-plugin precedence と MCP catalog の attribution 整備が入りました。app-server / exec-server / plugin の土台を静かに固める内容です。</li>
+          <li><strong>Codex 0.140.0-alpha.21:</strong> alpha.20 から alpha.21 では、dynamic tools の explicit namespaces 化、selected executor plugin の MCP/Apps 継承、connector listings での plugin Apps 保持、feedback upload の subtree 上限、shell snapshot ownership の整理、exec-server keepalive の復活、memory read metrics の簡素化が入りました。モデル実行面と plugin / session 周辺の取り回しがさらに詰まっています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Codex を alpha 系で追う人は、remote 実行と selected plugin の境界がより明確になった点に注目です。特に Windows や executor ベースの環境では、更新後に exec-server の cwd / shell と plugin MCP の見え方を軽く確認しておくと、あとで詰まりにくくなります。</p>
+
+        <h2>まとめ</h2>
+        <p>今回は Codex のみの更新でした。alpha.20 で実行基盤、alpha.21 で dynamic tools と plugin/MCP の取り回しが前進しています。alpha 系を追う場合は、selected plugin と remote exec の挙動を短く点検してから取り込むのが安全です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.20" target="_blank" rel="noreferrer">Codex 0.140.0-alpha.20 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/compare/rust-v0.140.0-alpha.19...rust-v0.140.0-alpha.20" target="_blank" rel="noreferrer">Codex alpha.19...alpha.20 Compare</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.21" target="_blank" rel="noreferrer">Codex 0.140.0-alpha.21 Release</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex/compare/rust-v0.140.0-alpha.20...rust-v0.140.0-alpha.21" target="_blank" rel="noreferrer">Codex alpha.20...alpha.21 Compare</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

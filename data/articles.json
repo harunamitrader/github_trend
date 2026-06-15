@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-16-ai-coding-tools-update",
+      "title": "2026-06-16 AIコーディングツール アップデート",
+      "dek": "Codex 0.140.0-alpha.20 / 0.140.0-alpha.21 で進んだ dynamic tools と plugin/MCP の整理をまとめた 2026-06-16 の監視ログです。",
+      "summary": "Codex は bundled SQLite の固定、PathUri と remote exec の整備を経て、alpha.21 で dynamic tools と selected plugin / MCP 周辺の取り回しをさらに詰めました。",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-16T04:06:03+09:00",
+      "originType": "tool-log",
+      "toolName": "Codex",
+      "articleUrl": "./articles/tools/2026-06-16-ai-coding-tools-update.html",
+      "serial": 752,
+      "genre": "AIコーディング (CLI本体・諸機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup",
       "title": "knowledge-catalog",
