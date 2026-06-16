@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-16T09:39:53.748897+00:00",
-  "count": 834,
+  "generatedAt": "2026-06-16T11:11:48.926113+00:00",
+  "count": 835,
   "articles": [
+    {
+      "slug": "2026-06-16-huangserva-3DCellForge-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "3DCellForge",
+      "dek": "React + Three.js で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。",
+      "summary": "React + Three.js (React Three Fiber) で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。TripoやFal.ai、Hunyuan3Dと連携してGLBを自動生成・プレビューし、cinematic cameraによるDemo Modeなどを提供するオープンソースプロジェクト。",
+      "repoName": "huangserva/3DCellForge",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-16T20:10:17+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-16-huangserva-3DCellForge-pickup.html",
+      "serial": 758,
+      "searchText": "3DCellForge React + Three.js で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。 React + Three.js (React Three Fiber) で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。TripoやFal.ai、Hunyuan3Dと連携してGLBを自動生成・プレビューし、cinematic cameraによるDemo Modeなどを提供するオープンソースプロジェクト。 huangserva/3DCellForge メディア作成・マルチモーダル・UI 3DCellForge ← 記事一覧へ戻る GitHub Watcher 3DCellForge React + Three.js で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。 記事作成日 2026-06-16 種別 Pickup 対象 repo huangserva/3DCellForge Star数 2,462 これは何か React、Three.js (React Three Fiber)、Drei などをベースに構築された、Webブラウザ上で動作するインタラクティブな3Dモデル生成・検証・プレゼンテーション用ワークスペースです。アップロードした参考画像からAIを用いてGLB形式の3Dモデルを生成し、その場でプレビューや調整を行えます。 何ができるか Tripo、Fal.ai、Hunyuan3D (ローカル) などの多様な Image-to-3D API と接続し、アップロード画像から3Dモデル（GLB）を自動で生成・インポートできます。WebGLステージ上での回転・ズーム・部位分解表示に加え、生成されたモデルの品質スコアリング（ファイルサイズやポリゴン数の判定）、スクリーンショットや動画撮影に適した「Demo Mode」（ cinematic camera やUI非表示機能）も備えています。 目立つポイント 左カラムにモデルライブラリ、中央にWebGLステージ、右カラムに生成・インポートツールを配した3カラム構成の洗練されたUIワークベンチが秀逸です。また、クライアント側はVite + Reactで軽快に動作しつつ、APIキーなどのセキュリティ情報はNodeバックエンド側で安全に保持する二層設計になっており、プロダクトとしての完成度が高く設計されています。 セットアップや使い方の流れ 1. リポジトリをローカルにクローンし、 npm install で依存ライブラリをインストールします。 2. 必要に応じて .env.local を作成し、TripoやFal.aiなどのAPIキーを設定します。 3. npm run dev:api でNodeバックエンドを、 npm run dev でVite開発サーバーを立ち上げます。 4. ブラウザからアクセスし、画像をアップロードして生成リクエストを送るか、手元のGLBファイルをインポートしてWebGLステージ上で検証を開始します。 どんな人向けか 画像から手軽に3Dモデルを生成し、ブラウザ上で素早く検証・プレゼンテーションを行いたいクリエイターや3Dデザイナーに適しています。また、React Three Fiberを用いたインタラクティブなWebGLアプリケーションの実装サンプルを学びたいフロントエンド開発者にとっても非常に参考になります。 注意点 実機でImage-to-3Dの生成フローを動かすには、TripoやFal.aiなどの外部サービスのAPIキーとそれに伴う利用クレジットが必要です。ただし、リポジトリ内に事前に生成されたキャッシュGLBモデルが含まれているため、APIキーなしのオフライン環境下でもデモや表示機能そのものは体験可能です。 まとめ 3DCellForgeは、近年急速に進歩するAI 3D生成AIのAPIと接続し、人間とAIが協調して3D資産を管理・プレビューするための優れたモデリングスタジオです。WebGLの実装例としても、自動レイアウトテスト（Playwright）の仕組みの点でも、非常に実用的で完成度の高いオープンソースプロジェクトです。 参照リンク https://github.com/huangserva/3DCellForge Shared GitHub Serial: #758"
+    },
     {
       "slug": "2026-06-16-alibaba-zvec-pickup",
       "category": "github-pickup",

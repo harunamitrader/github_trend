@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-16-huangserva-3DCellForge-pickup",
+      "title": "3DCellForge",
+      "dek": "React + Three.js で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。",
+      "summary": "React + Three.js (React Three Fiber) で構築された、画像からのAI 3Dモデル生成・検証・展示を行えるWebベースの統合スタジオ。TripoやFal.ai、Hunyuan3Dと連携してGLBを自動生成・プレビューし、cinematic cameraによるDemo Modeなどを提供するオープンソースプロジェクト。",
+      "publishedAt": "2026-06-16",
+      "repoName": "huangserva/3DCellForge",
+      "repoUrl": "https://github.com/huangserva/3DCellForge",
+      "starCount": 2462,
+      "articleUrl": "./articles/github/daily/2026-06-16-huangserva-3DCellForge-pickup.html",
+      "createdAt": "2026-06-16T20:10:17+09:00",
+      "serial": 758,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-16-alibaba-zvec-pickup",
       "title": "zvec",
       "dek": "Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。",
