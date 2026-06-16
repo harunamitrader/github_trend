@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-17-ai-coding-tools-update",
+      "title": "2026-06-17 AIコーディングツール アップデート",
+      "dek": "Claude Code v2.1.178、Codex 0.140.0 / 0.141.0-alpha.3、GitHub Copilot usage metrics をまとめた 2026-06-17 の監視ログです。",
+      "summary": "Claude Code は permission rule の表現力と nested skills の解決順を整理し、Codex は 0.140.0 の運用系強化と 0.141.0-alpha.3 の登場で前進しました。GitHub Copilot は usage metrics の集計対象が広がり、enterprise レポートの見え方が少し正確になっています。",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-17T04:12:08+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code, Codex, GitHub Copilot",
+      "articleUrl": "./articles/tools/2026-06-17-ai-coding-tools-update.html",
+      "serial": 759,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-16-huangserva-3DCellForge-pickup",
       "title": "3DCellForge",

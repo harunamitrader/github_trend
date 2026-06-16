@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 11:12:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 04:13:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-17 AIコーディングツール アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-17-ai-coding-tools-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-17-ai-coding-tools-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.178、Codex 0.140.0 / 0.141.0-alpha.3、GitHub Copilot usage metrics をまとめた 2026-06-17 の監視ログです。]]></description>
+    </item>
     <item>
       <title><![CDATA[3DCellForge]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-huangserva-3DCellForge-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数の frontier model を並列実行してから Opus 4.8 で統合する、Claude Code 向けの skill です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CL4R1T4S]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-elder-plinius-CL4R1T4S-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[主要 AI の system prompt を横断収集し、挙動や方針を読み解くための透明性アーカイブです。]]></description>
     </item>
   </channel>
 </rss>
