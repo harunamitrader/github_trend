@@ -7,7 +7,7 @@
   },
   "articles": [
     {
-      "category": "github-pickup",
+      "category": "github-trending",
       "slug": "2026-06-17-puppeteer-puppeteer-pickup",
       "title": "puppeteer",
       "dek": "Chrome と Firefox を自動操作する定番のブラウザ制御ライブラリです。",
@@ -18,12 +18,13 @@
       "repoUrl": "https://github.com/puppeteer/puppeteer",
       "starCount": 94846,
       "articleUrl": "./articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html",
-      "originType": "pickup",
+      "originType": "trending",
       "serial": 762,
-      "genre": "スクレイピング・情報収集・セキュリティ"
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "rank": 5
     },
     {
-      "category": "github-pickup",
+      "category": "github-trending",
       "slug": "2026-06-17-Universal-Debloater-Alliance-universal-android-debloater-next-generation-pickup",
       "title": "universal-android-debloater-next-generation",
       "dek": "Android の不要アプリを整理して、プライバシーと軽さを改善する GUI ツールです。",
@@ -34,12 +35,13 @@
       "repoUrl": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
       "starCount": 7220,
       "articleUrl": "./articles/github/daily/2026-06-17-Universal-Debloater-Alliance-universal-android-debloater-next-generation-pickup.html",
-      "originType": "pickup",
+      "originType": "trending",
       "serial": 761,
-      "genre": "スクレイピング・情報収集・セキュリティ"
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "rank": 9
     },
     {
-      "category": "github-pickup",
+      "category": "github-trending",
       "slug": "2026-06-17-n0-computer-iroh-pickup",
       "title": "iroh",
       "dek": "モジュール化された Rust のネットワーク基盤を、P2P や配布アプリの土台として使える repo です。",
@@ -50,9 +52,10 @@
       "repoUrl": "https://github.com/n0-computer/iroh",
       "starCount": 9208,
       "articleUrl": "./articles/github/daily/2026-06-17-n0-computer-iroh-pickup.html",
-      "originType": "pickup",
+      "originType": "trending",
       "serial": 760,
-      "genre": "AI基盤・データ基盤・業務アプリ"
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "rank": 13
     },
     {
       "category": "ai-tool-log",

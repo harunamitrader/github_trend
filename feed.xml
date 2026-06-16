@@ -5,13 +5,13 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 19:52:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 08:49:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[puppeteer]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Chrome と Firefox を自動操作する定番のブラウザ制御ライブラリです。]]></description>
     </item>
@@ -19,7 +19,7 @@
       <title><![CDATA[universal-android-debloater-next-generation]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-Universal-Debloater-Alliance-universal-android-debloater-next-generation-pickup.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-Universal-Debloater-Alliance-universal-android-debloater-next-generation-pickup.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Android の不要アプリを整理して、プライバシーと軽さを改善する GUI ツールです。]]></description>
     </item>
@@ -27,7 +27,7 @@
       <title><![CDATA[iroh]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-n0-computer-iroh-pickup.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-n0-computer-iroh-pickup.html</guid>
-      <category>github-pickup</category>
+      <category>github-trending</category>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[モジュール化された Rust のネットワーク基盤を、P2P や配布アプリの土台として使える repo です。]]></description>
     </item>
