@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>zvec</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">zvec</h1>
+      <p class="article-dek">Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-16 -->
+          <strong>2026-06-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/alibaba/zvec" target="_blank" rel="noreferrer">
+              alibaba/zvec
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,225</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Zvec は、アプリに直接埋め込める in-process 型のベクトルデータベースです。軽量でセットアップが少なく、Alibaba Group 内で鍛えられた低レイテンシ検索を前提にしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>ベクトル類似検索に加えて、全文検索、ハイブリッド検索、永続保存をまとめて扱えます。Python、Node.js、Go、Rust、Dart/Flutter の SDK があり、用途に合わせて組み込みやすいです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>v0.5.0 で追加された FTS、MultiQuery による全文検索とベクトル検索の統合、DiskANN のオンディスク索引が目立ちます。さらに Zvec Studio でデータやクエリを GUI で確認でき、RISC-V 対応も含めて広い環境を意識しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `pip install zvec` か `npm install @zvec/zvec` で導入し、コレクションのスキーマを定義して `create_and_open` します。その後、ドキュメントを挿入して `VectorQuery` や FTS を組み合わせて検索し、必要なら Zvec Studio で動作確認します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>RAG の試作を素早く進めたい人、ローカル検索基盤をアプリに埋め込みたい人、外部サーバーを増やさずに類似検索を持ちたい人に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>Python 版は対応バージョンが 3.10〜3.14 なので、環境差分は先に確認したほうが安全です。また、書き込みは single-process exclusive なので、複数プロセス前提の運用では設計を分ける必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Zvec は、RAG やローカル検索の土台を小さく始めたいときに使いやすい repo です。FTS とハイブリッド検索を一つの実装で扱えるので、まずは Python か Node.js で触ってみる価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/alibaba/zvec" target="_blank" rel="noreferrer">https://github.com/alibaba/zvec</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/alibaba/zvec/blob/main/README.md" target="_blank" rel="noreferrer">README.md</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/alibaba/zvec" target="_blank" rel="noreferrer">入力元 URL</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #757</p>
+      </div>
+    </article>
+  </body>
+</html>

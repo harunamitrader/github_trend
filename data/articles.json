@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-16-alibaba-zvec-pickup",
+      "title": "zvec",
+      "dek": "Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。",
+      "summary": "Zvec は、アプリに直接組み込める軽量なベクトル DB で、全文検索・ハイブリッド検索・DiskANN・複数 SDK をまとめて確認できます。",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-16T18:39:01+09:00",
+      "repoName": "alibaba/zvec",
+      "repoUrl": "https://github.com/alibaba/zvec",
+      "starCount": 10225,
+      "articleUrl": "./articles/github/daily/2026-06-16-alibaba-zvec-pickup.html",
+      "originType": "pickup",
+      "serial": 757,
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-06-16-mikeroyal-Self-Hosting-Guide-pickup",
       "title": "Self-Hosting-Guide",

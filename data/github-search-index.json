@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-15T19:53:36.374308+00:00",
-  "count": 833,
+  "generatedAt": "2026-06-16T09:39:53.748897+00:00",
+  "count": 834,
   "articles": [
+    {
+      "slug": "2026-06-16-alibaba-zvec-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "zvec",
+      "dek": "Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。",
+      "summary": "Zvec は、アプリに直接組み込める軽量なベクトル DB で、全文検索・ハイブリッド検索・DiskANN・複数 SDK をまとめて確認できます。",
+      "repoName": "alibaba/zvec",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-16T18:39:01+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-16-alibaba-zvec-pickup.html",
+      "serial": 757,
+      "searchText": "zvec Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。 Zvec は、アプリに直接組み込める軽量なベクトル DB で、全文検索・ハイブリッド検索・DiskANN・複数 SDK をまとめて確認できます。 alibaba/zvec ナレッジ管理・RAG解析 zvec ← 記事一覧へ戻る GitHub Watcher zvec Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。 記事作成日 2026-06-16 種別 Pickup 対象 repo alibaba/zvec Star数 10,225 これは何か Zvec は、アプリに直接埋め込める in-process 型のベクトルデータベースです。軽量でセットアップが少なく、Alibaba Group 内で鍛えられた低レイテンシ検索を前提にしています。 何ができるか ベクトル類似検索に加えて、全文検索、ハイブリッド検索、永続保存をまとめて扱えます。Python、Node.js、Go、Rust、Dart/Flutter の SDK があり、用途に合わせて組み込みやすいです。 目立つポイント v0.5.0 で追加された FTS、MultiQuery による全文検索とベクトル検索の統合、DiskANN のオンディスク索引が目立ちます。さらに Zvec Studio でデータやクエリを GUI で確認でき、RISC-V 対応も含めて広い環境を意識しています。 セットアップや使い方の流れ まず `pip install zvec` か `npm install @zvec/zvec` で導入し、コレクションのスキーマを定義して `create_and_open` します。その後、ドキュメントを挿入して `VectorQuery` や FTS を組み合わせて検索し、必要なら Zvec Studio で動作確認します。 どんな人向けか RAG の試作を素早く進めたい人、ローカル検索基盤をアプリに埋め込みたい人、外部サーバーを増やさずに類似検索を持ちたい人に向いています。 注意点 Python 版は対応バージョンが 3.10〜3.14 なので、環境差分は先に確認したほうが安全です。また、書き込みは single-process exclusive なので、複数プロセス前提の運用では設計を分ける必要があります。 まとめ Zvec は、RAG やローカル検索の土台を小さく始めたいときに使いやすい repo です。FTS とハイブリッド検索を一つの実装で扱えるので、まずは Python か Node.js で触ってみる価値があります。 参照リンク https://github.com/alibaba/zvec README.md 入力元 URL Shared GitHub Serial: #757"
+    },
     {
       "slug": "2026-06-16-update-report",
       "category": "github-update-report",

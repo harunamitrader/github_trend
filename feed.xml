@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2026 19:55:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 18:40:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[zvec]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-alibaba-zvec-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-alibaba-zvec-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。]]></description>
+    </item>
     <item>
       <title><![CDATA[Self-Hosting-Guide]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-mikeroyal-Self-Hosting-Guide-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code v2.1.177 と GitHub Copilot code review の設定強化をまとめた 2026-06-14 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LMCache]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-LMCache-LMCache.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-14-LMCache-LMCache.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM 推論の KV キャッシュを高速化する、実行基盤寄りのレイヤーです。]]></description>
     </item>
   </channel>
 </rss>
