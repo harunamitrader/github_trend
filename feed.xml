@@ -5,8 +5,72 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 20:55:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 06:01:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT: Scheduled Tasks（スケジュールタスク）機能追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-chatgpt-scheduled-tasks.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-chatgpt-scheduled-tasks.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[定期実行やモニタリングを自動化できる「Scheduled Tasks」がPlus以上のプランに導入されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude: Managed Agents (Beta) と課金体系の更新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claude-managed-agents-billing.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claude-managed-agents-billing.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[定期実行や安全な認証情報管理を行える「Managed Agents」の公開と、自動化ツールのクレジット課金移行が発表されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Google Gemini: 3.5 Flash GA と Interactions API 更新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-gemini-3-5-flash-ga-tts.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-gemini-3-5-flash-ga-tts.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini 3.5 Flash の一般提供（GA）と、Interactions API のレガシースキーマ廃止が完了しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok: Imagine Video 1.5 リリースと 4.3 Bedrock 展開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-grok-imagine-video-1-5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-grok-imagine-video-1-5.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[物理挙動と音声同期を大幅に強化した「Imagine Video 1.5」の公開と、Grok 4.3 の Amazon Bedrock 提供開始が発表されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity: 2028年のIPO計画と言及、AIアクセス訴訟進展]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-perplexity-ipo-2028-lawsuit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-perplexity-ipo-2028-lawsuit.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CEOによる2028年IPOロードマップの確認と、AIエージェントのアクセス権に関する法廷闘争の口頭弁論が行われました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: 自律的「Research Agent」へ大型進化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-notebooklm-research-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-notebooklm-research-agent.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini 3.5とAntigravityを統合し、コード実行や自動ソース探索を行える自律型リサーチ環境へ刷新されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian v1.13.1 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-obsidian-v1-13-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-obsidian-v1-13-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[設定画面の新しいウィンドウ表示と検索・キーボード操作の強化、Live Previewなどのバグ修正が行われました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw v2026.6.8 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-openclaw-v2026-6-8.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-openclaw-v2026-6-8.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マンスリーリリーストレイン（YYYY.M.PATCH）の導入と、チャネル配信、最新モデルルーティングの対応が行われました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.179 リリース]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claudecode-v2-1-179.html</link>
@@ -102,70 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Alibaba の in-process ベクトル DB を、RAG 向けの検索基盤として素早く埋め込める repo です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[teslamate]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-teslamate-org-teslamate-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-teslamate-org-teslamate-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Tesla の走行・充電・位置情報をセルフホストで記録するデータロガーです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hello-algo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-krahets-hello-algo-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-krahets-hello-algo-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[図解と実装を往復しながら、データ構造とアルゴリズムを学べる教材です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[IPTV]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Free-TV-IPTV-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Free-TV-IPTV-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[世界中の無料テレビチャンネルを M3U でまとめた公開プレイリスト集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Win11Debloat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Raphire-Win11Debloat-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-Raphire-Win11Debloat-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows の不要機能やプリインストールアプリをまとめて整理する PowerShell スクリプトです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Self-Hosting-Guide]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-mikeroyal-Self-Hosting-Guide-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-16-mikeroyal-Self-Hosting-Guide-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[セルフホストの全体像を、クラウドから LLM まで広く追える実践ガイドです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-16 AIコーディングツール アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-16-ai-coding-tools-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-16-ai-coding-tools-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex 0.140.0-alpha.20 / 0.140.0-alpha.21 で進んだ dynamic tools と plugin/MCP の整理をまとめた 2026-06-16 の監視ログです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-16 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-16-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-16-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンド 18 件のランキングと、新規作成された 5 件の記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[knowledge-catalog]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GoogleCloudPlatform-knowledge-catalog-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。]]></description>
     </item>
   </channel>
 </rss>

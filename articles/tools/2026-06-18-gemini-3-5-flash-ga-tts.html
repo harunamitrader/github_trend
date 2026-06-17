@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini 3.5 Flash の一般提供（GA）と、Interactions API のレガシースキーマ廃止が完了しました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Google Gemini: 3.5 Flash GA と Interactions API 更新</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log / Others</p>
+      </div>
+
+      <h1 class="article-title">Google Gemini: 3.5 Flash GA と Interactions API 更新</h1>
+      <p class="article-dek">Gemini 3.5 Flash の一般提供（GA）と、Interactions API のレガシースキーマ廃止が完了しました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-18 -->
+          <strong>2026-06-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>Gemini 3.5 Flash GA</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google Gemini の開発者向け機能が一層刷新され、新しいAPIスキーマへの移行が完了しました。</p>
+        <ul>
+            <li><strong>Gemini 3.5 Flash の一般提供 (GA):</strong> デフォルトの思考レベル（thinking_level）がmediumに調整され、thought preservation（思考の保持）が標準有効化。</li>
+            <li><strong>Interactions API のレガシースキーマ廃止:</strong> 従来のoutputs配列が廃止され、タイムライン表示に対応したsteps配列へ完全移行。</li>
+            <li><strong>音声生成ストリーミング対応:</strong> gemini-3.1-flash-tts-preview モデルにて、streamGenerateContent を用いたリアルタイム音声ストリーミングがサポート。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Interactions API のスキーマ移行が必要となる一方、思考過程の保持によりマルチターン対話時の信頼性が増しています。</p>
+
+        <h2>まとめ</h2>
+        <p>APIの構造整理が進み、Antigravityプラットフォームへの統合に向けた準備が着々と進められています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noreferrer">Google AI Studio Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
