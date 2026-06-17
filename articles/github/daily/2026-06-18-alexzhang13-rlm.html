@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="無限に近い文脈長をLLMのプログラム的な自己分解と再帰呼び出しで処理する推論ライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>rlm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">rlm</h1>
+      <p class="article-dek">無限に近い文脈長をLLMのプログラム的な自己分解と再帰呼び出しで処理する推論ライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-18 -->
+          <strong>2026-06-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending (Rank 19)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/alexzhang13/rlm" target="_blank" rel="noreferrer">
+              alexzhang13/rlm
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,890</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Recursive Language Models (RLMs)は、大規模言語モデルが自身の入力をPythonコード環境を介してプログラム的に分割・走査し、自分自身を再帰的に呼び出すことで、実質的に無限のコンテキストを処理できるようにするタスク非依存の推論エンジンおよび学習環境です。</p>
+
+        <h2>何ができるか</h2>
+        <p>LLMにREPL実行環境を与え、コンテキストをコード内の変数やオブジェクトとして扱わせます。LLMはコードを実行してコンテキストの特定の範囲を抽出し、そこに対してさらにサブLM（自分自身）を再帰呼び出しして結果を集約します。これにより、従来のJSONベースのツール呼び出しや長文処理のコンテキスト制限を突破できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>MIT OASYS labによる論文（arXiv:2512.24601）に基づく信頼性の高い設計。APIベースの商用モデルからローカルモデルまで幅広く対応し、Prime Intellectの強化学習フレームワークを利用したRLMの自己学習コード（`training/`）も同梱されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.11以降が必要です。`pip install rlms` でインストール後、`from rlm import RLM` をインポートし、使用するLLMのバックエンドを指定して `rlm.completion(...)` を実行するだけで、自動でREPLを介した再帰的処理が開始されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>長大なドキュメントや大規模なコードベースをLLMで要約・検索させたい開発者や、JSONに縛られない自律型AIエージェントの新たな制御アーキテクチャを研究したいエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>デフォルトの動作では、ホスト側のPython環境で `exec` による直接実行を行うため、信頼できないソースやプロンプトを処理する際はセキュリティ上のリスクがあります。本番運用ではDocker等のサンドボックスで実行することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>LLMにコード実行と自己再帰を許可することで、コンテキストの壁を壊しつつより自律的な判断を行わせる、非常に先進的で興味深いアプローチの推論ライブラリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/alexzhang13/rlm" target="_blank" rel="noreferrer">https://github.com/alexzhang13/rlm</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #763</p>
+      </div>
+    </article>
+  </body>
+</html>
