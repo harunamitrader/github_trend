@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="fallbackModel の解決動作の安定化と、nested skills の名前空間バグ修正を含むバグフィックスリリースです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.179 リリース</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log / Coding</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.179 リリース</h1>
+      <p class="article-dek">fallbackModel の解決動作の安定化と、nested skills の名前空間バグ修正を含むバグフィックスリリースです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-18 -->
+          <strong>2026-06-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.179</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.179 では、実行時のフォールバック動作の堅牢性とスキル解決の安定性が改善されました。</p>
+        <ul>
+            <li><strong>fallbackModel 解決の安定化:</strong> プライマリモデルがタイムアウトした際、代替モデルへのフォールバック解決プロセスが正常に完了するよう安定化。</li>
+            <li><strong>nested skills のバグ修正:</strong> スキルが別のスキルを入れ子で呼び出す際に発生していた名前空間の競合バグを修正。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>長期実行タスクや複雑なマルチタスクでネストされたスキルを使用する際、実行時エラーが発生しづらくなりました。</p>
+
+        <h2>まとめ</h2>
+        <p>安定性を向上させるマイナーアップデートですが、エラー頻度を低減させる重要な修正が含まれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code release notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

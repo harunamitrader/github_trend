@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 23:50:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 05:55:12 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.179 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claudecode-v2-1-179.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claudecode-v2-1-179.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[fallbackModel の解決動作の安定化と、nested skills の名前空間バグ修正を含むバグフィックスリリースです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Antigravity v2.1.4 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-antigravity-v2-1-4.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-antigravity-v2-1-4.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プレビュー表示の高速化と、メモリキャッシュの最適化による実行速度の向上を図ったアップデートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Windsurf v3.2.16 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-windsurf-v3-2-16.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-windsurf-v3-2-16.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Arena Mode（エージェント比較機能）の対話エンジン刷新と、モデルルーティングの改善を盛り込んだアップデートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: Auto mode in Chat 一般提供]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-github-copilot-auto-mode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-github-copilot-auto-mode.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot Chat 内の「Auto mode」（エージェント自律モード）が全ユーザーに開放され、専用デスクトップアプリも GA（一般提供）に到達しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Codex v0.141.0-alpha.6 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-codex-v0-141-0-alpha-6.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-codex-v0-141-0-alpha-6.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows sandbox 実行ポリシーと /usage コマンドの表示バグを整理したアルファ版アップデートです。]]></description>
+    </item>
     <item>
       <title><![CDATA[puppeteer]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html</link>
@@ -126,46 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OKF の draft spec を軸に、知識を Markdown で持ち運ぶ設計を学べる repo です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pytest]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-pytest-dev-pytest.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-pytest-dev-pytest.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Python のテストを小さく始めて大きく育てられる、定番の検証基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Introduction-to-Autonomous-Robots]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-Introduction-to-Autonomous-Robots-Introduction-to-Autonomous-Robots.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-Introduction-to-Autonomous-Robots-Introduction-to-Autonomous-Robots.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律ロボットの考え方を体系的に学べる、公開テキストです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Clone-Wars]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GorvGoyl-Clone-Wars.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-GorvGoyl-Clone-Wars.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人気サービスの実装例を横断できる、学習用のクローン集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cypress]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-cypress-io-cypress.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-cypress-io-cypress.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ上の動作を速く検証できる、E2E テストの定番です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[meshery]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-meshery-meshery.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-15-meshery-meshery.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Kubernetes や service mesh をまとめて扱う、クラウドネイティブ管理の中核です。]]></description>
     </item>
   </channel>
 </rss>
