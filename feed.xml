@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 21:04:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 04:02:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Improvements to Cursor Automations]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-cursor-automations.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-cursor-automations.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[/automate スキルの追加、Slack絵文字トリガー、新規GitHubトリガー、および computer use 統合による自動化エージェントの強化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.181 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-claudecode-v2-1-181.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-claudecode-v2-1-181.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-18 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-18-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Copilot Chat 内の「Auto mode」（エージェント自律モード）が全ユーザーに開放され、専用デスクトップアプリも GA（一般提供）に到達しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex v0.141.0-alpha.6 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-codex-v0-141-0-alpha-6.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-codex-v0-141-0-alpha-6.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows sandbox 実行ポリシーと /usage コマンドの表示バグを整理したアルファ版アップデートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[puppeteer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-17-puppeteer-puppeteer-pickup.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Chrome と Firefox を自動操作する定番のブラウザ制御ライブラリです。]]></description>
     </item>
   </channel>
 </rss>

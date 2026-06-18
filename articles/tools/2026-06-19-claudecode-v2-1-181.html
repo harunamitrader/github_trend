@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.181 リリース</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.181 リリース</h1>
+      <p class="article-dek">fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-19 -->
+          <strong>2026-06-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.181</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、主に動作の堅牢性とインフラのバグフィックスが行われています。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+                        <li><strong>fallbackModel の安定化:</strong> 実行時のフォールバックモデル選択に関する動作が改善され、意図しない接続エラーが低減しました。</li>
+            <li><strong>内部インフラのバグ修正:</strong> プラグイン依存関係や解決処理における軽微な不具合が解消されています。</li>
+            <li><strong>例外処理の強化:</strong> エラー発生時のログ保存や復帰処理の堅牢性が向上しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>フォールバックモデル解決の安定化により、APIエラーが一時的に発生した際にもエージェントがクラッシュしにくくなり、バックグラウンドでの長時間実行がより安定します。</p>
+
+        <h2>まとめ</h2>
+        <p>大規模な新機能の追加はありませんが、実行の安定性を底上げするための重要な品質改善アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.npmjs.com/package/@anthropic-ai/claude-code" target="_blank" rel="noreferrer">npm @anthropic-ai/claude-code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

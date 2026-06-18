@@ -7,6 +7,34 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-19-cursor-automations",
+      "title": "Improvements to Cursor Automations",
+      "dek": "/automate スキルの追加、Slack絵文字トリガー、新規GitHubトリガー、および computer use 統合による自動化エージェントの強化。",
+      "summary": "開発者のローカル環境からクラウドVM、外部連携までエージェントをシームレスに結合し、真のバックグラウンド開発自動化を実現する強力なアップデートです。",
+      "publishedAt": "2026-06-19",
+      "createdAt": "2026-06-19T04:05:11+09:00",
+      "originType": "tool-log",
+      "toolName": "Cursor",
+      "articleUrl": "./articles/tools/2026-06-19-cursor-automations.html",
+      "serial": 777,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-19-claudecode-v2-1-181",
+      "title": "Claude Code v2.1.181 リリース",
+      "dek": "fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。",
+      "summary": "大規模な新機能の追加はありませんが、実行の安定性を底上げするための重要な品質改善アップデートです。",
+      "publishedAt": "2026-06-19",
+      "createdAt": "2026-06-19T04:05:10+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code",
+      "articleUrl": "./articles/tools/2026-06-19-claudecode-v2-1-181.html",
+      "serial": 776,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-18-update-report",
       "title": "2026-06-18 アップデートレポート",
