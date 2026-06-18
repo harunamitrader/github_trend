@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="非構造化テキストから、ナレッジグラフやハイパーグラフなどの構造化データをコマンド1つで抽出するLLM支援フレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Hyper-Extract</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Hyper-Extract</h1>
+      <p class="article-dek">非構造化テキストから、ナレッジグラフやハイパーグラフなどの構造化データをコマンド1つで抽出するLLM支援フレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-19 -->
+          <strong>2026-06-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending (Rank 7)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/yifanfeng97/Hyper-Extract" target="_blank" rel="noreferrer">
+              yifanfeng97/Hyper-Extract
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,678</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Hyper-Extractは、LLMを利用したインテリジェントな知識抽出・進化フレームワークです。大量の非構造化テキストドキュメントから、強固に型定義された predictable な『ナレッジ・アブストラクト（知識要約）』を抽出します。</p>
+
+        <h2>何ができるか</h2>
+        <p>PDFやMarkdownなどのテキストを入力し、単純なリストやPydanticモデルから、複雑なナレッジグラフ、ハイパーグラフ、さらには時空間（Spatio-Temporal）グラフなど、8種類の高度な知識構造に自動でマッピング・抽出します。GraphRAG、LightRAG、Hyper-RAGなどの多様な抽出エンジンを切り替え可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>金融、法律、医療、業界標準、一般の各ドメインを網羅する80種類以上の即実行可能なYAMLテンプレートを同梱。新しく追加されたドキュメントを取り込んで知識ベースを段階的に発展させる『増分進化』をサポートしており、OpenAI等の商用APIからローカルのvLLM（Qwen3.5-9B等）によるローカル完結型RAGまで対応します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>`uv tool install hyperextract` でインストール後、`he config init` でAPIキーを設定します。`he parse document.pdf -t general/academic_graph -o ./kb/` を実行すれば、ドキュメントから簡単に知識グラフが抽出され、`he show ./kb/` で確認できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>論文や決算書、契約書などの大量のドキュメントから、重要なエンティティや関係性を高速かつ自動的に抽出して整理し、社内RAGシステムや独自知識データベースを構築したいリサーチャーやアナリスト向けです。</p>
+
+        <h2>注意点</h2>
+        <p>正確な構造化出力を得るために、LLM側がStructured Outputs（json_schemaやFunction Calling）に対応している必要があります。また、グラフ抽出はプロンプトの往復やコンテキスト長を多く消費するため、実行コストやローカル環境のvLLMの負荷に注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>多様な知識構造と最先端のGraphRAGエンジン、精度を高めるドメインテンプレートを1つのCLIに凝縮し、LLMによる高度な情報整理を驚くほどシンプルにした優れた知識抽出ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/yifanfeng97/Hyper-Extract" target="_blank" rel="noreferrer">https://github.com/yifanfeng97/Hyper-Extract</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #771</p>
+      </div>
+    </article>
+  </body>
+</html>

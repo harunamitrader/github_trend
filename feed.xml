@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 19:02:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 04:46:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-19 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-19-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-19-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GLM-5]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-zai-org-GLM-5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-zai-org-GLM-5.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[100万トークンの超長文コンテキストと非同期強化学習を採用した、自律的エンジニアリング特化型のオープンソースLLM]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Hyper-Extract]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-yifanfeng97-Hyper-Extract.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-yifanfeng97-Hyper-Extract.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[非構造化テキストから、ナレッジグラフやハイパーグラフなどの構造化データをコマンド1つで抽出するLLM支援フレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[kilocode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kilo-Org-kilocode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kilo-Org-kilocode.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[500以上のモデルに対応し、エディタやCLIから利用できる、オープンソース型の自律的コーディングエージェントプラットフォーム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[insomnia]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kong-insomnia.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kong-insomnia.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GraphQLやREST、WebSockets、gRPCなどのデバッグやテストを行える、オープンソース型のAPIクライアント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[aspnetcore]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-dotnet-aspnetcore.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-dotnet-aspnetcore.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows/Mac/Linuxで動作する、モダンなクラウド型Webアプリ構築のためのC#製Web開発フレームワーク]]></description>
+    </item>
     <item>
       <title><![CDATA[Improvements to Cursor Automations]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-cursor-automations.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini 3.5とAntigravityを統合し、コード実行や自動ソース探索を行える自律型リサーチ環境へ刷新されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian v1.13.1 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-obsidian-v1-13-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-obsidian-v1-13-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[設定画面の新しいウィンドウ表示と検索・キーボード操作の強化、Live Previewなどのバグ修正が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.6.8 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-openclaw-v2026-6-8.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-openclaw-v2026-6-8.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[マンスリーリリーストレイン（YYYY.M.PATCH）の導入と、チャネル配信、最新モデルルーティングの対応が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.179 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claudecode-v2-1-179.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claudecode-v2-1-179.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[fallbackModel の解決動作の安定化と、nested skills の名前空間バグ修正を含むバグフィックスリリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity v2.1.4 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-antigravity-v2-1-4.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-antigravity-v2-1-4.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プレビュー表示の高速化と、メモリキャッシュの最適化による実行速度の向上を図ったアップデートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Windsurf v3.2.16 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-windsurf-v3-2-16.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-windsurf-v3-2-16.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Arena Mode（エージェント比較機能）の対話エンジン刷新と、モデルルーティングの改善を盛り込んだアップデートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Auto mode in Chat 一般提供]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-github-copilot-auto-mode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-github-copilot-auto-mode.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot Chat 内の「Auto mode」（エージェント自律モード）が全ユーザーに開放され、専用デスクトップアプリも GA（一般提供）に到達しました。]]></description>
     </item>
   </channel>
 </rss>
