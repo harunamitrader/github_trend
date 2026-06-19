@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="タイムライン上に生成AIモデルとMCPサーバーを内蔵し、AIエージェントと共同で動画を編集できるSwift製のmacOSネイティブ動画エディタ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>palmier-pro</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">palmier-pro</h1>
+      <p class="article-dek">タイムライン上に生成AIモデルとMCPサーバーを内蔵し、AIエージェントと共同で動画を編集できるSwift製のmacOSネイティブ動画エディタ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-20 -->
+          <strong>2026-06-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/palmier-io/palmier-pro" target="_blank" rel="noreferrer">
+              palmier-io/palmier-pro
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,715</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIのためにゼロから構築された、オープンソースかつSwift製のmacOSネイティブ動画エディタです。ユーザーとAIエージェントが、タイムライン上で協調して映像を編集・生成できる先進的な動画編集ソフトです。</p>
+
+        <h2>何ができるか</h2>
+        <p>Swift製ならではのネイティブで高速なタイムライン動画編集（ Premiere Pro にインスパイアされたUI）を提供します。Seedance、Kling、Nano Banana Proなどの最先端（SOTA）モデルを用いた動画・画像生成を、タイムライン上で直接実行可能です。アプリ起動時にMCP（Model Context Protocol）サーバー（<code>http://127.0.0.1:19789/mcp</code>）を自動で公開し、外部のAIエージェント（Claude Code、Codex、Cursorなど）に動画の編集命令を送信させることができます。または、アプリ内に統合された専用の対話型AIエージェントを利用して、同じ編集プロジェクトをリアルタイムで共同編集することも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最も革新的なのはMCP（Model Context Protocol）サーバー機能です。これにより、Claude CodeなどのターミナルAIから <code>claude mcp add --transport http palmier-pro http://127.0.0.1:19789/mcp</code> という1つのコマンドを叩くだけで、AIがユーザーのタイムラインを読み取ったり、クリップを挿入したりする「AIによるプログラム可能な動画編集」が実現します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>macOS 26 (Tahoe) 以上の Apple Silicon搭載Macが必要です。リポジトリのReleasesから <code>.dmg</code> ファイルをダウンロードしてインストールするか、ソースコードからビルドします。アプリを起動し、Claude Code、Codex、またはCursorにMCPサーバーを追加します。タイムラインで動画をドラッグ＆ドロップで編集するか、AIに「〇〇秒目のクリップの明るさを調整して」といった指示を出して編集を実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントを使った自律的な動画制作ワークフロー（動画の自動カット編集や要約動画作成など）をプログラムしたいエンジニアやクリエイター、タイムラインベースのAI映像生成を効率よく行いたいMacユーザーに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>動作には比較的新しい macOS 26（Tahoe）および Apple Silicon（Mシリーズチップ）が必須となっており、Intel MacやWindows/Linuxはサポートされていません。また、MCP経由での外部接続には、ローカルポート（<code>19789</code>）のバインドが必要となるため、セキュリティ設定や他のプロセスとの競合に注意してください。</p>
+
+        <h2>まとめ</h2>
+        <p>「AIと人間が対話的・プログラム的に同じタイムラインを触る」という動画編集の新たなパラダイムを、Swiftネイティブな高品質動作とMCPによる高い結合度で実現した、非常に実験的かつ将来性のあるオープンソース動画編集アプリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/palmier-io/palmier-pro" target="_blank" rel="noreferrer">https://github.com/palmier-io/palmier-pro</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #776</p>
+      </div>
+    </article>
+  </body>
+</html>

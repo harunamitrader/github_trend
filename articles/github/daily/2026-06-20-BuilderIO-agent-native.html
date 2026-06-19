@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自律エージェントとリアルタイムUIをシームレスに同期・融合し、共同作業を可能にするオープンソースのエージェントネイティブアプリ構築フレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-native</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-native</h1>
+      <p class="article-dek">自律エージェントとリアルタイムUIをシームレスに同期・融合し、共同作業を可能にするオープンソースのエージェントネイティブアプリ構築フレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-20 -->
+          <strong>2026-06-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/BuilderIO/agent-native" target="_blank" rel="noreferrer">
+              BuilderIO/agent-native
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>966</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>自律エージェントとリッチなWeb UI（ユーザーインターフェース）を統合した「エージェント・ネイティブ」なアプリケーションを構築するためのオープンソースフレームワークです。人間とAIエージェントが、同一のアプリケーション上で対等な編集者として共同作業できる環境を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントとUIが同じデータベースおよびState（状態）をリアルタイムで共有し、どちらの変更も即座に画面へ反映されます。CRDT（衝突のない複製データ型）によるマージやライブプレゼンス（カーソル移動、選択リング、他の人がどのコンポーネントを見ているか等）をサポートし、リアルタイムマルチプレイヤーで共同編集できます。ユーザーごとにカスタマイズ可能なSQLバックエンドのワークスペースを提供し、個別のスキル、メモリ、指示、MCP（Model Context Protocol）サーバーを設定可能です。A2A（Agent-to-Agent）でのエージェント間通信をサポートし、異なるアプリ上のエージェントが互いを発見して連携アクションを実行できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最もユニークな特徴は「UI操作とチャットでの指示が等価である」という設計思想です。ボタンをクリックして要素を動かすことも、AIに指示して動かすこともでき、すべてが同一のデータ上で瞬時に同期します。ヘッドレスAPI、リッチチャット、あるいはフルUIアプリといった3つの形態にシームレスに展開できる汎用性の高さも魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js環境でプロジェクトを用意します。リポジトリをクローンまたは依存関係をインストールします。Drizzle ORMがサポートするSQLデータベース（SQLite、Postgresなど）と、Nitroがサポートするホスティング環境を設定します。Dispatch構成を記述し、vaultに認証情報を保存してアプリからエージェント実行を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントを自社サービスに組み込んで、ユーザーとAIがシームレスに共同編集するリッチなSaaSを作りたいWebエンジニアやプロダクトデザイナー、CursorやClaude Codeのような高度な自律的編集ワークフローを自前のWebアプリとして提供したい開発者に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>リアルタイム同期やCRDTマージを使用するため、接続するデータベースの設定や接続状態の管理に注意が必要です。また、実運用時にはエージェントの実行コストやAPIのレートリミットを考慮したDispatch管理（vault内のシークレットやクレジット制限）が必須となります。</p>
+
+        <h2>まとめ</h2>
+        <p>「AIと人間が同じキャンバスで協働する」という未来のWebアプリケーションのあり方を提示する、強力なリアルタイム同期機能と拡張性の高いMCPサポートを兼ね備えた、極めて先進的なエージェント連携フレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/BuilderIO/agent-native" target="_blank" rel="noreferrer">https://github.com/BuilderIO/agent-native</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #774</p>
+      </div>
+    </article>
+  </body>
+</html>

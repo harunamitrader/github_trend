@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 19 Jun 2026 19:02:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 04:47:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-20 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-20-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-20-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[palmier-pro]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-palmier-io-palmier-pro.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-palmier-io-palmier-pro.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[タイムライン上に生成AIモデルとMCPサーバーを内蔵し、AIエージェントと共同で動画を編集できるSwift製のmacOSネイティブ動画エディタ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-generative-ai-guide]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-aishwaryanr-awesome-generative-ai-guide.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-aishwaryanr-awesome-generative-ai-guide.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[月次の最重要論文リスト、面接対策、LLM実装コード、90以上の無料コースなど、生成AI開発者に必要な学習リソースを網羅した統合ハブ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-native]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-BuilderIO-agent-native.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-BuilderIO-agent-native.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律エージェントとリアルタイムUIをシームレスに同期・融合し、共同作業を可能にするオープンソースのエージェントネイティブアプリ構築フレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[LTX-2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-Lightricks-LTX-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-Lightricks-LTX-2.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[同期されたオーディオとビデオを同時に生成する、画期的なDiTベースの音響映像生成モデル「LTX-2」の公式推論・LoRA学習パッケージ]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.183 リリース]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-20-claudecode-v2-1-183.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[無限に近い文脈長をLLMのプログラム的な自己分解と再帰呼び出しで処理する推論ライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: Scheduled Tasks（スケジュールタスク）機能追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-chatgpt-scheduled-tasks.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-chatgpt-scheduled-tasks.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[定期実行やモニタリングを自動化できる「Scheduled Tasks」がPlus以上のプランに導入されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: Managed Agents (Beta) と課金体系の更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claude-managed-agents-billing.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-claude-managed-agents-billing.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[定期実行や安全な認証情報管理を行える「Managed Agents」の公開と、自動化ツールのクレジット課金移行が発表されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google Gemini: 3.5 Flash GA と Interactions API 更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-gemini-3-5-flash-ga-tts.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-gemini-3-5-flash-ga-tts.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini 3.5 Flash の一般提供（GA）と、Interactions API のレガシースキーマ廃止が完了しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok: Imagine Video 1.5 リリースと 4.3 Bedrock 展開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-grok-imagine-video-1-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-grok-imagine-video-1-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[物理挙動と音声同期を大幅に強化した「Imagine Video 1.5」の公開と、Grok 4.3 の Amazon Bedrock 提供開始が発表されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity: 2028年のIPO計画と言及、AIアクセス訴訟進展]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-perplexity-ipo-2028-lawsuit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-perplexity-ipo-2028-lawsuit.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CEOによる2028年IPOロードマップの確認と、AIエージェントのアクセス権に関する法廷闘争の口頭弁論が行われました。]]></description>
     </item>
   </channel>
 </rss>

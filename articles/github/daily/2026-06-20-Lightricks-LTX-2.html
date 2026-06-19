@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="同期されたオーディオとビデオを同時に生成する、画期的なDiTベースの音響映像生成モデル「LTX-2」の公式推論・LoRA学習パッケージ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LTX-2</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LTX-2</h1>
+      <p class="article-dek">同期されたオーディオとビデオを同時に生成する、画期的なDiTベース of 音響映像生成モデル「LTX-2」の公式推論・LoRA学習パッケージ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-20 -->
+          <strong>2026-06-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Lightricks/LTX-2" target="_blank" rel="noreferrer">
+              Lightricks/LTX-2
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,642</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Lightricks社によって開発された、初のDiffusion Transformer（DiT）ベースのオーディオ・ビデオ融合基盤モデル「LTX-2」を、ローカルで実行するための推論およびLoRA（Low-Rank Adaptation）追加学習用の公式Pythonパッケージです。映像と、その映像内容に完璧に同期した音声を単一のAIモデルで同時生成できることが最大の特徴となっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>テキストプロンプトや画像、またはその両方から、同期されたオーディオ付きの動画を生成できます。高忠実度な映像表現と、それに違和感なく同期する環境音や効果音を同時に出力可能です。公開されたモデルウェイトを用いて、独自のデータセットによるLoRA学習を実行し、映像のスタイルや特定の被写体をカスタマイズすることができます。複数のパフォーマンスモード（高速・高品質など）をサポートし、APIや専用プレイグラウンドからのアクセスも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>従来の動画生成モデルは映像のみを生成し、効果音やBGMは別のAIで後付けするものが大半でした。LTX-2は、映像フレームと音声波形を単一のDiT構造内で相互に関連づけながら同時に生成するため、ドアの閉まる音や足音などが映像の動きと完璧なタイミングで連動します。また、LoRA学習スクリプトが公式に同梱されており、開発者が容易に追加学習を始められる点も極めて優れたポイントです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.10以上の環境を用意し、PyTorchおよび依存関係をインストールします。リポジトリをクローンし、<code>pip install -e .</code> でパッケージをインストールします。Hugging Face（<code>Lightricks/LTX-2.3</code>）から事前学習済みモデルをダウンロードします。付属の <code>inference.py</code> を実行してプロンプトからオーディオ付き動画（MP4形式等）を出力するか、<code>train_lora.py</code> で追加学習を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ローカル環境で高度なAI動画生成モデルを実験・調整したい開発者やAI研究者、同期した効果音付きの映像コンテンツを短時間で制作したいクリエイター、特定の画風やキャラクターを学習させて独自の動画生成AIを作りたいエンジニアに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>DiTモデルのローカル推論およびLoRA学習には、相応に大容量のVRAMを搭載したNVIDIA製GPU（RTX 3090/4090、またはA100など）が必要です。また、生成される音声と映像の品質は入力するプロンプトの記述精度や事前学習モデルのバージョン（2.3など）に依存します。</p>
+
+        <h2>まとめ</h2>
+        <p>「映像と音声の同時・同調生成」という動画生成AIの長年の課題を解決したLTX-2のローカル動作環境であり、推論からカスタマイズ学習までを一貫して提供する、非常に実用価値と技術的好奇心の高いオープンソースパッケージです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Lightricks/LTX-2" target="_blank" rel="noreferrer">https://github.com/Lightricks/LTX-2</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #773</p>
+      </div>
+    </article>
+  </body>
+</html>
