@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-20-claudecode-v2-1-183",
+      "title": "Claude Code v2.1.183 リリース",
+      "dek": "auto-mode 実行時の安全性を強化し、意図しない破壊的な git コマンド実行をブロックする更新。",
+      "summary": "開発ワークスペースのデータを保護し、自律実行時の深刻なリスクを未然に防ぐための重要なセキュリティ・安全性強化アップデートです。",
+      "publishedAt": "2026-06-20",
+      "createdAt": "2026-06-20T04:05:10+09:00",
+      "originType": "tool-log",
+      "toolName": "Claude Code",
+      "articleUrl": "./articles/tools/2026-06-20-claudecode-v2-1-183.html",
+      "serial": 778,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-19-update-report",
       "title": "2026-06-19 アップデートレポート",

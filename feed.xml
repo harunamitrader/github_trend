@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 19:47:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 04:01:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.183 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-20-claudecode-v2-1-183.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-20-claudecode-v2-1-183.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[auto-mode 実行時の安全性を強化し、意図しない破壊的な git コマンド実行をブロックする更新。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-19 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-19-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CEOによる2028年IPOロードマップの確認と、AIエージェントのアクセス権に関する法廷闘争の口頭弁論が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: 自律的「Research Agent」へ大型進化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-notebooklm-research-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-18-notebooklm-research-agent.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini 3.5とAntigravityを統合し、コード実行や自動ソース探索を行える自律型リサーチ環境へ刷新されました。]]></description>
     </item>
   </channel>
 </rss>
