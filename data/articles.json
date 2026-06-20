@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-21-cline-cli-v3-0-29",
+      "title": "Cline CLI v3.0.29 リリース",
+      "dek": "ClinePass の導入、OAuth 認証対応のプラグイン MCP、および Hub ダッシュボードの刷新などを含む大型アップデート。",
+      "summary": "認証の堅牢化とHub機能の使いやすさ、およびClinePassという新たなモデル利用の選択肢を追加し、実務での統合開発エージェントとしての実用性を底上げする重要なアップデートです。",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T04:05:10+09:00",
+      "originType": "tool-log",
+      "toolName": "Cline",
+      "articleUrl": "./articles/tools/2026-06-21-cline-cli-v3-0-29.html",
+      "serial": 779,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-20-update-report",
       "title": "2026-06-20 アップデートレポート",
