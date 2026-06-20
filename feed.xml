@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 20:02:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 05:52:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini Workspace のスプレッドシート多言語化と Interactions API の音声ストリーミング対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Workspace での日本語スプレッドシート作成対応、および API での音声生成ストリーミングサポートの追加を含む最新アップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-21 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-21-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[/automate スキルの追加、Slack絵文字トリガー、新規GitHubトリガー、および computer use 統合による自動化エージェントの強化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.181 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-claudecode-v2-1-181.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-claudecode-v2-1-181.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。]]></description>
     </item>
   </channel>
 </rss>

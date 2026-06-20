@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-21-gemini-spreadsheet-languages-speech-api",
+      "title": "Gemini Workspace のスプレッドシート多言語化と Interactions API の音声ストリーミング対応",
+      "dek": "Workspace での日本語スプレッドシート作成対応、および API での音声生成ストリーミングサポートの追加を含む最新アップデート。",
+      "summary": "Google Sheets での Gemini 支援機能が日本語を含む28言語に拡大され、Interactions API において音声生成のストリーミングサポートが追加された、実用性と開発効率を高めるアップデートです。",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T05:52:00+09:00",
+      "originType": "tool-log",
+      "toolName": "Gemini",
+      "articleUrl": "./articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html",
+      "serial": 781
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-21-update-report",
       "title": "2026-06-21 アップデートレポート",
