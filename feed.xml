@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:03:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 04:46:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-21 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-21-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-21-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[turso]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tursodatabase-turso.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tursodatabase-turso.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SQLiteの互換性を持ち、超低レイテンシでエッジ実行やグローバル分散に対応したモダンなインプロセスSQLデータベース]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Pake]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tw93-Pake.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tw93-Pake.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Webページをわずか5MB of Rust (Tauri) 製軽量デスクトップアプリへ、コマンド1つで高速パッケージングするパッケージツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-artificial-intelligence]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-owainlewis-awesome-artificial-intelligence.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-owainlewis-awesome-artificial-intelligence.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[RAGや自律エージェント、LLMOpsなど、AIプロダクト構築に不可欠な最新の書籍・論文・フレームワーク・評価ツールを厳選した実務重視 of 学習ガイド]]></description>
+    </item>
+    <item>
+      <title><![CDATA[SmsForwarder]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-pppscn-SmsForwarder.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-pppscn-SmsForwarder.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AndroidスマホのSMS・着信・アプリ通知をトリガーに、各種チャットツールやWebhookへ転送・自動処理できる備用機向けOSSツール]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline CLI v3.0.29 リリース]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-cline-cli-v3-0-29.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[fallbackModel 解決動作の安定化と、内部インフラのバグ修正を含むアップデートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-18 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-18-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-18-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[codebase-memory-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-DeusData-codebase-memory-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-DeusData-codebase-memory-mcp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コードベース全体をミリ秒で知識グラフ化し、AIエージェントのトークン消費を激減させるC言語製MCPサーバー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Rocket.Chat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-RocketChat-Rocket.Chat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-RocketChat-Rocket.Chat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自己ホストとセキュリティに特化し、Slackの強力な代替となるエンタープライズ向けオープンソースチャット]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Unciv]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-yairm210-Unciv.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-yairm210-Unciv.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[名作 Civilization V を軽量な2Dドット絵で完全再現した、オープンソースの4Xストラテジーゲーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenMontage]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-calesthio-OpenMontage.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-18-calesthio-OpenMontage.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[台本執筆、素材収集、動画編集からレンダリングまで、AIエージェントが完全自動で進行する動画制作システム]]></description>
     </item>
   </channel>
 </rss>

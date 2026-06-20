@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Webページをわずか5MBのRust (Tauri) 製軽量デスクトップアプリへ、コマンド1つで高速パッケージングするパッケージツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Pake</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Pake</h1>
+      <p class="article-dek">Webページをわずか5MBのRust (Tauri) 製軽量デスクトップアプリへ、コマンド1つで高速パッケージングするパッケージツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-21 -->
+          <strong>2026-06-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tw93/Pake" target="_blank" rel="noreferrer">
+              tw93/Pake
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>54,314</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>コマンドラインから1つのコマンドを実行するだけで、任意のWebサイトやWebアプリケーションをデスクトップアプリ（macOS、Windows、Linux）に変換できるRust製の軽量パッケージングツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>指定したURL（ChatGPT、YouTube、または自作のWebアプリなど）をデスクトップアプリ化し、OSネイティブなウィンドウで直接実行できるようにします。デスクトップ用の各種ショートカットキーの有効化、没入型ウィンドウ（フレームなし表示）、ファイルドラッグ＆ドロップへの対応、独自のカスタムCSS/JSの挿入、Web内の不要な広告要素の非表示フィルターなどを設定可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>従来のWebアプリデスクトップ化の代名詞であった「Electron」と比較して、パッケージサイズが約20分の1（通常5MB前後）という驚異的な軽さを誇ります。これはRustおよびTauriフレームワーク上に構築され、OSに最初から備わっているWebViewエンジン（Webkit/WebView2）を利用する設計になっているためです。起動時間が極めて短く、動作時のメモリ消費量もごく僅かに抑えられているため、動作環境を選びません。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js環境があれば、<code>npm install -g pake-cli</code> でコマンドラインツールをグローバルインストールします。その後、<code>pake https://chatgpt.com --name ChatGPT</code> と実行するだけで、OSに応じた実行ファイル（.appや.exeなど）がカレントディレクトリに一瞬で出力されます。ローカルに環境を作りたくない一般ユーザー向けには、GitHub Actionsを利用してオンライン上でビルドし、バイナリをダウンロードする手順も提供されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>よく使うWebアプリをブラウザのタブから独立させてデスクトップ上で常駐実行させたい人、作成したWebアプリを数メガバイトのサイズでクライアントに配布したい開発者、Electronアプリの重さやサイズにストレスを感じている開発者に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>OSネイティブのWebView機能を利用するため、ビルドされた環境と動作する環境でOSバージョンやWebViewコンポーネント（WindowsにおけるEdge WebView2ランタイム等）の有無が動作影響を及ぼすことがあります。また、一部のサイトではセキュリティの制約（OAuthのポップアップログインなど）により、一部の動的遷移が正常に動かない場合があるため、動作確認を行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>RustとTauriのメリットを最大限に活かし、極めて軽量かつ実用的なデスクトップアプリをコマンド1つで誰でも即座に作り出せる、画期的な高速アプリ化ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tw93/Pake" target="_blank" rel="noreferrer">https://github.com/tw93/Pake</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #782</p>
+      </div>
+    </article>
+  </body>
+</html>

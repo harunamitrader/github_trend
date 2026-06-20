@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SQLiteの互換性を持ち、超低レイテンシでエッジ実行やグローバル分散に対応したモダンなインプロセスSQLデータベース"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>turso</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">turso</h1>
+      <p class="article-dek">SQLiteの互換性を持ち、超低レイテンシでエッジ実行やグローバル分散に対応したモダンなインプロセスSQLデータベース</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-21 -->
+          <strong>2026-06-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tursodatabase/turso" target="_blank" rel="noreferrer">
+              tursodatabase/turso
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>20,236</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>SQLiteの使いやすさと高い互換性を維持しながら、グローバルな分散レプリケーションやエッジ/サーバーレス環境での高速動作を実現するために開発された、オープンソースかつモダンなSQLデータベースシステム（および関連SDK）です。</p>
+
+        <h2>何ができるか</h2>
+        <p>エッジコンピューティング環境やサーバーレス環境（Vercel、Cloudflare Workers、Fly.ioなど）と非常に親和性が高く、ユーザーに近いリージョンで超低レイテンシでの読み書き処理を実行できます。データベースのコアには SQLite のオープンソース・フォークである「libSQL」を採用しており、分散レプリカ同士の高速なデータ同期や、Rust、JavaScript、TypeScript、Python、Go、Javaなどの主要言語によるデータベースアクセスをサポートします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>SQLite は「ローカルの単一ファイルデータベース」として有名ですが、サーバーレス環境ではデータの永続化やサーバー間のデータ共有が困難でした。Turso は、SQLite のコードベースの軽快さを保ちつつ、インターネット越しに分散配置されたエッジロケーション間でレプリカを同期・運用できるようにした点が画期的です。インプロセスデータベースの持つ「高速なクエリ応答」というメリットをクラウド上でシームレスに享受できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ローカル開発では Rust の Cargo などで <code>crates.io/crates/turso</code> などのSDKを利用するか、npmから <code>@tursodatabase/database</code> をインストールします。本家サービスと連携する場合は専用CLIを使ってデータベースを作成し、払い出された接続URLと認証トークンをアプリの環境変数に設定してクエリを発行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>サーバーレス環境でSQLite並みに手軽で起動が速く、かつデータ永続化とスケーラビリティを確保したい開発者、世界中にアクセスが分散するようなSPA（シングルページアプリケーション）やエッジAPIのバックエンドDBを探しているWebエンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>SQLite互換ではありますが、完全に同じではなく、libSQL独自の機能拡張や分散処理用の制約があります。また、大規模なデータ分析（OLAP）や、超高頻度かつ複雑なトランザクションが多重に発生するような用途には、PostgreSQLなどのフル機能のリレーショナルデータベースに一日の長があります。</p>
+
+        <h2>まとめ</h2>
+        <p>インプロセスのSQLiteの軽快さと、グローバル分散エッジデータベースの実用性を融合させ、モダンなWeb・サーバーレス開発におけるデータレイヤーのボトルネックを解消する、非常に優れた次世代のデータベースソリューションです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tursodatabase/turso" target="_blank" rel="noreferrer">https://github.com/tursodatabase/turso</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #783</p>
+      </div>
+    </article>
+  </body>
+</html>

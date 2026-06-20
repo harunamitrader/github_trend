@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AndroidスマホのSMS・着信・アプリ通知をトリガーに、各種チャットツールやWebhookへ転送・自動処理できる備用機向けOSSツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>SmsForwarder</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">SmsForwarder</h1>
+      <p class="article-dek">AndroidスマホのSMS・着信・アプリ通知をトリガーに、各種チャットツールやWebhookへ転送・自動処理できる備用機向けOSSツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-21 -->
+          <strong>2026-06-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending No. 16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/pppscn/SmsForwarder" target="_blank" rel="noreferrer">
+              pppscn/SmsForwarder
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>26,467</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AndroidスマートフォンのSMS（ショートメッセージ）、不在着信・通話履歴、およびアプリ通知をリアルタイムに監視し、指定したルールに基づいて他のチャットツールやメール、Web APIなどへ自動転送する予備機（備用機）専用のオープンソースツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>スマートフォンに届いたSMSの内容や不在着信、LINEなどのアプリ通知を検知し、釘釘（DingTalk）、企業微信（WeCom）、飛書（Lark）、Telegram、メール、Bark、Serverちゃん、任意のWebhookなどへ自動転送します。また、クライアントとサーバーのアクティブ制御機能により、PCや別端末からブラウザ経由でリモートからSMSを送信したり、電話帳や通話履歴の閲覧、バッテリー残量の確認などを遠隔で実行可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる受動的な通知転送にとどまらず、v3.3からは「自動タスク」や「ショートカットコマンド」機能を搭載し、時間帯や受信トリガーに基づいた端末自動化アクションを柔軟に設定できます。備用機（古いスマホや2台目スマホ）をSIMカードを挿したまま自宅に放置しておき、メイン端末のチャットツールで一元的に通知やメッセージを管理・操作できるため、複数回線の運用効率が劇的に向上します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Android 4.4以上の端末にAPKファイルをインストールし、アプリを起動します。転送設定画面から転送先のAPIトークンやメール設定を行い、送信ルール（SMSの内容に特定の単語が含まれる場合のみ転送など）を作成します。リモート操作を行いたい場合は、Webサーバー機能を有効にし、割り当てられたIPアドレスにアクセスして初期認証を行います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>仕事とプライベートで携帯回線を分けて2台持ちしている人、海外回線を維持しつつ日本でSMS受信を確認したい人、古くなったAndroidスマホをスマートホームや簡易的なIoT通知ハブ・自動化デバイスとして再利用したいギーク層に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>SMSの転送やリモート送信、アプリ通知の読み取りには、Android OS上の機密情報へのアクセス権限（SMS権限、通知アクセス権限など）が必要となります。本APKはプライバシーデータをサーバーに収集しないオープンソース設計ですが、悪用や不正な通信が行われないよう、信頼できる公式リポジトリからバイナリを取得してください。また、バックグラウンドでの永続実行が必要なため、端末の省電力機能による強制終了対策（電池の最適化除外など）が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>通知・SMSの自動転送から、PCからのリモート送受信、タスク自動化までを網羅し、古いAndroidスマホを最強の「通信自動化ハブ」へと進化させる実用性の高いツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/pppscn/SmsForwarder" target="_blank" rel="noreferrer">https://github.com/pppscn/SmsForwarder</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #780</p>
+      </div>
+    </article>
+  </body>
+</html>
