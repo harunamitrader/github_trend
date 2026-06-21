@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-20T20:01:05.621925+00:00",
-  "count": 861,
+  "generatedAt": "2026-06-21T03:39:15.797988+00:00",
+  "count": 862,
   "articles": [
+    {
+      "slug": "2026-06-21-gorest-2d-animation-spritesheet-generator",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "gorest-2d-animation-spritesheet-generator",
+      "dek": "Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。",
+      "summary": "",
+      "repoName": "NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T12:38:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-21-gorest-2d-animation-spritesheet-generator.html",
+      "serial": 781,
+      "searchText": "gorest-2d-animation-spritesheet-generator Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。 NO6KIKO/gorest-2d-animation-spritesheet-generator メディア作成・マルチモーダル・UI gorest-2d-animation-spritesheet-generator ← 記事一覧へ戻る GitHub Watcher gorest-2d-animation-spritesheet-generator Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。 記事作成日 2026-06-21 種別 Pickup 対象 repo NO6KIKO/gorest-2d-animation-spritesheet-generator Star数 648 これは何か 2D横スクロールゲームのプロトタイピングに向けた、ローカルファーストなアニメーション構築環境です。AI（Codex）と連携し、テキストプロンプトからキャラクターやプロップのスプライトシート画像を生成し、そのままレイヤー上に配置してアニメーションシーンを構築・確認できます。 何ができるか プロンプトを用いて、背景やキャラクター、オブジェクト（例：金魚の泳ぐ水槽）のスプライトシートをAIに生成させる 自動生成された画像を同一サイズで均等なフレームに分割し、アニメーションとして再生する 背景、プロップ、キャラクターなどの複数レイヤーの重ね合わせやサイズ調整、配置をキャンバス上で行う クリップごとにアクション名、ループ設定、トリガー条件などのメタデータを付与して管理する 生成した素材をローカルのアセットライブラリに保存し、再利用する 目立つポイント 単なる画像生成ツールではなく、 「ゲーム開発のワークスペース」 としての構造を備えている点です。スプライトシートを1つの完全な画像として生成してからフレーム分割することで、フレーム間のサイズ変更やドリフトを防ぎ、一貫性のあるアニメーションを実現します。また、インタラクションと視覚レイヤーを分離し、ドラッグ可能な操作エリアにトリガーやアクションを紐づける仕組みも搭載しています。 セットアップや使い方の流れ リポジトリをクローンし、Node.js環境で npm run dev を実行すると、ローカルのVite開発サーバーが立ち上がります。キャンバス画面で新規シーンを作成し、必要なプロンプトをCodexに投げてスプライトシートを生成。生成された画像アセットはローカルの public/generated/ フォルダに保存され、設定データは game_asset_library.json に記録されます。プライベートキーを保護するため .env.local はgitignoreされています。 どんな人向けか 2Dゲーム（特に横スクロールアクションなど）のプロトタイプを高速に作成したい開発者や、AIによる画像生成をそのままゲームのアニメーション素材として活用したいクリエイターにおすすめです。 注意点 現状のプロンプト例はCodex向けに書かれており、利用には適切なAIモデルへのAPIアクセスが必要です。また、生成されるアセットが大きくなる場合があるため、GitHubにコミットする前に生成フォルダの確認が推奨されています。 まとめ AIの画像生成能力を、ゲーム開発の具体的なアセット管理・アニメーション制作のパイプラインに落とし込んだ実用的なローカルツールです。単一の画像だけでなく「シーン」全体を構築できるため、プロトタイピングの効率を大幅に引き上げます。 参照リンク https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator Shared GitHub Serial: #781"
+    },
     {
       "slug": "2026-06-21-update-report",
       "category": "github-update-report",

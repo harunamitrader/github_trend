@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 20:54:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 12:39:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[gorest-2d-animation-spritesheet-generator]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-gorest-2d-animation-spritesheet-generator.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-gorest-2d-animation-spritesheet-generator.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini Workspace のスプレッドシート多言語化と Interactions API の音声ストリーミング対応]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Windows/Mac/Linuxで動作する、モダンなクラウド型Webアプリ構築のためのC#製Web開発フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Improvements to Cursor Automations]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-cursor-automations.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-19-cursor-automations.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[/automate スキルの追加、Slack絵文字トリガー、新規GitHubトリガー、および computer use 統合による自動化エージェントの強化。]]></description>
     </item>
   </channel>
 </rss>

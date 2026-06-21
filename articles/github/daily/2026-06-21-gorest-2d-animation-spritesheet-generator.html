@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gorest-2d-animation-spritesheet-generator</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gorest-2d-animation-spritesheet-generator</h1>
+      <p class="article-dek">Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-21 -->
+          <strong>2026-06-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator" target="_blank" rel="noreferrer">
+              NO6KIKO/gorest-2d-animation-spritesheet-generator
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>648</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>2D横スクロールゲームのプロトタイピングに向けた、ローカルファーストなアニメーション構築環境です。AI（Codex）と連携し、テキストプロンプトからキャラクターやプロップのスプライトシート画像を生成し、そのままレイヤー上に配置してアニメーションシーンを構築・確認できます。</p>
+
+        <h2>何ができるか</h2>
+        <p><ul><li>プロンプトを用いて、背景やキャラクター、オブジェクト（例：金魚の泳ぐ水槽）のスプライトシートをAIに生成させる</li><li>自動生成された画像を同一サイズで均等なフレームに分割し、アニメーションとして再生する</li><li>背景、プロップ、キャラクターなどの複数レイヤーの重ね合わせやサイズ調整、配置をキャンバス上で行う</li><li>クリップごとにアクション名、ループ設定、トリガー条件などのメタデータを付与して管理する</li><li>生成した素材をローカルのアセットライブラリに保存し、再利用する</li></ul></p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる画像生成ツールではなく、<strong>「ゲーム開発のワークスペース」</strong>としての構造を備えている点です。スプライトシートを1つの完全な画像として生成してからフレーム分割することで、フレーム間のサイズ変更やドリフトを防ぎ、一貫性のあるアニメーションを実現します。また、インタラクションと視覚レイヤーを分離し、ドラッグ可能な操作エリアにトリガーやアクションを紐づける仕組みも搭載しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンし、Node.js環境で <code>npm run dev</code> を実行すると、ローカルのVite開発サーバーが立ち上がります。キャンバス画面で新規シーンを作成し、必要なプロンプトをCodexに投げてスプライトシートを生成。生成された画像アセットはローカルの <code>public/generated/</code> フォルダに保存され、設定データは <code>game_asset_library.json</code> に記録されます。プライベートキーを保護するため <code>.env.local</code> はgitignoreされています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>2Dゲーム（特に横スクロールアクションなど）のプロトタイプを高速に作成したい開発者や、AIによる画像生成をそのままゲームのアニメーション素材として活用したいクリエイターにおすすめです。</p>
+
+        <h2>注意点</h2>
+        <p>現状のプロンプト例はCodex向けに書かれており、利用には適切なAIモデルへのAPIアクセスが必要です。また、生成されるアセットが大きくなる場合があるため、GitHubにコミットする前に生成フォルダの確認が推奨されています。</p>
+
+        <h2>まとめ</h2>
+        <p>AIの画像生成能力を、ゲーム開発の具体的なアセット管理・アニメーション制作のパイプラインに落とし込んだ実用的なローカルツールです。単一の画像だけでなく「シーン」全体を構築できるため、プロトタイピングの効率を大幅に引き上げます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator" target="_blank" rel="noreferrer">https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #781</p>
+      </div>
+    </article>
+  </body>
+</html>

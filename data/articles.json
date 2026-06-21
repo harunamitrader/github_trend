@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-21-gorest-2d-animation-spritesheet-generator",
+      "title": "gorest-2d-animation-spritesheet-generator",
+      "dek": "Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T12:38:00+09:00",
+      "originType": "pickup",
+      "repoName": "NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "repoUrl": "https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "articleUrl": "./articles/github/daily/2026-06-21-gorest-2d-animation-spritesheet-generator.html",
+      "starCount": 648,
+      "genre": "メディア作成・マルチモーダル・UI",
+      "serial": 781
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-21-gemini-spreadsheet-languages-speech-api",
       "title": "Gemini Workspace のスプレッドシート多言語化と Interactions API の音声ストリーミング対応",
