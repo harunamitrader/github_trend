@@ -30,7 +30,8 @@
       "publishedAt": "2026-06-22",
       "createdAt": "2026-06-22T04:45:05+09:00",
       "starCount": 3698,
-      "articleUrl": "./articles/github/daily/2026-06-22-bilitickerbuy.html"
+      "articleUrl": "./articles/github/daily/2026-06-22-mikumifa-biliTickerBuy.html",
+      "slug": "2026-06-22-mikumifa-biliTickerBuy-trending"
     },
     {
       "category": "github-trending",
@@ -45,7 +46,8 @@
       "publishedAt": "2026-06-22",
       "createdAt": "2026-06-22T04:45:05+09:00",
       "starCount": 18685,
-      "articleUrl": "./articles/github/daily/2026-06-22-spiderfoot.html"
+      "articleUrl": "./articles/github/daily/2026-06-22-smicallef-spiderfoot.html",
+      "slug": "2026-06-22-smicallef-spiderfoot-trending"
     },
     {
       "category": "ai-tool-log",

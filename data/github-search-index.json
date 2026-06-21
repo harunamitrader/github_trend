@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:48:32.179071+00:00",
+  "generatedAt": "2026-06-21T20:01:02.133053+00:00",
   "count": 866,
   "articles": [
     {
@@ -18,22 +18,7 @@
       "searchText": "2026-06-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-22 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-22 調査件数 全 17 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-06-22）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 \\n palmier-io/palmier-pro \\n ✅ 記事作成済み \\n \\n \\n calesthio/OpenMontage \\n ✅ 記事作成済み \\n \\n \\n chopratejas/headroom \\n ✅ 記事作成済み \\n \\n \\n tursodatabase/turso \\n ✅ 記事作成済み \\n \\n \\n penpot/penpot \\n ✅ 記事作成済み \\n \\n \\n ZhuLinsen/daily_stock_analysis \\n ✅ 記事作成済み \\n \\n \\n koala73/worldmonitor \\n ✅ 記事作成済み \\n \\n \\n bytedance/deer-flow \\n ✅ 記事作成済み \\n \\n \\n DeusData/codebase-memory-mcp \\n ✅ 記事作成済み \\n \\n \\n mukul975/Anthropic-Cybersecurity-Skills \\n ✅ 記事作成済み \\n \\n \\n tw93/Pake \\n ✅ 記事作成済み \\n \\n \\n mikumifa/biliTickerBuy \\n ✨ 新規追加 \\n \\n \\n smicallef/spiderfoot \\n ✨ 新規追加 \\n \\n \\n topoteretes/cognee \\n ✅ 記事作成済み \\n \\n \\n byoungd/English-level-up-tips \\n ✅ 記事作成済み \\n \\n \\n asgeirtj/system_prompts_leaks \\n ✅ 記事作成済み \\n \\n \\n mattpocock/skills \\n ✅ 記事作成済み \\n 今後の展望 引き続き、セキュリティ関連ツールやWeb自動化技術に関するトレンドが活発に推移しています。"
     },
     {
-      "slug": null,
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "biliTickerBuy",
-      "dek": "Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。",
-      "summary": "",
-      "repoName": "mikumifa/biliTickerBuy",
-      "genre": "スクレイピング・情報収集・セキュリティ",
-      "publishedAt": "2026-06-22",
-      "createdAt": "2026-06-22T04:45:05+09:00",
-      "articleUrl": "./articles/github/daily/2026-06-22-bilitickerbuy.html",
-      "serial": 784,
-      "searchText": "biliTickerBuy Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。 mikumifa/biliTickerBuy スクレイピング・情報収集・セキュリティ biliTickerBuy ← 記事一覧へ戻る GitHub Watcher biliTickerBuy Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。 記事作成日 2026-06-22 種別 Trending #12 対象 repo mikumifa/biliTickerBuy Star数 3,698 これは何か biliTickerBuyは、中国の動画プラットフォーム「Bilibili」が提供するイベントチケットや会員向け商品の購入プロセスを補助するためのスクリプト・ツール群です。 何ができるか 競争率の高いチケットの予約や購入操作を自動化し、ユーザーの代わりに高速でAPIリクエストを送信することで購入成功率を高めることができます。 目立つポイント シンプルで使いやすいインターフェースと、継続的なアップデートにより最新のBilibiliの購入システムに対応している点が特徴です。 セットアップや使い方の流れ リポジトリのReleaseページから最新版をダウンロードし、ドキュメントに沿って設定ファイルにアカウント情報を入力して実行します。 どんな人向けか Bilibiliのイベントに参加したい一般ユーザーや、自動化ツールの挙動に関心のある開発者向けです。 注意点 ボットを用いた自動購入はプラットフォームの利用規約に抵触する恐れがあります。また、不正利用やアカウントBANのリスクがあるため、完全な自己責任での使用が求められます。 まとめ biliTickerBuyは、入手困難なBilibiliのチケット予約を自動化する強力なツールですが、利用にあたっては規約等のリスクを十分理解する必要があります。 参照リンク https://github.com/mikumifa/biliTickerBuy Shared GitHub Serial: #784"
-    },
-    {
-      "slug": null,
+      "slug": "2026-06-22-smicallef-spiderfoot-trending",
       "category": "github-trending",
       "originType": "trending",
       "title": "spiderfoot",
@@ -43,9 +28,24 @@
       "genre": "スクレイピング・情報収集・セキュリティ",
       "publishedAt": "2026-06-22",
       "createdAt": "2026-06-22T04:45:05+09:00",
-      "articleUrl": "./articles/github/daily/2026-06-22-spiderfoot.html",
+      "articleUrl": "./articles/github/daily/2026-06-22-smicallef-spiderfoot.html",
       "serial": 783,
       "searchText": "spiderfoot OSINTを自動化し、脅威インテリジェンスとアタックサーフェスのマッピングを行うツール。 smicallef/spiderfoot スクレイピング・情報収集・セキュリティ spiderfoot ← 記事一覧へ戻る GitHub Watcher spiderfoot OSINTを自動化し、脅威インテリジェンスとアタックサーフェスのマッピングを行うツール。 記事作成日 2026-06-22 種別 Trending #13 対象 repo smicallef/spiderfoot Star数 18,685 これは何か SpiderFootは、多数のデータソースと統合し、ターゲットに関する情報を自動的に収集するオープンソースインテリジェンス（OSINT）の自動化ツールです。 何ができるか 対象のドメイン、IPアドレス、ホスト名、メールアドレスなどから、関連する脅威情報、漏洩データ、利用しているインフラなどを自動でマッピングして可視化します。CLIおよび直感的なWebインターフェースの両方で動作します。 目立つポイント 広範なモジュールによるデータ収集、直感的なWebダッシュボード、SQLiteベースのデータ保存機能が特徴です。 セットアップや使い方の流れ Python 3環境でリポジトリをクローンし、`pip install -r requirements.txt` を実行後、`python sf.py -l 127.0.0.1:5001` でWebサーバーを起動してブラウザからアクセスします。 どんな人向けか セキュリティエンジニア、ペネトレーションテスター、脅威インテリジェンスの調査を行うリサーチャーに最適です。 注意点 OSINT調査は対象システムの利用規約や法律を遵守して行う必要があります。攻撃目的ではなく防御や調査用途に限定してください。 まとめ SpiderFootは、散在する脅威情報やインフラ情報を一元的に収集し、アタックサーフェスを効率的に把握するための強力なOSINT基盤です。 参照リンク https://github.com/smicallef/spiderfoot Shared GitHub Serial: #783"
+    },
+    {
+      "slug": "2026-06-22-mikumifa-biliTickerBuy-trending",
+      "category": "github-trending",
+      "originType": "trending",
+      "title": "biliTickerBuy",
+      "dek": "Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。",
+      "summary": "",
+      "repoName": "mikumifa/biliTickerBuy",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:45:05+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-22-mikumifa-biliTickerBuy.html",
+      "serial": 784,
+      "searchText": "biliTickerBuy Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。 mikumifa/biliTickerBuy スクレイピング・情報収集・セキュリティ biliTickerBuy ← 記事一覧へ戻る GitHub Watcher biliTickerBuy Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。 記事作成日 2026-06-22 種別 Trending #12 対象 repo mikumifa/biliTickerBuy Star数 3,698 これは何か biliTickerBuyは、中国の動画プラットフォーム「Bilibili」が提供するイベントチケットや会員向け商品の購入プロセスを補助するためのスクリプト・ツール群です。 何ができるか 競争率の高いチケットの予約や購入操作を自動化し、ユーザーの代わりに高速でAPIリクエストを送信することで購入成功率を高めることができます。 目立つポイント シンプルで使いやすいインターフェースと、継続的なアップデートにより最新のBilibiliの購入システムに対応している点が特徴です。 セットアップや使い方の流れ リポジトリのReleaseページから最新版をダウンロードし、ドキュメントに沿って設定ファイルにアカウント情報を入力して実行します。 どんな人向けか Bilibiliのイベントに参加したい一般ユーザーや、自動化ツールの挙動に関心のある開発者向けです。 注意点 ボットを用いた自動購入はプラットフォームの利用規約に抵触する恐れがあります。また、不正利用やアカウントBANのリスクがあるため、完全な自己責任での使用が求められます。 まとめ biliTickerBuyは、入手困難なBilibiliのチケット予約を自動化する強力なツールですが、利用にあたっては規約等のリスクを十分理解する必要があります。 参照リンク https://github.com/mikumifa/biliTickerBuy Shared GitHub Serial: #784"
     },
     {
       "slug": "2026-06-21-StockSharp-AlgoTrading",
