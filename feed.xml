@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 21 Jun 2026 03:39:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 21:00:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AlgoTrading]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[gorest-2d-animation-spritesheet-generator]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-gorest-2d-animation-spritesheet-generator.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GraphQLやREST、WebSockets、gRPCなどのデバッグやテストを行える、オープンソース型のAPIクライアント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[aspnetcore]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-dotnet-aspnetcore.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-dotnet-aspnetcore.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows/Mac/Linuxで動作する、モダンなクラウド型Webアプリ構築のためのC#製Web開発フレームワーク]]></description>
     </item>
   </channel>
 </rss>

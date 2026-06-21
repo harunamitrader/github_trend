@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-21-StockSharp-AlgoTrading",
+      "title": "AlgoTrading",
+      "dek": "C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T21:00:00+09:00",
+      "originType": "pickup",
+      "repoName": "StockSharp/AlgoTrading",
+      "repoUrl": "https://github.com/StockSharp/AlgoTrading",
+      "articleUrl": "./articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html",
+      "starCount": 60,
+      "genre": "金融・トレード分析",
+      "serial": 782
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-21-gorest-2d-animation-spritesheet-generator",
       "title": "gorest-2d-animation-spritesheet-generator",
       "dek": "Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。",

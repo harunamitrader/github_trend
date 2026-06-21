@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-21T03:39:15.797988+00:00",
-  "count": 862,
+  "generatedAt": "2026-06-21T12:00:03.417808+00:00",
+  "count": 863,
   "articles": [
+    {
+      "slug": "2026-06-21-StockSharp-AlgoTrading",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "AlgoTrading",
+      "dek": "C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。",
+      "summary": "",
+      "repoName": "StockSharp/AlgoTrading",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T21:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html",
+      "serial": 782,
+      "searchText": "AlgoTrading C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。 StockSharp/AlgoTrading 金融・トレード分析 AlgoTrading ← 記事一覧へ戻る GitHub Watcher AlgoTrading C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。 記事作成日 2026-06-21 種別 Pickup 対象 repo StockSharp/AlgoTrading Star数 60 これは何か アルゴリズムトレードプラットフォームである「StockSharp」の公式リポジトリで、C#やPythonで実装された様々なトレード戦略のソースコードや、ビジュアル戦略エディタ「Strategy Designer」向けのスキーマファイルがまとめられています。 何ができるか 提供されているC#・PythonのソースコードをStockSharp API経由でスタンドアロンとして読み込み、自動売買を実行する Strategy Designer上でスキーマファイルを直接開き、戦略のロジックを視覚的に確認・編集する 様々なアルゴリズムトレードのサンプルから、自動売買の実装方法やベストプラクティスを学ぶ 目立つポイント StockSharpプラットフォームの実装例として、コードベース（API）とノーコード/ローコードベース（Designer）の両方のアプローチに対応している点です。コミュニティ主導で戦略や機能強化のアイデアを共有するための教育リソースとしての役割も兼ね備えています。 セットアップや使い方の流れ 公式サイトからStockSharp Strategy Designerをダウンロードしてインストールし、プログラム内の「Strategy Gallery」からリポジトリ内の戦略を選択して実行するのが最も簡単な方法です。ソースコードベースで利用する場合は、リポジトリをクローンして API ディレクトリ内のファイルを参照します。 どんな人向けか StockSharpプラットフォームを使用して自動売買ボットやトレード戦略を開発したいエンジニアやクオンツ、およびアルゴリズムトレードの具体的な実装手法を学びたいトレーダー。 注意点 提供されている戦略は学習や研究の出発点として提供されるものであり、実運用環境（ライブトレード）に投入する前には必ずシミュレーション環境で徹底的なバックテストと検証を行う必要があります。 まとめ StockSharpエコシステム上で動作するトレード戦略の実装例を多数収録したリポジトリです。API経由のプログラミングアプローチから、Designerによるビジュアル開発まで幅広くサポートしており、アルゴリズムトレード開発の効率化と学習に役立ちます。 参照リンク https://github.com/StockSharp/AlgoTrading Shared GitHub Serial: #782"
+    },
     {
       "slug": "2026-06-21-gorest-2d-animation-spritesheet-generator",
       "category": "github-pickup",
