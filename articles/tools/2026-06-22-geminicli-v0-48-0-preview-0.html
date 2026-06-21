@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.48.0-preview.0 がリリース。Air-gapped Service Identityのサポートやスキルインストールの脆弱性修正など、セキュリティと機能性が向上しています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化</h1>
+      <p class="article-dek">Gemini CLI v0.48.0-preview.0 がリリース。Air-gapped Service Identityのサポートやスキルインストールの脆弱性修正など、セキュリティと機能性が向上しています。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-22 -->
+          <strong>2026-06-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.48.0-preview.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のプレビュー版では、セキュリティの強化と新しい認証環境への対応が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            <li><strong>Air-gapped Service Identity:</strong> GDC (Google Distributed Cloud) 環境での Air-gapped な Service Identity をサポートしました。</li><li><strong>セキュリティの強化:</strong> スキルインストール時のパストラバーサル脆弱性を修正しました。</li><li><strong>ゼロクォータ制限時の動作:</strong> クォータがゼロの場合に、リトライループでハングするのを防ぐため fail-fast するよう改善しました。</li><li><strong>設定の移行:</strong> <code>coreTools</code> 設定を <code>tools.core</code> に移行しました。</li><li><strong>Tmux のバックグラウンド検出:</strong> Tmux 上での誤ったバックグラウンド検出 (false positive) を修正しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特にエンタープライズやセキュアな環境（GDCなど）での利用において、より安全かつ柔軟に運用できるようになりました。また、tmux ユーザーやリトライループに悩まされていたユーザーの体験が向上します。設定キーが変更されたため、<code>tools.core</code> への移行が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.48.0-preview.0 は、セキュリティ強化や特殊なデプロイ環境への対応を進めた重要なプレビューリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

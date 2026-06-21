@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-geminicli-v0-48-0-preview-0",
+      "title": "Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化",
+      "dek": "Gemini CLI v0.48.0-preview.0 がリリース。Air-gapped Service Identityのサポートやスキルインストールの脆弱性修正など、セキュリティと機能性が向上しています。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:00:06+09:00",
+      "toolName": "Gemini CLI",
+      "version": "v0.48.0-preview.0",
+      "articleUrl": "./articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-claudecode-v2-1-185",
+      "title": "Claude Code v2.1.185: 安定性の向上とマイナーバグ修正",
+      "dek": "Claude Code v2.1.185 がリリースされました。内部インフラの改善と安定性の向上が含まれています。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:00:06+09:00",
+      "toolName": "Claude Code",
+      "version": "v2.1.185",
+      "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-185.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-21-StockSharp-AlgoTrading",
       "title": "AlgoTrading",

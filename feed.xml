@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 21 Jun 2026 12:00:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 04:02:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI v0.48.0-preview.0 がリリース。Air-gapped Service Identityのサポートやスキルインストールの脆弱性修正など、セキュリティと機能性が向上しています。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.185: 安定性の向上とマイナーバグ修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-185.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-185.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code v2.1.185 がリリースされました。内部インフラの改善と安定性の向上が含まれています。]]></description>
+    </item>
     <item>
       <title><![CDATA[AlgoTrading]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[非構造化テキストから、ナレッジグラフやハイパーグラフなどの構造化データをコマンド1つで抽出するLLM支援フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[kilocode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kilo-Org-kilocode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kilo-Org-kilocode.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[500以上のモデルに対応し、エディタやCLIから利用できる、オープンソース型の自律的コーディングエージェントプラットフォーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[insomnia]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kong-insomnia.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-Kong-insomnia.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GraphQLやREST、WebSockets、gRPCなどのデバッグやテストを行える、オープンソース型のAPIクライアント]]></description>
     </item>
   </channel>
 </rss>
