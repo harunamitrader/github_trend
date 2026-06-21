@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 21 Jun 2026 19:03:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 04:48:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-22 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-22-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-22-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[biliTickerBuy]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-bilitickerbuy.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-bilitickerbuy.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[spiderfoot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-spiderfoot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-spiderfoot.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OSINTを自動化し、脅威インテリジェンスとアタックサーフェスのマッピングを行うツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html</link>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[auto-mode 実行時の安全性を強化し、意図しない破壊的な git コマンド実行をブロックする更新。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-19 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-19-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-19-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GLM-5]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-zai-org-GLM-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-zai-org-GLM-5.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100万トークンの超長文コンテキストと非同期強化学習を採用した、自律的エンジニアリング特化型のオープンソースLLM]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Hyper-Extract]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-yifanfeng97-Hyper-Extract.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-19-yifanfeng97-Hyper-Extract.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[非構造化テキストから、ナレッジグラフやハイパーグラフなどの構造化データをコマンド1つで抽出するLLM支援フレームワーク]]></description>
     </item>
   </channel>
 </rss>

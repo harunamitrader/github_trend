@@ -7,6 +7,47 @@
   },
   "articles": [
     {
+      "category": "github-update-report",
+      "serial": 751,
+      "title": "2026-06-22 アップデートレポート",
+      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:45:05+09:00",
+      "articleUrl": "./articles/github/reports/2026-06-22-update-report.html",
+      "totalCount": 17,
+      "newCount": 2
+    },
+    {
+      "category": "github-trending",
+      "serial": 784,
+      "originType": "trending",
+      "rank": 12,
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "repoName": "mikumifa/biliTickerBuy",
+      "repoUrl": "https://github.com/mikumifa/biliTickerBuy",
+      "title": "biliTickerBuy",
+      "dek": "Bilibili（b站）の会員チケット購入を自動化・補助するためのオープンソースツール。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:45:05+09:00",
+      "starCount": 3698,
+      "articleUrl": "./articles/github/daily/2026-06-22-bilitickerbuy.html"
+    },
+    {
+      "category": "github-trending",
+      "serial": 783,
+      "originType": "trending",
+      "rank": 13,
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "repoName": "smicallef/spiderfoot",
+      "repoUrl": "https://github.com/smicallef/spiderfoot",
+      "title": "spiderfoot",
+      "dek": "OSINTを自動化し、脅威インテリジェンスとアタックサーフェスのマッピングを行うツール。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T04:45:05+09:00",
+      "starCount": 18685,
+      "articleUrl": "./articles/github/daily/2026-06-22-spiderfoot.html"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-22-geminicli-v0-48-0-preview-0",
       "title": "Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化",
