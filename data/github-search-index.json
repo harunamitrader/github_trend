@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-22T20:33:42.621988+00:00",
-  "count": 871,
+  "generatedAt": "2026-06-22T20:59:59.172503+00:00",
+  "count": 872,
   "articles": [
+    {
+      "slug": "2026-06-23-Stirling-Tools-Stirling-PDF-trending",
+      "category": "github-trending",
+      "originType": "trending",
+      "title": "Stirling-PDF",
+      "dek": "Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。",
+      "summary": "",
+      "repoName": "Stirling-Tools/Stirling-PDF",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T05:59:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html",
+      "serial": 789,
+      "searchText": "Stirling-PDF Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。 Stirling-Tools/Stirling-PDF AI基盤・データ基盤・業務アプリ Stirling-PDF ← 記事一覧へ戻る GitHub Watcher Stirling-PDF Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰 of オープンソースPDFプラットフォーム。 記事作成日 2026-06-23 種別 Rank 6 対象 repo Stirling-Tools/Stirling-PDF Star数 82,787 これは何か 外部のクラウドサービスにファイルを送信することなく、ローカル環境や自社サーバー上で安全にPDFの編集、結合、分割、署名、OCR（文字認識）、変換、黒塗り（Redact）、圧縮などが行える、非常に高機能なセルフホスト対応のオープンソースPDFプラットフォーム（Webアプリケーション）です。 何ができるか PDFのページの追加・削除・回転・並べ替え、他フォーマット（Word, HTML, 画像など）とPDFの相互変換、OCRによるスキャン画像のテキスト化、パスワード保護やメタデータ編集、電子署名や機密情報の墨消し（黒塗り）、自動処理ワークフローの構築など、50以上の多彩なPDF操作ユーティリティを実行できます。 目立つポイント DockerやKubernetesを用いた容易なデプロイ、すべてのツールを統合した使いやすいダッシュボードUI（40カ国語対応）、システム統合を可能にするプライベートREST APIの提供、SSO（シングルサインオン）や監査ログ対応によるエンタープライズ向けの運用設計、そして何よりデータを外部送信しないことによる強力なセキュリティと機密性保持が特徴です。 セットアップや使い方の流れ Dockerが利用可能な環境であれば、 docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf を実行するだけで、すぐにローカルの http://localhost:8080 でWebアプリとして起動できます。その他、Windows等のデスクトップアプリとしての実行や、REST APIを経由したプログラマティカルな利用もサポートされています。 どんな人向けか 企業の機密情報や個人情報が含まれるPDFファイルを扱い、Adobe Acrobat等の高額なライセンス費用や外部クラウドへのデータ流出リスクを回避したい管理者・開発者。また、RAG（検索拡張生成）などのAIプロジェクトで大量のPDFをローカルでOCR処理・構造化したいエンジニアに適しています。 注意点 OCR機能（Tesseract）などをフルに稼働させる場合、PDFのページ数や文字量に応じてサーバー（またはローカルPC）のCPUやメモリリソースを大きく消費します。また、セルフホストでのデータ管理責任は自身に帰属するため、バックアップやアクセス制限などの適切なセキュリティ対策が推奨されます。 まとめ Stirling-PDF は、かつてないほど高機能でユーザーフレンドリーなオープンソースPDFソリューションです。データのプライバシーを最優先に守りつつ、あらゆるPDF編集作業をブラウザUIとREST APIの両面から自動化できるため、個人のデスクトップから企業の共有サーバーまで、幅広く導入価値のある強力なツールです。 参照リンク https://github.com/Stirling-Tools/Stirling-PDF Shared GitHub Serial: #789"
+    },
     {
       "slug": null,
       "category": "github-pickup",
@@ -30,7 +45,7 @@
       "createdAt": "2026-06-23T04:48:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-23-update-report.html",
       "serial": 752,
-      "searchText": "2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-23 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-23 調査件数 全 16 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-06-23）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 calesthio/OpenMontage ✅ 記事作成済み palmier-io/palmier-pro ✅ 記事作成済み jamiepine/voicebox ✅ 記事作成済み sponsors/mukul975 未作成 penpot/penpot ✅ 記事作成済み sponsors/Stirling-Tools 未作成 garrytan/gstack ✅ 記事作成済み heygen-com/hyperframes ✅ 記事作成済み tursodatabase/turso ✅ 記事作成済み bytedance/deer-flow ✅ 記事作成済み DeusData/codebase-memory-mcp ✅ 記事作成済み ZhuLinsen/daily_stock_analysis ✅ 記事作成済み firecrawl/firecrawl ✨ 新規追加 JCodesMore/ai-website-cloner-template ✨ 新規追加 sponsors/lyogavin 未作成 sponsors/mattpocock 未作成 今後の展望 本日は、AIコーディング支援ツールの最新リバースエンジニアリング・テンプレートである「ai-website-cloner-template」と、LLMフレンドリーな超高速ウェブスクレイパー「firecrawl」を新規記事化しました。これらは、AIエージェントの開発や自動化ワークフローの構築において非常に重要となる基盤技術です。引き続き、自律型AIに親和性の高い開発補助・スクレイピング系のツールを中心に、その適用範囲と技術進化を追いかけてまいります。"
+      "searchText": "2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-23 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-23 調査件数 全 16 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-23）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 calesthio/OpenMontage ✅ 記事作成済み palmier-io/palmier-pro ✅ 記事作成済み jamiepine/voicebox ✅ 記事作成済み mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み penpot/penpot ✅ 記事作成済み Stirling-Tools/Stirling-PDF ✨ 新規追加 garrytan/gstack ✅ 記事作成済み heygen-com/hyperframes ✅ 記事作成済み tursodatabase/turso ✅ 記事作成済み bytedance/deer-flow ✅ 記事作成済み DeusData/codebase-memory-mcp ✅ 記事作成済み ZhuLinsen/daily_stock_analysis ✅ 記事作成済み firecrawl/firecrawl ✨ 新規追加 JCodesMore/ai-website-cloner-template ✨ 新規追加 lyogavin/airllm ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み 今後の展望 本日は、AIコーディング支援ツールの最新リバースエンジニアリング・テンプレート「ai-website-cloner-template」、LLMフレンドリーな超高速ウェブスクレイパー「firecrawl」、さらにセルフホスト可能で50以上の多彩な編集機能を持つオープンソースPDFプラットフォーム「Stirling-PDF」を新規記事化しました。これらは、AIエージェントの開発や自動化ワークフローの構築において非常に重要となる基盤技術・ユーティリティです。引き続き、データ抽出・利活用および自律型AIに親和性の高い開発補助系のツールを中心に、その適用範囲と技術進化を追いかけてまいります。"
     },
     {
       "slug": "2026-06-23-firecrawl-firecrawl-trending",

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-trending",
+      "serial": 789,
+      "originType": "trending",
+      "rank": 6,
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "repoName": "Stirling-Tools/Stirling-PDF",
+      "repoUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "title": "Stirling-PDF",
+      "dek": "Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T05:59:00+09:00",
+      "starCount": 82787,
+      "articleUrl": "./articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html",
+      "slug": "2026-06-23-Stirling-Tools-Stirling-PDF-trending"
+    },
+    {
       "category": "github-pickup",
       "serial": 788,
       "originType": "pickup",
@@ -29,7 +45,7 @@
       "createdAt": "2026-06-23T04:48:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-23-update-report.html",
       "totalCount": 16,
-      "newCount": 2
+      "newCount": 3
     },
     {
       "category": "github-trending",

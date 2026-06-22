@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Stirling-PDF</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Stirling-PDF</h1>
+      <p class="article-dek">Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰 of オープンソースPDFプラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-23 -->
+          <strong>2026-06-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank" rel="noreferrer">
+              Stirling-Tools/Stirling-PDF
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>82,787</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>外部のクラウドサービスにファイルを送信することなく、ローカル環境や自社サーバー上で安全にPDFの編集、結合、分割、署名、OCR（文字認識）、変換、黒塗り（Redact）、圧縮などが行える、非常に高機能なセルフホスト対応のオープンソースPDFプラットフォーム（Webアプリケーション）です。</p>
+
+        <h2>何ができるか</h2>
+        <p>PDFのページの追加・削除・回転・並べ替え、他フォーマット（Word, HTML, 画像など）とPDFの相互変換、OCRによるスキャン画像のテキスト化、パスワード保護やメタデータ編集、電子署名や機密情報の墨消し（黒塗り）、自動処理ワークフローの構築など、50以上の多彩なPDF操作ユーティリティを実行できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>DockerやKubernetesを用いた容易なデプロイ、すべてのツールを統合した使いやすいダッシュボードUI（40カ国語対応）、システム統合を可能にするプライベートREST APIの提供、SSO（シングルサインオン）や監査ログ対応によるエンタープライズ向けの運用設計、そして何よりデータを外部送信しないことによる強力なセキュリティと機密性保持が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Dockerが利用可能な環境であれば、<code>docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf</code> を実行するだけで、すぐにローカルの <code>http://localhost:8080</code> でWebアプリとして起動できます。その他、Windows等のデスクトップアプリとしての実行や、REST APIを経由したプログラマティカルな利用もサポートされています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>企業の機密情報や個人情報が含まれるPDFファイルを扱い、Adobe Acrobat等の高額なライセンス費用や外部クラウドへのデータ流出リスクを回避したい管理者・開発者。また、RAG（検索拡張生成）などのAIプロジェクトで大量のPDFをローカルでOCR処理・構造化したいエンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>OCR機能（Tesseract）などをフルに稼働させる場合、PDFのページ数や文字量に応じてサーバー（またはローカルPC）のCPUやメモリリソースを大きく消費します。また、セルフホストでのデータ管理責任は自身に帰属するため、バックアップやアクセス制限などの適切なセキュリティ対策が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Stirling-PDF は、かつてないほど高機能でユーザーフレンドリーなオープンソースPDFソリューションです。データのプライバシーを最優先に守りつつ、あらゆるPDF編集作業をブラウザUIとREST APIの両面から自動化できるため、個人のデスクトップから企業の共有サーバーまで、幅広く導入価値のある強力なツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank" rel="noreferrer">https://github.com/Stirling-Tools/Stirling-PDF</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #789</p>
+      </div>
+    </article>
+  </body>
+</html>

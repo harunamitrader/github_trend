@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 20:34:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 05:59:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Stirling-PDF]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[oracle]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-steipete-oracle.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AndroidスマホのSMS・着信・アプリ通知をトリガーに、各種チャットツールやWebhookへ転送・自動処理できる備用機向けOSSツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline CLI v3.0.29 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-cline-cli-v3-0-29.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-cline-cli-v3-0-29.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ClinePass の導入、OAuth 認証対応のプラグイン MCP、および Hub ダッシュボードの刷新などを含む大型アップデート。]]></description>
     </item>
   </channel>
 </rss>
