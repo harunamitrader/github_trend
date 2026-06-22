@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="プロンプトとソースコード等のファイルを自動で1つにバンドルし、APIキー不要のブラウザ自動化や複数モデル連携でAIに即座に問い合わせできる強力なCLI開発アシスタント。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>oracle</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">oracle</h1>
+      <p class="article-dek">プロンプトとソースコード等のファイルを自動で1つにバンドルし、APIキー不要のブラウザ自動化や複数モデル連携でAIに即座に問い合わせできる強力なCLI開発アシスタント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-23 -->
+          <strong>2026-06-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/steipete/oracle" target="_blank" rel="noreferrer">
+              steipete/oracle
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,911</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>任意の質問（プロンプト）と、指定したファイル群（glob指定可能）を自動的に1つのコンテキストへとパッキングし、各種LLM（GPT-5.x, Gemini, Claude等）にコマンドラインから即座に問い合わせて回答を得ることができる、エンジニア向けの強力なCLI開発支援アシスタントです。</p>
+
+        <h2>何ができるか</h2>
+        <p>入力したプロンプトと対象のソースコードをバンドル化してAIに送信できます。APIキーを設定したAPIモードだけでなく、APIキーを必要としない「ブラウザ自動化モード（Browser Mode）」を備えており、ローカルのChromeブラウザのセッションを利用して直接 ChatGPT Pro や Gemini などの高機能なWebモデルへ自動で問い合わせることができます。また、複数モデルへの同時並列問い合わせと結果比較、過去セッションの再生、ChatGPT Projectへのソースコード追加機能なども備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>有料APIキーの従量課金コストを気にせず、ローカルのブラウザセッション経由でAI（GPT-5.5 ProやExtended Thinkingなど）の最新機能を利用できる高度なブラウザオートメーション機構が最大の特徴です。さらに、CLI単体としての動作にとどまらず、CodexスキルやMCP（Model Context Protocol）サーバーとしても機能するため、Claude CodeやCursorといった他の自律型開発環境とも親和性高く連携できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node 24+ 環境において、グローバルインストール <code>npm install -g @steipete/oracle</code> するか、または <code>npx -y @steipete/oracle</code> を使用してインストール不要で実行できます。APIモードで利用する場合は <code>OPENAI_API_KEY</code> などのキーを設定します。ブラウザモードを利用する場合は、初回のみ <code>oracle --engine browser --browser-manual-login -p "HI"</code> を実行し、開いたChromeウィンドウでChatGPTにログインしてプロファイルを保存させます。以降は <code>oracle -p "リファクタリングして" --file "src/**/*.ts"</code> のように任意のプロンプトとファイル範囲を指定するだけで動作します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>手元のソースコードの一部をAIに投げて素早くコードレビューやデバッグを行いたい開発者や、同じソースコードを複数の異なるAIモデルに投げてその出力の質を比較検討したいエンジニアに適しています。また、Cursorなどのエディタ環境に自分のブラウザセッションをMCP経由で統合させたいパワーユーザーにも最適です。</p>
+
+        <h2>注意点</h2>
+        <p>ブラウザ自動化（Browser Mode）は、ブラウザのアップデートやChatGPT/GeminiのUI変更に伴って動作が不安定になる可能性がある実験的機能です。また、ローカルのソースコードを外部のAIモデルに転送するため、セキュリティ要件の厳しい商用プロジェクトや機密データを扱う際は、送信先モデルの設定や各プロバイダーのデータ学習ポリシーを事前に十分確認する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>oracle は、開発者の「このコードをAIに見せて相談したい」という日常的なタスクの摩擦を極限まで減らしてくれるツールです。CLI、MCP、ブラウザ自動化という3種類のアプローチを柔軟に組み合わせることで、開発環境と最新のシリコンインテリジェンスとの距離を劇的に縮めてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/steipete/oracle" target="_blank" rel="noreferrer">https://github.com/steipete/oracle</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #788</p>
+      </div>
+    </article>
+  </body>
+</html>

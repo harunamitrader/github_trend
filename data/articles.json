@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "serial": 788,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "repoName": "steipete/oracle",
+      "repoUrl": "https://github.com/steipete/oracle",
+      "title": "oracle",
+      "dek": "プロンプトとソースコード等のファイルを自動で1つにバンドルし、APIキー不要のブラウザ自動化や複数モデル連携でAIに即座に問い合わせできる強力なCLI開発アシスタント。",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T05:35:00+09:00",
+      "starCount": 2911,
+      "articleUrl": "./articles/github/daily/2026-06-23-steipete-oracle.html"
+    },
+    {
       "category": "github-update-report",
       "serial": 752,
       "title": "2026-06-23 アップデートレポート",
