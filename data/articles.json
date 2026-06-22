@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "serial": 790,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "repoName": "JimmySadek/youtube-fetcher-to-markdown",
+      "repoUrl": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
+      "title": "youtube-fetcher-to-markdown",
+      "dek": "YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T06:35:00+09:00",
+      "starCount": 59,
+      "articleUrl": "./articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html"
+    },
+    {
       "category": "github-trending",
       "serial": 789,
       "originType": "trending",

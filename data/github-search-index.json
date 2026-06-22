@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-22T20:59:59.172503+00:00",
-  "count": 872,
+  "generatedAt": "2026-06-22T21:34:50.881299+00:00",
+  "count": 873,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "youtube-fetcher-to-markdown",
+      "dek": "YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。",
+      "summary": "",
+      "repoName": "JimmySadek/youtube-fetcher-to-markdown",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T06:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html",
+      "serial": 790,
+      "searchText": "youtube-fetcher-to-markdown YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。 JimmySadek/youtube-fetcher-to-markdown ナレッジ管理・RAG解析 youtube-fetcher-to-markdown ← 記事一覧へ戻る GitHub Watcher youtube-fetcher-to-markdown YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。 記事作成日 2026-06-23 種別 Pickup 対象 repo JimmySadek/youtube-fetcher-to-markdown Star数 59 これは何か YouTube動画のURLを入力するだけで、動画のタイトル、チャンネル名、詳細な動画説明、タイムスタンプ付きのチャプター構成、および動画全体の書き起こし（トランスクリプト）を抽出し、ナレッジ管理に適した構造化Markdownノートに一括変換してくれるオープンソースのデータ取得・変換ツールです。 何ができるか 指定した動画URLから自動・手動字幕のテキストデータを取得し、 yt-dlp や YouTubeの oEmbed API を用いて動画タイトルやチャンネル、時間、投稿日などのメタデータを一括抽出します。これらを組み合わせて、ObsidianやLogseqなどのマークダウン型ナレッジベースにそのまま取り込めるDataview対応のYAMLフロントマター（属性タグ）付きMarkdownファイルとして ~/yt_transcripts/ ディレクトリに自動保存します。JSONやSRT（字幕ファイル）形式での保存も可能です。 目立つポイント YouTubeの公式データAPIを使用しないため、高価なAPIキーやクォータ制限を気にせず手軽に実行できる点。さらに、二重取得を防止する重複検知機能や、Claude Code などの AI エージェントの拡張機能（スキル）として npx skills add JimmySadek/youtube-fetcher-to-markdown のように簡単に導入しチャットから呼び出せる仕組みを標準搭載している点が非常にユニークです。 セットアップや使い方の流れ Node.jsおよびPython3が動作する環境において、 npx skills add JimmySadek/youtube-fetcher-to-markdown でAIエージェントのスキルとして追加するか、リポジトリを git clone して手動で導入できます。依存ライブラリとして pip install youtube-transcript-api requests yt-dlp をインストールし、 python fetch_transcript.py を実行することで、動画の書き起こしMarkdownが即座に生成されます。 どんな人向けか YouTubeの講義動画や技術解説ビデオ、対談などを文字起こしして Obsidian や Notion 等の個人ナレッジベースでDataviewなどを用いて体系的に管理・検索したい人。または、動画の文字起こしテキストをRAG（検索拡張生成）などのLLMのコンテキストに入力して要約させたい開発者に最適です。 注意点 動画自体の字幕設定がオフになっている、あるいは自動生成字幕も提供されていない動画の場合は、音声書き起こしデータ（トランスクリプト）の取得に失敗します。また、 yt-dlp がインストールされていない環境では、フォールバックとしてoEmbed APIを使用するため、詳細な動画説明やチャプター情報の抽出が制限されます。 まとめ youtube-fetcher-to-markdown は、溢れる動画情報を「文字情報」として個人ナレッジに引き込み、検索・参照しやすくするための極めて実用的なブリッジツールです。APIキー不要のシンプルな設計と、マークダウンエコロジーに最適化されたフロントマター出力により、効率的なインプットと情報資産化を強力にサポートしてくれます。 参照リンク https://github.com/JimmySadek/youtube-fetcher-to-markdown Shared GitHub Serial: #790"
+    },
     {
       "slug": "2026-06-23-Stirling-Tools-Stirling-PDF-trending",
       "category": "github-trending",

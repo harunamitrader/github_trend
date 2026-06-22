@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 21:00:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 06:34:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[youtube-fetcher-to-markdown]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Stirling-PDF]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[RAGや自律エージェント、LLMOpsなど、AIプロダクト構築に不可欠な最新の書籍・論文・フレームワーク・評価ツールを厳選した実務重視 of 学習ガイド]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SmsForwarder]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-pppscn-SmsForwarder.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-pppscn-SmsForwarder.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AndroidスマホのSMS・着信・アプリ通知をトリガーに、各種チャットツールやWebhookへ転送・自動処理できる備用機向けOSSツール]]></description>
     </item>
   </channel>
 </rss>
