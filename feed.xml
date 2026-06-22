@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 19:16:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 04:48:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-23 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-23-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-23-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[firecrawl]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-firecrawl-firecrawl.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-firecrawl-firecrawl.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[WebサイトをAIエージェントやLLMが理解しやすいクリーンなMarkdownや構造化データに変換する超高速WebクローラーAPI。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-website-cloner-template]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JCodesMore-ai-website-cloner-template.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JCodesMore-ai-website-cloner-template.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントを使用してワンコマンドでウェブサイトをNext.js + Tailwind v4 + shadcn/uiのクリーンな構成にリバースエンジニアリング・複製するテンプレート。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-ai-security]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-ottosulin-awesome-ai-security.html</link>
@@ -142,30 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[palmier-pro]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-palmier-io-palmier-pro.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-palmier-io-palmier-pro.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[タイムライン上に生成AIモデルとMCPサーバーを内蔵し、AIエージェントと共同で動画を編集できるSwift製のmacOSネイティブ動画エディタ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-generative-ai-guide]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-aishwaryanr-awesome-generative-ai-guide.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-aishwaryanr-awesome-generative-ai-guide.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[月次の最重要論文リスト、面接対策、LLM実装コード、90以上の無料コースなど、生成AI開発者に必要な学習リソースを網羅した統合ハブ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-native]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-BuilderIO-agent-native.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-20-BuilderIO-agent-native.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律エージェントとリアルタイムUIをシームレスに同期・融合し、共同作業を可能にするオープンソースのエージェントネイティブアプリ構築フレームワーク]]></description>
     </item>
   </channel>
 </rss>

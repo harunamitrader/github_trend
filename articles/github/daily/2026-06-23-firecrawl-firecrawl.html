@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WebサイトをAIエージェントやLLMが理解しやすいクリーンなMarkdownや構造化データに変換する超高速WebクローラーAPI。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>firecrawl</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">firecrawl</h1>
+      <p class="article-dek">WebサイトをAIエージェントやLLMが理解しやすいクリーンなMarkdownや構造化データに変換する超高速WebクローラーAPI。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-23 -->
+          <strong>2026-06-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noreferrer">
+              firecrawl/firecrawl
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>137,049</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>任意のウェブURLを入力とするだけで、JavaScriptが多用された動的ページも含むウェブコンテンツ全体をクロール・解析し、LLMやAIエージェントに最適なMarkdownや構造化JSON形式として出力するオープンソースのクローラー・データ抽出APIプラットフォームです。</p>
+
+        <h2>何ができるか</h2>
+        <p>ウェブサイト全体のサイトマップの自動マッピング（Map機能）、指定URL内のテキスト・画像・PDFやDOCX等のメディアファイルのパース、さらにはAIプロンプトを用いたスクレイピング結果の構造化データ抽出、スクレイピング前のスクロールやクリック・待ち時間の設定（Interact機能）などが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>地道なプロキシローテーションやレートリミット対策、複雑なWAF（ウェブアプリケーションファイアウォール）のバイパスなどを全てバックエンドで自動処理するため、開発者はAPIキーを呼ぶだけで安定して動作する点。また、AIエージェントがツールとして呼び出しやすいように設計されている点や、セルフホスト可能なオープンソースプロジェクトとして公開されている点が魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>PythonやNode.jsなどの各種SDK、cURLによるREST API経由で利用可能です。クラウド版を利用する場合は <a href="https://firecrawl.dev" target="_blank" rel="noreferrer">firecrawl.dev</a> でAPIキーを取得し、<code>app = Firecrawl(api_key="...")</code> のようにSDKを初期化して <code>app.scrape_url("target-url")</code> を呼び出します。Dockerを用いたセルフホスト（ローカル稼働）もサポートされています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>RAG（検索拡張生成）システムや自律型AIエージェントの開発において高品質なウェブテキスト・ドキュメントデータを大量かつ安定して収集したいエンジニアや、ウェブスクレイピングにおける複雑なボット対策やインフラ維持コストに悩んでいる開発者に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>セルフホストで大規模なクロールを行う場合、対象サーバーへの負荷に配慮する必要があります（スクレイピングのベストプラティクスや対象サイトのrobots.txt等を確認してください）。また、クラウドホスト版は無料枠を超えると利用プランに応じたコストが発生します。</p>
+
+        <h2>まとめ</h2>
+        <p>firecrawl は、LLM時代に必要不可欠な「ウェブ情報へのアクセス」を驚くほどシンプルにする、最高峰のデータ収集エンジンです。AIが求める形式に自動最適化して出力する機能や優れたインフラ隠蔽能力により、AI駆動型プロダクトの構築を加速させる強力な基盤ツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noreferrer">https://github.com/firecrawl/firecrawl</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #787</p>
+      </div>
+    </article>
+  </body>
+</html>
