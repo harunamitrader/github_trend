@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "serial": 785,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "repoName": "ottosulin/awesome-ai-security",
+      "repoUrl": "https://github.com/ottosulin/awesome-ai-security",
+      "title": "awesome-ai-security",
+      "dek": "AIセキュリティに関連するフレームワーク、規格、ツール、学習リソースを網羅的にまとめたキュレーションリスト。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T20:45:00+09:00",
+      "starCount": 1169,
+      "articleUrl": "./articles/github/daily/2026-06-22-ottosulin-awesome-ai-security.html"
+    },
+    {
       "category": "github-update-report",
       "serial": 751,
       "title": "2026-06-22 アップデートレポート",

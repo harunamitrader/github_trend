@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-21T20:01:02.133053+00:00",
-  "count": 866,
+  "generatedAt": "2026-06-22T11:45:19.495323+00:00",
+  "count": 867,
   "articles": [
+    {
+      "slug": null,
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "awesome-ai-security",
+      "dek": "AIセキュリティに関連するフレームワーク、規格、ツール、学習リソースを網羅的にまとめたキュレーションリスト。",
+      "summary": "",
+      "repoName": "ottosulin/awesome-ai-security",
+      "genre": "スクレイピング・情報収集・セキュリティ",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T20:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-22-ottosulin-awesome-ai-security.html",
+      "serial": 785,
+      "searchText": "awesome-ai-security AIセキュリティに関連するフレームワーク、規格、ツール、学習リソースを網羅的にまとめたキュレーションリスト。 ottosulin/awesome-ai-security スクレイピング・情報収集・セキュリティ awesome-ai-security ← 記事一覧へ戻る GitHub Watcher awesome-ai-security AIセキュリティに関連するフレームワーク、規格、ツール、学習リソースを網羅的にまとめたキュレーションリスト。 記事作成日 2026-06-22 種別 Pickup 対象 repo ottosulin/awesome-ai-security Star数 1,169 これは何か AIシステムのセキュリティ、ガバナンス、リスク管理、アタック技術、防御策に関する優秀なフレームワーク、標準規格、オープンソースツール、学習リソースなどを体系的に整理した、網羅的なキュレーションリスト（Awesome List）です。 何ができるか AIセキュリティに関する主要ガイドライン（OWASP LLM Top 10やNIST AI RMF等）へのアクセス、AIレッドチーム演習ツールや脆弱性スキャナーの調査、インプット/アウトプット制御を行うガードレール製品、安全なサンドボックス実行環境などの選定や比較が行えます。 目立つポイント 最新のAIセキュリティトレンドを反映しており、特に「Agentic AI（エージェント型AI）」や「Model Context Protocol (MCP)」に特化した攻撃シミュレーションツール、特権昇格やツール悪用を防ぐためのランタイムセキュリティ・サンドボックス技術が豊富に収集・整理されている点が非常に特徴的です。 セットアップや使い方の流れ リポジトリ自体はドキュメントのリストであるため、インストールは不要です。 GitHubのリポジトリページ へアクセスし、目次から「Defense & Security Controls」や「Attack Techniques & Red Teaming」などの目的のカテゴリをクリックして、掲載されている各ツールやリソースのリンクを辿って利用します。 どんな人向けか AIを活用したアプリケーションや自律型エージェントシステムの開発においてセキュリティ設計を担当する開発者やアーキテクト、AIの脆弱性診断やペネトレーションテストを行いたいセキュリティリサーチャー、AIガバナンスとコンプライアンス管理を担当する実務家に適しています。 注意点 リストの中には「Damn Vulnerable MCP Server」など意図的に脆弱性を持たせた学習環境や、実際のペネトレーションテストで用いられる攻撃的なツール・PoCも含まれています。検証や学習の目的以外で悪用したり、認可されていない実環境に対して実行したりしないよう十分に注意してください。 まとめ awesome-ai-security は、日々急速に変化するAIセキュリティ分野の全体像を把握し、自社システムに最適な防御策や評価ツールを見つけ出すための信頼できる地図として機能します。特にAIエージェントやMCPなど、最先端の自律機能を含むシステムの設計や監査を行う際に強力な情報源となります。 参照リンク https://github.com/ottosulin/awesome-ai-security Shared GitHub Serial: #785"
+    },
     {
       "slug": null,
       "category": "github-update-report",

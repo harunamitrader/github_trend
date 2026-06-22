@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 21 Jun 2026 20:02:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 20:45:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-ai-security]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-ottosulin-awesome-ai-security.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-22-ottosulin-awesome-ai-security.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIセキュリティに関連するフレームワーク、規格、ツール、学習リソースを網羅的にまとめたキュレーションリスト。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-22 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-22-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[同期されたオーディオとビデオを同時に生成する、画期的なDiTベースの音響映像生成モデル「LTX-2」の公式推論・LoRA学習パッケージ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.183 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-20-claudecode-v2-1-183.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-20-claudecode-v2-1-183.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[auto-mode 実行時の安全性を強化し、意図しない破壊的な git コマンド実行をブロックする更新。]]></description>
     </item>
   </channel>
 </rss>
