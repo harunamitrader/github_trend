@@ -86,6 +86,17 @@
       "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-185.html"
     },
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-21-openclaw-v2026-6-9",
+      "title": "OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応",
+      "dek": "SQLiteベースのメモリとプロキシの整合性を向上させ、チャットからのセッション変更コマンドやFirecrawlのキーなしスクレイピングに対応したバージョン。",
+      "publishedAt": "2026-06-21",
+      "createdAt": "2026-06-21T09:36:28+09:00",
+      "toolName": "OpenClaw",
+      "version": "v2026.6.9",
+      "articleUrl": "./articles/tools/2026-06-21-openclaw-v2026-6-9.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-21-StockSharp-AlgoTrading",
       "title": "AlgoTrading",

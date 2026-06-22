@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SQLiteベースのメモリとプロキシの整合性を向上させ、チャットからのセッション変更コマンドやFirecrawlのキーなしスクレイピングに対応したバージョン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応</h1>
+      <p class="article-dek">SQLiteベースのメモリとプロキシの整合性を向上させ、チャットからのセッション変更コマンドやFirecrawlのキーなしスクレイピングに対応したバージョン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-21 -->
+          <strong>2026-06-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.6.9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリース（v2026.6.9）では、データベースの安定性と機能面において以下の主要な改善および機能追加が行われました。</p>
+        <ul>
+            <li><strong>SQLiteメモリおよびプロキシの整合性強化:</strong> データベース優先（database-first）設計によるメモリとプロキシの同期を刷新し、データの永続化とセッション復元力を向上。</li>
+            <li><strong>/name コマンドの追加:</strong> チャットUIから直接セッション名を変更できるコマンドを実装。</li>
+            <li><strong>キーなし Firecrawl 連携:</strong> Firecrawl を用いたスクレイピングにおいて、APIキーなしでのデータ収集に対応。</li>
+            <li><strong>Telegram と Feishu 連携の改善:</strong> Telegramのリッチマークダウン改行の保持や、Feishuにおけるイベント処理およびエラー直前の応答バッファリングを修正。</li>
+            <li><strong>Codex 連携とその他の修正:</strong> Codexにおける app-server SecretRefs サポート、iOS Safariビューポートのチャット操作性改善、およびエラーハンドリングの強化。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>SQLiteを用いたローカルメモリの安定性が格段に向上したため、セッション中のAIエージェントの記憶維持や切断時の復元力が強化されました。また、チャットから <code>/name [名前]</code> を用いて即座にセッション名を変更できるようになり、複数タスクの並行処理管理がスムーズになります。APIキー不要で動作する Firecrawl スクラッパーの導入により、手軽な情報収集が可能です。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw v2026.6.9 は、データの永続化における重要なバグ修正と、セッションの整理、スクレイピング性能の拡張を含む機能向上リリースです。エージェントの安定運用において特に推奨されるアップデートとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.6.9" target="_blank" rel="noreferrer">OpenClaw v2026.6.9 Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
