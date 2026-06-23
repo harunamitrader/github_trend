@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>latitude-llm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">latitude-llm</h1>
+      <p class="article-dek">AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-24 -->
+          <strong>2026-06-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/latitude-dev/latitude-llm" target="_blank" rel="noreferrer">
+              latitude-dev/latitude-llm
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,212</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェントやLLM（大規模言語モデル）を組み込んだアプリケーションの稼働状況を監視し、予期せぬエラーや挙動を追跡・分析するためのオープンソースのオブザーバビリティ（可観測性）プラットフォームです。一般的なソフトウェア開発における Sentry のような存在であり、AIアプリケーションの品質管理とデバッグを強力にサポートします。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数ターンにわたる複雑なエージェントセッションや、外部ツール呼び出し、実行トレース（パス）の可視化。失敗したトレースや不適切な挙動を自動的にイシュー（課題）として集約・グループ化し、対応の優先順位付けとステータス追跡を可能にします。また、人間による評価基準を自動で評価器に反映し（Human-aligned evals）、人間とAIの判断のズレ（アライメントスコア）を追跡することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>問題が発生したトレースを自動的に「イシュー」として分類・整理するイシュー中心（Issue-centric）の管理モデル、全トレースの完全インデックスによる意味・完全一致・類似文章によるセマンティック検索機能、Slackやメール、Webhookへのエスカレーションアラート、さらには Claude Code 等のコーディングエージェントから操作可能な MCP（Model Context Protocol）サーバーの提供が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>クラウドホスト版（無料枠あり）を利用する場合は、<code>latitude.so</code> にサインアップし、SDK（TypeScript: <code>@latitude-data/telemetry</code> など）をインストールして API キーを設定します。また、Docker Compose や Kubernetes（Helm chart）、Railway などを通じたセルフホストでの構築にも対応しています。さらに Claude Code 用に専用のテレメトリパッケージ（<code>npx -y @latitude-data/claude-code-telemetry install</code>）も提供されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>本番環境でAIエージェントや複雑なRAG、マルチステップのLLMアプリを運用しており、挙動の不安定さやハルシネーション、予期せぬ例外エラーを可視化して迅速にデバッグ・修復したいエンジニアやプロダクト運用チーム。</p>
+
+        <h2>注意点</h2>
+        <p>動作ログやトレースなどの監視データを大量に記録・保存するため、セルフホストで運用する場合にはデータベース（ClickHouse等）のストレージ容量やインフラの監視負荷に配慮する必要があります。クラウド版でのデータ保存・転送容量については、無料プランおよび有料ライセンス規約を確認してください。</p>
+
+        <h2>まとめ</h2>
+        <p>latitude-llm は、従来の Web アプリ開発におけるエラーログ監視の手法をAIエージェント向けに昇華させ、複雑な自律エージェントの動向を正確にトラッキングできるように設計された高度なツールです。イシュー起点での直感的UIに加え、開発者向けエージェントとの MCP 連携や Claude Code テレメトリの提供など、エージェント開発ワークフロー全体にシームレスに組み込める点が非常に優れています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/latitude-dev/latitude-llm" target="_blank" rel="noreferrer">https://github.com/latitude-dev/latitude-llm</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #793</p>
+      </div>
+    </article>
+  </body>
+</html>

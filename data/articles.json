@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "serial": 793,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "repoName": "latitude-dev/latitude-llm",
+      "repoUrl": "https://github.com/latitude-dev/latitude-llm",
+      "title": "latitude-llm",
+      "dek": "AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-24T05:55:00+09:00",
+      "starCount": 4212,
+      "articleUrl": "./articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html",
+      "slug": "2026-06-24-latitude-dev-latitude-llm"
+    },
+    {
+      "category": "github-pickup",
       "serial": 792,
       "originType": "pickup",
       "genre": "メディア作成・マルチモーダル・UI",

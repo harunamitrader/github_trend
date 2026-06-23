@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-23T20:27:58.159548+00:00",
-  "count": 875,
+  "generatedAt": "2026-06-23T20:52:59.353743+00:00",
+  "count": 876,
   "articles": [
+    {
+      "slug": "2026-06-24-latitude-dev-latitude-llm",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "latitude-llm",
+      "dek": "AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。",
+      "summary": "",
+      "repoName": "latitude-dev/latitude-llm",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-24T05:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html",
+      "serial": 793,
+      "searchText": "latitude-llm AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。 latitude-dev/latitude-llm AIコーディング (ワークフロー・プロンプト・開発補助ツール) latitude-llm ← 記事一覧へ戻る GitHub Watcher latitude-llm AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。 記事作成日 2026-06-24 種別 Pickup 対象 repo latitude-dev/latitude-llm Star数 4,212 これは何か AIエージェントやLLM（大規模言語モデル）を組み込んだアプリケーションの稼働状況を監視し、予期せぬエラーや挙動を追跡・分析するためのオープンソースのオブザーバビリティ（可観測性）プラットフォームです。一般的なソフトウェア開発における Sentry のような存在であり、AIアプリケーションの品質管理とデバッグを強力にサポートします。 何ができるか 複数ターンにわたる複雑なエージェントセッションや、外部ツール呼び出し、実行トレース（パス）の可視化。失敗したトレースや不適切な挙動を自動的にイシュー（課題）として集約・グループ化し、対応の優先順位付けとステータス追跡を可能にします。また、人間による評価基準を自動で評価器に反映し（Human-aligned evals）、人間とAIの判断のズレ（アライメントスコア）を追跡することができます。 目立つポイント 問題が発生したトレースを自動的に「イシュー」として分類・整理するイシュー中心（Issue-centric）の管理モデル、全トレースの完全インデックスによる意味・完全一致・類似文章によるセマンティック検索機能、Slackやメール、Webhookへのエスカレーションアラート、さらには Claude Code 等のコーディングエージェントから操作可能な MCP（Model Context Protocol）サーバーの提供が特徴です。 セットアップや使い方の流れ クラウドホスト版（無料枠あり）を利用する場合は、 latitude.so にサインアップし、SDK（TypeScript: @latitude-data/telemetry など）をインストールして API キーを設定します。また、Docker Compose や Kubernetes（Helm chart）、Railway などを通じたセルフホストでの構築にも対応しています。さらに Claude Code 用に専用のテレメトリパッケージ（ npx -y @latitude-data/claude-code-telemetry install ）も提供されています。 どんな人向けか 本番環境でAIエージェントや複雑なRAG、マルチステップのLLMアプリを運用しており、挙動の不安定さやハルシネーション、予期せぬ例外エラーを可視化して迅速にデバッグ・修復したいエンジニアやプロダクト運用チーム。 注意点 動作ログやトレースなどの監視データを大量に記録・保存するため、セルフホストで運用する場合にはデータベース（ClickHouse等）のストレージ容量やインフラの監視負荷に配慮する必要があります。クラウド版でのデータ保存・転送容量については、無料プランおよび有料ライセンス規約を確認してください。 まとめ latitude-llm は、従来の Web アプリ開発におけるエラーログ監視の手法をAIエージェント向けに昇華させ、複雑な自律エージェントの動向を正確にトラッキングできるように設計された高度なツールです。イシュー起点での直感的UIに加え、開発者向けエージェントとの MCP 連携や Claude Code テレメトリの提供など、エージェント開発ワークフロー全体にシームレスに組み込める点が非常に優れています。 参照リンク https://github.com/latitude-dev/latitude-llm Shared GitHub Serial: #793"
+    },
     {
       "slug": "2026-06-24-latent-spaces-brag",
       "category": "github-pickup",

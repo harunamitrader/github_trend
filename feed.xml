@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 20:28:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 05:53:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[latitude-llm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[brag]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latent-spaces-brag.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[SQLiteベースのメモリとプロキシの整合性を向上させ、チャットからのセッション変更コマンドやFirecrawlのキーなしスクレイピングに対応したバージョン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini Workspace のスプレッドシート多言語化と Interactions API の音声ストリーミング対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-gemini-spreadsheet-languages-speech-api.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Workspace での日本語スプレッドシート作成対応、および API での音声生成ストリーミングサポートの追加を含む最新アップデート。]]></description>
     </item>
   </channel>
 </rss>
