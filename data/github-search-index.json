@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T10:18:17.551457+00:00",
+  "generatedAt": "2026-06-23T20:02:17.507472+00:00",
   "count": 874,
   "articles": [
     {
@@ -74,7 +74,7 @@
       "publishedAt": "2026-06-23",
       "createdAt": "2026-06-23T04:48:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-23-update-report.html",
-      "serial": 752,
+      "serial": 85,
       "searchText": "2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-23 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-23 調査件数 全 16 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-23）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 calesthio/OpenMontage ✅ 記事作成済み palmier-io/palmier-pro ✅ 記事作成済み jamiepine/voicebox ✅ 記事作成済み mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み penpot/penpot ✅ 記事作成済み Stirling-Tools/Stirling-PDF ✨ 新規追加 garrytan/gstack ✅ 記事作成済み heygen-com/hyperframes ✅ 記事作成済み tursodatabase/turso ✅ 記事作成済み bytedance/deer-flow ✅ 記事作成済み DeusData/codebase-memory-mcp ✅ 記事作成済み ZhuLinsen/daily_stock_analysis ✅ 記事作成済み firecrawl/firecrawl ✨ 新規追加 JCodesMore/ai-website-cloner-template ✨ 新規追加 lyogavin/airllm ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み 今後の展望 本日は、AIコーディング支援ツールの最新リバースエンジニアリング・テンプレート「ai-website-cloner-template」、LLMフレンドリーな超高速ウェブスクレイパー「firecrawl」、さらにセルフホスト可能で50以上の多彩な編集機能を持つオープンソースPDFプラットフォーム「Stirling-PDF」を新規記事化しました。これらは、AIエージェントの開発や自動化ワークフローの構築において非常に重要となる基盤技術・ユーティリティです。引き続き、データ抽出・利活用および自律型AIに親和性の高い開発補助系のツールを中心に、その適用範囲と技術進化を追いかけてまいります。"
     },
     {
@@ -134,7 +134,7 @@
       "publishedAt": "2026-06-22",
       "createdAt": "2026-06-22T04:45:05+09:00",
       "articleUrl": "./articles/github/reports/2026-06-22-update-report.html",
-      "serial": 751,
+      "serial": 84,
       "searchText": "2026-06-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-22 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-22 調査件数 全 17 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-06-22）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 \\n palmier-io/palmier-pro \\n ✅ 記事作成済み \\n \\n \\n calesthio/OpenMontage \\n ✅ 記事作成済み \\n \\n \\n chopratejas/headroom \\n ✅ 記事作成済み \\n \\n \\n tursodatabase/turso \\n ✅ 記事作成済み \\n \\n \\n penpot/penpot \\n ✅ 記事作成済み \\n \\n \\n ZhuLinsen/daily_stock_analysis \\n ✅ 記事作成済み \\n \\n \\n koala73/worldmonitor \\n ✅ 記事作成済み \\n \\n \\n bytedance/deer-flow \\n ✅ 記事作成済み \\n \\n \\n DeusData/codebase-memory-mcp \\n ✅ 記事作成済み \\n \\n \\n mukul975/Anthropic-Cybersecurity-Skills \\n ✅ 記事作成済み \\n \\n \\n tw93/Pake \\n ✅ 記事作成済み \\n \\n \\n mikumifa/biliTickerBuy \\n ✨ 新規追加 \\n \\n \\n smicallef/spiderfoot \\n ✨ 新規追加 \\n \\n \\n topoteretes/cognee \\n ✅ 記事作成済み \\n \\n \\n byoungd/English-level-up-tips \\n ✅ 記事作成済み \\n \\n \\n asgeirtj/system_prompts_leaks \\n ✅ 記事作成済み \\n \\n \\n mattpocock/skills \\n ✅ 記事作成済み \\n 今後の展望 引き続き、セキュリティ関連ツールやWeb自動化技術に関するトレンドが活発に推移しています。"
     },
     {
@@ -209,7 +209,7 @@
       "publishedAt": "2026-06-21",
       "createdAt": "2026-06-21T05:06:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-21-update-report.html",
-      "serial": 750,
+      "serial": 83,
       "searchText": "2026-06-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-06-21）のGitHubトレンドランキングの全17件を調査し、新規に4件の解説記事を公開しました。 2026-06-21 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-21 調査件数 全 17 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-21）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 palmier-io/palmier-pro ✅ 記事作成済み penpot/penpot ✅ 記事作成済み calesthio/OpenMontage ✅ 記事作成済み tursodatabase/turso ✨ 新規追加 DeusData/codebase-memory-mcp ✅ 記事作成済み google-research/timesfm ✅ 記事作成済み twentyhq/twenty ✅ 記事作成済み Kong/insomnia ✅ 記事作成済み tw93/Pake ✨ 新規追加 chopratejas/headroom ✅ 記事作成済み jamiepine/voicebox ✅ 記事作成済み Kilo-Org/kilocode ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み withastro/flue ✅ 記事作成済み owainlewis/awesome-artificial-intelligence ✨ 新規追加 pppscn/SmsForwarder ✨ 新規追加 1jehuang/jcode ✅ 記事作成済み 今後の展望 SQLite互換の超高速分散DBであるTursoや、Webをわずか5MBのRustデスクトップアプリへと変換するPakeなど、インフラからツールチェインに至るまで『Rustによる劇的な高速化・省フットプリント化』の実用ツールがトレンド上位を席巻しています。肥大化しがちな開発スタックを軽量かつ強固に再構築するニーズは、今後もオープンソース界隈で大きな潮流となりそうです。"
     },
     {
@@ -284,7 +284,7 @@
       "publishedAt": "2026-06-20",
       "createdAt": "2026-06-20T05:06:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-20-update-report.html",
-      "serial": 749,
+      "serial": 82,
       "searchText": "2026-06-20 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-06-20）のGitHubトレンドランキングの全15件を調査し、新規に4件の解説記事を公開しました。 2026-06-20 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-20 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-20 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-20）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 DeusData/codebase-memory-mcp ✅ 記事作成済み google-research/timesfm ✅ 記事作成済み palmier-io/palmier-pro ✨ 新規追加 koala73/worldmonitor ✅ 記事作成済み aishwaryanr/awesome-generative-ai-guide ✨ 新規追加 BuilderIO/agent-native ✨ 新規追加 chopratejas/headroom ✅ 記事作成済み calesthio/OpenMontage ✅ 記事作成済み zai-org/GLM-5 ✅ 記事作成済み withastro/flue ✅ 記事作成済み n0-computer/iroh ✅ 記事作成済み obra/superpowers ✅ 記事作成済み penpot/penpot ✅ 記事作成済み Kong/insomnia ✅ 記事作成済み Lightricks/LTX-2 ✨ 新規追加 今後の展望 音響と映像をワンモデルで同期生成するLTX-2や、AIと人間の協調インターフェースを目指すagent-nativeなど、自律エージェントの適用範囲が動画編集やリッチアプリケーションそのものの構築へと拡張しつつあります。単なる指示受けチャットを越えて、共通StateをAIが直接操作・編集するUI融合の流れは今後さらに加速すると見られます。"
     },
     {
@@ -359,7 +359,7 @@
       "publishedAt": "2026-06-19",
       "createdAt": "2026-06-19T05:06:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-19-update-report.html",
-      "serial": 748,
+      "serial": 81,
       "searchText": "2026-06-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-06-19）のGitHubトレンドランキングの全17件を調査し、新規に5件の解説記事を公開しました。 2026-06-19 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-19 調査件数 全 17 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-19）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 google-research/timesfm ✅ 記事作成済み n0-computer/iroh ✅ 記事作成済み freeCodeCamp/freeCodeCamp ✅ 記事作成済み obra/superpowers ✅ 記事作成済み zai-org/GLM-5 ✨ 新規追加 DeusData/codebase-memory-mcp ✅ 記事作成済み yifanfeng97/Hyper-Extract ✨ 新規追加 alibaba/zvec ✅ 記事作成済み withastro/flue ✅ 記事作成済み Kilo-Org/kilocode ✨ 新規追加 makeplane/plane ✅ 記事作成済み Kong/insomnia ✨ 新規追加 Universal-Debloater-Alliance/universal-android-debloater-next-generation ✅ 記事作成済み dotnet/aspnetcore ✨ 新規追加 owainlewis/awesome-artificial-intelligence 未作成 Lightricks/LTX-2 未作成 LibreTranslate/LibreTranslate 未作成 今後の展望 本日（2026年6月19日）のトレンドでは、100万トークンの超長文コンテキストに対応した次世代オープンソースモデル『GLM-5.2』が上位に入り、自律的エンジニアリングの可能性を大きく広げています。また、自然言語からグラフ構造ナレッジを抽出する『Hyper-Extract』や、オープンソースのAIエンジニアリングプラットフォーム『Kilo Code』など、エージェントの実装と知識共有のためのツール群が脚光を浴びています。非AI系のツールでもAPI設計とテストを効率化する『Insomnia』や、MicrosoftのクラウドWebフレームワークである『ASP.NET Core』が注目を集めており、クラウドおよびAI開発環境が総合的に強化されている様子が窺えます。"
     },
     {
@@ -449,7 +449,7 @@
       "publishedAt": "2026-06-18",
       "createdAt": "2026-06-18T06:06:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-18-update-report.html",
-      "serial": 747,
+      "serial": 80,
       "searchText": "2026-06-18 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-06-18）のGitHubトレンドランキングの全20件を調査し、新規に5件の解説記事を公開しました。 2026-06-18 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-18 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-18 調査件数 全 20 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-18）の GitHub Trending にランクインしていた全 20 リポジトリの調査結果です。 DeusData/codebase-memory-mcp ✨ 新規追加 n0-computer/iroh ✅ 記事作成済み Panniantong/Agent-Reach ✅ 記事作成済み meshery/meshery ✅ 記事作成済み obra/superpowers ✅ 記事作成済み google-research/timesfm ✅ 記事作成済み RocketChat/Rocket.Chat ✨ 新規追加 continuedev/continue ✅ 記事作成済み penpot/penpot ✅ 記事作成済み krahets/hello-algo ✅ 記事作成済み Universal-Debloater-Alliance/universal-android-debloater-next-generation ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み yairm210/Unciv ✨ 新規追加 freeCodeCamp/freeCodeCamp ✅ 記事作成済み bytedance/UI-TARS-desktop ✅ 記事作成済み nautechsystems/nautilus_trader ✅ 記事作成済み chatwoot/chatwoot ✅ 記事作成済み calesthio/OpenMontage ✨ 新規追加 alexzhang13/rlm ✨ 新規追加 makeplane/plane ✅ 記事作成済み 今後の展望 本日（2026年6月18日）のトレンドでは、AIエージェントの自律実行によるビデオ制作システム『OpenMontage』や、超高速なコード理解エンジン『codebase-memory-mcp』など、AIの実用性と動作速度を飛躍的に向上させるツールが上位を占めています。また、無制限に近い文脈長を再帰的に処理する『rlm』など、LLM自体の推論能力や制御方法をコード実行環境と結合するアプローチがトレンドインしており、AIコーディングやエージェントの周辺インフラが急激に洗練されつつあることが伺えます。"
     },
     {
@@ -539,7 +539,7 @@
       "publishedAt": "2026-06-17",
       "createdAt": "2026-06-17T04:49:39+09:00",
       "articleUrl": "./articles/github/reports/2026-06-17-update-report.html",
-      "serial": 746,
+      "serial": 79,
       "searchText": "2026-06-17 アップデートレポート 本日調査した GitHub トレンド 13 件のランキングと、新規作成された 3 件の記事のまとめ 2026-06-17 の GitHub Trending 更新レポートです。puppeteer、universal-android-debloater-next-generation、iroh を新規に記事化しました。 2026-06-17 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-17 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-17 調査件数 全 13 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-17）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 freeCodeCamp / freeCodeCamp ✅ 記事作成済み swc-project / swc ✅ 記事作成済み teslamate-org / teslamate ✅ 記事作成済み iptv-org / iptv ✅ 記事作成済み puppeteer / puppeteer ✨ 新規追加 meshery / meshery ✅ 記事作成済み cypress-io / cypress ✅ 記事作成済み music-assistant / server ✅ 記事作成済み Universal-Debloater-Alliance / universal-android-debloater-next-generation ✨ 新規追加 OpenBMB / VoxCPM ✅ 記事作成済み alibaba / zvec ✅ 記事作成済み rmyndharis / OpenWA ✅ 記事作成済み n0-computer / iroh ✨ 新規追加 今後の展望 未作成の候補はありません。次回は既存記事の更新有無と Trending の入れ替わりを合わせて追うと鮮度を保ちやすいです。"
     },
     {
@@ -629,7 +629,7 @@
       "publishedAt": "2026-06-16",
       "createdAt": "2026-06-16T04:53:40+09:00",
       "articleUrl": "./articles/github/reports/2026-06-16-update-report.html",
-      "serial": 745,
+      "serial": 78,
       "searchText": "2026-06-16 アップデートレポート 本日調査した GitHub トレンド 18 件のランキングと、新規作成された 5 件の記事のまとめ 2026-06-16 の GitHub Trending 更新レポートです。teslamate、hello-algo、IPTV、Win11Debloat、Self-Hosting-Guide を新規に記事化しました。 アップデートレポート 2026-06-16 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-16 調査件数 全 18 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-16）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 iptv-org/iptv ✅ 記事作成済み teslamate-org/teslamate ✨ 新規追加 Panniantong/Agent-Reach ✅ 記事作成済み meshery/meshery ✅ 記事作成済み chatwoot/chatwoot ✅ 記事作成済み krahets/hello-algo ✨ 新規追加 freeCodeCamp/freeCodeCamp ✅ 記事作成済み trycua/cua ✅ 記事作成済み jwasham/coding-interview-university ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み music-assistant/server ✅ 記事作成済み Free-TV/IPTV ✨ 新規追加 Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots ✅ 記事作成済み Raphire/Win11Debloat ✨ 新規追加 mikeroyal/Self-Hosting-Guide ✨ 新規追加 itsfatduck/optimizerDuck 未作成 NVIDIA/SkillSpector ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み 今後の展望 未作成の候補は `itsfatduck/optimizerDuck` の 1 件だけになりました。次回はこの残り 1 件を補完しつつ、既存記事の更新有無も合わせて追うと鮮度を保ちやすいです。"
     },
     {
@@ -734,7 +734,7 @@
       "publishedAt": "2026-06-15",
       "createdAt": "2026-06-15T04:11:05+09:00",
       "articleUrl": "./articles/github/reports/2026-06-15-update-report.html",
-      "serial": 744,
+      "serial": 77,
       "searchText": "2026-06-15 アップデートレポート 本日調査した GitHub トレンド 15 件のランキングと、新規作成された 5 件の記事のまとめ 2026-06-15 の GitHub Trending 更新レポートです。pytest、meshery、cypress、Clone-Wars、Introduction-to-Autonomous-Robots を新規に記事化しました。 アップデートレポート 2026-06-15 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-15 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-15 調査件数 全 15 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-15）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 iptv-org/iptv ✅ 記事作成済み freeCodeCamp/freeCodeCamp ✅ 記事作成済み pytest-dev/pytest ✨ 新規追加 swc-project/swc ✅ 記事作成済み chatwoot/chatwoot ✅ 記事作成済み NVIDIA/SkillSpector ✅ 記事作成済み meshery/meshery ✨ 新規追加 cypress-io/cypress ✨ 新規追加 GorvGoyl/Clone-Wars ✨ 新規追加 Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots ✨ 新規追加 shiyu-coder/Kronos ✅ 記事作成済み music-assistant/server ✅ 記事作成済み Free-TV/IPTV 未作成 puppeteer/puppeteer 未作成 andrewyng/aisuite ✅ 記事作成済み 今後の展望 未作成だった上位 5 件を補完しました。次回は残りの未作成候補や既存記事の更新状況も合わせて追うと、一覧の鮮度を保ちやすくなります。"
     },
     {
@@ -869,7 +869,7 @@
       "publishedAt": "2026-06-14",
       "createdAt": "2026-06-14T04:48:37+09:00",
       "articleUrl": "./articles/github/reports/2026-06-14-update-report.html",
-      "serial": 743,
+      "serial": 76,
       "searchText": "2026-06-14 アップデートレポート 本日調査した GitHub トレンド 14 件のランキングと、新規作成された 4 件の記事のまとめ 2026-06-14 の GitHub Trending 更新レポートです。LMCache、aisuite、fanqiang、swc を新規に記事化しました。 アップデートレポート 2026-06-14 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-14 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-14 調査件数 全 14 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-14）の GitHub Trending にランクインしていた全 14 リポジトリの調査結果です。 iptv-org/iptv ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み chatwoot/chatwoot ✅ 記事作成済み obra/superpowers ✅ 記事作成済み apple/container ✅ 記事作成済み music-assistant/server ✅ 記事作成済み kenn-io/agentsview ✅ 記事作成済み LMCache/LMCache ✨ 新規追加 microsoft/PowerToys ✅ 記事作成済み andrewyng/aisuite ✨ 新規追加 NVIDIA/SkillSpector ✅ 記事作成済み bannedbook/fanqiang ✨ 新規追加 swc-project/swc ✨ 新規追加 x1xhlol/system-prompts-and-models-of-ai-tools ✅ 記事作成済み 今後の展望 未作成だった上位 4 件を補完しました。次回は新規流入を優先しつつ、既存記事の更新状況も合わせて追うと一覧の鮮度を保ちやすくなります。"
     },
     {
@@ -959,7 +959,7 @@
       "publishedAt": "2026-06-13",
       "createdAt": "2026-06-13T04:54:17+09:00",
       "articleUrl": "./articles/github/reports/2026-06-13-update-report.html",
-      "serial": 705,
+      "serial": 75,
       "searchText": "2026-06-13 アップデートレポート 本日調査した GitHub トレンド 13 件のランキングと、新規作成された 5 件の記事のまとめ 2026-06-13 の GitHub Trending 更新レポートです。music-assistant/server、iptv-org/iptv、pingcap/tidb、Dokploy/dokploy、f/awesome-chatgpt-prompts を新規に記事化しました。 アップデートレポート 2026-06-13 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-13 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-13 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-13）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 addyosmani/agent-skills ✅ 記事作成済み music-assistant/server ✨ 新規追加 mattermost/mattermost ✅ 記事作成済み apple/container ✅ 記事作成済み iptv-org/iptv ✨ 新規追加 obra/superpowers ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み maziyarpanahi/openmed ✅ 記事作成済み LMCache/LMCache 未作成 phuryn/pm-skills ✅ 記事作成済み masterking32/MasterDnsVPN ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み microsoft/PowerToys 未作成 今後の展望 未作成だった高順位の 5 件を補完しました。次回は残る未作成候補を優先しつつ、既存記事の更新状況も合わせて追うと一覧の鮮度を保ちやすくなります。"
     },
     {
@@ -1049,7 +1049,7 @@
       "publishedAt": "2026-06-12",
       "createdAt": "2026-06-12T04:49:05+09:00",
       "articleUrl": "./articles/github/reports/2026-06-12-update-report.html",
-      "serial": 704,
+      "serial": 74,
       "searchText": "2026-06-12 アップデートレポート 本日調査した GitHub トレンド 19 件のランキングと、新規作成された 5 件の記事のまとめ 2026-06-12 の GitHub Trending 更新レポートです。restic、chatwoot、agentsview、zhangxuefeng-skill、mattermost を新規に記事化しました。 アップデートレポート 2026-06-12 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-12 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-12 調査件数 全 19 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-12）の GitHub Trending にランクインしていた全 19 リポジトリの調査結果です。 apple/container ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み maziyarpanahi/openmed ✅ 記事作成済み phuryn/pm-skills ✅ 記事作成済み NVIDIA/SkillSpector ✅ 記事作成済み soxoj/maigret ✅ 記事作成済み x1xhlol/system-prompts-and-models-of-ai-tools ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み obra/superpowers ✅ 記事作成済み restic/restic ✨ 新規追加 msitarzewski/agency-agents ✅ 記事作成済み masterking32/MasterDnsVPN ✅ 記事作成済み chatwoot/chatwoot ✨ 新規追加 kenn-io/agentsview ✨ 新規追加 alchaincyf/zhangxuefeng-skill ✨ 新規追加 TapXWorld/ChinaTextbook ✅ 記事作成済み hexo-ai/sia ✅ 記事作成済み mattermost/mattermost ✨ 新規追加 bannedbook/fanqiang 未作成 今後の展望 未作成だった高順位の 5 件を補完しました。次回は残る未作成候補を優先しつつ、各プロジェクトの直近リリースや README 更新を追っていくと、一覧の鮮度を保ちやすくなります。"
     },
     {
@@ -1139,7 +1139,7 @@
       "publishedAt": "2026-06-11",
       "createdAt": "2026-06-11T07:23:05+09:00",
       "articleUrl": "./articles/github/reports/2026-06-11-update-report.html",
-      "serial": 703,
+      "serial": 73,
       "searchText": "2026-06-11 アップデートレポート 本日調査した GitHub トレンド 17 件のランキングと、新規作成された 2 件の記事のまとめ 2026-06-11 の GitHub Trending 更新レポートです。activeloopai/hivemind、apple/container を新規に記事化しました。 アップデートレポート 2026-06-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-11 調査件数 全 17 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-06-11）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 addyosmani/agent-skills ✅ 記事作成済み phuryn/pm-skills ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み mvanhorn/last30days-skill ✅ 記事作成済み soxoj/maigret ✅ 記事作成済み x1xhlol/system-prompts-and-models-of-ai-tools ✅ 記事作成済み obra/superpowers ✅ 記事作成済み masterking32/MasterDnsVPN ✅ 記事作成済み harry0703/MoneyPrinterTurbo ✅ 記事作成済み maziyarpanahi/openmed ✅ 記事作成済み luongnv89/claude-howto ✅ 記事作成済み activeloopai/hivemind ✨ 新規追加 ruvnet/RuView ✅ 記事作成済み roboflow/supervision ✅ 記事作成済み google/skills ✅ 記事作成済み FareedKhan-dev/train-llm-from-scratch ✅ 記事作成済み apple/container ✨ 新規追加 今後の展望 本日は未作成だった上位トレンドのうち 2 件を補完しました。次回も未作成の高順位項目を優先して追記し、一覧の鮮度を保ちます。"
     },
     {
@@ -1184,7 +1184,7 @@
       "publishedAt": "2026-06-10",
       "createdAt": "2026-06-10T04:15:00+09:00",
       "articleUrl": "./articles/github/reports/2026-06-10-update-report.html",
-      "serial": 417,
+      "serial": 72,
       "searchText": "2026-06-10 アップデートレポート 本日調査した GitHub トレンド 16 件のランキングと、新規作成された 3 件の記事のまとめ 2026-06-10 の GitHub Trending 更新レポートです。x1xhlol/system-prompts-and-models-of-ai-tools、maziyarpanahi/openmed、francescopace/espectre を新規に記事化しました。 アップデートレポート 2026-06-10 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-10 アップデートレポート 本日調査した GitHub トレンド 16 件のランキングと、新規作成された 3 件の記事のまとめ 記事作成日 2026-06-10 調査件数 全 16 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-10）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み RyanCodrai/turbovec ✅ 記事作成済み roboflow/supervision ✅ 記事作成済み opencv/opencv ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み Andyyyy64/whichllm ✅ 記事作成済み TapXWorld/ChinaTextbook ✅ 記事作成済み x1xhlol/system-prompts-and-models-of-ai-tools ✨ 新規追加 yikart/AiToEarn ✅ 記事作成済み phuryn/pm-skills ✅ 記事作成済み santifer/career-ops ✅ 記事作成済み openai/plugins ✅ 記事作成済み maziyarpanahi/openmed ✨ 新規追加 francescopace/espectre ✨ 新規追加 addyosmani/agent-skills ✅ 記事作成済み 今後の展望 今回は未作成のトレンド repo を 3 件補完しました。次回も上位の未作成 repo から順に記事化し、同日の更新レポートで差分をまとめる運用が最も安定します。"
     },
     {
@@ -1274,7 +1274,7 @@
       "publishedAt": "2026-06-09",
       "createdAt": "2026-06-09T04:49:30+09:00",
       "articleUrl": "./articles/github/reports/2026-06-09-update-report.html",
-      "serial": 416,
+      "serial": 71,
       "searchText": "2026-06-09 アップデートレポート 本日調査したGitHubトレンド16件のランキングと、新規作成された1件の記事のまとめ 2026-06-09 の GitHub Trending 更新レポートです。Andyyyy64/whichllm を新規に記事化しました。 アップデートレポート 2026-06-09 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-09 アップデートレポート 本日調査した GitHub トレンド 16 件のランキングと、新規作成された 1 件の記事のまとめ 記事作成日 2026-06-09 調査件数 全 16 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-06-09）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み RyanCodrai/turbovec ✅ 記事作成済み google/skills ✅ 記事作成済み refactoringhq/tolaria ✅ 記事作成済み Panniantong/Agent-Reach ✅ 記事作成済み danielmiessler/Personal_AI_Infrastructure ✅ 記事作成済み santifer/career-ops ✅ 記事作成済み phuryn/pm-skills ✅ 記事作成済み openai/plugins ✅ 記事作成済み Andyyyy64/whichllm ✨ 新規追加 MemPalace/mempalace ✅ 記事作成済み roboflow/supervision ✅ 記事作成済み CopilotKit/CopilotKit ✅ 記事作成済み TapXWorld/ChinaTextbook ✅ 記事作成済み luongnv89/claude-howto ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み 今後の展望 今回はローカル LLM の選定支援ツールを新規補完できました。次回も Trending の順位変動をそのまま追い、未作成の repo が出たら上位から順に補完していくのが効率的です。"
     },
     {
@@ -1349,7 +1349,7 @@
       "publishedAt": "2026-06-08",
       "createdAt": "2026-06-08T04:47:20+09:00",
       "articleUrl": "./articles/github/reports/2026-06-08-update-report.html",
-      "serial": 415,
+      "serial": 70,
       "searchText": "2026-06-08 アップデートレポート 本日調査したGitHubトレンド12件のランキングと、新規作成された記事のまとめ 2026-06-08 の GitHub Trending 更新レポートです。opencv/opencv、RyanCodrai/turbovec、refactoringhq/tolaria、microsoft/pg_durable の 4 件を新規に記事化しました。 アップデートレポート 2026-06-08 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-08 アップデートレポート 本日調査したGitHubトレンド15件のランキングと、新規作成された記事のまとめ 記事作成日 2026-06-08 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-08）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み opencv/opencv ✨ 新規追加 Leonxlnx/taste-skill ✅ 記事作成済み NousResearch/hermes-agent ✅ 記事作成済み lfnovo/open-notebook ✅ 記事作成済み yikart/AiToEarn ✅ 記事作成済み aaif-goose/goose ✅ 記事作成済み Crosstalk-Solutions/project-nomad ✅ 記事作成済み ggml-org/llama.cpp ✅ 記事作成済み RyanCodrai/turbovec ✨ 新規追加 TapXWorld/ChinaTextbook ✅ 記事作成済み openai/plugins ✅ 記事作成済み refactoringhq/tolaria ✨ 新規追加 HunxByts/GhostTrack ✅ 記事作成済み microsoft/pg_durable ✨ 新規追加 今後の展望 今回は未作成の上位候補をすべて補完できました。次回も GitHub Trending の順位変動をそのまま追い、既存記事との重複を機械的に排除しながら、画像処理・RAG・ナレッジ管理・データ基盤系の上位候補を優先すると追跡しやすいです。"
     },
     {
@@ -1424,7 +1424,7 @@
       "publishedAt": "2026-06-07",
       "createdAt": "2026-06-07T04:46:06+09:00",
       "articleUrl": "./articles/github/reports/2026-06-07-update-report.html",
-      "serial": 415,
+      "serial": 69,
       "searchText": "2026-06-07 アップデートレポート 本日調査したGitHubトレンド18件のランキングと、5件の新規記事化をまとめたレポートです。 未作成だった Svelte、NGINX、Go、Career-Ops、Whisper を記事化し、全件の追跡結果を整理しました。 アップデートレポート 2026-06-07 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-07 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-07 調査件数 全 18 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-06-07）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 mvanhorn/last30days-skill ✅ 記事作成済み CopilotKit/CopilotKit ✅ 記事作成済み MemPalace/mempalace ✅ 記事作成済み danielmiessler/Personal_AI_Infrastructure ✅ 記事作成済み openai/plugins ✅ 記事作成済み Panniantong/Agent-Reach ✅ 記事作成済み sveltejs/svelte ✨ 新規追加 nginx/nginx ✨ 新規追加 aquasecurity/trivy ✅ 記事作成済み golang/go ✨ 新規追加 lfnovo/open-notebook ✅ 記事作成済み obra/superpowers ✅ 記事作成済み santifer/career-ops ✨ 新規追加 openai/whisper ✨ 新規追加 vitejs/vite 未作成 microsoft/mxc 未作成 PaddlePaddle/PaddleOCR ✅ 記事作成済み microsoft/VibeVoice ✅ 記事作成済み 今後の展望 今回は UI フレームワーク、Web インフラ、言語本体、AI 付きジョブサーチ、音声認識の 5 分野が新規枠でした。次回も未作成の上位候補を優先しつつ、既存の GitHub Watcher 記事との重複を機械的に避ける運用が効率的です。"
     },
     {
@@ -1559,7 +1559,7 @@
       "publishedAt": "2026-06-06",
       "createdAt": "2026-06-06T04:50:24.482611+09:00",
       "articleUrl": "./articles/github/reports/2026-06-06-update-report.html",
-      "serial": 414,
+      "serial": 68,
       "searchText": "2026-06-06 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-06 の GitHub Trending 更新レポートです。MemPalace/mempalace、openai/plugins、CopilotKit/CopilotKit の 3 件を新規に記事化しました。 アップデートレポート 2026-06-06 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-06 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-06 調査件数 全 16 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-06-06）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 NousResearch/hermes-agent ✅ 記事作成済み chopratejas/headroom ✅ 記事作成済み CopilotKit/CopilotKit ✨ 新規追加 lfnovo/open-notebook ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み Panniantong/Agent-Reach ✅ 記事作成済み NVIDIA/cosmos ✅ 記事作成済み 666ghj/MiroFish ✅ 記事作成済み mvanhorn/last30days-skill ✅ 記事作成済み PaddlePaddle/PaddleOCR ✅ 記事作成済み openai/plugins ✨ 新規追加 MemPalace/mempalace ✨ 新規追加 openclaw/openclaw-windows-node ✅ 記事作成済み aquasecurity/trivy ✅ 記事作成済み jwasham/coding-interview-university ✅ 記事作成済み github/copilot-sdk ✅ 記事作成済み 今後の展望 今回はローカル記憶、Codex プラグイン例、生成 UI フレームワークという 3 方向が同時に動きました。次回は既存記事未作成の新規トレンドが出たときに、同じ基準で拾い直すのが効率的です。"
     },
     {
@@ -1634,7 +1634,7 @@
       "publishedAt": "2026-06-05",
       "createdAt": "2026-06-05T04:48:30+09:00",
       "articleUrl": "./articles/github/reports/2026-06-05-update-report.html",
-      "serial": 413,
+      "serial": 67,
       "searchText": "2026-06-05 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-05 の GitHub Trending 更新レポートです。NVIDIA/cosmos と reconurge/flowsint の 2 件を新規に記事化しました。 アップデートレポート 2026-06-05 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-05 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-05 調査件数 全 14 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-06-05）の GitHub Trending にランクインしていた全 14 リポジトリの調査結果です。 chopratejas/headroom ✅ 記事作成済み NousResearch/hermes-agent ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み PaddlePaddle/PaddleOCR ✅ 記事作成済み github/spec-kit ✅ 記事作成済み NVIDIA/cosmos ✨ 新規追加 lfnovo/open-notebook ✅ 記事作成済み Open-LLM-VTuber/Open-LLM-VTuber ✅ 記事作成済み jwasham/coding-interview-university ✅ 記事作成済み github/copilot-sdk ✅ 記事作成済み aquasecurity/trivy ✅ 記事作成済み openclaw/openclaw-windows-node ✅ 記事作成済み reconurge/flowsint ✨ 新規追加 mvanhorn/last30days-skill ✅ 記事作成済み 今後の展望 今回は Physical AI の基盤と OSINT 調査基盤という、運用寄りの 2 件を新規に記事化しました。上位側は既存の定番が多く、次回は新たに動き出す repo が出たタイミングで差分を拾うのが効率的です。"
     },
     {
@@ -1769,7 +1769,7 @@
       "publishedAt": "2026-06-04",
       "createdAt": "2026-06-04T04:47:40+09:00",
       "articleUrl": "./articles/github/reports/2026-06-04-update-report.html",
-      "serial": 412,
+      "serial": 66,
       "searchText": "2026-06-04 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-04 の GitHub Trending 更新レポートです。新規記事を 1 件作成しました。 アップデートレポート 2026-06-04 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-04 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-04 調査件数 全 10 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-06-04）の GitHub Trending にランクインしていた全 10 リポジトリの調査結果です。 chopratejas/headroom ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み aquasecurity/trivy ✨ 新規追加 NousResearch/hermes-agent ✅ 記事作成済み microsoft/markitdown ✅ 記事作成済み nesquena/hermes-webui ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み opendataloader-project/opendataloader-pdf ✅ 記事作成済み odoo/odoo ✅ 記事作成済み Open-LLM-VTuber/Open-LLM-VTuber ✅ 記事作成済み 今後の展望 今回は、セキュリティスキャンとエージェント系の実務ツールが強く、残りは既存の定番が並びました。次回は、実運用に直結する安全系ツールと、日常的に再利用しやすいエージェント周辺の更新を優先すると変化を拾いやすいです。"
     },
     {
@@ -1949,7 +1949,7 @@
       "publishedAt": "2026-06-02",
       "createdAt": "2026-06-02T04:47:33+09:00",
       "articleUrl": "./articles/github/reports/2026-06-02-update-report.html",
-      "serial": 411,
+      "serial": 65,
       "searchText": "2026-06-02 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-02 の GitHub Trending 更新レポートです。新規記事を 4 件作成しました。 アップデートレポート 2026-06-02 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-02 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-02 調査件数 全 17 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-02）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 microsoft/markitdown ✅ 記事作成済み nesquena/hermes-webui ✅ 記事作成済み supermemoryai/supermemory ✅ 記事作成済み harry0703/MoneyPrinterTurbo ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み pbakaus/impeccable ✨ 新規追加 p-e-w/heretic ✅ 記事作成済み EveryInc/compound-engineering-plugin ✅ 記事作成済み TauricResearch/TradingAgents ✅ 記事作成済み revfactory/harness ✅ 記事作成済み godotengine/godot ✨ 新規追加 can1357/oh-my-pi ✅ 記事作成済み OpenBMB/VoxCPM ✅ 記事作成済み FareedKhan-dev/train-llm-from-scratch ✅ 記事作成済み stefan-jansen/machine-learning-for-trading ✨ 新規追加 dmtrKovalenko/fff ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み 今後の展望 今回は、AI エージェントの検索基盤、frontend design の指針、そしてゲームエンジンや金融系の学習資産が同時に並びました。次回は、実務の再利用性が高い開発アセットと、継続して使える周辺ツールを優先して追うと変化を拾いやすいです。"
     },
     {
@@ -2054,7 +2054,7 @@
       "publishedAt": "2026-06-01",
       "createdAt": "2026-06-01T04:50:39+09:00",
       "articleUrl": "./articles/github/reports/2026-06-01-update-report.html",
-      "serial": 410,
+      "serial": 64,
       "searchText": "2026-06-01 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-06-01 の GitHub Trending 更新レポートです。新規記事を 4 件作成しました。 アップデートレポート 2026-06-01 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-06-01 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-06-01 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-06-01）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 harry0703/MoneyPrinterTurbo ✅ 記事作成済み microsoft/markitdown ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み nesquena/hermes-webui ✨ 新規追加 EveryInc/compound-engineering-plugin ✅ 記事作成済み github/docs ✨ 新規追加 OpenBMB/VoxCPM ✅ 記事作成済み revfactory/harness ✅ 記事作成済み FareedKhan-dev/train-llm-from-scratch ✅ 記事作成済み supermemoryai/supermemory ✅ 記事作成済み Crosstalk-Solutions/project-nomad ✅ 記事作成済み anthropics/claude-code ✅ 記事作成済み nicobailon/pi-subagents ✨ 新規追加 emmabostian/developer-portfolios ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み 今後の展望 今回は、軽量なエージェント UI、ドキュメント基盤、子エージェント分担、ポートフォリオ参照集が同時に並びました。作るためのツールだけでなく、学ぶ・見せる・運用するための土台が伸びているので、次回は実装支援とドキュメント運用の両面を継続して見ていくと変化を拾いやすいです。"
     },
     {
@@ -2174,7 +2174,7 @@
       "publishedAt": "2026-05-31",
       "createdAt": "2026-05-31T05:00:39+09:00",
       "articleUrl": "./articles/github/reports/2026-05-31-update-report.html",
-      "serial": 60,
+      "serial": 63,
       "searchText": "2026-05-31 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-31 の GitHub Trending 更新レポートです。新規記事を 3 件作成しました。 アップデートレポート 2026-05-31 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-31 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-31 調査件数 全 19 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-05-31）の GitHub Trending にランクインしていた全 19 リポジトリの調査結果です。 microsoft/markitdown ✅ 記事作成済み harry0703/MoneyPrinterTurbo ✅ 記事作成済み anthropics/claude-code ✅ 記事作成済み cursor/plugins ✅ 記事作成済み revfactory/harness ✅ 記事作成済み EveryInc/compound-engineering-plugin ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み OpenBMB/VoxCPM ✅ 記事作成済み galilai-group/stable-worldmodel ✅ 記事作成済み Crosstalk-Solutions/project-nomad ✅ 記事作成済み run-llama/liteparse ✅ 記事作成済み chen08209/FlClash ✨ 新規追加 FareedKhan-dev/train-llm-from-scratch ✨ 新規追加 ruvnet/RuView ✅ 記事作成済み DataTalksClub/data-engineering-zoomcamp ✅ 記事作成済み OpenMOSS/MOSS-TTS ✅ 記事作成済み dreammis/social-auto-upload ✨ 新規追加 anthropics/skills ✅ 記事作成済み codecrafters-io/build-your-own-x ✅ 記事作成済み 今後の展望 本日は、SNS への配信自動化、LLM 学習教材、クロスプラットフォーム proxy client が新規に並びました。AI 周辺の周辺ツールだけでなく、学習・配信・接続管理の実務を支える repo が同時に伸びているのが特徴です。"
     },
     {
@@ -2249,7 +2249,7 @@
       "publishedAt": "2026-05-30",
       "createdAt": "2026-05-30T05:00:02+09:00",
       "articleUrl": "./articles/github/reports/2026-05-30-update-report.html",
-      "serial": 59,
+      "serial": 62,
       "searchText": "2026-05-30 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-30 の GitHub Trending 更新レポートです。新規記事を 5 件作成しました。 アップデートレポート 2026-05-30 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-30 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-30 調査件数 全 17 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-30）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 harry0703/MoneyPrinterTurbo ✅ 記事作成済み microsoft/markitdown ✅ 記事作成済み EveryInc/compound-engineering-plugin ✅ 記事作成済み twentyhq/twenty ✅ 記事作成済み anthropics/claude-code ✅ 記事作成済み Leonxlnx/taste-skill ✅ 記事作成済み cursor/plugins ✨ 新規追加 run-llama/liteparse ✨ 新規追加 galilai-group/stable-worldmodel ✨ 新規追加 byoungd/English-level-up-tips ✅ 記事作成済み Biohub/esm ✨ 新規追加 Crosstalk-Solutions/project-nomad ✅ 記事作成済み DigitalPlatDev/FreeDomain ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み hardikpandya/stop-slop ✅ 記事作成済み DataTalksClub/data-engineering-zoomcamp ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み 今後の展望 本日は plugin 仕様、文書解析、world model 研究、protein biology、データエンジニアリング教育が並び、AI そのものの新機能より周辺の実装・研究・学習基盤が広がる一日でした。次回は、これらの基盤系リポジトリが実運用と研究のどちらで伸びるかを引き続き確認します。"
     },
     {
@@ -2369,7 +2369,7 @@
       "publishedAt": "2026-05-29",
       "createdAt": "2026-05-29T05:22:05+09:00",
       "articleUrl": "./articles/github/reports/2026-05-29-update-report.html",
-      "serial": 58,
+      "serial": 61,
       "searchText": "2026-05-29 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-29 の GitHub Trending 更新レポートです。新規記事を 3 件作成しました。 アップデートレポート 2026-05-29 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-29 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-29 調査件数 全 16 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-05-29）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 harry0703/MoneyPrinterTurbo ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み Leonxlnx/taste-skill ✅ 記事作成済み hardikpandya/stop-slop ✅ 記事作成済み twentyhq/twenty ✅ 記事作成済み DigitalPlatDev/FreeDomain ✅ 記事作成済み byoungd/English-level-up-tips ✅ 記事作成済み microsoft/markitdown ✅ 記事作成済み obra/superpowers ✅ 記事作成済み revfactory/harness ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み Lum1104/Understand-Anything ✅ 記事作成済み unclecode/crawl4ai ✅ 記事作成済み OpenMOSS/MOSS-TTS ✨ 新規追加 EveryInc/compound-engineering-plugin ✨ 新規追加 anthropics/skills ✅ 記事作成済み 今後の展望 本日は AI コーディング系のワークフロー拡張と、音声生成モデルが目立ちました。特に agent team 設計、Compound Engineering、TTS の 3 系統は、実装支援と生成表現の両面で継続的に動きがありそうです。"
     },
     {
@@ -2519,7 +2519,7 @@
       "publishedAt": "2026-05-28",
       "createdAt": "2026-05-28T04:49:37+09:00",
       "articleUrl": "./articles/github/reports/2026-05-28-update-report.html",
-      "serial": 57,
+      "serial": 60,
       "searchText": "2026-05-28 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-28 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-28 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-28 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-28 調査件数 全 16 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-05-28）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 harry0703/MoneyPrinterTurbo ✨ 新規追加 Lum1104/Understand-Anything ✅ 記事作成済み hardikpandya/stop-slop ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み anthropics/knowledge-work-plugins ✅ 記事作成済み Leonxlnx/taste-skill ✅ 記事作成済み p-e-w/heretic ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み twentyhq/twenty ✅ 記事作成済み DigitalPlatDev/FreeDomain ✅ 記事作成済み obra/superpowers ✅ 記事作成済み byoungd/English-level-up-tips ✨ 新規追加 iii-hq/iii ✅ 記事作成済み Axorax/awesome-free-apps ✅ 記事作成済み moeru-ai/airi ✅ 記事作成済み 今後の展望 本日は動画生成基盤と英語学習ガイドの大型リポジトリが追加され、AI そのものよりも周辺の実務・学習資産が広がりました。次回は、実行基盤や教育系の更新がどこまで広がるかを引き続き確認します。"
     },
     {
@@ -2624,7 +2624,7 @@
       "publishedAt": "2026-05-27",
       "createdAt": "2026-05-27T10:05:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-27-update-report.html",
-      "serial": 56,
+      "serial": 59,
       "searchText": "2026-05-27 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-27 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-27 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-27 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-27 調査件数 全 12 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-05-27）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 Lum1104/Understand-Anything ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み anthropics/knowledge-work-plugins ✅ 記事作成済み mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み hardikpandya/stop-slop ✅ 記事作成済み Leonxlnx/taste-skill ✅ 記事作成済み DigitalPlatDev/FreeDomain ✨ 新規追加 jellyfin/jellyfin ✅ 記事作成済み Axorax/awesome-free-apps ✅ 記事作成済み twentyhq/twenty ✅ 記事作成済み st-tech/ppf-contact-solver ✨ 新規追加 今後の展望 今回の新規追加は、3D シミュレーション基盤と無料ドメイン基盤でした。次回は AI エージェント運用、実用アプリ、制作系ツールのどこに新しい伸びが出るかを引き続き確認します。"
     },
     {
@@ -2744,7 +2744,7 @@
       "publishedAt": "2026-05-26",
       "createdAt": "2026-05-26T04:47:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-26-update-report.html",
-      "serial": 55,
+      "serial": 58,
       "searchText": "2026-05-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-26 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-26 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-26 調査件数 全 17 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-26）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 Lum1104/Understand-Anything ✅ 記事作成済み anthropics/knowledge-work-plugins ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み affaan-m/ECC ✨ 新規追加 mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み manaflow-ai/cmux ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✅ 記事作成済み Fincept-Corporation/FinceptTerminal ✅ 記事作成済み paperless-ngx/paperless-ngx ✅ 記事作成済み anthropics/claude-cookbooks ✅ 記事作成済み Leonxlnx/taste-skill ✅ 記事作成済み moeru-ai/airi ✨ 新規追加 shiyu-coder/Kronos ✅ 記事作成済み Axorax/awesome-free-apps ✨ 新規追加 hardikpandya/stop-slop ✨ 新規追加 garrytan/gstack ✅ 記事作成済み 今後の展望 今回の新規追加は、エージェント運用基盤、文章整形 skill、ローカル companion、無料アプリのキュレーションという4方向に分かれました。次回も AI コーディング系のハーネス、Skills / Prompt 系、ローカル運用、実用アプリの発見に続く更新を重点的に監視します。"
     },
     {
@@ -2879,7 +2879,7 @@
       "publishedAt": "2026-05-25",
       "createdAt": "2026-05-25T05:30:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-25-update-report.html",
-      "serial": 54,
+      "serial": 57,
       "searchText": "2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 2026-05-25 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-25 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-25 調査件数 全 16 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-25）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 Lum1104/Understand-Anything ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み anthropics/claude-plugins-official ✅ 記事作成済み anthropics/knowledge-work-plugins ✨ 新規追加 multica-ai/andrej-karpathy-skills ✅ 記事作成済み earendil-works/pi ✨ 新規追加 Alishahryar1/free-claude-code ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み multica-ai/multica ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み manaflow-ai/cmux ✨ 新規追加 666ghj/MiroFish ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み dotnet/skills ✅ 記事作成済み blakeblackshear/frigate ✨ 新規追加 mukul975/Anthropic-Cybersecurity-Skills ✅ 記事作成済み 今後の展望 次回も未作成の新着を優先しつつ、AI エージェント周辺の CLI、プラグイン、ローカル運用系、セキュリティ系、予測シミュレーション系の repo を重点監視します。特にコーディング補助、役割別プラグイン、macOS ターミナル、ローカル映像監視は変化が速いので継続観測が有効です。"
     },
     {
@@ -3104,7 +3104,7 @@
       "publishedAt": "2026-05-24",
       "createdAt": "2026-05-24T04:19:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-24-update-report.html",
-      "serial": 53,
+      "serial": 56,
       "searchText": "2026-05-24 アップデートレポート 2026-05-24 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-24 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-24 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-24 調査件数 全 16 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-24）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 Lum1104/Understand-Anything ✅ 記事作成済み anthropics/claude-plugins-official ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み Fincept-Corporation/FinceptTerminal ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✅ 記事作成済み dotnet/skills ✅ 記事作成済み ChromeDevTools/chrome-devtools-mcp ✅ 記事作成済み mukul975/Anthropic-Cybersecurity-Skills ✨ 新規追加 presenton/presenton ✨ 新規追加 multica-ai/multica ✅ 記事作成済み trimstray/the-book-of-secret-knowledge ✅ 記事作成済み odoo/odoo ✅ 記事作成済み NVlabs/LongLive ✨ 新規追加 yt-dlp/yt-dlp ✅ 記事作成済み janestreet/magic-trace ✨ 新規追加 今後の展望 未作成の上位 repo は今回で埋めたので、次回以降も Trending の更新を追いながら、 プレゼン生成、長尺動画生成、セキュリティ技能、性能トレースのような用途特化型の repo を優先して監視します。"
     },
     {
@@ -3359,7 +3359,7 @@
       "publishedAt": "2026-05-23",
       "createdAt": "2026-05-23T04:50:50+09:00",
       "articleUrl": "./articles/github/reports/2026-05-23-update-report.html",
-      "serial": 52,
+      "serial": 55,
       "searchText": "GitHub Trending Updates for 2026-05-23 2026-05-23 の GitHub Trending 更新レポートです。 アップデートレポート 2026-05-23 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-23 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-23 調査件数 全 14 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-23）の GitHub Trending にランクインしていた全 14 リポジトリの調査結果です。 anthropics/claude-plugins-official ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み ChromeDevTools/chrome-devtools-mcp ✅ 記事作成済み dotnet/skills ✅ 記事作成済み Lum1104/Understand-Anything ✅ 記事作成済み odoo/odoo ✨ 新規追加 byJoey/cfnew ✨ 新規追加 trimstray/the-book-of-secret-knowledge ✅ 記事作成済み Fincept-Corporation/FinceptTerminal ✅ 記事作成済み can1357/oh-my-pi ✅ 記事作成済み yt-dlp/yt-dlp ✨ 新規追加 karpathy/nn-zero-to-hero ✨ 新規追加 今後の展望 引き続き、AI、開発ツール、業務基盤の周辺まで含めて追跡し、未作成の上位リポジトリがあれば優先度順に記事化します。"
     },
     {
@@ -3554,7 +3554,7 @@
       "publishedAt": "2026-05-22",
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html",
-      "serial": 51,
+      "serial": 54,
       "searchText": "GitHub Trending Updates for 2026-05-22 2026-05-22 の GitHub Trending 更新レポートです。 2026-05-22 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-22 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-22 調査件数 全 19 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-05-22）の GitHub Trending にランクインしていた全 19 リポジトリの調査結果です。 anthropics/claude-plugins-official ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✅ 記事作成済み dotnet/skills ✨ 新規追加 obra/superpowers ✅ 記事作成済み HKUDS/CLI-Anything ✅ 記事作成済み rmyndharis/OpenWA ✅ 記事作成済み ChromeDevTools/chrome-devtools-mcp ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み teng-lin/notebooklm-py ✅ 記事作成済み can1357/oh-my-pi ✅ 記事作成済み antoinezambelli/forge ✨ 新規追加 multica-ai/multica ✅ 記事作成済み Imbad0202/academic-research-skills ✅ 記事作成済み trimstray/the-book-of-secret-knowledge ✅ 記事作成済み truelockmc/streambert ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み alireza0/s-ui ✨ 新規追加 Lum1104/Understand-Anything ✅ 記事作成済み 今後の展望 引き続き、AI、開発ツールを中心としたトレンドを追跡します。"
     },
     {
@@ -3599,7 +3599,7 @@
       "publishedAt": "2026-05-21",
       "createdAt": "2026-05-21T05:30:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-21-update-report.html",
-      "serial": 50,
+      "serial": 53,
       "searchText": "2026-05-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ アップデートレポート 2026-05-21 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-21 調査件数 全 17 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-21）の GitHub Trending にランクインしていた全 17 リポジトリの調査結果です。 colbymchenry/codegraph ✅ 記事作成済み Imbad0202/academic-research-skills ✅ 記事作成済み tinyhumansai/openhuman ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✨ 新規追加 HKUDS/CLI-Anything ✅ 記事作成済み can1357/oh-my-pi ✨ 新規追加 obra/superpowers ✅ 記事作成済み anthropics/claude-plugins-official ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み rmyndharis/OpenWA ✨ 新規追加 truelockmc/streambert ✨ 新規追加 opentoonz/opentoonz ✨ 新規追加 zakirullin/files.md 未作成 rohitg00/agentmemory ✅ 記事作成済み ggml-org/llama.cpp ✅ 記事作成済み HKUDS/ViMax ✅ 記事作成済み 今後の展望 本日のトレンドでは、AIコーディングの新たな枠組みである「oh-my-pi」（ハッシュアンカー編集による高精度なdiff生成）や、AIエンジニアリングを基礎から体系的に学ぶためのリファレンスロードマップ「ai-engineering-from-scratch」が上位を占め、AI関連技術の深化が目立ちます。一方で、スタジオジブリ作品の制作現場を支えた「OpenToonz」や、広告なしのストリーミングプレイヤー「Streambert」、オープンなメッセージング中継「OpenWA」といった、メディアおよび実用的なインフラ・業務アプリケーションのオープンソース化も着実に評価されており、多様なカテゴリで自律性とオープン性が指向されています。"
     },
     {
@@ -3689,7 +3689,7 @@
       "publishedAt": "2026-05-20",
       "createdAt": "2026-05-20T04:35:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-20-update-report.html",
-      "serial": 49,
+      "serial": 52,
       "searchText": "2026-05-20 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ アップデートレポート 2026-05-20 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-20 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-20 調査件数 全 18 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-05-20）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 tinyhumansai/openhuman ✅ 記事作成済み HKUDS/CLI-Anything ✅ 記事作成済み Imbad0202/academic-research-skills ✅ 記事作成済み obra/superpowers ✅ 記事作成済み anthropics/claude-plugins-official ✨ 新規追加 rohitg00/agentmemory ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み rtk-ai/rtk ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み colbymchenry/codegraph ✅ 記事作成済み multica-ai/andrej-karpathy-skills ✨ 新規追加 humanlayer/12-factor-agents ✅ 記事作成済み Diolinux/PhotoGIMP ✅ 記事作成済み Alishahryar1/free-claude-code ✅ 記事作成済み pascalorg/editor ✅ 記事作成済み frappe/erpnext ✨ 新規追加 microsoft/ai-agents-for-beginners ✅ 記事作成済み HKUDS/ViMax ✅ 記事作成済み 今後の展望 本日のGitHubトレンドでは、Claude CodeをはじめとするAIコーディングツールの台トウ（プラグイン公式ディレクトリ、Karpathy流のCLAUDE.md最適化ルール）と、Webアプリケーションフレームワークから派生した巨大業務システム（ERPNext）の双方がランクインしました。AIの行動を制約し安全性を高める仕組みと、自律化されたエージェントが基幹業務をサポートする流れは、今後ますます融合していくと予想されます。"
     },
     {
@@ -3779,7 +3779,7 @@
       "publishedAt": "2026-05-19",
       "createdAt": "2026-05-19T06:00:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-19-update-report.html",
-      "serial": 48,
+      "serial": 51,
       "searchText": "2026-05-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ アップデートレポート 2026-05-19 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-19 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-19）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 HKUDS/CLI-Anything 未作成 Imbad0202/academic-research-skills ✨ 新規追加 calcom/cal.diy ✅ 記事作成済み open-dream/DreamServer 未作成 BigBodyCobain/Shadowbroker ✅ 記事作成済み ggml-org/llama.cpp ✨ 新規追加 tech-leads-club/agent-skills ✅ 記事作成済み tinyhumansai/openhuman 未作成 K-Dense-AI/scientific-agent-skills 未作成 NirDiamant/agents-towards-production ✅ 記事作成済み KeygraphHQ/shannon 未作成 NVlabs/Sana ✨ 新規追加 dograh-hq/dograh ✅ 記事作成済み colbymchenry/codegraph 未作成 plausible/analytics ✨ 新規追加 今後の展望 本日も引き続き、AIコーディング支援やエージェント拡張ツール、高性能な画像・動画生成AIなどの最先端AI技術に対する高い関心が現れています。同時に、Google Analyticsの有力なクッキーフリー代替であるPlausible Analyticsのような、実用的かつプライバシー重視のインフラツールも確固たる支持を集めています。"
     },
     {
@@ -4079,7 +4079,7 @@
       "publishedAt": "2026-05-18",
       "createdAt": "2026-05-18T04:45:01+09:00",
       "articleUrl": "./articles/github/reports/2026-05-18-update-report.html",
-      "serial": 47,
+      "serial": 50,
       "searchText": "2026-05-18 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ アップデートレポート 2026-05-18 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-18 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-18 調査件数 全 18 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-18）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 tinyhumansai/openhuman 未作成 HKUDS/CLI-Anything 未作成 calcom/cal.diy ✨ 新規追加 oven-sh/bun 未作成 Anil-matcha/Open-Generative-AI 未作成 BigBodyCobain/Shadowbroker ✨ 新規追加 tech-leads-club/agent-skills ✨ 新規追加 NirDiamant/agents-towards-production ✨ 新規追加 dograh-hq/dograh ✨ 新規追加 K-Dense-AI/scientific-agent-skills 未作成 Light-Heart-Labs/DreamServer 未作成 KeygraphHQ/shannon 未作成 TryGhost/Ghost 未作成 medusajs/medusa 未作成 knadh/listmonk 未作成 plausible/analytics 未作成 colbymchenry/codegraph 未作成 microsoft/ai-agents-for-beginners 未作成 今後の展望 引き続き、AIエージェントや実践的なOSINTなど、実用性の高いツールが人気を集めています。"
     },
     {
@@ -4199,7 +4199,7 @@
       "publishedAt": "2026-05-17",
       "createdAt": "2026-05-17T05:05:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-17-update-report.html",
-      "serial": 46,
+      "serial": 49,
       "searchText": "2026-05-17 アップデートレポート 本日（2026-05-17）の GitHub Trending 全 25 リポジトリの調査結果と、新規追加された 5 件の記事（n8n, Warp 等）のまとめ。 2026-05-17 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-17 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-17 調査件数 全 25 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-17）の GitHub Trending にランクインしていた全 25 リポジトリの調査結果です。 K-Dense-AI/scientific-agent-skills ✅ 記事作成済み obra/superpowers ✅ 記事作成済み Anil-matcha/Open-Generative-AI ✅ 記事作成済み supertone-inc/supertonic ✅ 記事作成済み tinyhumansai/openhuman ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み colbymchenry/codegraph ✨ 新規追加 oven-sh/bun ✅ 記事作成済み projectdiscovery/nuclei ✨ 新規追加 gyroflow/gyroflow ✨ 新規追加 freeCodeCamp/freeCodeCamp ✅ 記事作成済み rustdesk/rustdesk ✅ 記事作成済み n8n-io/n8n ✨ 新規追加 NVIDIA/warp ✨ 新規追加 1N3/Sn1per 未作成 mikeroyal/Self-Hosting-Guide 未作成 enfein/mieru 未作成 neuml/txtai 未作成 apache/kafka 未作成 NVIDIA/open-gpu-kernel-modules 未作成 rust-lang/miri 未作成 argosopentech/argos-translate 未作成 usememos/memos 未作成 apache/superset 未作成 tokio-rs/tokio 未作成 今後の展望 本日は AI コーディング補助ツールからセキュリティスキャナー、物理シミュレーションまで、非常に幅広い分野のリポジトリをピックアップしました。特に n8n や NVIDIA Warp といった、開発の基盤となるツールの進化が著しく、今後のエコシステム拡大に注目が集まります。"
     },
     {
@@ -4469,7 +4469,7 @@
       "publishedAt": "2026-05-16",
       "createdAt": "2026-05-16T04:55:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-16-update-report.html",
-      "serial": 45,
+      "serial": 48,
       "searchText": "2026-05-16 アップデートレポート 本日（2026-05-16）の GitHub Trending 全 12 リポジトリの調査結果と、新規追加された Bun の記事まとめ。 2026-05-16 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-16 調査件数 全 12 件 新規作成 1 件 本日の調査ランキング（全件） 本日（2026-05-16）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 tinyhumansai/openhuman ✅ 記事作成済み obra/superpowers ✅ 記事作成済み K-Dense-AI/scientific-agent-skills ✅ 記事作成済み supertone-inc/supertonic ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み influxdata/telegraf ✅ 記事作成済み anthropics/skills ✅ 記事作成済み czlonkowski/n8n-mcp ✅ 記事作成済み NVIDIA-AI-Blueprints/video-search-and-summarization ✅ 記事作成済み oven-sh/bun ✨ 新規追加 mattpocock/skills ✅ 記事作成済み joeseesun/qiaomu-anything-to-notebooklm ✅ 記事作成済み 今後の展望 本日は Bun がトレンド入りしており、JavaScript エコシステムにおける実行環境への関心の高さが伺えます。また、MCP 関連のスキルや、科学・金融・ビデオ要約といった特定ドメインに特化した AI エージェント基盤が継続的に上位を占めており、AI の実務適用がさらに加速している印象です。"
     },
     {
@@ -4634,7 +4634,7 @@
       "publishedAt": "2026-05-15",
       "createdAt": "2026-05-15T05:00:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-15-update-report.html",
-      "serial": 44,
+      "serial": 47,
       "searchText": "2026-05-15 アップデートレポート 本日（2026-05-15）の GitHub Trending 全 15 リポジトリの調査結果と、新規追加された 5 件の記事（gstack, spec-kit 等）のまとめ。 2026-05-15 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-15 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-15 調査件数 全 15 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-15）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 ruvnet/RuView ✅ 記事作成済み tinyhumansai/openhuman ✅ 記事作成済み rohitg00/agentmemory ✅ 記事作成済み obra/superpowers ✅ 記事作成済み K-Dense-AI/scientific-agent-skills ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み roboflow/supervision ✨ 新規追加 influxdata/telegraf ✅ 記事作成済み supertone-inc/supertonic ✅ 記事作成済み Genymobile/scrcpy ✨ 新規追加 NVIDIA-AI-Blueprints/video-search-and-summarization ✨ 新規追加 CloakHQ/CloakBrowser ✅ 記事作成済み mattpocock/skills ✅ 記事作成済み github/spec-kit ✨ 新規追加 garrytan/gstack ✨ 新規追加 今後の展望 本日は、Claude Code の設定群（gstack）や GitHub 公式の仕様駆動開発ツール（spec-kit）など、AI コーディングのワークフローを強化するツールが目立ちました。また、NVIDIA のビジョンエージェント基盤や roboflow の可視化キットなど、画像・動画解析分野の「エージェント化」も着実に進んでいます。これらのツールを組み合わせることで、より自律的で高度な開発・分析環境が実現していくでしょう。"
     },
     {
@@ -4934,7 +4934,7 @@
       "publishedAt": "2026-05-13",
       "createdAt": "2026-05-13T20:05:00Z",
       "articleUrl": "./articles/github/reports/2026-05-13-pm-update-report.html",
-      "serial": 43,
+      "serial": 45,
       "searchText": "2026-05-13 GitHub PM Updates 本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。 2026-05-13 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-13 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-13 調査件数 全 25 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-13）の GitHub Trending にランクインしていたリポジトリの調査結果です。 tinyhumansai/openhuman ✅ 記事作成済み rohitg00/agentmemory ✅ 記事作成済み obra/superpowers ✅ 記事作成済み yikart/AiToEarn ✅ 記事作成済み influxdata/telegraf ✨ 新規追加 millionco/react-doctor ✅ 記事作成済み K-Dense-AI/scientific-agent-skills ✨ 新規追加 danielmiessler/Personal_AI_Infrastructure ✨ 新規追加 supertone-inc/supertonic ✨ 新規追加 CloakHQ/CloakBrowser 未作成 Greedeks/GTweak 未作成 mattpocock/skills 未作成 ArthurBrussee/brush ✨ 新規追加 今後の展望 本日はエージェント基盤、TTS、3D再構成など、AIの応用範囲がさらに広がる興味深いリポジトリが多く見られました。特にオンデバイスで動作する軽量なツールがトレンドの上位を占めており、プライバシーとパフォーマンスの両立が今後の開発における重要なキーワードになりそうです。"
     },
     {
@@ -5024,7 +5024,7 @@
       "publishedAt": "2026-05-13",
       "createdAt": "2026-05-13T04:50:00Z",
       "articleUrl": "./articles/github/reports/2026-05-13-update-report.html",
-      "serial": 42,
+      "serial": 46,
       "searchText": "2026-05-13 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。 2026-05-13 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-13 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-13 調査件数 全 11 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-05-13）の GitHub Trending にランクインしていた全 11 リポジトリの調査結果です。 tinyhumansai/openhuman ✅ 記事作成済み rohitg00/agentmemory ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み apernet/hysteria ✨ 新規追加 mattpocock/skills ✅ 記事作成済み anonfaded/FadCam ✨ 新規追加 millionco/react-doctor ✅ 記事作成済み rasbt/LLMs-from-scratch ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み yikart/AiToEarn ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み 今後の展望 本日は、昨今のAIトレンドとは一線を画す、実用的なネットワークツールとマルチメディアアプリがランクインしました。特にHysteriaのような通信基盤の進化や、FadCamのような高度なハードウェア制御ツールは、AIエージェントが「環境」を操作・記録するための強力なパーツとしても注目されます。今後、これらのツールがAIオーケストレーションとどのように融合していくかに期待が高まります。"
     },
     {
@@ -5084,7 +5084,7 @@
       "publishedAt": "2026-05-12",
       "createdAt": "2026-05-12T04:55:00Z",
       "articleUrl": "./articles/github/reports/2026-05-12-update-report.html",
-      "serial": 41,
+      "serial": 44,
       "searchText": "2026-05-12 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-12 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-12 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-12 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-12）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み yikart/AiToEarn ✨ 新規追加 playcanvas/supersplat ✅ 記事作成済み datawhalechina/easy-vibe ✅ 記事作成済み decolua/9router ✅ 記事作成済み tinyhumansai/openhuman ✨ 新規追加 millionco/react-doctor ✨ 新規追加 Lordog/dive-into-llms ✅ 記事作成済み AUTOMATIC1111/stable-diffusion-webui ✨ 新規追加 rasbt/LLMs-from-scratch ✨ 新規追加 NousResearch/hermes-agent ✅ 記事作成済み rohitg00/agentmemory ✅ 記事作成済み 今後の展望 本日は既存の人気リポジトリが再浮上する傾向にありましたが、その中でも「LLMs from scratch」や「React Doctor」など、開発者の学習や品質管理を支えるツールが上位を占めています。特にAIエージェントによるコード生成の品質を担保する「React Doctor」は、今後の開発ワークフローにおいて重要な役割を果たすと考えられます。引き続き、実用性の高いツールを中心にピックアップしていきます。"
     },
     {
@@ -5324,7 +5324,7 @@
       "publishedAt": "2026-05-11",
       "createdAt": "2026-05-10T20:15:00Z",
       "articleUrl": "./articles/github/reports/2026-05-11-update-report.html",
-      "serial": 40,
+      "serial": 43,
       "searchText": "2026-05-11 GitHub Updates 本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。 2026-05-11 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-11 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-11 調査件数 全 16 件 (Daily + Weekly/Monthly Pickups) 新規作成 9 件 本日の調査ランキング（全件） 本日（2026-05-11）の GitHub Trending および週間・月間トレンドからピックアップした調査結果です。 bytedance/UI-TARS-desktop ✅ 記事作成済み anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み jundot/omlx ✨ 新規追加 datawhalechina/easy-vibe ✅ 記事作成済み playcanvas/supersplat ✅ 記事作成済み lsdefine/GenericAgent ✅ 記事作成済み decolua/9router ✅ 記事作成済み affaan-m/everything-claude-code ✅ 記事作成済み datawhalechina/hello-agents ✅ 記事作成済み withastro/flue ✨ 新規追加 openai/symphony ✨ 新規追加 open-telemetry/opentelemetry-collector ✨ 新規追加 huggingface/nanotron ✨ 新規追加 darkrishabh/agent-skills-eval ✨ 新規追加 microsoft/data-formulator ✨ 新規追加 code-yeongyu/oh-my-openagent ✨ 新規追加 esengine/DeepSeek-Reasonix ✨ 新規追加 今後の展望 本日の調査では、デイリートレンド上位の多くが既にインデックス済みであることが確認されました。これはサイトの網羅性が高まっている証拠でもあります。そのため、本日はデイリーリストに加え、週間・月間トレンドから注目度の高い新規プロジェクト（Astro公式のAIフレームワークやOpenAIのオーケストレーションツールなど）を補完的にピックアップしました。AIエージェントの「協調動作」と、Apple Silicon等の「ローカル推論最適化」という二大潮流が、トレンドの深層で着実に進化していることが伺えます。"
     },
     {
@@ -5459,7 +5459,7 @@
       "publishedAt": "2026-05-10",
       "createdAt": "2026-05-10T05:00:00+09:00",
       "articleUrl": "./articles/github/reports/2026-05-10-update-report.html",
-      "serial": 39,
+      "serial": 42,
       "searchText": "2026-05-10 GitHub Updates 本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。 2026-05-10 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-10 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-10 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-10）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 anthropics/financial-services ✅ 記事作成済み Hmbown/DeepSeek-TUI ✅ 記事作成済み InsForge/InsForge ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み z-lab/dflash ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み HKUDS/AI-Trader ✅ 記事作成済み oracle-devrel/oracle-ai-developer-hub ✨ 新規追加 playcanvas/supersplat ✨ 新規追加 masterking32/MasterDnsVPN ✨ 新規追加 datawhalechina/easy-vibe ✨ 新規追加 bytedance/UI-TARS-desktop ✨ 新規追加 今後の展望 本日のトレンドでは、ByteDance によるデスクトップ AI エージェント「UI-TARS-desktop」や、3D Gaussian Splatting 編集ツール「supersplat」など、視覚と操作を融合させたツールが目立ちました。また、AI プログラミングの学習ロードマップ「easy-vibe」が高い関心を集めていることは、開発の民主化がさらに加速していることを示唆しています。引き続き、これらの技術がどのように実務に浸透していくかを追跡していきます。"
     },
     {
@@ -5534,7 +5534,7 @@
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T04:45:05+09:00",
       "articleUrl": "./articles/github/reports/2026-05-09-update-report.html",
-      "serial": 38,
+      "serial": 41,
       "searchText": "2026-05-09 GitHub Updates 本日のGitHub Trending調査レポート。新規に4件のリポジトリをピックアップしました。 2026-05-09 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-09 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-09 調査件数 全 12 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-09）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 anthropics/financial-services ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み Hmbown/DeepSeek-TUI ✅ 記事作成済み z-lab/dflash ✅ 記事作成済み decolua/9router ✅ 記事作成済み CloakHQ/CloakBrowser ✅ 記事作成済み awslabs/aidlc-workflows ✨ 新規追加 HKUDS/AI-Trader ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み lobehub/lobehub ✨ 新規追加 datawhalechina/hello-agents ✨ 新規追加 flutter/skills ✨ 新規追加 今後の展望 引き続き、GitHub上のトレンドや新しいツール群を注視していきます。"
     },
     {
@@ -5819,7 +5819,7 @@
       "publishedAt": "2026-05-08",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-08-update-report.html",
-      "serial": 37,
+      "serial": 40,
       "searchText": "2026-05-08 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査では、LLM 推論を劇的に加速する「dflash」、推論ベースの RAG「PageIndex」、コスト最適化ルーター「9router」、MCP 対応エージェント「goose」、ブラウザ完結型動画編集「openreel-video」の 5 件を新規に記事化しました。推論インフラの高度化から、実務・ホビー両面での AI 活用が進んでいることを象徴するラインナップです。 2026-05-08 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-08 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-08 調査件数 全 13 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-08）の GitHub Trending にランクインしていた全 13 リポジトリの調査結果です。 anthropics/financial-services ✅ 記事作成済み Hmbown/DeepSeek-TUI ✅ 記事作成済み z-lab/dflash ✨ 新規追加 InsForge/InsForge ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み addyosmani/agent-skills ✅ 記事作成済み VectifyAI/PageIndex ✨ 新規追加 vercel-labs/open-agents ✅ 記事作成済み docusealco/docuseal ✅ 記事作成済み decolua/9router ✨ 新規追加 PriorLabs/TabPFN ✅ 記事作成済み aaif-goose/goose ✨ 新規追加 Augani/openreel-video ✨ 新規追加 今後の展望 本日のトレンドでは、LLM の推論速度を 6 倍以上に引き上げる dflash や、ベクトル検索に頼らない PageIndex など、生成 AI のボトルネックを根本から解消しようとする技術的な躍進が目立ちました。また、9router のようなコスト最適化ツールや、Goose のような MCP 準拠エージェントの普及は、AI 開発がより実用的かつ経済的なフェーズに入ったことを示唆しています。今後もインフラレイヤーの効率化と、それを利用した高度な自律エージェントの動向を注視していきます。"
     },
     {
@@ -6029,7 +6029,7 @@
       "publishedAt": "2026-05-07",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-07-update-report.html",
-      "serial": 36,
+      "serial": 39,
       "searchText": "2026-05-07 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査では、シニアエンジニアの規律を AI に導入する「agent-skills」、独立系ブラウザ「Ladybird」、AI ネイティブなバックエンド「InsForge」、金融実務特化の「financial-services」、そして LLM API の無料リソース集の 5 件を新規に記事化しました。開発プロセスの標準化からインフラ、専門実務まで、AI 活用のレイヤーが着実に深まっていることを感じさせるラインナップです。 2026-05-07 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-07 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-07 調査件数 全 15 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-05-07）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 Hmbown/DeepSeek-TUI ✅ 記事作成済み addyosmani/agent-skills ✨ 新規追加 PriorLabs/TabPFN ✅ 記事作成済み docusealco/docuseal ✅ 記事作成済み LearningCircuit/local-deep-research ✅ 記事作成済み LadybirdBrowser/ladybird ✨ 新規追加 InsForge/InsForge ✨ 新規追加 virattt/dexter ✅ 記事作成済み anthropics/financial-services ✨ 新規追加 ruvnet/ruflo ✅ 記事作成済み cheahjs/free-llm-api-resources ✨ 新規追加 shiyu-coder/Kronos ✅ 記事作成済み bwya77/vscode-dark-islands ✅ 記事作成済み bytedance/deer-flow ✅ 記事作成済み D4Vinci/Scrapling ✅ 記事作成済み 今後の展望 AI エージェントが単なるコード生成を超え、エンジニアリングの規律やバックエンド管理、さらには金融などの専門実務を肩代わりするフェーズに入っています。今後、これらの要素が統合されることで、真に自律的なソフトウェア開発・運用環境が構築されていくでしょう。"
     },
     {
@@ -6299,7 +6299,7 @@
       "publishedAt": "2026-05-06",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-06-update-report.html",
-      "serial": 35,
+      "serial": 38,
       "searchText": "2026-05-06 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査で、TabPFN、Local Deep Research、Awesome AI Apps、Islands Dark の 4 件を新規に記事化しました。表形式データの基盤モデルから、プライバシー重視のリサーチツール、そして VS Code の外観を極限まで美しくするテーマなど、実用性と審美性を兼ね備えたラインナップとなっています。 2026-05-06 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-06 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-06 調査件数 全 16 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-06）の GitHub Trending にランクインしていた全 16 リポジトリの調査結果です。 Hmbown/DeepSeek-TUI ✅ 既読 ruvnet/ruflo ✅ 既読 virattt/dexter ✅ 既読 docusealco/docuseal ✅ 既読 bwya77/vscode-dark-islands ✨ 新規追加 mksglu/context-mode ✅ 既読 cocoindex-io/cocoindex ✅ 既読 msitarzewski/agency-agents ✅ 既読 jwasham/coding-interview-university ✅ 既読 D4Vinci/Scrapling ✅ 既読 Arindam200/awesome-ai-apps ✨ 新規追加 AIDC-AI/Pixelle-Video ✅ 既読 LearningCircuit/local-deep-research ✨ 新規追加 browserbase/skills ✅ 既読 forrestchang/andrej-karpathy-skills ✅ 既読 PriorLabs/TabPFN ✨ 新規追加 今後の展望 本日の調査では、表形式データの基盤モデル「TabPFN」や、ローカル完結型のリサーチエージェント「Local Deep Research」など、AI の実用性を一段高めるツールが目立ちました。また、VS Code の UI を極限まで美しくする「Islands Dark」のランクインは、開発体験（DX）における審美性の重要性を物語っています。引き続き、実用的な技術と、開発者の情熱を刺激するツールの両面をウォッチしていきます。"
     },
     {
@@ -6389,7 +6389,7 @@
       "publishedAt": "2026-05-05",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-05-update-report.html",
-      "serial": 34,
+      "serial": 37,
       "searchText": "2026-05-05 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査で上位 15 件のトレンドを巡回し、qBittorrent、docuseal、cocoindex、jellyfin の 4 件を新規に記事化しました。デジタル署名基盤やメディアサーバー、そしてエージェント向けのインクリメンタルエンジンなど、実用性の高いツールが揃った結果となりました。 2026-05-05 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-05-05 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-05 調査件数 全 15 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-05-05）の GitHub Trending にランクインしていた全 15 リポジトリの調査結果です。 ruvnet/ruflo ✅ 記事作成済み TauricResearch/TradingAgents ✅ 記事作成済み browserbase/skills ✅ 記事作成済み Hmbown/DeepSeek-TUI ✅ 記事作成済み soxoj/maigret ✅ 記事作成済み qbittorrent/qBittorrent ✨ 新規追加 czlonkowski/n8n-mcp ✅ 記事作成済み 1jehuang/jcode ✅ 記事作成済み msitarzewski/agency-agents ✅ 記事作成済み virattt/dexter 未作成 anthropics/claude-code 未作成 google-gemini/gemini-cli 未作成 cline/cline 未作成 tailwindlabs/tailwindcss 未作成 jellyfin/jellyfin ✨ 新規追加 cocoindex-io/cocoindex ✨ 新規追加 docusealco/docuseal ✨ 新規追加 今後の展望 本日のトレンドでは、既に紹介済みの ruflo や TradingAgents が上位を維持する中、新たに電子署名基盤の DocuSeal や、メディアサーバーの Jellyfin 、そしてエージェント向けのインクリメンタルエンジン CocoIndex など、非常に実用的な OSS が多数ランクインしました。AI 技術が単なる研究開発の段階を超え、実業務やパーソナルユースでのインフラとして定着しつつある傾向が強く感じられます。"
     },
     {
@@ -6464,7 +6464,7 @@
       "publishedAt": "2026-05-04",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-05-04-update-report.html",
-      "serial": 33,
+      "serial": 36,
       "searchText": "2026-05-04 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査で上位 9 件のトレンドを巡回し、DeepSeek-TUI、n8n-mcp、openwrt の 3 件を新規に記事化しました。AI エージェントの実用化ツールが目立つ結果となっています。 2026-05-04 GitHub Trending 更新レポート ← 記事一覧へ戻る Update Report 2026-05-04 GitHub Trending 更新レポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-05-04 調査件数 全 9 件 新規作成 3 件 本日の調査ランキング（全件） 本日の GitHub Trending（All Languages / Daily）から、主要な 9 件のリポジトリを調査しました。 ruvnet/ruflo ✅ 記事作成済み TauricResearch/TradingAgents ✅ 記事作成済み soxoj/maigret ✅ 記事作成済み Hmbown/DeepSeek-TUI ✨ 新規追加 AIDC-AI/Pixelle-Video ✅ 記事作成済み browserbase/skills ✅ 記事作成済み czlonkowski/n8n-mcp ✨ 新規追加 1jehuang/jcode ✅ 記事作成済み openwrt/openwrt ✨ 新規追加 今後の展望 本日のトレンドは、DeepSeek を活用した TUI エージェントや n8n と MCP の統合など、AI エージェントの実用化に向けた「足回り」のツールが目立ちました。また、OpenWrt のような伝統的なプロジェクトが上位に食い込んでいるのは、エッジデバイスでの自由度を求める層の厚さを物語っています。引き続き、AI と既存エコシステムの融合を注視していきます。 Report Serial: #33"
     },
     {

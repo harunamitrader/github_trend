@@ -52,7 +52,7 @@
     },
     {
       "category": "github-update-report",
-      "serial": 752,
+      "serial": 85,
       "title": "2026-06-23 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "publishedAt": "2026-06-23",
@@ -109,7 +109,7 @@
     },
     {
       "category": "github-update-report",
-      "serial": 751,
+      "serial": 84,
       "title": "2026-06-22 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
       "publishedAt": "2026-06-22",
@@ -236,7 +236,7 @@
       "createdAt": "2026-06-21T05:06:00+09:00",
       "originType": "trending",
       "articleUrl": "./articles/github/reports/2026-06-21-update-report.html",
-      "serial": 750
+      "serial": 83
     },
     {
       "category": "github-trending",
@@ -330,7 +330,7 @@
       "createdAt": "2026-06-20T05:06:00+09:00",
       "originType": "trending",
       "articleUrl": "./articles/github/reports/2026-06-20-update-report.html",
-      "serial": 749
+      "serial": 82
     },
     {
       "category": "github-trending",
@@ -424,7 +424,7 @@
       "createdAt": "2026-06-19T05:06:00+09:00",
       "originType": "trending",
       "articleUrl": "./articles/github/reports/2026-06-19-update-report.html",
-      "serial": 748
+      "serial": 81
     },
     {
       "category": "github-trending",
@@ -549,7 +549,7 @@
       "createdAt": "2026-06-18T06:06:00+09:00",
       "originType": "trending",
       "articleUrl": "./articles/github/reports/2026-06-18-update-report.html",
-      "serial": 747
+      "serial": 80
     },
     {
       "category": "github-trending",
@@ -1107,7 +1107,7 @@
       "publishedAt": "2026-06-17",
       "createdAt": "2026-06-17T04:49:39+09:00",
       "articleUrl": "./articles/github/reports/2026-06-17-update-report.html",
-      "serial": 746,
+      "serial": 79,
       "originType": "report"
     },
     {
@@ -1153,7 +1153,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 745,
+      "serial": 78,
       "articleUrl": "./articles/github/reports/2026-06-16-update-report.html",
       "originType": "report"
     },
@@ -1185,7 +1185,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 744,
+      "serial": 77,
       "articleUrl": "./articles/github/reports/2026-06-15-update-report.html",
       "originType": "report"
     },
@@ -1233,7 +1233,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 743,
+      "serial": 76,
       "articleUrl": "./articles/github/reports/2026-06-14-update-report.html",
       "originType": "report"
     },
@@ -1926,7 +1926,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 705,
+      "serial": 75,
       "articleUrl": "./articles/github/reports/2026-06-13-update-report.html",
       "originType": "report"
     },
@@ -1958,7 +1958,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 704,
+      "serial": 74,
       "articleUrl": "./articles/github/reports/2026-06-12-update-report.html",
       "originType": "report"
     },
@@ -1991,7 +1991,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 703,
+      "serial": 73,
       "articleUrl": "./articles/github/reports/2026-06-11-update-report.html",
       "originType": "report"
     },
@@ -7156,7 +7156,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 417,
+      "serial": 72,
       "articleUrl": "./articles/github/reports/2026-06-10-update-report.html",
       "originType": "report"
     },
@@ -7200,7 +7200,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 416,
+      "serial": 71,
       "articleUrl": "./articles/github/reports/2026-06-09-update-report.html",
       "originType": "report"
     },
@@ -7256,7 +7256,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 415,
+      "serial": 70,
       "articleUrl": "./articles/github/reports/2026-06-08-update-report.html",
       "originType": "report"
     },
@@ -7270,7 +7270,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 415,
+      "serial": 69,
       "createdAt": "2026-06-07T04:46:06+09:00",
       "publishedAt": "2026-06-07",
       "articleUrl": "./articles/github/reports/2026-06-07-update-report.html",
@@ -7313,7 +7313,7 @@
       "repoUrl": "",
       "starCount": 0,
       "genre": "アップデートレポート",
-      "serial": 414,
+      "serial": 68,
       "createdAt": "2026-06-06T04:50:24.482611+09:00",
       "publishedAt": "2026-06-06",
       "articleUrl": "./articles/github/reports/2026-06-06-update-report.html",
@@ -7358,7 +7358,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-06-05-update-report.html",
-      "serial": 413,
+      "serial": 67,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -7401,7 +7401,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-06-04-update-report.html",
-      "serial": 412,
+      "serial": 66,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -7445,7 +7445,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-06-02-update-report.html",
-      "serial": 411,
+      "serial": 65,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -7489,7 +7489,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-06-01-update-report.html",
-      "serial": 410,
+      "serial": 64,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -13759,7 +13759,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-05-31-update-report.html",
-      "serial": 60,
+      "serial": 63,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -13792,7 +13792,7 @@
       "repoName": "",
       "repoUrl": "",
       "articleUrl": "./articles/github/reports/2026-05-30-update-report.html",
-      "serial": 59,
+      "serial": 62,
       "genre": "アップデートレポート",
       "originType": "report",
       "starCount": 0
@@ -13821,7 +13821,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 58,
+      "serial": 61,
       "publishedAt": "2026-05-29",
       "createdAt": "2026-05-29T05:22:05+09:00",
       "slug": "2026-05-29-update-report",
@@ -13854,7 +13854,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 57,
+      "serial": 60,
       "publishedAt": "2026-05-28",
       "createdAt": "2026-05-28T04:49:37+09:00",
       "slug": "2026-05-28-update-report",
@@ -13887,7 +13887,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 56,
+      "serial": 59,
       "publishedAt": "2026-05-27",
       "createdAt": "2026-05-27T10:05:00+09:00",
       "slug": "2026-05-27-update-report",
@@ -13920,7 +13920,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 55,
+      "serial": 58,
       "publishedAt": "2026-05-26",
       "createdAt": "2026-05-26T04:47:00+09:00",
       "slug": "2026-05-26-update-report",
@@ -13953,7 +13953,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 54,
+      "serial": 57,
       "publishedAt": "2026-05-25",
       "createdAt": "2026-05-25T05:30:00+09:00",
       "slug": "2026-05-25-update-report",
@@ -13985,7 +13985,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 53,
+      "serial": 56,
       "publishedAt": "2026-05-24",
       "createdAt": "2026-05-24T04:19:00+09:00",
       "slug": "2026-05-24-update-report",
@@ -14017,7 +14017,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 52,
+      "serial": 55,
       "slug": "2026-05-23-update-report",
       "publishedAt": "2026-05-23",
       "createdAt": "2026-05-23T04:50:50+09:00",
@@ -14047,7 +14047,7 @@
       "title": "GitHub Trending Updates for 2026-05-22",
       "summary": "2026-05-22 の GitHub Trending 更新レポートです。",
       "category": "github-update-report",
-      "serial": 51,
+      "serial": 54,
       "publishedAt": "2026-05-22",
       "createdAt": "2026-05-22T04:59:49+09:00",
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html"
@@ -14075,7 +14075,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 50,
+      "serial": 53,
       "publishedAt": "2026-05-21",
       "createdAt": "2026-05-21T05:30:00+09:00",
       "repoName": "",
@@ -14106,7 +14106,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 49,
+      "serial": 52,
       "publishedAt": "2026-05-20",
       "createdAt": "2026-05-20T04:35:00+09:00",
       "repoName": "",
@@ -14137,7 +14137,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 48,
+      "serial": 51,
       "publishedAt": "2026-05-19",
       "createdAt": "2026-05-19T06:00:00+09:00",
       "repoName": "",
@@ -14168,7 +14168,7 @@
       "category": "github-update-report",
       "genre": "アップデートレポート",
       "originType": "report",
-      "serial": 47,
+      "serial": 50,
       "publishedAt": "2026-05-18",
       "createdAt": "2026-05-18T04:45:01+09:00",
       "repoName": "",
@@ -14199,7 +14199,7 @@
       "publishedAt": "2026-05-17",
       "createdAt": "2026-05-17T05:05:00+09:00",
       "category": "github-update-report",
-      "serial": 46,
+      "serial": 49,
       "articleUrl": "./articles/github/reports/2026-05-17-update-report.html"
     },
     {
@@ -14225,7 +14225,7 @@
       "publishedAt": "2026-05-16",
       "createdAt": "2026-05-16T04:55:00+09:00",
       "category": "github-update-report",
-      "serial": 45,
+      "serial": 48,
       "articleUrl": "./articles/github/reports/2026-05-16-update-report.html"
     },
     {
@@ -14251,7 +14251,7 @@
       "publishedAt": "2026-05-15",
       "createdAt": "2026-05-15T05:00:00+09:00",
       "category": "github-update-report",
-      "serial": 44,
+      "serial": 47,
       "articleUrl": "./articles/github/reports/2026-05-15-update-report.html"
     },
     {
@@ -14278,7 +14278,7 @@
       "title": "2026-05-13 GitHub PM Updates",
       "summary": "本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。",
       "category": "github-update-report",
-      "serial": 43
+      "serial": 45
     },
     {
       "category": "github-pickup",
@@ -14304,7 +14304,7 @@
       "title": "2026-05-13 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "serial": 42
+      "serial": 46
     },
     {
       "category": "github-pickup",
@@ -14330,7 +14330,7 @@
       "title": "2026-05-12 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "serial": 41
+      "serial": 44
     },
     {
       "category": "github-trending",
@@ -14356,7 +14356,7 @@
       "title": "2026-05-11 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに5件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "serial": 40
+      "serial": 43
     },
     {
       "category": "github-trending",
@@ -14382,7 +14382,7 @@
       "title": "2026-05-10 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。新規に5件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "serial": 39
+      "serial": 42
     },
     {
       "category": "github-pickup",
@@ -14408,7 +14408,7 @@
       "title": "2026-05-09 GitHub Updates",
       "summary": "本日のGitHub Trending調査レポート。新規に4件のリポジトリをピックアップしました。",
       "category": "github-update-report",
-      "serial": 38
+      "serial": 41
     },
     {
       "category": "github-pickup",
@@ -14435,7 +14435,7 @@
       "summary": "本日の調査では、LLM 推論を劇的に加速する「dflash」、推論ベースの RAG「PageIndex」、コスト最適化ルーター「9router」、MCP 対応エージェント「goose」、ブラウザ完結型動画編集「openreel-video」の 5 件を新規に記事化しました。推論インフラの高度化から、実務・ホビー両面での AI 活用が進んでいることを象徴するラインナップです。",
       "publishedAt": "2026-05-08",
       "articleUrl": "./articles/github/reports/2026-05-08-update-report.html",
-      "serial": 37
+      "serial": 40
     },
     {
       "category": "github-pickup",
@@ -14462,7 +14462,7 @@
       "summary": "本日の調査では、シニアエンジニアの規律を AI に導入する「agent-skills」、独立系ブラウザ「Ladybird」、AI ネイティブなバックエンド「InsForge」、金融実務特化の「financial-services」、そして LLM API の無料リソース集の 5 件を新規に記事化しました。開発プロセスの標準化からインフラ、専門実務まで、AI 活用のレイヤーが着実に深まっていることを感じさせるラインナップです。",
       "publishedAt": "2026-05-07",
       "articleUrl": "./articles/github/reports/2026-05-07-update-report.html",
-      "serial": 36
+      "serial": 39
     },
     {
       "category": "github-pickup",
@@ -14489,7 +14489,7 @@
       "summary": "本日の調査で、TabPFN、Local Deep Research、Awesome AI Apps、Islands Dark の 4 件を新規に記事化しました。表形式データの基盤モデルから、プライバシー重視のリサーチツール、そして VS Code の外観を極限まで美しくするテーマなど、実用性と審美性を兼ね備えたラインナップとなっています。",
       "publishedAt": "2026-05-06",
       "articleUrl": "./articles/github/reports/2026-05-06-update-report.html",
-      "serial": 35
+      "serial": 38
     },
     {
       "category": "github-update-report",
@@ -14526,7 +14526,7 @@
       "summary": "本日の調査で上位 15 件のトレンドを巡回し、qBittorrent、docuseal、cocoindex、jellyfin の 4 件を新規に記事化しました。デジタル署名基盤やメディアサーバー、そしてエージェント向けのインクリメンタルエンジンなど、実用性の高いツールが揃った結果となりました。",
       "publishedAt": "2026-05-05",
       "articleUrl": "./articles/github/reports/2026-05-05-update-report.html",
-      "serial": 34
+      "serial": 37
     },
     {
       "category": "github-update-report",
@@ -14563,7 +14563,7 @@
       "summary": "本日の調査で上位 9 件のトレンドを巡回し、DeepSeek-TUI、n8n-mcp、openwrt の 3 件を新規に記事化しました。AI エージェントの実用化ツールが目立つ結果となっています。",
       "publishedAt": "2026-05-04",
       "articleUrl": "./articles/github/reports/2026-05-04-update-report.html",
-      "serial": 33
+      "serial": 36
     },
     {
       "category": "github-update-report",
