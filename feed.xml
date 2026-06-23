@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 21:35:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 19:18:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[youtube-fetcher-to-markdown]]></title>
@@ -54,6 +54,14 @@
       <category>github-trending</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングエージェントを使用してワンコマンドでウェブサイトをNext.js + Tailwind v4 + shadcn/uiのクリーンな構成にリバースエンジニアリング・複製するテンプレート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[finplot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-finplot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-finplot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ]]></description>
     </item>
     <item>
       <title><![CDATA[awesome-ai-security]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Webページをわずか5MB of Rust (Tauri) 製軽量デスクトップアプリへ、コマンド1つで高速パッケージングするパッケージツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-artificial-intelligence]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-owainlewis-awesome-artificial-intelligence.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-owainlewis-awesome-artificial-intelligence.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[RAGや自律エージェント、LLMOpsなど、AIプロダクト構築に不可欠な最新の書籍・論文・フレームワーク・評価ツールを厳選した実務重視 of 学習ガイド]]></description>
     </item>
   </channel>
 </rss>

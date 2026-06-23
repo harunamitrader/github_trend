@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>finplot</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">finplot</h1>
+      <p class="article-dek">数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-23 -->
+          <strong>2026-06-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/highfestiva/finplot" target="_blank" rel="noreferrer">
+              highfestiva/finplot
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,157</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>finplot</code>（Finance Plotter）は、バックテストや金融データの可視化に特化した、Python向けの超高速かつシンプルなプロットライブラリです。 有名な可視化ライブラリである <code>mpl_finance</code> や <code>plotly</code>、<code>Bokeh</code> などと比較して圧倒的に高いパフォーマンスを誇り、数十万件ものデータポイント（ローソク足など）を処理しても遅延なく動作します。<code>pyqtgraph</code> をベースにしており、デスクトップ環境での高速なズームやスクロール（パン）といったインタラクティブな操作を快適に行うことができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>株や暗号資産（仮想通貨）など、さまざまな金融データの時系列チャートを任意の時間枠（解像度）でプロットできます。 ローソク足チャートの描画をはじめ、インジケーター（MACD、RSI、ボリンジャーバンドなど）の重ね合わせ、出来高プロファイル（Volume Profile）、 ヒートマップ、注文板（オーダーブック）のリアルタイム更新表示などが可能です。 複数のチャートを同一の時間軸で同期させ、同時にズームイン・ズームアウトやスクロールを行うことも容易です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最も目立つのは、徹底的なパフォーマンス設計と、『気が利いたデフォルト設定（Opinionated）』です。 多くの一般的なグラフ描画ライブラリが金融特有のスクロールや縦方向の自動ズームで苦戦するなか、<code>finplot</code> は特別な設定なしで最適化された状態で機能します。 また、前回実行時に見ていたチャートの位置（拡大・縮小状態）を自動的に記憶して次回起動時に復元する『自動リロード機能』など、 バックテスト作業の効率を高める細かな配慮が施されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>pipを使って簡単にインストールできます：<br><code>pip install finplot</code><br><br>使用例として、<code>yfinance</code> などで株価データをダウンロードし、ローソク足を描画するコードは数行で完結します：<br><pre><code class="language-python">import finplot as fplt
+import yfinance
+
+df = yfinance.download('AAPL')
+fplt.candlestick_ochl(df[['Open', 'Close', 'High', 'Low']])
+fplt.show()</code></pre><br>このコードを実行するだけで、インタラクティブに操作可能なAAPLの日足チャートが表示されます。 より複雑なレイアウトやインジケーターの追加方法は、公式リポジトリの <code>examples</code> ディレクトリや Wiki に豊富に掲載されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Pythonで自動取引システムの構築やバックテストを行っている開発者やトレーダーに最適です。 特に、大量のヒストリカルデータをミリ秒単位の描画遅延なくスムーズに分析したい人、 TradingViewのような使い心地のチャートをローカルのデスクトップ環境で手軽に構築したいデータサイエンティストに向いています。</p>
+
+        <h2>注意点</h2>
+        <p><code>finplot</code> はデスクトップアプリ（Qt）としての動作を前提としており、Webアプリケーションではありません。 そのため、Jupyter Lab/Notebook の中でインラインでインタラクティブに動かすことはできず、ブラウザベースのダッシュボードに組み込むことも基本的には困難です（ローカルのウィンドウとして起動します）。 また、ドキュメントの多くは体系的な API リファレンスというよりも、豊富なサンプルコード（examples）の形で提供されているため、 詳細なカスタマイズを行う際はソースコードやサンプルを読み解く必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>finplot</code> は、Pythonで金融データを扱う人々にとって、最もストレスなく動作する超高速プロットツールの一つです。 Webでの共有には不向きですが、ローカルでバックテストを回し、その結果を詳細かつスムーズに視覚化・検証したいというニーズには、これ以上ない強力な選択肢と言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/highfestiva/finplot" target="_blank" rel="noreferrer">https://github.com/highfestiva/finplot</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #791</p>
+      </div>
+    </article>
+  </body>
+</html>

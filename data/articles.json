@@ -16756,6 +16756,20 @@
       "repoUrl": "https://codeium.com/windsurf",
       "articleUrl": "./articles/tools/2026-03-01-windsurf-flow.html",
       "rank": 999
+    },
+    {
+      "category": "github-pickup",
+      "serial": 791,
+      "originType": "pickup",
+      "genre": "金融・トレード分析",
+      "repoName": "highfestiva/finplot",
+      "repoUrl": "https://github.com/highfestiva/finplot",
+      "title": "finplot",
+      "dek": "数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-23T19:25:00+09:00",
+      "starCount": 1157,
+      "articleUrl": "./articles/github/daily/2026-06-23-finplot.html"
     }
   ]
 }
