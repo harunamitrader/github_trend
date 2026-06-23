@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応</h1>
+      <p class="article-dek">MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-22 -->
+          <strong>2026-06-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.186</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.186 では、主に MCP（Model Context Protocol）サーバーの認証フロー改善や、非インタラクティブ環境（SSHなど）での操作性向上、バックグラウンドでのセッション更新などの使い勝手の改善が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            <li><strong>MCPサーバーのCLI認証:</strong> <code>claude mcp login &lt;name&gt;</code> および <code>claude mcp logout &lt;name&gt;</code> コマンドを追加し、CLIから直接MCPサーバーのログイン/ログアウト認証を行えるようにしました。</li>
+            <li><strong>非インタラクティブ認証のサポート:</strong> <code>--no-browser</code> オプションおよび標準入力（stdin）の読み取りに対応し、SSH環境などのブラウザが使えない環境でも認証が容易になりました。</li>
+            <li><strong>バックグラウンドセッションの自動更新:</strong> バックグラウンドにあるエージェントセッションが自動的に新バージョンへ更新されるようになり、アップデート後の初回起動時の待機時間（コールドスタート）が解消されました。</li>
+            <li><strong>ワークフロー表示のフィルタリング:</strong> <code>/workflows</code> 画面で <code>f</code> キーを押すことで、ステータスによるフィルタリング（絞り込み）が可能になりました。</li>
+            <li><strong>UI/UXの細かな改善:</strong> <code>/plugin</code> 内の Installed タブに「Skills」セクションを追加。また、起動時にサブスクリプション移行の提案がトーストではなくスタートアップメッセージ枠に表示されるようになり、コマンドヘルプ（<code>/</code> メニュー）の記述も整理されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特にリモート開発やSSH経由でターミナルから操作しているユーザーにとって、ブラウザを使わずにCLIから直接MCP認証を通せるようになった点は大きな改善です。また、バックグラウンドのセッションが自動更新されるようになったことで、アップデート後の起動ストレスがなくなります。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.186 は、ターミナル作業における摩擦（ブラウザ認証や起動待機）を減らし、実用的な運用性をさらに高める堅実なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">Claude Code Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

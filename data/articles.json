@@ -16770,6 +16770,17 @@
       "createdAt": "2026-06-23T19:25:00+09:00",
       "starCount": 1157,
       "articleUrl": "./articles/github/daily/2026-06-23-finplot.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-claudecode-v2-1-186",
+      "title": "Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応",
+      "dek": "MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-24T04:05:00+09:00",
+      "toolName": "Claude Code",
+      "version": "v2.1.186",
+      "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-186.html"
     }
   ]
 }

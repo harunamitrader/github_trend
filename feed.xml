@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 10:19:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 04:03:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[youtube-fetcher-to-markdown]]></title>
@@ -112,6 +112,14 @@
       <description><![CDATA[Claude Code v2.1.185 がリリースされました。内部インフラの改善と安定性の向上が含まれています。]]></description>
     </item>
     <item>
+      <title><![CDATA[Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-186.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-186.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。]]></description>
+    </item>
+    <item>
       <title><![CDATA[OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[SQLiteの互換性を持ち、超低レイテンシでエッジ実行やグローバル分散に対応したモダンなインプロセスSQLデータベース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Pake]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tw93-Pake.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tw93-Pake.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Webページをわずか5MB of Rust (Tauri) 製軽量デスクトップアプリへ、コマンド1つで高速パッケージングするパッケージツール]]></description>
     </item>
   </channel>
 </rss>
