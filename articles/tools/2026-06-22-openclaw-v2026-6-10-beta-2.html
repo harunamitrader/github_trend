@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善</h1>
+      <p class="article-dek">会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-22 -->
+          <strong>2026-06-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.6.10-beta.2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClaw v2026.6.10-beta.2 では、対話ターンにおける実行パフォーマンスを最適化する「自動ファストモード」の追加や、各種LLMプロバイダー（Zai、GLMなど）との連携動作の堅牢化、およびセッション・ポリシー管理の安全性が改善されました。主な変更点は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            <li><strong>会話用自動ファストモード (Automatic fast mode for talks):</strong> 短いチャットターンに対して自動でファストモードを適用し、長時間の実行時はフォールバック境界を適用した通常モードに自動的に戻る切り替え機構を実装しました。</li>
+            <li><strong>モデルルーティングとフェイルオーバーの改善:</strong> Zaiモデル合成、Zhipu GLMの過負荷時フェイルオーバー判定、およびライブ検出モデルにおけるネイティブな <code>/think</code> 推論レベルの解釈が、アクティブなモデルカタログに従うよう信頼性を高めました。</li>
+            <li><strong>セッションとチャンネル状態のクリーン化:</strong> チャンネル切り替え時に古い origin 情報をリセットしてリークを防ぐとともに、cron 配信のコンテキストが正確に対象セッションへバインドされるように修正しました。</li>
+            <li><strong>フック合成時のポリシー整合性:</strong> フックレジストリが合成された場合でも、承認を要する機密フローの実行に必要な「信頼されたポリシー（trusted policies）」が失われないよう保護機構を導入しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>短い対話におけるレスポンス速度が向上し、長時間のタスクとのバランスが自動で保たれるようになります。また、Zai や GLM-5 などの新しい推論モデルの呼び出しや failover 周辺の動作が安定したことで、多様な API 環境での予期せぬハングやエラーが減少します。フックを利用した承認プロンプトを運用している環境でもポリシー紛失によるクラッシュを防げます。</p>
+
+        <h2>まとめ</h2>
+        <p>v2026.6.10-beta.2 は、対話的な自動実行（fast talks）のユーザー体験向上と、モデルカタログ・ポリシー管理の安全性を大きく前進させた実用的なベータアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.6.10-beta.2" target="_blank" rel="noreferrer">OpenClaw v2026.6.10-beta.2 Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

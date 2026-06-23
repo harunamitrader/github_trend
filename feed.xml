@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 19:03:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 04:16:24 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[youtube-fetcher-to-markdown]]></title>
@@ -120,6 +120,14 @@
       <description><![CDATA[MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。]]></description>
     </item>
     <item>
+      <title><![CDATA[OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-openclaw-v2026-6-10-beta-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-openclaw-v2026-6-10-beta-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。]]></description>
+    </item>
+    <item>
       <title><![CDATA[OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</guid>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[turso]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tursodatabase-turso.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-tursodatabase-turso.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SQLiteの互換性を持ち、超低レイテンシでエッジ実行やグローバル分散に対応したモダンなインプロセスSQLデータベース]]></description>
     </item>
   </channel>
 </rss>

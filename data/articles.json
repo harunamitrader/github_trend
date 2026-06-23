@@ -16781,6 +16781,17 @@
       "toolName": "Claude Code",
       "version": "v2.1.186",
       "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-186.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-openclaw-v2026-6-10-beta-2",
+      "title": "OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善",
+      "dek": "会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-24T04:20:00+09:00",
+      "toolName": "OpenClaw",
+      "version": "v2026.6.10-beta.2",
+      "articleUrl": "./articles/tools/2026-06-22-openclaw-v2026-6-10-beta-2.html"
     }
   ]
 }
