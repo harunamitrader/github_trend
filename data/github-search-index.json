@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-23T20:02:17.507472+00:00",
-  "count": 874,
+  "generatedAt": "2026-06-23T20:27:58.159548+00:00",
+  "count": 875,
   "articles": [
+    {
+      "slug": "2026-06-24-latent-spaces-brag",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "brag",
+      "dek": "作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。",
+      "summary": "",
+      "repoName": "latent-spaces/brag",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-24T05:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-24-latent-spaces-brag.html",
+      "serial": 792,
+      "searchText": "brag 作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。 latent-spaces/brag メディア作成・マルチモーダル・UI brag ← 記事一覧へ戻る GitHub Watcher brag 作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。 記事作成日 2026-06-24 種別 Pickup 対象 repo latent-spaces/brag Star数 232 これは何か 外部に公開できるクオリティのプロモーション動画を、自分が作ったプロジェクトのディレクトリからワンコマンドで自動生成する、Claude Code用の拡張機能（スキル/プラグイン）です。自律型AIであるClaude Codeが、プロジェクトのソースコードや構造を読み取り、製品紹介に必要なストーリーボード（絵コンテ）を自動作成します。 何ができるか 製品のコアバリュー、説明文、ハイライトシーンを選定し、動画生成AIである Hyperframes とのAPI連携によって、BGM、効果音、テキストアニメーションが組み合わさった完成度の高いプロモーション動画（ brag.mp4 ）を自動でビルド・レンダリングします。同時に、X（旧Twitter）などで共有するための製品紹介文言（シェアコピー）も出力します。 目立つポイント Claude Codeの使い慣れたチャットUIから let's /brag と指示するだけで動画生成が完了する手軽さ、 --tone オプションで動画の雰囲気（例: スタートアップ風、クラシック風など）を指定できる演出機能、ツールチップや画面構成、そして Hyperframes CLI を裏側で駆動してタイミングと演出を制御するスマートなシナリオ組み立てが特徴です。 セットアップや使い方の流れ Claude Codeのプラグイン管理システムを利用し、 /plugin marketplace add latent-spaces/brag および /plugin install brag@brag で導入できます。また、リポジトリの skills/brag/ ディレクトリを ~/.claude/skills/brag/ へ直接コピーして手動インストールすることも可能です。実行には Node.js 22+、FFmpeg、および npx hyperframes がコマンドラインで動作する環境が必要です。 どんな人向けか 開発したばかりのソフトウェアやOSSをSNS（XやLinkedInなど）に動画付きで手軽に投稿し、製品のアピールや周知（Brag: 自慢）を行いたいデベロッパー。動画編集スキルがなくても、短時間でプロフェッショナルな紹介動画を作りたいエンジニアに最適です。 注意点 動作には Hyperframes API へのアクセスと連携が必要になります。また、ローカルで動画の合成およびデコードを行うために FFmpeg がインストールされており、PATHが通っていることが前提となります。無料・有料のAPI利用制限や詳細なライセンス規約については、Hyperframes 側の仕様を確認してください。 まとめ brag は、「作ったものを周りに知ってもらう（ローンチする）」という非常に重要かつ面倒なフェーズを、AIエージェントの自律的な分析力を借りて極小化する先進的なプラグインです。Claude Codeの開発者親和性の高さを活かし、テキスト解析からマルチメディア出力（動画）までをシームレスに繋ぐ、近未来のAI開発体験を提示しています。 参照リンク https://github.com/latent-spaces/brag Shared GitHub Serial: #792"
+    },
     {
       "slug": null,
       "category": "github-pickup",

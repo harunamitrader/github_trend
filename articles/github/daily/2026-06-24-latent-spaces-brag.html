@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>brag</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">brag</h1>
+      <p class="article-dek">作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-24 -->
+          <strong>2026-06-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/latent-spaces/brag" target="_blank" rel="noreferrer">
+              latent-spaces/brag
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>232</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>外部に公開できるクオリティのプロモーション動画を、自分が作ったプロジェクトのディレクトリからワンコマンドで自動生成する、Claude Code用の拡張機能（スキル/プラグイン）です。自律型AIであるClaude Codeが、プロジェクトのソースコードや構造を読み取り、製品紹介に必要なストーリーボード（絵コンテ）を自動作成します。</p>
+
+        <h2>何ができるか</h2>
+        <p>製品のコアバリュー、説明文、ハイライトシーンを選定し、動画生成AIである Hyperframes とのAPI連携によって、BGM、効果音、テキストアニメーションが組み合わさった完成度の高いプロモーション動画（<code>brag.mp4</code>）を自動でビルド・レンダリングします。同時に、X（旧Twitter）などで共有するための製品紹介文言（シェアコピー）も出力します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Claude Codeの使い慣れたチャットUIから <code>let's /brag</code> と指示するだけで動画生成が完了する手軽さ、<code>--tone</code> オプションで動画の雰囲気（例: スタートアップ風、クラシック風など）を指定できる演出機能、ツールチップや画面構成、そして Hyperframes CLI を裏側で駆動してタイミングと演出を制御するスマートなシナリオ組み立てが特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Codeのプラグイン管理システムを利用し、<code>/plugin marketplace add latent-spaces/brag</code> および <code>/plugin install brag@brag</code> で導入できます。また、リポジトリの <code>skills/brag/</code> ディレクトリを <code>~/.claude/skills/brag/</code> へ直接コピーして手動インストールすることも可能です。実行には Node.js 22+、FFmpeg、および <code>npx hyperframes</code> がコマンドラインで動作する環境が必要です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>開発したばかりのソフトウェアやOSSをSNS（XやLinkedInなど）に動画付きで手軽に投稿し、製品のアピールや周知（Brag: 自慢）を行いたいデベロッパー。動画編集スキルがなくても、短時間でプロフェッショナルな紹介動画を作りたいエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>動作には Hyperframes API へのアクセスと連携が必要になります。また、ローカルで動画の合成およびデコードを行うために FFmpeg がインストールされており、PATHが通っていることが前提となります。無料・有料のAPI利用制限や詳細なライセンス規約については、Hyperframes 側の仕様を確認してください。</p>
+
+        <h2>まとめ</h2>
+        <p>brag は、「作ったものを周りに知ってもらう（ローンチする）」という非常に重要かつ面倒なフェーズを、AIエージェントの自律的な分析力を借りて極小化する先進的なプラグインです。Claude Codeの開発者親和性の高さを活かし、テキスト解析からマルチメディア出力（動画）までをシームレスに繋ぐ、近未来のAI開発体験を提示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/latent-spaces/brag" target="_blank" rel="noreferrer">https://github.com/latent-spaces/brag</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #792</p>
+      </div>
+    </article>
+  </body>
+</html>
