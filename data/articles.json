@@ -110,10 +110,10 @@
       "repoName": "steipete/oracle",
       "repoUrl": "https://github.com/steipete/oracle",
       "title": "oracle",
-      "dek": "プロンプトとソースコード等のファイルを自動で1つにバンドルし、APIキー不要のブラウザ自動化や複数モデル連携でAIに即座に問い合わせできる強力なCLI開発アシスタント。",
+      "dek": "プロンプトと関連ファイルを1つに束ね、GPT-5.5 ProやGemini 3.1 Pro、Claude Sonnet 4.6などへCLIから問い合わせられる、ブラウザ自動化/MCP対応の開発支援ツール。",
       "publishedAt": "2026-06-23",
       "createdAt": "2026-06-23T05:35:00+09:00",
-      "starCount": 2911,
+      "starCount": 2966,
       "articleUrl": "./articles/github/daily/2026-06-23-steipete-oracle.html"
     },
     {

@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 20:53:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 21:03:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[latitude-llm]]></title>
@@ -53,7 +53,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-steipete-oracle.html</guid>
       <category>github-pickup</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロンプトとソースコード等のファイルを自動で1つにバンドルし、APIキー不要のブラウザ自動化や複数モデル連携でAIに即座に問い合わせできる強力なCLI開発アシスタント。]]></description>
+      <description><![CDATA[プロンプトと関連ファイルを1つに束ね、GPT-5.5 ProやGemini 3.1 Pro、Claude Sonnet 4.6などへCLIから問い合わせられる、ブラウザ自動化/MCP対応の開発支援ツール。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-06-23 アップデートレポート]]></title>
