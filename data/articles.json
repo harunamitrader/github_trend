@@ -8,6 +8,39 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-06-23-claude-claude-tag-launch",
+      "title": "Claude: Slack統合の自律エージェント「Claude Tag」を発表",
+      "dek": "Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-25T04:24:00+09:00",
+      "toolName": "Claude",
+      "version": "Claude Tag Launch",
+      "articleUrl": "./articles/tools/2026-06-23-claude-claude-tag-launch.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-gemini-v3-5-flash-update",
+      "title": "Gemini 3.5 Flash: 内蔵Computer Useツールのプレビュー提供と3.5 Proのリリース延期",
+      "dek": "Gemini 3.5 Flashに画面認識・操作を行う「Computer Use」機能が内蔵ツールとして実装。一方、開発中のGemini 3.5 Proは品質チューニングのため7月へ公開が延期されました。",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T04:23:00+09:00",
+      "toolName": "Gemini",
+      "version": "v3.5 Flash Update",
+      "articleUrl": "./articles/tools/2026-06-24-gemini-v3-5-flash-update.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-chatgpt-gpt-5-5-instant-update",
+      "title": "ChatGPT: GPT-5.5 Instant 会話品質の向上と1万文字以上の自動ファイル添付化",
+      "dek": "GPT-5.5 Instantにおける会話ターン間のコンテキスト維持能力や複雑な指示追従性の強化、およびFree/Goユーザー向けの入力欄スマート化アップデート。",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T04:22:00+09:00",
+      "toolName": "ChatGPT",
+      "version": "GPT-5.5 Instant Update",
+      "articleUrl": "./articles/tools/2026-06-24-chatgpt-gpt-5-5-instant-update.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-06-24-openclaw-v2026-6-10",
       "title": "OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善",
       "dek": "短いターンでの「自動ファストモード（automatic fast mode）」の導入、Zaiモデル・GLM過負荷フェイルオーバー等のモデルルーティングの信頼性向上、およびチャネル切り替え時の状態初期化等のバグ修正を盛り込んだ stable アップデート。",

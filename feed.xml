@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2026 19:17:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 04:19:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini 3.5 Flash: 内蔵Computer Useツールのプレビュー提供と3.5 Proのリリース延期]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini 3.5 Flashに画面認識・操作を行う「Computer Use」機能が内蔵ツールとして実装。一方、開発中のGemini 3.5 Proは品質チューニングのため7月へ公開が延期されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: GPT-5.5 Instant 会話品質の向上と1万文字以上の自動ファイル添付化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-chatgpt-gpt-5-5-instant-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-chatgpt-gpt-5-5-instant-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GPT-5.5 Instantにおける会話ターン間のコンテキスト維持能力や複雑な指示追従性の強化、およびFree/Goユーザー向けの入力欄スマート化アップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-10.html</link>
@@ -38,6 +54,14 @@
       <category>github-pickup</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude: Slack統合の自律エージェント「Claude Tag」を発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-23-claude-claude-tag-launch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-23-claude-claude-tag-launch.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。]]></description>
     </item>
     <item>
       <title><![CDATA[finplot]]></title>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OSINTを自動化し、脅威インテリジェンスとアタックサーフェスのマッピングを行うツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.48.0-preview.0: Air-gapped Service Identity とセキュリティ強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-geminicli-v0-48-0-preview-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI v0.48.0-preview.0 がリリース。Air-gapped Service Identityのサポートやスキルインストールの脆弱性修正など、セキュリティと機能性が向上しています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.185: 安定性の向上とマイナーバグ修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-185.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-22-claudecode-v2-1-185.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code v2.1.185 がリリースされました。内部インフラの改善と安定性の向上が含まれています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AlgoTrading]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-21-StockSharp-AlgoTrading.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[C#やPythonで記述されたアルゴリズムトレード戦略と、StockSharp Designer用の設計スキーマを集めた公式リポジトリ。]]></description>
     </item>
   </channel>
 </rss>
