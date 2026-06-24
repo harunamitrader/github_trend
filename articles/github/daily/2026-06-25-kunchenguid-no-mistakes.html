@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>no-mistakes</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">no-mistakes</h1>
+      <p class="article-dek">git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-25 -->
+          <strong>2026-06-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kunchenguid/no-mistakes" target="_blank" rel="noreferrer">
+              kunchenguid/no-mistakes
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,929</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>no-mistakes は、リモートリポジトリへ直接 push する前に、AI 駆動の検証パイプライン（レビュー、テスト、ドキュメント、lint 等）を使い捨ての worktree 上で実行するためのローカル Git プロキシです。開発者の作業環境に影響を与えることなく、コードの健全性を検証した上で自動的に PR を作成する役割を果たします。</p>
+
+        <h2>何ができるか</h2>
+        <p>ローカルから git push no-mistakes を実行するだけで、裏側で隔離された Git worktree が立ち上がり、テスト実行や linter、AI によるコードレビュー、ドキュメントの更新確認が自動的に走ります。すべてのチェックをパスした場合のみ、本物のリモート（origin等）へブランチが転送され、GitHub 上で PR が作成されます。エラーが発生した場合は、内蔵の TUI（Terminal User Interface）を起動して findings（検出事項）を確認・修正・承認することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>開発者の日常的な Git フロー（git push）にシームレスに介入する点、Claude Code 等のコーディングエージェントに /no-mistakes というスキルとして組み込める点、そして検出された些細なフォーマットエラーなどを自動修正（auto-fix）して PR に含める機能が挙げられます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>curl スクリプト経由でインストール後、対象の Git リポジトリ内で no-mistakes init を実行するだけで初期化され、専用のリモートゲートが追加されます。その後は git push no-mistakes <branch> を実行することで検証が開始されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>PR を常にクリーンな状態に維持したい個人開発者や、チーム開発において CI の失敗を未然にローカルで防ぎたいエンジニア、また Claude Code などの自律エージェントに安全なガードレールを設置したい開発支援ツール愛好者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>ローカルで隔離された worktree 内でテストやビルドを実行するため、テストランタイムやビルド環境がローカルに正しくセットアップされている必要があります。また、AI レビュー機能を利用するためには、バックエンドの LLM（Ollama や Gemini API）への接続が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>no-mistakes は、手動での Git プッシュ作業に AI 駆動の自動ガードレールを付与し、ローカルでの検証を強力にサポートすることで、壊れたコードが共有されるのを防ぐ非常に実用的でユニークな Git プロキシツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kunchenguid/no-mistakes" target="_blank" rel="noreferrer">https://github.com/kunchenguid/no-mistakes</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #794</p>
+      </div>
+    </article>
+  </body>
+</html>

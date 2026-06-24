@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="履歴書PDFからLLMを用いてJSON形式の構造データを抽出し、GitHubのアクティビティ情報で補強して客観的な採用評価スコアを出力するパイプライン"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hiring-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hiring-agent</h1>
+      <p class="article-dek">履歴書PDFからLLMを用いてJSON形式の構造データを抽出し、GitHubのアクティビティ情報で補強して客観的な採用評価スコアを出力するパイプライン</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-25 -->
+          <strong>2026-06-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/interviewstreet/hiring-agent" target="_blank" rel="noreferrer">
+              interviewstreet/hiring-agent
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,058</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Hiring Agent は、求職者の履歴書（PDF）を解析し、LLM（大規模言語モデル）を用いて JSON 形式で構造化した後、GitHub アカウントからオープンソースへの貢献実績やリポジトリの評価（Star数等）などのシグナルを取得して統合し、公平で説明可能な採用評価スコアを自動生成する Resume-to-Score パイプラインエージェントです。</p>
+
+        <h2>何ができるか</h2>
+        <p>PyMuPDF を用いて履歴書 PDF を Markdown に変換し、Jinja テンプレートに基づき各項目（学歴、職歴、スキル、プロジェクト等）を LLM で抽出します。抽出されたプロフィールから GitHub ユーザー名を割り出し、リポジトリ群のコミットしきい値やスター数を分析して上位 7 プロジェクトを LLM に選定させます。最後に、定義された公平性ルールとスコアリング規則に基づき、オープンソース活動、技術スキル、プロダクション経験などを厳格にスコア化して CSV に出力します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Ollama を用いた完全ローカル環境（Gemma 3 等）と Google Gemini API（Gemini 2.5 Pro 等）の両方をバックエンドとして切り替えて使用できる点、AI の恣意的な判定を防ぐために Jinja テンプレート内に厳格な公平性制約（fairness constraints）をエンコードしている点が非常に実用的です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローン後、依存パッケージをインストールし、.env ファイルに LLM プロバイダ（ollama または gemini）、モデル名、API キーなどを設定して、python score.py を実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>求職者の応募書類の選考プロセスを半自動化し、主観ではなくコードへの実際の寄与度（GitHub等）に基づいた客観的かつ公平な一次選考スクリーニングを行いたい採用チームや人事担当者、LLM を実務プロセスに組み込むワークフロー開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>PDF のレイアウトや記述内容によっては、LLM が GitHub ユーザー名を正しく抽出できない場合があります。また、採用に関わる判定を自動で行うため、最終的な判定には人間のレビューを挟むことが必須です。</p>
+
+        <h2>まとめ</h2>
+        <p>Hiring Agent は、書類上の経歴だけでなく、GitHub などの客観的な開発シグナルを自動でクロスマッチさせて評価することで、技術スキルの信頼性の高い採用一次評価を可能にする、LLM 時代の極めて実用的な自動採用支援エージェントツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/interviewstreet/hiring-agent" target="_blank" rel="noreferrer">https://github.com/interviewstreet/hiring-agent</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #798</p>
+      </div>
+    </article>
+  </body>
+</html>
