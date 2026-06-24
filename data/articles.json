@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-claudecode-v2-1-191",
+      "title": "Claude Code v2.1.191: サンドボックスセキュリティの強化と各種UI・エージェントバグ修正",
+      "dek": "サンドボックス環境での資格情報アクセス制限（sandbox.credentials）、組織でのモデル利用制限、トランスクリプトのMarkdownコピーやセッションフォーク機能、およびNamed Subagentのセキュリティ制限やUI等のバグ修正を盛り込んだアップデート。",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T04:05:00+09:00",
+      "toolName": "Claude Code",
+      "version": "v2.1.191",
+      "articleUrl": "./articles/tools/2026-06-24-claudecode-v2-1-191.html"
+    },
+    {
       "category": "github-pickup",
       "serial": 793,
       "originType": "pickup",

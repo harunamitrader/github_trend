@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2026 12:04:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 04:01:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.191: サンドボックスセキュリティの強化と各種UI・エージェントバグ修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-claudecode-v2-1-191.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-claudecode-v2-1-191.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サンドボックス環境での資格情報アクセス制限（sandbox.credentials）、組織でのモデル利用制限、トランスクリプトのMarkdownコピーやセッションフォーク機能、およびNamed Subagentのセキュリティ制限やUI等のバグ修正を盛り込んだアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[latitude-llm]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex（AI）を活用して、ローカル環境で2Dアニメーション用のスプライトシート生成とシーン構築を行うためのワークスペース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.6.9: SQLiteメモリ整合性の向上と/nameコマンド・キーなしFirecrawl対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-21-openclaw-v2026-6-9.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SQLiteベースのメモリとプロキシの整合性を向上させ、チャットからのセッション変更コマンドやFirecrawlのキーなしスクレイピングに対応したバージョン。]]></description>
     </item>
   </channel>
 </rss>
