@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-06-24-openclaw-v2026-6-10",
+      "title": "OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善",
+      "dek": "短いターンでの「自動ファストモード（automatic fast mode）」の導入、Zaiモデル・GLM過負荷フェイルオーバー等のモデルルーティングの信頼性向上、およびチャネル切り替え時の状態初期化等のバグ修正を盛り込んだ stable アップデート。",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T04:20:00+09:00",
+      "toolName": "OpenClaw",
+      "version": "v2026.6.10",
+      "articleUrl": "./articles/tools/2026-06-24-openclaw-v2026-6-10.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-06-24-claudecode-v2-1-191",
       "title": "Claude Code v2.1.191: サンドボックスセキュリティの強化と各種UI・エージェントバグ修正",
       "dek": "サンドボックス環境での資格情報アクセス制限（sandbox.credentials）、組織でのモデル利用制限、トランスクリプトのMarkdownコピーやセッションフォーク機能、およびNamed Subagentのセキュリティ制限やUI等のバグ修正を盛り込んだアップデート。",

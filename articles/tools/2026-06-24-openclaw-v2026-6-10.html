@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="短いターンでの「自動ファストモード（automatic fast mode）」の導入、Zaiモデル・GLM過負荷フェイルオーバー等のモデルルーティングの信頼性向上、およびチャネル切り替え時の状態初期化等のバグ修正を盛り込んだ stable アップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善</h1>
+      <p class="article-dek">短いターンでの「自動ファストモード（automatic fast mode）」の導入、Zaiモデル・GLM過負荷フェイルオーバー等のモデルルーティングの信頼性向上、およびチャネル切り替え時の状態初期化等のバグ修正を盛り込んだ stable アップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-24 -->
+          <strong>2026-06-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.6.10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClaw v2026.6.10 では、会話の短文化に対応した「自動ファストモード」の導入や、対応する基盤モデルの推論・フェイルオーバー動作の信頼性向上、およびセッション・チャネル管理における各種不具合の修正が行われました。主な変更内容は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            <li><strong>自動ファストモード (automatic fast mode):</strong> 短いやり取りを行う会話ターン向けにファストモードを自動適用する機能。処理が長引いたり複雑化したりした場合は、通常の推論モードへ自動的にフォールバックします。</li>
+            <li><strong>モデルルーティングの信頼性向上:</strong> Zai モデルの合成フロー、GLM 過負荷時の自動フェイルオーバー、およびネイティブ推論レベルの選定ロジックを強化し、設定したモデルカタログへより厳密に適合するようになりました。</li>
+            <li><strong>チャネル・セッション状態の不具合修正:</strong> チャネルを切り替えた際に、古いセッションのオリジンフィールドが正しく初期化されるように修正。また、cron スケジュールによるメッセージ配信の検知機能が対象セッションに正しく紐付くよう改善されました。</li>
+            <li><strong>実行安定性とデータの整合性:</strong> サブエージェントの完了通知保留の維持、メディアインデックスの整合性確保、モデルのエイリアス解決の均一化、およびチャット履歴トランスクリプトが空で出力されるエラーを防止する対策が施されました。</li>
+            <li><strong>セキュリティポリシーの維持:</strong> フック合成の際、認証を必要とする承認フローで必要なツールポリシー（Trusted policies）が途切れずに正しく引き継がれるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>自動ファストモードの導入により、ちょっとした確認や指示といった短い対話のレスポンスが高速化されると同時に、複雑なタスクではしっかりとリソースを割くため、ユーザー体験の向上が期待できます。また、clickhouse 等を用いた大規模なセッションログ監視や、複数のエージェントが動き回るマルチエージェント環境において、チャネル切替時のゴミデータの初期化やフック合成時のポリシー維持は、システムの堅牢性を大きく高めます。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw v2026.6.10 は、自動ファストモードによるレスポンス最適化と、エージェント実行・モデルルーティングにまつわる多数のバグを解消した、安定性と速度の両面を強化したマイルストーンリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
