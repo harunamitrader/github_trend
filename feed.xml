@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 12:12:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:03:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[OpenFugu]]></title>
@@ -88,6 +88,22 @@
       <description><![CDATA[git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ]]></description>
     </item>
     <item>
+      <title><![CDATA[Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[安定版v0.142.2および開発版v0.143.0-alpha.5リリース、依存関係のアップグレードとSQLiteログ書き込みによるI/O負荷問題の修正]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-github-copilot-cli-ga-byok.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-github-copilot-cli-ga-byok.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化]]></description>
+    </item>
+    <item>
       <title><![CDATA[Gemini 3.5 Flash: 内蔵Computer Useツールのプレビュー提供と3.5 Proのリリース延期]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</guid>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[youtube-fetcher-to-markdown]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JimmySadek-youtube-fetcher-to-markdown.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[YouTube動画のURLから、タイトル・説明・チャプター・書き起こしテキストをパッキングし、Obsidian等でDataviewクエリが可能なYAMLフロントマター付き構造化MarkdownをAPIキー不要で一発生成するツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Stirling-PDF]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-Stirling-Tools-Stirling-PDF.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。]]></description>
     </item>
   </channel>
 </rss>

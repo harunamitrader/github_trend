@@ -7,6 +7,39 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-codex-v0-142-2-v0-143-0-alpha-5",
+      "title": "Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正",
+      "dek": "安定版v0.142.2および開発版v0.143.0-alpha.5リリース、依存関係のアップグレードとSQLiteログ書き込みによるI/O負荷問題の修正",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-26T04:12:00+09:00",
+      "toolName": "Codex",
+      "version": "v0.142.2 / v0.143.0-alpha.5",
+      "articleUrl": "./articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-github-copilot-cli-ga-byok",
+      "title": "GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告",
+      "dek": "Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-26T04:11:00+09:00",
+      "toolName": "GitHub Copilot",
+      "version": "CLI GA, BYOK & Auto Model Selection",
+      "articleUrl": "./articles/tools/2026-06-24-github-copilot-cli-ga-byok.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-cursor-customize-marketplace",
+      "title": "Cursor: カスタマイズ管理ページの刷新とチーム内マーケットプレイス・Canvases対応",
+      "dek": "プラグイン、スキル、MCP、サブエージェントなどの各種設定を統合管理できるCustomizeページ、チーム内Marketplace、およびAtlassianやHexなどの共有Canvasテンプレートに対応",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-26T04:10:00+09:00",
+      "toolName": "Cursor",
+      "version": "Customize & Marketplace",
+      "articleUrl": "./articles/tools/2026-06-22-cursor-customize-marketplace.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-25-trotsky1997-openfugu",
       "title": "OpenFugu",

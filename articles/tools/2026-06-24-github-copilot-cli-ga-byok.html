@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告</h1>
+      <p class="article-dek">Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-24 -->
+          <strong>2026-06-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>CLI GA, BYOK & Auto Model Selection</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、CLI（コマンドラインインターフェース）の正式リリースや他社モデル対応、プランにおけるモデル選択方法の刷新など、多岐にわたる大きな変更が行われました。</p>
+        <ul>
+          <li><strong>Copilot CLI 一般提供 (GA):</strong> ターミナルから Issues、Pull Requests、Gists と対話できるタブ付きレイアウトや、構成ファイルを直接編集せずにMCPサーバーやスキルを管理できるコマンド（<code>/mcp add</code>、<code>/skills</code> 等）を実装したCLIが正式リリースされました。</li>
+          <li><strong>BYOK (Bring Your Own Key) 対応:</strong> Anthropic、OpenAI、Azure OpenAI、さらにはローカルの Ollama や LM Studio のAPIキーを登録し、セッション単位でモデルプロバイダーを自由に切り替えて使用できるようになりました。</li>
+          <li><strong>Auto Model Selection の標準化:</strong> Copilot Free および Student プランで「自動モデル選択（auto model selection）」がデフォルトかつ唯一の動作となり、タスクに応じて最適なモデルが自動ルーティングされます。</li>
+          <li><strong>Opus 4.6 (fast) の廃止予告:</strong> 2026年6月29日をもって、チャットやインライン編集、エージェントモードなどすべての Copilot 体験で Opus 4.6 (fast) モデルの提供が終了します。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>CLI の一般提供開始により、GitHub上の開発コンテキスト（Issue/PR）へのアクセスがコマンドラインからシームレスに行えるようになります。また、BYOKのサポートは、ローカルモデルや独自のAPIキーを使用してより低コストまたはセキュアに開発を行いたい開発者にとって、Copilotの自由度を飛躍的に向上させるアップデートです。</p>
+
+        <h2>まとめ</h2>
+        <p>GitHub Copilot は、CLIのGAおよびBYOKのサポートにより、多様な開発スタイルやプライバシーニーズに応える汎用性の高いツールへと進化しました。Auto Model Selection の標準化と合わせ、ユーザーがモデルの選択に迷うことなく、最適なモデル環境で作業できるようになります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noreferrer">GitHub Changelog (Copilot)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
