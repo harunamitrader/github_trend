@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-25T09:08:02.933133+00:00",
-  "count": 884,
+  "generatedAt": "2026-06-25T10:47:39.031868+00:00",
+  "count": 885,
   "articles": [
+    {
+      "slug": "2026-06-25-ikora128-stop-ai-slop-jp",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "stop-ai-slop-jp",
+      "dek": "Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill",
+      "summary": "stop-ai-slop-jp は、AI が大量生産しがちな中身の薄い記述（AI Slop）を排除するため、Claude Code や API 上で日本語文章のレビューや書き換えを行い、文章に「書き手の主体性」と「具体性」を取り戻すための実用的な Claude Skill です。",
+      "repoName": "iKora128/stop-ai-slop-jp",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T19:47:13+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-25-ikora128-stop-ai-slop-jp.html",
+      "serial": 801,
+      "searchText": "stop-ai-slop-jp Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill stop-ai-slop-jp は、AI が大量生産しがちな中身の薄い記述（AI Slop）を排除するため、Claude Code や API 上で日本語文章のレビューや書き換えを行い、文章に「書き手の主体性」と「具体性」を取り戻すための実用的な Claude Skill です。 iKora128/stop-ai-slop-jp AIコーディング (ワークフロー・プロンプト・開発補助ツール) stop-ai-slop-jp ← 記事一覧へ戻る GitHub Watcher stop-ai-slop-jp Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill 記事作成日 2026-06-25 種別 Pickup 対象 repo iKora128/stop-ai-slop-jp Star数 232 これは何か stop-ai-slop-jp は、AIコーディングCLIツールである Claude Code などの環境において、生成された日本語文章からAI特有の不自然な表現や「AI臭」を取り除くための Claude Skill （カスタムコマンドおよびシステム指示集）です。英語圏の hardikpandya/stop-slop に着想を得て、日本語の文章特有のAIのクセ（過剰な装飾や定型表現、単調な文章構造など）をレビュー・修正できるように最適化されています。 何ができるか 本 Skill を Claude Code にインストールするか、Claude Projects などのシステム指示に組み込むことで、AIで下書きした日本語テキストの「公開前レビュー」や「AI臭を排除した書き換え」を自動で実行させることができます。具体的には、大げさな見出し（命題型H2）の検知、体験を「真理」や「美学」へ急激に一般化するパターン、単調な「AではなくBだ」という構文の多用、絵文字や不要な括弧の残骸などの記号レベルのノイズから、文章構造自体の平坦さまで多角的にチェックします。 目立つポイント 単なる表記揺れやNGワードの修正ではなく、「立場（主張）」「リズム」「主体性」「具体性」「削減」の5軸で文章を評価する点が特徴的です。「誰が何をしたか」が曖昧な文章（false agency）を検出したり、あえて文章の熱量や長さに「ムラ」を持たせることで、機械的で均一な文章（AI Slop）から人間らしい躍動感のあるテキストへと修正します。避けるべき語彙をまとめた references/phrases.md や、避けるべき構成パターンを網羅した references/structures.md が付属しており、修正の対比（Before/After）も分かりやすくまとめられています。 セットアップや使い方の流れ Claude Code を個人利用している場合、以下のコマンドで ~/.claude/skills/ 配下に直接リポジトリを clone するだけでインストールできます： git clone https://github.com/iKora128/stop-ai-slop-jp ~/.claude/skills/stop-ai-slop-jp インストール後は、Claude に「この文章を stop-ai-slop-jp の基準でレビューして」または「この文章のAI臭を落として」と指示するだけで機能します。API 経由で使う場合は SKILL.md の内容をシステムプロンプトに含めて使用します。 どんな人向けか LLM を使用してブログ記事、技術ドキュメント、メール、note などのコンテンツを作成しているライターや開発者に最適です。AIでの執筆作業をスピードアップさせつつも、「AIが書いたと一目でわかるような陳腐な文章にしたくない」「自分の言葉や主体性をしっかりと残したい」と考えるすべてのコンテンツ作成者に向いています。 注意点 本 Skill はあくまで表現の修正や構造チェックを行うためのアシスタントであり、文章の根本にある「書き手の不在（独自の体験や主張がないこと）」自体は解決できません。AI臭を真に取り除くためには、ベースとなるインプットに自分自身の体験や独自の観点を豊富に盛り込んでおく必要があります。 まとめ stop-ai-slop-jp は、AIによる執筆の利便性を享受しながらも、コンテンツの質を落とさないための頼もしいゲートキーパー（検閲官）です。Claude Code などのエージェント開発環境において、ドキュメントの自然さをワンランク引き上げたいときに欠かせない実用的かつスマートなツールと言えます。 参照リンク https://github.com/iKora128/stop-ai-slop-jp Shared GitHub Serial: #801"
+    },
     {
       "slug": "2026-06-25-danielrosehill-awesome-obsidian-ai-tools",
       "category": "github-pickup",
@@ -15,7 +30,7 @@
       "createdAt": "2026-06-25T18:03:33+09:00",
       "articleUrl": "./articles/github/daily/2026-06-25-danielrosehill-awesome-obsidian-ai-tools.html",
       "serial": 800,
-      "searchText": "Awesome-Obsidian-AI-Tools Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト Awesome-Obsidian-AI-Tools は、ローカルノートアプリである Obsidian で AI・LLM を活用するためのプラグインやツールを網羅したキュレーションリストであり、 vault 内での RAG（検索拡張生成）、チャット、執筆補助、ローカル LLM 連携など多様な AI 機能を導入したいユーザーに最適なカタログです。 danielrosehill/Awesome-Obsidian-AI-Tools 学習ガイド・開発アセット"
+      "searchText": "Awesome-Obsidian-AI-Tools Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト Awesome-Obsidian-AI-Tools は、ローカルノートアプリである Obsidian で AI・LLM を活用するためのプラグインやツールを網羅したキュレーションリストであり、 vault 内での RAG（検索拡張生成）、チャット、執筆補助、ローカル LLM 連携など多様な AI 機能を導入したいユーザーに最適なカタログです。 danielrosehill/Awesome-Obsidian-AI-Tools 学習ガイド・開発アセット Awesome-Obsidian-AI-Tools ← 記事一覧へ戻る GitHub Watcher Awesome-Obsidian-AI-Tools Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト 記事作成日 2026-06-25 種別 Pickup 対象 repo danielrosehill/Awesome-Obsidian-AI-Tools Star数 181 これは何か Awesome-Obsidian-AI-Tools は、ローカルでMarkdownファイルを管理できる人気のノートアプリ Obsidian にて、AI（人工知能）やLLM（大規模言語モデル）を活用するためのプラグインや関連ツールを一覧化したキュレーションリスト（Awesome List）プロジェクトです。Obsidianはコミュニティプラグインが非常に豊富ですが、AIに特化した優良なプラグインを素早く探し出すためのカタログとして機能します。 何ができるか 本リポジトリは、GitHubのメタデータ（説明、トピック、スター数など）をベースに自動でカテゴリー整理されたリストを提供します。執筆時点において 86個 のプラグインが掲載されており、合計GitHubスター数は 19,000以上 に達しています。Copilot、Smart Connections、Textgenerator などの特に人気の高いプラグインの紹介から、用途に応じた17種類のカテゴリー別分類がなされており、ユーザーは自分のノート環境（Vault）に最適なAIアシスタントツールを効率よく見つけ出すことができます。 目立つポイント 単なるプラグインの寄せ集めではなく、実用的な用途に応じて明確にカテゴライズされている点が特徴です。RAG（検索拡張生成）を用いたノート間の自動関連付けツールである「ナレッジ管理＆RAG」、プライバシーを重視して完全にオフラインで動作させる「ローカルLLM統合」、ノート内にチャット画面を追加する「チャット＆対話」、ビジュアル的に思考を整理する「キャンバス＆視覚的ワークフロー」など、ユーザーが今ノート環境で実現したい機能に合わせてプラグインを素早く選択できます。 セットアップや使い方の流れ 本リポジトリはコードの実行パッケージではなく情報カタログのため、インストールは不要です。GitHubのリポジトリページにアクセスし、READMEのカテゴリ一覧や「Most Popular（人気の高いツール）」のリストから目的のツールを探します。興味のあるプラグインを見つけたら、それぞれのGitHubリンクをクリックしてドキュメントを確認し、Obsidianアプリ内の「コミュニティプラグイン」の検索・設定画面から各プラグインをインストールして使用します。 どんな人向けか Obsidianを日々のアイデア整理やナレッジベース、第2の脳（Second Brain）として活用しており、そこに最新のAI（ChatGPT、Claude、Ollama等のローカルモデル）を組み込んで作業を加速させたい個人開発者やナレッジワーカー、執筆者に最適です。また、自分だけのオフラインAI知識データベースを作りたいと考えているデータプライバシー重視のユーザーにも役立つリソースです。 注意点 本リストはGitHubのメタデータを用いて機械的に自動収集・整理されているため、一部のプラグインが開発停止（非推奨）になっていたり、カテゴリの分類に軽微な誤りがある可能性があります。実際に自分のObsidian Vaultにプラグインをインストールする際は、各プラグインリポジトリの最終更新日時やコミット頻度、セキュリティ情報を確認することをお勧めします。 まとめ Awesome-Obsidian-AI-Tools は、ObsidianユーザーがノートアプリにAIの力を取り入れるための最も網羅的な玄関口です。ローカルAIの構築から自動要約、ナレッジのRAG探索まで、デジタルノートの未来を切り拓くAIプラグインの宝庫であり、Vaultの活用方法を大きく広げてくれる素晴らしいリソース集と言えます。 参照リンク https://github.com/danielrosehill/Awesome-Obsidian-AI-Tools Shared GitHub Serial: #800"
     },
     {
       "slug": "2026-06-25-usedhonda-makeloop",

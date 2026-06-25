@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-25-ikora128-stop-ai-slop-jp",
+      "title": "stop-ai-slop-jp",
+      "dek": "Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill",
+      "summary": "stop-ai-slop-jp は、AI が大量生産しがちな中身の薄い記述（AI Slop）を排除するため、Claude Code や API 上で日本語文章のレビューや書き換えを行い、文章に「書き手の主体性」と「具体性」を取り戻すための実用的な Claude Skill です。",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T19:47:13+09:00",
+      "repoName": "iKora128/stop-ai-slop-jp",
+      "repoUrl": "https://github.com/iKora128/stop-ai-slop-jp",
+      "starCount": 232,
+      "articleUrl": "./articles/github/daily/2026-06-25-ikora128-stop-ai-slop-jp.html",
+      "serial": 801,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-25-danielrosehill-awesome-obsidian-ai-tools",
       "title": "Awesome-Obsidian-AI-Tools",
       "dek": "Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト",
