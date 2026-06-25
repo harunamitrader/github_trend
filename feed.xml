@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 06:44:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 15:47:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[makeloop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-usedhonda-makeloop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-usedhonda-makeloop.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-25 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-25-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[WebサイトをAIエージェントやLLMが理解しやすいクリーンなMarkdownや構造化データに変換する超高速WebクローラーAPI。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-website-cloner-template]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JCodesMore-ai-website-cloner-template.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-JCodesMore-ai-website-cloner-template.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントを使用してワンコマンドでウェブサイトをNext.js + Tailwind v4 + shadcn/uiのクリーンな構成にリバースエンジニアリング・複製するテンプレート。]]></description>
     </item>
   </channel>
 </rss>

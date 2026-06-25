@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-25T06:40:37.025290+00:00",
-  "count": 882,
+  "generatedAt": "2026-06-25T06:47:22.367234+00:00",
+  "count": 883,
   "articles": [
+    {
+      "slug": "2026-06-25-usedhonda-makeloop",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "makeloop",
+      "dek": "Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン",
+      "summary": "makeloop は、Claude Code においてトークンを浪費しやすい /loop 機能のために、成功基準・自動テストによる検証・状態保存などを組み込んだ高品質なループプロンプトを自動生成し、AI の自律的な開発効率を最大化するプラグインです。",
+      "repoName": "usedhonda/makeloop",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T15:46:19+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-25-usedhonda-makeloop.html",
+      "serial": 799,
+      "searchText": "makeloop Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン makeloop は、Claude Code においてトークンを浪費しやすい /loop 機能のために、成功基準・自動テストによる検証・状態保存などを組み込んだ高品質なループプロンプトを自動生成し、AI の自律的な開発効率を最大化するプラグインです。 usedhonda/makeloop AIコーディング (CLI本体・拡張機能)"
+    },
     {
       "slug": "2026-06-25-update-report",
       "category": "github-update-report",

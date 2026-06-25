@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>makeloop</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">makeloop</h1>
+      <p class="article-dek">Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-25 -->
+          <strong>2026-06-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/usedhonda/makeloop" target="_blank" rel="noreferrer">
+              usedhonda/makeloop
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>makeloop</code> は、AIコーディングCLIツールである <strong>Claude Code</strong> のプラグインです。Claude Codeには、与えられたゴールを達成するまでループ処理で自律的に開発や修正を繰り返す <code>/loop</code> コマンドがありますが、最適なループを実行するためには高品質なプロンプトの記述が必要です。<code>makeloop</code> は、現在のプロジェクトの状況やこれまでの会話履歴を読み込み、ゴールを達成するために必要な「検証ゲート（テスト）」「状態追跡」「停止条件」を網羅した、コピペしてすぐに使える <code>/loop</code> 用のプロンプトを自動生成してくれます（※プロンプトの生成のみを行い、ループ自体は自動実行しません）。</p>
+
+        <h2>何ができるか</h2>
+        <p>現在の作業ディレクトリで <code>/makeloop [ゴールのヒント]</code> を実行するだけで、Claude Code がリポジトリの構成やソースコードのコンテキストをスキャンします。その後、ゴールの特定、厳格な成功基準、検証のためのコマンド（ビルド・テスト・lint）、状態を保存するファイル（<code>.loop/state.md</code>）の設計、および無限ループを防ぐための停止条件（最大反復回数など）を含んだ完全なプロンプトを作成します。作成されたプロンプトはチャット上に表示されるほか、<code>.loop/loop-prompt.md</code> ファイルに自動保存されます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる定型文の生成ではなく、プロジェクトの「成熟度」や「種類」を動的に評価する点が非常に優れています。例えば、まだ何もない空のリポジトリ（グリーンフィールド）であれば、まずテストを書いてそれをパスさせる TDD 的なループを自動で提案し、すでにテスト環境が構築された成熟したプロジェクトであれば既存のテストランナーを再利用するよう指示します。また、一方向で完了を目指す「クローズドループ」だけでなく、監視や変更検知を行ってトリガー起動する「オープンループ」も判別し、ループが適さないタスク（自動検証が不可能なもの）には「ループを使うべきではない」と警告を出すなど、非常に実践的な「ループ・エンジニアリング」の知見が詰まっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code のプラグインマーケットプレイスを利用して、以下のコマンドで簡単に導入できます：<br><code>/plugin marketplace add usedhonda/makeloop</code><br><code>/plugin install makeloop</code><br><br>インストール完了後、任意のプロジェクトで <code>/makeloop</code>、または目標を付け加えて <code>/makeloop finish the auth refactor</code> のように実行します。質問にいくつか答えるだけで、カスタマイズされたループプロンプトが出力されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code の <code>/loop</code> 機能を日常的に活用し、自律エージェントに大きなタスクを任せたい開発者に最適です。特に、ループ中にAIがテストを勝手にスキップして自己評価だけで「完了した」と判断してしまう問題（Ralph Wiggum loop）や、トークンの浪費に悩まされている人にとって、確実な検証ガードレールを簡単に敷くための強力なツールとなります。</p>
+
+        <h2>注意点</h2>
+        <p>本プラグインはあくまで「/loop に入力するための最適なプロンプトを設計・生成する」ためのツールであり、自動でループ実行を開始するわけではありません。生成されたプロンプトを確認し、手動でコピペして実行する必要があります。また、ローカルでテストやビルドの検証を走らせるため、それらの検証コマンドが正しくローカルにセットアップされている必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>makeloop</code> は、AIによる自律開発における「プロンプトエンジニアリング」を自動化し、Claude Code のポテンシャルを最大限に引き出す実用的なユーティリティです。効率的かつ安全にAIエージェントを駆動したい開発者にとって、必携のプラグインと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/usedhonda/makeloop" target="_blank" rel="noreferrer">https://github.com/usedhonda/makeloop</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #799</p>
+      </div>
+    </article>
+  </body>
+</html>
