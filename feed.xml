@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:03:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:17:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[OpenFugu]]></title>
@@ -88,6 +88,14 @@
       <description><![CDATA[git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ]]></description>
     </item>
     <item>
+      <title><![CDATA[OpenClaw: v2026.6.11リリース、Slack・Mattermost連携、RAFT CLI wake bridgeによるリモート起動対応と信頼性向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-11.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-11.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SlackリレーモードやMattermostのキュー管理、個別DMのモデル制御を追加。また、RAFT CLI wake bridgeによるファイル駆動型リモート起動に対応し、安定性を強化]]></description>
+    </item>
+    <item>
       <title><![CDATA[Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</guid>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[finplot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-finplot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-finplot.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[数十万のデータポイントを快適に描画できる、PyQtGraphベースの高速・高性能なPython用金融チャートプロットライブラリ]]></description>
     </item>
   </channel>
 </rss>

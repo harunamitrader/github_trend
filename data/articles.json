@@ -7,39 +7,6 @@
   },
   "articles": [
     {
-      "category": "ai-tool-log",
-      "slug": "2026-06-24-codex-v0-142-2-v0-143-0-alpha-5",
-      "title": "Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正",
-      "dek": "安定版v0.142.2および開発版v0.143.0-alpha.5リリース、依存関係のアップグレードとSQLiteログ書き込みによるI/O負荷問題の修正",
-      "publishedAt": "2026-06-24",
-      "createdAt": "2026-06-26T04:12:00+09:00",
-      "toolName": "Codex",
-      "version": "v0.142.2 / v0.143.0-alpha.5",
-      "articleUrl": "./articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-06-24-github-copilot-cli-ga-byok",
-      "title": "GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告",
-      "dek": "Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化",
-      "publishedAt": "2026-06-24",
-      "createdAt": "2026-06-26T04:11:00+09:00",
-      "toolName": "GitHub Copilot",
-      "version": "CLI GA, BYOK & Auto Model Selection",
-      "articleUrl": "./articles/tools/2026-06-24-github-copilot-cli-ga-byok.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-06-22-cursor-customize-marketplace",
-      "title": "Cursor: カスタマイズ管理ページの刷新とチーム内マーケットプレイス・Canvases対応",
-      "dek": "プラグイン、スキル、MCP、サブエージェントなどの各種設定を統合管理できるCustomizeページ、チーム内Marketplace、およびAtlassianやHexなどの共有Canvasテンプレートに対応",
-      "publishedAt": "2026-06-22",
-      "createdAt": "2026-06-26T04:10:00+09:00",
-      "toolName": "Cursor",
-      "version": "Customize & Marketplace",
-      "articleUrl": "./articles/tools/2026-06-22-cursor-customize-marketplace.html"
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-06-25-trotsky1997-openfugu",
       "title": "OpenFugu",
@@ -201,14 +168,36 @@
     },
     {
       "category": "ai-tool-log",
-      "slug": "2026-06-23-claude-claude-tag-launch",
-      "title": "Claude: Slack統合の自律エージェント「Claude Tag」を発表",
-      "dek": "Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。",
-      "publishedAt": "2026-06-23",
-      "createdAt": "2026-06-25T04:24:00+09:00",
-      "toolName": "Claude",
-      "version": "Claude Tag Launch",
-      "articleUrl": "./articles/tools/2026-06-23-claude-claude-tag-launch.html"
+      "slug": "2026-06-24-openclaw-v2026-6-11",
+      "title": "OpenClaw: v2026.6.11リリース、Slack・Mattermost連携、RAFT CLI wake bridgeによるリモート起動対応と信頼性向上",
+      "dek": "SlackリレーモードやMattermostのキュー管理、個別DMのモデル制御を追加。また、RAFT CLI wake bridgeによるファイル駆動型リモート起動に対応し、安定性を強化",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-26T04:17:00+09:00",
+      "toolName": "OpenClaw",
+      "version": "v2026.6.11",
+      "articleUrl": "./articles/tools/2026-06-24-openclaw-v2026-6-11.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-codex-v0-142-2-v0-143-0-alpha-5",
+      "title": "Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正",
+      "dek": "安定版v0.142.2および開発版v0.143.0-alpha.5リリース、依存関係のアップグレードとSQLiteログ書き込みによるI/O負荷問題の修正",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-26T04:12:00+09:00",
+      "toolName": "Codex",
+      "version": "v0.142.2 / v0.143.0-alpha.5",
+      "articleUrl": "./articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-24-github-copilot-cli-ga-byok",
+      "title": "GitHub Copilot: CLIの一般提供開始、BYOK対応、自動モデル選択の標準化とOpus 4.6廃止予告",
+      "dek": "Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-26T04:11:00+09:00",
+      "toolName": "GitHub Copilot",
+      "version": "CLI GA, BYOK & Auto Model Selection",
+      "articleUrl": "./articles/tools/2026-06-24-github-copilot-cli-ga-byok.html"
     },
     {
       "category": "ai-tool-log",
@@ -286,25 +275,14 @@
     },
     {
       "category": "ai-tool-log",
-      "slug": "2026-06-22-openclaw-v2026-6-10-beta-2",
-      "title": "OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善",
-      "dek": "会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。",
-      "publishedAt": "2026-06-22",
-      "createdAt": "2026-06-24T04:20:00+09:00",
-      "toolName": "OpenClaw",
-      "version": "v2026.6.10-beta.2",
-      "articleUrl": "./articles/tools/2026-06-22-openclaw-v2026-6-10-beta-2.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-06-22-claudecode-v2-1-186",
-      "title": "Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応",
-      "dek": "MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。",
-      "publishedAt": "2026-06-22",
-      "createdAt": "2026-06-24T04:05:00+09:00",
-      "toolName": "Claude Code",
-      "version": "v2.1.186",
-      "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-186.html"
+      "slug": "2026-06-23-claude-claude-tag-launch",
+      "title": "Claude: Slack統合の自律エージェント「Claude Tag」を発表",
+      "dek": "Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-25T04:24:00+09:00",
+      "toolName": "Claude",
+      "version": "Claude Tag Launch",
+      "articleUrl": "./articles/tools/2026-06-23-claude-claude-tag-launch.html"
     },
     {
       "category": "github-pickup",
@@ -406,6 +384,50 @@
       "starCount": 17615,
       "articleUrl": "./articles/github/daily/2026-06-23-JCodesMore-ai-website-cloner-template.html",
       "slug": "2026-06-23-JCodesMore-ai-website-cloner-template-trending"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-grok-autonomous-goal-mode",
+      "title": "Grok: Grok Buildに自律実行モード(/goal)を導入、エージェント用ダッシュボードとプラグインマーケットプレイスも提供開始",
+      "dek": "xAIのGrok Build開発者プラットフォームに長時間稼働可能な自律実行モード(/goal)が追加。計画・実行・検証の自律ループの構築、およびダッシュボードやプラグイン連携を強化",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-26T04:16:00+09:00",
+      "toolName": "Grok",
+      "version": "Autonomous Execution (/goal)",
+      "articleUrl": "./articles/tools/2026-06-22-grok-autonomous-goal-mode.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-cursor-customize-marketplace",
+      "title": "Cursor: カスタマイズ管理ページの刷新とチーム内マーケットプレイス・Canvases対応",
+      "dek": "プラグイン、スキル、MCP、サブエージェントなどの各種設定を統合管理できるCustomizeページ、チーム内Marketplace、およびAtlassianやHexなどの共有Canvasテンプレートに対応",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-26T04:10:00+09:00",
+      "toolName": "Cursor",
+      "version": "Customize & Marketplace",
+      "articleUrl": "./articles/tools/2026-06-22-cursor-customize-marketplace.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-openclaw-v2026-6-10-beta-2",
+      "title": "OpenClaw v2026.6.10-beta.2: 会話用自動ファストモードと各種モデルルーティング改善",
+      "dek": "会話用自動ファストモード（fast talks auto mode）の追加や、Zai/GLMなどのモデルルーティング信頼性向上、フック合成時の信頼ポリシー維持などを盛り込んだベータアップデート。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-24T04:20:00+09:00",
+      "toolName": "OpenClaw",
+      "version": "v2026.6.10-beta.2",
+      "articleUrl": "./articles/tools/2026-06-22-openclaw-v2026-6-10-beta-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-22-claudecode-v2-1-186",
+      "title": "Claude Code v2.1.186: CLIによるMCP認証の統合と非インタラクティブ対応",
+      "dek": "MCP認証のCLI統合（claude mcp login）や非インタラクティブ実行のサポート、バックグラウンドセッションの自動更新など利便性を強化したアップデート。",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-24T04:05:00+09:00",
+      "toolName": "Claude Code",
+      "version": "v2.1.186",
+      "articleUrl": "./articles/tools/2026-06-22-claudecode-v2-1-186.html"
     },
     {
       "category": "github-pickup",
@@ -3936,19 +3958,6 @@
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
-      "title": "Gemini CLI v0.44.0-preview.0: Auto モード統合と agent-tui スキル追加",
-      "dek": "Gemini CLI v0.44.0-preview.0 は、Auto モード統合、セッション安定化、新しい skills 追加を含む preview 更新です。",
-      "articleUrl": "articles/tools/2026-05-22-gemini-cli-v0-44-0-preview-0.html",
-      "publishedAt": "2026-05-22",
-      "createdAt": "2026-05-26T04:04:20+09:00",
-      "category": "ai-tool-log",
-      "tags": [
-        "Gemini CLI",
-        "AI Tools",
-        "Coding"
-      ]
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-05-25-iii-hq-iii",
       "title": "iii",
@@ -4692,6 +4701,19 @@
       "starCount": 0
     },
     {
+      "title": "Gemini CLI v0.44.0-preview.0: Auto モード統合と agent-tui スキル追加",
+      "dek": "Gemini CLI v0.44.0-preview.0 は、Auto モード統合、セッション安定化、新しい skills 追加を含む preview 更新です。",
+      "articleUrl": "articles/tools/2026-05-22-gemini-cli-v0-44-0-preview-0.html",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-26T04:04:20+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Gemini CLI",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
       "title": "ax",
       "summary": "分散エージェントの実行、復帰、監査をまとめて扱える Google の agent runtime 基盤です。",
       "category": "github-pickup",
@@ -4837,32 +4859,6 @@
       ]
     },
     {
-      "title": "Gemini CLI v0.44.0-nightly.20260521: agent-tui と session invocation を強化",
-      "dek": "Gemini CLI の nightly 更新で、agent-tui 系スキルと Local/RemoteSessionInvocation を追加し、Windows と長時間セッションの安定性を高めました。",
-      "articleUrl": "articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html",
-      "publishedAt": "2026-05-21",
-      "createdAt": "2026-05-22T05:34:00+09:00",
-      "category": "ai-tool-log",
-      "tags": [
-        "Gemini CLI",
-        "AI Tools",
-        "Coding"
-      ]
-    },
-    {
-      "title": "Cursor 3.5: Automations の Agents Window 統合とマルチリポジトリ対応",
-      "dek": "Cursor 3.5 は Automations を Agents Window に統合し、複数リポジトリやノーリポジトリの自動化テンプレートを扱えるようにした更新です。",
-      "articleUrl": "articles/tools/2026-05-20-cursor-3-5-automations.html",
-      "publishedAt": "2026-05-20",
-      "createdAt": "2026-05-22T05:34:00+09:00",
-      "category": "ai-tool-log",
-      "tags": [
-        "Cursor",
-        "AI Tools",
-        "Coding"
-      ]
-    },
-    {
       "title": "skills",
       "dek": "AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集",
       "summary": "AIコーディングエージェントが .NET や C# で開発を行うのを支援するための専用スキルセット・プロンプト集",
@@ -4920,6 +4916,19 @@
       "articleUrl": "./articles/github/reports/2026-05-22-update-report.html"
     },
     {
+      "title": "Gemini CLI v0.44.0-nightly.20260521: agent-tui と session invocation を強化",
+      "dek": "Gemini CLI の nightly 更新で、agent-tui 系スキルと Local/RemoteSessionInvocation を追加し、Windows と長時間セッションの安定性を高めました。",
+      "articleUrl": "articles/tools/2026-05-21-gemini-cli-v0-44-0-nightly-20260521.html",
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-22T05:34:00+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Gemini CLI",
+        "AI Tools",
+        "Coding"
+      ]
+    },
+    {
       "title": "ART",
       "summary": "GRPOを用いたマルチステップLLMエージェントの強化学習を劇的に簡略化するオープンソースフレームワーク",
       "category": "github-pickup",
@@ -4932,6 +4941,22 @@
       "repoUrl": "https://github.com/OpenPipe/ART",
       "articleUrl": "./articles/github/daily/2026-05-21-openpipe-art.html",
       "starCount": 9514
+    },
+    {
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 583,
+      "publishedAt": "2026-05-21",
+      "createdAt": "2026-05-21T12:00:00+09:00",
+      "slug": "2026-05-21-envoy",
+      "title": "envoy",
+      "dek": "異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー",
+      "summary": "Envoyは、独立したAIエージェント、セッション、物理マシンを跨いでメッセージやタスク状態を共有できる共有コンテキストレイヤーです。CLIやMCP経由で利用でき、特定のエージェントフレームワークに縛られずに高度な連携を可能にします。",
+      "repoName": "statecraft-protocol/envoy",
+      "repoUrl": "https://github.com/statecraft-protocol/envoy",
+      "articleUrl": "./articles/github/daily/2026-05-21-envoy.html",
+      "starCount": 226
     },
     {
       "title": "Codex 26.519: Appshots と Goal mode、browser use の強化",
@@ -4958,22 +4983,6 @@
         "AI Tools",
         "Coding"
       ]
-    },
-    {
-      "category": "github-pickup",
-      "genre": "AIエージェント (自律基盤・特化アプリ)",
-      "originType": "pickup",
-      "serial": 583,
-      "publishedAt": "2026-05-21",
-      "createdAt": "2026-05-21T12:00:00+09:00",
-      "slug": "2026-05-21-envoy",
-      "title": "envoy",
-      "dek": "異なるAIエージェント間で「共有コンテキスト」を維持・同期する自律型エージェント用協調レイヤー",
-      "summary": "Envoyは、独立したAIエージェント、セッション、物理マシンを跨いでメッセージやタスク状態を共有できる共有コンテキストレイヤーです。CLIやMCP経由で利用でき、特定のエージェントフレームワークに縛られずに高度な連携を可能にします。",
-      "repoName": "statecraft-protocol/envoy",
-      "repoUrl": "https://github.com/statecraft-protocol/envoy",
-      "articleUrl": "./articles/github/daily/2026-05-21-envoy.html",
-      "starCount": 226
     },
     {
       "title": "2026-05-21 AIコーディングツール アップデート",
@@ -5076,6 +5085,19 @@
       "repoUrl": "https://github.com/opentoonz/opentoonz",
       "articleUrl": "./articles/github/daily/2026-05-21-opentoonz-opentoonz.html",
       "starCount": 6268
+    },
+    {
+      "title": "Cursor 3.5: Automations の Agents Window 統合とマルチリポジトリ対応",
+      "dek": "Cursor 3.5 は Automations を Agents Window に統合し、複数リポジトリやノーリポジトリの自動化テンプレートを扱えるようにした更新です。",
+      "articleUrl": "articles/tools/2026-05-20-cursor-3-5-automations.html",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-22T05:34:00+09:00",
+      "category": "ai-tool-log",
+      "tags": [
+        "Cursor",
+        "AI Tools",
+        "Coding"
+      ]
     },
     {
       "title": "2026-05-20 アップデートレポート",
@@ -6386,15 +6408,6 @@
       ]
     },
     {
-      "articleUrl": "./articles/github/reports/2026-05-13-pm-update-report.html",
-      "publishedAt": "2026-05-13",
-      "createdAt": "2026-05-13T20:05:00Z",
-      "title": "2026-05-13 GitHub PM Updates",
-      "summary": "本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。",
-      "category": "github-update-report",
-      "serial": 45
-    },
-    {
       "title": "brush",
       "repoName": "ArthurBrussee/brush",
       "repoUrl": "https://github.com/ArthurBrussee/brush",
@@ -6495,13 +6508,13 @@
       ]
     },
     {
-      "articleUrl": "./articles/github/reports/2026-05-13-update-report.html",
+      "articleUrl": "./articles/github/reports/2026-05-13-pm-update-report.html",
       "publishedAt": "2026-05-13",
-      "createdAt": "2026-05-13T04:50:00Z",
-      "title": "2026-05-13 GitHub Updates",
-      "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。",
+      "createdAt": "2026-05-13T20:05:00Z",
+      "title": "2026-05-13 GitHub PM Updates",
+      "summary": "本日のGitHub Trending調査レポート（午後版）。新たに5件の注目リポジトリを記事化しました。",
       "category": "github-update-report",
-      "serial": 46
+      "serial": 45
     },
     {
       "title": "Hyperliquid-monitor",
@@ -6605,6 +6618,15 @@
         "Privacy",
         "Open Source"
       ]
+    },
+    {
+      "articleUrl": "./articles/github/reports/2026-05-13-update-report.html",
+      "publishedAt": "2026-05-13",
+      "createdAt": "2026-05-13T04:50:00Z",
+      "title": "2026-05-13 GitHub Updates",
+      "summary": "本日のGitHub Trending調査レポート。既存記事との重複を排除し、新たに2件のリポジトリをピックアップしました。",
+      "category": "github-update-report",
+      "serial": 46
     },
     {
       "title": "AI Others Tools Update (2026-05-13)",
@@ -7151,6 +7173,17 @@
       "serial": 478
     },
     {
+      "articleUrl": "./articles/tools/2026-05-09-ai-coding-tools-multi-update.html",
+      "createdAt": "2026-05-09T19:00:00+09:00",
+      "publishedAt": "2026-05-09",
+      "title": "AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly",
+      "summary": "Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。",
+      "category": "ai-tool-log",
+      "toolName": "Claude Code, Cursor, Gemini CLI, Codex, GitHub Copilot",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "serial": 477
+    },
+    {
       "title": "ian-handdrawn-ppt",
       "repoName": "helloianneo/ian-handdrawn-ppt",
       "repoUrl": "https://github.com/helloianneo/ian-handdrawn-ppt",
@@ -7205,17 +7238,6 @@
       "serial": 466,
       "publishedAt": "2026-05-09",
       "createdAt": "2026-05-09T11:35:00Z"
-    },
-    {
-      "articleUrl": "./articles/tools/2026-05-09-ai-coding-tools-multi-update.html",
-      "createdAt": "2026-05-09T19:00:00+09:00",
-      "publishedAt": "2026-05-09",
-      "title": "AI Coding Tools Update: Claude Code v2.1.138, Cursor v3.3, and Gemini CLI v0.42.0-nightly",
-      "summary": "Claude Code v2.1.138 (安定性向上), Cursor v3.3 (PR Review, Parallel Build), Gemini CLI v0.42.0-nightly (JSON 出力対応) など、主要な AI コーディングツールの 2026年5月9日アップデートをまとめました。",
-      "category": "ai-tool-log",
-      "toolName": "Claude Code, Cursor, Gemini CLI, Codex, GitHub Copilot",
-      "genre": "AIコーディング (CLI本体・拡張機能)",
-      "serial": 477
     },
     {
       "articleUrl": "./articles/github/reports/2026-05-09-update-report.html",
@@ -7640,32 +7662,6 @@
       "genre": "学習ガイド・開発アセット"
     },
     {
-      "category": "ai-tool-log",
-      "originType": "tool-log",
-      "slug": "2026-05-07-ai-others-tools-multi-update",
-      "title": "AI Others Tools Update: OpenClaw v2026.5.6 and xAI-Anthropic Partnership",
-      "dek": "2026年5月7日の汎用AIツールのアップデートをまとめました。OpenClaw の安定性向上アップデートや xAI (Grok) と Anthropic の提携発表など、インフラとエコシステムの拡大が加速しています。",
-      "summary": "OpenClaw v2026.5.6 (安定性向上)、xAI と Anthropic の計算資源提携など、汎用 AI ツールの 2026年5月7日アップデートをまとめました。",
-      "publishedAt": "2026-05-07",
-      "createdAt": "2026-05-07T04:15:00Z",
-      "toolName": "OpenClaw, Grok (xAI), Claude",
-      "articleUrl": "./articles/tools/2026-05-07-ai-others-tools-multi-update.html",
-      "serial": 453
-    },
-    {
-      "category": "ai-tool-log",
-      "originType": "tool-log",
-      "slug": "2026-05-07-ai-coding-tools-multi-update",
-      "title": "AI Coding Tools Update: Claude Code v2.1.131, Cursor 3.3, and Windsurf 2.2.17",
-      "dek": "2026年5月7日のAIコーディングツールの主要アップデートをまとめました。Claude Code の Windows 環境での修正や Cursor のコンテキスト使用量可視化、Windsurf の新レビュー機能など、利便性を高める更新が続いています。",
-      "summary": "Claude Code v2.1.131 (Windows 修正)、Cursor 3.3 (コンテキスト可視化)、Windsurf 2.2.17 (Devin Review) など、主要な AI コーディングツールの 2026年5月7日アップデートをまとめました。",
-      "publishedAt": "2026-05-07",
-      "createdAt": "2026-05-07T04:00:00Z",
-      "toolName": "Claude Code, Cursor, Windsurf, Gemini CLI",
-      "articleUrl": "./articles/tools/2026-05-07-ai-coding-tools-multi-update.html",
-      "serial": 452
-    },
-    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-07-edtechre-pybroker",
@@ -7829,6 +7825,32 @@
       "rank": 11,
       "serial": 435,
       "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-07-ai-others-tools-multi-update",
+      "title": "AI Others Tools Update: OpenClaw v2026.5.6 and xAI-Anthropic Partnership",
+      "dek": "2026年5月7日の汎用AIツールのアップデートをまとめました。OpenClaw の安定性向上アップデートや xAI (Grok) と Anthropic の提携発表など、インフラとエコシステムの拡大が加速しています。",
+      "summary": "OpenClaw v2026.5.6 (安定性向上)、xAI と Anthropic の計算資源提携など、汎用 AI ツールの 2026年5月7日アップデートをまとめました。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T04:15:00Z",
+      "toolName": "OpenClaw, Grok (xAI), Claude",
+      "articleUrl": "./articles/tools/2026-05-07-ai-others-tools-multi-update.html",
+      "serial": 453
+    },
+    {
+      "category": "ai-tool-log",
+      "originType": "tool-log",
+      "slug": "2026-05-07-ai-coding-tools-multi-update",
+      "title": "AI Coding Tools Update: Claude Code v2.1.131, Cursor 3.3, and Windsurf 2.2.17",
+      "dek": "2026年5月7日のAIコーディングツールの主要アップデートをまとめました。Claude Code の Windows 環境での修正や Cursor のコンテキスト使用量可視化、Windsurf の新レビュー機能など、利便性を高める更新が続いています。",
+      "summary": "Claude Code v2.1.131 (Windows 修正)、Cursor 3.3 (コンテキスト可視化)、Windsurf 2.2.17 (Devin Review) など、主要な AI コーディングツールの 2026年5月7日アップデートをまとめました。",
+      "publishedAt": "2026-05-07",
+      "createdAt": "2026-05-07T04:00:00Z",
+      "toolName": "Claude Code, Cursor, Windsurf, Gemini CLI",
+      "articleUrl": "./articles/tools/2026-05-07-ai-coding-tools-multi-update.html",
+      "serial": 452
     },
     {
       "category": "github-update-report",
@@ -8145,6 +8167,16 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
+      "category": "github-update-report",
+      "slug": "2026-05-06-update-report",
+      "title": "2026-05-06 GitHub Trending 更新レポート",
+      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+      "summary": "本日の調査で、TabPFN、Local Deep Research、Awesome AI Apps、Islands Dark の 4 件を新規に記事化しました。表形式データの基盤モデルから、プライバシー重視のリサーチツール、そして VS Code の外観を極限まで美しくするテーマなど、実用性と審美性を兼ね備えたラインナップとなっています。",
+      "publishedAt": "2026-05-06",
+      "articleUrl": "./articles/github/reports/2026-05-06-update-report.html",
+      "serial": 38
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-05-dodo-reach-hermes-desktop",
@@ -8175,16 +8207,6 @@
       "articleUrl": "./articles/github/daily/2026-05-05-wilwaldon-Claude-Code-Frontend-Design-Toolkit.html",
       "serial": 422,
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-update-report",
-      "slug": "2026-05-06-update-report",
-      "title": "2026-05-06 GitHub Trending 更新レポート",
-      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
-      "summary": "本日の調査で、TabPFN、Local Deep Research、Awesome AI Apps、Islands Dark の 4 件を新規に記事化しました。表形式データの基盤モデルから、プライバシー重視のリサーチツール、そして VS Code の外観を極限まで美しくするテーマなど、実用性と審美性を兼ね備えたラインナップとなっています。",
-      "publishedAt": "2026-05-06",
-      "articleUrl": "./articles/github/reports/2026-05-06-update-report.html",
-      "serial": 38
     },
     {
       "category": "github-pickup",
@@ -8345,20 +8367,6 @@
       "toolName": "OpenClaw"
     },
     {
-      "serial": 409,
-      "publishedAt": "2026-05-03",
-      "createdAt": "2026-05-03T20:21:00Z",
-      "category": "github-pickup",
-      "genre": "AI基盤・データ基盤・業務アプリ",
-      "originType": "pickup",
-      "repoName": "appergb/openless",
-      "repoUrl": "https://github.com/appergb/openless",
-      "articleUrl": "articles/github/daily/2026-05-03-appergb-openless.html",
-      "title": "openless",
-      "summary": "macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。",
-      "starCount": 471
-    },
-    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-05-04-aidanpark-openclaw-android",
@@ -8447,6 +8455,20 @@
       "serial": 36
     },
     {
+      "serial": 409,
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-03T20:21:00Z",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "repoName": "appergb/openless",
+      "repoUrl": "https://github.com/appergb/openless",
+      "articleUrl": "articles/github/daily/2026-05-03-appergb-openless.html",
+      "title": "openless",
+      "summary": "macOSとWindowsで動作し、音声入力をAIでリアルタイムに洗練された文章へと変換・入力するオープンソースツール「OpenLess」の概要と特徴をまとめました。従来の音声入力の弱点である言い淀みや文法ミスをAIが自動で修正します。",
+      "starCount": 471
+    },
+    {
       "category": "ai-tool-log",
       "originType": "tool",
       "slug": "2026-05-03-ai-others-tools-multi-update",
@@ -8475,54 +8497,6 @@
       "articleUrl": "./articles/tools/2026-05-03-ai-coding-tools-multi-update.html",
       "serial": 407,
       "genre": "Coding"
-    },
-    {
-      "category": "github-pickup",
-      "originType": "pickup",
-      "slug": "2026-05-02-pranshuparmar-witr",
-      "title": "witr",
-      "dek": "「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。",
-      "summary": "ポート、PID、ファイルからプロセスの「起動の理由」と管理システムを特定し、システム診断を劇的に効率化するRust製ツール「witr」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-02",
-      "createdAt": "2026-05-02T20:30:00Z",
-      "repoName": "pranshuparmar/witr",
-      "repoUrl": "https://github.com/pranshuparmar/witr",
-      "starCount": 14456,
-      "articleUrl": "./articles/github/daily/2026-05-02-pranshuparmar-witr.html",
-      "serial": 403,
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-pickup",
-      "originType": "pickup",
-      "slug": "2026-05-02-scriptscat-scriptcat",
-      "title": "scriptcat",
-      "dek": "Tampermonkey 互換を超えた、バックグラウンド実行や定期実行をサポートする強力な次世代ユーザースクリプトマネージャー。",
-      "summary": "バックグラウンド実行や定期タスク機能を備え、ブラウザの自動化を飛躍的に強化するユーザースクリプト管理ツール「ScriptCat」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-02",
-      "createdAt": "2026-05-02T19:55:00Z",
-      "repoName": "scriptscat/scriptcat",
-      "repoUrl": "https://github.com/scriptscat/scriptcat",
-      "starCount": 4359,
-      "articleUrl": "./articles/github/daily/2026-05-02-scriptscat-scriptcat.html",
-      "serial": 402,
-      "genre": "スクレイピング・情報収集・セキュリティ"
-    },
-    {
-      "category": "github-pickup",
-      "originType": "pickup",
-      "slug": "2026-05-02-beiyuii-personal-api-skill",
-      "title": "personal-api-skill",
-      "dek": "Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。",
-      "summary": "Obsidian内のMarkdownファイルをAIエージェントに読み込ませ、ユーザーの価値観や好みの挙動を瞬時に同期させる「Personal API Skill」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-02",
-      "createdAt": "2026-05-02T18:55:00Z",
-      "repoName": "beiyuii/personal-api-skill",
-      "repoUrl": "https://github.com/beiyuii/personal-api-skill",
-      "starCount": 9,
-      "articleUrl": "./articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html",
-      "serial": 401,
-      "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
       "serial": 408,
@@ -8615,6 +8589,54 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-05-02-pranshuparmar-witr",
+      "title": "witr",
+      "dek": "「なぜこのプロセスが動いているのか？」を瞬時に解明。ポート、PID、ファイルから実行の背景と因果関係を可視化する究極の診断ツール。",
+      "summary": "ポート、PID、ファイルからプロセスの「起動の理由」と管理システムを特定し、システム診断を劇的に効率化するRust製ツール「witr」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T20:30:00Z",
+      "repoName": "pranshuparmar/witr",
+      "repoUrl": "https://github.com/pranshuparmar/witr",
+      "starCount": 14456,
+      "articleUrl": "./articles/github/daily/2026-05-02-pranshuparmar-witr.html",
+      "serial": 403,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-05-02-scriptscat-scriptcat",
+      "title": "scriptcat",
+      "dek": "Tampermonkey 互換を超えた、バックグラウンド実行や定期実行をサポートする強力な次世代ユーザースクリプトマネージャー。",
+      "summary": "バックグラウンド実行や定期タスク機能を備え、ブラウザの自動化を飛躍的に強化するユーザースクリプト管理ツール「ScriptCat」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T19:55:00Z",
+      "repoName": "scriptscat/scriptcat",
+      "repoUrl": "https://github.com/scriptscat/scriptcat",
+      "starCount": 4359,
+      "articleUrl": "./articles/github/daily/2026-05-02-scriptscat-scriptcat.html",
+      "serial": 402,
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-05-02-beiyuii-personal-api-skill",
+      "title": "personal-api-skill",
+      "dek": "Obsidian フォルダを AI エージェント専用の「自分説明 API」に変え、プロンプトの重複をなくすアイデンティティ管理キット。",
+      "summary": "Obsidian内のMarkdownファイルをAIエージェントに読み込ませ、ユーザーの価値観や好みの挙動を瞬時に同期させる「Personal API Skill」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-02T18:55:00Z",
+      "repoName": "beiyuii/personal-api-skill",
+      "repoUrl": "https://github.com/beiyuii/personal-api-skill",
+      "starCount": 9,
+      "articleUrl": "./articles/github/daily/2026-05-02-beiyuii-personal-api-skill.html",
+      "serial": 401,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-05-02-b-nnett-codex-plusplus",
       "title": "codex-plusplus",
       "dek": "OpenAI Codex デスクトップアプリにカスタム機能やUI改善を注入する、強力な「拡張機能（Tweak）」システム。",
@@ -8627,51 +8649,6 @@
       "articleUrl": "./articles/github/daily/2026-05-02-b-nnett-codex-plusplus.html",
       "serial": 400,
       "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "title": "e-shiwake",
-      "dek": "仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。",
-      "summary": "Webブラウザで動作するローカルファーストな仕訳帳・証憑管理アプリ「e-shiwake」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-01",
-      "createdAt": "2026-05-01T21:28:00Z",
-      "repoName": "shuji-bonji/e-shiwake",
-      "repoUrl": "https://github.com/shuji-bonji/e-shiwake",
-      "articleUrl": "./articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html",
-      "category": "github-pickup",
-      "genre": "AI基盤・データ基盤・業務アプリ",
-      "originType": "pickup",
-      "serial": 398,
-      "starCount": 7
-    },
-    {
-      "title": "camofox-browser",
-      "dek": "AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。",
-      "summary": "AIエージェント向けのステルス型ヘッドレスブラウザ「Camofox Browser」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-01",
-      "createdAt": "2026-05-01T17:15:30Z",
-      "repoName": "jo-inc/camofox-browser",
-      "repoUrl": "https://github.com/jo-inc/camofox-browser",
-      "articleUrl": "./articles/github/daily/2026-05-01-camofox-browser.html",
-      "category": "github-pickup",
-      "genre": "AIエージェント (自律基盤・特化アプリ)",
-      "originType": "pickup",
-      "serial": 397,
-      "starCount": 3606
-    },
-    {
-      "title": "blinko",
-      "dek": "プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。",
-      "summary": "プライバシー重視のセルフホスト型AIノートツール「Blinko」の概要と特徴をまとめました。",
-      "publishedAt": "2026-05-01",
-      "createdAt": "2026-05-01T16:21:00Z",
-      "repoName": "blinkospace/blinko",
-      "repoUrl": "https://github.com/blinkospace/blinko",
-      "articleUrl": "./articles/github/daily/2026-05-01-blinko.html",
-      "category": "github-pickup",
-      "genre": "ナレッジ管理・RAG解析",
-      "originType": "pickup",
-      "serial": 396,
-      "starCount": 10169
     },
     {
       "category": "ai-tool-log",
@@ -8726,6 +8703,51 @@
       "publishedAt": "2026-05-02",
       "articleUrl": "./articles/github/reports/2026-05-02-update-report.html",
       "serial": 34
+    },
+    {
+      "title": "e-shiwake",
+      "dek": "仕訳帳と証憑管理を、ブラウザだけで安全に。電子帳簿保存法に対応したローカルファーストの会計PWA。",
+      "summary": "Webブラウザで動作するローカルファーストな仕訳帳・証憑管理アプリ「e-shiwake」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T21:28:00Z",
+      "repoName": "shuji-bonji/e-shiwake",
+      "repoUrl": "https://github.com/shuji-bonji/e-shiwake",
+      "articleUrl": "./articles/github/daily/2026-05-01-shuji-bonji-e-shiwake.html",
+      "category": "github-pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "originType": "pickup",
+      "serial": 398,
+      "starCount": 7
+    },
+    {
+      "title": "camofox-browser",
+      "dek": "AIエージェントに「ステルス性」を。Cloudflareやボット検知を回避する、ヘッドレスブラウザの新基準。",
+      "summary": "AIエージェント向けのステルス型ヘッドレスブラウザ「Camofox Browser」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T17:15:30Z",
+      "repoName": "jo-inc/camofox-browser",
+      "repoUrl": "https://github.com/jo-inc/camofox-browser",
+      "articleUrl": "./articles/github/daily/2026-05-01-camofox-browser.html",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 397,
+      "starCount": 3606
+    },
+    {
+      "title": "blinko",
+      "dek": "プライバシー重視で自律的な知識管理を実現する、オープンソースのセルフホスト型AIノートツール。",
+      "summary": "プライバシー重視のセルフホスト型AIノートツール「Blinko」の概要と特徴をまとめました。",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-01T16:21:00Z",
+      "repoName": "blinkospace/blinko",
+      "repoUrl": "https://github.com/blinkospace/blinko",
+      "articleUrl": "./articles/github/daily/2026-05-01-blinko.html",
+      "category": "github-pickup",
+      "genre": "ナレッジ管理・RAG解析",
+      "originType": "pickup",
+      "serial": 396,
+      "starCount": 10169
     },
     {
       "category": "github-pickup",
@@ -12124,22 +12146,6 @@
     },
     {
       "category": "github-pickup",
-      "slug": "2026-04-16-forrestchang-andrej-karpathy-skills",
-      "title": "andrej-karpathy-skills",
-      "dek": "Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。",
-      "summary": "AI 研究の第一人者 Andrej Karpathy 氏の観察に基づく、LLM コーディングの落とし穴を回避するための行動指針（CLAUDE.md テンプレート）を提供するリポジトリです。「思考優先」「シンプルさ」「surgical な変更」といった原則により、AI エージェントの精度を劇的に向上させます。",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-17T10:35:00+09:00",
-      "repoName": "forrestchang/andrej-karpathy-skills",
-      "repoUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "starCount": 50000,
-      "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
-      "serial": 233,
-      "originType": "pickup",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "category": "github-pickup",
       "slug": "2026-04-17-sirmalloc-ccstatusline",
       "title": "ccstatusline",
       "dek": "Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。",
@@ -12244,29 +12250,6 @@
       "serial": 228,
       "originType": "trending",
       "genre": "ナレッジ管理・RAG解析"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory",
-      "title": "OpenClaw 2026.4.15-beta.1: 認証状態カードと cloud memory を強化",
-      "dek": "Model Auth 状態カード、cloud storage 対応の memory-lancedb、Copilot 埋め込み検索をまとめて追加した beta.1 です。",
-      "summary": "OpenClaw 2026.4.15-beta.1 では、Control UI/Overview の Model Auth status card、memory-lancedb の cloud storage 対応、GitHub Copilot embedding provider の追加、experimental localModelLean などが入った更新です。",
-      "publishedAt": "2026-04-15",
-      "createdAt": "2026-04-17T05:54:00+09:00",
-      "repoName": "openclaw/openclaw",
-      "repoUrl": "https://github.com/openclaw/openclaw/releases",
-      "articleUrl": "./articles/tools/2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory.html"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-16-claude-opus-4-7-general-availability",
-      "title": "Claude Opus 4.7: コーディングと視覚性能を強化して一般提供",
-      "dek": "長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。",
-      "summary": "AnthropicはClaude Opus 4.7を一般提供し、難度の高いソフトウェア工学タスク、長時間のエージェント作業、画像の高解像度理解を改善しました。Claude製品群、API、Bedrock、Vertex AI、Microsoft Foundryで利用できます。",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-17T05:53:00+09:00",
-      "toolName": "Claude",
-      "articleUrl": "./articles/tools/2026-04-16-claude-opus-4-7-general-availability.html"
     },
     {
       "category": "github-pickup",
@@ -12377,6 +12360,33 @@
       "repoName": "google-gemini/gemini-cli",
       "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
       "articleUrl": "./articles/tools/2026-04-17-gemini-cli-v0-38-2-patch.html"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-16-forrestchang-andrej-karpathy-skills",
+      "title": "andrej-karpathy-skills",
+      "dek": "Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。",
+      "summary": "AI 研究の第一人者 Andrej Karpathy 氏の観察に基づく、LLM コーディングの落とし穴を回避するための行動指針（CLAUDE.md テンプレート）を提供するリポジトリです。「思考優先」「シンプルさ」「surgical な変更」といった原則により、AI エージェントの精度を劇的に向上させます。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-17T10:35:00+09:00",
+      "repoName": "forrestchang/andrej-karpathy-skills",
+      "repoUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "starCount": 50000,
+      "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
+      "serial": 233,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-16-claude-opus-4-7-general-availability",
+      "title": "Claude Opus 4.7: コーディングと視覚性能を強化して一般提供",
+      "dek": "長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。",
+      "summary": "AnthropicはClaude Opus 4.7を一般提供し、難度の高いソフトウェア工学タスク、長時間のエージェント作業、画像の高解像度理解を改善しました。Claude製品群、API、Bedrock、Vertex AI、Microsoft Foundryで利用できます。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-17T05:53:00+09:00",
+      "toolName": "Claude",
+      "articleUrl": "./articles/tools/2026-04-16-claude-opus-4-7-general-availability.html"
     },
     {
       "category": "github-pickup",
@@ -12531,6 +12541,18 @@
       "repoName": "github/copilot",
       "repoUrl": "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/",
       "articleUrl": "./articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory",
+      "title": "OpenClaw 2026.4.15-beta.1: 認証状態カードと cloud memory を強化",
+      "dek": "Model Auth 状態カード、cloud storage 対応の memory-lancedb、Copilot 埋め込み検索をまとめて追加した beta.1 です。",
+      "summary": "OpenClaw 2026.4.15-beta.1 では、Control UI/Overview の Model Auth status card、memory-lancedb の cloud storage 対応、GitHub Copilot embedding provider の追加、experimental localModelLean などが入った更新です。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-17T05:54:00+09:00",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory.html"
     },
     {
       "category": "github-pickup",
@@ -12830,32 +12852,6 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
-      "category": "ai-tool-log",
-      "slug": "2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr",
-      "title": "Grok CLI v1.1.5-rc5: MCP stdio stderr を TUI から分離",
-      "dek": "MCP stdio の stderr を TUI から分離し、offline mode 検出や permissions 表示も整えた安定化リリースです。",
-      "summary": "Grok CLI v1.1.5-rc5 は、MCP stdio の stderr 分離、offline mode 検出、permissions / git status 表示の調整を含む rc 系列の安定化リリースです。",
-      "publishedAt": "2026-04-13",
-      "createdAt": "2026-04-14T05:40:00+09:00",
-      "repoName": "superagent-ai/grok-cli",
-      "repoUrl": "https://github.com/superagent-ai/grok-cli/releases",
-      "articleUrl": "./articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html",
-      "serial": 129
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-13-github-copilot-cli-remote-control-sessions",
-      "title": "GitHub Copilot CLI: remote control sessions が public preview",
-      "dek": "Copilot CLI の実行セッションを GitHub の web や mobile から監視・操作できる remote control が public preview になりました。",
-      "summary": "GitHub Copilot CLI の remote control sessions が public preview。copilot --remote で CLI セッションを web / mobile から監視し、追加指示や権限承認を行えます。",
-      "publishedAt": "2026-04-13",
-      "createdAt": "2026-04-14T05:35:00+09:00",
-      "repoName": "github/copilot",
-      "repoUrl": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/",
-      "articleUrl": "./articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html",
-      "serial": 128
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-04-14-github-copilot-sdk",
       "title": "GitHub Copilot SDK",
@@ -12870,19 +12866,6 @@
       "serial": 202,
       "originType": "pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-13-claude-code-v2-1-104-latest-tag",
-      "title": "Claude Code v2.1.104: 最新リリースタグを更新",
-      "dek": "Claude Code の公式 GitHub Releases で v2.1.104 が Latest として公開され、導入時の参照タグが更新されました。",
-      "summary": "Claude Code v2.1.104 は、公式 GitHub Releases 上の Latest タグ更新。詳細な機能差分は限定的なため、導入前に既存ワークフローの回帰確認が必要です。",
-      "publishedAt": "2026-04-13",
-      "createdAt": "2026-04-14T05:25:00+09:00",
-      "repoName": "anthropics/claude-code",
-      "repoUrl": "https://github.com/anthropics/claude-code/releases",
-      "articleUrl": "./articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html",
-      "serial": 126
     },
     {
       "category": "github-update-report",
@@ -13008,6 +12991,45 @@
       "serial": 195,
       "originType": "pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr",
+      "title": "Grok CLI v1.1.5-rc5: MCP stdio stderr を TUI から分離",
+      "dek": "MCP stdio の stderr を TUI から分離し、offline mode 検出や permissions 表示も整えた安定化リリースです。",
+      "summary": "Grok CLI v1.1.5-rc5 は、MCP stdio の stderr 分離、offline mode 検出、permissions / git status 表示の調整を含む rc 系列の安定化リリースです。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:40:00+09:00",
+      "repoName": "superagent-ai/grok-cli",
+      "repoUrl": "https://github.com/superagent-ai/grok-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html",
+      "serial": 129
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-github-copilot-cli-remote-control-sessions",
+      "title": "GitHub Copilot CLI: remote control sessions が public preview",
+      "dek": "Copilot CLI の実行セッションを GitHub の web や mobile から監視・操作できる remote control が public preview になりました。",
+      "summary": "GitHub Copilot CLI の remote control sessions が public preview。copilot --remote で CLI セッションを web / mobile から監視し、追加指示や権限承認を行えます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:35:00+09:00",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/",
+      "articleUrl": "./articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html",
+      "serial": 128
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-claude-code-v2-1-104-latest-tag",
+      "title": "Claude Code v2.1.104: 最新リリースタグを更新",
+      "dek": "Claude Code の公式 GitHub Releases で v2.1.104 が Latest として公開され、導入時の参照タグが更新されました。",
+      "summary": "Claude Code v2.1.104 は、公式 GitHub Releases 上の Latest タグ更新。詳細な機能差分は限定的なため、導入前に既存ワークフローの回帰確認が必要です。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:25:00+09:00",
+      "repoName": "anthropics/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code/releases",
+      "articleUrl": "./articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html",
+      "serial": 126
     },
     {
       "category": "github-pickup",
@@ -13581,58 +13603,6 @@
     },
     {
       "category": "ai-tool-log",
-      "slug": "2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans",
-      "title": "ChatGPT: GPT-5.3 Instant mini と新しい Pro プラン",
-      "dek": "GPT-5.3 Instant の制限到達後に使われる fallback モデルが GPT-5.3 Instant mini へ更新され、Pro プラン構成も見直されました。",
-      "summary": "ChatGPT で GPT-5.3 Instant mini が fallback モデルとして導入され、新しい月額100ドルの Pro プランも追加。長時間利用と Codex 利用枠の前提が変わります。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-11T05:55:00+09:00",
-      "repoName": "openai/chatgpt",
-      "repoUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-      "articleUrl": "./articles/tools/2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans.html",
-      "serial": 117
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-09-gemini-interactive-visualizations",
-      "title": "Gemini: 3D models and interactive charts を生成可能に",
-      "dek": "Gemini app が、質問や複雑なトピックからチャット内で操作できる 3D モデルやインタラクティブな図表を生成できるようになりました。",
-      "summary": "Gemini app が 3D モデル、チャート、シミュレーションのような操作可能な可視化を生成可能に。学習や複雑な概念理解で使いやすい更新です。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-11T05:50:00+09:00",
-      "repoName": "google/gemini",
-      "repoUrl": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
-      "articleUrl": "./articles/tools/2026-04-09-gemini-interactive-visualizations.html",
-      "serial": 116
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-09-perplexity-computer-personal-cfo",
-      "title": "Perplexity: Computer is Now Your Personal CFO",
-      "dek": "Perplexity Computer が個人の財務状況を扱う CFO 的な用途へ広がったことを示す公式 Hub 更新です。",
-      "summary": "Perplexity Computer が Plaid integration を通じて個人財務の俯瞰と支援へ拡張。検索回答から生活・業務データ接続型の支援に近づく更新です。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-11T05:45:00+09:00",
-      "repoName": "perplexity/computer",
-      "repoUrl": "https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
-      "articleUrl": "./articles/tools/2026-04-09-perplexity-computer-personal-cfo.html",
-      "serial": 115
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-08-gemini-notebooks-sync-notebooklm",
-      "title": "Gemini: notebooks が NotebookLM と同期",
-      "dek": "Gemini app に notebooks が追加され、Gemini と NotebookLM のあいだでソースや作業文脈を同期できるようになりました。",
-      "summary": "Gemini app の notebooks が NotebookLM と同期。チャット、ファイル、ソースをプロジェクト単位で整理し、NotebookLM の生成機能へつなげやすくなりました。",
-      "publishedAt": "2026-04-08",
-      "createdAt": "2026-04-11T05:40:00+09:00",
-      "repoName": "google/gemini-notebooklm",
-      "repoUrl": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
-      "articleUrl": "./articles/tools/2026-04-08-gemini-notebooks-sync-notebooklm.html",
-      "serial": 114
-    },
-    {
-      "category": "ai-tool-log",
       "slug": "2026-04-10-github-copilot-cloud-agent-validation-tools-faster",
       "title": "GitHub Copilot: cloud agent の validation tools が 20% 高速化",
       "dek": "Copilot cloud agent の validation tools が 20% 高速化し、エージェント運用時の確認フローを短縮する更新です。",
@@ -13787,6 +13757,45 @@
       "serial": 154,
       "originType": "pickup",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans",
+      "title": "ChatGPT: GPT-5.3 Instant mini と新しい Pro プラン",
+      "dek": "GPT-5.3 Instant の制限到達後に使われる fallback モデルが GPT-5.3 Instant mini へ更新され、Pro プラン構成も見直されました。",
+      "summary": "ChatGPT で GPT-5.3 Instant mini が fallback モデルとして導入され、新しい月額100ドルの Pro プランも追加。長時間利用と Codex 利用枠の前提が変わります。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-11T05:55:00+09:00",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans.html",
+      "serial": 117
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-09-gemini-interactive-visualizations",
+      "title": "Gemini: 3D models and interactive charts を生成可能に",
+      "dek": "Gemini app が、質問や複雑なトピックからチャット内で操作できる 3D モデルやインタラクティブな図表を生成できるようになりました。",
+      "summary": "Gemini app が 3D モデル、チャート、シミュレーションのような操作可能な可視化を生成可能に。学習や複雑な概念理解で使いやすい更新です。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-11T05:50:00+09:00",
+      "repoName": "google/gemini",
+      "repoUrl": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+      "articleUrl": "./articles/tools/2026-04-09-gemini-interactive-visualizations.html",
+      "serial": 116
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-09-perplexity-computer-personal-cfo",
+      "title": "Perplexity: Computer is Now Your Personal CFO",
+      "dek": "Perplexity Computer が個人の財務状況を扱う CFO 的な用途へ広がったことを示す公式 Hub 更新です。",
+      "summary": "Perplexity Computer が Plaid integration を通じて個人財務の俯瞰と支援へ拡張。検索回答から生活・業務データ接続型の支援に近づく更新です。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-11T05:45:00+09:00",
+      "repoName": "perplexity/computer",
+      "repoUrl": "https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
+      "articleUrl": "./articles/tools/2026-04-09-perplexity-computer-personal-cfo.html",
+      "serial": 115
     },
     {
       "category": "github-pickup",
@@ -13951,6 +13960,19 @@
       "articleUrl": "./articles/tools/2026-04-09-openclaw-v2026-4-8.html",
       "serial": 101,
       "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-08-gemini-notebooks-sync-notebooklm",
+      "title": "Gemini: notebooks が NotebookLM と同期",
+      "dek": "Gemini app に notebooks が追加され、Gemini と NotebookLM のあいだでソースや作業文脈を同期できるようになりました。",
+      "summary": "Gemini app の notebooks が NotebookLM と同期。チャット、ファイル、ソースをプロジェクト単位で整理し、NotebookLM の生成機能へつなげやすくなりました。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-11T05:40:00+09:00",
+      "repoName": "google/gemini-notebooklm",
+      "repoUrl": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "articleUrl": "./articles/tools/2026-04-08-gemini-notebooks-sync-notebooklm.html",
+      "serial": 114
     },
     {
       "category": "ai-tool-log",
@@ -14628,54 +14650,6 @@
     },
     {
       "category": "ai-tool-log",
-      "slug": "2026-04-02-gemini-free-feature-expansion",
-      "title": "Gemini: 無料ユーザー向けに履歴インポートや楽曲生成を開放",
-      "dek": "ChatGPT からのデータ移行機能や Lyria 3 Pro による楽曲生成が全てのユーザーで利用可能になりました。",
-      "summary": "Google が Gemini の無料機能を大幅に拡充. 履歴・メモリのインポート機能に加え、Google TV との統合や高度な楽曲生成機能が追加されました。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-07T14:33:00+09:00",
-      "toolName": "Gemini",
-      "articleUrl": "./articles/tools/2026-04-02-gemini-free-feature-expansion.html",
-      "serial": 78
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-02-chatgpt-carplay-app-integration",
-      "title": "ChatGPT: CarPlay 対応と外部アプリ連携の強化",
-      "dek": "車内でのハンズフリー対話が可能になり、Notion や Linear との書き込み連携も実現しました。",
-      "summary": "OpenAI が ChatGPT の iOS アプリを更新し、CarPlay に対応。また、Box、Notion、Linear 等の外部アプリとの双方向連携をアップデートしました。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-07T14:32:00+09:00",
-      "toolName": "ChatGPT",
-      "articleUrl": "./articles/tools/2026-04-02-chatgpt-carplay-app-integration.html",
-      "serial": 77
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-04-claude-usage-restrictions",
-      "title": "Claude: サードパーティツール経由の Pro 枠利用を制限",
-      "dek": "OpenClaw 等の外部ツールでの Pro サブスクリプション利用が不可となり、従量課金が必須となりました。",
-      "summary": "Anthropic がサードパーティ製クライアントによる Pro 枠の利用を制限しました。API 経由の従量課金モデルへの移行が促されています。",
-      "publishedAt": "2026-04-04",
-      "createdAt": "2026-04-07T14:31:00+09:00",
-      "toolName": "Claude",
-      "articleUrl": "./articles/tools/2026-04-04-claude-usage-restrictions.html",
-      "serial": 76
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-06-openclaw-v2026-4-5-video-gen",
-      "title": "OpenClaw v2026.4.5: 組み込みビデオ生成機能の追加",
-      "dek": "外部アプリ連携を介したビデオ生成に対応し、マルチモーダル機能がさらに強化されました。",
-      "summary": "OpenClaw の最新アップデートにより、WhatsApp や Discord などのチャネルを通じて AI によるビデオ生成が可能になりました。タスクフローの安定性向上も含まれます。",
-      "publishedAt": "2026-04-06",
-      "createdAt": "2026-04-07T14:30:00+09:00",
-      "toolName": "OpenClaw",
-      "articleUrl": "./articles/tools/2026-04-06-openclaw-v2026-4-5-video-gen.html",
-      "serial": 75
-    },
-    {
-      "category": "ai-tool-log",
       "slug": "2026-04-07-github-copilot-cli-v1-0-20-byok-local-models",
       "title": "GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応",
       "dek": "自社モデルやローカル LLM (Ollama) を推論エンジンとして使用可能に。オフラインモードも追加。",
@@ -14776,6 +14750,18 @@
       "publishedAt": "2026-04-07",
       "toolName": "Cline",
       "articleUrl": "./articles/tools/2026-04-07-cline-v3-78-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-06-openclaw-v2026-4-5-video-gen",
+      "title": "OpenClaw v2026.4.5: 組み込みビデオ生成機能の追加",
+      "dek": "外部アプリ連携を介したビデオ生成に対応し、マルチモーダル機能がさらに強化されました。",
+      "summary": "OpenClaw の最新アップデートにより、WhatsApp や Discord などのチャネルを通じて AI によるビデオ生成が可能になりました。タスクフローの安定性向上も含まれます。",
+      "publishedAt": "2026-04-06",
+      "createdAt": "2026-04-07T14:30:00+09:00",
+      "toolName": "OpenClaw",
+      "articleUrl": "./articles/tools/2026-04-06-openclaw-v2026-4-5-video-gen.html",
+      "serial": 75
     },
     {
       "slug": "2026-04-06-update-report",
@@ -15016,17 +15002,25 @@
     },
     {
       "category": "ai-tool-log",
-      "slug": "2026-04-02-openclaw-2026-4-2-task-flow-origin-validation",
-      "title": "OpenClaw 2026.4.2: Task Flow 管理と origin 検証を強化",
-      "dek": "Task Flow の永続管理を戻しつつ、WebSocket の origin 検証や provider ルーティングを固めた、運用寄りの大型メンテナンス更新です。",
-      "summary": "OpenClaw 2026.4.2 は、Task Flow の managed / mirrored 同期、background orchestration 管理、Android assistant 連携、origin 検証強化、provider ルーティング修正をまとめたリリースです。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-05T04:35:00+09:00",
-      "toolName": "OpenClaw",
-      "repoName": "openclaw/openclaw",
-      "repoUrl": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
-      "articleUrl": "./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html",
-      "rank": 999
+      "slug": "2026-04-05-grok-cli-v1-1-4-stable",
+      "title": "Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入",
+      "dek": "正式版v1.1.4ではメディアファイルの自動オープンに対応。オートコンプリートの強化やヘッドレス実行用のバッチモードなど、開発効率を支える機能が拡充されました。",
+      "summary": "Grok CLI v1.1.4がリリース。生成された画像や動画をシステムビューアーで自動的に開く機能や、バッチモード、@-mentionオートコンプリートなど操作性が大幅に向上。",
+      "publishedAt": "2026-04-05",
+      "toolName": "Grok CLI",
+      "articleUrl": "./articles/tools/2026-04-05-grok-cli-v1-1-4-stable.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-04-claude-usage-restrictions",
+      "title": "Claude: サードパーティツール経由の Pro 枠利用を制限",
+      "dek": "OpenClaw 等の外部ツールでの Pro サブスクリプション利用が不可となり、従量課金が必須となりました。",
+      "summary": "Anthropic がサードパーティ製クライアントによる Pro 枠の利用を制限しました。API 経由の従量課金モデルへの移行が促されています。",
+      "publishedAt": "2026-04-04",
+      "createdAt": "2026-04-07T14:31:00+09:00",
+      "toolName": "Claude",
+      "articleUrl": "./articles/tools/2026-04-04-claude-usage-restrictions.html",
+      "serial": 76
     },
     {
       "category": "ai-tool-log",
@@ -15041,16 +15035,6 @@
       "repoUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
       "articleUrl": "./articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html",
       "rank": 999
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-05-grok-cli-v1-1-4-stable",
-      "title": "Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入",
-      "dek": "正式版v1.1.4ではメディアファイルの自動オープンに対応。オートコンプリートの強化やヘッドレス実行用のバッチモードなど、開発効率を支える機能が拡充されました。",
-      "summary": "Grok CLI v1.1.4がリリース。生成された画像や動画をシステムビューアーで自動的に開く機能や、バッチモード、@-mentionオートコンプリートなど操作性が大幅に向上。",
-      "publishedAt": "2026-04-05",
-      "toolName": "Grok CLI",
-      "articleUrl": "./articles/tools/2026-04-05-grok-cli-v1-1-4-stable.html"
     },
     {
       "category": "github-pickup",
@@ -15130,62 +15114,6 @@
       "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
-      "category": "ai-tool-log",
-      "slug": "2026-04-01-perplexity-computer-slack",
-      "title": "Perplexity: Computer を Slack から実行できる連携を公開",
-      "dek": "Slack 上の会話から Computer を呼び出し、複数ステップの処理や外部ツール連携を進められる公式導線が追加されました。",
-      "summary": "Perplexity の 2026-04-01 更新では、Computer を Slack から呼び出して共有コンテキスト付きで作業させる公式連携が案内されました。外部ツール接続と長時間実行を Slack 起点で扱いやすくする更新です。",
-      "publishedAt": "2026-04-01",
-      "createdAt": "2026-04-04T04:34:00+09:00",
-      "toolName": "Perplexity",
-      "repoName": "perplexity/ai",
-      "repoUrl": "https://www.perplexity.ai/enterprise/slack-integration",
-      "articleUrl": "./articles/tools/2026-04-01-perplexity-computer-slack.html",
-      "rank": 999
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-03-github-copilot-cloud-agent-signed-commits",
-      "title": "GitHub Copilot: Copilot cloud agent が署名付きコミットに対応",
-      "dek": "Copilot cloud agent が生成するコミットが GitHub 上で Verified 扱いになり、signed commits 必須の保護ルールにも適合するようになりました。",
-      "summary": "GitHub Copilot の 2026-04-03 更新で、Copilot cloud agent が署名付きコミットに対応しました。branch protection で signed commits を必須にしているリポジトリでも agent を使いやすくなる更新です。",
-      "publishedAt": "2026-04-03",
-      "createdAt": "2026-04-04T04:10:00+09:00",
-      "toolName": "GitHub Copilot",
-      "repoName": "github/copilot",
-      "repoUrl": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits/",
-      "articleUrl": "./articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html",
-      "rank": 999
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell",
-      "title": "Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加",
-      "dek": "MCP の大きい結果を保持する上限緩和と、skill / slash command 内 shell 実行の制御追加が入った更新です。",
-      "summary": "Claude Code v2.1.91 は、MCP の大容量結果保持、disableSkillShellExecution、複数行 deep link、plugin bin 実行対応などを含む運用寄りの更新です。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-04T04:08:00+09:00",
-      "toolName": "Claude Code",
-      "repoName": "anthropic-ai/claude-code",
-      "repoUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
-      "articleUrl": "./articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html",
-      "rank": 999
-    },
-    {
-      "category": "ai-tool-log",
-      "slug": "2026-04-02-gemini-cli-v0-37-0-preview-1-patch",
-      "title": "Gemini CLI v0.37.0-preview.1: preview.0 向けパッチを反映",
-      "dek": "最新 preview タグとして v0.37.0-preview.1 が公開され、preview.0 系列へパッチが即時反映されました。",
-      "summary": "Gemini CLI v0.37.0-preview.1 は、v0.37.0-preview.0 系列向けの修正版タグです。大型機能追加ではなく preview 系列を安定化する小規模更新として見てよい内容です。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-04T04:07:00+09:00",
-      "toolName": "Gemini CLI",
-      "repoName": "google-gemini/gemini-cli",
-      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.1",
-      "articleUrl": "./articles/tools/2026-04-02-gemini-cli-v0-37-0-preview-1-patch.html",
-      "rank": 999
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-04-04-ai4finance-foundation-finrobot-pickup",
       "title": "finrobot",
@@ -15258,6 +15186,20 @@
       "publishedAt": "2026-04-04",
       "toolName": "Codex (OmX)",
       "articleUrl": "./articles/tools/2026-04-04-codex-omx-v0-11-13.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-03-github-copilot-cloud-agent-signed-commits",
+      "title": "GitHub Copilot: Copilot cloud agent が署名付きコミットに対応",
+      "dek": "Copilot cloud agent が生成するコミットが GitHub 上で Verified 扱いになり、signed commits 必須の保護ルールにも適合するようになりました。",
+      "summary": "GitHub Copilot の 2026-04-03 更新で、Copilot cloud agent が署名付きコミットに対応しました。branch protection で signed commits を必須にしているリポジトリでも agent を使いやすくなる更新です。",
+      "publishedAt": "2026-04-03",
+      "createdAt": "2026-04-04T04:10:00+09:00",
+      "toolName": "GitHub Copilot",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits/",
+      "articleUrl": "./articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html",
+      "rank": 999
     },
     {
       "category": "github-pickup",
@@ -15401,20 +15343,6 @@
       "genre": "メディア作成・マルチモーダル・UI"
     },
     {
-      "category": "ai-tool-log",
-      "slug": "2026-04-02-gemini-gemma-4-launch",
-      "title": "Gemini: Gemma 4 の 26B / 31B モデルを AI Studio と API に追加",
-      "dek": "Google が 2026-04-02 の Gemini API Release notes で、Gemma 4 系の新モデル `gemma-4-26b-a4b-it` と `gemma-4-31b-it` の提供開始を案内しました。",
-      "summary": "Gemini API の 2026-04-02 更新で、Gemma 4 の 26B / 31B モデルが AI Studio と Gemini API に追加されました。前日の推論ティア拡張に続き、モデル選択肢そのものが広がった更新です。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-03T04:49:00+09:00",
-      "toolName": "Gemini",
-      "repoName": "google-gemini/gemini-api",
-      "repoUrl": "https://ai.google.dev/gemini-api/docs/changelog#april_2_2026",
-      "articleUrl": "./articles/tools/2026-04-02-gemini-gemma-4-launch.html",
-      "rank": 999
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-04-03-openagents-org-openagents",
       "title": "openagents",
@@ -15429,6 +15357,86 @@
       "serial": 80,
       "originType": "pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-gemini-free-feature-expansion",
+      "title": "Gemini: 無料ユーザー向けに履歴インポートや楽曲生成を開放",
+      "dek": "ChatGPT からのデータ移行機能や Lyria 3 Pro による楽曲生成が全てのユーザーで利用可能になりました。",
+      "summary": "Google が Gemini の無料機能を大幅に拡充. 履歴・メモリのインポート機能に加え、Google TV との統合や高度な楽曲生成機能が追加されました。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-07T14:33:00+09:00",
+      "toolName": "Gemini",
+      "articleUrl": "./articles/tools/2026-04-02-gemini-free-feature-expansion.html",
+      "serial": 78
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-chatgpt-carplay-app-integration",
+      "title": "ChatGPT: CarPlay 対応と外部アプリ連携の強化",
+      "dek": "車内でのハンズフリー対話が可能になり、Notion や Linear との書き込み連携も実現しました。",
+      "summary": "OpenAI が ChatGPT の iOS アプリを更新し、CarPlay に対応。また、Box、Notion、Linear 等の外部アプリとの双方向連携をアップデートしました。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-07T14:32:00+09:00",
+      "toolName": "ChatGPT",
+      "articleUrl": "./articles/tools/2026-04-02-chatgpt-carplay-app-integration.html",
+      "serial": 77
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-openclaw-2026-4-2-task-flow-origin-validation",
+      "title": "OpenClaw 2026.4.2: Task Flow 管理と origin 検証を強化",
+      "dek": "Task Flow の永続管理を戻しつつ、WebSocket の origin 検証や provider ルーティングを固めた、運用寄りの大型メンテナンス更新です。",
+      "summary": "OpenClaw 2026.4.2 は、Task Flow の managed / mirrored 同期、background orchestration 管理、Android assistant 連携、origin 検証強化、provider ルーティング修正をまとめたリリースです。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-05T04:35:00+09:00",
+      "toolName": "OpenClaw",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "articleUrl": "./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell",
+      "title": "Claude Code v2.1.91: MCP 大容量結果と skill 実行制御を追加",
+      "dek": "MCP の大きい結果を保持する上限緩和と、skill / slash command 内 shell 実行の制御追加が入った更新です。",
+      "summary": "Claude Code v2.1.91 は、MCP の大容量結果保持、disableSkillShellExecution、複数行 deep link、plugin bin 実行対応などを含む運用寄りの更新です。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-04T04:08:00+09:00",
+      "toolName": "Claude Code",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
+      "articleUrl": "./articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-gemini-cli-v0-37-0-preview-1-patch",
+      "title": "Gemini CLI v0.37.0-preview.1: preview.0 向けパッチを反映",
+      "dek": "最新 preview タグとして v0.37.0-preview.1 が公開され、preview.0 系列へパッチが即時反映されました。",
+      "summary": "Gemini CLI v0.37.0-preview.1 は、v0.37.0-preview.0 系列向けの修正版タグです。大型機能追加ではなく preview 系列を安定化する小規模更新として見てよい内容です。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-04T04:07:00+09:00",
+      "toolName": "Gemini CLI",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.1",
+      "articleUrl": "./articles/tools/2026-04-02-gemini-cli-v0-37-0-preview-1-patch.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-02-gemini-gemma-4-launch",
+      "title": "Gemini: Gemma 4 の 26B / 31B モデルを AI Studio と API に追加",
+      "dek": "Google が 2026-04-02 の Gemini API Release notes で、Gemma 4 系の新モデル `gemma-4-26b-a4b-it` と `gemma-4-31b-it` の提供開始を案内しました。",
+      "summary": "Gemini API の 2026-04-02 更新で、Gemma 4 の 26B / 31B モデルが AI Studio と Gemini API に追加されました。前日の推論ティア拡張に続き、モデル選択肢そのものが広がった更新です。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-03T04:49:00+09:00",
+      "toolName": "Gemini",
+      "repoName": "google-gemini/gemini-api",
+      "repoUrl": "https://ai.google.dev/gemini-api/docs/changelog#april_2_2026",
+      "articleUrl": "./articles/tools/2026-04-02-gemini-gemma-4-launch.html",
+      "rank": 999
     },
     {
       "category": "ai-tool-log",
@@ -15588,6 +15596,68 @@
       "genre": "スクレイピング・情報収集・セキュリティ"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-04-02-ramjke-translumo",
+      "title": "Translumo",
+      "dek": "ゲームやアプリの画面上テキストを OCR で拾い、リアルタイムに別言語へ重ね表示できる Windows 向け翻訳ツール。",
+      "summary": "ramjke/Translumo は、画面キャプチャ、OCR、翻訳 API、オーバーレイ表示を組み合わせて、ゲームやデスクトップアプリのテキストをその場で翻訳する Windows 向けツールです。PaddleOCR や Windows OCR、DeepL・Google・Gemini・ChatGPT・Ollama など複数の構成を選べます。",
+      "publishedAt": "2026-04-02",
+      "createdAt": "2026-04-02T00:20:00+09:00",
+      "repoName": "ramjke/Translumo",
+      "repoUrl": "https://github.com/ramjke/Translumo",
+      "starCount": 5234,
+      "articleUrl": "./articles/github/daily/2026-04-02-ramjke-translumo.html",
+      "serial": 66,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-01-perplexity-computer-slack",
+      "title": "Perplexity: Computer を Slack から実行できる連携を公開",
+      "dek": "Slack 上の会話から Computer を呼び出し、複数ステップの処理や外部ツール連携を進められる公式導線が追加されました。",
+      "summary": "Perplexity の 2026-04-01 更新では、Computer を Slack から呼び出して共有コンテキスト付きで作業させる公式連携が案内されました。外部ツール接続と長時間実行を Slack 起点で扱いやすくする更新です。",
+      "publishedAt": "2026-04-01",
+      "createdAt": "2026-04-04T04:34:00+09:00",
+      "toolName": "Perplexity",
+      "repoName": "perplexity/ai",
+      "repoUrl": "https://www.perplexity.ai/enterprise/slack-integration",
+      "articleUrl": "./articles/tools/2026-04-01-perplexity-computer-slack.html",
+      "rank": 999
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-01-leoyeai-openclaw-auto-dream",
+      "title": "openclaw-auto-dream",
+      "dek": "OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。",
+      "summary": "LeoYeAI/openclaw-auto-dream は、OpenClaw 系エージェントのログを収集・統合・評価し、5 層メモリ、重要度スコア、忘却ルール、ヘルス指標、ダッシュボード生成までを自動化するメモリ保守拡張です。",
+      "publishedAt": "2026-04-01",
+      "createdAt": "2026-04-01T22:05:00+09:00",
+      "repoName": "LeoYeAI/openclaw-auto-dream",
+      "repoUrl": "https://github.com/LeoYeAI/openclaw-auto-dream",
+      "starCount": 588,
+      "articleUrl": "./articles/github/daily/2026-04-01-leoyeai-openclaw-auto-dream.html",
+      "serial": 65,
+      "originType": "pickup",
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-01-gitlawb-openclaude",
+      "title": "openclaude",
+      "dek": "Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。",
+      "summary": "Gitlawb/openclaude は、Claude Code 系 CLI のツール体験を維持しながら、OpenAI 互換 API を通して複数の LLM に接続できる fork です。openaiShim による形式変換と診断コマンド群で、マルチモデル運用を試しやすくしています。",
+      "publishedAt": "2026-04-01",
+      "createdAt": "2026-04-01T21:18:00+09:00",
+      "repoName": "Gitlawb/openclaude",
+      "repoUrl": "https://github.com/Gitlawb/openclaude",
+      "starCount": 21643,
+      "articleUrl": "./articles/github/daily/2026-04-01-gitlawb-openclaude.html",
+      "serial": 64,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-01-update-report",
       "title": "2026-04-01 更新レポート",
@@ -15682,54 +15752,6 @@
       "serial": 67,
       "originType": "trending",
       "genre": "AIエージェント (自律基盤・特化アプリ)"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-04-02-ramjke-translumo",
-      "title": "Translumo",
-      "dek": "ゲームやアプリの画面上テキストを OCR で拾い、リアルタイムに別言語へ重ね表示できる Windows 向け翻訳ツール。",
-      "summary": "ramjke/Translumo は、画面キャプチャ、OCR、翻訳 API、オーバーレイ表示を組み合わせて、ゲームやデスクトップアプリのテキストをその場で翻訳する Windows 向けツールです。PaddleOCR や Windows OCR、DeepL・Google・Gemini・ChatGPT・Ollama など複数の構成を選べます。",
-      "publishedAt": "2026-04-02",
-      "createdAt": "2026-04-02T00:20:00+09:00",
-      "repoName": "ramjke/Translumo",
-      "repoUrl": "https://github.com/ramjke/Translumo",
-      "starCount": 5234,
-      "articleUrl": "./articles/github/daily/2026-04-02-ramjke-translumo.html",
-      "serial": 66,
-      "originType": "pickup",
-      "genre": "ナレッジ管理・RAG解析"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-04-01-leoyeai-openclaw-auto-dream",
-      "title": "openclaw-auto-dream",
-      "dek": "OpenClaw エージェントの記憶を夜間バッチのように整理し、重要事項だけを残してダッシュボード化する自動メモリ保守ツール。",
-      "summary": "LeoYeAI/openclaw-auto-dream は、OpenClaw 系エージェントのログを収集・統合・評価し、5 層メモリ、重要度スコア、忘却ルール、ヘルス指標、ダッシュボード生成までを自動化するメモリ保守拡張です。",
-      "publishedAt": "2026-04-01",
-      "createdAt": "2026-04-01T22:05:00+09:00",
-      "repoName": "LeoYeAI/openclaw-auto-dream",
-      "repoUrl": "https://github.com/LeoYeAI/openclaw-auto-dream",
-      "starCount": 588,
-      "articleUrl": "./articles/github/daily/2026-04-01-leoyeai-openclaw-auto-dream.html",
-      "serial": 65,
-      "originType": "pickup",
-      "genre": "AI基盤・データ基盤・業務アプリ"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-04-01-gitlawb-openclaude",
-      "title": "openclaude",
-      "dek": "Claude Code 系 CLI を OpenAI 互換 API につなぎ替え、GPT・Gemini・DeepSeek・Ollama などで動かせるようにした多モデル fork。",
-      "summary": "Gitlawb/openclaude は、Claude Code 系 CLI のツール体験を維持しながら、OpenAI 互換 API を通して複数の LLM に接続できる fork です。openaiShim による形式変換と診断コマンド群で、マルチモデル運用を試しやすくしています。",
-      "publishedAt": "2026-04-01",
-      "createdAt": "2026-04-01T21:18:00+09:00",
-      "repoName": "Gitlawb/openclaude",
-      "repoUrl": "https://github.com/Gitlawb/openclaude",
-      "starCount": 21643,
-      "articleUrl": "./articles/github/daily/2026-04-01-gitlawb-openclaude.html",
-      "serial": 64,
-      "originType": "pickup",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
     },
     {
       "category": "github-pickup",
@@ -16015,6 +16037,20 @@
       "serial": 51,
       "originType": "trending",
       "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-update-report",
+      "slug": "2026-03-31-update-report",
+      "title": "2026-03-31 更新レポート",
+      "dek": "5件のトレンド記事を追加しました。",
+      "summary": "2026-03-31 の GitHub Watcher 更新内容まとめ。",
+      "publishedAt": "2026-03-31",
+      "repoName": "harunami_AI_base",
+      "repoUrl": "../../github-trend.html",
+      "articleUrl": "./articles/github/reports/2026-03-31-update-report.html",
+      "rank": 0,
+      "createdAt": "2026-03-29T15:59:21+09:00",
+      "serial": 3
     },
     {
       "category": "ai-tool-log",
@@ -16573,20 +16609,6 @@
       "serial": 24,
       "originType": "pickup",
       "genre": "AIエージェント (自律基盤・特化アプリ)"
-    },
-    {
-      "category": "github-update-report",
-      "slug": "2026-03-31-update-report",
-      "title": "2026-03-31 更新レポート",
-      "dek": "5件のトレンド記事を追加しました。",
-      "summary": "2026-03-31 の GitHub Watcher 更新内容まとめ。",
-      "publishedAt": "2026-03-31",
-      "repoName": "harunami_AI_base",
-      "repoUrl": "../../github-trend.html",
-      "articleUrl": "./articles/github/reports/2026-03-31-update-report.html",
-      "rank": 0,
-      "createdAt": "2026-03-29T15:59:21+09:00",
-      "serial": 3
     },
     {
       "category": "github-update-report",

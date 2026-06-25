@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SlackリレーモードやMattermostのキュー管理、個別DMのモデル制御を追加。また、RAFT CLI wake bridgeによるファイル駆動型リモート起動に対応し、安定性を強化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw: v2026.6.11リリース、Slack・Mattermost連携、RAFT CLI wake bridgeによるリモート起動対応と信頼性向上</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI TOOL LOG</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw: v2026.6.11リリース、Slack・Mattermost連携、RAFT CLI wake bridgeによるリモート起動対応と信頼性向上</h1>
+      <p class="article-dek">SlackリレーモードやMattermostのキュー管理、個別DMのモデル制御を追加。また、RAFT CLI wake bridgeによるファイル駆動型リモート起動に対応し、安定性を強化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-24 -->
+          <strong>2026-06-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.6.11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリースでは、チャネル連携の拡張とリモート環境での自律起動のしやすさにフォーカスした機能改善が行われました。</p>
+        <ul>
+            <li><strong>Slack & Mattermost 連携の拡張:</strong> Slackリレーモードが追加されたほか、Mattermostでの <code>/oc_queue</code> キュー管理コマンドや、DM個別のモデルオーバライドが実装されました。</li>
+            <li><strong>RAFT CLI wake bridge:</strong> ファイル駆動や外部通知などを介して、リモート環境のエージェントを安全に起動（wake）させる新たな仕組みを導入しました。</li>
+            <li><strong>モバイルビューと状態管理の改善:</strong> Android用設定画面に詳細パネルが追加され、一部のプロンプトキャッシュ安定性の改善により動作途中のコンテキスト損失を防ぎます。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>SlackやMattermostといったコミュニケーションツールから、より柔軟に個別モデルを指定したOpenClawエージェントの呼び出しやタスク管理が可能になります。また、RAFT wake bridgeの導入により、CI/CD環境や遠隔サーバーでのファイル監視を通じた自動自律処理の開始が容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>チャネル制御を豊富にし、サーバー上でのファイルトリガーによる自律起動を支える実用的な安定化アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
