@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-25-trotsky1997-openfugu",
+      "title": "OpenFugu",
+      "dek": "Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤",
+      "summary": "OpenFugu は、Sakana AI の非公開LLMオーケストレータ「Fugu」の動作原理を論文から再現し、軽量な判定モデルを用いてクエリ毎に最適な LLM を自動ルーティングするほか、Conductor（指揮者）による自律的なワークフロー DAG の組み立てと推論実行を行うオープンソースプロジェクトです。",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T21:10:32+09:00",
+      "repoName": "trotsky1997/OpenFugu",
+      "repoUrl": "https://github.com/trotsky1997/OpenFugu",
+      "starCount": 199,
+      "articleUrl": "./articles/github/daily/2026-06-25-trotsky1997-openfugu.html",
+      "serial": 802,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-25-ikora128-stop-ai-slop-jp",
       "title": "stop-ai-slop-jp",
       "dek": "Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill",

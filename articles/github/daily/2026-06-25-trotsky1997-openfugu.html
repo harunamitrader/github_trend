@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenFugu</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenFugu</h1>
+      <p class="article-dek">Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-25 -->
+          <strong>2026-06-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/trotsky1997/OpenFugu" target="_blank" rel="noreferrer">
+              trotsky1997/OpenFugu
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>199</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>OpenFugu</code> は、Sakana AIが開発・提供している非公開のLLMオーケストレータ「<strong>Fugu（ふぐ）</strong>」の仕組みを、公開されている論文やリサーチ情報に基づいてリバースエンジニアリングし、オープンソースとして再現したプロジェクトです。Fuguは1つの巨大なモデルとして振る舞いながら、実際には「背後にある複数のモデルを統率するポリシー（指揮者）」として動作し、クエリごとに最適なモデルを選択してルーティングする役割を持ちます。本プロジェクトは、このオーケストレーション機構の解析から、判定モデルの学習、OpenAI互換APIとしてのサービングまで、すべてのパイプラインを再現しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>軽量なバックボーンモデル（例: Qwen3-0.6B）を入力文の判定器（Conductor）として動作させ、入力されたクエリを解析します。モデル自体の最終出力ではなく、最後から2番目のトークンにおける「隠れ状態（hidden state）」を抽出し、バイアスのない線形層（linear head）でスコアリングすることで、プールされた複数のLLM（ChatGPT, Claude, DeepSeek等）の中からその問題の処理に最も秀でたモデルを自動選択して処理をディスパッチします。さらに、上位の「Fugu-Ultra」モデルでは、Llamaベースの3Bモデルを指揮者（Conductor）として動作させ、クエリに基づいて複雑な推論タスクを分割し、自動でワークフローDAG（有向非巡回グラフ）を組み立てて並列・再帰的に処理させることも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>オーケストレーションによって「単一のモデルの限界を超える」というSakana AIのコアコンセプトを、非常に高い再現度でオープンに実装している点が際立っています。モデルのルーティングを判定するための linear head は、勾配フリーな進化アルゴリズム（CMA-ESの一種）などを用いてわずか数世代で最適化され、ワーカー側のLLMの重みを一切微調整（ファインチューニング）することなく、極めて効率的な動的ルーティングを実現しています。検証結果では、クエリレベルの動的ルーティングを行うことで、単一の最高性能モデルを単体で使うよりも高い精度（評価スコアの向上）を達成したと報告されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境で必要な依存パッケージをインストールし、配布されているスクリプトを走らせて必要なアーティファクト（Qwen3-0.6Bや検証用ケースなど）をライセンス元から取得します。<br><code>pip install -r requirements.txt</code><br><code>python scripts/fetch_artifacts.py</code><br><br>その後、ローカルまたは API 経由のモデルプールを定義し、<code>openfugu/serve.py</code> を使用してサーバーを起動することで、OpenAI互換の <code>/v1/chat/completions</code> エンドポイントとしてローカル環境や他アプリから透過的に「Fugu」をモデルとして呼び出せるようになります。また、Hugging Faceにて学習済みのConductorモデル（<code>openfugu-conductor-3b</code>）も公開されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の異なるLLM（OpenAI, Anthropic, DeepSeek, ローカルモデル等）を用途に応じて使い分けており、その切り替えやワークフローの組み合わせを自動化・最適化したい開発者やAIエンジニアに向いています。また、Sakana AIが提唱する「複数モデルの協調動作（オーケストレーション）」の技術的背景をソースコードレベルで詳しく学び、自前でルーティング層を構築・学習させたいと考えている研究者やギーク層に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>ワーカー（モデルプール）に高性能な商業用モデルを利用する場合、各APIの利用料金が発生します。また、高度なワークフローDAGの自律生成（Fugu-Ultra）を完全にローカル環境で動かすには、Conductor用の3Bモデルおよびワーカー用の各種ローカルLLMをメモリ上に同時に載せるか、高速に切り替えて実行できる強力なGPU環境（A800クラス等）が必要となります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>OpenFugu</code> は、Sakana AIの先進的なLLM統合アプローチ「Fugu」をコードレベルで解き明かし、誰でも実行可能な形にした野心的なオープンソースプロジェクトです。単一の「万能モデル」に頼るのではなく、用途に合わせてモデル群を自律統率する「マルチLLMオーケストレーション」の実用性とポテンシャルを体験できる強力な基盤です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trotsky1997/OpenFugu" target="_blank" rel="noreferrer">https://github.com/trotsky1997/OpenFugu</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #802</p>
+      </div>
+    </article>
+  </body>
+</html>

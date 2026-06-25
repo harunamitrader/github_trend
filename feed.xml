@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 20:00:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 21:11:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenFugu]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-trotsky1997-openfugu.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-trotsky1997-openfugu.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤]]></description>
+    </item>
     <item>
       <title><![CDATA[stop-ai-slop-jp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-ikora128-stop-ai-slop-jp.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Dockerやローカルデスクトップで動作し、50以上の豊富な編集機能（結合・分割・署名・OCR・黒塗り等）をプライベートAPIやUIでセルフホストできる最高峰のオープンソースPDFプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[oracle]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-steipete-oracle.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-23-steipete-oracle.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロンプトと関連ファイルを1つに束ね、GPT-5.5 ProやGemini 3.1 Pro、Claude Sonnet 4.6などへCLIから問い合わせられる、ブラウザ自動化/MCP対応の開発支援ツール。]]></description>
     </item>
   </channel>
 </rss>
