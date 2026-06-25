@@ -52,27 +52,31 @@
         </div>
       </div>
 
+      <figure class="article-diagram">
+        <img src="images/2026-06-25-ikora128-stop-ai-slop-jp.png" alt="stop-ai-slop-jp 図解" loading="lazy" />
+      </figure>
+
       <div class="article-body">
         <h2>これは何か</h2>
-        <p><code>stop-ai-slop-jp</code> は、AIコーディングCLIツールである <strong>Claude Code</strong> などの環境において、生成された日本語文章からAI特有の不自然な表現や「AI臭」を取り除くための <strong>Claude Skill</strong>（カスタムコマンドおよびシステム指示集）です。英語圏の <a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">hardikpandya/stop-slop</a> に着想を得て、日本語の文章特有のAIのクセ（過剰な装飾や定型表現、単調な文章構造など）をレビュー・修正できるように最適化されています。</p>
+        <p><code>stop-ai-slop-jp</code> は、AI が下書きした日本語文章から「AI臭」や AI Slop を減らすための <strong>Claude Skill</strong> です。英語版 <a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">hardikpandya/stop-slop</a> の発想を踏まえつつ、日本語で起きやすい大げさな見出し、一般論への飛躍、均一すぎる文体などに焦点を当てています。</p>
 
         <h2>何ができるか</h2>
-        <p>本 Skill を Claude Code にインストールするか、Claude Projects などのシステム指示に組み込むことで、AIで下書きした日本語テキストの「公開前レビュー」や「AI臭を排除した書き換え」を自動で実行させることができます。具体的には、大げさな見出し（命題型H2）の検知、体験を「真理」や「美学」へ急激に一般化するパターン、単調な「AではなくBだ」という構文の多用、絵文字や不要な括弧の残骸などの記号レベルのノイズから、文章構造自体の平坦さまで多角的にチェックします。</p>
+        <p>Claude Code に入れるか、Claude Projects や API のシステム指示へ組み込むことで、日本語テキストの公開前レビューや書き換えに使えます。命題型 H2、false agency、「AではなくBだ」の反復、全段落が同じ温度で着地する構成、装飾記号の残骸などをまとめて検査し、どこが AI っぽいのかを指摘できます。</p>
 
         <h2>目立つポイント</h2>
-        <p>単なる表記揺れやNGワードの修正ではなく、「立場（主張）」「リズム」「主体性」「具体性」「削減」の5軸で文章を評価する点が特徴的です。「誰が何をしたか」が曖昧な文章（false agency）を検出したり、あえて文章の熱量や長さに「ムラ」を持たせることで、機械的で均一な文章（AI Slop）から人間らしい躍動感のあるテキストへと修正します。避けるべき語彙をまとめた <code>references/phrases.md</code> や、避けるべき構成パターンを網羅した <code>references/structures.md</code> が付属しており、修正の対比（Before/After）も分かりやすくまとめられています。</p>
+        <p>特徴は、単なる禁止語句集ではなく「立場」「リズム」「主体性」「具体性」「削減」の 5 軸で採点するところです。加えて、<code>references/phrases.md</code>、<code>references/structures.md</code>、<code>examples.md</code> が付属し、臭い語彙だけでなく構造上の癖や修正前後の差まで見られるため、レビュー観点をそのまま再利用しやすくなっています。</p>
 
         <h2>セットアップや使い方の流れ</h2>
-        <p>Claude Code を個人利用している場合、以下のコマンドで <code>~/.claude/skills/</code> 配下に直接リポジトリを clone するだけでインストールできます：<br><code>git clone https://github.com/iKora128/stop-ai-slop-jp ~/.claude/skills/stop-ai-slop-jp</code><br><br>インストール後は、Claude に「この文章を stop-ai-slop-jp の基準でレビューして」または「この文章のAI臭を落として」と指示するだけで機能します。API 経由で使う場合は <code>SKILL.md</code> の内容をシステムプロンプトに含めて使用します。</p>
+        <p>導入は簡単で、Claude Code なら <code>~/.claude/skills/</code> へ clone するだけです。プロジェクト単位で入れる方法や、Claude Projects に <code>SKILL.md</code> と <code>references/</code> を載せる使い方、API のシステムプロンプトへ組み込む使い方も README にまとまっています。実運用では「まずレビューだけ」「必要なら書き換え」「公開前チェックだけ」と段階的に使い分けられます。</p>
 
         <h2>どんな人向けか</h2>
-        <p>LLM を使用してブログ記事、技術ドキュメント、メール、note などのコンテンツを作成しているライターや開発者に最適です。AIでの執筆作業をスピードアップさせつつも、「AIが書いたと一目でわかるような陳腐な文章にしたくない」「自分の言葉や主体性をしっかりと残したい」と考えるすべてのコンテンツ作成者に向いています。</p>
+        <p>ブログ、技術文書、メール、note などを LLM で下書きしている人に向いています。特に、速く書きたいが AI が書いたとすぐ分かる平坦な文にはしたくない人、自分の主張や主体性を文章に残したい人には実用的です。</p>
 
         <h2>注意点</h2>
-        <p>本 Skill はあくまで表現の修正や構造チェックを行うためのアシスタントであり、文章の根本にある「書き手の不在（独自の体験や主張がないこと）」自体は解決できません。AI臭を真に取り除くためには、ベースとなるインプットに自分自身の体験や独自の観点を豊富に盛り込んでおく必要があります。</p>
+        <p>README でも明記されているとおり、この Skill は「書き手の不在」そのものまでは直せません。表現や構造の修正はできても、独自の体験や主張が元原稿に入っていなければ限界があるため、入力側の具体性は別途必要です。</p>
 
         <h2>まとめ</h2>
-        <p><code>stop-ai-slop-jp</code> は、AIによる執筆の利便性を享受しながらも、コンテンツの質を落とさないための頼もしいゲートキーパー（検閲官）です。Claude Code などのエージェント開発環境において、ドキュメントの自然さをワンランク引き上げたいときに欠かせない実用的かつスマートなツールと言えます。</p>
+        <p><code>stop-ai-slop-jp</code> は、日本語で AI 執筆を使うときのレビュー基準を具体的な Skill と参照ファイルに落とし込んだ実用品です。Claude Code 周辺で文章の自然さを底上げしたい人にとって、軽量で導入しやすい品質ゲートとして機能します。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
