@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:17:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:46:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-26 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-26-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-26-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-berkshire]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-ai-berkshire.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-ai-berkshire.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[バフェットや芒格らバリュー投資の巨匠の手法を構造化し、Claude Codeを活用してプロレベルの投資判断を行うAI投研フレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[trek]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-trek.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-trek.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[3Dマップ、予算管理、持ち物リスト、予約インポート、AIを搭載したセルフホスト可能なリアルタイム共同旅行プランナー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[open-seo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-open-seo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-open-seo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SemrushやAhrefsに代わる、AIエージェント（MCP連携）にも対応したセルフホスト可能なオープンソースのSEOツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-toolkit-for-aws]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-agent-toolkit-for-aws.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-agent-toolkit-for-aws.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CodeやCursorなどのAIコーディングエージェントにAWSサービスの操作・デプロイ・知識・ガードレールを統合する公式ツールキット]]></description>
+    </item>
+    <item>
+      <title><![CDATA[casaos]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-casaos.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-casaos.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[家庭内サーバーやエッジデバイス向けの、Dockerを活用したシンプルで美しいオープンソースのパーソナルクラウドOS]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenFugu]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-trotsky1997-openfugu.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Gemini 3.5 Flashに画面認識・操作を行う「Computer Use」機能が内蔵ツールとして実装。一方、開発中のGemini 3.5 Proは品質チューニングのため7月へ公開が延期されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: GPT-5.5 Instant 会話品質の向上と1万文字以上の自動ファイル添付化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-chatgpt-gpt-5-5-instant-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-chatgpt-gpt-5-5-instant-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GPT-5.5 Instantにおける会話ターン間のコンテキスト維持能力や複雑な指示追従性の強化、およびFree/Goユーザー向けの入力欄スマート化アップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.6.10: 会話用自動ファストモードと各種モデルルーティング・セッション状態の改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-10.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-10.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[短いターンでの「自動ファストモード（automatic fast mode）」の導入、Zaiモデル・GLM過負荷フェイルオーバー等のモデルルーティングの信頼性向上、およびチャネル切り替え時の状態初期化等のバグ修正を盛り込んだ stable アップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.191: サンドボックスセキュリティの強化と各種UI・エージェントバグ修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-claudecode-v2-1-191.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-claudecode-v2-1-191.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サンドボックス環境での資格情報アクセス制限（sandbox.credentials）、組織でのモデル利用制限、トランスクリプトのMarkdownコピーやセッションフォーク機能、およびNamed Subagentのセキュリティ制限やUI等のバグ修正を盛り込んだアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[latitude-llm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latitude-dev-latitude-llm.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントやLLMアプリケーションのための、Sentryのように課題（イシュー）起点で動作するオープンソースのモニタリング・オブザーバビリティプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[brag]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latent-spaces-brag.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-24-latent-spaces-brag.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[作成したプロジェクトをワンコマンドで魅力的なローンチ動画（音楽・アニメーション・共有文言付き）に変換する、Claude Code専用のスキル・プラグイン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: Slack統合の自律エージェント「Claude Tag」を発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-23-claude-claude-tag-launch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-23-claude-claude-tag-launch.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Slackのチャンネルから直接動作し、会話の文脈把握からタスク分解、組織をまたいだプロジェクト操作までを自律的にこなすエンタープライズ向け仮想同僚エージェント。]]></description>
     </item>
   </channel>
 </rss>
