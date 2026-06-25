@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-25T06:47:22.367234+00:00",
-  "count": 883,
+  "generatedAt": "2026-06-25T09:08:02.933133+00:00",
+  "count": 884,
   "articles": [
+    {
+      "slug": "2026-06-25-danielrosehill-awesome-obsidian-ai-tools",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Awesome-Obsidian-AI-Tools",
+      "dek": "Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト",
+      "summary": "Awesome-Obsidian-AI-Tools は、ローカルノートアプリである Obsidian で AI・LLM を活用するためのプラグインやツールを網羅したキュレーションリストであり、 vault 内での RAG（検索拡張生成）、チャット、執筆補助、ローカル LLM 連携など多様な AI 機能を導入したいユーザーに最適なカタログです。",
+      "repoName": "danielrosehill/Awesome-Obsidian-AI-Tools",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T18:03:33+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-25-danielrosehill-awesome-obsidian-ai-tools.html",
+      "serial": 800,
+      "searchText": "Awesome-Obsidian-AI-Tools Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト Awesome-Obsidian-AI-Tools は、ローカルノートアプリである Obsidian で AI・LLM を活用するためのプラグインやツールを網羅したキュレーションリストであり、 vault 内での RAG（検索拡張生成）、チャット、執筆補助、ローカル LLM 連携など多様な AI 機能を導入したいユーザーに最適なカタログです。 danielrosehill/Awesome-Obsidian-AI-Tools 学習ガイド・開発アセット"
+    },
     {
       "slug": "2026-06-25-usedhonda-makeloop",
       "category": "github-pickup",
@@ -15,7 +30,7 @@
       "createdAt": "2026-06-25T15:46:19+09:00",
       "articleUrl": "./articles/github/daily/2026-06-25-usedhonda-makeloop.html",
       "serial": 799,
-      "searchText": "makeloop Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン makeloop は、Claude Code においてトークンを浪費しやすい /loop 機能のために、成功基準・自動テストによる検証・状態保存などを組み込んだ高品質なループプロンプトを自動生成し、AI の自律的な開発効率を最大化するプラグインです。 usedhonda/makeloop AIコーディング (CLI本体・拡張機能)"
+      "searchText": "makeloop Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン makeloop は、Claude Code においてトークンを浪費しやすい /loop 機能のために、成功基準・自動テストによる検証・状態保存などを組み込んだ高品質なループプロンプトを自動生成し、AI の自律的な開発効率を最大化するプラグインです。 usedhonda/makeloop AIコーディング (CLI本体・拡張機能) makeloop ← 記事一覧へ戻る GitHub Watcher makeloop Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン 記事作成日 2026-06-25 種別 Pickup 対象 repo usedhonda/makeloop Star数 6 これは何か makeloop は、AIコーディングCLIツールである Claude Code のプラグインです。Claude Codeには、与えられたゴールを達成するまでループ処理で自律的に開発や修正を繰り返す /loop コマンドがありますが、最適なループを実行するためには高品質なプロンプトの記述が必要です。 makeloop は、現在のプロジェクトの状況やこれまでの会話履歴を読み込み、ゴールを達成するために必要な「検証ゲート（テスト）」「状態追跡」「停止条件」を網羅した、コピペしてすぐに使える /loop 用のプロンプトを自動生成してくれます（※プロンプトの生成のみを行い、ループ自体は自動実行しません）。 何ができるか 現在の作業ディレクトリで /makeloop [ゴールのヒント] を実行するだけで、Claude Code がリポジトリの構成やソースコードのコンテキストをスキャンします。その後、ゴールの特定、厳格な成功基準、検証のためのコマンド（ビルド・テスト・lint）、状態を保存するファイル（ .loop/state.md ）の設計、および無限ループを防ぐための停止条件（最大反復回数など）を含んだ完全なプロンプトを作成します。作成されたプロンプトはチャット上に表示されるほか、 .loop/loop-prompt.md ファイルに自動保存されます。 目立つポイント 単なる定型文の生成ではなく、プロジェクトの「成熟度」や「種類」を動的に評価する点が非常に優れています。例えば、まだ何もない空のリポジトリ（グリーンフィールド）であれば、まずテストを書いてそれをパスさせる TDD 的なループを自動で提案し、すでにテスト環境が構築された成熟したプロジェクトであれば既存のテストランナーを再利用するよう指示します。また、一方向で完了を目指す「クローズドループ」だけでなく、監視や変更検知を行ってトリガー起動する「オープンループ」も判別し、ループが適さないタスク（自動検証が不可能なもの）には「ループを使うべきではない」と警告を出すなど、非常に実践的な「ループ・エンジニアリング」の知見が詰まっています。 セットアップや使い方の流れ Claude Code のプラグインマーケットプレイスを利用して、以下のコマンドで簡単に導入できます： /plugin marketplace add usedhonda/makeloop /plugin install makeloop インストール完了後、任意のプロジェクトで /makeloop 、または目標を付け加えて /makeloop finish the auth refactor のように実行します。質問にいくつか答えるだけで、カスタマイズされたループプロンプトが出力されます。 どんな人向けか Claude Code の /loop 機能を日常的に活用し、自律エージェントに大きなタスクを任せたい開発者に最適です。特に、ループ中にAIがテストを勝手にスキップして自己評価だけで「完了した」と判断してしまう問題（Ralph Wiggum loop）や、トークンの浪費に悩まされている人にとって、確実な検証ガードレールを簡単に敷くための強力なツールとなります。 注意点 本プラグインはあくまで「/loop に入力するための最適なプロンプトを設計・生成する」ためのツールであり、自動でループ実行を開始するわけではありません。生成されたプロンプトを確認し、手動でコピペして実行する必要があります。また、ローカルでテストやビルドの検証を走らせるため、それらの検証コマンドが正しくローカルにセットアップされている必要があります。 まとめ makeloop は、AIによる自律開発における「プロンプトエンジニアリング」を自動化し、Claude Code のポテンシャルを最大限に引き出す実用的なユーティリティです。効率的かつ安全にAIエージェントを駆動したい開発者にとって、必携のプラグインと言えます。 参照リンク https://github.com/usedhonda/makeloop Shared GitHub Serial: #799"
     },
     {
       "slug": "2026-06-25-update-report",

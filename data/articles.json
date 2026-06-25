@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-06-25-danielrosehill-awesome-obsidian-ai-tools",
+      "title": "Awesome-Obsidian-AI-Tools",
+      "dek": "Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト",
+      "summary": "Awesome-Obsidian-AI-Tools は、ローカルノートアプリである Obsidian で AI・LLM を活用するためのプラグインやツールを網羅したキュレーションリストであり、 vault 内での RAG（検索拡張生成）、チャット、執筆補助、ローカル LLM 連携など多様な AI 機能を導入したいユーザーに最適なカタログです。",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-25T18:03:33+09:00",
+      "repoName": "danielrosehill/Awesome-Obsidian-AI-Tools",
+      "repoUrl": "https://github.com/danielrosehill/Awesome-Obsidian-AI-Tools",
+      "starCount": 181,
+      "articleUrl": "./articles/github/daily/2026-06-25-danielrosehill-awesome-obsidian-ai-tools.html",
+      "serial": 800,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-06-25-usedhonda-makeloop",
       "title": "makeloop",
       "dek": "Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン",
