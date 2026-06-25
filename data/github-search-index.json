@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-25T19:46:44.656811+00:00",
-  "count": 892,
+  "generatedAt": "2026-06-25T23:27:17.579975+00:00",
+  "count": 893,
   "articles": [
+    {
+      "slug": "tradingview-screener",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "tradingview-screener",
+      "dek": "TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ",
+      "summary": "TradingView-Screener は、スクレイピングを行うことなくTradingViewの公式APIから直接、世界70か国の株式・仮想通貨・FX等のデータを高速取得し、SQLライクな構文を用いてテクニカル指標や財務指標に基づく高度な銘柄スクリーニングを実現するPythonパッケージです。",
+      "repoName": "shner-elmo/TradingView-Screener",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T08:30:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-26-tradingview-screener.html",
+      "serial": 808,
+      "searchText": "tradingview-screener TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ TradingView-Screener は、スクレイピングを行うことなくTradingViewの公式APIから直接、世界70か国の株式・仮想通貨・FX等のデータを高速取得し、SQLライクな構文を用いてテクニカル指標や財務指標に基づく高度な銘柄スクリーニングを実現するPythonパッケージです。 shner-elmo/TradingView-Screener 金融・トレード分析 TradingView-Screener ← 記事一覧へ戻る GitHub Watcher TradingView-Screener TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ 記事作成日 2026-06-26 種別 Pickup 対象 repo shner-elmo/TradingView-Screener Star数 1,017 これは何か WebスクレイピングやHTML解析を行わず、TradingViewの公式APIエンドポイントから直接、株式・仮想通貨・FXなどのスクリーニングデータを取得できるPythonパッケージです。 何ができるか 世界約70か国の株式、仮想通貨、FX、オプション、債券、先物など幅広い市場データの取得が可能です。また、移動平均やMACDなどのテクニカル指標、P/EレシオやEPSといった財務指標を含む3,000以上の豊富なデータフィールドから必要なカラムを選択して取得できます。 目立つポイント 有料サブスクリプションを契約することなく、1分足から1ヶ月足までの複数時間足（タイムフレーム）のデータを自由に組み合わせて取得できる点、およびSQLのように直感的な AND / OR 条件によるフィルタリングやソートを行える点が優れています。 セットアップや使い方の流れ pip install tradingview-screener でインストール可能です。プログラム内では、 Query() オブジェクトを使用して、 .select() 、 .where() 、 .order_by() 等のメソッドチェーンを記述し、最後に .get_scanner_data() を呼ぶことで、PandasのDataFrame形式でデータを取得できます。 どんな人向けか Pythonを用いたシステムトレードやアルゴリズム取引の開発者、TradingViewのスクリーナー機能を自身のツールや分析パイプライン（Jupyter Notebook等）に統合し、自動でスクリーニング処理を行いたいトレーダーやアナリスト。 注意点 データ取得はTradingViewの公開APIサーバーを直接呼び出すため、極端にリクエスト頻度が高い場合や一度に大量の行データを要求しすぎた場合は、レート制限（Ban）を受けるリスクがあります。デフォルトは50行の制限が設けられています。 まとめ TradingViewが持つ膨大かつ高品質なグローバル市場のテクニカル・ファンダメンタルズデータを、スクレイピングなしで高速かつクリーンにPythonで扱えるようにする、金融データ分析において非常に価値の高いパッケージです。 参照リンク https://github.com/shner-elmo/TradingView-Screener Shared GitHub Serial: #808"
+    },
     {
       "slug": "2026-06-26-update-report",
       "category": "github-update-report",

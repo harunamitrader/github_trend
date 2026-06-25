@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "tradingview-screener",
+      "title": "tradingview-screener",
+      "dek": "TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ",
+      "summary": "TradingView-Screener は、スクレイピングを行うことなくTradingViewの公式APIから直接、世界70か国の株式・仮想通貨・FX等のデータを高速取得し、SQLライクな構文を用いてテクニカル指標や財務指標に基づく高度な銘柄スクリーニングを実現するPythonパッケージです。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T08:30:00+09:00",
+      "repoName": "shner-elmo/TradingView-Screener",
+      "repoUrl": "https://github.com/shner-elmo/TradingView-Screener",
+      "starCount": 1017,
+      "articleUrl": "./articles/github/daily/2026-06-26-tradingview-screener.html",
+      "serial": 808,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-26-update-report",
       "title": "2026-06-26 アップデートレポート",

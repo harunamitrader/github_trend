@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:47:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 08:27:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[tradingview-screener]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-tradingview-screener.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-tradingview-screener.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-26 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-26-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Copilot CLIの一般提供（GA）開始、他社・ローカルモデルキーを使用できるBYOK対応、および自動モデル選択機能の標準化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini 3.5 Flash: 内蔵Computer Useツールのプレビュー提供と3.5 Proのリリース延期]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-gemini-v3-5-flash-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini 3.5 Flashに画面認識・操作を行う「Computer Use」機能が内蔵ツールとして実装。一方、開発中のGemini 3.5 Proは品質チューニングのため7月へ公開が延期されました。]]></description>
     </item>
   </channel>
 </rss>

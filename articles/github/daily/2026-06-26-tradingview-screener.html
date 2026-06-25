@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TradingView-Screener</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TradingView-Screener</h1>
+      <p class="article-dek">TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-26 -->
+          <strong>2026-06-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><b>Pickup</b></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/shner-elmo/TradingView-Screener" target="_blank" rel="noreferrer">
+              shner-elmo/TradingView-Screener
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,017</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>WebスクレイピングやHTML解析を行わず、TradingViewの公式APIエンドポイントから直接、株式・仮想通貨・FXなどのスクリーニングデータを取得できるPythonパッケージです。</p>
+
+        <h2>何ができるか</h2>
+        <p>世界約70か国の株式、仮想通貨、FX、オプション、債券、先物など幅広い市場データの取得が可能です。また、移動平均やMACDなどのテクニカル指標、P/EレシオやEPSといった財務指標を含む3,000以上の豊富なデータフィールドから必要なカラムを選択して取得できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>有料サブスクリプションを契約することなく、1分足から1ヶ月足までの複数時間足（タイムフレーム）のデータを自由に組み合わせて取得できる点、およびSQLのように直感的な <code>AND</code>/<code>OR</code> 条件によるフィルタリングやソートを行える点が優れています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install tradingview-screener</code> でインストール可能です。プログラム内では、<code>Query()</code> オブジェクトを使用して、<code>.select()</code>、<code>.where()</code>、<code>.order_by()</code> 等のメソッドチェーンを記述し、最後に <code>.get_scanner_data()</code> を呼ぶことで、PandasのDataFrame形式でデータを取得できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Pythonを用いたシステムトレードやアルゴリズム取引の開発者、TradingViewのスクリーナー機能を自身のツールや分析パイプライン（Jupyter Notebook等）に統合し、自動でスクリーニング処理を行いたいトレーダーやアナリスト。</p>
+
+        <h2>注意点</h2>
+        <p>データ取得はTradingViewの公開APIサーバーを直接呼び出すため、極端にリクエスト頻度が高い場合や一度に大量の行データを要求しすぎた場合は、レート制限（Ban）を受けるリスクがあります。デフォルトは50行の制限が設けられています。</p>
+
+        <h2>まとめ</h2>
+        <p>TradingViewが持つ膨大かつ高品質なグローバル市場のテクニカル・ファンダメンタルズデータを、スクレイピングなしで高速かつクリーンにPythonで扱えるようにする、金融データ分析において非常に価値の高いパッケージです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/shner-elmo/TradingView-Screener" target="_blank" rel="noreferrer">https://github.com/shner-elmo/TradingView-Screener</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #808</p>
+      </div>
+    </article>
+  </body>
+</html>
