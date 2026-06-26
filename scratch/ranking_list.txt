@@ -1,0 +1,68 @@
+            <li>
+              <strong><a href="../daily/2026-06-27-simplex-chat-simplex-chat.html">simplex-chat/simplex-chat</a></strong>
+              <span class="status-tag status-new">✨ 新規追加</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-04-23-google-labs-code-design-md.html">google-labs-code/design.md</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-27-commaai-openpilot.html">commaai/openpilot</a></strong>
+              <span class="status-tag status-new">✨ 新規追加</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-25-kunchenguid-no-mistakes.html">kunchenguid/no-mistakes</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-04-21-grafana-grafana.html">grafana/grafana</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-27-ripienaar-free-for-dev.html">ripienaar/free-for-dev</a></strong>
+              <span class="status-tag status-new">✨ 新規追加</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-27-opendatalab-MinerU.html">opendatalab/MinerU</a></strong>
+              <span class="status-tag status-new">✨ 新規追加</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-12-alchaincyf-zhangxuefeng-skill.html">alchaincyf/zhangxuefeng-skill</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-26-mauriceboe-trek.html">mauriceboe/TREK</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-26-xbtlin-ai-berkshire.html">xbtlin/ai-berkshire</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-18-calesthio-OpenMontage.html">calesthio/OpenMontage</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-26-aws-agent-toolkit-for-aws.html">aws/agent-toolkit-for-aws</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-27-NanmiCoder-MediaCrawler.html">NanmiCoder/MediaCrawler</a></strong>
+              <span class="status-tag status-new">✨ 新規追加</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-05-15-garrytan-gstack.html">garrytan/gstack</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-26-icewhaletech-casaos.html">IceWhaleTech/CasaOS</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-06-23-JCodesMore-ai-website-cloner-template.html">JCodesMore/ai-website-cloner-template</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>
+            <li>
+              <strong><a href="../daily/2026-03-29-panniantong-agent-reach.html">Panniantong/Agent-Reach</a></strong>
+              <span class="status-tag status-checked">✅ 記事作成済み</span>
+            </li>

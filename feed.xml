@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 19:17:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 04:47:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-06-27 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-27-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-27-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[simplex-chat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-simplex-chat-simplex-chat.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-simplex-chat-simplex-chat.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[電話番号やユーザーIDなどの識別子を一切排除し、一方向メッセージキューを用いてプライバシーとメタデータを完全保護する分散型チャットプラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openpilot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-commaai-openpilot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-commaai-openpilot.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[300種類以上の既存の市販車に対して、車線維持やアダプティブクルーズコントロールを後付けできるオープンソースの高度運転支援（ロボティクスOS）システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[free-for-dev]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-ripienaar-free-for-dev.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-ripienaar-free-for-dev.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[開発者向けに無料枠（Free Tier）を提供している多様なSaaS、PaaS、IaaSなどのサービスを収集した世界最大級のキュレーションリスト。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[MinerU]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-opendatalab-MinerU.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-opendatalab-MinerU.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDFや画像、Officeドキュメントを高精度にパースし、数式(LaTeX)や表(HTML)を維持したままMarkdown/JSONに変換するオープンソースのドキュメント解析エンジン。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[MediaCrawler]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-NanmiCoder-MediaCrawler.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-NanmiCoder-MediaCrawler.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Playwrightを用いて小紅書や抖音などの中国主要SNSから自動でログイン状態を維持し、データを抽出できる強力なセルフメディア向けスクレイピングツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini 2026-06-26]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-gemini-thinking-levels-workspace.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Awesome-Obsidian-AI-Tools]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-danielrosehill-awesome-obsidian-ai-tools.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-danielrosehill-awesome-obsidian-ai-tools.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Obsidianのローカルノート環境でAIやLLMを活用する全86個の厳選プラグイン・拡張ツールを自動整理したAwesomeキュレーションリスト]]></description>
-    </item>
-    <item>
-      <title><![CDATA[makeloop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-usedhonda-makeloop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-usedhonda-makeloop.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Codeのコンテキストと会話履歴を解析し、自動検証ゲートや状態管理を盛り込んだコピー＆ペースト可能な最適な /loop プロンプトを生成するプラグイン]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-25 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-25-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-25-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hiring-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-interviewstreet-hiring-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-interviewstreet-hiring-agent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[履歴書PDFからLLMを用いてJSON形式の構造データを抽出し、GitHubのアクティビティ情報で補強して客観的な採用評価スコアを出力するパイプライン]]></description>
-    </item>
-    <item>
-      <title><![CDATA[flutter]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-flutter-flutter.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-flutter-flutter.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[単一のコードベースからモバイル、Web、デスクトップ向けの美しく高速なアプリケーションをビルドするためのGoogle製UIツールキットSDK]]></description>
-    </item>
-    <item>
-      <title><![CDATA[headunit-revived]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-andreknieriem-headunit-revived.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-andreknieriem-headunit-revived.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Androidタブレットやスマートフォンを有線・無線で接続してAndroid Autoの受信機（ディスプレイオーディオ）として利用できるようにするAndroidアプリ]]></description>
     </item>
   </channel>
 </rss>

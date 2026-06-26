@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Playwrightを用いて小紅書や抖音などの中国主要SNSから自動でログイン状態を維持し、データを抽出できる強力なセルフメディア向けスクレイピングツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>MediaCrawler</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">MediaCrawler</h1>
+      <p class="article-dek">Playwrightを用いて小紅書や抖音などの中国主要SNSから自動でログイン状態を維持し、データを抽出できる強力なセルフメディア向けスクレイピングツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-27 -->
+          <strong>2026-06-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NanmiCoder/MediaCrawler" target="_blank" rel="noreferrer">
+              NanmiCoder/MediaCrawler
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>53,321</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Playwright ブラウザ自動化を利用して、小紅書（RedNote）、抖音（Douyin）、快手（Kuaishou）、Bilibili、微博（Weibo）などの中国主要プラットフォームからデータを高速収集するオープンソースのセルフメディア・データ収集ツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>各プラットフォームのキーワード検索結果、投稿（動画・ノート）詳細データ、ユーザーからのコメント（返信コメント含む）、クリエイターのプロフィール情報などを自動的に取得し、CSVやデータベース（SQLite/MySQL）に出力できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Playwright を用いてブラウザのログインセッションを管理するため、署名パラメータの生成や難解なJavaScriptコードの難読化解除（リバースエンジニアリング）を行う必要がなく、安定した収集動作を実現している点が最大の強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境で <code>pip install -r requirements.txt</code> を実行し、Playwright のブラウザバイナリをインストール後、設定ファイル（<code>config.py</code>）に対象プラットフォームやログイン用のCookieなどを指定してメインスクリプトを起動します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>中国主要SNSにおける競合分析、ユーザーフィードバックやコメントのトレンド解析、セルフメディアのマーケティングリサーチを行いたい開発者やデータアナリストに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>収集対象の各プラットフォームの利用規約および各国の法律に抵触しないよう注意が必要です。本ツールは学術・教育目的のみで公開されており、商用利用やターゲットサーバーに多大な負荷をかける大規模なスクレイピングは厳しく禁止されています。</p>
+
+        <h2>まとめ</h2>
+        <p>難解な署名アルゴリズムを回避し、Playwrightでブラウザ挙動を模倣することで高い収集成功率を誇る、実用的なSNSクローラープロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NanmiCoder/MediaCrawler" target="_blank" rel="noreferrer">https://github.com/NanmiCoder/MediaCrawler</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #810</p>
+      </div>
+    </article>
+  </body>
+</html>
