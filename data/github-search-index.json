@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-26T01:09:50.568028+00:00",
-  "count": 893,
+  "generatedAt": "2026-06-26T08:16:08.218684+00:00",
+  "count": 894,
   "articles": [
+    {
+      "slug": "tradingview-pinescript-indicators",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "tradingview-pinescript-indicators",
+      "dek": "TradingViewのPine Scriptで実装された、カテゴリ別の高度なカスタムテクニカル指標オープンソースライブラリ",
+      "summary": "tradingview-pinescript-indicators は、TradingView上で動作するカスタムインジケーター言語「Pine Script」で記述された、多様なテクニカル指標（移動平均、オシレーター、ボラティリティ、トレーリングストップ等）の実装コードを集めたオープンソースプロジェクトです。",
+      "repoName": "everget/tradingview-pinescript-indicators",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T17:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-26-everget-tradingview-pinescript-indicators.html",
+      "serial": 809,
+      "searchText": "tradingview-pinescript-indicators TradingViewのPine Scriptで実装された、カテゴリ別の高度なカスタムテクニカル指標オープンソースライブラリ tradingview-pinescript-indicators は、TradingView上で動作するカスタムインジケーター言語「Pine Script」で記述された、多様なテクニカル指標（移動平均、オシレーター、ボラティリティ、トレーリングストップ等）の実装コードを集めたオープンソースプロジェクトです。 everget/tradingview-pinescript-indicators 金融・トレード分析 tradingview-pinescript-indicators ← 記事一覧へ戻る GitHub Watcher tradingview-pinescript-indicators TradingViewのPine Scriptで実装された、カテゴリ別の高度なカスタムテクニカル指標オープンソースライブラリ 記事作成日 2026-06-26 種別 Pickup 対象 repo everget/tradingview-pinescript-indicators Star数 850 これは何か TradingViewで利用される専用 of プログラミング言語「Pine Script」によって記述された、様々なテクニカル指標（インジケーター）の実装を集約したオープンソースのリポジトリです。TradingViewの標準指標にはない、またはカスタマイズされたテクニカル指標のアルゴリズムがカテゴリごとに網羅されています。 何ができるか 各種移動平均線（EMA, WMA, ALMA等）の拡張、ボラティリティ指標（ATRチャネル等）、オシレーター系（TRIX, TSI, MACDの派生など）、統計的指標、さらにはトレーリングストップの実装など、多岐にわたる Pine Script コードを取得し、自身の TradingView チャートに導入・統合することができます。 目立つポイント コードが「オシレーター」「移動平均」「ボラティリティ」「ボリューム」「トレーリングストップ」などの機能ごとに明確にフォルダ分けされており、実装の参考として優れている点です。また、TradingViewで多数のスクリプトを公開している著名開発者 @everget 氏によるクリーンな Pine Script コードであるため、バグが少なく高い信頼性を持っています。 セットアップや使い方の流れ 各 .pine ファイルのコードをコピーし、TradingViewの「Pineエディタ」に貼り付けて保存し、チャートに追加して利用します。また、必要に応じてコードを改変して独自のインジケーターやストラテジーに組み込むことも可能です。 どんな人向けか TradingView上で独自の取引戦略（システムトレード）を構築したい開発者、標準機能以上の高度なテクニカル分析を行いたいトレーダー、Pine Script の書き方やアルゴリズム実装を学びたい学習者。 注意点 各スクリプトが対応している Pine Script のバージョン（おそらく v3 または v4, v5 など）に注意する必要があります。古いバージョンの Pine Script で書かれている場合、TradingViewの最新環境に合わせるためのコード変換が必要になる場合があります。また、投資判断は自己責任で行う必要があります。 まとめ TradingViewユーザーおよびPine Script開発者にとって、高度なテクニカルインジケーターのアルゴリズム実装を手軽に参照・流用できる、トレード分析の効率を飛躍的に高める貴重なコードライブラリです。 参照リンク https://github.com/everget/tradingview-pinescript-indicators Shared GitHub Serial: #809"
+    },
     {
       "slug": "tradingview-screener",
       "category": "github-pickup",

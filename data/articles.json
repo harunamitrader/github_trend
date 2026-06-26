@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "tradingview-pinescript-indicators",
+      "title": "tradingview-pinescript-indicators",
+      "dek": "TradingViewのPine Scriptで実装された、カテゴリ別の高度なカスタムテクニカル指標オープンソースライブラリ",
+      "summary": "tradingview-pinescript-indicators は、TradingView上で動作するカスタムインジケーター言語「Pine Script」で記述された、多様なテクニカル指標（移動平均、オシレーター、ボラティリティ、トレーリングストップ等）の実装コードを集めたオープンソースプロジェクトです。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T17:15:00+09:00",
+      "repoName": "everget/tradingview-pinescript-indicators",
+      "repoUrl": "https://github.com/everget/tradingview-pinescript-indicators",
+      "starCount": 850,
+      "articleUrl": "./articles/github/daily/2026-06-26-everget-tradingview-pinescript-indicators.html",
+      "serial": 809,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "tradingview-screener",
       "title": "tradingview-screener",
       "dek": "TradingViewの公式APIから直接データを取得し、SQLライクな構文で高度な銘柄スクリーニングを実行できるPythonパッケージ",
