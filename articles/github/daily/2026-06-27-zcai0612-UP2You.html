@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="特別なチューニングやパラメータ微調整なしに、アングルや照明が不統一な日常写真群から高品質な人物3Dアバターを高速再構成するICLR 2026採択技術。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>UP2You</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">UP2You</h1>
+      <p class="article-dek">特別なチューニングやパラメータ微調整なしに、アングルや照明が不統一な日常写真群から高品質な人物3Dアバターを高速再構成するICLR 2026採択技術。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-27 -->
+          <strong>2026-06-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/zcai0612/UP2You" target="_blank" rel="noreferrer">
+              zcai0612/UP2You
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>337</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><strong>UP2You</strong>は、制約のない日常の人物写真コレクション（撮影角度、照明、服装、ポーズなどが不揃いな複数の写真）から、追加のパラメータ微調整（Tuning-free）を行うことなく、高品質な人物の3Dアバター（3D形状やテクスチャなど）を高速に再構成するオープンソース技術です。学術カンファレンスであるICLR 2026に採択されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>服装や照明、背景、ポーズがバラバラな人物写真群（unconstrained photo collections）を入力として受け取り、個人の忠実な3Dアバターモデルをわずか数十秒〜数分で再構成できます。従来の手法のように、入力画像ごと、あるいは人物ごとに数時間かけて最適化（Tuning）を行う必要がないため、大量のデータから効率的にアバター生成が可能です。生成されたアバターは、様々なポーズやカメラワークに適用可能な表現力を備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の強みは<strong>Tuning-free（微調整不要）かつ高速</strong>な点です。従来のNeRFや3D Gaussian Splattingを用いた手法では人物ごとに個別の長時間の学習が必要でしたが、UP2Youは事前学習済みの基盤モデルとアダプター技術を統合することで、推論時の追加学習なしで再構成を実現します。また、カジュアルに撮影されたバラバラな写真からでも、ノイズを抑制しつつ整合性のある3D形状を生成する頑健性を持っています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Conda環境（Python 3.10）を作成し、PyTorch、NVIDIA Kaolin、PyTorch3Dなどの3D処理ライブラリをインストールします。その後、Hugging Face (<code>Co2y/UP2You</code>) から事前学習済みモデルおよび人間形状モデルをダウンロードしてプロジェクトディレクトリ内に配置します。推論を実行する際は、写真群が格納されたフォルダ（例: <code>examples</code>）を指定して <code>inference_low_gpu.py</code> もしくは <code>run.sh</code> スクリプトを実行することで、指定した出力先に3Dアバターの生成結果が出力されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>日常的に撮影された写真から手軽に自分の3Dアバターを作成したいVR/メタバース開発者、ゲームクリエイター、インディー開発者に適しています。また、3D人物再構成（Human Reconstruction）やマルチビュー合成（Multi-view Synthesis）を研究するAI研究者にとっても、ICLR 2026採択の最新リファレンス実装として有用です。</p>
+
+        <h2>注意点</h2>
+        <p>動作用の依存ライブラリとして <code>kaolin</code> や <code>pytorch3d</code> など、C++コンパイルや特定のCUDAバージョンが必要なライブラリを含んでいるため、環境構築の難易度はやや高めです。また、高品質な3D再構成を行うためには、一定以上のVRAMを搭載したNVIDIA製GPUが必要になります。</p>
+
+        <h2>まとめ</h2>
+        <p>UP2Youは、日常のランダムなスナップショット写真から短時間で高品質な人物3Dアバターを作り出す画期的なアプローチです。微調整なしで即座に動作する手軽さは、個人向けパーソナライズアバターの作成プロセスを大幅に効率化し、今後の3Dコンテンツ制作やメタバースへの応用を加速させる可能性を秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/zcai0612/UP2You" target="_blank" rel="noreferrer">https://github.com/zcai0612/UP2You</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #815</p>
+      </div>
+    </article>
+  </body>
+</html>

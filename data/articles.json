@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-06-27-zcai0612-UP2You",
+      "title": "UP2You",
+      "dek": "特別なチューニングやパラメータ微調整なしに、アングルや照明が不統一な日常写真群から高品質な人物3Dアバターを高速再構成するICLR 2026採択技術。",
+      "summary": "特別なチューニングやキャリブレーションなしに、任意の人物の日常写真群から高速・高精度に3Dアバターを再構成するICLR 2026採択技術。推論時の追加学習なしで安定した3D形状を生成できる。",
+      "publishedAt": "2026-06-27",
+      "createdAt": "2026-06-27T12:06:00+09:00",
+      "repoName": "zcai0612/UP2You",
+      "repoUrl": "https://github.com/zcai0612/UP2You",
+      "starCount": 337,
+      "articleUrl": "./articles/github/daily/2026-06-27-zcai0612-UP2You.html",
+      "serial": 815,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-06-27-update-report",
       "title": "2026-06-27 アップデートレポート",

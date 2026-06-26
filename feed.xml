@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 19:48:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 07:27:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[UP2You]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-zcai0612-UP2You.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-zcai0612-UP2You.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[特別なチューニングやパラメータ微調整なしに、アングルや照明が不統一な日常写真群から高品質な人物3Dアバターを高速再構成するICLR 2026採択技術。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-06-27 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-27-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stop-ai-slop-jp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-ikora128-stop-ai-slop-jp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-ikora128-stop-ai-slop-jp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeなどのAI環境で、生成された日本語文章から特有の「AI臭」や「AI Slop」を検知・レビューして人間らしい文章に修正するClaude Skill]]></description>
     </item>
   </channel>
 </rss>
