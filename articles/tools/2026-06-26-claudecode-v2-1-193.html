@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.193: autoMode のシェル分類設定追加と OTel 強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AIコーディングツール監視</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.193: autoMode のシェル分類設定追加と OTel 強化</h1>
+      <p class="article-dek">自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-26 -->
+          <strong>2026-06-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.193</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.193 では、主に以下の機能強化とバグ修正が行われました。</p>
+        <ul>
+            <li><strong>autoMode.classifyAllShell 設定 of 導入:</strong> Bash や PowerShell を含むすべてのシェルコマンド実行を自動分類器経由にする設定が追加されました。</li>
+            <li><strong>OpenTelemetry のロギング強化:</strong> 内部の観測性とパフォーマンス監視のためのトレースロギングが強化されました。</li>
+            <li><strong>バグ修正と安定性向上:</strong> 一部環境でのエージェント動作および軽微なエラーが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>自動モード（auto-mode）での安全なコマンド実行分類がシェル全般に拡張されたことで、よりきめ細やかな実行制御が可能となります。CI/CDなどの非インタラクティブ環境や、PowerShell等を利用するWindows環境での実行監視において、安全性がより高まります。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のリリースは自動モードの安全性と観測性をさらに前進させるアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Anthropic Claude Code Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 08:17:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 04:02:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.193]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-claudecode-v2-1-193.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-claudecode-v2-1-193.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline cli-v3.0.30]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-cline-cli-v3-0-30.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-cline-cli-v3-0-30.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ステータスバーへのリアルタイムなトークン数・コスト表示が追加され、SAP AI Core 連携の強化やネットワークプロキシ対応が施されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[tradingview-pinescript-indicators]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-everget-tradingview-pinescript-indicators.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw: v2026.6.11リリース、Slack・Mattermost連携、RAFT CLI wake bridgeによるリモート起動対応と信頼性向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-11.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-openclaw-v2026-6-11.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SlackリレーモードやMattermostのキュー管理、個別DMのモデル制御を追加。また、RAFT CLI wake bridgeによるファイル駆動型リモート起動に対応し、安定性を強化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Codex: 安定版v0.142.2と開発版v0.143.0-alpha.5リリース、SQLite I/O書き込み増幅バグの修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-24-codex-v0-142-2-v0-143-0-alpha-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[安定版v0.142.2および開発版v0.143.0-alpha.5リリース、依存関係のアップグレードとSQLiteログ書き込みによるI/O負荷問題の修正]]></description>
     </item>
   </channel>
 </rss>

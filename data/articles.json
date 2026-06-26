@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-26-claudecode-v2-1-193",
+      "title": "Claude Code v2.1.193",
+      "dek": "自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。",
+      "summary": "autoMode.classifyAllShell の設定を追加し、すべてのシェル（Bash/PowerShell）コマンドを自動分類器経由で実行可能に。OpenTelemetryのロギング強化、軽微なバグ修正。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T19:00:00+09:00",
+      "articleUrl": "./articles/tools/2026-06-26-claudecode-v2-1-193.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-26-cline-cli-v3-0-30",
+      "title": "Cline cli-v3.0.30",
+      "dek": "ステータスバーへのリアルタイムなトークン数・コスト表示が追加され、SAP AI Core 連携の強化やネットワークプロキシ対応が施されました。",
+      "summary": "ステータスバーへのトークン数表示（コスト併記）、SAP AI Coreプロバイダー対応、モデルカタログ更新、OpenRouterの挙動改善、プロキシ/CA経由ネットワークサポート、Bedrock設定永続化、runtime時の createRequire エラー修正など。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T18:00:00+09:00",
+      "articleUrl": "./articles/tools/2026-06-26-cline-cli-v3-0-30.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "tradingview-pinescript-indicators",
       "title": "tradingview-pinescript-indicators",
