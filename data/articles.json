@@ -47,7 +47,8 @@
       "articleUrl": "./articles/github/daily/2026-06-26-xbtlin-ai-berkshire.html",
       "serial": 807,
       "originType": "trending",
-      "genre": "金融・トレード分析"
+      "genre": "金融・トレード分析",
+      "rank": 3
     },
     {
       "category": "github-trending",
@@ -63,7 +64,8 @@
       "articleUrl": "./articles/github/daily/2026-06-26-mauriceboe-trek.html",
       "serial": 806,
       "originType": "trending",
-      "genre": "AI基盤・データ基盤・業務アプリ"
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "rank": 4
     },
     {
       "category": "github-trending",
@@ -79,7 +81,8 @@
       "articleUrl": "./articles/github/daily/2026-06-26-every-app-open-seo.html",
       "serial": 805,
       "originType": "trending",
-      "genre": "AIエージェント (自律基盤・特化アプリ)"
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "rank": 7
     },
     {
       "category": "github-trending",
@@ -95,7 +98,8 @@
       "articleUrl": "./articles/github/daily/2026-06-26-aws-agent-toolkit-for-aws.html",
       "serial": 804,
       "originType": "trending",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "rank": 9
     },
     {
       "category": "github-trending",
@@ -111,7 +115,8 @@
       "articleUrl": "./articles/github/daily/2026-06-26-icewhaletech-casaos.html",
       "serial": 803,
       "originType": "trending",
-      "genre": "AI基盤・データ基盤・業務アプリ"
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "rank": 12
     },
     {
       "category": "github-pickup",

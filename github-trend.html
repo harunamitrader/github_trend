@@ -510,7 +510,7 @@
           if (article.originType === "trending") {
              const rankValue = String(article.rank ?? "").trim();
              const normalizedRankValue = rankValue.replace(/^Rank/i, "");
-             const label = normalizedRankValue ? `Rank${normalizedRankValue}` : "Trending";
+             const label = normalizedRankValue ? `Rank ${normalizedRankValue}` : "Trending";
              originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">${label}</span>`;
           } else if (article.originType === "pickup" || article.category === "github-pickup") {
              originBadge = `<span class="rank-label" style="background:#f0fdf4;color:#15803d;border-color:#dcfce7;">PickUp</span>`;
