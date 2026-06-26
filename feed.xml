@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 23:28:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:01:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[tradingview-screener]]></title>
@@ -25,40 +25,40 @@
     </item>
     <item>
       <title><![CDATA[ai-berkshire]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-ai-berkshire.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-ai-berkshire.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-xbtlin-ai-berkshire.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-xbtlin-ai-berkshire.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[バフェットや芒格らバリュー投資の巨匠の手法を構造化し、Claude Codeを活用してプロレベルの投資判断を行うAI投研フレームワーク]]></description>
     </item>
     <item>
       <title><![CDATA[trek]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-trek.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-trek.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-mauriceboe-trek.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-mauriceboe-trek.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[3Dマップ、予算管理、持ち物リスト、予約インポート、AIを搭載したセルフホスト可能なリアルタイム共同旅行プランナー]]></description>
     </item>
     <item>
       <title><![CDATA[open-seo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-open-seo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-open-seo.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-every-app-open-seo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-every-app-open-seo.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[SemrushやAhrefsに代わる、AIエージェント（MCP連携）にも対応したセルフホスト可能なオープンソースのSEOツール]]></description>
     </item>
     <item>
       <title><![CDATA[agent-toolkit-for-aws]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-agent-toolkit-for-aws.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-agent-toolkit-for-aws.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-aws-agent-toolkit-for-aws.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-aws-agent-toolkit-for-aws.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude CodeやCursorなどのAIコーディングエージェントにAWSサービスの操作・デプロイ・知識・ガードレールを統合する公式ツールキット]]></description>
     </item>
     <item>
       <title><![CDATA[casaos]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-casaos.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-casaos.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-icewhaletech-casaos.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-icewhaletech-casaos.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[家庭内サーバーやエッジデバイス向けの、Dockerを活用したシンプルで美しいオープンソースのパーソナルクラウドOS]]></description>
