@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 19:03:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 04:16:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini 2026-06-26]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-gemini-thinking-levels-workspace.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-gemini-thinking-levels-workspace.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini アプリへの Thinking Levels やカメラ画像編集の追加に加え、Sheets でのワンクリック数式修復や Enterprise 向け Agent Registry が発表されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT 2026-06-26]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-chatgpt-gpt-5-6-preview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-chatgpt-gpt-5-6-preview.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI は、フラッグシップの Sol、高コスパの Terra、高速な Luna からなる次世代 GPT-5.6 シリーズの限定プレビューを開始しました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.193]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-claudecode-v2-1-193.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Androidタブレットやスマートフォンを有線・無線で接続してAndroid Autoの受信機（ディスプレイオーディオ）として利用できるようにするAndroidアプリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[orca]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-stablyai-orca.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-stablyai-orca.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CodexやClaude Codeなど複数のCLIエージェントを独立Git worktreeで並列実行し、モバイル監視・Diffレビュー・内蔵ブラウザ操作までまとめて扱えるAIオーケストレーター]]></description>
-    </item>
-    <item>
-      <title><![CDATA[no-mistakes]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-kunchenguid-no-mistakes.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-kunchenguid-no-mistakes.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[git pushの前にAIレビューや静的解析・テストを使い捨てworktreeで自動実行し、パスした場合のみプッシュしてクリーンなPRを開くGitプロキシ]]></description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,26 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-06-26-gemini-thinking-levels-workspace",
+      "title": "Gemini 2026-06-26",
+      "dek": "Gemini アプリへの Thinking Levels やカメラ画像編集の追加に加え、Sheets でのワンクリック数式修復や Enterprise 向け Agent Registry が発表されました。",
+      "summary": "思考レベルを手動調整できる「Thinking Levels」の導入、カメラ映像のリアルタイム画像編集機能、Googleスプレッドシートの数式ワンクリック自動修復、組織内のエージェント・MCPサーバーをカタログ化する「Agent Registry」などの新機能を発表。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T21:00:00+09:00",
+      "articleUrl": "./articles/tools/2026-06-26-gemini-thinking-levels-workspace.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-26-chatgpt-gpt-5-6-preview",
+      "title": "ChatGPT 2026-06-26",
+      "dek": "OpenAI は、フラッグシップの Sol、高コスパの Terra、高速な Luna からなる次世代 GPT-5.6 シリーズの限定プレビューを開始しました。",
+      "summary": "次世代モデル「GPT-5.6」シリーズ（最上位のSol、ミドルレンジのTerra、高速軽量のLuna）を発表し、限定プレビュー公開を開始。安全性の審査を経てパートナー企業へ段階的にアクセスを付与。",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-26T20:00:00+09:00",
+      "articleUrl": "./articles/tools/2026-06-26-chatgpt-gpt-5-6-preview.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-06-26-claudecode-v2-1-193",
       "title": "Claude Code v2.1.193",
       "dek": "自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。",
