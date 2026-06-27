@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rust製へと再設計され、圧倒的な高速化と厳格な言語仕様を備えて登場した次世代データ変換（T: Transform）ツールのアルファ版。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>dbt-core</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">dbt-core</h1>
+      <p class="article-dek">Rust製へと再設計され、圧倒的な高速化と厳格な言語仕様を備えて登場した次世代データ変換（T: Transform）ツールのアルファ版。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/dbt-labs/dbt-core" target="_blank" rel="noreferrer">
+              dbt-labs/dbt-core
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>13,180</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>データアナリストやエンジニアが、ソフトウェアエンジニアリングのベストプラクティス（バージョン管理、テスト、CI/CD）に従ってSQL/Pythonを用いてDWH内のデータを自律的に変換・モデリングできる、オープンソースのデータ変換（dbt）ツールの次世代コアエンジン（v2.0 alpha）です。</p>
+
+        <h2>何ができるか</h2>
+        <p>DWH（Snowflake, BigQuery等）でのデータ変換処理を記述し、そのデータパイプラインをDAG（有向非巡回グラフ）で可視化して自動実行、テーブル間の依存関係に沿って高速にデータ変換処理（ビューやテーブルの再生成）を完了させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>従来のPython製からRust言語を用いてコアを完全に刷新したことで、特に大規模なデータプロジェクトにおいてプロジェクトの解析・コンパイル・実行速度が劇的に向上（数分の1以下に短縮）しました。また、厳格なデータ・言語仕様定義（Spec）を導入し、パイプラインの品質をコンパイル時点で保証します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>開発ブランチ <code>main</code> からインストールし（安定Python版は別ブランチで提供）、YAMLファイルでDWH接続を定義後、モデルSQLファイルを作成して <code>dbt run</code> コマンドでパイプラインを自律起動します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大規模なデータレイクやデータウェアハウスを管理し、データコンパイルやスキーマ定義の遅さに悩まされているデータエンジニアや、AIデータ基盤のデータパイプラインを強固に構築したいチーム。</p>
+
+        <h2>注意点</h2>
+        <p>現在アルファ版であるため、仕様やAPI、ディスク上のフォーマットは正式リリースまでに変更される可能性があります。プロダクション環境では、現在提供中の Python ベースの v1.latest 系統を継続使用することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>dbt Core v2.0は、これまでのデータ変換の常識を覆す「Rustによる爆速化」と「ソフトウェア工学的厳格性」を両立し、エンタープライズ規模のAIデータパイプライン基盤の新たな標準となるツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/dbt-labs/dbt-core" target="_blank" rel="noreferrer">https://github.com/dbt-labs/dbt-core</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #819</p>
+      </div>
+    </article>
+  </body>
+</html>

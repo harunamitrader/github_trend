@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングアシスタントにおける「仕様駆動開発（SDD）」を実現し、仕様からコード生成までの品質を高めるオープンソースの仕様管理フレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenSpec</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenSpec</h1>
+      <p class="article-dek">AIコーディングアシスタントにおける「仕様駆動開発（SDD）」を実現し、仕様からコード生成までの品質を高めるオープンソースの仕様管理フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" rel="noreferrer">
+              Fission-AI/OpenSpec
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>57,057</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIを使ったシステム開発において、プロンプトや要件（仕様）を構造化し、AIコーディングアシスタントが誤解なく正確なコードを実装できるように設計された、仕様駆動開発（SDD: Spec-driven development）支援フレームワークです。</p>
+
+        <h2>何ができるか</h2>
+        <p>自然言語で記述されたラフな要求仕様を、AIが扱いやすい機械的な構造化仕様（OpenSpec形式）へと翻訳し、その仕様書に基づいたテストケースの生成、対応する実装コードの自動構築、および仕様と成果物のズレの自動検証を実行します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>仕様書のバージョン管理や差分抽出が容易なJSON/Markdownライクな設計となっており、ClaudeやGeminiなどのLLMがシステム全体を矛盾なく把握しやすいプロンプト構造に最適化されています。また、主要なAI IDEやCLIツールと統合可能なプラグインエコシステムを備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npm などのパッケージマネージャー経由でインストールでき、CLIツールを走らせて初期構成を設定した後、<code>openspec init</code> でプロジェクトに仕様管理ディレクトリを作成してSDDのプロセスを開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIコーディングツール（CursorやCline等）を使ってプロダクト開発を行っているエンジニアや、要件の抜け漏れによるAIの「的外れな実装」や「手戻り」を減らしてAI駆動開発を最大化したいチーム。</p>
+
+        <h2>注意点</h2>
+        <p>AIへの仕様インプットを「正しく詳細に書く」ための設計論（仕様駆動開発の思想）自体への理解がある程度求められます。また、仕様データが肥大化すると、LLMにロードする際トークンコストや遅延が増大する場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenSpecは、人間とAIとの間のコミュニケーションの齟齬をなくすために「仕様」を標準化されたプロトコルに変え、AIコーディングの品質と速度を次の次元へと引き上げる次世代のフレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" rel="noreferrer">https://github.com/Fission-AI/OpenSpec</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #817</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 27 Jun 2026 19:18:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 04:46:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ppt-master]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-hugohe3-ppt-master.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-hugohe3-ppt-master.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画像スライドではなく、編集可能なネイティブ図形、アニメーション、およびAI合成音声によるナレーションを備えたPPTXファイルを自動生成するAIプレゼンテーション構築ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dbt-core]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-dbt-labs-dbt-core.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-dbt-labs-dbt-core.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rust製へと再設計され、圧倒的な高速化と厳格な言語仕様を備えて登場した次世代データ変換（T: Transform）ツールのアルファ版。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[opencode]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-anomalyco-opencode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-anomalyco-opencode.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカル環境での完全自律型開発を実現する、オープンソースの次世代自律型AIコーディングエージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenSpec]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-Fission-AI-OpenSpec.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-Fission-AI-OpenSpec.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングアシスタントにおける「仕様駆動開発（SDD）」を実現し、仕様からコード生成までの品質を高めるオープンソースの仕様管理フレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[keycloak]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-keycloak-keycloak.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-keycloak-keycloak.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[モダンなアプリケーションやサービス向けに、最小限の手間で安全な認証とアクセス制御を提供するオープンソースのID・アクセス管理（IAM）システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-06-28 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-28-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-28-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT: GPT-4.5モデルの退役と、音声入力精度向上・個人財務連携等のアップデート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-chatgpt-gpt4-5-deprecation.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PDFや画像、Officeドキュメントを高精度にパースし、数式(LaTeX)や表(HTML)を維持したままMarkdown/JSONに変換するオープンソースのドキュメント解析エンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MediaCrawler]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-NanmiCoder-MediaCrawler.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-NanmiCoder-MediaCrawler.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Playwrightを用いて小紅書や抖音などの中国主要SNSから自動でログイン状態を維持し、データを抽出できる強力なセルフメディア向けスクレイピングツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini 2026-06-26]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-gemini-thinking-levels-workspace.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-gemini-thinking-levels-workspace.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini アプリへの Thinking Levels やカメラ画像編集の追加に加え、Sheets でのワンクリック数式修復や Enterprise 向け Agent Registry が発表されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT 2026-06-26]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-chatgpt-gpt-5-6-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-chatgpt-gpt-5-6-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI は、フラッグシップの Sol、高コスパの Terra、高速な Luna からなる次世代 GPT-5.6 シリーズの限定プレビューを開始しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.193]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-claudecode-v2-1-193.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-claudecode-v2-1-193.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自動モードでのシェルコマンド分類を制御する autoMode.classifyAllShell 設定が追加され、OpenTelemetry のロギング強化やバグ修正が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline cli-v3.0.30]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-cline-cli-v3-0-30.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-26-cline-cli-v3-0-30.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ステータスバーへのリアルタイムなトークン数・コスト表示が追加され、SAP AI Core 連携の強化やネットワークプロキシ対応が施されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tradingview-pinescript-indicators]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-everget-tradingview-pinescript-indicators.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-everget-tradingview-pinescript-indicators.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TradingViewのPine Scriptで実装された、カテゴリ別の高度なカスタムテクニカル指標オープンソースライブラリ]]></description>
     </item>
   </channel>
 </rss>
