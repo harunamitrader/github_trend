@@ -8,6 +8,54 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-06-28-chatgpt-gpt4-5-deprecation",
+      "title": "ChatGPT: GPT-4.5モデルの退役と、音声入力精度向上・個人財務連携等のアップデート",
+      "dek": "GPT-4.5がChatGPTから正式に退役し、GPT-5.5への移行が促されています。あわせて音声入力の精度向上、個人財務データのダッシュボード連携などのアップデートが実施されました。",
+      "summary": "GPT-4.5モデルが正式退役し、全プラン向け音声入力精度の向上や米国の個人財務データの連携、1万文字超のテキストの自動添付ファイル化などのUX改善を導入。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T04:15:00+09:00",
+      "toolName": "ChatGPT",
+      "version": "GPT-4.5 Deprecation / STT Enhancement",
+      "articleUrl": "./articles/tools/2026-06-28-chatgpt-gpt4-5-deprecation.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-gemini-study-notebooks-drops",
+      "title": "Gemini: 学生向け学習支援「Study Notebooks」および6月版「Gemini Drops」のリリース",
+      "dek": "学生向けの適応型学習支援機能「Study Notebooks」の提供と、Gemini Liveの画像生成や外部サービス連携を含む6月の「Gemini Drops」が公開されました。",
+      "summary": "適応型学習支援を行う「Study Notebooks」をNotebookLM連携で提供開始し、音声で直接画像生成ができるGemini LiveやGoogle Dropsの各社サービス統合、学生向けAdvanced無料体験を順次ロールアウト。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T04:14:00+09:00",
+      "toolName": "Gemini",
+      "version": "Study Notebooks & June Drops",
+      "articleUrl": "./articles/tools/2026-06-28-gemini-study-notebooks-drops.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-perplexity-computer-for-counsel-brain",
+      "title": "Perplexity: 法務特化AIエージェント「Computer for Counsel」および自己改善メモリ「Brain」の導入",
+      "dek": "法務チーム向けに特化したAIエージェント「Computer for Counsel」と、過去のワークフローから自己改善を行う長期メモリシステム「Brain」がリリースされました。",
+      "summary": "法務特化型の自律エージェント「Computer for Counsel」の発表、および過去の成否文脈からタスク処理の効率を自動学習する自己改善型メモリシステム「Brain」、Microsoft 365アプリ連携の強化を実施。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T04:13:00+09:00",
+      "toolName": "Perplexity",
+      "version": "Computer for Counsel & Brain",
+      "articleUrl": "./articles/tools/2026-06-28-perplexity-computer-for-counsel-brain.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-claude-design-trusted-devices",
+      "title": "Claude: 「Claude Design」デスクトップ専用ホームの追加およびリモート認証強化",
+      "dek": "デスクトップアプリのサイドバーに「Claude Design」の専用ホームが追加され、プロジェクトとの連携が強化されました。あわせて管理者がリモートセッションでデバイス制限を行える「Trusted Devices」機能がリリースされました。",
+      "summary": "デスクトップアプリのサイドバーに「Claude Design」ホームを新設し、管理者向けのデバイス認証「Trusted Devices」機能、および headless Agent の課金プール切り分け適用など、UXと企業セキュリティを強化。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T04:12:00+09:00",
+      "toolName": "Claude",
+      "version": "Claude Design & Trusted Devices",
+      "articleUrl": "./articles/tools/2026-06-28-claude-design-trusted-devices.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-06-28-claudecode-v2-1-195",
       "title": "Claude Code v2.1.195",
       "dek": "フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。",
