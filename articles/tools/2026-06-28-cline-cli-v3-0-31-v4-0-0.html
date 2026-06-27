@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline VS Code 拡張機能 v4.0.0 と Cline CLI v3.0.31 が同時リリース。共有「Cline SDK」によるランタイムへの移行、サブスクリプション機能 ClinePass の統合、Plugins サポートとマーケットプレイスの刷新などが盛り込まれました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline cli-v3.0.31 / v4.0.0</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools Update</p>
+      </div>
+
+      <h1 class="article-title">Cline cli-v3.0.31 / v4.0.0</h1>
+      <p class="article-dek">新世代の共有「Cline SDK」ランタイムへの全面移行。サブスクリプション体験を向上する ClinePass の統合、および Plugin 機能や管理画面のマーケットプレイス刷新が行われました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>cli-v3.0.31 / v4.0.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリース（VS Code拡張機能 v4.0.0 および CLI v3.0.31）は、バックエンドを統一された新しい「Cline SDK」で動作させるアーキテクチャの変更を伴うメジャーアップデートです。</p>
+        <ul>
+            <li><strong>SDK統合ランタイムへの移行:</strong> エージェントターン、ツール呼び出し、Plan/Actモードの調停、MCPサーバー管理、チェックポイント作成、履歴管理などのコア機能が「Cline SDK」という単一の共有ライブラリで動作するようになりました。これにより、VS Code拡張機能とCLI、そして他の実行インターフェースの動作ロジックが完全に同一化されました。</li>
+            <li><strong>ClinePass (サブスクリプション) の統合:</strong> ClinePass経由でのオンボーディングやプロバイダ管理、クレジットカード/クレジットの残り枠に応じたプロンプトや警告表示が刷新されました。リクエストコストがサブスクリプション枠で完全にカバーされているかを示すUI表示も追加されています。</li>
+            <li><strong>Pluginsの正式サポート:</strong> 特定のチームやプロジェクトごとに、独自ツールやカスタムMCP、カスタムワークフローをパッケージングして適用できる「Plugin」機能に対応しました。</li>
+            <li><strong>Customize ページとマーケットプレイスの刷新:</strong> 拡張機能内の管理画面が刷新され、Skills、MCPサーバー、Pluginsを検索、確認、ワンクリックで有効化/無効化・アンインストールできるマーケットプレイス機能が導入されました。</li>
+            <li><strong>CLI機能とバグ修正:</strong>
+              <ul>
+                <li>レガシーな「Explain Changes（変更の説明）」機能を削除（SDK移行に伴うクリーンアップ）。</li>
+                <li>OpenAI互換のプロバイダを使用する際、MCPのツール名を64文字以内に制限（API互換性のための対応）。</li>
+                <li>セッションを再開する際のメタデータの消失や、タスク削除・履歴の表示崩れのバグを解消。</li>
+                <li>SDKの挙動が安定するまでの間、VS Code拡張機能側のサブエージェント（subagents）機能を一時的に無効化。</li>
+              </ul>
+            </li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>「Cline SDK」によって動作レイヤーが統一されたことで、これまでVS Code拡張機能とCLIで微妙に挙動やサポート状況が異なっていたバグ（セッション復旧時の状態崩れなど）が劇的に解消されます。さらに、プロジェクト特有のルールやMCP、カスタムスクリプトを「Plugin」としてパッケージングしてマーケットプレイスやローカルで配布・有効化できるようになるため、チーム開発でのAIコーディング環境構築が格段に容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline v4.0.0 / cli-v3.0.31 は、コア動作ロジックを SDK ベースに完全刷新しつつ、ClinePass サブスクリプション連携や Plugin マーケットプレイスを導入して大幅に機能拡張した記念碑的なリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

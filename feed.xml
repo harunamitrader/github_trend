@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 22:28:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 04:03:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.195]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-claudecode-v2-1-195.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-claudecode-v2-1-195.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline cli-v3.0.31 / v4.0.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-cline-cli-v3-0-31-v4-0-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-cline-cli-v3-0-31-v4-0-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cline VS Code 拡張機能 v4.0.0 と Cline CLI v3.0.31 が同時リリース。共有「Cline SDK」によるランタイムへの移行、サブスクリプション機能 ClinePass の統合、Plugins サポートとマーケットプレイス of 刷新などが盛り込まれました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Antigravity v2.2.1]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-antigravity-v2-2-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-antigravity-v2-2-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Antigravity CLI v2.2.1 がリリース。ビルトインの「Antigravity Guide」スキルの追加、音声ファイルのレンダリング対応、部分一致によるファイル検索の改善、VCS検出の非同期化による初期化の高速化、およびルール適用のバグ修正が行われました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.49.0 / v0.50.0-preview.1]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-geminicli-v0-49-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-geminicli-v0-49-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI v0.49.0 および v0.50.0-preview.1 がリリース。ツール出力フォーマットの標準化、クォータ切れ時の再試行ループハングの解消（fail-fast化）、スキルインストール時のパストラバーサル脆弱性の修正、およびGDCエアギャップ環境でのサービスID対応などが行われました。]]></description>
+    </item>
     <item>
       <title><![CDATA[UP2You]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-zcai0612-UP2You.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[3Dマップ、予算管理、持ち物リスト、予約インポート、AIを搭載したセルフホスト可能なリアルタイム共同旅行プランナー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[open-seo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-every-app-open-seo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-every-app-open-seo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SemrushやAhrefsに代わる、AIエージェント（MCP連携）にも対応したセルフホスト可能なオープンソースのSEOツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-toolkit-for-aws]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-aws-agent-toolkit-for-aws.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-aws-agent-toolkit-for-aws.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeやCursorなどのAIコーディングエージェントにAWSサービスの操作・デプロイ・知識・ガードレールを統合する公式ツールキット]]></description>
-    </item>
-    <item>
-      <title><![CDATA[casaos]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-icewhaletech-casaos.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-26-icewhaletech-casaos.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[家庭内サーバーやエッジデバイス向けの、Dockerを活用したシンプルで美しいオープンソースのパーソナルクラウドOS]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenFugu]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-trotsky1997-openfugu.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-25-trotsky1997-openfugu.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Sakana AIのLLMオーケストレータ「Fugu」をリバースエンジニアリングで再現した、クエリ別のモデルルーティングとワークフローDAG構築を行うオープンソース基盤]]></description>
     </item>
   </channel>
 </rss>

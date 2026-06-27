@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.195</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools Update</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.195</h1>
+      <p class="article-dek">フルスクリーンモードのマウスクリック無効化設定の追加、音声入力機能における日本語特有のバグ修正、バックグラウンドエージェントとプラグイン周りの各種不具合修正を盛り込んだメンテナンスアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.195</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリース（v2.1.195）では、操作性の制御機能追加や音声入力の挙動改善に加え、バックグラウンドタスクとプラグインに関する安定性向上のための多くのバグ修正が行われました。</p>
+        <ul>
+            <li><strong>マウス操作の無効化環境変数:</strong> フルスクリーンモードにおいて、ホイールスクロールは維持しつつクリック・ドラッグ・ホバーを無効にできる <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> が追加されました。</li>
+            <li><strong>ハイフン付き識別子のフック完全一致化:</strong> <code>code-reviewer</code> や <code>mcp__brave-search</code> などのハイフンを含むフック識別子が、意図せず部分一致（substring-matching）してしまうバグが修正されました。現在は完全一致となっており、すべてのツールにマッチさせたい場合は <code>mcp__brave-search__.*</code> のように正規表現を使用します。</li>
+            <li><strong>日本語などの音声入力 auto-submit 修正:</strong> 日本語、中国語、タイ語など「スペースで区切られない言語」で、音声入力の auto-submit（自動送信）が動作しない不具合が修正されました。</li>
+            <li><strong>macOS 音声入力の無音バグ修正:</strong> 長時間のセッションにおいてデフォルトの入力デバイスが切り替わった後、音声キャプチャが無音になる不具合が修正されました。</li>
+            <li><strong>プラグイン同意処理の修正:</strong> プロジェクトの <code>.claude/settings.json</code> だけで有効にされた外部プラグインが、ロードパス毎にインストール確認の同意要求をバイパスしてしまう問題が修正されました。</li>
+            <li><strong>プラグイン有効化バグ修正:</strong> <code>plugin.json</code> 内の <code>name</code> がマーケットプレイス上の名前と異なる場合、<code>/plugin</code> での有効化・無効化が動作しない不具合が修正されました。</li>
+            <li><strong>バックグラウンドジョブの信頼性向上:</strong> より新しいバージョンのClaude Codeで書き込まれたバックグラウンドジョブが、<code>claude agents</code> リストから消えたりデータが壊れたりする問題が修正されました。また、コントロールソケットが起動に失敗した際にエージェントデーモンが接続不能なままゾンビ化し、再起動をブロックする問題も解消されました。</li>
+            <li><strong>音声モードのSoX診断改善 (Linux):</strong> 音声入力デバイスが存在しない場合、SoXの存在有無に応じて「マイクなし」か「SoX未インストール」かを正しく区別して表示するようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に日本のユーザーにとって影響が大きいのは、スペース区切りを持たない言語（日本語・中国語）における音声入力 auto-submit の修正です。これにより、これまで機能しづらかった日本語音声入力を伴うエージェントへの指示出しが非常にスムーズになります。また、複雑なMCPサーバーやバックグラウンドでの長時間並列タスク（<code>claude agents</code>）を多用する開発環境において、不審なハングアップやデータロストが発生しにくくなり安定性が向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code v2.1.195 は、日本語環境における音声入力の利便性を高めるとともに、バックグラウンドエージェントとプラグイン関連の各種クラッシュ・接続バグを解消する非常に堅実なアップデートとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code release notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

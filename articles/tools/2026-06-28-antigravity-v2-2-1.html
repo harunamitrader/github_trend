@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Antigravity CLI v2.2.1 がリリース。ビルトインの「Antigravity Guide」スキルの追加、音声ファイルのレンダリング対応、部分一致によるファイル検索の改善、VCS検出の非同期化による初期化の高速化、およびルール適用のバグ修正が行われました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Antigravity v2.2.1</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools Update</p>
+      </div>
+
+      <h1 class="article-title">Antigravity v2.2.1</h1>
+      <p class="article-dek">ビルトインガイドスキルの追加、音声ファイル描画サポート、初期化の高速化、および rules.json の除外ルールが無視されるバグの修正などを盛り込んだアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.2.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Antigravity</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリース（v2.2.1）では、ユーザビリティの向上を目的とした新規スキルや音声描画のサポートに加え、起動初期化シーケンスの高速化や重要なバグ修正が行われました。</p>
+        <ul>
+            <li><strong>ガイドスキルの新規導入:</strong> CLIの使い方や設定を網羅したビルトインの「Antigravity Guide」スキルが新しく搭載されました。</li>
+            <li><strong>音声ファイルのレンダリング対応:</strong> ターミナルから音声ファイルを直接レンダリングして可視化・再生などの処理を行う機能がサポートされました。</li>
+            <li><strong>部分一致ファイル検索の改善:</strong> サブストリング（部分一致）指定によるファイル検索のヒット精度と操作性が向上しました。</li>
+            <li><strong>VCS検出の非同期化による起動高速化:</strong> バージョン管理システム（VCS）の検出処理を起動時の同期実行パスから除外し非同期化したことで、CLI起動時の初期化スピードが大幅に改善されました。</li>
+            <li><strong>ルール適用バグの修正:</strong> <code>rules.json</code> で指定された除外ルール（exclusion rules）や許可リスト（allowlists）が無視され、すべての <code>.md</code> ルールファイルを無条件に読み込んでしまう不具合が修正されました。</li>
+            <li><strong>キャッシュ競合と処理の同期化:</strong> <code>/changelog</code> と <code>agy changelog</code> コマンドのキャッシュフォルダを <code>antigravity-cli</code> パスへ統合。競合を避けるため、プロセス終了時のキャッシュ書き出しを完全に同期処理へ切り替えました。</li>
+            <li><strong>MCPサーバー初期化の並列化:</strong> カスタムのMCPサーバーが起動時に遅延したりハングアップしたりするのを防ぐため、サーバー初期化シーケンスが並列実行されるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>起動シーケンスの高速化とMCPの並列初期化により、CLIがフリーズしたりコマンド実行までに待たされたりするストレスが減少します。また、<code>rules.json</code> の除外ルールが正しく動作するようになったため、大規模なプロジェクトで不要なマークダウンファイルをルールとして誤認識してトークンを無駄遣いする現象を防止できます。さらに新搭載の「Antigravity Guide」スキルによって、使い方に迷った時のドキュメント確認が即座に行えます。</p>
+
+        <h2>まとめ</h2>
+        <p>Antigravity v2.2.1 は、使い方のガイドや音声処理などの機能拡張を行いながら、起動時間の短縮やルールの適用処理を磨き上げた、より快適に使いこなすための好アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Google Antigravity Portal</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.49.0 および v0.50.0-preview.1 がリリース。ツール出力フォーマットの標準化、クォータ切れ時の再試行ループハングの解消（fail-fast化）、スキルインストール時のパストラバーサル脆弱性の修正、およびGDCエアギャップ環境でのサービスID対応などが行われました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.49.0 / v0.50.0-preview.1</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tools Update</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.49.0 / v0.50.0-preview.1</h1>
+      <p class="article-dek">ツール出力フォーマットの標準化とクォータ超過時のハングアップ防止を適用。スキルインストール時のパストラバーサル脆弱性の修正や、エアギャップ環境でのサービスIDへの対応が行われました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-06-28 -->
+          <strong>2026-06-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.49.0 / v0.50.0-preview.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリース（v0.49.0 およびプレビュー版 v0.50.0-preview.1）では、クォータ制限時の制御フロー改善やセキュリティの脆弱性修正、および基盤環境（GDCなど）への適応が実施されました。</p>
+        <ul>
+            <li><strong>ツール実行出力フォーマットの標準化:</strong> コアシステムにおけるツール実行結果の出力表現が一貫したフォーマットに統一されました。</li>
+            <li><strong>クォータ超過時のハング防止 (fail-fast化):</strong> クォータ制限（zero-quota）に達した際に再試行を繰り返してセッションがフリーズしてしまう不具合を防ぐため、即座にエラー判定としてプロセスを停止（fail-fast）させる制御が追加されました。</li>
+            <li><strong>スキル追加時のパストラバーサル脆弱性修正:</strong> スキル（Skill）のインストール処理中に発生する可能性があったパストラバーサル脆弱性が修正され、セキュリティが向上しました。</li>
+            <li><strong>GDCエアギャップ対応:</strong> 認証ライブラリのアップデートに伴い、Google Distributed Cloud (GDC) のエアギャップ（オフライン）環境でのサービスID（Service Identity）がサポートされました。</li>
+            <li><strong>コマンドラッパーのクォート処理修正:</strong> <code>stripShellWrapper</code> において、複数行にわたるエスケープされたクォーテーションの処理バグが修正されました。</li>
+            <li><strong>tmuxのバックグラウンド検出バグ修正:</strong> tmux上で動作させる際に発生していた、バックグラウンドプロセスの誤検知（false positive）が解消されました。</li>
+            <li><strong>ツールレジストリディスカバリの導入 (v0.50.0-preview.1):</strong> MCPなどを経由したツールやレジストリの自動検出機構 <code>Feat/tool registry discovery</code> がプレビュー機能として追加されました。</li>
+            <li><strong>設定キーの移行:</strong> 設定項目 <code>coreTools</code> が <code>tools.core</code> へと新しい階層スキーマへ移行されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>APIトークンやクォータ枠を頻繁に使い切るような高負荷・大量バッチ処理を走らせる環境において、無限再試行ループによるセッションフリーズを防ぎ、エラー終了後にすぐ次のジョブへ遷移できるようになります。また、スキルをサードパーティからインストールする際のセキュリティも高まっており、企業でのセキュアな導入に適しています。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLI v0.49.0 および v0.50.0-preview.1 は、ハング防止策やセキュリティ脆弱性の修正など堅牢性を高めるための重要な土台となるリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

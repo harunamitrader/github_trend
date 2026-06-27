@@ -7,6 +7,54 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-claudecode-v2-1-195",
+      "title": "Claude Code v2.1.195",
+      "dek": "フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。",
+      "summary": "日本語等の音声入力 auto-submit や macOS の無音バグを修正し、フルスクリーンモードのマウスクリック無効化設定、プラグイン同意判定、バックグラウンドデーモンのゾンビ化防止などを適用したメンテナンス更新。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T19:00:00+09:00",
+      "toolName": "Claude Code",
+      "version": "v2.1.195",
+      "articleUrl": "./articles/tools/2026-06-28-claudecode-v2-1-195.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-cline-cli-v3-0-31-v4-0-0",
+      "title": "Cline cli-v3.0.31 / v4.0.0",
+      "dek": "Cline VS Code 拡張機能 v4.0.0 と Cline CLI v3.0.31 が同時リリース。共有「Cline SDK」によるランタイムへの移行、サブスクリプション機能 ClinePass の統合、Plugins サポートとマーケットプレイス of 刷新などが盛り込まれました。",
+      "summary": "コア動作ロジックを共有「Cline SDK」ランタイムへ移行し、クレジット警告等のサブスクリプション管理を強化する ClinePass、拡張機能内の Plugin マーケットプレイスを導入した大型アップデート。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T18:00:00+09:00",
+      "toolName": "Cline",
+      "version": "cli-v3.0.31 / v4.0.0",
+      "articleUrl": "./articles/tools/2026-06-28-cline-cli-v3-0-31-v4-0-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-antigravity-v2-2-1",
+      "title": "Antigravity v2.2.1",
+      "dek": "Antigravity CLI v2.2.1 がリリース。ビルトインの「Antigravity Guide」スキルの追加、音声ファイルのレンダリング対応、部分一致によるファイル検索の改善、VCS検出の非同期化による初期化の高速化、およびルール適用のバグ修正が行われました。",
+      "summary": "ビルトインの「Antigravity Guide」スキルや音声ファイル描画に対応し、VCS検出の非同期化による起動高速化、rules.json の除外ルール無視バグ修正、MCP並列初期化などの改善を施したリリース。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T17:00:00+09:00",
+      "toolName": "Antigravity",
+      "version": "v2.2.1",
+      "articleUrl": "./articles/tools/2026-06-28-antigravity-v2-2-1.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-06-28-geminicli-v0-49-0",
+      "title": "Gemini CLI v0.49.0 / v0.50.0-preview.1",
+      "dek": "Gemini CLI v0.49.0 および v0.50.0-preview.1 がリリース。ツール出力フォーマットの標準化、クォータ切れ時の再試行ループハングの解消（fail-fast化）、スキルインストール時のパストラバーサル脆弱性の修正、およびGDCエアギャップ環境でのサービスID対応などが行われました。",
+      "summary": "ツール出力の一貫性向上とクォータ切れ無限リトライのハング対策、パストラバーサル脆弱性修正のほか、GDCエアギャップ向けサービスID対応や、プレビューでの自動ツールレジストリディスカバリなどを導入した更新。",
+      "publishedAt": "2026-06-28",
+      "createdAt": "2026-06-28T16:00:00+09:00",
+      "toolName": "Gemini CLI",
+      "version": "v0.49.0 / v0.50.0-preview.1",
+      "articleUrl": "./articles/tools/2026-06-28-geminicli-v0-49-0.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-06-27-zcai0612-UP2You",
       "title": "UP2You",
