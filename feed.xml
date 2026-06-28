@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 27 Jun 2026 19:47:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 04:02:09 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v4.0.1 (VS Code Extension)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-29-cline-v4-0-1-rollback.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-29-cline-v4-0-1-rollback.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[v4.0.0 で実施した Cline SDK 移行に伴うユーザー報告の不具合や回帰問題に対応するため、安定版拡張機能を従来の v3.89.2 ベースへと一時的にロールバック（差し戻し）したアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[ppt-master]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-hugohe3-ppt-master.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[開発者向けに無料枠（Free Tier）を提供している多様なSaaS、PaaS、IaaSなどのサービスを収集した世界最大級のキュレーションリスト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MinerU]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-opendatalab-MinerU.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-opendatalab-MinerU.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PDFや画像、Officeドキュメントを高精度にパースし、数式(LaTeX)や表(HTML)を維持したままMarkdown/JSONに変換するオープンソースのドキュメント解析エンジン。]]></description>
     </item>
   </channel>
 </rss>

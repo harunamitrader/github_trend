@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-29-cline-v4-0-1-rollback",
+      "title": "Cline v4.0.1 (VS Code Extension)",
+      "dek": "v4.0.0 で実施した Cline SDK 移行に伴うユーザー報告の不具合や回帰問題に対応するため、安定版拡張機能を従来の v3.89.2 ベースへと一時的にロールバック（差し戻し）したアップデート。",
+      "summary": "Cline v4.0.0 メジャーリリース後にフリーズや回帰不具合が多発したため、安定性を重視し、従来の v3.89.2 系統のコードベースに一時的に差し戻すホットフィックス v4.0.1 を公開。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T04:00:00+09:00",
+      "toolName": "Cline",
+      "version": "v4.0.1",
+      "articleUrl": "./articles/tools/2026-06-29-cline-v4-0-1-rollback.html"
+    },
+    {
       "category": "github-trending",
       "slug": "hugohe3-ppt-master",
       "title": "ppt-master",
