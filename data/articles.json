@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-06-29-flowful-ai-cad-skill",
+      "title": "cad-skill",
+      "dek": "Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。",
+      "summary": "自然言語による形状説明から、3Dプリント用の3Dパラメトリック設計を自動生成する Claude Code 用のカスタムスキル。CadQueryを操作し、STL出力やレンダリングプレビューをループ処理でイテレート可能にする。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T21:10:00+09:00",
+      "repoName": "flowful-ai/cad-skill",
+      "repoUrl": "https://github.com/flowful-ai/cad-skill",
+      "starCount": 224,
+      "articleUrl": "./articles/github/daily/2026-06-29-flowful-ai-cad-skill.html",
+      "serial": 825,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-06-29-nrslib-takt",
       "title": "takt",
       "dek": "AIコーディングエージェントの「子守り」から脱却し、YAMLで計画・実装・レビュー・人間介入チェックポイントなどの自律ワークフローを定義・実行するCLIシステム。",

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-29T10:37:23.235805+00:00",
-  "count": 911,
+  "generatedAt": "2026-06-29T12:11:37.947730+00:00",
+  "count": 912,
   "articles": [
+    {
+      "slug": "2026-06-29-flowful-ai-cad-skill",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cad-skill",
+      "dek": "Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。",
+      "summary": "自然言語による形状説明から、3Dプリント用の3Dパラメトリック設計を自動生成する Claude Code 用のカスタムスキル。CadQueryを操作し、STL出力やレンダリングプレビューをループ処理でイテレート可能にする。",
+      "repoName": "flowful-ai/cad-skill",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T21:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-29-flowful-ai-cad-skill.html",
+      "serial": 825,
+      "searchText": "cad-skill Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。 自然言語による形状説明から、3Dプリント用の3Dパラメトリック設計を自動生成する Claude Code 用のカスタムスキル。CadQueryを操作し、STL出力やレンダリングプレビューをループ処理でイテレート可能にする。 flowful-ai/cad-skill AIコーディング (ワークフロー・プロンプト・開発補助ツール) cad-skill ← 記事一覧へ戻る GitHub Watcher cad-skill Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。 記事作成日 2026-06-29 種別 Pickup 対象 repo flowful-ai/cad-skill Star数 224 これは何か Claude Code にインポートして使用するカスタム「スキル（指示＆環境ツール群）」であり、Python ベースの CAD 構築ライブラリ「CadQuery」を利用して、自然言語の指示から 3D プリンターで出力可能なパラメトリック 3D 立体モデルを自動作成・検証・反復修正するためのシステムです。 何ができるか ユーザーが「Arduino Uno 用の壁掛けマウントを作って」「iPhone 用のシンプルなスタンドを設計して」のように作りたい物理オブジェクトの要件を説明すると、Claude Code が CadQuery のコードを書いて実行し、STL ファイルをエクスポートして画像プレビューを出力します。ユーザーとプレビューイメージを見ながら、サイズや形状の微調整を自律対話で進めることができます。 目立つポイント 3Dモデリングをプログラムコードで宣言的に記述する CadQuery の性質と、AI のコード生成能力を融合させた点が革新的です。Claude Code のスキルフォルダ（ ~/.claude/skills/ ）に clone するだけで、エージェント環境に CAD 記述能力とプレビューレンダリングの動作ループをシームレスに追加できます。 セットアップや使い方の流れ mkdir -p ~/.claude/skills を実行した上で、本リポジトリを ~/.claude/skills/parametric-3d-printing というパスに git clone し、Claude Code を起動します。以降、CAD や STL 生成に関する文脈を検知するとスキルが自動でトリガーされます。 どんな人向けか 3Dプリンターを所有しており、3D CAD ツール（Fusion 360 等）の操作に慣れていないか、プログラムコードベースで高速にプロトタイピング（パラメトリック設計）したい DIY エンジニアや Maker、さらに AI エージェントの拡張スキル開発に興味があるエンジニア。 注意点 動作には CadQuery およびプレビュー用のビューア（レンダラー）など、Python の 3D モデリング関連の依存ライブラリがローカル環境に適切にインストールされている必要があります。 まとめ cad-skill は、テキストのやり取りから物理世界の「ものづくり（3D CAD 設計）」へと AI エージェントの活動領域を拡張する非常にインスピレーションにあふれたスキルプロジェクトであり、自律エージェントの将来的な可能性を示す優れた具体例です。 参照リンク https://github.com/flowful-ai/cad-skill Shared GitHub Serial: #825"
+    },
     {
       "slug": "2026-06-29-nrslib-takt",
       "category": "github-pickup",

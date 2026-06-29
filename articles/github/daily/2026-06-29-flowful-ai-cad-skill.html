@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cad-skill</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cad-skill</h1>
+      <p class="article-dek">Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-29 -->
+          <strong>2026-06-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/flowful-ai/cad-skill" target="_blank" rel="noreferrer">
+              flowful-ai/cad-skill
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>224</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code にインポートして使用するカスタム「スキル（指示＆環境ツール群）」であり、Python ベースの CAD 構築ライブラリ「CadQuery」を利用して、自然言語の指示から 3D プリンターで出力可能なパラメトリック 3D 立体モデルを自動作成・検証・反復修正するためのシステムです。</p>
+
+        <h2>何ができるか</h2>
+        <p>ユーザーが「Arduino Uno 用の壁掛けマウントを作って」「iPhone 用のシンプルなスタンドを設計して」のように作りたい物理オブジェクトの要件を説明すると、Claude Code が CadQuery のコードを書いて実行し、STL ファイルをエクスポートして画像プレビューを出力します。ユーザーとプレビューイメージを見ながら、サイズや形状の微調整を自律対話で進めることができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>3Dモデリングをプログラムコードで宣言的に記述する CadQuery の性質と、AI のコード生成能力を融合させた点が革新的です。Claude Code のスキルフォルダ（<code>~/.claude/skills/</code>）に clone するだけで、エージェント環境に CAD 記述能力とプレビューレンダリングの動作ループをシームレスに追加できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>mkdir -p ~/.claude/skills</code> を実行した上で、本リポジトリを <code>~/.claude/skills/parametric-3d-printing</code> というパスに git clone し、Claude Code を起動します。以降、CAD や STL 生成に関する文脈を検知するとスキルが自動でトリガーされます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>3Dプリンターを所有しており、3D CAD ツール（Fusion 360 等）の操作に慣れていないか、プログラムコードベースで高速にプロトタイピング（パラメトリック設計）したい DIY エンジニアや Maker、さらに AI エージェントの拡張スキル開発に興味があるエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>動作には CadQuery およびプレビュー用のビューア（レンダラー）など、Python の 3D モデリング関連の依存ライブラリがローカル環境に適切にインストールされている必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>cad-skill は、テキストのやり取りから物理世界の「ものづくり（3D CAD 設計）」へと AI エージェントの活動領域を拡張する非常にインスピレーションにあふれたスキルプロジェクトであり、自律エージェントの将来的な可能性を示す優れた具体例です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/flowful-ai/cad-skill" target="_blank" rel="noreferrer">https://github.com/flowful-ai/cad-skill</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #825</p>
+      </div>
+    </article>
+  </body>
+</html>
