@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 29 Jun 2026 07:19:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:06:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ponytail]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-DietrichGebert-ponytail.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-DietrichGebert-ponytail.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawcodex]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-agentforce314-clawcodex.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[電話番号やユーザーIDなどの識別子を一切排除し、一方向メッセージキューを用いてプライバシーとメタデータを完全保護する分散型チャットプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openpilot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-commaai-openpilot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-commaai-openpilot.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[300種類以上の既存の市販車に対して、車線維持やアダプティブクルーズコントロールを後付けできるオープンソースの高度運転支援（ロボティクスOS）システム。]]></description>
     </item>
   </channel>
 </rss>

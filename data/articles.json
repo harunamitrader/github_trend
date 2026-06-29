@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-06-29-DietrichGebert-ponytail",
+      "title": "ponytail",
+      "dek": "AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。",
+      "summary": "AIコーディングエージェント（CursorやCline等）に『怠惰なシニア開発者』の設計思想をインジェクションし、無駄な重複コード生成や余分なリファクタリング、非外科手術的な隣接コード改変を強力に抑制するエージェント制御フレームワーク。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T19:00:00+09:00",
+      "repoName": "DietrichGebert/ponytail",
+      "repoUrl": "https://github.com/DietrichGebert/ponytail",
+      "starCount": 65977,
+      "articleUrl": "./articles/github/daily/2026-06-29-DietrichGebert-ponytail.html",
+      "serial": 822,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-06-29-agentforce314-clawcodex",
       "title": "clawcodex",
       "dek": "Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。",

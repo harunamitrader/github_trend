@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ponytail</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ponytail</h1>
+      <p class="article-dek">AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-29 -->
+          <strong>2026-06-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noreferrer">
+              DietrichGebert/ponytail
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>65,977</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIコーディングエージェント（Claude Code, Cline, Cursor等）に、極めて合理的で「怠惰なシニア開発者（Lazy Senior Developer）」の思考モデルをプロンプトインジェクションやルール構成を介して注入し、不必要な重複コードや過剰なリファクタリングを防ぐエージェント最適化・制御フレームワークです。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントが機能拡張をする際、既存のライブラリや関数の再利用を徹底させ、「1行書けば動くところを100行の無駄なコードで記述する」ような無駄な行動をブロックします。さらに、AI特有の「将来のための拡張性」や過度な抽象化、不要なコメント削除や無意味なフォーマット修正などの余計な変更（非外科手術的変更）を排除させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>16種類以上の主要なAIコーディングエージェント（CLIツールやエディタ拡張機能）とネイティブで互換。npm パッケージや設定ファイル（rules）として容易に各ツールにインポートできます。エージェントが不必要な編集を試みた場合に、「本当にこのコードは必要か？」「よりシンプルな設計はないか？」と自律的に問い直す自己制限ロジックを構成します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npm 経由で <code>@dietrichgebert/ponytail</code> をインストールするか、構成ドキュメントを参照してプロジェクトのシステムプロンプトや rules（<code>AGENTS.md</code> や <code>.cursorrules</code> 等）に Ponytail の基本ポリシーテンプレートをインポートしてエージェントに読み込ませます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントがコードベースを勝手に弄り回してコンパイルエラーを発生させたり、隣接コードのコメントやフォーマットを崩すことに悩まされている開発者。また、余分なトークン消費を抑え、最小限のSurgical Edits（部分的かつ正確な外科手術的修正）をAIに行わせたいエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>エージェントが「怠惰」になりすぎる結果、本来実装すべき必要な変更まで「やらない」と判断して怠ける場合があります。その際は人間から「この実装は必須である」と強く指示してオーバーライドする必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Ponytail は、「最も優れたコードは書かれなかったコードである」という原則をAIエージェントに教え込み、AIが犯しがちな過剰なコード生成や不必要なコード churn を完全に抑制して、驚くほどシンプルで安定した開発ワークフローを実現する非常にユニークかつ実用的なツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noreferrer">https://github.com/DietrichGebert/ponytail</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #822</p>
+      </div>
+    </article>
+  </body>
+</html>
