@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-06-29-agentforce314-clawcodex",
+      "title": "clawcodex",
+      "dek": "Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。",
+      "summary": "TypeScript製の Claude Code を 23万行の Python コードで完全再設計したオープンソースの CLI 開発エージェント。入力プレフィックスのバイトスタビライズによる DeepSeek のプロンプトキャッシュヒット率最大化を図り、コンテキスト費用を劇的に抑制する構造を導入。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T16:00:00+09:00",
+      "repoName": "agentforce314/clawcodex",
+      "repoUrl": "https://github.com/agentforce314/clawcodex",
+      "starCount": 607,
+      "articleUrl": "./articles/github/daily/2026-06-29-agentforce314-clawcodex.html",
+      "serial": 821,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-06-29-cline-v4-0-1-rollback",
       "title": "Cline v4.0.1 (VS Code Extension)",

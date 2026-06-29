@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-27T19:46:52.804142+00:00",
-  "count": 907,
+  "generatedAt": "2026-06-29T07:18:18.580657+00:00",
+  "count": 908,
   "articles": [
+    {
+      "slug": "2026-06-29-agentforce314-clawcodex",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "clawcodex",
+      "dek": "Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。",
+      "summary": "TypeScript製の Claude Code を 23万行の Python コードで完全再設計したオープンソースの CLI 開発エージェント。入力プレフィックスのバイトスタビライズによる DeepSeek のプロンプトキャッシュヒット率最大化を図り、コンテキスト費用を劇的に抑制する構造を導入。",
+      "repoName": "agentforce314/clawcodex",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T16:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-29-agentforce314-clawcodex.html",
+      "serial": 821,
+      "searchText": "clawcodex Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。 TypeScript製の Claude Code を 23万行の Python コードで完全再設計したオープンソースの CLI 開発エージェント。入力プレフィックスのバイトスタビライズによる DeepSeek のプロンプトキャッシュヒット率最大化を図り、コンテキスト費用を劇的に抑制する構造を導入。 agentforce314/clawcodex AIコーディング (CLI本体・拡張機能) clawcodex ← 記事一覧へ戻る GitHub Watcher clawcodex Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。 記事作成日 2026-06-29 種別 Pickup 対象 repo agentforce314/clawcodex Star数 607 これは何か Claude Code の TypeScript 参照実装から設計アーキテクチャを移植し、純粋な Python Native ランタイムとして一から再構築した、実用本位のオープンソース CLI コーディングエージェントです。 何ができるか ユーザーの指示に沿ってファイル探索や外科手術的で正確な部分修正（Surgical Edits）、ターミナルでのテスト実行などを自律的に繰り返すことができます。特に DeepSeek の API 特性である「Prefix Caching（プロンプトキャッシュ）」のヒットを最大化するため、入力データのプレフィックスをバイトレベルで厳密に安定（Byte-stable）させ、キャッシュヒット時のトークン料金を 1M あたりわずか $0.0435 （Claude Fable 5 などの frontier モデルと比べて約230分の1）に抑えた長時間開発セッションを実現します。 目立つポイント 23万行を超える Python コードベースで堅牢に構築されており、Node.js 環境に依存しないため Python エコシステムとの親和性が非常に高いです。さらに、DeepSeek をフルに活用した高度なキャッシュ最適化ロジックを備えており、APIコストを劇的に引き下げながら自律的なエラー自己修正デバッグを実行できます。 セットアップや使い方の流れ pip install clawcodex などで導入でき（あるいはリポジトリから依存関係をインストール）、 clawcodex onboard --install-daemon でバックグラウンド実行環境を構成した後、 clawcodex コマンドでエージェントセッションを開始します。 どんな人向けか Claude Code や他の自律型コーディングエージェントを頻繁に使用したいものの、APIの呼び出しトークン費用（特に大規模プロジェクトでのコンテキスト蓄積による課金）の高さに悩んでいたエンジニアや、Python ベースでエージェントツールのカスタム拡張を行いたい開発者に最適です。 注意点 DeepSeek の Prefix Caching の恩恵を最大化するには、プロンプトの構成や入力ファイルの順序を固定（キャッシュを破壊しない構成）にする必要があります。また、開発中の機能も多いため、安全のために Git で作業用ブランチを作成するか隔離された Docker サンドボックス内で実行することが推奨されます。 まとめ ClawCodex は、Claude Code が持つ強力な CLI 自律コーディング能力をそのまま Python ランタイムへ再現しつつ、DeepSeek との親和性を極限まで高めて実質「ほぼゼロコスト」に近い料金で無限のデバッグや開発試行を可能にする、極めて価値の高い再構築プロジェクトです。 参照リンク https://github.com/agentforce314/clawcodex Shared GitHub Serial: #821"
+    },
     {
       "slug": "2026-06-28-update-report",
       "category": "github-update-report",

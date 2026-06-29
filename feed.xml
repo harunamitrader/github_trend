@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 28 Jun 2026 19:03:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 16:18:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[clawcodex]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-agentforce314-clawcodex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-agentforce314-clawcodex.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline v4.0.1 (VS Code Extension)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-29-cline-v4-0-1-rollback.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[300種類以上の既存の市販車に対して、車線維持やアダプティブクルーズコントロールを後付けできるオープンソースの高度運転支援（ロボティクスOS）システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[free-for-dev]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-ripienaar-free-for-dev.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-ripienaar-free-for-dev.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[開発者向けに無料枠（Free Tier）を提供している多様なSaaS、PaaS、IaaSなどのサービスを収集した世界最大級のキュレーションリスト。]]></description>
     </item>
   </channel>
 </rss>

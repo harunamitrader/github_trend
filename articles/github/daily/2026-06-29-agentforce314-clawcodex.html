@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>clawcodex</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">clawcodex</h1>
+      <p class="article-dek">Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-29 -->
+          <strong>2026-06-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/agentforce314/clawcodex" target="_blank" rel="noreferrer">
+              agentforce314/clawcodex
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>607</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code の TypeScript 参照実装から設計アーキテクチャを移植し、純粋な Python Native ランタイムとして一から再構築した、実用本位のオープンソース CLI コーディングエージェントです。</p>
+
+        <h2>何ができるか</h2>
+        <p>ユーザーの指示に沿ってファイル探索や外科手術的で正確な部分修正（Surgical Edits）、ターミナルでのテスト実行などを自律的に繰り返すことができます。特に DeepSeek の API 特性である「Prefix Caching（プロンプトキャッシュ）」のヒットを最大化するため、入力データのプレフィックスをバイトレベルで厳密に安定（Byte-stable）させ、キャッシュヒット時のトークン料金を 1M あたりわずか <code>$0.0435</code>（Claude Fable 5 などの frontier モデルと比べて約230分の1）に抑えた長時間開発セッションを実現します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>23万行を超える Python コードベースで堅牢に構築されており、Node.js 環境に依存しないため Python エコシステムとの親和性が非常に高いです。さらに、DeepSeek をフルに活用した高度なキャッシュ最適化ロジックを備えており、APIコストを劇的に引き下げながら自律的なエラー自己修正デバッグを実行できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install clawcodex</code> などで導入でき（あるいはリポジトリから依存関係をインストール）、<code>clawcodex onboard --install-daemon</code> でバックグラウンド実行環境を構成した後、<code>clawcodex</code> コマンドでエージェントセッションを開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code や他の自律型コーディングエージェントを頻繁に使用したいものの、APIの呼び出しトークン費用（特に大規模プロジェクトでのコンテキスト蓄積による課金）の高さに悩んでいたエンジニアや、Python ベースでエージェントツールのカスタム拡張を行いたい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>DeepSeek の Prefix Caching の恩恵を最大化するには、プロンプトの構成や入力ファイルの順序を固定（キャッシュを破壊しない構成）にする必要があります。また、開発中の機能も多いため、安全のために Git で作業用ブランチを作成するか隔離された Docker サンドボックス内で実行することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>ClawCodex は、Claude Code が持つ強力な CLI 自律コーディング能力をそのまま Python ランタイムへ再現しつつ、DeepSeek との親和性を極限まで高めて実質「ほぼゼロコスト」に近い料金で無限のデバッグや開発試行を可能にする、極めて価値の高い再構築プロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/agentforce314/clawcodex" target="_blank" rel="noreferrer">https://github.com/agentforce314/clawcodex</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #821</p>
+      </div>
+    </article>
+  </body>
+</html>
