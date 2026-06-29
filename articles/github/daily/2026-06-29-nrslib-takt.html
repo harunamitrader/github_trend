@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングエージェントの「子守り」から脱却し、YAMLで計画・実装・レビュー・人間介入チェックポイントなどの自律ワークフローを定義・実行するCLIシステム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>takt</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">takt</h1>
+      <p class="article-dek">AIコーディングエージェントの「子守り」から脱却し、YAMLで計画・実装・レビュー・人間介入チェックポイントなどの自律ワークフローを定義・実行するCLIシステム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-29 -->
+          <strong>2026-06-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/nrslib/takt" target="_blank" rel="noreferrer">
+              nrslib/takt
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,195</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIコーディングエージェントの挙動を、再現性のある頑健な開発ワークフローへと変換するためのオープンソースの CLI 調整（コーディネーション）フレームワークです。</p>
+
+        <h2>何ができるか</h2>
+        <p>1つのエージェントにプロセスすべてを担わせるのではなく、ステップごとに「役割（Role）」「文脈（Context）」「遷移ルール（Transition rules）」を割り当てます。YAMLファイルを介して、エージェントによる計画・実装・レビュー・修正ループ、さらに「人間の介入チェックポイント（承認プロセス）」や権限、出力成果物の要約などを明示的に定義し、孤立した git worktree でタスクを安全に自律稼働させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>エージェントと人間との協調関係を YAML による宣言的なトポロジーとして視覚的・構造的に定義できる点が優れています。また、実行ログが完全に追跡可能であり、成果コントラクト（契約）に沿った厳格なバリデーションを実行します。npm パッケージとして CLI が提供されており、開発環境へ即座に統合可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>npm install -g takt</code> などのコマンドでインストールし、プロジェクト配下に <code>takt.yaml</code> を定義。<code>takt run "&lt;タスク指示&gt;"</code> を実行することで、定義されたトポロジー（ステップ遷移）に沿ってエージェント群が自律的に稼働を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェント（Cline や Claude Code）の作業を付きっきりで監視（子守り）することに疲れた開発者や、チーム開発に耐えうる「レビュー承認フロー付きの AI エージェントパイプライン」を YAML で定義して自動化・再現したいエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>YAMLで定義されたワークフローの各ステップで動くエージェント自体の精度は、連携する LLM モデル（Claude や DeepSeek 等）の推論能力に依存します。そのため、トポロジーが複雑になりすぎると、ステップ間の受け渡し時に情報が欠落するリスクを考慮して設計する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>TAKT は、単なる「チャット形式でのエージェント対話」を超えて、AI に厳格な役割とパスを定義した『エージェント・オーケストレーション』を YAML で実現する、自律開発ワークフローの構造化において非常に先進的で頼もしいツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/nrslib/takt" target="_blank" rel="noreferrer">https://github.com/nrslib/takt</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #824</p>
+      </div>
+    </article>
+  </body>
+</html>

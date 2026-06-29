@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-06-29-nrslib-takt",
+      "title": "takt",
+      "dek": "AIコーディングエージェントの「子守り」から脱却し、YAMLで計画・実装・レビュー・人間介入チェックポイントなどの自律ワークフローを定義・実行するCLIシステム。",
+      "summary": "AIエージェントの挙動を再現性あるワークフローに落とし込むCLIツール。計画、実装、レビュー、修正などの工程や、人間の承認チェックポイント、出力要件をYAMLで定義・協調制御可能にする。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T19:30:00+09:00",
+      "repoName": "nrslib/takt",
+      "repoUrl": "https://github.com/nrslib/takt",
+      "starCount": 1195,
+      "articleUrl": "./articles/github/daily/2026-06-29-nrslib-takt.html",
+      "serial": 824,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-06-29-cobusgreyling-loop-engineering",
       "title": "loop-engineering",
       "dek": "AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。",
