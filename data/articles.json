@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-06-29-cobusgreyling-loop-engineering",
+      "title": "loop-engineering",
+      "dek": "AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。",
+      "summary": "AIコーディングエージェントの自律ループの出力品質を自動評価する loop-audit、ルール・プロンプトを一括配置する loop-init、およびAPIトークン料金を可視化する loop-cost からなるエージェント管理ツールキット。",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T19:10:00+09:00",
+      "repoName": "cobusgreyling/loop-engineering",
+      "repoUrl": "https://github.com/cobusgreyling/loop-engineering",
+      "starCount": 3846,
+      "articleUrl": "./articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html",
+      "serial": 823,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-06-29-DietrichGebert-ponytail",
       "title": "ponytail",
       "dek": "AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。",

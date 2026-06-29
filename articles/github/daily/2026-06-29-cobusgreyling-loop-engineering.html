@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>loop-engineering</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">loop-engineering</h1>
+      <p class="article-dek">AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-06-29 -->
+          <strong>2026-06-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/cobusgreyling/loop-engineering" target="_blank" rel="noreferrer">
+              cobusgreyling/loop-engineering
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,846</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIコーディングエージェント（Claude Code や Cursor 等）と開発者がコードを実装・推敲する際の「自律的な編集ループ」を制御・検証・コスト最適化するための、実用的な設計パターン、テンプレート、および 3 つの CLI ツール（init, audit, cost）からなる開発支援システムです。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>loop-init</code> コマンドでエージェント用のプロンプトや動作制約ルールを一撃で生成・配置し、<code>loop-audit</code> でエージェントが余計なコメント削除や無駄なコード churn を引き起こしていないかを差分ベースで自動監査し、<code>loop-cost</code> を使ってエージェントセッションでの API 消費コストやトークン統計を解析・追跡します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>AI エージェントを最適かつ外科手術的（Surgical Edits）に動員するための「デザインシステム」の設計思想を採用。CLI ツール群は npm パッケージとして個別リリースされており、CI/CD ワークフロー（GitHub Actions等）に <code>loop-audit</code> などを組み込んでエージェント生成コードの品質審査を自動化することができます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>npm 経由で <code>@cobusgreyling/loop-init</code> や <code>@cobusgreyling/loop-audit</code> などをグローバルまたはローカルにインストールし、<code>loop-init</code> コマンドでプロジェクトに必要な設定を構成した後、開発ワークフローに組み込んで利用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェント（Cline や Claude Code）を使って効率的に開発したいものの、エージェントが自律的に繰り返す「Act/Edit ループ」の品質・正確性を自動チェックしたいエンジニアや、API トークン消費による予期せぬコストをリアルタイムで追跡したいプロジェクトリーダー。</p>
+
+        <h2>注意点</h2>
+        <p>CLI ツール群が提供するプロンプトパターンや監査基準（Rules）は、各エージェントツールのメジャーバージョンアップ（例: Cline v4 や Claude Code v2）による内部ランタイム挙動の変更に合わせて随時チューニングを施す必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Loop Engineering は、AI エージェントをただ「動かす」のではなく、その出力品質や行動コストを人間がシステマチックに管理・評価するための現実的かつ堅牢なソリューションを提供しており、エージェント駆動開発の信頼性を確実にする必須のパーツです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cobusgreyling/loop-engineering" target="_blank" rel="noreferrer">https://github.com/cobusgreyling/loop-engineering</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #823</p>
+      </div>
+    </article>
+  </body>
+</html>

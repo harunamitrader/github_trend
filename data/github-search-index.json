@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-06-29T10:06:03.501209+00:00",
-  "count": 909,
+  "generatedAt": "2026-06-29T10:19:21.300803+00:00",
+  "count": 910,
   "articles": [
+    {
+      "slug": "2026-06-29-cobusgreyling-loop-engineering",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "loop-engineering",
+      "dek": "AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。",
+      "summary": "AIコーディングエージェントの自律ループの出力品質を自動評価する loop-audit、ルール・プロンプトを一括配置する loop-init、およびAPIトークン料金を可視化する loop-cost からなるエージェント管理ツールキット。",
+      "repoName": "cobusgreyling/loop-engineering",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T19:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html",
+      "serial": 823,
+      "searchText": "loop-engineering AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。 AIコーディングエージェントの自律ループの出力品質を自動評価する loop-audit、ルール・プロンプトを一括配置する loop-init、およびAPIトークン料金を可視化する loop-cost からなるエージェント管理ツールキット。 cobusgreyling/loop-engineering AIコーディング (ワークフロー・プロンプト・開発補助ツール) loop-engineering ← 記事一覧へ戻る GitHub Watcher loop-engineering AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。 記事作成日 2026-06-29 種別 Pickup 対象 repo cobusgreyling/loop-engineering Star数 3,846 これは何か AIコーディングエージェント（Claude Code や Cursor 等）と開発者がコードを実装・推敲する際の「自律的な編集ループ」を制御・検証・コスト最適化するための、実用的な設計パターン、テンプレート、および 3 つの CLI ツール（init, audit, cost）からなる開発支援システムです。 何ができるか loop-init コマンドでエージェント用のプロンプトや動作制約ルールを一撃で生成・配置し、 loop-audit でエージェントが余計なコメント削除や無駄なコード churn を引き起こしていないかを差分ベースで自動監査し、 loop-cost を使ってエージェントセッションでの API 消費コストやトークン統計を解析・追跡します。 目立つポイント AI エージェントを最適かつ外科手術的（Surgical Edits）に動員するための「デザインシステム」の設計思想を採用。CLI ツール群は npm パッケージとして個別リリースされており、CI/CD ワークフロー（GitHub Actions等）に loop-audit などを組み込んでエージェント生成コードの品質審査を自動化することができます。 セットアップや使い方の流れ npm 経由で @cobusgreyling/loop-init や @cobusgreyling/loop-audit などをグローバルまたはローカルにインストールし、 loop-init コマンドでプロジェクトに必要な設定を構成した後、開発ワークフローに組み込んで利用します。 どんな人向けか AI エージェント（Cline や Claude Code）を使って効率的に開発したいものの、エージェントが自律的に繰り返す「Act/Edit ループ」の品質・正確性を自動チェックしたいエンジニアや、API トークン消費による予期せぬコストをリアルタイムで追跡したいプロジェクトリーダー。 注意点 CLI ツール群が提供するプロンプトパターンや監査基準（Rules）は、各エージェントツールのメジャーバージョンアップ（例: Cline v4 や Claude Code v2）による内部ランタイム挙動の変更に合わせて随時チューニングを施す必要があります。 まとめ Loop Engineering は、AI エージェントをただ「動かす」のではなく、その出力品質や行動コストを人間がシステマチックに管理・評価するための現実的かつ堅牢なソリューションを提供しており、エージェント駆動開発の信頼性を確実にする必須のパーツです。 参照リンク https://github.com/cobusgreyling/loop-engineering Shared GitHub Serial: #823"
+    },
     {
       "slug": "2026-06-29-DietrichGebert-ponytail",
       "category": "github-pickup",

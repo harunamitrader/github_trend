@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 29 Jun 2026 10:07:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:20:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[loop-engineering]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。]]></description>
+    </item>
     <item>
       <title><![CDATA[ponytail]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-DietrichGebert-ponytail.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[simplex-chat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-simplex-chat-simplex-chat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-27-simplex-chat-simplex-chat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[電話番号やユーザーIDなどの識別子を一切排除し、一方向メッセージキューを用いてプライバシーとメタデータを完全保護する分散型チャットプラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
