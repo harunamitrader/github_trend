@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 29 Jun 2026 12:12:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 04:01:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v4.0.3 / cli-v3.0.34]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[VS Code 拡張機能 v4.0.3 にて ClinePass を全ユーザーへ解放し、DeepSeek の reasoning effort コントロールや CLI (v3.0.34) でのオンボーディングが強化されたアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[cad-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-flowful-ai-cad-skill.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Antigravity CLI v2.2.1 がリリース。ビルトインの「Antigravity Guide」スキルの追加、音声ファイルのレンダリング対応、部分一致によるファイル検索の改善、VCS検出の非同期化による初期化の高速化、およびルール適用のバグ修正が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.49.0 / v0.50.0-preview.1]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-geminicli-v0-49-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-geminicli-v0-49-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini CLI v0.49.0 および v0.50.0-preview.1 がリリース。ツール出力フォーマットの標準化、クォータ切れ時の再試行ループハングの解消（fail-fast化）、スキルインストール時のパストラバーサル脆弱性の修正、およびGDCエアギャップ環境でのサービスID対応などが行われました。]]></description>
     </item>
   </channel>
 </rss>

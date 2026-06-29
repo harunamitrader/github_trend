@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-06-30-cline-v4-0-3-clinepass-deepseek",
+      "title": "Cline v4.0.3 / cli-v3.0.34",
+      "dek": "VS Code 拡張機能 v4.0.3 にて ClinePass を全ユーザーへ解放し、DeepSeek の reasoning effort コントロールや CLI (v3.0.34) でのオンボーディングが強化されたアップデート。",
+      "summary": "VS Code 拡張機能 v4.0.3 で ClinePass を全開放。DeepSeek 推論モデル向けの reasoning effort UI サポートを追加し、CLI ではオンボーディング手順やコンテキスト圧縮を改善。",
+      "publishedAt": "2026-06-30",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-06-29-flowful-ai-cad-skill",
