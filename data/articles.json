@@ -8,6 +8,28 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-01-claudecode-v2-1-197-sonnet5",
+      "title": "Claude Code v2.1.197",
+      "dek": "Claude Code のデフォルトモデルとして最新の「Claude Sonnet 5」(1Mトークン窓) が導入されたほか、セキュリティ強化やUI上の添付ファイルリンク、組織デフォルトモデルのサポートを含む大型アップデート。",
+      "summary": "デフォルトモデルに Claude Sonnet 5 (1Mトークン窓) を採用。組織/ロールのデフォルト設定、自己承認された MCP サーバーの自動起動制限によるセキュリティ強化、PowerShell のコマンドパイプ不具合を修正。",
+      "publishedAt": "2026-07-01",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-01-claudecode-v2-1-197-sonnet5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-01-cline-v4-0-4-clinepass-complete",
+      "title": "Cline v4.0.4",
+      "dek": "UI上のあらゆる設定や画面から ClinePass 機能フラグを完全廃止し、一般解放・アップグレード連携を完了したアップデート。",
+      "summary": "ClinePass の機能フラグ制限を完全に廃止し、オンボーディング、設定、ウェルカムバナー、クレジット上限警告などUIの全域に ClinePass を展開・統合。",
+      "publishedAt": "2026-07-01",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-01-cline-v4-0-4-clinepass-complete.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-06-30-cline-v4-0-3-clinepass-deepseek",
       "title": "Cline v4.0.3 / cli-v3.0.34",
       "dek": "VS Code 拡張機能 v4.0.3 にて ClinePass を全ユーザーへ解放し、DeepSeek の reasoning effort コントロールや CLI (v3.0.34) でのオンボーディングが強化されたアップデート。",

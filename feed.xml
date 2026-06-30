@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2026 04:15:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:01:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.197]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-claudecode-v2-1-197-sonnet5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-claudecode-v2-1-197-sonnet5.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code のデフォルトモデルとして最新の「Claude Sonnet 5」(1Mトークン窓) が導入されたほか、セキュリティ強化やUI上の添付ファイルリンク、組織デフォルトモデルのサポートを含む大型アップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v4.0.4]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-cline-v4-0-4-clinepass-complete.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-cline-v4-0-4-clinepass-complete.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[UI上のあらゆる設定や画面から ClinePass 機能フラグを完全廃止し、一般解放・アップグレード連携を完了したアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline v4.0.3 / cli-v3.0.34]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline cli-v3.0.31 / v4.0.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-cline-cli-v3-0-31-v4-0-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-cline-cli-v3-0-31-v4-0-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cline VS Code 拡張機能 v4.0.0 と Cline CLI v3.0.31 が同時リリース。共有「Cline SDK」によるランタイムへの移行、サブスクリプション機能 ClinePass の統合、Plugins サポートとマーケットプレイス of 刷新などが盛り込まれました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity v2.2.1]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-antigravity-v2-2-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-antigravity-v2-2-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Antigravity CLI v2.2.1 がリリース。ビルトインの「Antigravity Guide」スキルの追加、音声ファイルのレンダリング対応、部分一致によるファイル検索の改善、VCS検出の非同期化による初期化の高速化、およびルール適用のバグ修正が行われました。]]></description>
     </item>
   </channel>
 </rss>

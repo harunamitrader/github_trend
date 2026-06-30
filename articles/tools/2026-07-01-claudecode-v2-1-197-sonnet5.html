@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code のデフォルトモデルとして最新の「Claude Sonnet 5」(1Mトークン窓) が導入されたほか、セキュリティ強化やUI上の添付ファイルリンク、組織デフォルトモデルのサポートを含む大型アップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.197: デフォルトモデルに「Claude Sonnet 5」を採用、組織モデル対応とセキュリティ・Windows 互換性の向上</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.197: デフォルトモデルに「Claude Sonnet 5」を採用、組織モデル対応とセキュリティ・Windows 互換性の向上</h1>
+      <p class="article-dek">Claude Code のデフォルトモデルとして最新の「Claude Sonnet 5」(1Mトークン窓) が導入されたほか、セキュリティ強化やUI上の添付ファイルリンク、組織デフォルトモデルのサポートを含む大型アップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.197 / v2.1.196</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、新世代モデルである「Claude Sonnet 5」がデフォルトとして全面採用されたほか、チーム開発を意識した組織デフォルト設定の追加やセキュリティ境界の厳格化など、多面的な機能向上とバグ修正が行われています。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>Claude Sonnet 5 のデフォルト採用 (v2.1.197):</strong> デフォルトモデルが Claude Sonnet 5 に変更され、1Mトークンの超巨大コンテキストにネイティブ対応しました。2026年8月31日まで特別プロモーション価格（Input $2 / Output $10 per Mtok）で利用可能です。</li>
+          <li><strong>組織/ロールのデフォルトモデル (v2.1.196):</strong> 管理者が Org Console で指定したモデルが未選択時のデフォルト（Org default / Role default）として機能するようになりました。</li>
+          <li><strong>セキュリティ強化 (v2.1.196):</strong> コミットされた設定ファイル（<code>.claude/settings.json</code>）を利用してリポジトリが自己承認した <code>.mcp.json</code> の自動生成・起動を無効化。未承認は <code>Pending approval</code> 状態となります。</li>
+          <li><strong>ファイル連携とバックグラウンド処理のバグ修正:</strong> チャット内に添付されたファイル名を Cmd/Ctrl+クリックで Finder/Explorer で開けるようになったほか、バックグラウンド会話再開時のトランスクリプト消失などのバグが解消。</li>
+          <li><strong>PowerShell 互換性の向上 (v2.1.196):</strong> Windows PowerShell 環境で <code>git diff</code> やパイプ文字 <code>|</code> を含むコマンドが失敗扱いになっていた不具合が解消されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>これにより、開発者は 1M トークンのコンテキストを活かした大規模プロジェクトのコード生成や修正を Claude Code 上で直接、極めて高速かつ安価に実行できるようになります。また、セキュリティ面や Windows/PowerShell 上での動作の安定性が飛躍的に向上したため、実用ツールとしての実効性が大きく高まりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code v2.1.197 は、Claude Sonnet 5 の力をフルに活かす基盤アップデートであり、インフラ・セキュリティ・環境互換性の三拍子が揃った、チームおよび大規模プロジェクト開発にとって極めて重要なマイルストーンです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer">Claude Code CHANGELOG</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
