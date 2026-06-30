@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-01-claude-sonnet-5-released",
+      "title": "Claude Sonnet 5",
+      "dek": "前世代を圧倒する高い自律ツール操作能力（エージェント性能）を備えた最新世代モデル「Claude Sonnet 5」の正式リリース。",
+      "summary": "自律的なプランニングやブラウザ/ターミナル操作に特化した最新モデル「Claude Sonnet 5」が公開。1Mトークン窓にネイティブ対応し、特別価格でAPIおよび全プランにて提供開始。",
+      "publishedAt": "2026-07-01",
+      "toolName": "Claude",
+      "toolUrl": "https://www.anthropic.com/claude",
+      "articleUrl": "./articles/tools/2026-07-01-claude-sonnet-5-released.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-01-claudecode-v2-1-197-sonnet5",
       "title": "Claude Code v2.1.197",
       "dek": "Claude Code のデフォルトモデルとして最新の「Claude Sonnet 5」(1Mトークン窓) が導入されたほか、セキュリティ強化やUI上の添付ファイルリンク、組織デフォルトモデルのサポートを含む大型アップデート。",

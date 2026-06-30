@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:02:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:15:53 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Sonnet 5]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-claude-sonnet-5-released.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-claude-sonnet-5-released.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[前世代を圧倒する高い自律ツール操作能力（エージェント性能）を備えた最新世代モデル「Claude Sonnet 5」の正式リリース。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.197]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-01-claudecode-v2-1-197-sonnet5.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[デスクトップアプリのサイドバーに「Claude Design」の専用ホームが追加され、プロジェクトとの連携が強化されました。あわせて管理者がリモートセッションでデバイス制限を行える「Trusted Devices」機能がリリースされました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.195]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-claudecode-v2-1-195.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-claudecode-v2-1-195.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[フルスクリーンモードでのマウスクリックを無効化する環境変数 CLAUDE_CODE_DISABLE_MOUSE_CLICKS の追加や、ハイフン付き識別子のフック部分一致バグ修正、日本語や中国語における音声入力 auto-submit のバグ修正、バックグラウンドデーモンやジョブの安定性向上などを盛り込んだマイナーアップデートです。]]></description>
     </item>
   </channel>
 </rss>
