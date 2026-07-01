@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="メッセージ応答のスタック、誤配置リプライ、再接続エラーなどの不具合を解消し、動作の信頼性と安全性を強化した安定性向上アップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.6.11: 応答スタックやモデル設定エラーの解消と安定性の向上</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.6.11: 応答スタックやモデル設定エラーの解消と安定性の向上</h1>
+      <p class="article-dek">メッセージ応答のスタック、誤配置リプライ、再接続エラーなどの不具合を解消し、動作の信頼性と安全性を強化した安定性向上アップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.6.11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリースでは、ユーザーからのフィードバックに基づき、OpenClaw の動作上の不具合（「Dependability/信頼性」の課題）を解消するためのバグ修正と安全設計の向上が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>応答送信のスタックと誤配置の修正:</strong> 送信処理が途中でスタックする問題や、リプライの返信先が誤った箇所に配置されるバグを修正しました。</li>
+          <li><strong>再接続と接続エラーの改善:</strong> 切断時の自動再接続の安定性を向上させ、一部で発生していたモデルの初期セットアップエラーを解消しました。</li>
+          <li><strong>管理者向け安全デフォルト値の設定:</strong> 初期起動時の管理者用デフォルト設定を、より安全なセキュリティパラメータへ調整しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>これにより、マルチタスクや大量のメッセージ送受信が行われるエージェント環境下においても、OpenClaw がフリーズすることなく長時間安定して動作可能となり、接続断による処理の切断リスクが大幅に低減します。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw v2026.6.11 は、日常的な実行における依存性や安全性の粗削りな部分を徹底的に磨き上げた、運用に不可欠な品質クリーンアップリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
