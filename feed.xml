@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jul 2026 19:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 04:01:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.198 / v2.1.199]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v4.0.6]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-cline-v4-0-6-model-warning.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-cline-v4-0-6-model-warning.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[特定のモデル接続エラーを防ぐために用意されているモデル能力警告（Model Capability Warning）を汎用化し、幅広いプロバイダーモデルに対応させた安定性向上アップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.6.11]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-02-openclaw-v2026-6-11-stability.html</link>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: GPT-4.5モデルの退役と、音声入力精度向上・個人財務連携等のアップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-chatgpt-gpt4-5-deprecation.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-chatgpt-gpt4-5-deprecation.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GPT-4.5がChatGPTから正式に退役し、GPT-5.5への移行が促されています。あわせて音声入力の精度向上、個人財務データのダッシュボード連携などのアップデートが実施されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: 学生向け学習支援「Study Notebooks」および6月版「Gemini Drops」のリリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-gemini-study-notebooks-drops.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-28-gemini-study-notebooks-drops.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[学生向けの適応型学習支援機能「Study Notebooks」の提供と、Gemini Liveの画像生成や外部サービス連携を含む6月の「Gemini Drops」が公開されました。]]></description>
     </item>
   </channel>
 </rss>

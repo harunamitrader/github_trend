@@ -8,6 +8,28 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-03-claudecode-v2-1-198-chrome-pr",
+      "title": "Claude Code v2.1.198 / v2.1.199",
+      "dek": "Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。",
+      "summary": "「Claude in Chrome」が GA。バックグラウンド作業完了時のコミット、プッシュ、ドラフト PR 自律起票に対応。通知用フックや `/dataviz` スキルが追加され、自動リトライなど信頼性も強化。",
+      "publishedAt": "2026-07-03",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-03-cline-v4-0-6-model-warning",
+      "title": "Cline v4.0.6",
+      "dek": "特定のモデル接続エラーを防ぐために用意されているモデル能力警告（Model Capability Warning）を汎用化し、幅広いプロバイダーモデルに対応させた安定性向上アップデート。",
+      "summary": "モデル能力警告を全接続プロバイダーおよびAPIエンドポイントに向けて汎用化。検証不足のモデルに対する不適切な呼び出しや、想定外のAPI実行失敗を防止。",
+      "publishedAt": "2026-07-03",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-03-cline-v4-0-6-model-warning.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-02-openclaw-v2026-6-11-stability",
       "title": "OpenClaw v2026.6.11",
       "dek": "メッセージ応答のスタック、誤配置リプライ、再接続エラーなどの不具合を解消し、動作の信頼性と安全性を強化した安定性向上アップデート。",

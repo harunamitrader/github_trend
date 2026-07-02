@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.198: 「Claude in Chrome」の一般公開と、自律的ドラフト PR 作成・通知機能の追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.198: 「Claude in Chrome」の一般公開と、自律的ドラフト PR 作成・通知機能の追加</h1>
+      <p class="article-dek">Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.198 / v2.1.199</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のリリースでは、Chromeブラウザ統合が正式リリースされたほか、バックグラウンドでの作業完了時にドラフトPull Request（PR）の起票までエージェントが自律的に実行するなど、ワークフロー自動化の完了範囲が大きく拡大されました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>Claude in Chrome が一般公開 (GA) 到達:</strong> Chrome ブラウザとの深い統合機能がすべてのユーザー向けに一般公開されました。</li>
+          <li><strong>自律的なコミット・PR起票:</strong> <code>claude agents</code> から起動されたバックグラウンドエージェントが、コード作業完了時に手動確認を挟まず自律的に commit、push、さらにドラフトPRの作成まで実行します。</li>
+          <li><strong>エージェント通知機能の追加:</strong> エージェントがユーザーの入力を必要とする際（needs_input）や完了時（completed）に通知用フックを発火します。</li>
+          <li><strong>新スキル <code>/dataviz</code> の追加:</strong> チャートやダッシュボードの配色とデザインガイダンスを提供する、カラーバリデータ付きの新スキルを搭載。</li>
+          <li><strong>ネットワーク耐性の向上とバグ修正:</strong> 一時的なネットワーク切断（ECONNRESET等）での即時失敗を防ぐ自動バックオフ再試行や、ブランチ切り替え時の <code>/diff</code> 更新バグが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>これにより、開発者はコードの修正やデバッグのタスクをエージェントに投げた後、手動でコミットやPR作成をすることなく、自動的に用意されたドラフトPRをレビューするだけで済むようになります。また、通知サポートにより並行作業時の介入タイミングが把握しやすくなり、自律エージェントの価値がさらに高まりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code v2.1.198 は、エージェントを「ただのアシスタント」から「自律して成果物をチームにマージする開発者」へと昇華させるための重要な進化版アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer">Claude Code CHANGELOG</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
