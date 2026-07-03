@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Jul 2026 19:03:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 04:18:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude: Fable 5 / Mythos 5 復旧と Claude Science の発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claude-fable-mythos-science.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claude-fable-mythos-science.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[米国政府の輸出規制による一時停止から復旧し、Claude Fable 5 および Mythos 5 へのアクセスが再開。あわせて、科学研究プロセスを劇的に加速する「Claude Science」ワークベンチが発表されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini: Gemini Omni Flash プレビューと 3.5 Pro 延期の発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-gemini-omni-flash-preview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-gemini-omni-flash-preview.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Googleは高速動画生成・編集を実現する「Gemini Omni Flash」のパブリックプレビューを開始し、あわせて6月予定だった「Gemini 3.5 Pro」の正式リリースを安定性向上のため7月に延期することを発表しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw v2026.7.1-beta.1]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-openclaw-v2026-7-1-beta-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-openclaw-v2026-7-1-beta-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAIの最新モデル「GPT-5.6」の正式認識、実行中のGatewayセッションにアタッチしてCodexワークフローを再開・検査する「openclaw attach」の追加、および Telegram を介したペアプロ起動・制御を含む大型ベータアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.200]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claudecode-v2-1-200.html</link>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.0.1 (VS Code Extension)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-29-cline-v4-0-1-rollback.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-29-cline-v4-0-1-rollback.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[v4.0.0 で実施した Cline SDK 移行に伴うユーザー報告の不具合や回帰問題に対応するため、安定版拡張機能を従来の v3.89.2 ベースへと一時的にロールバック（差し戻し）したアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ppt-master]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-hugohe3-ppt-master.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-hugohe3-ppt-master.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画像スライドではなく、編集可能なネイティブ図形、アニメーション、およびAI合成音声によるナレーションを備えたPPTXファイルを自動生成するAIプレゼンテーション構築ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dbt-core]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-dbt-labs-dbt-core.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-dbt-labs-dbt-core.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rust製へと再設計され、圧倒的な高速化と厳格な言語仕様を備えて登場した次世代データ変換（T: Transform）ツールのアルファ版。]]></description>
     </item>
   </channel>
 </rss>
