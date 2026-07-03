@@ -8,6 +8,50 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-04-claudecode-v2-1-200",
+      "title": "Claude Code v2.1.200",
+      "dek": "質問ダイアログの自動進行防止や Manual パーミッションモードへの改名、設定ファイル起因のクラッシュ修正、スリープ復帰時のバックグラウンドセッションハング解消など、制御性と安定性を向上させたアップデート。",
+      "summary": "質問ダイアログの自動進行を抑止しアイドルタイムアウトを導入。Manual パーミッションモードへの改名や、.claude.json 起因の起動時クラッシュ、システムスリープ復帰時のバックグラウンドセッション停止などの安定性不具合を修正。",
+      "publishedAt": "2026-07-04",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-04-claudecode-v2-1-200.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-04-cline-cli-v3-0-35",
+      "title": "Cline cli-v3.0.35",
+      "dek": "サブスクリプション機能 ClinePass の CLI ユーザー全体への開放や、対話セッション復旧のバグ修正、Tencent TokenHub プロバイダー対応、高出力モデルにおける初期プロンプト切り捨てバグの修正などを盛り込んだアップデート。",
+      "summary": "すべての CLI ユーザーへ ClinePass を開放。Tencent TokenHub 対応や、MiniMax M3 等での初期プロンプトの強制自動圧縮ハングを修正し、対話セッション復旧や履歴エクスポートでのコマンド構造化を追加。",
+      "publishedAt": "2026-07-04",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-04-cline-cli-v3-0-35.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-04-cursor-ios-beta-team-mcp",
+      "title": "Cursor: iOS Beta & Team MCP",
+      "dek": "Paidプラン向けにクラウド上の仮想マシンで動作するCloud Agentsのモバイル管理や、デスクトップエージェントのリモートコントロールに対応した「Cursor for iOS」の公開と、管理者によるTeam MCPサーバーの一括配信機能が追加されたアップデート。",
+      "summary": "「Cursor for iOS」のパブリックベータがPro/Business向けに登場。PCを閉じても動くCloud Agents の起動管理や、デスクトップ遠隔制御が可能に。管理者向けのTeam MCP一括同期配信や組織グループ制限もサポート。",
+      "publishedAt": "2026-07-04",
+      "toolName": "Cursor",
+      "toolUrl": "https://cursor.com",
+      "articleUrl": "./articles/tools/2026-07-04-cursor-ios-beta-team-mcp.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-04-windsurf-devin-desktop-rebrand",
+      "title": "Devin Desktop (formerly Windsurf) Rebrand",
+      "dek": "Cognition AIによるWindsurfの「Devin Desktop」への正式リブランディングと、従来のローカル開発エージェント「Cascade」の2026年7月1日付でのEOL（廃止）およびRust製エージェント「Devin Local」への全面刷新。",
+      "summary": "Windsurf IDE が「Devin Desktop」に正式リブランディング。ローカルエージェント「Cascade」は2026年7月1日にサポート終了(EOL)となり、Rust製でトークン効率が良く子代理(sub-agent)をサポートする「Devin Local」へ刷新。",
+      "publishedAt": "2026-07-04",
+      "toolName": "Windsurf",
+      "toolUrl": "https://windsurf.com",
+      "articleUrl": "./articles/tools/2026-07-04-windsurf-devin-desktop-rebrand.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-03-claudecode-v2-1-198-chrome-pr",
       "title": "Claude Code v2.1.198 / v2.1.199",
       "dek": "Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。",

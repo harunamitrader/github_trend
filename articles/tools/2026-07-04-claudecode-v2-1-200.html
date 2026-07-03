@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="質問ダイアログの自動進行防止や Manual パーミッションモードへの改名、設定ファイル起因のクラッシュ修正、スリープ復帰時のバックグラウンドセッションハング解消など、制御性と安定性を向上させたアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.200</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.200</h1>
+      <p class="article-dek">質問ダイアログの自動進行防止や Manual パーミッションモードへの改名、設定ファイル起因のクラッシュ修正、スリープ復帰時のバックグラウンドセッションハング解消など、制御性と安定性を向上させたアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.200</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>ユーザー制御の強化と、バックグラウンドでの動作安定性を高める以下のアップデートが行われました。</p>
+        <ul>
+            <li><strong>AskUserQuestionの自動進行抑止:</strong> 質問ダイアログがデフォルトで自動進行しなくなりました。必要に応じて <code>/config</code> からアイドルタイムアウトを設定可能になりました。</li>
+            <li><strong>Manual パーミッションモードへの改名:</strong> CLIや各IDE拡張機能で、デフォルトの許可モードが従来の「default」から「Manual」へと名称変更されました（機能自体は互換性が維持されます）。</li>
+            <li><strong>設定ファイルバリデーションの修正:</strong> <code>.claude.json</code> の <code>disabledMcpServers</code> や <code>enabledMcpServers</code> に配列以外の不正な値が入っていると起動時にクラッシュしていた不具合が修正されました。</li>
+            <li><strong>バックグラウンドセッションの安定化:</strong> システムのスリープ・復帰サイクルに伴い、バックグラウンドのデーモンやセッションがサイレント停止したり、フリーズしたセッションの再開に失敗したりする問題が解消されました。</li>
+            <li><strong>アクセシビリティ向上:</strong> スクリーンリーダー向けに装飾用の文字を非表示にし、トランスクリプト記号やネストされたテーブル構造を適切に読み上げるように最適化されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回の変更は、自律実行中の挙動をより厳密に制御したいユーザーに最適です。特に、夜間や席を外している間にエージェントが自動で進みすぎるのを防ぐアイドルタイムアウト機能や、システムスリープ中もバックグラウンドタスクが途切れない安定化対応により、長時間の自律開発がより安全で確実になります。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code v2.1.200 は、実用的な運用において発生していたフリーズやクラッシュといった細かな不具合を潰しつつ、セキュリティとアクセシビリティを堅実に高めた良質なメンテナンスアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">npm @anthropic-ai/claude-code / GitHub</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

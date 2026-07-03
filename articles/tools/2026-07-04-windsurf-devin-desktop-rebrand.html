@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cognition AIによるWindsurfの「Devin Desktop」への正式リブランディングと、従来のローカル開発エージェント「Cascade」の2026年7月1日付でのEOL（廃止）およびRust製エージェント「Devin Local」への全面刷新。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Devin Desktop (formerly Windsurf) Rebrand</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Devin Desktop (formerly Windsurf) Rebrand</h1>
+      <p class="article-dek">Cognition AIによるWindsurfの「Devin Desktop」への正式リブランディングと、従来のローカル開発エージェント「Cascade」の2026年7月1日付でのEOL（廃止）およびRust製エージェント「Devin Local」への全面刷新。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">アップデート</span>
+          <strong>Devin Desktop への移行</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Windsurf</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cognition AI のプロダクトロードマップに統合される形で、Windsurf が自律型 AI 開発環境としての新体制へと移行しました。</p>
+        <ul>
+            <li><strong>Devin Desktop へのリブランディング:</strong> Windsurf IDE は「Devin Desktop」へと名称およびビジュアルが刷新されました。既存設定や拡張機能、キーバインド、プラン情報は OTA アップデートでそのまま引き継がれます。</li>
+            <li><strong>Cascade エージェントの廃止 (EOL):</strong> Windsurf の中核だったローカル協調型エージェント「Cascade」は、2026年7月1日をもって完全にサポート終了（EOL）となりました。</li>
+            <li><strong>Devin Local の導入:</strong> Cascade に代わり、Rust でゼロから再設計された新しいローカル実行エージェント「Devin Local」が導入されました。</li>
+            <li><strong>トークン効率と子代理サポート:</strong> Devin Local はトークン消費効率が大幅に向上しており、複雑なタスクを処理するために内部で自律的に子代理（sub-agent）を立ち上げて並列処理・協調処理を行う機能をサポートしています。</li>
+            <li><strong>既存スクリプトや CI/CD の要更新:</strong> Cascade への明示的なコマンド呼び出しを行っていたスクリプトやオートメーション、CI/CD 連携は、Devin Local を呼び出すように修正が必要となっています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Windsurf を使っていた既存ユーザーにとっては、実質的なエージェントエンジンの全面刷新（Devin Local への移行）となります。特に Rust 化による高速化とトークン消費の抑制、前述した強力な子代理（sub-agent）サポートにより、大規模なコードベースでの自律改変能力が劇的に高まります。ただし、外部連携スクリプトなどで "Cascade" の名前に依存している場合は、動かなくなるため早急なパス・コマンドの書き換えが必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>Windsurf は「Devin Desktop」へと生まれ変わり、世界初の自律AIエンジニア「Devin」の技術をローカル開発環境（デスクトップ）に深く統合する、新時代の門出を迎える形となりました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://windsurf.com/changelog" target="_blank" rel="noreferrer">Windsurf / Devin Desktop Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

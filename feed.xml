@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jul 2026 19:02:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 04:02:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.200]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claudecode-v2-1-200.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claudecode-v2-1-200.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[質問ダイアログの自動進行防止や Manual パーミッションモードへの改名、設定ファイル起因のクラッシュ修正、スリープ復帰時のバックグラウンドセッションハング解消など、制御性と安定性を向上させたアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline cli-v3.0.35]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cline-cli-v3-0-35.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cline-cli-v3-0-35.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サブスクリプション機能 ClinePass の CLI ユーザー全体への開放や、対話セッション復旧のバグ修正、Tencent TokenHub プロバイダー対応、高出力モデルにおける初期プロンプト切り捨てバグの修正などを盛り込んだアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor: iOS Beta & Team MCP]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cursor-ios-beta-team-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cursor-ios-beta-team-mcp.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Paidプラン向けにクラウド上の仮想マシンで動作するCloud Agentsのモバイル管理や、デスクトップエージェントのリモートコントロールに対応した「Cursor for iOS」の公開と、管理者によるTeam MCPサーバーの一括配信機能が追加されたアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Devin Desktop (formerly Windsurf) Rebrand]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-windsurf-devin-desktop-rebrand.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-windsurf-devin-desktop-rebrand.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cognition AIによるWindsurfの「Devin Desktop」への正式リブランディングと、従来のローカル開発エージェント「Cascade」の2026年7月1日付でのEOL（廃止）およびRust製エージェント「Devin Local」への全面刷新。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.198 / v2.1.199]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Rust製へと再設計され、圧倒的な高速化と厳格な言語仕様を備えて登場した次世代データ変換（T: Transform）ツールのアルファ版。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[opencode]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-anomalyco-opencode.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-anomalyco-opencode.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカル環境での完全自律型開発を実現する、オープンソースの次世代自律型AIコーディングエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenSpec]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-Fission-AI-OpenSpec.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-Fission-AI-OpenSpec.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングアシスタントにおける「仕様駆動開発（SDD）」を実現し、仕様からコード生成までの品質を高めるオープンソースの仕様管理フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[keycloak]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-keycloak-keycloak.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-28-keycloak-keycloak.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[モダンなアプリケーションやサービス向けに、最小限の手間で安全な認証とアクセス制御を提供するオープンソースのID・アクセス管理（IAM）システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-06-28 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-28-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-06-28-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
