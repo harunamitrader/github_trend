@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Actions のワークフロー内でリポジトリのコードをクローンし、安全にチェックアウトするための公式アクション"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>checkout</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">checkout</h1>
+      <p class="article-dek">GitHub Actions のワークフロー内でリポジトリのコードをクローンし、安全にチェックアウトするための公式アクション</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-04 -->
+          <strong>2026-07-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 5位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/actions/checkout" target="_blank" rel="noreferrer">
+              actions/checkout
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>8,250</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>GitHub Actions のワークフロー内で実行される最も基本的な公式アクションの一つです。CI/CDジョブを実行する仮想環境（ランナー）に対し、対象のGitHubリポジトリからコードを取得（git clone / fetch）してチェックアウトする機能を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>特定のコミットハッシュやブランチ、PR（Pull Request）のコードのチェックアウト、コミット履歴の取得数（fetch-depth）の制御、サブモジュールの再帰的取得、Git の認証情報の永続化（persist-credentials）などを簡単な宣言で実行できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最新のメジャーバージョンである v7 では、pull_request_target や workflow_run などのトリガーで実行される際、フォークされたリポジトリからのPRコードの自動的なチェックアウトをデフォルトで拒否する「セーフティシャッター」が導入され、ランナー乗っ取り脆弱性（pwn request）への安全性が劇的に向上しました。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>GitHub Actions のワークフロー定義ファイル（YAML）の <code>steps</code> セクションにおいて、<code>- uses: actions/checkout@v7</code> を記述するだけで導入できます。必要に応じて、<code>with</code> パラメータで履歴取得数（<code>fetch-depth: 0</code>）などを調整します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>GitHub Actions を使ってビルド、テスト、静的解析、デプロイなどのCI/CDパイプラインを構築・運用しているすべてのエンジニアおよび開発チーム向けです。</p>
+
+        <h2>注意点</h2>
+        <p>デフォルトでは、トリガーとなった特定の1コミットのみを取得（シャロークローン）するため、Gitの全コミット履歴を必要とする差分ビルドやツール（一部の静的解析ツールなど）を実行する際には <code>fetch-depth: 0</code> の明示的指定が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>GitHub Actions の要となるインフラ的コンポーネントであり、今回の v7 リリースによる認証とセキュリティ保護の強化は、オープンソースのサプライチェーン攻撃対策において重要なマイルストーンです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/actions/checkout" target="_blank" rel="noreferrer">https://github.com/actions/checkout</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #827</p>
+      </div>
+    </article>
+  </body>
+</html>

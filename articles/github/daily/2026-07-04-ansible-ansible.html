@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SSHを活用してエージェントレスで稼働する、極めてシンプルなIT自動化および構成管理プラットフォーム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ansible</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ansible</h1>
+      <p class="article-dek">SSHを活用してエージェントレスで稼働する、極めてシンプルなIT自動化および構成管理プラットフォーム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-04 -->
+          <strong>2026-07-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ansible/ansible" target="_blank" rel="noreferrer">
+              ansible/ansible
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>69,168</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Ansibleは、インフラの構築やアプリのデプロイ、設定管理、クラウドプロビジョニングなどを自動化するシステムです。SSHを利用してエージェントレスでリモートマシンを管理するため、対象システムに余計な常駐プログラムをインストールする必要がありません。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数のサーバーに対するソフトウェアの一括インストールや設定の同期、ロードバランサーの背後にあるサーバーのローリングアップデート、クラウドインフラ（AWSやGCPなど）の自動構築、ネットワーク機器の設定管理などが簡単な記述で行えます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Playbookと呼ばれる人間と機械の両方に読みやすいYAML形式のファイルで構成手順を記述できる点です。また、独自のエージェントが不要で、既存のSSH認証とPythonが動く環境であれば即座に実行できるというシンプルさも最大の特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>管理元となるマシン（コントロールノード）に Python の <code>pip</code> や OS のパッケージマネージャーを使って <code>ansible</code> または <code>ansible-core</code> をインストールします。管理対象のホスト情報を記載したインベントリファイルを作成し、YAMLで Playbook を作成して <code>ansible-playbook</code> コマンドで実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>サーバーの構築手順をコードで管理（Infrastructure as Code）したいインフラエンジニア、複数マシンの同時運用保守を担当するシステム管理者、およびデプロイ工程を効率化したい開発者向けです。</p>
+
+        <h2>注意点</h2>
+        <p>エージェントレスであるため、管理ノードから対象ノードに対して並列でSSH接続を実行します。そのため、管理対象の台数が数千台規模に達すると、コントロールノードのCPU/メモリやネットワーク帯域がボトルネックになる場合があり、設計の最適化が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>IT自動化のデファクトスタンダードとして君臨しており、その圧倒的な導入の容易さとYAML記述による見通しの良さは、現在も多くの組織のインフラ運用を強力に支え続けています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ansible/ansible" target="_blank" rel="noreferrer">https://github.com/ansible/ansible</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #826</p>
+      </div>
+    </article>
+  </body>
+</html>

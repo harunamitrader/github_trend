@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Jul 2026 19:19:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 04:47:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-04 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-04-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-04-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[strix]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-usestrix-strix.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-usestrix-strix.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIを駆使してWebアプリなどの脆弱性を自動的に検出・修正する、オープンソース of 自律型ペネトレーションテスト（侵入テスト）エージェント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[caveman]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-JuliusBrussee-caveman.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-JuliusBrussee-caveman.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[無駄な接続詞や冗長な対話を省き、洞窟原人のような文体でやり取りすることでAIの出力トークン数を65%削減する Claude Code スキル]]></description>
+    </item>
+    <item>
+      <title><![CDATA[elasticsearch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-elastic-elasticsearch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-elastic-elasticsearch.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[大規模データの高速検索、ベクトル検索、RAG（検索拡張生成）に対応した分散型 RESTful 検索・分析エンジン]]></description>
+    </item>
+    <item>
+      <title><![CDATA[checkout]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-actions-checkout.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-actions-checkout.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub Actions のワークフロー内でリポジトリのコードをクローンし、安全にチェックアウトするための公式アクション]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ansible]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-ansible-ansible.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-ansible-ansible.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SSHを活用してエージェントレスで稼働する、極めてシンプルなIT自動化および構成管理プラットフォーム]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude: Fable 5 / Mythos 5 復旧と Claude Science の発表]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claude-fable-mythos-science.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[UI上のあらゆる設定や画面から ClinePass 機能フラグを完全廃止し、一般解放・アップグレード連携を完了したアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.0.3 / cli-v3.0.34]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-06-30-cline-v4-0-3-clinepass-deepseek.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[VS Code 拡張機能 v4.0.3 にて ClinePass を全ユーザーへ解放し、DeepSeek の reasoning effort コントロールや CLI (v3.0.34) でのオンボーディングが強化されたアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cad-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-flowful-ai-cad-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-flowful-ai-cad-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code が自然言語による物体の指示から CadQuery の Python スクリプトを自動生成し、3Dプリント用の立体モデル(STL)を出力・自己修正するカスタムスキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[takt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-nrslib-takt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-nrslib-takt.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントの「子守り」から脱却し、YAMLで計画・実装・レビュー・人間介入チェックポイントなどの自律ワークフローを定義・実行するCLIシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[loop-engineering]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-cobusgreyling-loop-engineering.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェントとの「対話ループ」を最適化し、監査(audit)・初期化(init)・コスト(cost)計算の3大CLIツール群を提供するエージェント指向ワークフローの設計システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ponytail]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-DietrichGebert-ponytail.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-DietrichGebert-ponytail.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに対して「最も優れたコードは書かれなかったコードである」という怠惰なシニアエンジニアの思考プロセスを注入し、無駄なコード生成や過剰な書き換えを防止するエージェント最適化フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[clawcodex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-agentforce314-clawcodex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-06-29-agentforce314-clawcodex.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code のアーキテクチャを Python で完全再構築し、DeepSeek のプロンプトキャッシュを活用することで最大 230 倍の圧倒的コスト削減を実現したオープンソースの CLI 開発エージェント。]]></description>
     </item>
   </channel>
 </rss>

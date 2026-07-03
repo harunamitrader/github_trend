@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="無駄な接続詞や冗長な対話を省き、洞窟原人のような文体でやり取りすることでAIの出力トークン数を65%削減する Claude Code スキル"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>caveman</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">caveman</h1>
+      <p class="article-dek">無駄な接続詞や冗長な対話を省き、洞窟原人のような文体でやり取りすることでAIの出力トークン数を65%削減する Claude Code スキル</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-04 -->
+          <strong>2026-07-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 3位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noreferrer">
+              JuliusBrussee/caveman
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>82,761</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェント（特に terminal 上で動く Claude Code 等）の出力結果における無駄な挨拶や冗長な接続詞（filler tokens）を極限までカットするためのプロンプトスキル/プラグインです。AIに「洞窟原人（Caveman）」のように極度に要約された簡潔な口調を強制することで、回答のコードやコマンド精度を完璧に保ったまま、出力トークン数を劇的に削減します。</p>
+
+        <h2>何ができるか</h2>
+        <p>Claude Code, Codex, Gemini CLI, Cursor, Windsurf などの30以上のAIコーディングアシスタントに対応し、出力トークンを平均して65%削減できます。コードブロックやエラー出力、実行コマンドそのものは1バイトも改変されず、それらを説明する「人間のためのお喋り」部分だけが「Brain big. Mouth small.」のような短い英語（または日本語）へ圧縮されます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「why use many token when few token do trick（なぜ多くのトークンを使う？少しで足りる）」という原人の思考コンセプトをそのままプロンプトのインストラクションに落とし込んだ点です。無駄な文脈の生成を抑えることで、APIの利用コストを大幅に節約できると同時に、生成スピード（Time to First Token以降の応答完了時間）も体感で大幅に高速化します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各エージェントのスキル設定フォルダ（例: Claude Code の場合は <code>.claude/skills/</code>）に、このリポジトリの skill ファイルを配置（またはインポート）します。特別なセットアップは不要で、一度導入すれば、その後のエージェントの返答が自動的に原人の口調になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code や Cursor などの商用APIキーを使い、トークン消費による課金コストを限界まで削減したい開発者、またエージェントからの「よろしくお願いします」といった定型句に飽き、素早く結果（コードやコマンド）だけを得たい実用主義的なエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>出力される解説テキストが非常にぶっきらぼうで文法的に崩れたもの（例: 「Error fix. Run again.」など）になるため、AIに対して丁寧な解説や初心者向けの分かりやすいドキュメント作成を求めている場合には、このスキルをオフにするか、対話レベルを調整する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AIの回答品質はそのままに、出力フォーマットを強制要約するだけでコストを6割以上削るという、極めて実用的でウィットに富んだオープンソースハックです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noreferrer">https://github.com/JuliusBrussee/caveman</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #829</p>
+      </div>
+    </article>
+  </body>
+</html>
