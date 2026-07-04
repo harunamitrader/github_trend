@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Jul 2026 19:18:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 04:47:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-05 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-05-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-05-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[meetily]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-Zackriya-Solutions-meetily.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-Zackriya-Solutions-meetily.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プライバシー第一、ローカルで完結する Rust 製 AI 会議アシスタント（高速文字起こし・話者識別・Ollama要約）]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cs249r_book]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-harvard-edge-cs249r_book.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-harvard-edge-cs249r_book.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ハーバード大学の講義をベースにした機械学習システムエンジニアリングの実践的な教科書と演習アセット]]></description>
+    </item>
+    <item>
+      <title><![CDATA[romm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-rommapp-romm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-rommapp-romm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[美しく強力なセルフホスト対応のレトロゲーム ROM 管理・ブラウザエミュレータプレイヤー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[herdr]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-ogulcancelik-herdr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-ogulcancelik-herdr.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ターミナル上で複数のAIコーディングエージェントを並行監視・管理できるRust製マルチプレクサ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agentskills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-agentskills-agentskills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-agentskills-agentskills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに専門知識と特定のワークフローを動的に与えるためのオープンな共通規格「Agent Skills」の仕様・設計ドキュメント]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini 3 発表と旧 Preview モデルの廃止スケジュール]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAIの最新モデル「GPT-5.6」の正式認識、実行中のGatewayセッションにアタッチしてCodexワークフローを再開・検査する「openclaw attach」の追加、および Telegram を介したペアプロ起動・制御を含む大型ベータアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.200]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claudecode-v2-1-200.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claudecode-v2-1-200.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[質問ダイアログの自動進行防止や Manual パーミッションモードへの改名、設定ファイル起因のクラッシュ修正、スリープ復帰時のバックグラウンドセッションハング解消など、制御性と安定性を向上させたアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline cli-v3.0.35]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cline-cli-v3-0-35.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cline-cli-v3-0-35.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サブスクリプション機能 ClinePass の CLI ユーザー全体への開放や、対話セッション復旧のバグ修正、Tencent TokenHub プロバイダー対応、高出力モデルにおける初期プロンプト切り捨てバグの修正などを盛り込んだアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor: iOS Beta & Team MCP]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cursor-ios-beta-team-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-cursor-ios-beta-team-mcp.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Paidプラン向けにクラウド上の仮想マシンで動作するCloud Agentsのモバイル管理や、デスクトップエージェントのリモートコントロールに対応した「Cursor for iOS」の公開と、管理者によるTeam MCPサーバーの一括配信機能が追加されたアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Devin Desktop (formerly Windsurf) Rebrand]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-windsurf-devin-desktop-rebrand.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-windsurf-devin-desktop-rebrand.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cognition AIによるWindsurfの「Devin Desktop」への正式リブランディングと、従来のローカル開発エージェント「Cascade」の2026年7月1日付でのEOL（廃止）およびRust製エージェント「Devin Local」への全面刷新。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.198 / v2.1.199]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-claudecode-v2-1-198-chrome-pr.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Chrome 連携の一般公開や、自律的なコミット・プッシュ・ドラフトPR作成、エージェント完了/入力待ち通知、新デザインスキル `/dataviz` の追加など、開発自動化が劇的に強化されたメジャーアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.0.6]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-cline-v4-0-6-model-warning.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-03-cline-v4-0-6-model-warning.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[特定のモデル接続エラーを防ぐために用意されているモデル能力警告（Model Capability Warning）を汎用化し、幅広いプロバイダーモデルに対応させた安定性向上アップデート。]]></description>
     </item>
   </channel>
 </rss>

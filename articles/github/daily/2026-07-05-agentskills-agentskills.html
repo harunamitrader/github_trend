@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントに専門知識と特定のワークフローを動的に与えるためのオープンな共通規格「Agent Skills」の仕様・設計ドキュメント"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agentskills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agentskills</h1>
+      <p class="article-dek">AIエージェントに専門知識と特定のワークフローを動的に与えるためのオープンな共通規格「Agent Skills」の仕様・設計ドキュメント</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-05 -->
+          <strong>2026-07-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 12位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/agentskills/agentskills" target="_blank" rel="noreferrer">
+              agentskills/agentskills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>22,269</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AIエージェントに新しい能力や専門知識を動的かつ再現可能な方法で追加するための、軽量でオープンな共通規格「Agent Skills」の公式仕様書およびドキュメンテーションプロジェクトです。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェント開発者は、この仕様に基づいて「Skill」と呼ばれる自律的動作のパッケージを作成できます。これにより、特定の法務レビュー、データ解析パイプライン、システム監視、コード修正などのタスク実行手順をAIに指示可能となります。また、エージェント側は起動時に必要なスキルのみを動的ロード・実行し、不要なコンテキスト消費を防ぐことができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「progressive disclosure（段階的開示）」と呼ばれる3段階のロード手法（Discovery -> Activation -> Execution）を採用しています。これにより、エージェントは膨大なスキルライブラリから必要なものだけを自動選択してコンテキストに読み込むことができ、トークンコストを最小限に抑えつつ高精度な実行を可能にする点が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Skill は、メタデータとプロンプト手順書を格納した <code>SKILL.md</code> をルートに配置し、任意の executable スクリプト（<code>scripts/</code>）、アセットやリファレンスドキュメントで構成されるフォルダとして定義されます。このフォルダをエージェントにインポートさせるだけで導入が完了します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律型AIエージェントの能力拡張を行いたいプロダクト開発者、およびチーム固有の業務フローやルールをAIエージェントに忠実に守らせたい社内エンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>本プロジェクトは仕様規格の提案・解説書であり、それ単体で動作するAIエージェントそのものではありません。実際にスキルを実行するためには、この仕様に対応した実行エンジン（ランタイム）を開発または利用する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AIエージェントの能力拡張を統一的なフォーマットで標準化し、ポータブルでバージョン管理可能なアセットとして再利用できるようにするための革新的なエージェント規格です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/agentskills/agentskills" target="_blank" rel="noreferrer">https://github.com/agentskills/agentskills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #831</p>
+      </div>
+    </article>
+  </body>
+</html>
