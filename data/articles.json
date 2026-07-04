@@ -8,6 +8,28 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-05-gemini-3-release-preview-deprecation",
+      "title": "Gemini 3 発表と旧 Preview モデルの廃止スケジュール",
+      "dek": "1Mトークンコンテキストと推論性能を強化した「Gemini 3」シリーズの発表と、Gemini 2.5 Pro および Gemini 3 Flash Preview 等の旧Previewモデルの2026年7月31日廃止スケジュール。",
+      "summary": "論理推論とマルチモーダルを大幅強化し1Mトークンのコンテキストに対応した「Gemini 3」シリーズ（Gemini 3 Pro, Gemini 3 Flash, Gemini 3 Flash-Lite）のGA発表。これに伴い、旧世代の Gemini 2.5 Pro や Gemini 3 Flash (Preview) などの特定モデルを2026年7月31日に廃止（サポート終了）することが予告。",
+      "publishedAt": "2026-07-05",
+      "toolName": "Gemini",
+      "toolUrl": "https://deepmind.google/technologies/gemini/",
+      "articleUrl": "./articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-05-grok-voice-agent-builder-office-addins",
+      "title": "Grok: Voice Agent Builder のベータ公開と Microsoft 365 アドイン展開",
+      "dek": "ノーコードで本番運用可能な音声エージェントを構築する「Voice Agent Builder」のベータ公開と、Microsoft Word / PowerPoint への公式アドイン提供。",
+      "summary": "ノーコードで音声対話ボットを自動構築しデプロイできる Voice Agent Builder（Grok Voice Think Fast 1.0 搭載、音声クローン対応）をベータ公開（7月1日）。さらに Microsoft Word / PowerPoint との深い連携アドインをリリースし、スライド自動生成や原稿起草をOffice上で完結可能に。",
+      "publishedAt": "2026-07-05",
+      "toolName": "Grok",
+      "toolUrl": "https://x.ai",
+      "articleUrl": "./articles/tools/2026-07-05-grok-voice-agent-builder-office-addins.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-05-claudecode-v2-1-201",
       "title": "Claude Code v2.1.201",
       "dek": "Claude Sonnet 5 セッションにおけるハーネスリマインダー用システムロールの利用を廃止し、長期エージェント実行時の安定性とコンテキスト保持能力を向上させたアップデート。",

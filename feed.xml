@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Jul 2026 19:05:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 04:17:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini 3 発表と旧 Preview モデルの廃止スケジュール]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1Mトークンコンテキストと推論性能を強化した「Gemini 3」シリーズの発表と、Gemini 2.5 Pro および Gemini 3 Flash Preview 等の旧Previewモデルの2026年7月31日廃止スケジュール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok: Voice Agent Builder のベータ公開と Microsoft 365 アドイン展開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-grok-voice-agent-builder-office-addins.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-grok-voice-agent-builder-office-addins.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ノーコードで本番運用可能な音声エージェントを構築する「Voice Agent Builder」のベータ公開と、Microsoft Word / PowerPoint への公式アドイン提供。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.201]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-claudecode-v2-1-201.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[特定のモデル接続エラーを防ぐために用意されているモデル能力警告（Model Capability Warning）を汎用化し、幅広いプロバイダーモデルに対応させた安定性向上アップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.6.11]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-02-openclaw-v2026-6-11-stability.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-02-openclaw-v2026-6-11-stability.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[メッセージ応答のスタック、誤配置リプライ、再接続エラーなどの不具合を解消し、動作の信頼性と安全性を強化した安定性向上アップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.0.5]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-02-cline-v4-0-5-sonnet5-support.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-02-cline-v4-0-5-sonnet5-support.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Anthropic, Bedrock, Vertex などの各種プロバイダーにわたり、最新モデル「Claude Sonnet 5」のサポートとモデル選択・おすすめ推奨の更新を実装したアップデート。]]></description>
     </item>
   </channel>
 </rss>
