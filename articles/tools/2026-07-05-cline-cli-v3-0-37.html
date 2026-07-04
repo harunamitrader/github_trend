@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DeepSeek等の非標準なツール呼び出しを行う軽量モデルのハンドリング向上、計画から実行へのモード移行プロセスの安定化などを盛り込んだアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline cli-v3.0.36 / cli-v3.0.37</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline cli-v3.0.36 / cli-v3.0.37</h1>
+      <p class="article-dek">DeepSeek等の非標準なツール呼び出しを行う軽量モデル of ハンドリング向上、計画から実行へのモード移行プロセスの安定化などを盛り込んだアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-05 -->
+          <strong>2026-07-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>cli-v3.0.36 / cli-v3.0.37</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデート（cli-v3.0.36 および cli-v3.0.37）では、軽量モデル使用時のエラー耐性向上と、Plan（計画）モードから Act（実行）モードへの移行動作に関するいくつかの不具合修正が行われました。</p>
+        <ul>
+            <li><strong>軽量モデルのツール呼び出しエラー耐性（v3.0.37）:</strong> DeepSeek など、引数の型間違いや不完全な（途中で切れた）JSONといった不正な形式でツール呼び出しを返してしまう軽量モデルに対し、エラーで停止するのではなく、寛容（graceful）に解釈して処理を継続するフォールバック処理を追加しました。</li>
+            <li><strong>モード移行表示の改善（v3.0.37）:</strong> Plan から Act へのモードスイッチがモデルから見えるようになり、モデル自身がセッション途中でモードが切り替わったことを認識できるようになりました。</li>
+            <li><strong>モードスイッチ通知の消失バグ修正（v3.0.37）:</strong> モデルに送信されるプロンプトから Plan/Act のモード通知がドロップするバグ、および空のセッションでモードを切り替えた際に予期せぬ再起動が起きるレースコンディションを修正しました。</li>
+            <li><strong>Planモードのスイッチタイミング最適化（v3.0.36）:</strong> Planモードで動作中に <code>switch_to_act_mode</code> が呼び出された際、ターンの終了を待たずに即座に Plan 実行を打ち切り、承認された計画に沿って Act モード（ファイル編集ツール等）へ自動的に移行するように動作を改善しました。これに伴い、ターンの完了と Tab 切り替えが競合して未承認の Plan が自動実行される不具合も解消されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に DeepSeek Coder などのオープンソース・外部の軽量APIをプロバイダーとして Cline を使っているユーザーにとって、JSONパースエラーによる処理中断が劇的に減少します。また、PlanモードとActモードの境界がより正確にモデルへ伝わるため、計画は立てたものの実際の実装に移る際にモデルが迷うトラブルが防止されます。</p>
+
+        <h2>まとめ</h2>
+        <p>非標準なレスポンスを返す外部モデルへの堅牢性を高め、開発プロセスの主導権を握る Plan/Act モード切り替えを滑らかにした安定性向上アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

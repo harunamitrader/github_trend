@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Sonnet 5 セッションにおけるハーネスリマインダー用システムロールの利用を廃止し、長期エージェント実行時の安定性とコンテキスト保持能力を向上させたアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.201</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.201</h1>
+      <p class="article-dek">Claude Sonnet 5 セッションにおけるハーネスリマインダー用システムロールの利用を廃止し、長期エージェント実行時の安定性とコンテキスト保持能力を向上させたアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-05 -->
+          <strong>2026-07-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.201</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデート（v2.1.201）では、最新モデル「Claude Sonnet 5」との連携における動作の安定性を高めるための重要な修正が行われました。</p>
+        <ul>
+            <li><strong>ハーネスリマインダー用システムロールの利用廃止:</strong> Claude Sonnet 5セッションにおいて、会話途中に挿入されていたハーネスリマインダー用システムロールの利用を廃止しました。</li>
+            <li><strong>コンテキスト消失の防止:</strong> 会話の途中でリマインダーが不適切に挿入されることによる、長期実行プロセス（long agentic runs）時のコンテキストの欠落や不安定な挙動を解消しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に、多くのファイル変更やコマンド実行を伴う自律的なタスク（長期エージェント実行）において、Claude がタスクの本来の目的（コンテキスト）を見失うことなく、より安定して指示に従い続けられるようになります。普段から大規模なコードベースに対して複雑な作業を依頼しているユーザーに恩恵があります。</p>
+
+        <h2>まとめ</h2>
+        <p>前世代からモデル能力が飛躍した Sonnet 5 の力をターミナル上で最大限かつ安定して発揮するための、実用的なマイナーパッチです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">Claude Code release notes / Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

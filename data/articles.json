@@ -7,6 +7,39 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-05-claudecode-v2-1-201",
+      "title": "Claude Code v2.1.201",
+      "dek": "Claude Sonnet 5 セッションにおけるハーネスリマインダー用システムロールの利用を廃止し、長期エージェント実行時の安定性とコンテキスト保持能力を向上させたアップデート。",
+      "summary": "Claude Sonnet 5 でのハーネスリマインダー用システムロール of 利用を廃止。長期の自律実行プロセス（long agentic runs）におけるコンテキスト欠落や不安定な挙動を防ぎ、大規模コードベースでのタスク追従性を向上。",
+      "publishedAt": "2026-07-05",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-05-claudecode-v2-1-201.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-05-cline-cli-v3-0-37",
+      "title": "Cline cli-v3.0.36 / cli-v3.0.37",
+      "dek": "DeepSeek等の非標準なツール呼び出しを行う軽量モデルのハンドリング向上、計画から実行へのモード移行プロセスの安定化などを盛り込んだアップデート。",
+      "summary": "DeepSeek等の不完全なJSONツール呼び出しを寛容に解釈するフォールバックを追加。Plan/Actモード移行がモデル自身に見えるようにし、モードのプロンプト欠落や空セッションでの不要な再起動を修正。v3.0.36ではPlan途中のAct移行を即時反映しレースコンディションを防止。",
+      "publishedAt": "2026-07-05",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-05-cline-cli-v3-0-37.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-05-codex-v0-142-5",
+      "title": "Codex v0.142.3 - v0.142.5",
+      "dek": "WebSocketトレースログへの機密ペイロード記録防止、委譲ガイダンス of 整理、Amazon Bedrock上のGPT-5.6モデルへの対応を盛り込んだメンテナンスアップデート。",
+      "summary": "WebSocketトレースログにResponsesの全ペイロードが書き出されるセキュリティ問題を修正（v0.142.5）。v1委譲ガイダンスの復元や自動レビューの調整などのエージェント挙動整理（v0.142.4）、AWS BedrockへのGPT-5.6系モデルおよびmax reasoning effortメタデータ対応（v0.142.3）を同梱。",
+      "publishedAt": "2026-07-05",
+      "toolName": "Codex",
+      "toolUrl": "https://developers.openai.com/codex/changelog",
+      "articleUrl": "./articles/tools/2026-07-05-codex-v0-142-5.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-04-update-report",
       "title": "2026-07-04 アップデートレポート",
