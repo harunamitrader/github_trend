@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2026 19:02:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 04:16:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw: v2026.7.1-beta.2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-openclaw-v2026-7-1-beta-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-openclaw-v2026-7-1-beta-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windowsインストーラー・ZIPパッケージ起動の安定化と、Local Speech SDK の音声例外処理強化、および subagent 呼び出し時の Cwd 境界バグを修正したアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: Short Video Overviews]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-notebooklm-short-video-overviews.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-notebooklm-short-video-overviews.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ノートに取り込んだドキュメントや資料ソースから、要約や重要コンセプトをまとめた約60秒の縦型紹介動画を自動生成する「Short Video Overviews」機能が公開。]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub Copilot: Claude Opus 4.8 & Kimi K2.7-Code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GitHub Actions のワークフロー内でリポジトリのコードをクローンし、安全にチェックアウトするための公式アクション]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ansible]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-ansible-ansible.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-04-ansible-ansible.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SSHを活用してエージェントレスで稼働する、極めてシンプルなIT自動化および構成管理プラットフォーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: Fable 5 / Mythos 5 復旧と Claude Science の発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claude-fable-mythos-science.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-claude-fable-mythos-science.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[米国政府の輸出規制による一時停止から復旧し、Claude Fable 5 および Mythos 5 へのアクセスが再開。あわせて、科学研究プロセスを劇的に加速する「Claude Science」ワークベンチが発表されました。]]></description>
     </item>
   </channel>
 </rss>

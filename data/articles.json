@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-06-openclaw-v2026-7-1-beta-2",
+      "title": "OpenClaw: v2026.7.1-beta.2",
+      "dek": "Windowsインストーラー・ZIPパッケージ起動の安定化と、Local Speech SDK の音声例外処理強化、および subagent 呼び出し時の Cwd 境界バグを修正したアップデート。",
+      "summary": "OpenClawのv2026.7.1-beta.2リリース。WindowsでのインストーラーおよびZIPパッケージからの起動依存関係問題の修正、ノイズ/長い沈黙時のWhisperフリーズ解消、subagent実行時のCwd境界汚染バグの修正などを実施。",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-06T04:15:00+09:00",
+      "toolName": "OpenClaw",
+      "toolUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-07-06-openclaw-v2026-7-1-beta-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-06-notebooklm-short-video-overviews",
+      "title": "NotebookLM: Short Video Overviews",
+      "dek": "ノートに取り込んだドキュメントや資料ソースから、要約や重要コンセプトをまとめた約60秒の縦型紹介動画を自動生成する「Short Video Overviews」機能が公開。",
+      "summary": "GoogleのNotebookLMにて、アップロードソースから約60秒の縦型紹介動画を自動生成する「Short Video Overviews（ショートビデオ概要）」機能が一般公開。主要なコンセプトを動画で手軽に把握可能に。",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-06T04:14:00+09:00",
+      "toolName": "NotebookLM",
+      "toolUrl": "https://notebooklm.google/",
+      "articleUrl": "./articles/tools/2026-07-06-notebooklm-short-video-overviews.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-06-github-copilot-opus48-kimi-preview",
       "title": "GitHub Copilot: Claude Opus 4.8 & Kimi K2.7-Code",
       "dek": "Claude Opus 4.8 (fast mode) プレビューおよび Kimi K2.7-Code モデルの追加、managed-settings.json による一元ガバナンス管理の一般提供 (GA) などを追加したアップデート。",

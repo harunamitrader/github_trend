@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Windowsインストーラー・ZIPパッケージ起動の安定化と、Local Speech SDK の音声例外処理強化、および subagent 呼び出し時の Cwd 境界バグを修正したアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw: v2026.7.1-beta.2</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw: v2026.7.1-beta.2</h1>
+      <p class="article-dek">Windowsインストーラー・ZIPパッケージ起動の安定化と、Local Speech SDK の音声例外処理強化、および subagent 呼び出し時の Cwd 境界バグを修正したアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-05 -->
+          <strong>2026-07-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">アップデート</span>
+          <strong>v2026.7.1-beta.2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>自律エージェントフレームワーク OpenClaw の最新ベータビルドにおいて、配布パッケージの起動性能および音声機能の安定化アップデートが実施されました。</p>
+        <ul>
+            <li><strong>パッケージ起動とインストーラーの安定化:</strong> Windows 向けの EXE インストーラーおよびポータブル版 ZIP アーカイブからの起動プロセスにおける依存解決を修正し、起動失敗率を劇的に低減させました。</li>
+            <li><strong>Local Speech SDK の例外処理強化:</strong> ローカルの Whisper 音声文字起こしエンジンで極端に長い沈黙や過度なノイズを処理した際に、スレッドがクラッシュしてセッション全体がフリーズするバグを修正しました。</li>
+            <li><strong>subagent 実行時の Cwd 境界バグの修正:</strong> メインエージェントから subagent を起動して子ディレクトリ内の作業を行わせる際、Cwd（カレントワーキングディレクトリ）が正しく隔離されずメインのパスを汚染してしまう不具合を解消しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>パッケージの起動不具合が解消されたことで、新規導入時やバージョンアップ時のトラブルシューティングの手間がなくなりました。また、音声認識処理のフリーズ問題が解決されたことで、長時間の音声ペアプログラミングや会話セッションをより信頼性高く連続稼働させることができます。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートは、機能の追加ではなく、Windows パッケージ起動の堅牢化や音声処理のフリーズ解消といった、実運用における信頼性と安定性を第一に改善した手堅いメンテナンスリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
