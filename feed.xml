@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Jul 2026 19:48:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 13:47:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[CodexBar]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-steipete-CodexBar.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-steipete-CodexBar.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-05 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-05-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Googleは高速動画生成・編集を実現する「Gemini Omni Flash」のパブリックプレビューを開始し、あわせて6月予定だった「Gemini 3.5 Pro」の正式リリースを安定性向上のため7月に延期することを発表しました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.7.1-beta.1]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-openclaw-v2026-7-1-beta-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-openclaw-v2026-7-1-beta-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAIの最新モデル「GPT-5.6」の正式認識、実行中のGatewayセッションにアタッチしてCodexワークフローを再開・検査する「openclaw attach」の追加、および Telegram を介したペアプロ起動・制御を含む大型ベータアップデート。]]></description>
     </item>
   </channel>
 </rss>

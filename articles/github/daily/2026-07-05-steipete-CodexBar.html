@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>CodexBar</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">CodexBar</h1>
+      <p class="article-dek">OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-05 -->
+          <strong>2026-07-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/steipete/CodexBar" target="_blank" rel="noreferrer">
+              steipete/CodexBar
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,896</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenAI Codex、Claude Code、Cursor、Gemini、GitHub Copilot など、多岐にわたる AI コーディングプロバイダー（全57サービスに対応）の利用上限やリセット時間（カウントダウン）を、macOS のメニューバーから手軽にリアルタイム監視できる軽量なユーティリティアプリケーションです。</p>
+
+        <h2>何ができるか</h2>
+        <p>利用中の各種 AI サービスの残り使用量（リクエスト回数、トークン数、利用金額など）をメニューバーのメーターまたはポップオーバータイル形式で一覧表示します。各プロバイダーの制限が「いつリセットされるか」のカウントダウンも表示されるため、大規模な開発や長時間のリファクタリングを始める前に、トークン切れで作業が中断するリスクを事前に計画・回避することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ブラウザや各サービスへのログイン作業を必要とせず、ローカルの構成情報や API キー、セッショントークン等から安全に使用状況を読み取ります。アイコン統合モード（Merge Icons）をサポートしており、複数のサービスを利用していてもメニューバーを占有せずにコンパクトに折りたたむことが可能です。また、ElevenLabs などの音声合成APIや OpenRouter、LiteLLM などのプロキシサービスを含む多様なプロバイダーをサポートしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Homebrew（<code>brew install steipete/tap/codexbar</code>）または公式ダウンロードページからアプリをインストールします。起動後、メニューバーから利用しているプロバイダーのアカウントや API キーを登録することで、使用率メーターの自動監視がスタートします。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Cursor、Claude Code、Codex などの有料 AI ツールを頻繁に切り替えて開発を行っており、各ツールの使用枠・消費クレジット状況を効率的に管理して「ここぞという時のトークン切れ」を防ぎたいエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>macOS 14+（Sonoma以降）専用のアプリケーションであり、Windows や Linux では動作しません。また、プロバイダー側のAPI仕様やログインセッションの構造が変更された場合、一時的にデータの読み取りができなくなる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AIコーディングプロバイダーごとの利用枠制限を一元管理し、開発フローの「トークン不足による突然の中断」をインテリジェントに防ぐことができる、AI 時代に必携の実用的な開発サポートツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/steipete/CodexBar" target="_blank" rel="noreferrer">https://github.com/steipete/CodexBar</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #836</p>
+      </div>
+    </article>
+  </body>
+</html>

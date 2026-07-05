@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-07-04T19:47:02.470123+00:00",
-  "count": 924,
+  "generatedAt": "2026-07-05T04:46:37.838680+00:00",
+  "count": 925,
   "articles": [
+    {
+      "slug": "2026-07-05-steipete-CodexBar",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CodexBar",
+      "dek": "OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ",
+      "summary": "macOSのメニューバーから、OpenAI Codex, Claude Code, Cursor, GeminiなどのAIコーディング制限やトークン残量、リセット時間を一括でリアルタイム監視できる軽量アプリ。57種類のプロバイダーに対応し、ログイン不要でセキュアに使用状況を可視化可能。",
+      "repoName": "steipete/CodexBar",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-07-05",
+      "createdAt": "2026-07-05T13:46:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-07-05-steipete-CodexBar.html",
+      "serial": 836,
+      "searchText": "CodexBar OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ macOSのメニューバーから、OpenAI Codex, Claude Code, Cursor, GeminiなどのAIコーディング制限やトークン残量、リセット時間を一括でリアルタイム監視できる軽量アプリ。57種類のプロバイダーに対応し、ログイン不要でセキュアに使用状況を可視化可能。 steipete/CodexBar AIコーディング (ワークフロー・プロンプト・開発補助ツール) CodexBar ← 記事一覧へ戻る GitHub Watcher CodexBar OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ 記事作成日 2026-07-05 種別 Pickup 対象 repo steipete/CodexBar Star数 15,896 これは何か OpenAI Codex、Claude Code、Cursor、Gemini、GitHub Copilot など、多岐にわたる AI コーディングプロバイダー（全57サービスに対応）の利用上限やリセット時間（カウントダウン）を、macOS のメニューバーから手軽にリアルタイム監視できる軽量なユーティリティアプリケーションです。 何ができるか 利用中の各種 AI サービスの残り使用量（リクエスト回数、トークン数、利用金額など）をメニューバーのメーターまたはポップオーバータイル形式で一覧表示します。各プロバイダーの制限が「いつリセットされるか」のカウントダウンも表示されるため、大規模な開発や長時間のリファクタリングを始める前に、トークン切れで作業が中断するリスクを事前に計画・回避することができます。 目立つポイント ブラウザや各サービスへのログイン作業を必要とせず、ローカルの構成情報や API キー、セッショントークン等から安全に使用状況を読み取ります。アイコン統合モード（Merge Icons）をサポートしており、複数のサービスを利用していてもメニューバーを占有せずにコンパクトに折りたたむことが可能です。また、ElevenLabs などの音声合成APIや OpenRouter、LiteLLM などのプロキシサービスを含む多様なプロバイダーをサポートしています。 セットアップや使い方の流れ Homebrew（ brew install steipete/tap/codexbar ）または公式ダウンロードページからアプリをインストールします。起動後、メニューバーから利用しているプロバイダーのアカウントや API キーを登録することで、使用率メーターの自動監視がスタートします。 どんな人向けか Cursor、Claude Code、Codex などの有料 AI ツールを頻繁に切り替えて開発を行っており、各ツールの使用枠・消費クレジット状況を効率的に管理して「ここぞという時のトークン切れ」を防ぎたいエンジニアに最適です。 注意点 macOS 14+（Sonoma以降）専用のアプリケーションであり、Windows や Linux では動作しません。また、プロバイダー側のAPI仕様やログインセッションの構造が変更された場合、一時的にデータの読み取りができなくなる場合があります。 まとめ AIコーディングプロバイダーごとの利用枠制限を一元管理し、開発フローの「トークン不足による突然の中断」をインテリジェントに防ぐことができる、AI 時代に必携の実用的な開発サポートツールです。 参照リンク https://github.com/steipete/CodexBar Shared GitHub Serial: #836"
+    },
     {
       "slug": "2026-07-05-update-report",
       "category": "github-update-report",

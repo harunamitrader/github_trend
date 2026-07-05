@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-07-05-steipete-CodexBar",
+      "title": "CodexBar",
+      "dek": "OpenAI Codex や Claude Code などの主要 AI コーディング利用制限や消費トークン数をメニューバーから一目で監視できる macOS アプリ",
+      "summary": "macOSのメニューバーから、OpenAI Codex, Claude Code, Cursor, GeminiなどのAIコーディング制限やトークン残量、リセット時間を一括でリアルタイム監視できる軽量アプリ。57種類のプロバイダーに対応し、ログイン不要でセキュアに使用状況を可視化可能。",
+      "publishedAt": "2026-07-05",
+      "createdAt": "2026-07-05T13:46:00+09:00",
+      "repoName": "steipete/CodexBar",
+      "repoUrl": "https://github.com/steipete/CodexBar",
+      "starCount": 15896,
+      "articleUrl": "./articles/github/daily/2026-07-05-steipete-CodexBar.html",
+      "serial": 836,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-05-update-report",
       "title": "2026-07-05 アップデートレポート",
