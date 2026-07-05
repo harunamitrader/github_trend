@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Model Context Protocol を介して AI アシスタントと Unity エディタを接続し、アセット管理やシーン構築を自動化するブリッジ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>unity-mcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">unity-mcp</h1>
+      <p class="article-dek">Model Context Protocol を介して AI アシスタントと Unity エディタを接続し、アセット管理やシーン構築を自動化するブリッジ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-06 -->
+          <strong>2026-07-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 14位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/CoplayDev/unity-mcp" target="_blank" rel="noreferrer">
+              CoplayDev/unity-mcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>11,875</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI アシスタント（Claude Code、Codex、VS Code、ローカル LLM など）と Unity エディタの間を、Model Context Protocol（MCP）規格を介して双方向で接続するためのオープンソースブリッジツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>接続された AI アシスタントに対して、Unity エディタ内のアセット管理、シーンの配置制御、C# スクリプトの編集・検証、テストの実行、ゲームビルドやデプロイプロセスの実行指示といった強力なツール（Tools）を提供します。これにより、AI はテキストチャットを介してゲームオブジェクトを生成したり、シーン内の特定のオブジェクトの配置やプロパティを物理的・自動的に変更可能になります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>AI にシーン内のアセット情報やインスペクターの値をリアルタイムで解析・フィードバックできる点が最大の特徴です。ゲームエンジンである Unity を AI の「手の届くツール環境」とすることで、自然言語を用いたゲームプロトタイピングや、コードとアセットを跨ぐ複雑なデバッグを AI が代行できるようになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Unity プロジェクト内に MCP Unity パッケージを導入し、AI アシスタント側（Claude デスクトップ等）の <code>mcpServers</code> 設定ファイルにこのブリッジサーバーを登録します。Unity エディタ上の MCP 接続インジケータがアクティブになれば連携完了です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Unity を用いたゲーム開発や 3D アプリケーション構築において、C# コードの自動生成だけでなく、シーン構成、UI レイアウト、アセットのロード＆セットアップなどの反復的な作業を AI に自動化させたいゲームクリエイターやエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>AI エージェントがエディタ操作やシーン内アセットの変更を実行するため、予期せぬオブジェクトの削除や上書きが生じる可能性があります。アセットの破壊を防ぐため、Git や Unity の Version Control 等でバックアップを取りながら使用する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Model Context Protocol の持つ強力な外部操作ツール機能を Unity エディタに統合し、ゲーム制作に必要な「アセット・シーン・コード」のすべてを AI が直接ハンドリングできるようにした革新的なゲーム開発ブリッジです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/CoplayDev/unity-mcp" target="_blank" rel="noreferrer">https://github.com/CoplayDev/unity-mcp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #839</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code や Copilot などの複数 AI エージェントを統率し、作業状態を Git 管理で永続化できるマルチエージェントオーケストレーションシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>gastown</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">gastown</h1>
+      <p class="article-dek">Claude Code や Copilot などの複数 AI エージェントを統率し、作業状態を Git 管理で永続化できるマルチエージェントオーケストレーションシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-06 -->
+          <strong>2026-07-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 18位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/gastownhall/gastown" target="_blank" rel="noreferrer">
+              gastownhall/gastown
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>16,327</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code や GitHub Copilot、Codex などの複数の AI コーディングエージェントを同時並行で動作させ、タスクの手渡しや作業状態を安全に集中管理するためのオープンソースのマルチエージェントオーケストレーション・ワークスペースマネージャです。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数のエージェント（Polecats）を異なるタスクやプロジェクト（Rigs）に分散実行させ、エージェント間のメールボックス、アイデンティティ管理、およびハンドオフ（タスク引き継ぎ）を可能にします。また、エージェントが再起動した際に失われがちなコンテキストや作業状態を、Git をベースとしたフックと「Beads」と呼ぶ共有台帳（Ledger）に保存・永続化することで、20〜30体のエージェントを破綻なく多重コントロールします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>全体を統率するマスターAI「The Mayor（市長）」を最上流に配置する設計が特徴です。ユーザーはまず The Mayor（Claude Code 実装）に全体の目標を指示するだけで、市長がバックグラウンドの各プロジェクトフォルダ（Town）に配置されたエージェントたちに適切な役割を振り分け、並行処理を開始させます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンしたのち、設定ファイルでワークスペースディレクトリ（例：<code>~/gt/</code>）を定義して起動します。The Mayor セッションを開始し、「〇〇というアプリを構築したい」といった指示を与えることで、Mayor が必要な Rigs（作業区画）を作成してエージェントたちに指示を投げ始めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>単一の AI エージェントで作業するだけではパワー不足を感じており、多数のエージェントを並行して別々のプロジェクトやファイル領域に動員し、長時間の自動開発を管理したい開発者やエージェントエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>多数のエージェントが自律的に動き回り、ファイルの書き換えや Git コミット・操作を行うため、テスト用のクリーンな環境や適切なサンドボックス内で動作させることが強く推奨されます。また、多重の LLM API コールによるコスト管理が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>AI エージェント同士がメールボックスや共有台帳を介して自律的に協調し合い、開発フローの永続的な引き継ぎを可能にした、マルチエージェント開発環境の先駆的なオーケストレーションフレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/gastownhall/gastown" target="_blank" rel="noreferrer">https://github.com/gastownhall/gastown</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #837</p>
+      </div>
+    </article>
+  </body>
+</html>
