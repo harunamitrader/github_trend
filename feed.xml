@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2026 04:47:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 04:01:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GitHub Copilot: Claude Opus 4.8 & Kimi K2.7-Code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Opus 4.8 (fast mode) プレビューおよび Kimi K2.7-Code モデルの追加、managed-settings.json による一元ガバナンス管理の一般提供 (GA) などを追加したアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[CodexBar]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-steipete-CodexBar.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[米国政府の輸出規制による一時停止から復旧し、Claude Fable 5 および Mythos 5 へのアクセスが再開。あわせて、科学研究プロセスを劇的に加速する「Claude Science」ワークベンチが発表されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: Gemini Omni Flash プレビューと 3.5 Pro 延期の発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-gemini-omni-flash-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-04-gemini-omni-flash-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Googleは高速動画生成・編集を実現する「Gemini Omni Flash」のパブリックプレビューを開始し、あわせて6月予定だった「Gemini 3.5 Pro」の正式リリースを安定性向上のため7月に延期することを発表しました。]]></description>
     </item>
   </channel>
 </rss>

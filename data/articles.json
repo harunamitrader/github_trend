@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-06-github-copilot-opus48-kimi-preview",
+      "title": "GitHub Copilot: Claude Opus 4.8 & Kimi K2.7-Code",
+      "dek": "Claude Opus 4.8 (fast mode) プレビューおよび Kimi K2.7-Code モデルの追加、managed-settings.json による一元ガバナンス管理の一般提供 (GA) などを追加したアップデート。",
+      "summary": "GitHub Copilotにおいて、次世代推論モデル「Claude Opus 4.8 (fast mode) プレビュー」およびコーディング特化「kimi-k2.7-code」のモデル追加、組織向けの「managed-settings.json」による設定一元管理の一般提供 (GA) などを実施。",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-06T04:00:00+09:00",
+      "toolName": "GitHub Copilot",
+      "toolUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-07-05-steipete-CodexBar",
       "title": "CodexBar",
