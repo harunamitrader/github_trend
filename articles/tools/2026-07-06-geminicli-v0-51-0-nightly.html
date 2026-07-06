@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="メモリインポート機能におけるシンボリックリンクを用いたディレクトリ・エスケープ脆弱性の修正や、Caretaker（監視エージェント）向け Cloud Run 構成テンプレートの導入などを盛り込んだアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.51.0-nightly: シンボリックリンクのエスケープ脆弱性修正と Caretaker 構成の導入</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.51.0-nightly: シンボリックリンクのエスケープ脆弱性修正と Caretaker 構成の導入</h1>
+      <p class="article-dek">メモリインポート機能におけるシンボリックリンクを用いたディレクトリ・エスケープ脆弱性の修正や、Caretaker（監視エージェント）向け Cloud Run 構成テンプレートの導入などを盛り込んだアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.51.0-nightly.20260706</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Gemini CLI v0.51.0-nightly.20260706 では、セキュリティ脆弱性の修正や、バックグラウンド監視を行う新機能「Caretaker」向けのインフラ構築スケルトン追加など、実用性と安全性を高める変更が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>シンボリックリンクのディレクトリ・エスケープ修正:</strong> メモリインポート処理（memory import processor）において、細工されたシンボリックリンクを用いて指定の保存先ディレクトリ（サンドボックス）からエスケープして親ディレクトリのファイルを読み書きできる脆弱性を修正しました。</li>
+            <li><strong>Caretaker 用 Cloud Run サービス構成 of 追加:</strong> バックグラウンドでの自律エージェント運用を監視する「Caretaker」機能向けに、Google Cloud Run 上で動くサービスの骨組み（スケルトン）を追加し、インフラ展開を容易にしました。</li>
+            <li><strong>プロキシ環境テストの修正:</strong> <code>NO_PROXY</code> などの環境変数テストの不具合を修正し、閉域網環境での動作安定性を高めました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>メモリインポート時のセキュリティ修正は、外部からインポートした知識ソースを取り扱う際の安全性を大幅に高める重要な更新です。また、Cloud Run サービス構成の導入により、Gemini CLI をエンタープライズやサーバーサイドで常時稼働エージェントとして利用する際の構築ハードルが下がります。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートは、セキュリティ脆弱性の確実な解消と、常時稼働エージェントとしての実用展開を見据えた堅実なインフラ強化を行うリリースとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

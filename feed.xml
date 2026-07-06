@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Jul 2026 19:47:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 04:02:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-07-06 アップデートレポート]]></title>
@@ -78,6 +78,14 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Opus 4.8 (fast mode) プレビューおよび Kimi K2.7-Code モデルの追加、managed-settings.json による一元ガバナンス管理の一般提供 (GA) などを追加したアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI: v0.51.0-nightly.20260706]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-geminicli-v0-51-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-geminicli-v0-51-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[メモリインポート機能におけるシンボリックリンクを用いたディレクトリ・エスケープ脆弱性の修正や、Caretaker（監視エージェント）向け Cloud Run 構成テンプレートの導入などを盛り込んだアップデート。]]></description>
     </item>
     <item>
       <title><![CDATA[CodexBar]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Sonnet 5 セッションにおけるハーネスリマインダー用システムロールの利用を廃止し、長期エージェント実行時の安定性とコンテキスト保持能力を向上させたアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline cli-v3.0.36 / cli-v3.0.37]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-cline-cli-v3-0-37.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-cline-cli-v3-0-37.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DeepSeek等の非標準なツール呼び出しを行う軽量モデルのハンドリング向上、計画から実行へのモード移行プロセスの安定化などを盛り込んだアップデート。]]></description>
     </item>
   </channel>
 </rss>

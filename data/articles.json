@@ -139,6 +139,18 @@
       "articleUrl": "./articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html"
     },
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-06-geminicli-v0-51-0-nightly",
+      "title": "Gemini CLI: v0.51.0-nightly.20260706",
+      "dek": "メモリインポート機能におけるシンボリックリンクを用いたディレクトリ・エスケープ脆弱性の修正や、Caretaker（監視エージェント）向け Cloud Run 構成テンプレートの導入などを盛り込んだアップデート。",
+      "summary": "Gemini CLIのv0.51.0-nightly.20260706リリース。メモリインポート処理におけるシンボリックリンクディレクトリ・エスケープ脆弱性の修正、NO_PROXYプロキシ環境テスト不具合の修正、自律エージェント監視サービスCaretakerのCloud Run構成追加などを実施。",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-06T03:59:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-06-geminicli-v0-51-0-nightly.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-07-05-steipete-CodexBar",
       "title": "CodexBar",
