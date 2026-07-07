@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Plan/Act用の新しいブランドパレット（Amber/Blue）や再デザインされたチャット入力フレーム、低スペックモデル向け入力補正などを導入したアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline cli-v3.0.38: 新ブランドパレット（Amber/Blue）の導入とチャット入力UIの再設計</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline cli-v3.0.38: 新ブランドパレット（Amber/Blue）の導入とチャット入力UIの再設計</h1>
+      <p class="article-dek">Plan/Act用の新しいブランドパレット（Amber/Blue）や再デザインされたチャット入力フレーム、低スペックモデル向け入力補正などを導入したアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-07 -->
+          <strong>2026-07-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>cli-v3.0.38</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline cli-v3.0.38 では、UIデザインのブランドパレット刷新をはじめ、操作性の向上や、一部の低性能な LLM 接続時のフォールバック処理の強化などが行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>Plan/Act アクセントパレットの導入:</strong> Actモードはブルー（<code>#79b8ff</code>）、Planモードはアンバー（琥珀色）に変更され、従来のシアン／イエローを置き換えました。ダイアログやモデル選択、シンタックスハイライト、マークダウンなど全体に適用されています。</li>
+            <li><strong>チャット入力UIの再設計:</strong> 背景の塗りつぶしを廃止し、水平な罫線と太字のアクセントプロンプトグリフを配した最小限のデザインフレームに一新されました。ユーザーメッセージの吹き出しもよりスリムになっています。</li>
+            <li><strong>思考レベルのデフォルト値変更:</strong> 思考レベル（Thinking Level）ピッカーの初期値が従来の「Off」から「Medium」に変更され、より高度な推論がデフォルトで有効になります。</li>
+            <li><strong>read_files のエラー許容能力向上:</strong> 行範囲（<code>start_line</code>/<code>end_line</code>）を個別の配列要素として送ってくるような低性能モデルの誤出力を、直前のファイルパスに結合して自動修正する処理が追加されました。</li>
+            <li><strong>ライブカタログ内のモデル向け制限デフォルト値:</strong> コンテキストウィンドウサイズを報告しない未指定モデルに対して、デフォルトで 128K のコンテキストトークン制限を適用し、利用可能なバジェットを確保するようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>モードごとのカラーパレット刷新や入力フレームのシンプル化により、エージェントが現在どの段階（計画/実行）にあるのかが直感的に視認しやすくなりました。また、APIレスポンスのパースの頑健性向上やコンテキストデフォルトの設定は、ローカルモデルやオープンソースモデルなどの「指示に従いきれないケース」における動作の安定に大いに貢献します。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline の新ブランドの適用によるデザインの統一感の向上と、低性能モデル連携時の堅牢性を向上させる実用的なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

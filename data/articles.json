@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-07-cline-cli-v3-0-38",
+      "title": "Cline: cli-v3.0.38",
+      "dek": "Plan/Act用の新しいブランドパレット（Amber/Blue）や再デザインされたチャット入力フレーム、低スペックモデル向け入力補正などを導入したアップデート。",
+      "summary": "Clineのcli-v3.0.38リリース。Actモード（青）とPlanモード（琥珀）をベースにした新アクセントパレットの導入、入力欄の罫線枠フラットUI再設計、読込ファイル処理の入力補正強化、モデル指定なしカタログ向けの128K制限デフォルト設定などを実施。",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-07T04:01:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-07-cline-cli-v3-0-38.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-07-geminicli-v0-51-0-nightly",
+      "title": "Gemini CLI: v0.51.0-nightly.20260707",
+      "dek": "macOSサンドボックス下での ~/.gitconfig 読み取り専用化や、最新モデル向け文字列リテラル内エスケープシーケンス保持の修正などを実施。",
+      "summary": "Gemini CLIのv0.51.0-nightly.20260707リリース。macOSサンドボックス環境における~/.gitconfig書き込み保護による安全性強化、最新推論モデル向け文字列リテラル内のエスケープシーケンス保持のパーサーバグ修正などを実施。",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-07T04:00:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-07-geminicli-v0-51-0-nightly.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-06-update-report",
       "title": "2026-07-06 アップデートレポート",

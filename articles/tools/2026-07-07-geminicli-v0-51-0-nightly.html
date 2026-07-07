@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="macOSサンドボックス下での ~/.gitconfig 読み取り専用化や、最新モデル向け文字列リテラル内エスケープシーケンス保持の修正などを実施。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.51.0-nightly.20260707: macOSサンドボックス改善とエスケープシーケンス不具合修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.51.0-nightly.20260707: macOSサンドボックス改善とエスケープシーケンス不具合修正</h1>
+      <p class="article-dek">macOSサンドボックス下での ~/.gitconfig 読み取り専用化や、最新モデル向け文字列リテラル内エスケープシーケンス保持の修正などを実施。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-07 -->
+          <strong>2026-07-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.51.0-nightly.20260707.g15a9429b6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Gemini CLI v0.51.0-nightly.20260707 では、macOS 環境におけるセキュリティサンドボックスの堅牢化、および最新モデルでの構文解釈の不具合修正が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>macOS サンドボックスにおける ~/.gitconfig 読み取り専用化:</strong> macOS 環境下での動作時において、セキュリティ保護のためユーザーのホームディレクトリ配下にある <code>~/.gitconfig</code> ファイルへの書き込みを制限し、読み取り専用（read-only）に変更しました。</li>
+            <li><strong>文字列リテラル内エスケープシーケンスの保持:</strong> 最新の推論・コード生成モデル向けに、生成される文字列リテラル中のエスケープシーケンスが壊れずに正しく保持されるようパーサーおよび内部処理を修正しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>macOS 上で Gemini CLI を用いて自律実行を行う際、不正なスクリプトやツールコードによって Git 設定（ユーザー名やメールアドレス、グローバル設定など）が意図せず書き換えられるリスクを抑止し、安全性が高まりました。また、文字列エスケープのバグ修正は、エージェントが複雑なコード（正規表現やエスケープされた文字列を含むプログラム）を生成・修正する際の正確性を向上させます。</p>
+
+        <h2>まとめ</h2>
+        <p>macOS サンドボックスの安全性向上と、コード生成の正確性に直結する文字列処理の改善を盛り込んだ堅実なセキュリティ・機能改善リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
