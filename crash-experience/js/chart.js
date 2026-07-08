@@ -4,6 +4,7 @@ CX.chart = (function () {
   let anonymBase = null, priceLines = [];
   let dayMarkers = [], lastDayKey = null;
   let tradeMarkers = [], fitAll = false;
+  let dayBands = [], bandCanvas = null, bandRO = null; // 取引日ごとの背景ストライプ
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
 
   function labelOf(sec) {
@@ -18,9 +19,10 @@ CX.chart = (function () {
     anonymBase = anonBase;
     tf = tf0 || 1;
     fitAll = !!(opts && opts.fitAll);
-    dayMarkers = []; lastDayKey = null; tradeMarkers = [];
+    dayMarkers = []; lastDayKey = null; tradeMarkers = []; dayBands = [];
     const el = CX.$('chart');
     el.innerHTML = '';
+    if (bandRO) { bandRO.disconnect(); bandRO = null; }
     chart = LightweightCharts.createChart(el, {
       autoSize: true,
       layout: {
@@ -45,6 +47,47 @@ CX.chart = (function () {
       priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
     });
     agg = []; lastBucket = null; priceLines = [];
+
+    // 取引日ごとの背景ストライプ用の透明キャンバス（チャートの上に薄く重ねる）
+    bandCanvas = document.createElement('canvas');
+    Object.assign(bandCanvas.style, { position: 'absolute', inset: '0', pointerEvents: 'none', zIndex: 2 });
+    el.appendChild(bandCanvas);
+    chart.timeScale().subscribeVisibleTimeRangeChange(drawBands);
+    bandRO = new ResizeObserver(drawBands);
+    bandRO.observe(el);
+  }
+
+  /* 取引日ごとに1本おきに薄い帯を描く。境界のx座標はtimeScaleから取得 */
+  function drawBands() {
+    if (!bandCanvas || !chart) return;
+    const el = CX.$('chart');
+    const w = el.clientWidth, h = el.clientHeight;
+    if (!w || !h) return;
+    const dpr = window.devicePixelRatio || 1;
+    if (bandCanvas.width !== w * dpr || bandCanvas.height !== h * dpr) {
+      bandCanvas.width = w * dpr; bandCanvas.height = h * dpr;
+      bandCanvas.style.width = w + 'px'; bandCanvas.style.height = h + 'px';
+    }
+    const ctx = bandCanvas.getContext('2d');
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+    if (dayBands.length < 2) return;
+    const ts = chart.timeScale();
+    for (let i = 0; i < dayBands.length; i++) {
+      const x0 = ts.timeToCoordinate(dayBands[i] / 1000);
+      if (x0 == null) continue;
+      // 1日おきに薄い帯
+      if (i % 2 === 1) {
+        const x1 = i + 1 < dayBands.length ? ts.timeToCoordinate(dayBands[i + 1] / 1000) : w;
+        const a = Math.max(0, x0), b = Math.min(w, x1 == null ? w : x1);
+        if (b > a) { ctx.fillStyle = 'rgba(130,155,195,0.09)'; ctx.fillRect(a, 0, b - a, h); }
+      }
+      // 各取引日の境界に細い縦線
+      if (x0 >= 0 && x0 <= w) {
+        ctx.fillStyle = 'rgba(150,170,200,0.18)';
+        ctx.fillRect(Math.round(x0), 0, 1, h);
+      }
+    }
   }
 
   function toCandle(b) { // BIDローソク
@@ -63,6 +106,7 @@ CX.chart = (function () {
       time: bucketT / 1000, position: 'belowBar', color: '#5a6375', shape: 'arrowUp',
       text: (d.getUTCMonth() + 1) + '/' + d.getUTCDate() + '(' + WD[d.getUTCDay()] + ')'
     });
+    dayBands.push(bucketT);
     return true;
   }
 
@@ -95,12 +139,13 @@ CX.chart = (function () {
   function setHistory(bars, uptoIdx) {
     agg = [];
     lastBucket = null;
-    dayMarkers = []; lastDayKey = null;
+    dayMarkers = []; lastDayKey = null; dayBands = [];
     for (let i = 0; i <= uptoIdx; i++) push(bars[i], false);
     series.setData(agg.map(a => ({ time: a.t / 1000, open: a.o, high: a.h, low: a.l, close: a.c })));
     applyMarkers();
     if (fitAll) chart.timeScale().fitContent();
     else chart.timeScale().scrollToRealTime();
+    drawBands();
   }
 
   /* 1分バーを1本進める */
@@ -158,6 +203,8 @@ CX.chart = (function () {
   }
 
   function destroy() {
+    if (bandRO) { bandRO.disconnect(); bandRO = null; }
+    bandCanvas = null;
     if (chart) { chart.remove(); chart = null; series = null; }
   }
 

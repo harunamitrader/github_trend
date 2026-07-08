@@ -155,29 +155,31 @@ CX.trade = (function () {
   E.on.gap = function (info) {
     if (CX.story && CX.story.isJumping()) return;
     E.pause();
-    const weekend = info.dt >= 24 * 3600000;
-    $('sleep-title').textContent = weekend ? '週末です' : '市場が閉まりました';
+    const weekend = info.dt >= 20 * 3600000;
+    $('sleep-title').textContent = weekend ? '週末 — 市場クローズ' : '取引時間終了';
     let sub = info.hasPositions
-      ? 'あなたは眠っています。<br>ポジションは持ち越されます。'
-      : (weekend ? '相場も、あなたも、二日間眠ります。' : 'ノーポジションの夜は、よく眠れる。');
+      ? '建玉は' + (weekend ? '週末をはさんで' : '翌営業日へ') + '持ち越されます。'
+      : '建玉なし。' + (weekend ? '週明けの寄付きを待ちます。' : '翌営業日の寄付きを待ちます。');
     if (info.marginCall) {
       sub += '<br><br><span style="color:var(--amber)">取引終了時点の判定で 追加証拠金 ' +
         CX.yen(info.marginCall.amount) + ' が発生しました。<br>期限は翌営業日 午前3:00。未解消なら全建玉が強制決済されます。</span>';
     }
     $('sleep-sub').innerHTML = sub;
-    $('sleep-tap').textContent = 'タップして朝を迎える';
+    $('sleep-tap').textContent = 'タップして翌営業日へ';
     const ov = $('ov-sleep');
     ov.classList.remove('hidden');
     if (!info.hasPositions) setTimeout(() => { if (!ov.classList.contains('hidden')) resumeSleep(); }, 1400);
   };
   function resumeSleep() {
     $('ov-sleep').classList.add('hidden');
-    const gapPnl = CX.engine.resumeGap();
+    const gap = CX.engine.resumeGap();
     $('tr-play').textContent = '⏸';
     render();
-    if (gapPnl != null && Math.abs(gapPnl) > 1000) {
-      CX.toast('窓が開きました ' + CX.yen(gapPnl, true), gapPnl < 0 ? 'bad' : 'good');
-      if (gapPnl < 0) $('phone').classList.add('shake'), setTimeout(() => $('phone').classList.remove('shake'), 550);
+    // 200pt以上の大きな窓のときだけ通知（小さな窓は無視）
+    if (gap && Math.abs(gap.pts) >= 200) {
+      CX.notify(gap.pnl < 0 ? 'exec' : 'entry', '窓が開きました',
+        '寄付きが ' + (gap.pts > 0 ? '+' : '') + Math.round(gap.pts) + 'pt 飛びました｜評価損益 ' + CX.yen(gap.pnl, true), 3200);
+      if (gap.pnl < 0) { $('phone').classList.add('shake'); setTimeout(() => $('phone').classList.remove('shake'), 550); }
     }
   }
   let mcNotified = null;

@@ -280,12 +280,15 @@ CX.engine = (function () {
   function resumeGap() {
     if (S.halt !== 'gap') return null;
     const preUpl = unrealized(cur());
+    const preClose = cur()[4]; // 窓前の終値(BID)
     S.halt = null;
     S.skipGap = true;
     step();
-    const gapPnl = S.ended || S.halt ? 0 : unrealized(cur()) - preUpl;
+    const ended = S.ended || S.halt;
+    const gapPnl = ended ? 0 : unrealized(cur()) - preUpl;
+    const gapPts = ended ? 0 : cur()[1] - preClose; // 窓前終値 → 窓明け始値の値幅
     play();
-    return gapPnl;
+    return { pnl: gapPnl, pts: gapPts };
   }
 
   /* ---------- 再生制御 ---------- */
