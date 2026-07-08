@@ -8,9 +8,13 @@ CX.chart = (function () {
   let eventLines = []; // {t, kind:'entry'|'exit'} イベント地点の縦線
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
 
+  const SESSION_OFFSET = 8 * 3600000; // 取引セッションは 08:00(JST) 始まり
+  const isDaily = () => tf >= 1440;
+
   function labelOf(sec) {
     const t = sec * 1000;
     const d = new Date(t);
+    if (isDaily()) return (d.getUTCMonth() + 1) + '/' + d.getUTCDate();
     const hm = String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0');
     if (anonymBase != null) return 'D' + (Math.floor((t - anonymBase) / 86400000) + 1) + ' ' + hm;
     return (d.getUTCMonth() + 1) + '/' + d.getUTCDate() + ' ' + hm;
@@ -105,10 +109,15 @@ CX.chart = (function () {
   function toCandle(b) { // BIDローソク
     return { time: b[0] / 1000, open: b[1], high: b[2], low: b[3], close: b[4] };
   }
-  function bucketOf(t) { return Math.floor(t / (tf * 60000)) * tf * 60000; }
+  function bucketOf(t) {
+    // 日足: セッション(08:00始まり)を1本に。日跨ぎ session を分割しないよう 8h オフセット
+    if (isDaily()) return Math.floor((t - SESSION_OFFSET) / 86400000) * 86400000 + SESSION_OFFSET;
+    return Math.floor(t / (tf * 60000)) * tf * 60000;
+  }
 
-  /* 取引日の変わり目（朝の寄付バー）にマーカー */
+  /* 取引日の変わり目（朝の寄付バー）にマーカー。日足では1本=1日なので不要 */
   function trackDayMarker(b, bucketT) {
+    if (isDaily()) return false;
     const d = new Date(b[0]);
     const key = d.getUTCFullYear() * 10000 + (d.getUTCMonth() + 1) * 100 + d.getUTCDate();
     if (key === lastDayKey) return false;

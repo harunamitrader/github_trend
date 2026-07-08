@@ -32,11 +32,6 @@ CX.trade = (function () {
     const snap = E.snapshot();
     const b = snap.bar;
     $('tr-clock').textContent = CX.fmtTime(b[0], S.anonym ? S.anonymBase : null);
-    $('q-bid').textContent = CX.px(b[4]);
-    $('q-ask').textContent = CX.px(b[8]);
-    $('q-spread').textContent = (b[8] - b[4]).toFixed(1);
-    $('ord-bid').textContent = CX.px(b[4]);
-    $('ord-ask').textContent = CX.px(b[8]);
     $('ac-equity').textContent = CX.yen(snap.equity);
     const r = $('ac-ratio');
     if (snap.ratio === Infinity) { r.textContent = '—'; r.className = 'num'; }
@@ -221,8 +216,8 @@ CX.trade = (function () {
 
   /* ---------- イベント結線 ---------- */
   function bind() {
-    $('btn-buy').addEventListener('click', () => openSheet(1));
-    $('btn-sell').addEventListener('click', () => openSheet(-1));
+    $('btn-buy') && $('btn-buy').addEventListener('click', () => openSheet(1));
+    $('btn-sell') && $('btn-sell').addEventListener('click', () => openSheet(-1));
     $('os-cancel').addEventListener('click', () => { $('order-sheet').classList.add('hidden'); E.play(); $('tr-play').textContent = '⏸'; });
     $('os-submit').addEventListener('click', submitOrder);
     document.querySelectorAll('.stepper button').forEach(b =>

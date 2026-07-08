@@ -16,8 +16,8 @@ CX.story = (function () {
     try { S = await E.start(story.scenario, story.symbol, meta); }
     catch (e) { return CX.toast(e.message, 'bad'); }
     ST = { story, i: 0, active: true, jumping: false, picks: [], watch: null, skipTo: null };
-    CX.chart.init(null, 240, { fitAll: true }); // 4時間足・最初のエントリーからの全体像を常に表示
-    document.querySelector('.tf-row').style.display = 'none';
+    CX.chart.init(null, 1440, { fitAll: true }); // 日足・最初のエントリーからの全体像を常に表示
+    document.querySelector('.tf-row').style.display = '';
     CX.nav('trade');
     $('tr-symbol').textContent = meta.name;
     $('tr-speed').textContent = S.speed + 'x';

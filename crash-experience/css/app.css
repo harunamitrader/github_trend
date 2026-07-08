@@ -101,11 +101,10 @@ button{font-family:var(--sans);color:var(--text);background:none;border:none;cur
 .q-mid{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:52px}
 .q-mid span:first-child{font-family:var(--mono);font-size:11px;color:var(--dim)}
 .q-sp-label{font-size:8px;color:var(--faint);letter-spacing:.15em}
-#chart-wrap{position:relative;height:32%;min-height:190px;border-bottom:1px solid var(--line)}
+#chart-wrap{position:relative;flex:2 1 0;min-height:300px;border-bottom:1px solid var(--line)}
 #chart{position:absolute;inset:0}
 .tf-row{position:absolute;top:6px;left:6px;z-index:3;display:flex;gap:4px}
-.tf-btn{font-size:10px;font-family:var(--mono);color:var(--faint);background:rgba(10,13,18,.75);border:1px solid var(--line);border-radius:4px;padding:3px 8px}
-.tf-btn.active{color:var(--text);border-color:var(--dim)}
+.tf-badge{font-size:11px;font-weight:700;font-family:var(--sans);color:var(--text);background:rgba(10,13,18,.8);border:1px solid var(--dim);border-radius:4px;padding:3px 10px;letter-spacing:.1em}
 .margin-banner{background:rgba(255,176,46,.12);color:var(--amber);font-size:11px;font-weight:700;text-align:center;padding:6px;border-bottom:1px solid rgba(255,176,46,.3);animation:blink 1.2s step-end infinite}
 @keyframes blink{50%{opacity:.45}}
 .acct-panel{padding:8px 14px 6px;border-bottom:1px solid var(--line)}

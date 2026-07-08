@@ -76,19 +76,9 @@
       <button id="tr-play" class="chip-btn play">⏸</button>
     </header>
 
-    <div class="quote-panel">
-      <div class="q-side q-bid"><span class="q-label">BID <em>売</em></span><span id="q-bid" class="q-price">—</span></div>
-      <div class="q-mid"><span id="q-spread">—</span><span class="q-sp-label">spread</span></div>
-      <div class="q-side q-ask"><span class="q-label">ASK <em>買</em></span><span id="q-ask" class="q-price">—</span></div>
-    </div>
-
     <div id="chart-wrap">
       <div id="chart"></div>
-      <div class="tf-row">
-        <button class="tf-btn active" data-tf="1">1分</button>
-        <button class="tf-btn" data-tf="5">5分</button>
-        <button class="tf-btn" data-tf="60">60分</button>
-      </div>
+      <div class="tf-row"><span class="tf-badge">日足</span></div>
     </div>
 
     <div id="margin-banner" class="margin-banner hidden">⚠ 追証発生水準です — 証拠金維持率100%割れ</div>
@@ -102,11 +92,6 @@
         <div class="acct-cell wide"><span class="acct-label">評価損益</span><span id="ac-upl" class="num">—</span></div>
       </div>
       <div id="ac-life" class="acct-life"></div>
-    </div>
-
-    <div class="order-panel">
-      <button id="btn-sell" class="ord-btn sell"><span>売</span><span id="ord-bid" class="ord-px">—</span></button>
-      <button id="btn-buy" class="ord-btn buy"><span>買</span><span id="ord-ask" class="ord-px">—</span></button>
     </div>
 
     <div class="pos-tabs">
