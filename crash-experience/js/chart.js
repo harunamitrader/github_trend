@@ -6,7 +6,9 @@ CX.chart = (function () {
   let tradeMarkers = [], fitAll = false;
   let dayBands = [], bandCanvas = null, bandRO = null; // 取引日ごとの背景ストライプ
   let eventLines = []; // {t, kind:'entry'|'exit'} イベント地点の縦線
+  let eventDetails = [], tipEl = null; // タップで価格・日時を表示
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
+  const dtLabel = ms => { const d = new Date(ms); return (d.getUTCMonth() + 1) + '/' + d.getUTCDate() + '(' + WD[d.getUTCDay()] + ') ' + String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0'); };
 
   const SESSION_OFFSET = 8 * 3600000; // 取引セッションは 08:00(JST) 始まり
   const isDaily = () => tf >= 1440;
@@ -51,7 +53,7 @@ CX.chart = (function () {
       borderVisible: false,
       priceFormat: { type: 'price', precision: 1, minMove: 0.1 }
     });
-    agg = []; lastBucket = null; priceLines = [];
+    agg = []; lastBucket = null; priceLines = []; eventDetails = [];
 
     // 取引日ごとの背景ストライプ用の透明キャンバス（チャートの上に薄く重ねる）
     bandCanvas = document.createElement('canvas');
@@ -60,6 +62,36 @@ CX.chart = (function () {
     chart.timeScale().subscribeVisibleTimeRangeChange(drawBands);
     bandRO = new ResizeObserver(drawBands);
     bandRO.observe(el);
+
+    // タップで売買/ロスカットの価格・日時を表示するツールチップ
+    tipEl = document.createElement('div');
+    tipEl.className = 'chart-tip hidden';
+    el.appendChild(tipEl);
+    chart.subscribeClick(onChartClick);
+  }
+
+  function onChartClick(param) {
+    if (!tipEl) return;
+    if (!param || param.time == null || !param.point) { tipEl.classList.add('hidden'); return; }
+    const hits = eventDetails.filter(e => e.time === param.time);
+    if (!hits.length) { tipEl.classList.add('hidden'); return; }
+    tipEl.innerHTML = hits.map(e => {
+      const label = e.kind === 'entry' ? '新規買 ' + e.size + '枚'
+        : (e.reason === 'force_close' ? '追証・強制決済 ' : 'ロスカット ') + e.size + '枚';
+      return `<div class="ctip-row ${e.kind === 'entry' ? 'ctip-buy' : 'ctip-cut'}">`
+        + `<div class="ctip-h">${label}</div>`
+        + `<div class="ctip-d">${dtLabel(e.exactT)}</div>`
+        + `<div class="ctip-p">${CX.px(e.price)}</div></div>`;
+    }).join('');
+    tipEl.classList.remove('hidden');
+    const w = CX.$('chart').clientWidth, h = CX.$('chart').clientHeight;
+    const tw = tipEl.offsetWidth || 150, th = tipEl.offsetHeight || 60;
+    let x = param.point.x + 10, y = param.point.y + 10;
+    if (x + tw > w) x = param.point.x - tw - 10;
+    if (y + th > h) y = h - th - 6;
+    if (x < 4) x = 4; if (y < 4) y = 4;
+    tipEl.style.left = x + 'px';
+    tipEl.style.top = y + 'px';
   }
 
   /* 取引日ごとに1本おきに薄い帯を描く。境界のx座標はtimeScaleから取得 */
@@ -136,28 +168,33 @@ CX.chart = (function () {
     series.setMarkers(dayMarkers.concat(tradeMarkers).sort((a, b) => a.time - b.time));
   }
 
-  /* エントリー/決済のマーカー＋イベント縦線（建玉と履歴から毎回組み直す） */
+  /* エントリー/決済の丸印（価格つき）＋イベント縦線＋タップ用の明細 */
   function setTrades(S) {
     if (!series || !S) return;
     tradeMarkers = [];
     eventLines = [];
-    const reasonLabel = { manual: '決済', stop: '逆指', losscut: 'ロスカット', force_close: '強制決済' };
-    const entry = (t, size, faded) => {
+    eventDetails = [];
+    const px = v => Math.round(v).toLocaleString();
+    const entry = (t, size, price, faded) => {
+      const bt = bucketOf(t);
       tradeMarkers.push({
-        time: bucketOf(t) / 1000, position: 'belowBar', shape: 'arrowUp',
-        color: faded ? '#2b5aa8' : '#3d87ff', text: '買' + size
+        time: bt / 1000, position: 'belowBar', shape: 'circle',
+        color: faded ? '#2b5aa8' : '#3d87ff', text: px(price)
       });
-      eventLines.push({ t: bucketOf(t), kind: 'entry' });
+      eventLines.push({ t: bt, kind: 'entry' });
+      eventDetails.push({ time: bt / 1000, exactT: t, kind: 'entry', size, price });
     };
     for (const h of S.history) {
-      entry(h.tOpen, h.size, true);
+      entry(h.tOpen, h.size, h.entry, true);
+      const bt = bucketOf(h.tClose);
       tradeMarkers.push({
-        time: bucketOf(h.tClose) / 1000, position: 'aboveBar', shape: 'arrowDown',
-        color: '#f5453c', text: reasonLabel[h.reason] || '決済'
+        time: bt / 1000, position: 'aboveBar', shape: 'circle',
+        color: '#f5453c', text: px(h.exit)
       });
-      eventLines.push({ t: bucketOf(h.tClose), kind: 'exit' });
+      eventLines.push({ t: bt, kind: 'exit' });
+      eventDetails.push({ time: bt / 1000, exactT: h.tClose, kind: 'exit', reason: h.reason, size: h.size, price: h.exit });
     }
-    for (const p of S.positions) entry(p.tOpen, p.size, false);
+    for (const p of S.positions) entry(p.tOpen, p.size, p.entry, false);
     applyMarkers();
     drawBands();
   }
@@ -228,7 +265,7 @@ CX.chart = (function () {
 
   function destroy() {
     if (bandRO) { bandRO.disconnect(); bandRO = null; }
-    bandCanvas = null;
+    bandCanvas = null; tipEl = null; eventDetails = [];
     if (chart) { chart.remove(); chart = null; series = null; }
   }
 
