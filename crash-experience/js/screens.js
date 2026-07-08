@@ -11,15 +11,32 @@ CX.home = (function () {
     const stMeta = metas.find(m => m.code === story.symbol);
     const stReady = stMeta && ['202002', '202003', '202004'].every(mm => stMeta.days.some(d => d.startsWith(mm)));
     const stDone = localStorage.getItem('cx_story_' + story.id);
+    const save = CX.story.hasSave(story.id);
+    let actions;
+    if (!stReady) {
+      actions = '<div class="sc-status ng">初回データ準備中です。数秒後に自動で有効になります…</div>';
+    } else if (save) {
+      actions = `<div class="st-actions">
+        <button class="primary-btn" id="story-resume-btn">つづきから</button>
+        <button class="ghost-btn" id="story-restart-btn">はじめから見直す</button>
+      </div>`;
+    } else {
+      actions = '<div class="sc-status ok">▶ はじめる</div>';
+    }
     stList.innerHTML = `
-      <button class="story-home-card ${stReady ? '' : 'disabled'}" id="story-start-btn">
+      <div class="story-home-card ${stReady ? '' : 'disabled'}" id="story-card-home">
         <div class="st-kicker">${story.subtitle}</div>
         <div class="st-title">${story.title}</div>
         <div class="st-meta">操作はできない。あなたはただ、彼の口座を見ている。<br>所要 ${story.minutes} ／ 価格はすべて実際の記録
         ${stDone ? '<br><span style="color:var(--red)">体験済み — もう一度、見届ける</span>' : ''}</div>
-        ${stReady ? '<div class="sc-status ok">▶ はじめる</div>' : '<div class="sc-status ng">初回データ準備中です。数秒後に自動で有効になります…</div>'}
-      </button>`;
-    if (stReady) $('story-start-btn').addEventListener('click', () => CX.story.start(story));
+        ${actions}
+      </div>`;
+    if (stReady && save) {
+      $('story-resume-btn').addEventListener('click', () => CX.story.start(story, save));
+      $('story-restart-btn').addEventListener('click', () => CX.story.start(story));
+    } else if (stReady) {
+      $('story-card-home').addEventListener('click', () => CX.story.start(story));
+    }
   }
 
   function card(sc, avail, life, meta) {

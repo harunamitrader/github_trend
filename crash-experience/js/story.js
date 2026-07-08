@@ -1,22 +1,33 @@
-/* story.js — 追体験モード: ビート駆動ドライバ ＋ ノベルUI */
+/* story.js — 追体験モード: ビート駆動ドライバ ＋ ノベルUI ＋ 履歴/セーブ */
 CX.story = (function () {
   const $ = CX.$;
   const E = CX.engine;
-  let ST = null; // { story, i, active, jumping, picks[], watch }
+  let ST = null; // { story, i, active, jumping, picks[], watch, skipTo, log[] }
 
   const isActive = () => !!(ST && ST.active);
   const isJumping = () => !!(ST && ST.jumping);
+  const saveKey = id => 'cx_save_' + id;
 
-  /* ---------- 開始 ---------- */
-  async function start(story) {
+  function hasSave(id) {
+    try { const s = JSON.parse(localStorage.getItem(saveKey(id))); return s && s.i > 0 ? s : null; }
+    catch (e) { return null; }
+  }
+  function saveProgress() {
+    if (!ST || !ST.active || ST.jumping) return;
+    try { localStorage.setItem(saveKey(ST.story.id), JSON.stringify({ i: ST.i, picks: ST.picks })); } catch (e) {}
+  }
+  function clearSave(id) { try { localStorage.removeItem(saveKey(id)); } catch (e) {} }
+
+  /* ---------- 開始（resume指定で途中から） ---------- */
+  async function start(story, resume) {
     const metas = await CX.db.getSymbols();
     const meta = metas.find(m => m.code === story.symbol);
     if (!meta) return CX.toast('データ未取込: ' + story.dataNeed.label, 'bad');
     let S;
     try { S = await E.start(story.scenario, story.symbol, meta); }
     catch (e) { return CX.toast(e.message, 'bad'); }
-    ST = { story, i: 0, active: true, jumping: false, picks: [], watch: null, skipTo: null };
-    CX.chart.init(null, 1440, { fitAll: true }); // 日足・最初のエントリーからの全体像を常に表示
+    ST = { story, i: 0, active: true, jumping: false, picks: [], watch: null, skipTo: null, log: [] };
+    CX.chart.init(null, 1440, { fitAll: true }); // 日足・全体像
     document.querySelector('.tf-row').style.display = '';
     CX.nav('trade');
     $('tr-symbol').textContent = meta.name;
@@ -24,30 +35,87 @@ CX.story = (function () {
     $('tr-play').textContent = '▶';
     $('margin-banner').classList.add('hidden');
     $('tr-skip').onclick = doSkip;
+    $('tr-log').classList.remove('hidden');
+    $('tr-log').onclick = openLog;
     CX.chart.setHistory(S.bars, S.idx);
     CX.trade.render();
     E.pause();
+    if (resume && resume.i > 0) fastForward(resume.i, resume.picks || []);
     next();
   }
 
-  /* リプレイのスキップ（山場以外）: 目標時刻まで一気に進める */
+  /* ---------- 途中セーブからの高速再構築（表示なしでビートを適用） ---------- */
+  function fastForward(target, savedPicks) {
+    ST.jumping = true;
+    let pk = 0;
+    while (ST.i < target) {
+      const b = ST.story.beats[ST.i++];
+      if (!b) break;
+      switch (b.type) {
+        case 'novel': logLines(b.lines, 'novel'); break;
+        case 'thought': logLines([b.text], 'thought'); break;
+        case 'dark': logLines(b.lines, 'dark'); break;
+        case 'card': logCard(b); break;
+        case 'choice': {
+          const idx = savedPicks[pk] != null ? savedPicks[pk] : 0;
+          pk++;
+          ST.picks.push(idx);
+          logChoice(b, idx);
+          logLines(b.options[idx].reply, 'novel');
+          break;
+        }
+        case 'buy': doBuy(b, true); break;
+        case 'opt': doOpt(b, true); break;
+        case 'deposit': doDeposit(b, true); break;
+        case 'replay': jumpEngineTo(CX.parseIso(b.to)); break;
+        case 'jump': jumpEngineTo(typeof b.t === 'number' ? b.t : CX.parseIso(b.to)); break;
+        case 'end': ST.i--; target = ST.i; break; // 終端に達したら止める
+      }
+    }
+    ST.jumping = false;
+    CX.chart.setHistory(E.S.bars, E.S.idx);
+    CX.chart.refreshLines(E.S.positions);
+    CX.chart.setTrades(E.S);
+    CX.trade.render();
+    CX.toast('つづきから再開します');
+  }
+
+  /* エンジンだけ目標時刻まで進める（描画なし・fastForward/skip用） */
+  function jumpEngineTo(to) {
+    const S = E.S;
+    let guard = 0;
+    while (S.bars[S.idx] && S.bars[S.idx][0] < to && guard++ < 300000 && !S.ended) {
+      if (S.halt === 'gap') { S.halt = null; S.skipGap = true; E.step(); }
+      else if (!E.step() && S.halt !== 'gap') break;
+    }
+  }
+
+  /* ---------- スキップ（山場以外のリプレイを飛ばす） ---------- */
   function doSkip() {
     if (!ST || !ST.active || !ST.skipTo) return;
     const to = ST.skipTo;
     const S = E.S;
-    const cb = S.onStop;             // runReplayが仕掛けた継続コールバック
+    const cb = S.onStop;
     S.stopAt = null; S.onStop = null;
     ST.skipTo = null;
     $('tr-skip').classList.add('hidden');
     E.pause();
-    doJump({ to: null, t: to });
+    ST.jumping = true;
+    jumpEngineTo(to);
+    ST.jumping = false;
+    $('ov-sleep').classList.add('hidden');
+    CX.chart.setHistory(S.bars, S.idx);
+    CX.chart.refreshLines(S.positions);
+    CX.chart.setTrades(S);
+    CX.trade.render();
     if (cb) cb();
   }
 
   function abort() {
     if (ST && ST.watch) clearInterval(ST.watch);
+    saveProgress(); // 中断時点を保存（続きから再開できる）
     hideAll();
-    document.querySelector('.tf-row').style.display = '';
+    $('tr-log').classList.add('hidden');
     ST = null;
     E.destroy();
     CX.chart.destroy();
@@ -55,19 +123,36 @@ CX.story = (function () {
   }
 
   function hideAll() {
-    ['story-window', 'story-dark', 'story-card', 'story-choice', 'tr-skip'].forEach(id => $(id).classList.add('hidden'));
+    ['story-window', 'story-dark', 'story-card', 'story-choice', 'story-log', 'tr-skip'].forEach(id => $(id).classList.add('hidden'));
   }
+
+  /* ---------- 履歴（バックログ） ---------- */
+  const fmtLine = s => s.replace(/\*\*(.+?)\*\*/g, '<b class="sw-em">$1</b>').replace(/\n/g, '<br>');
+  function logLines(lines, cls) { for (const l of lines) ST.log.push({ cls, html: fmtLine(l) }); }
+  function logCard(b) { ST.log.push({ cls: 'card', html: b.date + '　' + b.title + '　' + b.sub }); }
+  function logChoice(b, idx) { ST.log.push({ cls: 'choice', html: '【選択】' + b.prompt + ' → ' + b.options[idx].label }); }
+
+  function openLog() {
+    const body = $('slog-body');
+    body.innerHTML = ST.log.length
+      ? ST.log.map(e => `<div class="slog-item slog-${e.cls}">${e.html}</div>`).join('')
+      : '<div class="slog-empty">まだ記録はありません</div>';
+    $('story-log').classList.remove('hidden');
+    body.scrollTop = body.scrollHeight; // 最新（今読んでいる所）が見える位置から
+  }
+  function closeLog() { $('story-log').classList.add('hidden'); }
 
   /* ---------- ビート実行 ---------- */
   function next() {
     if (!ST || !ST.active) return;
+    saveProgress(); // 各ビートの直前で進捗を保存
     const b = ST.story.beats[ST.i++];
     if (!b) return finish();
     switch (b.type) {
-      case 'novel': return showLines(b.lines, 'novel', next);
-      case 'thought': return showLines([b.text], 'thought', next);
-      case 'dark': return showDark(b.lines, next);
-      case 'card': return showCard(b, next);
+      case 'novel': logLines(b.lines, 'novel'); return showLines(b.lines, 'novel', next);
+      case 'thought': logLines([b.text], 'thought'); return showLines([b.text], 'thought', next);
+      case 'dark': logLines(b.lines, 'dark'); return showDark(b.lines, next);
+      case 'card': logCard(b); return showCard(b, next);
       case 'choice': return showChoice(b, next);
       case 'buy': doBuy(b); return next();
       case 'opt': doOpt(b); return next();
@@ -80,7 +165,6 @@ CX.story = (function () {
   }
 
   /* ---------- ノベルウィンドウ ---------- */
-  const fmtLine = s => s.replace(/\*\*(.+?)\*\*/g, '<b class="sw-em">$1</b>').replace(/\n/g, '<br>');
   function showLines(lines, cls, cb) {
     const w = $('story-window');
     const tx = $('sw-text');
@@ -134,6 +218,8 @@ CX.story = (function () {
       btn.textContent = op.label;
       btn.onclick = () => {
         ST.picks.push(idx);
+        logChoice(b, idx);
+        logLines(op.reply, 'novel');
         c.classList.add('hidden');
         showLines(op.reply, 'novel', cb);
       };
@@ -142,35 +228,37 @@ CX.story = (function () {
     c.classList.remove('hidden');
   }
 
-  /* ---------- 売買・入金 ---------- */
-  function doBuy(b) {
+  /* ---------- 売買・入金（silent=履歴再構築時は通知しない） ---------- */
+  function doBuy(b, silent) {
     const r = E.order(1, b.size, null);
-    const t = new Date(E.S.bars[E.S.idx][0]);
-    console.log('[story] buy' + b.size + ' @bar ' + t.toISOString().slice(5, 16) + ' → ' + (r.err || 'ok @' + r.price.toFixed(1)));
-    if (r.err) { CX.toast(r.err, 'bad'); return; }
-    CX.notify('entry', '約定通知 — 新規買', '米国NQ100 買 ' + b.size + '枚 @' + CX.px(r.price) + (b.note ? '｜' + b.note : ''));
-    CX.chart.refreshLines(E.S.positions);
-    CX.trade.render();
+    if (r.err) { if (!silent) CX.toast(r.err, 'bad'); return; }
+    if (!silent) {
+      CX.notify('entry', '約定通知 — 新規買', '米国NQ100 買 ' + b.size + '枚 @' + CX.px(r.price) + (b.note ? '｜' + b.note : ''));
+      CX.chart.refreshLines(E.S.positions);
+      CX.chart.setTrades(E.S);
+      CX.trade.render();
+    }
   }
-  function doOpt(b) {
+  function doOpt(b, silent) {
     const S = E.S;
     if (!S.positions.length) return;
-    const target = S.positions.reduce((a, p) => (a == null || p.id < a.id) ? p : a, null); // 最初の玉
-    const avail = Math.floor(E.snapshot().avail);
-    const amount = Math.min(b.amount, Math.max(0, avail));
-    const t = new Date(S.bars[S.idx][0]);
-    console.log('[story] opt' + b.amount + ' @bar ' + t.toISOString().slice(5, 16) + ' avail=' + avail + ' → amount=' + amount);
+    const target = S.positions.reduce((a, p) => (a == null || p.id < a.id) ? p : a, null);
+    const amount = Math.min(b.amount, Math.max(0, Math.floor(E.snapshot().avail)));
     if (amount <= 0) return;
     const r = E.addOptMargin(target.id, amount);
-    if (r.err) { console.warn('story opt failed:', r.err); return; }
-    CX.notify('opt', 'ロスカットレート変更', '任意証拠金 +' + CX.comma(amount) + '円 → LC ' + CX.px(r.losscut));
-    CX.chart.refreshLines(S.positions);
-    CX.trade.render();
+    if (r.err) return;
+    if (!silent) {
+      CX.notify('opt', 'ロスカットレート変更', '任意証拠金 +' + CX.comma(amount) + '円 → LC ' + CX.px(r.losscut));
+      CX.chart.refreshLines(S.positions);
+      CX.trade.render();
+    }
   }
-  function doDeposit(b) {
+  function doDeposit(b, silent) {
     E.deposit(b.amount);
-    CX.notify('deposit', '入金完了', '+' + CX.comma(b.amount) + '円' + (b.note ? '｜' + b.note.replace(/^入金.*?—\s*/, '') : ''));
-    CX.trade.render();
+    if (!silent) {
+      CX.notify('deposit', '入金完了', '+' + CX.comma(b.amount) + '円' + (b.note ? '｜' + b.note.replace(/^入金.*?—\s*/, '') : ''));
+      CX.trade.render();
+    }
   }
 
   /* ---------- 再生・ジャンプ ---------- */
@@ -194,10 +282,10 @@ CX.story = (function () {
       CX.trade.render();
       cb();
     };
-    S.stopAt = to;          // エンジンがバー単位で正確に停止して呼び返す
+    S.stopAt = to;
     S.onStop = fire;
     E.play();
-    ST.watch = setInterval(() => {  // データ末尾到達などの保険
+    ST.watch = setInterval(() => {
       if (!ST || !ST.active) { clearInterval(ST.watch); return; }
       const S2 = E.S;
       if (!S2 || S2.ended) fire();
@@ -206,18 +294,14 @@ CX.story = (function () {
 
   function doJump(b) {
     const to = typeof b.t === 'number' ? b.t : CX.parseIso(b.to);
-    const S = E.S;
     ST.jumping = true;
     E.pause();
-    let guard = 0;
-    while (S.bars[S.idx] && S.bars[S.idx][0] < to && guard++ < 300000 && !S.ended) {
-      if (S.halt === 'gap') { S.halt = null; S.skipGap = true; E.step(); }
-      else if (!E.step() && S.halt !== 'gap') break;
-    }
+    jumpEngineTo(to);
     ST.jumping = false;
     $('ov-sleep').classList.add('hidden');
-    CX.chart.setHistory(S.bars, S.idx);
-    CX.chart.refreshLines(S.positions);
+    CX.chart.setHistory(E.S.bars, E.S.idx);
+    CX.chart.refreshLines(E.S.positions);
+    CX.chart.setTrades(E.S);
     CX.trade.render();
   }
 
@@ -225,7 +309,8 @@ CX.story = (function () {
   function finish() {
     if (!ST) return;
     hideAll();
-    document.querySelector('.tf-row').style.display = '';
+    $('tr-log').classList.add('hidden');
+    clearSave(ST.story.id); // クリアしたら「続きから」は消える
     const S = E.S;
     const L = ST.story.lessons;
     const snap = E.snapshot();
@@ -233,8 +318,7 @@ CX.story = (function () {
     const invested = L.invested;
     const loss = invested - finalEq;
     const interventions = ST.picks.filter(i => i === 0).length;
-    const doneKey = 'cx_story_' + ST.story.id;
-    localStorage.setItem(doneKey, JSON.stringify({ at: Date.now(), finalEq }));
+    localStorage.setItem('cx_story_' + ST.story.id, JSON.stringify({ at: Date.now(), finalEq }));
 
     CX.nav('result');
     $('result-body').innerHTML = `
@@ -273,5 +357,8 @@ CX.story = (function () {
     ST.active = false;
   }
 
-  return { start, abort, isActive, isJumping };
+  /* 履歴オーバーレイの閉じるボタン（スクリプトはbody末尾なのでDOMは準備済み） */
+  { const c = $('slog-close'); if (c) c.onclick = closeLog; }
+
+  return { start, abort, isActive, isJumping, hasSave, openLog, closeLog };
 })();
