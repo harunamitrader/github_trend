@@ -108,9 +108,8 @@ CX.chart = (function () {
     const ctx = bandCanvas.getContext('2d');
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, w, h);
-    if (dayBands.length < 2) return;
     const ts = chart.timeScale();
-    // 取引日の帯＋境界線
+    // 取引日の帯＋境界線（日中足のときのみ。日足は1本=1日なので不要）
     for (let i = 0; i < dayBands.length; i++) {
       const x0 = ts.timeToCoordinate(dayBands[i] / 1000);
       if (x0 == null) continue;
@@ -124,16 +123,41 @@ CX.chart = (function () {
         ctx.fillRect(Math.round(x0), 0, 1, h);
       }
     }
-    // イベント縦線: 買=青, ロスカット=赤（暴落の瞬間を強調）
+    // イベント縦線（ローソクと被らない色: 買=緑, ロスカット=マゼンタ）
     for (const e of eventLines) {
       const x = ts.timeToCoordinate(e.t / 1000);
       if (x == null || x < 0 || x > w) continue;
-      if (e.kind === 'exit') {
-        ctx.fillStyle = 'rgba(245,69,60,0.7)';
-        ctx.fillRect(Math.round(x), 0, 2, h);
-      } else {
-        ctx.fillStyle = 'rgba(61,135,255,0.55)';
-        ctx.fillRect(Math.round(x), 0, 1, h);
+      if (e.kind === 'exit') { ctx.fillStyle = 'rgba(255,61,154,0.5)'; ctx.fillRect(Math.round(x), 0, 2, h); }
+      else { ctx.fillStyle = 'rgba(46,232,158,0.4)'; ctx.fillRect(Math.round(x), 0, 1, h); }
+    }
+    // 売買/ロスカットの丸印を「時刻×価格」の正確な座標に描く（価格ラベルつき）
+    if (series && eventDetails.length) {
+      ctx.font = '700 10.5px "IBM Plex Sans JP", sans-serif';
+      ctx.textBaseline = 'middle';
+      for (const e of eventDetails) {
+        const x = ts.timeToCoordinate(e.time);
+        const y = series.priceToCoordinate(e.price);
+        if (x == null || y == null) continue;
+        const col = e.kind === 'entry' ? '#2ee89e' : '#ff3d9a';
+        ctx.beginPath();
+        ctx.arc(x, y, 4.5, 0, Math.PI * 2);
+        ctx.fillStyle = col;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = '#0a0d12';
+        ctx.stroke();
+        // 価格ラベル（ハロー付きでローソク上でも読める）。買は左、ロスカットは右に寄せる
+        const label = Math.round(e.price).toLocaleString();
+        const tw = ctx.measureText(label).width;
+        let lx = e.kind === 'entry' ? x - 8 - tw : x + 8;
+        ctx.textAlign = 'left';
+        if (lx < 2) lx = x + 8;
+        if (lx + tw > w) lx = x - 8 - tw;
+        ctx.lineWidth = 2.5;
+        ctx.strokeStyle = 'rgba(6,8,12,0.92)';
+        ctx.strokeText(label, lx, y);
+        ctx.fillStyle = col;
+        ctx.fillText(label, lx, y);
       }
     }
   }
@@ -168,33 +192,23 @@ CX.chart = (function () {
     series.setMarkers(dayMarkers.concat(tradeMarkers).sort((a, b) => a.time - b.time));
   }
 
-  /* エントリー/決済の丸印（価格つき）＋イベント縦線＋タップ用の明細 */
+  /* エントリー/決済: 縦線＋タップ明細を用意し、丸印は drawBands で「時刻×価格」の正確な座標に描く
+     （lightweight-chartsのマーカーはローソクの上下にしか置けず価格位置にならないため） */
   function setTrades(S) {
     if (!series || !S) return;
-    tradeMarkers = [];
+    tradeMarkers = []; // 売買はマーカーではなくキャンバス描画にする
     eventLines = [];
     eventDetails = [];
-    const px = v => Math.round(v).toLocaleString();
-    const entry = (t, size, price, faded) => {
+    const add = (t, kind, price, size, reason) => {
       const bt = bucketOf(t);
-      tradeMarkers.push({
-        time: bt / 1000, position: 'belowBar', shape: 'circle',
-        color: faded ? '#2b5aa8' : '#3d87ff', text: px(price)
-      });
-      eventLines.push({ t: bt, kind: 'entry' });
-      eventDetails.push({ time: bt / 1000, exactT: t, kind: 'entry', size, price });
+      eventLines.push({ t: bt, kind });
+      eventDetails.push({ time: bt / 1000, exactT: t, kind, price, size, reason });
     };
     for (const h of S.history) {
-      entry(h.tOpen, h.size, h.entry, true);
-      const bt = bucketOf(h.tClose);
-      tradeMarkers.push({
-        time: bt / 1000, position: 'aboveBar', shape: 'circle',
-        color: '#f5453c', text: px(h.exit)
-      });
-      eventLines.push({ t: bt, kind: 'exit' });
-      eventDetails.push({ time: bt / 1000, exactT: h.tClose, kind: 'exit', reason: h.reason, size: h.size, price: h.exit });
+      add(h.tOpen, 'entry', h.entry, h.size);
+      add(h.tClose, 'exit', h.exit, h.size, h.reason);
     }
-    for (const p of S.positions) entry(p.tOpen, p.size, p.entry, false);
+    for (const p of S.positions) add(p.tOpen, 'entry', p.entry, p.size);
     applyMarkers();
     drawBands();
   }
@@ -269,5 +283,14 @@ CX.chart = (function () {
     if (chart) { chart.remove(); chart = null; series = null; }
   }
 
-  return { init, push, setTf, setHistory, refreshLines, setTrades, destroy, get tf() { return tf; } };
+  // 検証用: i番目のイベント丸印の画面座標（px）を返す
+  function eventScreenPos(i) {
+    const e = eventDetails[i];
+    if (!e || !chart || !series) return null;
+    const x = chart.timeScale().timeToCoordinate(e.time);
+    const y = series.priceToCoordinate(e.price);
+    return (x == null || y == null) ? null : { x, y, kind: e.kind, price: e.price };
+  }
+
+  return { init, push, setTf, setHistory, refreshLines, setTrades, destroy, eventScreenPos, get tf() { return tf; }, get events() { return eventDetails; } };
 })();

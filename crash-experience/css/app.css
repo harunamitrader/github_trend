@@ -109,8 +109,8 @@ button{font-family:var(--sans);color:var(--text);background:none;border:none;cur
 .ctip-row{font-family:var(--mono);font-size:11px;line-height:1.5}
 .ctip-row+.ctip-row{margin-top:6px;padding-top:6px;border-top:1px solid var(--line)}
 .ctip-h{font-weight:700;font-size:11.5px}
-.ctip-buy .ctip-h{color:var(--blue)}
-.ctip-cut .ctip-h{color:var(--red)}
+.ctip-buy .ctip-h{color:#2ee89e}
+.ctip-cut .ctip-h{color:#ff3d9a}
 .ctip-d{color:var(--dim);font-size:10px}
 .ctip-p{color:var(--text);font-size:13px;font-weight:700}
 .margin-banner{background:rgba(255,176,46,.12);color:var(--amber);font-size:11px;font-weight:700;text-align:center;padding:6px;border-bottom:1px solid rgba(255,176,46,.3);animation:blink 1.2s step-end infinite}
