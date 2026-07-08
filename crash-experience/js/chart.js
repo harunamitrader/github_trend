@@ -5,6 +5,7 @@ CX.chart = (function () {
   let dayMarkers = [], lastDayKey = null;
   let tradeMarkers = [], fitAll = false;
   let dayBands = [], bandCanvas = null, bandRO = null; // 取引日ごとの背景ストライプ
+  let eventLines = []; // {t, kind:'entry'|'exit'} イベント地点の縦線
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
 
   function labelOf(sec) {
@@ -19,7 +20,7 @@ CX.chart = (function () {
     anonymBase = anonBase;
     tf = tf0 || 1;
     fitAll = !!(opts && opts.fitAll);
-    dayMarkers = []; lastDayKey = null; tradeMarkers = []; dayBands = [];
+    dayMarkers = []; lastDayKey = null; tradeMarkers = []; dayBands = []; eventLines = [];
     const el = CX.$('chart');
     el.innerHTML = '';
     if (bandRO) { bandRO.disconnect(); bandRO = null; }
@@ -73,19 +74,30 @@ CX.chart = (function () {
     ctx.clearRect(0, 0, w, h);
     if (dayBands.length < 2) return;
     const ts = chart.timeScale();
+    // 取引日の帯＋境界線
     for (let i = 0; i < dayBands.length; i++) {
       const x0 = ts.timeToCoordinate(dayBands[i] / 1000);
       if (x0 == null) continue;
-      // 1日おきに薄い帯
       if (i % 2 === 1) {
         const x1 = i + 1 < dayBands.length ? ts.timeToCoordinate(dayBands[i + 1] / 1000) : w;
         const a = Math.max(0, x0), b = Math.min(w, x1 == null ? w : x1);
-        if (b > a) { ctx.fillStyle = 'rgba(130,155,195,0.09)'; ctx.fillRect(a, 0, b - a, h); }
+        if (b > a) { ctx.fillStyle = 'rgba(130,155,195,0.07)'; ctx.fillRect(a, 0, b - a, h); }
       }
-      // 各取引日の境界に細い縦線
       if (x0 >= 0 && x0 <= w) {
-        ctx.fillStyle = 'rgba(150,170,200,0.18)';
+        ctx.fillStyle = 'rgba(150,170,200,0.13)';
         ctx.fillRect(Math.round(x0), 0, 1, h);
+      }
+    }
+    // イベント縦線: 買=青, ロスカット=赤（暴落の瞬間を強調）
+    for (const e of eventLines) {
+      const x = ts.timeToCoordinate(e.t / 1000);
+      if (x == null || x < 0 || x > w) continue;
+      if (e.kind === 'exit') {
+        ctx.fillStyle = 'rgba(245,69,60,0.7)';
+        ctx.fillRect(Math.round(x), 0, 2, h);
+      } else {
+        ctx.fillStyle = 'rgba(61,135,255,0.55)';
+        ctx.fillRect(Math.round(x), 0, 1, h);
       }
     }
   }
@@ -115,24 +127,30 @@ CX.chart = (function () {
     series.setMarkers(dayMarkers.concat(tradeMarkers).sort((a, b) => a.time - b.time));
   }
 
-  /* エントリー/決済の丸印（建玉と履歴から毎回組み直す） */
+  /* エントリー/決済のマーカー＋イベント縦線（建玉と履歴から毎回組み直す） */
   function setTrades(S) {
     if (!series || !S) return;
     tradeMarkers = [];
-    const reasonLabel = { manual: '決済', stop: '逆指', losscut: 'LC', force_close: '強制' };
-    const entry = (t, size, px, faded) => tradeMarkers.push({
-      time: bucketOf(t) / 1000, position: 'belowBar', shape: 'circle',
-      color: faded ? '#2b5aa8' : '#3d87ff', size: 1, text: '買' + size + ' ' + Math.round(px).toLocaleString()
-    });
-    for (const h of S.history) {
-      entry(h.tOpen, h.size, h.entry, true);
+    eventLines = [];
+    const reasonLabel = { manual: '決済', stop: '逆指', losscut: 'ロスカット', force_close: '強制決済' };
+    const entry = (t, size, faded) => {
       tradeMarkers.push({
-        time: bucketOf(h.tClose) / 1000, position: 'aboveBar', shape: 'circle',
-        color: '#f5453c', size: 1, text: (reasonLabel[h.reason] || '決済') + ' ' + Math.round(h.exit).toLocaleString()
+        time: bucketOf(t) / 1000, position: 'belowBar', shape: 'arrowUp',
+        color: faded ? '#2b5aa8' : '#3d87ff', text: '買' + size
       });
+      eventLines.push({ t: bucketOf(t), kind: 'entry' });
+    };
+    for (const h of S.history) {
+      entry(h.tOpen, h.size, true);
+      tradeMarkers.push({
+        time: bucketOf(h.tClose) / 1000, position: 'aboveBar', shape: 'arrowDown',
+        color: '#f5453c', text: reasonLabel[h.reason] || '決済'
+      });
+      eventLines.push({ t: bucketOf(h.tClose), kind: 'exit' });
     }
-    for (const p of S.positions) entry(p.tOpen, p.size, p.entry, false);
+    for (const p of S.positions) entry(p.tOpen, p.size, false);
     applyMarkers();
+    drawBands();
   }
 
   /* 全履歴を現在のTFで組み直す */
@@ -176,29 +194,26 @@ CX.chart = (function () {
     setHistory(bars, uptoIdx);
   }
 
-  /* 建玉・逆指値ライン */
+  /* 横線は右端で潰れるので、建玉ごとには引かず「平均建値」と「直近LC」の2本に集約 */
   function refreshLines(positions) {
     if (!series) return;
     for (const l of priceLines) series.removePriceLine(l);
     priceLines = [];
+    if (!positions.length) return;
+    let sz = 0, wsum = 0, nearestLc = null;
     for (const p of positions) {
+      sz += p.size; wsum += p.entry * p.size;
+      if (p.losscut != null && (nearestLc == null || p.losscut > nearestLc)) nearestLc = p.losscut;
+    }
+    priceLines.push(series.createPriceLine({
+      price: wsum / sz, color: '#3d87ff', lineWidth: 1,
+      lineStyle: LightweightCharts.LineStyle.Dashed, title: '平均建値 ' + sz + '枚'
+    }));
+    if (nearestLc != null) {
       priceLines.push(series.createPriceLine({
-        price: p.entry, color: p.side === 1 ? '#3d87ff' : '#f5453c', lineWidth: 1,
-        lineStyle: LightweightCharts.LineStyle.Dashed,
-        title: (p.side === 1 ? '買' : '売') + p.size
+        price: nearestLc, color: '#f5453c', lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.SparseDotted, title: 'ロスカット'
       }));
-      if (p.losscut != null) {
-        priceLines.push(series.createPriceLine({
-          price: p.losscut, color: '#f5453c', lineWidth: 1,
-          lineStyle: LightweightCharts.LineStyle.SparseDotted, title: 'LC'
-        }));
-      }
-      if (p.stop != null) {
-        priceLines.push(series.createPriceLine({
-          price: p.stop, color: '#ffb02e', lineWidth: 1,
-          lineStyle: LightweightCharts.LineStyle.Dotted, title: '逆指値'
-        }));
-      }
     }
   }
 
