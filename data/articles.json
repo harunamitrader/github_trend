@@ -8,6 +8,42 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-08-claudecode-v2-1-204",
+      "title": "Claude Code: v2.1.204",
+      "dek": "ヘッドセッション中の SessionStart フックイベントのストリーミング不具合を修正し、リモートワーカーの意図しない刈り取りを防止するパッチ。",
+      "summary": "Claude Codeのv2.1.204リリース。ヘッドレスセッションでのSessionStartフック実行時にフックイベントがストリーミングされず、リモートワーカーインスタンスがアイドル刈り取りされるバグを修正。",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-08T04:02:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-08-claudecode-v2-1-204.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-08-geminicli-v0-50-0",
+      "title": "Gemini CLI: v0.50.0",
+      "dek": "ツールレジストリ・ディスカバリ機能の導入、NPMインストール検証時のセキュリティ保護、CIバイナリ競合防止などを実施した正式バージョンリリース。",
+      "summary": "Gemini CLIのv0.50.0正式リリース。自律エージェント向け外部コマンド・MCP等のツールレジストリ自動ディスカバリ機能の追加、NPM ciリリース検証時のスクリプト実行無効化によるセキュリティ保護、CI上でのバイナリシャドウイングバグの修正などを実施。",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-08T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-08-geminicli-v0-50-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-08-codex-v0-19-1",
+      "title": "OpenAI Codex: v0.19.1",
+      "dek": "Ultragoalの完了判定ラグの解消や、Ralplanの終端状態同期の改善、ミッションキュー・ランナーの最小構成（MVP）などを導入したパッチアップデート。",
+      "summary": "OpenAI Codex (oh-my-codex)のv0.19.1リリース。Ultragoalコダクターのタスク完了ステート累積追跡不具合、Ralplanの終端化ラグおよびStopキャッシュ無限ループの解消、不正JSONサマリー時の堅牢化、ミッションキュー・ランナーMVPの導入などを実施。",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-08T04:00:00+09:00",
+      "toolName": "OpenAI Codex",
+      "toolUrl": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "articleUrl": "./articles/tools/2026-07-08-codex-v0-19-1.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-07-cline-cli-v3-0-38",
       "title": "Cline: cli-v3.0.38",
       "dek": "Plan/Act用の新しいブランドパレット（Amber/Blue）や再デザインされたチャット入力フレーム、低スペックモデル向け入力補正などを導入したアップデート。",

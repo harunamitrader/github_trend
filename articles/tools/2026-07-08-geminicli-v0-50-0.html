@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ツールレジストリ・ディスカバリ機能の導入、NPMインストール検証時のセキュリティ保護、CIバイナリ競合防止などを実施した正式バージョンリリース。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.50.0: ツールレジストリ・ディスカバリ機能の導入とリリースプロセスの安全対策</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.50.0: ツールレジストリ・ディスカバリ機能の導入とリリースプロセスの安全対策</h1>
+      <p class="article-dek">ツールレジストリ・ディスカバリ機能の導入、NPMインストール検証時のセキュリティ保護、CIバイナリ競合防止などを実施した正式バージョンリリース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-08 -->
+          <strong>2026-07-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.50.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Gemini CLI v0.50.0 は、自律エージェントが使用する周辺ツールの管理機能強化や、本番公開プロセスでの安全性とCIプロセスの最適化を盛り込んだ正式リリースです。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>ツールレジストリ・ディスカバリ（Tool Registry Discovery）機能:</strong> 自律エージェントがローカルやリモートの環境から使用可能な外部ツールを発見し、自動登録するレジストリディスカバリ機能が追加されました。</li>
+            <li><strong>NPM ci 検証におけるセキュリティ対策:</strong> リリースの検証ステップ（NPM ci）実行時に外部スクリプトの実行を無効化（ignore scripts）し、不審な外部コードの読み込みを遮断しました。</li>
+            <li><strong>リリース検証のバイナリ衝突修正:</strong> CI上でリリース検証を行う際、ローカルワークスペース内の既存バイナリが検証対象をシャドウイング（衝突・上書き）してしまう不具合を解消しました。</li>
+            <li><strong>ジョブクラッシュ防止とNPMリリース保護の強化:</strong> CI上のデプロイおよびプロモートジョブで発生する想定外のクラッシュや、壊れたパッケージがNPMへリリースされてしまうリスクを防止する安全機構が導入されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>「ツールレジストリ・ディスカバリ」の追加により、エージェント環境に新しいコマンドラインツールや外部API（MCPサーバー等）を追加した際、Gemini CLI が自動でそれを検出・理解してツールキットに組み込めるようになり、自律能力の柔軟性が向上します。また、NPMでの検証保護やCIシャドウイングの修正により、開発元から配布されるプロダクトパッケージのデリバリー信頼性とセキュリティが大幅に強化されています。</p>
+
+        <h2>まとめ</h2>
+        <p>ツール発見機能の強化と、リリースプロセスのセキュリティ強化を両立させた、実用度の高いメジャーマイナー（v0.50.0）正式リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

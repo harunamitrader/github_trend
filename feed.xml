@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Jul 2026 05:00:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 04:01:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: v2.1.204]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-claudecode-v2-1-204.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-claudecode-v2-1-204.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ヘッドセッション中の SessionStart フックイベントのストリーミング不具合を修正し、リモートワーカーの意図しない刈り取りを防止するパッチ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI: v0.50.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-geminicli-v0-50-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-geminicli-v0-50-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ツールレジストリ・ディスカバリ機能の導入、NPMインストール検証時のセキュリティ保護、CIバイナリ競合防止などを実施した正式バージョンリリース。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Codex: v0.19.1]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-codex-v0-19-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-codex-v0-19-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Ultragoalの完了判定ラグの解消や、Ralplanの終端状態同期の改善、ミッションキュー・ランナーの最小構成（MVP）などを導入したパッチアップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline: cli-v3.0.38]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-07-cline-cli-v3-0-38.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[美しく強力なセルフホスト対応のレトロゲーム ROM 管理・ブラウザエミュレータプレイヤー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[herdr]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-ogulcancelik-herdr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-ogulcancelik-herdr.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ターミナル上で複数のAIコーディングエージェントを並行監視・管理できるRust製マルチプレクサ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agentskills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-agentskills-agentskills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-agentskills-agentskills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに専門知識と特定のワークフローを動的に与えるためのオープンな共通規格「Agent Skills」の仕様・設計ドキュメント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini 3 発表と旧 Preview モデルの廃止スケジュール]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-05-gemini-3-release-preview-deprecation.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1Mトークンコンテキストと推論性能を強化した「Gemini 3」シリーズの発表と、Gemini 2.5 Pro および Gemini 3 Flash Preview 等の旧Previewモデルの2026年7月31日廃止スケジュール。]]></description>
     </item>
   </channel>
 </rss>
