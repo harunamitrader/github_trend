@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>暴落体験</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📉</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@500;700&family=Shippori+Mincho:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="phone">
+
+  <!-- ============ HOME ============ -->
+  <section id="scr-home" class="screen">
+    <header class="home-head">
+      <h1 class="app-title">暴落<span>体験</span></h1>
+      <p class="app-sub">CRASH EXPERIENCE — 爆損は、実弾の前に。</p>
+    </header>
+    <div class="home-body">
+      <div id="story-list"></div>
+      <footer class="disclaimer">
+        本アプリは教育用シミュレーターであり、投資助言・勧誘ではありません。<br>
+        登場する人物・口座はフィクションです。価格はすべて実際の記録です。
+      </footer>
+    </div>
+  </section>
+
+  <!-- ============ DATA ============ -->
+  <section id="scr-data" class="screen hidden">
+    <header class="sub-head">
+      <button class="back-btn" data-nav="home">‹</button>
+      <h2>データ管理</h2>
+    </header>
+    <div class="pad">
+      <div id="dropzone" class="dropzone">
+        <div class="dz-icon">⇩</div>
+        <div>ヒストリカルデータ（.zip / .csv）を<br>ここにドロップ、またはタップして選択</div>
+        <div class="dz-note">GMOクリック証券 会員ページ →【CFD】→【ヒストリカルデータ】でDLしたファイル<br>※同梱データ（米国NQ100 2020年・同ミニ 2022年1月）は初回起動時に自動で取込済み</div>
+        <input type="file" id="file-input" multiple accept=".zip,.csv" hidden>
+      </div>
+      <div id="import-log" class="import-log"></div>
+      <h2 class="sec-label">取込済みデータ</h2>
+      <div id="symbol-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROFILE ============ -->
+  <section id="scr-profile" class="screen hidden">
+    <header class="sub-head">
+      <button class="back-btn" data-nav="home">‹</button>
+      <h2>プロファイル</h2>
+    </header>
+    <div class="pad">
+      <p class="profile-note">損益を「あなたの生活」に翻訳するために使います。端末内にのみ保存され、送信されません。仮想口座の残高はあなたの貯金額になります。</p>
+      <label class="field"><span>月の生活費（万円）</span><input type="number" id="pf-cost" min="1" placeholder="20"></label>
+      <label class="field"><span>貯金額（万円）</span><input type="number" id="pf-save" min="1" placeholder="100"></label>
+      <label class="field"><span>月収（万円・任意）</span><input type="number" id="pf-income" min="0" placeholder="25"></label>
+      <button id="pf-save-btn" class="primary-btn">保存する</button>
+      <button id="pf-clear-btn" class="ghost-btn">プロファイルを消去（残高100万円で体験）</button>
+    </div>
+  </section>
+
+  <!-- ============ TRADE ============ -->
+  <section id="scr-trade" class="screen hidden">
+    <header class="trade-head">
+      <button id="tr-quit" class="back-btn">‹</button>
+      <div class="tr-title">
+        <div id="tr-symbol">—</div>
+        <div id="tr-clock" class="tr-clock">—</div>
+      </div>
+      <button id="tr-skip" class="chip-btn hidden">⏩ ｽｷｯﾌﾟ</button>
+      <button id="tr-speed" class="chip-btn">600x</button>
+      <button id="tr-play" class="chip-btn play">⏸</button>
+    </header>
+
+    <div class="quote-panel">
+      <div class="q-side q-bid"><span class="q-label">BID <em>売</em></span><span id="q-bid" class="q-price">—</span></div>
+      <div class="q-mid"><span id="q-spread">—</span><span class="q-sp-label">spread</span></div>
+      <div class="q-side q-ask"><span class="q-label">ASK <em>買</em></span><span id="q-ask" class="q-price">—</span></div>
+    </div>
+
+    <div id="chart-wrap">
+      <div id="chart"></div>
+      <div class="tf-row">
+        <button class="tf-btn active" data-tf="1">1分</button>
+        <button class="tf-btn" data-tf="5">5分</button>
+        <button class="tf-btn" data-tf="60">60分</button>
+      </div>
+    </div>
+
+    <div id="margin-banner" class="margin-banner hidden">⚠ 追証発生水準です — 証拠金維持率100%割れ</div>
+
+    <div class="acct-panel">
+      <div class="acct-row">
+        <div class="acct-cell"><span class="acct-label">純資産</span><span id="ac-equity" class="num">—</span></div>
+        <div class="acct-cell"><span class="acct-label">維持率</span><span id="ac-ratio" class="num">—</span></div>
+      </div>
+      <div class="acct-row">
+        <div class="acct-cell wide"><span class="acct-label">評価損益</span><span id="ac-upl" class="num">—</span></div>
+      </div>
+      <div id="ac-life" class="acct-life"></div>
+    </div>
+
+    <div class="order-panel">
+      <button id="btn-sell" class="ord-btn sell"><span>売</span><span id="ord-bid" class="ord-px">—</span></button>
+      <button id="btn-buy" class="ord-btn buy"><span>買</span><span id="ord-ask" class="ord-px">—</span></button>
+    </div>
+
+    <div class="pos-tabs">
+      <button class="pos-tab active" data-tab="pos">建玉 <span id="pos-count">0</span></button>
+      <button class="pos-tab" data-tab="hist">履歴 <span id="hist-count">0</span></button>
+    </div>
+    <div id="pos-list" class="pos-list"></div>
+    <div id="hist-list" class="pos-list hidden"></div>
+  </section>
+
+  <!-- ============ RESULT ============ -->
+  <section id="scr-result" class="screen hidden">
+    <div id="result-body"></div>
+  </section>
+
+  <!-- ============ ORDER SHEET ============ -->
+  <div id="order-sheet" class="sheet hidden">
+    <div class="sheet-card">
+      <div id="os-title" class="os-title">新規注文</div>
+      <div class="os-row"><span>取引数量</span>
+        <div class="stepper">
+          <button data-d="-10">-10</button><button data-d="-1">-1</button>
+          <span id="os-size" class="num">1</span>
+          <button data-d="1">+1</button><button data-d="10">+10</button>
+        </div>
+      </div>
+      <div class="os-info"><span>必要証拠金</span><span id="os-margin" class="num">—</span></div>
+      <div class="os-info"><span>発注可能上限</span><span id="os-max" class="num">—</span></div>
+      <div class="os-row"><span>逆指値（損切り）</span>
+        <div class="stop-opts">
+          <button class="stop-opt active" data-stop="0">なし</button>
+          <button class="stop-opt" data-stop="0.005">0.5%</button>
+          <button class="stop-opt" data-stop="0.01">1%</button>
+          <button class="stop-opt" data-stop="0.02">2%</button>
+        </div>
+      </div>
+      <div id="os-stop-px" class="os-stop-px"></div>
+      <button id="os-submit" class="primary-btn">発注する</button>
+      <button id="os-cancel" class="ghost-btn">キャンセル</button>
+    </div>
+  </div>
+
+  <!-- ============ SLEEP OVERLAY ============ -->
+  <div id="ov-sleep" class="overlay hidden">
+    <div class="ov-inner mincho">
+      <div id="sleep-title" class="ov-big">市場が閉まりました</div>
+      <div id="sleep-sub" class="ov-sub">あなたは眠っています。<br>ポジションは持ち越されます。</div>
+      <div id="sleep-tap" class="ov-tap">タップして朝を迎える</div>
+    </div>
+  </div>
+
+  <!-- ============ LOSSCUT OVERLAY ============ -->
+  <div id="ov-losscut" class="overlay red hidden">
+    <div class="ov-inner mincho">
+      <div class="ov-kicker">証拠金維持率 50% 割れ</div>
+      <div class="ov-big">ロスカット執行</div>
+      <div id="lc-detail" class="ov-sub"></div>
+      <div class="ov-tap">タップして続ける</div>
+    </div>
+  </div>
+
+  <!-- ============ STORY LAYER ============ -->
+  <div id="story-card" class="story-card hidden"></div>
+  <div id="story-dark" class="story-dark hidden">
+    <div id="sd-text" class="mincho"></div>
+    <div class="ov-tap">タップ</div>
+  </div>
+  <div id="story-window" class="story-window hidden">
+    <div id="sw-text" class="mincho"></div>
+    <div class="sw-next">▼ タップ</div>
+  </div>
+  <div id="story-choice" class="sheet hidden">
+    <div class="sheet-card">
+      <div class="os-title mincho"></div>
+      <div class="stch-opts"></div>
+    </div>
+  </div>
+
+  <!-- ============ PUSH NOTIFICATION ============ -->
+  <div id="push-note" class="push-note hidden">
+    <div class="pn-bar"></div>
+    <div class="pn-main">
+      <div class="pn-title"></div>
+      <div class="pn-body num"></div>
+    </div>
+  </div>
+
+  <!-- ============ TOAST ============ -->
+  <div id="toast" class="toast hidden"></div>
+</div>
+
+<script src="vendor/lightweight-charts.standalone.production.js"></script>
+<script src="vendor/fflate.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/db.js"></script>
+<script src="js/importer.js"></script>
+<script src="js/scenarios.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/trade.js"></script>
+<script src="js/screens.js"></script>
+<script src="js/story-data.js"></script>
+<script src="js/story.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
