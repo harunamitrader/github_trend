@@ -6,7 +6,7 @@ CX.chart = (function () {
   let tradeMarkers = [], fitAll = false;
   let dayBands = [], bandCanvas = null, bandRO = null; // 取引日ごとの背景ストライプ
   let eventLines = []; // {t, kind:'entry'|'exit'} イベント地点の縦線
-  let eventDetails = [], tipEl = null; // タップで価格・日時を表示
+  let eventDetails = [], eventPairs = [], tipEl = null; // タップで価格・日時を表示 / エントリー→ロスカットの矢印
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
   const dtLabel = ms => { const d = new Date(ms); return (d.getUTCMonth() + 1) + '/' + d.getUTCDate() + '(' + WD[d.getUTCDay()] + ') ' + String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0'); };
 
@@ -123,42 +123,47 @@ CX.chart = (function () {
         ctx.fillRect(Math.round(x0), 0, 1, h);
       }
     }
-    // イベント縦線（ローソクと被らない色: 買=緑, ロスカット=マゼンタ）
-    for (const e of eventLines) {
-      const x = ts.timeToCoordinate(e.t / 1000);
-      if (x == null || x < 0 || x > w) continue;
-      if (e.kind === 'exit') { ctx.fillStyle = 'rgba(255,61,154,0.5)'; ctx.fillRect(Math.round(x), 0, 2, h); }
-      else { ctx.fillStyle = 'rgba(46,232,158,0.4)'; ctx.fillRect(Math.round(x), 0, 1, h); }
+    if (!series) return;
+    // エントリー→ロスカットの矢印（どの建玉が切られたか。薄く表示）
+    for (const pr of eventPairs) {
+      const x0 = ts.timeToCoordinate(pr.t0), y0 = series.priceToCoordinate(pr.p0);
+      const x1 = ts.timeToCoordinate(pr.t1), y1 = series.priceToCoordinate(pr.p1);
+      if (x0 == null || y0 == null || x1 == null || y1 == null) continue;
+      ctx.strokeStyle = 'rgba(255,61,154,0.5)';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke();
+      const ang = Math.atan2(y1 - y0, x1 - x0), ah = 7;
+      ctx.fillStyle = 'rgba(255,61,154,0.6)';
+      ctx.beginPath();
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x1 - ah * Math.cos(ang - 0.4), y1 - ah * Math.sin(ang - 0.4));
+      ctx.lineTo(x1 - ah * Math.cos(ang + 0.4), y1 - ah * Math.sin(ang + 0.4));
+      ctx.closePath(); ctx.fill();
     }
-    // 売買/ロスカットの丸印を「時刻×価格」の正確な座標に描く（価格ラベルつき）
-    if (series && eventDetails.length) {
-      ctx.font = '700 10.5px "IBM Plex Sans JP", sans-serif';
-      ctx.textBaseline = 'middle';
-      for (const e of eventDetails) {
-        const x = ts.timeToCoordinate(e.time);
-        const y = series.priceToCoordinate(e.price);
-        if (x == null || y == null) continue;
-        const col = e.kind === 'entry' ? '#2ee89e' : '#ff3d9a';
-        ctx.beginPath();
-        ctx.arc(x, y, 4.5, 0, Math.PI * 2);
-        ctx.fillStyle = col;
-        ctx.fill();
-        ctx.lineWidth = 1.5;
-        ctx.strokeStyle = '#0a0d12';
-        ctx.stroke();
-        // 価格ラベル（ハロー付きでローソク上でも読める）。買は左、ロスカットは右に寄せる
-        const label = Math.round(e.price).toLocaleString();
-        const tw = ctx.measureText(label).width;
-        let lx = e.kind === 'entry' ? x - 8 - tw : x + 8;
-        ctx.textAlign = 'left';
-        if (lx < 2) lx = x + 8;
-        if (lx + tw > w) lx = x - 8 - tw;
-        ctx.lineWidth = 2.5;
-        ctx.strokeStyle = 'rgba(6,8,12,0.92)';
-        ctx.strokeText(label, lx, y);
-        ctx.fillStyle = col;
-        ctx.fillText(label, lx, y);
-      }
+    // 売買/ロスカットの丸印を「時刻×価格」の正確な座標に描く（種別＋枚数ラベル）
+    ctx.font = '700 10.5px "IBM Plex Sans JP", sans-serif';
+    ctx.textBaseline = 'middle';
+    for (const e of eventDetails) {
+      const x = ts.timeToCoordinate(e.time);
+      const y = series.priceToCoordinate(e.price);
+      if (x == null || y == null) continue;
+      const isEntry = e.kind === 'entry';
+      const col = isEntry ? (e.faded ? '#2b7a5c' : '#2ee89e') : '#ff3d9a';
+      ctx.globalAlpha = e.faded ? 0.6 : 1;
+      ctx.beginPath();
+      ctx.arc(x, y, 4.5, 0, Math.PI * 2);
+      ctx.fillStyle = col; ctx.fill();
+      ctx.lineWidth = 1.5; ctx.strokeStyle = '#0a0d12'; ctx.stroke();
+      const label = isEntry ? ('買い ' + e.size + '枚') : ('ロスカット ' + e.size + '枚');
+      const tw = ctx.measureText(label).width;
+      let lx = isEntry ? x - 8 - tw : x + 8;
+      ctx.textAlign = 'left';
+      if (lx < 2) lx = x + 8;
+      if (lx + tw > w) lx = x - 8 - tw;
+      ctx.lineWidth = 2.5; ctx.strokeStyle = 'rgba(6,8,12,0.92)';
+      ctx.strokeText(label, lx, y);
+      ctx.fillStyle = col; ctx.fillText(label, lx, y);
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -192,23 +197,22 @@ CX.chart = (function () {
     series.setMarkers(dayMarkers.concat(tradeMarkers).sort((a, b) => a.time - b.time));
   }
 
-  /* エントリー/決済: 縦線＋タップ明細を用意し、丸印は drawBands で「時刻×価格」の正確な座標に描く
+  /* エントリー/決済: タップ明細を用意し、丸印は drawBands で「時刻×価格」の正確な座標に描く
      （lightweight-chartsのマーカーはローソクの上下にしか置けず価格位置にならないため） */
   function setTrades(S) {
     if (!series || !S) return;
-    tradeMarkers = []; // 売買はマーカーではなくキャンバス描画にする
+    tradeMarkers = [];
     eventLines = [];
     eventDetails = [];
-    const add = (t, kind, price, size, reason) => {
-      const bt = bucketOf(t);
-      eventLines.push({ t: bt, kind });
-      eventDetails.push({ time: bt / 1000, exactT: t, kind, price, size, reason });
-    };
+    eventPairs = [];
+    // faded: ロスカット済みの買い建玉は薄く表示（生きている建玉を目立たせる）
     for (const h of S.history) {
-      add(h.tOpen, 'entry', h.entry, h.size);
-      add(h.tClose, 'exit', h.exit, h.size, h.reason);
+      eventDetails.push({ time: bucketOf(h.tOpen) / 1000, exactT: h.tOpen, kind: 'entry', price: h.entry, size: h.size, faded: true });
+      eventDetails.push({ time: bucketOf(h.tClose) / 1000, exactT: h.tClose, kind: 'exit', price: h.exit, size: h.size, reason: h.reason });
+      // どの建玉が切られたか：エントリー→ロスカットの矢印
+      eventPairs.push({ t0: bucketOf(h.tOpen) / 1000, p0: h.entry, t1: bucketOf(h.tClose) / 1000, p1: h.exit });
     }
-    for (const p of S.positions) add(p.tOpen, 'entry', p.entry, p.size);
+    for (const p of S.positions) eventDetails.push({ time: bucketOf(p.tOpen) / 1000, exactT: p.tOpen, kind: 'entry', price: p.entry, size: p.size, faded: false });
     applyMarkers();
     drawBands();
   }
@@ -279,7 +283,7 @@ CX.chart = (function () {
 
   function destroy() {
     if (bandRO) { bandRO.disconnect(); bandRO = null; }
-    bandCanvas = null; tipEl = null; eventDetails = [];
+    bandCanvas = null; tipEl = null; eventDetails = []; eventPairs = [];
     if (chart) { chart.remove(); chart = null; series = null; }
   }
 

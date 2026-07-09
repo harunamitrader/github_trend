@@ -6,6 +6,7 @@ CX.story = (function () {
 
   const isActive = () => !!(ST && ST.active);
   const isJumping = () => !!(ST && ST.jumping);
+  const isReplaying = () => !!(ST && ST.replaying);
   const saveKey = id => 'cx_save_' + id;
 
   function hasSave(id) {
@@ -26,13 +27,14 @@ CX.story = (function () {
     let S;
     try { S = await E.start(story.scenario, story.symbol, meta); }
     catch (e) { return CX.toast(e.message, 'bad'); }
-    ST = { story, i: 0, active: true, jumping: false, picks: [], watch: null, skipTo: null, log: [] };
+    ST = { story, i: 0, active: true, jumping: false, replaying: false, picks: [], watch: null, skipTo: null, log: [] };
     CX.chart.init(null, 1440, { fitAll: true }); // 日足・全体像
     document.querySelector('.tf-row').style.display = '';
     CX.nav('trade');
     $('tr-symbol').textContent = meta.name;
     $('tr-speed').textContent = S.speed + 'x';
     $('tr-play').textContent = '▶';
+    $('tr-play').classList.add('hidden'); // 再生ボタンはリプレイ中だけ表示（ノベル中は出さない）
     $('margin-banner').classList.add('hidden');
     $('tr-skip').onclick = doSkip;
     $('tr-log').classList.remove('hidden');
@@ -123,7 +125,7 @@ CX.story = (function () {
   }
 
   function hideAll() {
-    ['story-window', 'story-dark', 'story-card', 'story-choice', 'story-log', 'tr-skip'].forEach(id => $(id).classList.add('hidden'));
+    ['story-window', 'story-dark', 'story-card', 'story-choice', 'story-log', 'tr-skip', 'tr-play'].forEach(id => $(id).classList.add('hidden'));
   }
 
   /* ---------- 履歴（バックログ） ---------- */
@@ -268,17 +270,21 @@ CX.story = (function () {
     if (S.bars[S.idx][0] >= to) return cb();
     S.speed = b.speed || 600;
     $('tr-speed').textContent = S.speed + 'x';
+    ST.replaying = true;
     $('tr-play').textContent = '⏸';
+    $('tr-play').classList.remove('hidden'); // リプレイ中は再生/一時停止を許可
     ST.skipTo = b.noskip ? null : to;
     $('tr-skip').classList.toggle('hidden', !ST.skipTo);
     let done = false;
     const fire = () => {
       if (done || !ST || !ST.active) return;
       done = true;
+      ST.replaying = false;
       if (ST.watch) { clearInterval(ST.watch); ST.watch = null; }
       ST.skipTo = null;
       $('tr-skip').classList.add('hidden');
       $('tr-play').textContent = '▶';
+      $('tr-play').classList.add('hidden'); // ノベルへ戻る間は再生ボタンを隠す
       CX.trade.render();
       cb();
     };
@@ -360,5 +366,5 @@ CX.story = (function () {
   /* 履歴オーバーレイの閉じるボタン（スクリプトはbody末尾なのでDOMは準備済み） */
   { const c = $('slog-close'); if (c) c.onclick = closeLog; }
 
-  return { start, abort, isActive, isJumping, hasSave, openLog, closeLog };
+  return { start, abort, isActive, isJumping, isReplaying, hasSave, openLog, closeLog };
 })();

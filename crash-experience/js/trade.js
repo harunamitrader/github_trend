@@ -231,6 +231,8 @@ CX.trade = (function () {
     $('tr-play').addEventListener('click', () => {
       const S = E.S;
       if (!S || S.ended || S.halt) return;
+      // 追体験: リプレイ中だけ一時停止/再生できる（ノベル表示中は再生させない＝タイミングずれ防止）
+      if (CX.story && CX.story.isActive() && !CX.story.isReplaying()) return;
       if (S.playing) { E.pause(); $('tr-play').textContent = '▶'; }
       else { E.play(); $('tr-play').textContent = '⏸'; }
     });
