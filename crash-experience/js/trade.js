@@ -149,6 +149,11 @@ CX.trade = (function () {
   };
   E.on.gap = function (info) {
     if (CX.story && CX.story.isJumping()) return;
+    // モンタージュ中は止まらず自動で寄り越える（睡眠画面を出さない）
+    if (E.S && E.S.montage) {
+      setTimeout(() => { if (E.S && E.S.halt === 'gap') { CX.engine.resumeGap(); } }, 0);
+      return;
+    }
     E.pause();
     const weekend = info.dt >= 20 * 3600000;
     $('sleep-title').textContent = weekend ? '週末 — 市場クローズ' : '取引時間終了';
@@ -195,6 +200,16 @@ CX.trade = (function () {
   };
   E.on.losscut = function (info) {
     const isFc = info.kind === 'force_close';
+    // モンタージュ中・ジャンプ中は全画面演出を出さず、通知＋シェイクだけで流す
+    if (E.S && (E.S.montage || (CX.story && CX.story.isJumping()))) {
+      const lbl = info.items.map(x => (x.side === 1 ? '買' : '売') + x.size + '枚').join('・');
+      CX.notify('exec', isFc ? '全建玉 強制決済' : 'ロスカット執行', lbl + '｜確定損失 ' + CX.yen(info.total, true), 2400);
+      $('margin-banner').classList.add('hidden');
+      $('phone').classList.add('shake');
+      setTimeout(() => $('phone').classList.remove('shake'), 400);
+      CX.chart.setTrades(E.S);
+      return;
+    }
     const ov = $('ov-losscut');
     ov.querySelector('.ov-kicker').textContent = isFc ? '追加証拠金 期限超過' : 'ロスカットレート到達';
     ov.querySelector('.ov-big').textContent = isFc ? '全建玉強制決済' : 'ロスカット執行';

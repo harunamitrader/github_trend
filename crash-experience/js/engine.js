@@ -34,7 +34,7 @@ CX.engine = (function () {
     const spec = CX.importer.KNOWN[symbolCode] || { unit: 10, ccy: 'JPY', cat: 'index' };
     const fx = spec.ccy === 'USD' ? (sc.fx || 150) : 1;
     S = {
-      ghost: !!sc.ghost,
+      ghost: !!sc.ghost, montage: false,
       sc, symbol: symbolCode, symbolName: symbolMeta.name,
       lev: LEV[spec.cat] || 10,
       mul: (spec.unit != null ? spec.unit : 10) * fx,   // 1枚1ポイントあたりの円損益
@@ -178,7 +178,7 @@ CX.engine = (function () {
     if (items.length) {
       const total = items.reduce((a, x) => a + x.pnl, 0);
       S.events.push({ type: 'losscut', t: b[0], pnl: total, n: items.length });
-      pause();
+      if (!S.montage) pause(); // モンタージュ中は止めず一気に流す
       if (on.losscut) on.losscut({ kind: 'losscut', items, total });
     }
   }
@@ -216,7 +216,7 @@ CX.engine = (function () {
       S.events.push({ type: 'force_close', t: b[0], pnl: total, n: items.length });
       S.marginCall = null;
       if (on.margincall) on.margincall(null);
-      pause();
+      if (!S.montage) pause();
       if (on.losscut) on.losscut({ kind: 'force_close', items, total });
     }
   }
@@ -281,13 +281,15 @@ CX.engine = (function () {
     if (S.halt !== 'gap') return null;
     const preUpl = unrealized(cur());
     const preClose = cur()[4]; // 窓前の終値(BID)
+    const hadStop = S.stopAt != null;
     S.halt = null;
     S.skipGap = true;
     step();
+    const stopFired = hadStop && S.stopAt == null; // 窓越えでstopAtに到達し停止した
     const ended = S.ended || S.halt;
     const gapPnl = ended ? 0 : unrealized(cur()) - preUpl;
     const gapPts = ended ? 0 : cur()[1] - preClose; // 窓前終値 → 窓明け始値の値幅
-    play();
+    if (!ended && !stopFired) play(); // stopAtで停止した後に再生し直してエンジンを暴走させない
     return { pnl: gapPnl, pts: gapPts };
   }
 
@@ -302,7 +304,7 @@ CX.engine = (function () {
     let n = Math.floor(S.accum);
     S.accum -= n;
     if (n > 90) n = 90;
-    while (n-- > 0) { if (!step()) break; }
+    while (n-- > 0) { if (!step()) break; if (!S.playing || S.halt) break; } // ロスカット等でpauseしたら即中断
   }
   function play() {
     if (S.ended) return;

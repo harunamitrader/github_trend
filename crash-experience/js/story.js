@@ -15,7 +15,9 @@ CX.story = (function () {
   }
   function saveProgress() {
     if (!ST || !ST.active || ST.jumping) return;
-    try { localStorage.setItem(saveKey(ST.story.id), JSON.stringify({ i: ST.i, picks: ST.picks })); } catch (e) {}
+    // 「今表示しているビート（=止まれる地点）」を再開点にする。次の自動ビートではなく
+    const at = ST.resumeAt != null ? ST.resumeAt : ST.i;
+    try { localStorage.setItem(saveKey(ST.story.id), JSON.stringify({ i: at, picks: ST.picks })); } catch (e) {}
   }
   function clearSave(id) { try { localStorage.removeItem(saveKey(id)); } catch (e) {} }
 
@@ -145,11 +147,14 @@ CX.story = (function () {
   function closeLog() { $('story-log').classList.add('hidden'); }
 
   /* ---------- ビート実行 ---------- */
+  const STOPPABLE = { novel: 1, thought: 1, dark: 1, card: 1, choice: 1 };
   function next() {
     if (!ST || !ST.active) return;
-    saveProgress(); // 各ビートの直前で進捗を保存
+    const bi = ST.i;
     const b = ST.story.beats[ST.i++];
     if (!b) return finish();
+    // 表示で止まるビートを再開点として記録・保存（次の自動ビートに飛ばさない）
+    if (STOPPABLE[b.type]) { ST.resumeAt = bi; saveProgress(); }
     switch (b.type) {
       case 'novel': logLines(b.lines, 'novel'); return showLines(b.lines, 'novel', next);
       case 'thought': logLines([b.text], 'thought'); return showLines([b.text], 'thought', next);
@@ -269,6 +274,7 @@ CX.story = (function () {
     const S = E.S;
     if (S.bars[S.idx][0] >= to) return cb();
     S.speed = b.speed || 600;
+    S.montage = !!b.montage; // モンタージュ: ロスカット/睡眠で止めず一気に流す
     $('tr-speed').textContent = S.speed + 'x';
     ST.replaying = true;
     $('tr-play').textContent = '⏸';
@@ -280,6 +286,7 @@ CX.story = (function () {
       if (done || !ST || !ST.active) return;
       done = true;
       ST.replaying = false;
+      if (E.S) E.S.montage = false;
       if (ST.watch) { clearInterval(ST.watch); ST.watch = null; }
       ST.skipTo = null;
       $('tr-skip').classList.add('hidden');
