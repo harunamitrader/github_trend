@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Jul 2026 05:00:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 04:01:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline: v4.0.7 / cli-v3.0.39]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-09-cline-v4-0-7-cli-v3-0-39.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-09-cline-v4-0-7-cli-v3-0-39.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ClinePassの無料枠モデルの分離や制限到達時の従量課金移行ボタン、OpenAI Codexのメタデータ修正、およびstr_replace diffバグの修正などを盛り込んだアップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code: v2.1.205]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-claudecode-v2-1-205.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-claudecode-v2-1-205.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[session transcript ファイルの保護、Windows ジャンクションを含む worktree 削除時のバグ修正、エージェントビューの視認性向上、自動更新時のメモリ使用量 400MB 削減などを実施した大型アップデート。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code: v2.1.204]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-08-claudecode-v2-1-204.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プライバシー第一、ローカルで完結する Rust 製 AI 会議アシスタント（高速文字起こし・話者識別・Ollama要約）]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cs249r_book]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-harvard-edge-cs249r_book.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-harvard-edge-cs249r_book.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ハーバード大学の講義をベースにした機械学習システムエンジニアリングの実践的な教科書と演習アセット]]></description>
-    </item>
-    <item>
-      <title><![CDATA[romm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-rommapp-romm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-05-rommapp-romm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[美しく強力なセルフホスト対応のレトロゲーム ROM 管理・ブラウザエミュレータプレイヤー]]></description>
     </item>
   </channel>
 </rss>

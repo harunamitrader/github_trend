@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-09-cline-v4-0-7-cli-v3-0-39",
+      "title": "Cline: v4.0.7 / cli-v3.0.39",
+      "dek": "ClinePassの無料枠モデルの分離や制限到達時の従量課金移行ボタン、OpenAI Codexのメタデータ修正、およびstr_replace diffバグの修正などを盛り込んだアップデート。",
+      "summary": "Clineのv4.0.7 / cli-v3.0.39リリース。ClinePass接続での無料モデルのSubscribed/Freeタブ分離表示、利用制限時の従量課金移行ボタン設置、str_replaceツールの正確なdiff出力の修復、コンテキスト圧縮時の canonical セッション履歴保持の改善などを実施。",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-09T04:00:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-09-cline-v4-0-7-cli-v3-0-39.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-08-claudecode-v2-1-205",
+      "title": "Claude Code: v2.1.205",
+      "dek": "session transcript ファイルの保護、Windows ジャンクションを含む worktree 削除時のバグ修正、エージェントビューの視認性向上、自動更新時のメモリ使用量 400MB 削減などを実施した大型アップデート。",
+      "summary": "Claude Codeのv2.1.205リリース。auto modeでのセッション履歴ファイル改ざんブロック、Windows上でのworktree削除時にジャンクション等の影響で外部ファイルが削除される深刻な不具合の解消、アップデーターのピークメモリ400MB削減、doctorコマンドの修復機能の強化などを実施。",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-08T04:03:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-08-claudecode-v2-1-205.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-08-claudecode-v2-1-204",
       "title": "Claude Code: v2.1.204",
       "dek": "ヘッドセッション中の SessionStart フックイベントのストリーミング不具合を修正し、リモートワーカーの意図しない刈り取りを防止するパッチ。",

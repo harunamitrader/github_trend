@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ClinePassの無料枠モデルの分離や制限到達時の従量課金移行ボタン、OpenAI Codexのメタデータ修正、およびstr_replace diffバグの修正などを盛り込んだアップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v4.0.7 &amp; cli-v3.0.39: ClinePassプロバイダーの強化とstr_replace diff修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline v4.0.7 &amp; cli-v3.0.39: ClinePassプロバイダーの強化とstr_replace diff修正</h1>
+      <p class="article-dek">ClinePassの無料枠モデルの分離や制限到達時の従量課金移行ボタン、OpenAI Codexのメタデータ修正、およびstr_replace diffバグの修正などを盛り込んだアップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-09 -->
+          <strong>2026-07-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.0.7 / cli-v3.0.39</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline v4.0.7（およびCLI向けの cli-v3.0.39）では、独自プロバイダーである ClinePass のモデル選択肢と課金切り替え周りの操作性向上、およびエージェントのテキスト置換（str_replace）バグの修正などが行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>ClinePass の無料モデル対応と制限時エラーの強化:</strong> ClinePass プロバイダーにおいて、モデルピッカー上に「Subscribed」と「Free」のタブを追加し、無料モデルを明確に分類・選択できるようになりました。また、利用制限に達した際のエラーダイアログに、ワンクリックで従量課金（usage-based billing）へ移行できるオプションが追加されました。</li>
+            <li><strong>GLM 5.1 モデルの廃止:</strong> すでに提供終了している GLM 5.1 モデルの参照記述をコードおよびUIから完全に削除しました。</li>
+            <li><strong>str_replace 編集における正確な diff 出力:</strong> ファイルの文字列部分置換を行う <code>str_replace</code> ツール実行時において、変更前後の diff 差分表示が壊れて不正確になっていたバグを修正し、正確な diff を出力するように改善しました。</li>
+            <li><strong>OpenAI Codex メタデータ表示のバグ修正:</strong> GPT Subscription プロバイダー下における OpenAI Codex モデルのメタデータ表示不具合を修正しました。</li>
+            <li><strong>コンテキスト圧縮（compaction）時の履歴保持の改善:</strong> コンテキストが圧縮される際、エージェントの正規（canonical）セッション履歴が意図せず欠落しないように保護を強化しました。</li>
+            <li><strong>hub daemon のテレメトリ強化:</strong> バックグラウンドで動作するデタッチド hub デーモンからテレメトリが送信されるようになり、テレメトリ情報に <code>user_id</code> を含むように改善されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>無料モデルのタブ分類や ClinePass 制限時の移行手段の追加により、モデル切り替えの操作がより分かりやすくなりました。また、<code>str_replace</code> の diff 不具合修正とコンテキスト圧縮時のセッション履歴保持の改善は、エージェントがコード変更を正確に行い、長期セッションにおける文脈の喪失を防ぐため、日々の開発の安定性に直結する重要な改善です。</p>
+
+        <h2>まとめ</h2>
+        <p>独自モデル接続である ClinePass の導線整備と、コード置換処理（str_replace）やコンテキスト履歴保持における極めて重要なバグ修正を含むアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

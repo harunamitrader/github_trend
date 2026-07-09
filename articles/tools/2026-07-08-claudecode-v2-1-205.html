@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="session transcript ファイルの保護、Windows ジャンクションを含む worktree 削除時のバグ修正、エージェントビューの視認性向上、自動更新時のメモリ使用量 400MB 削減などを実施した大型アップデート。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.205: トランスクリプトファイルの保護機能と Windows 環境でのバグ修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.205: トランスクリプトファイルの保護機能と Windows 環境でのバグ修正</h1>
+      <p class="article-dek">session transcript ファイルの保護、Windows ジャンクションを含む worktree 削除時のバグ修正、エージェントビューの視認性向上、自動更新時のメモリ使用量 400MB 削減などを実施した大型アップデート。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-08 -->
+          <strong>2026-07-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.205</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.205 では、セキュリティの強化（ファイル書き換えのブロックやコマンド検証）をはじめ、Windows 環境における複数のクラッシュ・ファイル破損バグの修正、および自律エージェントの一覧・ステータス管理機能の強化が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>セッション記録の保護と安全な削除:</strong> auto mode において、実行履歴を記録する session transcript ファイルを不正に変更または改ざんしようとする動作を自動でブロックするルールを追加しました。また、コンテキストから解決できない変数が含まれる <code>rm -rf</code> コマンドの実行時には必ず確認を求める改善が行われました。</li>
+            <li><strong>Windows 環境での致命的なバグの修正:</strong> Windows 上で worktree を削除する際、ジャンクション（NTFS junction）やディレクトリシンボリックリンクが存在していると、誤って worktree 外部のファイルまで削除してしまう重大な不具合を解決しました。また、コマンド実行中に起動元のディレクトリがロックまたは削除された際の Windows クラッシュも解消されています。</li>
+            <li><strong>自動アップデート時のメモリ使用量を約 400 MB 削減:</strong> アップデーターによるバイナリダウンロード処理を、オンメモリバッファリングから直接ディスクへ書き込むストリーミング方式に変更し、ピーク時のメモリ使用量を大幅に削減しました。</li>
+            <li><strong>エージェントビューとPR連携の改善:</strong> <code>claude agents</code> 画面において、生ツールコールテキストの代わりにカラーのステータスとAI要約見出しを表示するように変更。また、既存の PR（Pull Request）へのコミット・プッシュ等を含むセッションのリンクを自動化しました。</li>
+            <li><strong>診断ツール /doctor の全面刷新:</strong> <code>/doctor</code> (エイリアス <code>/checkup</code>) を単なる情報表示から、セットアップ環境の不整合を自動で修復・修正可能な診断ツールへと強化しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に Windows 環境で worktree や junction を多用する開発者にとって、外部ファイルの巻き込み削除バグの修正はセキュリティおよびデータ整合性の観点から非常に重要です。また、エージェントビューの視認性向上や <code>/doctor</code> の修復機能、および updater のメモリフットプリント削減により、小容量メモリ環境（クラウドの無料枠インスタンス等）や複雑なマルチタスク運用時における安定性が格段に向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>session transcript の改ざん保護などのセキュリティ対策に加え、Windows 固有の深刻なバグや自動更新のメモリバジェットを大幅に改善する実用的な大型アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">Claude Code Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
