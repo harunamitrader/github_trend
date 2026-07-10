@@ -8,6 +8,42 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-10-claudecode-v2-1-206",
+      "title": "Claude Code: v2.1.206",
+      "dek": "/cd でのディレクトリ補完、/doctor による CLAUDE.md Trimming 提案、本体更新時のバックグラウンドエージェント即時自動更新、複数のハング・タイムアウトバグの修正などを実施。",
+      "summary": "Claude Codeのv2.1.206リリース。/cdコマンドへのディレクトリ補完追加、/doctorコマンドでのCLAUDE.md最適化(不要部分切り詰め)提案の追加、本体更新に合わせたバックグラウンドエージェントの自動アップデート対応、commit-push-prのgit pushリモート自動追加、複数のハング・タイムアウト不具合の修正などを実施。",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-10T04:02:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-10-claudecode-v2-1-206.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-10-geminicli-v0-52-0-nightly",
+      "title": "Gemini CLI: v0.52.0-nightly.20260710",
+      "dek": "歴史的ターンからの思考部分の削除による thought leakage の修正、JSON/IPYNB ファイルに対する LLM 自動補正のバイパス、CI 設定ファイルのコンテキスト除外などを導入したナイトリービルド。",
+      "summary": "Gemini CLIのv0.52.0-nightly.20260710リリース。会話履歴からの過去の思考(thoughts)の削除によるthought leakageの防止、write_file等のJSON/IPYNB編集時のLLM自動補正バイパスによる正確性の修復、トリアージワーカーのトリアージループ基礎モジュールの導入などを実施。",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-10T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-10-geminicli-v0-52-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-10-codex-v0-20-0",
+      "title": "OpenAI Codex: v0.20.0",
+      "dek": "OpenAIの最新推論モデル「GPT-5.6（Sol/Terra/Luna）」世代へのモデル契約の完全移行、Capabilities ロックファイル手動チェックコマンド、SessionStart時の永続サブエージェント自動復元などを導入したマイナーバージョンリリース。",
+      "summary": "OpenAI Codex (oh-my-codex)のv0.20.0リリース。モデル契約のGPT-5.6世代(gpt-5.6-sol/terra/luna)への完全刷新、omx capabilities lock/checkなどの手動機能制限プリフライト検証コマンドの追加、SessionStart時の永続サブエージェント自動復元、新規プロジェクトのプラグインモード規定化などを実施。",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-10T04:00:00+09:00",
+      "toolName": "OpenAI Codex",
+      "toolUrl": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "articleUrl": "./articles/tools/2026-07-10-codex-v0-20-0.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-09-cline-v4-0-7-cli-v3-0-39",
       "title": "Cline: v4.0.7 / cli-v3.0.39",
       "dek": "ClinePassの無料枠モデルの分離や制限到達時の従量課金移行ボタン、OpenAI Codexのメタデータ修正、およびstr_replace diffバグの修正などを盛り込んだアップデート。",

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenAIの最新推論モデル「GPT-5.6（Sol/Terra/Luna）」世代へのモデル契約の完全移行、Capabilities ロックファイル手動チェックコマンド、SessionStart時の永続サブエージェント自動復元などを導入したマイナーバージョンリリース。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAI Codex v0.20.0: GPT-5.6モデル世代への完全移行と機能強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenAI Codex v0.20.0: GPT-5.6モデル世代への完全移行と機能強化</h1>
+      <p class="article-dek">OpenAIの最新推論モデル「GPT-5.6（Sol/Terra/Luna）」世代へのモデル契約の完全移行、Capabilities ロックファイル手動チェックコマンド、SessionStart時の永続サブエージェント自動復元などを導入したマイナーバージョンリリース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-10 -->
+          <strong>2026-07-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.20.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenAI Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAI Codex (oh-my-codex) v0.20.0 は、内部で使用する基本AIモデルを OpenAI の最新世代「GPT-5.6」シリーズへと全面的に retarget した節目となるマイナーアップデートです。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>最新の GPT-5.6 モデル世代への移行:</strong> OMX のモデル契約を全面的に retarget し、標準実行レーンとして <code>gpt-5.6-terra</code>、計画・設計の最高レベル用に <code>gpt-5.6-sol</code>、高速動作（Spark）向けに <code>gpt-5.6-luna</code> をそれぞれ標準割り当てしました。</li>
+            <li><strong>Manual Capabilities-Lockfile コマンド:</strong> 実行に必要な能力定義を一元管理し、事前に検証・固定化できる <code>omx capabilities lock</code> および <code>omx capabilities check</code> CLI コマンドが新規導入されました。</li>
+            <li><strong>SessionStart 時の永続サブエージェント自動復元:</strong> 前回のセッションで起動された永続化されたサブエージェント（subagents）が、セッションの開始（SessionStart）時に自動的に再オープンされるようになりました。</li>
+            <li><strong>プラグインモードおよびキャッシュの規定化:</strong> 新規プロジェクトのセットアップが、デフォルトで「プラグインインストールモード（キャッシュ付き）」へ移行し、プラグインのロードとフック処理が OMX 起動セッションに制限されました。</li>
+            <li><strong>doctor コマンドの Spark モデル診断:</strong> <code>omx doctor</code> コマンドが、低複雑性エージェント向けの Spark モデルソースを正確に検知・レポートするように改善されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>OpenAI の最新モデルである <code>gpt-5.6-sol</code> / <code>gpt-5.6-terra</code> シリーズを標準利用するように刷新されたため、コード生成の正確性や自律計画の論理整合性が根本的に向上します。また、capabilities lockfile の導入により、チーム開発時にエージェントが利用可能なツールや権限の事前検証が容易となり、デプロイやパイプラインでの事故を防ぎます。セッション開始時の永続サブエージェントの自動復元は、前回の作業状態をそのまま引き継いだ継続開発を容易にします。</p>
+
+        <h2>まとめ</h2>
+        <p>使用するAIモデルの GPT-5.6 世代への完全刷新と、capabilities lockfile の追加、サブエージェントの自動復元機能などを盛り込んだ重要なマイナー（v0.20.0）リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noreferrer">oh-my-codex Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="/cd でのディレクトリ補完、/doctor による CLAUDE.md Trimming 提案、本体更新時のバックグラウンドエージェント即時自動更新、複数のハング・タイムアウトバグの修正などを実施。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.206: ディレクトリ補完と CLAUDE.md 整理機能の導入</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.206: ディレクトリ補完と CLAUDE.md 整理機能の導入</h1>
+      <p class="article-dek">/cd でのディレクトリ補完、/doctor による CLAUDE.md Trimming 提案、本体更新時のバックグラウンドエージェント即時自動更新、複数のハング・タイムアウトバグの修正などを実施。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-10 -->
+          <strong>2026-07-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.206</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.206 では、ターミナル操作や自律エージェントの運用を円滑にする新機能の追加に加え、キーボードハングやタイムアウト、バックグラウンドでのアップデート同期といった多くの利便性向上・バグ修正が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>/cd でのディレクトリ候補補完の追加:</strong> <code>/cd</code> コマンドの入力時に、<code>/add-dir</code> と同様にローカルのディレクトリ構造を元にしたパスの推薦候補が表示されるようになり、移動の操作性が向上しました。</li>
+            <li><strong>/doctor による CLAUDE.md 最適化提案:</strong> プロジェクト用の指示書である <code>CLAUDE.md</code> を分析し、コードベースから自動推測可能な不要部分を切り落としてスリム化（Trimming）することを提案するチェック項目が追加されました。</li>
+            <li><strong>バックグラウンドエージェントの自動更新の改善:</strong> Claude Code 本体の更新があった際、バックグラウンドエージェントがバックグラウンドで即座に新バージョンへ更新されるようになりました。これにより、後からエージェントを attach する際のバージョン違いによるラグが解消されました。</li>
+            <li><strong>commit-push-pr での自動 git push 範囲の拡張:</strong> <code>origin</code> だけでなく、レポジトリに設定された push 専用のデフォルトリモート（<code>remote.pushDefault</code> など）への <code>git push</code> も自動で許可されるようになりました。</li>
+            <li><strong>多数のハング・不具合修正:</strong> <code>claude --resume</code> または <code>--continue</code> 実行時の起動時キーボード入力ハング、MCP コマンドの <code>request_timeout_ms</code> 設定無視によるタイムアウト、OAuth MCP サーバでの再認証不具合などが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p><code>/cd</code> の補完や <code>CLAUDE.md</code> 最適化機能により、日々のコーディングセッションがスムーズに進むようになります。また、本体のアップデート時にバックグラウンドジョブが即座に同期される仕組みや、<code>--resume</code> 時のキーボードハング修正により、長期の自律ワークフローをバックグラウンドに逃がし、適宜アタッチして状況を確認する開発フローが非常に安定します。</p>
+
+        <h2>まとめ</h2>
+        <p>ディレクトリ補完や CLAUDE.md 整理機能などのUX改善に加え、バックグラウンドエージェントの更新同期やキーボードハングといった運用の問題を解消するマイナーリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">Claude Code Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
