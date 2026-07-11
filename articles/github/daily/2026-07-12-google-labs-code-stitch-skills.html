@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングエージェント向けに、共通規格であるAgent Skillsに準拠したデザインシステム統合やワークフロー自動化を提供する、Google Labs製の公式スキル集"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>stitch-skills</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">stitch-skills</h1>
+      <p class="article-dek">AIコーディングエージェント向けに、共通規格であるAgent Skillsに準拠したデザインシステム統合やワークフロー自動化を提供する、Google Labs製の公式スキル集</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-12 -->
+          <strong>2026-07-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noreferrer">
+              google-labs-code/stitch-skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,500</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Stitch Skills</code> は、Google Labsが公開したオープンソースの「Agent Skills」ライブラリです。AIコーディングエージェント（Claude Code、Cursor、Gemini CLIなど）が、Stitch MCPサーバーと連携して設計意図を解釈し、高品質なコードへと自動変換するためのスキルを提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>UIデザインの生成・編集、プロジェクトを解析してインフラコードやReactコンポーネントを組み立てる機能、デザインシステムの「情報源」となる <code>DESIGN.md</code> の自動抽出、曖昧な指示を詳細なプロンプトへ変換する機能など、多様なエージェントスキルを実行できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>すべてのスキルが「Agent Skills」というオープン規格に準拠してポータブルに設計されており、異なるAIアシスタントでも同じ体験で動作します。GoogleのLLMやインフラと連動した、自律的かつ連続的なビルドループ（Autonomy Loop）を実現可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>対応するAIエージェントのプラグイン管理コマンドを使って追加します。例えば、Claude Codeでは <code>npx plugins add google-labs-code/stitch-skills</code> を実行することで、デザイン連携やプロンプト最適化などの高度なスキルを自律実行させることが可能になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントを駆使して高速にプロトタイピングを行いたい開発者、Figmaやデザイン定義を自動的にフロントエンドコードへ反映させたいUI/UXエンジニア、またはエージェント向けのシステム構築に関心のあるアーキテクトに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>Stitch Skillsが提供する高度なデザイン変換機能は、プロジェクト内のデザインシステム（スタイル定義）が明文化されていない場合、出力品質が低下することがあります。あらかじめ <code>DESIGN.md</code> などを整備し、エージェントにコンテキストを与えることが大切です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>Stitch Skills</code> は、AIエージェントによるコード生成をデザインレベルから一貫して制御するための画期的なスキル集です。手作業でのマークアップやデザイン調整をAIへスムーズに委託できるため、エージェント開発ワークフローを大きく加速させます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noreferrer">https://github.com/google-labs-code/stitch-skills</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #844</p>
+      </div>
+    </article>
+  </body>
+</html>

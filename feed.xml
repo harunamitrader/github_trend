@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 05:00:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 04:46:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-12 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-12-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-12-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Catch2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-catchorg-Catch2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-catchorg-Catch2.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[直感的でシンプルなアサーション構文と、高速なテスト並列実行・多様なレポーティングに対応したC++用テストフレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[abseil-cpp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-abseil-abseil-cpp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-abseil-abseil-cpp.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Googleのコードベースから抽出され、標準C++ライブラリを補完するために設計された、実証済みのC++ユーティリティライブラリ集]]></description>
+    </item>
+    <item>
+      <title><![CDATA[stitch-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-google-labs-code-stitch-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-google-labs-code-stitch-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェント向けに、共通規格であるAgent Skillsに準拠したデザインシステム統合やワークフロー自動化を提供する、Google Labs製の公式スキル集]]></description>
+    </item>
+    <item>
+      <title><![CDATA[terraform]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-hashicorp-terraform.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-hashicorp-terraform.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[宣言的な設定ファイルを用いてインフラのリソースを定義・構築・管理する、Infrastructure as Code (IaC) のデファクトスタンダードツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[meshoptimizer]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-zeux-meshoptimizer.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-zeux-meshoptimizer.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GPUレンダリング of キャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code: v2.1.206]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-claudecode-v2-1-206.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Model Context Protocol を介して AI アシスタントと Unity エディタを接続し、アセット管理やシーン構築を自動化するブリッジ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[astryx]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-facebook-astryx.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-facebook-astryx.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Meta社内で長年磨き上げられ、人間と AI エージェントの双方にとって構築しやすく設計されたStyleXベースのオープンソースデザインシステム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[gastown]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-gastownhall-gastown.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-gastownhall-gastown.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や Copilot などの複数 AI エージェントを統率し、作業状態を Git 管理で永続化できるマルチエージェントオーケストレーションシステム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw: v2026.7.1-beta.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-openclaw-v2026-7-1-beta-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-openclaw-v2026-7-1-beta-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windowsインストーラー・ZIPパッケージ起動の安定化と、Local Speech SDK の音声例外処理強化、および subagent 呼び出し時の Cwd 境界バグを修正したアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: Short Video Overviews]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-notebooklm-short-video-overviews.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-notebooklm-short-video-overviews.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ノートに取り込んだドキュメントや資料ソースから、要約や重要コンセプトをまとめた約60秒の縦型紹介動画を自動生成する「Short Video Overviews」機能が公開。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Claude Opus 4.8 & Kimi K2.7-Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-github-copilot-opus48-kimi-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Opus 4.8 (fast mode) プレビューおよび Kimi K2.7-Code モデルの追加、managed-settings.json による一元ガバナンス管理の一般提供 (GA) などを追加したアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.51.0-nightly.20260706]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-geminicli-v0-51-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-06-geminicli-v0-51-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[メモリインポート機能におけるシンボリックリンクを用いたディレクトリ・エスケープ脆弱性の修正や、Caretaker（監視エージェント）向け Cloud Run 構成テンプレートの導入などを盛り込んだアップデート。]]></description>
     </item>
   </channel>
 </rss>
