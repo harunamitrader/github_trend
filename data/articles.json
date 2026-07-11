@@ -89,7 +89,7 @@
       "category": "github-trending",
       "slug": "2026-07-12-zeux-meshoptimizer",
       "title": "meshoptimizer",
-      "dek": "GPUレンダリング of キャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ",
+      "dek": "GPUレンダリングのキャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ",
       "summary": "zeux/meshoptimizer は、3Dモデルの描画効率を向上させるC++製メッシュ最適化ライブラリです。頂点フェッチやオーバードローの削減、トポロジーを維持したメッシュ簡略化、glTF用のファイル圧縮ツール gltfpack を同梱します。",
       "publishedAt": "2026-07-12",
       "createdAt": "2026-07-12T04:50:00+09:00",

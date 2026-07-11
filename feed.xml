@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 19:48:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 05:02:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-07-12 更新レポート]]></title>
@@ -53,7 +53,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-zeux-meshoptimizer.html</guid>
       <category>github-trending</category>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GPUレンダリング of キャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ]]></description>
+      <description><![CDATA[GPUレンダリングのキャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ]]></description>
     </item>
     <item>
       <title><![CDATA[Claude Code: v2.1.206]]></title>
