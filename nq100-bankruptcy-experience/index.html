@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#07121d">
+  <title>破産まで、あと。｜暴落追体験</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Roboto+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css?v=20260711c">
+</head>
+<body>
+  <main id="app" class="app-shell" aria-live="polite">
+    <header class="app-header">
+      <button id="reset-button" class="icon-button" type="button" title="最初からやり直す" aria-label="最初からやり直す">↺</button>
+      <div class="instrument">
+        <strong>米国NQ100</strong>
+        <span>追体験モード</span>
+      </div>
+      <button id="sound-button" class="sound-button" type="button" aria-label="音を切り替える">SOUND ON</button>
+    </header>
+
+    <section class="quote-strip" aria-label="現在価格">
+      <div class="quote-side bid"><span>BID</span><strong id="bid-price">--</strong></div>
+      <div class="spread"><span>SP</span><b>0.6</b></div>
+      <div class="quote-side ask"><span>ASK</span><strong id="ask-price">--</strong></div>
+    </section>
+
+    <section class="account-strip" aria-label="口座状況">
+      <div><span>純資産</span><strong id="equity">¥3,000,000</strong></div>
+      <div><span>評価損益</span><strong id="unrealized">¥0</strong></div>
+      <div><span>証拠金維持率</span><strong id="margin-ratio">--</strong></div>
+    </section>
+    <section class="life-strip" aria-label="生活資金の状況">
+      <div><span>生活防衛資金</span><strong id="reserve-balance">¥1,500,000</strong></div>
+      <div><span>借入残高</span><strong id="debt-balance">¥0</strong></div>
+      <div><span>入学金支払まで</span><strong id="due-days">22日</strong></div>
+    </section>
+
+    <section class="chart-panel">
+      <div class="chart-toolbar">
+        <div class="timeframes" role="tablist" aria-label="時間足">
+          <button class="active" type="button">1時間</button>
+          <button type="button" disabled>4時間</button>
+          <button type="button" disabled>日足</button>
+        </div>
+        <div id="chart-date" class="chart-date">2020.02.19</div>
+      </div>
+      <div class="chart-stage">
+        <canvas id="price-chart" aria-label="米国NQ100の1時間足チャート"></canvas>
+        <div id="event-marker" class="event-marker hidden"><span></span></div>
+        <div class="chart-source">提供CSVのBID価格を集約</div>
+      </div>
+    </section>
+
+    <section class="position-panel">
+      <div class="position-head"><span>建玉一覧</span><b id="position-count">0件</b></div>
+      <div id="position-list" class="position-list">
+        <div class="empty-position">建玉はありません</div>
+      </div>
+    </section>
+
+    <aside id="story-panel" class="story-panel">
+      <div class="story-progress"><span id="chapter-label">PROLOGUE</span><i><b id="progress-bar"></b></i><em id="progress-count">0 / 11</em></div>
+      <div class="story-meta"><time id="story-time">2020年2月19日 23:00</time><span id="mood-label">心理：高揚</span></div>
+      <h1 id="story-title">これは、あなたの口座です。</h1>
+      <p id="story-body">運用資金300万円。生活防衛資金150万円。22日後には、子どもの入学金を支払う。</p>
+      <blockquote id="story-thought">米国NQ100は過去最高値。SNSでは「下がれば買い」が常識になっている。</blockquote>
+      <div id="decision-timer" class="decision-timer"><span>判断時間</span><b><i></i></b><em>12</em></div>
+      <div id="decision-actions" class="decision-actions"></div>
+      <p class="tap-note">人物と口座設定はフィクション。価格は実際の記録です。</p>
+    </aside>
+
+    <div id="replay-overlay" class="replay-overlay hidden" aria-live="assertive">
+      <span>評価損益</span>
+      <strong id="replay-pnl">¥0</strong>
+      <div><span>証拠金維持率</span><b id="replay-ratio">--</b></div>
+      <p id="replay-date">2020.02.19 23:00</p>
+    </div>
+
+    <div id="phone-note" class="phone-note hidden">
+      <small id="note-app">速報</small>
+      <strong id="note-title">米国株が急落</strong>
+      <p id="note-body">新型コロナへの警戒が広がっています</p>
+    </div>
+
+    <nav class="bottom-nav" aria-label="アプリナビゲーション">
+      <span>レート</span><span class="active">チャート</span><span>スピード注文</span><span>建玉</span><span>口座</span>
+    </nav>
+  </main>
+
+  <div id="narration-overlay" class="narration-overlay hidden" role="dialog" aria-modal="true" aria-live="assertive">
+    <div class="narration-inner">
+      <div class="narration-head"><span id="narration-chapter">01 / ENTRY</span><em id="narration-count">1 / 3</em></div>
+      <p id="narration-line">これは、あなたの口座です。</p>
+      <button id="narration-next" type="button" disabled>読んでからタップ</button>
+    </div>
+  </div>
+
+  <div id="escape-modal" class="escape-modal hidden" role="dialog" aria-modal="true" aria-labelledby="escape-title">
+    <div>
+      <span>別の未来</span>
+      <h2 id="escape-title">ここで決済すれば、破産しません。</h2>
+      <p id="escape-copy">損失は確定します。しかし生活資金と、次に取引する権利は残ります。</p>
+      <strong id="escape-balance">残高 --</strong>
+      <button id="return-route" type="button">破産者が選んだ行動へ戻る</button>
+    </div>
+  </div>
+
+  <section id="result-screen" class="result-screen hidden" aria-labelledby="result-title">
+    <div class="result-top">
+      <p>2020 COVID-19 CRASH / ACTUAL PRICE DATA</p>
+      <h2 id="result-title">指数は戻った。<br>彼の資金は戻らなかった。</h2>
+    </div>
+    <div class="result-ledger">
+      <div><span>投入した自己資金</span><strong id="result-own-funds">¥4,500,000</strong></div>
+      <div><span>消費者金融からの借入</span><strong>¥1,500,000</strong></div>
+      <div><span>最終口座残高</span><strong id="final-balance">--</strong></div>
+      <div class="danger"><span>借金を差し引いた純資産</span><strong id="final-net">--</strong></div>
+    </div>
+    <div class="lesson-grid">
+      <article>
+        <span>実際の行動</span>
+        <h3>戻るまで耐える</h3>
+        <p>損切りを拒み、下がるほど数量を増やした。正しさではなく、口座が先に尽きた。</p>
+      </article>
+      <article class="safe">
+        <span>1回の損失を2%に限定</span>
+        <h3>最大損失 ¥60,000</h3>
+        <p>最初の300万円を守り、次の機会を待てた。退場しないことが、最大のリターンになる。</p>
+      </article>
+    </div>
+    <div class="recovery-panel">
+      <div>
+        <span>その後の米国NQ100</span>
+        <strong>2020年末 12,833.0</strong>
+        <p>2月19日を上回った。しかし、借金とロスカットで退場した彼は保有していない。</p>
+      </div>
+      <canvas id="recovery-chart" aria-label="2020年通年の日足チャート"></canvas>
+    </div>
+    <div class="rules">
+      <h3>生き残るための3つの線</h3>
+      <ol>
+        <li><b>1回の許容損失</b><span>総資金の2%以内に決めてから注文する</span></li>
+        <li><b>生活資金との境界</b><span>家賃、教育費、緊急資金は証拠金にしない</span></li>
+        <li><b>ナンピンの上限</b><span>不利になったポジションを感情で増やさない</span></li>
+      </ol>
+    </div>
+    <button id="restart-result" class="restart-button" type="button">もう一度、最初から見る</button>
+    <p class="legal">本アプリは教育用シミュレーターであり、投資助言・勧誘ではありません。</p>
+  </section>
+
+  <script src="js/app.js?v=20260711c" type="module"></script>
+</body>
+</html>
