@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Jul 2026 19:17:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 04:47:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-13 更新レポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-13-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-13-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[destructive_command_guard]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-Dicklesworthstone-destructive-command-guard.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-Dicklesworthstone-destructive-command-guard.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントによる予期しない git 履歴の破壊や危険なシェルコマンドの実行を、ルールと対話で未然にブロックするセキュリティガードシステム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[DesktopCommanderMCP]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-wonderwhy-er-DesktopCommanderMCP.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-wonderwhy-er-DesktopCommanderMCP.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude などの AI エージェントにターミナル操作、ファイル検索、および差分ベースの高度なコード書き換え能力を授ける Model Context Protocol (MCP) サーバー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[prefect]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-PrefectHQ-prefect.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-PrefectHQ-prefect.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複雑な Python データパイプラインや機械学習ワークフローのスケジューリング・状態監視を強力に自動化するオーケストレーションフレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[core]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-home-assistant-core.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-home-assistant-core.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカル制御とプライバシー保護を第一に設計された、オープンソースで世界最大級 of スマートホーム・自動化プラットフォーム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[background-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-ColeMurray-background-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-13-ColeMurray-background-agents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ユーザーが他の作業をしている間に、バックグラウンドで自律的にコード編集やテスト実行を進めてくれる非同期型AI開発エージェントシステム]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw: v2026.7.1-beta.5]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-openclaw-v2026-7-1-beta-5.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Googleのコードベースから抽出され、標準C++ライブラリを補完するために設計された、実証済みのC++ユーティリティライブラリ集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stitch-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-google-labs-code-stitch-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-google-labs-code-stitch-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングエージェント向けに、共通規格であるAgent Skillsに準拠したデザインシステム統合やワークフロー自動化を提供する、Google Labs製の公式スキル集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[terraform]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-hashicorp-terraform.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-hashicorp-terraform.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[宣言的な設定ファイルを用いてインフラのリソースを定義・構築・管理する、Infrastructure as Code (IaC) のデファクトスタンダードツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[meshoptimizer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-zeux-meshoptimizer.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-zeux-meshoptimizer.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GPUレンダリングのキャッシュ効率向上や、高精度なメッシュ簡略化（LOD生成）をサポートする、高速なC++製3Dメッシュ最適化ライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.206]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-claudecode-v2-1-206.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-claudecode-v2-1-206.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[/cd でのディレクトリ補完、/doctor による CLAUDE.md Trimming 提案、本体更新時のバックグラウンドエージェント即時自動更新、複数のハング・タイムアウトバグの修正などを実施。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260710]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-geminicli-v0-52-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-geminicli-v0-52-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[歴史的ターンからの思考部分の削除による thought leakage の修正、JSON/IPYNB ファイルに対する LLM 自動補正のバイパス、CI 設定ファイルのコンテキスト除外などを導入したナイトリービルド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex: v0.20.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-codex-v0-20-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-10-codex-v0-20-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAIの最新推論モデル「GPT-5.6（Sol/Terra/Luna）」世代へのモデル契約の完全移行、Capabilities ロックファイル手動チェックコマンド、SessionStart時の永続サブエージェント自動復元などを導入したマイナーバージョンリリース。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ユーザーが他の作業をしている間に、バックグラウンドで自律的にコード編集やテスト実行を進めてくれる非同期型AI開発エージェントシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>background-agents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">background-agents</h1>
+      <p class="article-dek">ユーザーが他の作業をしている間に、バックグラウンドで自律的にコード編集やテスト実行を進めてくれる非同期型AI開発エージェントシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 第9位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ColeMurray/background-agents" target="_blank" rel="noreferrer">
+              ColeMurray/background-agents
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,218</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>ColeMurray/background-agents は、Ramp 社の「Inspect」に着想を得て開発された、オープンソースの非同期（バックグラウンド）AI開発エージェントシステムです。一般的な AI チャットボットとは異なり、ユーザーの指示を受けて裏側で自律的にタスクを消化し、必要に応じてユーザーに承認を求めたりテストの検証結果を報告したりする協調開発型のエージェントループを提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>ユーザーが別のファイルのコーディングや議論を行っている裏で、指定された機能実装やバグ修正、ユニットテストの作成、リファクタリングなどを並行して実行できます。タスクの実行ログや成果物はブラウザや専用のダッシュボードUIからリアルタイムに監視可能で、修正された差分（diff）を確認して簡単にメインブランチに取り込むことができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最も大きな強みは、「人間と AI の並行開発」を前提としたタスク管理構造です。エージェントが長いリサーチや推論、ファイルの書き換えを行っている間もローカル開発環境がロックされないため、作業の中断が発生しません。また、独自のサンドボックス内でコードを実行・テストするため、危険なスクリプトの実行を未然に防ぐ安全性も確保されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンした後、Docker などのコンテナ環境を立ち上げてバックグラウンドエージェントを実行します。次に、環境変数に API キーを設定し、提供される CLI やローカル Web ダッシュボードを通じてエージェントに「このクラスにメソッドを追加して、テストをパスさせておいて」といったタスクを発行してバックグラウンド処理を開始させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>長時間のコード生成やテスト待ち時間によって生産性が削がれているエンジニアや、AIエージェントに自律的にコードを修正させてレビューとマージだけを担当したい開発リーダーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>バックグラウンドで何度も推論とテストの実行ループを繰り返すため、APIのトークン消費量が急増する恐れがあります。また、自律的にコマンドを実行するため、安全のために必ず制限されたサンドボックス内、または安全性が確認されているプロジェクト環境でのみ動かす必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>非同期開発に特化することで、ユーザーのコーディング作業を妨げずにAIにサブタスクを丸投げできる、人間とAIの真のチーム開発を具現化する期待のエージェントフレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ColeMurray/background-agents" target="_blank" rel="noreferrer">https://github.com/ColeMurray/background-agents</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #847</p>
+      </div>
+    </article>
+  </body>
+</html>

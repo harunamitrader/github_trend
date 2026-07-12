@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="複雑な Python データパイプラインや機械学習ワークフローのスケジューリング・状態監視を強力に自動化するオーケストレーションフレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>prefect</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">prefect</h1>
+      <p class="article-dek">複雑な Python データパイプラインや機械学習ワークフローのスケジューリング・状態監視を強力に自動化するオーケストレーションフレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 第4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PrefectHQ/prefect" target="_blank" rel="noreferrer">
+              PrefectHQ/prefect
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>23,095</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>PrefectHQ/prefect は、モダンなデータエンジニアリングおよび機械学習（MLOps）ワークフローの制御と監視を行うための、Python 製オープンソース・オーケストレーションフレームワークです。データの収集、加工、学習モデルの評価といった一連のジョブ（パイプライン）について、エラー時の自動リトライ、スケジュール実行、状態管理などをコード定義（Code-first）で簡単に組み込めます。</p>
+
+        <h2>何ができるか</h2>
+        <p>通常の Python 関数に `@flow` や `@task` といったデコレータを付与するだけで、Prefect の管理下に置くことができます。ジョブが失敗した際のアラート通知、部分的なステップの並行実行やキャッシュの利用、パラメータを変更した動的実行、さらには Web ダッシュボードによるリアルタイムなタスクの成功率や実行状況の可視化が行えます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>従来の Apache Airflow のような「巨大なインフラの事前構築」や「複雑な DAG 記述の強制」が不要な、極めて開発者フレンドリーな設計が最大の特徴です。ローカルで書いた Python スクリプトがそのままオーケストレーション機能を持つため、小規模な自動化から、AWS / GCP を巻き込んだエンタープライズ規模のデータ分散パイプラインまでシームレスにスケールできます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ライブラリを `pip install prefect` で導入します。管理用のサーバーは、ローカル環境で `prefect server start` コマンドを実行するだけでダッシュボード付きで立ち上がります。あとは、Python コード内でデコレータを用いてタスクの関係性を記述し実行するだけで、ダッシュボード上で自動的に進捗やログが可視化されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大量の cron ジョブや手動のシェルスクリプトでデータパイプラインを運用しエラー監視に限界を感じているデータエンジニア、自動リトライやパラメータチューニングのジョブ管理をスマートにやりたい機械学習エンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>小規模な用途では非常に簡単に導入できますが、プロダクション環境で分散処理やエージェントを用いたリモートワークフローを実行させる場合は、Prefect Cloud（マネージドプラン）の契約や、独自のインフラ上で実行ワーカー（Worker/Agent）を適切に常時起動・管理するための設計知識が必要となります。</p>
+
+        <h2>まとめ</h2>
+        <p>通常の Python コードを装飾するだけで高度な耐障害性とスケジューリング、ビジュアル監視を備えた強固なパイプラインに生まれ変わらせる、モダンデータスタックに欠かせないオーケストレーションシステムです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PrefectHQ/prefect" target="_blank" rel="noreferrer">https://github.com/PrefectHQ/prefect</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #849</p>
+      </div>
+    </article>
+  </body>
+</html>

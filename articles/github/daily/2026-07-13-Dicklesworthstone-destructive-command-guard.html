@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントによる予期しない git 履歴の破壊や危険なシェルコマンドの実行を、ルールと対話で未然にブロックするセキュリティガードシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>destructive_command_guard</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">destructive_command_guard</h1>
+      <p class="article-dek">AIエージェントによる予期しない git 履歴の破壊や危険なシェルコマンドの実行を、ルールと対話で未然にブロックするセキュリティガードシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 第1位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Dicklesworthstone/destructive_command_guard" target="_blank" rel="noreferrer">
+              Dicklesworthstone/destructive_command_guard
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,698</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Dicklesworthstone/destructive_command_guard (dcg) は、自律型 AI エージェント（Claude Code や Cursor, Cline など）による、危険なシェルコマンドや破壊的な git コマンドの誤実行を未然に防止するための、オープンソースのセキュリティゲートウェイシステムです。プロキシのようにシェルとエージェントの間に介在し、コマンドの安全性を自律評価・ブロックします。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントが生成したコマンドラインを監視し、`rm -rf /` のような OS レベルの破壊コマンドだけでなく、`git reset --hard` や `git push --force` といったローカル環境やチームのソースツリーを破壊する恐れのある git コマンドをパターンおよびセマンティクス解析で遮断できます。ブロックされたコマンドは実行前に人間に確認を求め、許可された場合のみ実行します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>AI の「自律実行（Auto-mode）時の暴走リスク」をスマートに防ぐ点が最大の特徴です。エージェントが良かれと思って「競合を解決するために古いブランチ履歴を強制リセットで消去する」といった重大な事故が相次ぐ中、ユーザーが事前に指定した拒否リスト（Deny-list）や機微なコマンドルールに基づいて確実に防波堤として機能します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3 環境でリポジトリからスクリプトを導入し、エージェントがコマンドを実行する際の実行パス（エイリアス）として dcg プロキシを挟み込みます。拒否したいコマンドラインパターンや警告を発するルールを YAML 等で構成しておくことで、エージェントがコマンドを発行した瞬間に割り込んで安全性を評価し、警告アラートを出力させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律モードをオンにして AI エージェントを放置開発（オーバーナイトラン等）させる機会が多いエンジニア、または企業の開発インフラに AI エージェントを導入する際のセキュリティリスクや操作ミスによるデータ損失を懸念する情報システム管理者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>過剰に検知ルールを設定しすぎると、エージェントの実行速度（開発効率）が極端に損なわれたり、正当な git 操作であっても何度もブロックされ人間の手動承認を求められるという煩わしさが生じる可能性があります。プロジェクトの機微度合いに応じたルールセットのチューニングが必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>AIエージェントの有能さと暴走リスクのトレードオフを解消し、自律実行モードの安全性を劇的に高める、これからのエージェント協調開発時代に必須となる実用性の高いセキュリティ・ガードレールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Dicklesworthstone/destructive_command_guard" target="_blank" rel="noreferrer">https://github.com/Dicklesworthstone/destructive_command_guard</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #851</p>
+      </div>
+    </article>
+  </body>
+</html>
