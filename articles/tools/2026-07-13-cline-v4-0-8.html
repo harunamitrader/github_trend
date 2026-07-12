@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GCP Vertex プロバイダーにおけるモデル追加と、ドロップダウンメニュー内でのカスタム Vertex モデル指定用自由入力オプションを追加。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v4.0.8: GCP Vertexプロバイダーでのカスタムモデル自由入力への対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline v4.0.8: GCP Vertexプロバイダーでのカスタムモデル自由入力への対応</h1>
+      <p class="article-dek">GCP Vertex プロバイダーにおけるモデル追加と、ドロップダウンメニュー内でのカスタム Vertex モデル指定用自由入力オプションを追加。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.0.8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline v4.0.8 では、Google Cloud Vertex AI（GCP Vertex）プロバイダーを介して API を利用する際の設定の柔軟性を向上させるためのマイナーアップデートが実施されました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>Vertex プロバイダーのカスタムモデル自由入力対応:</strong> Vertex AI 連携設定において、標準搭載されたモデルのプリセットを選択するだけでなく、ドロップダウンリストから自由にテキストを入力して任意のカスタムモデル ID を指定できるようになりました。</li>
+            <li><strong>モデルオプションの拡充:</strong> 最新の対応モデルを追加し、Vertex AI 上でホストされている様々なモデル（ファインチューニングされたモデルや特定の特定タスク向けバージョン等）を Cline から直接呼び出せるよう設定が整理されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>企業などで Google Cloud (Vertex AI) を用いて自社専用のモデル（カスタムファインチューニング済みの Gemini など）をホストしている場合、これまではプロバイダー側のプリセット制約で Cline から呼び出すことが難しかったケースがありました。今回のカスタムモデル自由入力への対応により、企業独自の推論エンドポイントと Cline を組み合わせた高度な自律コーディング環境が構築しやすくなりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Vertex AI プロバイダー接続時のモデル指定の自由度を高め、企業内でのプライベートモデル活用を強力に後押しするマイナー機能アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

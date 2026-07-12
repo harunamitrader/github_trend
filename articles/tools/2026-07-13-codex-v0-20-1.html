@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CRLFの改行保護マーカー挿入、RalplanのドラフトMarkdown書き出し、Stopフックのスキーマ安全化、およびBash引数パースバグの解消などを盛り込んだパッチリリース。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAI Codex v0.20.1: CRLF保護、計画ドラフト出力、および引数解析のバグ修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenAI Codex v0.20.1: CRLF保護、計画ドラフト出力、および引数解析のバグ修正</h1>
+      <p class="article-dek">CRLFの改行保護マーカー挿入、RalplanのドラフトMarkdown書き出し、Stopフックのスキーマ安全化、およびBash引数パースバグの解消などを盛り込んだパッチリリース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.20.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenAI Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAI Codex (oh-my-codex) v0.20.1 は、エージェント実行時の改行コード破損や、委託された協調関係プロセスの出所判定、特定のコマンド引数解析バグなど、自律ワークフローを円滑にするバグ修正と動作の安全性強化に焦点を当てたパッチリリースです。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>CRLF対応の AGENTS.md マーカー挿入:</strong> Windows等の環境で <code>AGENTS.md</code> を解析・編集する際、改行コード（CRLF）を安全に維持しつつ、各種エージェントの設定マーカーを破損させずに挿入する処理が強化されました。</li>
+            <li><strong>Ralplan の Markdown ドラフト書き出し機能:</strong> <code>.omx/drafts/</code> に格納される Ralplan（計画）の生成物について、ネイティブの計画記述用の制限境界を損なうことなく、正規化された子ファイルの Markdown ドラフト成果物として直接配下に書き出せるようになりました。</li>
+            <li><strong>設定シードプロセスの変更:</strong> 新規セットアップ時に、従来行われていたマルチエージェントやコンテキストウィンドウの古いデフォルト設定シードの自動生成が廃止されました。ユーザーが所有するカスタム設定や、本来のネイティブな役割ルーティングポリシーが上書きされることなく、そのまま適用されるよう改善されました。</li>
+            <li><strong>Stop フックのスキーマ安全性の保証:</strong> 終了処理である Stop フック実行時において、返されるデータが定義済みのスキーマ（Schema-safe）に厳格に準拠するよう修正されました。</li>
+            <li><strong>Conductor（指揮）の委託制御の保護:</strong> 信頼されたサブエージェント（コラボレーション子プロセス）の出所を正確に識別しつつ、リーダーエージェントと個々の計画境界との整合性を保護するガードレールが強化されました。</li>
+            <li><strong>Bash 引数パースバグの修正:</strong> ネイティブ委譲の機能インベントリが不完全な状態でも安全に動作するようフォールバックが追加されました。また、ダブルクォーテーション等で囲まれた Bash コマンド引数の値が、Codex の正規表現パーサーによって誤ってファイル書き出し先（ターゲット）と誤認されてしまう致命的なバグが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Windows 環境において <code>AGENTS.md</code> の編集時に改行コードのズレで設定が壊れてしまう問題や、複雑なコマンドをシェル経由で呼ぶ際に引数内のクォーテーションを Codex が誤解析してエラーを吐くといった問題が解消され、自律実行タスクの無駄な停止（レースコンディション）が大幅に軽減されます。また、計画の中間ドラフトが <code>.omx/drafts/</code> に整理して書き出されるため、途中の計画推論の進捗が可視化されやすくなっています。</p>
+
+        <h2>まとめ</h2>
+        <p>Windowsでの改行コード互換性や、シェル引数の誤解析、計画ドラフトのファイル書き出しの制御など、日々の自律エージェント運用で障害となりやすい細部のバグを徹底的に修復した信頼性向上のアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noreferrer">oh-my-codex (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

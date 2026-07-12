@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="メインチャットと並行して機能するサイドチャット、会話内容まで含めた過去履歴のローカル高速検索、および刷新されてよりシンプルになったプロジェクト/リポジトリピッカーを導入。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor v3.11: サイドチャットと強力な会話検索機能の追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cursor v3.11: サイドチャットと強力な会話検索機能の追加</h1>
+      <p class="article-dek">メインチャットと並行して機能するサイドチャット、会話内容まで含めた過去履歴のローカル高速検索、および刷新されてよりシンプルになったプロジェクト/リポジトリピッカーを導入。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cursor v3.11 では、エージェントとのコミュニケーションフローを途切れさせないための「サイドチャット」や、過去の膨大なチャット履歴をすばやく検索できるローカルインデックス機能など、開発における思考と対話の効率を高める新機能が盛り込まれました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>並行して対話できる「サイドチャット」の導入:</strong> メインエージェントとの進行中の会話（タスク）を止めることなく、別窓（サイドチャット）を開いて追加の質問をしたり、一時的なアイデア検証を行ったりできるようになりました。<code>/side</code> や <code>/btw</code> コマンド、あるいはチャットパネル上部のプラスボタンから、メインチャットのコンテキストを引き継いで新規に立ち上げられます。</li>
+            <li><strong>サイドチャットの永続化とスレッド連携:</strong> サイドチャットは単なる一時窓ではなく、後から会話を追加したり見返したりできる永続的なセッションとして保存されます。さらに、<code>@メンション</code> を使うことでサイドチャットのコンテキストをメインスレッドへシームレスに戻すことも可能です。デフォルトでは「読み取り、検索、回答」に特化しており、メインエージェントの作業の傍らで代替案を調査するのに適しています。</li>
+            <li><strong>インデックス型「会話検索」の実装:</strong> 会話のタイトルやPR番号だけでなく、過去にやり取りしたチャットの「中身のテキスト」を対象とした全文検索が可能になりました。エージェントウィンドウから <code>Cmd+K</code> (Windowsでは <code>Ctrl+K</code> 相当) のコマンドパレットで呼び出せます。ローカルで高度な検索インデックスを自動構築するため、数千件におよぶ履歴からでも一瞬で目的の対話を見つけ出せます。</li>
+            <li><strong>現在のスレッド内検索（Cmd+F）のサポート:</strong> 進行中の長い会話内で <code>Cmd+F</code> を使用し、一致箇所をスクロールしながら前後に移動したり件数を確認したりできるスレッド内簡易検索も追加されました。</li>
+            <li><strong>刷新されたプロジェクト / リポジトリピッカー:</strong> UIが大幅にシンプル化され、画面遷移を伴うことなくピッカー内で完結して新しいプロジェクトの作成や、GitHub、GitLab、Azure DevOps等のホストサービスへの接続が行えるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>「サイドチャット」は、AIエージェントに大きなタスクを自律実行させている最中に「ちょっとしたコードの意味を確認したい」「関係のないライブラリの使い方を聞きたい」といった場合に非常に便利です。また、「会話検索」により、数日前にAIと議論した設計の結論や修正内容を簡単に発掘できるため、知識の再利用性が劇的に向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>自律タスクの邪魔をしない「サイドチャット」と、過去のログを全文検索できる「会話検索」、そしてスムーズな「プロジェクトピッカー」を導入した、開発体験（DX）を大きく底上げする機能リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

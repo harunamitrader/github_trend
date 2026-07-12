@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施したパッチリリース。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.207: Bedrock・Vertex AI等の自動モード規定化とターミナルフリーズの解消</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.207: Bedrock・Vertex AI等の自動モード規定化とターミナルフリーズの解消</h1>
+      <p class="article-dek">Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施したパッチリリース。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.207</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code v2.1.207 では、エンタープライズ・クラウド環境（Bedrock/Vertex AI/Foundry）におけるデフォルト動作の改善や、長大セッションのストリーミング描画に伴う端末フリーズの解消、自動更新によるカスタムラッパーの意図しない上書き防止など、安定性を重視した修正が施されています。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>特定環境での自動モードデフォルト有効化:</strong> <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> の定義下において、Amazon Bedrock、Google Cloud Vertex AI、Palantir Foundry環境では、ユーザーのオプトイン確認を挟まずにデフォルトで自動モード（自律実行モード）が利用可能になりました。なお、<code>disableAutoMode</code> 設定から明示的に無効にすることも可能です。</li>
+            <li><strong>ストリーミング応答時のフリーズ・入力遅延の修正:</strong> 非常に長いリストや表、多数 of コードブロックを含む返答をストリーミング出力している最中に、ターミナル全体がフリーズしたり、キーボード入力が極端に遅延したりするパフォーマンス問題が解消されました。</li>
+            <li><strong>非対話型実行（SDK）のリモート設定同意の永続化:</strong> <code>claude -p</code> 等を用いた非対話型 SDK 経由での実行において、リモート管理に関するセキュリティ同意ダイアログを何度も表示させることなく、初回で永続的に同意済みとして記録されるようになりました。</li>
+            <li><strong>自動更新によるカスタムランチャーの上書き不具合の修正:</strong> 自動アップデート機能が実行された際、<code>~/.local/bin/claude</code> にユーザーが配置していたカスタムラッパースクリプトや独自のシンボリックリンクが上書きされてしまう問題を修正しました。これに伴い、<code>/doctor</code> コマンドが外部管理されているランチャーを正しく検知・報告するよう改善されました。</li>
+            <li><strong>複合コマンド時の承認プロンプトの修正:</strong> <code>cd</code> コマンドの出力リダイレクト先が 1 つだけで、かつ <code>/dev/null</code> 等を伴う複合コマンドが指定された際、ユーザーへ許可を求める確認プロンプトが不要に表示されてしまう問題を修正しました。</li>
+            <li><strong>その他のUX・挙動バグ修正:</strong> ストリーミング応答の終了時にターミナル上でのログ文字起こし表示が一時的に回答開始位置より上へスクロールジャンプしてしまうバグ、最後のワークツリー削除時に <code>.git/config</code> 内の <code>extensions.worktreeConfig</code> に不要な設定（<code>tea worktree.sparsePaths</code> など）が残留し <code>go-git</code> 等の外部ツールで読み込みエラーになるバグ、ルールグロブや <code>.ignore</code> などの解析で不正な括弧パターンがエラーを引き起こす問題などが修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>本アップデートは、AWS Bedrock や GCP Vertex AI などのクラウドプラットフォーム上で自律エージェントを稼働させているチームにとって大きな恩恵をもたらします。また、長大なコード生成やデータの表出力を行う際に画面が固まる問題の解消や、カスタムラッパースクリプトが自動更新で吹き飛ぶ問題の修正により、ローカル環境での日常的な CLI 開発における堅牢性が大幅に増しています。</p>
+
+        <h2>まとめ</h2>
+        <p>BedrockやVertex AIといったエンタープライズ環境での自律自動モード規定化のほか、ストリーミング描画のフリーズ解消やカスタムランチャー保護など、実用上の多くのバグや挙動の不一致を潰した信頼性向上のアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noreferrer">Claude Code (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

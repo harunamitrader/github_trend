@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 20:03:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 04:14:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: v2.1.207]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claudecode-v2-1-207.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claudecode-v2-1-207.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor: v3.11]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-cursor-v3-11.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-cursor-v3-11.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[メインチャットと並行して機能するサイドチャット、会話内容まで含めた過去履歴のローカル高速検索、および刷新されてよりシンプルになったプロジェクト/リポジトリピッカーを導入。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Windsurf: v3.4.27]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-windsurf-v3-4-27.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-windsurf-v3-4-27.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[スペース機能へのセッション開始ボタンの追加、Devin Cloud自動再接続、Windowsにおける孤立したDevin ACPプロセスの起動時クリーンアップ、サンドボックス外実行用の除外設定などを導入。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline: v4.0.8]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-cline-v4-0-8.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-cline-v4-0-8.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GCP Vertex プロバイダーにおけるモデル追加と、ドロップダウンメニュー内でのカスタム Vertex モデル指定用自由入力オプションを追加。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: MDMによる設定配信とOpenTelemetry監査ログ出力のGA]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-github-copilot-mdm-opentelemetry.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-github-copilot-mdm-opentelemetry.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MDM（モバイルデバイス管理）やレジストリ、managed-settings.jsonを介した端末設定配信、およびVS Code・CLIからのOpenTelemetry形式のログ・メトリクス監査出力をサポート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Codex: v0.20.1]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-codex-v0-20-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-codex-v0-20-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CRLFの改行保護マーカー挿入、RalplanのドラフトMarkdown書き出し、Stopフックのスキーマ安全化、およびBash引数パースバグの解消などを盛り込んだパッチリリース。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-12 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-12-update-report.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Ultragoalの完了判定ラグの解消や、Ralplanの終端状態同期の改善、ミッションキュー・ランナーの最小構成（MVP）などを導入したパッチアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline: cli-v3.0.38]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-07-cline-cli-v3-0-38.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-07-cline-cli-v3-0-38.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Plan/Act用の新しいブランドパレット（Amber/Blue）や再デザインされたチャット入力フレーム、低スペックモデル向け入力補正などを導入したアップデート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.51.0-nightly.20260707]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-07-geminicli-v0-51-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-07-geminicli-v0-51-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[macOSサンドボックス下での ~/.gitconfig 読み取り専用化や、最新モデル向け文字列リテラル内エスケープシーケンス保持の修正などを実施。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-06 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-06-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-06-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-alirezarezvani-claude-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-alirezarezvani-claude-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や主要コーディングエージェントに対応した、350以上の生産環境向けスキルと90種以上の自律エージェント設定の包括的ライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[marketingskills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-coreyhaines31-marketingskills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-coreyhaines31-marketingskills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や AI エージェントに、コンバージョン最適化・SEO・コピーライティングのフレームワークを実行させるための専門スキル・プロンプト集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[unity-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-CoplayDev-unity-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-06-CoplayDev-unity-mcp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Model Context Protocol を介して AI アシスタントと Unity エディタを接続し、アセット管理やシーン構築を自動化するブリッジ]]></description>
     </item>
   </channel>
 </rss>

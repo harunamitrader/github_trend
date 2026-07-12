@@ -7,6 +7,78 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-claudecode-v2-1-207",
+      "title": "Claude Code: v2.1.207",
+      "dek": "Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施。",
+      "summary": "Claude Codeのv2.1.207リリース。特定クラウド環境における自動モードのデフォルト有効化、ストリーミング描画中のターミナルフリーズやキー入力遅延の修正、非対話型SDK実行時のセキュリティ同意の永続化、自動更新時のカスタムランチャー保護などを実施。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:02:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropics/claude-code",
+      "articleUrl": "./articles/tools/2026-07-13-claudecode-v2-1-207.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-cursor-v3-11",
+      "title": "Cursor: v3.11",
+      "dek": "メインチャットと並行して機能するサイドチャット、会話内容まで含めた過去履歴のローカル高速検索、および刷新されてよりシンプルになったプロジェクト/リポジトリピッカーを導入。",
+      "summary": "Cursorのv3.11リリース。メインの対話を邪魔しないサイドチャット機能の追加、過去の膨大な対話履歴をローカルのインデックスを用いて全文検索できる会話検索機能、および操作フローがその場で完結する新しいプロジェクト/リポジトリピッカーを搭載。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:01:00+09:00",
+      "toolName": "Cursor",
+      "toolUrl": "https://www.cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-13-cursor-v3-11.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-windsurf-v3-4-27",
+      "title": "Windsurf: v3.4.27",
+      "dek": "スペース機能へのセッション開始ボタンの追加、Devin Cloud自動再接続、Windowsにおける孤立したDevin ACPプロセスの起動時クリーンアップ、サンドボックス外実行用の除外設定などを導入。",
+      "summary": "Windsurfのv3.4.27リリース。スペースメニューでの新規セッション追加、ネットワーク復旧時のDevin Cloud自動再接続、起動時における孤立したDevin Local/ACPプロセスの自動クリーンアップ（Windows対応）、サンドボックス外コマンド実行用の除外ポリシーなどを追加。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:00:00+09:00",
+      "toolName": "Windsurf",
+      "toolUrl": "https://windsurf.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-13-windsurf-v3-4-27.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-cline-v4-0-8",
+      "title": "Cline: v4.0.8",
+      "dek": "GCP Vertex プロバイダーにおけるモデル追加と、ドロップダウンメニュー内でのカスタム Vertex モデル指定用自由入力オプションを追加。",
+      "summary": "Clineのv4.0.8リリース。Google Cloud Vertex AI（GCP Vertex）プロバイダー設定において、標準搭載モデル以外のカスタムモデルIDを自由に入力して指定できるドロップダウンオプションを追加し、プライベート環境での柔軟性を向上。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T03:59:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-13-cline-v4-0-8.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-github-copilot-mdm-opentelemetry",
+      "title": "GitHub Copilot: MDMによる設定配信とOpenTelemetry監査ログ出力のGA",
+      "dek": "MDM（モバイルデバイス管理）やレジストリ、managed-settings.jsonを介した端末設定配信、およびVS Code・CLIからのOpenTelemetry形式のログ・メトリクス監査出力をサポート。",
+      "summary": "GitHub Copilotにて、大企業向けの管理統治（ガバナンス）を強化する設定強制配布機能（Intune, Jamf, グループポリシー, managed-settings.json対応）およびOpenTelemetry形式でのセキュリティ・パフォーマンス監査ログのエクスポート機能を一般提供（GA）。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T03:58:00+09:00",
+      "toolName": "GitHub Copilot",
+      "toolUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-07-13-github-copilot-mdm-opentelemetry.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-codex-v0-20-1",
+      "title": "OpenAI Codex: v0.20.1",
+      "dek": "CRLFの改行保護マーカー挿入、RalplanのドラフトMarkdown書き出し、Stopフックのスキーマ安全化、およびBash引数パースバグの解消などを盛り込んだパッチリリース。",
+      "summary": "OpenAI Codex (oh-my-codex)のv0.20.1リリース。Windows環境でのAGENTS.mdのCRLF改行コード自動保護、.omx/drafts/へのRalplanドラフト自動書き出し機能、Stopフック応答のスキーマ安全化、およびダブルクォーテーションで囲まれたBash引数の誤解析バグなどを修正。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T03:57:00+09:00",
+      "toolName": "OpenAI Codex",
+      "toolUrl": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "articleUrl": "./articles/tools/2026-07-13-codex-v0-20-1.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-12-update-report",
       "title": "2026-07-12 更新レポート",

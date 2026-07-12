@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="スペース機能へのセッション開始ボタンの追加、Devin Cloud自動再接続、Windowsにおける孤立したDevin ACPプロセスの起動時クリーンアップ、サンドボックス外実行用の除外設定などを導入。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Windsurf v3.4.27: サンドボックス除外設定の追加と Windows 環境の安定化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Windsurf v3.4.27: サンドボックス除外設定の追加と Windows 環境の安定化</h1>
+      <p class="article-dek">スペース機能へのセッション開始ボタンの追加、Devin Cloud自動再接続、Windowsにおける孤立したDevin ACPプロセスの起動時クリーンアップ、サンドボックス外実行用の除外設定などを導入。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.4.27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Windsurf</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Windsurf v3.4.27 では、Devin Local および Devin Cloud 連携におけるセッション接続の最適化や、サンドボックス外での特定コマンド実行をコントロールするポリシーの追加、そして Windows システムにおけるバックグラウンドプロセスのクリーンアップなど、多くの改善と不具合修正が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>スペースメニューへの新規セッション作成機能:</strong> セッションのケバブメニュー内に「New session in space（スペース内に新規セッション）」項目が追加され、スペースを起点とした対話を素早く開始できるようになりました。</li>
+            <li><strong>Devin Cloud 接続の自動復旧:</strong> Devin Cloud セッションを実行中にネットワークが瞬断された場合でも、切断状態のまま放置されず、ネットワーク回復時にクライアントが自動で再接続を試みるようになりました。</li>
+            <li><strong>チャット画像コピーと自律編集 diff の可視化:</strong> チャットに表示された画像をコンテキストメニューからクリップボードにコピーできるようになりました。また、自律モード（autonomous mode）で生成されたコード編集が、適用前にレビュー可能な形式の diff としてプレビュー表示されるようになりました。</li>
+            <li><strong>Windows 環境での孤立エージェントプロセス自動クリーンアップ:</strong> クライアントの起動時、前回のセッション終了時に適切に終了されずバックグラウンドに残留していた孤立 Devin ACP（Agent Control Protocol）プロセスを自動で検出し、クリーンアップする仕組みが追加されました。これには Windows 上のプロセスも含まれます。</li>
+            <li><strong>サンドボックス除外（sandbox.excluded）設定の追加:</strong> 特定の信頼できるコマンドをコンテナ/サンドボックスの外部で実行させるための <code>sandbox.excluded</code>（値として allow / ask / deny）設定が、ユーザーおよびチーム設定に追加されました。除外されたコマンドはサンドボックスプロキシ環境もバイパスして実行されます。</li>
+            <li><strong>その他の修正と改善:</strong> ワークツリー作成時のブランチチェックアウトがサイレントで失敗するバグの修正、非常に大きなセッションにおいてイベントキャッシュを読み書きする際のクラッシュの修正、長いセッションでダークテーマ適用時に「トップへスクロール」ボタンが背景に溶け込んで見えなくなる問題の修正、PowerShell における <code>$variable</code> 変数代入プレフィックスを伴うコマンド承認判定バグの修正などが実施されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Windows 上で Devin Local を稼働させる際に発生しがちだった、エージェントプロセスの残留によるシステムリソース食いつぶしやロックが、起動時に自動でクリーンアップされるようになり安定性が増しました。また、セキュリティ基準の厳しい環境で「一部のローカルコマンドのみサンドボックス外で実行したい」場合に <code>sandbox.excluded</code> を用いて安全にバイパス設定が行えるようになっています。</p>
+
+        <h2>まとめ</h2>
+        <p>孤立プロセスのクリーンアップやサンドボックス除外設定の追加、再接続処理の強化など、開発者がローカルおよびクラウドで Devin/Cascade と協調して動作する際のトラブルを未然に防ぐ安定化アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://windsurf.com/changelog" target="_blank" rel="noreferrer">Windsurf Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
