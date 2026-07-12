@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="対話型オンボーディングシステム「Crestodian」の導入、GPT-5.6ファミリー対応、動的モデルディスカバリプロバイダー「ClawRouter」のバンドル、および macOS 専用コントロール UI やモバイル機能の強化などを実施。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.7.1-beta.5: CrestodianオンボーディングとClawRouterの導入</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.7.1-beta.5: CrestodianオンボーディングとClawRouterの導入</h1>
+      <p class="article-dek">対話型オンボーディングシステム「Crestodian」の導入、GPT-5.6ファミリー対応、動的モデルディスカバリプロバイダー「ClawRouter」のバンドル、および macOS 専用コントロール UI やモバイル機能の強化などを実施。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-13 -->
+          <strong>2026-07-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.7.1-beta.5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClaw v2026.7.1-beta.5 では、自律型AIエージェントのセットアッププロセスを劇的に簡素化する「Crestodian」や、複数のAIプロバイダー接続を自律調整する「ClawRouter」、そして新しい GPT-5.6 モデルファミリーのサポートなど、多岐にわたる新機能と UI / UX の改善が盛り込まれました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>対話型オンボーディング「Crestodian」の導入:</strong> CLI、Webインストール画面、および macOS アプリにおいて、対話しながらプロバイダー設定やモデル割り当てを行えるAIガイド付きセットアップ機能が追加されました。認証情報の安全な入力やマスク処理にも対応しています。</li>
+            <li><strong>OpenAI GPT-5.6 ファミリーの完全サポート:</strong> 最新の GPT-5.6 モデル（Sol、Terra、Luna）をカタログおよび実行時の選択肢として認識するようになり、最大推論 effort やトークン単価のメタデータ定義も更新されました。</li>
+            <li><strong>ClawRouter（動的プロバイダー）のバンドル:</strong> ローカルの予算設定や使用制限ポリシーに基づき、接続された Anthropic、Gemini、OpenAI 互換エンドポイントの中から最も効率的なモデルを動的に発見・ルーティングする機能が搭載されました。</li>
+            <li><strong>macOS 専用コントロール UI とセッションブラウザの刷新:</strong> ダッシュボード全体のデザインが見直され、検索可能なサイドバーが追加されました。また、macOS アプリ向けに、推論 effort スライダーやコンテキスト使用量トラッカーを備えたネイティブセッションブラウザが導入されました。</li>
+            <li><strong>モバイル・Apple Watch 機能の強化:</strong> iOS および Android アプリでチャットとトランスクリプトのキャッシュをオフラインでプリペイント（高速描画）する機能が追加されたほか、Apple Watch でのスタンドアロンの音声ターン機能や、iOS アプリでの Gateway TTS 音声読み上げに対応しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Crestodian の対話型セットアップにより、初めて OpenClaw を導入するユーザーでも API キーやローカルサーバーの接続に迷うことなく自律エージェントを立ち上げられるようになりました。また、ClawRouter によって、API 制限やコストを意識することなく、タスクの難易度に応じて最適なプロバイダー（Gemini 3 や GPT-5.6 など）を自動で使い分ける高度な運用が簡単になります。</p>
+
+        <h2>まとめ</h2>
+        <p>セットアップを自動化する Crestodian、マルチプロバイダーを自律制御する ClawRouter、そして最新の GPT-5.6 対応や macOS 専用 UI の刷新を盛り込んだ、ローカルファースト自律エージェントとしての完成度を高める大型ベータアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw Releases (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

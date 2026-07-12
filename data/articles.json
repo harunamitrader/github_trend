@@ -8,6 +8,66 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-13-openclaw-v2026-7-1-beta-5",
+      "title": "OpenClaw: v2026.7.1-beta.5",
+      "dek": "対話型オンボーディングシステム「Crestodian」の導入、GPT-5.6ファミリー対応、動的モデルディスカバリプロバイダー「ClawRouter」のバンドル、および macOS 専用コントロール UI やモバイル機能の強化などを実施。",
+      "summary": "OpenClawのv2026.7.1-beta.5リリース。AIガイド付きでプロバイダー設定を対話しながら行えるCrestodianの導入、最新のGPT-5.6（Sol/Terra/Luna）サポート、動的モデルルーティングを行うClawRouterのバンドル、およびmacOS専用セッションブラウザやモバイル・Watch連携の強化などを追加。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:09:00+09:00",
+      "toolName": "OpenClaw",
+      "toolUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-07-13-openclaw-v2026-7-1-beta-5.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-chatgpt-gpt-5-6-sol-work",
+      "title": "ChatGPT: GPT-5.6「Sol」の一般公開と自律型「ChatGPT Work」の提供開始",
+      "dek": "政府のセキュリティ審査を通過した次世代のフラグシップモデル「GPT-5.6 Sol」の一般公開、自律型ワークスペースエージェント「ChatGPT Work」のローンチ、および Codex 機能を統合したデスクトップアプリの刷新を実施。",
+      "summary": "OpenAIが「GPT-5.6 Sol」モデルを正式に一般公開。併せてファイルや外部ツールと連携してドキュメント・スライド・Webアプリ等を完全自律生成する「ChatGPT Work」をローンチし、さらにCodex機能を統合した新しいデスクトップアプリを全ユーザーへ提供開始。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:08:00+09:00",
+      "toolName": "ChatGPT",
+      "toolUrl": "https://help.openai.com/en/collections/3742473-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-07-13-chatgpt-gpt-5-6-sol-work.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-grok-v4-5-enterprise",
+      "title": "Grok: v4.5",
+      "dek": "コーディング、自律エージェント能力、および高度な知識推論を強化した「Grok 4.5」の発表、コーディングプラットフォーム Cursor 買収の発表、およびエンタープライズ市場への本格参入を実施。",
+      "summary": "SpaceXAIが最新鋭モデル「Grok 4.5」をリリース。併せてAIコードエディター「Cursor」の開発元の買収を発表し、エディターにGrok 4.5をネイティブ統合。卓越したトークン効率と組織管理機能を背景にエンタープライズ市場へ本格参入。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:07:00+09:00",
+      "toolName": "Grok",
+      "toolUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-07-13-grok-v4-5-enterprise.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-perplexity-nvidia-vera-teammate",
+      "title": "Perplexity: Nvidia「Vera」CPUの導入と自律開発ツール「Teammate」の開発公表",
+      "dek": "Nvidia の次世代 CPU「Vera」をエージェント型 AI 検索・コーディングスタックに本格導入して 1.5 倍のパフォーマンス向上を達成したこと、およびエンドツーエンドでソフトウェア開発プロジェクトを遂行する自律ツール「Teammate」の開発を公表。",
+      "summary": "PerplexityがインフラバックエンドにNvidiaの超高速CPU「Vera」を導入し、AI推論・並行検索を1.5倍高速化。さらに、バグ管理から設計・テスト・デプロイまでを完全自律で行うAI協調開発ツール「Teammate」のロードマップを公開。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:06:00+09:00",
+      "toolName": "Perplexity",
+      "toolUrl": "https://blog.perplexity.ai/",
+      "articleUrl": "./articles/tools/2026-07-13-perplexity-nvidia-vera-teammate.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-13-claude-reflection-beta",
+      "title": "Claude: 新機能「Reflection」をベータ公開",
+      "dek": "ユーザーが Claude をどのように活用しているかを詳細に追跡・視覚化し、プロンプトの記述スタイルや業務統合プロセスを自己洗練（自己改善）させるための新機能「Reflection」をベータ公開。",
+      "summary": "Anthropicが、ユーザーのClaude利用状況を可視化・分析し、AIとの効率的な対話やプロンプト設定を自己改善するための提案を行う新機能「Reflection」のベータテストを開始。Projects機能とも深く統合。",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-13T04:05:00+09:00",
+      "toolName": "Claude",
+      "toolUrl": "https://www.anthropic.com/news",
+      "articleUrl": "./articles/tools/2026-07-13-claude-reflection-beta.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-13-claudecode-v2-1-207",
       "title": "Claude Code: v2.1.207",
       "dek": "Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施。",
