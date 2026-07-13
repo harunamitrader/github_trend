@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="「AI生成っぽさ」を徹底排除し、洗練されたモダンなWebUIをAIエージェントに生成させるためのアンチAIスロップ・デザインテンプレート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hallmark</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hallmark</h1>
+      <p class="article-dek">「AI生成っぽさ」を徹底排除し、洗練されたモダンなWebUIをAIエージェントに生成させるためのアンチAIスロップ・デザインテンプレート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-14 -->
+          <strong>2026-07-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 5</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noreferrer">
+              Nutlope/hallmark
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,981</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「hallmark」は、Claude CodeやCursor、CodexなどのAIコーディングアシスタントが生成するデザインにありがちな「安易で画一的なAI生成風UI（AI slop）」を徹底的に防ぐために設計された、モダンなアンチAIスロップ・フロントエンドWebデザインテンプレート・スキルパッケージです。Together AIによって開発され、プロ品質の美しいテーマと簡潔なマークアップ構造を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>本リポジトリは、AIによるフロントエンド実装のクオリティを底上げするための以下の仕様を備えています。</p>
+        <ul>
+          <li><strong>20種類のプレミアムテーマ:</strong> 厳選された色彩設計、タイポグラフィ、余白のガイドラインが組み込まれた、高品質なテーマバリエーションが初期から用意されています。</li>
+          <li><strong>プロンプト制約としての「デザインスキル」:</strong> AIクライアントに対して「AIっぽい安易なグラデーションやプレースホルダーを使わず、洗練された単色UIやグリッドを優先せよ」というルール（デザインスキル）を指示として注入できます。</li>
+          <li><strong>軽量で高速な動作:</strong> 余計なフレームワークに依存せず、ミニマルなHTML/CSSコードで構成されており、AIが生成時のトークンを浪費することなく高速に出力可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>AIモデルは何も指定しないと、青や緑などのありきたりなプライマリーカラー、無駄な丸みの角丸、冗長なシャドウ、無意味なダミーイラストを多用する傾向があります。「hallmark」はそうした悪癖（AI slop）を構造的・指示レベルで抑制し、あえてフラットかつエッジの効いた、高級デザイナーが手掛けたようなミニマルモダンなインターフェースを生成させるためのアプローチをとっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>GitHubからリポジトリをダウンロードまたはクローンし、同封されているプロンプト指示書（スキルルール）をClaude CodeやCursorのシステム構成ファイル、あるいはワークスペース指示ファイルにコピー＆ペーストして、AIエージェントに読み込ませて開発を行います。</p>
+        <pre><code># リポジトリのクローン
+git clone https://github.com/Nutlope/hallmark.git
+
+# ローカルデモの起動
+cd hallmark
+npm install
+npm run dev</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <p>AIコーディングエージェントを使って個人プロジェクトやモックアップを高速に構築したいが、一目で「AIが作った」と見抜かれるような凡庸なデザインを避け、洗練されたブランド感のあるプロダクトに仕上げたいWebフロントエンド開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>本テンプレートはミニマリズムと高いデザイン性の両立を目指しているため、極度に複雑なアニメーションや3Dモデリングなどを多用するドメインには個別のCSSカスタマイズが必要です。AIに強固なデザイン方針を押し当てる性質があるため、既存のUIコンポーネントライブラリと完全に同調させる場合にはプロンプトの調整が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「hallmark」は、AI生成コードの品質にとどまらず「AI生成UIのデザイン品質」に着目した革新的なアンチスロップツールです。AIの思考の癖を抑え込み、実用的で極めて洗練されたUIを生成させるための新しいフロントエンド開発のベストプラクティスを示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noreferrer">https://github.com/Nutlope/hallmark</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #854</p>
+      </div>
+    </article>
+  </body>
+</html>

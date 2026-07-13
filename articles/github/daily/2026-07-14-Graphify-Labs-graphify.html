@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="コード・ドキュメント・データベース定義から、AIコーディングアシスタントが瞬時に問い合わせ可能な「知識グラフ」を全自動生成する開発支援ツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>graphify</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">graphify</h1>
+      <p class="article-dek">コード・ドキュメント・データベース定義から、AIコーディングアシスタントが瞬時に問い合わせ可能な「知識グラフ」を全自動生成する開発支援ツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-14 -->
+          <strong>2026-07-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noreferrer">
+              Graphify-Labs/graphify
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>84,419</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「graphify」は、プロジェクト内のソースコード、SQLスキーマ定義、各種スクリプト、技術ドキュメント、論文、さらには関連する画像や動画までを解析し、AIコーディングアシスタント（Claude Code、Codex、Cursor、Gemini CLIなど）が構造的に検索・推論できる「開発用知識グラフ」を全自動で構築する開発ナレッジ抽出ツールです。アプリケーションコードからデータベース、インフラ設計までを1つの有向グラフとしてモデル化し、AIの理解力を底上げします。</p>
+
+        <h2>何ができるか</h2>
+        <p>本リポジトリは、AIによるソフトウェア開発を加速するための以下の強力な機能を備えています。</p>
+        <ul>
+          <li><strong>統合型知識グラフの構築:</strong> コード内の呼び出し関係だけでなく、DBスキーマとの関係、インフラ構成、ドキュメントの記述などを連結した1つの統一グラフを自動構築します。</li>
+          <li><strong>マルチソース解析:</strong> テキストコードだけでなく、SQL定義、シェルスクリプト、説明ドキュメント、システム構成画像や解説動画などのマルチモーダルアセットも解析対象に含めることができます。</li>
+          <li><strong>AIコーディング用スキルとしての統合:</strong> 構築された知識グラフは、Claude CodeやCursorなどのエージェント向けカスタムスキル（MCP経由など）としてバインド可能で、AIからの高精度なセマンティック検索に対応します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、単なるコードシンボルのインデックス（定義位置の抽出）にとどまらず、設計や運用に関わる「コンテキスト（文脈・意図）」をグラフ接続する点にあります。これにより、AIアシスタントが「このAPIを変更した際、どのDBテーブルや関連ドキュメントに影響が出るか」といった、プロジェクト全体を見渡した高度なインパクト分析を瞬時に実行できるようになります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>CLIツールとして導入し、プロジェクトのルートディレクトリで実行することでナレッジベースを作成します。主要なAIクライアントのMCPサーバー設定ファイルに登録することで、チャットから直接グラフ検索を実行させることができます。</p>
+        <pre><code># CLI ツールのインストール
+npm install -g @graphify-labs/graphify
+
+# ナレッジグラフの構築
+graphify init ./my-project
+graphify build
+
+# MCP サーバーとして起動
+graphify serve --mcp</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントを本格的に実業務に導入し、開発プロセスの大部分を自動化したいと考えているソフトウェアエンジニアやアーキテクトに最適です。特に、コードベースが巨大でドキュメントやデータベースとの依存関係が複雑化したレガシーシステムのマイグレーションや、大規模な新規機能開発を進めるチームで絶大な効果を発揮します。</p>
+
+        <h2>注意点</h2>
+        <p>大量のドキュメントや画像・動画ファイルを解析する際、APIキーを介したモデル利用料金（トークン消費量）やインデックス構築の時間が膨らむ可能性があるため、初回構築時は対象フォルダを絞るなどの適切なフィルタリングが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>「graphify」は、AIエージェントにプロジェクト全体の広大なコンテキストを与えるための、極めて先進的なグラフベースのセマンティック検索システムです。AIコーディング時代の標準インフラとして、今後の開発効率化を強力に牽引する可能性を秘めたツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noreferrer">https://github.com/Graphify-Labs/graphify</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #853</p>
+      </div>
+    </article>
+  </body>
+</html>
