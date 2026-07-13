@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-14-gemini-omni-live-update",
+      "title": "Gemini: Gemini Omni のリリースと Gemini Live のチャット統合",
+      "dek": "高度な動画・音声生成やカスタムアバター作成を可能にする Gemini Omni の提供開始、および Gemini Live のチャット画面への直接統合",
+      "summary": "Google Gemini (Advanced) にて新機能「Gemini Omni」がリリース。音声・動画の同時対話生成やパーソナライズされたAIアバター作成が利用可能になったほか、音声会話「Gemini Live」が通常のテキストチャットとシームレスに行き来できるように統合されました。",
+      "publishedAt": "2026-07-14",
+      "createdAt": "2026-07-14T04:16:00+09:00",
+      "toolName": "Gemini",
+      "toolUrl": "https://gemini.google/",
+      "articleUrl": "./articles/tools/2026-07-14-gemini-omni-live-update.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-14-antigravity-v1-2-0",
       "title": "Antigravity: v1.2.0",
       "dek": "孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート",

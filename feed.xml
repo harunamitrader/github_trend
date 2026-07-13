@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Jul 2026 19:03:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 04:16:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini: Gemini Omni のリリースと Gemini Live のチャット統合]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-gemini-omni-live-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-gemini-omni-live-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[高度な動画・音声生成やカスタムアバター作成を可能にする Gemini Omni の提供開始、および Gemini Live のチャット画面への直接統合]]></description>
+    </item>
     <item>
       <title><![CDATA[Antigravity: v1.2.0]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-antigravity-v1-2-0.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CRLFの改行保護マーカー挿入、RalplanのドラフトMarkdown書き出し、Stopフックのスキーマ安全化、およびBash引数パースバグの解消などを盛り込んだパッチリリース。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-12 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-12-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-12-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
