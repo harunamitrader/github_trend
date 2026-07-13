@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Jul 2026 05:01:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 04:02:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Antigravity: v1.2.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-antigravity-v1-2-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-antigravity-v1-2-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260713]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-geminicli-v0-52-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-geminicli-v0-52-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JSON や Jupyter Notebook の編集時に LLM による自己修正をバイパスする挙動の導入や、タスクキャンセル時の実行ループ強制終了などを盛り込んだナイトリーアップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-13 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-13-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Catch2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-catchorg-Catch2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-catchorg-Catch2.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[直感的でシンプルなアサーション構文と、高速なテスト並列実行・多様なレポーティングに対応したC++用テストフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[abseil-cpp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-abseil-abseil-cpp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-12-abseil-abseil-cpp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Googleのコードベースから抽出され、標準C++ライブラリを補完するために設計された、実証済みのC++ユーティリティライブラリ集]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-14-antigravity-v1-2-0",
+      "title": "Antigravity: v1.2.0",
+      "dek": "孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート",
+      "summary": "Google Antigravity CLI (agy) の v1.2.0 リリース。孫エージェント以下のツール実行確認をルートへ中継する仕組み、settings.json で事前許可されたファイルパスへの確認レビューをスキップする機能、Jujutsu (jj) ワークスペースにおける diff 表示バグ等の不具合修正を同梱。",
+      "publishedAt": "2026-07-14",
+      "createdAt": "2026-07-14T04:02:00+09:00",
+      "toolName": "Antigravity",
+      "toolUrl": "https://antigravity.google/changelog?authuser=0",
+      "articleUrl": "./articles/tools/2026-07-14-antigravity-v1-2-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-14-geminicli-v0-52-0-nightly",
+      "title": "Gemini CLI: v0.52.0-nightly.20260713",
+      "dek": "JSON や Jupyter Notebook の編集時に LLM による自己修正をバイパスする挙動の導入や、タスクキャンセル時の実行ループ強制終了などを盛り込んだナイトリーアップデート",
+      "summary": "Google Gemini CLI の最新ナイトリービルド。write_file や replace で JSON/IPYNB 編集時に発生するモデルの自己修正処理のバイパス対応、バックグラウンドタスクキャンセル時の実行ループ強制アボート機能、Code Assist 未有効化時の警告文言整理などを実施。",
+      "publishedAt": "2026-07-14",
+      "createdAt": "2026-07-14T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-14-geminicli-v0-52-0-nightly.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-13-update-report",
       "title": "2026-07-13 更新レポート",

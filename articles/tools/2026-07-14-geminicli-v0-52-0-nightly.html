@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JSON や Jupyter Notebook の編集時に LLM による自己修正をバイパスする挙動の導入や、タスクキャンセル時の実行ループ強制終了などを盛り込んだナイトリーアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.52.0-nightly.20260713</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.52.0-nightly.20260713</h1>
+      <p class="article-dek">JSON や Jupyter Notebook の編集時に LLM による自己修正をバイパスする挙動の導入や、タスクキャンセル時の実行ループ強制終了などを盛り込んだナイトリーアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-14 -->
+          <strong>2026-07-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.52.0-nightly.20260713</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の Gemini CLI（@google/gemini-cli）の開発ブランチにおいて、JSON・ノートブックの編集プロセスの最適化や不具合修正を含む最新ナイトリービルドが公開されました。主な更新内容は以下の通りです。</p>
+        <ul>
+            <li><strong>JSON および IPYNB 編集時の LLM 修正バイパス:</strong> <code>write_file</code> や <code>replace</code> ツールを介して JSON ファイルや Jupyter Notebook（.ipynb）ファイルを編集する際、モデルによる無駄なフォーマット修正（自己修正ループ）を完全にスキップする挙動を導入しました。</li>
+            <li><strong>タスクキャンセル時の実行ループ強制終了:</strong> <code>a2a-server</code> において、ユーザーがバックグラウンドタスクや実行コマンドをキャンセルした際に、エージェントの内部処理ループが確実にアボートされるように修正しました。</li>
+            <li><strong>クォータ制限エラーに対する情報拡充:</strong> 共有プロジェクトでの API クォータ制限超過が発生した際、状況を改善するためのセットアップ用ヒントメッセージをエラー通知に統合しました。</li>
+            <li><strong>Code Assist 未有効化アカウントの警告メッセージ表示:</strong> ログインアカウントに Code Assist ティアの利用権限がない場合に、ユーザーが状況をすぐに把握できるよう、明確な警告メッセージを表示するように改善しました。</li>
+            <li><strong>Caretaker サービスの機能拡張:</strong> 開発補助（caretaker）サービスにおいて、GitHub アクション連携のための octokit ハンドラーや、トリアージワーカー向けの中央ループ処理の実装が進められました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>JSON や Jupyter ノートブックの編集時、構造化データに対して LLM が余計なテキスト整形を行おうとして無限ループや文法エラーを誘発する問題が解消され、データの信頼性と書き換え速度が向上します。また、タスクキャンセルが確実に動作するようになったことで、不要な API トークンの消費を防止できます。</p>
+
+        <h2>まとめ</h2>
+        <p>データの書き換え時における LLM の介入を最適化し、タスクキャンセルやクォータ超過時の挙動を整理した、日常の開発体験の安定性を高めるバグ修正中心のナイトリービルドです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noreferrer">google-gemini/gemini-cli Repository</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

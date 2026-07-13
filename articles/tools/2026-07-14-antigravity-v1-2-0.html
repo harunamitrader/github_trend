@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Antigravity: v1.2.0</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Antigravity: v1.2.0</h1>
+      <p class="article-dek">孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-14 -->
+          <strong>2026-07-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.2.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Antigravity</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google Antigravity CLI（agy）にて、エージェント協調開発の安定性と操作性を向上させるマイナーバージョン v1.2.0 がリリースされました。主な変更内容は以下の通りです。</p>
+        <ul>
+            <li><strong>再帰的なサブエージェント承認のサポート:</strong> 孫（Grandchild）やそれより深い階層に位置するサブエージェントの処理を表示し、階層に関わらずツール実行の確認要求をルート会話まで再帰的に中継して処理できるようになりました。</li>
+            <li><strong>事前承認済み書き込み権限のプロンプトスキップ:</strong> <code>settings.json</code> の <code>permission.allow</code> に定義されたファイル書き込み権限を優先し、該当するパスへの書き込み時には確認用のレビュー画面をスキップして即時保存する挙動に変更されました。</li>
+            <li><strong>Jujutsu (jj) ワークスペースにおける diff ビューアの修正:</strong> Git と colocated された jj リポジトリにおいて <code>.git</code> より <code>.jj` を優先して処理するよう修正され、コミットハッシュの認識やグラフノード表示の不具合が解消されました。</li>
+            <li><strong>ローカルフックの再ロード対応:</strong> フォルダーを信頼する設定を行った後に、ワークスペース配下の <code>.agents/hooks.json</code> が読み込まれないバグを、ワークスペース切り替え時の再ロード処理の導入により修正しました。</li>
+            <li><strong>出力フォーマットの改善:</strong> セッション終了時の再開コマンドの出力を改行して独立させ、tmux 等でのコピペをしやすくしたほか、Markdown テーブル内のファイルリンクによる配置の崩れを修正しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>自律ループが深い階層に入った場合でも、人間にツール実行の可否を尋ねるダイアログが適切にルートまでリレーされるようになったため、複雑なマルチエージェントタスクの途中でエージェントがハングアップするのを防ぐことができます。また、よく触るファイルへの書き込み権限をあらかじめ設定ファイルで許可しておくことで、開発効率がさらに向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>深い階層でのツール実行中継や、事前許可されたファイルパスに対する操作ステップの簡略化など、TUI 開発環境としての使いやすさと安定性を着実に強化したアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://antigravity.google/changelog?authuser=0" target="_blank" rel="noreferrer">Google Antigravity Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
