@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tauri v2、React 19、およびRustで構築された、ハードウェアアクセラレーションとAI機能を備えたオープンソースの無料ノンリニア動画編集ソフト"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Clypra</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Clypra</h1>
+      <p class="article-dek">Tauri v2、React 19、およびRustで構築された、ハードウェアアクセラレーションとAI機能を備えたオープンソースの無料ノンリニア動画編集ソフト</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-15 -->
+          <strong>2026-07-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/AIEraDev/Clypra" target="_blank" rel="noreferrer">
+              AIEraDev/Clypra
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,565</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「Clypra」は、Tauri v2、React 19、およびRustを使用して開発されている、オープンソースのマルチプラットフォーム（デスクトップ・モバイル対応）動画編集アプリケーションです。商用の高機能な動画編集ソフト（CapCutなど）で有償提供されているような各種高度な機能（自動テロップ生成、AIスマートカット、エフェクト適用など）を、完全無料で永久に使い続けられる環境を提供することを目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>現在開発が進められている主要な機能は以下の通りです。</p>
+        <ul>
+          <li><strong>マルチトラック・ノンリニア編集:</strong> タイムライン上に複数の動画、音声、テキストトラックを配置し、プレビューを確認しながら直感的にトリミング、カット、移動が可能です。</li>
+          <li><strong>ハードウェアアクセラレーションとRust処理系:</strong> Rustで記述された高性能バックエンドエンジンとFFmpegのハードウェアデコード/エンコード連携を活用し、4K解像度の映像処理もCPU/GPUリソースを効率的に使用して高速処理します。</li>
+          <li><strong>ローカルAIによる支援機能:</strong> 音声のテキスト文字起こし（自動字幕/テロップ付け）や、無音区間の自動カットなどをローカル環境で（クラウド送信なしに）動作する軽量AIエンジンで実行可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>Tauri v2を採用したハイブリッド構成を取っている点です。UI層はReact 19とTailwind CSSによる美しく滑らかでインタラクティブなモダンWebスタックで構築され、重いエンコード処理やファイルIO、システムリソース制御はRustが直接ハンドルします。これにより、クライアント全体のインストールフットプリントが非常に小さく、起動も高速です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各プラットフォーム向けにプリビルドされたインストーラーがリリース予定ですが、ローカルでソースコードからビルドする場合は、RustツールチェーンとNode.js、およびFFmpegライブラリが必要です。</p>
+        <pre><code># 依存パッケージのインストールと起動
+git clone https://github.com/AIEraDev/Clypra.git
+cd Clypra
+npm install
+
+# 開発サーバーおよびTauriデスクトップの起動
+npm run tauri dev</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <p>手軽に短尺動画やYouTube、TikTok向けの動画制作を行いたいクリエイターや、サブスクリプション型の有償動画編集ソフトに代わる軽量なツールを求めているユーザーに適しています。また、Tauri v2とRustを用いた大規模デスクトップアプリケーションの実装パターンを学びたい開発者にとっても非常に参考になる構成です。</p>
+
+        <h2>注意点</h2>
+        <p>プロジェクトはアクティブに開発中であり、一部の高度なエフェクトやトランジション、複雑なマルチカメラ編集機能は現在順次実装されている段階です。プロダクションレベルでの大規模かつ緊急の編集作業に投入する際は、定期的なプロジェクト保存を行うなど、ベータ段階のツールとしての配慮が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「Clypra」は、Tauri v2＋Rust＋React 19という最先端の技術スタックを融合させ、ユーザーファーストかつ完全無料で高度なクリエイティブ作業を実現しようとする野心的な動画エディタです。AIアシストによる省力化とハードウェアに寄り添うハイパフォーマンスを兼ね備え、今後の進化が非常に期待されるオープンソースプロダクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AIEraDev/Clypra" target="_blank" rel="noreferrer">https://github.com/AIEraDev/Clypra</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #859</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grok Build、Grok Web、およびGrok Consoleの複数アカウントを束ね、標準的なOpenAI互換形式として公開できるGo言語製のAPIゲートウェイ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>grok2api</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">grok2api</h1>
+      <p class="article-dek">Grok Build、Grok Web、およびGrok Consoleの複数アカウントを束ね、標準的なOpenAI互換形式として公開できるGo言語製のAPIゲートウェイ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-15 -->
+          <strong>2026-07-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/chenyme/grok2api" target="_blank" rel="noreferrer">
+              chenyme/grok2api
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,822</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「grok2api」は、xAI社が提供する対話型AI「Grok」の各種プラットフォーム（Grok Build、Grok Web、Grok Console）の複数アカウントを束ねて管理し、標準的なOpenAI互換APIエンドポイントとしてマッピングして公開できるGo言語製のAPIゲートウェイサーバーです。外部の任意のLLMクライアントや自律型エージェントから、統一されたI/FでGrokモデル群へアクセスできるようにします。</p>
+
+        <h2>何ができるか</h2>
+        <p>本ゲートウェイを使用することで、以下のようなAPIアクセス制御やマッピング機能を構成できます。</p>
+        <ul>
+          <li><strong>OpenAI 互換エンドポイントの提供:</strong> <code>/v1/chat/completions</code> などの標準形式に対応しており、既存の各種AI用ツールやエージェントフレームワーク（Cursor、Dify、NextChatなど）からエンドポイントURLとトークンを書き換えるだけでそのまま接続できます。</li>
+          <li><strong>マルチアカウント管理と負荷分散:</strong> 複数のGrokアカウントのクッキー情報や認証キーを登録し、APIリクエストをラウンドロビン等で負荷分散することで、個々のアカウントが持つレートリミットの上限を緩和しつつ継続的な呼び出しを可能にします。</li>
+          <li><strong>多様なソースのサポート:</strong> 開発者向けのGrok Build/Console APIトークン経由のアクセスだけでなく、Web版のクッキー情報を用いたWebインターフェース経由のリクエスト転送にも対応しています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>APIパフォーマンスとサーバーとしてのオーバーヘッドを極限まで低減させるためにGo言語で実装されており、軽量かつ高速に動作する点が特徴です。ダッシュボードGUIも内蔵されており、アカウントのオンラインステータスやトークン使用状況、レートリミットまでの余力などを視覚的に確認・設定できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go環境が整っていれば直接コンパイルして実行することも可能ですが、Dockerコンテナを用いた簡便な展開が推奨されています。Docker Composeによる起動例は以下の通りです。</p>
+        <pre><code># Dockerイメージの取得とコンテナの起動
+docker run -d --name grok2api \
+  -p 3000:3000 \
+  -v ./config:/app/config \
+  chenyme/grok2api:latest
+
+# 起動後、ブラウザから http://localhost:3000 のダッシュボードを開き、
+# 画面指示に従ってGrokアカウントのCookieやAPIキーをバインドします。</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <p>Grokの推論能力を自前のアプリケーションやローカルAI開発エージェントに安価かつ安定的にバインドしたい開発者や、個人あるいはチーム内のAPIサーバーとしてGrokアカウントのレート上限をシェア・有効活用したいインフラエンジニア向けに非常に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>Web版のGrok（Grok Web）からセッションCookieを直接バインドしてAPI化する機能を利用する場合、xAI社側の仕様変更やアカウント保護ポリシーの強化により、予期せず認証が外れる（Cookieが失効する）リスクや利用規約上の制限が生じる可能性があります。商用やプロダクション環境での運用には、Grok Console/Build公式のAPIトークンを登録して使用することが強く推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>「grok2api」は、複数ソースのGrokアカウントを束ねてOpenAI互換APIに変換し、既存エコシステムとの協調をスムーズにする非常に実用的なゲートウェイサービスです。Goによる高速なレスポンスと使いやすいダッシュボードUIを備え、Grokのパワーを外部アプリケーションから自在に引き出すための架け橋となるプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/chenyme/grok2api" target="_blank" rel="noreferrer">https://github.com/chenyme/grok2api</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #857</p>
+      </div>
+    </article>
+  </body>
+</html>
