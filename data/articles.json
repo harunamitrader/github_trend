@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-15-openclaw-v2026-7-1",
+      "title": "OpenClaw: v2026.7.1 GA",
+      "dek": "Control UIとオンボーディングプロセスの刷新、GPT-5.6対応を含む各種モデルサポート拡大を実施したメジャーアップデート",
+      "summary": "自律エージェント基盤 OpenClaw の安定版 v2026.7.1 リリース。Control UI の再設計とオンボーディング整備、各種公式クライアント（iOS/Android/macOS）の刷新、および GPT-5.6 や Tencent Hy3、Meta Muse Spark 1.1 等のモデルサポートを追加しました。",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-15T04:16:00+09:00",
+      "toolName": "OpenClaw",
+      "toolUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-07-15-openclaw-v2026-7-1.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-15-claudecode-v2-1-209",
       "title": "Claude Code: v2.1.209",
       "dek": "スクリーンリーダーモードの追加、Vimモードのキーマッピング改善、および内部対話ブロック問題の修正を含んだ安定性アップデート",
