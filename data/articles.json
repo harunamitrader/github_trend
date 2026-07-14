@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-15-claudecode-v2-1-209",
+      "title": "Claude Code: v2.1.209",
+      "dek": "スクリーンリーダーモードの追加、Vimモードのキーマッピング改善、および内部対話ブロック問題の修正を含んだ安定性アップデート",
+      "summary": "Anthropic の Claude Code が v2.1.209 にアップデート。アクセシビリティ向けの Screen Reader Mode 搭載、Vim モードでの jj リマップ等カスタムキーサポート、および特定セッションで /model がブロックされるバグ修正を実施。",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-15T04:02:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-15-claudecode-v2-1-209.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-15-geminicli-v0-52-0-nightly",
+      "title": "Gemini CLI: v0.52.0-nightly.20260714",
+      "dek": "Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート",
+      "summary": "Google Gemini CLI の v0.52.0-nightly.20260714 リリース。計画モードで相対パスを用いたファイル書き込み制限ポリシーを簡素化し挙動を安定化。また内部の google-auth-library を 10.9.0 にアップデートしました。",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-15T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-15-geminicli-v0-52-0-nightly.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-14-update-report",
       "title": "2026-07-14 更新レポート",

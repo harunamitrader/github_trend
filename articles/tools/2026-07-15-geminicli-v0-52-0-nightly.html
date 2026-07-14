@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.52.0-nightly.20260714</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.52.0-nightly.20260714</h1>
+      <p class="article-dek">Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-15 -->
+          <strong>2026-07-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.52.0-nightly.20260714</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の Gemini CLI（@google/gemini-cli）の開発チャネルにて、最新のナイトリービルド <code>v0.52.0-nightly.20260714</code> が公開されました。今回のアップデートでは、エージェント実行制御の簡素化やセキュリティライブラリの更新が主に行われています。</p>
+        <ul>
+            <li><strong>Plan Mode（計画モード）の書き込みポリシー簡素化:</strong> エージェントが実行前に計画を作成する「Plan Mode」において、相対パスを用いたファイル書き込みセキュリティポリシーのチェックロジックを簡素化しました。これにより、ネストした子階層や相対パスで指示されたファイルに対する書き込み・修正の拒否・ブロックが発生しにくくなり、挙動の安定性が増しました。</li>
+            <li><strong>認証ライブラリの更新:</strong> 内部の依存ライブラリである <code>google-auth-library</code> を <code>10.9.0</code> へバージョンアップしました。認証フローに関するセキュリティ脆弱性対策および接続持続性の向上が図られています。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Plan Mode でサブディレクトリ以下のファイルをターゲットにした一連の書き換えタスクを実行する際、パス解釈のズレによる書き込みポリシー拒否エラーが抑制されるため、エージェント操作の自律性が高まります。また、認証ライブラリの更新に伴い、トークン期限切れやプロジェクトクォータ制限時のセッション接続エラーハンドリングがより堅牢になっています。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLI <code>v0.52.0-nightly.20260714</code> は、Plan Mode における相対パス処理の利便性を改善し、安全なアクセス認証基盤を最新化した、継続利用に適したメンテナンスリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noreferrer">GitHub: google-gemini/gemini-cli</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Jul 2026 19:48:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 04:01:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: v2.1.209]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-claudecode-v2-1-209.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-claudecode-v2-1-209.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[スクリーンリーダーモードの追加、Vimモードのキーマッピング改善、および内部対話ブロック問題の修正を含んだ安定性アップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260714]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-geminicli-v0-52-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-geminicli-v0-52-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-14 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-14-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Nvidia の次世代 CPU「Vera」をエージェント型 AI 検索・コーディングスタックに本格導入して 1.5 倍のパフォーマンス向上を達成したこと、およびエンドツーエンドでソフトウェア開発プロジェクトを遂行する自律ツール「Teammate」の開発を公表。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: 新機能「Reflection」をベータ公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claude-reflection-beta.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claude-reflection-beta.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ユーザーが Claude をどのように活用しているかを詳細に追跡・視覚化し、プロンプトの記述スタイルや業務統合プロセスを自己洗練（自己改善）させるための新機能「Reflection」をベータ公開。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.207]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claudecode-v2-1-207.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-13-claudecode-v2-1-207.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Bedrock、Vertex AI、Foundry環境でのデフォルト自動モード対応、ストリーミング応答時のターミナルフリーズやキー入力遅延の解消、非対話型実行のリモート同意永続化などを実施。]]></description>
     </item>
   </channel>
 </rss>
