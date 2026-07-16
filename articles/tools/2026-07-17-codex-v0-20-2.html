@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="topology evidence 管理の安定化や Cargo メタデータ・HUDペーストバッファの微修正などを含むメンテナンスリリース"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAI Codex: v0.20.2</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenAI Codex: v0.20.2</h1>
+      <p class="article-dek">topology evidence 管理の安定化や Cargo メタデータ・HUDペーストバッファの微修正などを含むメンテナンスリリース</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.20.2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenAI Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAI Codex (oh-my-codex / OmX) の v0.20.2 がリリースされました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>Topology Evidence 管理の安定化:</strong> ワークスペースの状態やエージェントの依存関係グラフを判定する topology evidence の最終処理が安定化され、セッション中の状態不整合を防止します。</li>
+            <li><strong>コピペバッファの調整:</strong> スーパーバイザー（管理プロセス）におけるペーストバッファの処理が強化され、TUI 内でのコードコピペ時のクラッシュや文字化けを軽減しました。</li>
+            <li><strong>Cargo メタデータおよび依存ライブラリの更新:</strong> 内部の Cargo メタデータの整理とセキュリティ警告への対処、および一部基礎モジュールの微調整を実施しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回のリリースは内部的なクリーンアップと安定性の向上が主目的のパッチバージョンとなっており、エージェントセッションの長時間稼働時やプロジェクト切り替え時の予期せぬクラッシュが解消されています。</p>
+
+        <h2>まとめ</h2>
+        <p>Topology Evidence 管理の安定化や、ペーストバッファの改善、内部依存関係のクリーンアップなど、動作環境の安定化と保守を目的としたマイナーアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noreferrer">GitHub - Yeachan-Heo/oh-my-codex</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

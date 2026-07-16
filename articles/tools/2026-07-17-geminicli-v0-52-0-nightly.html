@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="キャンセルされたツールレスポンスのグループ化と連続ロール合体による API 400 Bad Request エラーの解消を含む nightly アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.52.0-nightly.20260716</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.52.0-nightly.20260716</h1>
+      <p class="article-dek">キャンセルされたツールレスポンスのグループ化と連続ロール合体による API 400 Bad Request エラーの解消を含む nightly アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.52.0-nightly.20260716</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の Gemini CLI (gemini-cli) が最新のナイトリービルド <code>v0.52.0-nightly.20260716.g3ff5ba20f</code> にアップデートされました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>API 400エラーの防止 (キャンセルレスポンス改善):</strong> キャンセルされたツールのレスポンスをグループ化し、連続するメッセージロールを結合して送信するように修正。これにより、Gemini API 側で「400 Bad Request」が返される問題を未然に防ぎます。</li>
+            <li><strong>計画モードの相対パス書き込みポリシーの簡素化:</strong> 計画（Plan）モードで相対パスを使用したファイル書き込み制限ポリシーをよりシンプルな形に簡素化し、動作の安定性を向上させました。</li>
+            <li><strong>自己修正バイパス機能の追加:</strong> <code>write_file</code> や <code>replace</code> による JSON/IPYNB ファイル編集時に、LLM による不必要な自己修正ループをスキップして正確に書き換えを行う挙動を追加しました。</li>
+            <li><strong>タスクキャンセルの挙動修復:</strong> バックグラウンドタスクがキャンセルされた際に、実行ループが確実に強制終了（アボート）されるよう修正しました。</li>
+            <li><strong>ライブラリの引き上げ:</strong> 内部の <code>google-auth-library</code> のバージョンを <code>10.9.0</code> にアップデートし、認証プロセスの安定性を向上させました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>大規模な編集や非同期実行のキャンセル時に時折発生していた API レベルの 400 エラーが修正されたため、複雑なワークフローを CLI で実行する際の堅牢性が向上しています。</p>
+
+        <h2>まとめ</h2>
+        <p>キャンセル応答時のメッセージ構造最適化による API エラー対策や、JSON/Notebook 編集時の LLM 自己修正のバイパスなど、実用上のエッジケースでのクラッシュと無駄なループを防ぐパッチが施されたビルドです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">GitHub Releases - google-gemini/gemini-cli</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

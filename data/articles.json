@@ -7,6 +7,66 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-17-claudecode-v2-1-211",
+      "title": "Claude Code: v2.1.211",
+      "dek": "双方向オーバーライド等のテキストインジェクション脆弱性修正や、特定環境でのプロンプトキャッシュ課金回帰バグ修正を盛り込んだセキュリティ＆安定性アップデート",
+      "summary": "Anthropic の CLI コーディングツール Claude Code が v2.1.211 にアップデート。承認プレビューにおける hidden 制御文字の無害化によるテキストインジェクション脆弱性の修正、Bedrock や Vertex 環境等でのプロンプトキャッシュ機能の課金回帰バグ解消、--forward-subagent-text フラグの追加などを実施。",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-17T04:05:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-17-claudecode-v2-1-211.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-17-antigravity-v1-2-2",
+      "title": "Antigravity: v1.2.2",
+      "dek": "ワークスペース内のコードベースを高速に正規表現検索できる /codesearch コマンドの追加や、大規模会話におけるCPU負荷の大幅な軽減などを施した TUI アップデート",
+      "summary": "Google の CLI コーディングエージェント Antigravity (agy) が v1.2.2 (agy v1.1.3) にアップデート。ワークスペース内を正規表現で高速検索できる /codesearch コマンドの実装、インデックス再構築のホットパス最適化による巨大会話時の CPU 負荷と遅延の激減、ドラッグ選択コピペ時の ANSI 文字自動除去などを導入。",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-17T04:04:00+09:00",
+      "toolName": "Antigravity",
+      "toolUrl": "https://antigravity.google/changelog?authuser=0",
+      "articleUrl": "./articles/tools/2026-07-17-antigravity-v1-2-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-17-geminicli-v0-52-0-nightly",
+      "title": "Gemini CLI: v0.52.0-nightly.20260716",
+      "dek": "キャンセルされたツールレスポンスのグループ化と連続ロール合体による API 400 Bad Request エラーの解消を含む nightly アップデート",
+      "summary": "Google の Gemini CLI が v0.52.0-nightly.20260716.g3ff5ba20f にアップデート。キャンセル応答時の連続するメッセージロール統合による API 400エラーの防止、計画モードでの相対パス制限ポリシー簡素化、JSON/Notebook 編集時の自己修正バイパス機能などを追加。",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-17T04:03:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-17-geminicli-v0-52-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-17-github-copilot-desktop-app-vision",
+      "title": "GitHub Copilot: 2026-07-16 Update",
+      "dek": "デスクトップ専用 Copilot App の全ユーザー（無料プラン含む）開放や、プロンプトへの画像・PDF直接添付が可能な Copilot Vision の一般提供開始などを実施",
+      "summary": "GitHub Copilot の大型アップデート。デスクトップ専用 Copilot App が Free/Education を含む全プランに開放され自律開発セッションが可能になったほか、画像や PDF のプロンプト添付・解析機能である Copilot Vision が一般提供 (GA) 開始となりました。",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-17T04:02:00+09:00",
+      "toolName": "GitHub Copilot",
+      "toolUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-07-17-github-copilot-desktop-app-vision.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-17-codex-v0-20-2",
+      "title": "OpenAI Codex: v0.20.2",
+      "dek": "topology evidence 管理の安定化や Cargo メタデータ・HUDペーストバッファの微修正などを含む maintenance リリース",
+      "summary": "OpenAI Codex (oh-my-codex) の v0.20.2 リリース。依存関係グラフ判定を行う topology evidence の最終処理の安定化、スーパーバイザーのペーストバッファ改良による TUI 内のコピペ挙動修正、および Cargo メタデータ・内部依存パッケージのクリーンアップを実施。",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-17T04:01:00+09:00",
+      "toolName": "OpenAI Codex",
+      "toolUrl": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "articleUrl": "./articles/tools/2026-07-17-codex-v0-20-2.html"
+    },
+    {
       "category": "github-daily",
       "slug": "2026-07-15-report",
       "title": "GitHub Trending 日次レポート（2026-07-15）",

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="双方向オーバーライド等のテキストインジェクション脆弱性修正や、特定環境でのプロンプトキャッシュ課金回帰バグ修正を盛り込んだセキュリティ＆安定性アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code: v2.1.211</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Coding Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code: v2.1.211</h1>
+      <p class="article-dek">双方向オーバーライド等のテキストインジェクション脆弱性修正や、特定環境でのプロンプトキャッシュ課金回帰バグ修正を盛り込んだセキュリティ＆安定性アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.211</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の CLI コーディングツール Claude Code が v2.1.211（および v2.1.210）にアップデートされました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>セキュリティ強化 (Bidirectional-override 対策):</strong> 承認プロンプトのプレビューにおいて、ゼロ幅スペースや酷似引用符、bidirectional-override などの隠し制御文字を無害化し、視覚的な騙し（テキストインジェクション）による攻撃を防ぎます。</li>
+            <li><strong>課金回帰バグの修正:</strong> Bedrock、Vertex、Mantle、Foundry 環境において、プロンプトキャッシュが機能せず末尾のシステムコンテキストブロックが毎回新規入力トークンとして課金されていた問題を解消しました。</li>
+            <li><strong>サブエージェント出力フラグの追加:</strong> <code>--forward-subagent-text</code> フラグ（および <code>CLAUDE_CODE_FORWARD_SUBAGENT_TEXT</code> 環境変数）を導入し、<code>stream-json</code> 出力にサブエージェント of テキストや思考を含められるようになりました。</li>
+            <li><strong>Git Worktree 間での承認同期:</strong> &quot;Always allow&quot;（常に許可）の承認ルールが、すべての Git worktree にわたって持続・同期されるよう改善されました。</li>
+            <li><strong>Worktree 分離バグの解消:</strong> サブエージェントが自身の隔離されたワークツリーではなく、メインリポジトリのチェックアウトに対して誤って Git 変更コマンドを実行してしまう不具合を修正しました (v2.1.210)。</li>
+            <li><strong>その他の不具合修正:</strong> コマンドストリーミング中のライブ経過時間表示、外部エディタ貼り付け時のゴミ文字（È/É等）混入の解消、スリープ復帰後のログアウト競合や MCP サーバー再接続エラーの修正。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>セキュリティ面での脆弱性（テキストインジェクション）が塞がれ、クラウドインフラ（AWS Bedrock や GCP Vertex 等）でのプロンプトキャッシュが再び正常に動作するようになったため、該当環境で運用しているユーザーはすぐにアップデートすることを推奨します。</p>
+
+        <h2>まとめ</h2>
+        <p>双方向テキストインジェクション対策やキャッシュ課金バグの修正など、エンタープライズ利用における信頼性と安全性を着実に強化したアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.npmjs.com/package/@anthropic-ai/claude-code" target="_blank" rel="noreferrer">npm - @anthropic-ai/claude-code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
