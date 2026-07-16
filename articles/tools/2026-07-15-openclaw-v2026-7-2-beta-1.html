@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自律型インテグレーションフレームワークのOpenClawは最新の開発プレビュー版であるv2026.7.2-beta.1を公開し、クラウドワーカーによるリモートコーディングセッション実行や、モバイル版での自動化・音声起動対応などを果たしました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw: v2026.7.2-beta.1 リリース、Cloud Worker リモートセッションとモバイル自動化・Voice Wake 対応</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw: v2026.7.2-beta.1 リリース、Cloud Worker リモートセッションとモバイル自動化・Voice Wake 対応</h1>
+      <p class="article-dek">自律型インテグレーションフレームワークのOpenClawは最新の開発プレビュー版であるv2026.7.2-beta.1を公開し、クラウドワーカーによるリモートコーディングセッション実行や、モバイル版での自動化・音声起動対応などを果たしました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.7.2-beta.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートは、遠隔マシン上での開発タスク実行力（リモート開発サポート）と、モバイル・外部統合時の自動化・安全性が重点的に強化されています。</p>
+        <ul>
+            <li><strong>Remote coding sessionsの搭載:</strong> クラウドワーカー上での Control UI セッション実行に対応しました。これにより、Codex や Claude のカタログセッションをホストのターミナル上でストリーミング CLI として継続したり、Pi/OpenCode セッションを直接復元することが可能になります。</li>
+            <li><strong>モバイル自動化と Voice Wake (Android):</strong> モバイルアプリに Automations の機能を完全移植。Android でフォアグラウンド時に動作する Voice Wake（音声による起動）機能を搭載しました。また、ヘッドレスな Linux ノードからカメラや位置情報、通知機能を取り扱えるように拡張されました。</li>
+            <li><strong>チャネル接続の安全性向上:</strong> システム再起動後に Telegram の durable-ingress が消失する問題が防止されました。また Signal 連携時にアクション中であっても停止・承認コマンドのレスポンスが維持されるように改善。allowlist の誤判定によるアクセス制限の不具合も修正されています。</li>
+            <li><strong>Guided Control UI Onboarding:</strong> 設定（Settings）画面から各種モデルプロバイダー（API）を直接構成できるようになり、チャネルごとのセットアップをガイド付きページでわかりやすく案内する仕組みが追加されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Cloud Worker 上で Control UI のセッションが直接動作するようになったため、手元のマシンスペックが低い場合やオフライン状態であっても、リモートの安全なサンドボックス上で重たい自律型エージェントの実行タスクを継続・完了できるようになります。また Android 上で音声によるコントロールがスムーズになったため、ハンズフリーのオペレーションもより現実的になりました。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw v2026.7.2-beta.1 は、マルチデバイス・マルチチャネルをまたいだ自律エージェント基盤としての機能を順調に拡充しています。遠隔実行やモバイル連携の洗練により、活用の幅がさらに広がりました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

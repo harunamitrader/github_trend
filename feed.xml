@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Jul 2026 19:05:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 04:17:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Code: v2.1.211]]></title>
@@ -46,6 +46,54 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[topology evidence 管理の安定化や Cargo メタデータ・HUDペーストバッファの微修正などを含む maintenance リリース]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini: 一時チャット (Temporary Chat) 機能の追加および Gemini Enterprise 東京リージョン対応・データストア拡張]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-gemini-temporary-chat-enterprise.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-gemini-temporary-chat-enterprise.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[履歴に会話を残さない「一時チャット」モードの追加や、東京リージョンでのデータ residency 保証、およびサードパーティデータストア連携などの大幅アップデートが実施されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok: Grok 4.5 正式ローンチおよび Grok Build CLI (v0.2.98) アップデート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-grok-v4-5-ga-build-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-grok-v4-5-ga-build-cli.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[推論やコーディング・知識作業に特化した最先端モデル「Grok 4.5」が API 等で正式リリースされ、あわせて開発向けターミナルインターフェース Grok Build CLI も v0.2.98 へアップデートされました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: 「Gemini Notebook」へのリブランディング発表とロードマップ公開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-notebooklm-rebrand-gemini-notebook.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-notebooklm-rebrand-gemini-notebook.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GoogleはパーソナルAIリサーチアシスタント NotebookLM を「Gemini Notebook」へとリブランディングすることを発表し、製品ブランド of 統合を開始しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: 有料プラン向けカスタム指示上限が5000文字へ拡張、および統合検索 (Unified Search) の実装]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-chatgpt-custom-instructions-search.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-chatgpt-custom-instructions-search.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[カスタム指示の上限文字数が従来の1,500文字から5,000文字へと拡大され、全チャットを対象とした横断「統合検索（Unified Search）」も追加されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity: コード実行環境 SPACE の導入および Microsoft 365 アプリ連携]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-perplexity-space-sandbox-microsoft365.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-perplexity-space-sandbox-microsoft365.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長時間稼働エージェント向けに安全で隔離されたコード実行サンドボックス SPACE を公開し、M365 連携により Teams や Excel での自律型エージェント動作に対応しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw: v2026.7.2-beta.1 リリース、Cloud Worker リモートセッションおよび Voice Wake 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-openclaw-v2026-7-2-beta-1.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-openclaw-v2026-7-2-beta-1.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[クラウドワーカー経由のリモートコーディングセッション実行や、Android での音声起動 (Voice Wake)、Telegram / Signal などの接続安定化を含んだプレビューリリース。]]></description>
     </item>
     <item>
       <title><![CDATA[GitHub Trending 日次レポート（2026-07-15）]]></title>
@@ -112,60 +160,12 @@
       <description><![CDATA[Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート]]></description>
     </item>
     <item>
-      <title><![CDATA[2026-07-14 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-14-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-14-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenCut]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-OpenCut-app-OpenCut.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-OpenCut-app-OpenCut.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Web・デスクトップで動作する、インストール不要で高度な動画編集を可能にするCapCut代替の完全オープンソース・ビデオエディタ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hallmark]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-Nutlope-hallmark.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-Nutlope-hallmark.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「AI生成っぽさ」を徹底排除し、洗練されたモダンなWebUIをAIエージェントに生成させるためのアンチAIスロップ・デザインテンプレート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[graphify]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-Graphify-Labs-graphify.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-Graphify-Labs-graphify.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[コード・ドキュメント・データベース定義から、AIコーディングアシスタントが瞬時に問い合わせ可能な「知識グラフ」を全自動生成する開発支援ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[exercises-dataset]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-hasaneyldrm-exercises-dataset.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-14-hasaneyldrm-exercises-dataset.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[1,300種類以上のトレーニング動作を収録した、アニメーションGIF・多言語解説付きのオープンソース・フィットネスデータベース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: Gemini Omni のリリースと Gemini Live のチャット統合]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-gemini-omni-live-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-gemini-omni-live-update.html</guid>
+      <title><![CDATA[Claude: HIPAA セルフサービス設定管理機能の追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-claude-hipaa-self-serve.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-claude-hipaa-self-serve.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高度な動画・音声生成やカスタムアバター作成を可能にする Gemini Omni の提供開始、および Gemini Live のチャット画面への直接統合]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity: v1.2.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-antigravity-v1-2-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-antigravity-v1-2-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[孫以上の深い階層のサブエージェントによるツール実行の再帰的承認に対応し、設定済みのファイル書き込み権限のプロンプトスキップなどを導入した CLI アップデート]]></description>
+      <description><![CDATA[Claude Enterprise および API ユーザー向けに、BAA の署名や実装ガイド取得、適合設定の有効化を管理者コンソールから直接管理できるセルフサービスフローが追加されました。]]></description>
     </item>
   </channel>
 </rss>
