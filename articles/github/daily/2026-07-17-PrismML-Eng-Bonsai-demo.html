@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="1-bitおよびTernary (3値化) LLM「Bonsai」をMac/Linux/Windowsのローカル環境で動かし、VisionやMCPツール呼び出しを試せる公式デモランタイム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Bonsai-demo</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Bonsai-demo</h1>
+      <p class="article-dek">1-bitおよびTernary (3値化) LLM「Bonsai」をMac/Linux/Windowsのローカル環境で動かし、VisionやMCPツール呼び出しを試せる公式デモランタイム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-17 -->
+          <strong>2026-07-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending (第6位)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PrismML-Eng/Bonsai-demo" target="_blank" rel="noreferrer">
+              PrismML-Eng/Bonsai-demo
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,473</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Bonsai Demoは、Prism MLが開発する超軽量・極薄量子化言語モデル「Bonsai (1-bit / Ternary)」シリーズを、Mac (Metal) や Linux/Windows (CUDA, Vulkan, ROCm)、および CPU のローカル環境で直接動作させるための公式デモ用リポジトリです。</p>
+
+        <h2>何ができるか</h2>
+        <p>ユーザーは本デモランタイムを通じて、新モデルの「Bonsai 27B」などをローカルで実行できます。Vision機能を用いた画像・PDF入力の解析、OpenAIスタイルのネイティブなツール呼び出し（tool_calls）、さらにはMCP（Model Context Protocol）サーバーとの接続による自律的なアクション実行などを、ローカルUIから直接テストすることが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>1-bit / 3値化という極限の低ビット量子化により、消費メモリや計算コストを劇的に抑えながら、Vision（画像理解）やAgentic（自律エージェント）の機能をローカルデバイス上で快適に実行できる点が最大の特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンし、Hugging FaceのBonsai 27Bなどのモデルチェックポイントをダウンロードします。デモ実行用スクリプトを叩くことで、Web UIまたはターミナルUIのいずれかからインタラクティブなセッションを開始できます。詳細な動作設定はREADMEの記述に従います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ローカル環境で軽量LLMを動かしたい開発者、1-bitやTernaryなどのモデルアーキテクチャの研究者、およびMCPサーバーとのローカル連携を模索するAIエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>1-bit/Ternaryモデルは実行時リソースが極めて少なく済みますが、モデルの能力（長文理解や非常に複雑な論理推論など）は、サイズや量子化のトレードオフによる制限を考慮する必要があります。また、Visionなどの個別モジュール利用時には専用の依存関係（VISION.md参照）のインストールが求められます。</p>
+
+        <h2>まとめ</h2>
+        <p>Bonsai-demoは、極限まで量子化されたモデルがローカルで如何に強力なVision機能やエージェント機能を発揮できるかを示す、非常に先進的で興味深いプロジェクトです。今後のローカルエージェントの可能性を大きく広げています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PrismML-Eng/Bonsai-demo" target="_blank" rel="noreferrer">https://github.com/PrismML-Eng/Bonsai-demo</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #858</p>
+      </div>
+    </article>
+  </body>
+</html>

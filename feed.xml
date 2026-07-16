@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Jul 2026 19:32:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 04:47:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-17 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-17-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-17-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ossie]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-apache-ossie.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-apache-ossie.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントやBI、分析プラットフォーム間でセマンティック（意味論）メタデータを一貫して交換するためのベンダーニュートラルな共通仕様・標準化フレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openinterpreter]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-openinterpreter-openinterpreter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-openinterpreter-openinterpreter.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカルのターミナル上で軽量・安価なLLMを活用し、対話形式でコードを自動生成・実行・検証できる自律型コーディングエージェント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Bonsai-demo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-PrismML-Eng-Bonsai-demo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-PrismML-Eng-Bonsai-demo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1-bitおよびTernary (3値化) LLM「Bonsai」をMac/Linux/Windowsのローカル環境で動かし、VisionやMCPツール呼び出しを試せる公式デモランタイム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[YimMenuV2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-YimMenu-YimMenuV2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-YimMenu-YimMenuV2.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GTA 5 Enhanced向けにメモリ注入方式で自作スクリプトの実行や設定オーバーライドを可能にする、実験的ゲームModメニュー・インジェクター]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ui-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-ibelick-ui-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-ibelick-ui-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[デザインエンジニアやAIエージェント向けに、WebアニメーションやUI実装に必要なスキルコードをCLI経由でルーティング・取得できる開発支援ツール]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code: v2.1.211]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-claudecode-v2-1-211.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Windows、Linux、およびmacOSで動作する、C#（.NET 9）を用いて開発されている実験的なPlayStation 5エミュレータプロジェクト]]></description>
-    </item>
-    <item>
-      <title><![CDATA[chenyme/grok2api]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-15-chenyme-grok2api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-15-chenyme-grok2api.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Grok Build、Grok Web、およびGrok Consoleの複数アカウントを束ね、標準的なOpenAI互換形式として公開できるGo言語製のAPIゲートウェイ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[HenryNdubuaku/maths-cs-ai-compendium]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-15-HenryNdubuaku-maths-cs-ai-compendium.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-15-HenryNdubuaku-maths-cs-ai-compendium.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[数式や学術的表記に埋もれがちなAI・機械学習・数学・コンピュータサイエンスの本質を、直感的な図解と文章で体系解説するオンライン要約資料]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw: v2026.7.1 GA]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-openclaw-v2026-7-1.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-openclaw-v2026-7-1.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Control UIとオンボーディングプロセスの刷新、GPT-5.6対応を含む各種モデルサポート拡大を実施したメジャーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.209]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-claudecode-v2-1-209.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-claudecode-v2-1-209.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[スクリーンリーダーモードの追加、Vimモードのキーマッピング改善、および内部対話ブロック問題の修正を含んだ安定性アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260714]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-geminicli-v0-52-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-15-geminicli-v0-52-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Plan Mode（計画モード）における相対パスの書き込みポリシー簡素化、および認証ライブラリのバージョン引き上げアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: HIPAA セルフサービス設定管理機能の追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-claude-hipaa-self-serve.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-14-claude-hipaa-self-serve.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Enterprise および API ユーザー向けに、BAA の署名や実装ガイド取得、適合設定の有効化を管理者コンソールから直接管理できるセルフサービスフローが追加されました。]]></description>
     </item>
   </channel>
 </rss>
