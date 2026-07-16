@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Jul 2026 19:18:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 04:30:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Code: v2.1.211]]></title>
@@ -69,7 +69,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-notebooklm-rebrand-gemini-notebook.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GoogleはパーソナルAIリサーチアシスタント NotebookLM を「Gemini Notebook」へとリブランディングすることを発表し、製品ブランド of 統合を開始しました。]]></description>
+      <description><![CDATA[GoogleはパーソナルAIリサーチアシスタント NotebookLM を「Gemini Notebook」へとリブランディングすることを発表し、製品ブランドの統合を開始しました。]]></description>
     </item>
     <item>
       <title><![CDATA[ChatGPT: 有料プラン向けカスタム指示上限が5000文字へ拡張、および統合検索 (Unified Search) の実装]]></title>
