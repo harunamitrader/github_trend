@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="プロジェクト検出処理をローカルの .antigravitycli フォルダから分離し、中央キャッシュでの一元管理や Windows 環境での自動リトライ動作バグを修正した安定化アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Antigravity: v1.2.4</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Antigravity: v1.2.4</h1>
+      <p class="article-dek">プロジェクト検出処理をローカルの .antigravitycli フォルダから分離し、中央キャッシュでの一元管理や Windows 環境での自動リトライ動作バグを修正した安定化アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.2.4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Antigravity</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の CLI コーディングエージェント Antigravity (agy) が v1.2.4（および v1.2.3）にアップデートされ、ワークスペース構成の簡素化と Windows 環境での互換性向上、およびブラウザ制御のパフォーマンス改善が施されました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>プロジェクト検出のデカップリング:</strong> ローカルの .antigravitycli ディレクトリへの依存をなくし、プロジェクト情報のマッピングを中央キャッシュ（~/.gemini/antigravity-cli/cache/projects）に一元管理化しました。</li>
+            <li><strong>Windows 互換性向上:</strong> 自動リトライ拡張機能（Auto-Retry Extensions）の動作時における Windows 環境特有の不具合を解消しました。</li>
+            <li><strong>fire-and-forget 型 CDP の導入 (v1.2.3):</strong> Chrome DevTools Protocol (CDP) のインジェクションを永続接続から非同期実行方式へ刷新し、リトライ動作と処理速度を最適化しました。</li>
+            <li><strong>フォーカス管理の改善 (v1.2.3):</strong> 新しいエージェントタブを開く際に、既存の古いタブがフォーカスを奪い返してしまう競合バグを修正しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>ワークスペースごとに .antigravitycli 構成ファイルを生成・配置する必要がなくなり、複数のプロジェクト間での移動やセットアップがシンプルになります。また、Windows での開発セッションや、ブラウザ TUI の反応速度が大きく向上します。</p>
+
+        <h2>まとめ</h2>
+        <p>Antigravity v1.2.4 は、マルチプラットフォームでの開発体験を安定させ、プロジェクト管理のオーバーヘッドを取り除く堅実なリファクタリングアップデートとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://antigravity.google/changelog?authuser=0" target="_blank" rel="noreferrer">antigravity.google / changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

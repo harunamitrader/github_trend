@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ローカルに複製（クローン）することなく GitHub や GitLab のリモートリポジトリを直接インデックス化してコンテキストとして利用できる機能や、Window 復元設定の整理を盛り込んだアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor: v3.12</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cursor: v3.12</h1>
+      <p class="article-dek">ローカルに複製（クローン）することなく GitHub や GitLab のリモートリポジトリを直接インデックス化してコンテキストとして利用できる機能や、Window 復元設定の整理を盛り込んだアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>AIコードエディター Cursor が v3.12（およびパッチビルド）にアップデートされ、リモート連携機能の大幅な強化と、起動時のウィンドウ状態管理の改善が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>Remote Repository Indexing の追加:</strong> GitHub や GitLab にホストされているリモートリポジトリを、ローカルにクローンすることなくエディター内の AI が直接インデックス化し、開発コンテキストとして読み込めるようになりました。</li>
+            <li><strong>起動時設定の整理 (Window Restoration):</strong> 起動時に常に Agents 画面が開いてしまう挙動の混乱を避けるため、設定項目「Open Agents Window on Startup」を、最後のセッション状態を復元する「Window Restoration」へ改名し調整しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>リモートインデックスにより、ローカルディスク容量を節約しつつ、組織内の巨大な共有コードベースや外部のライブラリリポジトリを手軽に参照してコード生成の精度を高めることが可能です。また、起動時にエージェント画面が勝手に開くなどのストレスが軽減されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Cursor v3.12 は、リモートワークスペースとローカルエディターのシームレスな融合を進め、コンテキスト供給源としての実用性を飛躍的に高めたメジャーアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">cursor.com / changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

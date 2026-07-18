@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLM 割り振り・トリアージとコンテナビルド（caretaker-triage）の実装や、macOS の Seatbelt サンドボックス制限の厳格化、ReAct 無限ループ防止などを導入した nightly リリース"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.52.0-nightly.20260718</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.52.0-nightly.20260718</h1>
+      <p class="article-dek">LLM 割り振り・トリアージとコンテナビルド（caretaker-triage）の実装や、macOS の Seatbelt サンドボックス制限の厳格化、ReAct 無限ループ防止などを導入した nightly リリース</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.52.0-nightly.20260718</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google の Gemini CLI が v0.52.0-nightly.20260718 (gacae7124b) にアップデートされ、タスク管理のためのインフレ機能およびサンドボックス環境のセキュリティ強化が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>Caretaker Triage の追加:</strong> LLM を用いたタスクの自動仕分け・トリアージを行うオーケストレーターと、それに伴うコンテナビルドフローを実装しました。</li>
+            <li><strong>macOS Seatbelt プロファイル制限の厳格化:</strong> macOS における permissive（許可的）な Seatbelt サンドボックス設定を、標準の deny-default（デフォルト拒否）モデルへ統合・制限しました。</li>
+            <li><strong>無限ループ軽減対策:</strong> 自律エージェントが誤った ReAct プロセスや同一プロンプトの挿入を繰り返して無限ループに陥る現象を検知・緩和する防止ロジックを追加しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>新規タスクの割り振りやコンテナでの実行処理が自動化されるため、CLI 経由での大規模な自動テストやタスク実行の安定性が向上します。また、macOS での実行時セキュリティがより厳格になりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLI v0.52.0-nightly は、自律型開発タスクの実行基盤としての堅牢性を高めるため、セキュリティプロファイルと自動化ロジックの両面から強化を施したバージョンです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noreferrer">GitHub / google-gemini/gemini-cli</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

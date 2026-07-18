@@ -7,6 +7,78 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-claudecode-v2-1-214",
+      "title": "Claude Code: v2.1.214",
+      "dek": "会話を複製・並行進行させる /fork コマンドの追加や、コマンド・表記を /subtask へ統一、WebSearch 等のセッションレベル予算 (Session budgets) 管理機能を盛り込んだ機能アップデート",
+      "summary": "Anthropic の CLI コーディングエージェント Claude Code が v2.1.214 にアップデート。現在の対話セッションを複製して並行進行させる /fork コマンドの追加、サブエージェント表記の /subtask への統一、WebSearch 等に対してセッションごとの最大予算を設定する機能などが追加されました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:05:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-19-claudecode-v2-1-214.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-antigravity-v1-2-4",
+      "title": "Antigravity: v1.2.4",
+      "dek": "プロジェクト検出処理をローカルの .antigravitycli フォルダから分離し、中央キャッシュでの一元管理や Windows 環境での自動リトライ動作バグを修正した安定化アップデート",
+      "summary": "Google の CLI コーディングエージェント Antigravity (agy) が v1.2.4 にアップデート。ローカル .antigravitycli 依存を廃止してマッピングを中央キャッシュに一元化、Windows における自動リトライ機能の動作不良修正、および fire-and-forget 型 CDP の導入などを実施しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:04:00+09:00",
+      "toolName": "Antigravity",
+      "toolUrl": "https://antigravity.google/changelog?authuser=0",
+      "articleUrl": "./articles/tools/2026-07-19-antigravity-v1-2-4.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-cursor-v3-12",
+      "title": "Cursor: v3.12",
+      "dek": "ローカルに複製（クローン）することなく GitHub や GitLab のリモートリポジトリを直接インデックス化してコンテキストとして利用できる機能や、Window 復元設定の整理を盛り込んだアップデート",
+      "summary": "AIコードエディター Cursor が v3.12 にアップデート。ローカルにクローンせず GitHub/GitLab リモートリポジトリを直接インデックス化して開発コンテキストとして読み込める機能や、起動時設定「Open Agents Window on Startup」を「Window Restoration」へ改名する整理などを実施。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:03:00+09:00",
+      "toolName": "Cursor",
+      "toolUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-19-cursor-v3-12.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-cline-v4-0-9",
+      "title": "Cline: v4.0.9",
+      "dek": "GPT-5.6 ChatGPT サブスクリプションモデルへのサポート追加や、連続誤り制限達時のメッセージの短縮、OpenAI互換プロバイダーのトークン過剰報告バグの修正などを施したアップデート",
+      "summary": "VS Code 用の自律型コーディング拡張機能 Cline が v4.0.9 にアップデート。GPT-5.6 ChatGPT サブスクリプションモデルへの対応、consecutive mistake limit 到達時のメッセージ短縮・緩和、OpenAI互換プロバイダー利用時のトークン過剰計算バグ修正などを適用しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:02:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-19-cline-v4-0-9.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-geminicli-v0-52-0-nightly",
+      "title": "Gemini CLI: v0.52.0-nightly.20260718",
+      "dek": "LLM 割り振り・トリアージとコンテナビルド（caretaker-triage）の実装や、macOS の Seatbelt サンドボックス制限の厳格化、ReAct 無限ループ防止などを導入した nightly リリース",
+      "summary": "Google の Gemini CLI が v0.52.0-nightly.20260718 にアップデート。LLM によるタスクの自動仕分け・トリアージ（Caretaker Triage）とコンテナビルドの実装、macOS サンドボックス制限の厳格化、ReAct 無限ループ防止などを導入しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-19-geminicli-v0-52-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-grokcli-opensource",
+      "title": "Grok CLI (Grok Build): Open Source",
+      "dek": "ターミナルから自律開発を可能にする xAI の開発エージェント Grok Build CLI のコードベースが Apache 2.0 で完全オープンソース化され、併せてデフォルトデータ保持ポリシーも廃止",
+      "summary": "xAI は、ターミナル上で自律的にコード編集や実行を行う開発エージェント Grok Build CLI のソースコードを GitHub にて Apache 2.0 で完全オープンソース化。懸念されていたコード情報のデフォルト保持・送信ポリシーも無効化されました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:00:00+09:00",
+      "toolName": "Grok CLI",
+      "toolUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-07-19-grokcli-opensource.html"
+    },
+    {
       "category": "github-update-report",
       "serial": 96,
       "title": "2026-07-17 アップデートレポート",

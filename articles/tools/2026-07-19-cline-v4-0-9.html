@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GPT-5.6 ChatGPT サブスクリプションモデルへのサポート追加や、連続誤り制限達時のメッセージの短縮、OpenAI互換プロバイダーのトークン過剰報告バグの修正などを施したアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline: v4.0.9</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline: v4.0.9</h1>
+      <p class="article-dek">GPT-5.6 ChatGPT サブスクリプションモデルへのサポート追加や、連続誤り制限達時のメッセージの短縮、OpenAI互換プロバイダーのトークン過剰報告バグの修正などを施したアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.0.9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>VS Code 用の自律型コーディング拡張機能 Cline が v4.0.9 にアップデートされ、最新モデルへの追従と、コスト表示およびメッセージ表記の修正が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>GPT-5.6 ChatGPT サブスクリプションへの対応:</strong> 最新の GPT-5.6 世代のモデルを用いた開発セッションの実行が可能になりました。</li>
+            <li><strong>エラーメッセージの和らげ・短縮:</strong> 連続して誤ったアクションを実行した際の「consecutive mistake limit」到達時メッセージを、短くマイルドな表現へと変更しました。</li>
+            <li><strong>トークン過剰報告のバグ修正:</strong> OpenAI 互換プロバイダーを用いた際に、累積使用状況のスナップショットによって実際よりもトークン消費が過剰にカウント・報告されてしまう計算ロジックを修正しました。</li>
+            <li><strong>UTF-8 with BOM のスキルファイル対応:</strong> BOM付き UTF-8 で記述されたカスタムスキルファイルを正常にロードできるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>最新の GPT-5.6 を使用できるようになったほか、OpenAI互換プロバイダー利用時のトークンコストの誤表示が直ったため、使用したAPIコストの把握がより正確になります。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline v4.0.9 は、最新モデルの活用を促進しつつ、ユーザビリティとAPI連携時の正確性を向上させた堅実な機能改善アップデートとなっています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">GitHub / cline/cline releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
