@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:46:55.993928+00:00",
+  "generatedAt": "2026-07-18T20:00:32.758551+00:00",
   "count": 962,
   "articles": [
     {
@@ -15,7 +15,7 @@
       "createdAt": "2026-07-19T04:40:00+09:00",
       "articleUrl": "./articles/github/reports/2026-07-19-update-report.html",
       "serial": 97,
-      "searchText": "2026-07-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ。新規追加されたリポジトリは elder-plinius/G0DM0D3, KnockOutEZ/wigolo, MoonshotAI/kimi-cli の3件です。 2026-07-19 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-07-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-07-19 調査件数 全 11 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-07-19）の GitHub Trending にランクインしていた全 11 リポジトリの調査結果です。 Robbyant/lingbot-map ✅ 記事作成済み apache/ossie ✅ 記事作成済み PostHog/posthog ✅ 記事作成済み ibelick/ui-skills ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み tirth8205/code-review-graph ✅ 記事作成済み elder-plinius/G0DM0D3 ✨ 新規追加 lyogavin/airllm ✅ 記事作成済み KnockOutEZ/wigolo ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み MoonshotAI/kimi-cli ✨ 新規追加 今後の展望 本日のトレンドでは、ローカル開発環境の利便性を高めるアプローチが上位に並びました。特に、APIキー不要かつローカルで動作するMCP対応検索サーバー「wigolo」は、昨今のAIエージェントの従量課金問題に対する優れたアプローチとして注目されます。また、脱退推奨となっているものの「kimi-cli」のような洗練されたTUI設計を持つCLIエージェントも評価されています。セキュリティやプライバシーの観点からは、「G0DM0D3」のように複数プロバイダーやローカルモデルを自在に切り替えて検証できるセキュアなチャットUIがハッカーを中心に強い支持を得ています。今後は、これらのツールの進化と、それに追随する各IDEやエージェント機能の密な連携に引き続き注目していきます。"
+      "searchText": "2026-07-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ。新規追加されたリポジトリは elder-plinius/G0DM0D3, KnockOutEZ/wigolo, MoonshotAI/kimi-cli の3件です。 2026-07-19 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-07-19 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-07-19 調査件数 全 11 件 新規作成 3 件 本日の調査ランキング（全件） 本日（2026-07-19）の GitHub Trending にランクインしていた全 11 リポジトリの調査結果です。 Robbyant/lingbot-map ✅ 記事作成済み apache/ossie ✅ 記事作成済み PostHog/posthog ✅ 記事作成済み ibelick/ui-skills ✅ 記事作成済み rohitg00/ai-engineering-from-scratch ✅ 記事作成済み tirth8205/code-review-graph ✅ 記事作成済み elder-plinius/G0DM0D3 ✨ 新規追加 lyogavin/airllm ✅ 記事作成済み KnockOutEZ/wigolo ✨ 新規追加 codecrafters-io/build-your-own-x ✅ 記事作成済み MoonshotAI/kimi-cli ✨ 新規追加 今後の展望 本日のトレンドでは、ローカル開発環境の利便性を高めるアプローチが上位に並びました。特に、APIキー不要かつローカルで動作するMCP対応検索サーバー「wigolo」は、昨オトのAIエージェントの従量課金問題に対する優れたアプローチとして注目されます。また、脱退推奨となっているものの「kimi-cli」のような洗練されたTUI設計を持つCLIエージェントも評価されています。セキュリティやプライバシーの観点からは、「G0DM0D3」のように複数プロバイダーやローカルモデルを自在に切り替えて検証できるセキュアなチャットUIがハッカーを中心に強い支持を得ています。今後は、これらのツールの進化と、それに追随する各IDEやエージェント機能の密な連携に引き続き注目していきます。"
     },
     {
       "slug": "2026-07-19-elder-plinius-g0dm0d3",
