@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIコーディングエージェント（Claude Code等）にキー不要・完全ローカルで動作するWeb検索・フェッチ機能を提供するMCPサーバー"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>wigolo</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">wigolo</h1>
+      <p class="article-dek">AIコーディングエージェント（Claude Code等）にキー不要・完全ローカルで動作するWeb検索・フェッチ機能を提供するMCPサーバー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-19 -->
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 9位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/KnockOutEZ/wigolo" target="_blank" rel="noreferrer">
+              KnockOutEZ/wigolo
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,138</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>wigoloは、Claude CodeやCursor、CodexといったAIコーディングエージェント向けに設計された、ローカルファーストのウェブ検索・抽出エンジンです。APIキーを必要とせず、エージェントが自律的にウェブ情報にアクセスするためのインターフェース（MCPサーバーまたはREST）を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>ウェブ検索、指定URLからのコンテンツのフェッチ、クローラーとしてのサイト巡回、マークダウン等の抽出（スクレイピング）、キャッシュ管理、および類似ページの検索が可能です。これらを一切のクラウドを経由せずにローカル環境内（`~/.wigolo/`）で完結させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、一般的なAI検索エンジンと異なりAPIキーや料金が不要であることです。ローカルPC上でブラウザエンジンや軽量なオンデバイスモデル（Tachyonなど）を動作させ、検索からコンテンツ抽出までを実行するため、プライバシーとコストを完全に保護できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js（バージョン20以上）がインストールされている環境で、`npx wigolo init --agents=<target-agent>` を実行することでセットアップします。`claude-code`, `cursor` などの対応エージェント名を指定すれば、設定ファイルの書き出しも含めてすべて自動で実行されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude CodeやCursorなどのエージェントを常用しており、ウェブからの最新情報取得や技術仕様の調査において、APIキーの登録やAPI呼び出しごとの従量課金を避けたいと考えるプライバシー・コスト重視の開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>検索、フェッチ、スクレイピングは完全にキーレスで動作しますが、取得した情報からAIが回答を自動合成・引用して返す「research」機能などを使用する場合は、LLM（OpenRouterやVenice等）の無料/有料APIキーが必要となります（キー無しでは生の調査データのみを返却）。</p>
+
+        <h2>まとめ</h2>
+        <p>wigoloは、ローカルファーストの設計思想によりAIエージェントのWeb情報収集能力を無料で爆発的に拡張する画期的なMCPサーバーです。セットアップの簡便さも相まって、エージェント運用コストを劇的に下げるソリューションとなります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/KnockOutEZ/wigolo" target="_blank" rel="noreferrer">https://github.com/KnockOutEZ/wigolo</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #862</p>
+      </div>
+    </article>
+  </body>
+</html>

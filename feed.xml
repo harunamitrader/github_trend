@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Jul 2026 19:17:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 04:46:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-19 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-19-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-19-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[G0DM0D3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-elder-plinius-g0dm0d3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-elder-plinius-g0dm0d3.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マルチモデルの対話評価やインプット摂動による脆弱性テスト（レッドチーム）を単一のHTMLで実現する解放型チャットUI]]></description>
+    </item>
+    <item>
+      <title><![CDATA[wigolo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-knockoutez-wigolo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-knockoutez-wigolo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIコーディングエージェント（Claude Code等）にキー不要・完全ローカルで動作するWeb検索・フェッチ機能を提供するMCPサーバー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[kimi-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-moonshotai-kimi-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-19-moonshotai-kimi-cli.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ZshやIDEとシームレスに統合し、ZshやZed内からCtrl-Xで呼び出せるAIエージェントCLIツール]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT: 2026-07-16 Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-chatgpt-desktop-app-work.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[デザインエンジニアやAIエージェント向けに、WebアニメーションやUI実装に必要なスキルコードをCLI経由でルーティング・取得できる開発支援ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.211]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-claudecode-v2-1-211.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-claudecode-v2-1-211.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[双方向オーバーライド等のテキストインジェクション脆弱性修正や、特定環境でのプロンプトキャッシュ課金回帰バグ修正を盛り込んだセキュリティ＆安定性アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity: v1.2.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-antigravity-v1-2-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-antigravity-v1-2-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ワークスペース内のコードベースを高速に正規表現検索できる /codesearch コマンドの追加や、大規模会話におけるCPU負荷の大幅な軽減などを施した TUI アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260716]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-geminicli-v0-52-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-geminicli-v0-52-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[キャンセルされたツールレスポンスのグループ化と連続ロール合体による API 400 Bad Request エラーの解消を含む nightly アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: 2026-07-16 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-github-copilot-desktop-app-vision.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-github-copilot-desktop-app-vision.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[デスクトップ専用 Copilot App の全ユーザー（無料プラン含む）開放や、プロンプトへの画像・PDF直接添付が可能な Copilot Vision の一般提供開始などを実施]]></description>
     </item>
   </channel>
 </rss>

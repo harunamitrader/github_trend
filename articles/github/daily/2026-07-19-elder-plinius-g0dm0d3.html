@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="マルチモデルの対話評価やインプット摂動による脆弱性テスト（レッドチーム）を単一のHTMLで実現する解放型チャットUI"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>G0DM0D3</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">G0DM0D3</h1>
+      <p class="article-dek">マルチモデルの対話評価やインプット摂動による脆弱性テスト（レッドチーム）を単一のHTMLで実現する解放型チャットUI</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-19 -->
+          <strong>2026-07-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/elder-plinius/G0DM0D3" target="_blank" rel="noreferrer">
+              elder-plinius/G0DM0D3
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9,460</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>G0DM0D3は、制約のない自由なAIとの対話、レッドチームテスト（安全性検証）、および認知研究を目的に開発されたオープンソースのマルチモデルチャットインターフェースです。OpenRouter、Venice、またはローカルに立てた各種AIモデルを一元管理し、同時並行でのテスト環境を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>接続した複数のAIモデルに対して同時に同じプロンプトを入力し、最も優れた回答を競わせる評価機能や、入力テキストに33種類もの摂動（難読化やノイズ挿入など）を加えてAIの堅牢性を検証するレッドチームテスト「Parseltongue」を実行可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ビルドや依存ライブラリのインストールが一切不要で、単一の `index.html` ファイルだけで動作する超軽量・ローカルファースト設計が特徴です。5つのモデル＋プロンプトを並行させる「GODMODE CLASSIC」や、最大60モデルで同時スコアリングを行う「ULTRAPLINIAN」などをサポートしています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをクローンして、`index.html` をブラウザで直接開くか、`python3 -m http.server 8000` などの軽量サーバーで動かすだけで利用できます。UIの「Settings」から自身のOpenRouterキーやVeniceキーを入力、あるいはローカルのOllamaエンドポイントなどを登録することで動作します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIモデルの挙動解析、脱獄・安全防御層（ガードレール）の脆弱性診断（レッドチーム）を行いたい開発者やセキュリティエンジニア、またはローカルマシンで稼働する各種LLMの比較・自動評価を行いたいシステム管理者に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>デフォルトで匿名の利用情報・メタデータを送信するテレメトリ機能が有効になっているため、完全なオフラインや機密データを扱う際は設定から「No-Log」または「Local-only」モードを明示的に有効にする必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>G0DM0D3は、単一HTMLという極限のシンプルさでありながら、マルチモデル評価や高度なレッドチームテスト機能を備えた強力なツールです。プライバシーの制御と多様なモデル接続により、ハッカーや研究者にとって理想的なAI実験場を提供します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/elder-plinius/G0DM0D3" target="_blank" rel="noreferrer">https://github.com/elder-plinius/G0DM0D3</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #863</p>
+      </div>
+    </article>
+  </body>
+</html>
