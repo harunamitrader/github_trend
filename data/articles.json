@@ -8,6 +8,54 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-19-chatgpt-desktop-app-work",
+      "title": "ChatGPT: 2026-07-16 Update",
+      "dek": "デスクトップアプリへの Chat/Work モード切り替えスイッチャーの搭載や、プロジェクトアクセスと統一された Recents ビューによるインターフェース刷新",
+      "summary": "OpenAI は ChatGPT デスクトップアプリをアップデートし、日常的な対話と複雑な作業セッションを分離・整理するための Chat vs. Work スイッチャーを搭載。さらに Recents ビューの統一、アプリ内プロジェクトアクセス、クラウド同期された Work 会話などを実装しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:13:00+09:00",
+      "toolName": "ChatGPT",
+      "toolUrl": "https://help.openai.com/en/collections/3742473-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-07-19-chatgpt-desktop-app-work.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-claude-fable5-expansion",
+      "title": "Claude: 2026-07-18 Update",
+      "dek": "Max および Team Premium の全有料プラン向けに最新モデル「Claude Fable 5」が標準の50%の利用制限で開放されたアップデート",
+      "summary": "Anthropic は Claude 有料プラン向け機能を拡張し、Max および Team Premium プランの全ユーザーに対して最新世代のモデル Claude Fable 5 を標準モデル枠 of 50% で開放。また対話消失バグへの原因釈明と解決を適用しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:12:00+09:00",
+      "toolName": "Claude",
+      "toolUrl": "https://www.anthropic.com/news",
+      "articleUrl": "./articles/tools/2026-07-19-claude-fable5-expansion.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-gemini-enterprise-byoid-alphaevolve",
+      "title": "Gemini: 2026-07-16 Update",
+      "dek": "Gemini Enterprise モバイル向け Bring Your Own Identity (BYOID) の一般提供（GA）や、複雑なアルゴリズム問題解決を自律支援する AlphaEvolve エージェントの GA 開始",
+      "summary": "Google は Gemini Enterprise 向けに、企業独自のアカウント認証をサポートする Bring Your Own Identity (BYOID) や、複雑なデータ構造最適化・アルゴリズム自己修正を支援する AlphaEvolve エージェントを一般提供開始（GA）しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:11:00+09:00",
+      "toolName": "Gemini",
+      "toolUrl": "https://gemini.google/",
+      "articleUrl": "./articles/tools/2026-07-19-gemini-enterprise-byoid-alphaevolve.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-19-openclaw-v2026-7-2",
+      "title": "OpenClaw: v2026.7.2",
+      "dek": "リモートコーディングセッション機能の正式展開や、モバイルおよび Linux ノード上でのネイティブオートメーション対応、ゲートウェイとセッション復旧の信頼性向上",
+      "summary": "自律エージェントプラットフォーム OpenClaw が v2026.7.2 にアップデート。クラウド・遠隔サーバー上のノードから中継・接続するリモートコーディングセッション、OSネイティブオートメーションのモバイル＆Linuxサポート、接続切断時の自動状態復元プロトコルを強化しました。",
+      "publishedAt": "2026-07-19",
+      "createdAt": "2026-07-19T04:10:00+09:00",
+      "toolName": "OpenClaw",
+      "toolUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-07-19-openclaw-v2026-7-2.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-19-claudecode-v2-1-214",
       "title": "Claude Code: v2.1.214",
       "dek": "会話を複製・並行進行させる /fork コマンドの追加や、コマンド・表記を /subtask へ統一、WebSearch 等のセッションレベル予算 (Session budgets) 管理機能を盛り込んだ機能アップデート",

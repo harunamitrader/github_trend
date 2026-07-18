@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Jul 2026 19:07:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 04:16:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT: 2026-07-16 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-chatgpt-desktop-app-work.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-chatgpt-desktop-app-work.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[デスクトップアプリへの Chat/Work モード切り替えスイッチャーの搭載や、プロジェクトアクセスと統一された Recents ビューによるインターフェース刷新]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude: 2026-07-18 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-claude-fable5-expansion.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-claude-fable5-expansion.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Max および Team Premium の全有料プラン向けに最新モデル「Claude Fable 5」が標準の50%の利用制限で開放されたアップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini: 2026-07-16 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-gemini-enterprise-byoid-alphaevolve.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-gemini-enterprise-byoid-alphaevolve.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini Enterprise モバイル向け Bring Your Own Identity (BYOID) の一般提供（GA）や、複雑なアルゴリズム問題解決を自律支援する AlphaEvolve エージェントの GA 開始]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw: v2026.7.2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-openclaw-v2026-7-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-openclaw-v2026-7-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[リモートコーディングセッション機能の正式展開や、モバイルおよび Linux ノード上でのネイティブオートメーション対応、ゲートウェイとセッション復旧の信頼性向上]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code: v2.1.214]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-claudecode-v2-1-214.html</link>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[デスクトップ専用 Copilot App の全ユーザー（無料プラン含む）開放や、プロンプトへの画像・PDF直接添付が可能な Copilot Vision の一般提供開始などを実施]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex: v0.20.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-codex-v0-20-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-17-codex-v0-20-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[topology evidence 管理の安定化や Cargo メタデータ・HUDペーストバッファの微修正などを含む maintenance リリース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: 一時チャット (Temporary Chat) 機能の追加および Gemini Enterprise 東京リージョン対応・データストア拡張]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-gemini-temporary-chat-enterprise.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-gemini-temporary-chat-enterprise.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[履歴に会話を残さない「一時チャット」モードの追加や、東京リージョンでのデータ residency 保証、およびサードパーティデータストア連携などの大幅アップデートが実施されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok: Grok 4.5 正式ローンチおよび Grok Build CLI (v0.2.98) アップデート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-grok-v4-5-ga-build-cli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-grok-v4-5-ga-build-cli.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[推論やコーディング・知識作業に特化した最先端モデル「Grok 4.5」が API 等で正式リリースされ、あわせて開発向けターミナルインターフェース Grok Build CLI も v0.2.98 へアップデートされました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: 「Gemini Notebook」へのリブランディング発表とロードマップ公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-notebooklm-rebrand-gemini-notebook.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-16-notebooklm-rebrand-gemini-notebook.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GoogleはパーソナルAIリサーチアシスタント NotebookLM を「Gemini Notebook」へとリブランディングすることを発表し、製品ブランドの統合を開始しました。]]></description>
     </item>
   </channel>
 </rss>
