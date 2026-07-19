@@ -40,16 +40,17 @@
           </div>
 
           <div class="tool-grid">
-            <details id="tool-claude-code" data-category="coding" class="tool-card card-claude-code" data-latest="2026-07-19">
+            <details id="tool-claude-code" data-category="coding" class="tool-card card-claude-code" data-latest="2026-07-20">
               <summary class="tool-card-summary">
                 <span class="tool-name">Claude Code</span>
                 <span class="tool-summary-latest">
-                  <span class="tool-summary-date">2026-07-19</span><span class="tool-summary-title"><a href="./articles/tools/2026-07-19-claudecode-v2-1-214.html">v2.1.214: 会話を別セッションとして複製並行進行させる /fork コマンドの実装、サブエージェント表記の /subtask への統一、WebSearch等のセッション予算制限</a></span>
+                  <span class="tool-summary-date">2026-07-20</span><span class="tool-summary-title"><a href="./articles/tools/2026-07-20-claudecode-v2-1-215.html">v2.1.215: Agent Skills (/verify, /code-review) の自動実行停止と明示的コマンド呼び出し化</a></span>
                 </span>
                 <span class="tool-summary-chevron">▼</span>
               </summary>
               <div class="tool-details-body">
                 <ul class="changelog-list" id="list-claude-code">
+                <li class="changelog-item"><span class="changelog-date">2026-07-20</span><a href="./articles/tools/2026-07-20-claudecode-v2-1-215.html">v2.1.215: Agent Skills (/verify, /code-review) の自動実行停止と明示的コマンド呼び出し化</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-07-19</span><a href="./articles/tools/2026-07-19-claudecode-v2-1-214.html">v2.1.214: 会話を別セッションとして複製並行進行させる /fork コマンドの実装、サブエージェント表記の /subtask への統一、WebSearch等のセッション予算制限</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-07-17</span><a href="./articles/tools/2026-07-17-claudecode-v2-1-211.html">v2.1.211: テキストインジェクション脆弱性（Bidirectional-override）の修正、プロンプトキャッシュ課金回帰の解消、サブエージェント出力フラグ追加</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-07-15</span><a href="./articles/tools/2026-07-15-claudecode-v2-1-209.html">v2.1.209: Screen Reader Modeの追加、Vimモード改善、内部対話ブロック修正</a></li>
@@ -119,7 +120,7 @@
                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html">v2.1.91: MCP 大容量結果と skill 実行制御を追加</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-claude-code-v2-1-88-stability.html">v2.1.88: Windows と長時間セッションの安定性を強化</a></li>
               </ul>
-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-claude-code">v2.1.214</strong></span>
+                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-claude-code">v2.1.215</strong></span>
                 <span class="status-tag status-active">Active</span></div>
                 <div class="tool-status"><a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Claude Code release notes / Releases 監視中</a></div>
               </div>
@@ -817,24 +818,24 @@
             <p style="margin-bottom: 8px;"><strong>対象:</strong> 17ツール、Coding / Others の2カテゴリーで巡回検証</p>
 
             <div id="report-coding" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(59, 130, 246, 0.04);">
-              <p style="margin-bottom: 8px;"><strong>Coding 調査日時:</strong> <span id="report-coding-date">2026-07-19 04:05 JST</span></p>
+              <p style="margin-bottom: 8px;"><strong>Coding 調査日時:</strong> <span id="report-coding-date">2026-07-20 04:00 JST</span></p>
               <div id="report-coding-updates">
-                  <p style="margin: 0 0 4px 0;"><strong>Updates Found (6):</strong></p>
+                  <p style="margin: 0 0 4px 0;"><strong>Updates Found (1):</strong></p>
                   <ul style="margin: 0; padding-left: 20px; color: var(--text);">
-                    <li>Claude Code (v2.1.211 → v2.1.214)</li>
-                    <li>Antigravity (v1.2.2 → v1.2.4)</li>
-                    <li>Cursor (v3.11 → v3.12)</li>
-                    <li>Cline (v4.0.8 → v4.0.9)</li>
-                    <li>Gemini CLI (v0.52.0-nightly.20260716 → v0.52.0-nightly.20260718)</li>
-                    <li>Grok CLI (新規追加 → Grok Build (Apache 2.0))</li>
+                    <li>Claude Code (v2.1.214 → v2.1.215)</li>
                   </ul>
                 </div>
               <div id="report-coding-no-updates" style="margin-top: 8px;">
-                  <p style="margin: 0 0 4px 0;"><strong>No New Updates (3):</strong></p>
+                  <p style="margin: 0 0 4px 0;"><strong>No New Updates (8):</strong></p>
                   <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+                    <li>Antigravity (v1.2.4)</li>
+                    <li>Cursor (v3.12)</li>
                     <li>Windsurf (v3.4.27)</li>
+                    <li>Cline (v4.0.9)</li>
                     <li>GitHub Copilot (2026-07-16 Update)</li>
                     <li>Codex (v0.20.2)</li>
+                    <li>Gemini CLI (v0.52.0-nightly.20260718)</li>
+                    <li>Grok CLI (Grok Build)</li>
                   </ul>
                 </div>
             </div>

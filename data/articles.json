@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-20-claudecode-v2-1-215",
+      "title": "Claude Code: v2.1.215",
+      "dek": "Agent Skills (/verify, /code-review) の自動実行停止と明示的コマンド呼び出し化による制御性の向上",
+      "summary": "Claude Code が v2.1.215 にアップデート。バックグラウンドで自動実行されていた /verify および /code-review スキルが自動起動しないよう変更され、ユーザーが手動でコマンド入力した際のみ実行される挙動に最適化されました。",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-20T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://github.com/anthropic-ai/claude-code/releases",
+      "articleUrl": "./articles/tools/2026-07-20-claudecode-v2-1-215.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-19-update-report",
       "title": "2026-07-19 アップデートレポート",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Jul 2026 05:00:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 04:01:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: v2.1.215]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-20-claudecode-v2-1-215.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-20-claudecode-v2-1-215.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agent Skills (/verify, /code-review) の自動実行停止と明示的コマンド呼び出し化による制御性の向上]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-19 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-19-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GTA 5 Enhanced向けにメモリ注入方式で自作スクリプトの実行や設定オーバーライドを可能にする、実験的ゲームModメニュー・インジェクター]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ui-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-ibelick-ui-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-17-ibelick-ui-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[デザインエンジニアやAIエージェント向けに、WebアニメーションやUI実装に必要なスキルコードをCLI経由でルーティング・取得できる開発支援ツール]]></description>
     </item>
   </channel>
 </rss>
