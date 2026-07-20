@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLMとツール群を連携するModel Context Protocol (MCP) サーバーおよびクライアントをPythonicに高速構築できるライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>fastmcp</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">fastmcp</h1>
+      <p class="article-dek">LLMとツール群を連携するModel Context Protocol (MCP) サーバーおよびクライアントをPythonicに高速構築できるライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-21 -->
+          <strong>2026-07-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 13位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noreferrer">
+              PrefectHQ/fastmcp
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>26,480</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>FastMCPは、LLMエージェントと各種ツール・データソースを接続する標準規格「Model Context Protocol (MCP)」に基づいたサーバーおよびクライアントを、Pythonで高速かつ安全に作成するためのオープンソースライブラリです（Prefectチーム開発）。</p>
+
+        <h2>何ができるか</h2>
+        <p>FastAPIのようなシンプルなデコレータスタイル（`@mcp.tool`）でPython関数を記述するだけで、Claude DesktopやCursor、AntigravityなどのAIエージェントから即座に呼び出し可能なMCPツールサーバーを生成・構築できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>プロトタイピングからプロダクション運用まで対応する洗練されたインターフェース、型ヒントに基づく自動スキーマ生成とドキュメント化、並びに堅牢なテスト・エラーハンドリング支援機能が備わっています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>`pip install fastmcp` または `uv add fastmcp` でインストールします。Pythonスクリプト内で `FastMCP` インスタンスを生成し、デコレータを付与した関数を定義して `mcp.run()` を呼び出すだけで起動します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>独自APIやローカルデータベース、自動化処理をMCP化して各種AIエージェントに統合したいPython開発者やAIエンジニアに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>MCP標準規格（modelcontextprotocol.io）の仕様変更に伴い更新が行われる場合があります。クライアント接続時のトランスポート層（STDIO / SSE）の選択や認証設定は用途に合わせて構成してください。</p>
+
+        <h2>まとめ</h2>
+        <p>FastMCPは、MCPサーバー開発の複雑さを最小限に抑え、「直感的に書いてすぐ動かせる」体験を提供する決定版ライブラリです。AIツール連携の必須インフラとして急速に普及しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noreferrer">https://github.com/PrefectHQ/fastmcp</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #872</p>
+      </div>
+    </article>
+  </body>
+</html>
