@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Jul 2026 19:47:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 04:00:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline: v4.0.10]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-21-cline-v4-0-10.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-21-cline-v4-0-10.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SDK統合ランタイムへの移行とプロンプトキューイング・カスタマイズマーケットプレイスの導入]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-20 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-20-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GPT-5.6 ChatGPT サブスクリプションモデルへのサポート追加や、連続誤り制限達時のメッセージの短縮、OpenAI互換プロバイダーのトークン過剰報告バグの修正などを施したアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.52.0-nightly.20260718]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-geminicli-v0-52-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-geminicli-v0-52-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM 割り振り・トリアージとコンテナビルド（caretaker-triage）の実装や、macOS の Seatbelt サンドボックス制限の厳格化、ReAct 無限ループ防止などを導入した nightly リリース]]></description>
     </item>
   </channel>
 </rss>

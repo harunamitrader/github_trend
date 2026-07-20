@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-21-cline-v4-0-10",
+      "title": "Cline: v4.0.10",
+      "dek": "SDK統合ランタイムへの移行とプロンプトキューイング・カスタマイズマーケットプレイスの導入",
+      "summary": "Cline が v4.0.10 にアップデート。共通 SDK 統合ランタイムへの更新、Skills や MCP サーバー・Plugins を管理できる Customize マーケットプレイス、および作業中プロンプトのキューイング・メッセージ再編集機能がサポートされました。",
+      "publishedAt": "2026-07-21",
+      "createdAt": "2026-07-21T04:00:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-21-cline-v4-0-10.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-20-update-report",
       "title": "2026-07-20 アップデートレポート",
