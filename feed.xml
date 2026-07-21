@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Jul 2026 19:47:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 04:00:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: v2.1.216]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-claudecode-v2-1-216.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-claudecode-v2-1-216.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[バックグラウンドセッション復元時の制限引き継ぎの正確性向上、ファイルシステム隔離無効化オプションの追加、長時間稼働時のパフォーマンス改善]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-21 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-21-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[デスクトップアプリへの Chat/Work モード切り替えスイッチャーの搭載や、プロジェクトアクセスと統一された Recents ビューによるインターフェース刷新]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: 2026-07-18 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-claude-fable5-expansion.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-19-claude-fable5-expansion.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Max および Team Premium の全有料プラン向けに最新モデル「Claude Fable 5」が標準の50%の利用制限で開放されたアップデート]]></description>
     </item>
   </channel>
 </rss>

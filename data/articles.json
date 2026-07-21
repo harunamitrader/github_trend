@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-22-claudecode-v2-1-216",
+      "title": "Claude Code: v2.1.216",
+      "dek": "バックグラウンドセッション復元時の制限引き継ぎの正確性向上、ファイルシステム隔離無効化オプションの追加、長時間稼働時のパフォーマンス改善",
+      "summary": "Claude Code が v2.1.216 にアップデート。再開されたバックグラウンドエージェントセッションの権限引き継ぎ精度の向上、ファイルシステム隔離を無効化できる設定、長時間稼働セッションでのパフォーマンスボトルネックの解消などが行われました。",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-22T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-22-claudecode-v2-1-216.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-21-update-report",
       "title": "2026-07-21 アップデートレポート",
