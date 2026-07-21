@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ローカルハードウェア構成から実行可能なLLMを自動検出し、メモリ適合率や推論速度を評価するRust製TUI/CLIツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>llmfit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">llmfit</h1>
+      <p class="article-dek">ローカルハードウェア構成から実行可能なLLMを自動検出し、メモリ適合率や推論速度を評価するRust製TUI/CLIツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-22 -->
+          <strong>2026-07-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/AlexsJones/llmfit" target="_blank" rel="noreferrer">
+              AlexsJones/llmfit
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>30,104</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>llmfit</code> は、ローカルコンピュータのCPU、システムメモリ（RAM）、およびGPUのビデオメモリ（VRAM）などのハードウェアスペックを自動で検知し、数多くの大規模言語モデル（LLM）が自身のハードウェアでどれだけ快適に動作するかを可視化・評価してくれるRust製のTUI/CLIツールです。</p>
+
+        <h2>何ができるか</h2>
+        <p>Ollama、llama.cpp、Apple Silicon向けのMLXといったローカルランタイムで実行可能な数百のモデルを対象に、グラフィックスメモリに収まるかどうかの「適合率（Fit）」や、推定の生成トークン速度、モデル品質、文脈ウィンドウ（コンテキスト）の要件をスコアリングしてくれます。また、実行前に <code>llmfit plan</code> を使って特定のモデルに必要なVRAM量を試算することも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>面倒な計算を行うことなく、ターミナル上で対話的に（TUIモードで）自マシンにぴったりのローカルLLMを探し出せる点が秀逸です。モデルのパラメータサイズや量子化レベル（Q4, Q8など）ごとに細かくシミュレーションを行えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>macOS/Linux環境では Homebrew (<code>brew install AlexsJones/llmfit/llmfit</code>)、Windows環境では Scoop (<code>scoop install llmfit</code>) や <code>cargo install llmfit</code> でインストールします。コマンドラインから <code>llmfit</code> と入力するだけでTUI画面が立ち上がります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>プライバシー保護やオフライン運用のためにローカル環境（PCやローカルサーバー）でLLMを動かしたい開発者やAI研究者、手持ちのハードウェアスペックに最適なモデルを簡単に特定したいユーザー向けです。</p>
+
+        <h2>注意点</h2>
+        <p>ハードウェア要件の推定値は概算であり、他のシステムプロセスが使用しているメモリ状況や、グラフィックスドライバーの最適化状態によって実際の動作速度は変動します。</p>
+
+        <h2>まとめ</h2>
+        <p><code>llmfit</code> は、複雑なモデルサイズや量子化の計算を排除し、現在のハードウェアで実行可能なローカルLLMを即座に判定・プランニングしてくれる、ローカルAI開発者必携のRust製ユーティリティツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AlexsJones/llmfit" target="_blank" rel="noreferrer">https://github.com/AlexsJones/llmfit</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #876</p>
+      </div>
+    </article>
+  </body>
+</html>
