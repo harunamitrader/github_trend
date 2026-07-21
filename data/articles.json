@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-22-gemini-3-6-flash-lite-cyber",
+      "title": "Gemini: 3.6 Flash & 3.5 Flash-Lite / Cyber",
+      "dek": "高効率なコーディング・エージェント向け次世代モデル「Gemini 3.6 Flash」、低レイテンシ軽量モデル「3.5 Flash-Lite」、セキュリティ特化「3.5 Flash Cyber」の同時リリース",
+      "summary": "Google が 3 つの新規次世代モデル「Gemini 3.6 Flash」「Gemini 3.5 Flash-Lite」「Gemini 3.5 Flash Cyber」を発表。それぞれ高効率コーディング・エージェント用途、超低レイテンシ、セキュリティデータ解析に特化しています。",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-22T04:05:00+09:00",
+      "toolName": "Gemini",
+      "toolUrl": "https://ai.google.dev/",
+      "articleUrl": "./articles/tools/2026-07-22-gemini-3-6-flash-lite-cyber.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-22-claudecode-v2-1-216",
       "title": "Claude Code: v2.1.216",
       "dek": "バックグラウンドセッション復元時の制限引き継ぎの正確性向上、ファイルシステム隔離無効化オプションの追加、長時間稼働時のパフォーマンス改善",
