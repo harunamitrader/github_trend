@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-23-cline-desktop-v0-0-3",
+      "title": "Cline: Desktop App v0.0.3",
+      "dek": "IDE拡張から独立して動作するローカルデスクトップアプリ版「Cline Desktop」の提供開始と、初期の安定性向上",
+      "summary": "自律AIコーディングエージェント Cline が、エディタ拡張機能から独立して動作するスタンドアロンなデスクトップアプリ「Cline Desktop (v0.0.3)」をリリース。ローカル環境に特化し、サーバーレスかつセキュアに動作します。",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-23T04:05:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-23-cline-desktop-v0-0-3.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-23-claudecode-v2-1-217",
+      "title": "Claude Code: v2.1.217",
+      "dek": "サブエージェントの同時並行数（fan-out）上限設定、絵文字ショートコード入力機能、MCPツールメモリリークやWindows環境での安定性向上",
+      "summary": "Claude Code が v2.1.217 にアップデート。サブエージェントの同時並行数上限（最大20）の導入、絵文字ショートコード対応、MCPツールのメモリリーク修正、Windows自動アップデート時の実行ファイル引き継ぎ失敗の解消などが行われました。",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-23T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-23-claudecode-v2-1-217.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-22-update-report",
       "title": "2026-07-22 アップデートレポート",

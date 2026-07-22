@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Jul 2026 19:48:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 04:00:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline: Desktop App v0.0.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-cline-desktop-v0-0-3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-cline-desktop-v0-0-3.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[IDE拡張から独立して動作するローカルデスクトップアプリ版「Cline Desktop」の提供開始と、初期の安定性向上]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code: v2.1.217]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-claudecode-v2-1-217.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-claudecode-v2-1-217.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サブエージェントの同時並行数（fan-out）上限設定、絵文字ショートコード入力機能、MCPツールメモリリークやWindows環境での安定性向上]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-22 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-22-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[CEFとmpvエンジンをベースに開発されたJellyfinメディアサーバー向けのオープンソース非公式デスクトップクライアント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[terminal]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-microsoft-terminal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-microsoft-terminal.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[タブ切り替えやGPU描画、高度なカスタマイズに対応したWindowsの標準オープンソースターミナル環境]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AstrBot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-astrbotdevs-astrbot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-astrbotdevs-astrbot.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[各種チャットアプリやLLM、プラグインと連携し自律応答・自動化を実現するマルチプラットフォームAIエージェント基盤]]></description>
     </item>
   </channel>
 </rss>
