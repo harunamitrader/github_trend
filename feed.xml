@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Jul 2026 04:15:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 04:47:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-23 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-23-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-23-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[croc]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-schollz-croc.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-schollz-croc.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[暗号化通信により任意のPC間で安全かつ超高速にファイルやフォルダを直接転送できるCLIツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[likec4]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-likec4-likec4.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-likec4-likec4.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[独自のDSLを用いてソフトウェアアーキテクチャをコードで定義し、常に最新のインタラクティブな図面を自動生成するArchitecture-as-Codeツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-claude-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-composiohq-awesome-claude-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-composiohq-awesome-claude-skills.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CodeやClaude APIの機能を拡張し、外部サービス連携やタスク自動化を実現するコミュニティ主導のカスタム指示（Skills）集]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pi-web]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-agegr-pi-web.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-agegr-pi-web.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Extensible coding agent「Pi」セッションのプロジェクト履歴管理、会話ルート分岐、リアルタイムメディアプレビューができるローカルWeb UI]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cloudflare_temp_email]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-dreamhunter2333-cloudflare_temp_email.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-dreamhunter2333-cloudflare_temp_email.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cloudflareのサーバーレス構成（Workers/D1/KV）で簡単に構築できる高機能・多言語対応の使い捨てメールサービス]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline: Desktop App v0.0.3]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-cline-desktop-v0-0-3.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[生産性とシンプルな記法を追求したTokioチーム開発によるフルスタックRust Webフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openship]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-oblien-openship.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-oblien-openship.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[WebダッシュボードやCLI、デスクトップアプリからコンテナデプロイとインフラ管理が行えるオープンソースプラットフォーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Ontology-Playground]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-microsoft-ontology-playground.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-microsoft-ontology-playground.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オントロジー設計やMicrosoft Fabric IQを視覚的に体験・学べる完全静的Webアプリケーション]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline: v4.0.10]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-21-cline-v4-0-10.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-21-cline-v4-0-10.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[SDK統合ランタイムへの移行とプロンプトキューイング・カスタマイズマーケットプレイスの導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-20 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-20-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-20-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ktransformers]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-kvcache-ai-ktransformers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-kvcache-ai-ktransformers.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CPU/GPU異種混合計算により超大型LLMの高速な推論および微調整（SFT）を実現する軽量推論フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[jellium-desktop]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-andrewrabert-jellium-desktop.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-20-andrewrabert-jellium-desktop.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CEFとmpvエンジンをベースに開発されたJellyfinメディアサーバー向けのオープンソース非公式デスクトップクライアント]]></description>
     </item>
   </channel>
 </rss>

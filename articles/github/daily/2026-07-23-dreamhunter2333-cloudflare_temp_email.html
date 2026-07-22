@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cloudflareのサーバーレス構成（Workers/D1/KV）で簡単に構築できる高機能・多言語対応の使い捨てメールサービス"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cloudflare_temp_email</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cloudflare_temp_email</h1>
+      <p class="article-dek">Cloudflareのサーバーレス構成（Workers/D1/KV）で簡単に構築できる高機能・多言語対応の使い捨てメールサービス</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-23 -->
+          <strong>2026-07-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/dreamhunter2333/cloudflare_temp_email" target="_blank" rel="noreferrer">
+              dreamhunter2333/cloudflare_temp_email
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,768</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>cloudflare_temp_email</code> は、Cloudflare のサーバーレスプラットフォーム（Workers, D1, KV）上で動作する、無料で運用可能な一時的（使い捨て）メールアドレスサービスを構築するためのオープンソースプロジェクトです。</p>
+
+        <h2>何ができるか</h2>
+        <p>独自のカスタムドメインを使用した一時的なメールアドレスの作成、メールの送受信、添付ファイルの受け取りが可能です。また、Rust を用いた WebAssembly (WASM) による高速なメール解析エンジンや、Cloudflare Workers AI を使って受信メールから自動的に二段階認証コードやサインアップ用のリンクを抽出する機能が備わっています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>高機能な UI が標準搭載されているほか、Telegram Bot と連携した通知受信や、SMTP/IMAP プロトコルのサポートが特徴的です。さらに、Cursor や OpenClaw などの AI コーディングエージェントがプログラムからメールボックスを操作するためのAPI（Skill機能）も組み込まれており、自動テストやスクレイピング時のメール確認作業を自動化できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Cloudflareアカウントを用意し、リポジトリをクローン後、Wrangler CLI (<code>npx wrangler deploy</code>) を使用して Workers、D1データベース、KVストアを構成・デプロイします。ドメインのMXレコードなどのDNS設定をCloudflare Dashboardで行うことで稼働します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>スパムメールや追跡からプライバシーを守るために一時アドレスを使用したい一般ユーザーから、自動化テストや開発・AIエージェントのワークフローで一時メール受信APIを安価かつセキュアに運用したいWeb開発者向けです。</p>
+
+        <h2>注意点</h2>
+        <p>完全無料で利用できる制限範囲は、Cloudflare の Free プラン枠（Workers のリクエスト上限や D1 の書き込み上限など）に依存するため、大規模な運用を行う場合は有償プランへの移行や制限への配慮が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>cloudflare_temp_email</code> は、Cloudflareの強力なクラウドインフラを活用し、コストゼロから運用可能な非常に高機能でインテリジェントな使い捨てメールサービスを簡単に自己ホストできるパッケージです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/dreamhunter2333/cloudflare_temp_email" target="_blank" rel="noreferrer">https://github.com/dreamhunter2333/cloudflare_temp_email</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #879</p>
+      </div>
+    </article>
+  </body>
+</html>
