@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.52.0</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.52.0</h1>
+      <p class="article-dek">LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.52.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google公式のCLIツール @google/gemini-cli が v0.52.0 にメジャーアップデートされました。これまでのプレビューやnightlyビルドの機能が集約された安定版リリースです。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>LLMトリアージオーケストレータ:</strong> エージェントによる意思決定やエラー検出を統合制御する <code>caretaker-triage</code> オーケストレータシステムが実装されました。</li>
+            <li><strong>セキュリティと実行分離の強制:</strong> A2A (Agent-to-Agent) サーバーにおいて、信頼境界の検証とタスク分離が厳格化され、リモートコード実行 (RCE) の脆弱性が防止されました。macOS では Seatbelt サンドボックスプロファイルが default-deny（初期拒否）へと移行しました。</li>
+            <li><strong>安定性の向上と無限ループ対策:</strong> エージェントの自律実行時の無限 ReAct ループやプロンプトインジェクションに対する防御策が強化されました。</li>
+            <li><strong>400 Bad Request 等のバグ修正:</strong> 連続する同一ロールの統合処理などにより API 連携のエラーを修正。また <code>GOOGLE_APPLICATION_CREDENTIALS</code> 環境変数のキャッシュ検証を改善しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>自律的にコード生成やコマンド実行を行う際のエージェントの暴走や、不審なリポジトリ操作による不正コード実行（RCE）のリスクを大幅に削減し、セキュアなローカル実行を実現します。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLI v0.52.0 は、トリアージコントロールの統合、実行分離やサンドボックス規制の厳格化によるRCE対策など、安全性と堅牢性を劇的に向上させた安定版アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">GitHub / google-gemini/gemini-cli</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

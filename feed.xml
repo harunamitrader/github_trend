@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Jul 2026 19:48:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 04:04:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI: v0.52.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-geminicli-v0-52-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-geminicli-v0-52-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code: v2.1.218]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-claudecode-v2-1-218.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-claudecode-v2-1-218.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[/code-review コマンドのバックグラウンドサブエージェント化、スクリーンリーダー用アクセシビリティ向上、MCP接続エラー報告の強化]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-23 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-23-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[268以上のプロバイダーと500以上のLLMを1つのエンドポイントに一元化し、高効率なトークン圧縮と自動フォールバックを提供するオープンソースAIゲートウェイ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[fastmcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-prefecthq-fastmcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-prefecthq-fastmcp.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMとツール群を連携するModel Context Protocol (MCP) サーバーおよびクライアントをPythonicに高速構築できるライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[topcoat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-tokio-rs-topcoat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-21-tokio-rs-topcoat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[生産性とシンプルな記法を追求したTokioチーム開発によるフルスタックRust Webフレームワーク]]></description>
     </item>
   </channel>
 </rss>

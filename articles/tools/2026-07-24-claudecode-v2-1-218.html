@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="/code-review コマンドのバックグラウンドサブエージェント化、スクリーンリーダー用アクセシビリティ向上、MCP接続エラー報告の強化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code: v2.1.218</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code: v2.1.218</h1>
+      <p class="article-dek">/code-review コマンドのバックグラウンドサブエージェント化、スクリーンリーダー用アクセシビリティ向上、MCP接続エラー報告の強化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.218</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code が v2.1.218 にアップデートされ、コードレビュー機能のバックグラウンド化、ターミナル操作のアクセシビリティ改善、Model Context Protocol (MCP) のデバッグ機能の強化が行われました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>/code-review のバックグラウンド化:</strong> 従来メインセッションの対話履歴を汚しがちだった <code>/code-review</code> コマンドが、バックグラウンドのサブエージェント（サブタスク）として実行されるようになりました。これにより会話履歴が整理され、後続の指示がシームレスに適用可能です。</li>
+            <li><strong>ターミナルアクセシビリティの向上:</strong> <code>Option+Delete</code> や <code>Ctrl+W</code> などの単語/行削除コマンドを実行した際、スクリーンリーダー向けに削除されたテキストを音声アナウンスするアクセシビリティ機能が追加されました。</li>
+            <li><strong>MCP 接続エラー報告の強化:</strong> MCP サーバーへの接続失敗時、単に失敗を告げるだけでなく、詳細な HTTP ステータスコードやエラー内容が表示されるようになりました。また、設定値に不可視の余分な空白文字が含まれている場合の警告も追加されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>レビュー実行時のチャットログが大幅に簡素化され、コードの改善作業により集中できるようになります。また、MCP周りの設定エラーを突き止めるデバッグ作業が容易になりました。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code v2.1.218 は、コードレビューコマンドのサブタスク化によるセッション履歴のクリーン化、スクリーンリーダーへの対応強化、およびMCP接続トラブルシューティングの利便性向上を含むマイナーアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.npmjs.com/package/@anthropic-ai/claude-code" target="_blank" rel="noreferrer">npm / @anthropic-ai/claude-code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

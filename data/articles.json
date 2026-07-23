@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-24-geminicli-v0-52-0",
+      "title": "Gemini CLI: v0.52.0",
+      "dek": "LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化",
+      "summary": "Google公式の @google/gemini-cli が v0.52.0 にメジャーアップデート。安定版昇格に伴い、トリアージオーケストレータ、無限ReActループ対策、A2Aサーバーのタスク隔離、Macのサンドボックスの厳格化など、信頼性とRCE防止策が大幅に強化されました。",
+      "publishedAt": "2026-07-24",
+      "createdAt": "2026-07-24T04:05:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-24-geminicli-v0-52-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-24-claudecode-v2-1-218",
+      "title": "Claude Code: v2.1.218",
+      "dek": "/code-review コマンドのバックグラウンドサブエージェント化、スクリーンリーダー用アクセシビリティ向上、MCP接続エラー報告の強化",
+      "summary": "Claude Code が v2.1.218 にアップデート。/code-review コマンドのバックグラウンドサブエージェント化による履歴クリーン化、スクリーンリーダー向け単語・行削除音声読み上げ対応、およびMCPデバッグエラー情報の詳細化が行われました。",
+      "publishedAt": "2026-07-24",
+      "createdAt": "2026-07-24T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-24-claudecode-v2-1-218.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-23-update-report",
       "title": "2026-07-23 アップデートレポート",
