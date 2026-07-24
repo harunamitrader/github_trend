@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="フォルダ選択不要のチャット開始機能、エージェント用コンテキスト圧縮のデフォルト有効化、オンボーディングやファイルのドラッグ＆ドロップ機能追加"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline: Desktop App v0.0.4</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cline: Desktop App v0.0.4</h1>
+      <p class="article-dek">フォルダ選択不要のチャット開始機能、エージェント用コンテキスト圧縮のデフォルト有効化、オンボーディングやファイルのドラッグ＆ドロップ機能追加</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>Desktop v0.0.4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline Desktop App の一般テスト向けプレビュー版が v0.0.4 にアップデートされました。ワークスペースに縛られない自由な対話機能やコンテキストの自動圧縮など、デスクトップ環境における操作性と安定性が劇的に向上しました。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>ワークスペースフリーでのチャット開始:</strong> プロジェクトフォルダを選択・展開していなくても、その場ですぐにエージェントとの対話セッションを開始できるようになりました。</li>
+            <li><strong>エージェント自動圧縮（Agentic Compaction）の標準化:</strong> 会話の長さに応じて、文脈の要点を押さえたままインテリジェントに対話履歴を圧縮する「Agentic Compaction」がデフォルトで有効になり、コンテキストウィンドウの上限に達しにくくなりました。</li>
+            <li><strong>ドラッグ＆ドロップによる添付:</strong> チャットエリアへファイルを直接ドラッグ＆ドロップして添付できるようになり、添付画像はチャットログ上にインライン展開されます。</li>
+            <li><strong>ログインシェルの PATH 解決:</strong> 実行時にログインシェルの環境変数 <code>PATH</code> を正しく解決するようになり、エージェントが <code>gh</code> などの各種 CLI 開発ツールを見失う問題が解消されました。</li>
+            <li><strong>単発ルーチンの実行とその他のUI刷新:</strong> 1回限りのオンデマンドルーチンの予定に対応し、実行履歴へのナビゲーションを追加。さらに、折りたたみカード化されたチャンネル設定や新しいインアプリナビ付きカスタムタイトルバーなどが導入されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>フォルダを開く手間なく疑問を解消できるようになり、画像やファイルの受け渡し、ローカルの開発 CLI ツールへのアクセスもシームレス化され、デスクトップ単体でエージェント機能がより直感的に扱えるようになります。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline Desktop v0.0.4 は、ワークスペースなしチャットのサポート、エージェント圧縮の標準有効化、ドラッグ＆ドロップ、シェルのPATH解決、および新規のオンボーディングとタイトルバーUIの刷新を含むメジャーテストアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/desktop-v0.0.4" target="_blank" rel="noreferrer">GitHub / cline/cline</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-25-cline-desktop-v0-0-4",
+      "title": "Cline: Desktop App v0.0.4",
+      "dek": "フォルダ選択不要 of チャット開始機能、エージェント用コンテキスト圧縮のデフォルト有効化、オンボーディングやファイルのドラッグ＆ドロップ機能追加",
+      "summary": "Cline Desktop App が v0.0.4 にアップデート。プロジェクトフォルダを開かないチャットのサポート、会話要約でトークン溢れを防ぐ「Agentic Compaction」の標準有効化、ドラッグ＆ドロップ添付、ログインシェルのPATH解決によるCLI不具合修正など、完成度が大幅に高まりました。",
+      "publishedAt": "2026-07-25",
+      "createdAt": "2026-07-25T04:05:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases/tag/desktop-v0.0.4",
+      "articleUrl": "./articles/tools/2026-07-25-cline-desktop-v0-0-4.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-25-claudecode-v2-1-219",
+      "title": "Claude Code: v2.1.219",
+      "dek": "Claude Opus 5 (1Mコンテキスト・高速モード) の標準採用、自己アップデート失敗時の自動ロールバック、シンボリックリンク経由のワークスペース隔離バグ修正",
+      "summary": "Claude Code が v2.1.219 にアップデート。最新の「Claude Opus 5」（1Mコンテキスト・高速モード）のデフォルト採用のほか、バイナリ自己アップデート失敗時の自動ロールバックによる安全復旧、シンボリックリンク隔離すり抜けバグの修正が実施されました。",
+      "publishedAt": "2026-07-25",
+      "createdAt": "2026-07-25T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-25-claudecode-v2-1-219.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-24-geminicli-v0-52-0",
       "title": "Gemini CLI: v0.52.0",
       "dek": "LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化",
