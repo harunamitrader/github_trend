@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 04:15:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 04:46:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-25 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-25-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-25-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[buzz]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-block-buzz.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-block-buzz.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Nostrをバックエンドに人間とAIエージェントが同じチャネル内で協調して作業する自社ホスト可能な共有ワークスペース]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Pumpkin]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-pumpkin-mc-pumpkin.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-pumpkin-mc-pumpkin.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rustでゼロから構築された高速・軽量・セキュアな次世代Minecraftサーバー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[harper]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-automattic-harper.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-automattic-harper.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[オフラインかつプライバシー最優先で超高速に動作するオープンソースの英文校正ツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ego-lite]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-citrolabs-ego-lite.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-citrolabs-ego-lite.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントにPCブラウザのログイン済セッション状態を安全に共有しWeb自動化を高速化する専用ブラウザ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[superfile]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-yorukot-superfile.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-yorukot-superfile.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TUI（ターミナルユーザーインターフェース）で動作する超おしゃれでモダンな多機能ファイルマネージャー]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline: Desktop App v0.0.4]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-25-cline-desktop-v0-0-4.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの設計原理とエンジニアリング実践を包括的に解説したオープンソース書籍とサンプルコード集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[i-have-adhd]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-ayghri-i-have-adhd.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-ayghri-i-have-adhd.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIの余計な説明や丁寧な挨拶を排除し、結論から箇条書きでステップを出力させるClaude Code用ADHD支援システム指示]]></description>
-    </item>
-    <item>
-      <title><![CDATA[llmfit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-alexsjones-llmfit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-alexsjones-llmfit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカルハードウェア構成から実行可能なLLMを自動検出し、メモリ適合率や推論速度を評価するRust製TUI/CLIツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hyprland]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-hyprwm-hyprland.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-hyprwm-hyprland.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Waylandベースの美しくカスタマイズ可能なLinux用ダイナミックタイル型ウィンドウマネージャ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dioxus]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-dioxuslabs-dioxus.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-dioxuslabs-dioxus.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[React風の直感的な記法でWeb、デスクトップ、モバイルのマルチプラットフォームGUIアプリを開発できるRust製フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: 3.6 Flash & 3.5 Flash-Lite / Cyber]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-gemini-3-6-flash-lite-cyber.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-gemini-3-6-flash-lite-cyber.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[高効率なコーディング・エージェント向け次世代モデル「Gemini 3.6 Flash」、低レイテンシ軽量モデル「3.5 Flash-Lite」、セキュリティ特化「3.5 Flash Cyber」の同時リリース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.216]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-claudecode-v2-1-216.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-22-claudecode-v2-1-216.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[バックグラウンドセッション復元時の制限引き継ぎの正確性向上、ファイルシステム隔離無効化オプションの追加、長時間稼働時のパフォーマンス改善]]></description>
     </item>
   </channel>
 </rss>
