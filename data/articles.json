@@ -8,6 +8,66 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-26-notebooklm-galaxy-unpacked-mobile",
+      "title": "NotebookLM: 2026-07-22 Update",
+      "dek": "Samsung 折りたたみデバイスへのプリインストール、 side-by-side ワークスペース、多様なメディアタイプサポートによるモバイル最適化",
+      "summary": "NotebookLM（現 Gemini Notebook）が Galaxy Unpacked 2026 で発表された Samsung 折りたたみデバイスに対応。プリインストール、画面分割を活用した side-by-side ワークスペース、写真や音声録音を含むマルチメディアサポートが追加されました。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:19:00+09:00",
+      "toolName": "NotebookLM",
+      "toolUrl": "https://blog.google/technology/ai/",
+      "articleUrl": "./articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-obsidian-v1-13-3",
+      "title": "Obsidian: v1.13.3",
+      "dek": "画像 lightbox からの下スワイプによる非表示ジェスチャー、ズーム・パン機能の追加とファイル復元の利便性向上",
+      "summary": "Obsidian が v1.13.3 にアップデート。画像ビューアー（lightbox）上で下にスワイプして画像を閉じるジェスチャーや、画像のズーム＆パン（ドラッグ移動）機能が追加されました。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:18:00+09:00",
+      "toolName": "Obsidian",
+      "toolUrl": "https://obsidian.md/changelog",
+      "articleUrl": "./articles/tools/2026-07-26-obsidian-v1-13-3.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-grok-office-workspace-integration",
+      "title": "Grok: 2026-07-23 Update",
+      "dek": "Microsoft Outlook & Excel へのアドイン機能の提供開始と、Google Workspace および Grok Build CLI 連携の強化",
+      "summary": "Grok がアップデート。Outlook や Excel 内での直接統合・データ操作、Google Workspace や金融分析連携のサポート、さらに Grok Build CLI でのスケジュール/メール自動化トリガー機能が導入されました。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:17:00+09:00",
+      "toolName": "Grok",
+      "toolUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-07-26-grok-office-workspace-integration.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-claude-opus-5-released",
+      "title": "Claude: Claude Opus 5 リリース",
+      "dek": "Fable 5に迫る卓越した性能を半分のコストで提供する、次世代のコーディング・ナレッジワーク向け最高峰モデルの登場",
+      "summary": "Anthropic から次世代最高峰モデル「Claude Opus 5」が正式リリース。Fable 5迫りの高度な推論・自律デバッグ能力を半分のコストで実現し、Claude.ai、Claude Code、API、および GitHub Copilot で利用可能です。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:16:00+09:00",
+      "toolName": "Claude",
+      "toolUrl": "https://www.anthropic.com/news",
+      "articleUrl": "./articles/tools/2026-07-26-claude-opus-5-released.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-chatgpt-health-voice-updates",
+      "title": "ChatGPT: 2026-07-23 Update",
+      "dek": "Apple Healthデータ等の安全な接続による健康状態分析と、デスクトップ「Work / Codex」での音声機能対応",
+      "summary": "ChatGPT が 2026-07-23 アップデート。Apple Health 等 of 医療記録と連携する「Health in ChatGPT」ダッシュボードの追加や、デスクトップアプリの「Work / Codex」モードでの音声操作対応などが行われました。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:15:00+09:00",
+      "toolName": "ChatGPT",
+      "toolUrl": "https://help.openai.com/en/collections/3742473-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-07-26-chatgpt-health-voice-updates.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-26-cline-v4-0-11",
       "title": "Cline: v4.0.11",
       "dek": "Kimi K3 モデル使用時のネイティブツール呼び出しエラー（空応答バグ）の修正",

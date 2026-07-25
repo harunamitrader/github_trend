@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 19:04:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 04:17:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[NotebookLM: 2026-07-22 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Samsung 折りたたみデバイスへのプリインストール、 side-by-side ワークスペース、多様なメディアタイプサポートによるモバイル最適化]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian: v1.13.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-obsidian-v1-13-3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-obsidian-v1-13-3.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画像 lightbox からの下スワイプによる非表示ジェスチャー、ズーム・パン機能の追加とファイル復元の利便性向上]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok: 2026-07-23 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-grok-office-workspace-integration.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-grok-office-workspace-integration.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft Outlook & Excel へのアドイン機能の提供開始と、Google Workspace および Grok Build CLI 連携の強化]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude: Claude Opus 5 リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claude-opus-5-released.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claude-opus-5-released.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Fable 5に迫る卓越した性能を半分のコストで提供する、次世代のコーディング・ナレッジワーク向け最高峰モデルの登場]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: 2026-07-23 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-chatgpt-health-voice-updates.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-chatgpt-health-voice-updates.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apple Healthデータ等の安全な接続による健康状態分析と、デスクトップ「Work / Codex」での音声機能対応]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline: v4.0.11]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cline-v4-0-11.html</link>
@@ -126,46 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[暗号化通信により任意のPC間で安全かつ超高速にファイルやフォルダを直接転送できるCLIツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[likec4]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-likec4-likec4.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-likec4-likec4.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[独自のDSLを用いてソフトウェアアーキテクチャをコードで定義し、常に最新のインタラクティブな図面を自動生成するArchitecture-as-Codeツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-claude-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-composiohq-awesome-claude-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-composiohq-awesome-claude-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeやClaude APIの機能を拡張し、外部サービス連携やタスク自動化を実現するコミュニティ主導のカスタム指示（Skills）集]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pi-web]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-agegr-pi-web.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-agegr-pi-web.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Extensible coding agent「Pi」セッションのプロジェクト履歴管理、会話ルート分岐、リアルタイムメディアプレビューができるローカルWeb UI]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cloudflare_temp_email]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-dreamhunter2333-cloudflare_temp_email.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-dreamhunter2333-cloudflare_temp_email.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cloudflareのサーバーレス構成（Workers/D1/KV）で簡単に構築できる高機能・多言語対応の使い捨てメールサービス]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline: Desktop App v0.0.3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-cline-desktop-v0-0-3.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-cline-desktop-v0-0-3.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[IDE拡張から独立して動作するローカルデスクトップアプリ版「Cline Desktop」の提供開始と、初期の安定性向上]]></description>
     </item>
   </channel>
 </rss>
