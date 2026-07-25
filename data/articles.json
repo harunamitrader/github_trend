@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-cline-v4-0-11",
+      "title": "Cline: v4.0.11",
+      "dek": "Kimi K3 モデル使用時のネイティブツール呼び出しエラー（空応答バグ）の修正",
+      "summary": "Cline が v4.0.11 にアップデート。Moonshot社の Kimi K3 モデル使用時に、ネイティブツール呼び出しで「空の応答（empty response）」が発生していた不具合が解消されました。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:02:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-07-26-cline-v4-0-11.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-cursor-router",
+      "title": "Cursor: Cursor Router リリース",
+      "dek": "タスクの複雑さに応じて最適なモデルを自動選択する「Cursor Router」の導入",
+      "summary": "Cursor がアップデートされ、タスクの複雑度に応じて最適なLLMを自動判定・割り当てる「Cursor Router」機能を追加。Intelligence、Balanced、Costの3モードから選択可能です。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:01:00+09:00",
+      "toolName": "Cursor",
+      "toolUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-26-cursor-router.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-26-claudecode-v2-1-220",
+      "title": "Claude Code: v2.1.220",
+      "dek": "バグ修正と信頼性向上を目的としたマイナーアップデート",
+      "summary": "Claude Code が v2.1.220 にアップデート。今回のリリースは主にエラーハンドリングやセッション管理などのバグ修正および動作信頼性の向上に焦点が当てられています。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T04:00:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-07-26-claudecode-v2-1-220.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-25-update-report",
       "title": "2026-07-25 アップデートレポート",

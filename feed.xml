@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:48:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 04:03:22 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline: v4.0.11]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cline-v4-0-11.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cline-v4-0-11.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kimi K3 モデル使用時のネイティブツール呼び出しエラー（空応答バグ）の修正]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor: Cursor Router リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cursor-router.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cursor-router.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[タスクの複雑さに応じて最適なモデルを自動選択する「Cursor Router」の導入]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code: v2.1.220]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claudecode-v2-1-220.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claudecode-v2-1-220.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[バグ修正と信頼性向上を目的としたマイナーアップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-25 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-25-update-report.html</link>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[IDE拡張から独立して動作するローカルデスクトップアプリ版「Cline Desktop」の提供開始と、初期の安定性向上]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.217]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-claudecode-v2-1-217.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-23-claudecode-v2-1-217.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サブエージェントの同時並行数（fan-out）上限設定、絵文字ショートコード入力機能、MCPツールメモリリークやWindows環境での安定性向上]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-22 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-22-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-22-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-agent-book]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-bojieli-ai-agent-book.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-22-bojieli-ai-agent-book.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの設計原理とエンジニアリング実践を包括的に解説したオープンソース書籍とサンプルコード集]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="タスクの複雑さに応じて最適なモデルを自動選択する「Cursor Router」の導入"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cursor: Cursor Router リリース</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Cursor: Cursor Router リリース</h1>
+      <p class="article-dek">タスクの複雑さに応じて最適なモデルを自動選択する「Cursor Router」の導入</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-26 -->
+          <strong>2026-07-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">アップデート</span>
+          <strong>Cursor Router</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cursor</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cursor にインテリジェントなモデルルーティングシステム「Cursor Router」が追加されました。タスクの複雑さを解析し、最適なLLMへリクエストを自動で振り分けることで、生産性とコストのバランスを最適化します。</p>
+        <ul>
+            <li><strong>インテリジェントルーティング:</strong> タスクに応じて Frontierモデル、Balancedモデル、または Cost-optimizedモデルへ自動的にリクエストを振り分ける Cursor Router を搭載。</li>
+            <li><strong>3つの最適化モード:</strong> ユーザーの好みに合わせて「Intelligence（最高品質）」「Balanced（バランス重視）」「Cost（トークン消費量節約）」のモードを選択可能。</li>
+            <li><strong>管理者制御 (Teams):</strong> 管理者がグループごとにルーターのON/OFF、使用可能モードの制限、およびモデルの許可/禁止リストを設定できる高度なガバナンス機能を実装。</li>
+            <li><strong>Grok 4.5 統合:</strong> コスト効率の高い選択肢として Grok 4.5 をルーティングオプションとして利用可能に。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>複雑な設計や難解なバグ修正には最高性能のモデルを割り当て、簡単なコード生成やドキュメント整理には軽量で安価なモデルを割り当てるといった判断を、ツール側で自動で行ってくれます。ユーザーはモデルの切り替えを意識することなく、コストを抑えつつ最高の開発体験を得られます。特にチーム開発において無駄なAPIトークン消費を抑制するのに役立ちます。</p>
+
+        <h2>まとめ</h2>
+        <p>Cursor に最適なモデル自動選択機能「Cursor Router」が実装。生産性の最大化とコスト最適化を自動で両立し、Teams向けの管理者権限での制御にも対応しました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://cursor.com/changelog" target="_blank" rel="noreferrer">Cursor Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
