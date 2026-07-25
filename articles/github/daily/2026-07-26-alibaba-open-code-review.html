@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="決定論的パイプラインとLLMエージェントを組み合わせた高精度で低トークンコストなAIコードレビューCLIツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>open-code-review</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">open-code-review</h1>
+      <p class="article-dek">決定論的パイプラインとLLMエージェントを組み合わせた高精度で低トークンコストなAIコードレビューCLIツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-26 -->
+          <strong>2026-07-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 2位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noreferrer">
+              alibaba/open-code-review
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>12,829</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Open Code Review (OCR) は、Alibaba が開発・公開した、AI 駆動型のオープンソース・コードレビュー CLI ツールです。Go 言語による決定論的なエンジニアリングパイプラインと LLM のエージェント推論を融合し、高精度かつ低コストでコードの変更点（diff）を分析します。</p>
+
+        <h2>何ができるか</h2>
+        <p>Git でステージングされたファイル、特定のブランチ間の差分、または特定のコミットハッシュに対して、コードレビューを自動実行します。Null 指針（NPE）エラー、スレッド安全性、XSS や SQL インジェクションなどのセキュリティ脆弱性を検知し、ファイルの該当行に直接正確なフィードバックをコメントします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ハイブリッド設計を採用しており、一般的な自律型エージェントとは異なり、Go によるコード解析と LLM による推論をパイプラインで分担します。これにより、一般的なエージェントに比べて必要なトークン数を約 1/9 に削減し、極めて低い API コストで安定した決定論的レビューを実行できるのが強みです。また、OpenAI と Anthropic の主要モデルに対応しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js（バージョン20以上）がインストールされている環境であれば、`npm install -g @alibaba-group/open-code-review` でグローバルに導入できます。その後、`ocr config provider` でプロバイダーとモデルを設定し、API キーを入力したら、`ocr review` コマンドだけで即座に現在のワークスペースの変更点をスキャンできます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>プルリクエスト（PR）の段階で事前にバグやセキュリティリスクを検知したい開発チーム、継続的インテグレーション（CI/CD）パイプラインに自動レビューを統合したいプロジェクトマネージャーに最適です。また、LLM API のコストや実行速度、および出力の不確実性を懸念して AI の導入を見送っていたチームにとっても実用的な解決策となります。</p>
+
+        <h2>注意点</h2>
+        <p>動作には Git バージョン 2.41 以上が必要です。また、静的なルールマッチングと LLM の判断が組み合わされているため、高度なビジネスロジック固有のバグについては検出漏れが発生する可能性があります。実行時には必ず適切な API キー設定とトークン制限の管理を行ってください。</p>
+
+        <h2>まとめ</h2>
+        <p>Open Code Review は、Alibaba の大規模運用から得られた知見を基に、AI と伝統的なプログラム解析のバランスを最適化した極めて実用的なレビューツールです。高精度、低遅延、低コストの三拍子が揃った、日々の開発のクオリティを底上げする強力な CLI パートナーと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noreferrer">https://github.com/alibaba/open-code-review</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #892</p>
+      </div>
+    </article>
+  </body>
+</html>

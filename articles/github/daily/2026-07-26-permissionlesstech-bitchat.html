@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="インターネット不要でBluetooth Low Energy (BLE) メッシュとNostrプロトコルを統合した分散型オフラインチャットシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>bitchat</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">bitchat</h1>
+      <p class="article-dek">インターネット不要でBluetooth Low Energy (BLE) メッシュとNostrプロトコルを統合した分散型オフラインチャットシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-26 -->
+          <strong>2026-07-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 10位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/permissionlesstech/bitchat" target="_blank" rel="noreferrer">
+              permissionlesstech/bitchat
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>28,552</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>BitChat は、中央集権的なサーバー、電話番号の登録、あるいはインターネット接続すら必要としない、完全分散型のピア・ツー・ピア（P2P）メッセージングアプリケーションです。主に近距離での Bluetooth メッシュネットワークと、長距離インターネット接続時の Nostr プロトコルをハイブリッドで動作させます。</p>
+
+        <h2>何ができるか</h2>
+        <p>インターネットが遮断された環境や災害地において、近くのデバイス同士が Bluetooth Low Energy（BLE）を介してメッシュ状に繋がり、メッセージをバケツリレー式に中継（マルチホップ）して相手に届けることができます。ネット接続が回復すると、自動的に Nostr リレーを介したグローバルな暗号化チャットへと切り替わります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>IRC スタイルのコマンドベースインターフェース（/join や /msg など）を搭載しており、電話番号やメールアドレスなどの永続的 ID は一切不要です。通信はエンドツーエンドで暗号化（メッシュ上は Noise Protocol、Nostr 上は NIP-17 を採用）されており、端末のトリプルタップによるローカルデータの完全消去（Emergency Wipe）にも対応しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Android ユーザーは GitHub の Releases ページから提供される APK ファイルをダウンロードして「提供元不明のアプリのインストール」を許可して導入します。iOS/macOS については App Store や TestFlight 経由で展開されています。また、ターミナル上で動作する Rust 製クライアント `bitchat-tui` を Cargo などを通じて導入することも可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>通信インフラが脆弱な山間部や災害被災地、または大規模な通信障害時のバックアップ連絡手段を求めるユーザーに最適です。また、中央集権的な監視や検閲を回避し、最高レベルの匿名性とオフライン性能を求めるセキュリティ重視のエンジニアやアクティビストにも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>現時点ではセキュリティ専門家による十分な外部監査が行われていない実験的ソフトウェアです。機密度の極めて高い通信に依存することは推奨されません。また、一部の国や地域においては、インターネット検閲や監視を容易にバイパスする性質から法的な配布規制やリポジトリの削除要請などの対象となるリスクがあります。</p>
+
+        <h2>まとめ</h2>
+        <p>BitChat は、Bluetooth メッシュによる物理的な近接通信と Nostr によるインターネット通信をシームレスに統合し、インフラのない状況でもメッセージングを維持できる革新的な P2P チャットです。堅牢な検閲耐性を備えたオフラインメッセージングの新たなマイルストーンとなるポテンシャルを秘めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/permissionlesstech/bitchat" target="_blank" rel="noreferrer">https://github.com/permissionlesstech/bitchat</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #891</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 19:18:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 04:47:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-26 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-26-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-26-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[open-code-review]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-alibaba-open-code-review.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-alibaba-open-code-review.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[決定論的パイプラインとLLMエージェントを組み合わせた高精度で低トークンコストなAIコードレビューCLIツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[bitchat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-permissionlesstech-bitchat.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-permissionlesstech-bitchat.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[インターネット不要でBluetooth Low Energy (BLE) メッシュとNostrプロトコルを統合した分散型オフラインチャットシステム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Instatic]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-CoreBunch-Instatic.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-CoreBunch-Instatic.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントによる自動Webサイト構築やプラグイン拡張に対応したセルフホスト型ビジュアルCMS]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Chat2DB]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-OtterMind-Chat2DB.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-OtterMind-Chat2DB.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自然言語によるSQL生成やデータ可視化に対応したAI駆動型オープンソース・データベースクライアント]]></description>
+    </item>
     <item>
       <title><![CDATA[NotebookLM: 2026-07-22 Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[フォルダ選択不要 of チャット開始機能、エージェント用コンテキスト圧縮のデフォルト有効化、オンボーディングやファイルのドラッグ＆ドロップ機能追加]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.219]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-25-claudecode-v2-1-219.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-25-claudecode-v2-1-219.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Opus 5 (1Mコンテキスト・高速モード) の標準採用、自己アップデート失敗時の自動ロールバック、シンボリックリンク経由のワークスペース隔離バグ修正]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.52.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-geminicli-v0-52-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-geminicli-v0-52-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMトリアージオーケストレータの追加、無限ReActループの抑制、A2Aサーバーにおけるリモートコード実行（RCE）防止やセキュリティサンドボックスの強化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.218]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-claudecode-v2-1-218.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-24-claudecode-v2-1-218.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[/code-review コマンドのバックグラウンドサブエージェント化、スクリーンリーダー用アクセシビリティ向上、MCP接続エラー報告の強化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-23 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-23-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-23-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[croc]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-schollz-croc.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-23-schollz-croc.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[暗号化通信により任意のPC間で安全かつ超高速にファイルやフォルダを直接転送できるCLIツール]]></description>
     </item>
   </channel>
 </rss>
