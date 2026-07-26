@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Jul 2026 06:39:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 04:02:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Antigravity: v2.4.2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-antigravity-v2-4-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-antigravity-v2-4-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プレビュータブの導入、MCPタイムアウトへの対応、.json/.md/.csv添付ファイルのサポートと利便性の向上]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI: v0.54.0-nightly.20260726]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-geminicli-v0-54-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-geminicli-v0-54-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[モデルフォールバック時のセッションIDローテーション、HTTPS強制による認証保護、思考プロセス除外とセキュリティの強化]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: 2026-07-24 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-github-copilot-opus5-linear.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-github-copilot-opus5-linear.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot CLI での Claude Opus 5 モデル対応、および Linear 連携自律エージェントの新規導入]]></description>
+    </item>
     <item>
       <title><![CDATA[img2threejs]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-img2threejs-img2threejs.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Rustでゼロから構築された高速・軽量・セキュアな次世代Minecraftサーバー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[harper]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-automattic-harper.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-automattic-harper.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[オフラインかつプライバシー最優先で超高速に動作するオープンソースの英文校正ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ego-lite]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-citrolabs-ego-lite.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-citrolabs-ego-lite.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントにPCブラウザのログイン済セッション状態を安全に共有しWeb自動化を高速化する専用ブラウザ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[superfile]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-yorukot-superfile.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-yorukot-superfile.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TUI（ターミナルユーザーインターフェース）で動作する超おしゃれでモダンな多機能ファイルマネージャー]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="モデルフォールバック時のセッションIDローテーション、HTTPS強制による認証保護、思考プロセス除外とセキュリティの強化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI: v0.54.0-nightly.20260726</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI: v0.54.0-nightly.20260726</h1>
+      <p class="article-dek">モデルフォールバック時のセッションIDローテーション、HTTPS強制による認証保護、思考プロセス除外とセキュリティの強化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-27 -->
+          <strong>2026-07-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.54.0-nightly.20260726</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回の夜間リリース（v0.54.0-nightly.20260726）では、API接続の安定化やセキュリティ強化などを目的として、以下の修正・機能追加が行われました。</p>
+        <ul>
+            <li><strong>セッションIDローテーションの導入:</strong> LLMモデルのフォールバック実行時にセッションIDを自動でローテーションさせ、状態依存（stateful）なAPIエラーの再発を防ぐ機構を追加しました。</li>
+            <li><strong>HTTPS接続の強制:</strong> GoogleCredentialsAuthProvider で HTTPS 接続を必須とし、ネットワーク経由でのプレーンテキスト認証情報の漏洩を防止しました。</li>
+            <li><strong>思考プロセスの非表示制御:</strong> コンテキスト管理が無効化されている場合、`getHistoryTurns` 関数においてエージェントの思考部分（thought parts）を適切に除外して表示するよう修正しました。</li>
+            <li><strong>自動イシュークローズコメント:</strong> caretaker-triage において、問題チケット（Issue）を自動で閉じる前に、事前に通知用のコメントを投稿する処理を実装しました。</li>
+            <li><strong>信頼できないコンテキストのサニタイズ:</strong> `untrusted_context` の取り込み時に、入力されたイシュータイトルを自動でエスケープ・サニタイズしてインジェクションを防ぐラップ処理を追加しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>フォールバック時のセッションIDリセットにより、API接続における不安定な状態エラーが解消され、長時間の作業進行がより滑らかになりました。また、認証のHTTPS強制や信頼できない外部入力のサニタイズ強化により、エンタープライズや共同開発環境での安全性が大きく向上しています。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLI v0.54.0-nightly は、APIのロバスト性とセキュリティの双方を磨き上げる重要なメンテナンスアップデートです。日常的な実行エラーの防止や、ネットワークレベルでの安全なエージェント運用に役立ちます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-27-antigravity-v2-4-2",
+      "title": "Antigravity: v2.4.2",
+      "dek": "プレビュータブの導入、MCPタイムアウトへの対応、.json/.md/.csv添付ファイルのサポートと利便性の向上",
+      "summary": "Antigravity が v2.4.2 にアップデート。生成・編集した UI を別タブで管理するプレビュータブや、MCP 接続時のタイムアウト制御、チャットへの JSON / Markdown / CSV 添付対応などが導入されました。",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-27T04:02:00+09:00",
+      "toolName": "Antigravity",
+      "toolUrl": "https://antigravity.google/changelog?authuser=0",
+      "articleUrl": "./articles/tools/2026-07-27-antigravity-v2-4-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-27-geminicli-v0-54-0-nightly",
+      "title": "Gemini CLI: v0.54.0-nightly.20260726",
+      "dek": "モデルフォールバック時のセッションIDローテーション、HTTPS強制による認証保護、思考プロセス除外とセキュリティの強化",
+      "summary": "Gemini CLI が夜間ビルドでアップデート。モデルフォールバック時の状態エラーを避けるセッションID自動ローテーション、平文認証漏洩を防ぐ HTTPS 必須化、untrusted_context でのイシュータイトルサニタイズ等が追加されました。",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-27T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-07-27-geminicli-v0-54-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-27-github-copilot-opus5-linear",
+      "title": "GitHub Copilot: 2026-07-24 Update",
+      "dek": "Copilot CLI での Claude Opus 5 モデル対応、および Linear 連携自律エージェントの新規導入",
+      "summary": "GitHub Copilot がアップデート。CLI ツールにおいて次世代最高峰の「Claude Opus 5」モデルを選択可能にしたほか、プロジェクト課題管理 Linear と連携し自律的に issue を消化し draft PR を作成するクラウドエージェントを導入しました。",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-27T04:00:00+09:00",
+      "toolName": "GitHub Copilot",
+      "toolUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-07-27-github-copilot-opus5-linear.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-07-26-img2threejs-img2threejs",
       "title": "img2threejs",
