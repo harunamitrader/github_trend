@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 19:48:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 15:38:08 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[img2threejs]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-img2threejs-img2threejs.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-img2threejs-img2threejs.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-26 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-26-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[TUI（ターミナルユーザーインターフェース）で動作する超おしゃれでモダンな多機能ファイルマネージャー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline: Desktop App v0.0.4]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-25-cline-desktop-v0-0-4.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-25-cline-desktop-v0-0-4.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[フォルダ選択不要 of チャット開始機能、エージェント用コンテキスト圧縮のデフォルト有効化、オンボーディングやファイルのドラッグ＆ドロップ機能追加]]></description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-07-25T19:47:31.938726+00:00",
-  "count": 997,
+  "generatedAt": "2026-07-26T06:38:05.518008+00:00",
+  "count": 998,
   "articles": [
+    {
+      "slug": "2026-07-26-img2threejs-img2threejs",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "img2threejs",
+      "dek": "1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール",
+      "summary": "入力画像からThree.jsのプリミティブ形状、手続き型シェーダー、生成ジオメトリだけで構成される軽量な3Dモデル（TypeScriptコード）を再構築するツール。自律型エージェントの画像認識（Vision）に基づく sculpting パイプラインを回し、ピボットやソケットなどを内蔵したアニメーション可能なモデルを出力します。",
+      "repoName": "img2threejs/img2threejs",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T15:37:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-07-26-img2threejs-img2threejs.html",
+      "serial": 893,
+      "searchText": "img2threejs 1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール 入力画像からThree.jsのプリミティブ形状、手続き型シェーダー、生成ジオメトリだけで構成される軽量な3Dモデル（TypeScriptコード）を再構築するツール。自律型エージェントの画像認識（Vision）に基づく sculpting パイプラインを回し、ピボットやソケットなどを内蔵したアニメーション可能なモデルを出力します。 img2threejs/img2threejs メディア作成・マルチモーダル・UI img2threejs ← 記事一覧へ戻る GitHub Watcher img2threejs 1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール 記事作成日 2026-07-26 種別 Pickup 対象 repo img2threejs/img2threejs Star数 4,940 これは何か img2threejs は、1枚の参照画像を入力として与えるだけで、Three.js のプリミティブ形状、手続き型シェーダー、生成ジオメトリのみを用いて、画像内のオブジェクトをコードオンリーの Three.js（TypeScript）モデルに再構築する AI 駆動のモデリングツールです。3Dメッシュファイルのダウンロードや外部の3Dモデリングソフトに依存せず、純粋なブラウザ上のスクリプトだけで動く軽量な 3D アセットを出力します。 何ができるか インプット画像からオブジェクトやキャラクターを認識し、3D空間におけるパーツの位置関係、色彩、光沢（ラフネス/メタルネス）、面取り（ベベル）、ネジやリベットなどの微細なディテールにいたるまで、段階的な「 sculpting パイプライン」を実行してモデルを構築します。単なる見た目の復元にとどまらず、アニメーションに必要なピボット、ソケット、コライダーなどのランタイム階層（root.userData.sculptRuntime）を自動的に埋め込んだ TypeScript ファクトリコードを出力できます。 目立つポイント 従来の3Dモデル（GLTFやOBJなど）のポリゴンデータを一切含まず、コード自体が 3D データを表すため、ネットワーク伝送におけるトークン効率が極めて優れています。また、モデル作成プロセスが 8 つのビルドパス（blockout から optimization まで）に段階化されており、AI エージェント自身の「視覚フィードバック（Vision Review）」によって各ステージの完成度をスコアリングし、自律的な修正（自己矯正ループ）を繰り返しながら品質を引き上げていく自己完結型の開発ゲートを備えています。 セットアップや使い方の流れ Claude Code や Codex、OpenCode といった AI エージェントの実行環境下でツールとして動作します。エージェントが持つ画像解析（Vision）やブラウザ操作環境を活用してビルドを実行するため、特別な 3D アセット制作ツールは不要です。作成された Three.js ファクトリコードは、Three.js 搭載の Web アプリケーション内で直接関数をコールするだけで、画像と同様の立体モデルを動的に生成しブラウザ上で軌道軌道操作することができます。 どんな人向けか Web サイトやブラウザゲーム、インタラクティブコンテンツにおいて、メッシュファイルやテクスチャ画像のダウンロード容量を抑え、高速で動的な 3D アセット生成を実現したいフロントエンドエンジニアに最適です。また、LLM を活用して 3D シーンを動的に生成・カスタマイズさせたい AI エージェント連携のプロダクト開発者にとっても非常に強力なバックエンドソリューションとなります。 注意点 画像1枚から三次元モデルを推定してコード化する性質上、複雑なキャラクターの背面や隠れたパーツ、高度に有機的な形状（生物など）については、100%正確な形状再現が困難な場合があります。背面や正確性を確保したい場合には、複数枚の参照画像や confidence スコアによる対話型の微調整を行う必要があります。 まとめ img2threejs は、AI エージェントの視覚的判断力と Three.js のコード生成能力を極限まで融合させた、全く新しいアプローチの 3D アセット構築ツールです。「ファイルとしての3Dモデル」から「コードとしての3Dモデル」への転換を促し、エージェント時代の新しい Web 制作・3Dアセット運用の可能性を指し示しています。 参照リンク https://github.com/img2threejs/img2threejs Shared GitHub Serial: #893"
+    },
     {
       "slug": "2026-07-26-alibaba-open-code-review",
       "category": "github-trending",
@@ -68,14 +83,14 @@
       "originType": "",
       "title": "2026-07-26 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
-      "summary": "本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 4 つの記事（open-code-review, bitchat, Instatic, Chat2DB）の要約や今後の展望をまとめたレポートです。",
+      "summary": "本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 5 つの記事（open-code-review, bitchat, Instatic, Chat2DB, img2threejs）の要約や今後の展望をまとめたレポートです。",
       "repoName": "",
       "genre": "",
       "publishedAt": "2026-07-26",
       "createdAt": "",
       "articleUrl": "./articles/github/reports/2026-07-26-update-report.html",
       "serial": 103,
-      "searchText": "2026-07-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 4 つの記事（open-code-review, bitchat, Instatic, Chat2DB）の要約や今後の展望をまとめたレポートです。 2026-07-26 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-07-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-07-26 調査件数 全 18 件 新規作成 4 件 本日の調査ランキング（全件） 本日（2026-07-26）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 block/buzz ✅ 記事作成済み alibaba/open-code-review ✨ 新規追加 citrolabs/ego-lite ✅ 記事作成済み ComposioHQ/awesome-claude-skills ✅ 記事作成済み anthropics/claude-cookbooks ✅ 記事作成済み Automattic/harper ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み obra/superpowers ✅ 記事作成済み Pumpkin-MC/Pumpkin ✅ 記事作成済み permissionlesstech/bitchat ✨ 新規追加 mattpocock/skills ✅ 記事作成済み palmier-io/palmier-pro ✅ 記事作成済み CoreBunch/Instatic ✨ 新規追加 Lordog/dive-into-llms ✅ 記事作成済み RyanCodrai/turbovec ✅ 記事作成済み OtterMind/Chat2DB ✨ 新規追加 andrewyng/aisuite ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み 今後の展望 本日（2026-07-26）は、AIコーディング支援やエージェント連携ビジュアルCMS、分散型オフライン通信など、幅広い分野で次世代プロダクトがトレンドに登場しました。特に Alibaba の「open-code-review」は、LLM推論を決定論的なプログラム解析と組み合わせることで大幅なコスト削減と精度向上を両立させており、実用性を追求したAI統合の好例と言えます。また、「bitchat」のようなBluetoothメッシュとNostrを融合した通信インフラに依存しない分散チャットは、レジリエンス（復旧耐性）とプライバシーを重視する近年の潮流を色濃く反映しています。AIの急速な浸透に伴い、開発や運用のための基盤技術（Chat2DBやInstaticなど）もAIエージェントへの最適化が進んでおり、今後はシステム構築の自動化がさらに加速していくものと考えられます。"
+      "searchText": "2026-07-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 5 つの記事（open-code-review, bitchat, Instatic, Chat2DB, img2threejs）の要約や今後の展望をまとめたレポートです。 2026-07-26 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-07-26 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-07-26 調査件数 全 18 件 + Pickup 1 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-07-26）の GitHub Trending にランクインしていた全 18 リポジトリの調査結果です。 block/buzz ✅ 記事作成済み alibaba/open-code-review ✨ 新規追加 citrolabs/ego-lite ✅ 記事作成済み ComposioHQ/awesome-claude-skills ✅ 記事作成済み anthropics/claude-cookbooks ✅ 記事作成済み Automattic/harper ✅ 記事作成済み shiyu-coder/Kronos ✅ 記事作成済み obra/superpowers ✅ 記事作成済み Pumpkin-MC/Pumpkin ✅ 記事作成済み permissionlesstech/bitchat ✨ 新規追加 mattpocock/skills ✅ 記事作成済み palmier-io/palmier-pro ✅ 記事作成済み CoreBunch/Instatic ✨ 新規追加 Lordog/dive-into-llms ✅ 記事作成済み RyanCodrai/turbovec ✅ 記事作成済み OtterMind/Chat2DB ✨ 新規追加 andrewyng/aisuite ✅ 記事作成済み affaan-m/ECC ✅ 記事作成済み img2threejs/img2threejs ✨ 新規追加 (Pickup) 今後の展望 本日（2026-07-26）は、AIコーディング支援やエージェント連携ビジュアルCMS、分散型オフライン通信など、幅広い分野で次世代プロダクトがトレンドに登場しました。特に Alibaba の「open-code-review」は、LLM推論を決定論的なプログラム解析と組み合わせることで大幅なコスト削減と精度向上を両立させており、実用性を追求したAI統合 of 好例と言えます。また、「bitchat」のようなBluetoothメッシュとNostrを融合した通信インフラに依存しない分散チャットは、レジリエンス（復旧耐性）とプライバシーを重視する近年の潮流を色濃く反映しています。AIの急速な浸透に伴い、開発や運用のための基盤技術（Chat2DBやInstaticなど）もAIエージェントへの最適化が進んでおり、今後はシステム構築の自動化がさらに加速していくものと考えられます。また、Pickupとして紹介した「img2threejs」は、画像からポリゴンメッシュではなく procedural な Three.js の TypeScript コードそのものを再構築する先進的な取り組みであり、トークン効率の面でも3D Webデザインの自律生成における非常に興味深いパラダイムシフトを提示しています。"
     },
     {
       "slug": "2026-07-25-yorukot-superfile",

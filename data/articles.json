@@ -7,11 +7,27 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-07-26-img2threejs-img2threejs",
+      "title": "img2threejs",
+      "dek": "1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール",
+      "summary": "入力画像からThree.jsのプリミティブ形状、手続き型シェーダー、生成ジオメトリだけで構成される軽量な3Dモデル（TypeScriptコード）を再構築するツール。自律型エージェントの画像認識（Vision）に基づく sculpting パイプラインを回し、ピボットやソケットなどを内蔵したアニメーション可能なモデルを出力します。",
+      "publishedAt": "2026-07-26",
+      "createdAt": "2026-07-26T15:37:00+09:00",
+      "repoName": "img2threejs/img2threejs",
+      "repoUrl": "https://github.com/img2threejs/img2threejs",
+      "starCount": 4940,
+      "articleUrl": "./articles/github/daily/2026-07-26-img2threejs-img2threejs.html",
+      "serial": 893,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-26-update-report",
       "title": "2026-07-26 アップデートレポート",
       "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
-      "summary": "本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 4 つの記事（open-code-review, bitchat, Instatic, Chat2DB）の要約や今後の展望をまとめたレポートです。",
+      "summary": "本日（2026-07-26）調査した GitHub Trending ランクインの全18リポジトリのランキングと、新規作成された 5 つの記事（open-code-review, bitchat, Instatic, Chat2DB, img2threejs）の要約や今後の展望をまとめたレポートです。",
       "publishedAt": "2026-07-26",
       "articleUrl": "./articles/github/reports/2026-07-26-update-report.html",
       "serial": 103

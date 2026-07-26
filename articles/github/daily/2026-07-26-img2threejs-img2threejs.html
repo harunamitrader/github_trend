@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>img2threejs</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">img2threejs</h1>
+      <p class="article-dek">1枚の参照画像からアニメーション対応のThree.jsコード（TypeScript）モデルを段階的に再構築するAI駆動型3Dモデリングツール</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-26 -->
+          <strong>2026-07-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong><strong>Pickup</strong></strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/img2threejs/img2threejs" target="_blank" rel="noreferrer">
+              img2threejs/img2threejs
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,940</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>img2threejs は、1枚の参照画像を入力として与えるだけで、Three.js のプリミティブ形状、手続き型シェーダー、生成ジオメトリのみを用いて、画像内のオブジェクトをコードオンリーの Three.js（TypeScript）モデルに再構築する AI 駆動のモデリングツールです。3Dメッシュファイルのダウンロードや外部の3Dモデリングソフトに依存せず、純粋なブラウザ上のスクリプトだけで動く軽量な 3D アセットを出力します。</p>
+
+        <h2>何ができるか</h2>
+        <p>インプット画像からオブジェクトやキャラクターを認識し、3D空間におけるパーツの位置関係、色彩、光沢（ラフネス/メタルネス）、面取り（ベベル）、ネジやリベットなどの微細なディテールにいたるまで、段階的な「 sculpting パイプライン」を実行してモデルを構築します。単なる見た目の復元にとどまらず、アニメーションに必要なピボット、ソケット、コライダーなどのランタイム階層（root.userData.sculptRuntime）を自動的に埋め込んだ TypeScript ファクトリコードを出力できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>従来の3Dモデル（GLTFやOBJなど）のポリゴンデータを一切含まず、コード自体が 3D データを表すため、ネットワーク伝送におけるトークン効率が極めて優れています。また、モデル作成プロセスが 8 つのビルドパス（blockout から optimization まで）に段階化されており、AI エージェント自身の「視覚フィードバック（Vision Review）」によって各ステージの完成度をスコアリングし、自律的な修正（自己矯正ループ）を繰り返しながら品質を引き上げていく自己完結型の開発ゲートを備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code や Codex、OpenCode といった AI エージェントの実行環境下でツールとして動作します。エージェントが持つ画像解析（Vision）やブラウザ操作環境を活用してビルドを実行するため、特別な 3D アセット制作ツールは不要です。作成された Three.js ファクトリコードは、Three.js 搭載の Web アプリケーション内で直接関数をコールするだけで、画像と同様の立体モデルを動的に生成しブラウザ上で軌道軌道操作することができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Web サイトやブラウザゲーム、インタラクティブコンテンツにおいて、メッシュファイルやテクスチャ画像のダウンロード容量を抑え、高速で動的な 3D アセット生成を実現したいフロントエンドエンジニアに最適です。また、LLM を活用して 3D シーンを動的に生成・カスタマイズさせたい AI エージェント連携のプロダクト開発者にとっても非常に強力なバックエンドソリューションとなります。</p>
+
+        <h2>注意点</h2>
+        <p>画像1枚から三次元モデルを推定してコード化する性質上、複雑なキャラクターの背面や隠れたパーツ、高度に有機的な形状（生物など）については、100%正確な形状再現が困難な場合があります。背面や正確性を確保したい場合には、複数枚の参照画像や confidence スコアによる対話型の微調整を行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>img2threejs は、AI エージェントの視覚的判断力と Three.js のコード生成能力を極限まで融合させた、全く新しいアプローチの 3D アセット構築ツールです。「ファイルとしての3Dモデル」から「コードとしての3Dモデル」への転換を促し、エージェント時代の新しい Web 制作・3Dアセット運用の可能性を指し示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/img2threejs/img2threejs" target="_blank" rel="noreferrer">https://github.com/img2threejs/img2threejs</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #893</p>
+      </div>
+    </article>
+  </body>
+</html>
