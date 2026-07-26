@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:17:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 04:47:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-27 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-27-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-27-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[node]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-nodejs-node.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-nodejs-node.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChromeのV8エンジンをベースに開発された、サーバーサイドでJavaScriptを動作させる世界標準のクロスプラットフォーム実行環境]]></description>
+    </item>
+    <item>
+      <title><![CDATA[bitchat-android]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-permissionlesstech-bitchat-android.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-permissionlesstech-bitchat-android.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[インターネット不要でBluetooth Mesh経由の暗号化通信を行える、P2P分散型メッセージングアプリのAndroidポート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[jenkins]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-jenkinsci-jenkins.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-jenkinsci-jenkins.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Javaで構築された、2000以上の豊富なプラグインを特徴とする業界標準 of オープンソースCI/CDオートメーションサーバー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[amnezia-client]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-amnezia-vpn-amnezia-client.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-amnezia-vpn-amnezia-client.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自身のサーバー上にDockerコンテナで各種VPNプロトコルを自動展開・接続できる、オープンソースの自己ホスト型VPNクライアント]]></description>
+    </item>
     <item>
       <title><![CDATA[Perplexity: Website Publishing & Computer Agent Upgrade]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-perplexity-website-publishing.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Fable 5に迫る卓越した性能を半分のコストで提供する、次世代のコーディング・ナレッジワーク向け最高峰モデルの登場]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: 2026-07-23 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-chatgpt-health-voice-updates.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-chatgpt-health-voice-updates.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apple Healthデータ等の安全な接続による健康状態分析と、デスクトップ「Work / Codex」での音声機能対応]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline: v4.0.11]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cline-v4-0-11.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cline-v4-0-11.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Kimi K3 モデル使用時のネイティブツール呼び出しエラー（空応答バグ）の修正]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor: Cursor Router リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cursor-router.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-cursor-router.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[タスクの複雑さに応じて最適なモデルを自動選択する「Cursor Router」の導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: v2.1.220]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claudecode-v2-1-220.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claudecode-v2-1-220.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[バグ修正と信頼性向上を目的としたマイナーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-25 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-25-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-25-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>

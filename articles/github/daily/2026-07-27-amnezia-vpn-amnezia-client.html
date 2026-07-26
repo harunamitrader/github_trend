@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自身のサーバー上にDockerコンテナで各種VPNプロトコルを自動展開・接続できる、オープンソースの自己ホスト型VPNクライアント"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>amnezia-client</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">amnezia-client</h1>
+      <p class="article-dek">自身のサーバー上にDockerコンテナで各種VPNプロトコルを自動展開・接続できる、オープンソース of 自己ホスト型VPNクライアント</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-27 -->
+          <strong>2026-07-27</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 第17位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/amnezia-vpn/amnezia-client" target="_blank" rel="noreferrer">
+              amnezia-vpn/amnezia-client
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>13,228</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>自身のVPS等のサーバー上に、Dockerコンテナを利用してOpenVPN、WireGuard、Shadowsocks、XRayなどの各種VPNサーバーを数クリックで自動インストールし、そのまま接続できるオープンソースのVPNクライアントです。</p>
+
+        <h2>何ができるか</h2>
+        <p>IPアドレス、SSHポート、およびログイン情報を入力するだけで、Amneziaが自動的にサーバーへ接続し、VPN Dockerコンテナの構築から設定までをすべて自動で行います。構築後はすぐにVPN接続を開始することができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>OpenVPNやWireGuardなどのクラシックなプロトコルに加え、CloakやShadowsocks、AmneziaWGなどのトラフィック難読化（Obfuscation）に対応したプロトコルもサポートしており、VPN規制が厳しい地域でも通信を隠蔽できます。また、Androidおよびデスクトップ版ではアプリ単位の接続可否を決めるスプリットトンネリング（Split tunneling）にも対応しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Amneziaの公式クライアント（Windows, MacOS, Linux, Android, iOSに対応）をダウンロードして起動し、サーバーのIPアドレス、ユーザー名（root等）、パスワードを入力します。使用したいVPNプロトコルを選択し、実行すれば数分でVPNサーバーが構築され、ワンタップで接続可能になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>パブリックなVPNプロバイダーのプライバシーや接続規制に懸念があり、自身の管理するVPSに簡単かつセキュアに独自のVPNサーバーを立てて使用したい個人開発者やエンジニア向けです。</p>
+
+        <h2>注意点</h2>
+        <p>VPNサーバーの通信速度や安定性は、デプロイ先のVPS等のインフラスペックやネットワーク帯域に直接依存します。また、サーバーのSSHログイン認証情報をアプリに一時的に入力する必要があるため、信頼できるホスト環境を使用する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>Amneziaは、Dockerコンテナ化による自己ホストVPNサーバーの立ち立ち上げを最も簡単にするツールです。多様なプロトコルや難読化機能、クロスプラットフォーム対応など実用的な機能が高度にまとめられており、自己ホストVPNの標準クライアントと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/amnezia-vpn/amnezia-client" target="_blank" rel="noreferrer">https://github.com/amnezia-vpn/amnezia-client</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #894</p>
+      </div>
+    </article>
+  </body>
+</html>
