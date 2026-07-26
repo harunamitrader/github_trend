@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-27-perplexity-website-publishing",
+      "title": "Perplexity: Website Publishing & Computer Agent Upgrade",
+      "dek": "回答結果を独自ドメインへ一発で公開できる Website Publishing 機能および Computer Agent のモデル切替・非公開企業データ連携",
+      "summary": "Perplexity がアップデート。検索の回答結果を直接 .pplx.app や独自カスタムドメインへ静的Webサイトとしてワンクリック公開できる Website Publishing や、Computer Agent 実行時の動的モデル切替対応、非公開企業データ連携などが導入されました。",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-27T04:16:00+09:00",
+      "toolName": "Perplexity",
+      "toolUrl": "https://www.perplexity.ai/hub",
+      "articleUrl": "./articles/tools/2026-07-27-perplexity-website-publishing.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-27-chatgpt-health-records",
+      "title": "ChatGPT: Health Integration",
+      "dek": "Apple Health や電子健康記録データと連携し、ユーザー個人の健康状態にパーソナライズされたアドバイスを提供する機能の導入",
+      "summary": "ChatGPT にヘルスデータ連携機能が追加。Apple Health と連携してアクティビティや睡眠データを読み込めるようになったほか、米国の一部医療機関との提携で電子健康記録（Health records）を安全にインポートしアドバイスを受けられるようになりました。",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-27T04:15:00+09:00",
+      "toolName": "ChatGPT",
+      "toolUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-07-27-chatgpt-health-records.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-27-antigravity-v2-4-2",
       "title": "Antigravity: v2.4.2",
       "dek": "プレビュータブの導入、MCPタイムアウトへの対応、.json/.md/.csv添付ファイルのサポートと利便性の向上",

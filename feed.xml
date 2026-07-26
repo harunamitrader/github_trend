@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:04:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 04:16:26 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Perplexity: Website Publishing & Computer Agent Upgrade]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-perplexity-website-publishing.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-perplexity-website-publishing.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[回答結果を独自ドメインへ一発で公開できる Website Publishing 機能および Computer Agent のモデル切替・非公開企業データ連携]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: Health Integration]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-chatgpt-health-records.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-chatgpt-health-records.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apple Health や電子健康記録データと連携し、ユーザー個人の健康状態にパーソナライズされたアドバイスを提供する機能の導入]]></description>
+    </item>
     <item>
       <title><![CDATA[Antigravity: v2.4.2]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-antigravity-v2-4-2.html</link>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[buzz]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-block-buzz.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-block-buzz.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Nostrをバックエンドに人間とAIエージェントが同じチャネル内で協調して作業する自社ホスト可能な共有ワークスペース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Pumpkin]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-pumpkin-mc-pumpkin.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-25-pumpkin-mc-pumpkin.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rustでゼロから構築された高速・軽量・セキュアな次世代Minecraftサーバー]]></description>
     </item>
   </channel>
 </rss>
