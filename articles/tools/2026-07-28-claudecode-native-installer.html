@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code: Native Installer Migration</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Claude Code: Native Installer Migration</h1>
+      <p class="article-dek">npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-28 -->
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">アップデート</span>
+          <strong>Native Installer</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、開発用CLIツールとしての信頼性と配布プロセスの合理化を目的として、以下の極めて重要なインストール方式の変更が行われました。</p>
+        <ul>
+            <li><strong>npm インストール非推奨化:</strong> これまで標準だった `@anthropic-ai/claude-code` パッケージを用いた npm 経由のグローバルインストール方式が正式に非推奨（deprecated）となりました。</li>
+            <li><strong>ネイティブインストーラーの導入:</strong> 代替として、Mac/Linux/WSL向けのシェルスクリプト、およびWindows（PowerShell）向けの専用インストーラーが導入され、Node.jsに依存しない独立したバイナリとして配信が開始されました。</li>
+            <li><strong>自動バックグラウンド更新:</strong> 新しいネイティブ実行ファイル方式に移行したことで、ツール自体が自動的にバックグラウンドで最新バージョンを検出しアップデートを適用する仕組みが有効化されました。</li>
+            <li><strong>外部パッケージマネージャーの対応:</strong> macOSでは Homebrew (`brew install --cask claude-code`)、Windowsでは WinGet (`winget install Anthropic.ClaudeCode`) を通じたOS標準のパッケージ管理をサポートしました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>従来のnpm経由のインストールでは、Node.jsのバージョン競合や、権限まわりの問題によるパスの不整合が発生しやすくなっていましたが、ネイティブインストーラーへの移行によりそれらの問題が完全に解消されます。既存ユーザーは既存の npm 版をアンインストール (`npm uninstall -g @anthropic-ai/claude-code`) し、ネイティブスクリプト等を用いてインストールし直すことが強く推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>Claude Code の今回のアップデートは、Web開発者以外の層や、Node.jsを持たない環境でもCLIツールをスムーズに導入・自動更新できる道を開くものです。配布プラットフォームの刷新として非常に大きな節目となります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://claude.ai/" target="_blank" rel="noreferrer">Anthropic Claude Code Guide</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-28-claudecode-native-installer",
+      "title": "Claude Code: Native Installer Migration",
+      "dek": "npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行",
+      "summary": "Claude Code がインストール方法を刷新。従来の npm グローバルインストールを非推奨とし、Node.js不要かつバックグラウンドでの自動アップデート機能を備えた OSネイティブインストーラー（Homebrew や WinGet を含む）へ完全移行しました。",
+      "publishedAt": "2026-07-28",
+      "createdAt": "2026-07-28T04:02:00+09:00",
+      "toolName": "Claude Code",
+      "toolUrl": "https://claude.ai/",
+      "articleUrl": "./articles/tools/2026-07-28-claudecode-native-installer.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-27-update-report",
       "title": "2026-07-27 アップデートレポート",

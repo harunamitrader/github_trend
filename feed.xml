@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Jul 2026 20:02:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 04:02:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code: Native Installer Migration]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-claudecode-native-installer.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-claudecode-native-installer.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-27 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-27-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Microsoft Outlook & Excel へのアドイン機能の提供開始と、Google Workspace および Grok Build CLI 連携の強化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: Claude Opus 5 リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claude-opus-5-released.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-claude-opus-5-released.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Fable 5に迫る卓越した性能を半分のコストで提供する、次世代のコーディング・ナレッジワーク向け最高峰モデルの登場]]></description>
     </item>
   </channel>
 </rss>
