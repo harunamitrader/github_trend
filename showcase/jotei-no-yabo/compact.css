@@ -1,0 +1,64 @@
+/* v2: 390px幅のスマホ画面で、投資判断までを1画面に収める専用レイアウト */
+.play-screen { height: 100dvh; overflow: hidden; }
+.play-screen .hero-art { width: 100%; opacity: .13; object-position: 80% center; }
+.play-screen .topbar { height: 63px; padding: max(10px, env(safe-area-inset-top)) 18px 7px; }
+.play-screen .wordmark strong { font-size: 27px; }
+.play-screen .wordmark span { font-size: 9px; }
+.play-screen .top-action { padding: 8px 11px; }
+.compact-play { height: calc(100dvh - 63px); max-width: 680px; margin: 0 auto; padding: 0 18px max(12px, env(safe-area-inset-bottom)); display: grid; grid-template-rows: 66px minmax(107px, .86fr) minmax(158px, 1.25fr) minmax(101px, .78fr) 55px; gap: 8px; }
+.compact-play .hud { grid-template-columns: 1fr 1fr 1fr; height: 66px; }
+.compact-play .hud-item { padding: 10px 12px; }
+.compact-play .hud-value { font-size: 22px; white-space: nowrap; }
+.compact-play .hud-label { font-size: 10px; }
+.compact-event { border: 1px solid var(--line); background: rgba(6,20,28,.83); padding: 14px 16px; overflow: hidden; }
+.compact-event .event-year { font-size: 10px; }
+.compact-event .event-title { margin: 4px 0 5px; font-size: clamp(23px, 6vw, 34px); }
+.compact-event .event-news { display: -webkit-box; max-width: none; overflow: hidden; color: #d2d8d5; font-size: 12px; line-height: 1.55; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.compact-event .event-rule { display: none; }
+.compact-choice { min-height: 0; border: 1px solid var(--line); background: rgba(4,14,20,.76); padding: 11px; }
+.compact-choice .choice-heading { margin: 0 0 8px; font-size: 15px; }
+.compact-choice .choice-grid { height: calc(100% - 28px); gap: 6px; }
+.compact-choice .choice { min-height: 0; padding: 5px 3px; }
+.compact-choice .choice-icon { margin-bottom: 2px; font-size: 17px; }
+.compact-choice .choice-name { font-size: 10px; line-height: 1.15; }
+.compact-choice .choice-hint { top: 3px; right: 3px; font-size: 8px; }
+.compact-cards { min-height: 0; border: 1px solid var(--line); background: rgba(7,18,25,.82); padding: 9px 10px; }
+.compact-cards h3 { margin: 0 0 7px; color: var(--gold-pale); font: 700 14px "Kaisei Decol", serif; }
+.compact-cards .card-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.compact-cards .in-play-card { min-height: 58px; display: grid; place-items: center; gap: 1px; padding: 5px 2px; margin: 0; text-align: center; }
+.compact-cards .in-play-card .card-mark { font-size: 17px; }
+.compact-cards .in-play-card strong { font-size: 9px; line-height: 1.15; }
+.compact-cards .in-play-card small { display: none; }
+.compact-cards .active-card-message { min-height: 0; padding: 5px 0 0; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.compact-decision { display: grid; grid-template-columns: 1fr 1fr 1.18fr; gap: 7px; }
+.compact-decision .allocation-button, .compact-decision .confirm-button { padding: 7px 4px; text-align: center; }
+.compact-decision .allocation-button b { font-size: 13px; }
+.compact-decision .allocation-button small { display: none; }
+.compact-decision .confirm-button { box-shadow: 0 3px 0 #54131a; font-size: 12px; }
+.compact-decision .confirm-button.cash-ready { grid-column: 3; }
+.compact-decision .allocation-button[hidden] { display: none; }
+.compact-decision .cash-status { grid-column: 1 / 3; display: grid; place-items: center; color: var(--gold-pale); font-size: 12px; border: 1px solid var(--line); background: rgba(11,28,34,.8); }
+.ranking-form { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin: 20px auto 8px; max-width: 430px; }
+.ranking-form input { min-width: 0; border: 1px solid var(--line); background: rgba(5,16,23,.83); color: var(--paper); padding: 12px; font: 700 14px "Zen Kaku Gothic New", sans-serif; }
+.ranking-form button { border: 0; background: var(--gold); color: #251707; padding: 10px 14px; cursor: pointer; font-weight: 900; }
+.ranking-note { min-height: 22px; margin: 0 auto 13px; max-width: 430px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.leaderboard { max-width: 500px; margin: 15px auto 0; text-align: left; border: 1px solid var(--line); background: rgba(5,16,23,.8); }
+.leaderboard h3 { margin: 0; padding: 12px 14px; color: var(--gold-pale); font: 700 16px "Kaisei Decol", serif; border-bottom: 1px solid var(--line); }
+.leader-row { display: grid; grid-template-columns: 32px 1fr auto; gap: 8px; align-items: center; min-height: 37px; padding: 7px 13px; border-bottom: 1px solid rgba(238,211,150,.1); font-size: 12px; }
+.leader-row:last-child { border: 0; }
+.leader-row b { color: var(--gold-pale); }
+.leader-status { padding: 16px; color: var(--muted); font-size: 12px; text-align: center; }
+@media (max-height: 710px) {
+  .play-screen .topbar { height: 52px; }
+  .compact-play { height: calc(100dvh - 52px); grid-template-rows: 56px minmax(87px, .77fr) minmax(145px, 1.28fr) minmax(85px, .73fr) 49px; gap: 6px; }
+  .compact-play .hud { height: 56px; }
+  .compact-play .hud-item { padding: 7px 9px; }
+  .compact-play .hud-value { font-size: 19px; }
+  .compact-event { padding: 10px 13px; }
+  .compact-event .event-title { font-size: 23px; }
+  .compact-event .event-news { font-size: 11px; }
+  .compact-choice, .compact-cards { padding: 8px; }
+  .compact-cards .in-play-card { min-height: 45px; }
+  .compact-cards .active-card-message { font-size: 9px; padding-top: 2px; }
+}
+@media (min-width: 720px) { .compact-play { grid-template-rows: 80px 155px 215px 120px 66px; } }
