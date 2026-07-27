@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="C++向けに開発された、非常に軽量で即時モードのデバッグ用およびツール用GUI（Dear ImGui）ライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>imgui</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght=600..800&family=Noto+Sans+JP:wght=100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">imgui</h1>
+      <p class="article-dek">C++向けに開発された、非常に軽量で即時モードのデバッグ用およびツール用GUI（Dear ImGui）ライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-28 -->
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 15位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/ocornut/imgui" target="_blank" rel="noreferrer">
+              ocornut/imgui
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>75,173</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Dear ImGui（imgui）は、C++向けに設計された即時モード（Immediate Mode）のグラフィカルユーザーインターフェースライブラリです。一般的な保持モード（Retained Mode）GUIとは異なり、各フレームでUIを動的に構築して描画命令を直接出力するため、内部のコードとUIの状態が乖離することがなく、ゲームエンジンやデバッグツール等の構築で不動のデファクトスタンダードとして使われています。</p>
+
+        <h2>何ができるか</h2>
+        <p>開発者は最小限のコードで、リアルタイムのグラフ表示、数値のドラッグ入力、色選択、ツリービュー、ドロップダウンメニューなどのリッチな開発用・調整用ダッシュボードをゲームや3Dアプリケーションの画面内に直接埋め込むことができます。DirectXやOpenGL、Vulkan、Metalなど多数のレンダリングAPIに対応するバックエンドを備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>極めて高機能でありながら、アセットやメモリのフットプリントが非常に小さく、パフォーマンスの低下を気にせずデバッグ用のグラフィック操作パネルを追加できる点です。依存関係も基本的に自己完結しており、UTF-8テキストやキーボード・ゲームパッドの入力にも対応しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリからソースコード（`imgui.cpp` やバックエンドコード等）を自分のC++プロジェクトのビルドツリーに直接追加し、各フレームの更新ループ内で `ImGui::NewFrame()`、各ウィジェット（例: `ImGui::Button(...)`）、`ImGui::Render()` を呼び出し、最終的なレンダリングデータを3Dパイプラインへ渡すことで描画します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ゲーム開発者、3DシミュレーションやCADツール、社内のアセット管理・ゲームパラメータ調整ツールを迅速に開発したいC++エンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>即時モードGUIという特性上、エンドユーザー向けの大規模な一般向けWebサイトやデスクトップ業務アプリなどの一般的なアプリケーションUIをレイアウト構築するには適していません（設計思想が異なります）。あくまでプロトタイピングや開発補助、専門的なゲーム内HUDなどに特化しています。</p>
+
+        <h2>まとめ</h2>
+        <p>Dear ImGuiは、ゲーム業界を中心としたC++リアルタイムアプリケーション開発で不可欠な定番中の定番ライブラリです。ツールの見た目にこだわらず、爆速で操作画面やパラメータ調整UIを作成したい時に最適です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/ocornut/imgui" target="_blank" rel="noreferrer">https://github.com/ocornut/imgui</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #898</p>
+      </div>
+    </article>
+  </body>
+</html>

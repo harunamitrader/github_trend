@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="優れた可用性とリニアな拡張性を備えた、大規模分散型の列指向NoSQLデータベース"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>cassandra</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght=600..800&family=Noto+Sans+JP:wght=100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">cassandra</h1>
+      <p class="article-dek">優れた可用性とリニアな拡張性を備えた、大規模分散型の列指向NoSQLデータベース</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-28 -->
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 13位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/apache/cassandra" target="_blank" rel="noreferrer">
+              apache/cassandra
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9,936</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Apache Cassandraは、大量の構造化・半構造化データを複数のコモディティサーバー間で効率的に管理・配信するために設計された、高度にスケーラブルな分散NoSQLデータベースです。Amazon Dynamoの分散アーキテクチャとGoogle Bigtableの列指向データモデルを組み合わせた設計思想を持ち、世界最大規模のWebサービスでデータストレージ基盤として稼働しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>複数のデータセンターや地理的に離れたクラウド領域をまたいでクラスタを構成し、マスタレスなアーキテクチャ（全ノードが対等）により、一部のサーバーが障害でダウンしてもサービスを継続できる「単一障害点のない」超高可用性を実現します。ノードを追加するだけで書き込み・読み込みのパフォーマンスが比例して向上する「リニアな拡張性」が特徴です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>マスタレス設計による可用性の高さです。従来のRDBのような複雑なレプリケーション設定を必要とせず、クラスタの全ノードに自動的かつ非同期にデータを複製（レプリケート）します。また、開発者が SQL に非常によく似た Cassandra Query Language（CQL）を利用して、直感的にクエリを記述できる点も大きな強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Javaランタイム（JRE/JDK）がインストールされたサーバーにパッケージを展開、またはDocker等のコンテナ環境で起動します。設定ファイル `cassandra.yaml` でクラスタ識別子やシードノードアドレスを設定することで、自動的にノード間でP2P通信（ゴシッププロトコル）が開始され、クラスタが形成されます。CQLの実行にはコマンドラインツール `cqlsh` を使います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>何百万ものユーザーのアクティビティログ、IoTデバイスから送信される時系列センサーデータ、金融トランザクションの追跡履歴など、一時的な書き込み量が非常に多く、システム停止が許されない大規模データインフラを運用するデータエンジニアやインフラエンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>RDBのようなテーブル間の結合（JOIN）処理や、強力なサブクエリ、多対多の複雑なリレーショナル設計はサポートされていません。Cassandraで高いパフォーマンスを発揮するためには、アプリケーションの「クエリ（読み取り方）に合わせてテーブルを設計する」という、RDBとは全く異なるデータモデリング手法が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>Apache Cassandraは、超大規模データストレージにおいて「可用性」と「スケールアウト性能」を最優先する場合に最も信頼できる選択肢です。リレーショナル設計の制限はありますが、その見返りとして堅牢極まりないインフラ基盤を提供してくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/apache/cassandra" target="_blank" rel="noreferrer">https://github.com/apache/cassandra</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #899</p>
+      </div>
+    </article>
+  </body>
+</html>

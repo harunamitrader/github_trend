@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Jul 2026 19:17:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 04:47:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-28 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-28-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-28-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GeoLibre]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-opengeos-geolibre.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-opengeos-geolibre.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Web、デスクトップ、モバイル、Jupyter等で動作する、クラウドネイティブな軽量地理空間データ（GIS）プラットフォーム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-video]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-bradautomates-claude-video.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-bradautomates-claude-video.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude CodeなどのAIエージェントに動画のダウンロード・静止画抽出・音声書き起こしを統合し、動画を「視聴・理解」させるスキル]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ag-kit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-vudovn-ag-kit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-vudovn-ag-kit.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CursorやWindsurfなどのAIエディタ向けに、カスタムエージェントやスラッシュコマンド、自動化ワークフローを提供するツールキット]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cassandra]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-apache-cassandra.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-apache-cassandra.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[優れた可用性とリニアな拡張性を備えた、大規模分散型の列指向NoSQLデータベース]]></description>
+    </item>
+    <item>
+      <title><![CDATA[imgui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-ocornut-imgui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-ocornut-imgui.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[C++向けに開発された、非常に軽量で即時モードのデバッグ用およびツール用GUI（Dear ImGui）ライブラリ]]></description>
+    </item>
     <item>
       <title><![CDATA[Obsidian v1.13.4]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-obsidian-v1-13-4.html</link>
@@ -118,54 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[open-code-review]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-alibaba-open-code-review.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-alibaba-open-code-review.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[決定論的パイプラインとLLMエージェントを組み合わせた高精度で低トークンコストなAIコードレビューCLIツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[bitchat]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-permissionlesstech-bitchat.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-permissionlesstech-bitchat.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[インターネット不要でBluetooth Low Energy (BLE) メッシュとNostrプロトコルを統合した分散型オフラインチャットシステム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Instatic]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-CoreBunch-Instatic.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-CoreBunch-Instatic.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントによる自動Webサイト構築やプラグイン拡張に対応したセルフホスト型ビジュアルCMS]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Chat2DB]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-OtterMind-Chat2DB.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-26-OtterMind-Chat2DB.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語によるSQL生成やデータ可視化に対応したAI駆動型オープンソース・データベースクライアント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: 2026-07-22 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-notebooklm-galaxy-unpacked-mobile.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Samsung 折りたたみデバイスへのプリインストール、 side-by-side ワークスペース、多様なメディアタイプサポートによるモバイル最適化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian: v1.13.3]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-obsidian-v1-13-3.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-26-obsidian-v1-13-3.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画像 lightbox からの下スワイプによる非表示ジェスチャー、ズーム・パン機能の追加とファイル復元の利便性向上]]></description>
     </item>
   </channel>
 </rss>

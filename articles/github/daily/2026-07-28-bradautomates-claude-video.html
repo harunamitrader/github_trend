@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude CodeなどのAIエージェントに動画のダウンロード・静止画抽出・音声書き起こしを統合し、動画を「視聴・理解」させるスキル"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-video</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght=600..800&family=Noto+Sans+JP:wght=100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-video</h1>
+      <p class="article-dek">Claude CodeなどのAIエージェントに動画のダウンロード・静止画抽出・音声書き起こしを統合し、動画を「視聴・理解」させるスキル</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-28 -->
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/bradautomates/claude-video" target="_blank" rel="noreferrer">
+              bradautomates/claude-video
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,958</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>claude-videoは、Claude Codeやその他のCLI型AIエージェントが動画アセットを直接理解し分析できるようにするためのオープンソースのスキル・拡張ツールです。通常はテキストと一部画像に制限されているAIエージェントに対して、動画ファイル（またはYouTube等のリンク）を渡すことで、内部で自動処理を行い、視覚（静止画フレーム）と聴覚（音声文字起こし）の両面から動画を「視聴」する機能を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>開発者やAIエージェントが特定の動画について質問を投げると、本スキルが動画ファイルを自動ダウンロードし、フレームレートに応じたキーフレーム（静止画）の抽出と、音声トラックの切り出し・Whisper等による高精度文字起こしを順次実行します。処理されたマルチモーダルデータはAIエージェントのコンテキストに集約され、動画全体の要約、特定シーンの発生タイミング、会話内容の検索と分析が可能になります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>FFmpegなどの強力なメディア処理ツールとAIエージェントの対話用APIをスムーズに架け橋し、完全に非対話（Headless）またはコマンドラインから一貫して実行できる点です。動画解析のためだけにブラウザや専用のWebインターフェースを開く必要がありません。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>プロジェクトをクローンし、`python -m pip install -r requirements.txt` で依存関係をインストールします（FFmpegがシステムにインストールされている必要があります）。Claudeのカスタムスキル定義フォルダに統合した上で、`claude-video &lt;video_url_or_filepath&gt;` という形でコマンドを実行して使用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェント（特にClaude Code）を用いた開発プロセスの自動化を進めており、講義動画、ゲームプレイのキャプチャ、UIテストの動画ログ、プロダクトデモ映像などをコマンドラインから直接AIに要約・テスト・分析させたいエンジニアやクリエイターに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>動画のサイズや長さによっては、フレーム抽出処理や文字起こしに相応のマシンパワーと実行時間がかかります。また、生成されるコンテキストデータ（大量の抽出画像と長文の文字起こし）が膨大になるため、AIのコンテキスト制限（Token Limit）やAPIの消費コスト管理に注意する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>claude-videoは、コマンドラインAIエージェントの認識限界を「動画メディア」にまで広げる画期的なスキル統合ツールです。動画の目視確認や手作業の書き起こしを自動化し、メディア分析の生産性を極限まで高めてくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/bradautomates/claude-video" target="_blank" rel="noreferrer">https://github.com/bradautomates/claude-video</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #901</p>
+      </div>
+    </article>
+  </body>
+</html>
