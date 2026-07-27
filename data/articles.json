@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-28-obsidian-v1-13-4",
+      "title": "Obsidian v1.13.4",
+      "dek": "ダークモードにおける設定UIの改善やLightbox機能の強化、稀にファイル保存が失敗するレースコンディション等の不具合修正を含んだマイナーアップデート",
+      "summary": "Obsidian v1.13.4 がリリース。ダークモードでの設定画面コントラスト調整や、Lightboxでのファイル名表示機能に加え、長時間運用時に極めて稀に保存エラーを引き起こすレースコンディションなどのバグが修正されています。",
+      "publishedAt": "2026-07-28",
+      "createdAt": "2026-07-28T04:16:00+09:00",
+      "toolName": "Obsidian",
+      "toolUrl": "https://obsidian.md/",
+      "articleUrl": "./articles/tools/2026-07-28-obsidian-v1-13-4.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-28-claudecode-native-installer",
       "title": "Claude Code: Native Installer Migration",
       "dek": "npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行",

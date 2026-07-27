@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ダークモードにおける設定UIの改善やLightbox機能の強化、稀にファイル保存が失敗するレースコンディション等の不具合修正を含んだマイナーアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Obsidian v1.13.4</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Obsidian v1.13.4</h1>
+      <p class="article-dek">ダークモードにおける設定UIの改善やLightbox機能の強化、稀にファイル保存が失敗するレースコンディション等の不具合修正を含んだマイナーアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-07-28 -->
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.13.4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Obsidian</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデートでは、主にエディタ設定やUI周りの操作性向上、およびいくつかの安定性に関する重要なバグ修正が行われました。</p>
+        <ul>
+            <li><strong>設定画面UIのダークモード改善:</strong> ダークモード適用時の設定オプションのコントラストや配色が見直され、視認性が大幅に向上しました。</li>
+            <li><strong>Lightbox機能の強化:</strong> 画像プレビュー（Lightbox）表示において、現在表示している画像のファイル名が表示されるように改善されました。</li>
+            <li><strong>設定サイドバーのレイアウト整理:</strong> 「インターフェース」タブが「エディタ」タブの上に移動し、コミュニティプラグインやテーマのダウンロード数表記が短縮表示（単位省略）に整理されました。</li>
+            <li><strong>ライブプレビューのテキスト・画像配置改善:</strong> 画像とテキストの縦方向の並び（アラインメント）が美しく調整され、画像周囲の余計なパディングが排除されました。</li>
+            <li><strong>保存エラーを引き起こすレースコンディションの修正:</strong> アプリを再起動するまでファイル保存が一時的に失敗し続ける極めて稀な同期バグが解消されました。</li>
+            <li><strong>ワークスペース読込時のクラッシュ防止:</strong> ワークスペースロード中に特定のビューがエラーをスローした場合に、アプリ全体のロードが阻害されて起動しなくなる問題が修正されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に、アプリを再起動するまでファイルの保存に失敗することがあったという稀なレースコンディションバグが修正されたため、長時間エディタを開きっぱなしにして執筆するヘビーユーザーにとっては、データの安全性が一層強化されるアップデートとなります。設定の整理やLightboxの挙動など、日常的な利用時のちょっとしたフラストレーションも解消されています。</p>
+
+        <h2>まとめ</h2>
+        <p>Obsidian v1.13.4 は、目立たないながらもコアエディタの品質と安定性を大きく向上させるメンテナンスリリースです。すべてのユーザーへ早期のアップデート適用を推奨します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://obsidian.md/" target="_blank" rel="noreferrer">Obsidian Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
