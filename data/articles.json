@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-29-gemini-cli-v0-54-0-nightly",
+      "title": "Gemini CLI v0.54.0-nightly.20260728",
+      "dek": "ファイルベースのキーチェーン機能における、明示的なタグ長の強制および検証の強化によるセキュリティ不具合の修正",
+      "summary": "Gemini CLI がナイトリーリリースを公開。ファイルベースのキーチェーン機能において、セキュリティ強化のために明示的なタグの長さ制限と整合性バリデーション機能を追加し、ローカルでの鍵管理の堅牢性を高めました。",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-29T04:00:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-29-gemini-cli-v0-54-0-nightly.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-28-update-report",
       "title": "2026-07-28 アップデートレポート",
