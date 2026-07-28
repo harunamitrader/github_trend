@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="自律型AIエージェントのポリシー適用、ゼロトラストID、およびセキュリティ保護を行うガバナンスフレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agent-governance-toolkit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght=600..800&family=Noto+Sans+JP:wght=100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agent-governance-toolkit</h1>
+      <p class="article-dek">自律型AIエージェントのポリシー適用、ゼロトラストID、およびセキュリティ保護を行うガバナンスフレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-29 -->
+          <strong>2026-07-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 10位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/agent-governance-toolkit" target="_blank" rel="noreferrer">
+              microsoft/agent-governance-toolkit
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>5,120</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI Agent Governance Toolkitは、Microsoftが主導するオープンソースのガバナンスツールキットです。本番環境で自律的に動作するAIエージェントの安全性を担保するため、ポリシー評価、アイデンティティ管理、安全な実行環境（サンドボックス）、および信頼性設計のための標準化されたインフラレイヤーを提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>エージェントのアクション（ファイル操作、外部API呼び出し、コマンド実行など）に対し、セキュリティポリシー（例: 「夜間の本番DBへの書き込み禁止」）をサブミリ秒の速度で動的評価・強制できます。OWASP Agentic Top 10に挙げられる不正操作や権限昇格、データの漏洩などのリスクに対し、システムレベルでの防御壁を構築可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特定のAIフレームワーク（LangChain, CrewAI, AutoGenなど）やプログラミング言語に依存しない「フレームワーク・アグノスティック」な設計です。Python, TypeScript, .NET, Rust, Goの5つの言語に対応するSDKを備え、最初はポリシー監視のみを行う「監査モード」など、段階的な導入が可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>各言語向けのSDKをインストールし、YAML等でガバナンスポリシーを定義します。エージェントがツール呼び出しや特権アクションを実行する直前に、本SDKのポリシー検証メソッド（例: `evaluate_action()`）を呼び出してアクションの可否を決定させます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自律AIエージェント（AI Coding Agent、顧客サポートAIなど）を企業の本番環境や社内インフラに統合し、セキュリティ監査・ガバナンス基準をクリアさせたいセキュリティエンジニアやAI開発に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>本ツールキットは「ポリシーの判定と適用」のための枠組みを提供するものであり、エージェントを実行するインフラ自体（サンドボックス用コンテナのデプロイやOSの堅牢化）は、開発者側でインフラ環境に合わせて適切に設計・構成する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AI Agent Governance Toolkitは、AIエージェントの自律稼働において欠かせない「安全制御のガードレール」を提供する先進的フレームワークです。OWASP Agentic Top 10への高い対応力により、エンタープライズ向けのAIエージェント開発には欠かせない選択肢となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/agent-governance-toolkit" target="_blank" rel="noreferrer">https://github.com/microsoft/agent-governance-toolkit</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #903</p>
+      </div>
+    </article>
+  </body>
+</html>

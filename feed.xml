@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 19:17:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 04:46:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-29 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-29-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-29-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[speech-to-speech]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-huggingface-speech-to-speech.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-huggingface-speech-to-speech.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカル環境で動作する、リアルタイム対話可能な音声AIエージェントを構築するオープンソースフレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[book-to-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-virgiliojr94-book-to-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-virgiliojr94-book-to-skill.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[技術書やドキュメントPDFを、Claude CodeやCopilot向けの構造化されたAIエージェント用「スキル」へ変換するツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-governance-toolkit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-microsoft-agent-governance-toolkit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-microsoft-agent-governance-toolkit.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律型AIエージェントのポリシー適用、ゼロトラストID、およびセキュリティ保護を行うガバナンスフレームワーク]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini Notebook (NotebookLM) Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-notebooklm-rebranding-gemini-notebook.html</link>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[回答結果を独自ドメインへ一発で公開できる Website Publishing 機能および Computer Agent のモデル切替・非公開企業データ連携]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: Health Integration]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-chatgpt-health-records.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-chatgpt-health-records.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apple Health や電子健康記録データと連携し、ユーザー個人の健康状態にパーソナライズされたアドバイスを提供する機能の導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity: v2.4.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-antigravity-v2-4-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-antigravity-v2-4-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プレビュータブの導入、MCPタイムアウトへの対応、.json/.md/.csv添付ファイルのサポートと利便性の向上]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI: v0.54.0-nightly.20260726]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-geminicli-v0-54-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-geminicli-v0-54-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[モデルフォールバック時のセッションIDローテーション、HTTPS強制による認証保護、思考プロセス除外とセキュリティの強化]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: 2026-07-24 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-github-copilot-opus5-linear.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-github-copilot-opus5-linear.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot CLI での Claude Opus 5 モデル対応、および Linear 連携自律エージェントの新規導入]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ローカル環境で動作する、リアルタイム対話可能な音声AIエージェントを構築するオープンソースフレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>speech-to-speech</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">speech-to-speech</h1>
+      <p class="article-dek">ローカル環境で動作する、リアルタイム対話可能な音声AIエージェントを構築するオープンソースフレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-29 -->
+          <strong>2026-07-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 6位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/huggingface/speech-to-speech" target="_blank" rel="noreferrer">
+              huggingface/speech-to-speech
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,103</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>speech-to-speechは、Hugging Faceが提供するオープンソースの音声対話フレームワークです。クラウドの音声APIを一切経由せず、個人のローカルマシン（MacやWindows、LinuxPCなど）上で、超低遅延で双方向のリアルタイム音声AIアシスタントを組み立てて実行できる実行基盤を提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>マイクから入力された音声をリアルタイム検知するVAD（発話区間検出）、それを文字化するSTT（音声認識）、テキストから最適な返答を生成するLLM（大規模言語モデル）、および生成された返答を滑らかな合成音声に変換してスピーカーから出力するTTS（音声合成）の4つの処理をパイプライン（カスケード接続）として連動させます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>パイプラインが完全にモジュール化されており、Hugging Face Hubに登録されている多種多様なモデルを自由に選んで差し替え（プラグイン）できる点です。言語や処理速度、マシンのGPU性能などに応じて、STTモデル（Whisper等）やLLM（Llama等）、TTSモデル（MeloTTS等）を最適に組み替えられます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境において必要なシステムライブラリ（PortAudioなど）を導入後、`pip install -r requirements.txt` でインストールします。設定ファイルで利用したい各モデルIDを指定し、メインスクリプト（`run.py` 等）を実行することでマイクとスピーカーを初期化し、ローカル音声対話セッションを起動します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>プライバシー保護を最重視するオフライン環境で動作する音声アシスタントを作りたい、ロボットやスマートホームデバイス向けの会話インターフェースを開発したい、またはローカルでの音声処理モデルの挙動を研究・検証したい開発者や研究者に適しています。</p>
+
+        <h2>注意点</h2>
+        <p>ローカルでSTT、LLM、TTSを同時に常時稼働させるため、快適なリアルタイム対話（数秒以内のレスポンス）を実現するためには、CUDA対応の高性能なNVIDIA製GPUや、Apple Silicon（Mシリーズ）など、十分なVRAMと演算能力を持つハードウェア環境が必須となります。</p>
+
+        <h2>まとめ</h2>
+        <p>speech-to-speechは、完全ローカルで自律稼働する次世代の「声を持つAIエージェント」の開発を強力に支援するフレームワークです。モデル選定の自由度の高さとプライバシーの安全性は、今後のプロダクト開発に大きく寄与するでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/huggingface/speech-to-speech" target="_blank" rel="noreferrer">https://github.com/huggingface/speech-to-speech</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #905</p>
+      </div>
+    </article>
+  </body>
+</html>
