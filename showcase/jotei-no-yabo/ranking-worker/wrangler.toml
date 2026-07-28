@@ -1,0 +1,8 @@
+name = "jotei-no-yabo-ranking"
+main = "src/index.js"
+compatibility_date = "2026-07-28"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "RANKING"
+id = "d6fb8d301ac94a9fba50eca9660004f9"
