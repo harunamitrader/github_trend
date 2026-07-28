@@ -33,6 +33,27 @@ body { margin: 0; min-height: 100dvh; background: var(--ink); }
 .hero-art { position: absolute; z-index: -1; inset: 0 0 0 auto; width: min(64vw, 650px); height: 100%; object-fit: cover; object-position: 70% center; opacity: .64; filter: saturate(1.1) contrast(1.04); }
 .title-page::after { background: linear-gradient(180deg, rgba(3,11,16,.04) 0%, rgba(3,11,16,.06) 49%, rgba(3,11,16,.78) 100%); }
 .title-page .hero-art { width: 100%; opacity: .96; object-position: center; filter: saturate(1.22) contrast(1.05); }
+.briefing-page { min-height: 100dvh; overflow: hidden auto; }
+.briefing-page .hero-art { width: 100%; opacity: .7; object-position: 72% center; filter: saturate(1.2) contrast(1.06); }
+.briefing-page::after { background: linear-gradient(90deg, rgba(3,12,18,.78) 0%, rgba(3,12,18,.5) 54%, rgba(3,12,18,.11) 100%); }
+.briefing-wrap { width: min(100%, 1080px); min-height: calc(100dvh - 78px); margin: 0 auto; padding: clamp(20px, 5vh, 48px) 22px 42px; display: flex; align-items: center; }
+.briefing-panel { width: min(100%, 820px); padding: clamp(20px, 4vw, 34px); border: 1px solid rgba(236,207,139,.45); background: linear-gradient(140deg, rgba(5,19,27,.84), rgba(8,30,37,.64)); box-shadow: 0 24px 70px rgba(0,0,0,.32), inset 0 0 0 1px rgba(255,235,185,.06); backdrop-filter: blur(8px); }
+.briefing-panel h1 { margin: 8px 0 22px; color: #fff0c9; font: 700 clamp(33px, 6vw, 58px)/1.13 "Kaisei Decol", serif; text-wrap: balance; }
+.briefing-sections { display: grid; grid-template-columns: 1.1fr .9fr; gap: 10px; }
+.briefing-section { min-height: 142px; padding: 16px; border: 1px solid rgba(235,211,151,.22); background: rgba(7,22,29,.59); }
+.briefing-section span { display: block; color: var(--jade-light); font: 700 9px/1 "Cinzel", serif; letter-spacing: .15em; }
+.briefing-section h2 { margin: 8px 0 7px; color: var(--gold-pale); font: 700 18px/1.25 "Kaisei Decol", serif; }
+.briefing-section p { margin: 0; color: #e3e8e2; font-size: 12px; line-height: 1.72; }
+.briefing-section.rules { background: linear-gradient(135deg, rgba(37,61,57,.67), rgba(14,28,37,.63)); }
+.briefing-section.cards { grid-column: 1 / -1; min-height: 0; background: linear-gradient(135deg, rgba(59,31,38,.67), rgba(13,29,38,.68)); }
+.briefing-section.cards ul { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0 9px; padding: 0; list-style: none; }
+.briefing-section.cards li { min-height: 70px; padding: 8px; border: 1px solid rgba(255,226,159,.19); background: rgba(4,15,22,.47); }
+.briefing-section.cards li b { display: block; color: #fff0c9; font: 700 13px "Kaisei Decol", serif; }
+.briefing-section.cards li b span { display: inline; margin-right: 4px; color: var(--gold); font-size: 14px; letter-spacing: 0; }
+.briefing-section.cards li small { display: block; margin-top: 4px; color: #d1d8d3; font-size: 10px; line-height: 1.42; }
+.briefing-note { color: #c7d3ce !important; font-size: 10px !important; }
+.briefing-start { display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 18px; }
+.briefing-start b { font-size: 24px; line-height: .6; }
 .event-intro-page { overflow: hidden; background: #061822; }
 .event-intro-page::before { z-index: 1; opacity: .38; }
 .event-intro-page::after { z-index: 1; background: linear-gradient(180deg, transparent 0%, transparent 63%, rgba(3,11,16,.38) 100%); }
@@ -211,6 +232,20 @@ h1 { margin: 15px 0 12px; font: 700 clamp(47px, 10vw, 88px)/.96 "Kaisei Decol", 
   .title-panel { margin: 0; padding: 13px 14px 15px; background: linear-gradient(135deg, rgba(4,14,21,.74), rgba(4,14,21,.5)); }
   .title-panel h1 { margin: 5px 0 10px; font-size: clamp(39px, 11vw, 54px); }
   .title-panel .lead, .title-panel .title-points, .title-panel .tiny { display: none; }
+  .briefing-page .hero-art { opacity: .56; object-position: 69% center; }
+  .briefing-page::after { background: linear-gradient(180deg, rgba(3,12,18,.18) 0%, rgba(3,12,18,.8) 100%); }
+  .briefing-wrap { min-height: auto; padding: 12px 14px 24px; align-items: flex-start; }
+  .briefing-panel { padding: 16px 14px 18px; }
+  .briefing-panel h1 { margin: 6px 0 14px; font-size: 31px; }
+  .briefing-sections { grid-template-columns: 1fr; gap: 7px; }
+  .briefing-section { min-height: 0; padding: 12px; }
+  .briefing-section h2 { margin: 6px 0 5px; font-size: 16px; }
+  .briefing-section p { font-size: 11px; line-height: 1.6; }
+  .briefing-section.cards { grid-column: auto; }
+  .briefing-section.cards ul { grid-template-columns: repeat(2, 1fr); gap: 6px; margin: 8px 0; }
+  .briefing-section.cards li { min-height: 58px; padding: 7px; }
+  .briefing-section.cards li small { font-size: 9px; }
+  .briefing-start { width: 100%; margin-top: 12px; }
   .card-select-grid { grid-template-columns: repeat(2, 1fr); }
   .empress-card { min-height: 145px; padding: 13px; }
   .event-layout, .result-grid { grid-template-columns: 1fr; }
