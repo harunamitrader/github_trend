@@ -32,8 +32,9 @@
   ];
   const EVENT_IMAGES = { '1949':'1949-tse-reopening.webp', '1950':'1950-korean-boom.webp', '1964':'1964-tokyo-olympics.webp', '1965':'1965-securities-recession.webp', '1971':'1971-nixon-shock.webp', '1973':'1973-oil-shock.webp', '1979':'1979-second-oil.webp', '1985':'1985-plaza-accord.webp', '1987':'1987-black-monday.webp', '1989':'1989-bubble-peak.webp', '1990':'1990-bubble-collapse.webp', '1997':'1997-financial-crisis.webp', '1999':'1999-it-bubble.webp', '2008':'2008-lehman-shock.webp', '2013':'2013-monetary-easing.webp', '2020':'2020-covid-shock.webp' };
   const EVENTS = D.map(([year,title,news,memo,options]) => ({year,title,news,memo,image:EVENT_IMAGES[year],options:options.map(([name,icon,raw]) => ({name,icon,raw}))}));
-  const money = n => `${Math.max(0,Math.floor(n/10000)).toLocaleString('ja-JP')}万円`;
-  const signedMoney = n => {const amount=Math.floor(Math.abs(n)/10000);return `${n<0&&amount?'−':''}${amount.toLocaleString('ja-JP')}万円`;};
+  const formatMan = amount => {const oku=Math.floor(amount/10000),remainder=amount%10000;return oku?`${oku.toLocaleString('ja-JP')}億${remainder.toLocaleString('ja-JP')}万円`:`${amount.toLocaleString('ja-JP')}万円`;};
+  const money = n => formatMan(Math.max(0,Math.floor(n/10000)));
+  const signedMoney = n => {const amount=Math.floor(Math.abs(n)/10000);return `${n<0&&amount?'−':''}${formatMan(amount)}`;};
   const pct = n => `${n>0?'+':''}${n}%`;
   const trunc = n => n<0?Math.ceil(n):Math.floor(n);
   const xmur3 = s => { let h=1779033703^s.length; for(let i=0;i<s.length;i++){h=Math.imul(h^s.charCodeAt(i),3432918353);h=h<<13|h>>>19;} return()=>{h=Math.imul(h^h>>>16,2246822507);h=Math.imul(h^h>>>13,3266489909);return(h^=h>>>16)>>>0;};};
