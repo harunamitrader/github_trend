@@ -14,8 +14,8 @@
 .compact-event { border: 1px solid var(--line); background: rgba(6,20,28,.83); padding: 14px 16px; overflow: hidden; }
 .compact-event { position: relative; background: #08212d; }
 .compact-event::before { content: ""; position: absolute; z-index: 3; inset: 0 auto 0 0; width: 3px; background: linear-gradient(var(--gold), var(--crimson)); box-shadow: 0 0 16px rgba(214,174,85,.55); }
-.compact-event::after { content: ""; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(4,17,25,.96) 0%, rgba(4,17,25,.81) 47%, rgba(4,17,25,.25) 100%); }
-.compact-event .event-art { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 68% 50%; opacity: .68; filter: saturate(1.28) contrast(1.07); }
+.compact-event::after { content: ""; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(4,17,25,.78) 0%, rgba(4,17,25,.49) 50%, rgba(4,17,25,.08) 100%); }
+.compact-event .event-art { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 68% 50%; opacity: .93; filter: saturate(1.32) contrast(1.05); }
 .compact-event .event-copy { position: relative; z-index: 2; }
 .compact-event .event-year { font-size: 10px; }
 .compact-event .event-title { margin: 4px 0 5px; font-size: clamp(23px, 6vw, 34px); }
