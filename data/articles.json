@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-29-notebooklm-rebranding-gemini-notebook",
+      "title": "Gemini Notebook (NotebookLM) Update",
+      "dek": "NotebookLMから「Gemini Notebook」への名称変更と、Pythonコード実行機能の導入による分析性能の向上",
+      "summary": "GoogleがNotebookLMを「Gemini Notebook」へとリブランディング。Proユーザー向けにPython等のコード実行（Code Execution）機能をロールアウトし、データや数表の高度な演算や解析能力が飛躍的に強化されました。",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-29T04:10:00+09:00",
+      "toolName": "NotebookLM",
+      "toolUrl": "https://notebooklm.google/",
+      "articleUrl": "./articles/tools/2026-07-29-notebooklm-rebranding-gemini-notebook.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-29-gemini-cli-v0-54-0-nightly",
       "title": "Gemini CLI v0.54.0-nightly.20260728",
       "dek": "ファイルベースのキーチェーン機能における、明示的なタグ長の強制および検証の強化によるセキュリティ不具合の修正",
