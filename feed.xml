@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 19:48:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:01:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.55.0-nightly.20260729]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v4.0.12]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-29 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-29-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Javaで構築された、2000以上の豊富なプラグインを特徴とする業界標準のオープンソースCI/CDオートメーションサーバー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[amnezia-client]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-amnezia-vpn-amnezia-client.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-amnezia-vpn-amnezia-client.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自身のサーバー上にDockerコンテナで各種VPNプロトコルを自動展開・接続できる、オープンソースの自己ホスト型VPNクライアント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity: Website Publishing & Computer Agent Upgrade]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-perplexity-website-publishing.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-27-perplexity-website-publishing.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[回答結果を独自ドメインへ一発で公開できる Website Publishing 機能および Computer Agent のモデル切替・非公開企業データ連携]]></description>
     </item>
   </channel>
 </rss>

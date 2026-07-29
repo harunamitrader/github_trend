@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v4.0.12 - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">Cline v4.0.12</h1>
+      <p class="article-dek">無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>Cline</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.0.12</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>無料モデルのサポート追加</strong>: モデルピッカーにおいて無料モデルが「(free)」としてラベリング表示されるようになりました。また、無料制限の上限に達した場合には、制限が解除されるリセット時刻を表示する専用エラーカードが表示されます。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>CLIの応答保持 (Fix)</strong>: CLIの実行ターン数が上限に達してエラー終了（max-turns error）した際、それまでにストリーミング出力されていたClaude Codeからの有効な応答内容を破棄せず、保持するように改善されました。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>無料枠制限の正確な終了時刻が視覚化されたため、試用・評価時におけるエージェントの停止時間が予測可能になりました。また、タスクが途中でリミットエラーになっても出力応答が残るため、開発者がそれまでの実行成果を手動で拾うなどのリカバリ作業が格段にスムーズになります。</p>
+      </div>
+    </article>
+  </body>
+</html>

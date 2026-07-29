@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.55.0-nightly.20260729 - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.55.0-nightly.20260729</h1>
+      <p class="article-dek">Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.55.0-nightly.20260729</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>Antigravity Agentランナーの導入 (PR #28434)</strong>: Antigravityエージェント実行環境、およびプロンプトテンプレートのインフラが正式に実装されました。</li>
+          <li><strong>Firestoreの同時実行制御 (PR #28432)</strong>: 競合を防ぐためのFirestore concurrency dual-locking（同時実行デュアルロック）の仕組み、およびテスト用のデータ投入（ingestion）ユーティリティが追加されました。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>関数応答ターンのスキップ (PR #28565)</strong>: コアエンジンにおいて、アクティブな実行ループを検索する際、すでにマージ済みの関数応答（function-response）ターンをスキップするように修正されました。これにより、不要な判定ループが回避されます。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>エージェントとしてのAntigravityの実行制御機能が追加されたことで、Gemini CLIの自動実行と統合が極めて容易になります。また、Firestore競合制御の導入によって、複数エージェントや複数クライアントが同時稼働するチーム開発環境におけるDB整合性が飛躍的に向上します。</p>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-07-30-gemini-cli-v0-55-0-nightly",
+      "title": "Gemini CLI v0.55.0-nightly.20260729",
+      "dek": "Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート",
+      "summary": "Gemini CLIが最新のナイトリーリリースを公開。Antigravityエージェント実行ランナーおよび各種プロンプトテンプレートのインフラが新規追加されたほか、Firestoreにおける同時実行二重ロックによる競合制御や、アクティブな実行ループ判定バグの修正が行われました。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:01:00+09:00",
+      "toolName": "Gemini CLI",
+      "toolUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-30-cline-v4-0-12",
+      "title": "Cline v4.0.12",
+      "dek": "無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善",
+      "summary": "Clineがv4.0.12拡張機能アップデートを公開。モデル選択における無料モデルの表示や、制限到達時のリセット時刻表示エラーカードの導入に加え、CLIが上限ターン数で終了した際にそれまでのストリーム応答を破棄せず維持する修正を行いました。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:00:00+09:00",
+      "toolName": "Cline",
+      "toolUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-30-cline-v4-0-12.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-07-29-update-report",
       "title": "2026-07-29 アップデートレポート",
