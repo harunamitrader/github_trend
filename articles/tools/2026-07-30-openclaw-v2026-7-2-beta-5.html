@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.7.2-beta.5 - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.7.2-beta.5</h1>
+      <p class="article-dek">DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.7.2-beta.5</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>状態安全性と復旧 (State safety)</strong>: データベース破損からデータを保護する隔離（クアランティン）ストアや、SQLiteのスナップショットからのクラッシュ復旧メカニズムが導入されました。</li>
+          <li><strong>永続メッセージ配信</strong>: Gatewayの再起動やクラッシュが発生しても、Telegram、Signal、Slack、QQBotなどのメッセージを損失せず復旧できる ingress drain と dead-letter 回収機能が追加されました。</li>
+          <li><strong>セッション巻き戻しと分岐</strong>: 任意のメッセージから会話を巻き戻したり、別分岐（フォーク）して新しいやり取りを開始・切り替えできるようになりました。</li>
+          <li><strong>インタラクティブMCP Appとダッシュボード</strong>: Boundツールを備えたチケット型MCP Appをチャンネル等から呼び出したり、持続的なダッシュボードにピン留めしてサンドボックス内で安全に実行できるようになりました。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>セットアップとローカル推論の強化 (PR #113476等)</strong>: 初回セットアップガイドにてローカルプロバイダーの検出性能が強化され、RAM容量に応じて llama.cpp や Gemma を自動切り替えするインプロセス推論パスが改善されました。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>会話の巻き戻しと分岐（フォーク）機能が導入されたことで、エージェントとのプロンプト開発やエラー発生時の手戻り（デバッグ）が圧倒的に手軽になります。また、ローカルDB保護やクラッシュ時のメッセージ回収が劇的に強化され、本番運用の堅牢性が向上しています。</p>
+      </div>
+    </article>
+  </body>
+</html>

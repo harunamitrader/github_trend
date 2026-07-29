@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jul 2026 19:02:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:16:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.7.2-beta.5]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.55.0-nightly.20260729]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[インターネット不要でBluetooth Mesh経由の暗号化通信を行える、P2P分散型メッセージングアプリのAndroidポート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[jenkins]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-jenkinsci-jenkins.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-jenkinsci-jenkins.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Javaで構築された、2000以上の豊富なプラグインを特徴とする業界標準のオープンソースCI/CDオートメーションサーバー]]></description>
     </item>
   </channel>
 </rss>

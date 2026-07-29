@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-30-openclaw-v2026-7-2-beta-5",
+      "title": "OpenClaw v2026.7.2-beta.5",
+      "dek": "DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入",
+      "summary": "OpenClawがv2026.7.2-beta.5をリリース。SQLite破損を防ぐ隔離ストアやGateway再起動時のデッドレター回収、対話の巻き戻し・分岐機能の実装、さらにチケット型MCP Appやローカル Gemma 自動切り替え推論パスの整備を行いました。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:16:00+09:00",
+      "toolName": "OpenClaw",
+      "toolUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-30-gemini-cli-v0-55-0-nightly",
       "title": "Gemini CLI v0.55.0-nightly.20260729",
       "dek": "Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート",
