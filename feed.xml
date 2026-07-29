@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jul 2026 19:17:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:46:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-30 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-30-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-30-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[snipe-it]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-grokability-snipe-it.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-grokability-snipe-it.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[企業向けのIT資産、PC端末、ソフトウェアライセンスをWeb上で一元管理するオープンソースシステム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[faceswap]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-deepfakes-faceswap.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-deepfakes-faceswap.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ディープラーニングを用いた画像・映像 of 顔入れ替え（ディープフェイク）オープンソースソフトウェア]]></description>
+    </item>
+    <item>
+      <title><![CDATA[openwork]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-different-ai-openwork.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-different-ai-openwork.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ローカルファーストで動作し、プロバイダーを自由に選択可能なオープンソースAIコーディングエージェント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[flashkda]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-moonshotai-flashkda.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-moonshotai-flashkda.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kimi Delta Attention (KDA) のためのCUDA最適化超高速アテンションカーネルライブラリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ane]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-maderix-ane.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-maderix-ane.html</guid>
+      <category>github-trending</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apple Neural Engine (ANE) を用いたニューラルネットワークの直接トレーニングとリバースエンジニアリングプロジェクト]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.7.2-beta.5]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[優れた可用性とリニアな拡張性を備えた、大規模分散型の列指向NoSQLデータベース]]></description>
-    </item>
-    <item>
-      <title><![CDATA[imgui]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-ocornut-imgui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-ocornut-imgui.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[C++向けに開発された、非常に軽量で即時モードのデバッグ用およびツール用GUI（Dear ImGui）ライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian v1.13.4]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-obsidian-v1-13-4.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-obsidian-v1-13-4.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ダークモードにおける設定UIの改善やLightbox機能の強化、稀にファイル保存が失敗するレースコンディション等の不具合修正を含んだマイナーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code: Native Installer Migration]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-claudecode-native-installer.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-28-claudecode-native-installer.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[npmによるインストール方法を非推奨とし、Node.js不要で自動アップデートに対応したネイティブインストーラー方式への移行]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-27 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-27-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-27-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[node]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-nodejs-node.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-nodejs-node.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChromeのV8エンジンをベースに開発された、サーバーサイドでJavaScriptを動作させる世界標準のクロスプラットフォーム実行環境]]></description>
-    </item>
-    <item>
-      <title><![CDATA[bitchat-android]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-permissionlesstech-bitchat-android.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-27-permissionlesstech-bitchat-android.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[インターネット不要でBluetooth Mesh経由の暗号化通信を行える、P2P分散型メッセージングアプリのAndroidポート]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kimi Delta Attention (KDA) のためのCUDA最適化超高速アテンションカーネルライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>flashkda</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght=600..800&family=Noto+Sans+JP:wght=100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">flashkda</h1>
+      <p class="article-dek">Kimi Delta Attention (KDA) のためのCUDA最適化超高速アテンションカーネルライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-07-30 -->
+          <strong>2026-07-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>GitHub Trending 11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MoonshotAI/FlashKDA" target="_blank" rel="noreferrer">
+              MoonshotAI/FlashKDA
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>957</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>FlashKDAは、Moonshot AIが公開したオープンソースの高性能アテンションカーネルライブラリです。独自アテンションアルゴリズム「Kimi Delta Attention (KDA)」の推論および学習を、CUDA環境下で極限まで加速するために最適化されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>CUDA-enabledデバイス（NVIDIA製GPU）の共有メモリやレジスタ構造に合わせたカスタムアテンションGPUカーネルを提供します。これにより、超ロングコンテキスト（長文処理）におけるメモリフットプリントを削減し、従来のアテンション実装よりも数倍から数十倍高速に推論と計算を実行可能にします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>FlashAttentionなどにインスパイアされた、I/O意識型（I/O-aware）のカーネル書き換え技術を用いている点です。GPUのSRAMとHBM間のデータ転送を最適化し、長文入力時におけるKimi Delta Attention計算のハードウェア実行効率を最大化しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境において、CUDAツールキットが設定されたGPUサーバー上でリポジトリのソースコードからコンパイルビルドし（`pip install .` 等）、PyTorchモデルのアテンション部分をFlashKDAカーネルに置き換えて使用します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Moonshot AIのKimiモデル群やKimi Delta Attentionアルゴリズムを採用・調査しており、GPUリソースの消費を削減しながら超ロングコンテキストモデルの学習・推論を高速化したいLLM開発者やインフラエンジニアに適しています。</p>
+
+        <h2>注意点</h2>
+        <p>NVIDIAの特定のGPUアーキテクチャ（例: Ampere、Ada Lovelace、Hopperなど）や特定のCUDAバージョンに依存した設計になっているため、古いGPU世代やAMD/Apple等の非CUDA環境では動作しないか、コンパイルエラーが発生することがあります。</p>
+
+        <h2>まとめ</h2>
+        <p>MoonshotAI/FlashKDAは、超長文処理モデルの運用に劇的なブレイクスルーをもたらす高性能GPUカーネルの実装です。高性能なアテンション制御を追求するLLMインフラ構築において、必須レベルの最適化パーツとなります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MoonshotAI/FlashKDA" target="_blank" rel="noreferrer">https://github.com/MoonshotAI/FlashKDA</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #907</p>
+      </div>
+    </article>
+  </body>
+</html>
