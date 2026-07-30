@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jul 2026 04:15:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 04:46:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-07-31 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-31-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-31-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-for-beginners]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-microsoft-ai-for-beginners.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-microsoft-ai-for-beginners.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoftが構築した、12週間・24講義からなる初心者向けの包括的AI学習カリキュラム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[baileys]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-whiskeysockets-baileys.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-whiskeysockets-baileys.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Selenium等を使わずにWhatsApp Web APIと直接WebSocketsで通信する、軽量・多機能なTypeScriptライブラリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[tuicr]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-agavra-tuicr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-agavra-tuicr.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Vim風の操作体系を備えた、ターミナルで動作するRust製のローカルコードレビュー（TUI）ツール]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-30 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-30-update-report.html</link>
@@ -134,38 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GeoLibre]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-opengeos-geolibre.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-opengeos-geolibre.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Web、デスクトップ、モバイル、Jupyter等で動作する、クラウドネイティブな軽量地理空間データ（GIS）プラットフォーム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-video]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-bradautomates-claude-video.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-bradautomates-claude-video.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeなどのAIエージェントに動画のダウンロード・静止画抽出・音声書き起こしを統合し、動画を「視聴・理解」させるスキル]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ag-kit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-vudovn-ag-kit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-vudovn-ag-kit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CursorやWindsurfなどのAIエディタ向けに、カスタムエージェントやスラッシュコマンド、自動化ワークフローを提供するツールキット]]></description>
-    </item>
-    <item>
-      <title><![CDATA[cassandra]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-apache-cassandra.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-28-apache-cassandra.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[優れた可用性とリニアな拡張性を備えた、大規模分散型の列指向NoSQLデータベース]]></description>
     </item>
   </channel>
 </rss>
