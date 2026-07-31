@@ -164,6 +164,42 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-30-gemini-robotics-er-2-preview",
+      "title": "Gemini Robotics ER 2 Public Preview",
+      "dek": "体現的推論（embodied reasoning）、複数ロボットの協調、およびリアルタイムストリーミングに対応したロボティクス向け新モデルの公開",
+      "summary": "Googleが、ロボティクス向けの embodied reasoning（体現的推論）モデル「Gemini Robotics ER 2」をパブリックプレビューで公開。複数ロボットの協調制御や、ロボット制御用リアルタイム画像・テキストストリーミングエンドポイントが提供されます。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:05:00+09:00",
+      "toolName": "Gemini",
+      "toolUrl": "https://ai.google.dev/gemini-api/docs/changelog",
+      "articleUrl": "./articles/tools/2026-07-30-gemini-robotics-er-2-preview.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-30-perplexity-projects",
+      "title": "Perplexity Projects Launch",
+      "dek": "人間とAIエージェントが協調して動作する、永続的なファイルシステムを備えた長期タスクハブ「Projects」の導入",
+      "summary": "Perplexityが「Spaces」を「Projects」へと大幅強化して正式ローンチ。人間とAIがファイル共有しながら共同作業を進めるための永続ファイルシステムや、長期実行エージェント用のタスク管理ハブを提供します。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:04:00+09:00",
+      "toolName": "Perplexity",
+      "toolUrl": "https://blog.perplexity.ai/",
+      "articleUrl": "./articles/tools/2026-07-30-perplexity-projects.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-30-obsidian-v1-13-ga",
+      "title": "Obsidian v1.13 Public Release",
+      "dek": "設定パネルの刷新、iOS共有シート対応、スクロール性能の改善などを含む一般向け新バージョンの一般提供開始",
+      "summary": "Obsidianが一般向け最新版「v1.13」をGAリリース。別窓化および検索バー付きの設定メニュー、iOS共有シートから直接Obsidianへノート保存できる機能、さらにElectron v43.1.1更新やOKLCHカラー移行などの基盤強化が行われました。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:03:00+09:00",
+      "toolName": "Obsidian",
+      "toolUrl": "https://obsidian.md/changelog",
+      "articleUrl": "./articles/tools/2026-07-30-obsidian-v1-13-ga.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-30-openclaw-v2026-7-2-beta-5",
       "title": "OpenClaw v2026.7.2-beta.5",
       "dek": "DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入",

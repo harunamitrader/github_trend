@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jul 2026 19:05:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 04:17:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-07-31 アップデートレポート]]></title>
@@ -88,6 +88,30 @@
       <description><![CDATA[Apple Neural Engine (ANE) を用いたニューラルネットワークの直接トレーニングとリバースエンジニアリングプロジェクト]]></description>
     </item>
     <item>
+      <title><![CDATA[Gemini Robotics ER 2 Public Preview]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-robotics-er-2-preview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-robotics-er-2-preview.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[体現的推論（embodied reasoning）、複数ロボットの協調、およびリアルタイムストリーミングに対応したロボティクス向け新モデルの公開]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Projects Launch]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-perplexity-projects.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-perplexity-projects.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人間とAIエージェントが協調して動作する、永続的なファイルシステムを備えた長期タスクハブ「Projects」の導入]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian v1.13 Public Release]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-obsidian-v1-13-ga.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-obsidian-v1-13-ga.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[設定パネルの刷新、iOS共有シート対応、スクロール性能の改善などを含む一般向け新バージョンの一般提供開始]]></description>
+    </item>
+    <item>
       <title><![CDATA[OpenClaw v2026.7.2-beta.5]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</guid>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[技術書やドキュメントPDFを、Claude CodeやCopilot向けの構造化されたAIエージェント用「スキル」へ変換するツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-governance-toolkit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-microsoft-agent-governance-toolkit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-microsoft-agent-governance-toolkit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律型AIエージェントのポリシー適用、ゼロトラストID、およびセキュリティ保護を行うガバナンスフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini Notebook (NotebookLM) Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-notebooklm-rebranding-gemini-notebook.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-notebooklm-rebranding-gemini-notebook.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NotebookLMから「Gemini Notebook」への名称変更と、Pythonコード実行機能の導入による分析性能の向上]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor iPad Support & India Plan]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-cursor-ipad.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-cursor-ipad.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[iPad対応アプリのリリース（ピン留めサイドバー、スプリット画面レビュー、Apple Pencilマークアップ対応）およびインド向け localized Plan (₹649/月) の追加]]></description>
     </item>
   </channel>
 </rss>
