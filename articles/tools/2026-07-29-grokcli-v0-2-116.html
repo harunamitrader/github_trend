@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grok CLI (Grok Build) v0.2.116がリリース。セッション巻き戻し用の/undoコマンド追加、ヘッドレス出力の改善、再ログインループの解消や視認性の向上"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI v0.2.116 - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI v0.2.116</h1>
+      <p class="article-dek">Grok CLI (Grok Build) v0.2.116がリリース。セッション巻き戻し用の/undoコマンド追加、ヘッドレス出力の改善、再ログインループの解消や視認性の向上</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.2.116</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>/undo コマンドの追加</strong>: セッション内の会話状態や、変更されたローカルファイルを直前のチェックポイントに巻き戻して復元できる `/undo` （`/rewind` のエイリアス）コマンドが導入されました。</li>
+          <li><strong>ヘッドレスストリーミング出力の改善</strong>: バックグラウンド実行やヘッドレスセッション時において、ツール呼び出しのログ出力や実行ごとの正確な利用トークン・コストなどのメタデータがストリーム出力内に詳細に表示されるようになりました。</li>
+          <li><strong>MCPサーバー切り替えコマンド (v0.2.113以降)</strong>: ターミナルから直接 `grok mcp enable <name>` または `grok mcp disable <name>` を実行して、利用するMCPサーバーをオンデマンドで制御できるようになりました。</li>
+          <li><strong>セッション削除コマンドの導入 (v0.2.114以降)</strong>: 不要になった古いセッションとそのローカルデータを即座にクリーンアップできる `/delete` コマンドが追加されました。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>再ログインループの解消 (Fix)</strong>: PCのスリープ復帰や一時的なネットワークの瞬断によって、強制的に再ログインを繰り返させられる認証バグが修正されました。</li>
+          <li><strong>チャット履歴の破損バグの修正 (v0.2.115以降)</strong>: 特定のやり取りでツール呼び出しが重複し、APIから400エラーが返される状態管理の競合が解消されました。また、長文会話時のプロンプトキャッシュ効率が改善されました。</li>
+          <li><strong>UIの視認性向上</strong>: ターミナルの最小表示モードや全画面表示モードにおいて、スラッシュコマンド一覧の候補ウィンドウの描画領域と視認性が最適化されました。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>指示を誤ったりエージェントが暴走したりした際に `/undo` で手軽に以前の状態に戻せるようになったため、CLI経由での開発・試行錯誤が格段に安全になります。また、スリープ復帰時のログインエラーや状態破損などの不安定さが解消され、長時間立ち上げっぱなしで作業する際の堅牢性が増しています。</p>
+      </div>
+    </article>
+  </body>
+</html>

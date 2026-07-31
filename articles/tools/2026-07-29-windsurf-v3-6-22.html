@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OSネイティブ通知機能の統合、Codemapsのエディタ内表示、メッセージトランスクリプトの選択引用、およびバンドルされたDevin Localのv2026.5.26への更新によるコンテキスト精度強化"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Windsurf v3.6.22 - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">Windsurf v3.6.22</h1>
+      <p class="article-dek">OSネイティブ通知機能の統合、Codemapsのエディタ内表示、メッセージトランスクリプトの選択引用、およびバンドルされたDevin Localのv2026.5.26への更新によるコンテキスト精度強化</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-29</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>Windsurf</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.6.22</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>OSネイティブ通知機能の統合</strong>: バックグラウンド実行中のエージェントセッションが終了した際や、ユーザーによる確認・入力が必要となったタイミングで、OS標準のプッシュ通知をトリガーする設定が導入されました。</li>
+          <li><strong>Codemapsのエディタ内統合</strong>: ソースコードの俯瞰機能であるCodemapがエージェントウィンドウ内の専用タブで直接開くようになりました。また、Devin Localにおいて「@」メンションでのコードマップ指定が可能になりました。</li>
+          <li><strong>トランスクリプトの引用追加 (Add to Chat)</strong>: 過去のやり取り（メッセージトランスクリプト）から特定のテキストを選択し、ワンクリック（または ⌘L / Ctrl+L）でチャット入力欄へそのまま挿入できる機能が追加されました。</li>
+          <li><strong>Devin Local Agent v2026.5.26 バンドル</strong>: 統合エージェントが更新され、エディタ上で開いているファイル群を自動的にエージェントの処理コンテキストに含める機能や、MCPツールの呼び出し承認時に「このセッション中すべてのツールコールを承認」「恒久的に自動承認」などの一括許可オプションが追加されました。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>ワークツリー起動の高速化 (v3.5.17以降)</strong>: ワークツリーを使用したエージェントセッションが瞬時に立ち上がるようになり、裏で必要なローディングを続行しつつも操作の遅延を抑える最適化が図られました。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>ネイティブ通知の実装により、時間のかかる自動コード生成やデバッグをエージェントに投げたまま、他の作業をしていても完了や確認のタイミングを即時に把握できます。また、チャットから素早くテキストを引用して再指示する機能や、MCPツールの許可承認ステップの簡略化など、日々の対話ループの摩擦が大きく削減されています。</p>
+      </div>
+    </article>
+  </body>
+</html>

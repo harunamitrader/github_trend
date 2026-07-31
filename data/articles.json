@@ -188,6 +188,18 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-07-30-antigravity-agent-preview",
+      "title": "Antigravity Managed Agent Preview",
+      "dek": "サンドボックスコンテナ内で自律的計画、推論、コード実行、ファイル管理、Webブラウジングが可能なモデルのパブリックプレビュー公開",
+      "summary": "GoogleがAntigravity Agent（antigravity-preview-05-2026）をパブリックプレビューで公開。サンドボックス化されたセキュアな隔離コンテナ内で、大まかな目標から自律的に計画立案、コード実行、ファイル生成、リサーチブラウジングを実行できます。",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-30T04:02:00+09:00",
+      "toolName": "Antigravity",
+      "toolUrl": "https://antigravity.google/changelog?authuser=0",
+      "articleUrl": "./articles/tools/2026-07-30-antigravity-agent-preview.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-07-30-cline-v4-0-12",
       "title": "Cline v4.0.12",
       "dek": "無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善",
@@ -270,6 +282,42 @@
       "toolName": "NotebookLM",
       "toolUrl": "https://notebooklm.google/",
       "articleUrl": "./articles/tools/2026-07-29-notebooklm-rebranding-gemini-notebook.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-29-cursor-ipad",
+      "title": "Cursor iPad Support & India Plan",
+      "dek": "iPad対応アプリのリリース（ピン留めサイドバー、スプリット画面レビュー、Apple Pencilマークアップ対応）およびインド向け localized Plan (₹649/月) の追加",
+      "summary": "CursorがiPadに正式対応。ピン留めサイドバーチャットや画面分割レビュー、Apple Pencilでの手書きアノテーション指示入力をサポートしました。また、インド市場向けにUPI決済対応の「Cursor Start Plan」も追加されています。",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-29T04:03:00+09:00",
+      "toolName": "Cursor",
+      "toolUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-29-cursor-ipad.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-29-windsurf-v3-6-22",
+      "title": "Windsurf v3.6.22",
+      "dek": "OSネイティブ通知機能の統合、Codemapsのインサイドエディタ表示、メッセージテキスト引用、および Devin Local v2026.5.26 へのアップデート",
+      "summary": "Windsurf (Devin Desktop) がv3.6.22をリリース。バックグラウンドセッション完了時のOSプッシュ通知統合やエディタ内Codemap表示、トランスクリプトからのクイック引用のほか、バンドルされるDevin Localの文脈認識が強化されました。",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-29T04:02:00+09:00",
+      "toolName": "Windsurf",
+      "toolUrl": "https://windsurf.com/changelog",
+      "articleUrl": "./articles/tools/2026-07-29-windsurf-v3-6-22.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-29-grokcli-v0-2-116",
+      "title": "Grok CLI v0.2.116",
+      "dek": "/undo コマンドの追加、ヘッドレスストリーミング出力の改善、ログイン無限ループの修正、最小/全画面モードでのコマンド視認性向上",
+      "summary": "Grok CLI（Grok Build）がv0.2.116にアップデート。ファイルとチャット状態を直前に巻き戻せる/undo コマンドの追加やヘッドレス実行時のトークンコスト出力改善、スリープ復帰時の再ログインループ不具合の解消を行いました。",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-29T04:01:00+09:00",
+      "toolName": "Grok CLI",
+      "toolUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-07-29-grokcli-v0-2-116.html"
     },
     {
       "category": "ai-tool-log",
@@ -389,6 +437,18 @@
       "toolName": "Obsidian",
       "toolUrl": "https://obsidian.md/",
       "articleUrl": "./articles/tools/2026-07-28-obsidian-v1-13-4.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-28-github-copilot-cli-grok45",
+      "title": "GitHub Copilot CLI Grok-4.5 Support",
+      "dek": "CLIにおけるGrok-4.5モデルの対応追加、プラグイン・LSPサーバー詳細制御、Sessionsサイドバー、およびWebベースOAuthログインフローの導入",
+      "summary": "GitHub Copilot CLIが最新アップデートを公開。CLIモデルピッカーでGrok-4.5の選択が可能になったほか、プラグインやLSPなどの詳細なパラメータON/OFF制御、Session履歴用サイドバー、OAuthログインフローなどが導入されました。",
+      "publishedAt": "2026-07-28",
+      "createdAt": "2026-07-28T04:03:00+09:00",
+      "toolName": "GitHub Copilot",
+      "toolUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-07-28-github-copilot-cli-grok45.html"
     },
     {
       "category": "ai-tool-log",

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Copilot CLIがアップデート。Grok-4.5モデルの対応追加、プラグイン制御機能の拡張、SessionsサイドバーおよびWebベースOAuthフローの導入"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitHub Copilot: CLI Grok-4.5 & OAuth Update - AI Tool Log</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← ダッシュボードへ戻る</a>
+        <p class="eyebrow">AI Tool Release Log</p>
+      </div>
+
+      <h1 class="article-title">GitHub Copilot: CLI Grok-4.5 & OAuth Update</h1>
+      <p class="article-dek">GitHub Copilot CLIがアップデート。Grok-4.5モデルの対応追加、プラグイン制御機能の拡張、SessionsサイドバーおよびWebベースOAuthフローの導入</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">更新日</span>
+          <strong>2026-07-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象ツール</span>
+          <strong>GitHub Copilot</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>CLI Update</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>新機能・追加点</h2>
+        <ul>
+          <li><strong>Grok-4.5 モデルサポートの追加</strong>: Copilot CLIにおいて、xAIの最新かつ非常に高い推論能力を持つ「Grok-4.5」モデルが利用モデルの選択肢に追加されました。</li>
+          <li><strong>プラグイン・フックの詳細な制御オプション</strong>: コマンドライン実行時に、適用するプラグイン（Plugins）、カスタム指示ファイル（Instructions）、自動化エージェント（Agents）、LSP診断（LSP servers）、およびGitフック（Hooks）を個別に有効化・無効化できる柔軟なパラメータが追加されました。</li>
+          <li><strong>Sessions サイドバーの新規導入</strong>: 過去に実行した対話セッションの履歴や作業コンテキストを素早く確認・再開できる「Sessions」サイドバーがCLI管理機能に統合されました。</li>
+          <li><strong>Webベースの OAuth ログインフローのサポート</strong>: ローカルターミナル上での認証を円滑にするため、ブラウザを自動的に開いてOAuth認証を行う仕組みが導入され、従来の手動トークン貼り付けなどの煩わしさが解消されました。</li>
+        </ul>
+
+        <h2>バグ修正・改善点</h2>
+        <ul>
+          <li><strong>オートパイロット（Autopilot）処理の改善</strong>: バックグラウンドでのタスク自動進行時における、不要な待機プロセスの最適化と、プロンプト解釈の整合性が高められました。</li>
+        </ul>
+
+        <h2>開発者への影響</h2>
+        <p>Grok-4.5の追加により、複雑なアルゴリズムの選定や複数ファイルをまたぐ高度なリファクタリングにおいて、さらに高い適合率でのコード生成が期待できます。また、ブラウザ経由のOAuthログインの導入や各種診断機能の細かなON/OFF設定が整備されたことで、組織のポリシーやローカルリソースの状況に合わせた快適なCLI運用が可能になりました。</p>
+      </div>
+    </article>
+  </body>
+</html>

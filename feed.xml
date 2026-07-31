@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Jul 2026 19:47:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 04:04:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-07-31 アップデートレポート]]></title>
@@ -104,6 +104,14 @@
       <description><![CDATA[Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート]]></description>
     </item>
     <item>
+      <title><![CDATA[Antigravity Managed Agent Preview]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-antigravity-agent-preview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-antigravity-agent-preview.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サンドボックスコンテナ内で自律的計画、推論、コード実行、ファイル管理、Webブラウジングが可能なモデルのパブリックプレビュー公開]]></description>
+    </item>
+    <item>
       <title><![CDATA[Cline v4.0.12]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</guid>
@@ -152,20 +160,12 @@
       <description><![CDATA[NotebookLMから「Gemini Notebook」への名称変更と、Pythonコード実行機能の導入による分析性能の向上]]></description>
     </item>
     <item>
-      <title><![CDATA[Gemini CLI v0.54.0-nightly.20260728]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-gemini-cli-v0-54-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-gemini-cli-v0-54-0-nightly.html</guid>
+      <title><![CDATA[Cursor iPad Support & India Plan]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-cursor-ipad.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-29-cursor-ipad.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ファイルベースのキーチェーン機能における、明示的なタグ長の強制および検証の強化によるセキュリティ不具合の修正]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-28 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-28-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-28-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+      <description><![CDATA[iPad対応アプリのリリース（ピン留めサイドバー、スプリット画面レビュー、Apple Pencilマークアップ対応）およびインド向け localized Plan (₹649/月) の追加]]></description>
     </item>
   </channel>
 </rss>
