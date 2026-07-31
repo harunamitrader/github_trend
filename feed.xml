@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jul 2026 19:18:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 04:47:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-08-01 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-01-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-01-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[reverse-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-zhaoxuya520-reverse-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-zhaoxuya520-reverse-skill.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに逆向エンジニアリングやセキュリティ検証時の正しい手順とツール選定を指示・実行させるスキルルーターパック]]></description>
+    </item>
+    <item>
+      <title><![CDATA[kaneo]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-usekaneo-kaneo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-usekaneo-kaneo.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[動作が軽快で余計な機能を排除した、セルフホスト可能なオープンソースのプロジェクト管理ツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ESP32-Bit-Pirate]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-geo-tp-ESP32-Bit-Pirate.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-geo-tp-ESP32-Bit-Pirate.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ESP32-S3などを多機能なプロトコル開発・解析ツールに変身させるオープンソースファームウェア]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-07-31 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-31-update-report.html</link>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[サンドボックスコンテナ内で自律的計画、推論、コード実行、ファイル管理、Webブラウジングが可能なモデルのパブリックプレビュー公開]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.0.12]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-cline-v4-0-12.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[無料モデル枠制限用のリセット時間の表示サポート、およびCLIでの途中応答保持の改善]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-29 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-29-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-29-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[speech-to-speech]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-huggingface-speech-to-speech.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-huggingface-speech-to-speech.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカル環境で動作する、リアルタイム対話可能な音声AIエージェントを構築するオープンソースフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[book-to-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-virgiliojr94-book-to-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-29-virgiliojr94-book-to-skill.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[技術書やドキュメントPDFを、Claude CodeやCopilot向けの構造化されたAIエージェント用「スキル」へ変換するツール]]></description>
     </item>
   </channel>
 </rss>
