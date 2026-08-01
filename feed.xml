@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jul 2026 19:48:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 04:02:16 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.55.0-nightly.20260801]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[nightlyリリースにおける最新の内部バグ修正と動作安定化の向上]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Devin Desktop (Windsurf) Agent Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-windsurf-agent-command-center.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-windsurf-agent-command-center.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agent Command Centerへのリスト表示・ソート・フィルタ追加、Devin Review全員開放、およびIDEの各種バグ修正を含むアップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-08-01 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-01-update-report.html</link>
@@ -38,6 +54,22 @@
       <category>github-trending</category>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ESP32-S3などを多機能なプロトコル開発・解析ツールに変身させるオープンソースファームウェア]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v4.1.2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-cline-v4-1-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-cline-v4-1-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[従来版とSDKベース新型の両方を内包するA/Bテスト用ハイブリッドパッケージへの移行、およびAboutページへのアクティブ識別表示]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI 2026-07-31 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-grokcli-monorepo-sync.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-grokcli-monorepo-sync.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[サブエージェント等のコンパクション越え保持、/btw自動リトライ、およびAPI「予算超過」エラーの自動判定などを導入したモノレポ同期アップデート]]></description>
     </item>
     <item>
       <title><![CDATA[2026-07-31 アップデートレポート]]></title>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[人間とAIエージェントが協調して動作する、永続的なファイルシステムを備えた長期タスクハブ「Projects」の導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian v1.13 Public Release]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-obsidian-v1-13-ga.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-obsidian-v1-13-ga.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[設定パネルの刷新、iOS共有シート対応、スクロール性能の改善などを含む一般向け新バージョンの一般提供開始]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.7.2-beta.5]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-openclaw-v2026-7-2-beta-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DB保護のためのクアランティンストア、メッセージ永続回収、セッション巻き戻し・分岐、およびチケット型MCP Appとダッシュボードの導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.55.0-nightly.20260729]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-cli-v0-55-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Firestoreの二重ロック競合制御、およびAntigravity Agentランナー・プロンプトの新規実装を含むナイトリーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Antigravity Managed Agent Preview]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-antigravity-agent-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-antigravity-agent-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サンドボックスコンテナ内で自律的計画、推論、コード実行、ファイル管理、Webブラウジングが可能なモデルのパブリックプレビュー公開]]></description>
     </item>
   </channel>
 </rss>
