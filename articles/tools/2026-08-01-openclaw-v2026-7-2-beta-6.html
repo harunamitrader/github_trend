@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="状態の安全性と復旧の強化（クアランティンストア・SQLiteスナップショット）、メッセージの永続的配信、およびトランスクリプトの巻き戻し・分岐を導入した最新ベータ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.7.2-beta.6</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">OpenClaw / Product Update</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.7.2-beta.6</h1>
+      <p class="article-dek">状態の安全性と復旧の強化（クアランティンストア・SQLiteスナップショット）、メッセージの永続的配信、およびトランスクリプトの巻き戻し・分岐を導入した最新ベータ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-01</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.7.2-beta.6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClawの最新ベータ版（v2026.7.2-beta.6）がリリースされました。主な変更および強化内容は以下の通りです。</p>
+        <ul>
+          <li><strong>状態の安全性とデータ復旧の強化:</strong> メインデータベースの破損時にもデータを保護する「クアランティン（隔離）ストア」、クラッシュ復旧可能なSQLiteスナップショット、データの損失を防ぐスキーマアップグレード制限等を導入。</li>
+          <li><strong>Durable channel delivery:</strong> ゲートウェイの再起動やクラッシュを跨いでメッセージを保護・復旧する「共有イングレスドレイン」と「デッドレターリカバリ」を導入（Telegram, Signal, Slack, QQBot等に対応）。</li>
+          <li><strong>セッション巻き戻しと分岐（Branching）:</strong> トランスクリプト（会話履歴）の特定のメッセージからの巻き戻しやフォーク、複数ブランチの切り替えが可能に。</li>
+          <li><strong>インタラクティブなMCP Appとダッシュボード:</strong> チケット型のMCPアプリのホストに対応し、ツールやリソースのバインド、サンドボックスの強化、および永続的ダッシュボードへのピン留めを実現。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>データベースのクラッシュ対策やメッセージ送信の耐障害性が向上し、長期間にわたるエージェント会話の巻き戻しや別ルートでのテストが自由に行えるようになります。</p>
+
+        <h2>まとめ</h2>
+        <p>データ整合性とメッセージ配信の信頼性を極限まで高めつつ、会話履歴の分岐やMCPアプリ連携など自律開発を加速させる革新的なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6" target="_blank" rel="noreferrer">OpenClaw Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

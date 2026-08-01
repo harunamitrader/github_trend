@@ -8,6 +8,50 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-01-openclaw-v2026-7-2-beta-6",
+      "title": "OpenClaw v2026.7.2-beta.6",
+      "dek": "状態の安全性と復旧の強化（クアランティンストア・SQLiteスナップショット）、メッセージの永続的配信、およびトランスクリプトの巻き戻し・分岐を導入した最新ベータ",
+      "summary": "OpenClaw v2026.7.2-beta.6リリース。クアランティンストアやSQLiteスナップショット等の状態保護、複数チャンネル（Telegram等）でのメッセージ永続保護、会話の巻き戻し・分岐(Branching)、チケット型MCP Appとダッシュボードなどを導入。",
+      "publishedAt": "2026-08-01",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-01-chatgpt-chrome-extension",
+      "title": "ChatGPT Chrome Extension & Academic Workspaces",
+      "dek": "Atlasブラウザ廃止に伴うYouTube要約・右クリックAsk・タブメンション等の新機能を搭載したChrome拡張機能アップデート、および学術研究者向け無償枠の提供",
+      "summary": "Atlasブラウザ廃止（8/9）に伴いChrome拡張機能を刷新し、YouTube質問、Askメニュー、タブ要約などを追加。学術研究チーム向け無料Workspace一般提供、o3モデル退役（8/26）などを発表。",
+      "publishedAt": "2026-08-01",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://help.openai.com/en/collections/3742473-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-08-01-chatgpt-chrome-extension.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-01-claude-workbench-sunset",
+      "title": "Claude Workbench Sunset & Opus 4.1 EOL",
+      "dek": "レガシーなWorkbenchプラットフォームの廃止計画（8月17日アクセス終了）、および旧Opus 4.1モデルのサポート終了（8月5日）に伴うアナウンス",
+      "summary": "AnthropicがレガシーWorkbenchプラットフォームの廃止（8/17）と、初期の「Claude Opus 4.1」モデルの公式サポート終了（8/5）を発表。最新のOpus 5やSonnet 5への移行を案内しています。",
+      "publishedAt": "2026-08-01",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://www.anthropic.com/news",
+      "articleUrl": "./articles/tools/2026-08-01-claude-workbench-sunset.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-01-grok-think-fast-2-0",
+      "title": "Grok Voice Think Fast 2.0",
+      "dek": "書き起こし精度1.4倍向上、低遅延化、より自然な発話スタイルを実現した音声対話モデルの最新アップデート",
+      "summary": "xAIが次世代リアルタイム音声対話モデル「Grok Voice Think Fast 2.0」を発表。認識精度が1.4倍向上し、発話がより自然に。開発者向けAPIエイリアス grok-voice-latest は8/5に自動移行します。",
+      "publishedAt": "2026-08-01",
+      "repoName": "xai/grok",
+      "repoUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-08-01-grok-think-fast-2-0.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-01-geminicli-v0-55-0-nightly",
       "title": "Gemini CLI v0.55.0-nightly.20260801",
       "dek": "nightlyリリースにおける最新の内部バグ修正と動作安定化の向上",
