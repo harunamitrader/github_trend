@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 Aug 2026 19:03:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 04:16:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.7.2-beta.6]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[状態の安全性と復旧の強化（クアランティンストア・SQLiteスナップショット）、メッセージの永続的配信、およびトランスクリプトの巻き戻し・分岐を導入した最新ベータ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT Chrome Extension & Academic Workspaces]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-chatgpt-chrome-extension.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-chatgpt-chrome-extension.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Atlasブラウザ廃止に伴うYouTube要約・右クリックAsk・タブメンション等の新機能を搭載したChrome拡張機能アップデート、および学術研究者向け無償枠の提供]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Workbench Sunset & Opus 4.1 EOL]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-claude-workbench-sunset.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-claude-workbench-sunset.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[レガシーなWorkbenchプラットフォームの廃止計画（8月17日アクセス終了）、および旧Opus 4.1モデルのサポート終了（8月5日）に伴うアナウンス]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok Voice Think Fast 2.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-grok-think-fast-2-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-grok-think-fast-2-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[書き起こし精度1.4倍向上、低遅延化、より自然な発話スタイルを実現した音声対話モデルの最新アップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.55.0-nightly.20260801]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ローカルファーストで動作し、プロバイダーを自由に選択可能なオープンソースAIコーディングエージェント]]></description>
-    </item>
-    <item>
-      <title><![CDATA[flashkda]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-moonshotai-flashkda.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-moonshotai-flashkda.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Kimi Delta Attention (KDA) のためのCUDA最適化超高速アテンションカーネルライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ane]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-maderix-ane.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-maderix-ane.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apple Neural Engine (ANE) を用いたニューラルネットワークの直接トレーニングとリバースエンジニアリングプロジェクト]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini Robotics ER 2 Public Preview]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-robotics-er-2-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-gemini-robotics-er-2-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[体現的推論（embodied reasoning）、複数ロボットの協調、およびリアルタイムストリーミングに対応したロボティクス向け新モデルの公開]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity Projects Launch]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-perplexity-projects.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-30-perplexity-projects.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人間とAIエージェントが協調して動作する、永続的なファイルシステムを備えた長期タスクハブ「Projects」の導入]]></description>
     </item>
   </channel>
 </rss>
