@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="従来版とSDKベース新型の両方を内包するA/Bテスト用ハイブリッドパッケージへの移行、およびAboutページへのアクティブ識別表示"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v4.1.2</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Cline / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Cline v4.1.2</h1>
+      <p class="article-dek">従来版とSDKベース新型の両方を内包するA/Bテスト用ハイブリッドパッケージへの移行、およびAboutページへのアクティブ識別表示</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-07-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.1.2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Clineは、安定版拡張機能を「従来版（legacy）」と「SDKベースの新型（next）」の両方を同梱したハイブリッドA/Bパッケージへと移行させました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>A/Bテスト用ハイブリッドパッケージ:</strong> 1つのVSIXの中にLegacy版とNext版の両方を同梱し、ローダーが起動時にどちらか一方を自動ロードする仕組みを導入。最初は1%のユーザーからNext版に切り替わります。</li>
+          <li><strong>フォールバック保護機能:</strong> 万が一Next版のロードが失敗した場合、自動的にLegacy版にフォールバックしてクラッシュを防ぎます。</li>
+          <li><strong>アクティブ種別の表示:</strong> 設定（About）ページにて、現在「Legacy」と「Next」のどちらの拡張機能がアクティブになっているかをバージョン情報と並べて表示。</li>
+          <li><strong>McpHubのクリーンアップ:</strong> MCPツール呼び出し時のルーティング方式を一時的なメモリIDから永続的なサーバー名ベースに変更し、再起動やサーバー変更時でもツール呼び出しが正常にルーティングされるよう改善。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>設定やクレデンシャルは両方のバージョンで共有されるため、移行時の設定損失はありません。動作が安定するにつれて、SDKベースの軽量かつ多機能な新型へ徐々に自動移行されます。</p>
+
+        <h2>まとめ</h2>
+        <p>SDKベースへの段階移行のためのA/Bテストパッケージ移行が主たる変更であり、安全かつシームレスに新機能を適用するための基盤が整備されました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v4.1.2" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

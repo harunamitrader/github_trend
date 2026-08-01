@@ -7,6 +7,50 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-01-geminicli-v0-55-0-nightly",
+      "title": "Gemini CLI v0.55.0-nightly.20260801",
+      "dek": "nightlyリリースにおける最新の内部バグ修正と動作安定化の向上",
+      "summary": "npmパッケージ @google/gemini-cli の最新nightlyビルドを公開。内部挙動の調整、依存ライブラリのバンプ、エラーハンドリングの強化による動作安定化を実施。",
+      "publishedAt": "2026-08-01",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-01-windsurf-agent-command-center",
+      "title": "Devin Desktop (Windsurf) Agent Update",
+      "dek": "Agent Command Centerへのリスト表示・ソート・フィルタ追加、Devin Review全員開放、およびIDEの各種バグ修正を含むアップデート",
+      "summary": "Devin Desktop (旧Windsurf) において自律開発を支えるUIを更新。インボックスのリスト化やソート・フィルタ機能、Devin Reviewの全開放、さらにWindowsでのショートカットバグやIDEフリーズの修正を実施。",
+      "publishedAt": "2026-08-01",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://devin.ai",
+      "articleUrl": "./articles/tools/2026-08-01-windsurf-agent-command-center.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-31-cline-v4-1-2",
+      "title": "Cline v4.1.2",
+      "dek": "従来版とSDKベース新型の両方を内包するA/Bテスト用ハイブリッドパッケージへの移行、およびAboutページへのアクティブ識別表示",
+      "summary": "安定版Clineを従来版(legacy)と新型(next)のハイブリッドA/Bパッケージへ移行。Aboutページでのアクティブ識別表示や、McpHubにおけるメモリIDから永続的サーバー名へのルーティング改善を適用しました。",
+      "publishedAt": "2026-07-31",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-07-31-cline-v4-1-2.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-07-31-grokcli-monorepo-sync",
+      "title": "Grok CLI 2026-07-31 Update",
+      "dek": "サブエージェント等のコンパクション越え保持、/btw自動リトライ、およびAPI「予算超過」エラーの自動判定などを導入したモノレポ同期アップデート",
+      "summary": "xai-org/grok-build の最新コミットアップデート。コンパクションを跨いだサブエージェント保持、モデル過負荷時のリトライ強化、API予算超過の検知、セッション終了時のPTY資源一括解放などを統合。",
+      "publishedAt": "2026-07-31",
+      "repoName": "xai-org/grok-build",
+      "repoUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-07-31-grokcli-monorepo-sync.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-01-update-report",
       "title": "2026-08-01 アップデートレポート",
