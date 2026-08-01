@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 Aug 2026 19:17:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 04:46:38 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-08-02 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-02-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-02-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[generative-ai-for-beginners]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-microsoft-generative-ai-for-beginners.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-microsoft-generative-ai-for-beginners.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoftによる、生成AIアプリケーション開発を体系的に学ぶための全21レッスンのオープンソース教材]]></description>
+    </item>
+    <item>
+      <title><![CDATA[gh-stack]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-github-gh-stack.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-github-gh-stack.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub公式による、Stacked PRs（連鎖的プルリクエスト）の管理と同期を自動化するGitHub CLI拡張機能]]></description>
+    </item>
+    <item>
+      <title><![CDATA[voice-pro]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-abus-aikorea-voice-pro.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-abus-aikorea-voice-pro.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[音声認識、ゼロショット音声クローニング、翻訳、YouTube動画ダビングを統合したGradio製WebUIツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[invidious]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-iv-org-invidious.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-iv-org-invidious.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[広告・トラッキングを排除し、JavaScript非依存でも動作するYouTubeのオープンソース代替Webフロントエンド]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TencentDB-Agent-Memory]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-TencentCloud-TencentDB-Agent-Memory.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-02-TencentCloud-TencentDB-Agent-Memory.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントのトークン消費を最大61%削減し、会話・知識を階層的に管理するチーム向けメモリハブ]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.7.2-beta.6]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Microsoftが構築した、12週間・24講義からなる初心者向けの包括的AI学習カリキュラム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[baileys]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-whiskeysockets-baileys.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-whiskeysockets-baileys.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Selenium等を使わずにWhatsApp Web APIと直接WebSocketsで通信する、軽量・多機能なTypeScriptライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tuicr]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-agavra-tuicr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-31-agavra-tuicr.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vim風の操作体系を備えた、ターミナルで動作するRust製のローカルコードレビュー（TUI）ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-07-30 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-30-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-07-30-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[snipe-it]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-grokability-snipe-it.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-grokability-snipe-it.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[企業向けのIT資産、PC端末、ソフトウェアライセンスをWeb上で一元管理するオープンソースシステム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[faceswap]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-deepfakes-faceswap.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-deepfakes-faceswap.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ディープラーニングを用いた画像・映像 of 顔入れ替え（ディープフェイク）オープンソースソフトウェア]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openwork]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-different-ai-openwork.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-07-30-different-ai-openwork.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカルファーストで動作し、プロバイダーを自由に選択可能なオープンソースAIコーディングエージェント]]></description>
     </item>
   </channel>
 </rss>
