@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Aug 2026 19:17:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 04:46:41 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-08-03 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-03-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-03-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[k-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-03-NomaDamas-k-skill.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-03-NomaDamas-k-skill.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[韓国の高速鉄道予約や行政・交通・生活特化のAPIをAIエージェントに統合するNode.js製カスタムスキル集]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Lighthouse]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-03-HarbourMasters-Lighthouse.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-03-HarbourMasters-Lighthouse.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[名作N64ソフト「バンジョーとカズーイの大冒険」をPC上でエミュレータなしでネイティブ動作させる、非公式移植エンジン]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.7.2-beta.7]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-openclaw-v2026-7-2-beta-7.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[動作が軽快で余計な機能を排除した、セルフホスト可能なオープンソースのプロジェクト管理ツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ESP32-Bit-Pirate]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-geo-tp-ESP32-Bit-Pirate.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-geo-tp-ESP32-Bit-Pirate.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ESP32-S3などを多機能なプロトコル開発・解析ツールに変身させるオープンソースファームウェア]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v4.1.2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-cline-v4-1-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-cline-v4-1-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[従来版とSDKベース新型の両方を内包するA/Bテスト用ハイブリッドパッケージへの移行、およびAboutページへのアクティブ識別表示]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI 2026-07-31 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-grokcli-monorepo-sync.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-07-31-grokcli-monorepo-sync.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サブエージェント等のコンパクション越え保持、/btw自動リトライ、およびAPI「予算超過」エラーの自動判定などを導入したモノレポ同期アップデート]]></description>
     </item>
   </channel>
 </rss>
