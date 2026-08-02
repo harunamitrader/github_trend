@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-02-openclaw-v2026-7-2-beta-7",
+      "title": "OpenClaw v2026.7.2-beta.7",
+      "dek": "状態の安全性とデータ保護のさらなる堅牢化、およびバグ修正を含んだマイナーアップデート",
+      "summary": "OpenClaw v2026.7.2-beta.7を公開。クアランティンストアおよびSQLiteスナップショットのリカバリ能力を向上。TelegramやSlackを跨いだDurable channel deliveryの安定化や細かなバグ修正を実施。",
+      "publishedAt": "2026-08-02",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-08-02-openclaw-v2026-7-2-beta-7.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-02-grok-imagine-video-1-5",
+      "title": "Grok Imagine Video 1.5 Update",
+      "dek": "Text-to-Video機能の追加、1080pネイティブ出力、および最大7つの画像・音声リファレンスによる一貫性制御を導入した映像生成モデルのアップデート",
+      "summary": "Grokに搭載される映像生成モデル Imagine Video 1.5 が更新。テキストからの動画生成をサポートしたほか、1080p出力対応、最大7つの画像/音声リファレンスによる一貫性保持を追加。",
+      "publishedAt": "2026-08-02",
+      "repoName": "xai/grok",
+      "repoUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-08-02-grok-imagine-video-1-5.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-02-update-report",
       "title": "2026-08-02 アップデートレポート",
