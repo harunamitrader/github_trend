@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 Aug 2026 19:02:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 04:16:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT Model Deprecation Notice (August 2026)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-chatgpt-model-deprecation-august.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-chatgpt-model-deprecation-august.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[gpt-5.2-chat-latestおよびgpt-5.3-chat-latestモデルの廃止予定（8月10日シャットダウン）に伴うAPI移行 of 案内]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.55.0-nightly.20260803]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-geminicli-v0-55-0-nightly-20260803.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[nightlyリリースにおける最新の内部バグ修正と動作安定化の向上]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Devin Desktop (Windsurf) Agent Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-windsurf-agent-command-center.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-windsurf-agent-command-center.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agent Command Centerへのリスト表示・ソート・フィルタ追加、Devin Review全員開放、およびIDEの各種バグ修正を含むアップデート]]></description>
     </item>
   </channel>
 </rss>

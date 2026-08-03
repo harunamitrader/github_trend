@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="gpt-5.2-chat-latestおよびgpt-5.3-chat-latestモデルの廃止予定（8月10日シャットダウン）に伴うAPI移行の案内"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ChatGPT Model Deprecation Notice (August 2026)</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">ChatGPT / Product Update</p>
+      </div>
+
+      <h1 class="article-title">ChatGPT Model Deprecation Notice (August 2026)</h1>
+      <p class="article-dek">gpt-5.2-chat-latestおよびgpt-5.3-chat-latestモデルの廃止予定（8月10日シャットダウン）に伴うAPI移行の案内</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">発表日</span>
+          <strong>2026-08-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">お知らせ</span>
+          <strong>モデル廃止案内</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>ChatGPT</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAIは、API経由で利用されている一部の旧モデルについて、公式の廃止スケジュールを発表しました。主な内容は以下の通りです。</p>
+        <ul>
+          <li><strong>対象モデルのシャットダウン:</strong> <code>gpt-5.2-chat-latest</code> および <code>gpt-5.3-chat-latest</code> モデルが <strong>2026年8月10日</strong> に廃止・停止されます。</li>
+          <li><strong>推奨される移行先:</strong> 開発者は、サービスの中断を防ぐために、最新の <code>gpt-5.6-sol</code> などの新しいモデルファミリーへ移行する必要があります。</li>
+          <li><strong>Codex上のモデル廃止予告:</strong> Codex環境における <code>gpt-5.4</code> および <code>gpt-5.4 mini</code> についても、<strong>2026年8月31日</strong> に廃止される予定です（後継は <code>gpt-5.6-terra</code> および <code>gpt-5.6-luna</code>）。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>API経由でこれらの特定モデルを指定して連携しているシステムを開発・運用している場合、指定モデルIDを最新のモデルに書き換える作業が必要です。ChatGPT一般Web版やデスクトップアプリのユーザーには直接の影響はありません。</p>
+
+        <h2>まとめ</h2>
+        <p>8月10日に控えた旧GPT-5.2/5.3モデルのシャットダウン、および8月末のCodexモデル廃止に向けた、開発者向けの移行猶予アナウンスです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://help.openai.com" target="_blank" rel="noreferrer">OpenAI Help Center</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

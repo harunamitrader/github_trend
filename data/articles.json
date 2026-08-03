@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-03-chatgpt-model-deprecation-august",
+      "title": "ChatGPT Model Deprecation Notice (August 2026)",
+      "dek": "gpt-5.2-chat-latestおよびgpt-5.3-chat-latestモデルの廃止予定（8月10日シャットダウン）に伴うAPI移行 of 案内",
+      "summary": "OpenAIがAPIの旧モデル廃止スケジュールを発表。gpt-5.2-chat-latestおよびgpt-5.3-chat-latestは8月10日にシャットダウンされ、gpt-5.6-sol等への移行が推奨されます。さらにCodex上のgpt-5.4系も8月31日に廃止予定。",
+      "publishedAt": "2026-08-03",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://help.openai.com",
+      "articleUrl": "./articles/tools/2026-08-03-chatgpt-model-deprecation-august.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-03-geminicli-v0-55-0-nightly-20260803",
       "title": "Gemini CLI v0.55.0-nightly.20260803",
       "dek": "nightlyリリースにおける動作의 安定性向上と内部バグ修正",
