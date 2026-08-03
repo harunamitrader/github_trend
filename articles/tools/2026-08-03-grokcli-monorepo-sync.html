@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="プロジェクトディレクトリ選択の整理、および外部認証切れ時のエラー挙動改善などを導入したモノレポ同期アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI 2026-08-03 Update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Grok CLI / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI 2026-08-03 Update</h1>
+      <p class="article-dek">プロジェクトディレクトリ選択の整理、および外部認証切れ時のエラー挙動改善などを導入したモノレポ同期アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>Commit: e5478ef</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>xai-org/grok-build の最新モノレポ同期アップデートが公開されました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>プロジェクトディレクトリ選択UIの整理:</strong> ツール起動時にディレクトリ選択を省略する調整を行いました。</li>
+          <li><strong>外部バイナリ認証フローの修正:</strong> 資格情報切れが発生した際、401無限ループに陥るのを防ぎ、適切に新規ログインフロー（Sign-in flow）へユーザーを誘導するよう修正。</li>
+          <li><strong>ファイル監視の安定化:</strong> ファイル監視時に入れ子になった（nested）チェックアウトの監視処理をスキップし、不要なIOイベントのループを防止しました。</li>
+          <li><strong>TUI表示の利便性向上:</strong> 出力画面上のナビゲーションアイコン「▲」をクリックすることで、レスポンスの先頭まで瞬時にスクロール（ジャンプ）できる機能を追加。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>資格情報切れでのハングアップやファイル監視起因の負荷上昇が抑えられるため、CLI対話型開発環境のレスポンスが改善されます。</p>
+
+        <h2>まとめ</h2>
+        <p>認証無限ループの防止やファイル監視ループの抑止、スクロール利便性向上など、TUI開発での安定性と操作性を向上させるモノレポ同期アップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/xai-org/grok-build" target="_blank" rel="noreferrer">xai-org/grok-build</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -7,6 +7,39 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-03-geminicli-v0-55-0-nightly-20260803",
+      "title": "Gemini CLI v0.55.0-nightly.20260803",
+      "dek": "nightlyリリースにおける動作의 安定性向上と内部バグ修正",
+      "summary": "npmパッケージ @google/gemini-cli の最新nightlyビルドを公開。内部API接続処理の調整、依存ライブラリのバンプ、エラーハンドリングの強化による動作安定化を実施。",
+      "publishedAt": "2026-08-03",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://www.npmjs.com/package/@google/gemini-cli",
+      "articleUrl": "./articles/tools/2026-08-03-geminicli-v0-55-0-nightly-20260803.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-03-grokcli-monorepo-sync",
+      "title": "Grok CLI 2026-08-03 Update",
+      "dek": "プロジェクトディレクトリ選択の整理、および外部認証切れ時のエラー挙動改善などを導入したモノレポ同期アップデート",
+      "summary": "xai-org/grok-build の最新コミットアップデート。プロジェクト選択ダイアログの簡素化、外部認証トークン失効時の401無限ループ防止、入れ子監視の回避によるファイル変更イベントの安定化、TUIスクロール操作の改善を実施。",
+      "publishedAt": "2026-08-03",
+      "repoName": "xai-org/grok-build",
+      "repoUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-08-03-grokcli-monorepo-sync.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-02-cline-v4-1-3",
+      "title": "Cline v4.1.3",
+      "dek": "Combined Rolloutパッケージでのアカウントセッション競合の解消やチェックポイントの安定性向上などの不具合修正アップデート",
+      "summary": "Cline v4.1.3リリース。legacy版とnext版の間でのセッション競合の修正、チェックポイントの確実な作成とワークスペース全体の巻き戻しへの強化、ターミナルコマンド終了検知の修正を実施。",
+      "publishedAt": "2026-08-02",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-08-02-cline-v4-1-3.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-03-update-report",
       "title": "2026-08-03 アップデートレポート",

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Aug 2026 19:48:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 04:00:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.55.0-nightly.20260803]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-geminicli-v0-55-0-nightly-20260803.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-geminicli-v0-55-0-nightly-20260803.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[nightlyリリースにおける動作의 安定性向上と内部バグ修正]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI 2026-08-03 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-grokcli-monorepo-sync.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-grokcli-monorepo-sync.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロジェクトディレクトリ選択の整理、および外部認証切れ時のエラー挙動改善などを導入したモノレポ同期アップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-08-03 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-03-update-report.html</link>
@@ -30,6 +46,14 @@
       <category>github-trending</category>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[名作N64ソフト「バンジョーとカズーイの大冒険」をPC上でエミュレータなしでネイティブ動作させる、非公式移植エンジン]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v4.1.3]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-cline-v4-1-3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-cline-v4-1-3.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Combined Rolloutパッケージでのアカウントセッション競合の解消やチェックポイントの安定性向上などの不具合修正アップデート]]></description>
     </item>
     <item>
       <title><![CDATA[OpenClaw v2026.7.2-beta.7]]></title>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Agent Command Centerへのリスト表示・ソート・フィルタ追加、Devin Review全員開放、およびIDEの各種バグ修正を含むアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-08-01 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-01-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-01-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[reverse-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-zhaoxuya520-reverse-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-zhaoxuya520-reverse-skill.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに逆向エンジニアリングやセキュリティ検証時の正しい手順とツール選定を指示・実行させるスキルルーターパック]]></description>
-    </item>
-    <item>
-      <title><![CDATA[kaneo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-usekaneo-kaneo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-01-usekaneo-kaneo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[動作が軽快で余計な機能を排除した、セルフホスト可能なオープンソースのプロジェクト管理ツール]]></description>
     </item>
   </channel>
 </rss>
