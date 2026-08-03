@@ -25,7 +25,7 @@ const STORY_SLIDES = [
     image: './assets/story/03-authentication.png',
     chapter: 'INCIDENT 03 / AUTHENTICATION',
     title: 'あなたの知識が、世界を守る。',
-    body: '表示された国の位置を地図上で認証せよ。すべてが終わったとき、残るのは――あなたの知る世界。',
+    body: '地図上で照準された国を、4つの国名から認証せよ。すべてが終わったとき、残るのは――あなたの知る世界。',
   },
 ];
 
@@ -119,6 +119,7 @@ function makeRun(modeId, quizType = 'location') {
     targetId: null,
     selectedId: null,
     choiceIds: [],
+    answerResult: null,
     round: 0,
     deadline: 0,
     stats: { correct: 0, wrong: 0, timeout: 0, streak: 0, maxStreak: 0 },
@@ -204,7 +205,7 @@ function renderIntro() {
         </div>
       </div>
       <div>
-        <p class="intro-brief">あなたは押してはいけないボタンを押した。表示される国の位置を地図上で認証し、終末兵器の攻撃命令を止めよう。</p>
+        <p class="intro-brief">あなたは押してはいけないボタンを押した。地図上の照準を読み、4つの国名から正しい国を認証して、終末兵器の攻撃命令を止めよう。</p>
         <button class="primary-button" data-action="story">管制端末を起動する</button>
       </div>
     </section>`;
@@ -241,7 +242,7 @@ function renderModes() {
     const record = getRegionProgress(id);
     const count = gameData.regionCounts[id];
     const keyLabel = record.keys ? `管制キー ${'◆'.repeat(record.keys)}${'◇'.repeat(3 - record.keys)}` : '未奪還';
-    return `<button class="mode-card" data-action="quiz-type" data-mode="${id}">
+    return `<button class="mode-card" data-action="briefing" data-mode="${id}" data-quiz="choice">
       <span class="mode-name">${region.name}</span><span class="keys">${keyLabel}</span>
       <span class="mode-meta">${region.console}　/　${count}国・地域</span>
     </button>`;
@@ -251,12 +252,12 @@ function renderModes() {
     <section class="screen page">
       <header class="page-header"><div><div class="eyebrow">REGIONAL COMMAND</div><h2>作戦を選択</h2><p class="header-sub">6地域の管制権限を取り戻せ。</p></div><button class="back-button" data-action="intro">終了</button></header>
       <div class="mode-list">${regionalCards}
-        <button class="mode-card ${unlocked ? '' : 'locked'}" data-action="quiz-type" data-mode="world" ${unlocked ? '' : 'disabled'}>
+        <button class="mode-card ${unlocked ? '' : 'locked'}" data-action="briefing" data-mode="world" data-quiz="choice" ${unlocked ? '' : 'disabled'}>
           <span class="mode-name">全世界</span><span class="keys">${unlocked ? '最終作戦：開始可能' : 'LOCKED'}</span>
           <span class="mode-meta">中央管制システム　/　196国・地域</span>
         </button>
       </div>
-      <p class="mode-note">地域をC評価以上でクリアすると管制キーを獲得。6地域すべてのキーで「全世界」が解放される。</p>
+      <p class="mode-note">地図の照準を読み、4つの国名から認証する。地域をC評価以上でクリアすると管制キーを獲得。</p>
   </section>`;
 }
 
@@ -282,7 +283,7 @@ function renderQuizTypeSelect(modeId) {
     </section>`;
 }
 
-function renderBriefing(modeId, quizType = 'location') {
+function renderBriefing(modeId, quizType = 'choice') {
   run = makeRun(modeId, quizType);
   const total = totalForRun();
   const region = REGIONS[modeId];
@@ -293,7 +294,7 @@ function renderBriefing(modeId, quizType = 'location') {
       <p class="lead">終末兵器の攻撃命令が、この地域へ向かっている。${quiz.briefing}</p>
       <div class="briefing-grid"><div><strong>${total.countries}</strong><span>対象国・地域</span></div><div><strong>${ROUND_SECONDS}</strong><span>1問の秒数（仮）</span></div><div><strong>196</strong><span>世界の総数</span></div></div>
       ${modeId === 'world' ? `<div class="mission-box">最終作戦。地域別作戦の結果は引き継がれない。残るのは、今回あなたが救えた世界だけだ。</div>` : `<div class="mission-box">地域クリア条件：正解率50%以上、救出国率60%以上、さらに人口または面積を70%以上救出。</div>`}
-      <div class="briefing-actions"><button class="primary-button" data-action="start">${quiz.short}を開始する</button><button class="outline-button" data-action="quiz-type" data-mode="${modeId}">認証方式を選び直す</button></div>
+      <div class="briefing-actions"><button class="primary-button" data-action="start">${quiz.short}を開始する</button><button class="outline-button" data-action="modes">作戦選択へ戻る</button></div>
     </section>`;
 }
 
@@ -361,6 +362,9 @@ function initMap(isResult) {
     if (!isResult && run.quizType === 'choice' && run.phase === 'question' && status === 'unresolved') {
       bits.push(id === run.targetId ? 'choice-target' : 'choice-muted');
     }
+    if (!isResult && run.phase === 'resolving' && run.answerResult?.target === id) {
+      bits.push(run.answerResult.outcome === 'correct' ? 'answer-success' : 'answer-failure');
+    }
     if (run.recentSunk?.has(id)) bits.push('sinking');
     return bits.join(' ');
   }
@@ -377,6 +381,7 @@ function initMap(isResult) {
         return run.quizType === 'location' && id && run.ids.has(id) && countryStatus(id) === 'unresolved' && !byId[id].microstate ? `${byId[id].name}を選択` : null;
       });
     pins.selectAll('*').remove();
+    effects.selectAll('*').remove();
     if (!run) return;
     run.countries.forEach((country) => {
       const status = countryStatus(country.id);
@@ -387,18 +392,22 @@ function initMap(isResult) {
         pins.append('circle').attr('class', 'saved-ring').attr('cx', x).attr('cy', y).attr('r', 4.5);
         pins.append('image').attr('class', 'flag-pin').attr('href', country.flagAsset).attr('x', x - 6).attr('y', y - 4.5).attr('width', 12).attr('height', 9);
       } else if (!isResult && run.quizType === 'choice' && run.phase === 'question' && status === 'unresolved' && country.id === run.targetId) {
-        pins.append('circle').attr('class', 'target-reticle outer').attr('cx', x).attr('cy', y).attr('r', 8);
-        pins.append('circle').attr('class', 'target-reticle core').attr('cx', x).attr('cy', y).attr('r', 2.1);
+        pins.append('circle').attr('class', 'target-reticle outer').attr('cx', x).attr('cy', y).attr('r', 6);
+        pins.append('circle').attr('class', 'target-reticle core').attr('cx', x).attr('cy', y).attr('r', 1.6);
       } else if (!isResult && run.quizType === 'location' && status === 'unresolved' && country.microstate) {
         const group = pins.append('g').attr('role', 'button').attr('aria-label', `${country.name}を選択`).on('click', (event) => { event.stopPropagation(); selectCountry(country.id); });
-        group.append('circle').attr('class', 'assist-ring').attr('cx', x).attr('cy', y).attr('r', 5.5);
-        group.append('circle').attr('class', 'assist-core').attr('cx', x).attr('cy', y).attr('r', 1.7);
+        group.append('circle').attr('class', 'assist-ring').attr('cx', x).attr('cy', y).attr('r', 4);
+        group.append('circle').attr('class', 'assist-core').attr('cx', x).attr('cy', y).attr('r', 1.2);
       }
     });
+    if (!isResult && run.phase === 'resolving' && run.answerResult) {
+      const point = projection(byId[run.answerResult.target].anchor);
+      if (point) effects.append('circle').attr('class', `answer-burst ${run.answerResult.outcome === 'correct' ? 'success' : 'failure'}`).attr('cx', point[0]).attr('cy', point[1]).attr('r', 7);
+    }
     if (run.recentSunk?.size) {
       run.recentSunk.forEach((id) => {
         const point = projection(byId[id].anchor);
-        if (point) effects.append('circle').attr('class', 'effect-ring').attr('cx', point[0]).attr('cy', point[1]).attr('r', 8);
+        if (point) effects.append('circle').attr('class', 'effect-ring effect-failure').attr('cx', point[0]).attr('cy', point[1]).attr('r', 8);
       });
     }
   }
@@ -497,9 +506,10 @@ function buildChoiceIds(targetId) {
 function renderChoiceOptions() {
   const grid = document.querySelector('#choice-grid');
   if (!grid || !run || run.quizType !== 'choice') return;
+  const result = run.phase === 'resolving' ? run.answerResult : null;
   grid.innerHTML = run.choiceIds.map((id, index) => `
-    <button class="choice-button" data-action="choice" data-country="${id}">
-      <span class="choice-number">${String(index + 1).padStart(2, '0')}</span><span>${byId[id].name}</span>
+    <button class="choice-button ${result ? (id === result.target ? 'is-correct' : id === result.selected ? 'is-wrong' : 'is-muted') : ''}" data-action="choice" data-country="${id}" ${result ? 'disabled' : ''}>
+      <span class="choice-number">${String(index + 1).padStart(2, '0')}</span><span>${byId[id].name}</span>${result && id === result.target ? '<span class="choice-state">正解</span>' : ''}${result && id === result.selected && id !== result.target ? '<span class="choice-state">選択</span>' : ''}
     </button>`).join('');
 }
 
@@ -507,6 +517,7 @@ function nextQuestion() {
   const unresolved = activeUnresolved();
   if (!unresolved.length) { finishGame(); return; }
   run.recentSunk = new Set();
+  run.answerResult = null;
   run.round += 1;
   run.selectedId = null;
   run.targetId = unresolved[Math.floor(Math.random() * unresolved.length)].id;
@@ -547,13 +558,17 @@ function resolveAnswer(selected) {
   const target = run.targetId;
   run.phase = 'resolving'; run.recentSunk = new Set();
   if (target === selected) {
+    run.answerResult = { outcome: 'correct', target, selected };
     run.statuses[target] = { status: 'saved', savedAtRound: run.round };
     run.stats.correct += 1; run.stats.streak += 1; run.stats.maxStreak = Math.max(run.stats.maxStreak, run.stats.streak);
     run.answerLog.push({ target, selected, outcome: 'correct' });
     sound('success'); haptic([12, 35, 16]);
-    showRoundResult(true, [target], '防衛成功', `${byId[target].name}の攻撃命令を解除しました。`);
+    showRoundResult(true, [target], '認証成功', `${byId[target].name}の攻撃命令を解除しました。`);
   } else {
-    const sunkIds = [...new Set([target, selected])].filter((id) => countryStatus(id) === 'unresolved');
+    run.answerResult = { outcome: 'wrong', target, selected };
+    const sunkIds = run.quizType === 'choice'
+      ? [target]
+      : [...new Set([target, selected])].filter((id) => countryStatus(id) === 'unresolved');
     sunkIds.forEach((id) => {
       run.statuses[id] = { status: 'sunk', sunkReason: id === target ? 'wrong_target' : 'wrong_selected', sunkAtRound: run.round };
     });
@@ -561,12 +576,14 @@ function resolveAnswer(selected) {
     run.stats.wrong += 1; run.stats.streak = 0;
     run.answerLog.push({ target, selected, outcome: 'wrong' });
     sound('failure'); haptic([45, 25, 75]);
-    const message = sunkIds.length === 2
-      ? `${byId[target].name} と ${byId[selected].name} が沈没しました。`
-      : `${byId[target].name}の保護認証に失敗しました。`;
-    showRoundResult(false, sunkIds, '認証混線', message);
+    const message = run.quizType === 'choice'
+      ? `誤った国名を選択しました。${byId[target].name}だけが沈没しました。`
+      : sunkIds.length === 2
+        ? `${byId[target].name} と ${byId[selected].name} が沈没しました。`
+        : `${byId[target].name}の保護認証に失敗しました。`;
+    showRoundResult(false, sunkIds, '認証失敗', message);
   }
-  updateMap(); updateGameUI();
+  updateMap(); renderChoiceOptions(); updateGameUI();
 }
 
 function resolveTimeout() {
@@ -574,19 +591,24 @@ function resolveTimeout() {
   stopTimer();
   const target = run.targetId;
   run.phase = 'resolving';
+  run.answerResult = { outcome: 'timeout', target, selected: null };
   run.statuses[target] = { status: 'sunk', sunkReason: 'timeout', sunkAtRound: run.round };
   run.recentSunk = new Set([target]);
   run.stats.timeout += 1; run.stats.streak = 0;
   run.answerLog.push({ target, selected: null, outcome: 'timeout' });
   sound('failure'); haptic([70, 30, 70]);
-  showRoundResult(false, [target], '通信断絶', `${byId[target].name}の保護認証が間に合いませんでした。`);
-  updateMap(); updateGameUI();
+  showRoundResult(false, [target], '時間切れ', `${byId[target].name}の保護認証が間に合いませんでした。`);
+  updateMap(); renderChoiceOptions(); updateGameUI();
 }
 
 function showRoundResult(success, ids, kicker, message) {
   const toast = document.createElement('div');
   toast.className = `result-toast ${success ? 'success' : 'failure'}`;
-  toast.innerHTML = `<div class="result-toast-inner"><div class="result-kicker">${kicker}</div><h3>${ids.map((id) => `${flagMarkup(byId[id])} ${byId[id].name}`).join(' / ')}</h3><p>${message}</p></div>`;
+  const result = run.answerResult;
+  const answerSummary = result?.outcome === 'wrong'
+    ? `<div class="answer-summary"><span>正解</span><strong>${flagMarkup(byId[result.target])} ${byId[result.target].name}</strong><span>選択</span><strong class="wrong-answer">${flagMarkup(byId[result.selected])} ${byId[result.selected].name}</strong></div>`
+    : `<h3>${ids.map((id) => `${flagMarkup(byId[id])} ${byId[id].name}`).join(' / ')}</h3>`;
+  toast.innerHTML = `<div class="result-toast-inner"><div class="result-symbol">${success ? '✓' : '×'}</div><div class="result-kicker">${kicker}</div>${answerSummary}<p>${message}</p></div>`;
   document.querySelector('.game')?.append(toast);
   setTimeout(() => {
     toast.remove();
