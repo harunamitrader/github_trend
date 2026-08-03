@@ -72,6 +72,13 @@ button { font: inherit; }
 .intro .subtitle { margin: 18px 0 0; font-size: 15px; line-height: 2; color: rgba(244,239,228,.84); letter-spacing: .04em; }
 .intro-brief { margin: 0; max-width: 28em; font-size: 13px; color: rgba(244,239,228,.72); line-height: 1.85; }
 
+.story-screen { isolation: isolate; display: grid; grid-template-rows: auto 1fr auto; min-height: 100svh; padding: calc(19px + env(safe-area-inset-top)) 20px calc(21px + env(safe-area-inset-bottom)); overflow: hidden; background: #030a11 var(--story-image) center / cover no-repeat; }
+.story-screen::before { content: ""; position: absolute; z-index: -2; inset: 0; background: inherit; animation: storyImageIn 1s both; }
+.story-shade { position: absolute; z-index: -1; inset: 0; background: linear-gradient(180deg, rgba(2,9,15,.22), rgba(2,9,15,.08) 35%, rgba(2,9,15,.90) 78%, #030a11 100%); }
+.story-topline { display: flex; justify-content: space-between; gap: 10px; font: 10px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: rgba(244,239,228,.76); letter-spacing: .13em; }
+.story-copy { align-self: end; margin: 0 0 30px; animation: storyCopyIn .65s .12s both; }.story-copy h2 { max-width: 10.5em; margin: 10px 0 0; font-size: clamp(27px, 8.5vw, 39px); font-weight: 400; line-height: 1.38; letter-spacing: .06em; text-shadow: 0 2px 18px #02090f; }.story-copy p { max-width: 28em; margin: 15px 0 0; font: 13px/1.9 "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: rgba(244,239,228,.87); text-shadow: 0 1px 10px #02090f; }
+.story-actions { display: grid; gap: 10px; }.story-skip { min-height: 34px; padding: 0; border: 0; color: rgba(244,239,228,.72); background: transparent; font: 11px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; letter-spacing: .12em; cursor: pointer; }
+
 .primary-button, .outline-button, .map-button, .icon-button {
   appearance: none;
   border: 0;
@@ -162,8 +169,8 @@ button { font: inherit; }
 .country.sunk { fill: var(--sea); stroke: rgba(15,131,153,.5); opacity: .7; }
 .country.sinking { animation: sink 1.55s forwards; }
 .flag-pin { cursor: default; pointer-events: none; filter: drop-shadow(0 1px 1px rgba(0,0,0,.8)); animation: flagIn .45s both; }
-.assist-ring { fill: rgba(244,239,228,.08); stroke: rgba(244,239,228,.9); stroke-width: 1.1; vector-effect: non-scaling-stroke; cursor: pointer; }
-.assist-core { fill: var(--gold); stroke: #fff3c4; stroke-width: .8; vector-effect: non-scaling-stroke; cursor: pointer; }
+.assist-ring { fill: rgba(244,239,228,.08); stroke: rgba(244,239,228,.84); stroke-width: .9; vector-effect: non-scaling-stroke; cursor: pointer; }
+.assist-core { fill: var(--gold); stroke: #fff3c4; stroke-width: .65; vector-effect: non-scaling-stroke; cursor: pointer; }
 .saved-ring { fill: rgba(42,194,178,.2); stroke: rgba(190,247,225,.9); stroke-width: 1; vector-effect: non-scaling-stroke; pointer-events: none; }
 .effect-ring { fill: none; stroke: #e7ba62; stroke-width: 1.8; vector-effect: non-scaling-stroke; animation: ripple 1.3s forwards; }
 
@@ -183,6 +190,7 @@ button { font: inherit; }
 .result-map-wrap { height: 280px; border: 1px solid var(--line); overflow: hidden; position: relative; background: #0c4f69; }.result-map-wrap #map { height: 100%; }
 .result-note { position: absolute; z-index: 3; left: 10px; bottom: 9px; padding: 5px 7px; background: rgba(3,10,17,.62); font: 10px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: rgba(244,239,228,.75); }
 .score-grid { margin-top: 12px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(244,239,228,.13); border: 1px solid rgba(244,239,228,.13); }.score-grid div { padding: 14px 12px; background: rgba(8,27,40,.82); }.score-grid dt { font: 10px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--muted); }.score-grid dd { margin: 5px 0 0; font: 22px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--paper); }.score-grid dd em { font-style: normal; font-size: 11px; color: var(--muted); }
+.score-grid .loss-dd { font-size: 18px; line-height: 1.32; }.score-grid .loss-dd em { display: block; margin-top: 3px; font-size: 10px; letter-spacing: -.01em; }
 .key-result { margin-top: 12px; padding: 15px; border-left: 2px solid var(--gold); background: rgba(230,175,81,.09); font: 12px/1.7 "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }.key-result strong { color: var(--gold); font-size: 17px; }
 .sunk-list { margin: 14px 0 0; padding: 0; list-style: none; max-height: 180px; overflow: auto; border-top: 1px solid var(--line); }.sunk-list li { display:flex; justify-content: space-between; gap: 10px; padding: 10px 3px; border-bottom: 1px solid var(--line); font: 12px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }.sunk-list small { color: var(--muted); }.result-actions { display:grid; gap:10px; margin-top: 18px; }
 
@@ -195,6 +203,8 @@ button { font: inherit; }
 @keyframes sink { 0% { filter: brightness(1); } 55% { filter: brightness(.45); transform: translateY(2px); } 100% { opacity: .1; filter: brightness(.35); } }
 @keyframes ripple { from { opacity: .9; transform: scale(.3); } to { opacity: 0; transform: scale(4); } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes storyImageIn { from { opacity: 0; transform: scale(1.035); } to { opacity: 1; transform: scale(1); } }
+@keyframes storyCopyIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: none; } }
 
 @media (min-width: 680px) { #app { min-height: 100vh; box-shadow: 0 0 70px rgba(0,0,0,.45); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; } }

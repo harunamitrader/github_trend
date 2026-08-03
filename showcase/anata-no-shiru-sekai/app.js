@@ -6,6 +6,28 @@ const PROGRESS_KEY = 'anata-no-shiru-sekai.progress.v1';
 const E2E_MODE = new URLSearchParams(window.location.search).get('e2e') === '1';
 const ROUND_SECONDS = E2E_MODE ? 0.1 : 30;
 const EFFECT_DELAY = E2E_MODE ? 10 : 0;
+const STORY_AUTO_ADVANCE_MS = E2E_MODE ? 10 : 5600;
+
+const STORY_SLIDES = [
+  {
+    image: './assets/story/01-activation.png',
+    chapter: 'INCIDENT 01 / ACTIVATION',
+    title: 'あなたは、押してはいけないボタンを押した。',
+    body: '世界中の国家に向けて、終末兵器の攻撃命令が送信された。通常の方法では、もう止められない。',
+  },
+  {
+    image: './assets/story/02-crisis.png',
+    chapter: 'INCIDENT 02 / COLLAPSE',
+    title: '残された停止手段は、地理認証だけ。',
+    body: '国名と場所を正しく結びつけられた国だけが、攻撃命令から外される。知らない国は、救えない。',
+  },
+  {
+    image: './assets/story/03-authentication.png',
+    chapter: 'INCIDENT 03 / AUTHENTICATION',
+    title: 'あなたの知識が、世界を守る。',
+    body: '表示された国の位置を地図上で認証せよ。すべてが終わったとき、残るのは――あなたの知る世界。',
+  },
+];
 
 const REGIONS = {
   asia: { name: 'アジア', console: '東部管制区', short: 'ASIA', center: [95, 30] },
@@ -25,6 +47,7 @@ let timerHandle = null;
 let mapController = null;
 let toastTimer = null;
 let audioContext = null;
+let storyTimer = null;
 
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {}; }
@@ -148,8 +171,13 @@ function showToast(message) {
   toastTimer = setTimeout(() => { el.classList.remove('show'); setTimeout(() => el.remove(), 250); }, 1800);
 }
 
+function clearStoryTimer() {
+  clearTimeout(storyTimer);
+  storyTimer = null;
+}
+
 function renderIntro() {
-  stopTimer(); mapController = null;
+  stopTimer(); clearStoryTimer(); mapController = null;
   app.innerHTML = `
     <section class="screen intro">
       <div>
@@ -162,13 +190,37 @@ function renderIntro() {
       </div>
       <div>
         <p class="intro-brief">あなたは押してはいけないボタンを押した。表示される国の位置を地図上で認証し、終末兵器の攻撃命令を止めよう。</p>
-        <button class="primary-button" data-action="modes">管制端末を起動する</button>
+        <button class="primary-button" data-action="story">管制端末を起動する</button>
       </div>
     </section>`;
 }
 
+function renderStory(index = 0) {
+  stopTimer(); clearStoryTimer(); mapController = null;
+  const slide = STORY_SLIDES[index];
+  const isLast = index === STORY_SLIDES.length - 1;
+  app.innerHTML = `
+    <section class="screen story-screen" style="--story-image: url('${slide.image}')">
+      <div class="story-shade"></div>
+      <div class="story-topline"><span>${slide.chapter}</span><span>${String(index + 1).padStart(2, '0')} / ${String(STORY_SLIDES.length).padStart(2, '0')}</span></div>
+      <article class="story-copy">
+        <div class="eyebrow">WORLD DEFENCE TERMINAL</div>
+        <h2>${slide.title}</h2>
+        <p>${slide.body}</p>
+      </article>
+      <div class="story-actions">
+        <button class="primary-button" data-action="story-next" data-index="${index}">${isLast ? '管制端末へ進む' : '次へ'}</button>
+        <button class="story-skip" data-action="modes">ストーリーをスキップ</button>
+      </div>
+    </section>`;
+  storyTimer = setTimeout(() => {
+    if (isLast) renderModes();
+    else renderStory(index + 1);
+  }, STORY_AUTO_ADVANCE_MS);
+}
+
 function renderModes() {
-  stopTimer(); mapController = null;
+  stopTimer(); clearStoryTimer(); mapController = null;
   const regionalCards = Object.keys(REGIONS).filter((id) => id !== 'world').map((id) => {
     const region = REGIONS[id];
     const record = getRegionProgress(id);
@@ -282,12 +334,12 @@ function initMap(isResult) {
       if (!point) return;
       const [x, y] = point;
       if (status === 'saved') {
-        pins.append('circle').attr('class', 'saved-ring').attr('cx', x).attr('cy', y).attr('r', 7);
-        pins.append('image').attr('class', 'flag-pin').attr('href', country.flagAsset).attr('x', x - 9).attr('y', y - 6).attr('width', 18).attr('height', 13);
+        pins.append('circle').attr('class', 'saved-ring').attr('cx', x).attr('cy', y).attr('r', 4.5);
+        pins.append('image').attr('class', 'flag-pin').attr('href', country.flagAsset).attr('x', x - 6).attr('y', y - 4.5).attr('width', 12).attr('height', 9);
       } else if (!isResult && status === 'unresolved' && country.microstate) {
         const group = pins.append('g').attr('role', 'button').attr('aria-label', `${country.name}を選択`).on('click', (event) => { event.stopPropagation(); selectCountry(country.id); });
-        group.append('circle').attr('class', 'assist-ring').attr('cx', x).attr('cy', y).attr('r', 9);
-        group.append('circle').attr('class', 'assist-core').attr('cx', x).attr('cy', y).attr('r', 2.5);
+        group.append('circle').attr('class', 'assist-ring').attr('cx', x).attr('cy', y).attr('r', 5.5);
+        group.append('circle').attr('class', 'assist-core').attr('cx', x).attr('cy', y).attr('r', 1.7);
       }
     });
     if (run.recentSunk?.size) {
@@ -485,7 +537,7 @@ function renderResults(evaluation) {
     <section class="screen result-page">
       <div class="result-hero"><div class="eyebrow">MISSION RESULT</div><h2>${label}</h2><p>救えた国には旗が立ち、沈んだ国は海になった。</p></div>
       <div class="result-map-wrap"><svg id="map" role="img" aria-label="今回の最終世界地図"></svg><div class="result-note">ピンチで拡大・縮小できます</div></div>
-      <dl class="score-grid"><div><dt>救出 / 沈没</dt><dd>${saved.countries} <em>/ ${sunk.countries} 国</em></dd></div><div><dt>正解率</dt><dd>${evaluation.accuracy}<em>%</em></dd></div><div><dt>失われた人口</dt><dd>${formatPopulation(sunk.population)}</dd></div><div><dt>失われた面積</dt><dd>${formatArea(sunk.area)}</dd></div><div><dt>人口維持率</dt><dd>${percentage(saved.population, total.population)}<em>%</em></dd></div><div><dt>最大連続正解</dt><dd>${run.stats.maxStreak}<em> 連続</em></dd></div></dl>
+      <dl class="score-grid"><div><dt>救出 / 沈没</dt><dd>${saved.countries} <em>/ ${sunk.countries} 国</em></dd></div><div><dt>正解率</dt><dd>${evaluation.accuracy}<em>%</em></dd></div><div><dt>失われた人口</dt><dd class="loss-dd">${formatPopulation(sunk.population)}<em>/ ${formatPopulation(total.population)}（${percentage(sunk.population, total.population)}%）</em></dd></div><div><dt>失われた面積</dt><dd class="loss-dd">${formatArea(sunk.area)}<em>/ ${formatArea(total.area)}（${percentage(sunk.area, total.area)}%）</em></dd></div><div><dt>人口維持率</dt><dd>${percentage(saved.population, total.population)}<em>%</em></dd></div><div><dt>最大連続正解</dt><dd>${run.stats.maxStreak}<em> 連続</em></dd></div></dl>
       <div class="key-result">${keyCopy}</div>
       <ul class="sunk-list" aria-label="沈没国一覧">${list}</ul>
       <div class="result-actions"><button class="primary-button" data-action="retry">同じ作戦を再挑戦する</button><button class="outline-button" data-action="modes">作戦選択へ戻る</button></div>
@@ -498,6 +550,12 @@ app.addEventListener('click', (event) => {
   if (!button || button.disabled) return;
   const { action, mode } = button.dataset;
   if (action === 'intro') renderIntro();
+  if (action === 'story') renderStory();
+  if (action === 'story-next') {
+    const nextIndex = Number(button.dataset.index) + 1;
+    if (nextIndex >= STORY_SLIDES.length) renderModes();
+    else renderStory(nextIndex);
+  }
   if (action === 'modes') renderModes();
   if (action === 'briefing') renderBriefing(mode);
   if (action === 'start') renderGame();
