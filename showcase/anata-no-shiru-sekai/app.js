@@ -39,6 +39,19 @@ const REGIONS = {
   world: { name: '全世界', console: '中央管制システム', short: 'WORLD', center: [135, 20] },
 };
 
+const QUIZ_TYPES = {
+  location: {
+    name: '国名から位置を選ぶ',
+    short: '地図認証',
+    briefing: '表示される国名と位置を照合し、地図上の領域を保護先として指定せよ。',
+  },
+  choice: {
+    name: '地図から国名を選ぶ',
+    short: '4択認証',
+    briefing: '地図上で照準された国を確認し、同じ地域の4つの国名から正解を選べ。',
+  },
+};
+
 let gameData;
 let byId;
 let progress = loadProgress();
@@ -93,17 +106,19 @@ function getRegionProgress(id) {
   return progress[id] || { keys: 0 };
 }
 
-function makeRun(modeId) {
+function makeRun(modeId, quizType = 'location') {
   const countries = getModeCountries(modeId);
   const statuses = Object.fromEntries(countries.map((country) => [country.id, { status: 'unresolved' }]));
   return {
     modeId,
+    quizType,
     countries,
     ids: new Set(countries.map((country) => country.id)),
     statuses,
     phase: 'briefing',
     targetId: null,
     selectedId: null,
+    choiceIds: [],
     round: 0,
     deadline: 0,
     stats: { correct: 0, wrong: 0, timeout: 0, streak: 0, maxStreak: 0 },
@@ -226,7 +241,7 @@ function renderModes() {
     const record = getRegionProgress(id);
     const count = gameData.regionCounts[id];
     const keyLabel = record.keys ? `管制キー ${'◆'.repeat(record.keys)}${'◇'.repeat(3 - record.keys)}` : '未奪還';
-    return `<button class="mode-card" data-action="briefing" data-mode="${id}">
+    return `<button class="mode-card" data-action="quiz-type" data-mode="${id}">
       <span class="mode-name">${region.name}</span><span class="keys">${keyLabel}</span>
       <span class="mode-meta">${region.console}　/　${count}国・地域</span>
     </button>`;
@@ -236,45 +251,77 @@ function renderModes() {
     <section class="screen page">
       <header class="page-header"><div><div class="eyebrow">REGIONAL COMMAND</div><h2>作戦を選択</h2><p class="header-sub">6地域の管制権限を取り戻せ。</p></div><button class="back-button" data-action="intro">終了</button></header>
       <div class="mode-list">${regionalCards}
-        <button class="mode-card ${unlocked ? '' : 'locked'}" data-action="briefing" data-mode="world" ${unlocked ? '' : 'disabled'}>
+        <button class="mode-card ${unlocked ? '' : 'locked'}" data-action="quiz-type" data-mode="world" ${unlocked ? '' : 'disabled'}>
           <span class="mode-name">全世界</span><span class="keys">${unlocked ? '最終作戦：開始可能' : 'LOCKED'}</span>
           <span class="mode-meta">中央管制システム　/　196国・地域</span>
         </button>
       </div>
       <p class="mode-note">地域をC評価以上でクリアすると管制キーを獲得。6地域すべてのキーで「全世界」が解放される。</p>
+  </section>`;
+}
+
+function renderQuizTypeSelect(modeId) {
+  stopTimer(); clearStoryTimer(); mapController = null;
+  const region = REGIONS[modeId];
+  app.innerHTML = `
+    <section class="screen page quiz-select-page">
+      <header class="page-header"><div><div class="eyebrow">AUTHENTICATION MODE / ${region.short}</div><h2>${region.name}の認証方式</h2><p class="header-sub">地図を読む方法を選択してください。</p></div><button class="back-button" data-action="modes">戻る</button></header>
+      <div class="quiz-type-list">
+        <button class="quiz-type-card" data-action="briefing" data-mode="${modeId}" data-quiz="location">
+          <span class="quiz-type-number">01</span><span class="quiz-type-kicker">STANDARD</span>
+          <strong>${QUIZ_TYPES.location.name}</strong>
+          <span>国名が表示されます。地図を動かして、その国をタップし、保護先として確定します。</span>
+        </button>
+        <button class="quiz-type-card reverse" data-action="briefing" data-mode="${modeId}" data-quiz="choice">
+          <span class="quiz-type-number">02</span><span class="quiz-type-kicker">REVERSE / 4 CHOICES</span>
+          <strong>${QUIZ_TYPES.choice.name}</strong>
+          <span>地図上の照準地点を読み取り、同じ地域から選ばれた4つの国名で認証します。</span>
+        </button>
+      </div>
+      <p class="mode-note">どちらの方式でも、地域クリア評価と管制キーの条件は共通です。</p>
     </section>`;
 }
 
-function renderBriefing(modeId) {
-  run = makeRun(modeId);
+function renderBriefing(modeId, quizType = 'location') {
+  run = makeRun(modeId, quizType);
   const total = totalForRun();
   const region = REGIONS[modeId];
+  const quiz = QUIZ_TYPES[quizType];
   app.innerHTML = `
     <section class="screen briefing">
-      <div><div class="eyebrow">MISSION BRIEFING / ${region.short}</div><h2>${region.name}を救出せよ</h2></div>
-      <p class="lead">終末兵器の攻撃命令が、この地域へ向かっている。国名と位置を正しく照合し、1か国ずつ保護状態へ移行せよ。</p>
+      <div><div class="eyebrow">MISSION BRIEFING / ${region.short} / ${quiz.short}</div><h2>${region.name}を救出せよ</h2></div>
+      <p class="lead">終末兵器の攻撃命令が、この地域へ向かっている。${quiz.briefing}</p>
       <div class="briefing-grid"><div><strong>${total.countries}</strong><span>対象国・地域</span></div><div><strong>${ROUND_SECONDS}</strong><span>1問の秒数（仮）</span></div><div><strong>196</strong><span>世界の総数</span></div></div>
       ${modeId === 'world' ? `<div class="mission-box">最終作戦。地域別作戦の結果は引き継がれない。残るのは、今回あなたが救えた世界だけだ。</div>` : `<div class="mission-box">地域クリア条件：正解率50%以上、救出国率60%以上、さらに人口または面積を70%以上救出。</div>`}
-      <div class="briefing-actions"><button class="primary-button" data-action="start">地理認証を開始する</button><button class="outline-button" data-action="modes">作戦選択へ戻る</button></div>
+      <div class="briefing-actions"><button class="primary-button" data-action="start">${quiz.short}を開始する</button><button class="outline-button" data-action="quiz-type" data-mode="${modeId}">認証方式を選び直す</button></div>
     </section>`;
 }
 
 function renderGame() {
   const region = REGIONS[run.modeId];
+  const isChoice = run.quizType === 'choice';
+  const headerCopy = isChoice ? '衛星照準 — 地図が示す国名を特定せよ' : '攻撃目標 — 国名と位置を照合せよ';
+  const answerSheet = isChoice
+    ? `<footer class="answer-sheet choice-sheet">
+        <p class="selection-copy">照準された国を、同じ地域から選ばれた4つの国名で認証してください。</p>
+        <div id="choice-grid" class="choice-grid" role="group" aria-label="国名の回答候補"></div>
+        <div class="live-stats"><span id="live-save">救出 0</span><span id="live-loss">沈没 0</span><span id="live-pop">人口維持 —</span></div>
+      </footer>`
+    : `<footer class="answer-sheet">
+        <p id="selection-copy" class="selection-copy">地図を動かし、保護する国をタップしてください。小さな国は照準マーカーをタップできます。</p>
+        <div class="live-stats"><span id="live-save">救出 0</span><span id="live-loss">沈没 0</span><span id="live-pop">人口維持 —</span></div>
+        <button id="confirm-button" class="primary-button" data-action="confirm" disabled>この領域を保護する</button>
+      </footer>`;
   app.innerHTML = `
     <section class="screen game">
       <header class="mission-header">
         <div class="mission-topline"><span>${region.console} / ROUND <span id="round-number">01</span></span><span id="timer" class="timer" aria-label="残り時間">00:30</span></div>
-        <p class="target-label">攻撃目標 — 国名と位置を照合せよ</p>
+        <p class="target-label">${headerCopy}</p>
         <h1 id="target-name" class="target-name">接続中…</h1>
         <div class="mission-progress" aria-hidden="true"><span id="timer-bar"></span></div>
       </header>
-      <div class="map-stage"><svg id="map" role="img" aria-label="パンとピンチズームができる世界地図。未解決の国をタップして選択します。"></svg><div class="map-controls"><button class="map-button" data-action="zoom-in" aria-label="地図を拡大">＋</button><button class="map-button" data-action="zoom-out" aria-label="地図を縮小">−</button><button class="map-button all" data-action="map-reset" aria-label="全体表示">全体</button></div></div>
-      <footer class="answer-sheet">
-        <p id="selection-copy" class="selection-copy">地図を動かし、保護する国をタップしてください。小さな国は照準マーカーをタップできます。</p>
-        <div class="live-stats"><span id="live-save">救出 0</span><span id="live-loss">沈没 0</span><span id="live-pop">人口維持 —</span></div>
-        <button id="confirm-button" class="primary-button" data-action="confirm" disabled>この領域を保護する</button>
-      </footer>
+      <div class="map-stage"><svg id="map" role="img" aria-label="${isChoice ? '照準された国が表示される、パンとピンチズームができる地図' : 'パンとピンチズームができる世界地図。未解決の国をタップして選択します。'}"></svg><div class="map-controls"><button class="map-button" data-action="zoom-in" aria-label="地図を拡大">＋</button><button class="map-button" data-action="zoom-out" aria-label="地図を縮小">−</button><button class="map-button all" data-action="map-reset" aria-label="全体表示">全体</button></div></div>
+      ${answerSheet}
     </section>`;
   initMap(false);
   nextQuestion();
@@ -299,8 +346,8 @@ function initMap(isResult) {
   const effects = viewport.append('g').attr('class', 'effects-layer');
   const pins = viewport.append('g').attr('class', 'pin-layer');
   const paths = land.selectAll('path').data(gameData.map.features).join('path').attr('d', path)
-    .attr('role', (feature) => feature.properties.gameId && run?.ids.has(feature.properties.gameId) && !byId[feature.properties.gameId].microstate ? 'button' : null)
-    .attr('aria-label', (feature) => feature.properties.gameId && run?.ids.has(feature.properties.gameId)
+    .attr('role', (feature) => run?.quizType === 'location' && feature.properties.gameId && run?.ids.has(feature.properties.gameId) && !byId[feature.properties.gameId].microstate ? 'button' : null)
+    .attr('aria-label', (feature) => run?.quizType === 'location' && feature.properties.gameId && run?.ids.has(feature.properties.gameId)
       && !byId[feature.properties.gameId].microstate ? `${byId[feature.properties.gameId].name}を選択` : null);
 
   function visualClass(feature) {
@@ -309,8 +356,11 @@ function initMap(isResult) {
     const status = countryStatus(id);
     const country = byId[id];
     const bits = ['country', status, `color-${country.colorIndex}`];
-    if (status === 'unresolved') bits.push('playable');
+    if (status === 'unresolved' && run.quizType === 'location') bits.push('playable');
     if (id === run.selectedId && run.phase === 'question') bits.push('selected');
+    if (!isResult && run.quizType === 'choice' && run.phase === 'question' && status === 'unresolved') {
+      bits.push(id === run.targetId ? 'choice-target' : 'choice-muted');
+    }
     if (run.recentSunk?.has(id)) bits.push('sinking');
     return bits.join(' ');
   }
@@ -320,11 +370,11 @@ function initMap(isResult) {
       .attr('class', visualClass)
       .attr('role', (feature) => {
         const id = feature.properties.gameId;
-        return id && run.ids.has(id) && countryStatus(id) === 'unresolved' && !byId[id].microstate ? 'button' : null;
+        return run.quizType === 'location' && id && run.ids.has(id) && countryStatus(id) === 'unresolved' && !byId[id].microstate ? 'button' : null;
       })
       .attr('aria-label', (feature) => {
         const id = feature.properties.gameId;
-        return id && run.ids.has(id) && countryStatus(id) === 'unresolved' && !byId[id].microstate ? `${byId[id].name}を選択` : null;
+        return run.quizType === 'location' && id && run.ids.has(id) && countryStatus(id) === 'unresolved' && !byId[id].microstate ? `${byId[id].name}を選択` : null;
       });
     pins.selectAll('*').remove();
     if (!run) return;
@@ -336,7 +386,10 @@ function initMap(isResult) {
       if (status === 'saved') {
         pins.append('circle').attr('class', 'saved-ring').attr('cx', x).attr('cy', y).attr('r', 4.5);
         pins.append('image').attr('class', 'flag-pin').attr('href', country.flagAsset).attr('x', x - 6).attr('y', y - 4.5).attr('width', 12).attr('height', 9);
-      } else if (!isResult && status === 'unresolved' && country.microstate) {
+      } else if (!isResult && run.quizType === 'choice' && run.phase === 'question' && status === 'unresolved' && country.id === run.targetId) {
+        pins.append('circle').attr('class', 'target-reticle outer').attr('cx', x).attr('cy', y).attr('r', 8);
+        pins.append('circle').attr('class', 'target-reticle core').attr('cx', x).attr('cy', y).attr('r', 2.1);
+      } else if (!isResult && run.quizType === 'location' && status === 'unresolved' && country.microstate) {
         const group = pins.append('g').attr('role', 'button').attr('aria-label', `${country.name}を選択`).on('click', (event) => { event.stopPropagation(); selectCountry(country.id); });
         group.append('circle').attr('class', 'assist-ring').attr('cx', x).attr('cy', y).attr('r', 5.5);
         group.append('circle').attr('class', 'assist-core').attr('cx', x).attr('cy', y).attr('r', 1.7);
@@ -351,7 +404,7 @@ function initMap(isResult) {
   }
 
   paths.on('click', (event, feature) => {
-    if (isResult || run?.phase !== 'question') return;
+    if (isResult || run?.phase !== 'question' || run.quizType !== 'location') return;
     const id = feature.properties.gameId;
     if (!id || !run.ids.has(id)) {
       showToast('この地域の管制対象ではありません。');
@@ -393,7 +446,11 @@ function updateGameUI() {
     timer.className = `timer ${remaining <= 5 ? 'critical' : remaining <= 15 ? 'warning' : ''}`;
   }
   if (bar) { bar.style.width = `${(remaining / ROUND_SECONDS) * 100}%`; bar.style.background = remaining <= 5 ? 'var(--danger)' : remaining <= 15 ? 'var(--gold)' : 'var(--teal)'; }
-  if (targetName) targetName.innerHTML = target ? `${flagMarkup(target)} ${target.name}` : '接続中…';
+  if (targetName) {
+    targetName.innerHTML = run.quizType === 'choice'
+      ? '照準地点を特定せよ'
+      : target ? `${flagMarkup(target)} ${target.name}` : '接続中…';
+  }
   if (round) round.textContent = String(run.round).padStart(2, '0');
   const save = document.querySelector('#live-save'); const loss = document.querySelector('#live-loss'); const pop = document.querySelector('#live-pop');
   if (save) save.textContent = `救出 ${saved.countries}`;
@@ -415,10 +472,35 @@ function updateSelectionUI() {
 }
 
 function selectCountry(id) {
-  if (!run || run.phase !== 'question' || countryStatus(id) !== 'unresolved') return;
+  if (!run || run.quizType !== 'location' || run.phase !== 'question' || countryStatus(id) !== 'unresolved') return;
   run.selectedId = id;
   sound('tick'); haptic(8);
   updateMap(); updateSelectionUI();
+}
+
+function shuffle(items) {
+  const result = [...items];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
+  }
+  return result;
+}
+
+function buildChoiceIds(targetId) {
+  const unresolved = activeUnresolved().filter((country) => country.id !== targetId);
+  const resolved = run.countries.filter((country) => country.id !== targetId && countryStatus(country.id) !== 'unresolved');
+  const wrongIds = shuffle([...unresolved, ...resolved]).slice(0, 3).map((country) => country.id);
+  return shuffle([targetId, ...wrongIds]);
+}
+
+function renderChoiceOptions() {
+  const grid = document.querySelector('#choice-grid');
+  if (!grid || !run || run.quizType !== 'choice') return;
+  grid.innerHTML = run.choiceIds.map((id, index) => `
+    <button class="choice-button" data-action="choice" data-country="${id}">
+      <span class="choice-number">${String(index + 1).padStart(2, '0')}</span><span>${byId[id].name}</span>
+    </button>`).join('');
 }
 
 function nextQuestion() {
@@ -428,9 +510,10 @@ function nextQuestion() {
   run.round += 1;
   run.selectedId = null;
   run.targetId = unresolved[Math.floor(Math.random() * unresolved.length)].id;
+  run.choiceIds = run.quizType === 'choice' ? buildChoiceIds(run.targetId) : [];
   run.phase = 'question';
   run.deadline = Date.now() + ROUND_SECONDS * 1000;
-  updateMap(); updateSelectionUI(); updateGameUI();
+  updateMap(); updateSelectionUI(); renderChoiceOptions(); updateGameUI();
   stopTimer(); timerHandle = setInterval(tick, 150);
 }
 
@@ -448,10 +531,20 @@ function stopTimer() {
 }
 
 function confirmAnswer() {
-  if (!run || run.phase !== 'question' || !run.selectedId) return;
+  if (!run || run.quizType !== 'location' || run.phase !== 'question' || !run.selectedId) return;
   if (Date.now() >= run.deadline) { resolveTimeout(); return; }
+  resolveAnswer(run.selectedId);
+}
+
+function answerChoice(selectedId) {
+  if (!run || run.quizType !== 'choice' || run.phase !== 'question' || !run.choiceIds.includes(selectedId)) return;
+  if (Date.now() >= run.deadline) { resolveTimeout(); return; }
+  resolveAnswer(selectedId);
+}
+
+function resolveAnswer(selected) {
   stopTimer();
-  const target = run.targetId; const selected = run.selectedId;
+  const target = run.targetId;
   run.phase = 'resolving'; run.recentSunk = new Set();
   if (target === selected) {
     run.statuses[target] = { status: 'saved', savedAtRound: run.round };
@@ -460,13 +553,18 @@ function confirmAnswer() {
     sound('success'); haptic([12, 35, 16]);
     showRoundResult(true, [target], '防衛成功', `${byId[target].name}の攻撃命令を解除しました。`);
   } else {
-    run.statuses[target] = { status: 'sunk', sunkReason: 'wrong_target', sunkAtRound: run.round };
-    run.statuses[selected] = { status: 'sunk', sunkReason: 'wrong_selected', sunkAtRound: run.round };
-    run.recentSunk = new Set([target, selected]);
+    const sunkIds = [...new Set([target, selected])].filter((id) => countryStatus(id) === 'unresolved');
+    sunkIds.forEach((id) => {
+      run.statuses[id] = { status: 'sunk', sunkReason: id === target ? 'wrong_target' : 'wrong_selected', sunkAtRound: run.round };
+    });
+    run.recentSunk = new Set(sunkIds);
     run.stats.wrong += 1; run.stats.streak = 0;
     run.answerLog.push({ target, selected, outcome: 'wrong' });
     sound('failure'); haptic([45, 25, 75]);
-    showRoundResult(false, [target, selected], '認証混線', `${byId[target].name} と ${byId[selected].name} が沈没しました。`);
+    const message = sunkIds.length === 2
+      ? `${byId[target].name} と ${byId[selected].name} が沈没しました。`
+      : `${byId[target].name}の保護認証に失敗しました。`;
+    showRoundResult(false, sunkIds, '認証混線', message);
   }
   updateMap(); updateGameUI();
 }
@@ -548,7 +646,7 @@ function renderResults(evaluation) {
 app.addEventListener('click', (event) => {
   const button = event.target.closest('[data-action]');
   if (!button || button.disabled) return;
-  const { action, mode } = button.dataset;
+  const { action, mode, quiz, country } = button.dataset;
   if (action === 'intro') renderIntro();
   if (action === 'story') renderStory();
   if (action === 'story-next') {
@@ -557,10 +655,12 @@ app.addEventListener('click', (event) => {
     else renderStory(nextIndex);
   }
   if (action === 'modes') renderModes();
-  if (action === 'briefing') renderBriefing(mode);
+  if (action === 'quiz-type') renderQuizTypeSelect(mode);
+  if (action === 'briefing') renderBriefing(mode, quiz);
   if (action === 'start') renderGame();
   if (action === 'confirm') confirmAnswer();
-  if (action === 'retry') renderBriefing(run.modeId);
+  if (action === 'choice') answerChoice(country);
+  if (action === 'retry') renderBriefing(run.modeId, run.quizType);
   if (action === 'zoom-in') mapController?.zoomIn();
   if (action === 'zoom-out') mapController?.zoomOut();
   if (action === 'map-reset') mapController?.reset();

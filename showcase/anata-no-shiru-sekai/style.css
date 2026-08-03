@@ -130,6 +130,18 @@ button { font: inherit; }
 .locked { color: #6f8591; }
 .mode-note { margin: 17px 3px 0; color: var(--muted); line-height: 1.7; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; font-size: 11px; }
 
+.quiz-type-list { display: grid; gap: 13px; }
+.quiz-type-card { position: relative; display: grid; grid-template-columns: auto 1fr; column-gap: 13px; row-gap: 4px; width: 100%; min-height: 150px; padding: 18px 16px; overflow: hidden; text-align: left; color: var(--paper); border: 1px solid rgba(42,194,178,.38); background: linear-gradient(126deg, rgba(11,48,63,.94), rgba(6,20,31,.96)); cursor: pointer; }
+.quiz-type-card::after { content: ""; position: absolute; right: -24px; bottom: -36px; width: 120px; height: 120px; border: 1px solid rgba(42,194,178,.35); border-radius: 50%; }
+.quiz-type-card.reverse { border-color: rgba(230,175,81,.52); background: radial-gradient(circle at 100% 0%, rgba(230,175,81,.17), transparent 43%), linear-gradient(126deg, rgba(56,40,25,.86), rgba(7,21,31,.98)); }
+.quiz-type-card.reverse::after { border-color: rgba(230,175,81,.42); }
+.quiz-type-card:active { transform: scale(.985); }
+.quiz-type-number { grid-row: span 3; align-self: center; color: rgba(244,239,228,.34); font: 27px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; letter-spacing: -.06em; }
+.quiz-type-kicker { align-self: end; color: var(--teal); font: 9px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; letter-spacing: .15em; }
+.reverse .quiz-type-kicker { color: var(--gold); }
+.quiz-type-card strong { font-size: 20px; font-weight: 400; letter-spacing: .06em; z-index: 1; }
+.quiz-type-card > span:last-child { max-width: 30em; color: var(--muted); font: 11px/1.65 "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; z-index: 1; }
+
 .briefing { display: grid; align-content: center; gap: 22px; min-height: 100svh; padding: 24px; background: radial-gradient(circle at 95% 8%, #214c59 0, transparent 34%), #071421; }
 .briefing h2 { margin: 8px 0 0; font-size: 35px; font-weight: 400; letter-spacing: .08em; }
 .briefing .lead { margin: 0; color: rgba(244,239,228,.78); line-height: 1.9; font-size: 14px; }
@@ -165,6 +177,8 @@ button { font: inherit; }
 .country.unplayable, .country.inactive { fill: rgba(126,153,156,.34); opacity: .55; }
 .country.unresolved.color-0 { fill: var(--country-0); }.country.unresolved.color-1 { fill: var(--country-1); }.country.unresolved.color-2 { fill: var(--country-2); }.country.unresolved.color-3 { fill: var(--country-3); }.country.unresolved.color-4 { fill: var(--country-4); }.country.unresolved.color-5 { fill: var(--country-5); }
 .country.selected { fill: var(--gold); stroke: #fff3c4; stroke-width: 2.4; filter: drop-shadow(0 0 5px rgba(255,226,129,.9)); }
+.country.choice-muted { opacity: .42; }
+.country.choice-target { fill: var(--gold); stroke: #fff3c4; stroke-width: 2.6; filter: drop-shadow(0 0 7px rgba(255,226,129,.96)); animation: targetPulse 1.3s infinite alternate; }
 .country.saved { fill: #1d9b8f; stroke: #b9f2de; stroke-width: 1.4; }
 .country.sunk { fill: var(--sea); stroke: rgba(15,131,153,.5); opacity: .7; }
 .country.sinking { animation: sink 1.55s forwards; }
@@ -172,12 +186,15 @@ button { font: inherit; }
 .assist-ring { fill: rgba(244,239,228,.08); stroke: rgba(244,239,228,.84); stroke-width: .9; vector-effect: non-scaling-stroke; cursor: pointer; }
 .assist-core { fill: var(--gold); stroke: #fff3c4; stroke-width: .65; vector-effect: non-scaling-stroke; cursor: pointer; }
 .saved-ring { fill: rgba(42,194,178,.2); stroke: rgba(190,247,225,.9); stroke-width: 1; vector-effect: non-scaling-stroke; pointer-events: none; }
+.target-reticle { vector-effect: non-scaling-stroke; pointer-events: none; }.target-reticle.outer { fill: rgba(230,175,81,.12); stroke: rgba(255,243,196,.95); stroke-width: 1.15; animation: reticlePulse 1.15s infinite alternate; }.target-reticle.core { fill: var(--gold); stroke: #fff3c4; stroke-width: .8; }
 .effect-ring { fill: none; stroke: #e7ba62; stroke-width: 1.8; vector-effect: non-scaling-stroke; animation: ripple 1.3s forwards; }
 
 .answer-sheet { z-index: 5; min-height: 148px; padding: 13px 16px calc(14px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(244,239,228,.14); background: linear-gradient(135deg, #0d2939, #071821); box-shadow: 0 -12px 32px rgba(0,0,0,.24); }
 .selection-copy { margin: 0 0 10px; min-height: 38px; font: 13px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--muted); line-height: 1.5; }
 .selection-copy strong { color: var(--paper); font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 18px; letter-spacing: .05em; }
 .live-stats { display: flex; justify-content: space-between; margin: 0 0 11px; font: 10px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--muted); letter-spacing: .05em; }
+.choice-sheet { min-height: 203px; padding-top: 10px; }.choice-sheet .selection-copy { min-height: auto; margin-bottom: 8px; font-size: 11px; }.choice-sheet .live-stats { margin: 9px 0 0; }
+.choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }.choice-button { display: flex; align-items: center; min-height: 47px; padding: 8px 9px; overflow: hidden; color: var(--paper); border: 1px solid rgba(244,239,228,.22); background: rgba(7,24,35,.93); text-align: left; font: 12px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; cursor: pointer; transition: transform .16s, border-color .16s, background .16s; }.choice-button:active { transform: scale(.975); background: rgba(46,91,103,.95); border-color: var(--gold); }.choice-number { flex: 0 0 auto; margin-right: 7px; color: var(--gold); font-size: 9px; letter-spacing: .08em; }
 
 .result-toast { position: absolute; z-index: 10; inset: 0; display: grid; place-items: center; pointer-events: none; background: rgba(2,10,16,.30); animation: fadeIn .2s both; }
 .result-toast-inner { width: min(86%, 340px); padding: 22px; text-align: center; background: rgba(6,23,34,.94); border: 1px solid rgba(244,239,228,.26); box-shadow: 0 18px 44px rgba(0,0,0,.45); }
@@ -202,6 +219,8 @@ button { font: inherit; }
 @keyframes flagIn { from { opacity: 0; transform: translateY(9px) scale(.7); } to { opacity: 1; transform: none; } }
 @keyframes sink { 0% { filter: brightness(1); } 55% { filter: brightness(.45); transform: translateY(2px); } 100% { opacity: .1; filter: brightness(.35); } }
 @keyframes ripple { from { opacity: .9; transform: scale(.3); } to { opacity: 0; transform: scale(4); } }
+@keyframes targetPulse { to { filter: brightness(1.18) drop-shadow(0 0 10px rgba(255,226,129,1)); } }
+@keyframes reticlePulse { to { opacity: .46; stroke-width: 2.1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes storyImageIn { from { opacity: 0; transform: scale(1.035); } to { opacity: 1; transform: scale(1); } }
 @keyframes storyCopyIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: none; } }
