@@ -164,7 +164,7 @@ function sound(kind) {
     const gain = audioContext.createGain();
     osc.connect(gain); gain.connect(audioContext.destination);
     const now = audioContext.currentTime;
-    const config = kind === 'success' ? [660, 880, .09] : kind === 'failure' ? [174, 104, .18] : [392, 392, .04];
+    const config = kind === 'success' ? [660, 880, .09] : kind === 'impact' ? [118, 56, .24] : kind === 'failure' ? [174, 104, .18] : [392, 392, .04];
     osc.frequency.setValueAtTime(config[0], now);
     osc.frequency.exponentialRampToValueAtTime(config[1], now + config[2]);
     gain.gain.setValueAtTime(.025, now);
@@ -369,6 +369,48 @@ function initMap(isResult) {
     return bits.join(' ');
   }
 
+  function impactPoint(countryId) {
+    // 国ごとに用意した代表座標を現在の投影へ変換するため、着弾位置は地図の対象国と連動する。
+    return projection(byId[countryId].anchor);
+  }
+
+  function createImpact(point) {
+    const [x, y] = point;
+    effects.append('circle').attr('class', 'missile-impact-wave').attr('cx', x).attr('cy', y).attr('r', 5);
+    effects.append('circle').attr('class', 'missile-impact-core').attr('cx', x).attr('cy', y).attr('r', 2.3);
+    effects.append('circle').attr('class', 'effect-ring effect-failure').attr('cx', x).attr('cy', y).attr('r', 8);
+    sound('impact'); haptic([25, 20, 48]);
+  }
+
+  function animateMissileImpact(countryId) {
+    const point = impactPoint(countryId);
+    if (!point) return;
+    const [targetX, targetY] = point;
+    const fromX = targetX < width / 2 ? width + 28 : -28;
+    const fromY = targetY < height / 2 ? height + 28 : -28;
+    const angle = Math.atan2(targetY - fromY, targetX - fromX) * (180 / Math.PI);
+    const missile = effects.append('g').attr('class', 'missile-flight');
+    const trail = effects.append('line').attr('class', 'missile-trail').attr('x1', fromX).attr('y1', fromY).attr('x2', fromX).attr('y2', fromY);
+    missile.append('path').attr('class', 'missile-body').attr('d', 'M -9 -2.6 L 7 0 L -9 2.6 L -4 0 Z');
+    missile.append('circle').attr('class', 'missile-flame').attr('cx', -7).attr('cy', 0).attr('r', 2.2);
+    const duration = 560;
+    let startedAt = null;
+    function fly(now) {
+      startedAt ??= now;
+      const progress = Math.min(1, (now - startedAt) / duration);
+      const eased = 1 - ((1 - progress) ** 3);
+      const x = fromX + (targetX - fromX) * eased;
+      const y = fromY + (targetY - fromY) * eased;
+      missile.attr('transform', `translate(${x},${y}) rotate(${angle})`);
+      trail.attr('x2', x).attr('y2', y).attr('opacity', 1 - progress * .15);
+      if (progress < 1) requestAnimationFrame(fly);
+      else {
+        missile.remove(); trail.remove(); createImpact(point);
+      }
+    }
+    requestAnimationFrame(fly);
+  }
+
   function renderState() {
     paths
       .attr('class', visualClass)
@@ -401,14 +443,12 @@ function initMap(isResult) {
       }
     });
     if (!isResult && run.phase === 'resolving' && run.answerResult) {
-      const point = projection(byId[run.answerResult.target].anchor);
-      if (point) effects.append('circle').attr('class', `answer-burst ${run.answerResult.outcome === 'correct' ? 'success' : 'failure'}`).attr('cx', point[0]).attr('cy', point[1]).attr('r', 7);
-    }
-    if (run.recentSunk?.size) {
-      run.recentSunk.forEach((id) => {
-        const point = projection(byId[id].anchor);
-        if (point) effects.append('circle').attr('class', 'effect-ring effect-failure').attr('cx', point[0]).attr('cy', point[1]).attr('r', 8);
-      });
+      const point = impactPoint(run.answerResult.target);
+      if (run.answerResult.outcome === 'correct' && point) {
+        effects.append('circle').attr('class', 'answer-burst success').attr('cx', point[0]).attr('cy', point[1]).attr('r', 7);
+      } else if (run.answerResult.outcome !== 'correct') {
+        animateMissileImpact(run.answerResult.target);
+      }
     }
   }
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'anata-no-shiru-sekai-v10';
+const CACHE_NAME = 'anata-no-shiru-sekai-v11';
 const CORE = ['./', './index.html', './style.css', './app.js', './data/world-data.v1.json', './vendor/d3.min.js', './assets/command-earth.png'];
 
 self.addEventListener('install', (event) => {

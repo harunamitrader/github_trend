@@ -183,7 +183,7 @@ button { font: inherit; }
 .country.sunk { fill: var(--sea); stroke: rgba(15,131,153,.5); opacity: .7; }
 .country.answer-success { fill: #22c5a9; stroke: #ecfff8; stroke-width: 2.8; opacity: 1; filter: drop-shadow(0 0 9px rgba(77,244,204,.98)); animation: answerSuccess .72s infinite alternate; }
 .country.answer-failure { fill: var(--danger); stroke: #ffe0da; stroke-width: 2.5; opacity: 1; filter: drop-shadow(0 0 8px rgba(239,94,86,.94)); }
-.country.sinking { animation: sink 1.55s forwards; }
+.country.sinking { animation: sink 1.2s .56s forwards; }
 .flag-pin { cursor: default; pointer-events: none; filter: drop-shadow(0 1px 1px rgba(0,0,0,.8)); animation: flagIn .45s both; }
 .assist-ring { fill: rgba(244,239,228,.08); stroke: rgba(244,239,228,.84); stroke-width: .9; vector-effect: non-scaling-stroke; cursor: pointer; }
 .assist-core { fill: var(--gold); stroke: #fff3c4; stroke-width: .65; vector-effect: non-scaling-stroke; cursor: pointer; }
@@ -191,6 +191,8 @@ button { font: inherit; }
 .target-reticle { vector-effect: non-scaling-stroke; pointer-events: none; }.target-reticle.outer { fill: rgba(230,175,81,.12); stroke: rgba(255,243,196,.95); stroke-width: 1.15; animation: reticlePulse 1.15s infinite alternate; }.target-reticle.core { fill: var(--gold); stroke: #fff3c4; stroke-width: .8; }
 .effect-ring { fill: none; stroke: #e7ba62; stroke-width: 1.8; vector-effect: non-scaling-stroke; animation: ripple 1.3s forwards; }.effect-ring.effect-failure { stroke: #ff8d82; stroke-width: 2.2; }
 .answer-burst { fill: none; vector-effect: non-scaling-stroke; pointer-events: none; }.answer-burst.success { stroke: #9affe1; stroke-width: 2.8; animation: answerBurst 1.1s forwards; }.answer-burst.failure { stroke: #ff9e93; stroke-width: 3; animation: answerBurst 1.25s forwards; }
+.missile-trail { stroke: #ffc56d; stroke-width: 1.7; vector-effect: non-scaling-stroke; filter: drop-shadow(0 0 2px rgba(255,189,91,.94)); pointer-events: none; }.missile-body { fill: #fff0c9; stroke: #d95b4f; stroke-width: .7; vector-effect: non-scaling-stroke; filter: drop-shadow(0 0 2px rgba(255,169,92,.92)); }.missile-flame { fill: #ff825e; filter: drop-shadow(0 0 2px rgba(255,211,122,.94)); }
+.missile-impact-wave, .missile-impact-core { transform-box: fill-box; transform-origin: center; pointer-events: none; }.missile-impact-wave { fill: rgba(255,151,97,.27); stroke: #ffd079; stroke-width: 2; vector-effect: non-scaling-stroke; animation: missileImpactWave .85s forwards; }.missile-impact-core { fill: #fff0bc; stroke: #ff6c58; stroke-width: 1; vector-effect: non-scaling-stroke; animation: missileImpactCore .48s forwards; }
 
 .answer-sheet { z-index: 5; min-height: 148px; padding: 13px 16px calc(14px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(244,239,228,.14); background: linear-gradient(135deg, #0d2939, #071821); box-shadow: 0 -12px 32px rgba(0,0,0,.24); }
 .selection-copy { margin: 0 0 10px; min-height: 38px; font: 13px "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--muted); line-height: 1.5; }
@@ -225,6 +227,8 @@ button { font: inherit; }
 @keyframes sink { 0% { filter: brightness(1); } 55% { filter: brightness(.45); transform: translateY(2px); } 100% { opacity: .1; filter: brightness(.35); } }
 @keyframes ripple { from { opacity: .9; transform: scale(.3); } to { opacity: 0; transform: scale(4); } }
 @keyframes answerBurst { from { opacity: 1; } to { opacity: 0; stroke-width: .4; } }
+@keyframes missileImpactWave { 0% { opacity: .95; transform: scale(.35); } 60% { opacity: .82; } 100% { opacity: 0; transform: scale(3.8); stroke-width: .45; } }
+@keyframes missileImpactCore { 0% { opacity: 1; transform: scale(.45); } 70% { opacity: .9; } 100% { opacity: 0; transform: scale(2.2); } }
 @keyframes answerSuccess { to { filter: brightness(1.22) drop-shadow(0 0 14px rgba(77,244,204,1)); } }
 @keyframes choiceSuccess { to { filter: brightness(1.14); } }
 @keyframes targetPulse { to { filter: brightness(1.18) drop-shadow(0 0 10px rgba(255,226,129,1)); } }
