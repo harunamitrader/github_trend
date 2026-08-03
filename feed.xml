@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 Aug 2026 19:17:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 04:46:32 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-08-04 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-04-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-04-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pdf-inspector]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-firecrawl-pdf-inspector.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-firecrawl-pdf-inspector.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OCRを使用せず、PDFのテキスト判定・表抽出・Markdown変換をローカルで超高速実行するRust製ライブラリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-livekit-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-livekit-agents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[WebRTCによる超低遅延のリアルタイム対話型音声AIエージェントを構築するためのオープンソースフレームワーク]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT Model Deprecation Notice (August 2026)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-03-chatgpt-model-deprecation-august.html</link>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Atlasブラウザ廃止に伴うYouTube要約・右クリックAsk・タブメンション等の新機能を搭載したChrome拡張機能アップデート、および学術研究者向け無償枠の提供]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Workbench Sunset & Opus 4.1 EOL]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-claude-workbench-sunset.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-claude-workbench-sunset.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[レガシーなWorkbenchプラットフォームの廃止計画（8月17日アクセス終了）、および旧Opus 4.1モデルのサポート終了（8月5日）に伴うアナウンス]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok Voice Think Fast 2.0]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-grok-think-fast-2-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-grok-think-fast-2-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[書き起こし精度1.4倍向上、低遅延化、より自然な発話スタイルを実現した音声対話モデルの最新アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.55.0-nightly.20260801]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-geminicli-v0-55-0-nightly.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[nightlyリリースにおける最新の内部バグ修正と動作安定化の向上]]></description>
     </item>
   </channel>
 </rss>

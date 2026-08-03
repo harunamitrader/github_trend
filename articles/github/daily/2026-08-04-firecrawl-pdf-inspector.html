@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OCRを使用せず、PDFのテキスト判定・表抽出・Markdown変換をローカルで超高速実行するRust製ライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>pdf-inspector</title>
+    <link class="favicon" rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">pdf-inspector</h1>
+      <p class="article-dek">OCRを使用せず、PDFのテキスト判定・表抽出・Markdown変換をローカルで超高速実行する Rust製ライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-08-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/firecrawl/pdf-inspector" target="_blank" rel="noreferrer">
+              firecrawl/pdf-inspector
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,803</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Firecrawl開発チームが提供する、PDFの構造識別（分類）や位置追従型テキスト抽出、およびMarkdown変換をローカル環境で高速処理するRust製の解析ライブラリ。</p>
+
+        <h2>何ができるか</h2>
+        <p>PDFファイルがテキスト情報を持っているかスキャンされた画像（画像化されたPDF）であるかを短時間（10〜50ms程度）で分類し、確信度スコアを返します。また、多段組読み順の補正、フォント情報・座標を保持したテキスト抽出、財務諸表などの複雑なテーブル検出とMarkdown変換をOCR不要で実行できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>ピュアRust実装により外部モデルやMLランタイム、重たい外部依存サービス（OCR API等）に依存せず、軽量で高速。ドキュメント全体の約54%を占めるテキストベースPDFを1件あたり200ms未満で処理可能。Python、Node.js、WebAssembly（ブラウザ）バインディングを同梱している点。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Rust環境では通常のCargoクレートとして導入。JavaScriptやPythonからは、NAPI-RS経由のnpmパッケージ（@firecrawl/pdf-inspector）やPyPI（pdf-inspector）をインストールするだけで、プラットフォームごとのネイティブバインディングを通じて利用できます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>RAGやLLMへの投入前処理として大量のPDFをMarkdownに変換したい開発者、高額なOCRサーバーのコストや処理遅延を削減したい検索エンジン・データパイプライン運用チーム。</p>
+
+        <h2>注意点</h2>
+        <p>純粋な画像PDFや複雑な非手書き図面など、テキストデータ自体がストリーム内に一切存在しないスキャンデータに対してはOCRが必要になるため、本ライブラリによる判別（Scanned判定）後に、TesseractやTencentOCRなどの外部OCRエンジンへルーティングする実装が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>PDF処理における「画像判定・スマートルーティング・Markdown変換」というRAG前処理の最大負荷部分を、Rustの圧倒的なパフォーマンスで解決するデータ解析ライブラリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/firecrawl/pdf-inspector" target="_blank" rel="noreferrer">https://github.com/firecrawl/pdf-inspector</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #925</p>
+      </div>
+    </article>
+  </body>
+</html>

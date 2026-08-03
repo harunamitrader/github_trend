@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WebRTCによる超低遅延のリアルタイム対話型音声AIエージェントを構築するためのオープンソースフレームワーク"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>agents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">agents</h1>
+      <p class="article-dek">WebRTCによる超低遅延のリアルタイム対話型音声AIエージェントを構築するためのオープンソースフレームワーク</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-08-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/livekit/agents" target="_blank" rel="noreferrer">
+              livekit/agents
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>11,900</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>サーバー上で動作する、リアルタイムかつプログラマブルな双方向音声対話AIエージェントを迅速に構築するための、LiveKit公式のオープンソースフレームワーク。</p>
+
+        <h2>何ができるか</h2>
+        <p>各種STT（音声認識）、LLM（言語モデル）、TTS（音声合成）のモデルを柔軟に組み合わせ、WebRTC接続を介して超低遅延で双方向に対話できるAIを開発できます。セマンティックなターン（発話終了）検知、電話回線（SIP）との統合、RPCによるクライアントとのデータ連携、MCPサーバー経由の外部ツール呼び出しをサポートします。</p>
+
+        <h2>目立つポイント</h2>
+        <p>WebRTCインフラを基盤とするため、数ミリ秒〜数百ミリ秒単位の極低遅延での対話・映像伝送を実現。また、AIコーディングアシスタント向けに、LiveKit開発の設計ベストプラクティスを自律的に読み込ませるための「LiveKit Agent Skill」やドキュメント参照MCPサーバーも用意されている点。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境において、必要なプロバイダ連携プラグインを指定してインストール（pip install "livekit-agents[openai,deepgram,cartesia]"）を行います。その後、LiveKit Media Serverと連携したエージェント定義コードを実行することで稼働します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>対話型AIアシスタント、多機能カスタマーサポートボット、音声主導の自律型エージェント、リアルタイムでのテレフォニー（電話）AI連携を本番運用レベルで実装したい開発者やチーム。</p>
+
+        <h2>注意点</h2>
+        <p>低遅延かつ安定したWebRTCの動作や、STT/LLM/TTSのストリーミングパイプラインを処理するためには、接続を仲介するLiveKitサーバー（セルフホストまたはLiveKit Cloud）の用意および適切なネットワーク設計が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>音声対話AIに必要な一連のパイプライン（WebRTC、SIP、ターン検知、MCP統合など）を網羅した、極めて洗練された本番品質のWebRTC音声エージェント開発フレームワークです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/livekit/agents" target="_blank" rel="noreferrer">https://github.com/livekit/agents</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #924</p>
+      </div>
+    </article>
+  </body>
+</html>
