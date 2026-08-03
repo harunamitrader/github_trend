@@ -1,0 +1,10 @@
+{
+  "name": "あなたの知る世界",
+  "short_name": "知る世界",
+  "description": "知っている国だけを救える、地理認証サバイバルゲーム。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#071421",
+  "theme_color": "#071421",
+  "lang": "ja"
+}
