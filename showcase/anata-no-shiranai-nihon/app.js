@@ -2,11 +2,11 @@
 
 const app = document.querySelector('#app');
 const DATA_URL = './data/japan-prefectures.v1.json?v=2';
-const PROGRESS_KEY = 'anata-no-shiranai-nihon.progress.v1';
+const PROGRESS_KEY = 'anata-no-shiranai-nihon.progress.v2';
 const E2E_MODE = new URLSearchParams(location.search).get('e2e') === '1';
 const DEBUG_MODE = new URLSearchParams(location.search).get('debug') === '1';
 const ROUND_SECONDS = E2E_MODE ? 0.15 : DEBUG_MODE ? 600 : 30;
-const EFFECT_DELAY = E2E_MODE ? 30 : 2250;
+const EFFECT_DELAY = E2E_MODE ? 40 : 3250;
 
 const STORY_SLIDES = [
   {
@@ -212,13 +212,13 @@ function renderModes() {
   const nationalAvailable = isNationalUnlocked();
   app.innerHTML = `
     <main class="mode-screen screen">
-      <header class="page-header"><div><p class="console-label">REGIONAL MODES / ${countProgress()} OF ${sectors().length} CLEARED</p><h2>地域を選ぶ</h2><p>地域別モードをクリアして、全国モードを解放しよう。</p></div><button class="text-button" data-action="intro">終了</button></header>
+      <header class="page-header"><div><p class="console-label">REGIONAL MODES / ${countProgress()} OF ${sectors().length} CLEARED</p><h2>地域を選ぶ</h2><p>地域別モードを全問正解でクリアして、全国モードを解放しよう。</p></div><button class="text-button" data-action="intro">終了</button></header>
       <section class="sector-list">${cards}</section>
       <section class="national-card ${nationalAvailable ? 'is-ready' : 'is-locked'}">
         <div><p class="console-label">FINAL MODE</p><strong>全国モード</strong><small>全国47都道府県</small></div>
         <button class="primary-button" data-action="briefing" data-region="national" ${nationalAvailable ? '' : 'disabled'}>${nationalAvailable ? '全国モードを開始' : `あと ${sectors().length - countProgress()} 地域`}</button>
       </section>
-      <p class="mode-note">地域別モードでC評価以上を取ると、その地域をクリアできます。全国モードでは47都道府県を連続で防衛します。</p>
+      <p class="mode-note">地域別モードは全問正解でクリアです。ひとつでも防衛に失敗すると、再挑戦になります。</p>
     </main>`;
 }
 
@@ -236,7 +236,7 @@ function renderBriefing(regionId) {
         <div class="briefing-rule"><span class="rule-number">03</span><p>正解なら迎撃。不正解または時間切れなら、<em>照準の都道府県だけ</em>が防衛失敗となる。</p></div>
       </section>
       <dl class="briefing-stats"><div><dt>防衛対象</dt><dd>${units.length}<small>都道府県</small></dd></div><div><dt>認証時間</dt><dd>30<small>SEC</small></dd></div><div><dt>候補数</dt><dd>4<small>CHOICES</small></dd></div></dl>
-      <aside class="briefing-callout">${national ? '全国モードです。結果は今回の防衛記録として保存されます。' : '地域クリア条件：正解率50%以上、防衛成功60%以上、さらに人口または面積を70%以上防衛。'}</aside>
+      <aside class="briefing-callout">${national ? '全国モードです。結果は今回の防衛記録として保存されます。' : '地域クリア条件：対象の全都道府県を、一度も失わずに防衛する。'}</aside>
       <button class="primary-button wide-button" data-action="begin" data-region="${regionId}">${national ? '全国モードを開始する' : '地域別モードを開始する'} <span>→</span></button>
     </main>`;
 }
@@ -404,47 +404,68 @@ function playImpact(target, correct, kind) {
   if (!mapState) return;
   const { svg, layer, projection, width, height } = mapState;
   const targetPoint = projection(target.anchor);
-  svg.select(`[data-prefecture="${target.id}"]`).classed(correct ? 'is-defended' : 'is-hit', true);
+  const targetPath = svg.select(`[data-prefecture="${target.id}"]`);
   const reticle = svg.select('[data-target-reticle]');
-  reticle.classed(correct ? 'is-secured' : 'is-impact', true);
   const overlay = layer.append('g').attr('class', `outcome-overlay ${correct ? 'success' : 'failure'}`);
   const showOutcome = () => {
     const title = correct ? '迎撃成功' : kind === 'timeout' ? '時間切れ' : '防衛失敗';
-    const message = correct ? `${target.name}を防衛しました。` : `${target.name}への着弾を阻止できませんでした。`;
+    const message = correct ? `${target.name}を完全防衛しました。` : `${target.name}は海へ沈みました。`;
     const panel = document.createElement('section');
     panel.className = `outcome-card ${correct ? 'success' : 'failure'}`;
-    panel.innerHTML = `<p>${title}</p><strong>${message}</strong><small>${correct ? '防衛システムを次の照準へ切り替えます。' : '正解：' + target.name + '　照準の都道府県だけが防衛失敗です。'}</small>`;
+    panel.innerHTML = `<p>${title}</p><strong>${message}</strong><small>${correct ? '敵ミサイルを空中迎撃。次の照準へ切り替えます。' : '照準の都道府県だけが、防衛不能となりました。'}</small>`;
     document.querySelector('.battlefield')?.append(panel);
   };
+  const enemyStart = [Math.max(14, targetPoint[0] - Math.min(210, width * .46)), Math.max(16, targetPoint[1] - Math.min(185, height * .42))];
+  const delay = (milliseconds) => E2E_MODE ? 1 : milliseconds;
   if (!correct) {
-    const start = [Math.max(8, targetPoint[0] - Math.min(190, width * .42)), Math.max(8, targetPoint[1] - Math.min(155, height * .36))];
-    const missile = overlay.append('circle').attr('class', 'missile-dot').attr('r', 3).attr('cx', start[0]).attr('cy', start[1]);
-    const trail = overlay.append('path').attr('class', 'missile-trail').attr('d', `M ${start[0]} ${start[1]} Q ${(start[0] + targetPoint[0]) / 2} ${start[1] - 34} ${targetPoint[0]} ${targetPoint[1]}`);
-    const started = performance.now();
-    const fly = (now) => {
-      const t = Math.min(1, (now - started) / (E2E_MODE ? 1 : 620));
-      const x = start[0] + (targetPoint[0] - start[0]) * t;
-      const y = start[1] + (targetPoint[1] - start[1]) * t - Math.sin(t * Math.PI) * 30;
-      missile.attr('cx', x).attr('cy', y);
-      if (t < 1) requestAnimationFrame(fly);
-      else {
-        missile.remove();
-        trail.classed('is-complete', true);
-        showExplosion(overlay, targetPoint);
-        window.setTimeout(showOutcome, E2E_MODE ? 1 : 780);
-      }
-    };
-    requestAnimationFrame(fly);
-  } else {
-    overlay.append('circle').attr('class', 'intercept-ring').attr('cx', targetPoint[0]).attr('cy', targetPoint[1]).attr('r', 8);
-    overlay.append('path').attr('class', 'intercept-mark').attr('d', `M ${targetPoint[0] - 9} ${targetPoint[1]} l 6 6 l 13 -14`);
-    window.setTimeout(showOutcome, E2E_MODE ? 1 : 360);
+    animateMissile(overlay, { start: enemyStart, end: targetPoint, type: 'enemy', duration: delay(760), arc: 42, onComplete: () => {
+      targetPath.classed('is-hit', true);
+      reticle.classed('is-impact', true);
+      document.querySelector('.battlefield')?.classList.add('is-impacting');
+      showExplosion(overlay, targetPoint, 'impact');
+      window.setTimeout(() => targetPath.classed('is-sinking', true), delay(170));
+      window.setTimeout(showOutcome, delay(1500));
+    }});
+    return;
   }
+  const interceptPoint = [targetPoint[0], Math.max(34, targetPoint[1] - 48)];
+  const interceptorStart = [Math.min(width - 14, targetPoint[0] + Math.min(170, width * .34)), Math.min(height - 14, targetPoint[1] + Math.min(150, height * .34))];
+  animateMissile(overlay, { start: enemyStart, end: interceptPoint, type: 'enemy', duration: delay(760), arc: 42 });
+  window.setTimeout(() => animateMissile(overlay, { start: interceptorStart, end: interceptPoint, type: 'interceptor', duration: delay(500), arc: -24, onComplete: () => {
+    targetPath.classed('is-defended', true);
+    reticle.classed('is-secured', true);
+    showExplosion(overlay, interceptPoint, 'intercept');
+    const beam = overlay.append('path').attr('class', 'defence-beam').attr('d', `M ${targetPoint[0]} ${targetPoint[1]} L ${interceptPoint[0]} ${interceptPoint[1]}`);
+    window.setTimeout(() => beam.remove(), delay(980));
+    window.setTimeout(showOutcome, delay(1380));
+  }}), delay(260));
 }
 
-function showExplosion(layer, point) {
-  const burst = layer.append('g').attr('class', 'impact-burst').attr('transform', `translate(${point[0]}, ${point[1]})`);
-  burst.append('circle').attr('r', 8); burst.append('circle').attr('r', 17); burst.append('circle').attr('r', 31);
+function animateMissile(layer, { start, end, type, duration, arc, onComplete = () => {} }) {
+  const missile = layer.append('g').attr('class', `missile ${type}-missile`);
+  missile.append('path').attr('d', 'M0,-12 L5,8 L0,4 L-5,8 Z');
+  missile.append('circle').attr('class', 'missile-flame').attr('r', 4).attr('cy', 8);
+  const trail = layer.append('path').attr('class', `missile-trail ${type}-trail`).attr('d', `M ${start[0]} ${start[1]} Q ${(start[0] + end[0]) / 2} ${(start[1] + end[1]) / 2 - arc} ${end[0]} ${end[1]}`);
+  const started = performance.now();
+  const fly = (now) => {
+    const t = Math.min(1, (now - started) / duration);
+    const x = start[0] + (end[0] - start[0]) * t;
+    const y = start[1] + (end[1] - start[1]) * t - Math.sin(t * Math.PI) * arc;
+    const nextT = Math.min(1, t + .015);
+    const nextX = start[0] + (end[0] - start[0]) * nextT;
+    const nextY = start[1] + (end[1] - start[1]) * nextT - Math.sin(nextT * Math.PI) * arc;
+    const angle = Math.atan2(nextY - y, nextX - x) * 180 / Math.PI + 90;
+    missile.attr('transform', `translate(${x}, ${y}) rotate(${angle})`);
+    if (t < 1) requestAnimationFrame(fly);
+    else { missile.remove(); trail.classed('is-complete', true); onComplete(); }
+  };
+  requestAnimationFrame(fly);
+}
+
+function showExplosion(layer, point, type) {
+  const burst = layer.append('g').attr('class', `impact-burst ${type}`).attr('transform', `translate(${point[0]}, ${point[1]})`);
+  [9, 21, 38, 58].forEach((radius) => burst.append('circle').attr('r', radius));
+  burst.append('path').attr('class', 'blast-star').attr('d', 'M0,-34 L6,-7 L31,0 L6,7 L0,34 L-6,7 L-31,0 L-6,-7 Z');
 }
 
 function evaluation(total) {
@@ -452,8 +473,9 @@ function evaluation(total) {
   const defended = percentage(total.saved.count, total.target.count);
   const population = percentage(total.saved.population, total.target.population);
   const area = percentage(total.saved.area, total.target.area);
-  const cleared = accuracy >= 50 && defended >= 60 && (population >= 70 || area >= 70);
-  const grade = !cleared ? 'D' : accuracy >= 90 && defended >= 90 ? 'S' : accuracy >= 75 && defended >= 75 ? 'A' : 'C';
+  const regional = run.regionId !== 'national';
+  const cleared = regional && total.failed.count === 0;
+  const grade = regional ? (cleared ? 'S' : 'D') : accuracy >= 90 && defended >= 90 ? 'S' : accuracy >= 75 && defended >= 75 ? 'A' : accuracy >= 50 && defended >= 60 ? 'C' : 'D';
   return { accuracy, defended, population, area, cleared, grade };
 }
 
@@ -468,9 +490,9 @@ function renderResults() {
   app.innerHTML = `
     <main class="result-screen screen">
       <section class="result-hero"><p class="console-label">${national ? 'FINAL DEFENCE LOG' : 'REGIONAL MODE RESULT'}</p><h2>${label}</h2><div class="grade grade-${result.grade}">${result.grade}<small>GRADE</small></div><p>${national ? 'あなたが守れた日本の記録です。' : result.cleared ? 'この地域をクリアしました。' : '地域クリアの基準に届きませんでした。'}</p></section>
-      <section class="result-map-wrap"><svg id="japan-map" role="img" aria-label="防衛結果を示す日本地図"></svg><span>緑：防衛成功　赤：防衛失敗</span></section>
+      <section class="result-map-wrap"><svg id="japan-map" role="img" aria-label="防衛結果を示す日本地図"></svg><span>緑：防衛成功　海：防衛失敗</span></section>
       <dl class="result-grid"><div><dt>防衛失敗 / 対象</dt><dd>${total.failed.count}<small>/ ${total.target.count} 都道府県</small></dd></div><div><dt>正解率</dt><dd>${result.accuracy}<small>%</small></dd></div><div><dt>防衛できなかった人口</dt><dd>${formatPeople(total.failed.population)}<small>/ ${formatPeople(total.target.population)}（${percentage(total.failed.population, total.target.population)}%）</small></dd></div><div><dt>防衛できなかった面積</dt><dd>${formatArea(total.failed.area)}<small>/ ${formatArea(total.target.area)}（${percentage(total.failed.area, total.target.area)}%）</small></dd></div><div><dt>人口防衛率</dt><dd>${result.population}<small>%</small></dd></div><div><dt>最大連続成功</dt><dd>${run.stats.maxStreak}<small>連続</small></dd></div></dl>
-      <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `地域クリア。全国モード解放まで、残り ${sectors().length - countProgress()} 地域。` : '正解率50%、防衛成功60%、人口または面積70%を目標に再挑戦してください。'}</section>
+      <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `完全防衛。地域クリアです。全国モード解放まで、残り ${sectors().length - countProgress()} 地域。` : '地域クリアには、対象の全都道府県を防衛する必要があります。'}</section>
       <section class="failed-panel"><p class="console-label">${national ? 'DEFENCE FAILURE LOG' : 'SIMULATED FAILURE LOG'}</p><ul>${failedList}</ul></section>
       <footer class="result-actions"><button class="primary-button" data-action="retry">同じ地域を再挑戦 <span>↻</span></button><button class="outline-button" data-action="modes">地域一覧</button></footer>
     </main>`;
