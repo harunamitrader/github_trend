@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="新しいnpmクライアントからのメタデータ処理修正、およびCodexの途中停止防止や起動エラー修復を施したパッチアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.7.1-2</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">OpenClaw / Product Update</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.7.1-2</h1>
+      <p class="article-dek">新しいnpmクライアントからのメタデータ処理修正、およびCodexの途中停止防止や起動エラー修復を施したパッチアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.7.1-2</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClawの最新パッチバージョン「v2026.7.1-2」（および前バージョン v2026.7.1-1）がリリースされました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>npmプラグインメタデータの対応修正:</strong> 新しいnpmクライアントが返却する単一要素配列（singleton-array）形式のメタデータを許容するように修正し、公式管理プラグインのインストールや更新が失敗する問題を解消しました。</li>
+          <li><strong>Codex対話セッションの途中停止バグ修正:</strong> GPT/Codexモデルに対して進捗メッセージを返却した後、アプリサーバー側の応答ループが早期終了してしまう不具合を解消。モデルが確実に応答完了まで実行されるようになりました。</li>
+          <li><strong>Memory Core起動不具合の修復:</strong> インデックスやキャッシュの競合が発生した際に、Gatewayが無限再起動ループに陥る問題を修復。エラー状態からの自己修復機能が強化されました。</li>
+          <li><strong>WSL環境下のパーミッション対応:</strong> WSL（Windows Subsystem for Linux）上の読み取り専用ファイルシステムにおいて、パーミッション設定（chmod）が <code>EROFS</code> で失敗した場合でも、既存パスが非公開設定であればエラーを無視して続行できるように調整。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>特に新バージョンのnpmパッケージ管理システムにおいて公式プラグインの更新がスタックする問題や、Codexからの長文応答が途中で切れる問題が修正されているため、該当する環境では早期アップデートが必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>プラグイン管理、Codexの対話維持、および起動時の修復ループの安定化など、主に基盤や外部連動部分の信頼性を高めたメンテナンスパッチです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2" target="_blank" rel="noreferrer">OpenClaw Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 04:15:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.7.1-2]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-openclaw-v2026-7-1-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-openclaw-v2026-7-1-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[新しいnpmクライアントからのメタデータ処理修正、およびCodexの途中停止防止や起動エラー修復を施したパッチアップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[Grok CLI 2026-08-04 Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-grokcli-monorepo-sync.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントのトークン消費を最大61%削減し、会話・知識を階層的に管理するチーム向けメモリハブ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.7.2-beta.6]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-01-openclaw-v2026-7-2-beta-6.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[状態の安全性と復旧の強化（クアランティンストア・SQLiteスナップショット）、メッセージの永続的配信、およびトランスクリプトの巻き戻し・分岐を導入した最新ベータ]]></description>
     </item>
   </channel>
 </rss>

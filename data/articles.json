@@ -8,6 +8,17 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-04-openclaw-v2026-7-1-2",
+      "title": "OpenClaw v2026.7.1-2",
+      "dek": "新しいnpmクライアントからのメタデータ処理修正、およびCodexの途中停止防止や起動エラー修復を施したパッチアップデート",
+      "summary": "OpenClaw v2026.7.1-2およびv2026.7.1-1リリース。新パッケージ仕様でのnpmプラグインメタデータの読み込み不具合の修正、Codexモデルへの進捗送信後の応答早期終了バグの解消、Memory Coreキャッシュ競合時の再起動ループの修復などを実施。",
+      "publishedAt": "2026-08-04",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-08-04-openclaw-v2026-7-1-2.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-04-grokcli-monorepo-sync",
       "title": "Grok CLI 2026-08-04 Update",
       "dek": "Ctrl+L操作のテレメトリー追加、ダッシュボード操作ヒントの明確化、および認証トークン接尾辞の処理修正を施したモノレポ同期アップデート",
