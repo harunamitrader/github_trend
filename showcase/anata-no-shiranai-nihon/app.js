@@ -320,8 +320,10 @@ function drawMap({ targetId = null, focusRegion = 'national', final = false } = 
     const target = byId[targetId];
     const point = projection(target.anchor);
     const reticle = layer.append('g').attr('class', 'target-reticle').attr('data-target-reticle', targetId).attr('transform', `translate(${point[0]}, ${point[1]})`);
-    reticle.append('circle').attr('r', 22); reticle.append('circle').attr('r', 12); reticle.append('circle').attr('r', 3);
-    reticle.append('path').attr('d', 'M-30,0H30 M0,-30V30');
+    // Keep the marker clear of compact prefectures: the target fill and outline
+    // identify the area, while this deliberately compact reticle identifies its centre.
+    reticle.append('circle').attr('r', 13); reticle.append('circle').attr('r', 7); reticle.append('circle').attr('r', 2);
+    reticle.append('path').attr('d', 'M-17,0H17 M0,-17V17');
   }
   if (final) {
     layer.selectAll('.status-saved').each(function (prefecture) {
