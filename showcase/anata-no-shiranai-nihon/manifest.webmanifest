@@ -1,0 +1,9 @@
+{
+  "name": "あなたの知らない日本",
+  "short_name": "知らない日本",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07131d",
+  "theme_color": "#07131d",
+  "lang": "ja"
+}
