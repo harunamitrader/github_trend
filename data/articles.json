@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-04-grokcli-monorepo-sync",
+      "title": "Grok CLI 2026-08-04 Update",
+      "dek": "Ctrl+L操作のテレメトリー追加、ダッシュボード操作ヒントの明確化、および認証トークン接尾辞の処理修正を施したモノレポ同期アップデート",
+      "summary": "xai-org/grok-build の最新コミットアップデート。Ctrl+L実行時のshortcut_usedテレメトリー送信機能、ダッシュボードのオーバーレイ操作キー案内の明瞭化、アクセストークン接尾辞パース不具合の修正を実施。",
+      "publishedAt": "2026-08-04",
+      "repoName": "xai-org/grok-build",
+      "repoUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-08-04-grokcli-monorepo-sync.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-04-update-report",
       "title": "2026-08-04 アップデートレポート",
