@@ -1,7 +1,7 @@
-const CACHE = 'anata-no-shiranai-nihon-v5';
+const CACHE = 'anata-no-shiranai-nihon-v6';
 const ASSETS = [
-  './', './index.html', './app.js?v=5', './style.css?v=5', './impact-fix.css?v=1', './manifest.webmanifest',
-  './data/japan-prefectures.v1.json', './vendor/d3.min.js',
+  './', './index.html', './app.js?v=6', './style.css?v=6', './impact-fix.css?v=1', './manifest.webmanifest',
+  './data/japan-prefectures.v1.json?v=2', './vendor/d3.min.js',
   './assets/story/01-alert.png', './assets/story/02-trajectory.png', './assets/story/03-intercept.png'
 ];
 self.addEventListener('install', (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS))));

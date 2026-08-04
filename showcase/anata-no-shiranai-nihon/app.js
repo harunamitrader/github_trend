@@ -1,7 +1,7 @@
 /* あなたの知らない日本 — mobile-first prefecture defence game */
 
 const app = document.querySelector('#app');
-const DATA_URL = './data/japan-prefectures.v1.json';
+const DATA_URL = './data/japan-prefectures.v1.json?v=2';
 const PROGRESS_KEY = 'anata-no-shiranai-nihon.progress.v1';
 const E2E_MODE = new URLSearchParams(location.search).get('e2e') === '1';
 const DEBUG_MODE = new URLSearchParams(location.search).get('debug') === '1';
@@ -33,8 +33,9 @@ const REGIONS = {
   north: { name: '北日本', short: 'NORTH', console: '北日本モード', description: '北海道・東北', color: '#86c5d9' },
   east: { name: '東日本', short: 'EAST', console: '東日本モード', description: '関東', color: '#d8bd66' },
   central: { name: '中日本', short: 'CENTRAL', console: '中日本モード', description: '甲信越・北陸・東海', color: '#a7c984' },
-  west: { name: '西日本', short: 'WEST', console: '西日本モード', description: '近畿・中国', color: '#cf9ab7' },
-  south: { name: '南日本', short: 'SOUTH', console: '南日本モード', description: '四国・九州・沖縄', color: '#df8f61' },
+  kinki: { name: '近畿', short: 'KINKI', console: '近畿モード', description: '三重・滋賀・京都・大阪・兵庫・奈良・和歌山', color: '#cf9ab7' },
+  chugoku_shikoku: { name: '中国・四国', short: 'CHUGOKU / SHIKOKU', console: '中国・四国モード', description: '中国・四国', color: '#d69a7b' },
+  kyushu_okinawa: { name: '九州・沖縄', short: 'KYUSHU / OKINAWA', console: '九州・沖縄モード', description: '九州・沖縄', color: '#df8f61' },
   national: { name: '全国モード', short: 'NATIONAL', console: '全国モード', description: '全国47都道府県', color: '#f1df97' },
 };
 
@@ -119,11 +120,24 @@ function topoToFeatures(topology) {
   }));
 }
 
+function omitTokyoRemoteIslands(feature) {
+  if (!feature || feature.geometry.type !== 'MultiPolygon') return feature;
+  // 伊豆・小笠原など、東日本マップの表示範囲を大きく広げる遠方島しょ部は省く。
+  // 東京本土と東京湾内・近接島しょは北緯35度以北なので残す。
+  const mainlandAndNearby = feature.geometry.coordinates.filter((polygon) => (
+    polygon[0]?.some(([, latitude]) => latitude >= 35)
+  ));
+  return {
+    ...feature,
+    geometry: { ...feature.geometry, coordinates: mainlandAndNearby },
+  };
+}
+
 function initialiseData(data) {
   const featureById = Object.fromEntries(topoToFeatures(data.topology).map((feature) => [String(Number(feature.properties.id)).padStart(2, '0'), feature]));
   prefectures = data.prefectures.map((prefecture, index) => ({
     ...prefecture,
-    feature: featureById[prefecture.id],
+    feature: prefecture.id === '13' ? omitTokyoRemoteIslands(featureById[prefecture.id]) : featureById[prefecture.id],
     mapColor: ['#478ba2', '#3c7891', '#a8b87b', '#c89a66', '#ae84ae', '#6ba3c5'][index % 6],
   })).sort((a, b) => Number(a.id) - Number(b.id));
   byId = Object.fromEntries(prefectures.map((prefecture) => [prefecture.id, prefecture]));
@@ -198,11 +212,11 @@ function renderModes() {
   const nationalAvailable = isNationalUnlocked();
   app.innerHTML = `
     <main class="mode-screen screen">
-      <header class="page-header"><div><p class="console-label">REGIONAL MODES / ${countProgress()} OF 5 CLEARED</p><h2>地域を選ぶ</h2><p>地域別モードをクリアして、全国モードを解放しよう。</p></div><button class="text-button" data-action="intro">終了</button></header>
+      <header class="page-header"><div><p class="console-label">REGIONAL MODES / ${countProgress()} OF ${sectors().length} CLEARED</p><h2>地域を選ぶ</h2><p>地域別モードをクリアして、全国モードを解放しよう。</p></div><button class="text-button" data-action="intro">終了</button></header>
       <section class="sector-list">${cards}</section>
       <section class="national-card ${nationalAvailable ? 'is-ready' : 'is-locked'}">
         <div><p class="console-label">FINAL MODE</p><strong>全国モード</strong><small>全国47都道府県</small></div>
-        <button class="primary-button" data-action="briefing" data-region="national" ${nationalAvailable ? '' : 'disabled'}>${nationalAvailable ? '全国モードを開始' : `あと ${5 - countProgress()} 地域`}</button>
+        <button class="primary-button" data-action="briefing" data-region="national" ${nationalAvailable ? '' : 'disabled'}>${nationalAvailable ? '全国モードを開始' : `あと ${sectors().length - countProgress()} 地域`}</button>
       </section>
       <p class="mode-note">地域別モードでC評価以上を取ると、その地域をクリアできます。全国モードでは47都道府県を連続で防衛します。</p>
     </main>`;
@@ -456,7 +470,7 @@ function renderResults() {
       <section class="result-hero"><p class="console-label">${national ? 'FINAL DEFENCE LOG' : 'REGIONAL MODE RESULT'}</p><h2>${label}</h2><div class="grade grade-${result.grade}">${result.grade}<small>GRADE</small></div><p>${national ? 'あなたが守れた日本の記録です。' : result.cleared ? 'この地域をクリアしました。' : '地域クリアの基準に届きませんでした。'}</p></section>
       <section class="result-map-wrap"><svg id="japan-map" role="img" aria-label="防衛結果を示す日本地図"></svg><span>緑：防衛成功　赤：防衛失敗</span></section>
       <dl class="result-grid"><div><dt>防衛失敗 / 対象</dt><dd>${total.failed.count}<small>/ ${total.target.count} 都道府県</small></dd></div><div><dt>正解率</dt><dd>${result.accuracy}<small>%</small></dd></div><div><dt>防衛できなかった人口</dt><dd>${formatPeople(total.failed.population)}<small>/ ${formatPeople(total.target.population)}（${percentage(total.failed.population, total.target.population)}%）</small></dd></div><div><dt>防衛できなかった面積</dt><dd>${formatArea(total.failed.area)}<small>/ ${formatArea(total.target.area)}（${percentage(total.failed.area, total.target.area)}%）</small></dd></div><div><dt>人口防衛率</dt><dd>${result.population}<small>%</small></dd></div><div><dt>最大連続成功</dt><dd>${run.stats.maxStreak}<small>連続</small></dd></div></dl>
-      <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `地域クリア。全国モード解放まで、残り ${5 - countProgress()} 地域。` : '正解率50%、防衛成功60%、人口または面積70%を目標に再挑戦してください。'}</section>
+      <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `地域クリア。全国モード解放まで、残り ${sectors().length - countProgress()} 地域。` : '正解率50%、防衛成功60%、人口または面積70%を目標に再挑戦してください。'}</section>
       <section class="failed-panel"><p class="console-label">${national ? 'DEFENCE FAILURE LOG' : 'SIMULATED FAILURE LOG'}</p><ul>${failedList}</ul></section>
       <footer class="result-actions"><button class="primary-button" data-action="retry">同じ地域を再挑戦 <span>↻</span></button><button class="outline-button" data-action="modes">地域一覧</button></footer>
     </main>`;
