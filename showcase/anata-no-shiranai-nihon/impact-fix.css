@@ -1,0 +1,2 @@
+/* Target marker is intentionally static; only outcome effects move. */
+.target-reticle { animation: none; }

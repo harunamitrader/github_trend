@@ -1,6 +1,6 @@
-const CACHE = 'anata-no-shiranai-nihon-v3';
+const CACHE = 'anata-no-shiranai-nihon-v5';
 const ASSETS = [
-  './', './index.html', './app.js?v=3', './style.css?v=3', './manifest.webmanifest',
+  './', './index.html', './app.js?v=5', './style.css?v=5', './impact-fix.css?v=1', './manifest.webmanifest',
   './data/japan-prefectures.v1.json', './vendor/d3.min.js',
   './assets/story/01-alert.png', './assets/story/02-trajectory.png', './assets/story/03-intercept.png'
 ];
