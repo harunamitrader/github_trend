@@ -13,19 +13,19 @@ const STORY_SLIDES = [
     image: './assets/story/01-activation.png',
     chapter: 'INCIDENT 01 / ACTIVATION',
     title: 'あなたは、押してはいけないボタンを押した。',
-    body: '世界中の国家に向けて、終末兵器の攻撃命令が送信された。通常の方法では、もう止められない。',
+    body: 'あなたの認証キーで、196の地理認証単位が発射待機列へ登録された。終末兵器は目標座標を保持したまま、国名記録だけを失っている。',
   },
   {
     image: './assets/story/02-crisis.png',
     chapter: 'INCIDENT 02 / COLLAPSE',
     title: '残された停止手段は、地理認証だけ。',
-    body: '国名と場所を正しく結びつけられた国だけが、攻撃命令から外される。知らない国は、救えない。',
+    body: '取消には、照準座標と正しい国名の再結合が必要だ。各照準に開く認証窓は、わずか30秒。知らない国は、救えない。',
   },
   {
     image: './assets/story/03-authentication.png',
     chapter: 'INCIDENT 03 / AUTHENTICATION',
     title: 'あなたの知識が、世界を守る。',
-    body: '地図上で照準された国を、4つの国名から認証せよ。すべてが終わったとき、残るのは――あなたの知る世界。',
+    body: '端末が同じ地域の記録から復旧した4候補を照合せよ。すべてが終わったとき、残るのは――あなたの知る世界。',
   },
 ];
 
@@ -205,7 +205,7 @@ function renderIntro() {
         </div>
       </div>
       <div>
-        <p class="intro-brief">あなたは押してはいけないボタンを押した。地図上の照準を読み、4つの国名から正しい国を認証して、終末兵器の攻撃命令を止めよう。</p>
+        <p class="intro-brief">あなたの認証キーで、196の座標が発射待機列に入った。照準と国名を再結合し、終末兵器の発射を止めよう。</p>
         <button class="primary-button" data-action="story">管制端末を起動する</button>
       </div>
     </section>`;
@@ -241,7 +241,7 @@ function renderModes() {
     const region = REGIONS[id];
     const record = getRegionProgress(id);
     const count = gameData.regionCounts[id];
-    const keyLabel = record.keys ? `管制キー ${'◆'.repeat(record.keys)}${'◇'.repeat(3 - record.keys)}` : '未奪還';
+    const keyLabel = record.keys ? `演算キー ${'◆'.repeat(record.keys)}${'◇'.repeat(3 - record.keys)}` : '未解析';
     return `<button class="mode-card" data-action="briefing" data-mode="${id}" data-quiz="choice">
       <span class="mode-name">${region.name}</span><span class="keys">${keyLabel}</span>
       <span class="mode-meta">${region.console}　/　${count}国・地域</span>
@@ -250,14 +250,14 @@ function renderModes() {
   const unlocked = isWorldUnlocked();
   app.innerHTML = `
     <section class="screen page">
-      <header class="page-header"><div><div class="eyebrow">REGIONAL COMMAND</div><h2>作戦を選択</h2><p class="header-sub">6地域の管制権限を取り戻せ。</p></div><button class="back-button" data-action="intro">終了</button></header>
+      <header class="page-header"><div><div class="eyebrow">REGIONAL SIMULATION</div><h2>演算地域を選択</h2><p class="header-sub">6地域の予測演算を突破し、中央管制への鍵を得よ。</p></div><button class="back-button" data-action="intro">終了</button></header>
       <div class="mode-list">${regionalCards}
         <button class="mode-card ${unlocked ? '' : 'locked'}" data-action="briefing" data-mode="world" data-quiz="choice" ${unlocked ? '' : 'disabled'}>
-          <span class="mode-name">全世界</span><span class="keys">${unlocked ? '最終作戦：開始可能' : 'LOCKED'}</span>
+          <span class="mode-name">全世界</span><span class="keys">${unlocked ? '最終停止作戦：開始可能' : 'LOCKED'}</span>
           <span class="mode-meta">中央管制システム　/　196国・地域</span>
         </button>
       </div>
-      <p class="mode-note">地図の照準を読み、4つの国名から認証する。地域をC評価以上でクリアすると管制キーを獲得。</p>
+      <p class="mode-note">地域別作戦は中央管制へ入るための予測演算です。照準と4候補を照合し、C評価以上で演算キーを獲得します。</p>
   </section>`;
 }
 
@@ -288,12 +288,20 @@ function renderBriefing(modeId, quizType = 'choice') {
   const total = totalForRun();
   const region = REGIONS[modeId];
   const quiz = QUIZ_TYPES[quizType];
+  const isSimulation = modeId !== 'world';
+  const title = isSimulation ? `${region.name}の予測演算` : '世界を救出せよ';
+  const lead = isSimulation
+    ? 'これは中央管制へ入るための予測演算です。照準座標と国名を正しく再結合し、発射停止の見込みを証明せよ。'
+    : '中央管制が実行する、唯一の本番停止作戦です。座標と国名を正しく再結合し、196の発射待機を解除せよ。';
+  const missionBox = isSimulation
+    ? '予測演算クリア条件：正解率50%以上、保護率60%以上、さらに人口または面積を70%以上保護。結果は現実には反映されません。'
+    : '地域別の予測結果は引き継がれません。残るのは、今回あなたが停止できた世界だけです。';
   app.innerHTML = `
     <section class="screen briefing">
-      <div><div class="eyebrow">MISSION BRIEFING / ${region.short} / ${quiz.short}</div><h2>${region.name}を救出せよ</h2></div>
-      <p class="lead">終末兵器の攻撃命令が、この地域へ向かっている。${quiz.briefing}</p>
+      <div><div class="eyebrow">${isSimulation ? 'SIMULATION' : 'FINAL EXECUTION'} / ${region.short} / ${quiz.short}</div><h2>${title}</h2></div>
+      <p class="lead">${lead} ${quiz.briefing}</p>
       <div class="briefing-grid"><div><strong>${total.countries}</strong><span>対象国・地域</span></div><div><strong>${ROUND_SECONDS}</strong><span>1問の秒数（仮）</span></div><div><strong>196</strong><span>世界の総数</span></div></div>
-      ${modeId === 'world' ? `<div class="mission-box">最終作戦。地域別作戦の結果は引き継がれない。残るのは、今回あなたが救えた世界だけだ。</div>` : `<div class="mission-box">地域クリア条件：正解率50%以上、救出国率60%以上、さらに人口または面積を70%以上救出。</div>`}
+      <div class="mission-box">${missionBox}</div>
       <div class="briefing-actions"><button class="primary-button" data-action="start">${quiz.short}を開始する</button><button class="outline-button" data-action="modes">作戦選択へ戻る</button></div>
     </section>`;
 }
@@ -301,10 +309,11 @@ function renderBriefing(modeId, quizType = 'choice') {
 function renderGame() {
   const region = REGIONS[run.modeId];
   const isChoice = run.quizType === 'choice';
-  const headerCopy = isChoice ? '衛星照準 — 地図が示す国名を特定せよ' : '攻撃目標 — 国名と位置を照合せよ';
+  const isSimulation = run.modeId !== 'world';
+  const headerCopy = isChoice ? '座標照準 — 失われた国名を復旧せよ' : '攻撃目標 — 国名と位置を照合せよ';
   const answerSheet = isChoice
     ? `<footer class="answer-sheet choice-sheet">
-        <p class="selection-copy">照準された国を、同じ地域から選ばれた4つの国名で認証してください。</p>
+        <p class="selection-copy">端末が同じ地域の記録から復旧した4候補です。照準座標に結びつく正しい国名を選んでください。</p>
         <div id="choice-grid" class="choice-grid" role="group" aria-label="国名の回答候補"></div>
         <div class="live-stats"><span id="live-save">救出 0</span><span id="live-loss">沈没 0</span><span id="live-pop">人口維持 —</span></div>
       </footer>`
@@ -316,7 +325,7 @@ function renderGame() {
   app.innerHTML = `
     <section class="screen game">
       <header class="mission-header">
-        <div class="mission-topline"><span>${region.console} / ROUND <span id="round-number">01</span></span><span id="timer" class="timer" aria-label="残り時間">00:30</span></div>
+        <div class="mission-topline"><span>${region.console} / ${isSimulation ? 'SIMULATION' : 'FINAL'} / ROUND <span id="round-number">01</span></span><span id="timer" class="timer" aria-label="残り時間">00:30</span></div>
         <p class="target-label">${headerCopy}</p>
         <h1 id="target-name" class="target-name">接続中…</h1>
         <div class="mission-progress" aria-hidden="true"><span id="timer-bar"></span></div>
@@ -502,9 +511,10 @@ function updateGameUI() {
   }
   if (round) round.textContent = String(run.round).padStart(2, '0');
   const save = document.querySelector('#live-save'); const loss = document.querySelector('#live-loss'); const pop = document.querySelector('#live-pop');
-  if (save) save.textContent = `救出 ${saved.countries}`;
-  if (loss) loss.textContent = `沈没 ${sunk.countries}`;
-  if (pop) pop.textContent = `人口現存 ${percentage(total.population - sunk.population, total.population)}%`;
+  const isSimulation = run.modeId !== 'world';
+  if (save) save.textContent = `保護 ${saved.countries}`;
+  if (loss) loss.textContent = `${isSimulation ? '被害予測' : '沈没'} ${sunk.countries}`;
+  if (pop) pop.textContent = `${isSimulation ? '人口保護予測' : '人口現存'} ${percentage(total.population - sunk.population, total.population)}%`;
 }
 
 function updateSelectionUI() {
@@ -603,7 +613,10 @@ function resolveAnswer(selected) {
     run.stats.correct += 1; run.stats.streak += 1; run.stats.maxStreak = Math.max(run.stats.maxStreak, run.stats.streak);
     run.answerLog.push({ target, selected, outcome: 'correct' });
     sound('success'); haptic([12, 35, 16]);
-    showRoundResult(true, [target], '認証成功', `${byId[target].name}の攻撃命令を解除しました。`);
+    const message = run.modeId === 'world'
+      ? `${byId[target].name}への発射待機を解除しました。`
+      : `予測上、${byId[target].name}の座標は保護されます。`;
+    showRoundResult(true, [target], '認証成功', message);
   } else {
     run.answerResult = { outcome: 'wrong', target, selected };
     const sunkIds = run.quizType === 'choice'
@@ -617,7 +630,9 @@ function resolveAnswer(selected) {
     run.answerLog.push({ target, selected, outcome: 'wrong' });
     sound('failure'); haptic([45, 25, 75]);
     const message = run.quizType === 'choice'
-      ? `誤った国名を選択しました。${byId[target].name}だけが沈没しました。`
+      ? run.modeId === 'world'
+        ? `誤った国名を選択しました。座標は変わらないため、${byId[target].name}だけが沈没しました。`
+        : `誤った国名を選択しました。予測上、${byId[target].name}の座標だけが被害を受けます。`
       : sunkIds.length === 2
         ? `${byId[target].name} と ${byId[selected].name} が沈没しました。`
         : `${byId[target].name}の保護認証に失敗しました。`;
@@ -637,7 +652,10 @@ function resolveTimeout() {
   run.stats.timeout += 1; run.stats.streak = 0;
   run.answerLog.push({ target, selected: null, outcome: 'timeout' });
   sound('failure'); haptic([70, 30, 70]);
-  showRoundResult(false, [target], '時間切れ', `${byId[target].name}の保護認証が間に合いませんでした。`);
+  const message = run.modeId === 'world'
+    ? `${byId[target].name}への発射停止認証が間に合いませんでした。`
+    : `予測上、${byId[target].name}への発射停止認証が間に合いませんでした。`;
+  showRoundResult(false, [target], '時間切れ', message);
   updateMap(); renderChoiceOptions(); updateGameUI();
 }
 
@@ -686,20 +704,21 @@ function finishGame() {
 function renderResults(evaluation) {
   const saved = sumFor('saved'); const sunk = sumFor('sunk'); const total = totalForRun();
   const sunkCountries = run.countries.filter((country) => countryStatus(country.id) === 'sunk');
-  const label = run.modeId === 'world' ? '中央管制の最終記録' : `${REGIONS[run.modeId].name}管制区の記録`;
+  const isSimulation = run.modeId !== 'world';
+  const label = isSimulation ? `${REGIONS[run.modeId].name}の予測演算記録` : '中央管制の最終記録';
   const keyCopy = run.modeId === 'world'
     ? `<strong>${evaluation.countryRate >= 60 ? '世界は維持された。' : '世界は大きく失われた。'}</strong><br>これが、あなたの知る世界です。`
     : evaluation.keys
-      ? `<strong>管制キー ${'◆'.repeat(evaluation.keys)}</strong><br>${REGIONS[run.modeId].name}の管制権限を奪還しました。${isWorldUnlocked() ? '全世界モードが解放されました。' : '残る地域の管制権限を奪還してください。'}`
-      : `<strong>管制権限を奪還できなかった。</strong><br>正解率50%、救出国率60%、人口または面積70%を目標に、再挑戦してください。`;
-  const list = sunkCountries.length ? sunkCountries.map((country) => `<li><span>${flagMarkup(country)} ${country.name}<br><small>${run.statuses[country.id].sunkReason === 'timeout' ? '時間切れ' : '認証混線'}</small></span><span><small>${formatPopulation(country.population)}<br>${formatArea(country.areaKm2)}</small></span></li>`).join('') : '<li>沈没した国はありません。</li>';
+      ? `<strong>演算キー ${'◆'.repeat(evaluation.keys)}</strong><br>${REGIONS[run.modeId].name}の予測演算を突破しました。${isWorldUnlocked() ? '全世界モードが解放されました。' : '残る地域の演算キーを取得してください。'}`
+      : `<strong>予測精度が基準に届かなかった。</strong><br>正解率50%、保護率60%、人口または面積70%を目標に、再演算してください。`;
+  const list = sunkCountries.length ? sunkCountries.map((country) => `<li><span>${flagMarkup(country)} ${country.name}<br><small>${run.statuses[country.id].sunkReason === 'timeout' ? '時間切れ' : '認証不一致'}</small></span><span><small>${formatPopulation(country.population)}<br>${formatArea(country.areaKm2)}</small></span></li>`).join('') : `<li>${isSimulation ? '被害が予測された国・地域はありません。' : '沈没した国はありません。'}</li>`;
   app.innerHTML = `
     <section class="screen result-page">
-      <div class="result-hero"><div class="eyebrow">MISSION RESULT</div><h2>${label}</h2><p>救えた国には旗が立ち、沈んだ国は海になった。</p></div>
+      <div class="result-hero"><div class="eyebrow">${isSimulation ? 'SIMULATION RESULT' : 'MISSION RESULT'}</div><h2>${label}</h2><p>${isSimulation ? 'ここでの被害は中央管制が算出した予測です。演算キーだけが次の作戦へ引き継がれます。' : '保護できた国には旗が立ち、発射を止められなかった国は海になった。'}</p></div>
       <div class="result-map-wrap"><svg id="map" role="img" aria-label="今回の最終世界地図"></svg><div class="result-note">ピンチで拡大・縮小できます</div></div>
-      <dl class="score-grid"><div><dt>沈没 / 対象国数</dt><dd>${sunk.countries} <em>/ ${total.countries} 国</em></dd></div><div><dt>正解率</dt><dd>${evaluation.accuracy}<em>%</em></dd></div><div><dt>失われた人口</dt><dd class="loss-dd">${formatPopulation(sunk.population)}<em>/ ${formatPopulation(total.population)}（${percentage(sunk.population, total.population)}%）</em></dd></div><div><dt>失われた面積</dt><dd class="loss-dd">${formatArea(sunk.area)}<em>/ ${formatArea(total.area)}（${percentage(sunk.area, total.area)}%）</em></dd></div><div><dt>人口維持率</dt><dd>${percentage(saved.population, total.population)}<em>%</em></dd></div><div><dt>最大連続正解</dt><dd>${run.stats.maxStreak}<em> 連続</em></dd></div></dl>
+      <dl class="score-grid"><div><dt>${isSimulation ? '被害予測 / 対象国数' : '沈没 / 対象国数'}</dt><dd>${sunk.countries} <em>/ ${total.countries} 国</em></dd></div><div><dt>正解率</dt><dd>${evaluation.accuracy}<em>%</em></dd></div><div><dt>${isSimulation ? '想定損失人口' : '失われた人口'}</dt><dd class="loss-dd">${formatPopulation(sunk.population)}<em>/ ${formatPopulation(total.population)}（${percentage(sunk.population, total.population)}%）</em></dd></div><div><dt>${isSimulation ? '想定損失面積' : '失われた面積'}</dt><dd class="loss-dd">${formatArea(sunk.area)}<em>/ ${formatArea(total.area)}（${percentage(sunk.area, total.area)}%）</em></dd></div><div><dt>${isSimulation ? '人口保護率' : '人口維持率'}</dt><dd>${percentage(saved.population, total.population)}<em>%</em></dd></div><div><dt>最大連続正解</dt><dd>${run.stats.maxStreak}<em> 連続</em></dd></div></dl>
       <div class="key-result">${keyCopy}</div>
-      <ul class="sunk-list" aria-label="沈没国一覧">${list}</ul>
+      <ul class="sunk-list" aria-label="${isSimulation ? '被害予測の国・地域一覧' : '沈没国一覧'}">${list}</ul>
       <div class="result-actions"><button class="primary-button" data-action="retry">同じ作戦を再挑戦する</button><button class="outline-button" data-action="modes">作戦選択へ戻る</button></div>
     </section>`;
   initMap(true);
