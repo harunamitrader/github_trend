@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントの挙動監視と脅威検知・防御を本番レベルで実現するエンタープライズAIセキュリティシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ADR</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ADR</h1>
+      <p class="article-dek">AIエージェントの挙動監視と脅威検知・防御を本番レベルで実現するエンタープライズAIセキュリティシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-08-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/uber/ADR" target="_blank" rel="noreferrer">
+              uber/ADR
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>626</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Uberの本番環境で実際に導入・運用されている、AIコーディングアシスタント（CursorやClaude Code等）やサポートボットなどのAIエージェントの動きを監視・防御する統合AIセキュリティプラットフォーム。</p>
+
+        <h2>何ができるか</h2>
+        <p>AIエージェントが実行したコマンド、インテント、使用したツール（Tool use）、およびAPIのトレースをバックグラウンドで収集して標準化（ADR Observability / Sensor）します。また、133のMCPサーバーと303のテストからエージェントの防護壁や攻撃耐性を測定（ADR-Bench）、二段階の検出エンジンで怪しい挙動のセッションを早期検出（ADR Detection）します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>一般的にブラックボックス化しやすい「AIエージェントが内部のシェルで何をしているか」を網羅的に監視・監査でき、悪意あるエージェントの動作やプロンプトインジェクション等によるシステム破壊（間接的インジェクションなど）を迅速に発見できる点。MLSys 2026採択。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境でuvツールを使用してパッケージを同期し（uv sync）、必要なモデルプロバイダーAPIキーを設定後、検出用デュアルエージェントシステム（adrコマンド）または簡易評価用のLlama Firewallを実行します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>自社開発組織でCursor/Cline/Claude Code等のエージェント型AIツールを大規模導入したいセキュリティチームや、顧客向けの対話音声エージェントに不正操作の対策を組み込みたいプラットフォームエンジニア。</p>
+
+        <h2>注意点</h2>
+        <p>オープンソース版として現在公開されているのは「Sensor」「Bench」「Detector」の3つであり、不正なアクションを検知した際に直接実行を阻止する「ADR Prevention」機能は現時点のパッケージには含まれておらず、今後の対応が予定されています。</p>
+
+        <h2>まとめ</h2>
+        <p>AIエージェントの爆発的普及に伴う新たなセキュリティ脅威（自律ツールの暴走、不正ファイルの読み書きなど）にフォーカスし、本番での監査とシミュレーションベンチマークによる多層防御を提供する画期的なAI検知・対応システムです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/uber/ADR" target="_blank" rel="noreferrer">https://github.com/uber/ADR</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #930</p>
+      </div>
+    </article>
+  </body>
+</html>

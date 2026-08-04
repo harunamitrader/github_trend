@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="極めて低遅延かつ高機能なログフォーマットを提供する超高速C++ロギングライブラリ"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>spdlog</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">spdlog</h1>
+      <p class="article-dek">極めて低遅延かつ高機能なログフォーマットを提供する超高速C++ロギングライブラリ</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-08-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending Rank 8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/gabime/spdlog" target="_blank" rel="noreferrer">
+              gabime/spdlog
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>29,362</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>C++11以降の規格に対応した、ヘッダーオンリー運用またはプリコンパイル運用を選択できる超高速なC++用ロギングライブラリ。</p>
+
+        <h2>何ができるか</h2>
+        <p>コンソール、デイリーファイル、ローテーションファイル、syslog、Windowsイベントログ、デバッガ表示、Qtウィジェットなど、極めて多様な出力先（Sinks）に対してシングル・マルチスレッドから高速にログを書き出せます。C++の強力な文字列フォーマットライブラリ「fmt」を内蔵し、書式のカスタマイズ、非同期ログモード、コンパイル・実行時のログレベル制御、およびリングバッファを用いたオンデマンドなバックトレース（遡り出力）に対応します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>極小の実行オーバーヘッドと圧倒的なベンチマークパフォーマンス、および依存関係が極めて整理されている（ヘッダーファイルをコピーするだけで動作する）圧倒的な導入の容易さ。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ヘッダーオンリーで動かす場合は、includeディレクトリ内の「spdlog」フォルダをプロジェクトにコピーしてインクルードするだけで使用可能。コンパイル時間を削減するためビルドして静的/動的ライブラリにする場合は、CMakeを用いてビルド・インストール（cmake .. && cmake --build .）を行います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ゲームエンジン、高頻度トレーディング（HFT）システム、組み込み・ロボティクス、リアルタイム通信制御など、ミリ秒・マイクロ秒単位 of 実行オーバーヘッドが致命的になる高パフォーマンスC++開発者やシステム開発チーム。</p>
+
+        <h2>注意点</h2>
+        <p>非同期ログモードを使用する際、プログラムがクラッシュした場合にリングバッファやキューに滞留していた未フラッシュのメッセージが消失することがあるため、確実に書き出したい場合は適切にflush_onの設定を行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>圧倒的な軽さと高速性に加え、モダンで表現力の高い「fmt」フォーマット書式を融合させた、現代の高性能C++開発に欠かせない標準的ロギングライブラリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/gabime/spdlog" target="_blank" rel="noreferrer">https://github.com/gabime/spdlog</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #928</p>
+      </div>
+    </article>
+  </body>
+</html>
