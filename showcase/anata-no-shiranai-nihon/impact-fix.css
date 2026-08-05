@@ -1,13 +1,13 @@
 /* Target marker is intentionally static; missiles and outcome effects provide the motion. */
 .target-reticle {
   animation: none;
-  stroke: #fff4b5 !important;
+  stroke: #ff293d !important;
   stroke-width: .62 !important;
   stroke-opacity: .9;
-  filter: drop-shadow(0 0 1px #ffb31f) drop-shadow(0 0 3px rgba(255, 132, 38, .48));
+  filter: drop-shadow(0 0 1px #ff5360) drop-shadow(0 0 3px rgba(237, 29, 50, .54));
 }
 .target-reticle circle:first-child { stroke-width: .46; stroke-dasharray: 3 2.5; }
-.target-reticle circle:nth-child(3) { fill: #fff6ca; filter: drop-shadow(0 0 1px #ffb21b); }
+.target-reticle circle:nth-child(3) { fill: #ff7580; filter: drop-shadow(0 0 1px #ff293d); }
 .prefecture-path.is-target {
   fill: #ef8f29 !important;
   stroke: #fff3bd !important;
