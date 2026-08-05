@@ -10,19 +10,19 @@ const EFFECT_DELAY = E2E_MODE ? 40 : 3250;
 
 const STORY_SLIDES = [
   {
-    image: './assets/story/01-alert.png',
+    image: './assets/story/01-alert.webp',
     chapter: 'ALERT 01 / INBOUND',
     title: '敵国から、ミサイルが発射された。',
     body: '防衛管制システムは、日本各地の着弾予測地点を検知した。あなたは、迎撃を指揮する管制官だ。',
   },
   {
-    image: './assets/story/02-trajectory.png',
+    image: './assets/story/02-trajectory.webp',
     chapter: 'ALERT 02 / ONE AT A TIME',
     title: '同時に防衛できるのは、一都道府県だけ。',
     body: '照準が指す場所を確認し、防衛対象を正しく指定しなければならない。認証窓は、わずか30秒。',
   },
   {
-    image: './assets/story/03-intercept.png',
+    image: './assets/story/03-intercept.webp',
     chapter: 'ALERT 03 / CONTROL',
     title: 'あなたは、その場所の名前を知っているか。',
     body: '地図の照準と4つの都道府県名を照合せよ。正しい名前を選べば迎撃成功。間違えれば、その場所は防衛できない。',
@@ -40,13 +40,13 @@ const REGIONS = {
 };
 
 const REWARD_ART = {
-  north: { asset: './assets/rewards/north-biei.png', place: '北海道・美瑛の丘', title: '蒼天の大地', body: '北日本の完全防衛を記念する、雨上がりの美瑛。広い空の下、守られた大地に光が戻る。' },
-  east: { asset: './assets/rewards/east-odaiba.png', place: '東京・お台場', title: '湾岸の薄明', body: '東日本の完全防衛を記念する、静かな東京湾。街の灯りが、水面に明日の輪郭を映している。' },
-  central: { asset: './assets/rewards/central-fuji.png', place: '山梨・河口湖', title: '湖面の富士', body: '中日本の完全防衛を記念する、朝の河口湖。澄んだ湖面に、富士と新しい一日が映る。' },
-  kinki: { asset: './assets/rewards/kinki-arashiyama.png', place: '京都・嵐山', title: '紅葉の渡月橋', body: '近畿の完全防衛を記念する、夕映えの嵐山。川面を渡る光が、静かな山々をつないでいく。' },
-  chugoku_shikoku: { asset: './assets/rewards/chugoku-shikoku-shimanami.png', place: '瀬戸内・しまなみ海道', title: '島々を結ぶ光', body: '中国・四国の完全防衛を記念する、瀬戸内の夕景。海と島々をつなぐ橋が、穏やかに伸びている。' },
-  kyushu_okinawa: { asset: './assets/rewards/kyushu-okinawa-coast.png', place: '沖縄・珊瑚の海', title: '碧海の朝', body: '九州・沖縄の完全防衛を記念する、透き通る珊瑚の海。青い空と海が、守られた未来を知らせる。' },
-  national: { asset: './assets/rewards/national-japan-dawn.png', place: '日本・夜明けの眺望', title: '守られた日本', body: '全国47都道府県を完全防衛した証。富士、海、街、田園を照らす朝日が、日本の新しい一日を告げる。' },
+  north: { asset: './assets/rewards/north-biei.webp', place: '北海道・美瑛の丘', title: '蒼天の大地', body: '北日本の完全防衛を記念する、雨上がりの美瑛。広い空の下、守られた大地に光が戻る。' },
+  east: { asset: './assets/rewards/east-odaiba.webp', place: '東京・お台場', title: '湾岸の薄明', body: '東日本の完全防衛を記念する、静かな東京湾。街の灯りが、水面に明日の輪郭を映している。' },
+  central: { asset: './assets/rewards/central-fuji.webp', place: '山梨・河口湖', title: '湖面の富士', body: '中日本の完全防衛を記念する、朝の河口湖。澄んだ湖面に、富士と新しい一日が映る。' },
+  kinki: { asset: './assets/rewards/kinki-arashiyama.webp', place: '京都・嵐山', title: '紅葉の渡月橋', body: '近畿の完全防衛を記念する、夕映えの嵐山。川面を渡る光が、静かな山々をつないでいく。' },
+  chugoku_shikoku: { asset: './assets/rewards/chugoku-shikoku-shimanami.webp', place: '瀬戸内・しまなみ海道', title: '島々を結ぶ光', body: '中国・四国の完全防衛を記念する、瀬戸内の夕景。海と島々をつなぐ橋が、穏やかに伸びている。' },
+  kyushu_okinawa: { asset: './assets/rewards/kyushu-okinawa-coast.webp', place: '沖縄・珊瑚の海', title: '碧海の朝', body: '九州・沖縄の完全防衛を記念する、透き通る珊瑚の海。青い空と海が、守られた未来を知らせる。' },
+  national: { asset: './assets/rewards/national-japan-dawn.webp', place: '日本・夜明けの眺望', title: '守られた日本', body: '全国47都道府県を完全防衛した証。富士、海、街、田園を照らす朝日が、日本の新しい一日を告げる。' },
 };
 
 let gameData;
