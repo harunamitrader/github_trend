@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v4.1.4</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Cline / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Cline v4.1.4</h1>
+      <p class="article-dek">Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v4.1.4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Clineの最新マイナーバージョン「v4.1.4」がリリースされました。今回のアップデートは動作の安全性と柔軟性に焦点を当てた重要な改善が含まれています。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>Plan/Actモード切り替えの改善:</strong> モデルによるPlanからActモードへの自動切り替えを廃止しました。Planモードの終了はユーザー自身が明示的に行う必要があります。</li>
+          <li><strong>Planモードでのファイル編集ハードブロック:</strong> Planモードにおいて、ファイル変更やパッケージインストールなどの操作コマンドの実行を、プロンプトの指示レベルではなくシステム側で完全にブロック（拒否）する仕組みを導入しました。</li>
+          <li><strong>プロバイダ対応の追加:</strong> 新たに「Chutes」プロバイダに対応しました。</li>
+          <li><strong>コンテキスト枯渇への自動対応:</strong> コンテキストが枯渇した際、単にエラーを表示するのではなく、自動でコンパクト化（圧縮）処理を行い、一度だけ再試行するリカバリー機能を追加しました。</li>
+          <li><strong>空レスポンスの自動再試行:</strong> Ollamaだけでなく、すべてのAPIプロバイダにおいて、モデルが完全に空のレスポンスを返した際に自動でリトライを行うようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Planモードで不用意にファイル変更や破壊的なコマンドが実行されるリスクを防ぐことができるため、より安全に検討フェーズと実行フェーズを切り分けることができます。</p>
+
+        <h2>まとめ</h2>
+        <p>Planモードの挙動の厳密化、コンテキスト枯渇時の自動リカバリー、プロバイダ追加など、安全で安定したエージェント操作を可能にするアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v4.1.4" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

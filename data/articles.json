@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-05-cline-v4-1-4",
+      "title": "Cline v4.1.4",
+      "dek": "Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート",
+      "summary": "Cline v4.1.4リリース。Planモードでのファイル編集やパッケージインストールのシステム側での完全ブロック対応、Plan/Actモード切り替えの完全ユーザー主導化、コンテキスト枯渇時の自動コンパクト化リカバリー、Chutesプロバイダ対応などを実施。",
+      "publishedAt": "2026-08-05",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-08-05-cline-v4-1-4.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-05-grokcli-monorepo-sync",
+      "title": "Grok CLI 2026-08-05 Update",
+      "dek": "Cloudflare 52x等のエラー自動リトライ、非200系APIエラーのTUIバナー表示、およびサンドボックス機能の拡張を施したモノレポ同期アップデート",
+      "summary": "xai-org/grok-build の最新コミットアップデート。Cloudflare 52x系や一時的な5xxサーバーエラー時の自動リクエスト再試行、TUI画面上でのAPI非200エラーバナー表示、サンドボックスでのプラン・永続メタデータ配置の調整を実施。",
+      "publishedAt": "2026-08-05",
+      "repoName": "xai-org/grok-build",
+      "repoUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-08-05-grokcli-monorepo-sync.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-05-update-report",
       "title": "2026-08-05 アップデートレポート",

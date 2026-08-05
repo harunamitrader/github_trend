@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cloudflare 52x等のエラー自動リトライ、非200系APIエラーのTUIバナー表示、およびサンドボックス機能の拡張を施したモノレポ同期アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI 2026-08-05 Update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Grok CLI / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI 2026-08-05 Update</h1>
+      <p class="article-dek">Cloudflare 52x等のエラー自動リトライ、非200系APIエラーのTUIバナー表示、およびサンドボックス機能の拡張を施したモノレポ同期アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-05</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>Commit: a5589e9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>xai-org/grok-build の最新モノレポ同期アップデートが公開されました。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>ネットワークエラーの自動再試行:</strong> Cloudflareの52x系エラーや、その他の5xx系一時的サーバーエラー発生時に、リクエストを自動リトライする機能を追加しました。</li>
+          <li><strong>APIエラーの視認性向上:</strong> API呼び出し時に発生した非200（エラー）ステータスを、TUI（ターミナルUI）画面上にすっきりとしたバナーとして分かりやすく表示するよう改善しました。</li>
+          <li><strong>サンドボックスプロビジョニングの拡張:</strong> 安全な実行環境であるサンドボックス側で、検討プランや永続化メタデータ（durable metadata）等を適切に認識・配置するよう機能調整を行いました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>ネットワークの一時的瞬断による対話セッションの切断率が大幅に低下するほか、エラー発生時の原因特定が画面上で容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>サーバー瞬断耐性の向上、エラーUIの可読化、およびサンドボックス機構のプロビジョニング調整を含む、TUI対話開発のロバスト性を強化するアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/xai-org/grok-build" target="_blank" rel="noreferrer">xai-org/grok-build</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

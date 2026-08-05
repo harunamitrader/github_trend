@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:48:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 04:00:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v4.1.4]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-cline-v4-1-4.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-cline-v4-1-4.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI 2026-08-05 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-grokcli-monorepo-sync.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-grokcli-monorepo-sync.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Cloudflare 52x等のエラー自動リトライ、非200系APIエラーのTUIバナー表示、およびサンドボックス機能の拡張を施したモノレポ同期アップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-08-05 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-05-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Combined Rolloutパッケージでのアカウントセッション競合の解消やチェックポイントの安定性向上などの不具合修正アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.7.2-beta.7]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-openclaw-v2026-7-2-beta-7.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-openclaw-v2026-7-2-beta-7.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[状態の安全性とデータ保護のさらなる堅牢化、およびバグ修正を含んだマイナーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok Imagine Video 1.5 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-grok-imagine-video-1-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-02-grok-imagine-video-1-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Text-to-Video機能の追加、1080pネイティブ出力、および最大7つの画像・音声リファレンスによる一貫性制御を導入した映像生成モデルのアップデート]]></description>
     </item>
   </channel>
 </rss>
