@@ -8,6 +8,39 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-05-claude-opus-4-1-retirement",
+      "title": "Claude Opus 4.1 Model Retirement",
+      "dek": "旧モデルclaude-opus-4-1-20250805のAPIからの完全廃止とClaude Opus 4.8等への移行案内",
+      "summary": "Anthropicが旧モデル claude-opus-4-1-20250805 をAPIから完全廃止。接続エラーを防ぐため、最新の Claude Opus 4.8 等の後継モデルへの移行が必要。",
+      "publishedAt": "2026-08-05",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://claude.com",
+      "articleUrl": "./articles/tools/2026-08-05-claude-opus-4-1-retirement.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-05-gemini-assistant-transition",
+      "title": "Gemini Mobile Transition & Notebook Pro Update",
+      "dek": "モバイル上のクラシックGoogle AssistantからGeminiへの完全移行、およびGemini Notebook Proの機能拡張",
+      "summary": "Googleモバイル上のGoogle Assistantを完全廃止しGemini音声アシスタントへ移行（9月4日より順次削除）。また、Gemini Notebook Pro（旧NotebookLM）にてグラフ・PDF等の自動生成に対応。",
+      "publishedAt": "2026-08-05",
+      "repoName": "google-gemini/gemini",
+      "repoUrl": "https://blog.google",
+      "articleUrl": "./articles/tools/2026-08-05-gemini-assistant-transition.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-04-chatgpt-large-paste-attachments",
+      "title": "ChatGPT Large Paste & Business Pricing Update",
+      "dek": "一定文字数を超える長文ペースト時の自動ファイル添付化、およびBusinessプランの従量課金移行アップデート",
+      "summary": "ChatGPT Enterprise/Educationで10,000文字超のペースト時に自動で添付ファイルに変換するUI改善を導入。また、ChatGPT Businessプランが8月6日よりフリートライアルから従量課金制へ移行。",
+      "publishedAt": "2026-08-04",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-08-04-chatgpt-large-paste-attachments.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-05-cline-v4-1-4",
       "title": "Cline v4.1.4",
       "dek": "Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート",
