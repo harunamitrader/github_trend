@@ -39,6 +39,16 @@ const REGIONS = {
   national: { name: '全国モード', short: 'NATIONAL', console: '全国モード', description: '全国47都道府県', color: '#f1df97' },
 };
 
+const REWARD_ART = {
+  north: { asset: './assets/rewards/north-biei.png', place: '北海道・美瑛の丘', title: '蒼天の大地', body: '北日本の完全防衛を記念する、雨上がりの美瑛。広い空の下、守られた大地に光が戻る。' },
+  east: { asset: './assets/rewards/east-odaiba.png', place: '東京・お台場', title: '湾岸の薄明', body: '東日本の完全防衛を記念する、静かな東京湾。街の灯りが、水面に明日の輪郭を映している。' },
+  central: { asset: './assets/rewards/central-fuji.png', place: '山梨・河口湖', title: '湖面の富士', body: '中日本の完全防衛を記念する、朝の河口湖。澄んだ湖面に、富士と新しい一日が映る。' },
+  kinki: { asset: './assets/rewards/kinki-arashiyama.png', place: '京都・嵐山', title: '紅葉の渡月橋', body: '近畿の完全防衛を記念する、夕映えの嵐山。川面を渡る光が、静かな山々をつないでいく。' },
+  chugoku_shikoku: { asset: './assets/rewards/chugoku-shikoku-shimanami.png', place: '瀬戸内・しまなみ海道', title: '島々を結ぶ光', body: '中国・四国の完全防衛を記念する、瀬戸内の夕景。海と島々をつなぐ橋が、穏やかに伸びている。' },
+  kyushu_okinawa: { asset: './assets/rewards/kyushu-okinawa-coast.png', place: '沖縄・珊瑚の海', title: '碧海の朝', body: '九州・沖縄の完全防衛を記念する、透き通る珊瑚の海。青い空と海が、守られた未来を知らせる。' },
+  national: { asset: './assets/rewards/national-japan-dawn.png', place: '日本・夜明けの眺望', title: '守られた日本', body: '全国47都道府県を完全防衛した証。富士、海、街、田園を照らす朝日が、日本の新しい一日を告げる。' },
+};
+
 let gameData;
 let prefectures = [];
 let byId = {};
@@ -49,8 +59,10 @@ let timerHandle = null;
 let storyIndex = 0;
 
 function loadProgress() {
-  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || { keys: {} }; }
-  catch { return { keys: {} }; }
+  try {
+    const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {};
+    return { keys: {}, nationalReward: false, ...saved, keys: saved.keys || {} };
+  } catch { return { keys: {}, nationalReward: false }; }
 }
 
 function saveProgress() {
@@ -159,6 +171,12 @@ function countProgress() {
   return sectors().filter((regionId) => progress.keys?.[regionId]).length;
 }
 
+function availableRewardIds() {
+  const rewards = sectors().filter((regionId) => progress.keys?.[regionId]);
+  if (progress.nationalReward) rewards.push('national');
+  return rewards;
+}
+
 function clearTimer() {
   if (timerHandle) window.clearInterval(timerHandle);
   timerHandle = null;
@@ -210,6 +228,13 @@ function renderModes() {
     </button>`;
   }).join('');
   const nationalAvailable = isNationalUnlocked();
+  const rewardCards = availableRewardIds().map((regionId) => {
+    const reward = REWARD_ART[regionId];
+    return `<button class="reward-gallery-card" data-action="reward" data-region="${regionId}">
+      <img src="${reward.asset}" alt="${reward.place}の報酬イラスト" loading="lazy"><span>${REGIONS[regionId].name}</span><strong>${reward.title}</strong>
+    </button>`;
+  }).join('');
+  const rewardGallery = rewardCards ? `<section class="reward-gallery"><p class="console-label">UNLOCKED REWARDS</p><h3>獲得済みの風景記録</h3><div class="reward-gallery-grid">${rewardCards}</div></section>` : '';
   app.innerHTML = `
     <main class="mode-screen screen">
       <header class="page-header"><div><p class="console-label">REGIONAL MODES / ${countProgress()} OF ${sectors().length} CLEARED</p><h2>地域を選ぶ</h2><p>地域別モードを全問正解でクリアして、全国モードを解放しよう。</p></div><button class="text-button" data-action="intro">終了</button></header>
@@ -219,6 +244,7 @@ function renderModes() {
         <button class="primary-button" data-action="briefing" data-region="national" ${nationalAvailable ? '' : 'disabled'}>${nationalAvailable ? '全国モードを開始' : `あと ${sectors().length - countProgress()} 地域`}</button>
       </section>
       <p class="mode-note">地域別モードは全問正解でクリアです。ひとつでも防衛に失敗すると、再挑戦になります。</p>
+      ${rewardGallery}
     </main>`;
 }
 
@@ -488,7 +514,7 @@ function evaluation(total) {
   const population = percentage(total.saved.population, total.target.population);
   const area = percentage(total.saved.area, total.target.area);
   const regional = run.regionId !== 'national';
-  const cleared = regional && total.failed.count === 0;
+  const cleared = total.failed.count === 0;
   const grade = regional ? (cleared ? 'S' : 'D') : accuracy >= 90 && defended >= 90 ? 'S' : accuracy >= 75 && defended >= 75 ? 'A' : accuracy >= 50 && defended >= 60 ? 'C' : 'D';
   return { accuracy, defended, population, area, cleared, grade };
 }
@@ -499,18 +525,35 @@ function renderResults() {
   const result = evaluation(total);
   const national = run.regionId === 'national';
   if (!national && result.cleared) { progress.keys ||= {}; progress.keys[run.regionId] = true; saveProgress(); }
+  if (national && result.cleared) { progress.nationalReward = true; saveProgress(); }
   const label = national ? '全国モード・防衛記録' : `${REGIONS[run.regionId].name}モード・結果`;
+  const reward = REWARD_ART[run.regionId];
+  const rewardCta = result.cleared ? `<section class="reward-unlock"><img src="${reward.asset}" alt="${reward.place}の報酬イラスト"><div><p class="console-label">REWARD UNLOCKED</p><strong>${reward.title}</strong><small>${reward.place}</small><button class="primary-button" data-action="reward" data-region="${run.regionId}">報酬イラストを受け取る <span>→</span></button></div></section>` : '';
   const failedList = total.failed.items.length ? total.failed.items.map((prefecture) => `<li><span>${prefecture.name}</span><small>${formatPeople(prefecture.population)} / ${formatArea(prefecture.areaKm2)}</small></li>`).join('') : '<li><span>防衛失敗はありません。</span></li>';
   app.innerHTML = `
     <main class="result-screen screen">
-      <section class="result-hero"><p class="console-label">${national ? 'FINAL DEFENCE LOG' : 'REGIONAL MODE RESULT'}</p><h2>${label}</h2><div class="grade grade-${result.grade}">${result.grade}<small>GRADE</small></div><p>${national ? 'あなたが守れた日本の記録です。' : result.cleared ? 'この地域をクリアしました。' : '地域クリアの基準に届きませんでした。'}</p></section>
+      <section class="result-hero"><p class="console-label">${national ? 'FINAL DEFENCE LOG' : 'REGIONAL MODE RESULT'}</p><h2>${label}</h2><div class="grade grade-${result.grade}">${result.grade}<small>GRADE</small></div><p>${national ? (result.cleared ? '全国完全防衛を達成しました。' : 'あなたが守れた日本の記録です。') : result.cleared ? 'この地域を完全防衛しました。' : '地域クリアの基準に届きませんでした。'}</p></section>
       <section class="result-map-wrap"><svg id="japan-map" role="img" aria-label="防衛結果を示す日本地図"></svg><span>緑：防衛成功　海：防衛失敗</span></section>
       <dl class="result-grid"><div><dt>防衛失敗 / 対象</dt><dd>${total.failed.count}<small>/ ${total.target.count} 都道府県</small></dd></div><div><dt>正解率</dt><dd>${result.accuracy}<small>%</small></dd></div><div><dt>防衛できなかった人口</dt><dd>${formatPeople(total.failed.population)}<small>/ ${formatPeople(total.target.population)}（${percentage(total.failed.population, total.target.population)}%）</small></dd></div><div><dt>防衛できなかった面積</dt><dd>${formatArea(total.failed.area)}<small>/ ${formatArea(total.target.area)}（${percentage(total.failed.area, total.target.area)}%）</small></dd></div><div><dt>人口防衛率</dt><dd>${result.population}<small>%</small></dd></div><div><dt>最大連続成功</dt><dd>${run.stats.maxStreak}<small>連続</small></dd></div></dl>
       <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `完全防衛。地域クリアです。全国モード解放まで、残り ${sectors().length - countProgress()} 地域。` : '地域クリアには、対象の全都道府県を防衛する必要があります。'}</section>
       <section class="failed-panel"><p class="console-label">${national ? 'DEFENCE FAILURE LOG' : 'SIMULATED FAILURE LOG'}</p><ul>${failedList}</ul></section>
+      ${rewardCta}
       <footer class="result-actions"><button class="primary-button" data-action="retry">同じ地域を再挑戦 <span>↻</span></button><button class="outline-button" data-action="modes">地域一覧</button></footer>
     </main>`;
   drawMap({ focusRegion: run.regionId, final: true });
+}
+
+function renderReward(regionId) {
+  const unlocked = regionId === 'national' ? progress.nationalReward : progress.keys?.[regionId];
+  const reward = REWARD_ART[regionId];
+  if (!unlocked || !reward) { renderModes(); return; }
+  const region = REGIONS[regionId];
+  app.innerHTML = `
+    <main class="reward-screen screen">
+      <figure class="reward-visual"><img src="${reward.asset}" alt="${reward.place}の風景イラスト"><figcaption>COMPLETE DEFENCE REWARD / ${region.short}</figcaption></figure>
+      <section class="reward-copy"><p class="console-label">${region.name}・完全防衛記念</p><h1>${reward.title}</h1><p class="reward-place">${reward.place}</p><p>${reward.body}</p></section>
+      <footer class="reward-actions"><button class="primary-button" data-action="modes">地域一覧へ <span>→</span></button><button class="outline-button" data-action="reward-retry" data-region="${regionId}">もう一度防衛する</button></footer>
+    </main>`;
 }
 
 app.addEventListener('click', (event) => {
@@ -527,6 +570,8 @@ app.addEventListener('click', (event) => {
   if (action === 'begin') { run = createRun(button.dataset.region); nextRound(); }
   if (action === 'confirm') resolveAnswer('answer');
   if (action === 'retry') { const retryRegion = run.regionId; run = createRun(retryRegion); nextRound(); }
+  if (action === 'reward') renderReward(button.dataset.region);
+  if (action === 'reward-retry') { run = createRun(button.dataset.region); nextRound(); }
 });
 
 async function boot() {

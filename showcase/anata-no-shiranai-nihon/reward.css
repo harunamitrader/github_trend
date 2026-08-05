@@ -1,0 +1,205 @@
+/* Complete-defence reward gallery and illustration viewer. */
+.reward-gallery {
+  margin: 24px 0 0;
+  padding: 18px 14px;
+  border: 1px solid rgba(239, 189, 84, .33);
+  background: linear-gradient(145deg, rgba(35, 47, 52, .92), rgba(10, 26, 35, .96));
+}
+
+.reward-gallery h3 {
+  margin: 6px 0 14px;
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.reward-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.reward-gallery-card {
+  position: relative;
+  min-height: 116px;
+  overflow: hidden;
+  border: 1px solid rgba(188, 219, 220, .32);
+  padding: 0;
+  color: var(--paper);
+  text-align: left;
+  cursor: pointer;
+  background: #102a35;
+}
+
+.reward-gallery-card::after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  background: linear-gradient(to top, rgba(3, 12, 18, .92), rgba(3, 12, 18, .04) 72%);
+}
+
+.reward-gallery-card img {
+  width: 100%;
+  height: 116px;
+  display: block;
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+
+.reward-gallery-card:hover img,
+.reward-gallery-card:focus-visible img {
+  transform: scale(1.05);
+}
+
+.reward-gallery-card span,
+.reward-gallery-card strong {
+  position: absolute;
+  z-index: 1;
+  left: 9px;
+  right: 8px;
+}
+
+.reward-gallery-card span {
+  bottom: 30px;
+  color: #b4cdcc;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.reward-gallery-card strong {
+  bottom: 9px;
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.reward-unlock {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 13px;
+  margin: 17px 0;
+  padding: 10px;
+  border: 1px solid rgba(239, 189, 84, .62);
+  background: linear-gradient(135deg, rgba(74, 57, 32, .62), rgba(11, 30, 38, .96));
+  box-shadow: 0 0 28px rgba(239, 189, 84, .12);
+}
+
+.reward-unlock > img {
+  width: 110px;
+  height: 136px;
+  object-fit: cover;
+}
+
+.reward-unlock strong,
+.reward-unlock small {
+  display: block;
+}
+
+.reward-unlock strong {
+  margin: 5px 0 1px;
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.reward-unlock small {
+  margin-bottom: 10px;
+  color: #bad0cd;
+  font-size: 10px;
+}
+
+.reward-unlock .primary-button {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.reward-screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: #06131d;
+}
+
+.reward-visual {
+  position: relative;
+  flex: 1 1 49dvh;
+  min-height: 345px;
+  margin: 0;
+  overflow: hidden;
+  background: #0a202b;
+}
+
+.reward-visual::after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  background: linear-gradient(to top, rgba(5, 16, 24, .95), rgba(5, 16, 24, 0) 48%);
+}
+
+.reward-visual img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.reward-visual figcaption {
+  position: absolute;
+  z-index: 1;
+  right: 18px;
+  bottom: 16px;
+  left: 18px;
+  color: rgba(239, 239, 216, .87);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .13em;
+}
+
+.reward-copy {
+  margin-top: -37px;
+  padding: 0 23px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.reward-copy h1 {
+  margin: 6px 0 1px;
+  font-family: var(--display);
+  font-size: clamp(31px, 9vw, 44px);
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.reward-copy > p:last-child {
+  margin: 13px 0 0;
+  color: #d0d9d3;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.reward-place {
+  margin: 0;
+  color: #f5cf7d;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.reward-actions {
+  display: grid;
+  gap: 10px;
+  padding: 0 23px max(24px, env(safe-area-inset-bottom));
+}
+
+.reward-actions .primary-button {
+  text-align: left;
+}
+
+@media (max-width: 370px) {
+  .reward-unlock { grid-template-columns: 92px 1fr; }
+  .reward-unlock > img { width: 92px; }
+}
