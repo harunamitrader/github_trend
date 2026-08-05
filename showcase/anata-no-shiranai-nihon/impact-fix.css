@@ -2,11 +2,11 @@
 .target-reticle {
   animation: none;
   stroke: #fff4b5 !important;
-  stroke-width: 1.55 !important;
-  filter: drop-shadow(0 0 3px #ffb31f) drop-shadow(0 0 8px rgba(255, 132, 38, .72));
+  stroke-width: 1.05 !important;
+  filter: drop-shadow(0 0 2px #ffb31f) drop-shadow(0 0 5px rgba(255, 132, 38, .64));
 }
-.target-reticle circle:first-child { stroke-width: 1.05; stroke-dasharray: 3 2.5; }
-.target-reticle circle:nth-child(3) { fill: #fff6ca; filter: drop-shadow(0 0 4px #ffb21b); }
+.target-reticle circle:first-child { stroke-width: .8; stroke-dasharray: 1.6 1.7; }
+.target-reticle circle:nth-child(3) { fill: #fff6ca; filter: drop-shadow(0 0 2px #ffb21b); }
 .prefecture-path.is-target {
   fill: #ef8f29 !important;
   stroke: #fff3bd !important;
