@@ -423,7 +423,7 @@ function playImpact(target, correct, kind) {
     animateMissile(overlay, { start: enemyStart, end: targetPoint, type: 'enemy', duration: delay(760), arc: 42, onComplete: () => {
       targetPath.classed('is-hit', true);
       reticle.classed('is-impact', true);
-      document.querySelector('.battlefield')?.classList.add('is-impacting');
+      showImpactFlash(targetPoint, width, height, delay);
       showExplosion(overlay, targetPoint, 'impact');
       window.setTimeout(() => targetPath.classed('is-sinking', true), delay(170));
       window.setTimeout(showOutcome, delay(1500));
@@ -468,6 +468,18 @@ function showExplosion(layer, point, type) {
   const burst = layer.append('g').attr('class', `impact-burst ${type}`).attr('transform', `translate(${point[0]}, ${point[1]})`);
   [9, 21, 38, 58].forEach((radius) => burst.append('circle').attr('r', radius));
   burst.append('path').attr('class', 'blast-star').attr('d', 'M0,-34 L6,-7 L31,0 L6,7 L0,34 L-6,7 L-31,0 L-6,-7 Z');
+}
+
+function showImpactFlash(point, width, height, delay) {
+  const battlefield = document.querySelector('.battlefield');
+  if (!battlefield) return;
+  // The map fills the battlefield, so the projected SVG point can be used as a
+  // percentage position for the brief screen-lighting effect as well.
+  battlefield.style.setProperty('--impact-x', `${((point[0] / width) * 100).toFixed(2)}%`);
+  battlefield.style.setProperty('--impact-y', `${((point[1] / height) * 100).toFixed(2)}%`);
+  battlefield.classList.remove('is-impacting');
+  window.requestAnimationFrame(() => battlefield.classList.add('is-impacting'));
+  window.setTimeout(() => battlefield.classList.remove('is-impacting'), delay(820));
 }
 
 function evaluation(total) {
