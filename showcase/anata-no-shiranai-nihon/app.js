@@ -527,17 +527,16 @@ function renderResults() {
   if (!national && result.cleared) { progress.keys ||= {}; progress.keys[run.regionId] = true; saveProgress(); }
   if (national && result.cleared) { progress.nationalReward = true; saveProgress(); }
   const label = national ? '全国モード・防衛記録' : `${REGIONS[run.regionId].name}モード・結果`;
-  const reward = REWARD_ART[run.regionId];
-  const rewardCta = result.cleared ? `<section class="reward-unlock"><img src="${reward.asset}" alt="${reward.place}の報酬イラスト"><div><p class="console-label">REWARD UNLOCKED</p><strong>${reward.title}</strong><small>${reward.place}</small><button class="primary-button" data-action="reward" data-region="${run.regionId}">報酬イラストを受け取る <span>→</span></button></div></section>` : '';
+  const rewardNotice = result.cleared ? `<section class="result-reward-pending"><p class="console-label">REWARD UNLOCKED</p><strong>完全防衛報酬を獲得</strong><span>画面のどこかをタップして風景記録を表示</span></section>` : '';
   const failedList = total.failed.items.length ? total.failed.items.map((prefecture) => `<li><span>${prefecture.name}</span><small>${formatPeople(prefecture.population)} / ${formatArea(prefecture.areaKm2)}</small></li>`).join('') : '<li><span>防衛失敗はありません。</span></li>';
   app.innerHTML = `
-    <main class="result-screen screen">
+    <main class="result-screen screen" ${result.cleared ? `data-reward-id="${run.regionId}"` : ''}>
       <section class="result-hero"><p class="console-label">${national ? 'FINAL DEFENCE LOG' : 'REGIONAL MODE RESULT'}</p><h2>${label}</h2><div class="grade grade-${result.grade}">${result.grade}<small>GRADE</small></div><p>${national ? (result.cleared ? '全国完全防衛を達成しました。' : 'あなたが守れた日本の記録です。') : result.cleared ? 'この地域を完全防衛しました。' : '地域クリアの基準に届きませんでした。'}</p></section>
       <section class="result-map-wrap"><svg id="japan-map" role="img" aria-label="防衛結果を示す日本地図"></svg><span>緑：防衛成功　海：防衛失敗</span></section>
       <dl class="result-grid"><div><dt>防衛失敗 / 対象</dt><dd>${total.failed.count}<small>/ ${total.target.count} 都道府県</small></dd></div><div><dt>正解率</dt><dd>${result.accuracy}<small>%</small></dd></div><div><dt>防衛できなかった人口</dt><dd>${formatPeople(total.failed.population)}<small>/ ${formatPeople(total.target.population)}（${percentage(total.failed.population, total.target.population)}%）</small></dd></div><div><dt>防衛できなかった面積</dt><dd>${formatArea(total.failed.area)}<small>/ ${formatArea(total.target.area)}（${percentage(total.failed.area, total.target.area)}%）</small></dd></div><div><dt>人口防衛率</dt><dd>${result.population}<small>%</small></dd></div><div><dt>最大連続成功</dt><dd>${run.stats.maxStreak}<small>連続</small></dd></div></dl>
       <section class="result-callout">${national ? '残った地図が、あなたの守った日本です。' : result.cleared ? `完全防衛。地域クリアです。全国モード解放まで、残り ${sectors().length - countProgress()} 地域。` : '地域クリアには、対象の全都道府県を防衛する必要があります。'}</section>
       <section class="failed-panel"><p class="console-label">${national ? 'DEFENCE FAILURE LOG' : 'SIMULATED FAILURE LOG'}</p><ul>${failedList}</ul></section>
-      ${rewardCta}
+      ${rewardNotice}
       <footer class="result-actions"><button class="primary-button" data-action="retry">同じ地域を再挑戦 <span>↻</span></button><button class="outline-button" data-action="modes">地域一覧</button></footer>
     </main>`;
   drawMap({ focusRegion: run.regionId, final: true });
@@ -558,7 +557,12 @@ function renderReward(regionId) {
 
 app.addEventListener('click', (event) => {
   const button = event.target.closest('button');
-  if (!button || button.disabled) return;
+  if (!button) {
+    const rewardResult = event.target.closest('.result-screen[data-reward-id]');
+    if (rewardResult?.dataset.rewardId) renderReward(rewardResult.dataset.rewardId);
+    return;
+  }
+  if (button.disabled) return;
   if (button.dataset.candidate) { chooseCandidate(button.dataset.candidate); return; }
   const action = button.dataset.action;
   if (action === 'intro') renderIntro();
