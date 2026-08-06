@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PR自動生成の同時実行制御の強化、Issueトリガーでのサニタイズ処理追加、およびHTTPS強制を含むセキュリティ・堅牢性向上アップデート"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.54.0</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Gemini CLI / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.54.0</h1>
+      <p class="article-dek">PR自動生成の同時実行制御の強化、Issueトリガーでのサニタイズ処理追加、およびHTTPS強制を含むセキュリティ・堅牢性向上アップデート</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.54.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Gemini CLI の最新安定版「v0.54.0」がリリースされました。セキュリティの強化、セッションの耐久性向上、および開発自動化連携における同時実行制御が中心的な改善点です。主な変更内容は以下の通りです。</p>
+        <ul>
+          <li><strong>PR自動生成のFirestore同時実行制御:</strong> PR（プルリクエスト）ジェネレーターの連携で、AntigravityエージェントランナーにFirestoreによる二重ロック同時実行制御を統合し、安全なマルチエージェント動作を実現しました。</li>
+          <li><strong>ケアテイカートリアージのセキュリティ改善:</strong> ケアテイカーによるIssue自動クローズ処理の前に確認コメントを投稿するフローを改善。また、信頼できないコンテキストで入力されるIssueタイトルなどをサニタイズし、潜在的なインジェクションリスクを排除しました。</li>
+          <li><strong>セッション情報の安全性とロバスト性向上:</strong> 認証情報の漏洩を防ぐためHTTPS接続を強制。また、モデルフォールバック時にセッションIDを適切にローテーションし、マージ済みの関数応答ターンをスキップするループ制御を追加しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>PRやIssue連携といったGitHubアクション自動化プロセスにおいて、二重書き込みや衝突エラーを防ぎながら安全に自動運用することができます。</p>
+
+        <h2>まとめ</h2>
+        <p>Firestoreによる排他制御を用いたPR生成の安定化、サニタイズ処理の徹底、セッションフォールバック制御、およびHTTPS強制によるセキュアなCLI実行を支援する安定版リリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://www.npmjs.com/package/@google/gemini-cli" target="_blank" rel="noreferrer">@google/gemini-cli on npm</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

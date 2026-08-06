@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-06-cline-v4-1-6",
+      "title": "Cline v4.1.6",
+      "dek": "推論（Reasoning）設定のAI SDKプロバイダ共通化、モデルカタログの更新、およびフリープロモーション終了時のUI向上を施した不具合修正アップデート",
+      "summary": "Cline v4.1.6（およびv4.1.5）リリース。AI SDKプロバイダ全体（Ollama含む）での推論設定の共通マッピング対応、新モデル「meta/muse-spark-1.2-contributor」の追加、無料モデル提供終了時のお知らせ画面導入、およびエラーテレメトリの正確化。",
+      "publishedAt": "2026-08-06",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-08-06-cline-v4-1-6.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-06-gemini-cli-v0-54-0",
+      "title": "Gemini CLI v0.54.0",
+      "dek": "PR自動生成の同時実行制御の強化、Issueトリガーでのサニタイズ処理追加、およびHTTPS強制を含むセキュリティ・堅牢性向上アップデート",
+      "summary": "Gemini CLI v0.54.0 安定版リリース。Antigravityエージェント向けFirestoreによるPR生成の同時実行制御の統合、Issueタイトル等のサニタイズ、HTTPS強制接続、およびセッションIDローテーションや関数応答ループ制御を追加。",
+      "publishedAt": "2026-08-06",
+      "repoName": "@google/gemini-cli",
+      "repoUrl": "https://www.npmjs.com/package/@google/gemini-cli",
+      "articleUrl": "./articles/tools/2026-08-06-gemini-cli-v0-54-0.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-08-06-update-report",
       "title": "2026-08-06 アップデートレポート",

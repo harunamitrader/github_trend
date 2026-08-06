@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Aug 2026 19:48:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:01:09 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v4.1.6]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-cline-v4-1-6.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-cline-v4-1-6.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[推論（Reasoning）設定のAI SDKプロバイダ共通化、モデルカタログの更新、およびフリープロモーション終了時のUI向上を施した不具合修正アップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.54.0]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-gemini-cli-v0-54-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-gemini-cli-v0-54-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PR自動生成の同時実行制御の強化、Issueトリガーでのサニタイズ処理追加、およびHTTPS強制を含むセキュリティ・堅牢性向上アップデート]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-08-06 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-06-update-report.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Ctrl+L操作のテレメトリー追加、ダッシュボード操作ヒントの明確化、および認証トークン接尾辞の処理修正を施したモノレポ同期アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-08-04 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-04-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-04-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pdf-inspector]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-firecrawl-pdf-inspector.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-04-firecrawl-pdf-inspector.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OCRを使用せず、PDFのテキスト判定・表抽出・Markdown変換をローカルで超高速実行するRust製ライブラリ]]></description>
     </item>
   </channel>
 </rss>
