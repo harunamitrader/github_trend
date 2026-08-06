@@ -8,6 +8,50 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-06-chatgpt-unlimited-text-think",
+      "title": "ChatGPT Unlimited Text & \"Think\" Button Update",
+      "dek": "無料・Goユーザー向けのテキスト対話制限撤廃、GPT-5.6 Lunaモデルへのデフォルト移行、およびThinkボタンの追加アップデート",
+      "summary": "ChatGPT無料・Goプランにてテキストチャットを完全無制限化。デフォルトモデルを GPT-5.6 Luna に切り替え、思考用「Think」ボタンを解放。また Plus/Pro 向け GPT-5.6 Sol モデルのファクト・推論精度を調整。",
+      "publishedAt": "2026-08-06",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-08-06-chatgpt-unlimited-text-think.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-06-claude-enterprise-inference-hooks",
+      "title": "Claude Enterprise Inference Hooks Beta",
+      "dek": "企業ポリシーに基づくプロンプトの事前検査・監査を可能にする、Enterprise向けインファレンス・フック機能の導入",
+      "summary": "Anthropicが Claude Enterprise 向けプロンプト監査用の「Inference hooks（ベータ）」を発表。プロンプト送信前にポリシー照合し許可/拒否を判断。claude.ai、Claude Code、Claude Cowork 等に適用可能。",
+      "publishedAt": "2026-08-06",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://claude.com",
+      "articleUrl": "./articles/tools/2026-08-06-claude-enterprise-inference-hooks.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-06-grok-v4-6-announcement",
+      "title": "Grok 4.6 Announcement & Voice Model Update",
+      "dek": "論理的推論や指示追従能力を強化した1.5兆パラメータモデル「Grok 4.6」の公開予定、およびGrok Voiceモデルの更新",
+      "summary": "xAIが論理的推論を強みとする1.5兆パラメータモデル「Grok 4.6」のリリース予告（8月7日公開）を発表。また、音声対話エンドポイント grok-voice-latest の接続先を grok-voice-think-fast-2.0 へ更新。",
+      "publishedAt": "2026-08-06",
+      "repoName": "xai/grok",
+      "repoUrl": "https://x.ai",
+      "articleUrl": "./articles/tools/2026-08-06-grok-v4-6-announcement.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-06-perplexity-agent-gateway-api",
+      "title": "Perplexity Agent API & Gateway Update",
+      "dek": "Agent APIのGPT-5.6-luna採用・インライン引用の改善、および複数モデルを統合するUnified Gateway APIの提供",
+      "summary": "Perplexityのデベロッパー機能アップデート。Agent APIへの GPT-5.6-luna 採用と32k出力拡張、詳細インライン引用形式 [web:1] への対応、自動フェールオーバーを備えた Unified Gateway API の公開、およびクラウドホスト型 MCP Server の提供開始を実施。",
+      "publishedAt": "2026-08-06",
+      "repoName": "perplexity/perplexity",
+      "repoUrl": "https://perplexity.ai",
+      "articleUrl": "./articles/tools/2026-08-06-perplexity-agent-gateway-api.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-06-cline-v4-1-6",
       "title": "Cline v4.1.6",
       "dek": "推論（Reasoning）設定のAI SDKプロバイダ共通化、モデルカタログの更新、およびフリープロモーション終了時のUI向上を施した不具合修正アップデート",

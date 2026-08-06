@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 04:01:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:16:12 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT Unlimited Text & "Think" Button Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-chatgpt-unlimited-text-think.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-chatgpt-unlimited-text-think.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[無料・Goユーザー向けのテキスト対話制限撤廃、GPT-5.6 Lunaモデルへのデフォルト移行、およびThinkボタンの追加アップデート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Enterprise Inference Hooks Beta]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-claude-enterprise-inference-hooks.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-claude-enterprise-inference-hooks.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[企業ポリシーに基づくプロンプトの事前検査・監査を可能にする、Enterprise向けインファレンス・フック機能の導入]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok 4.6 Announcement & Voice Model Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-grok-v4-6-announcement.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-grok-v4-6-announcement.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[論理的推論や指示追従能力を強化した1.5兆パラメータモデル「Grok 4.6」の公開予定、およびGrok Voiceモデルの更新]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Agent API & Gateway Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-perplexity-agent-gateway-api.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-perplexity-agent-gateway-api.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agent APIのGPT-5.6-luna採用・インライン引用の改善、および複数モデルを統合するUnified Gateway APIの提供]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline v4.1.6]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-cline-v4-1-6.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Rust/V8製でセキュアな設計と設定不要のTypeScript実行を実現するモダンJavaScriptランタイム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Angular]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-angular-angular.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-angular-angular.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[堅牢なTypeScript構成で大規模Webアプリを自信を持って開発できるフルスタックフレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT Large Paste & Business Pricing Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-chatgpt-large-paste-attachments.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-chatgpt-large-paste-attachments.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[一定文字数を超える長文ペースト時の自動ファイル添付化、およびBusinessプランの従量課金移行アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.7.1-2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-openclaw-v2026-7-1-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-openclaw-v2026-7-1-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[新しいnpmクライアントからのメタデータ処理修正、およびCodexの途中停止防止や起動エラー修復を施したパッチアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI 2026-08-04 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-grokcli-monorepo-sync.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-04-grokcli-monorepo-sync.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Ctrl+L操作のテレメトリー追加、ダッシュボード操作ヒントの明確化、および認証トークン接尾辞の処理修正を施したモノレポ同期アップデート]]></description>
     </item>
   </channel>
 </rss>

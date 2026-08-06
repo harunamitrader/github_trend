@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Agent APIのGPT-5.6-luna採用・インライン引用の改善、および複数モデルを統合するUnified Gateway APIの提供"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Perplexity Agent API &amp; Gateway Update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Perplexity / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Perplexity Agent API &amp; Gateway Update</h1>
+      <p class="article-dek">Agent APIのGPT-5.6-luna採用・インライン引用の改善、および複数モデルを統合するUnified Gateway API of 提供</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>API Update</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Perplexity</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Perplexityは、開発者向けの検索・推論インフラを強化するため、Agent APIのチューニングおよび統合プロキシである「Unified Gateway API」を新たに発表しました。主な更新点は以下の通りです。</p>
+        <ul>
+          <li><strong>Agent APIにおけるGPT-5.6-luna採用:</strong> 開発者向けAgent APIの「low」プリセットにおいて <code>openai/gpt-5.6-luna</code> モデルをバックエンドに採用。出力上限を32,768トークンへと大幅に拡張し、長い調査ドキュメントの生成が可能になりました。</li>
+          <li><strong>インライン引用（Structured Inline Citations）の改善:</strong> 調査追従（Research-backed）プリセットにおいて、これまでのシンプルな数値引用（例: [1]）に加え、引用元のタイプを明示した詳細な引用形式（例: [web:1]）の出力をサポート。信頼性とトレーサビリティを高めました。</li>
+          <li><strong>Unified Gateway API の提供開始:</strong> 複数のオープンウェイトモデルに対して、単一のAPIキーおよび単一のエンドポイント（OpenAI互換・Anthropic互換）でアクセス可能な統合ゲートウェイ機能を公開。モデルごとの稼働状況に応じた自動フェールオーバーやヘルスルーティングが機能します。</li>
+          <li><strong>ホスト型（リモート）MCPサーバー:</strong> ローカルにMCPサーバーをインストールすることなく、リモート上で管理・利用可能なホスト型のPerplexity MCP Serverの提供を開始しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>AIアプリケーション開発において、モデルの可用性を高めるマルチモデル冗長化を容易に実装できるほか、PerplexityのWeb検索を活用した情報収集エージェントの引用処理や最大出力文字数を大幅に改善できます。</p>
+
+        <h2>まとめ</h2>
+        <p>Agent APIのGPT-5.6-lunaバックエンド採用と詳細インライン引用の追加、およびAPI呼び出しの耐障害性を向上させるUnified Gateway APIの提供を含む、デベロッパー向けの大規模なインフラ更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://perplexity.ai" target="_blank" rel="noreferrer">Perplexity Developers</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
