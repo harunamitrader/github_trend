@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 04:16:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:46:12 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Daily Update Report #115]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-07-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-07-update-report.html</guid>
+      <category>github-report</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年8月7日のGitHub Trendingを元に、google/guava、Significant-Gravitas/AutoGPTなど新たに2件のリポジトリをWatcherレポートとして追加しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[google/guava]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-07-google-guava.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-07-google-guava.html</guid>
+      <category>github-trend</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[新しいコレクション型、イミュータブルコレクション、グラフライブラリ、並行処理、I/O、ハッシングなどのユーティリティを含むGoogle公式のJavaコアライブラリ群]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Significant-Gravitas/AutoGPT]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-07-Significant-Gravitas-AutoGPT.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-07-Significant-Gravitas-AutoGPT.html</guid>
+      <category>github-trend</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[指示したゴールに向けて自律的にエージェントを構築・実行・レポートし、タスクを完結させるためのオープンソース自律型AIエージェントプラットフォーム]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT Unlimited Text & "Think" Button Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-chatgpt-unlimited-text-think.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの挙動監視と脅威検知・防御を本番レベルで実現するエンタープライズAIセキュリティシステム]]></description>
-    </item>
-    <item>
-      <title><![CDATA[webpack]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-webpack-webpack.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-webpack-webpack.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JavaScriptモジュールや多様なアセットをスマートに結合・最適化する定番モジュールバンドラー]]></description>
-    </item>
-    <item>
-      <title><![CDATA[spdlog]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-gabime-spdlog.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-gabime-spdlog.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[極めて低遅延かつ高機能なログフォーマットを提供する超高速C++ロギングライブラリ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Deno]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-denoland-deno.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-denoland-deno.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rust/V8製でセキュアな設計と設定不要のTypeScript実行を実現するモダンJavaScriptランタイム]]></description>
     </item>
   </channel>
 </rss>

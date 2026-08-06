@@ -7,6 +7,48 @@
   },
   "articles": [
     {
+      "category": "github-report",
+      "serial": 115,
+      "slug": "2026-08-07-update-report",
+      "title": "Daily Update Report #115",
+      "dek": "2026年8月7日のGitHub Trendingを元に、google/guava、Significant-Gravitas/AutoGPTなど新たに2件のリポジトリをWatcherレポートとして追加しました。",
+      "summary": "本日（2026年8月7日）の調査では、安定した人気を誇るGoogleのJavaコアユーティリティ「Guava」と、ノーコードUIを統合してさらなる実用性を目指す自律エージェントプラットフォーム「AutoGPT」の2リポジトリをピックアップし、それぞれ詳細な個別レポートを作成しました。",
+      "publishedAt": "2026-08-07",
+      "repoName": null,
+      "repoUrl": null,
+      "articleUrl": "./articles/github/reports/2026-08-07-update-report.html",
+      "rank": null,
+      "starCount": null
+    },
+    {
+      "category": "github-trend",
+      "serial": 936,
+      "slug": "2026-08-07-google-guava",
+      "title": "google/guava",
+      "dek": "新しいコレクション型、イミュータブルコレクション、グラフライブラリ、並行処理、I/O、ハッシングなどのユーティリティを含むGoogle公式のJavaコアライブラリ群",
+      "summary": "Googleの豊富な実践から生まれた、Javaの基礎処理をエレガントかつ安全に実装するための、デファクトスタンダードとも言える高性能コアライブラリです。",
+      "publishedAt": "2026-08-07",
+      "repoName": "google/guava",
+      "repoUrl": "https://github.com/google/guava",
+      "articleUrl": "./articles/github/daily/2026-08-07-google-guava.html",
+      "rank": 5,
+      "starCount": 51601
+    },
+    {
+      "category": "github-trend",
+      "serial": 935,
+      "slug": "2026-08-07-Significant-Gravitas-AutoGPT",
+      "title": "Significant-Gravitas/AutoGPT",
+      "dek": "指示したゴールに向けて自律的にエージェントを構築・実行・レポートし、タスクを完結させるためのオープンソース自律型AIエージェントプラットフォーム",
+      "summary": "世界中で非常に多くのスターを獲得している、自律実行・ノーコード開発・複数エージェント協調を統合した実用的なAIエージェント構築プラットフォームです。",
+      "publishedAt": "2026-08-07",
+      "repoName": "Significant-Gravitas/AutoGPT",
+      "repoUrl": "https://github.com/Significant-Gravitas/AutoGPT",
+      "articleUrl": "./articles/github/daily/2026-08-07-Significant-Gravitas-AutoGPT.html",
+      "rank": 7,
+      "starCount": 185949
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-08-06-chatgpt-unlimited-text-think",
       "title": "ChatGPT Unlimited Text & \"Think\" Button Update",
