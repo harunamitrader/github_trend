@@ -8,6 +8,39 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-07-chatgpt-astra-safety-trigger",
+      "title": "OpenAI Astra Development Paused (Safety Trigger)",
+      "dek": "次世代モデル「Astra」の高度な自律的サイバー攻撃能力検知に伴う、安全フレームワークに基づくロードマップ一時停止措置",
+      "summary": "OpenAIが開発中の次世代モデル「Astra」のセキュリティ検証において、人間を介さず自律的に脆弱性を攻撃・悪用する能力を検知。安全管理の準備フレームワーク（Preparedness Framework）のCritical閾値に達したため、開発ロードマップを一時停止。",
+      "publishedAt": "2026-08-07",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-08-07-chatgpt-astra-safety-trigger.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-claude-fable-5-biology-safeguards",
+      "title": "Claude Fable 5 Biology Safeguards Update",
+      "dek": "生物学・ヘルスケア分野での過剰な安全フィルター検知を改善し、フォールバック率を約85%削減した実用性向上アップデート",
+      "summary": "Claude Fable 5における学術・教育目的の生物医療クエリでの安全フィルター過剰検知を調整。他モデル（Opus 5等）への強制フォールバック発生回数を約85%削減し利便性を向上。デュアルユース（二重用途）懸念のあるクエリは引き続き厳格規制。",
+      "publishedAt": "2026-08-07",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://claude.com",
+      "articleUrl": "./articles/tools/2026-08-07-claude-fable-5-biology-safeguards.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-gemini-notebooks-recurring-sync",
+      "title": "Gemini 4 Development & Notebooks Automation",
+      "dek": "DeepMindの体制刷新と次世代「Gemini 4」開発への注力、およびGemini Notebooks（NotebookLM）でのソース自動同期機能の追加",
+      "summary": "Google DeepMindの経営体制刷新と次世代モデル「Gemini 4」開発への注力方針公表。Workspace Studioを介して、スケジュールに沿ってクラウド等の情報ソースをノートブックへ自動同期する recurring workflow 機能の追加、およびAssistant廃止通知開始。",
+      "publishedAt": "2026-08-07",
+      "repoName": "google/gemini",
+      "repoUrl": "https://gemini.google",
+      "articleUrl": "./articles/tools/2026-08-07-gemini-notebooks-recurring-sync.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-07-cline-desktop-v0-0-10",
       "title": "Cline Desktop v0.0.10",
       "dek": "MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善",
