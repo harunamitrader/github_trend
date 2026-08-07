@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="クライアントからのGit Status/Diffポーリングスパム防止、エクスポートへの自己改善メモリのバンドル、およびディスク使用量コマンドの追加"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI 2026-08-07 Update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Grok CLI / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI 2026-08-07 Update</h1>
+      <p class="article-dek">クライアントからのGit Status/Diffポーリングスパム防止、エクスポートへの自己改善メモリのバンドル、およびディスク使用量コマンドの追加</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">コミット</span>
+          <strong>afbc0fb7</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Grok CLI の最新の monorepo 同期アップデートがリリースされました。対話型インターフェースおよびエージェント実行プロセスの最適化が行われています。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>Gitポーリングスパムの防止:</strong> 実行中にクライアントが連続してGitの <code>status</code> や <code>diff</code> コマンドを叩く「ポーリングスパム」からプロセスを守るためのガードロジックを導入し、動作の軽量化を図りました。</li>
+          <li><strong>トレースエクスポート時の自己改善メモリバンドル:</strong> セッショントレースをエクスポートする際、エージェントの自己改善メモリの軌跡（memory traces）を一緒にアーカイブにバンドルするよう統合しました。</li>
+          <li><strong>ディスク使用量コマンド「grok du」の追加:</strong> CLIのローカルディレクトリ <code>~/.grok</code> が使用しているディスク容量を簡単に確認できる <code>grok du</code> コマンドを新規実装しました。</li>
+          <li><strong>複数シェルインスタンス起動時のロック解消:</strong> 多くのシェルインスタンスを並行して起動した際に、共通のセッション検索インデックスがロックされてフリーズする不具合を修正しました。</li>
+          <li><strong>その他のバグ修正:</strong> プラグイン呼び出しボタン（CTA）のデバウンス処理を500msに調整し、ボタンの二重クリックを防止。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>複数のエージェントをローカルで動かしたり、Git管理下の巨大なプロジェクトで作業したりする際、インデックスの競合や無駄なGit通信による遅延を防ぎます。</p>
+
+        <h2>まとめ</h2>
+        <p>Gitポーリング防御による実行の安定化、セッションエクスポートのメモリ情報追加、およびマルチシェル実行時のロック回避を含む開発インフラの改善です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/xai-org/grok-build" target="_blank" rel="noreferrer">Grok Build CLI Code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

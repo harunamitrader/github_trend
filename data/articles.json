@@ -7,6 +7,39 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-cline-desktop-v0-0-10",
+      "title": "Cline Desktop v0.0.10",
+      "dek": "MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善",
+      "summary": "Cline Desktop v0.0.10リリース。SettingsからのリモートMCPサーバーOAuth認可の対応、各MCPサーバーごとの個別エラー可視化、モデル接続エラー時のトランスクリプト内での明確なフィードバック、プロキシ環境下のVertex AIのADCトークン更新バグ修正など。",
+      "publishedAt": "2026-08-07",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-08-07-cline-desktop-v0-0-10.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-grokcli-git-spamblocking",
+      "title": "Grok CLI 2026-08-07 Update",
+      "dek": "クライアントからのGit Status/Diffポーリングスパム防止、エクスポートへの自己改善メモリのバンドル、およびディスク使用量コマンドの追加",
+      "summary": "Grok CLI の最新同期アップデート。連続するgit status/diffのスパムポーリング防止、トレースエクスポート時の自己改善メモリ情報のバンドル、ディスク容量確認コマンド grok du の導入、および複数インスタンス起動時のインデックスロックフリーズの解消など。",
+      "publishedAt": "2026-08-07",
+      "repoName": "xai-org/grok-build",
+      "repoUrl": "https://github.com/xai-org/grok-build",
+      "articleUrl": "./articles/tools/2026-08-07-grokcli-git-spamblocking.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-gemini-cli-v0-54-4-cve",
+      "title": "Gemini CLI v0.54.4 (CVE-2026-12537 Patch)",
+      "dek": "権限のないGitHub IssueトリガーからCIランナー上で任意のコード実行を引き起こすOSコマンドインジェクション脆弱性（CVE-2026-12537）の修正パッチリリース",
+      "summary": "Gemini CLI v0.54.4リリース。GitHub Actions連携時に外部の悪意あるIssue入力からCIランナー上でコマンド実行や機密情報を窃取される脆弱性（CVE-2026-12537）への重要パッチ、およびAntigravity CLIへのリブランディング準備。",
+      "publishedAt": "2026-08-07",
+      "repoName": "@google/gemini-cli",
+      "repoUrl": "https://www.npmjs.com/package/@google/gemini-cli",
+      "articleUrl": "./articles/tools/2026-08-07-gemini-cli-v0-54-4-cve.html"
+    },
+    {
       "category": "github-report",
       "serial": 115,
       "slug": "2026-08-07-update-report",

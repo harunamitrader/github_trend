@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline Desktop v0.0.10</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Cline / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Cline Desktop v0.0.10</h1>
+      <p class="article-dek">MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-08-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.0.10 (Desktop)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline Desktopのマイナーバージョン「v0.0.10」がリリースされました。MCP連携の認証強化や、UX・エラー検知に関する多くのバグ修正が含まれています。主な変更点は以下の通りです。</p>
+        <ul>
+          <li><strong>MCPのOAuth認可対応:</strong> 設定画面（Settings → MCP）からリモートMCPサーバーのOAuth認可ができるようになりました。認可ステータスの確認や保留中のキャンセル・再試行をサポートするほか、事前登録済みのクライアント情報（クライアントID・シークレット）による認証にも対応しました。</li>
+          <li><strong>MCPエラーの個別表示化:</strong> ページ全体でのエラーではなく、問題の発生した個別のMCPサーバーごとにエラーを可視化するように改善されました。設定が無効なサーバーが一覧からサイレントに消えてしまう問題も解決しています。</li>
+          <li><strong>実行エラーの明確なフィードバック:</strong> 認証情報が設定されていないモデルの呼び出しや、キューに入れられた実行の失敗時に、トランスクリプト内に原因と設定画面へのリンクを明示するようになりました。</li>
+          <li><strong>Vertex AI認証プロキシ対応:</strong> Vertex AIでの認証トークン更新時に、設定済みのカスタムfetchを適用し、プロキシ環境や特殊なネットワーク環境におけるADC（Application Default Credentials）認証の不具合を解消しました。</li>
+          <li><strong>UI・ショートカットの追加:</strong> Welcome画面にモデル接続案内を表示。また、Cmd/Ctrl+Nで新規セッション、Cmd/Ctrl+,で設定画面を開くショートカットキーを追加しました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>エンタープライズ環境やプロキシ背後の開発環境において、MCPサーバーやVertex AIとの連携を安全かつスムーズに構築できます。</p>
+
+        <h2>まとめ</h2>
+        <p>OAuth認可を用いたセキュアなMCP連携、エラーハンドリングの細分化、およびプロキシ背後でのVertex AI認証問題の解消など、使い勝手と安全性を高めるアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

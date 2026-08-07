@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 04:46:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:00:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline Desktop v0.0.10]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-cline-desktop-v0-0-10.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-cline-desktop-v0-0-10.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI 2026-08-07 Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-grokcli-git-spamblocking.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-grokcli-git-spamblocking.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[クライアントからのGit Status/Diffポーリングスパム防止、エクスポートへの自己改善メモリのバンドル、およびディスク使用量コマンドの追加]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.54.4 (CVE-2026-12537 Patch)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-gemini-cli-v0-54-4-cve.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-gemini-cli-v0-54-4-cve.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[権限のないGitHub IssueトリガーからCIランナー上で任意のコード実行を引き起こすOSコマンドインジェクション脆弱性（CVE-2026-12537）の修正パッチリリース]]></description>
+    </item>
     <item>
       <title><![CDATA[Daily Update Report #115]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-07-update-report.html</link>
@@ -142,30 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Plan/Actモード切り替えのユーザー主導化、Planモードでのファイル編集コマンドのハードブロック、Chutesプロバイダ対応などを施したマイナーアップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI 2026-08-05 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-grokcli-monorepo-sync.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-05-grokcli-monorepo-sync.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Cloudflare 52x等のエラー自動リトライ、非200系APIエラーのTUIバナー表示、およびサンドボックス機能の拡張を施したモノレポ同期アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-08-05 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-05-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-05-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ADR]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-uber-ADR.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-05-uber-ADR.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントの挙動監視と脅威検知・防御を本番レベルで実現するエンタープライズAIセキュリティシステム]]></description>
     </item>
   </channel>
 </rss>
