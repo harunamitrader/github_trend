@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 19:17:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:46:42 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Daily Update Report #116]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-08-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-08-update-report.html</guid>
+      <category>github-report</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年8月8日のGitHub Trendingを元に、PrimeIntellect-ai/prime-agent、unclebob/swarm-forge、denoland/celld、K2SOsint/Legendary_OSINTなど新たに4件のリポジトリをWatcherレポートとして追加しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[PrimeIntellect-ai/prime-agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-PrimeIntellect-ai-prime-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-PrimeIntellect-ai-prime-agent.html</guid>
+      <category>github-trend</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[IPython環境をコントロールセンターとし、自律的な並行サブエージェント呼び出しや永続的なプロンプト自己改善ループ（RLM）を備えた自律開発・研究AIエージェント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[unclebob/swarm-forge]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-unclebob-swarm-forge.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-unclebob-swarm-forge.html</guid>
+      <category>github-trend</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[tmuxセッションとGit Worktreesを活用して複数の役割を持ったAIエージェントの連動・協調開発を制御する、ターミナルベースのエージェントオーケストレーションツール]]></description>
+    </item>
+    <item>
+      <title><![CDATA[denoland/celld]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-denoland-celld.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-denoland-celld.html</guid>
+      <category>github-trend</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[S3互換バケットを用いて自律的に同期・永続化する、セルフホスト可能な分散Durable Objects（SQLiteベースの分離実行セル）]]></description>
+    </item>
+    <item>
+      <title><![CDATA[K2SOsint/Legendary_OSINT]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-K2SOsint-Legendary-OSINT.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-08-K2SOsint-Legendary-OSINT.html</guid>
+      <category>github-trend</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[不正調査、CTI分析、KYC、AMLなどのために収集された、包括的なOSINT（オープンソース・インテリジェンス）用ツール＆リソースのキュレーションリスト]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI Astra Development Paused (Safety Trigger)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-chatgpt-astra-safety-trigger.html</link>
@@ -126,46 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PR自動生成の同時実行制御の強化、Issueトリガーでのサニタイズ処理追加、およびHTTPS強制を含むセキュリティ・堅牢性向上アップデート]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-08-06 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-06-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-06-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[computer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-cloudflare-computer.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-cloudflare-computer.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントにSQLiteベースの仮想ファイルシステムと分離されたLinux実行環境を提供するサンドボックス]]></description>
-    </item>
-    <item>
-      <title><![CDATA[loopx]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-huangruiteng-loopx.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-huangruiteng-loopx.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[長期実行するAIエージェントチームのステート、タスク、割り当て上限をローカルファーストで一元管理するKanban的制御盤]]></description>
-    </item>
-    <item>
-      <title><![CDATA[next.js]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-vercel-next-js.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-vercel-next-js.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[最新のReact機能の拡張と高速なRust製ビルドツールを統合した、フルスタックWeb開発フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tailwindcss]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-tailwindlabs-tailwindcss.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-06-tailwindlabs-tailwindcss.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[HTMLクラス名として適用するユーティリティクラスのみで高速かつカスタムにUIを構築できるCSSフレームワーク]]></description>
     </item>
   </channel>
 </rss>

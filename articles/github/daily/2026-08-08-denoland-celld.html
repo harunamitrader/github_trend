@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="S3互換バケットを用いて自律的に同期・永続化する、セルフホスト可能な分散Durable Objects（SQLiteベースの分離実行セル）"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>celld - denoland/celld</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← トレンド一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher / Daily Trend</p>
+      </div>
+
+      <div class="trend-rank-badge">Rank 9</div>
+      <h1 class="article-title">denoland/celld</h1>
+      <p class="article-dek">S3互換バケットを用いて自律的に同期・永続化する、セルフホスト可能な分散Durable Objects（SQLiteベースの分離実行セル）</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">調査日</span>
+          <strong>2026-08-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">スター数</span>
+          <strong>2,116 stars</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">シリアル番号</span>
+          <strong>#938</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>リポジトリ概要</h2>
+        <p>celldは、Cloudflare WorkersやDurable Objectsを自分のサーバー上で動かし、S3互換オブジェクトストレージをバックエンドとして分散状態を共有する、オープンソースのバックエンドデーモンです。</p>
+
+        <h2>注目のポイント</h2>
+        <ul>
+          <li><strong>セル単位でのデータベース sharding:</strong> Durable Objectごとに独立した SQLite データベースが構築・マウントされます。単一の巨大な共有DBに依存しないため、アクセス競合や単一障害点（blast radius）が設計上排除されています。</li>
+          <li><strong>S3経由でのデータ同期と ownership 制御:</strong> コンセンサスプロトコルや制御プレーンを必要とせず、S3 bucket へのSQLite差分レプリケーションおよび compare-and-swap 操作によってノード間でデータ所有権を排他的に制御・移行します。</li>
+          <li><strong>V8エンジン内蔵と Wrangler 連携:</strong> Wranglerでビルドした Worker 資産をそのまま <code>celld deploy</code> でデプロイし、組み込まれたV8ランタイムによってローカルで高速に動作します。</li>
+        </ul>
+
+        <h2>開発におけるインパクトや使いどころ</h2>
+        <p>Cloudflareのマネージドサービスと同等の分散ステートフル処理（チャットセッションやマルチユーザー共同編集など）を、インフラ利用料を抑えながらS3互換ストレージを用いてオンプレミスや安価なVPSにデプロイして運用できます。</p>
+
+        <h2>まとめ</h2>
+        <p>SQLiteとS3を利用した、コンセンサスなしの分散所有権制御を備えたステートフルWorker用の軽量で強力な分散Durable Objectsランタイムです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/denoland/celld" target="_blank" rel="noreferrer">GitHub - denoland/celld</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
