@@ -7,6 +7,28 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-08-grok-imagine-image-2-0",
+      "title": "Grok Imagine Image 2.0 Creative Suite Update",
+      "dek": "単純なテキストからの画像生成を超え、部分編集、画像合成、インテリジェントリサイズ、テンプレートなどを備えたプロフェッショナルなクリエイティブ編集スイートへの進化",
+      "summary": "xAIは、Grok向けの画像生成エンジンを拡張し、単なる画像出力からプロフェッショナルな画像編集と作成を行える総合キャンバス「Grok Imagine Image 2.0」をリリースしました。部分編集、画像合成、アスペクト制御などのプロフェッショナルなキャンバスツールを統合し、画像作成をインタラクティブかつ実用的に変える大型アップデートです。",
+      "publishedAt": "2026-08-08",
+      "repoName": "xai-org/grok",
+      "repoUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-08-08-grok-imagine-image-2-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-08-openclaw-v2026-6-34-security",
+      "title": "OpenClaw v2026.6.34 Extended-Stable Hardening",
+      "dek": "ブラウザ・ネットワークのアクセス境界制限、セッション・Discord連携の回復力向上、およびコマンド診断での認証情報漏洩防止対策を施したセキュリティ・信頼性向上アップデート",
+      "summary": "OpenClawは、主に実行時セキュリティと通信・状態保存 of 耐久性を高めるための長寿命安定版（Extended-Stable）向けメンテナンスリリース v2026.6.34 を公開しました。ブラウザサンドボックスの強化、Discord等における通信バーストからの回復力改善、および認証情報の不用意な出力を防ぐ対策を含みます。",
+      "publishedAt": "2026-08-08",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw",
+      "articleUrl": "./articles/tools/2026-08-08-openclaw-v2026-6-34-security.html"
+    },
+    {
       "category": "github-report",
       "serial": 116,
       "slug": "2026-08-08-update-report",
