@@ -7,6 +7,34 @@
   },
   "articles": [
     {
+      "category": "github-report",
+      "serial": 117,
+      "slug": "2026-08-09-update-report",
+      "title": "Daily Update Report #117",
+      "dek": "2026年8月9日のGitHub Trendingを元に、litu54/DevOps-Interview-Guideなど新たに1件のリポジトリをWatcherレポートとして追加しました。",
+      "summary": "本日（2026年8月9日）の調査では、2025年・2026年に出題されたDevOps、SRE、Cloud Engineerの実際の面接質問を集約した「DevOps-Interview-Guide」の1リポジトリを新規に追加しました。",
+      "publishedAt": "2026-08-09",
+      "repoName": null,
+      "repoUrl": null,
+      "articleUrl": "./articles/github/reports/2026-08-09-update-report.html",
+      "rank": null,
+      "starCount": null
+    },
+    {
+      "category": "github-trend",
+      "serial": 941,
+      "slug": "2026-08-09-litu54-DevOps-Interview-Guide",
+      "title": "litu54/DevOps-Interview-Guide",
+      "dek": "2025年・2026年のDevOps、SRE、クラウドエンジニア採用面接で実際に出題されたリアルな質問を企業・職種別に集約したインタビュー問題集",
+      "summary": "実際の面接体験談に基づき、KubernetesからTerraform、SREの運用基礎知識までを幅広く整理した、DevOps/SREエンジニア必携の面接対策リソース集です。",
+      "publishedAt": "2026-08-09",
+      "repoName": "litu54/DevOps-Interview-Guide",
+      "repoUrl": "https://github.com/litu54/DevOps-Interview-Guide",
+      "articleUrl": "./articles/github/daily/2026-08-09-litu54-DevOps-Interview-Guide.html",
+      "rank": 9,
+      "starCount": 669
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-08-08-grok-imagine-image-2-0",
       "title": "Grok Imagine Image 2.0 Creative Suite Update",

@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Aug 2026 04:30:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 04:45:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Daily Update Report #117]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-09-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-08-09-update-report.html</guid>
+      <category>github-report</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2026年8月9日のGitHub Trendingを元に、litu54/DevOps-Interview-Guideなど新たに1件のリポジトリをWatcherレポートとして追加しました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[litu54/DevOps-Interview-Guide]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-09-litu54-DevOps-Interview-Guide.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-08-09-litu54-DevOps-Interview-Guide.html</guid>
+      <category>github-trend</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[2025年・2026年のDevOps、SRE、クラウドエンジニア採用面接で実際に出題されたリアルな質問を企業・職種別に集約したインタビュー問題集]]></description>
+    </item>
     <item>
       <title><![CDATA[Grok Imagine Image 2.0 Creative Suite Update]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-08-grok-imagine-image-2-0.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[企業ポリシーに基づくプロンプトの事前検査・監査を可能にする、Enterprise向けインファレンス・フック機能の導入]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok 4.6 Announcement & Voice Model Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-grok-v4-6-announcement.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-grok-v4-6-announcement.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[論理的推論や指示追従能力を強化した1.5兆パラメータモデル「Grok 4.6」の公開予定、およびGrok Voiceモデルの更新]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity Agent API & Gateway Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-perplexity-agent-gateway-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-06-perplexity-agent-gateway-api.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agent APIのGPT-5.6-luna採用・インライン引用の改善、および複数モデルを統合するUnified Gateway APIの提供]]></description>
     </item>
   </channel>
 </rss>
