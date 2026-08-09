@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="使用量警告におけるゲートウェイ限度額サポート、信頼できないディレクトリへのワークスペース信頼プロンプト追加、およびセルフホスト型実行環境（self-hosted-runner）の追加"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.226</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Claude Code / Product Update</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.226</h1>
+      <p class="article-dek">使用量警告におけるゲートウェイ限度額サポート、信頼できないディレクトリへのワークスペース信頼プロンプト追加、およびセルフホスト型実行環境（self-hosted-runner）の追加</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-08-08 -->
+          <strong>2026-08-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.226</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Codeのマイナーバージョン「v2.1.226」がリリースされました。今回のアップデートでは、主にセキュリティ機能の強化、使い勝手の向上、およびセルフホスト型環境への対応などが含まれています。主な変更点は以下の通りです。</p>
+        <ul>
+            <!-- <li><strong>{{FEATURE_NAME}}:</strong> {{FEATURE_DESC}}</li> -->
+            <li><strong>ゲートウェイ限度額のサポート:</strong> 使用量警告において、新しく設定されたゲートウェイの利用限度額（spend-limit）がサポートされ、予算管理が容易になりました。</li>
+            <li><strong>ワークスペース信頼プロンプト:</strong> 信頼できないディレクトリを操作する際、ワークスペースに対する信頼を確認する明示的な確認プロンプトが表示されるようになり、安全性が向上しました。</li>
+            <li><strong>セルフホスト型ランナーの追加:</strong> 新たに <code>claude self-hosted-runner</code> コマンドが導入され、自己ホストされたインフラ上での実行に対応しました。</li>
+            <li><strong>ペースト確認ステップの追加:</strong> クリップボードからのペースト操作において、意図しない実行を防ぐためのキャンセル・確認ステップが追加されました。</li>
+            <li><strong>バグ修正と信頼性向上:</strong> 401トークンエラーやmacOS上でのMCPサーバーの動作問題、ワークツリー分離セッション周りのセキュリティ修正など、多くの不具合が解消されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>利用制限を意識した予算管理や、セルフホスト型環境での実行が可能になり、企業の開発環境やクローズドなネットワークでの利用が容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートでは、利用限度額のサポートやワークスペース信頼機能などの安全対策、およびセルフホスト型ランナーの導入により、実用性とセキュリティの両面が大きく強化されました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

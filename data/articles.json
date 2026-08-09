@@ -7,6 +7,83 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-08-09-cline-v4-1-7-security",
+      "title": "Cline v4.1.7 Security Update",
+      "dek": "外部でコンパイルされたプラグイン・サンドボックスの実行防止パッチ、不具合修正、およびエージェント挙動の調整を施したセキュリティアップデート",
+      "summary": "Cline v4.1.7 がリリースされました。外部から持ち込まれたコンパイル済みプラグインサンドボックスブートストラップの不正実行を防止するセキュリティ対策の適用や、v4.0.x シリーズ移行後の不具合修正、エージェント行動ロジックの調整が実施されました。",
+      "publishedAt": "2026-08-09",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-08-09-cline-v4-1-7-security.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-08-claudecode-v2-1-226",
+      "title": "Claude Code v2.1.226",
+      "dek": "使用量警告におけるゲートウェイ限度額サポート、信頼できないディレクトリへのワークスペース信頼プロンプト追加、およびセルフホスト型実行環境（self-hosted-runner）の追加",
+      "summary": "Anthropicは、Claude Codeのマイナーバージョン v2.1.226 をリリースしました。ゲートウェイの利用限度額（spend-limit）の警告サポート、信頼できないディレクトリに対するワークスペース信頼プロンプト、セルフホスト型ランナー（claude self-hosted-runner）の追加、および多数 of バグ修正やセキュリティの向上が含まれています。",
+      "publishedAt": "2026-08-08",
+      "repoName": "anthropic/claude-code",
+      "repoUrl": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "articleUrl": "./articles/tools/2026-08-08-claudecode-v2-1-226.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-windsurf-automation-queueing",
+      "title": "Devin Desktop (Windsurf) Automations API v3",
+      "dek": "オートメーションのキューイングサポート、Automations API v3の正式公開、GitLabサポートの追加、および自社ホスト型Devin Outpostsの導入",
+      "summary": "Devin Desktop（旧Windsurf）のアップデートが公開され、オートメーションタスクを順番に処理するキューイング機能、Automations API v3の正式公開、GitLab統合、および自前のインフラで動作するDevin Outpostsの導入などが実施されました。",
+      "publishedAt": "2026-08-07",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://windsurf.com/changelog",
+      "articleUrl": "./articles/tools/2026-08-07-windsurf-automation-queueing.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-antigravity-v2-6-0",
+      "title": "Google Antigravity v2.6.0",
+      "dek": "長時間の連続した会話における処理性能の最適化、サブエージェント稼働の安定性向上、および管理者ポリシーの細分化",
+      "summary": "Google Antigravity v2.6.0 がリリースされました。大規模プロジェクトでの長時間セッションにおける応答・メモリ性能の最適化や、サブエージェント間のデータ競合の防止、管理者側でのポリシー定義の細分化などがサポートされています。",
+      "publishedAt": "2026-08-07",
+      "repoName": "google-gemini/antigravity",
+      "repoUrl": "https://antigravity.google/changelog",
+      "articleUrl": "./articles/tools/2026-08-07-antigravity-v2-6-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-codex-v0-147-0-migration",
+      "title": "OpenAI Codex CLI v0.147.0",
+      "dek": "CLIのバージョンバンプ、GPT-5.4世代からGPT-5.6世代へのモデル移行スケジュールの発表、および安定性の改善",
+      "summary": "OpenAI Codex CLI v0.147.0 リリースが公開されました。合わせて、旧GPT-5.4系モデルが2026年8月31日をもってCodexセッションから削除され、後継のGPT-5.6系モデルに完全移行する計画がアナウンスされました。",
+      "publishedAt": "2026-08-07",
+      "repoName": "openai/codex",
+      "repoUrl": "https://developers.openai.com/codex/changelog",
+      "articleUrl": "./articles/tools/2026-08-07-codex-v0-147-0-migration.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-03-cursor-workspace-plugins",
+      "title": "Cursor Google Workspace Plugins Update",
+      "dek": "Gmail、Google Drive、Google CalendarなどのGoogle Workspaceの情報をコードエディタから直接参照・操作できる新機能の追加",
+      "summary": "CursorにGmailやGoogle Drive、Google Calendar等のデータをAIエージェントに統合し、読み書きやスケジュール調整、メールの下書きなどをエディタ内から自律的に実行させる新しい統合プラグイン機能が導入されました。",
+      "publishedAt": "2026-08-03",
+      "repoName": "anysphere/cursor",
+      "repoUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-08-03-cursor-workspace-plugins.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-03-github-copilot-btw-dictation",
+      "title": "GitHub Copilot /btw Command & Local Dictation",
+      "dek": "サイドチャット用の/btwコマンド、多言語対応のローカル音声入力、隔離ワークスペース用の実験的/worktreeコマンド、およびモデル廃止スケジュールの発表",
+      "summary": "GitHub Copilotのアップデートが公開されました。作業コンテキストを汚さないサイドチャット用 /btw コマンド、オンデバイスでの高速音声入力、隔離された Git Worktree 内で動作させる実験的 /worktree コマンドの追加、および9月の旧モデル廃止スケジュールがアナウンスされました。",
+      "publishedAt": "2026-08-03",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-08-03-github-copilot-btw-dictation.html"
+    },
+    {
       "category": "github-report",
       "serial": 117,
       "slug": "2026-08-09-update-report",

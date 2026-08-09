@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CLIのバージョンバンプ、GPT-5.4世代からGPT-5.6世代へのモデル移行スケジュールの発表、および安定性の改善"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenAI Codex CLI v0.147.0</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Codex / Product Update</p>
+      </div>
+
+      <h1 class="article-title">OpenAI Codex CLI v0.147.0</h1>
+      <p class="article-dek">CLIのバージョンバンプ、GPT-5.4世代からGPT-5.6世代へのモデル移行スケジュールの発表、および安定性の改善</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-08-07 -->
+          <strong>2026-08-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.147.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Codex</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenAI CodexのCLIツール「v0.147.0」がリリースされました。また、古いGPT-5.4系モデルから最新のGPT-5.6系モデルへの移行に向けたシャットダウンプランが発表されています。主な変更点は以下の通りです。</p>
+        <ul>
+            <li><strong>CLI v0.147.0のリリース:</strong> 依存関係のバンプや、特定の対話セッション起動時の初期化の高速化を含むメンテナンス更新が実施されました。</li>
+            <li><strong>GPT-5.4モデルの廃止告知:</strong> Codexセッションでも使用されていたGPT-5.4系モデルが2026年8月31日をもって廃止され、今後はGPT-5.6系（Sol / Luna等）に置き換わることが発表されました。</li>
+            <li><strong>セッション安定性の改善:</strong> 特に対話が長く続いた際の、CLIとモデル間の接続保持に関する挙動が最適化されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>8月末のGPT-5.4系廃止に伴い、Codex APIやCLIを利用して自動実行しているスクリプトのデフォルトモデル設定をGPT-5.6系に更新することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>接続の安定化などを図るCLIのメンテナンスと、8月末に予定されているGPT-5.4系モデル廃止に向けた準備を求める移行期のアナウンスメントです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://developers.openai.com/codex/changelog" target="_blank" rel="noreferrer">Codex Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
