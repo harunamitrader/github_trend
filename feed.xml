@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Aug 2026 19:05:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 04:17:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Cline v4.1.7 Security Update]]></title>
@@ -96,6 +96,22 @@
       <description><![CDATA[不正調査、CTI分析、KYC、AMLなどのために収集された、包括的なOSINT（オープンソース・インテリジェンス）用ツール＆リソースのキュレーションリスト]]></description>
     </item>
     <item>
+      <title><![CDATA[ChatGPT Voice File Uploads & Projects Update]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-chatgpt-voice-projects.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-chatgpt-voice-projects.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ChatGPT Voiceにおける直接のファイルアップロード・解析対応、およびProjects機能での音声連携のサポート]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian v1.13.6 Catalyst Release]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-obsidian-v1-13-6.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-obsidian-v1-13-6.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[設定UIの改善、URI確認ダイアログの非推奨化、iOSおよびLive Previewにおける複数の不具合修正を含んだ Catalyst アップデート]]></description>
+    </item>
+    <item>
       <title><![CDATA[Devin Desktop (Windsurf) Automations API v3]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-windsurf-automation-queueing.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-windsurf-automation-queueing.html</guid>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[MCP OAuth認可のサポート、エラー表示の局所化、実行エラー時の原因明示などのUX向上とVertex AI等のADC接続改善]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI 2026-08-07 Update]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-grokcli-git-spamblocking.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-grokcli-git-spamblocking.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[クライアントからのGit Status/Diffポーリングスパム防止、エクスポートへの自己改善メモリのバンドル、およびディスク使用量コマンドの追加]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.54.4 (CVE-2026-12537 Patch)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-gemini-cli-v0-54-4-cve.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-08-07-gemini-cli-v0-54-4-cve.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[権限のないGitHub IssueトリガーからCIランナー上で任意のコード実行を引き起こすOSコマンドインジェクション脆弱性（CVE-2026-12537）の修正パッチリリース]]></description>
     </item>
   </channel>
 </rss>

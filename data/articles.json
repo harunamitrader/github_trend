@@ -30,6 +30,28 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-08-07-chatgpt-voice-projects",
+      "title": "ChatGPT Voice File Uploads & Projects Update",
+      "dek": "ChatGPT Voiceにおける直接のファイルアップロード・解析対応、およびProjects機能での音声連携のサポート",
+      "summary": "ChatGPTの音声会話モード（ChatGPT Voice）において、直接ドキュメント等のファイルをアップロードして解析させることができるようになり、Projects内でも過去の対話や共通ルールを参照しながらの音声操作が可能になりました。",
+      "publishedAt": "2026-08-07",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://help.openai.com/en/collections/3742473-chatgpt-release-notes",
+      "articleUrl": "./articles/tools/2026-08-07-chatgpt-voice-projects.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-08-07-obsidian-v1-13-6",
+      "title": "Obsidian v1.13.6 Catalyst Release",
+      "dek": "設定UIの改善、URI確認ダイアログの非推奨化、iOSおよびLive Previewにおける複数の不具合修正を含んだ Catalyst アップデート",
+      "summary": "Obsidianの Catalyst チャンネル向けに v1.13.6 が公開されました。設定画面スライダーのアクセントカラー対応、URIアクション時の確認ダイアログ廃止のほか、Live Previewにおける画像やテーブル編集時のメモリリーク等の不具合が修正されています。",
+      "publishedAt": "2026-08-07",
+      "repoName": "obsidianmd/obsidian",
+      "repoUrl": "https://obsidian.md/changelog",
+      "articleUrl": "./articles/tools/2026-08-07-obsidian-v1-13-6.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-08-07-windsurf-automation-queueing",
       "title": "Devin Desktop (Windsurf) Automations API v3",
       "dek": "オートメーションのキューイングサポート、Automations API v3の正式公開、GitLabサポートの追加、および自社ホスト型Devin Outpostsの導入",
