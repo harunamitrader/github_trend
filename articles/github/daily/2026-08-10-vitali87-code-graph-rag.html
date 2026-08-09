@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tree-sitterによるAST解析とMemgraphの知識グラフを用いてモノレポを構造的に理解・クエリできるAI開発用RAGシステム"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>code-graph-rag</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600..800&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">code-graph-rag</h1>
+      <p class="article-dek">Tree-sitterによるAST解析とMemgraphの知識グラフを用いてモノレポを構造的に理解・クエリできるAI開発用RAGシステム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-08-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending 2位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/vitali87/code-graph-rag" target="_blank" rel="noreferrer">
+              vitali87/code-graph-rag
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>2,892</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>code-graph-ragは、Tree-sitterによる抽象構文木（AST）解析と、インメモリのグラフデータベース「Memgraph」の知識グラフを組み合わせ、巨大なモノレポコードベースをAIエージェントが正確に理解・操作できるようにするオープンソースのRAGシステムです。</p>
+
+        <h2>何ができるか</h2>
+        <p>従来のベクトル検索による「曖昧な類似度検索」では捉えきれない、コード間の構造的な関係性（関数の呼び出し関係、クラスの継承、モジュールのインポートなど）をグラフ構造で追跡できます。さらに、Model Context Protocol（MCP）サーバーとして動作し、Claude CodeやChatGPTなどのAIアシスタントに自然言語で「この関数の呼び出し箇所を全て見せて」といったグラフクエリを安全かつ正確に実行させることが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>多言語対応（Python、TS/JS、Rust、Go、C/C++など11言語を統合して単一スキーマで管理可能）と、大規模なマルチ言語モノレポに対応している点です。また、LLMを使用して自然言語からCypher（グラフクエリ言語）を動的に生成し、構造的なデータ検索と更新を実行します。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>MemgraphのDockerコンテナを立ち上げ、リポジトリをインデックス化します。その後、Claude DesktopやMCPクライアントに対応する設定を追加して起動し、AIエージェントに「code-graph-rag ツールを使ってコードベースをクエリして」と指示して会話を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIコーディングアシスタントのコンテキスト制限に悩んでいる開発者、大規模なモノレポを管理するチーム、またはAIエージェントに正確なコードリファクタリングを自律実行させたいエンジニア向け。</p>
+
+        <h2>注意点</h2>
+        <p>動作にはMemgraph（グラフデータベース）サーバーの常時起動が必要であり、初回インデックス作成時のパース処理にはある程度の時間とリソースを要します。また、言語ごとにASTの抽出精度に若干のばらつきが生じる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>曖昧なテキスト検索の限界を突破し、構造的なコード理解をAIに与えることで、開発エージェントの自律的なリファクタやナビゲーションを強力に支援する画期的なRAGエンジンです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/vitali87/code-graph-rag" target="_blank" rel="noreferrer">https://github.com/vitali87/code-graph-rag</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #946</p>
+      </div>
+    </article>
+  </body>
+</html>
