@@ -1,9 +1,10 @@
 import {clamp,blockShape,sweepBlock,sweepPoint,sweepSegment,reflect,length,rotatePoint} from './geometry.js';
 import {BLOCK_LAYOUTS} from './block-layouts.js';
+import {OKINAWA_LAYOUT} from './okinawa-layout.js';
 export const WIDTH=400,HEIGHT=600,BALL_RADIUS=5.2,BARRIER_Y=596;
 const HORIZONTAL_STALL_SECONDS=3,HORIZONTAL_RATIO=.08,RECOVERY_RATIO=.2;
 export function makeStage(geo,id){
- const pref=geo.get(id),shape=geo.stageShape(id),layout=BLOCK_LAYOUTS[id];
+ const pref=geo.get(id),shape=geo.stageShape(id),layout=id===47?OKINAWA_LAYOUT:BLOCK_LAYOUTS[id];
  if(!layout)throw new Error('ブロックの地形データがありません。');
  const blocks=layout.blocks.map((b,i)=>blockShape(b.rings,{...b,id:i,kind:'normal',hp:1,maxHp:1}));
  // Exactly one of each item. Prefer broad, lower blocks so their symbols are legible.
@@ -124,8 +125,9 @@ export class Game{
   this.status='ready';this.resetBall();this.emit('ready');
  }
  recall(){if(!['playing','ready'].includes(this.status))return;this.balls=[];this.loseBall();}
- snapshot(){return {format:5,id:this.id,paddleIds:this.paddleIds,angle:this.angle,easy:this.easy,finale:this.finale,paddleX:this.paddleX,time:this.time,lives:this.lives,misses:this.misses,broken:this.broken,bestCombo:this.bestCombo,combo:this.combo,coreHP:this.core.hp,blocks:this.blocks.map(b=>b.hp),balls:this.balls.map(b=>({...b})),barrierActive:this.barrierActive,status:this.status};}
+ snapshot(){return {format:5,...(this.id===47&&!this.finale?{tutorialLayout:2}:{}),id:this.id,paddleIds:this.paddleIds,angle:this.angle,easy:this.easy,finale:this.finale,paddleX:this.paddleX,time:this.time,lives:this.lives,misses:this.misses,broken:this.broken,bestCombo:this.bestCombo,combo:this.combo,coreHP:this.core.hp,blocks:this.blocks.map(b=>b.hp),balls:this.balls.map(b=>({...b})),barrierActive:this.barrierActive,status:this.status};}
  restore(s){
+  if(this.id===47&&!this.finale&&s.tutorialLayout!==2)throw new Error('沖縄のブロック配置が更新されました。ステージを最初から始めてください。');
   const finite=(v,a,b)=>Number.isFinite(v)&&v>=a&&v<=b;
   if(s.format!==5||s.id!==this.id||!Array.isArray(s.blocks)||s.blocks.length!==this.blocks.length||(!Number.isInteger(s.coreHP)||!finite(s.coreHP,0,this.stage.core.hp))||!finite(s.time,0,1e7)||!finite(s.lives,0,3))throw new Error('中断データを読み込めませんでした。');
   if(!Array.isArray(s.balls)||s.balls.length>(this.finale?1:2)||s.balls.some(b=>!finite(b.x,-100,500)||!finite(b.y,-100,720)||!finite(b.vx,-1500,1500)||!finite(b.vy,-1500,1500)))throw new Error('球の中断データが不正です。');

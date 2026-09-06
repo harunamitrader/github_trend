@@ -28,6 +28,7 @@ export function validateSave(s){
  d.seenChapters=Array.isArray(s.seenChapters)?s.seenChapters.filter(v=>Number.isInteger(v)&&v>=0&&v<=8):[];
  d.finaleSeen=!!s.finaleSeen;
  if(s.current&&typeof s.current==='object'&&Number.isInteger(s.current.id)&&s.current.id>=1&&s.current.id<=47&&s.version===5&&s.current.format===5)d.current=s.current;
+ if(d.current?.id===47&&!d.current.finale&&d.current.tutorialLayout!==2)d.current=null;
  return d;
 }
 export function recordClear(save,id,result){

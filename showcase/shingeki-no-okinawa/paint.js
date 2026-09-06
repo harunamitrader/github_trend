@@ -46,7 +46,7 @@ export class Painter{
   ctx.fillStyle='#ecf9ff';ctx.fillRect(0,0,WIDTH,HEIGHT);ctx.fillStyle='#c1e4f3';
   for(let x=20;x<WIDTH;x+=30)for(let y=49;y<HEIGHT-15;y+=30){ctx.beginPath();ctx.arc(x,y,1,0,Math.PI*2);ctx.fill();}
   ctx.strokeStyle='#6faece';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(5,36);ctx.lineTo(5,570);ctx.moveTo(395,36);ctx.lineTo(395,570);ctx.stroke();
-  ctx.font='12px system-ui';ctx.fillStyle='#487580';ctx.textAlign='left';ctx.fillText(g.practice?'おためし中':g.finale?'巨大な沖縄県で、ひと遊び':g.core.hp===2?'① シールド → ② 赤い核':g.core.hp===1?'あと1回！ 赤い核をねらおう':'クリア！',16,23);
+  ctx.font='12px system-ui';ctx.fillStyle='#487580';ctx.textAlign='left';ctx.fillText(g.practice?'おためし中':g.finale?'巨大な沖縄県で、ひと遊び':g.core.hp===2?'① シールド → ② 赤い核':g.core.hp===1?(g.id===47?'赤い核に1回当てよう！':'あと1回！ 赤い核をねらおう'):'クリア！',16,23);
   ctx.textAlign='right';ctx.fillText(g.finale?`${Math.max(0,Math.ceil(60-g.time))} 秒`:`${Math.floor(g.time/60)}:${String(Math.floor(g.time%60)).padStart(2,'0')}`,WIDTH-16,23);
   if(!g.finale){ctx.fillStyle='#d5eff1';ctx.strokeStyle='#8bc6cd';ctx.lineWidth=1.1;for(const poly of g.stage.polygons){pathRings(ctx,poly);ctx.fill('evenodd');ctx.stroke();}}
   for(const b of g.blocks){
